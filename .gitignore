@@ -56,12 +56,3 @@ Thumbs.db
 downloads/
 build/
 *.log
-
-# Cursor/IDE specific
-.cursor/
-master_context.yaml
-*.yaml.bak
-
-# Temporary files
-*.txt
-New Text Document.txt
