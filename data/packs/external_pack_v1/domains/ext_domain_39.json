@@ -1,0 +1,23 @@
+{
+  "id": "ext_domain_39",
+  "name": "External Domain 39",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by RFC Protocols 2025",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c": "BIOLOGICAL",
+  "T1": "T1_LOCAL_ONLY",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "RFC Protocols 2025"
+  ],
+  "expression_primitives": [
+    "EXPLORATION"
+  ],
+  "_expression_primitives_pass_B": [
+    "EXPLORATION"
+  ]
+}

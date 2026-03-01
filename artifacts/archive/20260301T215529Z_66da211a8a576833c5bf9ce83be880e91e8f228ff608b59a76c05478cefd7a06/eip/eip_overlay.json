@@ -1,0 +1,5918 @@
+{
+  "artifact_hash": "7cbd561a00ccfc6d6b9c85ae785d6b703d5773965978860022998f56376115fe",
+  "bootstrap_seed": 42,
+  "data": {
+    "detail": [
+      {
+        "domain_id": "action_potential_hodgkin_huxley",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "adaptive_immunity",
+        "eip_basis": "REACHABLE_SET_COLLAPSE",
+        "eip_class": "HYSTERETIC",
+        "eip_confidence": "LOW",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "categorical_witness"
+        ]
+      },
+      {
+        "domain_id": "aharonov_bohm_flux",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "algorithmic_high_frequency_market",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "analog_neuromorphic_chip",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "anyon_braiding",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "auction_winners_curse",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "automated_reasoning_resolution",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "bank_run_contagion",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "berry_phase_accumulation",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "bgp_routing_convergence",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "bio_electronic_pacemaker",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "bitcoin_difficulty_retargeting",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "black_hole_thermodynamics",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "bond_percolation",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "boolean_network_attractor",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "bose_einstein_condensate",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "brusselator_chemical_reaction",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "byzantine_fault_tolerant_consensus",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "category_theoretic_functorial_equivalence",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "cellular_automata_rule_30",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "chemotactic_aggregation_collapse",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "chern_insulator",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "climate_model_grid_discretization",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "colloidal_gelation",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "constitutional_crisis",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "constitutional_law",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "crispr_adaptive_immunity_memory",
+        "eip_basis": "REACHABLE_SET_COLLAPSE",
+        "eip_class": "HYSTERETIC",
+        "eip_confidence": "LOW",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "categorical_witness"
+        ]
+      },
+      {
+        "domain_id": "cryptographic_analog_key_exchange",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "cryptographic_hash_collision",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "dielectric_breakdown_path",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "digital_twin_powerplant",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "elastic_snap_through_buckling",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "epidemic_network_continuous_time",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "epidemiological_sir_with_seasonal_forcing",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "ferromagnetic_curie_critical",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "financial_contagion_cascade",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "fluid_blow_up_finite_time",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "forest_fire_criticality",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "fractional_quantum_hall",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "game_of_life_conway",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "genetic_drift_fixation",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "gerrymandering_packing",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "gibbs_sampling_mix",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "glass_transition",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "golay_code_error_correction",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "gradient_descent_saddle_escape",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "granular_jamming",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "graph_coloring_chromatic_bound",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "gravitational_collapse_singularity",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "hashmap_collision_clustering",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "heat_equation_diffusion",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "homological_algebra",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "homotopy_type_theory_verification",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "hox_gene_collinearity",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "ising_model_1d",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "ising_model_2d_critical",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "kardar_parisi_zhang_growth",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "knot_invariants",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "kosterlitz_thouless_transition",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "kuramoto_phase_sync",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "lac_operon_switching",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "lambda_calculus_beta_reduction",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "langevin_mcmc_sampling",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "language_creolization",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "language_grammar",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "ldpc_decoding",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "lotka_volterra",
+        "eip_basis": "EXTERNAL_LOCK",
+        "eip_class": "HYSTERETIC",
+        "eip_confidence": "HIGH",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "failure_mode",
+          "stability_condition"
+        ]
+      },
+      {
+        "domain_id": "mhd_reconnection",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "microbiome_dysbiosis",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "moran_process_evolutionary_game",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "n_body_orbital_resonance",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "nakamoto_consensus",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "navier_stokes_laminar",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "navier_stokes_turbulence",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "non_linear_optical_self_focusing",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "opinion_dynamics_polarization",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "option_pricing_black_scholes",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "pagerank_eigenvalue",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "paxos_consensus",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "pendulum_exact_resonant",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_0",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_1",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_10",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_11",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_12",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_13",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_14",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_15",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_16",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_17",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_18",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_19",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_2",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_20",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_21",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_22",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_23",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_24",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_25",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_26",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_27",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_28",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_29",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_3",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_30",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_31",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_32",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_33",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_34",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_35",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_36",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_37",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_38",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_39",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_4",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_40",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_41",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_42",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_43",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_44",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_45",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_46",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_47",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_48",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_49",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_5",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_50",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_51",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_52",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_53",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_54",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_55",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_56",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_57",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_58",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_adv_domain_59",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_6",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_60",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_61",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_62",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_63",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_7",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_8",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_adv_domain_9",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseB_ff_domain_0",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_1",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_10",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_11",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_12",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_13",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_14",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_15",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_16",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_17",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_18",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_19",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_2",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_20",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_21",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_22",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_23",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_24",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_25",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_26",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_27",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_28",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_29",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_3",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_30",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_31",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_32",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_33",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_34",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_35",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_36",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_37",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_38",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_39",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_4",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_5",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_6",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_7",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_8",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseB_ff_domain_9",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_0",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_1",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_10",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_100",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_101",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_102",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_103",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_104",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_105",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_106",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_107",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_108",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_109",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_11",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_110",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_111",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_112",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_113",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_114",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_115",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_116",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_117",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_118",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_119",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_12",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_120",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_121",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_122",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_123",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_124",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_125",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_126",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_127",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_128",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_129",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_13",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_130",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_131",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_132",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_133",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_134",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_135",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_136",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_137",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_138",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_139",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_14",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_140",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_141",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_142",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_143",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_144",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_145",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_146",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_147",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_148",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_149",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_15",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_150",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_151",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_152",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_153",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_154",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_155",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_156",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_157",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_158",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_159",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_16",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_160",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_161",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_162",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_163",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_164",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_165",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_166",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_167",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_168",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_169",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_17",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_170",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_171",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_172",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_173",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_174",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_175",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_176",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_177",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_178",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_179",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_18",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_180",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_181",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_182",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_183",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_184",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_185",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_186",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_187",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_188",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_189",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_19",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_190",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_191",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_192",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_193",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_194",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_195",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_196",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_197",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_198",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_199",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_2",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_20",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_200",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_201",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_202",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_203",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_204",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_205",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_206",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_207",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_208",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_209",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_21",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_210",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_211",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_212",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_213",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_214",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_215",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_216",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_217",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_218",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_219",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_22",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_220",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_221",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_222",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_223",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_224",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_225",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_226",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_227",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_228",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_229",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_23",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_230",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_231",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_232",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_233",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_234",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_235",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_236",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_237",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_238",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_239",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_24",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_240",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_241",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_242",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_243",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_244",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_245",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_246",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_247",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_248",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_249",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_25",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_250",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_251",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_252",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_253",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_254",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_255",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_26",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_27",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_28",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_29",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_3",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_30",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_31",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_32",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_33",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_34",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_35",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_36",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_37",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_38",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_39",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_4",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_40",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_41",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_42",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_43",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_44",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_45",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_46",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_47",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_48",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_49",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_5",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_50",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_51",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_52",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_53",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_54",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_55",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_56",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_57",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_58",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_59",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_6",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_60",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_61",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_62",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_63",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_64",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_65",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_66",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_67",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_68",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_69",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_7",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_70",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_71",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_72",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_73",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_74",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_75",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_76",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_77",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_78",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_79",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_8",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_80",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_81",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_82",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_83",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_84",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_85",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_86",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_87",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_88",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_89",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_9",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_90",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_91",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_92",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "phaseC_domain_93",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_94",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_95",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_96",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_97",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_98",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phaseC_domain_99",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "phytoplankton_blooms",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "plasma_pinch_instability",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "polymer_melt_entanglement",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "proof_assistant_typing",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "protein_allostery",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "protein_folding",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "quantum_classical_quantum_dot",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "quantum_error_correction",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "quantum_hall_edge_states",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "random_walk_return",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "rayleigh_benard_convection",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "reaction_diffusion_turing_patterns",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "regex_grammar_parsing",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "reinforcement_learning_policy_convergence",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "sandpile_avalanches",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "satisfiability_3_sat_phase",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "schrodinger_wavepacket",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "sir_network_percolation",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "skyrmion_lattice_stability",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "social_network_echo_chambers",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "somite_segmentation_clock",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "spin_glass_continuous_coupling",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "spin_glass_ising_disorder",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "stabilizer_code_passive",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "stem_cell_pluripotency_landscape",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "stochastic_hybrid_automata",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "string_net_condensation",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "sudoku_logic_constraint",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "superconducting_critical_current",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "superfluid_vortex_shedding",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "supermajority_amendment",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "supply_chain",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "supply_chain_bullwhip",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_0",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_1",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_10",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_100",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_101",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_102",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_103",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_104",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_105",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_106",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_107",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_108",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_109",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_11",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_110",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_111",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_112",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_113",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_114",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_115",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_116",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_117",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_118",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_119",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_12",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_120",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_121",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_122",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_123",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_124",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_125",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_126",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_127",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_13",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_14",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_15",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_16",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_17",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_18",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_19",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_2",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_20",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_21",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_22",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_23",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_24",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_25",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_26",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_27",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_28",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_29",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_3",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_30",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_31",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_32",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_33",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_34",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_35",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_36",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_37",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_38",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_39",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_4",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_40",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_41",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_42",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_43",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_44",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_45",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_46",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_47",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_48",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_49",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_5",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_50",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_51",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_52",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_53",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_54",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_55",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_56",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_57",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_58",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_59",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_6",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_60",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_61",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_62",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_63",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_64",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_65",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_66",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_67",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_68",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_69",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_7",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_70",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_71",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_72",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_73",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_74",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_75",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_76",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_77",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_78",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_79",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_8",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_80",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_81",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_82",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_83",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_84",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_85",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_86",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_87",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_88",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_89",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_9",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_90",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_91",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_92",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_93",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_94",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_95",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "SCHEMA_INSUFFICIENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_96",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_97",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "synthetic_domain_98",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "synthetic_domain_99",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "t_cell_repertoire_shaping",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "tcp_congestion_control",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "tokamak_plasma",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "topological_defect_annihilation",
+        "eip_basis": "REACHABLE_SET_COLLAPSE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "LOW",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "categorical_witness"
+        ]
+      },
+      {
+        "domain_id": "traffic_bottleneck_phantom_jams",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "traffic_shockwaves",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "tragedy_of_the_commons",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "turing_machine_halting",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "type_inference_unification",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      },
+      {
+        "domain_id": "van_der_pol_oscillator",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "voter_model_consensus",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "witten_type_topological_field",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "yield_stress_avalanche",
+        "eip_basis": null,
+        "eip_class": null,
+        "eip_confidence": "LOW",
+        "eip_obstruction": "WITNESS_ABSENT",
+        "eip_status": "UNDEFINED",
+        "provenance": []
+      },
+      {
+        "domain_id": "zika_viral_tropism",
+        "eip_basis": "OPERATOR_CLASS_CHANGE",
+        "eip_class": "IRREVERSIBLE",
+        "eip_confidence": "MEDIUM",
+        "eip_obstruction": null,
+        "eip_status": "DEFINED",
+        "provenance": [
+          "boundary_type_primary",
+          "persistence_ontology"
+        ]
+      }
+    ],
+    "summary": {
+      "defined": 119,
+      "hysteretic": 3,
+      "irreversible": 116,
+      "reversible": 0,
+      "total": 616,
+      "undefined": 497
+    }
+  },
+  "dataset_hash": "3037aa8f7f03237d3483cb7e200573ce3ff2a834ffc7e061a7f1bae677eb0be4",
+  "generated_by": "helix.py run",
+  "git_commit": "3f73d30462cfa155ccf9cdff2bf82869ba220854",
+  "schema_version": "1.0.0"
+}

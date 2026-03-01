@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_235",
+  "name": "External Domain 235",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by arXiv:cond-mat/ 2001",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c": "COMPUTATIONAL",
+  "T1": "T1_LOCAL_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "arXiv:cond-mat/ 2001"
+  ],
+  "expression_primitives": [
+    "BRANCHING",
+    "ROUTING"
+  ],
+  "_expression_primitives_pass_B": [
+    "BRANCHING",
+    "ROUTING"
+  ]
+}

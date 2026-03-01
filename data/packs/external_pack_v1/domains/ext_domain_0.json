@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_0",
+  "name": "External Domain 0",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Nature Ecology & Evolution 2007",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "PHYSICAL",
+  "T1": "T1_LOCAL_ONLY",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Nature Ecology & Evolution 2007"
+  ],
+  "expression_primitives": [
+    "BRANCHING",
+    "ROUTING"
+  ],
+  "_expression_primitives_pass_B": [
+    "ROUTING",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

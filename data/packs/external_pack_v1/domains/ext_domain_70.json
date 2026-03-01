@@ -1,0 +1,23 @@
+{
+  "id": "ext_domain_70",
+  "name": "External Domain 70",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Nature Ecology & Evolution 2015",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c": "BIOLOGICAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "Nature Ecology & Evolution 2015"
+  ],
+  "expression_primitives": [
+    "EXPLORATION"
+  ],
+  "_expression_primitives_pass_B": [
+    "EXPLORATION"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ext_domain_153",
+  "name": "External Domain 153",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Economic Market Microstructure Survey 2004",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "PHYSICAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Economic Market Microstructure Survey 2004"
+  ],
+  "expression_primitives": [
+    "EXPLORATION"
+  ],
+  "_expression_primitives_pass_B": [
+    "EXPLORATION"
+  ]
+}

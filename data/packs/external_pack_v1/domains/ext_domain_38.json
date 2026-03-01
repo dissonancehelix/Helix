@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_38",
+  "name": "External Domain 38",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Nature Ecology & Evolution 2005",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c": "SOCIAL",
+  "T1": "T1_LOCAL_ONLY",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Nature Ecology & Evolution 2005"
+  ],
+  "expression_primitives": [
+    "LOCAL_REDUNDANCY",
+    "GLOBAL_REDUNDANCY"
+  ],
+  "_expression_primitives_pass_B": [
+    "LOCAL_REDUNDANCY",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

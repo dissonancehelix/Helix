@@ -1,0 +1,23 @@
+{
+  "id": "ext_domain_206",
+  "name": "External Domain 206",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by RFC Protocols 2011",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c": "BIOLOGICAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "RFC Protocols 2011"
+  ],
+  "expression_primitives": [
+    "EXPLORATION"
+  ],
+  "_expression_primitives_pass_B": [
+    "BRANCHING"
+  ]
+}

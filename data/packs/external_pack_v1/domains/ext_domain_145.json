@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_145",
+  "name": "External Domain 145",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Nature Ecology & Evolution 2025",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "BIOLOGICAL",
+  "T1": "T1_LOCAL_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "Nature Ecology & Evolution 2025"
+  ],
+  "expression_primitives": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ],
+  "_expression_primitives_pass_B": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ]
+}

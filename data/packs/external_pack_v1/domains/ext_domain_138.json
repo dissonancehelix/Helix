@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_138",
+  "name": "External Domain 138",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by RFC Protocols 2002",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c": "SOCIAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "RFC Protocols 2002"
+  ],
+  "expression_primitives": [
+    "SLACK",
+    "BUFFERING"
+  ],
+  "_expression_primitives_pass_B": [
+    "BRANCHING",
+    "ROUTING"
+  ]
+}

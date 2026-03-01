@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_146",
+  "name": "External Domain 146",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Economic Market Microstructure Survey 2012",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "BIOLOGICAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "Economic Market Microstructure Survey 2012"
+  ],
+  "expression_primitives": [
+    "BRANCHING",
+    "ROUTING"
+  ],
+  "_expression_primitives_pass_B": [
+    "BRANCHING",
+    "ROUTING"
+  ]
+}

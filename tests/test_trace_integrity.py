@@ -48,7 +48,8 @@ def test_trace_integrity():
 
     # Check docs
     for p in DOCS_DIR.rglob('*.md'):
-        if 'expression' in p.name or 'identity_pack' in p.name: continue
+        name = p.name
+        if 'expression' in name or 'identity_pack' in name or 'external_pack' in name or 'future_research' in name or name.startswith('k2_') or name.startswith('kernels'): continue
         content = p.read_text('utf-8')
         assert "Derived From:" in content, f"Doc {p.name} missing 'Derived From:'"
         

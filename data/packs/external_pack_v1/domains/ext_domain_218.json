@@ -1,0 +1,23 @@
+{
+  "id": "ext_domain_218",
+  "name": "External Domain 218",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Nature Ecology & Evolution 2009",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c": "SOCIAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "Nature Ecology & Evolution 2009"
+  ],
+  "expression_primitives": [
+    "EXPLORATION"
+  ],
+  "_expression_primitives_pass_B": [
+    "EXPLORATION"
+  ]
+}

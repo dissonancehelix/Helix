@@ -1,0 +1,23 @@
+{
+  "id": "ext_domain_74",
+  "name": "External Domain 74",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Nature Ecology & Evolution 2003",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c": "PHYSICAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Nature Ecology & Evolution 2003"
+  ],
+  "expression_primitives": [
+    "EXPLORATION"
+  ],
+  "_expression_primitives_pass_B": [
+    "EXPLORATION"
+  ]
+}

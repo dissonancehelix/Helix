@@ -1,0 +1,23 @@
+{
+  "id": "ext_domain_179",
+  "name": "External Domain 179",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Systems Biology (Textbook Citation) 2013",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "SOCIAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Systems Biology (Textbook Citation) 2013"
+  ],
+  "expression_primitives": [
+    "EXPLORATION"
+  ],
+  "_expression_primitives_pass_B": [
+    "EXPLORATION"
+  ]
+}

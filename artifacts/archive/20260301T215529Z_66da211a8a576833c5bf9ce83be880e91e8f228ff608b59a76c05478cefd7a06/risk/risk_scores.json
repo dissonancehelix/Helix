@@ -1,0 +1,454 @@
+{
+  "artifact_hash": "877e0e1903625e051208d2b52e9f20e5696f23b5f06e086ae9e90cb27619d8ad",
+  "bootstrap_seed": 42,
+  "data": [
+    {
+      "domain": "phaseB_adv_domain_12",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_2",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_25",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_30",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_31",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_37",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_48",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_50",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_58",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_61",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_102",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_110",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_132",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_144",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_167",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_173",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_175",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_188",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_238",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_251",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_58",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseC_domain_92",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "synthetic_domain_107",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "synthetic_domain_113",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "synthetic_domain_17",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "synthetic_domain_23",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "synthetic_domain_47",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "synthetic_domain_53",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "synthetic_domain_77",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "synthetic_domain_83",
+      "risk_score": 8.0
+    },
+    {
+      "domain": "phaseB_adv_domain_17",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseB_adv_domain_49",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseB_adv_domain_6",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseB_adv_domain_63",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseB_adv_domain_7",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_139",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_150",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_18",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_184",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_19",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_190",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_194",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_2",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_205",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_212",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_217",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_219",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_228",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_255",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_40",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_5",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_50",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_69",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "synthetic_domain_119",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "synthetic_domain_29",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "synthetic_domain_59",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "synthetic_domain_89",
+      "risk_score": 6.0
+    },
+    {
+      "domain": "phaseC_domain_137",
+      "risk_score": 5.0
+    },
+    {
+      "domain": "phaseC_domain_68",
+      "risk_score": 5.0
+    },
+    {
+      "domain": "phaseC_domain_7",
+      "risk_score": 5.0
+    },
+    {
+      "domain": "analog_neuromorphic_chip",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "bio_electronic_pacemaker",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "digital_twin_powerplant",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "epidemic_network_continuous_time",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseB_adv_domain_20",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseB_adv_domain_3",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseB_adv_domain_36",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseB_adv_domain_57",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseB_adv_domain_62",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_100",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_101",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_104",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_107",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_155",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_187",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_191",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_199",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_200",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_204",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_21",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_222",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_229",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_252",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_254",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_39",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_60",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_61",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_64",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_67",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_73",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_82",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_85",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "quantum_classical_quantum_dot",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "spin_glass_continuous_coupling",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "stochastic_hybrid_automata",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "synthetic_domain_101",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "synthetic_domain_11",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "synthetic_domain_41",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "synthetic_domain_71",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "tcp_congestion_control",
+      "risk_score": 4.0
+    },
+    {
+      "domain": "phaseC_domain_118",
+      "risk_score": 3.0
+    },
+    {
+      "domain": "phaseC_domain_121",
+      "risk_score": 3.0
+    },
+    {
+      "domain": "phaseC_domain_145",
+      "risk_score": 3.0
+    },
+    {
+      "domain": "phaseC_domain_115",
+      "risk_score": 1.0
+    },
+    {
+      "domain": "phaseC_domain_44",
+      "risk_score": 1.0
+    },
+    {
+      "domain": "phaseC_domain_74",
+      "risk_score": 1.0
+    },
+    {
+      "domain": "synthetic_domain_125",
+      "risk_score": 1.0
+    },
+    {
+      "domain": "synthetic_domain_35",
+      "risk_score": 1.0
+    },
+    {
+      "domain": "synthetic_domain_5",
+      "risk_score": 1.0
+    },
+    {
+      "domain": "synthetic_domain_65",
+      "risk_score": 1.0
+    },
+    {
+      "domain": "synthetic_domain_95",
+      "risk_score": 1.0
+    }
+  ],
+  "dataset_hash": "3037aa8f7f03237d3483cb7e200573ce3ff2a834ffc7e061a7f1bae677eb0be4",
+  "generated_by": "helix.py run",
+  "git_commit": "3f73d30462cfa155ccf9cdff2bf82869ba220854",
+  "schema_version": "1.0.0"
+}

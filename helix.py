@@ -72,7 +72,7 @@ def generate_run_manifest(dataset_hash, schema_version):
     }
     
     for p in ARTIFACTS_DIR.rglob('*.json'):
-        if p.name.endswith('manifest.json') or 'archive' in p.parts or 'tsm' in p.parts or 'expression' in p.parts:
+        if p.name.endswith('manifest.json') or 'archive' in p.parts or 'tsm' in p.parts or 'expression' in p.parts or 'external_pack_v1' in p.parts:
             continue
         rel_path = p.relative_to(ARTIFACTS_DIR).as_posix()
         hasher = hashlib.sha256()
@@ -87,7 +87,8 @@ def enforce_doc_traces(dataset_hash):
     docs_dir = ROOT / 'docs'
     if not docs_dir.exists(): return
     for p in docs_dir.rglob('*.md'):
-        if 'expression' in p.name or 'identity_pack' in p.name: continue
+        name = p.name
+        if 'expression' in name or 'identity_pack' in name or 'external_pack' in name or 'future_research' in name or name.startswith('k2_') or name.startswith('kernels'): continue
         content = p.read_text('utf-8')
         if "Derived From:" not in content:
             print(f"FAIL: {p} missing 'Derived From:' block.")

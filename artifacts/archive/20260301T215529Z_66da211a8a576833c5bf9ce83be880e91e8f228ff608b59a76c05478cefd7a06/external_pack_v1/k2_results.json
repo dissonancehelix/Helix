@@ -1,0 +1,12 @@
+{
+  "verdict": "ROBUST_EXTERNAL",
+  "metrics": {
+    "ig_primitives": 0.6946611879218161,
+    "ig_class": 0.34972160490046333,
+    "conditional_ig": 0.3453372235976615,
+    "leakage_acc": 0.7866666666666666,
+    "null_z": 102.89937994092122,
+    "null_p": 0.0,
+    "max_dropout_drift": 0.025670086830563963
+  }
+}

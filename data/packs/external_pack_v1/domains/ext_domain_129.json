@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_129",
+  "name": "External Domain 129",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by RFC Protocols 2013",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "SOCIAL",
+  "T1": "T1_LOCAL_ONLY",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "RFC Protocols 2013"
+  ],
+  "expression_primitives": [
+    "BRANCHING",
+    "ROUTING"
+  ],
+  "_expression_primitives_pass_B": [
+    "BRANCHING",
+    "ROUTING"
+  ]
+}

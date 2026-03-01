@@ -1,0 +1,22 @@
+{
+  "artifact_hash": "9f5ede01046be678ab354bfea62b7844174b6faa5cdd56e7699ba9183c9da474",
+  "bootstrap_seed": 42,
+  "data": {
+    "minimality_reconstruction_accuracy": 0.65,
+    "minimality_status": "INDEPENDENT_CANDIDATE",
+    "spectral_rank_estimate": 3,
+    "stability_drift_measured": 0.015,
+    "top_witnesses": [
+      "memory",
+      "topological defect",
+      "asymmetr",
+      "path depend",
+      "path-depend"
+    ],
+    "witness_structure": "MULTI_COMPONENT_STRUCTURE"
+  },
+  "dataset_hash": "3037aa8f7f03237d3483cb7e200573ce3ff2a834ffc7e061a7f1bae677eb0be4",
+  "generated_by": "helix.py run",
+  "git_commit": "3f73d30462cfa155ccf9cdff2bf82869ba220854",
+  "schema_version": "1.0.0"
+}

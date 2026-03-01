@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_276",
+  "name": "External Domain 276",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Systems Biology (Textbook Citation) 2012",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c": "COMPUTATIONAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Systems Biology (Textbook Citation) 2012"
+  ],
+  "expression_primitives": [
+    "LOCAL_REDUNDANCY",
+    "GLOBAL_REDUNDANCY"
+  ],
+  "_expression_primitives_pass_B": [
+    "MULTI_BASIS",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

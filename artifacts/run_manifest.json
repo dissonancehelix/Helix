@@ -1,15 +1,28 @@
 {
-  "dataset_hash": "66da211a8a576833c5bf9ce83be880e91e8f228ff608b59a76c05478cefd7a06",
-  "schema_version": "0.3",
-  "timestamp_external_only": "2026-03-01T21:45:21.710187+00:00",
-  "git_commit": "unknown",
-  "bootstrap_seed": 42,
   "artifact_hashes": {
-    "expression_null_distribution.json": "bcb3f03261236e6098cc5f5a462ae505eba3f4af7015521569b3e86285783442",
-    "expression_overlay_full.json": "b5cf3183aec7354d31ccdcf2f7c8df26df00a88f21fcb82b4325c987a43dca94",
-    "expression_report_full.json": "af17ea0ad3e9670a19135aefc9a7aec6a0fe769eed0605a1a00b5b38582216da",
-    "expression_scaling_curve.json": "de2a4fd46b75c7abfc8d84e64d2ce6dd5b8fff373676ff16dbf422feeadd2ad7",
-    "expression_stability.json": "3231e386e0c96dd0ab6c1a715bc620367236c3217e27debb321d6d7c46e007b4",
-    "expression_kernel_verdict.json": "03eed18b03b5b4246c04f695d5654e9f5791381baaee2311010aabe8069942a6"
-  }
+    "counterexamples/synthetic_results.json": "38a40395bd9ff54377e65599a94081942377cd462c7f9f1f94d223b5dca6aea5",
+    "eigenspace/baseline_beams_v2.json": "ff1499b3cfad593afd6e78419822afa63d97c923cf8da932b68c439a300c498e",
+    "eip/eip_overlay.json": "f316830e97522f70d185727bf802cc870b9051b684b0330f5dc7a4afe5a193d9",
+    "eip/witness_ig_report.json": "212b08bec5e22e1bc2140dd49fce8b5082121605a42b67f1224b8de04fcce26e",
+    "eip/witness_matrix.json": "e1ab354acf1fb237d29aaf682e27ef243cfc1d8de31592a17b13c993a0bc1c69",
+    "eip/witness_spectral_report.json": "916f4b575afb4a586ae52230aea3e5840ad09e255fdc53244c3a8a2b49caa124",
+    "eip/witness_structure_summary.json": "1de695cb678203ea3e83659265236ee9b745d93a55021d579f606f4284f1f460",
+    "invariance/invariance_suite.json": "9937f4529681dab44f306f04c7bfb35912bc0c7232bc641168dc6272bc3f8133",
+    "kernels/kernel2_report.json": "5dde07dadf033f192e919afa4586bbd2b32bb6047c16f22f23aa52ab30f83ac8",
+    "memory/memory_suites_report.json": "b8d4f055ef57854e40bdf35b335e78fbdbf4847f335f9d046300cc05daabe479",
+    "obstruction/obstruction_spectrum.json": "e9380d65c73cf7f3444e1cedeaccba057824587ee5baf6dde211973fd197dbd4",
+    "periodic_atlas/periodic_atlas.json": "b7d4d2a28aa5d992cd2a9247347446db623ffd598cdef50920f26df377c74854",
+    "risk/risk_scores.json": "eac22f78300b4cc1a92ddbc00f22be435ac9c1510881fe8f4fffaca834f1218c",
+    "structural_debt_report.json": "3d392ac813ae3b4bfde06a6b787718fcaac8d5fd373b054446ab9eaa53ada90a"
+  },
+  "bootstrap_seed": 42,
+  "dataset_hash": "bca19c5253d22a90be3ea77329f285214f0d4b385f6996aa6b7242c95a758d4d",
+  "dependency_versions": {
+    "numpy": "locked",
+    "scikit-learn": "locked"
+  },
+  "git_commit": "30805124ea6807174aa5f84a3b544d567cdcff7b",
+  "python_version": "3.14.3",
+  "schema_version": "1.0.0",
+  "timestamp": "2026-03-01T21:57:35.630664+00:00"
 }

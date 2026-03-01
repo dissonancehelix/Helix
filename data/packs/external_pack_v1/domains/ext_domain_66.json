@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_66",
+  "name": "External Domain 66",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Distributed Systems Consensus Algorithms 2007",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c": "BIOLOGICAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "Distributed Systems Consensus Algorithms 2007"
+  ],
+  "expression_primitives": [
+    "BRANCHING",
+    "ROUTING"
+  ],
+  "_expression_primitives_pass_B": [
+    "BUFFERING",
+    "ROUTING"
+  ]
+}

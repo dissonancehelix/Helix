@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_147",
+  "name": "External Domain 147",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Nature Ecology & Evolution 2002",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c": "COMPUTATIONAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "Nature Ecology & Evolution 2002"
+  ],
+  "expression_primitives": [
+    "SLACK",
+    "BUFFERING"
+  ],
+  "_expression_primitives_pass_B": [
+    "SLACK",
+    "BUFFERING"
+  ]
+}
