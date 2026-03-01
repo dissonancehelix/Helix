@@ -1,0 +1,65 @@
+{
+  "id": "supply_chain",
+  "domain": "Global supply chain cascade failures",
+  "state_space": "Directed graph of supplier-buyer inventory levels and lead times",
+  "dynamics_operator": "Order fulfilling, production scheduling, transportation logistics",
+  "perturbation_operator": "Demand shocks, supplier bankruptcies, logistical blockages, natural disasters",
+  "stability_condition": "Buffer inventories > perturbation amplitude; localized containment of node failures",
+  "failure_mode": "Cascading stockouts, bullwhip effect runaway, systemic network collapse",
+  "observable_metrics": [
+    "Inventory on hand",
+    "Order backlog",
+    "Delivery lead time variability",
+    "Network connectivity"
+  ],
+  "timescale_regime": "Days to months (production cycles and logistical transport)",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Network topology (hubs/scale-free)",
+    "Information asymmetry (bullwhip)"
+  ],
+  "edge_conditions": [
+    "Just-in-time (JIT) minimal buffers",
+    "Correlated multi-region shocks"
+  ],
+  "notes": "Systemic interconnectedness converts local perturbations into propagating cascades without sufficient buffer capacity.",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "persistence_ontology_confidence": "HIGH",
+  "persistence_ontology_rationale": "Derived via structural matching of observables and dynamics to ontology definitions.",
+  "substrate_type": "DISCRETE_COMBINATORIAL",
+  "substrate_formalism": "graph / lattice",
+  "dimensionality_form": "combinatorial",
+  "metric_defined": "YES (Hamming / Graph distance)",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "boundary_locality": "GLOBAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "DISCRETE_SYMBOLIC",
+  "metric_layer": {
+    "eligible": false,
+    "metric_kind": null,
+    "control_parameter": null,
+    "threshold_parameter": null,
+    "normalization": null,
+    "distance_value": null,
+    "distance_definition": "Numeric distance strictly derived from domain object fields.",
+    "units": null,
+    "dimensionless": null,
+    "provenance": {
+      "used_fields": [],
+      "assumptions": [
+        "Assumed no numeric boundaries exist since none provided."
+      ],
+      "external_knowledge": true
+    },
+    "metric_phi": null,
+    "projection_method": null,
+    "ineligibility_reason": "INCOMMENSURATE_UNITS"
+  },
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "UNDEFINED",
+    "obstruction_type": "UNITS_NOT_PROJECTABLE",
+    "distance_provenance": "Deterministically triaged via M-Layer v0 rules.",
+    "distance_confidence": "LOW"
+  }
+}

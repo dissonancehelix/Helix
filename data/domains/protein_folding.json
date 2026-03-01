@@ -1,0 +1,66 @@
+{
+  "id": "protein_folding",
+  "domain": "Protein folding energy landscapes",
+  "state_space": "Conformational space of polypeptide backbone and side-chain dihedral angles",
+  "dynamics_operator": "Molecular dynamics driven by free energy minimization (funnel landscape)",
+  "perturbation_operator": "Thermal fluctuations, pH changes, denaturants, mechanical force",
+  "stability_condition": "Native state free energy minimum separated by sufficiently high kinetic barrier (\u0394G_fold < 0 and E_a large)",
+  "failure_mode": "Unfolding, misfolding, amyloid aggregation",
+  "observable_metrics": [
+    "Fraction folded",
+    "Radius of gyration",
+    "Heat capacity C_p",
+    "FRET efficiency"
+  ],
+  "timescale_regime": "Microseconds to seconds (folding trajectory and residence time)",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Topological knots in native fold",
+    "Frustration in non-native contacts",
+    "Sequence specificity"
+  ],
+  "edge_conditions": [
+    "High temperature (T > T_m)",
+    "Extreme crowding"
+  ],
+  "notes": "Structure is trapped in a deep local minimum of a funnel-shaped free energy landscape.",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "persistence_ontology_confidence": "HIGH",
+  "persistence_ontology_rationale": "Derived via structural matching of observables and dynamics to ontology definitions.",
+  "substrate_type": "SYMBOLIC_ALGEBRAIC",
+  "substrate_formalism": "formal system",
+  "dimensionality_form": "combinatorial",
+  "metric_defined": "NO",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "boundary_locality": "GLOBAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "DISCRETE_SYMBOLIC",
+  "metric_layer": {
+    "eligible": false,
+    "metric_kind": null,
+    "control_parameter": null,
+    "threshold_parameter": null,
+    "normalization": null,
+    "distance_value": null,
+    "distance_definition": "Numeric distance strictly derived from domain object fields.",
+    "units": null,
+    "dimensionless": null,
+    "provenance": {
+      "used_fields": [],
+      "assumptions": [
+        "Assumed no numeric boundaries exist since none provided."
+      ],
+      "external_knowledge": true
+    },
+    "metric_phi": null,
+    "projection_method": null,
+    "ineligibility_reason": "NO_THRESHOLD_DEFINED"
+  },
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "UNDEFINED",
+    "obstruction_type": "UNITS_NOT_PROJECTABLE",
+    "distance_provenance": "Deterministically triaged via M-Layer v0 rules.",
+    "distance_confidence": "LOW"
+  }
+}

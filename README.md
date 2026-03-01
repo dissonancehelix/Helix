@@ -1,7 +1,7 @@
 You are operating inside the Helix workspace.
 
 HELIX LLM MANUAL (INTERNAL)
-Version: 0.1
+Version: 0.2
 Status: STRICT
 
 Helix is a structural stress-testing engine for cross-domain persistence.
@@ -14,7 +14,114 @@ Reduce cross-domain analogy to structure-preserving mappings
 while minimizing obstruction entropy.
 
 ------------------------------------------------------------
-0. HARD CONSTRAINTS
+0. REPOSITORY ARCHITECTURE CONTRACT (NON-NEGOTIABLE)
+------------------------------------------------------------
+
+Helix is a layered instrument.  
+File placement reflects epistemic hierarchy.
+
+Root directory MUST contain ONLY:
+
+.git
+.gitignore
+README.md
+run_pipeline.py
+core/
+data/
+engine/
+artifacts/
+docs/
+tests/
+
+No additional top-level folders permitted.
+
+LAYER DEFINITIONS
+
+/core
+Canonical structural definitions.
+- Schemas
+- Enums
+- Manifest
+Immutable except by versioned upgrade.
+
+/data
+Raw domain objects only.
+- No derived fields.
+- No risk scores.
+- No beam references.
+Refinements must live in /data/overlays.
+
+/engine
+Deterministic computation layer.
+- Reads only from /core and /data.
+- Writes only to /artifacts.
+- Must not mutate /data or /core.
+
+/artifacts
+Machine-generated outputs only.
+- JSON / CSV.
+- No markdown.
+- No manual edits.
+- Regenerated via run_pipeline.py.
+
+/docs
+Human-readable reports.
+- Must reference artifact file paths.
+- Must not contain untraceable numeric values.
+- No logic implemented here.
+
+/tests
+Structural invariance enforcement.
+- Eigenspace stability.
+- Obstruction rank.
+- Representation invariance.
+- Pipeline integrity.
+
+PIPELINE FLOW (STRICT)
+
+core + data
+    ↓
+engine
+    ↓
+artifacts
+    ↓
+docs
+
+No reverse flow allowed.
+
+IMMUTABILITY RULES
+
+- Derived values must never be written into domain JSON.
+- Substrate refinements must be stored as overlays.
+- No new ontology classes without enum update.
+- No new collapse classes without enum update.
+- No new obstruction primitives without justification.
+
+REPRODUCIBILITY RULE
+
+All artifacts must be reproducible from:
+
+run_pipeline.py
+
+If artifact cannot be regenerated deterministically,
+it is invalid.
+
+DRIFT PROTECTION
+
+If an LLM proposes:
+
+- New top-level directories
+- Schema mutation without manifest bump
+- Writing derived fields into /data
+- Embedding artifact numbers directly into docs
+
+It must refuse and redirect to architecture compliance.
+
+Helix is a constrained instrument.
+Not an evolving folder.
+
+------------------------------------------------------------
+1. HARD CONSTRAINTS
 ------------------------------------------------------------
 
 - No kernel proposals without entropy comparison.
@@ -28,7 +135,7 @@ If uncertain, log UNKNOWN.
 Never guess.
 
 ------------------------------------------------------------
-1. LAYER SEPARATION (NON-NEGOTIABLE)
+2. LAYER SEPARATION (NON-NEGOTIABLE)
 ------------------------------------------------------------
 
 Layer 0 — Domain ingestion
@@ -44,7 +151,7 @@ LLM must not blend layers.
 LLM must not promote across layers prematurely.
 
 ------------------------------------------------------------
-2. AXIS ZERO — PERSISTENCE ONTOLOGY
+3. AXIS ZERO — PERSISTENCE ONTOLOGY
 ------------------------------------------------------------
 
 All domains MUST be tagged as exactly one primary class:
@@ -62,7 +169,7 @@ If ontology mismatch occurs:
 Log PERSISTENCE_TYPE_MISMATCH.
 
 ------------------------------------------------------------
-3. OBSTRUCTION BASIS (MINIMAL)
+4. OBSTRUCTION BASIS (MINIMAL)
 ------------------------------------------------------------
 
 Primitive obstructions:
@@ -78,7 +185,7 @@ or be formally justified as new primitive.
 No inflation of obstruction vocabulary.
 
 ------------------------------------------------------------
-4. ENTROPY RULE
+5. ENTROPY RULE
 ------------------------------------------------------------
 
 Entropy reduction = structural simplification.
@@ -93,7 +200,7 @@ Every axis proposal must include:
 - mapping yield change
 
 ------------------------------------------------------------
-5. ISOTOPIC TESTING (MANDATORY)
+6. ISOTOPIC TESTING (MANDATORY)
 ------------------------------------------------------------
 
 Every proposed axis must undergo ≥2 rotations.
@@ -110,7 +217,7 @@ If entropy reduction disappears under rotation,
 axis is not fundamental.
 
 ------------------------------------------------------------
-6. SUBSTRATE HANDLING RULE
+7. SUBSTRATE HANDLING RULE
 ------------------------------------------------------------
 
 Substrate type is not allowed to trivially eliminate all conflicts
@@ -127,7 +234,7 @@ Zero entropy without cross-structure mapping
 is classified as PARTITION, not DISCOVERY.
 
 ------------------------------------------------------------
-7. EQUATION DISCIPLINE
+8. EQUATION DISCIPLINE
 ------------------------------------------------------------
 
 Differential templates (e.g., dC/dt = …) are:
@@ -140,7 +247,7 @@ Local curvature cannot generate global topological invariants.
 Algorithmic projection requires discrete operators.
 
 ------------------------------------------------------------
-8. PROMOTION CRITERIA
+9. PROMOTION CRITERIA
 ------------------------------------------------------------
 
 A structure becomes KERNEL_CANDIDATE only if:
@@ -154,7 +261,7 @@ Otherwise:
 Mark as CAPTURE or STRESS_TESTED.
 
 ------------------------------------------------------------
-9. COLD START BEHAVIOR
+10. COLD START BEHAVIOR
 ------------------------------------------------------------
 
 On entering Helix:
@@ -170,7 +277,7 @@ On entering Helix:
 3. Begin at appropriate layer.
 
 ------------------------------------------------------------
-10. DRIFT GUARD
+11. DRIFT GUARD
 ------------------------------------------------------------
 
 If language trends toward:
@@ -185,7 +292,7 @@ LLM must:
 - Request falsifier.
 
 ------------------------------------------------------------
-11. BEAMS AND PREDICTIVE GEOMETRY Layer
+12. BEAMS AND PREDICTIVE GEOMETRY Layer
 ------------------------------------------------------------
 
 Boundary collapse types and locations must be predicted strictly using minimal validated eigenspaces ("Beams"). 
@@ -194,7 +301,7 @@ Currently validated: Beams_v2 = Substrate (S1c) + Ontology (P0-P4).
 - Hybrid systems natively trigger `REPRESENTATION_DECOUPLING`. Do not attempt to force smooth mappings on mathematically decoupled state/decision spaces.
 
 ------------------------------------------------------------
-12. MEASUREMENT LAYER (M1)
+13. MEASUREMENT LAYER (M1)
 ------------------------------------------------------------
 
 When dealing with limits, thresholds, and boundary locations:

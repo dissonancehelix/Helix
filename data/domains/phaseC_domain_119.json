@@ -1,0 +1,67 @@
+{
+  "id": "phaseC_domain_119",
+  "domain": "Generated System phaseC 119 (CONTINUOUS)",
+  "state_space": "State space for phaseC",
+  "dynamics_operator": "Evolution operator",
+  "perturbation_operator": "Noise source",
+  "stability_condition": "Restoring > Perturbing",
+  "failure_mode": "Boundary hit: SMOOTH_HYPERSURFACE",
+  "observable_metrics": [
+    {
+      "name": "Metric",
+      "type": "CUSTOM",
+      "estimator": "Est",
+      "units_or_none": "None"
+    }
+  ],
+  "timescale_regime": "T_relax vs T_perturb",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Config 119"
+  ],
+  "edge_conditions": [
+    "Extreme limit"
+  ],
+  "notes": "Generated for phaseC",
+  "persistence_ontology": "P0_STATE_LOCAL",
+  "substrate_type": "CONTINUOUS",
+  "substrate_formalism": "Generic Formalism",
+  "dimensionality_form": "infinite",
+  "metric_defined": "YES",
+  "boundary_type_primary": "SMOOTH_HYPERSURFACE",
+  "boundary_locality": "LOCAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "CONTINUOUS",
+  "boundary_location": {
+    "parameter": "var",
+    "value": 0.7193392183436231,
+    "units": "dimensionless",
+    "definition": "threshold"
+  },
+  "metric_layer": {
+    "eligible": true,
+    "metric_phi": 0.43867843668724626,
+    "ineligibility_reason": null
+  },
+  "thresholds": [
+    {
+      "name": "var",
+      "theta": 0.7193392183436231,
+      "x": 1.0401285247621999,
+      "units": "dimensionless",
+      "dimensionless_form": "(x-theta)/|theta|",
+      "phi": 0.4459499749745856,
+      "source_field_paths": [
+        "boundary_location.value"
+      ],
+      "confidence": "MED"
+    }
+  ],
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "DEFINED",
+    "obstruction_type": null,
+    "distance_provenance": "Deterministically triaged via M-Layer v0 rules.",
+    "distance_confidence": "HIGH"
+  }
+}

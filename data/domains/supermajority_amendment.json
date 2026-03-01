@@ -1,0 +1,67 @@
+{
+  "id": "supermajority_amendment",
+  "domain": "Constitutional supermajority amendment rules",
+  "state_space": "Set of ratified constitutional amendments",
+  "dynamics_operator": "Legislative proposal and state ratification process",
+  "perturbation_operator": "Political demographic shifts and polarization",
+  "stability_condition": "Opposition minority > (1 - supermajority threshold)",
+  "failure_mode": "Amendment passage or constitutional convention",
+  "observable_metrics": [
+    {
+      "name": "Ratifying states fraction",
+      "type": "POPULATION_FRACTION",
+      "estimator": "State legislature votes",
+      "units_or_none": "fraction"
+    }
+  ],
+  "timescale_regime": "Decades to centuries",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Legal text",
+    "Supermajority thresholds (symbolic logic)"
+  ],
+  "edge_conditions": [
+    "Secession",
+    "Judicial nullification"
+  ],
+  "notes": "Purely symbolic rule-based persistence.",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "persistence_ontology_confidence": "HIGH",
+  "persistence_ontology_rationale": "Derived via structural matching of observables and dynamics to ontology definitions.",
+  "substrate_type": "SYMBOLIC_ALGEBRAIC",
+  "substrate_formalism": "formal system",
+  "dimensionality_form": "combinatorial",
+  "metric_defined": "NO",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "boundary_locality": "GLOBAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "DISCRETE_SYMBOLIC",
+  "metric_layer": {
+    "eligible": false,
+    "metric_kind": null,
+    "control_parameter": null,
+    "threshold_parameter": null,
+    "normalization": null,
+    "distance_value": null,
+    "distance_definition": "Numeric distance strictly derived from domain object fields.",
+    "units": null,
+    "dimensionless": null,
+    "provenance": {
+      "used_fields": [],
+      "assumptions": [
+        "Assumed no numeric boundaries exist since none provided."
+      ],
+      "external_knowledge": true
+    },
+    "metric_phi": null,
+    "projection_method": null,
+    "ineligibility_reason": "NO_THRESHOLD_DEFINED"
+  },
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "UNDEFINED",
+    "obstruction_type": "UNITS_NOT_PROJECTABLE",
+    "distance_provenance": "Deterministically triaged via M-Layer v0 rules.",
+    "distance_confidence": "LOW"
+  }
+}
