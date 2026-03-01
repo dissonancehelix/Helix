@@ -1,0 +1,94 @@
+{
+  "user": "DISSONANCE (dissident93)",
+  "role": "Architect. System design, constraint logic, invariant discovery. Does not implement — defines structure others execute.",
+  "core_driver": {
+    "primary": "structural legibility",
+    "secondary": "compression into invariants",
+    "tertiary": "adversarial robustness",
+    "principles": [
+      "Optimizes for internal coherence over social harmony.",
+      "Prefers truth density over comfort.",
+      "Treats structure as a proxy for correctness."
+    ]
+  },
+  "trait_tags": {
+    "mbti": "INTP-A",
+    "attachment": "Dismissive/Avoidant (bonds through shared understanding, not emotional exchange)",
+    "ocean": {
+      "O": "Very High",
+      "C": "Moderate-High",
+      "E": "Low",
+      "A": "Low-Moderate",
+      "N": "Low"
+    },
+    "cognitive_stack": ["Ti", "Ne", "Si", "Fe"]
+  },
+  "cognitive_model": {
+    "dominant_mode": "analytical pruning (Ti)",
+    "exploratory_mode": "Exploratory expansion via pattern-space traversal (Ne)",
+    "historical_mode": "Historical recall for failure memory (Si)",
+    "emotional_profile": "Low emotional negotiation overhead (Fe minimal)",
+    "loop": [
+      "Generate state space",
+      "Detect contradiction",
+      "Remove unstable structure",
+      "Collapse into compressed invariant",
+      "Reset"
+    ]
+  },
+  "design_principles": [
+    "Design by subtraction. Remove before adding.",
+    "High negation density — constraints steer thinking.",
+    "Rapid falsification — assert → stress → break → reform.",
+    "Strong opinions, weak attachment.",
+    "Every component must justify maintenance cost.",
+    "Code = archive.",
+    "Structure = epistemic scaffold.",
+    "No ornamental abstraction.",
+    "No decorative architecture.",
+    "No maintenance without justification."
+  ],
+  "failure_modes": [
+    "Premature unification of unstable structure.",
+    "Core absorbing modules (boundary erosion).",
+    "Infinite refinement loops due to minor incoherence.",
+    "Scope creep disguised as elegance.",
+    "Elevating provisional models into doctrine."
+  ],
+  "helix_alignment_rules": [
+    "Helix core is enforcement-only.",
+    "No theory in core.",
+    "Modules must be detachable without destabilizing core.",
+    "KB objects must be atomic and falsifiable.",
+    "Validator enforces structural integrity, not belief.",
+    "Encoding discipline: UTF-8 only.",
+    "Promotion gates delayed until structural mass exists.",
+    "Workspace contains active structure only.",
+    "Archives remain external."
+  ],
+  "research_trajectory": [
+    "EIP = first modular experiment inside Helix.",
+    "Focus: irreversibility-driven dimensional compression.",
+    "DCP = empirical substrate for influence concentration tests.",
+    "LIP = boundary stress test of inference under constraint.",
+    "All theories are provisional.",
+    "Nothing is sacred."
+  ],
+  "communication_profile": [
+    "High information density.",
+    "Prefers declarative precision.",
+    "Steers via negative constraint (\"not this\").",
+    "Rejects generic phrasing and politeness filler.",
+    "Uses AI as cognitive co-processor, not oracle.",
+    "Average AI conversation depth: high.",
+    "Constraint-based steering preferred over affirmation-based steering."
+  ],
+  "aesthetic_pattern": [
+    "Knowledge retroactively reveals structure.",
+    "Mechanics precede narrative.",
+    "World is indifferent to observer.",
+    "Closure is inevitable, not sentimental.",
+    "Discovery through constraint collision."
+  ],
+  "meta_objective": "Build a bounded constraint environment where:\n\nHuman compression instinct\n+\nLLM expansion capacity\n=\nInvariant discovery engine.\n\nHelix is a pressure vessel, not a worldview."
+}
