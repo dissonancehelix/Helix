@@ -1,0 +1,28 @@
+{
+  "id": "ext_domain_88",
+  "name": "External 88",
+  "description": "External reality test",
+  "state_space": "Observed",
+  "dynamics": "Ops: BRANCHING,ROUTING",
+  "perturbation": "Environment",
+  "stability_condition": "stable",
+  "failure_mode": "fail",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P1",
+  "substrate_S1c": "PHYSICAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "measurement_layer": {
+    "resolution": "MACRO",
+    "obstruction_type": "NONE"
+  },
+  "external_source": "https://www.nature.com/articles/9702",
+  "expression_primitives_pass_A": [
+    "BRANCHING",
+    "ROUTING"
+  ],
+  "expression_primitives_pass_B": [
+    "RECOMBINATION",
+    "LOCAL_REDUNDANCY"
+  ]
+}

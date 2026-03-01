@@ -1,0 +1,28 @@
+{
+  "id": "ext_domain_71",
+  "name": "External 71",
+  "description": "External reality test",
+  "state_space": "Observed",
+  "dynamics": "Ops: SLACK,BUFFERING",
+  "perturbation": "Environment",
+  "stability_condition": "stable",
+  "failure_mode": "fail",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P1",
+  "substrate_S1c": "PHYSICAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "measurement_layer": {
+    "resolution": "MACRO",
+    "obstruction_type": "NONE"
+  },
+  "external_source": "https://arxiv.org/abs/cond-mat/2776",
+  "expression_primitives_pass_A": [
+    "SLACK",
+    "BUFFERING"
+  ],
+  "expression_primitives_pass_B": [
+    "SLACK",
+    "BUFFERING"
+  ]
+}

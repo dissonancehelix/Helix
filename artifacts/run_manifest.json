@@ -1,28 +1,15 @@
 {
-  "artifact_hashes": {
-    "counterexamples/synthetic_results.json": "91a4f9ed1c65c6b416533d056c270635d23a20ba181c1578057070fc1cb167b9",
-    "eigenspace/baseline_beams_v2.json": "10eee71e6414e2727039bf0dcac22c5e82d16ca2fd568e6320db35b356cb44e7",
-    "eip/eip_overlay.json": "e59be5da22cd6417b8f44a785a9a1a9eda1e5583fbf3c7c4d2fb6f27d3b1bd28",
-    "eip/witness_ig_report.json": "d3c190fbba0daf842ef6fd83d02de806beee21d7b0f4cc0411d7a84bf22a897c",
-    "eip/witness_matrix.json": "d045511e57b8202cdbb7ada643d7454598f7597e520355f931cceec52a1c9032",
-    "eip/witness_spectral_report.json": "d6dfffb65d2ece3aae30e2529f7b2c3a20fe5c292e6c7109c91ed78ec2a7f598",
-    "eip/witness_structure_summary.json": "27ea09ba6a319f3036053e4ced0ea71cc0f3f9701483c255ec1e92b5a3ef2dfa",
-    "invariance/invariance_suite.json": "2b1ccdaa341db286073e7bd6b13786391538e0001978456be448f81273f72a3e",
-    "kernels/kernel2_report.json": "80d7e181bff6287e2c9ccec969a228056c45818c3d9d8322ccc226bca212905e",
-    "memory/memory_suites_report.json": "b1b3c132aeb51686f5ba0fcd25c66d442c3a181bd9c18e2c154478a44a67845d",
-    "obstruction/obstruction_spectrum.json": "f195fda1628d70109ccd1b70431c4ddf4247a96410164413a963f044e86fe7f8",
-    "periodic_atlas/periodic_atlas.json": "b769040a7cb399f300babb8130456ce0e4413837b5e150c9d5817d078b54251a",
-    "risk/risk_scores.json": "7d8dee3aeeba6e49b0428a681065efa909ef5c3a1032a5f58fda4fc915fe4143",
-    "structural_debt_report.json": "77f8b9f655808218691c1b8efaf6f4a8889ba8e4658b0d2df6464a71e8fcc416"
-  },
+  "dataset_hash": "66da211a8a576833c5bf9ce83be880e91e8f228ff608b59a76c05478cefd7a06",
+  "schema_version": "0.3",
+  "timestamp_external_only": "2026-03-01T21:45:21.710187+00:00",
+  "git_commit": "unknown",
   "bootstrap_seed": 42,
-  "dataset_hash": "3037aa8f7f03237d3483cb7e200573ce3ff2a834ffc7e061a7f1bae677eb0be4",
-  "dependency_versions": {
-    "numpy": "locked",
-    "scikit-learn": "locked"
-  },
-  "git_commit": "3f73d30462cfa155ccf9cdff2bf82869ba220854",
-  "python_version": "3.14.3",
-  "schema_version": "1.0.0",
-  "timestamp": "2026-03-01T21:18:32.488562+00:00"
+  "artifact_hashes": {
+    "expression_null_distribution.json": "bcb3f03261236e6098cc5f5a462ae505eba3f4af7015521569b3e86285783442",
+    "expression_overlay_full.json": "b5cf3183aec7354d31ccdcf2f7c8df26df00a88f21fcb82b4325c987a43dca94",
+    "expression_report_full.json": "af17ea0ad3e9670a19135aefc9a7aec6a0fe769eed0605a1a00b5b38582216da",
+    "expression_scaling_curve.json": "de2a4fd46b75c7abfc8d84e64d2ce6dd5b8fff373676ff16dbf422feeadd2ad7",
+    "expression_stability.json": "3231e386e0c96dd0ab6c1a715bc620367236c3217e27debb321d6d7c46e007b4",
+    "expression_kernel_verdict.json": "03eed18b03b5b4246c04f695d5654e9f5791381baaee2311010aabe8069942a6"
+  }
 }

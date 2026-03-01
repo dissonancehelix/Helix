@@ -1,0 +1,48 @@
+{
+  "full_primitive_space_ig": 0.692406064859084,
+  "ablation_deltas": {
+    "BRANCHING": {
+      "ig_without": 0.6921532465641681,
+      "delta_ig": 0.0002528182949158575
+    },
+    "ROUTING": {
+      "ig_without": 0.5460426522350633,
+      "delta_ig": 0.14636341262402064
+    },
+    "EXPLORATION": {
+      "ig_without": 0.537304672446912,
+      "delta_ig": 0.1551013924121719
+    },
+    "SLACK": {
+      "ig_without": 0.692406064859084,
+      "delta_ig": 0.0
+    },
+    "BUFFERING": {
+      "ig_without": 0.692406064859084,
+      "delta_ig": 0.0
+    },
+    "RECOMBINATION": {
+      "ig_without": 0.692406064859084,
+      "delta_ig": 0.0
+    },
+    "MULTI_BASIS": {
+      "ig_without": 0.692406064859084,
+      "delta_ig": 0.0
+    },
+    "LOCAL_REDUNDANCY": {
+      "ig_without": 0.692406064859084,
+      "delta_ig": 0.0
+    },
+    "GLOBAL_REDUNDANCY": {
+      "ig_without": 0.692406064859084,
+      "delta_ig": 0.0
+    }
+  },
+  "core_primitives_subspace": [
+    "BRANCHING",
+    "SLACK",
+    "RECOMBINATION"
+  ],
+  "core_subspace_ig": 0.2515375508662391,
+  "information_retained": 0.3632803980673264
+}

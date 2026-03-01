@@ -1,0 +1,41 @@
+{
+  "kernels": [
+    {
+      "id": "KERNEL-1",
+      "name": "Substrate & Ontology Base",
+      "status": "FROZEN_CORE",
+      "axes": [
+        "Substrate S1c",
+        "Persistence Ontology"
+      ]
+    },
+    {
+      "id": "KERNEL-2",
+      "name": "Expression Topology",
+      "status": "MATURING",
+      "axes": [
+        "Branching",
+        "Recombination",
+        "Slack Reserve"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "MODULE-EIP",
+      "name": "Epistemic Irreversibility",
+      "status": "ARCHIVED_SPARSE",
+      "reason": "Collapsed into memory trace sub-component. Not orthogonal to K1."
+    },
+    {
+      "id": "MODULE-TSM",
+      "name": "Trajectory Stabilization Mechanism (Identity)",
+      "status": "INDEPENDENT_PARALLEL",
+      "axes": [
+        "Memory",
+        "Control",
+        "Commitment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "inter_annotator_agreement": 0.875,
+  "cohen_kappa_approx": 0.84375,
+  "ig_class": 0.0,
+  "n_domains": 200
+}

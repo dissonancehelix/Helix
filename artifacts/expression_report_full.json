@@ -1,0 +1,10 @@
+{
+  "ig_BoundaryType": 0.20593641682580044,
+  "ig_primitives_BoundaryType": 0.6197418189568291,
+  "conditional_ig": 0.2044807604408875,
+  "leakage_accuracy": 0.5005834305717619,
+  "ig_substrate": 0.003887702367112972,
+  "ig_ontology": 0.0016773268769465915,
+  "ig_locality": 0.000613088828019609,
+  "ig_timescale": 0.0012363704653520768
+}
