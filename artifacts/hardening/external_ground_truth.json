@@ -1,0 +1,13 @@
+{
+  "metrics_used": [
+    "divergence_rate",
+    "bifurcation_detection",
+    "oscillation_amplitude_growth",
+    "resource_saturation",
+    "memory_explosion",
+    "gradient_norm_divergence",
+    "control_instability_metrics"
+  ],
+  "domains_mapped": 600,
+  "decoupling_enforced": true
+}
