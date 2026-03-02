@@ -1,5 +1,5 @@
-Version: 0.4
-Status: CONSOLIDATION (HARDENED)
+Version: 1.0
+Status: HARDENED / BASIS LOCK (CE-OS ACTIVE)
 
 Helix is a structural stress-testing engine for cross-domain persistence.
 
@@ -25,7 +25,7 @@ helix.py
 core/
 data/
 layers/
-infra/
+infra/ (Includes /os/ CE-OS Kernel)
 artifacts/
 docs/
 tests/
@@ -137,6 +137,8 @@ Layer 5 — Coordinate rotation (isotopic test)
 Layer 6 — Axis proposal (Meta-Kernel Lab)
 Layer 7 — Falsification / Necessity Suite
 Layer 8 — Consolidation (Measurement / Operator Algebra)
+Layer 9 — Hardening (CE-OS Privilege Rings / Determinism Probes)
+Layer 10 — Intervention Transfer (Structural Vaccines)
 
 LLM must not blend layers.
 LLM must not promote across layers prematurely.
@@ -151,6 +153,8 @@ LLM must not promote across layers prematurely.
 - No metaphor explanations.
 - No skipping layers.
 - No compression without falsifier.
+- No kernel access without Ring 0 authorization.
+- No artifact promotion without determinism pass.
 
 If uncertain, log UNKNOWN.
 Never guess.
@@ -175,8 +179,26 @@ If ontology mismatch occurs:
 Log PERSISTENCE_TYPE_MISMATCH.
 
 ------------------------------------------------------------
-4. OBSTRUCTION BASIS (MINIMAL)
+4. MINIMAL STRUCTURAL BASIS (LOCK)
 ------------------------------------------------------------
+
+The Helix kernel is defined by four orthogonal, independent bases:
+
+B1_BASIN: Energy/effort transition boundary.
+B2_EXPRESSION: Volumetric state-space dimension.
+B3_COORDINATION: Multi-agent coupling/network depth.
+B4_SYMBOLIC_DEPTH: Logic-stack / referential recursion limit.
+
+A basis vector must satisfy:
+- Independence (Pairwise MI < 0.60)
+- Necessity (Ablation loss > 15%)
+- Sufficiency (Reconstruction > 90%)
+- Invariance (Survives isotopic rotation)
+
+Failure to satisfy triggers demotion to "Mode".
+
+------------------------------------------------------------
+5. OBSTRUCTION BASIS (MINIMAL)
 
 Primitive obstructions:
 
@@ -298,14 +320,13 @@ Beams_v2 = Substrate (S1c) + Ontology (P0–P4)
   state/decision spaces.
 
 ------------------------------------------------------------
-10. PERIODIC TABLE ATLAS (LIVING, NOT STATIC)
+10. MINIMAL STRUCTURAL BASIS REGISTRY (LIVING, NOT STATIC)
 ------------------------------------------------------------
 
-The Helix Periodic Table is a living, testable atlas.
+The Helix Structural Basis is a living, testable atlas.
 
 Definition:
-A conditional distribution map over collapse behavior:
-(Substrate × Ontology) → (Boundary Shape, Locality, Timescale interactions)
+A minimal set of independent mathematical axes that span the measurable collapse geometry of constraint systems.
 
 Rules:
 - The atlas must be regenerated from /artifacts outputs via `helix.py run`.
@@ -432,6 +453,16 @@ PILLAR 2 — COUNTEREXAMPLE ENGINE
 PILLAR 3 — OPERATOR ALGEBRA
 - Formal composition (Sequential, Parallel, Nested, Feedback).
 - Minimal generating operator sets per collapse class.
+
+PILLAR 4 — CE-OS HARDENING (RING 0 PROTECTION)
+- Admissibility Firewall: Semantic pre-scrubbing.
+- Determinism Probe: Hash-reproducibility verification.
+- Throughput Guard: Execution budget enforcement.
+- Stable Channel: Promoting artifacts from /latest_attempt only upon success.
+
+PILLAR 5 — CONVERGENCE ATTACK & INTERVENTION
+- Resolution Escalation: Detecting projection artifacts via higher-order probes (temp_rev, noise_exp).
+- Structural Vaccines: Validated operator transfers (e.g., TCP_AIMD -> Physics).
 
 PILLAR 4 — LONGITUDINAL SPINE
 - artifacts/kernel_registry.json: Archive of validated eigenspaces.
