@@ -1,11 +1,11 @@
 {
-  "artifact_hash": "89afa69d941549f70d08b97dc729865219eafe46696f454edb51f45bb90ae61e",
+  "artifact_hash": "741adff6c06ef6f6a00434dd37be77a0607be92d60b6d386023af4acaf26628c",
   "bootstrap_seed": 42,
   "data": {
     "coverage_percent": 19.32,
     "decision": "KERNEL2_INDETERMINATE",
-    "description": "Epistemic Irreversibility Principle (EIP)",
-    "kernel": "KERNEL-2",
+    "description": "Epistemic Irreversibility Principle (Projected Module)",
+    "kernel": "MODULE-EIP",
     "metrics": {
       "conditional_ig_baseline": 0.0942,
       "dropout_stability_drift": 0.02,
@@ -25,6 +25,6 @@
   },
   "dataset_hash": "bca19c5253d22a90be3ea77329f285214f0d4b385f6996aa6b7242c95a758d4d",
   "generated_by": "helix.py run",
-  "git_commit": "633bd97e17fdb85e8c30b19f8bd112eedd1189d5",
+  "git_commit": "9c0b89e1f35e15233b15c2563ed5460a3d570152",
   "schema_version": "1.0.0"
 }

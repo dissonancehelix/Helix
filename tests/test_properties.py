@@ -7,14 +7,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(ROOT))
 
-import engine.modules as m
+from infra.io import persistence as m_io; from infra.platform import environment as m_env
 
 def test_permutation_invariance():
-    m.init_random(42)
-    domains = m.load_domains()
+    m_env.init_random(42)
+    domains = m_io.load_domains()
     
-    original_save = m.save_wrapped
-    m.save_wrapped = lambda path, data: None
+    original_save = m_io.save_wrapped
+    m_io.save_wrapped = lambda path, data: None
     
     try:
         out1 = m.extract_eigenspace(domains)
@@ -26,7 +26,7 @@ def test_permutation_invariance():
             for v1, v2 in zip(out1["variance_explained"], out2["variance_explained"]):
                 assert abs(v1 - v2) < 1e-9, "Permutation altered SVD structural variance explained!"
     finally:
-        m.save_wrapped = original_save
+        m_io.save_wrapped = original_save
 
     print("test_properties (permutation invariance): PASS")
 

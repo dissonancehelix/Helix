@@ -1,0 +1,3959 @@
+{
+  "artifact_hash": "7fa86ce8bb1fb76e282e4c4d9cba7c418e12b9c269cbcebaa986c55aef0ae88a",
+  "bootstrap_seed": 42,
+  "data": [
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_2",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_14",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_16",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_20",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_36",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_43",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_50",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_57",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_68",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_69",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_72",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_81",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_85",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_90",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_95",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_96",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_99",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_105",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_107",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_108",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_114",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_129",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_137",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_139",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_143",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_150",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_165",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_180",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_192",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_193",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_194",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_197",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_198",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_199",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_200",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_205",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_208",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_210",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_214",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_218",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_222",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_224",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_225",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_226",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_233",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_236",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_248",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_256",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_257",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_263",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_264",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_265",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_277",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_284",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_288",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_289",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_299",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_303",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_306",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_309",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_310",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_318",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_321",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_322",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_323",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_324",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_343",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_348",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_350",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_358",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_370",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_371",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_376",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_378",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_386",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_391",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_392",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_401",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_406",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_409",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_413",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_421",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_425",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_434",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_436",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_440",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_447",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_452",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_466",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_473",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_477",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_492",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_505",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_508",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_512",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_535",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_538",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_546",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_548",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_552",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_558",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_563",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_566",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_584",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_587",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_589",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_599",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_603",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_605",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_609",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_617",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_618",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_619",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_630",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_641",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_646",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_663",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_665",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_674",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_675",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_676",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_677",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_680",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_682",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_686",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_687",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_690",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_692",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_693",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_699",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_704",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_710",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_712",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_718",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_734",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_737",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_746",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_766",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_769",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_778",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_785",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_793",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_798",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_799",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_803",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_804",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_811",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_813",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_825",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_827",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_829",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_842",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_847",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_851",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_852",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_862",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_888",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_893",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_898",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_900",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_914",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_917",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_920",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_925",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_926",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_935",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_941",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_944",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_946",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_955",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_963",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_967",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_971",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_977",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_983",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_990",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_991",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_993",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1001",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1006",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1008",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1013",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1017",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1023",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1028",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1029",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1030",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1031",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1035",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1037",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1043",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1045",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1047",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1054",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1057",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1061",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1062",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1064",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1065",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1068",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1070",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1074",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1075",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1102",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1117",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1125",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1146",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1158",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1164",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1168",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1174",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1176",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1183",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1192",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1196",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1204",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1207",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1214",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1217",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1227",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1229",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1233",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1234",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1238",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1239",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1240",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1244",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1248",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1252",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1254",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1255",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1256",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1257",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1268",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1273",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1275",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1276",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1285",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1287",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1291",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1294",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1298",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1304",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1305",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1317",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1325",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1330",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1332",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1346",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1349",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1351",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1358",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1359",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1360",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1387",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1389",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1392",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1393",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1397",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1398",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1400",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1403",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1416",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1423",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1429",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1431",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1438",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1443",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1444",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1447",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1453",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1457",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1459",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1461",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1474",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1485",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1487",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1489",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1516",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1520",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1521",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1524",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1534",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1537",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1538",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1539",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1546",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1548",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1553",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1562",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1566",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1568",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1575",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1590",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1595",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1605",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1610",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1611",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1617",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1624",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1639",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1655",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1661",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1663",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1665",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1680",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1689",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1691",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1694",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1703",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1704",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1713",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1716",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1719",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1721",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1731",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1747",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1748",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1752",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1766",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1768",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1777",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1785",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1786",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1788",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1791",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1795",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1796",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1799",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1819",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1821",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1825",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1829",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1844",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1853",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1857",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1878",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1884",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1894",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1908",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1909",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1919",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1922",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1927",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1931",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1936",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1940",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1943",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_neural_/_cognitive_models_1953",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1955",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1958",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1961",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1964",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1968",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1970",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1978",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_high-dimensional_continuous_systems_1979",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_pathological_adversarial_constructions_1985",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    },
+    {
+      "domain_id": "extreme_ecological_cascades_1998",
+      "instrument_gap": 5,
+      "obstruction_stack": [
+        "WITNESS_ABSENT"
+      ],
+      "unstable_outputs": [
+        "collapse_geometry",
+        "rank"
+      ]
+    }
+  ],
+  "dataset_hash": "bca19c5253d22a90be3ea77329f285214f0d4b385f6996aa6b7242c95a758d4d",
+  "generated_by": "helix.py run",
+  "git_commit": "9c0b89e1f35e15233b15c2563ed5460a3d570152",
+  "schema_version": "1.0.0"
+}

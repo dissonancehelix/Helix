@@ -1,0 +1,10 @@
+{
+  "N1": {
+    "violations": 0,
+    "verdict": "PASS"
+  },
+  "N2": {
+    "ig": 0.0,
+    "verdict": "PASS"
+  }
+}

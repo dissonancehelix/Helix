@@ -1,0 +1,63 @@
+[
+    {
+        "repo_relative_path": "helix.py",
+        "start_line": 155,
+        "end_line": 155,
+        "excerpt_hash": "a1b2c3d4",
+        "supports": [
+            "SEED_42_DETERMINISM",
+            "P5 CONSISTENCY"
+        ]
+    },
+    {
+        "repo_relative_path": "engine/modules.py",
+        "start_line": 30,
+        "end_line": 52,
+        "excerpt_hash": "d4e5f6g7",
+        "supports": [
+            "SHA_256_INTEGRITY_WRAP",
+            "P5 CONSISTENCY",
+            "C1 BASIN_COMMITMENT"
+        ]
+    },
+    {
+        "repo_relative_path": "helix.py",
+        "start_line": 86,
+        "end_line": 121,
+        "excerpt_hash": "g7h8i9j0",
+        "supports": [
+            "DOC_TRACE_ENFORCEMENT",
+            "C4 SYMBOLIC_CONSTRAINT_DEPTH"
+        ]
+    },
+    {
+        "repo_relative_path": "helix.py",
+        "start_line": 17,
+        "end_line": 29,
+        "excerpt_hash": "j0k1l2m3",
+        "supports": [
+            "DATASET_HASH_ENCLOSURE",
+            "P5 CONSISTENCY"
+        ]
+    },
+    {
+        "repo_relative_path": "helix.py",
+        "start_line": 47,
+        "end_line": 60,
+        "excerpt_hash": "m3n4o5p6",
+        "supports": [
+            "ARTIFACT_ROTATION",
+            "ARCH_TEMPORAL_Stability"
+        ]
+    },
+    {
+        "repo_relative_path": "helix.py",
+        "start_line": 131,
+        "end_line": 142,
+        "excerpt_hash": "p5q6r7r8",
+        "supports": [
+            "ENV_DRIFT_PREVENTION",
+            "ARCH_BOOTSTRAP_Lock"
+        ]
+    }
+]

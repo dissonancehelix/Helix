@@ -1,0 +1,1282 @@
+{
+  "action_potential_hodgkin_huxley": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "adaptive_immunity": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 0
+  },
+  "aharonov_bohm_flux": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "algorithmic_high_frequency_market": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "analog_neuromorphic_chip": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 0
+  },
+  "anyon_braiding": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "auction_winners_curse": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "automated_reasoning_resolution": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "bank_run_contagion": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "berry_phase_accumulation": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "bgp_routing_convergence": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "bio_electronic_pacemaker": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 0
+  },
+  "bitcoin_difficulty_retargeting": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "black_hole_thermodynamics": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "bond_percolation": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "boolean_network_attractor": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "bose_einstein_condensate": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "brusselator_chemical_reaction": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "byzantine_fault_tolerant_consensus": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "category_theoretic_functorial_equivalence": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "cellular_automata_rule_30": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "chemotactic_aggregation_collapse": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "chern_insulator": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "climate_model_grid_discretization": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "colloidal_gelation": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "constitutional_crisis": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "constitutional_law": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "crispr_adaptive_immunity_memory": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "cryptographic_analog_key_exchange": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "cryptographic_hash_collision": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "dielectric_breakdown_path": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "digital_twin_powerplant": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 0
+  },
+  "elastic_snap_through_buckling": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "epidemic_network_continuous_time": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 0
+  },
+  "epidemiological_sir_with_seasonal_forcing": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "ferromagnetic_curie_critical": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "financial_contagion_cascade": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "fluid_blow_up_finite_time": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "forest_fire_criticality": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "fractional_quantum_hall": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "game_of_life_conway": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "genetic_drift_fixation": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "gerrymandering_packing": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "gibbs_sampling_mix": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "glass_transition": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "golay_code_error_correction": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "gradient_descent_saddle_escape": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "granular_jamming": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "graph_coloring_chromatic_bound": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "gravitational_collapse_singularity": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "hashmap_collision_clustering": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "heat_equation_diffusion": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "homological_algebra": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "homotopy_type_theory_verification": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "hox_gene_collinearity": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "ising_model_1d": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "ising_model_2d_critical": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "kardar_parisi_zhang_growth": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "knot_invariants": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "kosterlitz_thouless_transition": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "kuramoto_phase_sync": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "lac_operon_switching": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "lambda_calculus_beta_reduction": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "langevin_mcmc_sampling": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "language_creolization": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "language_grammar": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 1
+  },
+  "ldpc_decoding": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "lotka_volterra": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 1
+  },
+  "mhd_reconnection": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "microbiome_dysbiosis": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "moran_process_evolutionary_game": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "nakamoto_consensus": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "navier_stokes_laminar": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "navier_stokes_turbulence": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "non_linear_optical_self_focusing": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "n_body_orbital_resonance": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "opinion_dynamics_polarization": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "option_pricing_black_scholes": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "pagerank_eigenvalue": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "paxos_consensus": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "pendulum_exact_resonant": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "phytoplankton_blooms": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "plasma_pinch_instability": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "polymer_melt_entanglement": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "proof_assistant_typing": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "protein_allostery": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "protein_folding": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "quantum_classical_quantum_dot": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 0
+  },
+  "quantum_error_correction": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "quantum_hall_edge_states": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "random_walk_return": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "rayleigh_benard_convection": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "reaction_diffusion_turing_patterns": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "regex_grammar_parsing": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "reinforcement_learning_policy_convergence": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "sandpile_avalanches": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "satisfiability_3_sat_phase": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "schrodinger_wavepacket": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "sir_network_percolation": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "skyrmion_lattice_stability": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "social_network_echo_chambers": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "somite_segmentation_clock": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "spin_glass_continuous_coupling": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 1
+  },
+  "spin_glass_ising_disorder": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "stabilizer_code_passive": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "stem_cell_pluripotency_landscape": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "stochastic_hybrid_automata": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 0
+  },
+  "string_net_condensation": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "sudoku_logic_constraint": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "superconducting_critical_current": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "superfluid_vortex_shedding": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "supermajority_amendment": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "supply_chain": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "supply_chain_bullwhip": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_0": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_1": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_10": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_100": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_101": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_102": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_103": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_104": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_105": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_106": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_107": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_108": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_109": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_11": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_110": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_111": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_112": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_113": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_114": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_115": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_116": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_117": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_118": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_119": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_12": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_120": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_121": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_122": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_123": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_124": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_125": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_126": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_127": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_13": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_14": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_15": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_16": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_17": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_18": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_19": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_2": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_20": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_21": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_22": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_23": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_24": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_25": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_26": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_27": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_28": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_29": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_3": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_30": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_31": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_32": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_33": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_34": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_35": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_36": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_37": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_38": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_39": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_4": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_40": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_41": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_42": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_43": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_44": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_45": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_46": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_47": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_48": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_49": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_5": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_50": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_51": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_52": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_53": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_54": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_55": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_56": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_57": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_58": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_59": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_6": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_60": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_61": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_62": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_63": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_64": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_65": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_66": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_67": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_68": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_69": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_7": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_70": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_71": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_72": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_73": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_74": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_75": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_76": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_77": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_78": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_79": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_8": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_80": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_81": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_82": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_83": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_84": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_85": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_86": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_87": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_88": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_89": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_9": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_90": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_91": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_92": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_93": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_94": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_95": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_96": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_97": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_98": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "synthetic_domain_99": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "tcp_congestion_control": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 0
+  },
+  "tokamak_plasma": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "topological_defect_annihilation": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "traffic_bottleneck_phantom_jams": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "traffic_shockwaves": {
+    "identity": 0,
+    "distinction": 1,
+    "relation": 0
+  },
+  "tragedy_of_the_commons": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "turing_machine_halting": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "type_inference_unification": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "t_cell_repertoire_shaping": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "van_der_pol_oscillator": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "voter_model_consensus": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "witten_type_topological_field": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "yield_stress_avalanche": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  },
+  "zika_viral_tropism": {
+    "identity": 1,
+    "distinction": 1,
+    "relation": 0
+  }
+}

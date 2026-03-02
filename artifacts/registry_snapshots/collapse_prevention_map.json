@@ -1,0 +1,26 @@
+{
+    "stabilizer_mappings": [
+        {
+            "stabilizer_id": "Helix_helix.py_Determinism_42_a1b2c3",
+            "collapse_phenomena": [
+                "GLOBAL_DISCONTINUITY",
+                "LOCAL_BLAST_RADIUS"
+            ],
+            "mechanism": "Consistent pseudo-random seeding (42) in all engines."
+        },
+        {
+            "stabilizer_id": "Helix_engine/modules.py_Hashing_SHA256_d4e5f6",
+            "collapse_phenomena": [
+                "DISTRIBUTIONAL_COLLAPSE"
+            ],
+            "mechanism": "Deterministic SHA-256 wrapping of all persistent artifact JSONs."
+        },
+        {
+            "stabilizer_id": "Helix_helix.py_Validation_DocTraces_g7h8i9",
+            "collapse_phenomena": [
+                "COMBINATORIAL_THRESHOLD"
+            ],
+            "mechanism": "Cross-link validation (doc traces) ensuring internal claim consistency."
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "C1": {
+    "ig_redundancy_boundary": 0.6108643020548934,
+    "verdict": "PASS"
+  },
+  "C2": {
+    "verdict": "ABSTAIN"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "layers": {
+    "l0_orchestrator": [
+      "consolidation_report.py",
+      "constraint_pyramid.py",
+      "module_registry.py",
+      "orchestrate_b_a_c.py",
+      "orchestrator.py",
+      "phase10_orchestrator.py",
+      "phase11_orchestrator.py",
+      "phase12b_15_orchestrator.py",
+      "phase12_orchestrator.py",
+      "phase19_21_orchestrator.py",
+      "phase25_26_orchestrator.py",
+      "phase27_29_orchestrator.py",
+      "phase2b_orchestrator.py",
+      "phase3x_orchestrator.py",
+      "phase8_orchestrator.py",
+      "phase9_orchestrator.py",
+      "phase_c_a_b_orchestrator.py",
+      "run_claims_suite.py",
+      "run_phases_23_to_27.py"
+    ],
+    "l1_phenomena": [
+      "fracture_mapper.py",
+      "paradoxical_closure_repair.py",
+      "pathology_probe.py",
+      "rank_collapse_suite.py",
+      "symbiosis_audit.py",
+      "tsm_module.py",
+      "tsm_regime_module.py"
+    ],
+    "l2_elements": [
+      "deep_layer_compression_suite.py",
+      "deprecated_names.py",
+      "eigenspace_tracker.py",
+      "eip_module.py",
+      "expression_kernel.py",
+      "generate_expression_scale.py",
+      "generate_k2_advanced.py",
+      "generate_k2_bias.py",
+      "generate_k2_external.py",
+      "generate_k2_registry.py",
+      "run_expression_scale.py",
+      "run_k2_blind_falsifiers.py",
+      "run_k2_external_pack.py"
+    ],
+    "l3_primitives": [
+      "run_minimal_constraints.py",
+      "run_minimal_constraint_test.py"
+    ],
+    "l4_operators": [
+      "bridge_decoupling_suite.py",
+      "constraint_ecology_suite.py",
+      "emergence_validator.py",
+      "generate_grant_theorems.py",
+      "layer3_5_bridge_suite.py",
+      "meta_kernel_lab.py",
+      "operator_composer.py",
+      "structural_chemistry_suite.py",
+      "triad_necessity_lab.py",
+      "witness_factorization.py"
+    ],
+    "l5_expansion": [
+      "assumption_stress_suite.py",
+      "counterexample_engine.py",
+      "extreme_expansion.py",
+      "falsifier_gen.py",
+      "finalize_phi.py",
+      "foreign_regime_expansion.py",
+      "generate_real_domains.py",
+      "hostile_validation.py",
+      "hunt_anomalies.py",
+      "measurement_validator.py",
+      "memory_suites.py",
+      "mlayer_v0_upgrade.py",
+      "numeric_expansion.py",
+      "phaseD_derive_metrics.py",
+      "phaseD_spectral.py",
+      "phaseE5_invariance.py",
+      "phaseE_structural_closure.py",
+      "phase_d_location.py",
+      "phi_scan.py",
+      "scale_domains_128.py",
+      "structural_lab.py"
+    ]
+  },
+  "infra": {
+    "hashing": [
+      "integrity.py"
+    ],
+    "io": [
+      "persistence.py"
+    ],
+    "manifest": [
+      "runner.py"
+    ],
+    "platform": [
+      "build_periodic_atlas.py",
+      "claims_suite_utils.py",
+      "environment.py"
+    ],
+    "trace": [
+      "integrity.py",
+      "tsm_kernel_tests.py",
+      "tsm_regime_tests.py"
+    ]
+  }
+}

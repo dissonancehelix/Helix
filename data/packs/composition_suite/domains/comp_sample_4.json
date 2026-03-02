@@ -1,0 +1,6 @@
+{
+  "id": "comp_sample_4",
+  "dynamics_operator": "Hybrid Discrete-Continuous coupling",
+  "notes": "No redundancy",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD"
+}

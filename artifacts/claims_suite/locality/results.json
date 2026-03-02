@@ -1,0 +1,10 @@
+{
+  "L1": {
+    "ig_fast_locality": 0.0,
+    "verdict": "PASS"
+  },
+  "L2": {
+    "ig_mod_locality": 0.0,
+    "verdict": "FAIL"
+  }
+}

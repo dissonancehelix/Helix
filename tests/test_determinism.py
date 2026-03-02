@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path('c:/Users/dissonance/Desktop/Helix')
 sys.path.append(str(ROOT))
 
-import engine.modules as m
+from infra.io import persistence as m_io; from infra.platform import environment as m_env
 
 def hash_artifacts():
     hashes = {}

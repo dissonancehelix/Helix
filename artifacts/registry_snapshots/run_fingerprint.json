@@ -1,0 +1,26 @@
+{
+    "repo_name": "Helix",
+    "commit_hash": "9c0b89e1f35e15233b15c2563ed5460a3d570152",
+    "timestamp": "2026-03-01T19:02:45Z",
+    "file_count": 3095,
+    "languages_detected": [
+        "Python",
+        "JSON",
+        "Markdown"
+    ],
+    "top_level_dirs": [
+        "artifacts",
+        "core",
+        "data",
+        "docs",
+        "engine",
+        "reports",
+        "tests"
+    ],
+    "excluded_dirs": [
+        {
+            "dir": "__pycache__",
+            "reason": "Build artifact"
+        }
+    ]
+}

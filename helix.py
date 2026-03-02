@@ -14,110 +14,11 @@ ROOT = Path('c:/Users/dissonance/Desktop/Helix')
 ARTIFACTS_DIR = ROOT / 'artifacts'
 ARCHIVE_DIR = ARTIFACTS_DIR / 'archive'
 
-def compute_dataset_hash():
-    hasher = hashlib.sha256()
-    paths = []
-    for d in [os.environ.get('HELIX_DOMAINS_DIR', 'data/domains'), 'data/overlays', 'core/schema', 'core/enums']:
-        d_path = ROOT / d
-        if d_path.exists():
-            for p in d_path.rglob('*'):
-                if p.is_file():
-                    paths.append(p)
-    paths.sort()
-    for p in paths:
-        hasher.update(p.read_bytes())
-    return hasher.hexdigest()
-
-def get_schema_version():
-    manifest_path = ROOT / 'core/manifest.json'
-    if manifest_path.exists():
-        with open(manifest_path, 'r', encoding='utf-8') as f:
-            return json.load(f).get('version', 'unknown')
-    return 'unknown'
-
-def get_git_commit():
-    try:
-        res = subprocess.run(['git', 'rev-parse', 'HEAD'], capture_output=True, text=True, cwd=str(ROOT))
-        if res.returncode == 0:
-            return res.stdout.strip()
-    except Exception:
-        pass
-    return None
-
-def archive_artifacts(dataset_hash):
-    manifest_path = ARTIFACTS_DIR / 'run_manifest.json'
-    if manifest_path.exists():
-        with open(manifest_path, 'r', encoding='utf-8') as f:
-            old_manifest = json.load(f)
-        old_hash = old_manifest.get('dataset_hash')
-        if old_hash and old_hash != dataset_hash:
-            timestamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
-            archive_path = ARCHIVE_DIR / f"{timestamp}_{old_hash}"
-            archive_path.mkdir(parents=True, exist_ok=True)
-            for item in ARTIFACTS_DIR.iterdir():
-                if item.name == 'archive': continue
-                shutil.move(str(item), str(archive_path / item.name))
-            print(f"Archived previous run to {archive_path}")
-
-def generate_run_manifest(dataset_hash, schema_version):
-    manifest = {
-        "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "git_commit": get_git_commit(),
-        "schema_version": schema_version,
-        "dataset_hash": dataset_hash,
-        "bootstrap_seed": 42,
-        "dependency_versions": {"numpy": "locked", "scikit-learn": "locked"},
-        "python_version": sys.version.split(' ')[0],
-        "artifact_hashes": {}
-    }
-    
-    for p in ARTIFACTS_DIR.rglob('*.json'):
-        if p.name.endswith('manifest.json') or 'archive' in p.parts or 'tsm' in p.parts or 'expression' in p.parts or 'external_pack_v1' in p.parts or 'meta_kernel' in p.parts or p.name.startswith('k2_') or p.name.startswith('kernels') or p.name.startswith('kernel2_'):
-            continue
-        rel_path = p.relative_to(ARTIFACTS_DIR).as_posix()
-        hasher = hashlib.sha256()
-        hasher.update(p.read_bytes())
-        manifest["artifact_hashes"][rel_path] = hasher.hexdigest()
-        
-    with open(ARTIFACTS_DIR / 'run_manifest.json', 'w', encoding='utf-8') as f:
-        json.dump(manifest, f, indent=2, sort_keys=True)
-    return manifest
-
-def enforce_doc_traces(dataset_hash):
-    docs_dir = ROOT / 'docs'
-    if not docs_dir.exists(): return
-    for p in docs_dir.rglob('*.md'):
-        name = p.name
-        if 'expression' in name or 'identity_pack' in name or 'external_pack' in name or 'future_research' in name or name.startswith('k2_') or name.startswith('kernels') or name.startswith('meta_kernel'): continue
-        content = p.read_text('utf-8')
-        if "Derived From:" not in content:
-            print(f"FAIL: {p} missing 'Derived From:' block.")
-            sys.exit(1)
-            
-        hash_match = re.search(r'dataset_hash:\s*([a-f0-9]+)', content)
-        if not hash_match:
-            print(f"FAIL: {p} missing dataset_hash in 'Derived From:' block.")
-            sys.exit(1)
-            
-        doc_hash = hash_match.group(1)
-        if doc_hash != dataset_hash:
-            print(f"FAIL: {p} dataset_hash mismatch. Expected {dataset_hash}, got {doc_hash}.")
-            sys.exit(1)
-            
-        artifacts_referenced = re.findall(r'- \/artifacts\/(.*\.json)', content)
-        nums_in_doc = set(re.findall(r'\b\d+\.\d+\b', content))
-        
-        art_texts = []
-        for a_path in artifacts_referenced:
-            full_path = ARTIFACTS_DIR / a_path
-            if full_path.exists():
-                art_texts.append(full_path.read_text('utf-8'))
-        combined_art_text = " ".join(art_texts)
-        
-        for num in nums_in_doc:
-            if num not in combined_art_text:
-                print(f"FAIL: Numeric Drift Detected in {p}. Value {num} not found in referenced artifacts.")
-                sys.exit(1)
+from infra.hashing.integrity import compute_dataset_hash
+from infra.platform.environment import get_git_commit, get_schema_version
+from infra.io.persistence import save_wrapped, archive_artifacts
+from infra.trace.integrity import enforce_doc_traces
+from infra.manifest.runner import generate_run_manifest
 
 def run_tests():
     for test_script in (ROOT / 'tests').glob('*.py'):
@@ -127,8 +28,8 @@ def run_tests():
             print(f"Test {test_script.name} failed.")
             sys.exit(1)
 
-def validate_environment():
-    ds_hash = compute_dataset_hash()
+def validate_run_environment():
+    ds_hash = compute_dataset_hash([os.environ.get('HELIX_DOMAINS_DIR', 'data/domains'), 'data/overlays', 'core/schema', 'core/enums'])
     manifest_path = ARTIFACTS_DIR / 'run_manifest.json'
     if not manifest_path.exists():
         print("Manifest missing, cannot execute read-only command.")
@@ -142,24 +43,32 @@ def validate_environment():
 
 def run_cmd(args):
     print("Computing dataset hash...")
-    ds_hash = compute_dataset_hash()
-    schema_ver = get_schema_version()
+    ds_hash = compute_dataset_hash([ROOT / d for d in [os.environ.get('HELIX_DOMAINS_DIR', 'data/domains'), 'data/overlays', 'core/schema', 'core/enums']])
+    schema_ver = get_schema_version(ROOT)
+    commit_hash = get_git_commit(ROOT) or 'unknown'
     print(f"Dataset Hash: {ds_hash}")
     
-    archive_artifacts(ds_hash)
+    archive_artifacts(ARTIFACTS_DIR, ARCHIVE_DIR, ds_hash)
     
     os.environ['HELIX_DATASET_HASH'] = ds_hash
     os.environ['HELIX_SCHEMA_VERSION'] = schema_ver
-    os.environ['HELIX_GIT_COMMIT'] = get_git_commit() or 'unknown'
+    os.environ['HELIX_GIT_COMMIT'] = commit_hash
     os.environ['HELIX_BOOTSTRAP_SEED'] = '42'
     
-    print("Executing Engine Computation Layer...")
-    engine_modules = ROOT / 'engine/modules.py'
-    if engine_modules.exists():
-        res = subprocess.run([sys.executable, str(engine_modules)])
-        if res.returncode != 0:
-            print("Engine execution failed.")
-            sys.exit(1)
+    print("Executing Layer 0 Orchestrator...")
+    from layers.l0_orchestrator.orchestrator import execute_pyramid
+    execute_pyramid()
+            
+    print("Generating Run Manifest...")
+    generate_run_manifest(ROOT, ARTIFACTS_DIR, ds_hash, schema_ver, commit_hash)
+    
+    print("Enforcing Doc Traces...")
+    enforce_doc_traces(ROOT, ARTIFACTS_DIR, ds_hash)
+    
+    print("Running Tests (invariance + determinism)...")
+    run_tests()
+    
+    print("Pipeline Execution Completed Successfully.")
             
     print("Generating Run Manifest...")
     generate_run_manifest(ds_hash, schema_ver)

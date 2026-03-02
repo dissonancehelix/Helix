@@ -139,6 +139,25 @@
           },
           "units_or_none": {
             "type": "string"
+          },
+          "threshold_value": {
+            "type": "number"
+          },
+          "threshold_type": {
+            "type": "string",
+            "enum": [
+              "MARGIN",
+              "BASIN",
+              "CAPACITY"
+            ]
+          },
+          "projection_operator_id": {
+            "type": "string"
+          },
+          "confidence_score": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
           }
         }
       }

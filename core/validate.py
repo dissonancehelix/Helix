@@ -13,7 +13,7 @@ except ImportError:
     sys.exit(1)
 
 ROOT = Path(__file__).parent.parent
-KB_DIR = ROOT / "kb"
+KB_DIR = ROOT / "data" / "overlays" / "kb"
 SCHEMA_PATH = Path(__file__).parent / "schema.json"
 
 
@@ -69,7 +69,7 @@ def validate_transitions(objects):
             continue
         try:
             result = subprocess.run(
-                ["git", "show", f"HEAD:kb/{filename}"],
+                ["git", "show", f"HEAD:data/overlays/kb/{filename}"],
                 capture_output=True, text=True, encoding="utf-8", cwd=str(ROOT)
             )
             if result.returncode != 0:
@@ -108,14 +108,14 @@ def validate_references(objects):
             continue
         for ref in refs:
             if isinstance(ref, str) and ref not in known_ids:
-                errors.append(f"{filename}: reference '{ref}' does not match any known id in kb/")
+                errors.append(f"{filename}: reference '{ref}' does not match any known id in data/overlays/kb/")
 
     return errors
 
 
 def main():
     if not KB_DIR.exists():
-        print(f"ERROR: kb/ directory not found at {KB_DIR}")
+        print(f"ERROR: data/overlays/kb/ directory not found at {KB_DIR}")
         sys.exit(1)
 
     schema = load_schema()
@@ -129,7 +129,7 @@ def main():
     all_errors.extend(validate_observables(objects))
 
     if not objects and not parse_errors:
-        print("kb/ is empty — nothing to validate.")
+        print("data/overlays/kb/ is empty — nothing to validate.")
         sys.exit(0)
 
     if all_errors:

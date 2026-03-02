@@ -1,0 +1,128 @@
+{
+  "A1: No Ontology": [
+    {
+      "id": "option_pricing_black_scholes",
+      "geometric_collapse": false
+    },
+    {
+      "id": "gerrymandering_packing",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_73",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_112",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_80",
+      "geometric_collapse": false
+    },
+    {
+      "id": "climate_model_grid_discretization",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_17",
+      "geometric_collapse": false
+    },
+    {
+      "id": "graph_coloring_chromatic_bound",
+      "geometric_collapse": false
+    },
+    {
+      "id": "dielectric_breakdown_path",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_51",
+      "geometric_collapse": false
+    }
+  ],
+  "A2: No Nonlinearity": [
+    {
+      "id": "option_pricing_black_scholes",
+      "geometric_collapse": false
+    },
+    {
+      "id": "gerrymandering_packing",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_73",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_112",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_80",
+      "geometric_collapse": false
+    },
+    {
+      "id": "climate_model_grid_discretization",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_17",
+      "geometric_collapse": false
+    },
+    {
+      "id": "graph_coloring_chromatic_bound",
+      "geometric_collapse": false
+    },
+    {
+      "id": "dielectric_breakdown_path",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_51",
+      "geometric_collapse": false
+    }
+  ],
+  "A3: No Feedback": [
+    {
+      "id": "option_pricing_black_scholes",
+      "geometric_collapse": false
+    },
+    {
+      "id": "gerrymandering_packing",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_73",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_112",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_80",
+      "geometric_collapse": false
+    },
+    {
+      "id": "climate_model_grid_discretization",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_17",
+      "geometric_collapse": false
+    },
+    {
+      "id": "graph_coloring_chromatic_bound",
+      "geometric_collapse": false
+    },
+    {
+      "id": "dielectric_breakdown_path",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_51",
+      "geometric_collapse": false
+    }
+  ]
+}

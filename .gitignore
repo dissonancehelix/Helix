@@ -24,7 +24,7 @@ Thumbs.db
 # Staging scratch
 staging/*.tmp
 
-# Jupyter (if you ever use)
+# Jupyter
 .ipynb_checkpoints/
 
 # Local experiment outputs

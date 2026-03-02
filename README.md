@@ -1,15 +1,13 @@
-HELIX LLM MANUAL (INTERNAL)
-Version: 0.3
-Status: STRICT
+Version: 0.4
+Status: CONSOLIDATION (HARDENED)
 
 Helix is a structural stress-testing engine for cross-domain persistence.
-It is NOT a metaphor engine.
-It is NOT a grand unification engine.
-It is NOT a theory generator.
 
 Primary objective:
 Reduce cross-domain analogy to structure-preserving mappings
 while minimizing obstruction entropy.
+
+Discover the minimal structural constraints required for existence. What structure must be present for any collapse geometry to form?
 
 ------------------------------------------------------------
 0. REPOSITORY ARCHITECTURE CONTRACT (NON-NEGOTIABLE)
@@ -26,7 +24,8 @@ README.md
 helix.py
 core/
 data/
-engine/
+layers/
+infra/
 artifacts/
 docs/
 tests/
@@ -49,8 +48,12 @@ Raw domain objects only.
 - No beam references.
 Refinements must live in /data/overlays.
 
-/engine
-Deterministic computation layer.
+/layers
+Layered Constraint Pyramid logic (L1-L5).
+- Phenomena, Elements, Primitives, Operators, Expansion.
+
+/infra
+Infrastructure, I/O, Hashing, Trace verification.
 - Reads only from /core and /data.
 - Writes only to /artifacts.
 - Must not mutate /data or /core.
@@ -81,7 +84,7 @@ PIPELINE FLOW (STRICT)
 
 core + data
     ↓
-engine
+layers + infra
     ↓
 artifacts
     ↓
@@ -127,12 +130,13 @@ Not an evolving folder.
 
 Layer 0 — Domain ingestion
 Layer 1 — Operator extraction
-Layer 2 — Persistence ontology tagging
+Layer 2 — Persistence ontology tagging (P0–P4)
 Layer 3 — Obstruction logging
 Layer 4 — Entropy measurement
 Layer 5 — Coordinate rotation (isotopic test)
-Layer 6 — Axis proposal
-Layer 7 — Falsification
+Layer 6 — Axis proposal (Meta-Kernel Lab)
+Layer 7 — Falsification / Necessity Suite
+Layer 8 — Consolidation (Measurement / Operator Algebra)
 
 LLM must not blend layers.
 LLM must not promote across layers prematurely.
@@ -157,11 +161,12 @@ Never guess.
 
 All domains MUST be tagged as exactly one primary class:
 
-P0_STATE_LOCAL
-P1_PATTERN_SPATIOTEMPORAL
-P2_GLOBAL_INVARIANT
-P3_ALGORITHMIC_SYNDROME
-P4_DISTRIBUTIONAL_EQUILIBRIUM
+P0_STATE_LOCAL (Dynamics)
+P1_PATTERN_SPATIOTEMPORAL (Information)
+P2_GLOBAL_INVARIANT (Execution)
+P3_ALGORITHMIC_SYNDROME (Irreversibility)
+P4_DISTRIBUTIONAL_EQUILIBRIUM (Identity)
+(Plus P5_VALUE_AXIS projected)
 
 Mappings across ontology classes are disallowed
 unless explicitly marked mixed.
@@ -397,16 +402,40 @@ Docs referencing prior runs are historical only.
 Helix claims are run-bound, not timeless.
 
 ------------------------------------------------------------
-15. INSTRUMENT CLI ENFORCEMENT
+16. MINIMAL STRUCTURAL CONSTRAINTS DISCOVERY
 ------------------------------------------------------------
 
-`helix.py` is the only authorized entrypoint to compute layers.
-Available commands:
+Objective: Identify the minimal necessary structural conditions required for collapse geometry to exist.
 
-- `helix.py run`: Deterministically execute computation pipeline. (Modifies state)
-- `helix.py test`: Execute regression and test invariant suite. (Read-only)
-- `helix.py diff <old_hash> <new_hash>`: Output structural differences of runs. (Read-only)
-- `helix.py query <filters>`: Filter active domains and artifacts. (Read-only)
-- `helix.py snapshot`: Bundle the repo workspace and data. (Read-only)
-- `helix.py audit`: Verify metadata and pipeline hashes. (Read-only)
-- `helix.py falsify`: Synthetic generation to detect invariant failures. (Read-only)
+PHASE 1 — NECESSITY ABSTRACTION
+Construct ablation packs (A1–A5) removing: Ontology, Multi-Basin, Nonlinearity, Feedback, Memory.
+
+PHASE 2 — COLLAPSE EXISTENCE
+Measure IG(feature -> CollapseGeometryPresent).
+
+PHASE 3 — RANK REDUCTION
+Run SVD on Domain × Constraint matrix to find minimal rank (Rank <= 3 = Success).
+
+------------------------------------------------------------
+17. CONSOLIDATION & FORMALIZATION
+------------------------------------------------------------
+
+PILLAR 1 — MEASUREMENT FORMALIZATION
+- projection_registry.json: Allowed dimensionless forms.
+- layers/l5_expansion/measurement_validator.py: Scans for unit leakage.
+- layers/l5_expansion/numeric_expansion.py: Qualitative to numeric densification.
+
+PILLAR 2 — COUNTEREXAMPLE ENGINE
+- Structural mutation (remove feedback, linearize, etc.).
+- Detect boundary geometry flips.
+
+PILLAR 3 — OPERATOR ALGEBRA
+- Formal composition (Sequential, Parallel, Nested, Feedback).
+- Minimal generating operator sets per collapse class.
+
+PILLAR 4 — LONGITUDINAL SPINE
+- artifacts/kernel_registry.json: Archive of validated eigenspaces.
+- layers/l2_elements/eigenspace_tracker.py: Monitor drift and isotopic rotation history.
+- docs/phase_log.md: Append-only ledger of survival.
+
+------------------------------------------------------------

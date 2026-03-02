@@ -1,0 +1,6170 @@
+{
+  "artifact_hash": "623ff9bb79078b1d82f8e8b15615bb3bad21c2a99de5a967aa971b515d9f4988",
+  "bootstrap_seed": 42,
+  "data": [
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "action_potential_hodgkin_huxley"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "adaptive_immunity"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "aharonov_bohm_flux"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "algorithmic_high_frequency_market"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005952380952380952
+      },
+      "domain_id": "analog_neuromorphic_chip"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005952380952380952
+      },
+      "domain_id": "anyon_braiding"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "auction_winners_curse"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "automated_reasoning_resolution"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "bank_run_contagion"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "berry_phase_accumulation"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "bgp_routing_convergence"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006024096385542169
+      },
+      "domain_id": "bio_electronic_pacemaker"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "bitcoin_difficulty_retargeting"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "black_hole_thermodynamics"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "bond_percolation"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "boolean_network_attractor"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "bose_einstein_condensate"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "brusselator_chemical_reaction"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "byzantine_fault_tolerant_consensus"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "category_theoretic_functorial_equivalence"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005747126436781609
+      },
+      "domain_id": "cellular_automata_rule_30"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "chemotactic_aggregation_collapse"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "chern_insulator"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005747126436781609
+      },
+      "domain_id": "climate_model_grid_discretization"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005952380952380952
+      },
+      "domain_id": "colloidal_gelation"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "constitutional_crisis"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "constitutional_law"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "crispr_adaptive_immunity_memory"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "cryptographic_analog_key_exchange"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "cryptographic_hash_collision"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "dielectric_breakdown_path"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005952380952380952
+      },
+      "domain_id": "digital_twin_powerplant"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "elastic_snap_through_buckling"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005952380952380952
+      },
+      "domain_id": "epidemic_network_continuous_time"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "epidemiological_sir_with_seasonal_forcing"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "ferromagnetic_curie_critical"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "financial_contagion_cascade"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005747126436781609
+      },
+      "domain_id": "fluid_blow_up_finite_time"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "forest_fire_criticality"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "fractional_quantum_hall"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "game_of_life_conway"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "genetic_drift_fixation"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "gerrymandering_packing"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "gibbs_sampling_mix"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "glass_transition"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005747126436781609
+      },
+      "domain_id": "golay_code_error_correction"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "gradient_descent_saddle_escape"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "granular_jamming"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005747126436781609
+      },
+      "domain_id": "graph_coloring_chromatic_bound"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "gravitational_collapse_singularity"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "hashmap_collision_clustering"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "heat_equation_diffusion"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "homological_algebra"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "homotopy_type_theory_verification"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "hox_gene_collinearity"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "ising_model_1d"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005747126436781609
+      },
+      "domain_id": "ising_model_2d_critical"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "kardar_parisi_zhang_growth"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "knot_invariants"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "kosterlitz_thouless_transition"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "kuramoto_phase_sync"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "lac_operon_switching"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "lambda_calculus_beta_reduction"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "langevin_mcmc_sampling"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "language_creolization"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "language_grammar"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "ldpc_decoding"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "lotka_volterra"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "mhd_reconnection"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "microbiome_dysbiosis"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "moran_process_evolutionary_game"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "n_body_orbital_resonance"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "nakamoto_consensus"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "navier_stokes_laminar"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "navier_stokes_turbulence"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "non_linear_optical_self_focusing"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "opinion_dynamics_polarization"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "option_pricing_black_scholes"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "pagerank_eigenvalue"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "paxos_consensus"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "pendulum_exact_resonant"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_0"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_1"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_10"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_11"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_12"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_13"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_14"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_15"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_16"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_17"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 2,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_18"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_19"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_2"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_20"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_21"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_22"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 2,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_23"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_24"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_25"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_26"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_27"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_28"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_29"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 2,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_3"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_30"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_31"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_32"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_33"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_34"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_35"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_36"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_37"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 2,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_38"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_39"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_4"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_40"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_41"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_42"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 2,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_43"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_44"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_45"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_46"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_47"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_48"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_49"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_5"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_50"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_51"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_52"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_53"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_54"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_55"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_56"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_57"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_58"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_59"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_6"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010526315789473684
+      },
+      "domain_id": "phaseB_adv_domain_60"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010416666666666666
+      },
+      "domain_id": "phaseB_adv_domain_61"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_62"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 2,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_63"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010309278350515464
+      },
+      "domain_id": "phaseB_adv_domain_7"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_8"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010638297872340425
+      },
+      "domain_id": "phaseB_adv_domain_9"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_0"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_1"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_10"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_11"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_12"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_13"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_14"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_15"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_16"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_17"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_18"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_19"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_2"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_20"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_21"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_22"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_23"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_24"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_25"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_26"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_27"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_28"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_29"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_3"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_30"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_31"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_32"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_33"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_34"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_35"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_36"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_37"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_38"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_39"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_4"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_5"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_6"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_7"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_8"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseB_ff_domain_9"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_0"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_1"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_10"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_100"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_101"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_102"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_103"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_104"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_105"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_106"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_107"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_108"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_109"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_11"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_110"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_111"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_112"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_113"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_114"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_115"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_116"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_117"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_118"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_119"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_12"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_120"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_121"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_122"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_123"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_124"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_125"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_126"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_127"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_128"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_129"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_13"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_130"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_131"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_132"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_133"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_134"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_135"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_136"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_137"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_138"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_139"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_14"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_140"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_141"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_142"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_143"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_144"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_145"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_146"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_147"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_148"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_149"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_15"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_150"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_151"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_152"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_153"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_154"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_155"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_156"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_157"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_158"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_159"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_16"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_160"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_161"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_162"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_163"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_164"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_165"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_166"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_167"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_168"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_169"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_17"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_170"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_171"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_172"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_173"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_174"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_175"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_176"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_177"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_178"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_179"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_18"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_180"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_181"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_182"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_183"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_184"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_185"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_186"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_187"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_188"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_189"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_19"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_190"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_191"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_192"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_193"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_194"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_195"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_196"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_197"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_198"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_199"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_2"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_20"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_200"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_201"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_202"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_203"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_204"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_205"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_206"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_207"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_208"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_209"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_21"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_210"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_211"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_212"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_213"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_214"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_215"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_216"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_217"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_218"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_219"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_22"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_220"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_221"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_222"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_223"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_224"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_225"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_226"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_227"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_228"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_229"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_23"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_230"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_231"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_232"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_233"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_234"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_235"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_236"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_237"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_238"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_239"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_24"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_240"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_241"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_242"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_243"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_244"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_245"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_246"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_247"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_248"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_249"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_25"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_250"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_251"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_252"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_253"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_254"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_255"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_26"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_27"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_28"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_29"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_3"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_30"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_31"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_32"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_33"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_34"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_35"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_36"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_37"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_38"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_39"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_4"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_40"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_41"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_42"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_43"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_44"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_45"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_46"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_47"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_48"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_49"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_5"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_50"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_51"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_52"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_53"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_54"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_55"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_56"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_57"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_58"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_59"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_6"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_60"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_61"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_62"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_63"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_64"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_65"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_66"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_67"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_68"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_69"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_7"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_70"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_71"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_72"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_73"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_74"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_75"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_76"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_77"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_78"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_79"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_8"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_80"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_81"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_82"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_83"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_84"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_85"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_86"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_87"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_88"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_89"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_9"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_90"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_91"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_92"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_93"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_94"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_95"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_96"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_97"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.008333333333333333
+      },
+      "domain_id": "phaseC_domain_98"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.010869565217391304
+      },
+      "domain_id": "phaseC_domain_99"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "phytoplankton_blooms"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "plasma_pinch_instability"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "polymer_melt_entanglement"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "proof_assistant_typing"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "protein_allostery"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.004761904761904762
+      },
+      "domain_id": "protein_folding"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005952380952380952
+      },
+      "domain_id": "quantum_classical_quantum_dot"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "quantum_error_correction"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "quantum_hall_edge_states"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "random_walk_return"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "rayleigh_benard_convection"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "reaction_diffusion_turing_patterns"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "regex_grammar_parsing"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "reinforcement_learning_policy_convergence"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005952380952380952
+      },
+      "domain_id": "sandpile_avalanches"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "satisfiability_3_sat_phase"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "schrodinger_wavepacket"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "sir_network_percolation"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "skyrmion_lattice_stability"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "social_network_echo_chambers"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "somite_segmentation_clock"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "spin_glass_continuous_coupling"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "spin_glass_ising_disorder"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "stabilizer_code_passive"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "stem_cell_pluripotency_landscape"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005952380952380952
+      },
+      "domain_id": "stochastic_hybrid_automata"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "string_net_condensation"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "sudoku_logic_constraint"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "superconducting_critical_current"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "superfluid_vortex_shedding"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "supermajority_amendment"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "supply_chain"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "supply_chain_bullwhip"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_0"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_1"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_10"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_100"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_101"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_102"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_103"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_104"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_105"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_106"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_107"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_108"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_109"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_11"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_110"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_111"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_112"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_113"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_114"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_115"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_116"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_117"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_118"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_119"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_12"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_120"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_121"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_122"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_123"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_124"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_125"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_126"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_127"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_13"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_14"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_15"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_16"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_17"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_18"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_19"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_2"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_20"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_21"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_22"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_23"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_24"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_25"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_26"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_27"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_28"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_29"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_3"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_30"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_31"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_32"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_33"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_34"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_35"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_36"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_37"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_38"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_39"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_4"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_40"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_41"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_42"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_43"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_44"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_45"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_46"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_47"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_48"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_49"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_5"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_50"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_51"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_52"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_53"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_54"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_55"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_56"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_57"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_58"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_59"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_6"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_60"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_61"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_62"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_63"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_64"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_65"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_66"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_67"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_68"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_69"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_7"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_70"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_71"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_72"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_73"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_74"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_75"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_76"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_77"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_78"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_79"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_8"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_80"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_81"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_82"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_83"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_84"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_85"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_86"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_87"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_88"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_89"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_9"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_90"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_91"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_92"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_93"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_94"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 0,
+        "numeric_coverage": 0.005235602094240838
+      },
+      "domain_id": "synthetic_domain_95"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_96"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_97"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_98"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.006944444444444444
+      },
+      "domain_id": "synthetic_domain_99"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "t_cell_repertoire_shaping"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "tcp_congestion_control"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.004739336492890996
+      },
+      "domain_id": "tokamak_plasma"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "topological_defect_annihilation"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "traffic_bottleneck_phantom_jams"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "traffic_shockwaves"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "tragedy_of_the_commons"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "turing_machine_halting"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "type_inference_unification"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005747126436781609
+      },
+      "domain_id": "van_der_pol_oscillator"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0058823529411764705
+      },
+      "domain_id": "voter_model_consensus"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "witten_type_topological_field"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 0,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.005813953488372093
+      },
+      "domain_id": "yield_stress_avalanche"
+    },
+    {
+      "debt": {
+        "NO_THRESHOLD_DEFINED": 1,
+        "SCHEMA_INSUFFICIENT": 0,
+        "TODO": 0,
+        "UNDEFINED": 1,
+        "numeric_coverage": 0.0
+      },
+      "domain_id": "zika_viral_tropism"
+    }
+  ],
+  "dataset_hash": "bca19c5253d22a90be3ea77329f285214f0d4b385f6996aa6b7242c95a758d4d",
+  "generated_by": "helix.py run",
+  "git_commit": "9c0b89e1f35e15233b15c2563ed5460a3d570152",
+  "schema_version": "1.0.0"
+}

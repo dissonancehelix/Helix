@@ -1,0 +1,12 @@
+{
+    "dominant_element": "C1",
+    "secondary_element": "C2",
+    "balance_index": 0.22118527408156335,
+    "preference": "COMBINATORIAL_EXPLORER",
+    "alignment_score": 0.9174259466047091,
+    "alignment_result": "STRUCTURAL_CONVERGENCE",
+    "unique_genres": 51,
+    "shannon_entropy": 2.8919200733275523,
+    "day_bias": 0.37491205499829133,
+    "pct_top25_multisource": 0.16034669555796316
+}

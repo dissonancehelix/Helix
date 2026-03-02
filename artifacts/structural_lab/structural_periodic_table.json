@@ -1,0 +1,288 @@
+[
+  {
+    "name": "C1_KERNEL_1",
+    "status": "ELEMENT",
+    "promotion_stage_reached": "STAGE_6_COMPLETE",
+    "ig_scores": {
+      "ig_boundary": 0.47503823209497176,
+      "p_value": 0.001996007984031936
+    },
+    "blind_results": {
+      "ig_blind": 0.5305309458637344
+    },
+    "scale_results": {
+      "dropout_0.1": {
+        "mean": 0.47644351449029365,
+        "std": 0.006479620688256359,
+        "drift": 0.01359997665534051
+      },
+      "dropout_0.2": {
+        "mean": 0.47700962636873473,
+        "std": 0.011314626286334964,
+        "drift": 0.023719911794544576
+      },
+      "dropout_0.3": {
+        "mean": 0.4788493351327251,
+        "std": 0.011369978091621701,
+        "drift": 0.02374437476189844
+      }
+    },
+    "orthogonality_metrics": {},
+    "adversarial_results": {
+      "ig_adversarial": 0.3314033052763665
+    },
+    "drift_metrics": {}
+  },
+  {
+    "name": "C2_EXPRESSION",
+    "status": "ELEMENT",
+    "promotion_stage_reached": "STAGE_6_COMPLETE",
+    "ig_scores": {
+      "ig_boundary": 0.2573599210332208,
+      "p_value": 0.001996007984031936
+    },
+    "blind_results": {
+      "ig_blind": 0.24051681360256594
+    },
+    "scale_results": {
+      "dropout_0.1": {
+        "mean": 0.2577457131779661,
+        "std": 0.004254281363360192,
+        "drift": 0.01650573076230758
+      },
+      "dropout_0.2": {
+        "mean": 0.25669972431272153,
+        "std": 0.004233371527513485,
+        "drift": 0.01649153119410715
+      },
+      "dropout_0.3": {
+        "mean": 0.254131902838884,
+        "std": 0.010352330921005029,
+        "drift": 0.04073605385480549
+      }
+    },
+    "orthogonality_metrics": {},
+    "adversarial_results": {
+      "ig_adversarial": 0.17253201916788016
+    },
+    "drift_metrics": {}
+  },
+  {
+    "name": "C3_MEMORY_TRACE",
+    "status": "ARCHIVED",
+    "promotion_stage_reached": "INDEPENDENCE_FAIL",
+    "ig_scores": {
+      "ig_boundary": 0.004563494285620634,
+      "p_value": 0.003992015968063872
+    },
+    "blind_results": {},
+    "scale_results": {},
+    "orthogonality_metrics": {},
+    "adversarial_results": {},
+    "drift_metrics": {}
+  },
+  {
+    "name": "C4_MINIMAL_TRIAD",
+    "status": "MODIFIER",
+    "promotion_stage_reached": "SCALE_EXPANSION_FAIL",
+    "ig_scores": {
+      "ig_boundary": 0.05895329050491266,
+      "p_value": 0.001996007984031936
+    },
+    "blind_results": {
+      "ig_blind": 0.053915558146573686
+    },
+    "scale_results": {
+      "dropout_0.1": {
+        "mean": 0.05872032461186205,
+        "std": 0.0020826694636761553,
+        "drift": 0.035467607544319144
+      },
+      "dropout_0.2": {
+        "mean": 0.0601176574368778,
+        "std": 0.003800490364457443,
+        "drift": 0.06321753812896544
+      },
+      "dropout_0.3": {
+        "mean": 0.05773072460928114,
+        "std": 0.005174395158843764,
+        "drift": 0.08962983063583557
+      }
+    },
+    "orthogonality_metrics": {},
+    "adversarial_results": {},
+    "drift_metrics": {}
+  },
+  {
+    "name": "C5_ASYMMETRY",
+    "status": "ARCHIVED",
+    "promotion_stage_reached": "INDEPENDENCE_FAIL",
+    "ig_scores": {
+      "ig_boundary": 0.006545037178150826,
+      "p_value": 0.003992015968063872
+    },
+    "blind_results": {},
+    "scale_results": {},
+    "orthogonality_metrics": {},
+    "adversarial_results": {},
+    "drift_metrics": {}
+  },
+  {
+    "name": "C6_DISSIPATION",
+    "status": "ARCHIVED",
+    "promotion_stage_reached": "INDEPENDENCE_FAIL",
+    "ig_scores": {
+      "ig_boundary": 0.0022776666246057346,
+      "p_value": 0.08183632734530938
+    },
+    "blind_results": {},
+    "scale_results": {},
+    "orthogonality_metrics": {},
+    "adversarial_results": {},
+    "drift_metrics": {}
+  },
+  {
+    "name": "C7_INTEGRATION",
+    "status": "MODIFIER",
+    "promotion_stage_reached": "SCALE_EXPANSION_FAIL",
+    "ig_scores": {
+      "ig_boundary": 0.02265468316207277,
+      "p_value": 0.001996007984031936
+    },
+    "blind_results": {
+      "ig_blind": 0.0809009443805211
+    },
+    "scale_results": {
+      "dropout_0.1": {
+        "mean": 0.023262538916013334,
+        "std": 0.0010872204036813447,
+        "drift": 0.04673696026343754
+      },
+      "dropout_0.2": {
+        "mean": 0.021601973174095505,
+        "std": 0.0015851050001017696,
+        "drift": 0.07337778423985823
+      },
+      "dropout_0.3": {
+        "mean": 0.0217198600920075,
+        "std": 0.0030208182296118146,
+        "drift": 0.13908091846514703
+      }
+    },
+    "orthogonality_metrics": {},
+    "adversarial_results": {},
+    "drift_metrics": {}
+  },
+  {
+    "name": "C8_SELF_MODEL",
+    "status": "ELEMENT",
+    "promotion_stage_reached": "STAGE_6_COMPLETE",
+    "ig_scores": {
+      "ig_boundary": 0.07880516432691292,
+      "p_value": 0.001996007984031936
+    },
+    "blind_results": {
+      "ig_blind": 0.0800494867009435
+    },
+    "scale_results": {
+      "dropout_0.1": {
+        "mean": 0.07877516776439983,
+        "std": 0.002062991363250293,
+        "drift": 0.026188345840556324
+      },
+      "dropout_0.2": {
+        "mean": 0.08078027111263823,
+        "std": 0.003954799792999251,
+        "drift": 0.04895749530881457
+      },
+      "dropout_0.3": {
+        "mean": 0.0791473156116283,
+        "std": 0.0025401240267607338,
+        "drift": 0.03209362155921202
+      }
+    },
+    "orthogonality_metrics": {},
+    "adversarial_results": {
+      "ig_adversarial": 0.04906661652786999
+    },
+    "drift_metrics": {}
+  },
+  {
+    "name": "C9_FEEDBACK",
+    "status": "ARCHIVED",
+    "promotion_stage_reached": "INDEPENDENCE_FAIL",
+    "ig_scores": {
+      "ig_boundary": 0.0,
+      "p_value": 1.0
+    },
+    "blind_results": {},
+    "scale_results": {},
+    "orthogonality_metrics": {},
+    "adversarial_results": {},
+    "drift_metrics": {}
+  },
+  {
+    "name": "C10_COORDINATION",
+    "status": "MODIFIER",
+    "promotion_stage_reached": "SCALE_EXPANSION_FAIL",
+    "ig_scores": {
+      "ig_boundary": 0.02206731925234884,
+      "p_value": 0.001996007984031936
+    },
+    "blind_results": {
+      "ig_blind": 0.022780234030756144
+    },
+    "scale_results": {
+      "dropout_0.1": {
+        "mean": 0.02245357642052736,
+        "std": 0.0012555305668484136,
+        "drift": 0.055916727358580776
+      },
+      "dropout_0.2": {
+        "mean": 0.02280965750519381,
+        "std": 0.0017555517372002814,
+        "drift": 0.07696527928292037
+      },
+      "dropout_0.3": {
+        "mean": 0.020717485786917,
+        "std": 0.0019738830627501463,
+        "drift": 0.09527618301639967
+      }
+    },
+    "orthogonality_metrics": {},
+    "adversarial_results": {},
+    "drift_metrics": {}
+  },
+  {
+    "name": "C11_SYMBOLIC_DEPTH",
+    "status": "MODIFIER",
+    "promotion_stage_reached": "SCALE_EXPANSION_FAIL",
+    "ig_scores": {
+      "ig_boundary": 0.05624870782128502,
+      "p_value": 0.001996007984031936
+    },
+    "blind_results": {
+      "ig_blind": 0.07534600207853198
+    },
+    "scale_results": {
+      "dropout_0.1": {
+        "mean": 0.05721696475621165,
+        "std": 0.0017847859453306893,
+        "drift": 0.03119329943036917
+      },
+      "dropout_0.2": {
+        "mean": 0.05639325238813646,
+        "std": 0.0036047812052546887,
+        "drift": 0.06392220680094744
+      },
+      "dropout_0.3": {
+        "mean": 0.056790486622972244,
+        "std": 0.003297201518823076,
+        "drift": 0.058059045745705654
+      }
+    },
+    "orthogonality_metrics": {},
+    "adversarial_results": {},
+    "drift_metrics": {}
+  }
+]

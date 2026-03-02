@@ -1,0 +1,78 @@
+{
+  "universality": {
+    "U1": {
+      "ig_so_b": 0.8368182264866447,
+      "p_value": 0.000999000999000999,
+      "verdict": "PASS"
+    },
+    "U2": {
+      "ig_topo_b": 0.0,
+      "p_value": 1.0,
+      "verdict": "FAIL"
+    }
+  },
+  "necessity": {
+    "N1": {
+      "violations": 0,
+      "verdict": "PASS"
+    },
+    "N2": {
+      "ig": 0.0,
+      "verdict": "PASS"
+    }
+  },
+  "composition": {
+    "C1": {
+      "ig_redundancy_boundary": 0.6108643020548934,
+      "verdict": "PASS"
+    },
+    "C2": {
+      "verdict": "ABSTAIN"
+    }
+  },
+  "locality": {
+    "L1": {
+      "ig_fast_locality": 0.0,
+      "verdict": "PASS"
+    },
+    "L2": {
+      "ig_mod_locality": 0.0,
+      "verdict": "FAIL"
+    }
+  },
+  "irreversibility": {
+    "I1": {
+      "ig_rev_bt": 0.0,
+      "verdict": "PASS"
+    }
+  },
+  "observability": {
+    "O1": {
+      "occlusion_rate": 0.8984375,
+      "verdict": "PASS"
+    }
+  },
+  "rank": {
+    "R1": {
+      "var_explained_3": NaN,
+      "verdict": "FAIL"
+    },
+    "R2": {
+      "hybrid_rank": 0,
+      "verdict": "ABSTAIN"
+    }
+  },
+  "symmetry": {
+    "S1": {
+      "ig_inv_discont": 0.0,
+      "verdict": "FAIL"
+    }
+  },
+  "comp_expr": {
+    "X1": {
+      "ig_ratio_abruptness": 0.0,
+      "p_value": 1.0,
+      "verdict": "FAIL"
+    }
+  }
+}
