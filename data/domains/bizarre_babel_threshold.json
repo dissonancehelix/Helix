@@ -1,0 +1,34 @@
+{
+    "id": "bizarre_babel_threshold",
+    "domain": "Information Topology / Semiotics",
+    "state_space": "N-dimensional manifold of referential symbols",
+    "dynamics_operator": "Gradient descent on communicative utility vs random semiotic drift",
+    "perturbation_operator": "Introduction of new slang, technical jargon, or isolated population dialects",
+    "stability_condition": "Mutual intelligibility > threshold across all coordinate nodes",
+    "failure_mode": "SEMANTIC_DISSOCIATION (Symbols detach from original physical grounding, leading to total coordination collapse)",
+    "observable_metrics": [
+        {
+            "name": "Referential Drift",
+            "type": "INFORMATION_METRIC",
+            "estimator": "KL-Divergence between symbol-meaning pairs across two generations",
+            "units_or_none": "bits"
+        }
+    ],
+    "timescale_regime": "Generations",
+    "persistence_type": "SYMBOLIC_GRAPH",
+    "edge_conditions": [
+        "As B2 expansion increases (more things named), B3 coordination cost increases exponentially",
+        "Eventually, B4 symbolic depth exceeds the processing limit of the agents"
+    ],
+    "notes": "Tests B4 (Symbolic Depth) saturation leading to B3 (Coordination) failure.",
+    "persistence_ontology": "DISCRETE(A_SYMBOL+B_NETWORK)",
+    "substrate_type": "COGNITIVE_PROCESS",
+    "dimensionality_form": "high-dimensional manifold",
+    "metric_defined": "YES",
+    "boundary_type_primary": "SYMBOLIC_FRACTURE",
+    "boundary_locality": "GLOBAL",
+    "boundary_dimensionality_change": "NO",
+    "substrate_S1c": "STOCHASTIC",
+    "tau_perturb": "1 year",
+    "tau_relax": "50 years"
+}

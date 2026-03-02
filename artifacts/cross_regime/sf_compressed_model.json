@@ -1,0 +1,7 @@
+{
+  "primitives": {
+    "T": "Temporal Dominance (min(SF1) AND max(SF4))",
+    "A": "Control Accessibility (SF2_Set AND SF3_Set)"
+  },
+  "logic": "IF NOT T OR NOT A THEN INFER_PARTIAL ELSE ATTACHABLE"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "bizarre_rowhammer",
+    "domain": "Semiconductor Physics / Hardware Security",
+    "state_space": "2D DRAM capacitor grid",
+    "dynamics_operator": "Electromagnetic leakage between adjacent memory cells",
+    "perturbation_operator": "High-frequency read access to 'aggressor' rows",
+    "stability_condition": "Capacitor charge remains above logic threshold between refresh cycles",
+    "failure_mode": "BIT_FLIP (Unintended state transition in 'victim' row without direct write access)",
+    "observable_metrics": [
+        {
+            "name": "Bit Error Rate (BER)",
+            "type": "PHYSICAL_METRIC",
+            "estimator": "Flips per million row activations",
+            "units_or_none": "BER"
+        }
+    ],
+    "timescale_regime": "Microseconds",
+    "persistence_type": "CAPACITIVE_STATE",
+    "edge_conditions": [
+        "Strictly local interaction (adjacency required)",
+        "Bypasses software-level privilege rings (Ring 0/Ring 3)"
+    ],
+    "notes": "Tests B1 (Basin) leakage across B3 (Coordination/Topology) adjacency.",
+    "persistence_ontology": "CONTINUOUS(A_CHARGE+B_ADJACENCY)",
+    "substrate_type": "ELECTRONIC_PROCESS",
+    "dimensionality_form": "finite discrete",
+    "metric_defined": "YES",
+    "boundary_type_primary": "CHARGE_THRESHOLD_CROSSING",
+    "boundary_locality": "LOCAL",
+    "boundary_dimensionality_change": "NO",
+    "substrate_S1c": "DETERMINISTIC",
+    "tau_perturb": "50ns",
+    "tau_relax": "64ms (refresh period)"
+}

@@ -4,7 +4,12 @@
         "legacy_id": "C1_BASIN_COMMITMENT",
         "description": "Scalar boundary on energy or effort required to transition between macro-states.",
         "topological_proxy": "Delta energy gap / Defect amplitude",
-        "compression_necessity_score": 0.32
+        "compression_necessity_score": 0.32,
+        "instrumentation": {
+            "parameter": "Mantle_Resolution",
+            "unit": "bit-depth",
+            "layer": "Ring 1 (Substrate Resolution Constraints)"
+        }
     },
     "B2_EXPRESSION": {
         "name": "Expression Capacity",

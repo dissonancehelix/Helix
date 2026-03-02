@@ -1,0 +1,20 @@
+{
+    "needed_metrics": [
+        {
+            "name": "Gradient_Signal_Coherence (GSC)",
+            "definition": "Cosine similarity of gradient directions across the B4 layer-stack.",
+            "critical_threshold": "< 0.1 indicates B3 failure"
+        },
+        {
+            "name": "Attention_Head_Agreement (AHA)",
+            "definition": "Mutual information between attention heads in the same block.",
+            "critical_threshold": "> 0.8 indication of redundancy; < 0.2 indicates B3 desync"
+        },
+        {
+            "name": "Jacobian_Spectral_Norm (JSN)",
+            "definition": "Measure of B2 volumetric expansion vs B1 basin depth.",
+            "critical_threshold": "> 10.0 risk of B2-blowup"
+        }
+    ],
+    "reasoning": "We need these to transform the qualitative 'B3 coordination' into a formal numeric basis coordinate for v1.1 of the LLM audit."
+}

@@ -1,7 +1,7 @@
 Version: 1.0
 Status: HARDENED / BASIS LOCK (CE-OS ACTIVE)
 
-Helix is a structural stress-testing engine for cross-domain persistence.
+Helix is a layered structural inference framework designed to compress nonlinear systems into minimal constraint bases and evaluate the physical feasibility of stabilization interventions.
 
 Primary objective:
 Reduce cross-domain analogy to structure-preserving mappings
@@ -184,7 +184,7 @@ Log PERSISTENCE_TYPE_MISMATCH.
 
 The Helix kernel is defined by four orthogonal, independent bases:
 
-B1_BASIN: Energy/effort transition boundary.
+B1_BASIN: Energy/effort transition boundary. (Includes Ring 1 Mantle Resolution).
 B2_EXPRESSION: Volumetric state-space dimension.
 B3_COORDINATION: Multi-agent coupling/network depth.
 B4_SYMBOLIC_DEPTH: Logic-stack / referential recursion limit.

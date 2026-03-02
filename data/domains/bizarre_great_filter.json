@@ -1,0 +1,34 @@
+{
+    "id": "bizarre_great_filter",
+    "domain": "Astrobiology / Complexity Science",
+    "state_space": "Civilizational growth trajectory through the Kardashev scale",
+    "dynamics_operator": "Exponential technological expansion vs quadratic increase in systemic risk",
+    "perturbation_operator": "Nuclear war, AI unalignment, synthetic plague, climate collapse",
+    "stability_condition": "Coordination ability > destructive potential",
+    "failure_mode": "FILTER_EXIT (Sudden cessation of detectable electromagnetic signal / extinction)",
+    "observable_metrics": [
+        {
+            "name": "Sustainability Margin",
+            "type": "SYSTEM_METRIC",
+            "estimator": "Planetary resource regenerative rate / consumption rate",
+            "units_or_none": "ratio"
+        }
+    ],
+    "timescale_regime": "Millennia",
+    "persistence_type": "CIVILIZATION",
+    "edge_conditions": [
+        "One-way irreversibility (Extinction is a terminal sink)",
+        "B4 symbolic complexity grows faster than B3 coordination capacity"
+    ],
+    "notes": "Tests B4 (Symbolic Depth) saturation where the tools exceed the agents' ability to coordinate safely.",
+    "persistence_ontology": "STATE(A_GROWTH+B_RISK)",
+    "substrate_type": "MACROSCOPIC_PHYSICS",
+    "dimensionality_form": "finite discrete",
+    "metric_defined": "YES",
+    "boundary_type_primary": "COMPLEXITY_OVERLOAD",
+    "boundary_locality": "GLOBAL",
+    "boundary_dimensionality_change": "NO",
+    "substrate_S1c": "NON_LINEAR",
+    "tau_perturb": "1 year",
+    "tau_relax": "100 years"
+}

@@ -1,0 +1,34 @@
+{
+    "id": "bizarre_casimir_effect",
+    "domain": "Quantum Electrodynamics",
+    "state_space": "Vacuum state between two uncharged parallel conductive plates",
+    "dynamics_operator": "Virtual particle-antiparticle pair generation",
+    "perturbation_operator": "Plate distance d",
+    "stability_condition": "Quantized electromagnetic standing waves must fit exactly between plates",
+    "failure_mode": "VACUUM_COLLAPSE (zero-point energy exclusion leading to macroscopic physical attraction)",
+    "observable_metrics": [
+        {
+            "name": "Casimir Force",
+            "type": "PHYSICAL_METRIC",
+            "estimator": "-hbar * c * pi^2 * A / (240 * d^4)",
+            "units_or_none": "Newtons"
+        }
+    ],
+    "timescale_regime": "Planck scale",
+    "persistence_type": "FIELD",
+    "edge_conditions": [
+        "No external charge applied, purely a restriction of the quantum vacuum",
+        "Force scales as 1/d^4"
+    ],
+    "notes": "Tests B1 (Basin) under pure boundary-condition induced pressure.",
+    "persistence_ontology": "CONTINUOUS(A_FIELD+B_BOUNDARY)",
+    "substrate_type": "QUANTUM_PROCESS",
+    "dimensionality_form": "continuous 3D",
+    "metric_defined": "YES",
+    "boundary_type_primary": "STANDING_WAVE_TRUNCATION",
+    "boundary_locality": "GLOBAL",
+    "boundary_dimensionality_change": "YES",
+    "substrate_S1c": "STOCHASTIC",
+    "tau_perturb": "10^-43s",
+    "tau_relax": "10^-43s"
+}

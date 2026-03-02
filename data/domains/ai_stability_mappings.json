@@ -1,0 +1,32 @@
+[
+    {
+        "id": "ai_mode_collapse",
+        "domain": "Neural Training Dynamics",
+        "state_space": "N-dimensional parameter weight manifold",
+        "dynamics_operator": "Gradient descent (SGD/Adam)",
+        "stability_condition": "Maintaining diversity across the sample distribution",
+        "failure_mode": "B1_BASIN_TRAP (Convergence to a single low-entropy state)",
+        "notes": "Testing B1 commitment vs B2 expression capacity.",
+        "B_primary": "B1"
+    },
+    {
+        "id": "ai_gradient_explosion",
+        "domain": "Deep Learning Optimization",
+        "state_space": "Recursive manifold of layer activations",
+        "dynamics_operator": "Chain-rule backpropagation",
+        "stability_condition": "Bounded spectral norm of the Jacobian matrix",
+        "failure_mode": "B2_EXPRESSION_BLOWUP (Exponential growth of gradient vectors)",
+        "notes": "Testing B2 volumetric dispersion limits.",
+        "B_primary": "B2"
+    },
+    {
+        "id": "ai_alignment_drift",
+        "domain": "AI Safety / Reward Modeling",
+        "state_space": "Reward-model vs Base-model capability gap",
+        "dynamics_operator": "Iterative RLHF cycles",
+        "stability_condition": "Reward signal remains grounded in human intent (B1)",
+        "failure_mode": "SYMBOLIC_DECOUPLING (Reward hacking / Specification gaming)",
+        "notes": "Testing B4 symbolic stack depth vs B3 coordination.",
+        "B_primary": "B4"
+    }
+]

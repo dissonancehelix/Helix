@@ -1,0 +1,27 @@
+{
+    "transfer_1": {
+        "source": "TCP_AIMD",
+        "target": "Kessler_Syndrome",
+        "mapping": {
+            "cwnd": "Normalized Launch Rate L(t)",
+            "alpha": "Global Launch Increment Policy",
+            "beta": "Collision-Triggered Launch Moratorium Factor",
+            "packet_drop": "Conjunction Frequency Trend > Threshold",
+            "saturation_threshold": "Critical Spatial Density (Kessler Limit)"
+        },
+        "verdict": "PARTIAL_TRANSFER",
+        "limitations": "Temporal decoupling. Network RTT is milliseconds; orbital decay is centuries. Control authority (who throttles the 'window') is non-centralized."
+    },
+    "transfer_2": {
+        "source": "ECC_Golay",
+        "target": "Babel_Threshold",
+        "mapping": {
+            "message_k": "Core Semantic Intent",
+            "parity_r": "Structural Basis Checksum (B1-B4 Profile)",
+            "syndrome": "Mutual Intelligibility Divergence",
+            "noise_t": "Dialect Drift Rate (sigma)"
+        },
+        "verdict": "STRUCTURALLY_TRANSFERABLE",
+        "limitations": "Increases B4 Symbolic Depth (overhead), which may eventually collide with agent processing limits."
+    }
+}
