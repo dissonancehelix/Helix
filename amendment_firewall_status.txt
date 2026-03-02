@@ -1,0 +1,4 @@
+AMENDMENT_FIREWALL_STATUS: ENABLED
+LOG LOCATION: instrumentation/amendment_log.json
+PROTOCOL: amendment_protocol.py
+PROTECTION: Ring 0 Immutability Guard active.
