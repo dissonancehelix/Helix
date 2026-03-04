@@ -237,20 +237,6 @@ All theories are provisional. Nothing is sacred.
 
 ---
 
-## GAMING
-
-**Philosophy:** Mechanics > Narrative. Values the system over the story.
-**Total Steam:** ~14,000 hours across 240+ beaten games.
-
-**EFT (Extreme Football Throwdown):** 1,250+ hrs. Top-tier competitive. Values arcadey flow, speed, standard geometry. Dislikes sim realism, slow movement, gimmick maps.
-- Mechanics (freq): Pass 1600, Catch 680, Tackle 555, Fumble 296, Bhop 110, Ragdoll 73
-- Maps: Stadium 246 > Factory 83 > Melondriver 26 > Sky Step 16
-
-**Favorites:** Outer Wilds, Disco Elysium, Planescape: Torment, Shadow of the Colossus, Majora's Mask, Witcher 3
-**What clicks:** Retroactive revelation, knowledge-as-keys, inevitable closures, world indifference, no ego-stroking.
-
----
-
 ## STRUCTURAL AESTHETIC MODEL
 
 Preferred systems:
@@ -274,9 +260,19 @@ Disliked systems:
 Top 0.01% contributor. 186,000+ edits | 3,096 pages created | 2,274 uploads.
 Focus: NFL rosters, video game systems. Organizes/categorizes/trims, does not write content.
 
----
+------------------------------------------------------------
+COGNITIVE MEDIA SIGNALS
+------------------------------------------------------------
 
-## MUSIC (Last.fm — 197,778 scrobbles, 13.7 years)
+Purpose:
+These domains represent recurring external systems
+that provide structural stimuli to the operator.
+
+They act as environmental pattern libraries that influence
+how the operator detects structure and invariants.
+
+### 1) Music
+**Dataset overview (Last.fm** — 197,778 scrobbles, 13.7 years)
 
 10,406 artists | 15,499 albums | 77,295 tracks | 39.6 scrobbles/day
 Archive: 122,000+ local tracks (85k MP3, 32k VGZ). VGM preservationist.
@@ -316,61 +312,36 @@ Inferred tendencies:
 
 These patterns align with the operator's **collapse-geometry cognitive profile**.
 
-### Top 100 Artists
+### Top 50 Artists
 | # | Artist | Plays | | # | Artist | Plays |
 |---|--------|-------|---|---|--------|-------|
-| 1 | Motoi Sakuraba | 6565 | | 51 | Kenji Ito | 526 |
-| 2 | Yasunori Mitsuda | 5318 | | 52 | Tee Lopes | 524 |
-| 3 | Nobuo Uematsu | 4355 | | 53 | Masato Nakamura | 523 |
-| 4 | Yoko Shimomura | 3719 | | 54 | Autechre | 521 |
-| 5 | Shoji Meguro | 3560 | | 55 | STRFKR | 521 |
-| 6 | Yuzo Koshiro | 3049 | | 56 | Shogo Sakai | 520 |
-| 7 | Silkie | 2869 | | 57 | Fumie Kumatani | 473 |
-| 8 | Hitoshi Sakimoto | 2695 | | 58 | Takahiro Unisuga | 472 |
-| 9 | Tomohito Nishiura | 2408 | | 59 | Naoshi Mizuta | 471 |
-| 10 | Ganja White Night | 1827 | | 60 | Atsushi Kitajoh | 470 |
-| 11 | Jun Senoue | 1586 | | 61 | Tetsukazu Nakanishi | 470 |
-| 12 | Koji Kondo | 1373 | | 62 | Yoshihito Yano | 456 |
-| 13 | James Blake | 1372 | | 63 | Kazuo Hanzawa | 447 |
-| 14 | MGMT | 1331 | | 64 | Primus | 445 |
-| 15 | Koichi Sugiyama | 1314 | | 65 | Osamu Sato | 445 |
-| 16 | Tatsuyuki Maeda | 1204 | | 66 | Manami Matsumae | 441 |
-| 17 | Michiru Yamane | 1145 | | 67 | Jeremy Soule | 440 |
-| 18 | Motoaki Takenouchi | 1119 | | 68 | Shinji Hosoe | 439 |
-| 19 | Tennis | 1098 | | 69 | Kenichi Tsuchiya | 434 |
-| 20 | Harumi Fujita | 1080 | | 70 | Alexandra Savior | 430 |
-| 21 | Masashi Hamauzu | 1062 | | 71 | Darren Korb | 429 |
-| 22 | Naofumi Hataya | 1037 | | 72 | Allister Brimble | 428 |
-| 23 | Matt Furniss | 976 | | 73 | Hiroshi Kawaguchi | 415 |
-| 24 | Falcom Sound Team jdk | 904 | | 74 | Hirokazu Tanaka | 412 |
-| 25 | Takeshi Abo | 812 | | 75 | Mount Kimbie | 410 |
-| 26 | Masaharu Iwata | 777 | | 76 | Yousuke Yasui | 409 |
-| 27 | Fumito Tamayama | 761 | | 77 | Katsuhiro Hayashi | 406 |
-| 28 | Tool | 760 | | 78 | Toro y Moi | 406 |
-| 29 | Tomoya Ohtani | 735 | | 79 | Tomoko Morita | 399 |
-| 30 | Toshikazu Tanaka | 686 | | 80 | Alberto Jose Gonzalez | 396 |
-| 31 | Teleman | 679 | | 81 | Akitaka Tohyama | 385 |
-| 32 | MixerProductions | 670 | | 82 | Miyoko Takaoka | 384 |
-| 33 | The Bird and the Bee | 665 | | 83 | Jun Chikuma | 379 |
-| 34 | Caravan Palace | 664 | | 84 | Grant Kirkhope | 379 |
-| 35 | Nirvana | 663 | | 85 | Hayato Sonoda | 372 |
-| 36 | Noriyuki Iwadare | 652 | | 86 | Jake Kaufman | 361 |
-| 37 | Alice in Chains | 647 | | 87 | Super Piano 64 | 360 |
-| 38 | Kenichi Tokoi | 639 | | 88 | Hiroto Kanno | 359 |
-| 39 | KIKIYAMA | 632 | | 89 | Hirokazu Ando | 358 |
-| 40 | Kendrick Lamar | 624 | | 90 | Hiroshi Okubo | 358 |
-| 41 | Pearl Jam | 604 | | 91 | Hideaki Kobayashi | 357 |
-| 42 | Akira Yamaoka | 603 | | 92 | Led Zeppelin | 354 |
-| 43 | Vampire Weekend | 592 | | 93 | Kinuyo Yamashita | 353 |
-| 44 | Soundgarden | 590 | | 94 | Kazuko Umino | 352 |
-| 45 | Masafumi Takada | 585 | | 95 | Yuko Takehara | 347 |
-| 46 | Karl Brueggemann | 576 | | 96 | Jun Ishikawa | 340 |
-| 47 | Hayato Matsuo | 574 | | 97 | Kenta Nagata | 336 |
-| 48 | Yuka Tsujiyoko | 570 | | 98 | Melvins | 335 |
-| 49 | Manabu Namiki | 544 | | 99 | Aki Hata | 334 |
-| 50 | Blonde Redhead | 538 | | 100 | Tsukasa Masuko | 333 |
+| 1 | Motoi Sakuraba | 6565 | | 26 | Masaharu Iwata | 777 |
+| 2 | Yasunori Mitsuda | 5318 | | 27 | Fumito Tamayama | 761 |
+| 3 | Nobuo Uematsu | 4355 | | 28 | Tool | 760 |
+| 4 | Yoko Shimomura | 3719 | | 29 | Tomoya Ohtani | 735 |
+| 5 | Shoji Meguro | 3560 | | 30 | Toshikazu Tanaka | 686 |
+| 6 | Yuzo Koshiro | 3049 | | 31 | Teleman | 679 |
+| 7 | Silkie | 2869 | | 32 | MixerProductions | 670 |
+| 8 | Hitoshi Sakimoto | 2695 | | 33 | The Bird and the Bee | 665 |
+| 9 | Tomohito Nishiura | 2408 | | 34 | Caravan Palace | 664 |
+| 10 | Ganja White Night | 1827 | | 35 | Nirvana | 663 |
+| 11 | Jun Senoue | 1586 | | 36 | Noriyuki Iwadare | 652 |
+| 12 | Koji Kondo | 1373 | | 37 | Alice in Chains | 647 |
+| 13 | James Blake | 1372 | | 38 | Kenichi Tokoi | 639 |
+| 14 | MGMT | 1331 | | 39 | KIKIYAMA | 632 |
+| 15 | Koichi Sugiyama | 1314 | | 40 | Kendrick Lamar | 624 |
+| 16 | Tatsuyuki Maeda | 1204 | | 41 | Pearl Jam | 604 |
+| 17 | Michiru Yamane | 1145 | | 42 | Akira Yamaoka | 603 |
+| 18 | Motoaki Takenouchi | 1119 | | 43 | Vampire Weekend | 592 |
+| 19 | Tennis | 1098 | | 44 | Soundgarden | 590 |
+| 20 | Harumi Fujita | 1080 | | 45 | Masafumi Takada | 585 |
+| 21 | Masashi Hamauzu | 1062 | | 46 | Karl Brueggemann | 576 |
+| 22 | Naofumi Hataya | 1037 | | 47 | Hayato Matsuo | 574 |
+| 23 | Matt Furniss | 976 | | 48 | Yuka Tsujiyoko | 570 |
+| 24 | Falcom Sound Team jdk | 904 | | 49 | Manabu Namiki | 544 |
+| 25 | Takeshi Abo | 812 | | 50 | Blonde Redhead | 538 |
 
-### Top 30 Albums
+### Top 50 Albums (Dataset limited to 30 visible)
 | # | Artist | Album | Plays |
 |---|--------|-------|-------|
 | 1 | Tomohito Nishiura | Dark Cloud 2 | 1126 |
@@ -404,7 +375,7 @@ These patterns align with the operator's **collapse-geometry cognitive profile**
 | 29 | MGMT | MGMT | 262 |
 | 30 | MGMT | Congratulations | 260 |
 
-### Top 30 Tracks
+### Top 50 Tracks (Dataset limited to 30 visible)
 | # | Artist | Track | Plays |
 |---|--------|-------|-------|
 | 1 | Silkie | New York City | 172 |
@@ -437,6 +408,24 @@ These patterns align with the operator's **collapse-geometry cognitive profile**
 | 28 | Letherette | D&T | 69 |
 | 29 | Shinji Hosoe | Shadow | 67 |
 | 30 | Blonde Redhead | Penultimo | 67 |
+
+
+### 2) Games
+**Philosophy:** Mechanics > Narrative. Values the system over the story.
+**Total Steam:** ~14,000 hours across 240+ beaten games.
+
+**EFT (Extreme Football Throwdown):** 1,250+ hrs. Top-tier competitive. Values arcadey flow, speed, standard geometry. Dislikes sim realism, slow movement, gimmick maps.
+- Mechanics (freq): Pass 1600, Catch 680, Tackle 555, Fumble 296, Bhop 110, Ragdoll 73
+- Maps: Stadium 246 > Factory 83 > Melondriver 26 > Sky Step 16
+
+**Favorites:** Outer Wilds, Disco Elysium, Planescape: Torment, Shadow of the Colossus, Majora's Mask, Witcher 3
+**What clicks:** Retroactive revelation, knowledge-as-keys, inevitable closures, world indifference, no ego-stroking.
+
+
+### 3) Future expandable slots
+- Books
+- Films
+- Research papers
 
 ------------------------------------------------------------
 SECTION III — SEPARATION STATEMENT
