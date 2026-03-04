@@ -1,0 +1,19 @@
+{
+    "LOAD_SAO": {
+        "mutation_intensity_sweep_max": "40%",
+        "nonlinear_slope_stability": 0.85,
+        "orthogonality_vs_SRD": 0.31999999999999995,
+        "cross_repo_correlation_variance": 0.18,
+        "nonlinear_amplification_points_stable": true
+    },
+    "INFORMATION_OGO": {
+        "detection_lag_stable_across_10_repos": true,
+        "forecast_degradation_consistent": true,
+        "drift_cv": 0.23,
+        "entropy_sensitivity": 0.77
+    },
+    "Classifications": {
+        "LOAD_SAO": "ADMITTED",
+        "INFORMATION_OGO": "EXPERIMENTAL"
+    }
+}

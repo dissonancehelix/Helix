@@ -1,8 +1,0 @@
-{
-  "C1_removal_delta_IG": 0.42,
-  "C2_removal_delta_IG": 0.38,
-  "C3_removal_delta_IG": 0.29,
-  "C4_removal_delta_IG": 0.18,
-  "verdict": "MINIMAL_BASIS_CONFIRMED",
-  "notes": "All elements exceed the 0.10 threshold for removal. C4 demonstrates lower Information Gain in F1 (physics) but critical IG > 0.3 in F3 (neural optimization) and F5 (computation limits)."
-}

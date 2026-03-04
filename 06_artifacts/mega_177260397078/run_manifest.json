@@ -1,0 +1,19 @@
+{
+    "artifacts": {
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\pre_batch_snapshot.json": "a82e03b26f475314b439d3d41dfe01914dd0e5f46697c7245c65638e7f48b667",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\dataset_manifest.json": "8dab13266a64baedffd26c281448dd24b1b9c9b1e46e42b5e23522d79cc31901",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\graph_family_specs.json": "f157ef797bae37b848452deca1464c2bd76d335773ef942d3385782170186140",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\hostility_report.json": "1bc0665916b270960e75c555ba1e4a840f7422b79a3bdc85570f9db3ccec7ea8",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\regime_params.json": "f820584ddfd858f869f59575c497a033d7204047eec5aec3b6bc8f3d47886219",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\model_registry.json": "97c449c13ea9225b3da52315e94618fea554fe91f645ed8cf72c6e2626102087",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\metric_definitions.json": "6b220f63e6cecdb4fe19f4a3745740b6133eddff56225393909fff49f2ce2cb3",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\prediction_results.json": "4f6236637095d26b2e07c0277683ac2d81691bd19ea4fb0827109323a889adbd",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\classification_results.json": "e4c0eb7eac83766a179ab300473e535278fca1b61509809b91b03f258bdaad87",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\control_results.json": "642a9318233355b2abad823100e57dd08776807a92738fd5211bc753db6f3571",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\policy_scoreboard.json": "605e51fb8869d0be053d902c23db994634071f36342c3f8d365fae854b19ebad",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\finding_status_table.json": "dc5c0b6f4ec2b7799f114ebbcbdff0ff4bcf0697c1171bebc91e52682b7cc4f0",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\final_verdict.json": "943902a88aa5e78c77e1b3d5e243172f6d17171d055df030231588e96aa8df62",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\boundary_map.json": "539b0cb06833ad022ae7f9b3c2d35957921f197d090cc1a0ab52863c7eafb49a",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\mega_177260397078\\next_experiments.json": "2ad50cc129eb563d1a5d1a085b73b3ed70d128917d5be1379871f125830d9ade"
+    }
+}

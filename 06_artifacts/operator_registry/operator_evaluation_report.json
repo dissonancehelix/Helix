@@ -1,0 +1,50 @@
+{
+    "O1_DRO": {
+        "Implementation_Metrics": {
+            "Sensitivity_Gradient_vs_SRD": 0.11999999999999997
+        },
+        "Hostility_Degradation": {
+            "null_shift": 0.006988091220217457,
+            "twin_shift": 0.007982340709914465,
+            "drop10_shift": 0.0034209355216872073,
+            "drop20_shift": 0.0024681924343774864
+        },
+        "Orthogonality": {
+            "corr_PRI": 0.8826219006183719,
+            "corr_EIP": 0.17506449395678447
+        },
+        "Drift_CV": 0.03480303218167455,
+        "Classification": "REJECTED"
+    },
+    "O2_SPTD": {
+        "Hostility_Degradation": {
+            "null_shift": 0.013333333333333343,
+            "twin_shift": 0.006666666666666675,
+            "drop10_shift": 0.0025925925925925977,
+            "drop20_shift": 0.005833333333333336
+        },
+        "Orthogonality": {
+            "corr_PRI": 0.577083470803249,
+            "corr_EIP": 0.16280355013030282
+        },
+        "Drift_CV": 0.20377068324339737,
+        "Classification": "DOMAIN_VALID"
+    },
+    "O3_FHO": {
+        "Implementation_Metrics": {
+            "Forecast_Consistency": 0.82
+        },
+        "Hostility_Degradation": {
+            "null_shift": 0.1333333333333333,
+            "twin_shift": 0.09666666666666668,
+            "drop10_shift": 0.06666666666666687,
+            "drop20_shift": 0.02499999999999991
+        },
+        "Orthogonality": {
+            "corr_PRI": 0.8419066370717777,
+            "corr_EIP": 0.343017694630342
+        },
+        "Drift_CV": 0.10118283682700975,
+        "Classification": "ADMITTED"
+    }
+}

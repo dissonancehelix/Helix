@@ -1,0 +1,1 @@
+# Economic Contagion Falsifiers\n\n- **Falsified if**: Cascade containment uplift vs Eigenvector Centrality falls below 10%.\n- **Falsified if**: Null random topologies generate identical cascading geometric amplification as scale-free bounded networks.\n

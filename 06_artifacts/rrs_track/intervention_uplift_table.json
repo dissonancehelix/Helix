@@ -1,0 +1,9 @@
+{
+    "graphs_tested": 18,
+    "graphs_passing_10_percent_uplift": 15,
+    "average_uplift_vs_degree_centrality": 0.22,
+    "average_uplift_vs_betweenness": 0.14,
+    "average_uplift_vs_hub_removal": 0.18,
+    "hostility_survival_rate": 0.83,
+    "null_z_score_average": 4.1
+}

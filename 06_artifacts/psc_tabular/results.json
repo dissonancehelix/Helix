@@ -1,0 +1,56 @@
+{
+    "iris": {
+        "verdict": "INDETERMINATE",
+        "mean_pss": 0.8013318110225873,
+        "base_top_dominance": 0.9246187232017341,
+        "transform_results": {
+            "T_standard": {
+                "sub_stability": 0.9130715661289002,
+                "dominance_drift": 0.19499426906873507,
+                "pss": 0.7350278434841501
+            },
+            "T_minmax": {
+                "sub_stability": 0.9373657227902905,
+                "dominance_drift": 0.08325834107019126,
+                "pss": 0.8593222077347101
+            },
+            "T_robust": {
+                "sub_stability": 0.8793774995604543,
+                "dominance_drift": 0.3048970621874395,
+                "pss": 0.6112578833907354
+            },
+            "T_noise": {
+                "sub_stability": 0.9999905625421142,
+                "dominance_drift": 0.00027125562132401804,
+                "pss": 0.9997193094807536
+            }
+        }
+    },
+    "wine": {
+        "verdict": "UNSTABLE",
+        "mean_pss": 0.3375471676761065,
+        "base_top_dominance": 0.9980912304918971,
+        "transform_results": {
+            "T_standard": {
+                "sub_stability": 0.32189776217806004,
+                "dominance_drift": 0.6361027494926337,
+                "pss": 0.11713771060107014
+            },
+            "T_minmax": {
+                "sub_stability": 0.3036844486044392,
+                "dominance_drift": 0.590596384939984,
+                "pss": 0.12432951109616504
+            },
+            "T_robust": {
+                "sub_stability": 0.3290269889241706,
+                "dominance_drift": 0.669560913361639,
+                "pss": 0.10872337769947304
+            },
+            "T_noise": {
+                "sub_stability": 0.9999999620958925,
+                "dominance_drift": 1.8907882464169745e-06,
+                "pss": 0.9999980713077178
+            }
+        }
+    }
+}

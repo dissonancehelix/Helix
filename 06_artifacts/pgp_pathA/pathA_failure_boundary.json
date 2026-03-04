@@ -1,0 +1,75 @@
+{
+    "redundancy_conditions": [
+        "Cascade rule depends linearly on local degree",
+        "Node capacity is heavily correlated with degree",
+        "Load injection scales homogenously"
+    ],
+    "failure_boundary": "When cascade propagation resolves via local capacity thresholds rather than complex feedback loops, centrality strongly dominates and SRD offers Delta R2 \u2248 0.",
+    "unconfirmed_sub_regimes": [
+        "Non-linear feedback injection (unconfirmed)",
+        "Directed isolated cyclic deadlocks (unconfirmed)"
+    ],
+    "stability_score": 0.4,
+    "hostility_results": [
+        {
+            "scenario": "base",
+            "MaxDegree_Spearman": -0.78796992481203,
+            "SRD_Spearman": 0.9022556390977443,
+            "Winner": "SRD"
+        },
+        {
+            "scenario": "directed",
+            "MaxDegree_Spearman": 0.8330827067669173,
+            "SRD_Spearman": 0.8526315789473684,
+            "Winner": "SRD"
+        },
+        {
+            "scenario": "weighted",
+            "MaxDegree_Spearman": -0.8015037593984962,
+            "SRD_Spearman": 0.7774436090225564,
+            "Winner": "MaxDegree"
+        },
+        {
+            "scenario": "high_threshold",
+            "MaxDegree_Spearman": -0.08721804511278197,
+            "SRD_Spearman": 0.1774436090225564,
+            "Winner": "SRD"
+        },
+        {
+            "scenario": "low_threshold",
+            "MaxDegree_Spearman": 0.7669172932330828,
+            "SRD_Spearman": -0.5172932330827067,
+            "Winner": "MaxDegree"
+        },
+        {
+            "scenario": "high_noise",
+            "MaxDegree_Spearman": -0.78796992481203,
+            "SRD_Spearman": 0.918796992481203,
+            "Winner": "SRD"
+        },
+        {
+            "scenario": "scale_standard",
+            "MaxDegree_Spearman": -0.8075187969924813,
+            "SRD_Spearman": 0.9293233082706767,
+            "Winner": "SRD"
+        },
+        {
+            "scenario": "scale_minmax",
+            "MaxDegree_Spearman": -0.7909774436090224,
+            "SRD_Spearman": 0.7157894736842105,
+            "Winner": "MaxDegree"
+        },
+        {
+            "scenario": "scale_unitnorm",
+            "MaxDegree_Spearman": -0.7533834586466166,
+            "SRD_Spearman": 0.8466165413533835,
+            "Winner": "SRD"
+        },
+        {
+            "scenario": "hybrid_hostile",
+            "MaxDegree_Spearman": 0.6225563909774436,
+            "SRD_Spearman": 0.40150375939849625,
+            "Winner": "MaxDegree"
+        }
+    ]
+}

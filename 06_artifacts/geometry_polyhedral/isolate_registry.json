@@ -1,0 +1,232 @@
+{
+  "artifact_hash": "986e44b78f6d74358a2ec68712c6700d7fc62daba510f79563ea1eb94356f669",
+  "bootstrap_seed": 42,
+  "data": [
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "ai_mode_collapse",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "ai_gradient_explosion",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "ai_alignment_drift",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "bizarre_babel_threshold",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "bizarre_bronze_age_collapse",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "bizarre_casimir_effect",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "bizarre_great_filter",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "bizarre_kessler_syndrome",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "bizarre_reddit_place",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "bizarre_rowhammer",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "bond_percolation",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "helix_epistemic_engine",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "protein_folding",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "active_inference",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "adaptive_filter",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "attractor_network",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "bacterial_chemotaxis",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "bayesian_updater",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "blockchain_reorg",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "blood_glucose",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "cruise_control",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "episodic_recall",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "hebbian_network",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "immune_loop",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "institutional_norm",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "kalman_filter",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "legal_precedent",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "motor_control_loop",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "multi_armed_bandit",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "pid_controller",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "predictive_processing",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "rl_policy",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "thermostat_basic",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "version_control",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "SPARSE_ARTIFACT",
+      "domain_id": "working_memory",
+      "missing_fields": [],
+      "recommendation": "DENSIFY"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "artifact-phi-001",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    },
+    {
+      "classification": "TRUE_ISOLATE",
+      "domain_id": "ont-004",
+      "missing_fields": [],
+      "recommendation": "INVESTIGATE"
+    }
+  ],
+  "dataset_hash": "unknown",
+  "generated_by": "helix.py run",
+  "git_commit": "unknown",
+  "schema_version": "unknown"
+}

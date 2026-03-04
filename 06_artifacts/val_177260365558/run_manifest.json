@@ -1,0 +1,10 @@
+{
+    "artifacts": {
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\val_177260365558\\validation_targets.json": "2ca3f74980cbde832490034d8f0ccbeb81cf7ffb5a74062de64107c43494a335",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\val_177260365558\\validation_metrics.json": "e9cacf28afb73f7353955036ca31044f95b34bb471426a9cf4308082fa50de69",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\val_177260365558\\boundary_updates.json": "719af252229e4f2fdec0e18b9be46575a4ea653bb51b9cd41f07999acd05b682",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\val_177260365558\\falsifiers_validation.json": "eedb9b157cf9ad547c12839c5d5f9af33f104005fc4b65ab29b030e95427880e",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\val_177260365558\\regime_maps.json": "e001a95af353d4787445b8630344f4f5acd474e3eab47e87126b6e289d4fd9fc",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\val_177260365558\\minimum_sufficient_models.json": "d35e0aca79f7f1f67e6a8c79e0c5f82cedaee98e3790210aab925ec92c9a4206"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "suite": "wine_dcp_audit",
+    "timestamp": "2026-03-02T20:38:30.460686",
+    "runs": [],
+    "summary": {
+        "total_components": 13
+    },
+    "config": {
+        "dataset": "wine",
+        "model": "RandomForest"
+    },
+    "traces_count": 13
+}

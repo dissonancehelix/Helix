@@ -1,0 +1,38 @@
+{
+    "Failure_Type": "AGGREGATE_ALL_REQUIRED_FAIL",
+    "Repo_Failure_Count": 1,
+    "Thresholds_Used": {
+        "Null_Control_Multiplier": 0.8,
+        "Twin_Delta_Minimum": 0.001,
+        "Calibration_Score_Minimum": 0.0
+    },
+    "Condition_Triggered": "express: NULL_STRUCTURE_FAILURE",
+    "Is_Model_Weak": false,
+    "Is_Gate_Too_Strict": true,
+    "Repo_Level_Gates": [
+        {
+            "Repo": "requests",
+            "Null_Pass": true,
+            "Twin_Pass": true,
+            "Calibration_Above_Threshold": true,
+            "Calibration_Score": 0.7607579220758021,
+            "Final_Repo_Status": "PASS"
+        },
+        {
+            "Repo": "express",
+            "Null_Pass": false,
+            "Twin_Pass": true,
+            "Calibration_Above_Threshold": true,
+            "Calibration_Score": 0.32874990744055566,
+            "Final_Repo_Status": "FAIL"
+        },
+        {
+            "Repo": "gin",
+            "Null_Pass": true,
+            "Twin_Pass": true,
+            "Calibration_Above_Threshold": true,
+            "Calibration_Score": 0.5951897498861093,
+            "Final_Repo_Status": "PASS"
+        }
+    ]
+}

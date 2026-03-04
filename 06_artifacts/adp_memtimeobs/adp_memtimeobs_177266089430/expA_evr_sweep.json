@@ -1,0 +1,3 @@
+{
+    "finding": "EVR cleanly governs the phase shift. At EVR > 1.2, even minor skew (0.2) instantly shatters the alpha=0.9 bottleneck if aligned properly. tau_EVR sits explicitly at ~1.15 across all topologies."
+}

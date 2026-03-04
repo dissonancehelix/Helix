@@ -1,0 +1,9 @@
+{
+    "regimes_executed": [
+        "A_Static",
+        "B_Dynamic",
+        "C_Observability",
+        "D_Semantic",
+        "E_Adaptive"
+    ]
+}

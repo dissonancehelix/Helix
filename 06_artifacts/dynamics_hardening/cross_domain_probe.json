@@ -1,0 +1,26 @@
+{
+    "Ecological_Food_Web": {
+        "collapse_ordering_accuracy": 0.732,
+        "horizon_predictiveness": 0.786,
+        "recovery_delay_modeling": 0.719,
+        "nonlinear_amplification_behavior": 0.654,
+        "detection_lag_consistency": 0.579,
+        "null_graph_comparison_z_score": 3.436
+    },
+    "Organizational_Communication": {
+        "collapse_ordering_accuracy": 0.75,
+        "horizon_predictiveness": 0.761,
+        "recovery_delay_modeling": 0.788,
+        "nonlinear_amplification_behavior": 0.772,
+        "detection_lag_consistency": 0.434,
+        "null_graph_comparison_z_score": 4.27
+    },
+    "Regulatory_Cascade": {
+        "collapse_ordering_accuracy": 0.85,
+        "horizon_predictiveness": 0.804,
+        "recovery_delay_modeling": 0.668,
+        "nonlinear_amplification_behavior": 0.617,
+        "detection_lag_consistency": 0.447,
+        "null_graph_comparison_z_score": 2.506
+    }
+}

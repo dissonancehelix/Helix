@@ -1,0 +1,21 @@
+{
+    "Shock_A_Only": {
+        "layer_A_impact": 0.4,
+        "layer_B_impact": 0.1,
+        "layer_C_impact": 0.15
+    },
+    "Shock_B_Only": {
+        "layer_A_impact": 0.05,
+        "layer_B_impact": 0.5,
+        "layer_C_impact": 0.8
+    },
+    "Shock_C_Only": {
+        "layer_A_impact": 0.2,
+        "layer_B_impact": 0.05,
+        "layer_C_impact": 0.3
+    },
+    "Simultaneous_Correlated": {
+        "total_system_degradation": 0.85,
+        "SAO_cross_term_amplification": 2.5
+    }
+}

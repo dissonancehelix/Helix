@@ -1,0 +1,18 @@
+{
+    "traces": [
+        {
+            "claim": "Mutation Forecasting Directional Accuracy evaluated against Top 10% bounds.",
+            "path": "03_forge/forge/refine_model.py",
+            "lines": "65-75",
+            "excerpt_hash": "b2fadd192c",
+            "supports": "DIRECTIONAL_VALIDATION"
+        },
+        {
+            "claim": "Saturation function formally supersedes linear interaction for Cycle bounding.",
+            "path": "06_artifacts/resilience_laws_v2/adversarial_reclassification.md",
+            "lines": "1-5",
+            "excerpt_hash": "a1c22d100c",
+            "supports": "DAMPING_REFINEMENT"
+        }
+    ]
+}

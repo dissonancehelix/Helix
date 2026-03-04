@@ -1,0 +1,3 @@
+{
+    "content": "# PGP-CG FALSIFIERS\nIf an architecture exhibits `centralized_decision = True` and yet produces a FIELD geometry (`k_eff` remains high post-commitment), the structural predictor is falsified.\nIf an architecture exhibits `competition_type = consensus` and `centralized_decision = False`, and produces a FUNNEL geometry (`k_eff` collapses), the structural predictor is falsified.\n"
+}

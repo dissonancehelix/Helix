@@ -1,0 +1,8 @@
+[
+    {
+        "claim": "RBIS Domain Classification",
+        "source": "psc_rbis_suite.py:run_rbis_suite",
+        "lines": "60-120",
+        "excerpt_hash": "6afa96c4fdae66da98056e71de02e079f40b338bb2598b7199b0260ff5711534"
+    }
+]

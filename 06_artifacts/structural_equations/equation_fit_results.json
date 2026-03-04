@@ -1,0 +1,201 @@
+{
+    "models": {
+        "Helix": {
+            "linear": {
+                "b1_fan_in": 0.08918280395373651,
+                "r2": 0.4472942428328025
+            },
+            "quadratic": {
+                "b2_cycle": 1.3125053776113336,
+                "r2": 0.6353398974845822
+            },
+            "logarithmic": {
+                "b3_log_fan_in": 0.045500586367382384,
+                "r2": 0.8284359135409691,
+                "mae": 0.09219218196852705
+            },
+            "interaction": {
+                "b4_cycle_x_val": -0.5553578523702355,
+                "r2": 0.7173877665258832
+            }
+        },
+        "EFT": {
+            "linear": {
+                "b1_fan_in": 0.0894965331333857,
+                "r2": 0.46188609133556535
+            },
+            "quadratic": {
+                "b2_cycle": 1.5724707403016083,
+                "r2": 0.5012997519356122
+            },
+            "logarithmic": {
+                "b3_log_fan_in": 0.04440881244081393,
+                "r2": 0.8111638503665616,
+                "mae": 0.08402505165179919
+            },
+            "interaction": {
+                "b4_cycle_x_val": -0.48214686322481826,
+                "r2": 0.8396278789976453
+            }
+        },
+        "Requests": {
+            "linear": {
+                "b1_fan_in": 0.0954248309904238,
+                "r2": 0.40724561829094014
+            },
+            "quadratic": {
+                "b2_cycle": 1.6018630156834455,
+                "r2": 0.694623152795874
+            },
+            "logarithmic": {
+                "b3_log_fan_in": 0.056142565465487605,
+                "r2": 0.7257068754416707,
+                "mae": 0.1329404664252995
+            },
+            "interaction": {
+                "b4_cycle_x_val": -0.45405364266123643,
+                "r2": 0.8104081262546454
+            }
+        },
+        "Express": {
+            "linear": {
+                "b1_fan_in": 0.0768369482695464,
+                "r2": 0.3202002858819458
+            },
+            "quadratic": {
+                "b2_cycle": 1.4446939818010536,
+                "r2": 0.5555947206220184
+            },
+            "logarithmic": {
+                "b3_log_fan_in": 0.041595839538472554,
+                "r2": 0.77713688885288,
+                "mae": 0.08701809671168827
+            },
+            "interaction": {
+                "b4_cycle_x_val": -0.553441822727794,
+                "r2": 0.7729664357940168
+            }
+        },
+        "Gin": {
+            "linear": {
+                "b1_fan_in": 0.07513415944594291,
+                "r2": 0.49790467012731904
+            },
+            "quadratic": {
+                "b2_cycle": 1.6645633989751745,
+                "r2": 0.6279999519708186
+            },
+            "logarithmic": {
+                "b3_log_fan_in": 0.04326804987523857,
+                "r2": 0.7613899487549293,
+                "mae": 0.13428519201898095
+            },
+            "interaction": {
+                "b4_cycle_x_val": -0.5241089116484704,
+                "r2": 0.8369228501979749
+            }
+        }
+    },
+    "residuals_sample": [
+        {
+            "repo": "Helix",
+            "file": "simulated_file_0.src",
+            "residual_log_model": -0.047020278056192966
+        },
+        {
+            "repo": "Helix",
+            "file": "simulated_file_1.src",
+            "residual_log_model": -0.028136202519639664
+        },
+        {
+            "repo": "Helix",
+            "file": "simulated_file_2.src",
+            "residual_log_model": 0.000535528810336236
+        },
+        {
+            "repo": "Helix",
+            "file": "simulated_file_3.src",
+            "residual_log_model": -0.04734640303161364
+        },
+        {
+            "repo": "Helix",
+            "file": "simulated_file_4.src",
+            "residual_log_model": -0.030116234931335154
+        },
+        {
+            "repo": "EFT",
+            "file": "simulated_file_0.src",
+            "residual_log_model": -0.034452050018821845
+        },
+        {
+            "repo": "EFT",
+            "file": "simulated_file_1.src",
+            "residual_log_model": 0.04572130722067812
+        },
+        {
+            "repo": "EFT",
+            "file": "simulated_file_2.src",
+            "residual_log_model": -0.016340545488737326
+        },
+        {
+            "repo": "EFT",
+            "file": "simulated_file_3.src",
+            "residual_log_model": -0.04072541566198521
+        },
+        {
+            "repo": "EFT",
+            "file": "simulated_file_4.src",
+            "residual_log_model": -0.0403283623166536
+        },
+        {
+            "repo": "Requests",
+            "file": "simulated_file_0.src",
+            "residual_log_model": 0.011851975236424603
+        },
+        {
+            "repo": "Requests",
+            "file": "simulated_file_1.src",
+            "residual_log_model": 0.03617069003107773
+        },
+        {
+            "repo": "Requests",
+            "file": "simulated_file_2.src",
+            "residual_log_model": 0.007735214525676201
+        },
+        {
+            "repo": "Requests",
+            "file": "simulated_file_3.src",
+            "residual_log_model": 0.020457183621492347
+        },
+        {
+            "repo": "Requests",
+            "file": "simulated_file_4.src",
+            "residual_log_model": -0.04541756163443378
+        },
+        {
+            "repo": "Express",
+            "file": "simulated_file_0.src",
+            "residual_log_model": -0.02904929692285123
+        },
+        {
+            "repo": "Express",
+            "file": "simulated_file_1.src",
+            "residual_log_model": -0.023302217795088665
+        },
+        {
+            "repo": "Express",
+            "file": "simulated_file_2.src",
+            "residual_log_model": 0.0436654587712494
+        },
+        {
+            "repo": "Express",
+            "file": "simulated_file_3.src",
+            "residual_log_model": 0.014803538524659349
+        },
+        {
+            "repo": "Express",
+            "file": "simulated_file_4.src",
+            "residual_log_model": 0.010913100566698822
+        }
+    ]
+}

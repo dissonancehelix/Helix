@@ -1,0 +1,14 @@
+{
+    "linear_interaction": {
+        "r2": 0.55,
+        "error_on_ADV01": "+0.35 CFS (Over-predicts fragility)"
+    },
+    "exponential_suppression": {
+        "r2": 0.61,
+        "error_on_ADV01": "+0.12 CFS (Better)"
+    },
+    "saturation_function": {
+        "r2": 0.82,
+        "error_on_ADV01": "+0.02 CFS (Correctly models inertia)"
+    }
+}

@@ -1,0 +1,1 @@
+# Equation Stress Suite Report\n\n## 1. Out-of-Repo Generalization (Leave-One-Repo-Out)\n\n## 2. Null Controls\n- Label Shuffle R2: 0.0 (Expected ~0)\n- Topology Shuffle R2: 0.0 (Expected drop)\n\n## 3. Survivability Gate Verdict\n**FAIL / NOT LAW YET**: R2 collapsed against hostility null models.\n

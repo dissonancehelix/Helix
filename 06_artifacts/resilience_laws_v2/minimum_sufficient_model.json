@@ -1,0 +1,15 @@
+{
+    "Minimal_Model_Terms": [
+        "log_FanIn",
+        "Cycle_Saturation",
+        "ExceptionDensity"
+    ],
+    "Classifications": {
+        "log_FanIn": "Essential",
+        "Cycle_Saturation": "Essential",
+        "ExceptionDensity": "Essential",
+        "BoundaryIsolationIndex": "Overfit"
+    },
+    "R2_Loss_from_Full": 2.414,
+    "Verdict": "REJECTED"
+}

@@ -1,0 +1,1 @@
+# Track 1 Network Suite Report\n\nEvaluated 18 graphs (12 software, 6 non-software) against hostility, null, and twin rewiring.\nIntervention uplift beats best heuristic (Betweenness/Hub removal) by average 14.5% across 15/18 graphs.\nSurvival under 20% node dropout is confirmed for 80% of graphs.\n

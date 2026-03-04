@@ -1,0 +1,27 @@
+{
+    "Core_Periphery_Banking_Model": {
+        "nodes": 100,
+        "leverage_ratio": 12.5,
+        "centralization": 0.8
+    },
+    "Scale_Free_Exposure_Network": {
+        "nodes": 200,
+        "leverage_ratio": 15.0,
+        "centralization": 0.6
+    },
+    "Random_Exposure_Network_Null": {
+        "nodes": 100,
+        "leverage_ratio": 10.0,
+        "centralization": 0.1
+    },
+    "Tiered_Regional_Banking_Clusters": {
+        "nodes": 150,
+        "leverage_ratio": 8.0,
+        "centralization": 0.4
+    },
+    "Clearinghouse_Centered_Topology": {
+        "nodes": 50,
+        "leverage_ratio": 5.0,
+        "centralization": 0.9
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "correlations": {
+        "SRD_vs_SPTD": 0.45,
+        "FHO_vs_SAO": 0.52,
+        "RRO_vs_SAO": 0.38,
+        "OGO_vs_SRD": 0.65,
+        "EIP_vs_SRD": 0.25,
+        "RRO_vs_FHO": 0.61
+    },
+    "max_redundancy": 0.65,
+    "threshold_passed": true
+}

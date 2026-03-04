@@ -1,0 +1,90 @@
+{
+    "formulae": {
+        "CFS": "Expected failure rate across standard hostility mutation units.",
+        "SDR": "Probability that a breaking payload passes the validation and test layers silently.",
+        "EAR": "(TotalLines / 10000) * ChurnRateProxy",
+        "OD": "Mean time-to-localize failure proxy (stack depth, logging presence, trace ID links)."
+    },
+    "targets": {
+        "CFS_ChangeFragilityScore": 1.0,
+        "SDR_SemanticDriftRisk": 0.2,
+        "EAR_EntropyAccumulationRate": 0.19,
+        "OD_ObservabilityDeficit": 4.978
+    },
+    "features": {
+        "FAM_A_total_files": 94,
+        "FAM_A_total_lines": 10379,
+        "FAM_A_total_functions": 262,
+        "FAM_A_total_classes": 15,
+        "FAM_A_total_imports": 532,
+        "FAM_A_fan_in_estimate": 5.66,
+        "FAM_A_fan_out_estimate": 2.031,
+        "FAM_A_scc_size_estimate": 2.223,
+        "FAM_A_core_centrality": 0.51,
+        "FAM_A_dependency_depth": 4,
+        "FAM_B_public_entrypoints": 277,
+        "FAM_B_config_surface": 4,
+        "FAM_B_api_churn": 0.183,
+        "FAM_B_type_hint_coverage": 0.08,
+        "FAM_B_surface_volume": 37,
+        "FAM_C_schema_validation": 3,
+        "FAM_C_invariants": 24,
+        "FAM_C_trace_locks": 5,
+        "FAM_C_hashes": 3,
+        "FAM_C_checksums": 1,
+        "FAM_C_test_density": 0.167,
+        "FAM_C_test_relevance": 0.721,
+        "FAM_C_raise_statements": 3,
+        "FAM_D_layer_protection": 2,
+        "FAM_D_write_permissions": 3,
+        "FAM_D_guardrails": 4,
+        "FAM_D_strict_modes_enabled": 2,
+        "FAM_E_retries": 0,
+        "FAM_E_exceptions_swallowed": 37,
+        "FAM_E_fallback_paths": 18,
+        "FAM_E_try_block_ratio": 0.141,
+        "FAM_F_determinism_controls": 1,
+        "FAM_F_seeding": 2,
+        "FAM_F_hashing_outputs": 1,
+        "FAM_G_doc_traceability": 0.82,
+        "FAM_G_claim_evidence_ratio": 0.76,
+        "FAM_G_id_tags": 1425
+    },
+    "hostility_test_results": [
+        {
+            "attack_id": "H1",
+            "attack_name": "Rename Attack",
+            "breaks": true,
+            "silent_failure": false,
+            "diagnosis_difficulty": 9.03
+        },
+        {
+            "attack_id": "H2",
+            "attack_name": "Boundary Attack",
+            "breaks": true,
+            "silent_failure": false,
+            "diagnosis_difficulty": 4.8
+        },
+        {
+            "attack_id": "H3",
+            "attack_name": "Dropout Attack",
+            "breaks": true,
+            "silent_failure": true,
+            "diagnosis_difficulty": 2.97
+        },
+        {
+            "attack_id": "H4",
+            "attack_name": "Dependency Perturbation",
+            "breaks": true,
+            "silent_failure": false,
+            "diagnosis_difficulty": 1.24
+        },
+        {
+            "attack_id": "H5",
+            "attack_name": "Schema Impurity Injection",
+            "breaks": true,
+            "silent_failure": false,
+            "diagnosis_difficulty": 6.85
+        }
+    ]
+}

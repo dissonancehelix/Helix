@@ -1,0 +1,8 @@
+{
+    "pgp_artifacts_clean": true,
+    "atp_artifacts_clean": true,
+    "oig_artifacts_clean": true,
+    "shared_imports_detected": false,
+    "pgp_metrics_modified": false,
+    "cross_track_pollution": false
+}

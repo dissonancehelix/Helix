@@ -1,0 +1,18 @@
+{
+    "Single_Node_Shock": {
+        "avg_cascade_size": 15,
+        "amplification_scaling_SAO": 1.2
+    },
+    "Multi_Node_Correlated_Shock": {
+        "avg_cascade_size": 45,
+        "amplification_scaling_SAO": 3.5
+    },
+    "Liquidity_Squeeze_Scenario": {
+        "avg_cascade_size": 80,
+        "amplification_scaling_SAO": 5.1
+    },
+    "Information_Lag_Panic_Propagation": {
+        "avg_cascade_size": 60,
+        "observability_lag_effect_OGO": 2.4
+    }
+}

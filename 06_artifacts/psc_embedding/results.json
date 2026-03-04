@@ -1,0 +1,37 @@
+{
+    "verdict": "STABLE",
+    "mean_pss": 0.8780713720200722,
+    "base_top_dominance": 0.3328452417961716,
+    "transform_results": {
+        "T_scale": {
+            "retention_overlap": 0.8787,
+            "dominance_drift": 0.06339623311220827,
+            "pss": 0.8229937299643026,
+            "top_variance_ratio": 0.2694490086839633
+        },
+        "T_minmax": {
+            "retention_overlap": 0.8773500000000001,
+            "dominance_drift": 0.07450649767056877,
+            "pss": 0.8119817242687266,
+            "top_variance_ratio": 0.2583387441256028
+        },
+        "T_noise": {
+            "retention_overlap": 0.9924,
+            "dominance_drift": 2.9710528766102584e-06,
+            "pss": 0.9923970515271252,
+            "top_variance_ratio": 0.332842270743295
+        },
+        "T_dropout": {
+            "retention_overlap": 0.7853499999999999,
+            "dominance_drift": 0.028478570904428846,
+            "pss": 0.7629843543402067,
+            "top_variance_ratio": 0.30436667089174274
+        },
+        "T_rotate": {
+            "retention_overlap": 1.0,
+            "dominance_drift": 0.0,
+            "pss": 1.0,
+            "top_variance_ratio": 0.3328452417961716
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "Uplift_vs_Degree_Centrality": 0.19,
+    "Uplift_vs_Betweenness": 0.14,
+    "Uplift_vs_Eigenvector": 0.11,
+    "Null_Graph_Z_Score": 4.8,
+    "Horizon_Ordering_Accuracy": 0.82
+}

@@ -1,0 +1,58 @@
+{
+    "operators": [
+        {
+            "Operator": "SPTD",
+            "Axis": "STRUCTURE",
+            "Status": "ADMITTED",
+            "Drift_CV": 0.11,
+            "Orthogonality_Correlation": 0.45,
+            "Domain_Classification": "GRAPH_GENERALIZABLE",
+            "Last_Validation_Date": "2026-03-03"
+        },
+        {
+            "Operator": "FHO",
+            "Axis": "TIME",
+            "Status": "ADMITTED",
+            "Drift_CV": 0.14,
+            "Orthogonality_Correlation": 0.52,
+            "Domain_Classification": "GRAPH_GENERALIZABLE",
+            "Last_Validation_Date": "2026-03-03"
+        },
+        {
+            "Operator": "SAO",
+            "Axis": "LOAD",
+            "Status": "ADMITTED",
+            "Drift_CV": 0.18,
+            "Orthogonality_Correlation": 0.38,
+            "Domain_Classification": "GRAPH_GENERALIZABLE",
+            "Last_Validation_Date": "2026-03-03"
+        },
+        {
+            "Operator": "RRO",
+            "Axis": "RECOVERY",
+            "Status": "ADMITTED",
+            "Drift_CV": 0.16,
+            "Orthogonality_Correlation": 0.41,
+            "Domain_Classification": "GRAPH_GENERALIZABLE",
+            "Last_Validation_Date": "2026-03-03"
+        },
+        {
+            "Operator": "EIP",
+            "Axis": "COMMITMENT",
+            "Status": "ADMITTED",
+            "Drift_CV": 0.08,
+            "Orthogonality_Correlation": 0.25,
+            "Domain_Classification": "SOFTWARE_STABLE",
+            "Last_Validation_Date": "2026-03-03"
+        },
+        {
+            "Operator": "OGO",
+            "Axis": "INFORMATION",
+            "Status": "EXPERIMENTAL",
+            "Drift_CV": 0.22,
+            "Orthogonality_Correlation": 0.65,
+            "Domain_Classification": "DOMAIN_DEPENDENT",
+            "Last_Validation_Date": "2026-03-03"
+        }
+    ]
+}

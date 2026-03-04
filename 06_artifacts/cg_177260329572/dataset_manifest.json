@@ -1,0 +1,17 @@
+{
+    "regimes": [
+        "A_Competitive_Opt",
+        "B_Distributed_Avg",
+        "C_Leaderless_Coord",
+        "D_Hierarchical_Vote",
+        "E_Multi_Attractor_Dyn",
+        "F_Hybrid_Arbitration"
+    ],
+    "topologies": [
+        "lattice",
+        "small-world",
+        "scale-free",
+        "random",
+        "fully_connected"
+    ]
+}

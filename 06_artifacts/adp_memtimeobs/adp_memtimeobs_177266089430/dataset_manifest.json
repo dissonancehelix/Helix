@@ -1,0 +1,7 @@
+{
+    "datasets": [
+        "Lattice N=50,100,500",
+        "ER",
+        "Modular"
+    ]
+}

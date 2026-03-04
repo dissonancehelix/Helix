@@ -1,3 +1,6 @@
+## HISTORICAL_RESULT
+(Warning: Unverified Numeric Claims)
+
 # LLM Runaway Thresholds
 **Helix CE-OS Stability Audit**
 

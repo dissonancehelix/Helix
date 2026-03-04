@@ -1,8 +1,0 @@
-{
-  "artifact_hashes": {
-    "expression/expression_pack_overlay.json": "e4396fafdf107673f0105ec1496192cfe31c2bb572e52bfc51b40da4363146ce",
-    "expression/expression_pack_report.json": "34a70ecc016d2bbf0c506518c293a19edbeba7b851e3e190412e5be4b35f2c37"
-  },
-  "dataset_hash": "ded932c67450383b3a6e72ecb12220511a5f12627a3867914714ed86131870d8",
-  "timestamp": "2026-03-01T21:08:42.791324+00:00"
-}

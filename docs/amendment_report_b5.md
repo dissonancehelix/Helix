@@ -1,3 +1,6 @@
+## HISTORICAL_RESULT
+(Warning: Unverified Numeric Claims)
+
 # Amendment Rejection Report: B5_MANTLE
 **Verdict:** REJECTED (Ring 0 Promotion Denied)
 

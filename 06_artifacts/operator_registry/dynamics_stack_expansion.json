@@ -1,0 +1,55 @@
+{
+    "FHO_ForecastHorizonOperator": {
+        "Dimension": "TIME",
+        "Metrics": {
+            "Refinement": {
+                "forecast_consistency_stability": 0.88,
+                "drift_CV": 0.12,
+                "early_collapse_detection_delta_vs_baseline": 0.15
+            },
+            "CrossDomain": {
+                "collapse_horizon_predictiveness": 0.79,
+                "degradation_under_load_scaling": 0.05
+            }
+        },
+        "Classification": "ADMITTED"
+    },
+    "SPTD_PhaseTransitionDetector": {
+        "Dimension": "STRUCTURE",
+        "Metrics": {
+            "Stabilization": {
+                "phase_threshold_consistency": 0.85,
+                "CV_reduction": -0.08,
+                "parameter_bounding_achieved": true
+            }
+        },
+        "Classification": "ADMITTED"
+    },
+    "SAO_StressAmplificationOperator": {
+        "Dimension": "LOAD",
+        "Metrics": {
+            "fragility_gradient_slope_change": 0.45,
+            "nonlinear_amplification_points_detected": 3,
+            "correlation_with_SRD_baseline": 0.65
+        },
+        "Classification": "EXPERIMENTAL"
+    },
+    "RRO_RecoveryRegenerationOperator": {
+        "Dimension": "RECOVERY",
+        "Metrics": {
+            "collapse_delay_delta": 4.2,
+            "forecast_horizon_extension": 3.5,
+            "reduction_in_fragility_gradient": -0.25
+        },
+        "Classification": "DOMAIN_VALID"
+    },
+    "OGO_ObservabilityGradientOperator": {
+        "Dimension": "INFORMATION",
+        "Metrics": {
+            "collapse_detection_lag": 2.1,
+            "forecast_accuracy_degradation": -0.18,
+            "sensitivity_to_entropy_injection": 0.82
+        },
+        "Classification": "EXPERIMENTAL"
+    }
+}

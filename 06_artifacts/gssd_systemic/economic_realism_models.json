@@ -1,0 +1,32 @@
+{
+    "Tier_1_Synthetic_Random": {
+        "capital_buffers": 0.1,
+        "leverage": 10,
+        "exposure_topology": "random",
+        "default_trigger": 0.05
+    },
+    "Tier_2_Core_Periphery": {
+        "capital_buffers": 0.15,
+        "leverage": 12,
+        "exposure_topology": "star_clustered",
+        "default_trigger": 0.08
+    },
+    "Tier_3_Scale_Free": {
+        "capital_buffers": 0.12,
+        "leverage": 15,
+        "exposure_topology": "power_law",
+        "default_trigger": 0.06
+    },
+    "Tier_4_Balance_Sheet_Constrained": {
+        "capital_buffers": "dynamic_var",
+        "leverage": "matrix_bound",
+        "exposure_topology": "directed_weighted",
+        "default_trigger": "liquidity_exhaustion"
+    },
+    "Tier_5_Stylized_Historical": {
+        "capital_buffers": "fixed_historical",
+        "leverage": 20,
+        "exposure_topology": "reconstructed_2008_subset",
+        "default_trigger": "asset_devaluation"
+    }
+}

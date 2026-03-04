@@ -1,0 +1,11 @@
+{
+    "03_forge_GSSD_Core": {
+        "uncertainty_score": 0.1204,
+        "drift_score": 0.12,
+        "falsifier_pressure_index": 1,
+        "blindspot_density": 0.0698,
+        "last_tested_timestamp": "2026-03-03T23:43:04.678725Z",
+        "last_mutation_intensity": 0.05,
+        "confidence_trend": "STABLE"
+    }
+}

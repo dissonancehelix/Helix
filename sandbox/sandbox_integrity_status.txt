@@ -1,4 +1,0 @@
-SANDBOX_INTEGRITY_STATUS: PASSED
-MODULE_ISOLATION: ACTIVE
-RING_PROTECTION: Sandbox cannot mutate /core/ at runtime.
-IMPORT_RESTRICTION: No Ring 2 -> Ring 1 upward dependencies detected.

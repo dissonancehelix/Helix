@@ -1,0 +1,274 @@
+{
+    "metrics": [
+        {
+            "regime": "A_Competitive_Opt",
+            "topology": "lattice",
+            "k_eff_pre": 79.85956111441304,
+            "k_eff_dur": 36.47201187192841,
+            "k_eff_post": 4.010010312948254,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "A_Competitive_Opt",
+            "topology": "small-world",
+            "k_eff_pre": 81.50035482640068,
+            "k_eff_dur": 40.698237685378736,
+            "k_eff_post": 4.800534745877433,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "A_Competitive_Opt",
+            "topology": "scale-free",
+            "k_eff_pre": 86.0757449361311,
+            "k_eff_dur": 48.39161694846162,
+            "k_eff_post": 4.467140174229918,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "A_Competitive_Opt",
+            "topology": "random",
+            "k_eff_pre": 79.78742343850249,
+            "k_eff_dur": 38.29756859812424,
+            "k_eff_post": 4.788052380511622,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "A_Competitive_Opt",
+            "topology": "fully_connected",
+            "k_eff_pre": 80.90066000892817,
+            "k_eff_dur": 18.19708201126024,
+            "k_eff_post": 1.9602191398554443,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "B_Distributed_Avg",
+            "topology": "lattice",
+            "k_eff_pre": 81.68856054885659,
+            "k_eff_dur": 82.11309208819277,
+            "k_eff_post": 82.27305959720995,
+            "classif": "FIELD",
+            "twin_classif": "FIELD"
+        },
+        {
+            "regime": "B_Distributed_Avg",
+            "topology": "small-world",
+            "k_eff_pre": 82.92222910558861,
+            "k_eff_dur": 82.17898365537025,
+            "k_eff_post": 82.86583237541103,
+            "classif": "FIELD",
+            "twin_classif": "FIELD"
+        },
+        {
+            "regime": "B_Distributed_Avg",
+            "topology": "scale-free",
+            "k_eff_pre": 86.21848217684452,
+            "k_eff_dur": 84.7287501489863,
+            "k_eff_post": 82.5833932078695,
+            "classif": "FIELD",
+            "twin_classif": "FIELD"
+        },
+        {
+            "regime": "B_Distributed_Avg",
+            "topology": "random",
+            "k_eff_pre": 83.22918122882986,
+            "k_eff_dur": 82.61847770304861,
+            "k_eff_post": 82.86230186619397,
+            "classif": "FIELD",
+            "twin_classif": "FIELD"
+        },
+        {
+            "regime": "B_Distributed_Avg",
+            "topology": "fully_connected",
+            "k_eff_pre": 82.37553335602625,
+            "k_eff_dur": 83.14633311128472,
+            "k_eff_post": 82.7576586094267,
+            "classif": "FIELD",
+            "twin_classif": "FIELD"
+        },
+        {
+            "regime": "C_Leaderless_Coord",
+            "topology": "lattice",
+            "k_eff_pre": 78.16228776424889,
+            "k_eff_dur": 68.35855357902746,
+            "k_eff_post": 17.362888640537758,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "C_Leaderless_Coord",
+            "topology": "small-world",
+            "k_eff_pre": 80.89154267189353,
+            "k_eff_dur": 68.67191739287902,
+            "k_eff_post": 18.85487422703046,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "C_Leaderless_Coord",
+            "topology": "scale-free",
+            "k_eff_pre": 83.10498657778882,
+            "k_eff_dur": 68.6543385576972,
+            "k_eff_post": 18.610125491867098,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "C_Leaderless_Coord",
+            "topology": "random",
+            "k_eff_pre": 79.87382833900162,
+            "k_eff_dur": 68.41611139913569,
+            "k_eff_post": 19.312937545622074,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "C_Leaderless_Coord",
+            "topology": "fully_connected",
+            "k_eff_pre": 81.8946860612538,
+            "k_eff_dur": 71.5791890426254,
+            "k_eff_post": 18.501031462852954,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "D_Hierarchical_Vote",
+            "topology": "lattice",
+            "k_eff_pre": 84.05823548952854,
+            "k_eff_dur": 41.36146995218763,
+            "k_eff_post": 3.800302678956687,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "D_Hierarchical_Vote",
+            "topology": "small-world",
+            "k_eff_pre": 83.66154600228795,
+            "k_eff_dur": 44.01251756372296,
+            "k_eff_post": 4.674121000549065,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "D_Hierarchical_Vote",
+            "topology": "scale-free",
+            "k_eff_pre": 84.63525232758826,
+            "k_eff_dur": 37.32142834184584,
+            "k_eff_post": 4.641942523298711,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "D_Hierarchical_Vote",
+            "topology": "random",
+            "k_eff_pre": 80.51829685279945,
+            "k_eff_dur": 42.96640958425126,
+            "k_eff_post": 4.03528482730676,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "D_Hierarchical_Vote",
+            "topology": "fully_connected",
+            "k_eff_pre": 83.62062530205965,
+            "k_eff_dur": 17.548951215603374,
+            "k_eff_post": 1.8963679634930386,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "E_Multi_Attractor_Dyn",
+            "topology": "lattice",
+            "k_eff_pre": 80.13811494182173,
+            "k_eff_dur": 68.9006688142566,
+            "k_eff_post": 18.110844939495504,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "E_Multi_Attractor_Dyn",
+            "topology": "small-world",
+            "k_eff_pre": 81.82582803431877,
+            "k_eff_dur": 74.83938907819825,
+            "k_eff_post": 19.48311754864982,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "E_Multi_Attractor_Dyn",
+            "topology": "scale-free",
+            "k_eff_pre": 81.47600707546759,
+            "k_eff_dur": 71.9782471910424,
+            "k_eff_post": 18.900632400004785,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "E_Multi_Attractor_Dyn",
+            "topology": "random",
+            "k_eff_pre": 82.43567183100379,
+            "k_eff_dur": 72.6069658853909,
+            "k_eff_post": 18.48396880942578,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "E_Multi_Attractor_Dyn",
+            "topology": "fully_connected",
+            "k_eff_pre": 79.13489971808177,
+            "k_eff_dur": 73.48161125194427,
+            "k_eff_post": 18.761048738931272,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "F_Hybrid_Arbitration",
+            "topology": "lattice",
+            "k_eff_pre": 80.28852909529148,
+            "k_eff_dur": 46.18077339221425,
+            "k_eff_post": 5.010867995925647,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "F_Hybrid_Arbitration",
+            "topology": "small-world",
+            "k_eff_pre": 83.2114187735948,
+            "k_eff_dur": 41.81008924451169,
+            "k_eff_post": 4.338737975242931,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "F_Hybrid_Arbitration",
+            "topology": "scale-free",
+            "k_eff_pre": 78.68858146234878,
+            "k_eff_dur": 33.797203680977525,
+            "k_eff_post": 3.8708022733264698,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "F_Hybrid_Arbitration",
+            "topology": "random",
+            "k_eff_pre": 79.71458868207675,
+            "k_eff_dur": 43.35336527696644,
+            "k_eff_post": 3.8956786839409663,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        },
+        {
+            "regime": "F_Hybrid_Arbitration",
+            "topology": "fully_connected",
+            "k_eff_pre": 82.50594017108686,
+            "k_eff_dur": 20.30893735652767,
+            "k_eff_post": 1.5402221041494057,
+            "classif": "FUNNEL",
+            "twin_classif": "FUNNEL"
+        }
+    ]
+}

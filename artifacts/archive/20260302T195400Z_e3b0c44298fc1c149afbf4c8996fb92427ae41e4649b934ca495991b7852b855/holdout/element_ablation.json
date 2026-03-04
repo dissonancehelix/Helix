@@ -1,8 +1,0 @@
-{
-  "remove_C1_acc_delta": -0.32,
-  "remove_C2_acc_delta": -0.25,
-  "remove_C3_acc_delta": -0.22,
-  "remove_C4_acc_delta": -0.16,
-  "verdict": "NO_INFLATION",
-  "notes": "Removal of any element triggers catastrophic accuracy drop (>15%)."
-}

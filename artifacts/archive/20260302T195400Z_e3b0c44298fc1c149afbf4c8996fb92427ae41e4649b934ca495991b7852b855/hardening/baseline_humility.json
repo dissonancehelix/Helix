@@ -1,9 +1,0 @@
-{
-  "random_classifier_accuracy": 0.25,
-  "shallow_decision_tree_accuracy": 0.58,
-  "heuristic_threshold_accuracy": 0.62,
-  "logistic_regression_accuracy": 0.74,
-  "helix_accuracy": 0.88,
-  "helix_advantage_over_best_shallow": 0.14,
-  "instrument_superiority_confirmed": true
-}

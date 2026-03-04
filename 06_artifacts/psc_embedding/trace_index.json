@@ -1,0 +1,8 @@
+[
+    {
+        "claim": "PSC Result Stability",
+        "source": "psc_embedding_suite.py:run_embedding_psc",
+        "lines": "70-120",
+        "excerpt_hash": "e5801bef6563913d2688d032bdd54683fcf608fd246bfd031f9860ec7cbcd462"
+    }
+]

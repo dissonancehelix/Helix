@@ -1,0 +1,8 @@
+{
+    "explicit_observability_channels_introduced": true,
+    "detection_latency_modeled": true,
+    "detection_lag_normalization_behavior": 0.855,
+    "cross_domain_cv": 0.188,
+    "predictive_delta_stable": true,
+    "promotion_status": "ADMITTED"
+}

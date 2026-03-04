@@ -1,0 +1,8 @@
+{
+    "sample_size": 150,
+    "directional_accuracy": 0.847,
+    "mae_delta": 0.027,
+    "calibration_error": "0.023 (SLIGHT_UNDER_ESTIMATE)",
+    "top_10_pct_recall": 0.867,
+    "false_positive_rate": 0.0
+}

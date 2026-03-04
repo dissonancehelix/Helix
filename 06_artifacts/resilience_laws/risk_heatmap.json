@@ -1,0 +1,422 @@
+[
+    {
+        "subsystem_path": "helix.py",
+        "projected_risk_score": 0.536,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "03_forge/forge/ml_instability_auditor.py",
+        "projected_risk_score": 0.571,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "03_forge/forge/resilience_auditor.py",
+        "projected_risk_score": 0.748,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "03_forge/forge/experiments/dcp_decision_compression_suite.py",
+        "projected_risk_score": 0.745,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "03_forge/forge/experiments/dcp_logger.py",
+        "projected_risk_score": 0.659,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "03_forge/forge/experiments/psc_guba_analysis.py",
+        "projected_risk_score": 0.866,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "03_forge/forge/experiments/structural_atlas_generator.py",
+        "projected_risk_score": 0.778,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "03_forge/forge/theorems/theorem_projection_stability.py",
+        "projected_risk_score": 0.583,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/atlas_generator.py",
+        "projected_risk_score": 0.746,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/audit_manifold.py",
+        "projected_risk_score": 0.684,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/geometry_audit.py",
+        "projected_risk_score": 0.529,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/grant_validation_suite.py",
+        "projected_risk_score": 0.878,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/helix.py",
+        "projected_risk_score": 0.403,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/hostility_engine.py",
+        "projected_risk_score": 0.542,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/manifold_safe_engine.py",
+        "projected_risk_score": 0.764,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/module_validator.py",
+        "projected_risk_score": 0.595,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/polyhedral_formalization.py",
+        "projected_risk_score": 0.789,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/registry_writer.py",
+        "projected_risk_score": 0.562,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/status_dashboard.py",
+        "projected_risk_score": 0.664,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/phase10_orchestrator.py",
+        "projected_risk_score": 0.609,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/phase25_26_orchestrator.py",
+        "projected_risk_score": 0.849,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/phase27_29_orchestrator.py",
+        "projected_risk_score": 0.618,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/phase2b_orchestrator.py",
+        "projected_risk_score": 0.587,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/phase8_orchestrator.py",
+        "projected_risk_score": 0.683,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/phase_c_a_b_orchestrator.py",
+        "projected_risk_score": 0.404,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/run_claims_suite.py",
+        "projected_risk_score": 0.892,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/run_phases_23_to_27.py",
+        "projected_risk_score": 0.612,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/os/admissibility_firewall.py",
+        "projected_risk_score": 0.546,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/os/determinism_probe.py",
+        "projected_risk_score": 0.648,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/os/instrument_clock.py",
+        "projected_risk_score": 0.774,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/os/instrument_health_reporter.py",
+        "projected_risk_score": 0.721,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/tooling/phase3_5_generator.py",
+        "projected_risk_score": 0.854,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/tooling/phase3_generator.py",
+        "projected_risk_score": 0.801,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/orchestration/tooling/phase5_generator.py",
+        "projected_risk_score": 0.624,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/infra/hashing/integrity.py",
+        "projected_risk_score": 0.417,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/infra/io/persistence.py",
+        "projected_risk_score": 0.832,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/infra/manifest/runner.py",
+        "projected_risk_score": 0.467,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/infra/platform/cli_query.py",
+        "projected_risk_score": 0.549,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/infra/platform/structural_diff.py",
+        "projected_risk_score": 0.568,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/infra/platform/visual_graphing.py",
+        "projected_risk_score": 0.818,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/infra/trace/integrity.py",
+        "projected_risk_score": 0.42,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "02_runtime/runtime/infra/trace/tsm_regime_tests.py",
+        "projected_risk_score": 0.898,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/root_guard.py",
+        "projected_risk_score": 0.508,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_consolidation.py",
+        "projected_risk_score": 0.602,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_determinism.py",
+        "projected_risk_score": 0.734,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_eigenspace_stability.py",
+        "projected_risk_score": 0.438,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_eip_overlay_determinism.py",
+        "projected_risk_score": 0.405,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_eip_trace_integrity.py",
+        "projected_risk_score": 0.897,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_layer_directionality.py",
+        "projected_risk_score": 0.523,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_no_artifacts_in_layers.py",
+        "projected_risk_score": 0.877,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_no_hashing_in_layers.py",
+        "projected_risk_score": 0.789,
+        "projected_vulnerabilities": [
+            "Coupling Convergence",
+            "Silent Boundary"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_pipeline_integrity.py",
+        "projected_risk_score": 0.677,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_properties.py",
+        "projected_risk_score": 0.645,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "01_protocol/protocol/tests/test_representation_invariance.py",
+        "projected_risk_score": 0.53,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "00_core/core/bases.py",
+        "projected_risk_score": 0.613,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "00_core/core/eip.py",
+        "projected_risk_score": 0.448,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    },
+    {
+        "subsystem_path": "00_core/core/__init__.py",
+        "projected_risk_score": 0.463,
+        "projected_vulnerabilities": [
+            "Missing Guardrail"
+        ]
+    }
+]

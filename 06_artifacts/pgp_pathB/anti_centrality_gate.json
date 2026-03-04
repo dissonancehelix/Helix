@@ -1,0 +1,12 @@
+{
+    "Regime_B1": {
+        "MaxDegree_Spearman": 0.05553470919324577,
+        "Passes_Anti_Centrality": true
+    },
+    "Regime_B2": {
+        "MaxDegree_Spearman": 0.1335834896810506,
+        "Passes_Anti_Centrality": true
+    },
+    "Global_Pass": true,
+    "Why": "MaxDegree Spearman scores map weakly to cascade size (<0.7), signifying load clusters or structural cycles drive cascade independently of pure hubs."
+}

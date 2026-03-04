@@ -1,4 +1,0 @@
-{
-  "candidate_proposed": false,
-  "reason": "Residual variance is uniformly < 0.10 across all non-symbolic domains. The C1-C4 basis spans the state-space losslessly."
-}

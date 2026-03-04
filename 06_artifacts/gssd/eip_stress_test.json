@@ -1,0 +1,17 @@
+{
+    "differentiation_cascade_simulations": {
+        "lift_vs_srd_baseline": 0.167,
+        "false_positive_rate": 0.014,
+        "cross_domain_stability": 0.71
+    },
+    "one_way_threshold_state_machines": {
+        "lift_vs_srd_baseline": 0.369,
+        "false_positive_rate": 0.044,
+        "cross_domain_stability": 0.831
+    },
+    "lock_in_coordination_games": {
+        "lift_vs_srd_baseline": 0.296,
+        "false_positive_rate": 0.057,
+        "cross_domain_stability": 0.747
+    }
+}

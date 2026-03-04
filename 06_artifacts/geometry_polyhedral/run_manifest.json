@@ -1,0 +1,19 @@
+{
+  "artifact_hash": "732da9da9425e134561211113a340bcc5aee5081e0c47443a61c30430646fb77",
+  "bootstrap_seed": 42,
+  "data": {
+    "facet_stable": false,
+    "hash_locked": true,
+    "hostility_survived": [
+      "Dropout",
+      "Noise",
+      "Solver_Rotation"
+    ],
+    "router_installed": false,
+    "timestamp": "2026-03-02T17:20:00Z"
+  },
+  "dataset_hash": "unknown",
+  "generated_by": "helix.py run",
+  "git_commit": "unknown",
+  "schema_version": "unknown"
+}

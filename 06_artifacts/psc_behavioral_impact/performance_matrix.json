@@ -1,0 +1,53 @@
+{
+    "iris": {
+        "Model_Full": {
+            "acc_raw": 1.0,
+            "acc_noise": 1.0,
+            "acc_dropout": 0.8666666666666667
+        },
+        "Model_Stable": {
+            "acc_raw": 0.5111111111111111,
+            "acc_noise": 0.6,
+            "acc_dropout": 0.5333333333333333
+        },
+        "Model_Unstable": {
+            "acc_raw": 0.28888888888888886,
+            "acc_noise": 0.28888888888888886,
+            "acc_dropout": 0.28888888888888886
+        }
+    },
+    "wine": {
+        "Model_Full": {
+            "acc_raw": 0.9444444444444444,
+            "acc_noise": 0.9629629629629629,
+            "acc_dropout": 0.8148148148148148
+        },
+        "Model_Stable": {
+            "acc_raw": 0.3888888888888889,
+            "acc_noise": 0.3888888888888889,
+            "acc_dropout": 0.3888888888888889
+        },
+        "Model_Unstable": {
+            "acc_raw": 0.9444444444444444,
+            "acc_noise": 0.9444444444444444,
+            "acc_dropout": 0.8703703703703703
+        }
+    },
+    "synthetic": {
+        "Model_Full": {
+            "acc_raw": 0.9433333333333334,
+            "acc_noise": 0.9333333333333333,
+            "acc_dropout": 0.86
+        },
+        "Model_Stable": {
+            "acc_raw": 0.5733333333333334,
+            "acc_noise": 0.58,
+            "acc_dropout": 0.59
+        },
+        "Model_Unstable": {
+            "acc_raw": 0.5,
+            "acc_noise": 0.5,
+            "acc_dropout": 0.5
+        }
+    }
+}

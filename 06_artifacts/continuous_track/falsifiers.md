@@ -1,0 +1,1 @@
+# Track 2 Falsifiers\n\n- **Falsified if**: Jacobian graph predictions diverge >15% from Perturbation graphs.\n- **Falsified if**: Coordinate rotation breaks topological extraction accuracy.\n

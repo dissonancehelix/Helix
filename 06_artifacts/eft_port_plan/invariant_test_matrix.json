@@ -1,0 +1,51 @@
+[
+    {
+        "id": "INV-001",
+        "required_condition": "Time to accelerate to 300 HU/s on flat surface",
+        "expected_value": 1.0,
+        "drift_tolerance": "<= 5%",
+        "failure_condition": "Acceleration reaches threshold noticeably early or late"
+    },
+    {
+        "id": "INV-002",
+        "required_condition": "Maximum empty-handed speed limit",
+        "expected_value": 350.0,
+        "drift_tolerance": "0%",
+        "failure_condition": "Velocity peaks anywhere apart from exactly 350.0"
+    },
+    {
+        "id": "INV-003",
+        "required_condition": "Carrier maximum speed penalty",
+        "expected_value": 262.5,
+        "drift_tolerance": "0%",
+        "failure_condition": "Carrier naturally outpaces chasers or physics breaks bounding limits"
+    },
+    {
+        "id": "INV-004",
+        "required_condition": "Max velocity during active throw windup sequence",
+        "expected_value": 0.0,
+        "drift_tolerance": "0%",
+        "failure_condition": "Any movement > 0 allows lateral cheating of throw-vulnerability"
+    },
+    {
+        "id": "INV-005",
+        "required_condition": "Tackle resolved mathematically exactly",
+        "expected_value": "Winner magnitude strictly greater. Margin 24.0 triggers mutual stun",
+        "drift_tolerance": "< 2 HU/s prediction slack",
+        "failure_condition": "Client-Server mismatch creates ghost tackles"
+    },
+    {
+        "id": "INV-006",
+        "required_condition": "Jumping invalidates active Charge state immediately",
+        "expected_value": false,
+        "drift_tolerance": "0 ticks",
+        "failure_condition": "Air combat permits tackle"
+    },
+    {
+        "id": "INV-007",
+        "required_condition": "Wall normal collision < 0.7 triggers absolute stop",
+        "expected_value": 0.0,
+        "drift_tolerance": "0.5 seconds decay is invalid",
+        "failure_condition": "Player slides against perpendicular wall instead of stopping"
+    }
+]

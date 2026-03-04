@@ -1,0 +1,604 @@
+{
+    "metrics": [
+        {
+            "regime": "Binary_Classifier",
+            "topology": "lattice",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 82.28852299821968,
+            "k_eff_post": 10.32840155041164,
+            "compression_ratio": 0.12551448457320222,
+            "twin_compression_ratio": 0.11165273987982229,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Binary_Classifier",
+            "topology": "lattice",
+            "commitment_mode": "External",
+            "k_eff_pre": 80.11871262859954,
+            "k_eff_post": 30.555669070137817,
+            "compression_ratio": 0.3813799307008651,
+            "twin_compression_ratio": 0.4084657067907826,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Binary_Classifier",
+            "topology": "small-world",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 77.11745004322171,
+            "k_eff_post": 9.50090298403417,
+            "compression_ratio": 0.12320042971738869,
+            "twin_compression_ratio": 0.12922097089816842,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Binary_Classifier",
+            "topology": "small-world",
+            "commitment_mode": "External",
+            "k_eff_pre": 79.99145749462737,
+            "k_eff_post": 29.43933664540114,
+            "compression_ratio": 0.36803100690318635,
+            "twin_compression_ratio": 0.4087142839266353,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Binary_Classifier",
+            "topology": "scale-free",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 84.52957913896716,
+            "k_eff_post": 10.720825586272746,
+            "compression_ratio": 0.12682927911716727,
+            "twin_compression_ratio": 0.12607673802402483,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Binary_Classifier",
+            "topology": "scale-free",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.73374776314927,
+            "k_eff_post": 29.65933092367984,
+            "compression_ratio": 0.3628774127625668,
+            "twin_compression_ratio": 0.37338905206799544,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Binary_Classifier",
+            "topology": "random",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 80.67958782336889,
+            "k_eff_post": 9.425790573782333,
+            "compression_ratio": 0.11682992970189848,
+            "twin_compression_ratio": 0.12128700487361649,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Binary_Classifier",
+            "topology": "random",
+            "commitment_mode": "External",
+            "k_eff_pre": 79.36179212206997,
+            "k_eff_post": 30.650560574431996,
+            "compression_ratio": 0.38621305989772736,
+            "twin_compression_ratio": 0.3754393466987201,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Binary_Classifier",
+            "topology": "fully_connected",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 79.15056526319657,
+            "k_eff_post": 9.717240793021672,
+            "compression_ratio": 0.12276906375474736,
+            "twin_compression_ratio": 0.11764311207091122,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Binary_Classifier",
+            "topology": "fully_connected",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.16294091732274,
+            "k_eff_post": 28.75564376930555,
+            "compression_ratio": 0.3542952416990127,
+            "twin_compression_ratio": 0.36049317262084646,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "lattice",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 78.96250265894471,
+            "k_eff_post": 56.403041987623354,
+            "compression_ratio": 0.7143015999789126,
+            "twin_compression_ratio": 0.09201898370535219,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "lattice",
+            "commitment_mode": "External",
+            "k_eff_pre": 80.6865830676825,
+            "k_eff_post": 58.301236057659224,
+            "compression_ratio": 0.7225641964383877,
+            "twin_compression_ratio": 0.694928310033315,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "small-world",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 77.54289670618346,
+            "k_eff_post": 12.27755044443362,
+            "compression_ratio": 0.15833236783704754,
+            "twin_compression_ratio": 0.10448461683849208,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "small-world",
+            "commitment_mode": "External",
+            "k_eff_pre": 83.87883118792364,
+            "k_eff_post": 4.634680980119935,
+            "compression_ratio": 0.05525447737506395,
+            "twin_compression_ratio": 0.29033618128175126,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "scale-free",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 80.33752811715938,
+            "k_eff_post": 15.886778884703968,
+            "compression_ratio": 0.19775040702690844,
+            "twin_compression_ratio": 0.3370059039534748,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "scale-free",
+            "commitment_mode": "External",
+            "k_eff_pre": 82.7725413631205,
+            "k_eff_post": 6.622351419501709,
+            "compression_ratio": 0.08000662188744048,
+            "twin_compression_ratio": 0.40664519934861326,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "random",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 78.80130932337029,
+            "k_eff_post": 19.076636953621392,
+            "compression_ratio": 0.24208527900644652,
+            "twin_compression_ratio": 0.090607043021852,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "random",
+            "commitment_mode": "External",
+            "k_eff_pre": 80.32369221630168,
+            "k_eff_post": 4.788587922628564,
+            "compression_ratio": 0.059616133054908566,
+            "twin_compression_ratio": 0.07839230521520614,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "fully_connected",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 81.86157202748007,
+            "k_eff_post": 38.15792780277694,
+            "compression_ratio": 0.46612747419470185,
+            "twin_compression_ratio": 0.08992633282264807,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Continuous_Optim",
+            "topology": "fully_connected",
+            "commitment_mode": "External",
+            "k_eff_pre": 77.75902248962363,
+            "k_eff_post": 5.890863518377556,
+            "compression_ratio": 0.07575794203384757,
+            "twin_compression_ratio": 0.18487897794461944,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "lattice",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 82.02740468302174,
+            "k_eff_post": 100.0,
+            "compression_ratio": 1.2191047661013987,
+            "twin_compression_ratio": 1.2133304520152448,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "lattice",
+            "commitment_mode": "External",
+            "k_eff_pre": 82.53592017984363,
+            "k_eff_post": 80.08412545836573,
+            "compression_ratio": 0.9702942098890338,
+            "twin_compression_ratio": 0.8768562521653109,
+            "verdict": "OUTCOME C (No Compression)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "small-world",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 81.60853220058395,
+            "k_eff_post": 100.0,
+            "compression_ratio": 1.2253620706498192,
+            "twin_compression_ratio": 1.2408767276512196,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "small-world",
+            "commitment_mode": "External",
+            "k_eff_pre": 83.76959462348644,
+            "k_eff_post": 73.4185020733839,
+            "compression_ratio": 0.8764337753259176,
+            "twin_compression_ratio": 0.9544281064775539,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "scale-free",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 82.94645549615734,
+            "k_eff_post": 100.0,
+            "compression_ratio": 1.2055970252355472,
+            "twin_compression_ratio": 1.1716595521734416,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "scale-free",
+            "commitment_mode": "External",
+            "k_eff_pre": 80.93308921241062,
+            "k_eff_post": 69.79707704317693,
+            "compression_ratio": 0.8624047064358684,
+            "twin_compression_ratio": 0.9477621929134363,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "random",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 80.63470700454273,
+            "k_eff_post": 100.0,
+            "compression_ratio": 1.240160765938745,
+            "twin_compression_ratio": 1.1858174000444879,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "random",
+            "commitment_mode": "External",
+            "k_eff_pre": 80.036235220547,
+            "k_eff_post": 64.13072298383786,
+            "compression_ratio": 0.8012711093559051,
+            "twin_compression_ratio": 0.8759699662281994,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "fully_connected",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 80.09339590893279,
+            "k_eff_post": 100.0,
+            "compression_ratio": 1.2485423906073514,
+            "twin_compression_ratio": 1.2327656263474904,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Multi_Agent_Consensus",
+            "topology": "fully_connected",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.18074634012666,
+            "k_eff_post": 74.42604216058565,
+            "compression_ratio": 0.9167942586873923,
+            "twin_compression_ratio": 0.9515034440535448,
+            "verdict": "OUTCOME C (No Compression)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "lattice",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 77.74627511539389,
+            "k_eff_post": 98.6540012572784,
+            "compression_ratio": 1.2689225446602104,
+            "twin_compression_ratio": 1.1881638276435422,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "lattice",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.784763251058,
+            "k_eff_post": 98.6494094103418,
+            "compression_ratio": 1.2062076784096534,
+            "twin_compression_ratio": 1.1761110083368187,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "small-world",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 79.3224446704446,
+            "k_eff_post": 98.63065831691753,
+            "compression_ratio": 1.2434142533893329,
+            "twin_compression_ratio": 1.1886709308611156,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "small-world",
+            "commitment_mode": "External",
+            "k_eff_pre": 79.50549244168303,
+            "k_eff_post": 98.69432339496738,
+            "compression_ratio": 1.2413522684279867,
+            "twin_compression_ratio": 1.2323630332921442,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "scale-free",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 80.53734545211553,
+            "k_eff_post": 98.6887077450244,
+            "compression_ratio": 1.2253782042481272,
+            "twin_compression_ratio": 1.1984370790407035,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "scale-free",
+            "commitment_mode": "External",
+            "k_eff_pre": 85.38862295481482,
+            "k_eff_post": 98.79394381318791,
+            "compression_ratio": 1.1569918848025784,
+            "twin_compression_ratio": 1.23659167439196,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "random",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 80.80802260165208,
+            "k_eff_post": 98.57790294291853,
+            "compression_ratio": 1.2199024276198926,
+            "twin_compression_ratio": 1.1985617879324093,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "random",
+            "commitment_mode": "External",
+            "k_eff_pre": 79.91048314435585,
+            "k_eff_post": 98.63233476343005,
+            "compression_ratio": 1.2342853012821078,
+            "twin_compression_ratio": 1.3037529896881632,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "fully_connected",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 84.01162259415949,
+            "k_eff_post": 98.51613548186202,
+            "compression_ratio": 1.1726488840451332,
+            "twin_compression_ratio": 1.1671173256453622,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Swarm_System",
+            "topology": "fully_connected",
+            "commitment_mode": "External",
+            "k_eff_pre": 79.50834817057358,
+            "k_eff_post": 98.86201589241429,
+            "compression_ratio": 1.2434168004637731,
+            "twin_compression_ratio": 1.182624020568339,
+            "verdict": "OUTCOME C (Expansion)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "lattice",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 80.12690306669862,
+            "k_eff_post": 2.2588407396585817,
+            "compression_ratio": 0.02819079052360597,
+            "twin_compression_ratio": 0.03437619791523926,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "lattice",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.45120340538793,
+            "k_eff_post": 2.8602738796179583,
+            "compression_ratio": 0.035116410317256944,
+            "twin_compression_ratio": 0.03378302025024241,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "small-world",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 84.0096304480695,
+            "k_eff_post": 2.5874612910935277,
+            "compression_ratio": 0.030799579492174593,
+            "twin_compression_ratio": 0.027569451793404646,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "small-world",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.44089558695235,
+            "k_eff_post": 2.825797399545582,
+            "compression_ratio": 0.034697523635758044,
+            "twin_compression_ratio": 0.028068445522568767,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "scale-free",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 81.35836601924258,
+            "k_eff_post": 2.8862588125055266,
+            "compression_ratio": 0.035475869953224964,
+            "twin_compression_ratio": 0.03449848761522929,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "scale-free",
+            "commitment_mode": "External",
+            "k_eff_pre": 80.96240682772573,
+            "k_eff_post": 1.9245557970833698,
+            "compression_ratio": 0.023770980538887612,
+            "twin_compression_ratio": 0.029288353515733178,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "random",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 79.92759573548221,
+            "k_eff_post": 2.895134156434151,
+            "compression_ratio": 0.03622195975987447,
+            "twin_compression_ratio": 0.03193917116573443,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "random",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.40047001058922,
+            "k_eff_post": 2.2401673317785726,
+            "compression_ratio": 0.027520324286667557,
+            "twin_compression_ratio": 0.030742086367590942,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "fully_connected",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 85.99633058574925,
+            "k_eff_post": 2.2532510516349564,
+            "compression_ratio": 0.0262017115880099,
+            "twin_compression_ratio": 0.031597287466298696,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Voting_System",
+            "topology": "fully_connected",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.84146797358521,
+            "k_eff_post": 2.4553216120994166,
+            "compression_ratio": 0.030000947843358397,
+            "twin_compression_ratio": 0.03101015318954718,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "lattice",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 80.44387302002258,
+            "k_eff_post": 6.992193901312287,
+            "compression_ratio": 0.08692015487086159,
+            "twin_compression_ratio": 0.1540056137556758,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "lattice",
+            "commitment_mode": "External",
+            "k_eff_pre": 76.5930736299372,
+            "k_eff_post": 4.855462845272548,
+            "compression_ratio": 0.06339297556763332,
+            "twin_compression_ratio": 0.06174797781518235,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "small-world",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 82.02664326654173,
+            "k_eff_post": 5.416382959858711,
+            "compression_ratio": 0.06603199575360447,
+            "twin_compression_ratio": 0.07144930855017258,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "small-world",
+            "commitment_mode": "External",
+            "k_eff_pre": 79.66353613662733,
+            "k_eff_post": 50.003108298494034,
+            "compression_ratio": 0.6276787439203799,
+            "twin_compression_ratio": 0.21180121056468346,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "scale-free",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 81.91921976574612,
+            "k_eff_post": 33.302024229222724,
+            "compression_ratio": 0.40652272231659736,
+            "twin_compression_ratio": 0.07498122139633627,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "scale-free",
+            "commitment_mode": "External",
+            "k_eff_pre": 80.01792313997993,
+            "k_eff_post": 45.659772923512925,
+            "compression_ratio": 0.5706193204194725,
+            "twin_compression_ratio": 0.2510999292739243,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "random",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 79.36935621967687,
+            "k_eff_post": 21.406536107057555,
+            "compression_ratio": 0.26970782083464284,
+            "twin_compression_ratio": 0.23152590925113692,
+            "verdict": "OUTCOME B (Conditional)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "random",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.30187435085527,
+            "k_eff_post": 6.8605506064786,
+            "compression_ratio": 0.08438367087174577,
+            "twin_compression_ratio": 0.06003086898301268,
+            "verdict": "OUTCOME A (Strong Compression)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "fully_connected",
+            "commitment_mode": "Internal",
+            "k_eff_pre": 81.98194764605431,
+            "k_eff_post": 74.48501684354616,
+            "compression_ratio": 0.9085538826806713,
+            "twin_compression_ratio": 0.4323724040365142,
+            "verdict": "OUTCOME F (Falsifier)"
+        },
+        {
+            "regime": "Bifurcation_Chaos",
+            "topology": "fully_connected",
+            "commitment_mode": "External",
+            "k_eff_pre": 81.48139845839667,
+            "k_eff_post": 81.03922517151705,
+            "compression_ratio": 0.9945733223134923,
+            "twin_compression_ratio": 0.09039807244065182,
+            "verdict": "OUTCOME C (No Compression)"
+        }
+    ]
+}

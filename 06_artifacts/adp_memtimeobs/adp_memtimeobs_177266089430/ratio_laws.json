@@ -1,0 +1,6 @@
+{
+    "EVR": "EVR = (tick_rate / decay_rate) * phase_alignment_score",
+    "LCS": "LCS = internal_update_period / external_latency_period",
+    "OPL": "OPL = (observer_window_lag / cascade_timescale) + bottleneck_visibility_deficit",
+    "PSF": "PSF = interference_devouring_capacity / self-diffusion_leak"
+}

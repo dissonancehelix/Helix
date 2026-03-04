@@ -1,0 +1,8 @@
+[
+    {
+        "claim": "Tabular Stability Comparison",
+        "source": "psc_tabular_suite.py:run_tabular_psc",
+        "lines": "50-100",
+        "excerpt_hash": "81fd90f5ab8ce12e8e0478707343b89b37da690e879d49b760aa40652adec6a1"
+    }
+]

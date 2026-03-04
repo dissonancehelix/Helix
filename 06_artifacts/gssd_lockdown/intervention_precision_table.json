@@ -1,0 +1,8 @@
+{
+    "top_motif_accuracies": {
+        "High_Connectivity_Concentration": 0.92,
+        "Cycle_Amplification_Loop": 0.88,
+        "Silent_Drop_Propagations": 0.85
+    },
+    "average_intervention_precision": 0.88
+}

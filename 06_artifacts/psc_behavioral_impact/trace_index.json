@@ -1,0 +1,8 @@
+[
+    {
+        "claim": "Behavioral Impact Accuracy Matrix",
+        "source": "psc_behavioral_impact_suite.py:run_behavioral_impact_suite",
+        "lines": "100-150",
+        "excerpt_hash": "703952741b411fc5104008d67d2db51144c3c2fd39a1a21d2392f105c5571628"
+    }
+]

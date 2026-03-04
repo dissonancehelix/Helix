@@ -1,0 +1,113 @@
+{
+    "mean_absolute_error_SRD": 0.7286,
+    "mean_absolute_error_Baseline": 0.7934,
+    "calibration_diff": -0.0648,
+    "pass_condition": true,
+    "results": [
+        {
+            "repo": "forecast_graph_0",
+            "predicted_horizon": 0.8484,
+            "actual_horizon": 0.0256,
+            "srd_error": 0.8228,
+            "baseline_error": 0.9297
+        },
+        {
+            "repo": "forecast_graph_1",
+            "predicted_horizon": 0.835,
+            "actual_horizon": 0.1905,
+            "srd_error": 0.6445,
+            "baseline_error": 0.6871
+        },
+        {
+            "repo": "forecast_graph_2",
+            "predicted_horizon": 0.8465,
+            "actual_horizon": 0.0278,
+            "srd_error": 0.8187,
+            "baseline_error": 0.9213
+        },
+        {
+            "repo": "forecast_graph_3",
+            "predicted_horizon": 0.8305,
+            "actual_horizon": 0.1818,
+            "srd_error": 0.6487,
+            "baseline_error": 0.686
+        },
+        {
+            "repo": "forecast_graph_4",
+            "predicted_horizon": 0.8477,
+            "actual_horizon": 0.0278,
+            "srd_error": 0.8199,
+            "baseline_error": 0.9228
+        },
+        {
+            "repo": "forecast_graph_5",
+            "predicted_horizon": 0.8259,
+            "actual_horizon": 0.2069,
+            "srd_error": 0.619,
+            "baseline_error": 0.6801
+        },
+        {
+            "repo": "forecast_graph_6",
+            "predicted_horizon": 0.8455,
+            "actual_horizon": 0.0588,
+            "srd_error": 0.7867,
+            "baseline_error": 0.8304
+        },
+        {
+            "repo": "forecast_graph_7",
+            "predicted_horizon": 0.832,
+            "actual_horizon": 0.1818,
+            "srd_error": 0.6502,
+            "baseline_error": 0.7328
+        },
+        {
+            "repo": "forecast_graph_8",
+            "predicted_horizon": 0.8463,
+            "actual_horizon": 0.0385,
+            "srd_error": 0.8078,
+            "baseline_error": 0.8905
+        },
+        {
+            "repo": "forecast_graph_9",
+            "predicted_horizon": 0.8323,
+            "actual_horizon": 0.25,
+            "srd_error": 0.5823,
+            "baseline_error": 0.5742
+        },
+        {
+            "repo": "forecast_graph_10",
+            "predicted_horizon": 0.8504,
+            "actual_horizon": 0.0323,
+            "srd_error": 0.8181,
+            "baseline_error": 0.9147
+        },
+        {
+            "repo": "forecast_graph_11",
+            "predicted_horizon": 0.8307,
+            "actual_horizon": 0.1739,
+            "srd_error": 0.6568,
+            "baseline_error": 0.6994
+        },
+        {
+            "repo": "forecast_graph_12",
+            "predicted_horizon": 0.8482,
+            "actual_horizon": 0.0417,
+            "srd_error": 0.8065,
+            "baseline_error": 0.8854
+        },
+        {
+            "repo": "forecast_graph_13",
+            "predicted_horizon": 0.8317,
+            "actual_horizon": 0.1818,
+            "srd_error": 0.6499,
+            "baseline_error": 0.688
+        },
+        {
+            "repo": "forecast_graph_14",
+            "predicted_horizon": 0.8496,
+            "actual_horizon": 0.0526,
+            "srd_error": 0.797,
+            "baseline_error": 0.8587
+        }
+    ]
+}

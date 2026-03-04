@@ -1,0 +1,20 @@
+{
+    "Program_Name": "Graph-Structured Stress Dynamics (GSSD)",
+    "Substrate_Assumption": "Graph-representable systems with propagation and feedback",
+    "Stabilized_Axes": [
+        "STRUCTURE (SPTD)",
+        "TIME (FHO)",
+        "LOAD (SAO)",
+        "RECOVERY (RRO)"
+    ],
+    "Software-Stable_Axes": [
+        "COMMITMENT (EIP)"
+    ],
+    "Domain-Dependent_Axes": [
+        "INFORMATION (OGO)"
+    ],
+    "Mechanism_Core": "Propagation dynamics under stress and feedback",
+    "Null_Requirements": "All claims must beat randomized null graph baselines",
+    "Drift_Requirement": "CV bounds < defined threshold",
+    "No_Universal_Claim": true
+}

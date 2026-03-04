@@ -1,0 +1,1 @@
+# Multi-Layer Falsifiers\n\n- **Falsified if**: Intervention priorities on isolated Layer A completely decouple from priorities calculated across Layer A+B+C (Overlap < 70%).\n- **Falsified if**: Cross-layer cascading breaks standard propagation constraints (e.g., resources teleporting without explicit coupling edges).\n

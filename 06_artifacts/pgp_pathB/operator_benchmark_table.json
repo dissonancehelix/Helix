@@ -1,0 +1,12 @@
+{
+    "Regime_B1_FeedbackAmplification": {
+        "MaxDegree_Spearman": 0.05553470919324577,
+        "MeanDegree_Spearman": 0.25365853658536586,
+        "SRD_Spearman": 0.0337711069418386
+    },
+    "Regime_B2_CorrelatedShocks": {
+        "MaxDegree_Spearman": 0.1335834896810506,
+        "MeanDegree_Spearman": 0.07617260787992497,
+        "SRD_Spearman": -0.13583489681050653
+    }
+}

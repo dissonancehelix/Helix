@@ -1,0 +1,11 @@
+{
+    "artifacts": {
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\cg_177260329572\\dataset_manifest.json": "a462dc8935216658a73d7654fe588fcb392e480ee34a2a6ae2926e72bc00ea8d",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\cg_177260329572\\architecture_variables.json": "6f4f1a346b8cfb14c21bbba03c55d5a3c1f5f66cefc1d6f300eb2e7755be5fda",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\cg_177260329572\\influence_metrics.json": "2b413176dd1cd324b7d033f86821d2682f897140324319f836ca71354c5e0c55",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\cg_177260329572\\minimum_sufficient_model.json": "629b97180f8c9c40304c55c4164473033fffedf89e1ffb140f13ea3b59f3b310",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\cg_177260329572\\boundary_map.json": "8bd9295ae7de5b0d9fabc0d23d86732f55d73cdc7f09bfcb6faa19c86ffc34d7",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\cg_177260329572\\geometry_classification.json": "461749dba25ab5226a98c077303092779a220d77f9162163e1c9895809428cab",
+        "C:\\Users\\dissonance\\Desktop\\Helix\\06_artifacts\\cg_177260329572\\falsifiers_geometry.json": "33426d360ba5b7910b21425fc79977664b09c09a092b19ea5d1600de086a0ef4"
+    }
+}

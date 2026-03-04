@@ -1,0 +1,7 @@
+{
+    "null_baseline_differences": {
+        "Microservice Dependency Graph": -0.02,
+        "Event-Driven Pub/Sub System": 0.02,
+        "Financial Contagion Network (Simplified)": 0.009
+    }
+}

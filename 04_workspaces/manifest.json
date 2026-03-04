@@ -1,0 +1,13 @@
+{
+    "artifact_path": "eft",
+    "inputs": [
+        "lua",
+        "gamemode",
+        "entities"
+    ],
+    "outputs": [
+        "06_artifacts/eft"
+    ],
+    "reproducibility": "DETERMINISTIC_JUNCTION",
+    "structural_intensity": "HOST_ENGINE"
+}

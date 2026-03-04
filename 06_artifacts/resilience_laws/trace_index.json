@@ -1,0 +1,25 @@
+{
+    "traces": [
+        {
+            "claim": "Root Guard protects against topology mutation",
+            "path": "01_protocol/protocol/root_guard.py",
+            "lines": "20-55",
+            "excerpt_hash": "b2f8a410bd",
+            "supports": "FAM_D_layer_protection"
+        },
+        {
+            "claim": "Substrate Guard isolates experiment layers from core overrides",
+            "path": "01_protocol/protocol/substrate_guard.py",
+            "lines": "25-45",
+            "excerpt_hash": "c8a491bc22",
+            "supports": "FAM_D_guardrails"
+        },
+        {
+            "claim": "Hostility Engine evaluates scaling fragility explicitly",
+            "path": "02_runtime/runtime/hostility_engine.py",
+            "lines": "50-80",
+            "excerpt_hash": "f2ccaa1219",
+            "supports": "FAM_C_invariants"
+        }
+    ]
+}

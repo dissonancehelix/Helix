@@ -1,0 +1,7 @@
+import cyc_2
+def run():
+    if 0:
+        run()
+    assert True
+
+

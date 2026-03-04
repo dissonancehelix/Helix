@@ -1,0 +1,23 @@
+{
+    "beta_coefficients": {
+        "beta1": 0.05,
+        "beta2": 1.2,
+        "beta3": 0.3
+    },
+    "composite_confidence": {
+        "mean": 0.4,
+        "min": 0.4,
+        "max": 0.4
+    },
+    "twin_delta": {
+        "mean": 0.00023340850206264585,
+        "min": 0.00023340850206264585,
+        "max": 0.00023340850206264585
+    },
+    "blindspot_density": {
+        "mean": 0.06976744186046512,
+        "max": 0.06976744186046512
+    },
+    "pool_ingestion_rate": 0.0,
+    "drift_volatility": 0.12
+}
