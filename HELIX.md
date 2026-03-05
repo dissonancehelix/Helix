@@ -199,12 +199,30 @@ OPERATOR.md
 00_core/           (Ring 0: Ontology)
 01_protocol/       (Ring 1: Governance & Validation)
 02_runtime/        (Ring 2: Execution & Platform)
-03_forge/          (Ring 3: Experimental Logic)
-04_workspaces/     (Ring 3: Domains & Layers)
+03_forge/          (Ring 3: Experimental Logic & Modules)
+04_workspaces/     (Ring 3: Domains & Signal Ingestion)
 05_atlas/          (Ring 4: Generated Atlas)
 06_artifacts/      (Ring 5: Outputs)
 docs/              (Human-readable documentation)
 helix.py           (System harness shim)
+
+------------------------------------------------------------
+2. WORKSPACES VS MODULES & DATA FLOW
+------------------------------------------------------------
+
+DATA FLOW CONSTRAINT
+Ensure strict unidirectional flow:
+operator signals -> workspaces -> forge -> artifacts -> modules
+
+- Workspaces ingest raw signals and domains.
+- Forge executes experiments based on workspaces.
+- Artifacts are the immutable machine trace outputs of the Forge.
+- Modules (living in `03_forge/modules/`) consume artifacts to produce tools, applications, and recommendations. 
+- REVERSE WRITES ARE STRICTLY PROHIBITED.
+
+WORKSPACES VS MODULES CLASSIFICATION
+- **Workspaces** (`04_workspaces/`): Manage domain datasets, extraction layers, telemetry ingestion, and analysis scripts.
+- **Modules** (`03_forge/modules/`): Manage CLI tools, applications, recommendation engines, and integration utilities. Modules are consumers of artifacts only and may not act as input streams upstream.
 
 LAYER DEFINITIONS
 

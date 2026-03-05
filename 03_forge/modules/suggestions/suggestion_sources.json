@@ -1,0 +1,71 @@
+{
+    "MUSIC_DISCOVERY": [
+        {
+            "title": "Autechre - NTS Sessions",
+            "motifs": [
+                "loop_stability",
+                "micro_variation",
+                "boundary_reflection"
+            ]
+        },
+        {
+            "title": "Boards of Canada - Geogaddi",
+            "motifs": [
+                "loop_stability",
+                "memory_hysteresis"
+            ]
+        }
+    ],
+    "GAME_SYSTEM_DISCOVERY": [
+        {
+            "title": "Super Smash Bros. Melee (Damage Scaling)",
+            "motifs": [
+                "inverse_escalation",
+                "influence_amplification",
+                "geometry_manipulation"
+            ]
+        },
+        {
+            "title": "Baba Is You (Rule Rewriting)",
+            "motifs": [
+                "threshold_cascade",
+                "geometry_manipulation"
+            ]
+        }
+    ],
+    "RESEARCH_TOPIC_DISCOVERY": [
+        {
+            "title": "Phase Transitions in Complete Graphs",
+            "motifs": [
+                "topological_compression",
+                "threshold_cascade"
+            ]
+        },
+        {
+            "title": "Hysteresis in Network Routing Protocols",
+            "motifs": [
+                "memory_hysteresis",
+                "loop_stability",
+                "boundary_reflection"
+            ]
+        }
+    ],
+    "SIMULATION_EXPERIMENT_DISCOVERY": [
+        {
+            "title": "SIR Epidemic Diffusion on Small-World Graphs",
+            "motifs": [
+                "topological_compression",
+                "influence_amplification"
+            ]
+        }
+    ],
+    "TOOLING_DISCOVERY": [
+        {
+            "title": "NetLogo (Agent-based modeling)",
+            "motifs": [
+                "geometry_manipulation",
+                "micro_variation"
+            ]
+        }
+    ]
+}

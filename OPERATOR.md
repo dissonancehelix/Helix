@@ -412,14 +412,22 @@ These patterns align with the operator's **collapse-geometry cognitive profile**
 
 ### 2) Games
 **Philosophy:** Mechanics > Narrative. Values the system over the story.
-**Total Steam:** ~14,000 hours across 240+ beaten games.
+**Total Account Scope:** Steam: 438 Games (Level 107) | PSN: 51 Games (Level 210)
 
 **EFT (Extreme Football Throwdown):** 1,250+ hrs. Top-tier competitive. Values arcadey flow, speed, standard geometry. Dislikes sim realism, slow movement, gimmick maps.
 - Mechanics (freq): Pass 1600, Catch 680, Tackle 555, Fumble 296, Bhop 110, Ragdoll 73
-- Maps: Stadium 246 > Factory 83 > Melondriver 26 > Sky Step 16
 
-**Favorites:** Outer Wilds, Disco Elysium, Planescape: Torment, Shadow of the Colossus, Majora's Mask, Witcher 3
+**Top Played/Completed Systems:**
+- **Garry's Mod** (2,981 hrs) — *Peak topological sandbox; pure structural manipulation without linear constraints.*
+- **Overwatch** (931 hrs) — *Geometry-control influence casting (Moira/Ana).*
+- **Stardew Valley** (370 hrs) — *Sustained loop-stability / resource boundary management.*
+- **High-Completion Trophies:** Assassin's Creed II (90%), Horizon Zero Dawn (83%), Dark Souls II (80%).
+
+**Favorites:** Outer Wilds, Disco Elysium, Planescape: Torment, Shadow of the Colossus, Majora's Mask, Witcher 3, Elden Ring.
 **What clicks:** Retroactive revelation, knowledge-as-keys, inevitable closures, world indifference, no ego-stroking.
+
+**Structural Game Affinity Fingerprint (Scraped Mapping):**
+**Memory Hysteresis & Topological Compression:** Overwhelming preference for layered map architectures (e.g., Souls loops folding back on themselves bypass linear distance). Values staying in a highly stable `RESONANCE_BASIN` for exploring spatial rules over pursuing a narrative ending.
 
 
 ### 3) Future expandable slots

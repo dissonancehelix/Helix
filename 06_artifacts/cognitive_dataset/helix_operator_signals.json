@@ -1,0 +1,85 @@
+{
+  "music": {
+    "top_composers": [
+      "Motoi Sakuraba",
+      "Yasunori Mitsuda",
+      "Nobuo Uematsu",
+      "Shoji Meguro"
+    ],
+    "preferences": [
+      "loop-stable attractors",
+      "recursive structures",
+      "micro-variation",
+      "layer accumulation"
+    ]
+  },
+  "gameplay": {
+    "dota_mains": [
+      "Dark Seer",
+      "Axe",
+      "Huskar",
+      "Viper",
+      "Bane",
+      "Spirit Breaker"
+    ],
+    "overwatch_mains": [
+      "Ana",
+      "Moira",
+      "Zenyatta",
+      "Mercy",
+      "Baptiste",
+      "Zarya"
+    ],
+    "mechanics_preferences": [
+      "geometry manipulation",
+      "forced engagement",
+      "inverse escalation scaling",
+      "spatial bounding"
+    ],
+    "scraped_accounts": {
+      "steam": {
+        "account_level": 107,
+        "total_games": 438,
+        "top_played": {
+          "Garry's Mod": 2981,
+          "Overwatch": 931,
+          "Stardew Valley": 370
+        },
+        "highlighted": [
+          "Planescape: Torment: Enhanced Edition",
+          "Elden Ring",
+          "The Witcher 3: Wild Hunt",
+          "Outer Wilds"
+        ]
+      },
+      "psn": {
+        "level": 210,
+        "total_games": 51,
+        "trophy_completion_top": {
+          "Assassin's Creed II": 90,
+          "Horizon Zero Dawn": 83,
+          "Dark Souls II": 80,
+          "Kingdoms of Amalur: Reckoning": 64,
+          "Assassin's Creed Brotherhood": 61,
+          "Assassin's Creed IV Black Flag": 61,
+          "DARK SOULS": 58,
+          "Grand Theft Auto V": 58,
+          "Persona 5": 55,
+          "Dead Island": 54,
+          "Ni no Kuni: Wrath of the White Witch": 43,
+          "Genshin Impact": 36,
+          "Batman: Arkham Knight": 29,
+          "Bloodborne": 26,
+          "Red Dead Redemption": 34,
+          "Call of Duty: World at War": 36
+        }
+      }
+    }
+  },
+  "knowledge_graph": {
+    "volumetric_tendency": "high density organizational structure",
+    "structural_edits_vs_text": false,
+    "top_properties": {}
+  },
+  "timestamp": 1772669020
+}
