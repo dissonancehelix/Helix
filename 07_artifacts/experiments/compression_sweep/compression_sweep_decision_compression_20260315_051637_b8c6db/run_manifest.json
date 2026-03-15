@@ -1,0 +1,19 @@
+{
+  "run_id": "compression_sweep_decision_compression_20260315_051637_b8c6db",
+  "timestamp_utc": "2026-03-15T05:16:37.269246+00:00",
+  "probe_name": "decision_compression",
+  "lab_name": "music",
+  "dataset_hash": "aeecef80858701153a1a6f84861d414d5d4a9ae638bc7aac0840667fc3575a6a",
+  "probe_code_hash": "e11608a229574d8eb4b0d1cbea88e3312d345c2e43f0f0cee9395de70be36bf7",
+  "probe_version": "1.0.0",
+  "python_version": "3.12.3",
+  "platform": "Linux",
+  "sandbox_limits": {},
+  "helix_version": "0.4.0",
+  "experiment_name": "compression_sweep",
+  "parameters": {
+    "agent_count": 5,
+    "competition_strength": 0.0,
+    "topology": "scale_free"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "probe_name": "oscillator_locking",
+  "domain": "music",
+  "passed": false,
+  "signal": 0.540692,
+  "signal_strength": 0.540692,
+  "confidence": "none",
+  "order_parameter_R": 0.45477,
+  "order_parameter_R_initial": 1.0,
+  "phase_lock_detected": false,
+  "n_agents": 50,
+  "n_steps": 800,
+  "coupling_strength": 0.0,
+  "r_mean_tail": 0.540692,
+  "r_variance_tail": 0.00244774,
+  "interpretation": "No phase locking (R_tail=0.5407 \u2264 0.6). Coupling K=0.0 insufficient for 50 oscillators.",
+  "version": "1.0.0"
+}

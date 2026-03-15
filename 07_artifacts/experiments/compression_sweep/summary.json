@@ -1,0 +1,5419 @@
+{
+    "experiment_name": "compression_sweep",
+    "total_runs": 540,
+    "parameter_grid_size": 90,
+    "results_summary": [
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "decision_compression",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "games",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 3,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 5,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 10,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "language",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 20,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": false,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.0,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.1,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.2,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.4,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.6,
+                "topology": "scale_free"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "ring"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "random"
+            }
+        },
+        {
+            "probe": "oscillator_locking",
+            "lab": "music",
+            "passed": true,
+            "params": {
+                "agent_count": 50,
+                "competition_strength": 0.8,
+                "topology": "scale_free"
+            }
+        }
+    ],
+    "regimes_detected": {
+        "decision_compression": {
+            "agent_count": "Range: 10 -> 50",
+            "competition_strength": "Range: 0.4 -> 0.8",
+            "topology": "Range: random -> scale_free"
+        },
+        "oscillator_locking": {
+            "agent_count": "Range: 3 -> 50",
+            "competition_strength": "Range: 0.0 -> 0.8",
+            "topology": "Range: random -> scale_free"
+        }
+    }
+}

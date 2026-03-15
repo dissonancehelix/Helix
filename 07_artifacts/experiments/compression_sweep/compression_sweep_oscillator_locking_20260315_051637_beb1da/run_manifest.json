@@ -1,0 +1,19 @@
+{
+  "run_id": "compression_sweep_oscillator_locking_20260315_051637_beb1da",
+  "timestamp_utc": "2026-03-15T05:16:37.957296+00:00",
+  "probe_name": "oscillator_locking",
+  "lab_name": "language",
+  "dataset_hash": "81988ce9b636aa25d90b7ad30b814135e5442659d1e4543d5f2639babf811d7c",
+  "probe_code_hash": "d20c966490597fad1eed58aa8fc32fae4f1655387b54eb1da5e6b659d977d717",
+  "probe_version": "1.0.0",
+  "python_version": "3.12.3",
+  "platform": "Linux",
+  "sandbox_limits": {},
+  "helix_version": "0.4.0",
+  "experiment_name": "compression_sweep",
+  "parameters": {
+    "agent_count": 3,
+    "competition_strength": 0.4,
+    "topology": "ring"
+  }
+}

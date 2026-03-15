@@ -1,0 +1,19 @@
+{
+  "run_id": "compression_sweep_decision_compression_20260315_051637_def0b9",
+  "timestamp_utc": "2026-03-15T05:16:37.062985+00:00",
+  "probe_name": "decision_compression",
+  "lab_name": "language",
+  "dataset_hash": "5cd3adabc89ff1b255e6f7b4dd73855314fc8611d0a951b604781667603fb1f6",
+  "probe_code_hash": "e11608a229574d8eb4b0d1cbea88e3312d345c2e43f0f0cee9395de70be36bf7",
+  "probe_version": "1.0.0",
+  "python_version": "3.12.3",
+  "platform": "Linux",
+  "sandbox_limits": {},
+  "helix_version": "0.4.0",
+  "experiment_name": "compression_sweep",
+  "parameters": {
+    "agent_count": 5,
+    "competition_strength": 0.6,
+    "topology": "random"
+  }
+}

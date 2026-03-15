@@ -1,0 +1,57 @@
+{
+  "dataset_path": "/home/dissonance/Helix/07_artifacts/experiments/compression_sweep/compression_sweep_decision_compression_20260315_051637_2ad887/dataset.json",
+  "dataset": {
+    "domain": "language",
+    "system_description": "Grammar disambiguation system resolving syntactic ambiguity. A small set of high-frequency rules dominates parse selection.",
+    "agents": [
+      {
+        "id": "p_0",
+        "influence_weight": 0.2
+      },
+      {
+        "id": "p_1",
+        "influence_weight": 0.2
+      },
+      {
+        "id": "p_2",
+        "influence_weight": 0.2
+      },
+      {
+        "id": "p_3",
+        "influence_weight": 0.2
+      },
+      {
+        "id": "p_4",
+        "influence_weight": 0.2
+      }
+    ],
+    "decision_rounds": [
+      {
+        "round": 1,
+        "weights": [
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ],
+        "outcome": "A"
+      }
+    ],
+    "expected_k_eff_range": [
+      2.0,
+      3.0
+    ],
+    "notes": "Two dominant grammatical rules compress the resolution decision space",
+    "agent_count": 5,
+    "competition_strength": 0.0,
+    "topology": "scale_free"
+  },
+  "lab_name": "language",
+  "run_id": "compression_sweep_decision_compression_20260315_051637_2ad887",
+  "parameters": {
+    "agent_count": 5,
+    "competition_strength": 0.0,
+    "topology": "scale_free"
+  }
+}

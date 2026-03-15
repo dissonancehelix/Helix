@@ -263,6 +263,28 @@ def cmd_cross_probe_analysis(lab_name=None, probe_filter=None):
     sys.exit(0)
 
 
+def cmd_experiment_run(exp_name):
+    from importlib import import_module
+    runner = import_module('03_engines.experiment_engine.experiment_runner')
+    runner.run_experiment(exp_name)
+    sys.exit(0)
+
+
+def cmd_experiment_status(exp_name):
+    # Just checking registry
+    from importlib import import_module
+    registry = import_module('03_engines.experiment_engine.experiment_registry')
+    print(registry.get_experiment_summary(exp_name))
+    sys.exit(0)
+
+
+def cmd_experiment_summary(exp_name):
+    from importlib import import_module
+    registry = import_module('03_engines.experiment_engine.experiment_registry')
+    print(registry.get_experiment_summary(exp_name))
+    sys.exit(0)
+
+
 def _parse_flag(args, flag):
     """Return value after --flag in args list, or None."""
     if flag in args:
@@ -302,6 +324,12 @@ if __name__ == '__main__':
             lab_name = _parse_flag(sys.argv, '--lab')
             probe_filter = _parse_flag(sys.argv, '--probes')
             cmd_cross_probe_analysis(lab_name, probe_filter)
+        elif cmd == 'experiment-run' and len(sys.argv) > 2:
+            cmd_experiment_run(sys.argv[2])
+        elif cmd == 'experiment-status' and len(sys.argv) > 2:
+            cmd_experiment_status(sys.argv[2])
+        elif cmd == 'experiment-summary' and len(sys.argv) > 2:
+            cmd_experiment_summary(sys.argv[2])
         elif cmd == 'atlas-build':
             cmd_atlas_build()
         elif cmd == 'promote-invariant' and len(sys.argv) > 2:
@@ -319,6 +347,9 @@ if __name__ == '__main__':
                 '  cross-probe-analysis [--lab <l>] [--probes p1,p2]  Compare outputs across probes\n'
                 '  atlas-build                               Scan artifacts and generate Atlas entries\n'
                 '  promote-invariant <name>                  Run promotion gate for an invariant\n'
+                '  experiment-run <name>                     Run a parameter sweep experiment\n'
+                '  experiment-status <name>                  Check status of an experiment\n'
+                '  experiment-summary <name>                 View experiment run summary\n'
                 '  lock-kernel                               Set chattr +i on 00_kernel/ (Linux/WSL2)\n'
                 '  unlock-kernel                             Remove chattr +i (requires HELIX_KERNEL_UNLOCK=1)\n'
                 '  kernel-status                             Report current kernel lock state\n'

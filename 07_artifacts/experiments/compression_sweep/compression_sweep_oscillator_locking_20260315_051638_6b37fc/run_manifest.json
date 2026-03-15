@@ -1,0 +1,19 @@
+{
+  "run_id": "compression_sweep_oscillator_locking_20260315_051638_6b37fc",
+  "timestamp_utc": "2026-03-15T05:16:38.516582+00:00",
+  "probe_name": "oscillator_locking",
+  "lab_name": "music",
+  "dataset_hash": "aa48e5da78445cf05eee8064d2d192ca44df24e1c68dfb8662e49d53e25ed540",
+  "probe_code_hash": "d20c966490597fad1eed58aa8fc32fae4f1655387b54eb1da5e6b659d977d717",
+  "probe_version": "1.0.0",
+  "python_version": "3.12.3",
+  "platform": "Linux",
+  "sandbox_limits": {},
+  "helix_version": "0.4.0",
+  "experiment_name": "compression_sweep",
+  "parameters": {
+    "agent_count": 3,
+    "competition_strength": 0.4,
+    "topology": "random"
+  }
+}

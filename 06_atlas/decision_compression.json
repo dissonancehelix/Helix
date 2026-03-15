@@ -48,14 +48,26 @@
       "domain": "games",
       "passed": true,
       "signal": 0.4649
+    },
+    {
+      "run_id": "decision_compression_20260315_051251_b7188a",
+      "domain": "games",
+      "passed": true,
+      "signal": 0.4649
+    },
+    {
+      "run_id": "decision_compression_20260315_051312_546fbd",
+      "domain": "games",
+      "passed": true,
+      "signal": 0.4649
     }
   ],
   "pass_rate": 1.0,
-  "mean_signal": 0.4338,
-  "run_count": 7,
+  "mean_signal": 0.4407,
+  "run_count": 9,
   "probe_versions_used": [
     "1.0.0"
   ],
   "latest_probe_version": "1.0.0",
-  "last_updated": "2026-03-15T04:24:58.759871+00:00"
+  "last_updated": "2026-03-15T05:13:43.959452+00:00"
 }

@@ -1,0 +1,73 @@
+{
+  "dataset_path": "/home/dissonance/Helix/07_artifacts/experiments/compression_sweep/compression_sweep_oscillator_locking_20260315_051637_85ee2f/dataset.json",
+  "dataset": {
+    "domain": "games",
+    "system_description": "Five-player coordination game. Players synchronise turn timing to achieve cooperative phase lock under strong coupling.",
+    "oscillators": [
+      {
+        "id": "o_0",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.0
+      },
+      {
+        "id": "o_1",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.01
+      },
+      {
+        "id": "o_2",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.02
+      },
+      {
+        "id": "o_3",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.03
+      },
+      {
+        "id": "o_4",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.04
+      },
+      {
+        "id": "o_5",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.05
+      },
+      {
+        "id": "o_6",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.06
+      },
+      {
+        "id": "o_7",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.07
+      },
+      {
+        "id": "o_8",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.08
+      },
+      {
+        "id": "o_9",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.09
+      }
+    ],
+    "coupling_strength": 0.4,
+    "n_steps": 800,
+    "dt": 0.01,
+    "notes": "K=2.0 above critical K_c for 5 oscillators \u2014 expects R > 0.95",
+    "agent_count": 10,
+    "competition_strength": 0.2,
+    "topology": "ring"
+  },
+  "lab_name": "games",
+  "run_id": "compression_sweep_oscillator_locking_20260315_051637_85ee2f",
+  "parameters": {
+    "agent_count": 10,
+    "competition_strength": 0.2,
+    "topology": "ring"
+  }
+}

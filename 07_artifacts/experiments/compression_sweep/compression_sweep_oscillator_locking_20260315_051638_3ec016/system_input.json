@@ -1,0 +1,73 @@
+{
+  "dataset_path": "/home/dissonance/Helix/07_artifacts/experiments/compression_sweep/compression_sweep_oscillator_locking_20260315_051638_3ec016/dataset.json",
+  "dataset": {
+    "domain": "music",
+    "system_description": "Four rhythmic voices modelled as coupled oscillators. Strong coupling K=2.5 drives rapid phase synchronisation.",
+    "oscillators": [
+      {
+        "id": "o_0",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.0
+      },
+      {
+        "id": "o_1",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.01
+      },
+      {
+        "id": "o_2",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.02
+      },
+      {
+        "id": "o_3",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.03
+      },
+      {
+        "id": "o_4",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.04
+      },
+      {
+        "id": "o_5",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.05
+      },
+      {
+        "id": "o_6",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.06
+      },
+      {
+        "id": "o_7",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.07
+      },
+      {
+        "id": "o_8",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.08
+      },
+      {
+        "id": "o_9",
+        "initial_phase": 0.0,
+        "natural_frequency": 1.09
+      }
+    ],
+    "coupling_strength": 0.4,
+    "n_steps": 800,
+    "dt": 0.01,
+    "notes": "K=2.5 with heterogeneous frequencies \u2014 expects R > 0.95 due to strong coupling",
+    "agent_count": 10,
+    "competition_strength": 0.2,
+    "topology": "ring"
+  },
+  "lab_name": "music",
+  "run_id": "compression_sweep_oscillator_locking_20260315_051638_3ec016",
+  "parameters": {
+    "agent_count": 10,
+    "competition_strength": 0.2,
+    "topology": "ring"
+  }
+}

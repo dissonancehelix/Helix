@@ -106,7 +106,7 @@ def build_atlas_entry(
             versions_seen.append(v)
     latest_version = versions_seen[-1] if versions_seen else "1.0.0"
 
-    return {
+    entry = {
         "invariant": probe_name,
         "confidence": confidence,
         "observed_in": agg["observed_domains"],
@@ -118,6 +118,20 @@ def build_atlas_entry(
         "latest_probe_version": latest_version,
         "last_updated": datetime.now(tz=timezone.utc).isoformat(),
     }
+    
+    # Inject regime information if available
+    _root = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+    regime_file = _root / "07_artifacts" / "regime_map.json"
+    if regime_file.exists():
+        try:
+            with open(regime_file, "r") as f:
+                regimes = json.load(f)
+                if probe_name in regimes:
+                    entry["parameter_regimes"] = regimes[probe_name]
+        except Exception:
+            pass
+            
+    return entry
 
 
 # ---------------------------------------------------------------------------

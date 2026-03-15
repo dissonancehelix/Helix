@@ -1,0 +1,282 @@
+{
+  "dataset_path": "/home/dissonance/Helix/07_artifacts/experiments/compression_sweep/compression_sweep_decision_compression_20260315_051637_3f31bf/dataset.json",
+  "dataset": {
+    "domain": "music",
+    "system_description": "Polyrhythmic pattern with 4 instrument voices. The kick drum strongly dominates phase-locking in a compressed rhythmic hierarchy.",
+    "agents": [
+      {
+        "id": "p_0",
+        "influence_weight": 0.07
+      },
+      {
+        "id": "p_1",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_2",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_3",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_4",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_5",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_6",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_7",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_8",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_9",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_10",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_11",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_12",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_13",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_14",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_15",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_16",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_17",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_18",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_19",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_20",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_21",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_22",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_23",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_24",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_25",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_26",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_27",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_28",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_29",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_30",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_31",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_32",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_33",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_34",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_35",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_36",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_37",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_38",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_39",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_40",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_41",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_42",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_43",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_44",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_45",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_46",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_47",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_48",
+        "influence_weight": 0.02
+      },
+      {
+        "id": "p_49",
+        "influence_weight": 0.02
+      }
+    ],
+    "decision_rounds": [
+      {
+        "round": 1,
+        "weights": [
+          0.07,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02,
+          0.02
+        ],
+        "outcome": "A"
+      }
+    ],
+    "expected_k_eff_range": [
+      1.5,
+      2.5
+    ],
+    "notes": "Strong kick dominance compresses ensemble phase decisions \u2014 k_eff < N/2 expected",
+    "agent_count": 50,
+    "competition_strength": 0.1,
+    "topology": "scale_free"
+  },
+  "lab_name": "music",
+  "run_id": "compression_sweep_decision_compression_20260315_051637_3f31bf",
+  "parameters": {
+    "agent_count": 50,
+    "competition_strength": 0.1,
+    "topology": "scale_free"
+  }
+}

@@ -1,0 +1,9 @@
+experiment_name: language_disambiguation_sweep
+probes:
+  - decision_compression
+labs:
+  - language
+parameters:
+  agent_count: [2, 10, 100]
+  context_depth: [1, 3, 5]
+runs_per_configuration: 5
