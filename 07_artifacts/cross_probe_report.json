@@ -1,31 +1,44 @@
 {
   "probes_analyzed": [
     "decision_compression",
-    "oscillator_locking"
+    "oscillator_locking",
+    "temporal_metronome"
   ],
   "probe_stats": {
     "decision_compression": {
-      "run_count": 6,
-      "pass_rate": 1.0,
-      "mean_signal": 0.428667,
-      "min_signal": 0.3938,
+      "run_count": 10,
+      "pass_rate": 0.9,
+      "mean_signal": 0.41721,
+      "min_signal": 0.2054,
       "max_signal": 0.4649,
       "domains_observed": [
         "games",
         "language",
-        "music"
+        "music",
+        "white_noise"
       ]
     },
     "oscillator_locking": {
-      "run_count": 3,
-      "pass_rate": 1.0,
-      "mean_signal": 0.991159,
-      "min_signal": 0.974282,
+      "run_count": 4,
+      "pass_rate": 0.75,
+      "mean_signal": 0.842324,
+      "min_signal": 0.395817,
       "max_signal": 0.999821,
       "domains_observed": [
         "games",
         "language",
-        "music"
+        "music",
+        "white_noise"
+      ]
+    },
+    "temporal_metronome": {
+      "run_count": 20,
+      "pass_rate": 1.0,
+      "mean_signal": 41.531795,
+      "min_signal": 39.504073,
+      "max_signal": 49.397801,
+      "domains_observed": [
+        "substrate"
       ]
     }
   },
@@ -35,7 +48,7 @@
         "decision_compression",
         "oscillator_locking"
       ],
-      "run_count": 3,
+      "run_count": 6,
       "pass_rate": 1.0
     },
     "language": {
@@ -53,25 +66,53 @@
       ],
       "run_count": 3,
       "pass_rate": 1.0
+    },
+    "substrate": {
+      "probes": [
+        "temporal_metronome"
+      ],
+      "run_count": 20,
+      "pass_rate": 1.0
+    },
+    "white_noise": {
+      "probes": [
+        "decision_compression",
+        "oscillator_locking"
+      ],
+      "run_count": 2,
+      "pass_rate": 0.0
     }
   },
   "correlation_matrix": {
     "decision_compression \u00d7 oscillator_locking": {
-      "pearson_r": 0.018,
+      "pearson_r": 0.9672,
       "shared_domains": [
         "games",
         "language",
-        "music"
+        "music",
+        "white_noise"
       ],
-      "n_shared": 3,
-      "interpretation": "weak / no correlation \u2014 probes capture independent signals"
+      "n_shared": 4,
+      "interpretation": "strong positive correlation \u2014 probes co-detect similar domain structure"
+    },
+    "decision_compression \u00d7 temporal_metronome": {
+      "pearson_r": null,
+      "shared_domains": [],
+      "n_shared": 0,
+      "interpretation": "insufficient shared domains for correlation (need \u2265 2)"
+    },
+    "oscillator_locking \u00d7 temporal_metronome": {
+      "pearson_r": null,
+      "shared_domains": [],
+      "n_shared": 0,
+      "interpretation": "insufficient shared domains for correlation (need \u2265 2)"
     }
   },
   "summary": {
-    "total_runs": 9,
-    "overall_pass_rate": 1.0,
-    "probes_analyzed": 2,
-    "domains_covered": 3,
-    "correlation_pairs": 1
+    "total_runs": 34,
+    "overall_pass_rate": 0.9412,
+    "probes_analyzed": 3,
+    "domains_covered": 5,
+    "correlation_pairs": 3
   }
 }
