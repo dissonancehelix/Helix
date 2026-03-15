@@ -3,7 +3,7 @@ import os
 import json
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
 from importlib import import_module

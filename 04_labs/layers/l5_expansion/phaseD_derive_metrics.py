@@ -4,7 +4,7 @@ import statistics
 from collections import Counter
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / 'domains'
 AUDITS_DIR = ROOT / 'audits'
 CORE_DIR = ROOT / 'core'
@@ -107,7 +107,7 @@ with open(AUDITS_DIR / 'phaseD_metric_sources.md', 'w') as f:
 tests_py = """import json
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / 'domains'
 
 domains = [json.load(open(p)) for p in DOMAINS_DIR.glob('*.json')]

@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.decomposition import TruncatedSVD
 from engines.infra.platform import claims_suite_utils as utils
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 REPORT_FILE = ROOT / '07_artifacts/artifacts/reports/rank_collapse_verdict.md'
 
 class RankCollapseSuite:

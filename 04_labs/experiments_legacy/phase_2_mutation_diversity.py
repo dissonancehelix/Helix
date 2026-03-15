@@ -4,7 +4,7 @@ import statistics
 from pathlib import Path
 import math
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 RRS_DIR = ROOT / '07_artifacts' / 'rrs'
 # Target 03_forge latest run to modify
 TARGET_REPO = '04_labs'

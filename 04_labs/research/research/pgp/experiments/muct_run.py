@@ -7,7 +7,7 @@ from collections import defaultdict, deque
 from pathlib import Path
 import hashlib
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 RUN_ID = f"muct_{int(time.time())}"
 ARTIFACTS_DIR = ROOT / '07_artifacts' / 'pgp_muct' / RUN_ID
 

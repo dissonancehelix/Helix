@@ -2,7 +2,7 @@ import os
 import json
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 
 # Part 1 - Mutual Reducibility Test Matrix
 # O1: Energy Barrier Suppression (TST / Arrhenius)

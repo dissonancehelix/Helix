@@ -5,7 +5,7 @@ from engines.infra.hashing.integrity import compute_content_hash
 from pathlib import Path
 from sklearn.metrics import mutual_info_score
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 ARTIFACTS_DIR = ROOT / '07_artifacts/artifacts'
 EXT_DIR = ROOT / 'data' / 'packs' / 'external_200'
 DOCS_DIR = ROOT / 'docs'

@@ -42,14 +42,20 @@
       "domain": "music",
       "passed": true,
       "signal": 0.4273
+    },
+    {
+      "run_id": "decision_compression_20260315_042458_8672e2",
+      "domain": "games",
+      "passed": true,
+      "signal": 0.4649
     }
   ],
   "pass_rate": 1.0,
-  "mean_signal": 0.4287,
-  "run_count": 6,
+  "mean_signal": 0.4338,
+  "run_count": 7,
   "probe_versions_used": [
     "1.0.0"
   ],
   "latest_probe_version": "1.0.0",
-  "last_updated": "2026-03-15T04:16:17.781933+00:00"
+  "last_updated": "2026-03-15T04:24:58.759871+00:00"
 }

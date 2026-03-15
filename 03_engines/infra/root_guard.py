@@ -12,7 +12,7 @@ WHITELIST = {
 }
 
 def enforce_root_quarantine(dry_run=False):
-    root = Path("c:/Users/dissonance/Desktop/Helix")
+    root = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
     quarantine_dir = root / "07_artifacts" / "_quarantine"
     moved = []
     for item in root.iterdir():

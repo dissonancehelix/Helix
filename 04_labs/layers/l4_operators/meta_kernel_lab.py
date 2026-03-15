@@ -14,7 +14,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.cluster import KMeans, SpectralClustering
 from sklearn.feature_extraction.text import CountVectorizer
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / os.environ.get('HELIX_DOMAINS_DIR', '04_labs/corpus/domains/domains')
 ART_DIR = ROOT / '07_artifacts/artifacts' / 'meta_kernel'
 DOCS_DIR = ROOT / 'docs'

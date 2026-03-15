@@ -3,7 +3,7 @@ import json
 import random
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / 'domains'
 AUDITS_DIR = ROOT / 'audits'
 DOMAINS_DIR.mkdir(parents=True, exist_ok=True)

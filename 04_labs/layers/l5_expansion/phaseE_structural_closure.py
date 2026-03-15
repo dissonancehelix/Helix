@@ -12,7 +12,7 @@ try:
 except ImportError:
     NUMPY_AVAILABLE = False
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / 'domains'
 REPORTS_DIR = ROOT / '07_artifacts/artifacts/reports'
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)

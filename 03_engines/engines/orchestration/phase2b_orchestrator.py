@@ -6,7 +6,7 @@ import time
 from pathlib import Path
 from collections import Counter, defaultdict
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 for d in ['audits', 'mappings', 'synthetic', 'tools']:
     (ROOT / d).mkdir(parents=True, exist_ok=True)
 

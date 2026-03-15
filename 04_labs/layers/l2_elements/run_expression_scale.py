@@ -11,7 +11,7 @@ from sklearn.metrics import mutual_info_score, accuracy_score
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 ARTIFACTS_DIR = ROOT / '07_artifacts/artifacts'
 DOCS_DIR = ROOT / 'docs'
 

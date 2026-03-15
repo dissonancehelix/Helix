@@ -3,7 +3,7 @@ import json
 import tarfile
 from pathlib import Path
 
-ARTIFACT_ROOT = Path("c:/Users/dissonance/Desktop/Helix/06_artifacts")
+ARTIFACT_ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists()) / '07_artifacts'
 KEEP = {"latest", "best", "controls", "archive"}
 
 def compress_directory(src_dir, dest_file):

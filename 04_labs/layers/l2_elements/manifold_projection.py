@@ -6,7 +6,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.decomposition import TruncatedSVD
 from engines.infra.io.persistence import load_domains, save_wrapped
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 OUT_DIR = ROOT / '07_artifacts/artifacts/latest_attempt/eigenspace'
 DOCS_DIR = ROOT / 'docs'
 

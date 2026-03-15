@@ -5,7 +5,7 @@ import random
 from pathlib import Path
 from collections import Counter
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 PHASE12_DIR = ROOT / 'phase12'
 PHASE12_DIR.mkdir(parents=True, exist_ok=True)
 

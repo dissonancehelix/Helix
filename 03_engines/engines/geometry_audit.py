@@ -13,7 +13,7 @@ from scipy.spatial.distance import cdist
 from scipy.stats import entropy
 from engines.infra.io.persistence import load_domains, save_wrapped
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 OUT_DIR = ROOT / '07_artifacts/artifacts/geometry_polyhedral'
 DATA_DIR = ROOT / '04_labs/corpus/domains'
 TRIAGE_FILE = ROOT / '07_artifacts/artifacts/manifold_safe/isolate_triage.json'

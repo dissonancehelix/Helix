@@ -26,7 +26,7 @@ def load_all_probe_results(
     Each result dict is the probe_result.json enriched with lab_name from
     the run_manifest.json when available.
     """
-    _root = Path("c:/Users/dissonance/Desktop/Helix")
+    _root = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
     if artifacts_root is None:
         artifacts_root = _root / "07_artifacts"
     else:
@@ -256,7 +256,7 @@ def run_cross_probe_analysis(
         probes_analyzed, probe_stats, domain_coverage,
         correlation_matrix, summary
     """
-    _root = Path("c:/Users/dissonance/Desktop/Helix")
+    _root = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
     if artifacts_root is None:
         artifacts_root = _root / "07_artifacts"
 

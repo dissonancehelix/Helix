@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 import numpy as np
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / 'data'
 PHI = 1.61803398875
 INV_PHI = 0.61803398875

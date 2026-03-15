@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 RRS_ARTIFACTS = ROOT / '07_artifacts' / 'rrs'
 META_DIR = ROOT / '07_artifacts' / '_meta'
 META_DIR.mkdir(parents=True, exist_ok=True)

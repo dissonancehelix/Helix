@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 ENUM_PATH = ROOT / 'core/enums/eip_obstruction_enum.json'
 EIP_PATH = ROOT / '07_artifacts/artifacts/eip/eip_overlay.json'
 

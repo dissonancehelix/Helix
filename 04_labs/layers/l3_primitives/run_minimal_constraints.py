@@ -6,7 +6,7 @@ from sklearn.metrics import mutual_info_score
 from sklearn.decomposition import TruncatedSVD
 import numpy as np
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / '04_labs/corpus/domains/domains'
 PACKS_DIR = ROOT / 'sandbox/experiments/ablation'
 ART_DIR = ROOT / '07_artifacts/artifacts/min_constraints'

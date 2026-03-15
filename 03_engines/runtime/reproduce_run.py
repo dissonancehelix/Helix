@@ -152,7 +152,7 @@ def reproduce_run(
     from pathlib import Path as _Path
     import sys
 
-    _root = _Path("c:/Users/dissonance/Desktop/Helix")
+    _root = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 
     if artifacts_root is None:
         artifacts_root = _root / "07_artifacts"

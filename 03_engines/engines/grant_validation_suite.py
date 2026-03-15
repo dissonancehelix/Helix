@@ -12,7 +12,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from engines.infra.io.persistence import load_domains, save_wrapped
 from engine.uncertainty_model import UncertaintyModel
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 OUT_DIR = ROOT / '07_artifacts/artifacts/grant_phase'
 DATA_DIR = ROOT / '04_labs/corpus/domains'
 

@@ -12,7 +12,7 @@ from sklearn.datasets import load_iris, load_wine
 # --- CONFIGURATION (DETERMINISTIC) ---
 SEED = 42
 np.random.seed(SEED)
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 ARTIFACT_DIR = ROOT / '07_artifacts/artifacts' / 'psc_tabular'
 ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
 

@@ -7,7 +7,7 @@ import statistics
 from pathlib import Path
 from collections import Counter, defaultdict
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / 'domains'
 AUDITS_DIR = ROOT / 'audits'
 DOCS_DIR = ROOT / 'docs'

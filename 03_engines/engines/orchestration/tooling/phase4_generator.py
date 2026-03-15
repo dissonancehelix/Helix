@@ -4,7 +4,7 @@ import math
 from pathlib import Path
 from collections import Counter, defaultdict
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 
 def entropy(probs):
     return -sum(p * math.log2(p) for p in probs if p > 0)

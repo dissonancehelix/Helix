@@ -7,7 +7,7 @@ from sklearn.decomposition import TruncatedSVD
 from sklearn.metrics import mutual_info_score
 from engines.infra.platform import claims_suite_utils as utils
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / '04_labs/corpus/domains/domains'
 ARTIFACT_DIR = ROOT / '07_artifacts/artifacts/claims_suite'
 DOCS_DIR = ROOT / 'docs/claims_suite'

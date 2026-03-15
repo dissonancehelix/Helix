@@ -7,7 +7,7 @@ from sklearn.decomposition import PCA, TruncatedSVD
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 ARTIFACTS_DIR = ROOT / '07_artifacts/artifacts'
 OUT_JSON = ARTIFACTS_DIR / 'theorem_projection_stability_results.json'
 OUT_REPORT = ARTIFACTS_DIR / 'theorem_projection_stability_report.md'

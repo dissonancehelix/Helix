@@ -2,7 +2,7 @@ import json
 import os
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 DOMAINS_DIR = ROOT / '04_labs/corpus/domains/domains'
 REGISTRY_PATH = ROOT / 'core/measurement/projection_registry.json'
 REPORT_PATH = ROOT / '07_artifacts/artifacts/measurement/leakage_report.json'

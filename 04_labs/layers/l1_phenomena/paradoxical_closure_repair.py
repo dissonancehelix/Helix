@@ -13,7 +13,7 @@ try:
 except ImportError:
     NUMPY_AVAILABLE = False
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 import sys
 if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))

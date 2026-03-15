@@ -2,7 +2,7 @@ import os
 import shutil
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 FORGE_DIR = ROOT / '04_labs'
 RESEARCH_DIR = FORGE_DIR / 'research'
 

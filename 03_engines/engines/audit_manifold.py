@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestRegressor
 from scipy.spatial.distance import cdist
 from engines.infra.io.persistence import load_domains, save_wrapped
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 AUDIT_DIR = ROOT / '07_artifacts/artifacts/manifold_audit'
 DATA_DIR = ROOT / '04_labs/corpus/domains'
 

@@ -16,7 +16,7 @@ try:
 except ImportError:
     SKLEARN_AVAILABLE = False
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 AUDITS_DIR = ROOT / 'audits'
 DOMAINS_DIR = ROOT / 'domains'
 

@@ -4,7 +4,7 @@ import statistics
 import math
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 PGP_DIR = ROOT / '07_artifacts' / 'pgp'
 PGP_DIR.mkdir(parents=True, exist_ok=True)
 

@@ -2,7 +2,7 @@ import json
 import random
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 OUTPUT_FILE = ROOT / '04_labs/corpus/domains/domains_extreme_expansion.json'
 
 REGIMES = [

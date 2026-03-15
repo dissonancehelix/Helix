@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
 from engines.infra.platform import claims_suite_utils as utils
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 ARTIFACTS_DIR = ROOT / '07_artifacts/artifacts/structural_lab'
 REPORT_FILE = ROOT / '07_artifacts/artifacts/reports/foreign_regime_expansion_verdict.md'
 

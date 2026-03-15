@@ -6,7 +6,7 @@ import random
 from pathlib import Path
 from collections import Counter, defaultdict
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 PHASE10_DIR = ROOT / 'phase10'
 DOMAINS_DIR = ROOT / 'domains'
 

@@ -5,7 +5,7 @@ from pathlib import Path
 from sklearn.metrics import mutual_info_score, normalized_mutual_info_score
 from engines.infra.platform import claims_suite_utils as utils
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 REPORT_FILE = ROOT / '07_artifacts/artifacts/reports/layer3_5_bridge_verdict.md'
 
 class Layer3_5BridgeSuite:

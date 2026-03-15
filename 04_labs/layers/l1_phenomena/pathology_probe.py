@@ -7,7 +7,7 @@ from sklearn.metrics import mutual_info_score, normalized_mutual_info_score
 from collections import defaultdict
 from engines.infra.io.persistence import save_wrapped
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 ART_DIR = ROOT / '07_artifacts/artifacts'
 
 def build_risk(domains):

@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 ARTIFACT_DIR = ROOT / '07_artifacts/artifacts'
 REPORT_DIR = ROOT / '07_artifacts/artifacts/reports'
 

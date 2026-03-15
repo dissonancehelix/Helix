@@ -5,7 +5,7 @@ from pathlib import Path
 from sklearn.metrics import mutual_info_score, normalized_mutual_info_score
 from scipy.stats import spearmanr
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 REPORT_FILE = ROOT / '07_artifacts/artifacts/reports/emergence_validation_verdict.md'
 
 class EmergenceSimulator:

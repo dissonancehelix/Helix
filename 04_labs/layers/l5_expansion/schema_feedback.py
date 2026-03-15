@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from engines.infra.io.persistence import save_wrapped
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 PATHOLOGY_FILE = ROOT / '07_artifacts/artifacts/reports/pathology_deep_scan.md'
 TRANSFERS_FILE = ROOT / '07_artifacts/artifacts/latest_attempt/operator_algebra/isomorphic_transfers.json'
 OUT_DIR = ROOT / 'protocol/amendment_proposals'

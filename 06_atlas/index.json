@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T04:16:17.782754+00:00",
+  "generated_at": "2026-03-15T04:24:58.760581+00:00",
   "invariants": [
     {
       "invariant": "decision_compression",
@@ -9,7 +9,7 @@
         "language",
         "music"
       ],
-      "run_count": 6,
+      "run_count": 7,
       "pass_rate": 1.0,
       "latest_probe_version": "1.0.0"
     },

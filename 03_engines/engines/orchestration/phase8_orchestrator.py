@@ -5,7 +5,7 @@ import math
 from pathlib import Path
 from collections import Counter
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 PHASE8_DIR = ROOT / 'phase8'
 MAPPINGS_DIR = PHASE8_DIR / 'mappings'
 

@@ -3,7 +3,7 @@ import json
 import statistics
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 META_DIR = ROOT / '07_artifacts' / '_meta'
 POOL_PATH = ROOT / '07_artifacts' / 'srd_replication' / '_pool' / 'srd_global_pool.json'
 LEDGER_PATH = META_DIR / 'curiosity_ledger.json'

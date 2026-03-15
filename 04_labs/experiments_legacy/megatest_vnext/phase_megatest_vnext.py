@@ -5,7 +5,7 @@ import math
 import sys
 from pathlib import Path
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 sys.path.insert(0, str(ROOT))
 from helix import write_artifact, compute_sha256
 

@@ -4,7 +4,7 @@ from pathlib import Path
 from scipy.spatial.distance import cdist
 from engines.infra.io.persistence import save_wrapped
 
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 MANIFOLD_FILE = ROOT / '07_artifacts/artifacts/latest_attempt/eigenspace/universal_manifold.json'
 OUT_DIR = ROOT / '07_artifacts/artifacts/latest_attempt/operator_algebra'
 

@@ -12,7 +12,7 @@ from psc_impact_reporting import write_impact_artifacts
 
 SEED = 42
 np.random.seed(SEED)
-ROOT = Path('c:/Users/dissonance/Desktop/Helix')
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 ARTIFACT_DIR = ROOT / '07_artifacts/artifacts' / 'psc_behavioral_impact'
 
 def run_behavioral_impact_suite():

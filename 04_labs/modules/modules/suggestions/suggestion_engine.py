@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-ROOT = Path("c:/Users/dissonance/Desktop/Helix")
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 MODULE_DIR = ROOT / "helix_modules" / "suggestions"
 
 def generate_suggestions(operator_profile_path):
