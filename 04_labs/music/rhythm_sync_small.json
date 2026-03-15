@@ -1,0 +1,13 @@
+{
+    "domain": "music",
+    "system_description": "Three-voice percussion ensemble with very strong coupling. Near-identical natural frequencies lead to instant synchronisation.",
+    "oscillators": [
+        {"id": "kick",   "initial_phase": 0.0, "natural_frequency": 1.00},
+        {"id": "snare",  "initial_phase": 1.0, "natural_frequency": 1.02},
+        {"id": "hi_hat", "initial_phase": 2.0, "natural_frequency": 0.98}
+    ],
+    "coupling_strength": 5.0,
+    "n_steps": 400,
+    "dt": 0.01,
+    "notes": "K=5.0 with near-identical frequencies — instant sync, R → 1.0 (PASS)"
+}

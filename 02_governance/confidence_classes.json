@@ -1,0 +1,28 @@
+{
+    "confidence_classes": {
+        "Structural": {
+            "description": "Invariant confirmed across structural conditions. Cross-domain, high pass rate.",
+            "min_domains": 4,
+            "min_pass_rate": 0.90,
+            "promotion_eligible": true
+        },
+        "Verified": {
+            "description": "Invariant replicated across multiple domains with strong signal.",
+            "min_domains": 3,
+            "min_pass_rate": 0.75,
+            "promotion_eligible": true
+        },
+        "Candidate": {
+            "description": "Invariant observed in at least two domains. Signal present but not conclusive.",
+            "min_domains": 2,
+            "min_pass_rate": 0.50,
+            "promotion_eligible": false
+        },
+        "Exploratory": {
+            "description": "Initial observation. Requires further replication.",
+            "min_domains": 1,
+            "min_pass_rate": 0.0,
+            "promotion_eligible": false
+        }
+    }
+}

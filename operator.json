@@ -1,0 +1,21 @@
+{
+    "operator": "MEL",
+    "system": "Helix",
+    "version": "4.0.0",
+    "architecture": "8-layer epistemic hierarchy",
+    "layers": {
+        "00_kernel": "Sacred Python primitives — immutable",
+        "01_basis": "Structural vocabulary — enums, schemas, registries",
+        "02_governance": "Validation, ring checks, promotion gates",
+        "03_engines": "Execution runtime, atlas, orchestration",
+        "04_labs": "Probes, invariants, datasets, experiments, corpus",
+        "05_applications": "Deployed tools — eft, rrs",
+        "06_atlas": "Generated invariant confidence entries",
+        "07_artifacts": "Immutable probe run outputs"
+    },
+    "constitution": "HELIX.md",
+    "probe_interface_version": "1.0.0",
+    "atlas_confidence_classes": ["Exploratory", "Candidate", "Verified", "Structural"],
+    "kernel_sacred": true,
+    "forward_mutation_only": true
+}

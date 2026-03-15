@@ -1,0 +1,13 @@
+{
+  "run_id": "decision_compression_20260315_040916_7c0ec2",
+  "timestamp_utc": "2026-03-15T04:09:16.558730+00:00",
+  "probe_name": "decision_compression",
+  "lab_name": "music",
+  "dataset_hash": "f2d9d305a68e9da0837bea06e73a06a3af1f7595985d68b492a10ca6eddd2f0c",
+  "probe_code_hash": "e11608a229574d8eb4b0d1cbea88e3312d345c2e43f0f0cee9395de70be36bf7",
+  "probe_version": "1.0.0",
+  "python_version": "3.14.3",
+  "platform": "Windows",
+  "sandbox_limits": {},
+  "helix_version": "0.4.0"
+}

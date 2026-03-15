@@ -1,0 +1,15 @@
+{
+    "domain": "language",
+    "system_description": "Five syntactic parsing rules modelled as oscillators. Rules synchronise under semantic coherence pressure (coupling K=1.8).",
+    "oscillators": [
+        {"id": "rule_subject_verb",   "initial_phase": 0.0,  "natural_frequency": 1.0},
+        {"id": "rule_frequency_bias", "initial_phase": 0.3,  "natural_frequency": 1.05},
+        {"id": "rule_locality",       "initial_phase": 0.8,  "natural_frequency": 0.95},
+        {"id": "rule_garden_path",    "initial_phase": 1.2,  "natural_frequency": 1.02},
+        {"id": "rule_pragmatic",      "initial_phase": 1.8,  "natural_frequency": 0.98}
+    ],
+    "coupling_strength": 1.8,
+    "n_steps": 800,
+    "dt": 0.01,
+    "notes": "K=1.8 sufficient for 5 rules with narrow frequency spread — expects R > 0.90"
+}

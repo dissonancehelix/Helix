@@ -1,0 +1,18 @@
+{
+  "probe_name": "oscillator_locking",
+  "domain": "games",
+  "passed": true,
+  "signal": 0.999374,
+  "signal_strength": 0.999374,
+  "confidence": "high",
+  "order_parameter_R": 0.999374,
+  "order_parameter_R_initial": 0.767154,
+  "phase_lock_detected": true,
+  "n_agents": 5,
+  "n_steps": 800,
+  "coupling_strength": 2.0,
+  "r_mean_tail": 0.999374,
+  "r_variance_tail": 0.0,
+  "interpretation": "Phase locking detected (R_tail=0.9994 > 0.6). Oscillators synchronised after 800 steps with K=2.0.",
+  "version": "1.0.0"
+}

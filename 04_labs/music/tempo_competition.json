@@ -1,0 +1,15 @@
+{
+    "domain": "music",
+    "system_description": "Five voices with widely spread natural frequencies competing at very weak coupling. Designed as an intentional FAIL case — no synchronisation expected.",
+    "oscillators": [
+        {"id": "voice_1", "initial_phase": 0.0,  "natural_frequency": 0.5},
+        {"id": "voice_2", "initial_phase": 0.6,  "natural_frequency": 1.0},
+        {"id": "voice_3", "initial_phase": 1.2,  "natural_frequency": 2.0},
+        {"id": "voice_4", "initial_phase": 1.8,  "natural_frequency": 4.0},
+        {"id": "voice_5", "initial_phase": 2.4,  "natural_frequency": 8.0}
+    ],
+    "coupling_strength": 0.1,
+    "n_steps": 500,
+    "dt": 0.01,
+    "notes": "K=0.1 far below critical K_c with 16x frequency spread — intentional FAIL (R << 0.6)"
+}
