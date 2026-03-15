@@ -1,0 +1,23 @@
+{
+  "id": "A_84",
+  "name": "Blind A_84",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_84",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c_refined": "BIOLOGICAL",
+  "source_provenance": [
+    "paper_A_84"
+  ],
+  "expression_primitives_rule": [
+    "RECOMBINATION",
+    "LOCAL_REDUNDANCY"
+  ],
+  "expression_primitives_manual": [
+    "RECOMBINATION",
+    "LOCAL_REDUNDANCY"
+  ]
+}

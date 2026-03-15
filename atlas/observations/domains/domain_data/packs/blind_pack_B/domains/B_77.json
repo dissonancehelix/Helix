@@ -1,0 +1,23 @@
+{
+  "id": "B_77",
+  "name": "Blind B_77",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_77",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "SOCIAL",
+  "source_provenance": [
+    "paper_B_77"
+  ],
+  "expression_primitives_rule": [
+    "BRANCHING",
+    "BUFFERING"
+  ],
+  "expression_primitives_manual": [
+    "BRANCHING",
+    "BUFFERING"
+  ]
+}

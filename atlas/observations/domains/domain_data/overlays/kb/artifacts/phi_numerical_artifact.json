@@ -1,0 +1,19 @@
+{
+  "id": "artifact-phi-001",
+  "type": "NUMERICAL_ARTIFACT",
+  "statement": "The golden ratio frequency boundary collapse observed near 1.625 is a flagged coincidence awaiting numeric operatorization.",
+  "assumptions": [
+    "KAM bounds strictly apply to operator thresholds, not discrete schema frequency counts."
+  ],
+  "falsifiers": [
+    "Operator fields must include numeric ratios with units + extraction method."
+  ],
+  "status": "DEPRECATED",
+  "references": [
+    "phase27_29_orchestrator"
+  ],
+  "verdict": "NUMERICAL_ARTIFACT",
+  "evidence": "bootstrap P(|r-phi|<=0.01), z-score, stratified verdict",
+  "failure_reason": "FAILED_NO_NUMERIC_OPERATOR_RATIOS",
+  "resurrection_condition": "operator fields must include numeric ratios (e.g., Lyapunov exponents, spectral gaps, KAM tori destruction thresholds) with units + extraction method"
+}

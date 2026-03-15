@@ -1,0 +1,28 @@
+{
+  "artifact_hash": "a2e1a7e475c035f7125c95c6c206741f1711572f3999f5a978b2128d502aaacf",
+  "bootstrap_seed": 42,
+  "data": [
+    {
+      "dominance_ratio": 0.17059361414400662,
+      "k_90": -1,
+      "method": "PCA",
+      "scaler": "raw"
+    },
+    {
+      "dominance_ratio": 0.11557269516921444,
+      "k_90": -1,
+      "method": "PCA",
+      "scaler": "standard"
+    },
+    {
+      "dominance_ratio": 0.17035803002060027,
+      "k_90": -1,
+      "method": "PCA",
+      "scaler": "minmax"
+    }
+  ],
+  "dataset_hash": "unknown",
+  "generated_by": "helix.py run",
+  "git_commit": "unknown",
+  "schema_version": "unknown"
+}

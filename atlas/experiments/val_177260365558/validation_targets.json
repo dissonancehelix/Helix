@@ -1,0 +1,54 @@
+[
+    {
+        "id": "FINDING H-01",
+        "title": "CENTRALITY DOMINANCE IN CASCADE PROPAGATION",
+        "desc": "Across tested network cascade models, classical topological degree and betweenness centrality consistently outperform composite Helix operators (SRD, FHO, OGO) in predicting cascade speed and intervention efficacy. ",
+        "regime": "Scale-free, modular, DAG, and trap network structures under static fragmentation and dynamic capacity cascade physics. ",
+        "artifacts": [
+            "06_artifacts/pgp_muct/<run_id>/minimum_sufficient_model.json",
+            "06_artifacts/pgp_mbss/<run_id>/boundary_map.json"
+        ],
+        "falsifier": "If a Helix operator consistently exceeds degree/betweenness performance under identical cascade regimes with \u22650.10 predictive uplift, this finding is falsified. "
+    },
+    {
+        "id": "FINDING H-02",
+        "title": "TELEMETRY LOSS PREDICTION THRESHOLD",
+        "desc": "Structural prediction reliability collapses when telemetry dropout approaches approximately 10% in tested network observation regimes. ",
+        "regime": "Graph systems with partial observability under randomized telemetry routing and measurement dropout. ",
+        "artifacts": [
+            "06_artifacts/pgp_mbss/<run_id>/observability_boundary.json"
+        ],
+        "falsifier": "If prediction correlation remains stable above 10% telemetry loss in equivalent regimes, the threshold estimate is invalid. "
+    },
+    {
+        "id": "FINDING H-03",
+        "title": "SEMANTIC DRIFT DEGRADATION",
+        "desc": "Predictive correlation decreases approximately linearly with divergence between static structural models and runtime behavior. ",
+        "regime": "Program-graph analysis under simulated AST / runtime mismatch. ",
+        "artifacts": [
+            "06_artifacts/pgp_mbss/<run_id>/semantic_mismatch_map.json"
+        ],
+        "falsifier": "If systems maintain predictive reliability despite high runtime semantic divergence, this degradation model fails. "
+    },
+    {
+        "id": "FINDING H-04",
+        "title": "COMMITMENT GEOMETRY SPLIT",
+        "desc": "Commitment events exhibit two distinct influence geometries: Funnel geometry Influence concentrates rapidly (`k_eff` decreases). Field geometry Influence distributes broadly (`k_eff` remains high). ",
+        "regime": "Decision processes across optimization, voting, swarm, consensus, and dynamical systems. ",
+        "artifacts": [
+            "06_artifacts/pgp_decision/<run_id>/compression_summary.json",
+            "06_artifacts/pgp_commitment_geometry/<run_id>/geometry_classification.json"
+        ],
+        "falsifier": "If systems exhibit commitment events that neither compress nor distribute influence consistently, the geometry split model fails. "
+    },
+    {
+        "id": "FINDING H-05",
+        "title": "MINIMAL STRUCTURAL PREDICTORS FOR FUNNEL GEOMETRY",
+        "desc": "Two architecture variables strongly predict funnel influence geometry: - `centralized_decision = True` - `competition_type = winner_take_all` Systems exhibiting either variable consistently display strong dimensional compression near commitment boundaries. ",
+        "regime": "Optimization, hierarchical voting, and hybrid arbitration architectures. ",
+        "artifacts": [
+            "06_artifacts/pgp_commitment_geometry/<run_id>/minimum_sufficient_model.json"
+        ],
+        "falsifier": "If architectures lacking centralized decision and winner-take-all competition reliably produce funnel geometry, the predictor model fails. "
+    }
+]

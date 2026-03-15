@@ -1,0 +1,19 @@
+{
+    "id": "blockchain_reorg",
+    "name": "Blockchain Network",
+    "description": "Synthetic identity pack domain: Blockchain Network",
+    "state_space": "Derived states immutable ledger trace",
+    "dynamics": "Internal rules with immutable ledger trace",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "accumulated proof of work commitment",
+    "failure_mode": "deep chain reorganization",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

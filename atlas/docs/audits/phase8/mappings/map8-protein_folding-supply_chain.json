@@ -1,0 +1,12 @@
+{
+  "id": "map8-protein_folding-supply_chain",
+  "domain_a": "protein_folding",
+  "domain_b": "supply_chain",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

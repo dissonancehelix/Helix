@@ -1,0 +1,5 @@
+{
+    "prediction": "Spearman r",
+    "classification": "PCP/k_eff",
+    "control": "Uplift vs Best Baseline"
+}

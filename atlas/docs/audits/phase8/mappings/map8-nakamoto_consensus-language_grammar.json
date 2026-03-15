@@ -1,0 +1,12 @@
+{
+  "id": "map8-nakamoto_consensus-language_grammar",
+  "domain_a": "nakamoto_consensus",
+  "domain_b": "language_grammar",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

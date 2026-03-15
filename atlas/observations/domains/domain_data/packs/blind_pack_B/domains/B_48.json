@@ -1,0 +1,23 @@
+{
+  "id": "B_48",
+  "name": "Blind B_48",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_48",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "paper_B_48"
+  ],
+  "expression_primitives_rule": [
+    "SLACK",
+    "ROUTING"
+  ],
+  "expression_primitives_manual": [
+    "SLACK",
+    "ROUTING"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "map8-quantum_error_correction-knot_invariants",
+  "domain_a": "quantum_error_correction",
+  "domain_b": "knot_invariants",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "NON_GEOMETRIC_RULESET"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "map8-stabilizer_code_passive-protein_folding",
+  "domain_a": "stabilizer_code_passive",
+  "domain_b": "protein_folding",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

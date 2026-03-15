@@ -1,0 +1,6 @@
+{
+    "correlation_blindspot_density_vs_collapse_sensitivity": 0.4232,
+    "correlation_blindspot_density_vs_elasticity_shape": 0.7871,
+    "correlation_collapse_sensitivity_vs_elasticity_shape": 0.2877,
+    "blindspot_floor_overweighted": false
+}

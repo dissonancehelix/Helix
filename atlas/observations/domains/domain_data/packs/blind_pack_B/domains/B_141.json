@@ -1,0 +1,21 @@
+{
+  "id": "B_141",
+  "name": "Blind B_141",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_141",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c_refined": "BIOLOGICAL",
+  "source_provenance": [
+    "paper_B_141"
+  ],
+  "expression_primitives_rule": [
+    "BRANCHING"
+  ],
+  "expression_primitives_manual": [
+    "BRANCHING"
+  ]
+}

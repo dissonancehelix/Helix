@@ -1,0 +1,10 @@
+{
+  "id": "map8-quantum_error_correction-bond_percolation",
+  "domain_a": "quantum_error_correction",
+  "domain_b": "bond_percolation",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

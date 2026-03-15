@@ -1,0 +1,10 @@
+{
+    "expanded_topologies": [
+        "lattice",
+        "small-world",
+        "scale-free",
+        "Erdos-Renyi",
+        "fully-connected",
+        "modular"
+    ]
+}

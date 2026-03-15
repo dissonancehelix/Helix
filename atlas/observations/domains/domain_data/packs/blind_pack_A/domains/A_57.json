@@ -1,0 +1,23 @@
+{
+  "id": "A_57",
+  "name": "Blind A_57",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_57",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c_refined": "SOCIAL",
+  "source_provenance": [
+    "paper_A_57"
+  ],
+  "expression_primitives_rule": [
+    "RECOMBINATION",
+    "ROUTING"
+  ],
+  "expression_primitives_manual": [
+    "RECOMBINATION",
+    "ROUTING"
+  ]
+}

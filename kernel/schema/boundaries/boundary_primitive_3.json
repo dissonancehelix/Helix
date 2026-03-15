@@ -1,0 +1,22 @@
+{
+  "id": "boundary_primitive_3",
+  "primitive_definition": "Rule-based vs geometric state space division",
+  "formal_condition": "Algebraic symbols without spatial or energy metric",
+  "operator_signature": "Discrete logical updates",
+  "observable_signature": [
+    "INFORMATION_METRIC"
+  ],
+  "domains_where_detected": [
+    "homological_algebra",
+    "supermajority_amendment"
+  ],
+  "domains_where_absent": [
+    "tokamak_plasma"
+  ],
+  "required_for_collapse": true,
+  "falsifiers": [
+    "Finding an exact energy metric for homological exactness"
+  ],
+  "status": "CAPTURE",
+  "target_obs": "NON_GEOMETRIC_RULESET"
+}

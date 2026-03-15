@@ -1,0 +1,23 @@
+{
+  "id": "F1_4",
+  "name": "Blind F1_4",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from SYNTHETIC_FALSIFIER_CONSTRUCTION",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "SMOOTH_HYPERSURFACE",
+  "persistence_ontology": "P1",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "SYNTHETIC_FALSIFIER_CONSTRUCTION"
+  ],
+  "expression_primitives_rule": [
+    "BRANCHING",
+    "RECOMBINATION"
+  ],
+  "expression_primitives_manual": [
+    "BRANCHING",
+    "RECOMBINATION"
+  ]
+}

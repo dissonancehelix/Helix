@@ -1,0 +1,5 @@
+{
+    "10_Pct_Edge_Noise_Survival": true,
+    "Accuracy_Drop_Under_Noise": 0.04,
+    "Horizon_Stability": 0.78
+}

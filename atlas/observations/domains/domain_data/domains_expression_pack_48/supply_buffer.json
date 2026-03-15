@@ -1,0 +1,22 @@
+{
+    "id": "supply_buffer",
+    "name": "Supply Chain Buffer",
+    "description": "Synthetic expression pack domain: Supply Chain Buffer",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "inventory slack maintenance",
+    "failure_mode": "just in time fragility shock",
+    "substrate_S1c": "SOCIAL",
+    "persistence_ontology": "P2_GLOBAL_INVARIANT",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "SLACK"
+    ]
+}

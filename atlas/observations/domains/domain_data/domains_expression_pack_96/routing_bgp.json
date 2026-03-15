@@ -1,0 +1,23 @@
+{
+    "id": "routing_bgp",
+    "name": "BGP Routing Protocol",
+    "description": "Synthetic expression pack domain: BGP Routing Protocol",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "path vector convergence",
+    "failure_mode": "routing loop cascade",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P2_GLOBAL_INVARIANT",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "ROUTING",
+        "MULTI_POLICY"
+    ]
+}

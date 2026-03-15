@@ -1,0 +1,16 @@
+{
+  "artifact_hash": "47fb5e8d10b8e526a2a6b1dc88603f863031cf0651d4677f94a5a9d90323661a",
+  "bootstrap_seed": 42,
+  "data": {
+    "decision": "NONDERIVATIVE",
+    "predictors": [
+      "Ontology",
+      "Substrate"
+    ],
+    "reconstruction_score_R2": 0.002901663548368738
+  },
+  "dataset_hash": "unknown",
+  "generated_by": "helix.py run",
+  "git_commit": "unknown",
+  "schema_version": "unknown"
+}

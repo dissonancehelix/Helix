@@ -1,0 +1,31 @@
+{
+  "artifact_hash": "aa5f9732a707547ef7402d46bb335516232db027f92d505bd06a157cf95c4009",
+  "bootstrap_seed": 42,
+  "data": {
+    "M1_Global_Manifold_KNN": {
+      "adversarial_survival": 0.45,
+      "leakage_R2": 0.003,
+      "neighbor_stability": "LOW (Scaling sensitive)",
+      "resolution_gain": 0.12,
+      "status": "REJECTED"
+    },
+    "M2_Facet_Based_Routing": {
+      "adversarial_survival": 0.82,
+      "leakage_R2": 0.05,
+      "neighbor_stability": "MEDIUM",
+      "resolution_gain": 0.65,
+      "status": "CANDIDATE"
+    },
+    "M3_Sparse_Interaction_Graph": {
+      "adversarial_survival": 0.88,
+      "leakage_R2": 0.02,
+      "neighbor_stability": "HIGH",
+      "resolution_gain": 0.58,
+      "status": "CANDIDATE"
+    }
+  },
+  "dataset_hash": "unknown",
+  "generated_by": "helix.py run",
+  "git_commit": "unknown",
+  "schema_version": "unknown"
+}

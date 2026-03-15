@@ -1,0 +1,23 @@
+{
+    "id": "scale_192_132",
+    "name": "Scale Domain 132",
+    "description": "Synthetic expression domain: Scale Domain 132",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "generic stability",
+    "failure_mode": "generic failure",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "BRANCHING",
+        "ROUTING"
+    ]
+}

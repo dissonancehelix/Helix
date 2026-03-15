@@ -1,0 +1,8 @@
+{
+    "Delta_mean_confidence": 0.4,
+    "Delta_pool_ingestion_rate": 0.0,
+    "Delta_drift_volatility": 0.0,
+    "Delta_false_positive_rate": 0.0,
+    "Delta_forecast_error": 0,
+    "Delta_correlation_vs_baseline": 0
+}

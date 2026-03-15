@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "motif": "Topological Compression",
+      "minimal_topology": "Diffused grid transitioning to heavily centralized star.",
+      "variables": [
+        "path_distance_collapse",
+        "hub_mass_gravity"
+      ],
+      "metrics": [
+        "time_to_system_collapse",
+        "nodes_resisting_vacuum"
+      ],
+      "falsifier": "System remains evenly distributed despite distance collapse; no decision funnel forms."
+    },
+    {
+      "motif": "Reflected Influence Loops",
+      "minimal_topology": "Ring topology enclosing an inner lattice.",
+      "variables": [
+        "bounce_trajectory",
+        "decay_retention_rate"
+      ],
+      "metrics": [
+        "time_in_diffusion_phase",
+        "signal_loss_per_cycle"
+      ],
+      "falsifier": "Signal injected at boundary ring decays faster than signal shot directly across the center."
+    },
+    {
+      "motif": "Inverse Escalation / Damage Scaling",
+      "minimal_topology": "Binary contested network with threshold bridges.",
+      "variables": [
+        "pressure_buffer_limit",
+        "escalation_multiplier"
+      ],
+      "metrics": [
+        "turnaround_velocity",
+        "plateau_duration"
+      ],
+      "falsifier": "The system degrades linearly without any elastic mathematical reversal snapping into place."
+    }
+  ]
+}

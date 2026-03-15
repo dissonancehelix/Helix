@@ -1,0 +1,44 @@
+{
+  "artifact_hash": "0bafa689ca550eb1e8d9fb400c283a5ad548ca6ab6f5f174285a20d94ec1e30d",
+  "bootstrap_seed": 42,
+  "data": {
+    "projection_cross_check": [
+      {
+        "comparison": "SVD_vs_PCA",
+        "mean_neighbor_overlap": 0.5890000000000001,
+        "status": "UNSTABLE"
+      }
+    ],
+    "scaling_tests": [
+      {
+        "k_90": -1,
+        "lambda_0": 0.054748910083911355,
+        "scaler": "raw",
+        "total_var_50": 0.8411445984543454
+      },
+      {
+        "k_90": -1,
+        "lambda_0": 0.0035275405539586914,
+        "scaler": "standard",
+        "total_var_50": 0.09332915767756815
+      },
+      {
+        "k_90": -1,
+        "lambda_0": 0.05474891008391037,
+        "scaler": "robust",
+        "total_var_50": 0.8411465920570323
+      },
+      {
+        "k_90": -1,
+        "lambda_0": 0.054748910083910675,
+        "scaler": "minmax",
+        "total_var_50": 0.8411435833457719
+      }
+    ],
+    "verdict": "PROJECTION_ARTIFACT"
+  },
+  "dataset_hash": "unknown",
+  "generated_by": "helix.py run",
+  "git_commit": "unknown",
+  "schema_version": "unknown"
+}

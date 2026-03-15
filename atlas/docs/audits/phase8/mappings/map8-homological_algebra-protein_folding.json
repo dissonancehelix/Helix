@@ -1,0 +1,12 @@
+{
+  "id": "map8-homological_algebra-protein_folding",
+  "domain_a": "homological_algebra",
+  "domain_b": "protein_folding",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "NON_GEOMETRIC_RULESET"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

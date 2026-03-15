@@ -1,0 +1,19 @@
+{
+    "id": "cruise_control",
+    "name": "Cruise Control",
+    "description": "Synthetic identity pack domain: Cruise Control",
+    "state_space": "Derived states homeostatic",
+    "dynamics": "Internal rules with homeostatic",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "PI control loop",
+    "failure_mode": "velocity deviation limit",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

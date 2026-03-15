@@ -1,0 +1,35 @@
+{
+    "B1_BASIN": {
+        "name": "Basin Commitment",
+        "legacy_id": "C1_BASIN_COMMITMENT",
+        "description": "Scalar boundary on energy or effort required to transition between macro-states.",
+        "topological_proxy": "Delta energy gap / Defect amplitude",
+        "compression_necessity_score": 0.32,
+        "instrumentation": {
+            "parameter": "Mantle_Resolution",
+            "unit": "bit-depth",
+            "layer": "Ring 1 (Substrate Resolution Constraints)"
+        }
+    },
+    "B2_EXPRESSION": {
+        "name": "Expression Capacity",
+        "legacy_id": "C2_EXPRESSION_CAPACITY",
+        "description": "Volumetric boundary bounding total combinatorially resolvable states.",
+        "topological_proxy": "State-space dimensionality span",
+        "compression_necessity_score": 0.25
+    },
+    "B3_COORDINATION": {
+        "name": "Coordination Complexity",
+        "legacy_id": "C3_COORDINATION_COMPLEXITY",
+        "description": "Graph matrix limitation tracking the depth of required multi-agent coupling to effect change.",
+        "topological_proxy": "Graph clustering coefficient / Adjacency dependencies",
+        "compression_necessity_score": 0.22
+    },
+    "B4_SYMBOLIC_DEPTH": {
+        "name": "Symbolic Depth",
+        "legacy_id": "C4_SYMBOLIC_DEPTH",
+        "description": "Limits on referential abstraction logic layers before execution recursion saturates.",
+        "topological_proxy": "Policy stack depth / Abstraction pointer nesting",
+        "compression_necessity_score": 0.16
+    }
+}

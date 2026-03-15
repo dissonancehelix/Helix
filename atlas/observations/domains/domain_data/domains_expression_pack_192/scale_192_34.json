@@ -1,0 +1,23 @@
+{
+    "id": "scale_192_34",
+    "name": "Scale Domain 34",
+    "description": "Synthetic expression domain: Scale Domain 34",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "generic stability",
+    "failure_mode": "generic failure",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "SLACK",
+        "REDUNDANCY"
+    ]
+}

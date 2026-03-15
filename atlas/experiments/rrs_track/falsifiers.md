@@ -1,0 +1,1 @@
+# Track 1 Falsifiers\n\n- **Falsified if**: Intervention uplift drops below 10% compared to degree centrality.\n- **Falsified if**: Model accuracy degrades >0.1 under 10% weight noise.\n- **Falsified if**: Null edge shuffle preserves predictive ordering.\n

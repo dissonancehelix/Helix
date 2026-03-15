@@ -1,0 +1,19 @@
+{
+    "id": "attractor_network",
+    "name": "Attractor Network Memory",
+    "description": "Synthetic identity pack domain: Attractor Network Memory",
+    "state_space": "Derived states attractor dynamics",
+    "dynamics": "Internal rules with attractor dynamics",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "stable policy basin trace",
+    "failure_mode": "basin escape",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

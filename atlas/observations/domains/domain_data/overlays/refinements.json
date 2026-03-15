@@ -1,0 +1,1850 @@
+{
+  "action_potential_hodgkin_huxley": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "adaptive_immunity": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "aharonov_bohm_flux": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "algorithmic_high_frequency_market": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "analog_neuromorphic_chip": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "anyon_braiding": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "auction_winners_curse": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "automated_reasoning_resolution": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "bank_run_contagion": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "berry_phase_accumulation": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "bgp_routing_convergence": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "bio_electronic_pacemaker": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "bitcoin_difficulty_retargeting": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "black_hole_thermodynamics": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "bond_percolation": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "boolean_network_attractor": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "bose_einstein_condensate": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "brusselator_chemical_reaction": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "byzantine_fault_tolerant_consensus": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "category_theoretic_functorial_equivalence": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "cellular_automata_rule_30": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "chemotactic_aggregation_collapse": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "chern_insulator": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "climate_model_grid_discretization": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "colloidal_gelation": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "constitutional_crisis": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "constitutional_law": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "crispr_adaptive_immunity_memory": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "cryptographic_analog_key_exchange": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "cryptographic_hash_collision": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "dielectric_breakdown_path": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "digital_twin_powerplant": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "elastic_snap_through_buckling": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "epidemic_network_continuous_time": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "epidemiological_sir_with_seasonal_forcing": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "ferromagnetic_curie_critical": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "financial_contagion_cascade": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "fluid_blow_up_finite_time": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "forest_fire_criticality": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "fractional_quantum_hall": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "game_of_life_conway": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "genetic_drift_fixation": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "gerrymandering_packing": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "gibbs_sampling_mix": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "glass_transition": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "golay_code_error_correction": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "gradient_descent_saddle_escape": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "granular_jamming": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "graph_coloring_chromatic_bound": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "gravitational_collapse_singularity": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "hashmap_collision_clustering": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "heat_equation_diffusion": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "homological_algebra": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "homotopy_type_theory_verification": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "hox_gene_collinearity": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "ising_model_1d": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "ising_model_2d_critical": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "kardar_parisi_zhang_growth": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "knot_invariants": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "kosterlitz_thouless_transition": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "kuramoto_phase_sync": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "lac_operon_switching": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "lambda_calculus_beta_reduction": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "langevin_mcmc_sampling": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "language_creolization": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "language_grammar": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "ldpc_decoding": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "lotka_volterra": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "mhd_reconnection": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "microbiome_dysbiosis": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "moran_process_evolutionary_game": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "nakamoto_consensus": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "navier_stokes_laminar": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "navier_stokes_turbulence": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "non_linear_optical_self_focusing": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "n_body_orbital_resonance": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "opinion_dynamics_polarization": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "option_pricing_black_scholes": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "pagerank_eigenvalue": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "paxos_consensus": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "pendulum_exact_resonant": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_adv_domain_0": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "phaseB_adv_domain_1": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_10": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_11": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_adv_domain_12": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_13": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_14": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_15": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_16": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_17": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_18": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_19": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "phaseB_adv_domain_2": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_20": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_21": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_22": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_23": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "phaseB_adv_domain_24": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_adv_domain_25": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_26": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_27": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_28": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_29": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_3": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_30": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_31": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_32": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_adv_domain_33": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "phaseB_adv_domain_34": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_35": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_36": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_37": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_38": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_adv_domain_39": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_4": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_40": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "phaseB_adv_domain_41": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_adv_domain_42": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_43": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_44": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_45": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "phaseB_adv_domain_46": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_47": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "phaseB_adv_domain_48": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_49": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_5": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_50": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_51": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_52": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_53": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_adv_domain_54": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_adv_domain_55": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_adv_domain_56": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_adv_domain_57": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_58": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_59": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_6": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_60": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseB_adv_domain_61": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_62": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_63": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_7": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseB_adv_domain_8": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "phaseB_adv_domain_9": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "phaseB_ff_domain_0": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_1": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_10": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_11": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_12": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_13": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_14": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_15": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_16": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_17": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_18": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_19": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_2": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_20": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_21": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_22": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_23": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_24": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_25": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_26": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_27": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_28": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_29": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_3": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_30": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_31": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_32": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_33": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_34": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_35": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_36": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_37": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_38": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_39": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_4": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_5": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_6": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_7": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseB_ff_domain_8": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseB_ff_domain_9": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_0": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_1": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_10": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_100": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_101": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_102": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_103": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_104": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_105": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_106": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_107": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_108": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_109": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_11": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_110": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_111": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_112": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_113": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_114": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_115": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_116": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_117": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_118": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_119": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_12": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_120": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_121": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_122": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_123": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_124": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_125": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_126": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_127": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_128": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_129": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_13": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_130": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_131": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_132": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_133": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_134": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_135": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_136": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_137": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_138": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_139": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_14": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_140": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_141": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_142": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_143": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_144": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_145": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_146": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_147": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_148": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_149": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_15": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_150": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_151": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_152": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_153": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_154": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_155": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_156": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_157": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_158": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_159": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_16": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_160": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_161": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_162": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_163": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_164": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_165": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_166": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_167": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_168": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_169": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_17": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_170": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_171": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_172": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_173": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_174": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_175": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_176": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_177": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_178": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_179": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_18": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_180": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_181": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_182": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_183": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_184": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_185": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_186": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_187": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_188": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_189": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_19": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_190": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_191": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_192": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_193": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_194": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_195": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_196": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_197": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_198": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_199": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_2": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_20": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_200": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_201": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_202": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_203": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_204": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_205": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_206": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_207": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_208": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_209": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_21": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_210": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_211": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_212": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_213": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_214": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_215": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_216": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_217": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_218": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_219": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_22": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_220": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_221": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_222": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_223": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_224": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_225": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_226": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_227": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_228": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_229": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_23": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_230": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_231": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_232": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_233": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_234": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_235": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_236": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_237": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_238": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_239": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_24": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_240": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_241": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_242": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_243": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_244": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_245": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_246": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_247": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_248": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_249": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_25": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_250": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_251": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_252": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_253": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_254": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_255": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_26": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_27": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_28": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_29": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_3": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_30": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_31": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_32": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_33": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_34": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_35": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_36": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_37": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_38": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_39": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_4": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_40": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_41": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_42": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_43": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_44": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_45": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_46": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_47": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_48": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_49": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_5": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_50": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_51": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_52": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_53": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_54": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_55": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_56": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_57": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_58": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_59": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_6": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_60": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_61": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_62": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_63": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_64": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_65": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_66": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_67": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_68": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_69": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_7": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_70": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_71": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_72": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_73": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_74": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_75": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_76": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_77": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_78": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_79": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_8": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_80": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_81": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_82": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_83": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_84": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_85": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_86": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_87": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_88": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_89": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_9": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_90": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_91": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_92": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "phaseC_domain_93": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "phaseC_domain_94": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_95": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_96": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_97": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phaseC_domain_98": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "phaseC_domain_99": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "phytoplankton_blooms": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "plasma_pinch_instability": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "polymer_melt_entanglement": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "proof_assistant_typing": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "protein_allostery": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "protein_folding": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "quantum_classical_quantum_dot": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "quantum_error_correction": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "quantum_hall_edge_states": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "random_walk_return": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "rayleigh_benard_convection": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "reaction_diffusion_turing_patterns": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "regex_grammar_parsing": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "reinforcement_learning_policy_convergence": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "sandpile_avalanches": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "satisfiability_3_sat_phase": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "schrodinger_wavepacket": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "sir_network_percolation": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "skyrmion_lattice_stability": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "social_network_echo_chambers": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "somite_segmentation_clock": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "spin_glass_continuous_coupling": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "spin_glass_ising_disorder": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "stabilizer_code_passive": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "stem_cell_pluripotency_landscape": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "stochastic_hybrid_automata": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "string_net_condensation": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "sudoku_logic_constraint": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "superconducting_critical_current": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "superfluid_vortex_shedding": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "supermajority_amendment": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "supply_chain": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "supply_chain_bullwhip": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_0": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_1": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_10": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_100": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_101": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_102": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_103": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_104": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_105": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_106": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_107": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_108": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_109": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_11": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_110": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_111": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_112": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_113": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_114": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_115": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_116": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_117": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_118": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_119": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_12": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_120": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_121": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_122": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_123": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_124": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_125": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_126": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_127": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_13": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_14": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_15": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_16": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_17": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_18": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_19": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_2": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_20": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_21": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_22": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_23": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_24": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_25": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_26": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_27": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_28": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_29": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_3": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_30": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_31": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_32": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_33": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_34": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_35": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_36": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_37": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_38": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_39": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_4": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_40": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_41": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_42": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_43": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_44": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_45": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_46": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_47": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_48": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_49": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_5": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_50": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_51": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_52": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_53": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_54": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_55": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_56": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_57": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_58": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_59": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_6": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_60": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_61": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_62": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_63": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_64": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_65": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_66": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_67": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_68": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_69": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_7": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_70": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_71": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_72": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_73": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_74": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_75": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_76": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_77": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_78": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_79": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_8": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_80": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_81": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_82": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_83": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_84": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_85": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_86": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_87": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_88": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_89": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_9": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_90": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_91": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_92": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_93": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_94": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "synthetic_domain_95": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "synthetic_domain_96": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_97": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "synthetic_domain_98": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "synthetic_domain_99": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "tcp_congestion_control": {
+    "substrate_S1c_refined": "HYBRID"
+  },
+  "tokamak_plasma": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "topological_defect_annihilation": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "traffic_bottleneck_phantom_jams": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "traffic_shockwaves": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "tragedy_of_the_commons": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "turing_machine_halting": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "type_inference_unification": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  },
+  "t_cell_repertoire_shaping": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "van_der_pol_oscillator": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "voter_model_consensus": {
+    "substrate_S1c_refined": "STOCHASTIC"
+  },
+  "witten_type_topological_field": {
+    "substrate_S1c_refined": "CONTINUOUS_TOPOLOGICAL"
+  },
+  "yield_stress_avalanche": {
+    "substrate_S1c_refined": "CONTINUOUS_FIELD"
+  },
+  "zika_viral_tropism": {
+    "substrate_S1c_refined": "DISCRETE_SYMBOLIC"
+  }
+}

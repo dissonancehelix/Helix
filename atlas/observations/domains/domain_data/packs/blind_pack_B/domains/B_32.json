@@ -1,0 +1,21 @@
+{
+  "id": "B_32",
+  "name": "Blind B_32",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_32",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "paper_B_32"
+  ],
+  "expression_primitives_rule": [
+    "SLACK"
+  ],
+  "expression_primitives_manual": [
+    "SLACK"
+  ]
+}

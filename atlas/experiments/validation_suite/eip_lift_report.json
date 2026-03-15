@@ -1,0 +1,17 @@
+{
+    "requests": {
+        "Lift_Score": 0.6,
+        "Additional_Failure_Detection_By_EIP": 3,
+        "EIP_Module_Valid": true
+    },
+    "express": {
+        "Lift_Score": 0.8,
+        "Additional_Failure_Detection_By_EIP": 4,
+        "EIP_Module_Valid": true
+    },
+    "gin": {
+        "Lift_Score": 0.6,
+        "Additional_Failure_Detection_By_EIP": 3,
+        "EIP_Module_Valid": true
+    }
+}

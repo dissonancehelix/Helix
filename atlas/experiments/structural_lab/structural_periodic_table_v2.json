@@ -1,0 +1,57 @@
+[
+  {
+    "symbol": "P1",
+    "type": "Capacity",
+    "generative_power": 2,
+    "reaction_diversity": 2,
+    "stable_invariants": [
+      "C1",
+      "C2"
+    ]
+  },
+  {
+    "symbol": "P2",
+    "type": "Conservation",
+    "generative_power": 2,
+    "reaction_diversity": 2,
+    "stable_invariants": [
+      "C1",
+      "C2"
+    ]
+  },
+  {
+    "symbol": "P3",
+    "type": "Entropy",
+    "generative_power": 0,
+    "reaction_diversity": 0,
+    "stable_invariants": []
+  },
+  {
+    "symbol": "P4",
+    "type": "Locality",
+    "generative_power": 2,
+    "reaction_diversity": 2,
+    "stable_invariants": [
+      "C3",
+      "C4"
+    ]
+  },
+  {
+    "symbol": "P5",
+    "type": "Consistency",
+    "generative_power": 1,
+    "reaction_diversity": 1,
+    "stable_invariants": [
+      "C4"
+    ]
+  },
+  {
+    "symbol": "P6",
+    "type": "Interaction",
+    "generative_power": 1,
+    "reaction_diversity": 1,
+    "stable_invariants": [
+      "C3"
+    ]
+  }
+]

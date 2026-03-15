@@ -1,0 +1,69 @@
+{
+  "id": "mutant_remove_feedback_epidemiological_sir_with_seasonal_forcing",
+  "domain": "Epidemiological SIR with seasonal forcing",
+  "state_space": "Formal ODE / manifold state space representing Epidemiological SIR with seasonal forcing",
+  "dynamics_operator": "System evolution metric/operator",
+  "perturbation_operator": "Environment perturbation / noise injection",
+  "stability_condition": "Restoring forces / logic > Perturbation",
+  "failure_mode": "Boundary collapse: SMOOTH_HYPERSURFACE",
+  "observable_metrics": [
+    {
+      "name": "Primary Order Parameter",
+      "type": "CUSTOM",
+      "estimator": "Domain specific estimator",
+      "units_or_none": "None"
+    }
+  ],
+  "timescale_regime": "Domain specific timescale",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Domain specific arbitrary rules or constants"
+  ],
+  "edge_conditions": [
+    "Extreme limits causing parameter breakdown"
+  ],
+  "notes": "Generated to formalize out-of-sample data points.",
+  "persistence_ontology": "P0_STATE_LOCAL",
+  "substrate_type": "CONTINUOUS_MANIFOLD",
+  "substrate_formalism": "ODE / manifold",
+  "dimensionality_form": "finite",
+  "metric_defined": "YES",
+  "boundary_type_primary": "SMOOTH_HYPERSURFACE",
+  "boundary_locality": "LOCAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "CONTINUOUS",
+  "tau_perturb": "System perturbation timescale proxy",
+  "tau_relax": "System relaxation timescale proxy",
+  "T1": "T1_SLOW_PERTURB",
+  "T1_notes": "Generated timescale separation",
+  "metric_layer": {
+    "eligible": false,
+    "metric_kind": null,
+    "control_parameter": null,
+    "threshold_parameter": null,
+    "normalization": null,
+    "distance_value": null,
+    "distance_definition": "Numeric distance strictly derived from domain object fields.",
+    "units": null,
+    "dimensionless": null,
+    "provenance": {
+      "used_fields": [],
+      "assumptions": [
+        "Assumed no numeric boundaries exist since none provided."
+      ],
+      "external_knowledge": true
+    },
+    "metric_phi": null,
+    "projection_method": null,
+    "ineligibility_reason": "INCOMMENSURATE_UNITS"
+  },
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "UNDEFINED",
+    "obstruction_type": "UNITS_NOT_PROJECTABLE",
+    "distance_provenance": "Deterministically triaged via M-Layer v0 rules.",
+    "distance_confidence": "LOW"
+  },
+  "parent_id": "epidemiological_sir_with_seasonal_forcing",
+  "mutation_operation": "remove_feedback"
+}

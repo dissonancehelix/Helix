@@ -1,0 +1,18 @@
+{
+    "Single_Node_Shock": {
+        "avg_cascade_size": 18,
+        "amplification_scaling_SAO": 1.4
+    },
+    "Correlated_Multi_Node": {
+        "avg_cascade_size": 52,
+        "amplification_scaling_SAO": 4.1
+    },
+    "Liquidity_Squeeze": {
+        "avg_cascade_size": 76,
+        "collapse_horizon_FHO": 0.85
+    },
+    "Observability_Lag": {
+        "avg_cascade_size": 65,
+        "amplification_scaling_SAO": 3.8
+    }
+}

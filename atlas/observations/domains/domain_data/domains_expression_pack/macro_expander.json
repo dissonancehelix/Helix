@@ -1,0 +1,23 @@
+{
+    "id": "macro_expander",
+    "name": "Macro Expansion Engine",
+    "description": "Synthetic expression pack domain: Macro Expansion Engine",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "expansion termination",
+    "failure_mode": "recursive macro death",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "COMPOSITION",
+        "MODULARITY"
+    ]
+}

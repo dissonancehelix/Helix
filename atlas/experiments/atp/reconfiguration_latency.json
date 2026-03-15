@@ -1,0 +1,22 @@
+[
+    {
+        "removal_pct": 0.05,
+        "recovery_latency_steps": 3,
+        "structural_continuity_retention": 0.9811320754716981
+    },
+    {
+        "removal_pct": 0.1,
+        "recovery_latency_steps": 5,
+        "structural_continuity_retention": 0.9528301886792453
+    },
+    {
+        "removal_pct": 0.2,
+        "recovery_latency_steps": 12,
+        "structural_continuity_retention": 0.9056603773584906
+    },
+    {
+        "removal_pct": 0.3,
+        "recovery_latency_steps": 16,
+        "structural_continuity_retention": 0.8584905660377359
+    }
+]

@@ -1,0 +1,23 @@
+{
+    "id": "fsm_controller",
+    "name": "Finite Automata Controller",
+    "description": "Synthetic expression pack domain: Finite Automata Controller",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "valid edge traversal",
+    "failure_mode": "state transition deadlock",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "BRANCHING",
+        "ROUTING"
+    ]
+}

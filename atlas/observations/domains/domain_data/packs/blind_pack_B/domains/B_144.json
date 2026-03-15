@@ -1,0 +1,21 @@
+{
+  "id": "B_144",
+  "name": "Blind B_144",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_144",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "SMOOTH_HYPERSURFACE",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c_refined": "BIOLOGICAL",
+  "source_provenance": [
+    "paper_B_144"
+  ],
+  "expression_primitives_rule": [
+    "SLACK"
+  ],
+  "expression_primitives_manual": [
+    "SLACK"
+  ]
+}

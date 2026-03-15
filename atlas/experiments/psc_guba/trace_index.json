@@ -1,0 +1,8 @@
+[
+    {
+        "claim": "GUBA Classification Result",
+        "source": "psc_guba_analysis.py:run_guba_analysis",
+        "lines": "100-140",
+        "excerpt_hash": "c4e7ed509c5fba3c4f1f7a078d7778b99aacae231332a7ebe49732e0fc2c4851"
+    }
+]

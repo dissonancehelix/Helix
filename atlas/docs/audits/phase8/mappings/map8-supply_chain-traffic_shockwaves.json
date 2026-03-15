@@ -1,0 +1,12 @@
+{
+  "id": "map8-supply_chain-traffic_shockwaves",
+  "domain_a": "supply_chain",
+  "domain_b": "traffic_shockwaves",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

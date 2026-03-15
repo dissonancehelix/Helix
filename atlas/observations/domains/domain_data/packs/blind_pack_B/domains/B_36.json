@@ -1,0 +1,23 @@
+{
+  "id": "B_36",
+  "name": "Blind B_36",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_36",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c_refined": "COMPUTATIONAL",
+  "source_provenance": [
+    "paper_B_36"
+  ],
+  "expression_primitives_rule": [
+    "BRANCHING",
+    "LOCAL_REDUNDANCY"
+  ],
+  "expression_primitives_manual": [
+    "BRANCHING",
+    "LOCAL_REDUNDANCY"
+  ]
+}

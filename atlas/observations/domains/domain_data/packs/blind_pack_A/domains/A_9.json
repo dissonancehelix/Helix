@@ -1,0 +1,21 @@
+{
+  "id": "A_9",
+  "name": "Blind A_9",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_9",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "SMOOTH_HYPERSURFACE",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c_refined": "BIOLOGICAL",
+  "source_provenance": [
+    "paper_A_9"
+  ],
+  "expression_primitives_rule": [
+    "RECOMBINATION"
+  ],
+  "expression_primitives_manual": [
+    "RECOMBINATION"
+  ]
+}

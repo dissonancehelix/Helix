@@ -1,0 +1,13 @@
+{
+  "run_id": "oscillator_locking_20260315_041604_705e4a",
+  "timestamp_utc": "2026-03-15T04:16:04.832170+00:00",
+  "probe_name": "oscillator_locking",
+  "lab_name": "language",
+  "dataset_hash": "75c181dc440c182a7876fd5bc5aaf5377b1b9d7a98b923beebac63202425c17d",
+  "probe_code_hash": "d20c966490597fad1eed58aa8fc32fae4f1655387b54eb1da5e6b659d977d717",
+  "probe_version": "1.0.0",
+  "python_version": "3.14.3",
+  "platform": "Windows",
+  "sandbox_limits": {},
+  "helix_version": "0.4.0"
+}

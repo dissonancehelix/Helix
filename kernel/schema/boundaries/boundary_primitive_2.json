@@ -1,0 +1,22 @@
+{
+  "id": "boundary_primitive_2",
+  "primitive_definition": "Discrete invariant constraint breaking continuous homotopy",
+  "formal_condition": "Existence of Q in Z without smooth deltaQ",
+  "operator_signature": "Singularity in flow",
+  "observable_signature": [
+    "TOPOLOGICAL_INVARIANT"
+  ],
+  "domains_where_detected": [
+    "knot_invariants",
+    "quantum_error_correction"
+  ],
+  "domains_where_absent": [
+    "lotka_volterra"
+  ],
+  "required_for_collapse": true,
+  "falsifiers": [
+    "A continuous transformation altering the knot crossing number"
+  ],
+  "status": "CAPTURE",
+  "target_obs": "TOPOLOGICAL_INCOMPATIBILITY"
+}

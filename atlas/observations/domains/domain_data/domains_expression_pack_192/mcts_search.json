@@ -1,0 +1,23 @@
+{
+    "id": "mcts_search",
+    "name": "Monte Carlo Tree Search",
+    "description": "Synthetic expression pack domain: Monte Carlo Tree Search",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "UCT confidence bound exploration",
+    "failure_mode": "narrow shallow tree bias",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "EXPLORATION",
+        "BRANCHING"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "god_functions": 0,
+    "highly_connected_files": 6,
+    "coupling_index": 0.9810725552050473,
+    "duplication_index": 0.0,
+    "instability_risk_score": 1.4905362776025237,
+    "classification": "LOW"
+}

@@ -1,0 +1,20 @@
+{
+    "iris": {
+        "full_stability_ratio": 0.8666666666666667,
+        "stable_stability_ratio": 0.8518518518518519,
+        "unstable_stability_ratio": 1.0,
+        "full_stable_delta": 0.48888888888888893
+    },
+    "wine": {
+        "full_stability_ratio": 0.8461538461538461,
+        "stable_stability_ratio": 1.0,
+        "unstable_stability_ratio": 0.9215686274509804,
+        "full_stable_delta": 0.5555555555555556
+    },
+    "synthetic": {
+        "full_stability_ratio": 0.9116607773851589,
+        "stable_stability_ratio": 0.9717514124293787,
+        "unstable_stability_ratio": 1.0,
+        "full_stable_delta": 0.37
+    }
+}

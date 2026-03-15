@@ -1,0 +1,22 @@
+{
+    "UnitNorm": {
+        "sign_stability": 1.0,
+        "cv": 0.02,
+        "drift": "MINIMAL"
+    },
+    "Dropout_20pct": {
+        "sign_stability": 0.95,
+        "cv": 0.12,
+        "drift": "MODERATE"
+    },
+    "GaussianNoise_10pct": {
+        "sign_stability": 0.88,
+        "cv": 0.15,
+        "drift": "MODERATE"
+    },
+    "OrthogonalRotation_x5": {
+        "sign_stability": 0.99,
+        "cv": 0.05,
+        "drift": "MINIMAL"
+    }
+}

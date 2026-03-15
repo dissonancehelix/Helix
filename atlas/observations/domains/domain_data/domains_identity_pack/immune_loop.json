@@ -1,0 +1,19 @@
+{
+    "id": "immune_loop",
+    "name": "Immune Response Loop",
+    "description": "Synthetic identity pack domain: Immune Response Loop",
+    "state_space": "Derived states B-cell memory trace",
+    "dynamics": "Internal rules with B-cell memory trace",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "homeostatic pathogen clearance",
+    "failure_mode": "autoimmune overaction cascade",
+    "substrate_S1c": "BIOLOGICAL",
+    "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

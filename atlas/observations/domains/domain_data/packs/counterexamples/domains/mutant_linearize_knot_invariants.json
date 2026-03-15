@@ -1,0 +1,68 @@
+{
+  "id": "mutant_linearize_knot_invariants",
+  "domain": "Knot invariants under Reidemeister moves",
+  "state_space": "Set of knot diagrams",
+  "dynamics_operator": "Sequence of Reidemeister moves (Linearized approximation applied)",
+  "perturbation_operator": "Ambient isotopy preserving ambient space",
+  "stability_condition": "Topological equivalence class under Reidemeister moves",
+  "failure_mode": "Strand crossing (cutting and re-gluing)",
+  "observable_metrics": [
+    {
+      "name": "Crossing number",
+      "type": "TOPOLOGICAL_INVARIANT",
+      "estimator": "Minimal diagram crossings",
+      "units_or_none": "integer"
+    }
+  ],
+  "timescale_regime": "Discrete sequence length",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Topological invariant",
+    "Reidemeister moves (symbolic manipulation)"
+  ],
+  "edge_conditions": [
+    "Virtual knots"
+  ],
+  "notes": "Topological invariant; purely symbolic rules.",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "persistence_ontology_confidence": "HIGH",
+  "persistence_ontology_rationale": "Derived via structural matching of observables and dynamics to ontology definitions.",
+  "substrate_type": "SYMBOLIC_ALGEBRAIC",
+  "substrate_formalism": "formal system",
+  "dimensionality_form": "combinatorial",
+  "metric_defined": "NO",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "boundary_locality": "GLOBAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "DISCRETE_SYMBOLIC",
+  "metric_layer": {
+    "eligible": false,
+    "metric_kind": null,
+    "control_parameter": null,
+    "threshold_parameter": null,
+    "normalization": null,
+    "distance_value": null,
+    "distance_definition": "Numeric distance strictly derived from domain object fields.",
+    "units": null,
+    "dimensionless": null,
+    "provenance": {
+      "used_fields": [],
+      "assumptions": [
+        "Assumed no numeric boundaries exist since none provided."
+      ],
+      "external_knowledge": true
+    },
+    "metric_phi": null,
+    "projection_method": null,
+    "ineligibility_reason": "INCOMMENSURATE_UNITS"
+  },
+  "measurement_layer": {
+    "distance_kind": null,
+    "distance_status": "UNDEFINED",
+    "obstruction_type": "NO_BOUNDARY_DISTANCE_CONCEPT",
+    "distance_provenance": "Deterministically triaged via M-Layer v0 rules.",
+    "distance_confidence": "LOW"
+  },
+  "parent_id": "knot_invariants",
+  "mutation_operation": "linearize"
+}

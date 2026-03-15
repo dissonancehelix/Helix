@@ -1,0 +1,1 @@
+Ratio laws physically map the system. PSF dominates amplitude.

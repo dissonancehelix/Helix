@@ -1,0 +1,99 @@
+{
+  "id": "ont-004",
+  "type": "interpretive",
+  "claim": "Conscious state in biological organisms correlates with neural causal integration metrics; IIT (Φ) is a candidate formalization that is predictive in biological systems but fails for artificial substrates and is computationally intractable at biological scale.",
+  "statement": "Conscious state in biological organisms correlates with neural causal integration metrics; IIT (Φ) is a candidate formalization that is predictive in biological systems but fails for artificial substrates and is computationally intractable at biological scale.",
+  "scope": "Biological neural systems under measurable integration proxies; IIT specifically fails for non-biological substrates with high Φ and is intractable for systems with n > ~50 nodes",
+  "assumptions": [
+    "Consciousness in biological organisms is detectable via behavioral or physiological proxy measures.",
+    "Neural causal integration is measurable via tractable approximations (TMS-EEG complexity, perturbational complexity index).",
+    "No substrate dualism: biological and non-biological substrates are subject to the same physical analysis."
+  ],
+  "formal_objects": [
+    "Φ: integrated information (IIT; NP-hard to compute exactly for n > ~50 nodes)",
+    "Causal graph G = (V, E)",
+    "Perturbational complexity index (PCI): tractable TMS-EEG proxy for integration"
+  ],
+  "differentiators": [
+    "Removed 'self-referential causal organization' as undefined; replaced with IIT/Φ as the specific (contested) formalization.",
+    "IIT fails Aaronson objection: expander graphs achieve arbitrarily high Φ with no architecture associated with consciousness; Φ is not sufficient.",
+    "Φ is computationally NP-hard at biological scale; empirical support relies on tractable proxies (PCI), not exact Φ.",
+    "Correlation claim survives biological domain; sufficiency and formalization claims do not."
+  ],
+  "break_tests": [
+    {
+      "setup": "Expander graph with 2^30 nodes constructed to maximize Φ by IIT definition. No biological substrate.",
+      "expected": "If high Φ is sufficient for consciousness, the Expander graph is conscious.",
+      "observed": "No theoretical or empirical basis for attributing consciousness to an Expander graph. High Φ is not sufficient.",
+      "verdict": "FAIL — Φ sufficiency. PASS — biological correlation claim (Expander graph is not a biological system; scope exclusion applies)."
+    },
+    {
+      "setup": "Split-brain patient (corpus callosum severed). IIT predicts significant global Φ reduction.",
+      "expected": "Φ(split-brain) significantly lower than Φ(intact); consciousness should decrease proportionally.",
+      "observed": "Split-brain patients remain conscious with two partially independent cognitive streams. The quantitative Φ prediction does not map cleanly onto reported phenomenology.",
+      "verdict": "PARTIAL FAIL — IIT's quantitative prediction not confirmed. PASS — integration correlation survives (each hemisphere retains independent integration)."
+    },
+    {
+      "setup": "Exact Φ computation attempted for a 100-neuron biological circuit.",
+      "expected": "Φ is computable for this scale if IIT is a practical empirical formalization.",
+      "observed": "Exact Φ computation is NP-hard; 100-neuron systems require exponential time. No biological-scale exact Φ measurement exists.",
+      "verdict": "FAIL — IIT as a practical formalization. PASS — tractable proxies (PCI, TMS-EEG complexity) retain empirical predictive value."
+    },
+    {
+      "setup": "[Class D test] Topological structure of neural population codes: grid cells form toroidal manifolds (T²) and place cells form ring manifolds (S¹), verified via persistent homology (topological data analysis of neural activity). Are topological invariants (Betti numbers) of neural activity manifolds necessary for conscious state maintenance?",
+      "expected": "If Class C (CRITICAL) is the only operative mechanism for conscious state maintenance, all persistence should be attributable to critical dynamics; topological invariants should be redundant.",
+      "observed": "Topological invariants (Betti numbers) of neural activity manifolds are preserved across behavioral states and perturbations. Grid cell toroidal topology persists across sleep/wake cycles. This is a Class D signature: the topological charge (manifold Betti number) of neural population codes cannot change continuously under small perturbations. Neural information encoding uses topological invariants independent of critical dynamics.",
+      "verdict": "PARTIAL CHALLENGE — Neural consciousness maintenance may be HYBRID(C+D): Class C (criticality) governs DYNAMICS of conscious processing; Class D (topological invariants of neural manifolds) governs STRUCTURAL ENCODING of information content. Both may be necessary conditions. Primary Class C assignment is maintained; HYBRID(C+D) is a candidate requiring further empirical test. Class C alone is not falsified — it remains the primary dynamical mechanism."
+    },
+    {
+      "setup": "[Class E test] Stochastic resonance in sensory neurons: moderate synaptic noise enhances subthreshold signal detection. Does neural conscious processing require noise amplitude σ > 0? Specifically: does silencing all spontaneous neural activity (σ → 0) while maintaining metabolic M impair conscious processing?",
+      "expected": "If Class C (CRITICAL) and Class B (THROUGHPUT metabolic floor) fully account for conscious state, removing spontaneous noise σ (with M maintained) should not specifically impair consciousness.",
+      "observed": "Pharmacological suppression of spontaneous neural activity impairs consciousness even when metabolic support is maintained. Stochastic resonance in neural systems (Moss & Wiesenfeld 1995): moderate synaptic noise σ_opt enhances signal detection beyond what noiseless systems achieve. Spontaneous activity (σ > 0) may be necessary for maintaining the critical state — a partial Class E signature.",
+      "verdict": "PARTIAL CLASS E SIGNATURE — Cannot fully exclude Class E contribution. If σ_opt > 0 is necessary for the critical state to be self-sustaining, then the system is HYBRID(C+E): criticality (Class C) is the primary mechanism; noise is constructive (Class E) rather than purely destructive. Noted in scope_guard. Primary CRITICAL assignment maintained with Class E acknowledged as a secondary candidate."
+    }
+  ],
+  "falsifiers": [
+    "Measurement of high neural causal integration in a biological system with confirmed absence of consciousness by all behavioral and physiological metrics.",
+    "A conscious biological state with measurably near-zero causal integration by any tractable metric."
+  ],
+  "stability_class": "CRITICAL",
+  "persistence_type": "STATE",
+  "mechanism_formalism": "RG",
+  "diagnostics": {
+    "class": "CRITICAL (Class C) — primary; Class B THROUGHPUT metabolic floor — secondary necessary condition",
+    "rationale": "Biological neural systems in conscious states are empirically poised near a critical point: (1) 1/f noise in spontaneous neural activity indicates scale-free dynamics consistent with ξ → ∞; (2) avalanche distributions in cortical spiking follow power laws (Beggs & Plenz 2003), a hallmark of criticality; (3) PCI is maximized in awake/REM states and collapses under anesthesia/NREM/vegetative state. The critical state maximizes dynamic range, information transmission, and integration capacity. Class B (THROUGHPUT) metabolic floor is a secondary necessary condition — without sufficient M, the critical state cannot be maintained — but the PRIMARY diagnostic is Class C criticality.",
+    "measurables": [
+      "PCI (perturbational complexity index): peaks near awake/REM states, collapses under anesthesia/NREM/vegetative — primary Class C diagnostic",
+      "Avalanche exponent τ in cortical LFP/EEG: τ ≈ −3/2 (Beggs & Plenz) in awake state; deviates in subcritical (anesthesia) and supercritical (seizure) states",
+      "1/f spectral exponent α in resting-state EEG: α ≈ 1 at criticality",
+      "Cerebral metabolic rate (CMR_O2 or CMR_glucose): Class B secondary diagnostic — minimum metabolic floor required to sustain critical dynamics"
+    ]
+  },
+  "class_countermodels": [
+    {
+      "system": "Deeply anesthetized brain (propofol, isoflurane at surgical depth)",
+      "class_prediction": "If CRITICAL is the stable attractor, anesthesia should not push the brain off the critical manifold",
+      "observed": "Deep anesthesia drives the brain subcritical: PCI collapses, avalanche distributions deviate from power law, slow-wave synchrony replaces scale-free activity. Recovery of criticality correlates with recovery of consciousness. Anesthetics reduce both M (excitatory throughput) and the critical tuning.",
+      "verdict": "Confirms HYBRID (CRITICAL + THROUGHPUT) assignment: both conditions must be maintained for conscious state. Class C alone is not self-sustaining without the Class B metabolic floor."
+    },
+    {
+      "system": "Epileptic seizure (supercritical state)",
+      "class_prediction": "CRITICAL — seizure should represent maximal criticality and thus maximal consciousness",
+      "observed": "Seizure drives the brain supercritical: synchronized, high-amplitude, avalanche-free dynamics. PCI collapses. Consciousness is impaired or absent during generalized seizures despite high neural activity.",
+      "verdict": "Confirms that CRITICAL is specifically the critical manifold (ξ → ∞), not supercritical runaway. Consciousness correlates with the narrow critical band."
+    }
+  ],
+  "scope_guard": "CRITICAL stability class assignment applies to biological neural systems in actively conscious states (awake, REM). Does NOT apply to artificial systems with high Φ (Aaronson expander graph objection). Does NOT extend to non-biological substrates where the critical-manifold interpretation of neural dynamics cannot be operationalized. Class B (THROUGHPUT) metabolic floor is a secondary necessary condition. Class D (TOPOLOGICAL) protection may apply to neural manifold topology (grid cell tori, place cell rings) as a separate information-encoding mechanism — HYBRID(C+D) is a candidate assignment pending empirical test of whether topological manifold invariants are necessary for conscious state, not just neural information encoding. Class E (NOISE_CONSTRUCTIVE) is acknowledged as a secondary candidate if spontaneous neural noise σ_opt > 0 is necessary for maintaining the critical state.",
+  "neighbors": [
+    "Integrated Information Theory (Tononi)",
+    "Global Workspace Theory (Baars)",
+    "Predictive processing / free energy principle (Friston)",
+    "Self-organized criticality (Beggs & Plenz 2003)",
+    "kernel-000",
+    "kernel-001",
+    "kernel-002"
+  ],
+  "status": "STRESS_TESTED",
+  "references": [],
+  "decay_chain": ["ont-004", "kernel-000"]
+}

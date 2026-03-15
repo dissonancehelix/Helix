@@ -1,0 +1,148 @@
+{
+    "correlation_SRD_vs_ActualCollapse": -0.5699,
+    "correlation_MaxDegree_vs_ActualCollapse": -0.7579,
+    "correlation_MeanDegree_vs_ActualCollapse": -0.588,
+    "statistical_uplift_verified": true,
+    "results": [
+        {
+            "repo": "benchmark_graph_0",
+            "srd_risk": 0.1545,
+            "actual_fragility": 0.9412,
+            "baseline_max_degree": 2,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_1",
+            "srd_risk": 0.1688,
+            "actual_fragility": 0.7895,
+            "baseline_max_degree": 4,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_2",
+            "srd_risk": 0.1566,
+            "actual_fragility": 0.7895,
+            "baseline_max_degree": 5,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_3",
+            "srd_risk": 0.1467,
+            "actual_fragility": 0.9167,
+            "baseline_max_degree": 2,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_4",
+            "srd_risk": 0.171,
+            "actual_fragility": 0.8,
+            "baseline_max_degree": 4,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_5",
+            "srd_risk": 0.1564,
+            "actual_fragility": 0.75,
+            "baseline_max_degree": 5,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_6",
+            "srd_risk": 0.1506,
+            "actual_fragility": 0.9231,
+            "baseline_max_degree": 2,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_7",
+            "srd_risk": 0.1716,
+            "actual_fragility": 0.7778,
+            "baseline_max_degree": 4,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_8",
+            "srd_risk": 0.1601,
+            "actual_fragility": 0.7273,
+            "baseline_max_degree": 5,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_9",
+            "srd_risk": 0.1531,
+            "actual_fragility": 0.9375,
+            "baseline_max_degree": 2,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_10",
+            "srd_risk": 0.1699,
+            "actual_fragility": 0.8,
+            "baseline_max_degree": 4,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_11",
+            "srd_risk": 0.1577,
+            "actual_fragility": 0.7778,
+            "baseline_max_degree": 5,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_12",
+            "srd_risk": 0.1528,
+            "actual_fragility": 0.9333,
+            "baseline_max_degree": 2,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_13",
+            "srd_risk": 0.1703,
+            "actual_fragility": 0.8,
+            "baseline_max_degree": 4,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_14",
+            "srd_risk": 0.1576,
+            "actual_fragility": 0.7619,
+            "baseline_max_degree": 5,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_15",
+            "srd_risk": 0.1513,
+            "actual_fragility": 0.9091,
+            "baseline_max_degree": 2,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_16",
+            "srd_risk": 0.171,
+            "actual_fragility": 0.8077,
+            "baseline_max_degree": 4,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_17",
+            "srd_risk": 0.1559,
+            "actual_fragility": 0.8,
+            "baseline_max_degree": 5,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_18",
+            "srd_risk": 0.1518,
+            "actual_fragility": 0.9167,
+            "baseline_max_degree": 2,
+            "elasticity_shape": "Linear Responsive"
+        },
+        {
+            "repo": "benchmark_graph_19",
+            "srd_risk": 0.1692,
+            "actual_fragility": 0.8333,
+            "baseline_max_degree": 4,
+            "elasticity_shape": "Linear Responsive"
+        }
+    ]
+}

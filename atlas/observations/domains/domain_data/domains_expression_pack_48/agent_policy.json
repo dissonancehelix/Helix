@@ -1,0 +1,24 @@
+{
+    "id": "agent_policy",
+    "name": "Agent Policy Selection",
+    "description": "Synthetic expression pack domain: Agent Policy Selection",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "stochastic policy gradient margin",
+    "failure_mode": "policy thrashing",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "BRANCHING",
+        "MULTI_POLICY",
+        "EXPLORATION"
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "Optimal_Constrained_Policy_Convergence": true,
+    "Delta_Cascade_Size_vs_Unconstrained": 0.18,
+    "Delta_Horizon_Under_Action_Delay": -2.4
+}

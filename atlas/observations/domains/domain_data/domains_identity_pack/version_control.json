@@ -1,0 +1,19 @@
+{
+    "id": "version_control",
+    "name": "Version Control Sys",
+    "description": "Synthetic identity pack domain: Version Control Sys",
+    "state_space": "Derived states commit history external_memory",
+    "dynamics": "Internal rules with commit history external_memory",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "commit hash tree",
+    "failure_mode": "merge conflict irreconcilability",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "map8-adaptive_immunity-supermajority_amendment",
+  "domain_a": "adaptive_immunity",
+  "domain_b": "supermajority_amendment",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

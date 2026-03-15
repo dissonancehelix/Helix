@@ -1,0 +1,23 @@
+{
+  "id": "B_148",
+  "name": "Blind B_148",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_148",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "COMPUTATIONAL",
+  "source_provenance": [
+    "paper_B_148"
+  ],
+  "expression_primitives_rule": [
+    "SLACK",
+    "GLOBAL_REDUNDANCY"
+  ],
+  "expression_primitives_manual": [
+    "SLACK",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

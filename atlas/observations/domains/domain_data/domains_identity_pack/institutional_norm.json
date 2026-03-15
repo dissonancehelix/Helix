@@ -1,0 +1,19 @@
+{
+    "id": "institutional_norm",
+    "name": "Institutional Norm",
+    "description": "Synthetic identity pack domain: Institutional Norm",
+    "state_space": "Derived states locked-in rules",
+    "dynamics": "Internal rules with locked-in rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "sunk cost organizational memory",
+    "failure_mode": "regime change",
+    "substrate_S1c": "SOCIAL",
+    "persistence_ontology": "P2_GLOBAL_INVARIANT",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

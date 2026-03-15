@@ -1,0 +1,10 @@
+{
+  "id": "map8-traffic_shockwaves-constitutional_law",
+  "domain_a": "traffic_shockwaves",
+  "domain_b": "constitutional_law",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

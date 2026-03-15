@@ -1,0 +1,23 @@
+{
+  "id": "B_9",
+  "name": "Blind B_9",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_9",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "paper_B_9"
+  ],
+  "expression_primitives_rule": [
+    "RECOMBINATION",
+    "GLOBAL_REDUNDANCY"
+  ],
+  "expression_primitives_manual": [
+    "RECOMBINATION",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

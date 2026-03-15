@@ -1,0 +1,12 @@
+{
+  "id": "map8-protein_folding-traffic_shockwaves",
+  "domain_a": "protein_folding",
+  "domain_b": "traffic_shockwaves",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

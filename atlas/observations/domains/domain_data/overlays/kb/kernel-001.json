@@ -1,0 +1,69 @@
+{
+  "id": "kernel-001",
+  "type": "structural",
+  "claim": "Structural persistence in far-from-equilibrium physical and biological systems is explained by at least one of three independent sufficient conditions: (A) kinetic barrier dominance (E_a/δ >> 1), (B) active throughput dominance (M/δ > 1), or (C) critical-manifold tuning (system poised near divergence of correlation length ξ or susceptibility χ). Systems may instantiate multiple classes simultaneously (HYBRID). No single condition is universally necessary.",
+  "statement": "Structural persistence in far-from-equilibrium physical and biological systems is explained by at least one of three independent sufficient conditions: (A) kinetic barrier dominance (E_a/δ >> 1), (B) active throughput dominance (M/δ > 1), or (C) critical-manifold tuning (system poised near divergence of correlation length ξ or susceptibility χ). Systems may instantiate multiple classes simultaneously (HYBRID). No single condition is universally necessary.",
+  "scope": "DEPRECATED — trichotomy A/B/C is incomplete. At minimum two additional classes required: (D) TOPOLOGICAL discrete invariant, (E) NOISE_CONSTRUCTIVE structure. Also flagged: neutral persistence (evolutionary neutral networks), pattern persistence (intermediate disturbance), edge-of-stability (DNN training). Additionally: kernel-001 is descriptive taxonomy only — no generative predictions derivable from the trichotomy alone. Surviving content: Classes A/B/C intact in kernel-002.",
+  "assumptions": [
+    "The system is demonstrably far from thermodynamic equilibrium.",
+    "At least one of E_a (Class A), M (Class B), or (ξ, χ) (Class C) is formally definable and measurable in the target domain.",
+    "The three conditions are logically independent: a system can instantiate any non-empty subset simultaneously.",
+    "No single condition is claimed to be universally necessary — the trichotomy provides sufficient conditions, not a unique decomposition."
+  ],
+  "formal_objects": [
+    "E_a: kinetic barrier height — Class A",
+    "δ: perturbation amplitude",
+    "M: active maintenance capacity — Class B",
+    "ξ: correlation length — Class C",
+    "χ: susceptibility — Class C",
+    "Class A condition: E_a/δ >> 1",
+    "Class B condition: M/δ > 1",
+    "Class C condition: ξ → ∞ or χ → ∞ near critical manifold",
+    "HYBRID: multiple conditions simultaneously satisfied"
+  ],
+  "differentiators": [
+    "DEPRECATED: trichotomy A/B/C incomplete — see docs/kernel-002_audit.md Phase 4 for break tests.",
+    "Class D countermodel (TOPOLOGICAL): driven-damped soliton with winding number Q persists with E_a/δ ≈ 1, M/δ < 1, ξ finite. Persistence via integer topological charge, not any of A/B/C.",
+    "Class E countermodel (NOISE_CONSTRUCTIVE): Horsthemke-Lefever noise-induced order; M and δ same physical process; M/δ ≡ 1 undefined. Class B not applicable.",
+    "Phase 3 audit: kernel-001 is descriptive taxonomy only — no novel predictions derivable beyond constituent theories (TST, ISS, RG) individually.",
+    "Phase 2 audit: A/B/C are mechanistically non-equivalent and non-reducible; Class C (RG) does not reduce to Lyapunov, basin geometry, FEP, or control theory.",
+    "Surviving content: Classes A/B/C are intact and correct within their scope; absorbed into kernel-002 as the first three of five classes."
+  ],
+  "break_tests": [
+    {
+      "setup": "A far-from-equilibrium system with E_a/δ ≈ 1 (no effective barrier), M/δ < 1 (no active throughput), and ξ finite / χ finite (not at criticality). Is structural persistence possible under kernel-001?",
+      "expected": "If the trichotomy covers all cases, no stability mechanism exists and structural collapse is predicted.",
+      "observed": "Topologically protected dissipative soliton (winding number Q=1): E_a/δ ≈ 1, M/δ < 1, ξ finite. Persists via discrete topological invariant. None of A/B/C operative.",
+      "verdict": "FAIL — Class D (TOPOLOGICAL) exists outside the trichotomy."
+    },
+    {
+      "setup": "System where perturbation source and maintenance source are the same physical process (multiplicative noise). M/δ ≡ 1 by construction; M and δ not independently definable.",
+      "expected": "If Class B is universal for active systems, M/δ > 1 must be achievable.",
+      "observed": "Noise-induced order (Horsthemke-Lefever): structure at σ_opt > 0 collapses at σ = 0 and at σ >> σ_opt. M/δ is not operationalizable. Class B does not apply.",
+      "verdict": "FAIL — Class E (NOISE_CONSTRUCTIVE) exists outside the trichotomy."
+    },
+    {
+      "setup": "A system persists structurally with E_a/δ ≈ 1 and M/δ < 1 and ξ, χ finite. Kernel-001 predicts collapse.",
+      "expected": "If trichotomy is exhaustive, no persistence is possible.",
+      "observed": "Topological systems (D) and noise-constructive systems (E) demonstrate persistence outside A/B/C.",
+      "verdict": "FAIL — Kernel-001 is incomplete. See kernel-002 for extension."
+    }
+  ],
+  "falsifiers": [
+    "A far-from-equilibrium system demonstrably persisting structurally where all three conditions fail: E_a/δ ≈ 1, M/δ < 1, and ξ/χ finite — provided the system is not Class D or Class E.",
+    "A formal proof that any two of the three classes are logically equivalent or reducible to one another."
+  ],
+  "neighbors": [
+    "Dissipative structures (Prigogine) — Class B",
+    "Kramers escape rate / transition state theory — Class A",
+    "Self-organized criticality (Bak, Tang, Wiesenfeld 1987) — Class C",
+    "Free energy principle (Friston) — Class B/C",
+    "Lyapunov stability theory — cross-class",
+    "Stochastic resonance (Gammaitoni et al. 1998) — Class C / HYBRID",
+    "ont-001", "ont-002", "ont-003", "ont-004",
+    "kernel-000", "kernel-002"
+  ],
+  "status": "DEPRECATED",
+  "references": [],
+  "decay_chain": ["kernel-000", "kernel-001", "kernel-002"]
+}

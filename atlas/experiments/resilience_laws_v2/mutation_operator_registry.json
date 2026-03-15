@@ -1,0 +1,28 @@
+{
+    "operators": [
+        {
+            "id": "ADD_EDGE",
+            "target": "fan_in",
+            "expected_dCFS_sign": 1,
+            "falsifier": "Edge added to purely declarative config dict (No execution path)"
+        },
+        {
+            "id": "REMOVE_VALIDATOR",
+            "target": "validation_density",
+            "expected_dCFS_sign": 1,
+            "falsifier": "Validator was inherently dead code / unreachable"
+        },
+        {
+            "id": "SWALLOW_EXCEPTION",
+            "target": "exception_density",
+            "expected_dCFS_sign": 1,
+            "falsifier": "Exception was explicitly mapped to a safe degradation fallback interface"
+        },
+        {
+            "id": "INTRODUCE_CYCLE",
+            "target": "cycle_density",
+            "expected_dCFS_sign": 1,
+            "falsifier": "Compile-time strict lifetime bounds prevent runtime cycle evaluation"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "map8-lotka_volterra-adaptive_immunity",
+  "domain_a": "lotka_volterra",
+  "domain_b": "adaptive_immunity",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

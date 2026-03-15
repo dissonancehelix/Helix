@@ -1,0 +1,52 @@
+{
+    "Helix": {
+        "name": "Helix",
+        "files": 96,
+        "lines": 10838,
+        "avg_fan_in": 5.71875,
+        "cycle_density": 0.06754841186120954,
+        "validation_density": 0.0821917808219178,
+        "trace_density": 0.0273972602739726,
+        "exception_density": 0.2636986301369863
+    },
+    "EFT": {
+        "name": "EFT",
+        "files": 317,
+        "lines": 47894,
+        "avg_fan_in": 0.5867507886435331,
+        "cycle_density": 0.012250967970040025,
+        "validation_density": 0.08745813174544101,
+        "trace_density": 10.216598436918497,
+        "exception_density": 0.003721622627465575
+    },
+    "Requests": {
+        "name": "Requests",
+        "files": 36,
+        "lines": 11164,
+        "avg_fan_in": 7.055555555555555,
+        "cycle_density": 0.03475263865322074,
+        "validation_density": 0.7341269841269841,
+        "trace_density": 0.003968253968253968,
+        "exception_density": 0.2208994708994709
+    },
+    "Express": {
+        "name": "Express",
+        "files": 141,
+        "lines": 21346,
+        "avg_fan_in": 3.0851063829787235,
+        "cycle_density": 0.03008896643339405,
+        "validation_density": 0.008989460632362058,
+        "trace_density": 0.0,
+        "exception_density": 0.0046497210167389955
+    },
+    "Gin": {
+        "name": "Gin",
+        "files": 99,
+        "lines": 23748,
+        "avg_fan_in": 76.16161616161617,
+        "cycle_density": 0.07628240927476111,
+        "validation_density": 0.08633633633633633,
+        "trace_density": 0.0015015015015015015,
+        "exception_density": 0.08633633633633633
+    }
+}

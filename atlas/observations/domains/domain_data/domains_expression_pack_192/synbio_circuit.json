@@ -1,0 +1,22 @@
+{
+    "id": "synbio_circuit",
+    "name": "Genetic Circuit Recombination",
+    "description": "Synthetic expression pack domain: Genetic Circuit Recombination",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "orthogonal promoter binding",
+    "failure_mode": "transcriptional bleedthrough",
+    "substrate_S1c": "BIOLOGICAL",
+    "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "COMPOSITION"
+    ]
+}

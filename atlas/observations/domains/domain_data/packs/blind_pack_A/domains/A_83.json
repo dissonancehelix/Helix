@@ -1,0 +1,21 @@
+{
+  "id": "A_83",
+  "name": "Blind A_83",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_83",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "SOCIAL",
+  "source_provenance": [
+    "paper_A_83"
+  ],
+  "expression_primitives_rule": [
+    "BRANCHING"
+  ],
+  "expression_primitives_manual": [
+    "BRANCHING"
+  ]
+}

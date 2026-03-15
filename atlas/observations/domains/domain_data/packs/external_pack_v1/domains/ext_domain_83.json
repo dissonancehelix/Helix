@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_83",
+  "name": "External Domain 83",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by RFC Protocols 2009",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "PHYSICAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "RFC Protocols 2009"
+  ],
+  "expression_primitives": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ],
+  "_expression_primitives_pass_B": [
+    "BUFFERING",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

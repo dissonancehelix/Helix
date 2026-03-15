@@ -1,0 +1,12 @@
+{
+  "id": "map8-nakamoto_consensus-stabilizer_code_passive",
+  "domain_a": "nakamoto_consensus",
+  "domain_b": "stabilizer_code_passive",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

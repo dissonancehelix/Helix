@@ -1,0 +1,21 @@
+{
+  "id": "boundary_primitive_1",
+  "primitive_definition": "Dimensionality mismatch preventing continuous map",
+  "formal_condition": "dim(state_space_A) != dim(state_space_B)",
+  "operator_signature": "Non-invertible block matrix",
+  "observable_signature": [],
+  "domains_where_detected": [
+    "traffic_shockwaves",
+    "chern_insulator",
+    "tokamak_plasma"
+  ],
+  "domains_where_absent": [
+    "adaptive_immunity"
+  ],
+  "required_for_collapse": true,
+  "falsifiers": [
+    "Construct a continuous dimension-reducing map that preserves topology"
+  ],
+  "status": "CAPTURE",
+  "target_obs": "STATE_DIMENSION_MISMATCH"
+}

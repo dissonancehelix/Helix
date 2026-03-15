@@ -1,0 +1,70 @@
+{
+    "id": "helix_epistemic_engine",
+    "domain": "Meta-Science / Epistemic Validation",
+    "state_space": "Graph of formal scientific constraints and domains",
+    "dynamics_operator": "Automated ingestion, crosslink tracing, and artifact compilation",
+    "perturbation_operator": "Incoming qualitative data, metaphorical drift, hallucinated analogies, and human/LLM error",
+    "stability_condition": "Strict Layer Directionality (L0-L5) AND Immutable JSON Schema Validation (kernel-002)",
+    "failure_mode": "EPISTEMIC_COLLAPSE (Loss of deterministic falsifiability; degradation into abstract metaphors)",
+    "observable_metrics": [
+        {
+            "name": "Validation Defect Count",
+            "type": "INFORMATION_METRIC",
+            "estimator": "validate.py error return code",
+            "units_or_none": "integer count"
+        }
+    ],
+    "timescale_regime": "Execution runtime (seconds)",
+    "persistence_type": "STATE",
+    "non_geometric_elements": [
+        "Arbitrary console output strings"
+    ],
+    "edge_conditions": [
+        "Dataset hash drift without re-execution",
+        "Circular imports across layers"
+    ],
+    "notes": "Helix pointing its Discovery Engine at itself.",
+    "persistence_ontology": "HYBRID(D_TOPOLOGICAL+B_THROUGHPUT)",
+    "substrate_type": "COMPUTATIONAL_PROCESS",
+    "substrate_formalism": "deterministic state machine",
+    "dimensionality_form": "finite discrete",
+    "metric_defined": "YES",
+    "boundary_type_primary": "TOPOLOGICAL_DEFECT",
+    "boundary_locality": "GLOBAL",
+    "boundary_dimensionality_change": "NO",
+    "substrate_S1c": "DETERMINISTIC",
+    "tau_perturb": "Time between new dataset additions",
+    "tau_relax": "Execution time of `python helix.py run`",
+    "T1": "T1_COMPARABLE",
+    "T1_notes": "Validation must run faster than structural decay (metaphorical poisoning)",
+    "metric_layer": {
+        "eligible": true,
+        "metric_kind": "DISCRETE_INVARIANT",
+        "control_parameter": "JSON Schema compliance",
+        "threshold_parameter": "0 schema violations",
+        "normalization": "Binary PASS/FAIL",
+        "distance_value": null,
+        "distance_definition": "Number of validation errors",
+        "units": "errors",
+        "dimensionless": false,
+        "provenance": {
+            "used_fields": [
+                "stability_condition"
+            ],
+            "assumptions": [
+                "Schema accurately operationalizes Kernel-002 necessity bounds"
+            ],
+            "external_knowledge": false
+        },
+        "metric_phi": "1 if errors == 0 else 0",
+        "projection_method": "core/validate.py",
+        "ineligibility_reason": null
+    },
+    "measurement_layer": {
+        "distance_kind": "MARGIN",
+        "distance_status": "COMPUTED",
+        "obstruction_type": null,
+        "distance_provenance": "Determinatively executed via core pipeline.",
+        "distance_confidence": "HIGH"
+    }
+}

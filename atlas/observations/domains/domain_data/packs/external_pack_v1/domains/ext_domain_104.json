@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_104",
+  "name": "External Domain 104",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Distributed Systems Consensus Algorithms 2009",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c": "SOCIAL",
+  "T1": "T1_LOCAL_ONLY",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Distributed Systems Consensus Algorithms 2009"
+  ],
+  "expression_primitives": [
+    "LOCAL_REDUNDANCY",
+    "GLOBAL_REDUNDANCY"
+  ],
+  "_expression_primitives_pass_B": [
+    "LOCAL_REDUNDANCY",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

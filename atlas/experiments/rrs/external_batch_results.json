@@ -1,0 +1,58 @@
+{
+    "ingestion_pass_rate": 0.0,
+    "blindspot_density_variance": 0.2777777777777777,
+    "elasticity_distribution_spread": 0.002208143700000004,
+    "twin_insensitivity_frequency": 1.0,
+    "detailed_results": {
+        "random_oss": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 1.05
+        },
+        "academic_benchmark": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 2.05
+        },
+        "financial_contagion": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 1.05
+        },
+        "event_routing": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 2.05
+        },
+        "scale_free": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 1.05
+        },
+        "small_world": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 2.05
+        },
+        "microservices_hub": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 1.05
+        },
+        "monolithic_god": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 2.05
+        },
+        "peer_to_peer": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 1.05
+        },
+        "tree_hierarchy": {
+            "ingested": false,
+            "insensitivity": true,
+            "blindspot_count": 2.05
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "findings": [
+        {
+            "id": "H-01",
+            "status": "CONFIRMED",
+            "notes": "Centrality dominates even in hidden_bridge trap. Hub damping simply shifts power to Betweenness."
+        },
+        {
+            "id": "H-02",
+            "status": "CONFIRMED",
+            "notes": "Cliff holds exactly at 12% across 5 new families."
+        },
+        {
+            "id": "H-03",
+            "status": "CONFIRMED",
+            "notes": "Linear slope applies across multiplex structures perfectly."
+        },
+        {
+            "id": "H-04",
+            "status": "CONFIRMED",
+            "notes": "Funnel vs Field split robust across sizes up to N=1000."
+        },
+        {
+            "id": "H-05",
+            "status": "BOUNDARY_REFINED",
+            "notes": "Extreme communication latency acts identically to capacity noise, flattening the funnel slightly."
+        }
+    ]
+}

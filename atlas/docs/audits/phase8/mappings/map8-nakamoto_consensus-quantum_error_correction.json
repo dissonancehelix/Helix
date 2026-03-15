@@ -1,0 +1,12 @@
+{
+  "id": "map8-nakamoto_consensus-quantum_error_correction",
+  "domain_a": "nakamoto_consensus",
+  "domain_b": "quantum_error_correction",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "TOPOLOGICAL_INCOMPATIBILITY"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

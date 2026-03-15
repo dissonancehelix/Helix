@@ -1,0 +1,24 @@
+{
+    "Scanned_Repos": 25,
+    "STRUCTURE_SPTD": {
+        "phase_threshold_consistency": 0.866,
+        "regime_switch_detection_stability": 0.91,
+        "drift_cv": 0.11
+    },
+    "TIME_FHO": {
+        "forecast_consistency": 0.85,
+        "early_collapse_detection_delta": 0.22,
+        "drift_cv": 0.14
+    },
+    "RECOVERY_RRO": {
+        "collapse_delay_delta": 5.2,
+        "fragility_gradient_reduction": -0.3,
+        "forecast_extension_consistency": 0.89,
+        "drift_cv": 0.16
+    },
+    "Classifications": {
+        "RECOVERY_RRO": "ADMITTED",
+        "STRUCTURE_SPTD": "ADMITTED",
+        "TIME_FHO": "ADMITTED"
+    }
+}

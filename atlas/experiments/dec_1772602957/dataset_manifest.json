@@ -1,0 +1,21 @@
+{
+    "regimes": [
+        "Binary_Classifier",
+        "Continuous_Optim",
+        "Multi_Agent_Consensus",
+        "Swarm_System",
+        "Voting_System",
+        "Bifurcation_Chaos"
+    ],
+    "topologies": [
+        "lattice",
+        "small-world",
+        "scale-free",
+        "random",
+        "fully_connected"
+    ],
+    "modes": [
+        "Internal",
+        "External"
+    ]
+}

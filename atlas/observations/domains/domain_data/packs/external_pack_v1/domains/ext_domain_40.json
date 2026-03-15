@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_40",
+  "name": "External Domain 40",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by RFC Protocols 2007",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "BIOLOGICAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "RFC Protocols 2007"
+  ],
+  "expression_primitives": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ],
+  "_expression_primitives_pass_B": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ]
+}

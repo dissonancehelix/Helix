@@ -1,0 +1,21 @@
+{
+  "id": "B_119",
+  "name": "Blind B_119",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_119",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c_refined": "SOCIAL",
+  "source_provenance": [
+    "paper_B_119"
+  ],
+  "expression_primitives_rule": [
+    "SLACK"
+  ],
+  "expression_primitives_manual": [
+    "SLACK"
+  ]
+}

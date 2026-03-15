@@ -1,0 +1,23 @@
+{
+  "id": "B_125",
+  "name": "Blind B_125",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_125",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "paper_B_125"
+  ],
+  "expression_primitives_rule": [
+    "SLACK",
+    "MULTI_BASIS"
+  ],
+  "expression_primitives_manual": [
+    "SLACK",
+    "MULTI_BASIS"
+  ]
+}

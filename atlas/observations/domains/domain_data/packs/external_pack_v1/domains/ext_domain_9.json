@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_9",
+  "name": "External Domain 9",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Nature Ecology & Evolution 2023",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c": "SOCIAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "Nature Ecology & Evolution 2023"
+  ],
+  "expression_primitives": [
+    "SLACK",
+    "BUFFERING"
+  ],
+  "_expression_primitives_pass_B": [
+    "SLACK",
+    "BUFFERING"
+  ]
+}

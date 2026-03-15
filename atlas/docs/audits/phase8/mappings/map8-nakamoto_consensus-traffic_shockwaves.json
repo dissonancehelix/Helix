@@ -1,0 +1,10 @@
+{
+  "id": "map8-nakamoto_consensus-traffic_shockwaves",
+  "domain_a": "nakamoto_consensus",
+  "domain_b": "traffic_shockwaves",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

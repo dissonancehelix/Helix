@@ -1,0 +1,10 @@
+{
+  "id": "map8-stabilizer_code_passive-traffic_shockwaves",
+  "domain_a": "stabilizer_code_passive",
+  "domain_b": "traffic_shockwaves",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

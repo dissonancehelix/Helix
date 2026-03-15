@@ -1,0 +1,34 @@
+{
+    "id": "bizarre_reddit_place",
+    "domain": "Massively Multiplayer Artistic Coordination",
+    "state_space": "1000x1000 pixel canvas",
+    "dynamics_operator": "Human bot-nets and subreddit factional warfare",
+    "perturbation_operator": "Streaming raids, bot injection, void attacks",
+    "stability_condition": "Alliance treaties (mutual protection) preventing pixel overwrite",
+    "failure_mode": "THE_VOID (Black pixel erasure wave consuming structured art)",
+    "observable_metrics": [
+        {
+            "name": "Pixel Placement Entropy",
+            "type": "INFORMATION_METRIC",
+            "estimator": "Shannon entropy of color distribution over 5-minute sliding window",
+            "units_or_none": "bits"
+        }
+    ],
+    "timescale_regime": "Minutes",
+    "persistence_type": "STATE",
+    "edge_conditions": [
+        "5-minute cooldown per user enforces strict throughput capacity",
+        "Artwork emergence strictly requires decentralized B3 coordination"
+    ],
+    "notes": "Tests B4 (Symbolic Depth) forming factions over pixels, bounded by absolute physical B1 throughput limits.",
+    "persistence_ontology": "DISCRETE(A_SPACE+B_TIME)",
+    "substrate_type": "COMPUTATIONAL_PROCESS",
+    "dimensionality_form": "finite discrete",
+    "metric_defined": "YES",
+    "boundary_type_primary": "THROUGHPUT_SATURATION",
+    "boundary_locality": "LOCAL",
+    "boundary_dimensionality_change": "NO",
+    "substrate_S1c": "STOCHASTIC",
+    "tau_perturb": "300s",
+    "tau_relax": "300s"
+}

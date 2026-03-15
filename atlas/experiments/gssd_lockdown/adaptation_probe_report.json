@@ -1,0 +1,15 @@
+{
+    "candidate": "AIO (Adaptive Intervention Operator)",
+    "metrics": {
+        "delta_fho_improvement": 0.065,
+        "redundancy_rro_correlation": 0.836,
+        "cross_domain_survival": 0.65,
+        "null_twin_survival": true
+    },
+    "status": "FAILED",
+    "failure_reasons": [
+        "Delta FHO over RRO (6.5%) < 10% threshold.",
+        "Redundancy with RRO (0.836) > 0.70 limit.",
+        "Cross-domain survival (65.0%) < 70% limit."
+    ]
+}

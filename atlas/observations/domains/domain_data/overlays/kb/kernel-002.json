@@ -1,0 +1,94 @@
+{
+  "id": "kernel-002",
+  "type": "structural",
+  "claim": "Structural persistence in far-from-equilibrium systems is explained by at least one of five independent sufficient conditions: (A) BARRIER — kinetic barrier dominance E_a/δ >> 1; (B) THROUGHPUT — active maintenance dominance M/δ > 1; (C) CRITICAL — proximity to critical manifold with divergent ξ or χ; (D) TOPOLOGICAL — discrete invariant Q with threshold-gated failure (τ → ∞ for δ < E_defect); (E) NOISE_CONSTRUCTIVE — structure requires noise σ_opt > 0; φ(0) = 0; M/δ undefined. Systems may instantiate multiple classes (HYBRID). No single condition is universally necessary. Known unclassified buckets: neutral persistence, pattern persistence, edge-of-stability dynamics.",
+  "statement": "Structural persistence in far-from-equilibrium systems is explained by at least one of five independent sufficient conditions: (A) BARRIER — kinetic barrier dominance E_a/δ >> 1; (B) THROUGHPUT — active maintenance dominance M/δ > 1; (C) CRITICAL — proximity to critical manifold with divergent ξ or χ; (D) TOPOLOGICAL — discrete invariant Q with threshold-gated failure (τ → ∞ for δ < E_defect); (E) NOISE_CONSTRUCTIVE — structure requires noise σ_opt > 0; φ(0) = 0; M/δ undefined. Systems may instantiate multiple classes (HYBRID). No single condition is universally necessary. Known unclassified buckets: neutral persistence, pattern persistence, edge-of-stability dynamics.",
+  "scope": "Far-from-equilibrium physical and biological systems where at least one of E_a, M, (ξ,χ), Q, or σ is formally operationalizable and measurable. Explicitly excludes: equilibrium systems (δ ≈ 0); pattern persistence (dynamical attractors, statistical signatures — requires PATTERN kernel); systems where no class condition is formally operationalizable. Class C does NOT apply based on power-law statistics alone — requires demonstrable ξ/χ divergence at a formal critical point.",
+  "assumptions": [
+    "The system is demonstrably far from thermodynamic equilibrium.",
+    "At least one of E_a (A), M (B), (ξ,χ) (C), Q (D), or σ (E) is formally definable and measurable in the target domain.",
+    "The five conditions are logically independent: a system can instantiate any non-empty subset simultaneously.",
+    "No single condition is universally necessary — the taxonomy provides sufficient conditions.",
+    "Formal operationalization is required; mathematical analogs require explicit equivalence justification."
+  ],
+  "formal_objects": [
+    "E_a: kinetic barrier height (Class A); stability: E_a/δ >> 1; failure: Kramers rate ~ exp(-E_a/δ)",
+    "M: active maintenance capacity (Class B); stability: M/δ > 1; M = f(δ) permitted; time-averaging over τ_avg required",
+    "δ: perturbation amplitude (Classes A, B)",
+    "ξ: correlation length (Class C); stability: ξ → ∞ at critical manifold",
+    "χ: susceptibility (Class C); stability: χ → ∞ at critical manifold",
+    "Q: topological charge, integer-valued (Class D); stability: smooth perturbations cannot change Q for δ < E_defect; failure: Q-change event only",
+    "σ: noise amplitude (Class E); stability: σ = σ_opt; φ(0) = 0, φ(σ_opt) > 0; failure: σ → 0 or σ → ∞",
+    "HYBRID: two or more conditions simultaneously satisfied and independently measurable",
+    "stability_class ∈ {BARRIER, THROUGHPUT, CRITICAL, TOPOLOGICAL, NOISE_CONSTRUCTIVE, HYBRID, UNCLASSIFIED}",
+    "persistence_type ∈ {STATE, PATTERN}"
+  ],
+  "differentiators": [
+    "Extends kernel-001 (DEPRECATED) by adding Classes D (TOPOLOGICAL) and E (NOISE_CONSTRUCTIVE), both of which break the kernel-001 trichotomy.",
+    "Class D distinction from Class A: Class A has a continuous barrier with finite Kramers escape rate for any δ > 0. Class D has a DISCRETE threshold — exactly zero failure rate for δ < E_defect (integer topological charge cannot change by continuous fluctuation).",
+    "Class E distinction from Class B: Class B — noise is perturbation δ; removing noise increases stability. Class E — noise is constructive; removing noise (σ → 0) collapses structure.",
+    "Class E distinction from Class C: Class C is tuned to a thermodynamic/dynamical critical point with a separate tuning parameter (T, coupling). Class E uses noise amplitude σ as the sole control parameter; there is no separate thermodynamic critical point.",
+    "Adds explicit UNCLASSIFIED buckets: neutral persistence (evolutionary neutral networks), pattern persistence (dynamical attractors), edge-of-stability (DNN training).",
+    "Adds STATE/PATTERN persistence distinction: kernel-002 applies only to STATE persistence.",
+    "Adds Mechanism Interface Template specifying required observables, failure modes, and timescale specification.",
+    "Adds HYBRID composition rules: dominance rule (shortest τ_failure dominates) and coexisting vs. coupled HYBRID.",
+    "Generates three falsifiable predictions: P1 (Class D threshold-gated failure), P2 (Class E non-monotonic order parameter), P3 (HYBRID(B↔C) warning-signal suppression).",
+    "Does NOT claim completeness. UNCLASSIFIED is an explicit and valid assignment.",
+    "Reduction verdict (Phase 2 audit): A, B, C, D, E are mechanistically non-equivalent. No single framework (Lyapunov, FEP, basin geometry, control theory) subsumes all five classes."
+  ],
+  "break_tests": [
+    {
+      "setup": "Far-from-equilibrium system with E_a/δ ≈ 1, M/δ < 1, ξ/χ finite, no topological invariant (Q undefined), no noise-constructive mechanism (φ(σ) monotone). [Tests all five classes simultaneously]",
+      "expected": "If the pentachotomy is exhaustive, no stability mechanism exists; structural collapse predicted.",
+      "observed": "This setup defines a system with no operative class. Structural collapse is the predicted outcome. If such a system demonstrably persists, kernel-002 requires extension (Class F or scope revision).",
+      "verdict": "PASS — this is the canonical falsifier for kernel-002. A system satisfying this setup that persists structurally would require a new class."
+    },
+    {
+      "setup": "Neutral network (evolutionary): large high-dimensional genotype graph with neutral fitness landscape. E_a ≈ 0, M ≈ 0, ξ finite, Q undefined, φ(σ) not peaked at σ_opt > 0.",
+      "expected": "Kernel-002 must either classify neutral persistence or explicitly acknowledge it as UNCLASSIFIED.",
+      "observed": "Neutral networks do not satisfy any of A–E. Population persists on the network via stochastic drift without any of the five mechanisms operative.",
+      "verdict": "UNCLASSIFIED — explicitly acknowledged. Test plan for candidate Class F in KERNEL.md §3.1."
+    },
+    {
+      "setup": "Topologically protected soliton (winding number Q=1) in driven-damped nonlinear Schrödinger: E_a/δ ≈ 1, M/δ < 1, ξ finite, Q = 1 (discrete invariant).",
+      "expected": "If Class D is correctly formalized, the soliton should be classifiable as TOPOLOGICAL and persist for δ < E_defect.",
+      "observed": "Winding number Q = 1 cannot change continuously. Sub-threshold perturbations (δ < E_defect) cannot unwind the soliton regardless of duration. Class D condition is satisfied.",
+      "verdict": "PASS — Class D correctly classifies the topological soliton."
+    },
+    {
+      "setup": "Noise-induced order (Horsthemke-Lefever): φ(σ=0) = 0, φ(σ_opt) > 0. M and δ are the same process.",
+      "expected": "If Class E is correctly formalized, this system should be classifiable as NOISE_CONSTRUCTIVE.",
+      "observed": "Structure requires σ > 0. Removing noise collapses structure. M/δ ≡ 1. Class E condition is satisfied.",
+      "verdict": "PASS — Class E correctly classifies noise-constructive order."
+    }
+  ],
+  "falsifiers": [
+    "A far-from-equilibrium system demonstrably persisting structurally where all five conditions fail (E_a/δ ≈ 1, M/δ < 1, ξ/χ finite, Q undefined, φ(0) > 0 or φ monotone in σ) — and the system is not a pattern-persistence or neutral-persistence case.",
+    "A formal proof that any two of the five classes are logically equivalent or reducible to one another.",
+    "A domain where none of E_a, M, (ξ,χ), Q, σ can be formally operationalized, requiring scope reduction."
+  ],
+  "predictions": [
+    "P1 (TOPOLOGICAL): Class D systems have τ_failure → ∞ for δ < E_defect (zero rate, not merely small). Contrast Class A: Kramers rate is nonzero for any δ > 0. Test: tests/test_topological_persistence.py",
+    "P2 (NOISE_CONSTRUCTIVE): φ(σ) is non-monotonic: φ(0) = 0, φ(σ_opt) > 0, φ(∞) → 0. Test: tests/test_noise_constructive_order.py",
+    "P3 (HYBRID B↔C): Throughput M suppresses early-warning variance before B→C transition: Var_obs/Var_pred = g(M/δ) < 1. Test: TODO tests/test_hybrid_warning_suppression.py"
+  ],
+  "mechanism_interface": {
+    "observables": ["E_a", "M", "delta", "xi", "chi", "Q", "sigma", "noise_role", "M_adaptive", "timescale_averaging"],
+    "failure_modes": ["nucleation_escape", "throughput_interruption", "critical_detuning", "topological_defect_insert", "noise_removal", "noise_excess"],
+    "hybrid_dominance_rule": "mechanism with shortest failure timescale dominates",
+    "hybrid_default": "COEXISTING — requires explicit coupling term to label as COUPLED"
+  },
+  "neighbors": [
+    "Dissipative structures (Prigogine) — Class B",
+    "Kramers escape rate / TST — Class A",
+    "Self-organized criticality (Bak et al. 1987) — Class C",
+    "Topological field theory / homotopy groups — Class D",
+    "Stochastic resonance / noise-induced transitions (Gammaitoni 1998; Horsthemke-Lefever 1984) — Class E",
+    "Free energy principle (Friston) — Class B/C",
+    "ont-001", "ont-002", "ont-003", "ont-004",
+    "kernel-001"
+  ],
+  "status": "CAPTURE",
+  "references": [],
+  "decay_chain": ["kernel-000", "kernel-001", "kernel-002"]
+}

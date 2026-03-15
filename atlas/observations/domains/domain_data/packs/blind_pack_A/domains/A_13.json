@@ -1,0 +1,23 @@
+{
+  "id": "A_13",
+  "name": "Blind A_13",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_13",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "paper_A_13"
+  ],
+  "expression_primitives_rule": [
+    "SLACK",
+    "EXPLORATION"
+  ],
+  "expression_primitives_manual": [
+    "SLACK",
+    "EXPLORATION"
+  ]
+}

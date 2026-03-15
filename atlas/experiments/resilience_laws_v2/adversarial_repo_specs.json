@@ -1,0 +1,41 @@
+[
+    {
+        "id": "ADV-01",
+        "name": "High Cycle, Low Fragility (The Shielded Core)",
+        "description": "Topologically cyclical, but strictly validated at every state transition boundary.",
+        "features": {
+            "fan_in": 10,
+            "cycle_density": 0.9,
+            "validation_density": 0.9,
+            "exception_density": 0.1
+        },
+        "expected_cfs_trend": "LOW",
+        "predicted_cfs": 0.9248947636399185
+    },
+    {
+        "id": "ADV-02",
+        "name": "Low Cycle, High Fragility (The Swallow Pit)",
+        "description": "Strict DAG (no cycles), but high fan-in and heavy exception swallowing.",
+        "features": {
+            "fan_in": 100,
+            "cycle_density": 0.05,
+            "validation_density": 0.05,
+            "exception_density": 0.8
+        },
+        "expected_cfs_trend": "HIGH",
+        "predicted_cfs": 0.629506025842063
+    },
+    {
+        "id": "ADV-03",
+        "name": "Fake Validator Saturation",
+        "description": "Validation checks exist but do not gate functionality (simulated by dropping the interaction dampener).",
+        "features": {
+            "fan_in": 20,
+            "cycle_density": 0.6,
+            "validation_density": 0.0,
+            "exception_density": 0.2
+        },
+        "expected_cfs_trend": "HIGH",
+        "predicted_cfs": 1.0
+    }
+]

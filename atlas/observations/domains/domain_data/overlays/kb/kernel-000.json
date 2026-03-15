@@ -1,0 +1,82 @@
+{
+  "id": "kernel-000",
+  "type": "structural",
+  "claim": "In far-from-equilibrium systems, structural persistence requires maintenance capacity M to exceed perturbation amplitude δ (M > δ); both quantities are domain-specifically bounded by physical or biological constraints.",
+  "statement": "In far-from-equilibrium systems, structural persistence requires maintenance capacity M to exceed perturbation amplitude δ (M > δ); both quantities are domain-specifically bounded by physical or biological constraints.",
+  "scope": "DEPRECATED — M > δ is a sufficient condition in THROUGHPUT-class systems only. Fails as a universal necessary condition: BARRIER-class systems persist with M ≈ 0 via kinetic trapping; CRITICAL-class systems exhibit maximum structural complexity at M ≈ δ, not M >> δ. Surviving content absorbed into kernel-001 as Class B of the Stability Mechanism Trichotomy.",
+  "assumptions": [
+    "The system is demonstrably far from thermodynamic equilibrium.",
+    "Maintenance capacity M and perturbation amplitude δ are formally definable in the target domain.",
+    "Physical or biological upper bounds on M and δ exist and are non-trivial."
+  ],
+  "formal_objects": [
+    "M: maintenance capacity — domain instantiations: energy flux (thermodynamic), exchange interaction strength (physical ordering), autopoietic closure rate (biological), neural integration rate proxy (neural)",
+    "δ: perturbation amplitude — domain instantiations: thermal noise kT (thermodynamic), symmetry-breaking fluctuation amplitude (physical), pathogenic or entropic load (biological), sensory prediction error (neural)",
+    "Stability condition: M > δ",
+    "Far-from-equilibrium constraint: δ > 0 and system is not at thermodynamic ground state"
+  ],
+  "differentiators": [
+    "DEPRECATED: M > δ is not a universal necessary condition for structural persistence. Three independent countermodel classes falsify universality.",
+    "Class A countermodel (BARRIER): Diamond (sp3 carbon lattice) persists indefinitely far from equilibrium (graphite is the ground state) with M ≈ 0 active throughput. Stability is provided by kinetic barrier E_a ≈ 7 eV per bond >> kT ≈ 0.025 eV. Kernel-000 predicts structural collapse (M ≈ 0 < δ = kT > 0); diamond is stable. FAIL.",
+    "Class B countermodel (CRITICAL): Self-organized criticality (Bak-Tang-Wiesenfeld sandpile) exhibits maximum structural complexity at M ≈ δ — exactly the critical manifold kernel-000 calls unstable. M >> δ would quench the system into an ordered, less complex state. FAIL.",
+    "Class C countermodel (STOCHASTIC RESONANCE): Stochastic resonance regimes (Gammaitoni et al., Phys. Rep. 1998) demonstrate that δ > M can enhance structural organization and signal detection coherence. Kernel-000 predicts collapse; observation shows optimal structure at intermediate δ > M. FAIL.",
+    "Surviving content: THROUGHPUT-class systems (autopoietic organisms, Bénard convection, driven chemical oscillators) where M > δ is the operative stability condition. Absorbed into kernel-001 as Class B.",
+    "Derived from compression of ont-001..004; those claims remain valid within their respective stability classes under kernel-001."
+  ],
+  "break_tests": [
+    {
+      "setup": "Perfect crystal at 0K. δ → 0, M → 0. Is M > δ satisfied?",
+      "expected": "If universal without equilibrium exclusion, crystal must satisfy M > δ for persistence.",
+      "observed": "Crystal at 0K is at thermodynamic equilibrium (δ ≈ 0). Scope explicitly excludes equilibrium systems. Claim does not apply.",
+      "verdict": "PASS — equilibrium exclusion correctly handles this case without falsifying the claim."
+    },
+    {
+      "setup": "Living cell treated with metabolic inhibitor eliminating ATP production (M → 0) in environment with pathogenic load δ > 0.",
+      "expected": "If M > δ fails, structural persistence (life) terminates.",
+      "observed": "Cell dies. Biological structure collapses when maintenance capacity is eliminated under non-zero perturbation.",
+      "verdict": "PASS — claim confirmed for THROUGHPUT-class biological systems."
+    },
+    {
+      "setup": "Ferromagnet: above T_c (δ_thermal > M_exchange → disordered); below T_c (M_exchange > δ_thermal → ordered).",
+      "expected": "Ordered structure appears only when M > δ.",
+      "observed": "Above T_c: disordered symmetric state (M < δ). Below T_c: broken-symmetry ordered state (M > δ). Transition at M = δ is T_c.",
+      "verdict": "PASS — claim confirmed for THROUGHPUT-class physical ordering transition."
+    },
+    {
+      "setup": "Diamond at room temperature. δ = kT ≈ 0.025 eV (thermal noise). Active maintenance M ≈ 0 (no energy throughput sustaining the sp3 lattice against graphitization).",
+      "expected": "If M > δ is universally necessary, diamond (M ≈ 0 < δ = kT > 0) should structurally collapse toward graphite.",
+      "observed": "Diamond is indefinitely stable at ambient conditions. Graphite is the thermodynamic ground state (ΔG ≈ −2.9 kJ/mol favoring graphite), confirming diamond is far from equilibrium. Stability mechanism is kinetic barrier E_a ≈ 7 eV per C–C bond >> kT, not active throughput M. Kernel-000's M > δ condition is not satisfied and is not the operative mechanism.",
+      "verdict": "FAIL — kernel-000 is falsified for BARRIER-class systems. M > δ is not a universal necessary condition for structural persistence."
+    },
+    {
+      "setup": "Bak-Tang-Wiesenfeld sandpile driven to the self-organized critical state. M ≈ δ (input flux ≈ dissipation rate at criticality).",
+      "expected": "If M > δ is necessary for structural persistence, the sandpile at M ≈ δ should collapse or be quenched into an ordered state without complex structure.",
+      "observed": "SOC sandpile at M ≈ δ exhibits maximum structural complexity: scale-free avalanche distributions, long-range correlations, 1/f noise spectrum. This IS the maximally structured state. Driving M >> δ would quench the system into subcritical, less structured behavior.",
+      "verdict": "FAIL — kernel-000 inverts the stability condition for CRITICAL-class systems. Maximum structure occurs at M ≈ δ, not M >> δ."
+    },
+    {
+      "setup": "Stochastic resonance system: subthreshold periodic signal (amplitude M_signal < δ_noise). Kernel-000 predicts structural signal detection fails.",
+      "expected": "If M > δ is universally necessary, noise-dominated regimes (δ > M_signal) should preclude structured coherent detection.",
+      "observed": "At optimal intermediate noise δ > M_signal, stochastic resonance maximizes signal-to-noise ratio and coherent structural response. The δ > M regime generates structured output that the noiseless case cannot. (Gammaitoni et al., Phys. Rep. 1998.)",
+      "verdict": "FAIL — kernel-000 excludes the stochastic resonance stability class. δ > M can be constructive, not destructive."
+    }
+  ],
+  "falsifiers": [
+    "A far-from-equilibrium system demonstrably persisting structurally with M < δ by domain-specific metrics.",
+    "A domain where M and δ cannot be formally operationalized, requiring scope reduction rather than falsification."
+  ],
+  "neighbors": [
+    "Dissipative structures (Prigogine)",
+    "Free energy principle (Friston)",
+    "Lyapunov stability theory",
+    "ont-001",
+    "ont-002",
+    "ont-003",
+    "ont-004",
+    "ont-005",
+    "kernel-001"
+  ],
+  "status": "DEPRECATED",
+  "references": [],
+  "decay_chain": ["kernel-000", "kernel-001"]
+}

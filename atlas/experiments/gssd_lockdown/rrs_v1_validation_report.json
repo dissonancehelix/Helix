@@ -1,0 +1,15 @@
+{
+    "scans_completed": 20,
+    "mandatory_null_execution": true,
+    "mandatory_twin_execution": true,
+    "untrusted_input_gating_active": true,
+    "metrics": {
+        "average_uplift_vs_centrality": 0.15825,
+        "uplift_pass_rate_gt_10pct": 1.0,
+        "average_hostility_survival": 0.86215,
+        "survival_pass_rate_gt_75pct": 1.0,
+        "average_twin_sensitivity": 0.03205,
+        "twin_pass_rate_gt_001": 1.0
+    },
+    "status": "v1.0_LOCKED"
+}

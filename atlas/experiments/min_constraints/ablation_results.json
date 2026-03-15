@@ -1,0 +1,128 @@
+{
+  "A1: No Ontology": [
+    {
+      "id": "synthetic_domain_100",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_111",
+      "geometric_collapse": false
+    },
+    {
+      "id": "constitutional_law",
+      "geometric_collapse": false
+    },
+    {
+      "id": "bond_percolation",
+      "geometric_collapse": false
+    },
+    {
+      "id": "paxos_consensus",
+      "geometric_collapse": false
+    },
+    {
+      "id": "algorithmic_high_frequency_market",
+      "geometric_collapse": false
+    },
+    {
+      "id": "kuramoto_phase_sync",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_89",
+      "geometric_collapse": false
+    },
+    {
+      "id": "language_creolization",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_122",
+      "geometric_collapse": false
+    }
+  ],
+  "A2: No Nonlinearity": [
+    {
+      "id": "synthetic_domain_100",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_111",
+      "geometric_collapse": false
+    },
+    {
+      "id": "constitutional_law",
+      "geometric_collapse": false
+    },
+    {
+      "id": "bond_percolation",
+      "geometric_collapse": false
+    },
+    {
+      "id": "paxos_consensus",
+      "geometric_collapse": false
+    },
+    {
+      "id": "algorithmic_high_frequency_market",
+      "geometric_collapse": false
+    },
+    {
+      "id": "kuramoto_phase_sync",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_89",
+      "geometric_collapse": false
+    },
+    {
+      "id": "language_creolization",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_122",
+      "geometric_collapse": false
+    }
+  ],
+  "A3: No Feedback": [
+    {
+      "id": "synthetic_domain_100",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_111",
+      "geometric_collapse": false
+    },
+    {
+      "id": "constitutional_law",
+      "geometric_collapse": false
+    },
+    {
+      "id": "bond_percolation",
+      "geometric_collapse": false
+    },
+    {
+      "id": "paxos_consensus",
+      "geometric_collapse": false
+    },
+    {
+      "id": "algorithmic_high_frequency_market",
+      "geometric_collapse": false
+    },
+    {
+      "id": "kuramoto_phase_sync",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_89",
+      "geometric_collapse": false
+    },
+    {
+      "id": "language_creolization",
+      "geometric_collapse": false
+    },
+    {
+      "id": "synthetic_domain_122",
+      "geometric_collapse": false
+    }
+  ]
+}

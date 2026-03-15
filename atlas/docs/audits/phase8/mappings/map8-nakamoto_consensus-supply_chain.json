@@ -1,0 +1,10 @@
+{
+  "id": "map8-nakamoto_consensus-supply_chain",
+  "domain_a": "nakamoto_consensus",
+  "domain_b": "supply_chain",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

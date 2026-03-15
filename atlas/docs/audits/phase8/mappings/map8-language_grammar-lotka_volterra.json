@@ -1,0 +1,10 @@
+{
+  "id": "map8-language_grammar-lotka_volterra",
+  "domain_a": "language_grammar",
+  "domain_b": "lotka_volterra",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

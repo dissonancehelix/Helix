@@ -1,0 +1,23 @@
+{
+  "id": "B_11",
+  "name": "Blind B_11",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_11",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c_refined": "COMPUTATIONAL",
+  "source_provenance": [
+    "paper_B_11"
+  ],
+  "expression_primitives_rule": [
+    "SLACK",
+    "EXPLORATION"
+  ],
+  "expression_primitives_manual": [
+    "SLACK",
+    "EXPLORATION"
+  ]
+}

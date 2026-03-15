@@ -1,0 +1,12 @@
+{
+  "id": "map8-stabilizer_code_passive-supermajority_amendment",
+  "domain_a": "stabilizer_code_passive",
+  "domain_b": "supermajority_amendment",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "NON_GEOMETRIC_RULESET"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

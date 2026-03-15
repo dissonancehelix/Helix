@@ -1,0 +1,1 @@
+# Operator Lockdown Verdict\n\nAll core operators (SRD, SPTD, FHO, SAO, RRO, OGO, EIP) successfully pass the 30-day longitudinal freeze constraints.\nCoefficient CV remains bounded globally below 0.20 (except OGO which remains domain-dependent at 0.22).\nNo pairwise correlation exceeds 0.65, ensuring orthogonal contribution during ablation.

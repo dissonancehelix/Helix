@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_94",
+  "name": "External Domain 94",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Nature Ecology & Evolution 2003",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c": "COMPUTATIONAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "Nature Ecology & Evolution 2003"
+  ],
+  "expression_primitives": [
+    "LOCAL_REDUNDANCY",
+    "GLOBAL_REDUNDANCY"
+  ],
+  "_expression_primitives_pass_B": [
+    "LOCAL_REDUNDANCY",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

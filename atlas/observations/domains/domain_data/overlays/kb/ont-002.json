@@ -1,0 +1,98 @@
+{
+  "id": "ont-002",
+  "type": "structural",
+  "claim": "In systems with a formally defined symmetry group G, stable ordered structure corresponds to a broken-symmetry ground state subgroup H ⊂ G, realized when the symmetric configuration becomes energetically unstable under perturbation.",
+  "statement": "In systems with a formally defined symmetry group G, stable ordered structure corresponds to a broken-symmetry ground state subgroup H ⊂ G, realized when the symmetric configuration becomes energetically unstable under perturbation.",
+  "scope": "Physical systems with a formally defined symmetry group G and measurable order parameter φ; explicitly excludes biological and social systems without formal symmetry specification",
+  "assumptions": [
+    "A symmetry group G is formally defined for the system.",
+    "The symmetric ground state becomes energetically unstable below a critical threshold (T_c or coupling constant λ_c).",
+    "An order parameter φ exists that distinguishes the broken-symmetry subgroup H from G."
+  ],
+  "formal_objects": [
+    "Symmetry group G",
+    "Broken symmetry subgroup H ⊂ G",
+    "Order parameter φ",
+    "Critical threshold T_c or λ_c"
+  ],
+  "differentiators": [
+    "Removed 'differentiation precedes complexity': falsified by thermal equilibrium. Max-entropy (complex) states are the SYMMETRIC states; symmetry breaking produces ORDER, not maximal complexity. The two are orthogonal.",
+    "Scope reduced from 'biology, complex systems' to formal symmetry systems only. Biological systems without a specified G are excluded.",
+    "Does not claim identity of mechanism across scales."
+  ],
+  "break_tests": [
+    {
+      "setup": "Ideal gas at thermal equilibrium (maximum entropy, maximum 'complexity' by entropy measure).",
+      "expected": "If 'differentiation precedes complexity', symmetry breaking must precede this complex state.",
+      "observed": "The maximum-entropy state IS the symmetric state. Symmetry breaking REDUCES entropy toward ordered structure. Complexity (entropy) and order (broken symmetry) are inversely related here.",
+      "verdict": "FAIL — 'differentiation precedes complexity'. PASS — 'ordered structure from broken symmetry' (the ordered phase is the broken-symmetry state, confirmed)."
+    },
+    {
+      "setup": "Biological cell differentiation during embryonic development. Claim requires a formal symmetry group G.",
+      "expected": "If universal, a formal G with measurable order parameter must be specifiable for developmental biology.",
+      "observed": "No consensus formal symmetry group G is defined for cell differentiation. Without G, the claim is ill-posed in this domain.",
+      "verdict": "FAIL — original universal claim. PASS — narrowed claim (bio systems correctly excluded by scope)."
+    },
+    {
+      "setup": "Ferromagnet cooled through Curie temperature T_c. G = SO(3), H = U(1), order parameter M (magnetization).",
+      "expected": "Below T_c, spontaneous magnetization (broken SO(3) → U(1)) produces ordered structure.",
+      "observed": "Confirmed. Order parameter M ≠ 0 below T_c. Structure emerges from broken symmetry.",
+      "verdict": "PASS — surviving narrowed claim confirmed."
+    },
+    {
+      "setup": "[Class D test] Magnetic skyrmion lattice in a chiral ferromagnet (e.g., MnSi). Skyrmions carry topological charge Q = ±1 (integer winding number of the magnetization field). Can HYBRID(A+B) fully account for skyrmion stability, or is Class D required?",
+      "expected": "If HYBRID(A+B) is sufficient to classify all ferromagnetic ordered states, the skyrmion lattice should not require Class D classification.",
+      "observed": "Individual skyrmion stability is Class D: the magnetization field cannot be continuously deformed to the uniform ferromagnetic state without passing through a topological singularity (Q cannot change continuously). This is distinct from the exchange (Class B) + domain wall (Class A) mechanisms that stabilize the bulk ferromagnetic ordered state. Skyrmion number Q is a discrete invariant.",
+      "verdict": "PARTIAL — ont-002's HYBRID(A+B) classification applies to the BULK ferromagnetic ordered phase stability, not to individual topological excitations within the ordered phase. Skyrmion stability requires Class D supplement. Scope guard updated."
+    },
+    {
+      "setup": "[Class E test] Noise-induced ferromagnetism: does thermal noise enhance magnetization in a ferromagnet near T_c? Specifically: does M(σ_opt) > M(σ=0) for some optimal noise amplitude σ_opt?",
+      "expected": "If ferromagnetic order could be Class E (noise-constructive), magnetization should peak at σ_opt > 0.",
+      "observed": "No evidence for noise-enhanced magnetization in standard ferromagnets. Thermal noise near T_c is always destructive to order (M decreases toward T_c). The system is not Class E. The HYBRID(A+B) assignment is correct: exchange coupling (Class B) and domain wall barriers (Class A) maintain order; noise is purely destructive.",
+      "verdict": "PASS — HYBRID(A+B) assignment is not challenged by Class E. No noise-constructive mechanism exists in standard ferromagnets."
+    }
+  ],
+  "falsifiers": [
+    "An ordered structure in a system with formally defined symmetry group G that does NOT correspond to a broken-symmetry subgroup H ⊂ G.",
+    "A system where the energetically stable ordered state has strictly higher symmetry than the disordered state under the same group G."
+  ],
+  "stability_class": "HYBRID",
+  "persistence_type": "STATE",
+  "mechanism_formalism": "OTHER",
+  "diagnostics": {
+    "class": "HYBRID (Class B THROUGHPUT + Class A BARRIER)",
+    "rationale": "Below T_c, two independent stability mechanisms are operative: (1) Class B THROUGHPUT — exchange interaction M_exchange between spins maintains the ordered (broken-symmetry) phase against thermal perturbation δ_thermal; M_exchange/kT > 1 below T_c. (2) Class A BARRIER — domain wall energy E_wall creates kinetic barriers against domain reversal; E_wall/kT >> 1 in hard ferromagnets. At T_c exactly (Class C boundary), ξ → ∞ and χ → ∞, defining the critical manifold between ordered and disordered phases.",
+    "measurables": [
+      "Exchange coupling constant J: M_exchange ~ zJ (z = coordination number); J/kT_c ≈ 1 at transition — Class B diagnostic",
+      "Coercive field H_c: proxy for E_wall/kT; hard magnets have large H_c (BARRIER dominant), soft magnets small H_c (THROUGHPUT dominant)",
+      "Correlation length ξ: diverges as ξ ~ |T − T_c|^{-ν} at T_c — Class C diagnostic at the critical point",
+      "Order parameter M(T): follows M ~ |T_c − T|^β; non-zero M confirms broken-symmetry ordered state"
+    ]
+  },
+  "class_countermodels": [
+    {
+      "system": "Type-II superconductor (vortex lattice phase)",
+      "class_prediction": "HYBRID expected (exchange-like pairing + vortex pinning barrier)",
+      "observed": "Vortex pinning (Class A BARRIER: E_pinning >> kT) dominates stability of the vortex lattice. The Cooper pairing mechanism (analogous to Class B exchange) produces the ordered phase, but vortex lattice stability against flux creep is primarily BARRIER-mediated. The two mechanisms are decoupled: removing pinning sites destroys lattice stability even when pairing persists.",
+      "verdict": "HYBRID assignment is structurally correct (two mechanisms), but relative weighting shifts toward BARRIER for flux lattice stability. Confirms HYBRID is the right class; internal weighting must be specified per context."
+    },
+    {
+      "system": "Liquid crystal nematic phase (SO(3) broken to D_∞h)",
+      "class_prediction": "Should be THROUGHPUT if exchange-like elastic constant κ is the operative mechanism",
+      "observed": "Nematic stability is mediated by the Frank elastic constants (Class B THROUGHPUT: orientational stiffness κ/kT > 1 in nematic phase). Barrier term is negligible for director fluctuations in thermotropic LCs. System is primarily THROUGHPUT, not HYBRID.",
+      "verdict": "Confirms stability_class must be determined system-by-system; HYBRID assignment does not generalize to all symmetry-breaking systems."
+    }
+  ],
+  "scope_guard": "HYBRID(A+B) stability class assignment applies to ferromagnetic systems below T_c where exchange coupling and domain wall barriers are independently operative and measurable. Does not generalize to all symmetry-breaking systems: nematic liquid crystals are primarily THROUGHPUT; type-II superconductor vortex lattices are primarily BARRIER. Class D (TOPOLOGICAL) applies to individual topological excitations within the ordered phase (e.g., skyrmions), not to the bulk ordered phase stability addressed by ont-002. No Class E mechanism has been identified for standard ferromagnets. Class C applies at T_c exactly; ont-002 addresses the ordered phase stability (below T_c), not the critical point itself.",
+  "neighbors": [
+    "Spontaneous symmetry breaking (Higgs mechanism)",
+    "Landau theory of phase transitions",
+    "Dissipative structures (Prigogine)",
+    "kernel-000",
+    "kernel-001",
+    "kernel-002"
+  ],
+  "status": "STRESS_TESTED",
+  "references": [],
+  "decay_chain": ["ont-002", "kernel-000"]
+}

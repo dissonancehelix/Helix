@@ -1,0 +1,21 @@
+{
+  "id": "A_47",
+  "name": "Blind A_47",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_47",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "paper_A_47"
+  ],
+  "expression_primitives_rule": [
+    "SLACK"
+  ],
+  "expression_primitives_manual": [
+    "SLACK"
+  ]
+}

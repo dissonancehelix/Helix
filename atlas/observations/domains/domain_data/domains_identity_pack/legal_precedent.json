@@ -1,0 +1,19 @@
+{
+    "id": "legal_precedent",
+    "name": "Legal Precedent System",
+    "description": "Synthetic identity pack domain: Legal Precedent System",
+    "state_space": "Derived states case law memory",
+    "dynamics": "Internal rules with case law memory",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "stare decisis path-dependence",
+    "failure_mode": "constitutional crisis",
+    "substrate_S1c": "SOCIAL",
+    "persistence_ontology": "P2_GLOBAL_INVARIANT",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

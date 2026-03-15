@@ -1,0 +1,22 @@
+{
+    "SUPPORTED_DOMAINS": [
+        "Software dependency graphs",
+        "RPC systems",
+        "Pub/Sub event graphs",
+        "Synthetic ecological networks",
+        "Organizational communication networks",
+        "Regulatory cascade models"
+    ],
+    "UNSUPPORTED_DOMAINS": [
+        "Non-network continuous field systems",
+        "Purely spatial PDE systems",
+        "Non-propagation-based dynamics",
+        "Systems with heavy exogenous intervention dominance"
+    ],
+    "BOUNDARY_CONDITIONS": [
+        "Must be reducible to directed or weighted graph",
+        "Must exhibit propagation behavior",
+        "Must exhibit measurable stress/load parameter",
+        "Must permit mutation simulation"
+    ]
+}

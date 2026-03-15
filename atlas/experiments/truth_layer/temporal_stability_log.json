@@ -1,0 +1,129 @@
+{
+    "artifact_metadata": {
+        "artifact_type": "log",
+        "summary": "Helix Temporal Stability Log. Tracks the adversarial history and stability of all ontological bases.",
+        "version": "1.0.0"
+    },
+    "bases": [
+        {
+            "id": "P1_bandwidth_limit",
+            "introduced": "2026-02-28",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        },
+        {
+            "id": "P2_resource_bound",
+            "introduced": "2026-02-28",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        },
+        {
+            "id": "P3_stochastic_noise",
+            "introduced": "2026-02-28",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        },
+        {
+            "id": "P4_spatial_locality",
+            "introduced": "2026-02-28",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        },
+        {
+            "id": "P5_consitency_logic",
+            "introduced": "2026-02-28",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        },
+        {
+            "id": "P6_competition_multiagent",
+            "introduced": "2026-02-28",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        },
+        {
+            "id": "C1_ontology",
+            "introduced": "2026-02-27",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        },
+        {
+            "id": "C2_expression",
+            "introduced": "2026-02-27",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        },
+        {
+            "id": "C3_coordination",
+            "introduced": "2026-02-27",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        },
+        {
+            "id": "C4_symbolic_depth",
+            "introduced": "2026-02-27",
+            "adversarial_cycles_survived": 0,
+            "projection_families_tested": [
+                "SVD",
+                "PCA"
+            ],
+            "isolate_challenges_survived": 0,
+            "drift_under_scaling": 0.0,
+            "status": "PROVISIONAL"
+        }
+    ]
+}

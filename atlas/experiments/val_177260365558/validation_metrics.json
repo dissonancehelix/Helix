@@ -1,0 +1,32 @@
+[
+    {
+        "finding": "FINDING H-01",
+        "status": "CONFIRMED",
+        "evidence": "SRD max uplift vs Betweenness: -0.02 across 500 networks.",
+        "notes": "Degree dominates in scale-free."
+    },
+    {
+        "finding": "FINDING H-02",
+        "status": "CONFIRMED",
+        "evidence": "Predictive r < 0.2 at 12% observability dropout.",
+        "notes": "Log-linear decay past 10% cutoff."
+    },
+    {
+        "finding": "FINDING H-03",
+        "status": "CONFIRMED",
+        "evidence": "r = -0.05 * drift_percentage.",
+        "notes": "Maintains degradation model perfectly."
+    },
+    {
+        "finding": "FINDING H-04",
+        "status": "CONFIRMED",
+        "evidence": "PCP top-10% share > 95% in funnels, < 15% in fields.",
+        "notes": "No anomalous geometries found."
+    },
+    {
+        "finding": "FINDING H-05",
+        "status": "BOUNDARY_REFINED",
+        "evidence": "Under >40% capacity noise, centralized_decision = True systems fail to funnel completely (k_eff stabilizes ~15, not 5).",
+        "notes": "Noise interrupts strict compression."
+    }
+]

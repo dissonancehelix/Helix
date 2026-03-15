@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+.claude/
+
+# Logs
+*.log
+
+# Staging scratch
+staging/*.tmp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local experiment outputs
+experiments/output/
+/05_applications/eft/

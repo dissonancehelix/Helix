@@ -1,0 +1,89 @@
+{
+  "id": "ont-001",
+  "type": "ontological",
+  "claim": "Information-theoretic bounds impose non-trivial constraints on physical observables in extremal thermodynamic and gravitational regimes.",
+  "statement": "Information-theoretic bounds impose non-trivial constraints on physical observables in extremal thermodynamic and gravitational regimes.",
+  "scope": "Extremal thermodynamic and gravitational regimes only; not applicable to sub-Bekenstein or Newtonian systems",
+  "assumptions": [
+    "The Bekenstein, Landauer, and holographic bounds are physically non-trivial in extremal regimes.",
+    "Information-theoretic quantities (entropy, distinguishability) are measurable at the relevant physical limits."
+  ],
+  "formal_objects": [
+    "Bekenstein bound: S ≤ 2πkRE/ℏc",
+    "Landauer bound: ΔE ≥ kT ln(2) per erased bit",
+    "Holographic bound: I(V) ≤ A(∂V)/4 in Planck units"
+  ],
+  "differentiators": [
+    "Original 'may be derivative' was unfalsifiable; 'may be' removed and claim narrowed to bound constraints.",
+    "Does NOT claim physics is derivable from information theory; claims only that info-theoretic bounds constrain physical quantities in extremal regimes.",
+    "Does NOT apply to sub-extremal regimes where Bekenstein and Landauer bounds are non-binding."
+  ],
+  "break_tests": [
+    {
+      "setup": "Newtonian point-particle system at low energy. Describe completely using F=ma and gravitational law.",
+      "expected": "If physical description is derivative of informational primitives, informational axioms must appear in the derivation.",
+      "observed": "Newtonian mechanics is complete with no informational primitive. F=ma requires no Shannon entropy or distinguishability concept.",
+      "verdict": "FAIL — original 'derivative' claim. PASS — bound claim (Bekenstein is non-binding at low energy; constraint is not violated)."
+    },
+    {
+      "setup": "Attempt formal derivation of Maxwell's equations from Shannon entropy axioms alone.",
+      "expected": "Derivation succeeds if physics is primitive in information-theoretic terms.",
+      "observed": "No such derivation exists. E-field, B-field, and charge are not recoverable from Shannon's framework.",
+      "verdict": "FAIL — original 'derivative' claim. PASS — bound claim unaffected."
+    },
+    {
+      "setup": "System at maximum Bekenstein entropy (black hole horizon). Attempt to store additional information without increasing area.",
+      "expected": "Bound is violated if it is non-binding.",
+      "observed": "Bekenstein bound is saturated; additional information requires a larger horizon. Bound is binding and predictive.",
+      "verdict": "PASS — surviving bound claim confirmed in extremal regime."
+    },
+    {
+      "setup": "[Class D test] Topological quantum error-correcting code (surface code, code distance d=3). Logical qubit information is topologically protected by winding number invariant. Active error syndrome measurement disabled — information stored passively in code space. No active maintenance M. δ = decoherence rate.",
+      "expected": "If information persistence is universally Class B THROUGHPUT (M/δ > 1 required), passive QEC code should fail without active M.",
+      "observed": "Surface code with d=3 tolerates any single-qubit error passively (below distance threshold). This is Class D (TOPOLOGICAL): logical qubit parity Q is a discrete invariant; active syndrome measurement is NOT required for single-error persistence. Bekenstein/Landauer bounds govern the energy cost of syndrome measurement (Class B component), not the topological persistence of the logical qubit.",
+      "verdict": "PASS — scope guard applies. ont-001 addresses information-theoretic bound CONSTRAINTS in extremal regimes, not the full persistence mechanism of QEC codes. Class D topological protection operates within the Bekenstein limit and is outside ont-001's scope."
+    },
+    {
+      "setup": "[Class E test] Quantum Zeno effect: a two-level system subject to frequent measurement noise σ. In the Zeno regime (σ >> system dynamics), coherent evolution is suppressed and the initial state is preserved. Does noise constructively maintain the information state?",
+      "expected": "If information persistence is purely Class B THROUGHPUT (M/δ > 1), noise should always degrade information.",
+      "observed": "In the quantum Zeno regime, measurement noise σ is CONSTRUCTIVE for state preservation (up to σ_opt). This is a Class E signature in a quantum system. However, this regime is sub-extremal (below Bekenstein limit) and outside ont-001's scope.",
+      "verdict": "PASS — scope guard applies. Zeno-regime Class E behavior does not occur at extremal thermodynamic limits where Bekenstein/Landauer bounds are binding. Flags that information-theoretic systems can exhibit Class E behavior outside ont-001's scope."
+    }
+  ],
+  "falsifiers": [
+    "Physical system demonstrably storing more information than the Bekenstein bound allows without forming a larger black hole.",
+    "Erasure of one bit without dissipating at least kT ln(2) energy (Landauer bound violated)."
+  ],
+  "stability_class": "THROUGHPUT",
+  "persistence_type": "STATE",
+  "mechanism_formalism": "OTHER",
+  "diagnostics": {
+    "class": "THROUGHPUT (Class B)",
+    "rationale": "Information-theoretic bounds define M: the maximum information maintenance capacity of a system (Bekenstein entropy bound as capacity ceiling; Landauer kT ln2 as minimum dissipation per maintenance operation). δ is the thermal erasure floor (kT per bit). The bound S ≤ 2πkRE/ℏc operationalizes M/δ in the extremal regime: systems saturating the bound are at M = M_max, and further erasure (δ increase) compresses structure.",
+    "measurables": [
+      "S_actual / S_Bekenstein: ratio of actual entropy to bound — approaches 1 at extremal limit (M saturated)",
+      "ΔE_actual / (kT ln2): ratio of actual erasure cost to Landauer floor — confirms M/δ ≥ 1 per bit operation",
+      "Horizon area A: direct proxy for M_max in gravitational extremal regime"
+    ]
+  },
+  "class_countermodels": [
+    {
+      "system": "Black hole at extremal charge (Reissner–Nordström extremal limit, T_Hawking → 0)",
+      "class_prediction": "THROUGHPUT (M_Hawking_radiation → 0 as T → 0; no active thermal throughput)",
+      "observed": "Extremal black hole is stable with near-zero Hawking flux. Stability shifts toward BARRIER-class: the extremal condition imposes a kinetic barrier against charge reduction (charge repulsion vs. mass). The boundary case straddles THROUGHPUT and BARRIER.",
+      "verdict": "HYBRID boundary case — extremal charged black holes are not cleanly THROUGHPUT; BARRIER component from charge repulsion is operative. Scope guard applies: ont-001 addresses information-theoretic bound constraints, not the full stability mechanism of black holes."
+    }
+  ],
+  "scope_guard": "THROUGHPUT stability class assignment applies to the information-maintenance interpretation of Bekenstein/Landauer bounds in extremal thermodynamic regimes. Does not characterize the full gravitational stability mechanism of black holes or neutron stars, which may be BARRIER or HYBRID. Does not extend to classical or quantum information systems below the Bekenstein limit, where the bound is non-binding and the stability class is underdetermined by ont-001. Class D (TOPOLOGICAL) and Class E (NOISE_CONSTRUCTIVE) behaviors exist in quantum information systems but are outside the extremal-regime scope of ont-001.",
+  "neighbors": [
+    "It from Bit (Wheeler)",
+    "Digital physics",
+    "Holographic principle",
+    "kernel-000",
+    "kernel-001",
+    "kernel-002"
+  ],
+  "status": "STRESS_TESTED",
+  "references": [],
+  "decay_chain": ["ont-001", "kernel-000"]
+}

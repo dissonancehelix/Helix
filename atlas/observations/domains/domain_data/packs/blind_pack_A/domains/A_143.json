@@ -1,0 +1,23 @@
+{
+  "id": "A_143",
+  "name": "Blind A_143",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_143",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "BIOLOGICAL",
+  "source_provenance": [
+    "paper_A_143"
+  ],
+  "expression_primitives_rule": [
+    "RECOMBINATION",
+    "BUFFERING"
+  ],
+  "expression_primitives_manual": [
+    "RECOMBINATION",
+    "BUFFERING"
+  ]
+}

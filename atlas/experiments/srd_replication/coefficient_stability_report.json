@@ -1,0 +1,9 @@
+{
+    "cross_repo_variance_cv": {
+        "b1": 0.0875,
+        "b2": 0.1084,
+        "b3": 0.132
+    },
+    "stability_classification": "STABLE_CONSTANTS",
+    "decision": "If drift stabilizes -> strengthen SRD. If explodes -> refine normalizable."
+}

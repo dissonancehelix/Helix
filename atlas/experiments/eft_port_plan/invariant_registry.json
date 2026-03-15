@@ -1,0 +1,44 @@
+[
+    {
+        "id": "INV-001",
+        "name": "Charge State Economy",
+        "description": "Speed >= 300 HU/s while grounded determines threat. Anything below is vulnerable.",
+        "constraint_type": "PHYSICS_TRIGGER"
+    },
+    {
+        "id": "INV-002",
+        "name": "Prey Carrier Paradigm",
+        "description": "Carrier max speed is 75% of empty-handed max. The carrier can never outrun a charging defender in a straight line.",
+        "constraint_type": "STATE_MODIFIER"
+    },
+    {
+        "id": "INV-003",
+        "name": "Instant Contact Possession",
+        "description": "Walking into a loose ball instantly assigns possession. No keypresses, delays, or confirmation logic permitted.",
+        "constraint_type": "EVENT_RESOLUTION"
+    },
+    {
+        "id": "INV-004",
+        "name": "Throw Committment",
+        "description": "Charging up a throw explicitly zeros all forward/backward/sideways movement capabilities (0 HU/s). Punishes indecision or mistimed passes.",
+        "constraint_type": "INPUT_LOCK"
+    },
+    {
+        "id": "INV-005",
+        "name": "Head-On Velocity Resolution",
+        "description": "When two charging players collide, instantaneous collision velocity determines the winner. Margins are absolute (e.g., 358 vs 357 HU/s).",
+        "constraint_type": "COLLISION_MATH"
+    },
+    {
+        "id": "INV-006",
+        "name": "Air Vulnerability",
+        "description": "Jumping or airborne states strip charge flag instantly. Air players cannot tackle and are defeated by grounded chargers.",
+        "constraint_type": "STATE_MACHINE_PRIORITY"
+    },
+    {
+        "id": "INV-007",
+        "name": "Obstacle Penalty",
+        "description": "Contact with map geometry zeroes speed immediately. Fumbles are caused only by knockdowns, not wall hits.",
+        "constraint_type": "PHYSICS_PUNISHMENT"
+    }
+]

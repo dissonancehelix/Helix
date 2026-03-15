@@ -1,0 +1,23 @@
+{
+    "id": "osi_stack",
+    "name": "OSI Protocol Stack",
+    "description": "Synthetic expression pack domain: OSI Protocol Stack",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "encapsulation unwrapping",
+    "failure_mode": "layer mismatch invariant failure",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "COMPOSITION",
+        "MODULARITY"
+    ]
+}

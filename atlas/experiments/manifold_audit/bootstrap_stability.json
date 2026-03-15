@@ -1,0 +1,14 @@
+{
+  "artifact_hash": "3e334867475467f3096a460097d7b7872d8af58b84cd780010f8cbab4fdc1adc",
+  "bootstrap_seed": 42,
+  "data": {
+    "bootstrap_runs": 50,
+    "mean_dominance": 0.13114146530723447,
+    "std_dominance": 0.006353821379546977,
+    "verdict": "STABLE"
+  },
+  "dataset_hash": "unknown",
+  "generated_by": "helix.py run",
+  "git_commit": "unknown",
+  "schema_version": "unknown"
+}

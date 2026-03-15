@@ -1,0 +1,10 @@
+{
+  "id": "map8-tokamak_plasma-adaptive_immunity",
+  "domain_a": "tokamak_plasma",
+  "domain_b": "adaptive_immunity",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

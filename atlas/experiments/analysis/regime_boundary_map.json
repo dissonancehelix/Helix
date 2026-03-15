@@ -1,0 +1,14 @@
+{
+    "Regime_A_Fragmentation": {
+        "best_performing_metric": "SRD",
+        "SRD_uplift_vs_baseline": 0.004449388209121219
+    },
+    "Regime_B_Cascade_Dominant": {
+        "best_performing_metric": "SRD",
+        "SRD_uplift_vs_baseline": 0.07341490545050067,
+        "elasticity_behavior_classification": "Non-Linear Threshold",
+        "blindspot_interaction_strength": 0.45
+    },
+    "FINAL_OUTCOME": "OUTCOME B",
+    "CONCLUSION": "SRD equal to baseline across regimes. Model measuring classical centrality."
+}

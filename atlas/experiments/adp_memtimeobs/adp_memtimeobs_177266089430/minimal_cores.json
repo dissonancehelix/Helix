@@ -1,0 +1,6 @@
+{
+    "EVR_falso": "N=20 lattice alpha=0.9 phase-aligned injection survival",
+    "LCS_falso": "N=40 multi-path resonance with LCS << 1",
+    "OPL_falso": "blind bottleneck funnel detection OPL > tau",
+    "PSF_falso": "winner directly correlates to seed amplitude"
+}

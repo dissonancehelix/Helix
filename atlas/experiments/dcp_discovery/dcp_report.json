@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-03-02T20:33:00.934035",
+    "config": {
+        "n_features": 64,
+        "seed": 42
+    },
+    "metrics": {
+        "L": 0.9999999998992766,
+        "Delta": 0.9999999998992765,
+        "min_k_eff": 47.75700346952251,
+        "epsilon_robustness": 0.33601985378615484
+    },
+    "status": "VALIDATED"
+}

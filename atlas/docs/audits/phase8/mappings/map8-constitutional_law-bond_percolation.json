@@ -1,0 +1,10 @@
+{
+  "id": "map8-constitutional_law-bond_percolation",
+  "domain_a": "constitutional_law",
+  "domain_b": "bond_percolation",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

@@ -1,0 +1,12 @@
+{
+    "logarithmic_fan_in_scaling": {
+        "equation": "CFS ~ a * ln(FanIn + b)",
+        "average_r2": 0.7807666953914021,
+        "conclusion": "Superior fit to linear. Fan-in impact decays marginally."
+    },
+    "quadratic_cycle_amplification": {
+        "equation": "CFS ~ a * CycleDensity^2",
+        "average_r2": 0.602971494961781,
+        "conclusion": "Strong fit. Cyclic topologies amplify fragility geometrically, not linearly."
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "Base_Model_R2": 0.65,
+    "Expanded_Model_BoundaryIsolationIndex_R2": 0.76,
+    "R2_Gain": 0.11,
+    "Coefficient_Stability_Pass": true,
+    "New_Term_Added": "BoundaryIsolationIndex"
+}

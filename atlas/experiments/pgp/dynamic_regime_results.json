@@ -1,0 +1,7 @@
+{
+    "Spearman_SRD_vs_CascadeVolume": -0.13147942157953274,
+    "Spearman_MaxDegree_vs_CascadeVolume": 0.8611790878754171,
+    "MAE_SRD_Forecast": 3.396852433075276,
+    "MAE_Baseline_Forecast": 2.466666666666667,
+    "Delta_Uplift": -0.7296996662958843
+}

@@ -1,0 +1,12 @@
+{
+  "id": "map8-constitutional_law-language_grammar",
+  "domain_a": "constitutional_law",
+  "domain_b": "language_grammar",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "SEMANTIC_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

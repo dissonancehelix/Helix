@@ -1,0 +1,7 @@
+{
+    "10_Pct_Edge_Weight_Noise_Stability_Drop": 0.04,
+    "20_Pct_Capital_Misreport_Stability_Drop": 0.12,
+    "Rewiring_Under_Constraints_FHO_Degradation": 0.08,
+    "Exogenous_Bailout_Injection_Model_Collapse": true,
+    "Operator_Redundancy_Shift_Max": 0.15
+}

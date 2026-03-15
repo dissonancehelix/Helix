@@ -1,0 +1,82 @@
+{
+    "subsystems": [
+        {
+            "name": "EftMovementController",
+            "type": "Component",
+            "responsibility": "Manage base HU/s translation, charge acceleration curve, and wall collision dampening.",
+            "exports": [
+                "CurrentVelocity",
+                "IsGrounded",
+                "IsForwardLocked"
+            ]
+        },
+        {
+            "name": "ChargeStateSystem",
+            "type": "System",
+            "responsibility": "Evaluate speed (>300), grounding, and air state to flag entities as 'Dangerous'.",
+            "dependencies": [
+                "EftMovementController",
+                "KnockdownStateSystem"
+            ]
+        },
+        {
+            "name": "KnockdownStateSystem",
+            "type": "System",
+            "responsibility": "Immobilize players, prevent inputs, and manage recovery/immunity timers.",
+            "dependencies": [
+                "EftMovementController"
+            ]
+        },
+        {
+            "name": "CombatResolutionSystem",
+            "type": "System",
+            "responsibility": "Calculate head-on velocity vectors or apply punch cross-counter timing.",
+            "dependencies": [
+                "ChargeStateSystem",
+                "PossessionSystem",
+                "EftMovementController"
+            ]
+        },
+        {
+            "name": "PossessionSystem",
+            "type": "System",
+            "responsibility": "Detect carrier vs loose ball. Strip speed globally when possessing.",
+            "dependencies": [
+                "BallEntity",
+                "CombatResolutionSystem"
+            ]
+        },
+        {
+            "name": "BallEntity",
+            "type": "Prefab",
+            "responsibility": "Manage physical state (held vs loose) and trigger fumbles based on mass/velocity.",
+            "exports": [
+                "OnTouched"
+            ]
+        },
+        {
+            "name": "ArenaValidatorSystem",
+            "type": "System",
+            "responsibility": "Reset bounds, goal zones, hazards, and clock suppression.",
+            "dependencies": [
+                "BallEntity"
+            ]
+        }
+    ],
+    "event_graph": {
+        "Tackle": [
+            "ChargeStateSystem",
+            "PossessionSystem",
+            "KnockdownStateSystem"
+        ],
+        "Fumble": [
+            "PossessionSystem",
+            "BallEntity"
+        ],
+        "Pickup": [
+            "BallEntity",
+            "PossessionSystem",
+            "EftMovementController"
+        ]
+    }
+}

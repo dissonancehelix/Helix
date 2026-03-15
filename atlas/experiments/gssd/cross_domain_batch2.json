@@ -1,0 +1,37 @@
+{
+    "Supply chain flow networks": {
+        "collapse_ordering_accuracy": 0.86,
+        "horizon_predictiveness": 0.656,
+        "load_amplification_behavior": 0.761,
+        "recovery_extension_behavior": 0.656,
+        "null_z_score": 4.841
+    },
+    "Transportation bottleneck graphs": {
+        "collapse_ordering_accuracy": 0.869,
+        "horizon_predictiveness": 0.855,
+        "load_amplification_behavior": 0.719,
+        "recovery_extension_behavior": 0.705,
+        "null_z_score": 3.074
+    },
+    "Financial contagion toy models (no bailout injection)": {
+        "collapse_ordering_accuracy": 0.755,
+        "horizon_predictiveness": 0.766,
+        "load_amplification_behavior": 0.706,
+        "recovery_extension_behavior": 0.65,
+        "null_z_score": 4.625
+    },
+    "Epidemiological SIR-style network simulation": {
+        "collapse_ordering_accuracy": 0.836,
+        "horizon_predictiveness": 0.701,
+        "load_amplification_behavior": 0.83,
+        "recovery_extension_behavior": 0.802,
+        "null_z_score": 3.016
+    },
+    "Power grid synthetic topology": {
+        "collapse_ordering_accuracy": 0.901,
+        "horizon_predictiveness": 0.811,
+        "load_amplification_behavior": 0.775,
+        "recovery_extension_behavior": 0.639,
+        "null_z_score": 5.393
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "CandidateMotifs": [
+        {
+            "name": "Topological Compression",
+            "minimal_topology": "star + widespread peripheral graph",
+            "governing_variables": [
+                "edge_latency",
+                "bottleneck_bandwidth",
+                "path_distance_collapse"
+            ],
+            "measurable_metrics": [
+                "time_to_consensus",
+                "funnel_density",
+                "peripheral_starvation_rate"
+            ],
+            "expected_regime": "COMPRESSION_FUNNEL"
+        },
+        {
+            "name": "Closed-Loop Reflection",
+            "minimal_topology": "ring enveloping a central grid",
+            "governing_variables": [
+                "boundary_reflectivity",
+                "decay_rate",
+                "injection_frequency"
+            ],
+            "measurable_metrics": [
+                "mean_diffusion_time",
+                "resonance_peak",
+                "phase_alignment"
+            ],
+            "expected_regime": "DIFFUSION_FIELD"
+        },
+        {
+            "name": "Motif Stability Basin",
+            "minimal_topology": "dense triad + noisy leaf nodes",
+            "governing_variables": [
+                "core_weight_density",
+                "leaf_noise_amplitude",
+                "micro_variation_rate"
+            ],
+            "measurable_metrics": [
+                "core_survival_duration",
+                "metric_variance",
+                "mutation_threshold"
+            ],
+            "expected_regime": "RESONANCE_BASIN"
+        },
+        {
+            "name": "Inverse Escalation Dynamics",
+            "minimal_topology": "binary contested hubs with negative-feedback edge weights",
+            "governing_variables": [
+                "pressure_inversion_ratio",
+                "threshold_trigger",
+                "collapse_acceleration"
+            ],
+            "measurable_metrics": [
+                "snap_transition_speed",
+                "minority_reversal_rate"
+            ],
+            "expected_regime": "CHAOTIC_SWITCHING -> COMPRESSION_FUNNEL"
+        }
+    ],
+    "AdversarialHypotheses": [
+        {
+            "motif": "Topological Compression",
+            "H1": "Sudden reduction in path distance (vacuum) forces an irreversible compression funnel regardless of prior diffusion state.",
+            "H2": "The funnel is an artifact of the central hub's degree; a vacuum event on a low-degree node will fail to force compression.",
+            "falsifier": "A vacuum event on a node with degree < 3 fails to break a high-entropy diffusion field."
+        },
+        {
+            "motif": "Closed-Loop Reflection",
+            "H1": "Boundary reflection geometrically self-sustains diffusion longer than direct central injection.",
+            "H2": "Reflection persistence is merely an artifact of delayed memory decay.",
+            "falsifier": "Direct injection with equivalent delay parameters achieves identical diffusion persistence as reflected injection."
+        },
+        {
+            "motif": "Motif Stability Basin",
+            "H1": "A high-weight structural motif survives infinite topological noise if the noise is restricted to peripheral leaf nodes.",
+            "H2": "Survival is just an artifact of total graph volume; noise eventually overrides any core motif.",
+            "falsifier": "Continuous peripheral noise eventually alters the decision regime of the core triad."
+        },
+        {
+            "motif": "Inverse Escalation Dynamics",
+            "H1": "Increasing pressure (latency/friction) on a node causes a geometric snap-reversal in dominance once a threshold is breached.",
+            "H2": "Escalation is purely linear and symmetric; snap-reversals are artifacts of observer measurement loops.",
+            "falsifier": "The node smoothly degrades linearly without a sudden compensatory geometric cascade."
+        }
+    ],
+    "ExperimentBatch": [
+        {
+            "experiment_id": "STRESS-001-VACUUM",
+            "topology_type": "grid",
+            "node_count": 100,
+            "key_parameters": {
+                "initial_state": "high_entropy",
+                "vacuum_trigger_time": 50,
+                "vacuum_target_degree": 2
+            },
+            "metrics_to_measure": [
+                "consensus_time_post_trigger",
+                "hub_dominance_ratio"
+            ],
+            "expected_outcome": "COMPRESSION_FUNNEL",
+            "explicit_falsifier": "System remains in DIFFUSION_FIELD post-trigger."
+        },
+        {
+            "experiment_id": "STRESS-002-ORB",
+            "topology_type": "ring + grid",
+            "node_count": 64,
+            "key_parameters": {
+                "injection_type": "boundary_bounce",
+                "decay_rate": "slow"
+            },
+            "metrics_to_measure": [
+                "diffusion_half_life",
+                "peak_resonance"
+            ],
+            "expected_outcome": "DIFFUSION_FIELD",
+            "explicit_falsifier": "Boundary bounce decays faster than direct hub injection."
+        },
+        {
+            "experiment_id": "STRESS-003-SCAFFOLD",
+            "topology_type": "hierarchical (dense core, noisy leaves)",
+            "node_count": 50,
+            "key_parameters": {
+                "core_weight": 0.9,
+                "leaf_noise": "continuous",
+                "noise_amplitude": 0.5
+            },
+            "metrics_to_measure": [
+                "core_stability_duration",
+                "metric_drift"
+            ],
+            "expected_outcome": "RESONANCE_BASIN",
+            "explicit_falsifier": "Core motif shatters and realigns to match leaf noise."
+        },
+        {
+            "experiment_id": "STRESS-004-HUSKAR",
+            "topology_type": "small-world",
+            "node_count": 40,
+            "key_parameters": {
+                "pressure_feedback": "inverse",
+                "threshold_limit": 0.8
+            },
+            "metrics_to_measure": [
+                "reversal_velocity",
+                "state_snap_duration"
+            ],
+            "expected_outcome": "CHAOTIC_SWITCHING",
+            "explicit_falsifier": "System decays linearly without a snap-reversal."
+        }
+    ],
+    "RegimePredictions": {
+        "Topological Compression": "Forces transition from DIFFUSION_FIELD to COMPRESSION_FUNNEL.",
+        "Reflected Loops": "Prolongs DIFFUSION_FIELD, prevents FUNNEL collapse.",
+        "Motif Basins": "Locks system into an inescapable RESONANCE_BASIN.",
+        "Inverse Escalation": "Triggers sudden shift from INDECISION_PLATEAU to COMPRESSION_FUNNEL."
+    },
+    "CrossDomainInterpretations": {
+        "network_cascades": "Vacuum mechanics map to artificial centralities forcing viral cascades.",
+        "signal_propagation": "Reflected loops map to waveguide echoes sustaining signal without power drain.",
+        "decision_systems": "Motif basins map to cognitive biases surviving noisy contradictory evidence.",
+        "game_state_transitions": "Inverse escalation maps to comeback mechanics forcing an absorbing state.",
+        "musical_structures": "All motifs map to tempo/tension structures: buildups (escalation), drops (compression), loops (reflection)."
+    },
+    "PotentialDiscoveries": [
+        {
+            "discovery_target": "Metastable Loop States",
+            "experiment_focus": "Inject two opposing reflection loops in a symmetric ring to see if they cancel into dead space or lock into a permanent binary oscillation."
+        },
+        {
+            "discovery_target": "Self-Sustaining Phantom Hubs",
+            "experiment_focus": "Trigger a topological vacuum, then instantly sever the target node. See if the geometric momentum sustains the compression on an empty coordinate."
+        },
+        {
+            "discovery_target": "Multi-Core Phase Locks",
+            "experiment_focus": "Connect three motif-stable basins and apply inverse escalation pressure to the bridges between them. Hunt for a synchronized breathing state."
+        }
+    ]
+}

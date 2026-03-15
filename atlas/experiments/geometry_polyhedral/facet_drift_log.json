@@ -1,0 +1,85 @@
+{
+  "artifact_metadata": {
+    "artifact_type": "log",
+    "summary": "Helix Facet Drift Log. Tracks temporal stability of polyhedral constraint facets."
+  },
+  "history": [
+    {
+      "timestamp": "2026-03-02T22:18:37.903525Z",
+      "facets": [
+        {
+          "facet_id": 0,
+          "member_count": 3185,
+          "active_set_hash": "4f53cda1",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 1,
+          "member_count": 2,
+          "active_set_hash": "6adf5753",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 2,
+          "member_count": 2,
+          "active_set_hash": "e1c9100f",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 3,
+          "member_count": 1,
+          "active_set_hash": "49bbe1c6",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 4,
+          "member_count": 1,
+          "active_set_hash": "10fa90f0",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 5,
+          "member_count": 2204,
+          "active_set_hash": "4f53cda1",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 6,
+          "member_count": 1,
+          "active_set_hash": "406ff0b3",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 7,
+          "member_count": 3,
+          "active_set_hash": "8b4f95d6",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 8,
+          "member_count": 3,
+          "active_set_hash": "87e6d2cb",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 9,
+          "member_count": 1,
+          "active_set_hash": "16b34ca4",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 10,
+          "member_count": 1,
+          "active_set_hash": "ce9f5659",
+          "stability_index": 1.0
+        },
+        {
+          "facet_id": 11,
+          "member_count": 4,
+          "active_set_hash": "288efecd",
+          "stability_index": 1.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "map8-language_grammar-protein_folding",
+  "domain_a": "language_grammar",
+  "domain_b": "protein_folding",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

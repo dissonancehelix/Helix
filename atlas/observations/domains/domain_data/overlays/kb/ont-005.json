@@ -1,0 +1,52 @@
+{
+  "id": "ont-005",
+  "type": "structural",
+  "claim": "Spacetime structure, predictive brains, and integrated information describe a convergent structural motif: systems maintaining coherence under noise.",
+  "statement": "Spacetime structure, predictive brains, and integrated information describe a convergent structural motif: systems maintaining coherence under noise.",
+  "scope": "DEPRECATED — scope was undefined; no formal discriminating condition specified",
+  "assumptions": [
+    "Error-correction is a unifying structural principle across physical and cognitive scales.",
+    "Consciousness is subject to structural analysis comparable to physical coherence systems."
+  ],
+  "formal_objects": [],
+  "differentiators": [
+    "DEPRECATED: 'convergent structural motif' is self-sealing language with no falsification condition specified.",
+    "GR, predictive coding, and IIT use non-isomorphic formalisms; no formal structural equivalence established across the three domains.",
+    "Trivial generalization failure: a rock maintains structural coherence under thermal noise and satisfies the claim. If all stable systems qualify, the claim is informationally empty.",
+    "Holographic QEC (Pastawski et al., 2015) applies only to quantum gravity, not classical GR; cross-domain formal equivalence was not established.",
+    "Surviving content absorbed by kernel-000: M > δ stability condition in far-from-equilibrium systems."
+  ],
+  "break_tests": [
+    {
+      "setup": "A rock at room temperature. Does it maintain structural coherence under thermal noise?",
+      "expected": "If only the three named systems qualify, a rock must not satisfy the motif.",
+      "observed": "A rock trivially satisfies 'maintaining coherence under noise' via passive stability. No discriminating condition excludes it.",
+      "verdict": "FAIL — claim is trivially true for all stable systems, or the discriminating condition is undefined. Self-sealing."
+    },
+    {
+      "setup": "Attempt formal isomorphism between GR Einstein field equations and C(n,k,d) error-correcting code structure.",
+      "expected": "A formal mapping exists establishing structural equivalence between spacetime and error-correcting codes.",
+      "observed": "No such isomorphism established for classical GR. Holographic QEC (Pastawski et al., 2015) applies to AdS/CFT quantum gravity, not classical spacetime structure.",
+      "verdict": "FAIL — formal structural equivalence does not exist across the claimed domains."
+    },
+    {
+      "setup": "Identify a physical system that would falsify 'convergent structural motif' between any two systems.",
+      "expected": "A clear disconfirmation condition exists if the claim is falsifiable.",
+      "observed": "No disconfirmation condition specified. Any two systems can be described as sharing a structural motif if the motif is defined post-hoc to include them.",
+      "verdict": "FAIL — self-sealing. Unfalsifiable as stated."
+    }
+  ],
+  "falsifiers": [
+    "Perturbation resistance in conscious systems shown to be random, not structured.",
+    "Physical and neural coherence mechanisms demonstrated to be formally structurally disanalogous."
+  ],
+  "neighbors": [
+    "Quantum error correction",
+    "Free energy principle / active inference (Friston)",
+    "Holographic principle (AdS/CFT)",
+    "kernel-000"
+  ],
+  "status": "DEPRECATED",
+  "references": [],
+  "decay_chain": ["ont-005", "kernel-000"]
+}

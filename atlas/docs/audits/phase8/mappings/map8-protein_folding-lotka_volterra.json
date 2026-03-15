@@ -1,0 +1,10 @@
+{
+  "id": "map8-protein_folding-lotka_volterra",
+  "domain_a": "protein_folding",
+  "domain_b": "lotka_volterra",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

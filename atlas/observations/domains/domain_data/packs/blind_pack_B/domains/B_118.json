@@ -1,0 +1,21 @@
+{
+  "id": "B_118",
+  "name": "Blind B_118",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_118",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c_refined": "COMPUTATIONAL",
+  "source_provenance": [
+    "paper_B_118"
+  ],
+  "expression_primitives_rule": [
+    "SLACK"
+  ],
+  "expression_primitives_manual": [
+    "SLACK"
+  ]
+}

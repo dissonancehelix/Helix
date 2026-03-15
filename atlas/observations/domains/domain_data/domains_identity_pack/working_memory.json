@@ -1,0 +1,19 @@
+{
+    "id": "working_memory",
+    "name": "Working Memory Buffer",
+    "description": "Synthetic identity pack domain: Working Memory Buffer",
+    "state_space": "Derived states trace limited budget",
+    "dynamics": "Internal rules with trace limited budget",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "short-term trace maintenance",
+    "failure_mode": "capacity overload",
+    "substrate_S1c": "COGNITIVE",
+    "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

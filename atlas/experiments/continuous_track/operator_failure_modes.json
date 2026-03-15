@@ -1,0 +1,10 @@
+{
+    "Lorenz_System": {
+        "Failed_Encoding": "A, B, C",
+        "Reason": "Chaotic strange attractors permanently resist static topological bounding (FHO failure)."
+    },
+    "Advection_Diffusion": {
+        "Failed_Encoding": "A, C",
+        "Reason": "Spatial flow invariants mask discrete node connectivity mapping."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "id": "episodic_recall",
+    "name": "Episodic Recall Model",
+    "description": "Synthetic identity pack domain: Episodic Recall Model",
+    "state_space": "Derived states hysteretic cue mapping",
+    "dynamics": "Internal rules with hysteretic cue mapping",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "retrieval of path-dependent events",
+    "failure_mode": "interference forgetting",
+    "substrate_S1c": "COGNITIVE",
+    "persistence_ontology": "P2_GLOBAL_INVARIANT",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

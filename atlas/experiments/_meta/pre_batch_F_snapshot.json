@@ -1,0 +1,33 @@
+{
+    "beta_coefficients": {
+        "beta1": 0.05,
+        "beta2": 1.2,
+        "beta3": 0.3
+    },
+    "blindspot_weight": 0.5,
+    "admissibility_thresholds": {
+        "missingness_pct": 0.1,
+        "parse_error_count": 100
+    },
+    "pool_ingestion_gates": [
+        "TRUSTED",
+        "twin_pass",
+        "confidence_0.8"
+    ],
+    "mutation_intensity_bounds": [
+        0.05,
+        0.3
+    ],
+    "twin_delta_epsilon": 0.001,
+    "elasticity_classification_rules": "Linear/Numb/Chaotic",
+    "twin_delta": {
+        "mean": 1.911325598506532e-05,
+        "max": 0.00023340850206264585
+    },
+    "blindspot_density": {
+        "mean": 0.1947895063592738,
+        "max": 0.4
+    },
+    "pool_ingestion_rate": 0.0,
+    "drift_volatility": 0.12
+}

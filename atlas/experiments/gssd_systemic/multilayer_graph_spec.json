@@ -1,0 +1,20 @@
+{
+    "Layer_A_Financial": {
+        "type": "exposure_graph",
+        "nodes": 200
+    },
+    "Layer_B_PowerGrid": {
+        "type": "dependency_graph",
+        "nodes": 150
+    },
+    "Layer_C_Communications": {
+        "type": "latency_graph",
+        "nodes": 300
+    },
+    "Coupling_Rules": {
+        "B_to_C": "Power outage increases transaction latency exponentially.",
+        "C_to_A": "Communication degradation increases Financial OGO lag proportionally.",
+        "A_to_B": "Financial distress reduces maintenance reliability edges in Power nodes.",
+        "Reversible": true
+    }
+}

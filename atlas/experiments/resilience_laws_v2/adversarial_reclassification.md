@@ -1,0 +1,1 @@
+# Adversarial Reclassification for ADV-01\nReplacing purely linear interaction `Cycle * Validation` with a Saturation model: `CycleDensity / (1 + k*ValidationCoverage)` reveals validation limits exponential explosive state routing.\n\n**Conclusion:** ADV-01 correctly reclassified. High cycles with exhaustive validation density are structurally stable, not fragile.\n

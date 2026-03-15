@@ -1,0 +1,15 @@
+{
+    "correlations": {
+        "SRD_vs_MaxDegree": -0.8273637374860956,
+        "SRD_vs_FragHorizon": 0.6765294771968855,
+        "MaxDegree_vs_FragHorizon": -0.6720800889877643
+    },
+    "regression": {
+        "R2_MaxDegree": 0.9536669623549928,
+        "R2_SRD": 0.9441282763583588,
+        "R2_MaxDegree_plus_SRD": 0.9732462566718119,
+        "Delta_R2": 0.01957929431681904,
+        "VIF_SRD": 3.1698810994053397
+    },
+    "conclusion": "SRD contributes non-centrality information."
+}

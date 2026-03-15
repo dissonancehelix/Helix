@@ -1,0 +1,23 @@
+{
+  "id": "A_29",
+  "name": "Blind A_29",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_29",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c_refined": "SOCIAL",
+  "source_provenance": [
+    "paper_A_29"
+  ],
+  "expression_primitives_rule": [
+    "BRANCHING",
+    "LOCAL_REDUNDANCY"
+  ],
+  "expression_primitives_manual": [
+    "BRANCHING",
+    "LOCAL_REDUNDANCY"
+  ]
+}

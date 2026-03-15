@@ -1,0 +1,19 @@
+{
+    "id": "bayesian_updater",
+    "name": "Online Bayesian Updater",
+    "description": "Synthetic identity pack domain: Online Bayesian Updater",
+    "state_space": "Derived states model memory update",
+    "dynamics": "Internal rules with model memory update",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "iterative posterior update",
+    "failure_mode": "prior washout",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

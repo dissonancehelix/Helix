@@ -1,0 +1,7 @@
+{
+    "SCOPE_STATUS": "LOCKED",
+    "STRICTLY_BOUNDED_TO": "Discrete graph-native systems (Code dependencies, RPCs, Queues, Transport Graphs)",
+    "EXPLICIT_REJECTION": "Chaotic PDEs (Lorenz) and non-network continuous spatial systems (Fluid Dynamics, React-Diffuse)",
+    "CONDITIONAL_SUPPORT": "Linear discrete continuous approximations retaining rigid directed graph topology with explicit state transitions",
+    "INFLATION_PERMITTED": false
+}

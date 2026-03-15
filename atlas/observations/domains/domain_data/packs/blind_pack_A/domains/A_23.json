@@ -1,0 +1,21 @@
+{
+  "id": "A_23",
+  "name": "Blind A_23",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_23",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c_refined": "COMPUTATIONAL",
+  "source_provenance": [
+    "paper_A_23"
+  ],
+  "expression_primitives_rule": [
+    "RECOMBINATION"
+  ],
+  "expression_primitives_manual": [
+    "RECOMBINATION"
+  ]
+}

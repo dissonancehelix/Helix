@@ -1,0 +1,18 @@
+[
+    {
+        "id": "EXP_A_03_forge",
+        "type": "Increase mutation intensity",
+        "target": "03_forge",
+        "expected_uncertainty_reduction": 0.5,
+        "estimated_compute_cost": "LOW",
+        "reason": "Feedback insensitivity recorded. Must verify if boundary is rigid or mapping is numb."
+    },
+    {
+        "id": "EXP_C_03_forge",
+        "type": "Blindspot densification probe",
+        "target": "03_forge",
+        "expected_uncertainty_reduction": 0.4,
+        "estimated_compute_cost": "MEDIUM",
+        "reason": "Unobservable elements (dead code, reflection) high. Need explicit trace mappings."
+    }
+]

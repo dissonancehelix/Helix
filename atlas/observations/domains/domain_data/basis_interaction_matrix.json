@@ -1,0 +1,16 @@
+{
+    "matrix_version": "1.0_BASIS",
+    "mutual_information": {
+        "B1_B2": 0.12,
+        "B1_B3": 0.38,
+        "B1_B4": 0.05,
+        "B2_B3": 0.22,
+        "B2_B4": 0.18,
+        "B3_B4": 0.25
+    },
+    "structural_couplings": {
+        "B1_to_B3": "High coupling in resource-bound ecological spaces where consensus is physically expensive.",
+        "B3_to_B4": "Moderate coupling due to hierarchical bureaucracy acting as a proxy for depth tracking."
+    },
+    "status": "RANK_SAFE"
+}

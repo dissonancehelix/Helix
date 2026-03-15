@@ -1,0 +1,23 @@
+{
+    "id": "raid_storage",
+    "name": "RAID-6 Array",
+    "description": "Synthetic expression pack domain: RAID-6 Array",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "parity block recovery",
+    "failure_mode": "multi-disk simultaneous fault",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "REDUNDANCY",
+        "SLACK"
+    ]
+}

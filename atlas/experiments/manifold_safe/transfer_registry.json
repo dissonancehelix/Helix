@@ -1,0 +1,866 @@
+{
+  "artifact_hash": "1a52e858248159f0a8b580ea785b342885d1b9932b00481c0b4ddeee31aefaa4",
+  "bootstrap_seed": 42,
+  "data": {
+    "feasible_rate": 0.135,
+    "null_feasible_rate": 0.002,
+    "pairs_evaluated": 1000,
+    "samples": [
+      {
+        "c_dist": 0.0,
+        "distance": 0.0003704173554369694,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "cryptographic_analog_key_exchange",
+        "id_b": "elastic_snap_through_buckling",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 4.743263168360823e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_828",
+        "id_b": "exp_scale_947",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 7.773533835575552e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_638",
+        "id_b": "exp_scale_687",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 3.1048536062616705e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_408",
+        "id_b": "exp_scale_608",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 8.735633322409786e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "ext_domain_277",
+        "id_b": "ext_domain_281",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 3.0537256223373e-05,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "phaseC_domain_32",
+        "id_b": "phaseC_domain_53",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_purely_symbolic_/_combinatorial_systems_791",
+        "id_b": "extreme_purely_symbolic_/_combinatorial_systems_1641",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 5.722089468918057e-12,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "phaseC_domain_126",
+        "id_b": "phaseC_domain_91",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 0.0034547804244654534,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "ext_domain_7",
+        "id_b": "ext_domain_94",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 1.7612229044061678e-06,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_ecological_cascades_1351",
+        "id_b": "extreme_neural_/_cognitive_models_1428",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.00033154430373261157,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_ecological_cascades_1586",
+        "id_b": "extreme_high-dimensional_continuous_systems_1760",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 1.103402527680153e-06,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_neural_/_cognitive_models_1097",
+        "id_b": "extreme_ecological_cascades_1514",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_high-dimensional_continuous_systems_15",
+        "id_b": "extreme_high-dimensional_continuous_systems_105",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 2.0171987033190675e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_712",
+        "id_b": "exp_scale_749",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_purely_symbolic_/_combinatorial_systems_1381",
+        "id_b": "extreme_purely_symbolic_/_combinatorial_systems_1843",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 6.6034064201137e-06,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_social_/_institutional_collapse_1986",
+        "id_b": "extreme_social_/_institutional_collapse_1996",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_high-dimensional_continuous_systems_1477",
+        "id_b": "extreme_high-dimensional_continuous_systems_1760",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 2.150448611404343e-07,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "scale_192_64",
+        "id_b": "scale_96_61",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0001618918269068459,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "ext_domain_285",
+        "id_b": "ext_domain_31",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.009591610746823354,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "mutant_remove_feedback_synthetic_domain_55",
+        "id_b": "mutant_remove_feedback_synthetic_domain_9",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0001301976864936938,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "B_36",
+        "id_b": "B_51",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 2.7324832953867784e-05,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "mutant_alter_locality_synthetic_domain_20",
+        "id_b": "mutant_alter_locality_synthetic_domain_86",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 0.0006474231532880292,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "ext_domain_38",
+        "id_b": "ext_domain_78",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 3.9835396389631406e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_632",
+        "id_b": "exp_scale_912",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 4.733845059279318e-07,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_ecological_cascades_830",
+        "id_b": "extreme_neural_/_cognitive_models_851",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 3.648743814865796e-06,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "B_141",
+        "id_b": "B_64",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 3.6870385500265e-07,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_neural_/_cognitive_models_329",
+        "id_b": "extreme_pathological_adversarial_constructions_1630",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 5.941396197250981e-08,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "scale_48_20",
+        "id_b": "scale_96_5",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_high-dimensional_continuous_systems_180",
+        "id_b": "extreme_high-dimensional_continuous_systems_210",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_purely_symbolic_/_combinatorial_systems_342",
+        "id_b": "extreme_purely_symbolic_/_combinatorial_systems_1001",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_purely_symbolic_/_combinatorial_systems_491",
+        "id_b": "extreme_purely_symbolic_/_combinatorial_systems_508",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 2.63746352194838e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_847",
+        "id_b": "exp_scale_864",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_high-dimensional_continuous_systems_1503",
+        "id_b": "extreme_high-dimensional_continuous_systems_1794",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_high-dimensional_continuous_systems_1412",
+        "id_b": "extreme_high-dimensional_continuous_systems_1609",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.042465766587064024,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_high-dimensional_continuous_systems_1992",
+        "id_b": "extreme_ecological_cascades_1997",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.00026891889251901,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_purely_symbolic_/_combinatorial_systems_1953",
+        "id_b": "extreme_pathological_adversarial_constructions_1988",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 4.344141297585313e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "ext_domain_84",
+        "id_b": "ext_domain_93",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 1.1102230246251565e-16,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_social_/_institutional_collapse_909",
+        "id_b": "extreme_social_/_institutional_collapse_1402",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0013518257713427406,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "mutant_alter_locality_regex_grammar_parsing",
+        "id_b": "mutant_remove_feedback_golay_code_error_correction",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 0.0007639345741000669,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "mutant_linearize_protein_allostery",
+        "id_b": "mutant_remove_feedback_traffic_bottleneck_phantom_jams",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "null_domain_21172",
+        "id_b": "null_domain_40087",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 2.73680980766855e-07,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_ecological_cascades_411",
+        "id_b": "extreme_ecological_cascades_1028",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 3.116010683767989e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_207",
+        "id_b": "exp_scale_416",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 3.1822636297196283e-06,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "phaseC_domain_162",
+        "id_b": "phaseC_domain_20",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 3.218202522781155e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_874",
+        "id_b": "exp_scale_907",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_social_/_institutional_collapse_1093",
+        "id_b": "extreme_social_/_institutional_collapse_1252",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 1.9094180907175407e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_139",
+        "id_b": "exp_scale_930",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 9.693772227736819e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "B_106",
+        "id_b": "B_15",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 1.2256647030639556e-07,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "scale_192_42",
+        "id_b": "scale_96_30",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 3.8038304182475e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_474",
+        "id_b": "exp_scale_504",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.005245707718285031,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "ext_domain_97",
+        "id_b": "ext_domain_48",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 4.3861204959694255e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_493",
+        "id_b": "exp_scale_868",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 2.2147734513033868e-07,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "ext_domain_187",
+        "id_b": "ext_domain_64",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 3.996410793072336e-06,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "phaseC_domain_141",
+        "id_b": "phaseC_domain_46",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 5.96800788410512e-06,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "synthetic_domain_67",
+        "id_b": "synthetic_domain_7",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 2.7705745558548323e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_238",
+        "id_b": "exp_scale_972",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 3.0104485818416293e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_60",
+        "id_b": "exp_scale_423",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 9.091616348655407e-12,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "phaseC_domain_107",
+        "id_b": "phaseC_domain_60",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 3.273274334469889e-06,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_pathological_adversarial_constructions_1922",
+        "id_b": "extreme_pathological_adversarial_constructions_1932",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 1.7862015158520705e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_89",
+        "id_b": "exp_scale_740",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 0.0010692885562008092,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "mutant_remove_feedback_game_of_life_conway",
+        "id_b": "mutant_remove_feedback_language_creolization",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 0.0055733176733082646,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_ecological_cascades_1958",
+        "id_b": "null_domain_81968",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 3.4632613504781418e-06,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_ecological_cascades_974",
+        "id_b": "extreme_ecological_cascades_1529",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 6.809375690208785e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "gradient_descent_saddle_escape",
+        "id_b": "mutant_remove_feedback_epidemiological_sir_with_seasonal_forcing",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 2.696679712266281e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_487",
+        "id_b": "exp_scale_878",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 0.00043365933211581,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "synthetic_domain_55",
+        "id_b": "mutant_linearize_synthetic_domain_7",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 0.0029127551793907136,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "mutant_remove_feedback_schrodinger_wavepacket",
+        "id_b": "mutant_remove_feedback_skyrmion_lattice_stability",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 1.6892350103492326e-05,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "phaseB_ff_domain_38",
+        "id_b": "phaseC_domain_115",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 3.975401694267244e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_495",
+        "id_b": "exp_scale_966",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_purely_symbolic_/_combinatorial_systems_1091",
+        "id_b": "extreme_purely_symbolic_/_combinatorial_systems_1999",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 1.6349578313423763e-07,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "scale_192_134",
+        "id_b": "scale_96_58",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0007876648649777218,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_ecological_cascades_1771",
+        "id_b": "extreme_neural_/_cognitive_models_1783",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 2.0195677293499692e-05,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "phaseC_domain_173",
+        "id_b": "phaseC_domain_22",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 1.8311086539934962e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_42",
+        "id_b": "exp_scale_724",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 5.943798420937618e-05,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "stem_cell_pluripotency_landscape",
+        "id_b": "mutant_remove_feedback_option_pricing_black_scholes",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 1.1102230246251565e-16,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_social_/_institutional_collapse_593",
+        "id_b": "extreme_social_/_institutional_collapse_723",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 2.44608581986272e-05,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "phaseC_domain_191",
+        "id_b": "phaseC_domain_254",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 8.286413375591106e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_700",
+        "id_b": "exp_scale_911",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 8.003908236164925e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_337",
+        "id_b": "exp_scale_659",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 0.0020285576122410776,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "phaseC_domain_73",
+        "id_b": "mutant_linearize_synthetic_domain_72",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 6.195284227694664e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "A_89",
+        "id_b": "A_90",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 5.231368998159791e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_931",
+        "id_b": "exp_scale_952",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 2.847788671545004e-11,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_320",
+        "id_b": "exp_scale_628",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.00014075779117883602,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "B_42",
+        "id_b": "B_64",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_purely_symbolic_/_combinatorial_systems_576",
+        "id_b": "extreme_purely_symbolic_/_combinatorial_systems_966",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 3.07365610852095e-06,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_neural_/_cognitive_models_1816",
+        "id_b": "extreme_pathological_adversarial_constructions_1875",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 4.249329653926992e-06,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_pathological_adversarial_constructions_596",
+        "id_b": "extreme_neural_/_cognitive_models_1813",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 5.003316398888291e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_874",
+        "id_b": "exp_scale_892",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "c_dist": 0.0,
+        "distance": 4.90052912138772e-07,
+        "feasibility": "FEASIBLE_TRANSFER",
+        "id_a": "mutant_alter_locality_berry_phase_accumulation",
+        "id_b": "mutant_alter_locality_fractional_quantum_hall",
+        "invariance_pass": true,
+        "p_dist": 0.0,
+        "projection": "SVD_10_StandardScaled",
+        "topo_match": true
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "null_domain_38217",
+        "id_b": "null_domain_78334",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0001254072269144535,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "ext_domain_19",
+        "id_b": "ext_domain_216",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 4.902642796289491e-06,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_ecological_cascades_1450",
+        "id_b": "extreme_neural_/_cognitive_models_1709",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.00024049775130396966,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "B_74",
+        "id_b": "B_99",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 1.3181311006915664e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_221",
+        "id_b": "exp_scale_262",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 1.0180054488273527e-07,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_pathological_adversarial_constructions_274",
+        "id_b": "extreme_neural_/_cognitive_models_385",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_purely_symbolic_/_combinatorial_systems_1337",
+        "id_b": "extreme_purely_symbolic_/_combinatorial_systems_1445",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.00011332126447582969,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "ext_domain_202",
+        "id_b": "ext_domain_251",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 6.85560315248912e-05,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "exp_scale_383",
+        "id_b": "exp_scale_429",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_ecological_cascades_1126",
+        "id_b": "extreme_ecological_cascades_1416",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      },
+      {
+        "distance": 0.0,
+        "feasibility": "GEOMETRIC_NEIGHBOR_ONLY",
+        "id_a": "extreme_purely_symbolic_/_combinatorial_systems_491",
+        "id_b": "extreme_purely_symbolic_/_combinatorial_systems_537",
+        "invariance_pass": true,
+        "projection": "SVD_10_StandardScaled"
+      }
+    ]
+  },
+  "dataset_hash": "unknown",
+  "generated_by": "helix.py run",
+  "git_commit": "unknown",
+  "schema_version": "unknown"
+}

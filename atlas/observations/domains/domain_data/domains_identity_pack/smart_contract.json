@@ -1,0 +1,19 @@
+{
+    "id": "smart_contract",
+    "name": "Smart Contract Escrow",
+    "description": "Synthetic identity pack domain: Smart Contract Escrow",
+    "state_space": "Derived states irreversible lock-in",
+    "dynamics": "Internal rules with irreversible lock-in",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "latched state transition",
+    "failure_mode": "reentrancy drain",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

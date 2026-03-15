@@ -1,0 +1,5 @@
+{
+    "baseline_collapse_load": 20,
+    "redundant_collapse_load": 30,
+    "collapse_delay_uplift": 10
+}

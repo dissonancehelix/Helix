@@ -1,0 +1,19 @@
+{
+    "id": "pid_controller",
+    "name": "PID Controller",
+    "description": "Synthetic identity pack domain: PID Controller",
+    "state_space": "Derived states memory of error",
+    "dynamics": "Internal rules with memory of error",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "accumulating error correction",
+    "failure_mode": "integral windup overshoot",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

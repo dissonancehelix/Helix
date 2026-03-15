@@ -1,0 +1,21 @@
+{
+  "id": "A_133",
+  "name": "Blind A_133",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_133",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "paper_A_133"
+  ],
+  "expression_primitives_rule": [
+    "SLACK"
+  ],
+  "expression_primitives_manual": [
+    "SLACK"
+  ]
+}

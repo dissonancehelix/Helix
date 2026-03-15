@@ -1,0 +1,66 @@
+{
+  "id": "mutant_remove_feedback_lotka_volterra",
+  "domain": "Predator\u2013prey Lotka\u2013Volterra oscillatory ecosystems",
+  "state_space": "Population sizes of prey x(t) and predator y(t)",
+  "dynamics_operator": "Coupled differential equations: dx/dt = \u03b1x - \u03b2xy, dy/dt = \u03b4xy - \u03b3y",
+  "perturbation_operator": "Stochastic population shocks, environmental carrying capacity changes, disease",
+  "stability_condition": "Trajectories form closed orbits (neutrally stable limit cycles) around fixed point",
+  "failure_mode": "Local extinction of either species (x=0 or y=0 absorbing states)",
+  "observable_metrics": [
+    "Prey population count",
+    "Predator population count",
+    "Phase amplitude"
+  ],
+  "timescale_regime": "Generations (seasons to years)",
+  "persistence_type": "PATTERN",
+  "non_geometric_elements": [
+    "Absorbing boundary at zero population",
+    "Neutral stability of orbits without carrying capacity"
+  ],
+  "edge_conditions": [
+    "Low population numbers (demographic stochasticity)",
+    "Allee effects"
+  ],
+  "notes": "Persistence is a dynamical pattern, not a static state.",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "persistence_ontology_confidence": "HIGH",
+  "persistence_ontology_rationale": "Derived via structural matching of observables and dynamics to ontology definitions.",
+  "substrate_type": "STOCHASTIC_PROCESS",
+  "substrate_formalism": "probability ensemble",
+  "dimensionality_form": "infinite",
+  "metric_defined": "YES (KL / TV)",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "boundary_locality": "GLOBAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "STOCHASTIC",
+  "metric_layer": {
+    "eligible": false,
+    "metric_kind": null,
+    "control_parameter": null,
+    "threshold_parameter": null,
+    "normalization": null,
+    "distance_value": null,
+    "distance_definition": "Numeric distance strictly derived from domain object fields.",
+    "units": null,
+    "dimensionless": null,
+    "provenance": {
+      "used_fields": [],
+      "assumptions": [
+        "Assumed no numeric boundaries exist since none provided."
+      ],
+      "external_knowledge": true
+    },
+    "metric_phi": null,
+    "projection_method": null,
+    "ineligibility_reason": "INCOMMENSURATE_UNITS"
+  },
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "UNDEFINED",
+    "obstruction_type": "UNITS_NOT_PROJECTABLE",
+    "distance_provenance": "Deterministically triaged via M-Layer v0 rules.",
+    "distance_confidence": "LOW"
+  },
+  "parent_id": "lotka_volterra",
+  "mutation_operation": "remove_feedback"
+}

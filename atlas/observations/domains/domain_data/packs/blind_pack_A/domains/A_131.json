@@ -1,0 +1,21 @@
+{
+  "id": "A_131",
+  "name": "Blind A_131",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_131",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c_refined": "SOCIAL",
+  "source_provenance": [
+    "paper_A_131"
+  ],
+  "expression_primitives_rule": [
+    "SLACK"
+  ],
+  "expression_primitives_manual": [
+    "SLACK"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+    "id": "cloud_overprovision",
+    "name": "Cloud Overprovisioning",
+    "description": "Synthetic expression pack domain: Cloud Overprovisioning",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "idle compute headroom",
+    "failure_mode": "thundering herd auto-scale failure",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "SLACK",
+        "REDUNDANCY"
+    ]
+}

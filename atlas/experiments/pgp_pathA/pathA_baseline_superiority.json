@@ -1,0 +1,9 @@
+{
+    "Spearman_SRD_vs_MaxDegree": -0.8466165413533835,
+    "R2_SRD_vs_MaxDegree": 0.8723653696968753,
+    "R2_Baseline_MaxDegree": 0.5717132767747863,
+    "R2_Combined_Mutiple": 0.5802724663154237,
+    "Delta_R2": 0.00855918954063739,
+    "VIF_SRD_vs_MaxDegree": 3.530569393881332,
+    "Redundancy_Conclusion": "SRD is demonstrably redundant in measuring topological cascade failure."
+}

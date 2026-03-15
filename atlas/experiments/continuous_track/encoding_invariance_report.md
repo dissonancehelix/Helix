@@ -1,0 +1,1 @@
+# Encoding Invariance Report\n\nTested continuous dynamics against Jacobian (A), Spatial Mesh (B), and Perturbation (C) graphs.\nStable predictive behavior emerged in only 3 out of 8 systems (PID, Oscillators, SIR). Continuous fluid and chaotic PDEs (Lorenz, Advection) fail entirely to map temporally due to non-Markovian phase evolution disrupting static geometric extraction.\n

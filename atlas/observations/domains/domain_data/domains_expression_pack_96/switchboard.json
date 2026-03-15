@@ -1,0 +1,22 @@
+{
+    "id": "switchboard",
+    "name": "Telecom Multiplexer",
+    "description": "Synthetic expression pack domain: Telecom Multiplexer",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "switch capacity margin",
+    "failure_mode": "crossbar saturation",
+    "substrate_S1c": "PHYSICAL",
+    "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "ROUTING"
+    ]
+}

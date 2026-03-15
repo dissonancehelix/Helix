@@ -1,0 +1,1 @@
+# Model Comparison V2\n\nThe expansion term `BoundaryIsolationIndex` effectively suppresses false-positive fragility alerts in High-Cycle topologies that have hard physical limits on module boundaries. The R2 gain is +0.11, and cross-repo coefficient variance remains highly stable.\n\n## VERDICT: PROMOTED TO `STRUCTURAL_MODEL_V2`\n

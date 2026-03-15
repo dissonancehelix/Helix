@@ -1,0 +1,19 @@
+{
+    "id": "multi_armed_bandit",
+    "name": "Multi-Armed Bandit Learner",
+    "description": "Synthetic identity pack domain: Multi-Armed Bandit Learner",
+    "state_space": "Derived states action-value memory",
+    "dynamics": "Internal rules with action-value memory",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "epsilon-greedy adaptation",
+    "failure_mode": "regret divergence",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

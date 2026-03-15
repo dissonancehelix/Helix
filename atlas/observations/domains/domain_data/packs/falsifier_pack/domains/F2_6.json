@@ -1,0 +1,23 @@
+{
+  "id": "F2_6",
+  "name": "Blind F2_6",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from SYNTHETIC_FALSIFIER_CONSTRUCTION",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P2",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "SYNTHETIC_FALSIFIER_CONSTRUCTION"
+  ],
+  "expression_primitives_rule": [
+    "SLACK",
+    "BUFFERING"
+  ],
+  "expression_primitives_manual": [
+    "SLACK",
+    "BUFFERING"
+  ]
+}

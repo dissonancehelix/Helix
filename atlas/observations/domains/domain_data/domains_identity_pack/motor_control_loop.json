@@ -1,0 +1,19 @@
+{
+    "id": "motor_control_loop",
+    "name": "Motor Control Loop",
+    "description": "Synthetic identity pack domain: Motor Control Loop",
+    "state_space": "Derived states internal state estimate control",
+    "dynamics": "Internal rules with internal state estimate control",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "forward model controller trace",
+    "failure_mode": "ataxic oscillation",
+    "substrate_S1c": "BIOLOGICAL",
+    "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

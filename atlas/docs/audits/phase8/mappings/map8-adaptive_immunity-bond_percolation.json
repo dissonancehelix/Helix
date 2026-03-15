@@ -1,0 +1,10 @@
+{
+  "id": "map8-adaptive_immunity-bond_percolation",
+  "domain_a": "adaptive_immunity",
+  "domain_b": "bond_percolation",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

@@ -1,0 +1,16 @@
+{
+    "baselines": [
+        "MaxDegree",
+        "Betweenness",
+        "k-core",
+        "Eigenvector",
+        "PageRank",
+        "GreedyRollout",
+        "Composite_Centrality"
+    ],
+    "helix": [
+        "SRD",
+        "FHO",
+        "OGO"
+    ]
+}

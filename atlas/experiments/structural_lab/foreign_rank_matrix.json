@@ -1,0 +1,47 @@
+{
+  "F1_Physical": {
+    "effective_rank": 0,
+    "explained_variance": [
+      NaN,
+      NaN,
+      NaN
+    ],
+    "residual_variance": 0.0
+  },
+  "F2_Biological": {
+    "effective_rank": 1,
+    "explained_variance": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "residual_variance": 0.0
+  },
+  "F3_Economic": {
+    "effective_rank": 1,
+    "explained_variance": [
+      1.0000000000000004,
+      0.0,
+      0.0
+    ],
+    "residual_variance": 0.0
+  },
+  "F4_Formal": {
+    "effective_rank": 2,
+    "explained_variance": [
+      0.6100610061006115,
+      0.38993899389939046,
+      6.1629758220391465e-33
+    ],
+    "residual_variance": 0.0
+  },
+  "F5_Neural": {
+    "effective_rank": 1,
+    "explained_variance": [
+      0.9999999999999986,
+      0.0,
+      0.0
+    ],
+    "residual_variance": 0.0
+  }
+}

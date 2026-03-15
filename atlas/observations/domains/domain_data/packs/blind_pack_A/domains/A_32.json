@@ -1,0 +1,21 @@
+{
+  "id": "A_32",
+  "name": "Blind A_32",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_32",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "BIOLOGICAL",
+  "source_provenance": [
+    "paper_A_32"
+  ],
+  "expression_primitives_rule": [
+    "BRANCHING"
+  ],
+  "expression_primitives_manual": [
+    "BRANCHING"
+  ]
+}

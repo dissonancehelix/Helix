@@ -1,0 +1,11 @@
+{
+    "REJECTED_EXTENSIONS": [
+        "Chaotic Systems (Lorenz)",
+        "PDE fluid dynamics (Advection/Reaction)"
+    ],
+    "CONDITIONAL_EXTENSIONS": [
+        "Discrete oscillators",
+        "Linear discrete PID plants"
+    ],
+    "CONCLUSION": "Continuous system discretization heavily corrupts topological invariants outside localized linear bounds."
+}

@@ -1,0 +1,19 @@
+{
+    "id": "bacterial_chemotaxis",
+    "name": "Bacterial Chemotaxis",
+    "description": "Synthetic identity pack domain: Bacterial Chemotaxis",
+    "state_space": "Derived states internal receptor methylation",
+    "dynamics": "Internal rules with internal receptor methylation",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "adaptive adaptation memory",
+    "failure_mode": "receptor saturation",
+    "substrate_S1c": "BIOLOGICAL",
+    "persistence_ontology": "P2_GLOBAL_INVARIANT",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "A_98",
+  "name": "Blind A_98",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_98",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "paper_A_98"
+  ],
+  "expression_primitives_rule": [
+    "RECOMBINATION",
+    "GLOBAL_REDUNDANCY"
+  ],
+  "expression_primitives_manual": [
+    "RECOMBINATION",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

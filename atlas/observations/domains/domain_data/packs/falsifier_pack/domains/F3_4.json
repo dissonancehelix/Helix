@@ -1,0 +1,17 @@
+{
+  "id": "F3_4",
+  "name": "Blind F3_4",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from SYNTHETIC_FALSIFIER_CONSTRUCTION",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P3",
+  "substrate_S1c_refined": "COMPUTATIONAL",
+  "source_provenance": [
+    "SYNTHETIC_FALSIFIER_CONSTRUCTION"
+  ],
+  "expression_primitives_rule": [],
+  "expression_primitives_manual": []
+}

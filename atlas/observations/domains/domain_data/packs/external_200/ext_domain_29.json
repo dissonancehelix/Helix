@@ -1,0 +1,28 @@
+{
+  "id": "ext_domain_29",
+  "name": "External 29",
+  "description": "External reality test",
+  "state_space": "Observed",
+  "dynamics": "Ops: RECOMBINATION,MULTI_BASIS",
+  "perturbation": "Environment",
+  "stability_condition": "stable",
+  "failure_mode": "fail",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P1",
+  "substrate_S1c": "PHYSICAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "measurement_layer": {
+    "resolution": "MACRO",
+    "obstruction_type": "NONE"
+  },
+  "external_source": "https://www.nature.com/articles/4470",
+  "expression_primitives_pass_A": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ],
+  "expression_primitives_pass_B": [
+    "SLACK",
+    "BUFFERING"
+  ]
+}

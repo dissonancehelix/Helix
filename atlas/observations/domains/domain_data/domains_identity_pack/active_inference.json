@@ -1,0 +1,19 @@
+{
+    "id": "active_inference",
+    "name": "Active Inference Toy",
+    "description": "Synthetic identity pack domain: Active Inference Toy",
+    "state_space": "Derived states adaptive trace control",
+    "dynamics": "Internal rules with adaptive trace control",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "policy arbitration based on model",
+    "failure_mode": "free energy divergence",
+    "substrate_S1c": "COGNITIVE",
+    "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

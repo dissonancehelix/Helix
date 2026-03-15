@@ -1,0 +1,23 @@
+{
+  "id": "A_70",
+  "name": "Blind A_70",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_70",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c_refined": "BIOLOGICAL",
+  "source_provenance": [
+    "paper_A_70"
+  ],
+  "expression_primitives_rule": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ],
+  "expression_primitives_manual": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ]
+}

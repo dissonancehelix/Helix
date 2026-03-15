@@ -1,0 +1,130 @@
+{
+    "repositories": [
+        {
+            "repo_name": "Helix",
+            "files_scanned": 95,
+            "total_lines": 10566,
+            "top_5_risk_files": [
+                {
+                    "path": "02_runtime/runtime/helix.py",
+                    "z_score": 5.333
+                },
+                {
+                    "path": "02_runtime/runtime/polyhedral_formalization.py",
+                    "z_score": 2.184
+                },
+                {
+                    "path": "03_forge/forge/experiments/psc_rbis_suite.py",
+                    "z_score": 1.778
+                },
+                {
+                    "path": "02_runtime/runtime/geometry_audit.py",
+                    "z_score": 1.678
+                },
+                {
+                    "path": "02_runtime/runtime/orchestration/phase_c_a_b_orchestrator.py",
+                    "z_score": 1.57
+                }
+            ],
+            "L1_ratio": 0.027067953814120766,
+            "L1_holds": false,
+            "L2_holds": true,
+            "L3_holds": true,
+            "L4_holds": false,
+            "L5_holds": true
+        },
+        {
+            "repo_name": "EFT",
+            "files_scanned": 317,
+            "total_lines": 47894,
+            "top_5_risk_files": [
+                {
+                    "path": "gamemode/cl_init.lua",
+                    "z_score": 10.58
+                },
+                {
+                    "path": "eftbackup/gamemode/cl_init.lua",
+                    "z_score": 7.927
+                },
+                {
+                    "path": "gamemode/init.lua",
+                    "z_score": 6.648
+                },
+                {
+                    "path": "gamemode/shared.lua",
+                    "z_score": 4.913
+                },
+                {
+                    "path": "eftbackup/gamemode/shared.lua",
+                    "z_score": 4.159
+                }
+            ],
+            "L1_ratio": 0.056082181484110746,
+            "L1_holds": true,
+            "L2_holds": true,
+            "L3_holds": false,
+            "L4_holds": true,
+            "L5_holds": false
+        },
+        {
+            "repo_name": "External (requests)",
+            "files_scanned": 36,
+            "total_lines": 11164,
+            "top_5_risk_files": [
+                {
+                    "path": "src/requests/utils.py",
+                    "z_score": 3.98
+                },
+                {
+                    "path": "src/requests/models.py",
+                    "z_score": 2.319
+                },
+                {
+                    "path": "src/requests/adapters.py",
+                    "z_score": 1.676
+                },
+                {
+                    "path": "src/requests/compat.py",
+                    "z_score": 1.065
+                },
+                {
+                    "path": "src/requests/cookies.py",
+                    "z_score": 1.037
+                }
+            ],
+            "L1_ratio": 0.06771766391974203,
+            "L1_holds": true,
+            "L2_holds": false,
+            "L3_holds": false,
+            "L4_holds": false,
+            "L5_holds": false
+        }
+    ],
+    "law_survival": {
+        "L1": {
+            "name": "Top-Heavy Drift Limit",
+            "score": 0.6666666666666666,
+            "class": "Ecosystem Local"
+        },
+        "L2": {
+            "name": "Observability Paradox",
+            "score": 0.6666666666666666,
+            "class": "Ecosystem Local"
+        },
+        "L3": {
+            "name": "Name-Agnostic Isolation",
+            "score": 0.3333333333333333,
+            "class": "Helix Artifact"
+        },
+        "L4": {
+            "name": "Exception Saturation Bound",
+            "score": 0.3333333333333333,
+            "class": "Helix Artifact"
+        },
+        "L5": {
+            "name": "Entropy vs Containment",
+            "score": 0.3333333333333333,
+            "class": "Helix Artifact"
+        }
+    }
+}

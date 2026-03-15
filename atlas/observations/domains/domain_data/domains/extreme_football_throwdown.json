@@ -1,0 +1,120 @@
+{
+  "id": "extreme_football_throwdown",
+  "domain": "Extreme Football Throwdown (EFT) — competitive real-time possession sport (GMod gamemode)",
+  "state_space": "Ball possession token × 10-player spatial manifold × per-player charge/knockdown status. Effective contest space collapses to ~1400-unit radius around ball at any moment.",
+  "dynamics_operator": "Possession transfer via tackle (direct body collision at charge speed) or throw/receive. Charge state gates tackle outcome — uncharged attacker loses head-on; charged attacker wins.",
+  "perturbation_operator": "Opponent tackle attempt, knockdown state, fumble on failed charge, ball reset on out-of-bounds.",
+  "stability_condition": "No single player retains possession >~2 seconds before opponent contest (empirical 2-second possession turnover rule from match data). Game remains in continuous contest when this holds.",
+  "failure_mode": "Possession monopoly collapse: one team achieves sustained uncontested possession, reducing opponent agency to zero and producing deterministic scoring. Also: dominant-strategy emergence when one mechanic (e.g. charge) is too low-cost.",
+  "observable_metrics": [
+    {
+      "name": "Possession duration",
+      "type": "TEMPORAL",
+      "estimator": "Time between possession_gain and possession_loss per carrier",
+      "units_or_none": "seconds"
+    },
+    {
+      "name": "Tackle-per-possession ratio",
+      "type": "RATIO",
+      "estimator": "tackle_success / possession_gain per match",
+      "units_or_none": "dimensionless"
+    },
+    {
+      "name": "Coordination index",
+      "type": "RATIO",
+      "estimator": "throw_received / possession_gain per match",
+      "units_or_none": "dimensionless"
+    },
+    {
+      "name": "Score margin trajectory",
+      "type": "TEMPORAL",
+      "estimator": "abs(red_score - blue_score) per round_end",
+      "units_or_none": "goals"
+    }
+  ],
+  "timescale_regime": "Sub-second possession decisions (~0.5-2s per possession), 5-15 minute match duration, 60-300s per round.",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Charge state is binary with no spatial extent — it is a pure internal flag",
+    "Team assignment is discrete and fixed per round",
+    "Goal scoring is a discrete reset event — resets spatial state to neutral",
+    "Knockdown is a timed exclusion state with fixed recovery duration"
+  ],
+  "edge_conditions": [
+    "Ball reset to center on out-of-bounds resets possession contest without scoring",
+    "Overtime rule fires on tied score at time limit — prevents absorbing equilibrium",
+    "Map geometry creates local topological obstructions (tunnels, narrow corridors) that suppress throw coordination",
+    "Bot-only matches underestimate B3 (coordination) — human throw rate expected 2-3x higher"
+  ],
+  "notes": "Empirical data from 13 bot matches across 8 maps. Temple_sacrifice_v3 flagged as anomalous (bot suicide behavior: 755 respawns, only 11 tackles). Remaining 12 matches show stable contest dynamics. Tackle/possession ratio 2.5-3.5x; throw rate ~5-15% of possessions.",
+  "persistence_ontology": "P0_STATE_LOCAL",
+  "substrate_type": "HYBRID_CONTINUOUS_DISCRETE",
+  "substrate_formalism": "continuous spatial manifold with discrete possession token + discrete charge/knockdown states per agent",
+  "dimensionality_form": "hybrid",
+  "metric_defined": "YES",
+  "boundary_type_primary": "PHASE_TRANSITION",
+  "boundary_locality": "LOCAL",
+  "boundary_dimensionality_change": "YES",
+  "substrate_S1c": "CONTINUOUS",
+  "tau_perturb": "~0.5s (tackle contact window)",
+  "tau_relax": "~2s (possession stability limit before contest)",
+  "T1": "T1_FAST_PERTURB",
+  "T1_notes": "Possession changes occur faster than strategic reorganization — perturbation timescale << relaxation timescale",
+  "structural_bases": {
+    "B1_primary": true,
+    "B1_note": "Charge commitment is the primary basin boundary — entering charge is costly if mistimed (vulnerable to knockdown), creating a genuine energy threshold before possession contest",
+    "B2_note": "State space is 10-dimensional (player positions) but collapses to proximity zone around ball. Expression bounded by spatial density around ball carrier.",
+    "B3_note": "Coordination is LOW in observed bot data (~5-15% throw rate). Designed for higher human coordination but structurally functional at B3=low — game remains playable with near-zero passing.",
+    "B4_note": "Decision stack is shallow: 1-2 read depth (does opponent have ball? Am I charged? Is path to goal clear?). No recursive planning required."
+  },
+  "empirical_data": {
+    "matches_analyzed": 13,
+    "valid_matches": 12,
+    "flagged_anomaly": "eft_temple_sacrifice_v3 (bot suicide behavior)",
+    "avg_possessions_per_match": 264,
+    "avg_tackles_per_match": 786,
+    "avg_tackle_per_possession_ratio": 2.98,
+    "avg_throw_rate_pct": 10,
+    "avg_head_ons_per_match": 17,
+    "avg_goals_per_match": 7,
+    "throw_rate_range": "5-22% by map",
+    "maps_tested": [
+      "eft_slamdunk_v6",
+      "eft_bloodbowl_v5",
+      "eft_baseballdash_v3",
+      "eft_soccer_b4",
+      "eft_tunnel_v2",
+      "eft_handegg_r2",
+      "eft_legoland_v2",
+      "eft_temple_sacrifice_v3"
+    ],
+    "data_source": "sv_match_recorder.lua replay JSONs",
+    "data_quality": "PARTIAL — bot-only matches, no human baseline yet"
+  },
+  "metric_layer": {
+    "eligible": true,
+    "metric_kind": "RATIO",
+    "control_parameter": "charge_commitment_threshold",
+    "threshold_parameter": "possession_stability_limit (~2s empirical)",
+    "normalization": "per_possession",
+    "distance_value": 0.34,
+    "distance_definition": "1 / avg_tackle_per_possession_ratio = fraction of tackles resulting in possession transfer (0.34 at ratio=2.98)",
+    "units": null,
+    "dimensionless": true,
+    "provenance": {
+      "used_fields": ["empirical_data.avg_tackle_per_possession_ratio", "empirical_data.avg_throw_rate_pct"],
+      "assumptions": ["Bot data underestimates coordination; human throw rate expected 20-30%"],
+      "external_knowledge": false
+    },
+    "metric_phi": 0.34,
+    "projection_method": "EMPIRICAL_RATIO",
+    "ineligibility_reason": null
+  },
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "DEFINED",
+    "obstruction_type": null,
+    "distance_provenance": "Derived from bot match replay data (12 valid matches, empirical ratio)",
+    "distance_confidence": "MEDIUM"
+  }
+}

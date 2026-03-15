@@ -1,0 +1,22 @@
+{
+    "id": "assembly_line",
+    "name": "Modular Assembly Line",
+    "description": "Synthetic expression pack domain: Modular Assembly Line",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "throughput synchronization",
+    "failure_mode": "bottleneck backup cascade",
+    "substrate_S1c": "PHYSICAL",
+    "persistence_ontology": "P2_GLOBAL_INVARIANT",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "MODULARITY"
+    ]
+}

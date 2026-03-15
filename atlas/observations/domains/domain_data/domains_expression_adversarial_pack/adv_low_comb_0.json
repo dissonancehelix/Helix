@@ -1,0 +1,22 @@
+{
+    "id": "adv_low_comb_0",
+    "name": "Adversarial Low Comb 0",
+    "description": "Synthetic expression domain: Adversarial Low Comb 0",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "lock free trace",
+    "failure_mode": "sudden deadlocking pin",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "ROUTING"
+    ]
+}

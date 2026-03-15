@@ -1,0 +1,10 @@
+{
+  "id": "map8-tokamak_plasma-supermajority_amendment",
+  "domain_a": "tokamak_plasma",
+  "domain_b": "supermajority_amendment",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

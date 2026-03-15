@@ -1,0 +1,68 @@
+{
+  "id": "mutant_linearize_chern_insulator",
+  "domain": "Chern Insulator (topological band structure)",
+  "state_space": "Hilbert space of Bloch wavefunctions over the Brillouin zone",
+  "dynamics_operator": "Hamiltonian time evolution (Linearized approximation applied)",
+  "perturbation_operator": "Smooth variations in the Hamiltonian preserving the bulk gap",
+  "stability_condition": "Bulk energy gap > 0",
+  "failure_mode": "Gap closure leading to topological phase transition",
+  "observable_metrics": [
+    {
+      "name": "Chern number",
+      "type": "TOPOLOGICAL_INVARIANT",
+      "estimator": "Berry curvature integral",
+      "units_or_none": "integer"
+    }
+  ],
+  "timescale_regime": "Instantaneous (ground state property)",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Topological invariant protection"
+  ],
+  "edge_conditions": [
+    "Strong disorder",
+    "Gap closing"
+  ],
+  "notes": "State persistence relies on topological invariant.",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "persistence_ontology_confidence": "HIGH",
+  "persistence_ontology_rationale": "Derived via structural matching of observables and dynamics to ontology definitions.",
+  "substrate_type": "CONTINUOUS_MANIFOLD",
+  "substrate_formalism": "smooth manifold / ODE",
+  "dimensionality_form": "finite",
+  "metric_defined": "YES (Euclidean/Metric)",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "boundary_locality": "GLOBAL",
+  "boundary_dimensionality_change": "YES",
+  "substrate_S1c": "CONTINUOUS",
+  "metric_layer": {
+    "eligible": false,
+    "metric_kind": null,
+    "control_parameter": null,
+    "threshold_parameter": null,
+    "normalization": null,
+    "distance_value": null,
+    "distance_definition": "Numeric distance strictly derived from domain object fields.",
+    "units": null,
+    "dimensionless": null,
+    "provenance": {
+      "used_fields": [],
+      "assumptions": [
+        "Assumed no numeric boundaries exist since none provided."
+      ],
+      "external_knowledge": true
+    },
+    "metric_phi": null,
+    "projection_method": null,
+    "ineligibility_reason": "INCOMMENSURATE_UNITS"
+  },
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "UNDEFINED",
+    "obstruction_type": "UNITS_NOT_PROJECTABLE",
+    "distance_provenance": "Deterministically triaged via M-Layer v0 rules.",
+    "distance_confidence": "LOW"
+  },
+  "parent_id": "chern_insulator",
+  "mutation_operation": "linearize"
+}

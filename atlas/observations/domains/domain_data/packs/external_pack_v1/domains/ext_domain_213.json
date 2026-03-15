@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_213",
+  "name": "External Domain 213",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Distributed Systems Consensus Algorithms 2019",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "COMPUTATIONAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Distributed Systems Consensus Algorithms 2019"
+  ],
+  "expression_primitives": [
+    "SLACK",
+    "BUFFERING"
+  ],
+  "_expression_primitives_pass_B": [
+    "SLACK",
+    "BUFFERING"
+  ]
+}

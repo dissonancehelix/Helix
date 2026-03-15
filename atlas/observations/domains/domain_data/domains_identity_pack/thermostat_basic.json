@@ -1,0 +1,19 @@
+{
+    "id": "thermostat_basic",
+    "name": "Thermostat",
+    "description": "Synthetic identity pack domain: Thermostat",
+    "state_space": "Derived states internal setpoint",
+    "dynamics": "Internal rules with internal setpoint",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "homeostatic correction loop",
+    "failure_mode": "setpoint divergence",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+    "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

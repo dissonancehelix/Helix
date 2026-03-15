@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_128",
+  "name": "External Domain 128",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Economic Market Microstructure Survey 2001",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P3_ALGORITHMIC_SYNDROME",
+  "substrate_S1c": "SOCIAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Economic Market Microstructure Survey 2001"
+  ],
+  "expression_primitives": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ],
+  "_expression_primitives_pass_B": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ]
+}

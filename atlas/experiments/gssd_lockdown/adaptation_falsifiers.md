@@ -1,0 +1,1 @@
+# Adaptation Falsifiers\n\n- **Falsified if**: Adaptive rewiring cannot measurably extend the collapse horizon better than static redundancy (RRO).\n- **Falsified if**: The metrics for dynamic rewiring degenerate into pure topological redundancy (correlation > 0.7).\n

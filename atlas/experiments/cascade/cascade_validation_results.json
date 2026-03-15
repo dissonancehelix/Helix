@@ -1,0 +1,6 @@
+{
+    "Spearman_CascadeSize_vs_SRD": -0.43670745272525036,
+    "Spearman_CascadeSize_vs_MaxDegree": 0.3632925472747497,
+    "MAE_TimeToCollapse_vs_SRDForecast": 0.7503948531796422,
+    "MAE_TimeToCollapse_vs_BaselineForecast": 0.3842820512820513
+}

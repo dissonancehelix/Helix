@@ -1,0 +1,97 @@
+{
+  "id": "ont-003",
+  "type": "structural",
+  "claim": "Biological individuation in living organisms can be operationalized as the continuation of active maintenance across immune, neural, and microbiome subsystems; individuation terminates when integrated maintenance fails.",
+  "statement": "Biological individuation in living organisms can be operationalized as the continuation of active maintenance across immune, neural, and microbiome subsystems; individuation terminates when integrated maintenance fails.",
+  "scope": "Living biological organisms under active metabolism; explicitly excludes legal or social identity, non-living systems, and identity persistence through discontinuity (coma, anesthesia, transplant)",
+  "assumptions": [
+    "Active metabolic maintenance (autopoiesis) is measurable across immune, neural, and microbiome subsystems.",
+    "Integrated maintenance is quantifiable as cross-subsystem coupling under energetic throughput.",
+    "Biological individuation is strictly distinct from legal, social, or philosophical identity."
+  ],
+  "formal_objects": [
+    "Autopoietic closure A: set of processes maintaining the system's own production",
+    "Integration metric I(subsystems): cross-subsystem coupling measure under metabolic constraint",
+    "Maintenance capacity M: energy flux sustaining homeostatic processes"
+  ],
+  "differentiators": [
+    "Removed 'the self is what maintains coherence' as an identity definition: coma patients retain social/legal identity with minimal autonomous maintenance; claim was too strong as a definition of self.",
+    "Removed philosophical scope: claim now operationalizes BIOLOGICAL LIFE, not selfhood or personal identity.",
+    "Does not individuate identical twins: same maintenance architecture does not produce distinct individuation metrics — twin individuation is positional/geometric, not subsystem-compositional."
+  ],
+  "break_tests": [
+    {
+      "setup": "Person in medically induced coma, full external life support, no autonomous integration.",
+      "expected": "If the self = coherence maintenance, coma patient has no self during coma.",
+      "observed": "Legal, medical, and social identity are preserved throughout. Individual is recognized as the same person.",
+      "verdict": "FAIL — identity-as-maintenance definition. PASS — biological individuation claim (external support substitutes M; the individuation criterion applies to the system including support)."
+    },
+    {
+      "setup": "Identical twins at birth. Same DNA, overlapping microbiome, compatible immune systems.",
+      "expected": "If subsystem composition defines individuation, twins should not be individuable by this metric at birth.",
+      "observed": "Twins are spatially and numerically distinct organisms. Individuation is positional, not compositional. The metric fails to distinguish them.",
+      "verdict": "FAIL — individuation by subsystem composition. PASS — biological maintenance is confirmed operational in both; the failure is in individuation resolution, not maintenance operationalization."
+    },
+    {
+      "setup": "Brain-dead patient with functioning heart, lungs, gut maintained by ventilator. Some subsystems active.",
+      "expected": "If maintenance = individuation, partial maintenance should yield partial individuation.",
+      "observed": "Medical definition of death at brain-death despite remaining subsystem activity. Shows that which subsystems are definitionally required must be specified.",
+      "verdict": "PARTIAL FAIL — claim requires specification of which subsystems are necessary vs. sufficient for the M criterion."
+    },
+    {
+      "setup": "[Class D test] Prokaryotic chromosomal DNA linking number Lk = Tw + Wr is a topological invariant. Lk can only change through strand breakage (topoisomerase action) — a discrete Q-change event. Does DNA topology provide Class D protection for biological individuation?",
+      "expected": "If biological individuation is purely THROUGHPUT, all structural persistence must require M/δ > 1. Topological DNA invariants should be irrelevant to the individuation criterion.",
+      "observed": "DNA topology (Lk) IS Class D: persists without active maintenance between topoisomerase events; cannot change continuously. However, ont-003's individuation criterion is INTEGRATED MAINTENANCE ACROSS SUBSYSTEMS — not any single molecular topology. DNA topology is a necessary condition for genome integrity (a presupposed structural foundation) but not the operative mechanism for the biological individuation claim of ont-003.",
+      "verdict": "PASS — Class D (DNA topology) is a subsystem property within the biologically individuated organism. ont-003's THROUGHPUT classification of integrated maintenance is not falsified by Class D genome topology. Scope guard updated to acknowledge this distinction."
+    },
+    {
+      "setup": "[Class E test] Germ-free mouse (no gut microbiome, no bacterial perturbation): δ_microbiome ≈ 0. Does reducing microbial perturbation to zero improve or damage integrated maintenance?",
+      "expected": "If biological individuation is pure THROUGHPUT (M/δ > 1 with δ as adversarial load), then δ_microbiome → 0 should be neutral or beneficial. Less challenge → easier to maintain M > δ.",
+      "observed": "Germ-free mice develop abnormal gut structure, impaired immune maturation, and abnormal gut-brain axis. Microbiome colonization (δ_microbiome > 0) is required for normal integrated maintenance. This is a Class E signature at the microbiome subsystem level: some δ > 0 (controlled microbial perturbation) is necessary for healthy integrated maintenance; reducing δ to zero impairs individuation.",
+      "verdict": "PARTIAL CLASS E CHALLENGE — At the microbiome subsystem level, an optimal bacterial colonization load δ_opt > 0 appears required for healthy maintenance — a Class E signature. The primary THROUGHPUT classification for INTEGRATED system maintenance is not falsified (the integrated M/δ > 1 condition holds for the whole system), but the microbiome subsystem may exhibit Class E behavior: φ(δ=0) < φ(δ_opt). Scope guard updated."
+    }
+  ],
+  "falsifiers": [
+    "A living organism (by any standard metric) maintaining individuation with zero active maintenance across immune, neural, and microbiome systems.",
+    "A formally dead organism (by all standard metrics) sustaining full active integration across all three specified subsystems."
+  ],
+  "stability_class": "THROUGHPUT",
+  "persistence_type": "STATE",
+  "mechanism_formalism": "ISS",
+  "diagnostics": {
+    "class": "THROUGHPUT (Class B)",
+    "rationale": "Biological individuation is paradigmatically a THROUGHPUT-class phenomenon: M = autopoietic energy flux (ATP production rate, metabolic throughput); δ = pathogenic load, cellular damage rate, entropic degradation. Living organisms maintain M/δ > 1 across integrated subsystems; individuation terminates when M/δ falls below 1 (death). The autopoietic closure A is the biological instantiation of Class B active maintenance. No kinetic barrier E_a protects biological structure at physiological timescales — structural integrity is actively maintained, not kinetically trapped.",
+    "measurables": [
+      "ATP production rate (mitochondrial flux): primary M proxy; measurable via oxygen consumption rate (OCR) in Seahorse assays",
+      "Immune activation rate / pathogen clearance rate: δ proxy for immune subsystem; M_immune/δ_pathogen > 1 required for infection clearance",
+      "Perturbational complexity index (PCI, TMS-EEG): neural subsystem M proxy",
+      "Cross-subsystem coupling I(immune, neural, microbiome): measured via cytokine–neurotransmitter correlations, gut-brain axis signaling"
+    ]
+  },
+  "class_countermodels": [
+    {
+      "system": "Bacterial endospore (Bacillus subtilis dormancy)",
+      "class_prediction": "THROUGHPUT (M/δ > 1 required for structural persistence)",
+      "observed": "Endospore in dormancy: M ≈ 0 (no ATP production); δ = heat, desiccation, radiation. Persists for decades to millennia. Class A BARRIER: thick spore coat + dipicolinic acid chelate + DNA repair proteins provide E_a >> δ. Not THROUGHPUT.",
+      "verdict": "Confirms scope guard: THROUGHPUT class applies to actively metabolizing organisms. Dormant states are Class A BARRIER-class biological systems."
+    },
+    {
+      "system": "Tardigrade in cryptobiosis (tun state)",
+      "class_prediction": "THROUGHPUT (active maintenance required)",
+      "observed": "M ≈ 0 (ametabolic); δ = vacuum, radiation, extreme temperature. Stability via trehalose vitrification (Class A BARRIER). Not THROUGHPUT.",
+      "verdict": "Confirms scope guard: THROUGHPUT class applies to actively metabolizing organisms only."
+    }
+  ],
+  "scope_guard": "THROUGHPUT stability class assignment applies strictly to actively metabolizing living organisms where autopoietic closure is maintained by continuous energy throughput. Does not apply to dormant biological states (spores, cryptobiosis, seeds) that maintain structural integrity via Class A BARRIER mechanisms with M ≈ 0. Does not address identity persistence through discontinuities (coma, anesthesia) where external support substitutes for M. Class D (TOPOLOGICAL) protection via DNA topology (linking number) is a presupposed structural foundation within the individuated organism, not the operative individuation mechanism. The microbiome subsystem may exhibit Class E (NOISE_CONSTRUCTIVE) behavior at optimal microbial colonization load — the overall integrated THROUGHPUT classification is not falsified, but δ_microbiome → 0 may impair rather than improve maintenance at the subsystem level.",
+  "neighbors": [
+    "Autopoiesis (Maturana, Varela)",
+    "Holobiont hypothesis",
+    "Free energy principle (Friston)",
+    "kernel-000",
+    "kernel-001",
+    "kernel-002"
+  ],
+  "status": "STRESS_TESTED",
+  "references": [],
+  "decay_chain": ["ont-003", "kernel-000"]
+}

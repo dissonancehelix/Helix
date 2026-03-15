@@ -1,0 +1,10 @@
+{
+  "id": "map8-lotka_volterra-tokamak_plasma",
+  "domain_a": "lotka_volterra",
+  "domain_b": "tokamak_plasma",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

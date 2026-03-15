@@ -1,0 +1,65 @@
+{
+    "timestamp": "2026-03-02T20:39:05.505548",
+    "metadata": {
+        "axes": {
+            "X": "Structural Integrity (Mean PSS)",
+            "Y": "Functional Compression (1.0/k_eff)"
+        },
+        "quadrants": {
+            "Top-Right": "Compressed Robust (Ideal)",
+            "Bottom-Right": "Distributed Robust (Redundant)",
+            "Top-Left": "Compressed Fragile (GUBA/BIC)",
+            "Bottom-Left": "Distributed Fragile (Noise)"
+        }
+    },
+    "domains": {
+        "iris": {
+            "metrics": {
+                "stability": 0.92,
+                "k_eff": 1.2,
+                "bas": 0.98
+            },
+            "coordinates": {
+                "x_integrity": 0.92,
+                "y_compression": 0.8333333333333334
+            },
+            "status": "ROBUST"
+        },
+        "wine": {
+            "metrics": {
+                "stability": 0.58,
+                "k_eff": 1.05,
+                "bas": 0.91
+            },
+            "coordinates": {
+                "x_integrity": 0.58,
+                "y_compression": 0.9523809523809523
+            },
+            "status": "BIC_CANDIDATE"
+        },
+        "synthetic_imbalanced": {
+            "metrics": {
+                "stability": 0.84,
+                "k_eff": 1.8,
+                "bas": 0.42
+            },
+            "coordinates": {
+                "x_integrity": 0.84,
+                "y_compression": 0.5555555555555556
+            },
+            "status": "METRIC_SENSITIVE"
+        },
+        "embedding_cluster": {
+            "metrics": {
+                "stability": 0.65,
+                "k_eff": 3.4,
+                "bas": 0.76
+            },
+            "coordinates": {
+                "x_integrity": 0.65,
+                "y_compression": 0.29411764705882354
+            },
+            "status": "HIGH_DENSITY"
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "trials": 200,
+    "correlation_amplitude": 0.12,
+    "correlation_psF": 0.89
+}

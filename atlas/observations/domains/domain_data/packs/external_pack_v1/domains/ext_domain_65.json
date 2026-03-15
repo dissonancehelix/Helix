@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_65",
+  "name": "External Domain 65",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Economic Market Microstructure Survey 2021",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c": "SOCIAL",
+  "T1": "T1_COMPARABLE",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Economic Market Microstructure Survey 2021"
+  ],
+  "expression_primitives": [
+    "LOCAL_REDUNDANCY",
+    "GLOBAL_REDUNDANCY"
+  ],
+  "_expression_primitives_pass_B": [
+    "LOCAL_REDUNDANCY",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

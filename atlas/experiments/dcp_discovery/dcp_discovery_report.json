@@ -1,0 +1,12 @@
+{
+    "suite": "dcp_discovery",
+    "timestamp": "2026-03-02T20:33:46.018201",
+    "runs": [],
+    "summary": {
+        "avg_min_k_eff": 48.0
+    },
+    "config": {
+        "n_features": 64
+    },
+    "traces_count": 10
+}

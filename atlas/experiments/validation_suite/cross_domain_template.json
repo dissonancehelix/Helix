@@ -1,0 +1,12 @@
+{
+    "Pub/Sub queue": {
+        "fragility_gradient_under_mutation": 0.3857142857142858,
+        "feedback_amplification_active": true,
+        "damping_sensitivity_measured": true
+    },
+    "RPC dependency graph": {
+        "fragility_gradient_under_mutation": 0.3857142857142858,
+        "feedback_amplification_active": true,
+        "damping_sensitivity_measured": true
+    }
+}

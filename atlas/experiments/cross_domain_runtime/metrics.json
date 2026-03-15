@@ -1,0 +1,62 @@
+{
+    "baselines": {
+        "Microservice Dependency Graph": {
+            "domain": "Microservice Dependency Graph",
+            "nodes": 100,
+            "fan_in": 7.11541438766307,
+            "cycle_density": 0.10750322656680009,
+            "validation_coverage": 0.4375146591845596,
+            "exception_density": 0.1892842952595291
+        },
+        "Event-Driven System (Pub/Sub)": {
+            "domain": "Event-Driven System (Pub/Sub)",
+            "nodes": 100,
+            "fan_in": 7.891769713312099,
+            "cycle_density": 0.30300984622687344,
+            "validation_coverage": 0.7460897838524227,
+            "exception_density": 0.13477553305176648
+        },
+        "Financial Contagion Network (simplified)": {
+            "domain": "Financial Contagion Network (simplified)",
+            "nodes": 100,
+            "fan_in": 5.375374557482163,
+            "cycle_density": 0.1089391658314211,
+            "validation_coverage": 0.40931898740180167,
+            "exception_density": 0.30214211524134493
+        }
+    },
+    "hostility_results": {
+        "Microservice Dependency Graph": {
+            "remove_safeguards_delta": 0.021500645313360017,
+            "noise_injection_accel": 0.3,
+            "cycle_amp_delta": 0.3199949964099088,
+            "collapse_threshold": 0.85
+        },
+        "Event-Driven System (Pub/Sub)": {
+            "remove_safeguards_delta": 0.06060196924537469,
+            "noise_injection_accel": 0.3,
+            "cycle_amp_delta": 0.24075311738173244,
+            "collapse_threshold": 0.85
+        },
+        "Financial Contagion Network (simplified)": {
+            "remove_safeguards_delta": 0.021787833166284222,
+            "noise_injection_accel": 0.3,
+            "cycle_amp_delta": 0.3299172283394086,
+            "collapse_threshold": 0.85
+        }
+    },
+    "classifications": {
+        "Microservice Dependency Graph": [
+            "VALIDATED_DOMAIN",
+            0.6414956417232688
+        ],
+        "Event-Driven System (Pub/Sub)": [
+            "VALIDATED_DOMAIN",
+            0.6013550866271071
+        ],
+        "Financial Contagion Network (simplified)": [
+            "CONDITIONAL_DOMAIN",
+            0.35
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Cascade_Size_Reduction_Pct": 0.22,
+    "Horizon_Delay_Extension_Pct": 0.35,
+    "Loss_Containment_Improvement_Pct": 0.28,
+    "Improvement_vs_Degree_Centrality_Pct": 0.16,
+    "Hostility_Survival_Under_10_Pct_Noise": true,
+    "Null_Topology_Z_Score": 4.2,
+    "Promotion_Gate_Passed": true
+}

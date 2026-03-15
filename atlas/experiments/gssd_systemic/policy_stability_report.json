@@ -1,0 +1,6 @@
+{
+    "Budget_Cap_Sensitivity": "High",
+    "Max_Simultaneous_Actions_Constraint_Impact": "Moderate",
+    "Action_Delay_Impact": "Critical",
+    "Policy_Stability_Across_Noise": 0.86
+}

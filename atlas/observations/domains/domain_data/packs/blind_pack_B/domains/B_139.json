@@ -1,0 +1,21 @@
+{
+  "id": "B_139",
+  "name": "Blind B_139",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_139",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "SOCIAL",
+  "source_provenance": [
+    "paper_B_139"
+  ],
+  "expression_primitives_rule": [
+    "RECOMBINATION"
+  ],
+  "expression_primitives_manual": [
+    "RECOMBINATION"
+  ]
+}

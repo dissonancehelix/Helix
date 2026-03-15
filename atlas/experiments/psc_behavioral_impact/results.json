@@ -1,0 +1,20 @@
+{
+    "iris": {
+        "components_analyzed": 4,
+        "stable_count": 2,
+        "unstable_count": 0,
+        "verdict": "H2_SUCCESS"
+    },
+    "wine": {
+        "components_analyzed": 13,
+        "stable_count": 0,
+        "unstable_count": 13,
+        "verdict": "H2_SUCCESS"
+    },
+    "synthetic": {
+        "components_analyzed": 12,
+        "stable_count": 2,
+        "unstable_count": 4,
+        "verdict": "H2_SUCCESS"
+    }
+}

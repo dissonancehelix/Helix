@@ -1,0 +1,87 @@
+{
+  "dataset_path": "c:\\Users\\dissonance\\Desktop\\Helix\\04_labs\\language\\decision_compression_dataset.json",
+  "dataset": {
+    "domain": "language",
+    "system_description": "Grammar disambiguation system resolving syntactic ambiguity. A small set of high-frequency rules dominates parse selection.",
+    "agents": [
+      {
+        "id": "rule_subject_verb",
+        "role": "dominant_rule",
+        "influence_weight": 0.48
+      },
+      {
+        "id": "rule_frequency_bias",
+        "role": "dominant_rule",
+        "influence_weight": 0.27
+      },
+      {
+        "id": "rule_locality",
+        "role": "secondary_rule",
+        "influence_weight": 0.14
+      },
+      {
+        "id": "rule_garden_path",
+        "role": "edge_case",
+        "influence_weight": 0.07
+      },
+      {
+        "id": "rule_pragmatic",
+        "role": "edge_case",
+        "influence_weight": 0.04
+      }
+    ],
+    "decision_rounds": [
+      {
+        "round": 1,
+        "weights": [
+          0.48,
+          0.27,
+          0.14,
+          0.07,
+          0.04
+        ],
+        "outcome": "parse_A"
+      },
+      {
+        "round": 2,
+        "weights": [
+          0.5,
+          0.25,
+          0.14,
+          0.07,
+          0.04
+        ],
+        "outcome": "parse_A"
+      },
+      {
+        "round": 3,
+        "weights": [
+          0.46,
+          0.28,
+          0.15,
+          0.07,
+          0.04
+        ],
+        "outcome": "parse_A"
+      },
+      {
+        "round": 4,
+        "weights": [
+          0.49,
+          0.26,
+          0.14,
+          0.07,
+          0.04
+        ],
+        "outcome": "parse_A"
+      }
+    ],
+    "expected_k_eff_range": [
+      2.0,
+      3.0
+    ],
+    "notes": "Two dominant grammatical rules compress the resolution decision space"
+  },
+  "lab_name": "language",
+  "run_id": "decision_compression_20260315_041604_e4fc0c"
+}

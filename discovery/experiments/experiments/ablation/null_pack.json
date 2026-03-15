@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "null_domain_49738",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_47100",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_72520",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_14702",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_15210",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_4898",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_31611",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_70914",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_32401",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_91700",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_87182",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_96957",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_40261",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_82596",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_13242",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_19853",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_76485",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_99293",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_45295",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_53001",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_14700",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_57208",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_58068",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_1945",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_21094",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_76034",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_20792",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_84909",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_37977",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_20596",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_90114",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_49047",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_51372",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_50500",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_41444",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_82581",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_70986",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_66339",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_91464",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_35608",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_51598",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_1207",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_58668",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_65319",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_63372",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_56102",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_50466",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_25458",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_53060",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_46155",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_26867",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_12947",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_580",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_74626",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_30158",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_80231",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_87111",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_49761",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_23264",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_73627",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_44694",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_40421",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_56",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_64633",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_36739",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_4838",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_96373",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_71186",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_96684",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_67021",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_73211",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_22996",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_45875",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_46796",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_14199",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_15148",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_35025",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_4375",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_19704",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_78898",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_54439",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_73645",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_97845",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_1210",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_13684",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_51840",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_44332",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_30459",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_31141",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_64940",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_40293",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_13556",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_13804",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_45151",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_62170",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_48988",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_13029",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_57159",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_77196",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_22959",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_22205",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_51944",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_87073",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_68462",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_99472",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_12627",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_12983",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_25464",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_45370",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_4427",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_3223",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_4397",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_38442",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_67583",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_31609",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_51640",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_77163",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_70259",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_97773",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_2757",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_23378",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_97484",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_84788",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_1977",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_18074",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_79909",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_66395",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_98204",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_58276",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_89288",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_93018",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_56041",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_45570",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_39956",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_84877",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_49670",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_3353",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_8334",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_61263",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_59195",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_40062",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_77169",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_95506",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_45992",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_26039",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_10486",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_47873",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_31799",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_5136",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_78817",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_3551",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_62028",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_97242",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_16210",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_29818",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_69566",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_61625",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_19831",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_15049",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_84340",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_60286",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_35305",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_37590",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_85240",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_68600",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_60852",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_78545",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_98487",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_57781",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_97926",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_83960",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_67980",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_4538",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_59704",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_65933",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_19812",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_76005",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_45737",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_29641",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_69781",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_10710",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_21515",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_71260",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_62525",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_45338",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_66987",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_92230",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_66044",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_47904",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_12260",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_19481",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_61662",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_3670",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_43722",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_76707",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_69644",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_79805",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_23029",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_89294",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  },
+  {
+    "id": "null_domain_31958",
+    "dynamics_operator": "Unbounded noise wander",
+    "stability_condition": "Weak drift, no limit",
+    "boundary_type_primary": "UNKNOWN",
+    "persistence_type": "UNKNOWN",
+    "persistence_ontology": "UNKNOWN"
+  }
+]

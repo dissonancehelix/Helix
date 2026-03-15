@@ -1,0 +1,47 @@
+{
+  "id": "phaseB_adv_domain_34",
+  "domain": "Generated System phaseB_adv 34 (STOCHASTIC)",
+  "state_space": "State space for phaseB_adv",
+  "dynamics_operator": "Evolution operator",
+  "perturbation_operator": "Noise source",
+  "stability_condition": "Restoring > Perturbing",
+  "failure_mode": "Boundary hit: COMBINATORIAL_THRESHOLD",
+  "observable_metrics": [
+    {
+      "name": "Metric",
+      "type": "CUSTOM",
+      "estimator": "Est",
+      "units_or_none": "None"
+    }
+  ],
+  "timescale_regime": "T_relax vs T_perturb",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Config 34"
+  ],
+  "edge_conditions": [
+    "Extreme limit"
+  ],
+  "notes": "Generated for phaseB_adv",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_type": "STOCHASTIC",
+  "substrate_formalism": "Generic Formalism",
+  "dimensionality_form": "infinite",
+  "metric_defined": "YES",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "boundary_locality": "LOCAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "STOCHASTIC",
+  "failure_reason_target": "MAINTENANCE_NOISE_ALIASING",
+  "metric_layer": {
+    "eligible": false,
+    "ineligibility_reason": "NO_THRESHOLD_DEFINED"
+  },
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "UNDEFINED",
+    "obstruction_type": "UNITS_NOT_PROJECTABLE",
+    "distance_provenance": "Deterministically triaged via M-Layer v0 rules.",
+    "distance_confidence": "LOW"
+  }
+}

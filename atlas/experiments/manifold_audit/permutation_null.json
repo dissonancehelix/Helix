@@ -1,0 +1,19 @@
+{
+  "artifact_hash": "209a47a404b6063b7106192cacf71d0f6eae8c37f880011f25d95c829118d609",
+  "bootstrap_seed": 42,
+  "data": {
+    "decision": "SIGNAL_PRESENT",
+    "nulls": [
+      {
+        "name": "Feature Shuffle",
+        "null_dominance": 0.012795226715795855,
+        "real_dominance": 0.13156092331301367,
+        "z_score": 11.876569659721781
+      }
+    ]
+  },
+  "dataset_hash": "unknown",
+  "generated_by": "helix.py run",
+  "git_commit": "unknown",
+  "schema_version": "unknown"
+}

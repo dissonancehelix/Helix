@@ -1,0 +1,21 @@
+{
+  "id": "A_74",
+  "name": "Blind A_74",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_74",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+  "persistence_ontology": "P2_GLOBAL_INVARIANT",
+  "substrate_S1c_refined": "SOCIAL",
+  "source_provenance": [
+    "paper_A_74"
+  ],
+  "expression_primitives_rule": [
+    "SLACK"
+  ],
+  "expression_primitives_manual": [
+    "SLACK"
+  ]
+}

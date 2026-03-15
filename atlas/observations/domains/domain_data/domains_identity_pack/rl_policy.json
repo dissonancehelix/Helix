@@ -1,0 +1,19 @@
+{
+    "id": "rl_policy",
+    "name": "RL Policy Agent",
+    "description": "Synthetic identity pack domain: RL Policy Agent",
+    "state_space": "Derived states Q-table memory",
+    "dynamics": "Internal rules with Q-table memory",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "adaptive policy updates",
+    "failure_mode": "reward hacking collapse",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

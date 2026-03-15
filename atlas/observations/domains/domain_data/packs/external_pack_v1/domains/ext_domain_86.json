@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_86",
+  "name": "External Domain 86",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Economic Market Microstructure Survey 2017",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c": "PHYSICAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_MULTIPLE_SCALES",
+  "source_provenance": [
+    "Economic Market Microstructure Survey 2017"
+  ],
+  "expression_primitives": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ],
+  "_expression_primitives_pass_B": [
+    "RECOMBINATION",
+    "MULTI_BASIS"
+  ]
+}

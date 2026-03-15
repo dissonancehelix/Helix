@@ -1,0 +1,17 @@
+{
+    "SRD_Base": {
+        "r2_loss": 0.45
+    },
+    "FHO_Removed": {
+        "r2_loss": 0.12
+    },
+    "SPTD_Removed": {
+        "r2_loss": 0.18
+    },
+    "SAO_Removed": {
+        "r2_loss": 0.08
+    },
+    "RRO_Removed": {
+        "r2_loss": 0.05
+    }
+}

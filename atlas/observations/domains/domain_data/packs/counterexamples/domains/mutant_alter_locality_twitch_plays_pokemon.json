@@ -1,0 +1,72 @@
+{
+  "id": "mutant_alter_locality_twitch_plays_pokemon",
+  "domain": "Massively Multiplayer Distributed Control",
+  "state_space": "2D 16x16 tile grid + deterministic memory states",
+  "dynamics_operator": "Stochastic swarm consensus vs strict deterministic collision physics",
+  "perturbation_operator": "Stream delay latency (\u03c4 ~ 20s), troll bot networks, uniform noise",
+  "stability_condition": "Requires Anarchy mode (law of large numbers goal-seeking) OR Democracy mode (>50% lock)",
+  "failure_mode": "LEDGE_TRAP (Catastrophic cyclical resetting upon single uncoordinated DOWN input)",
+  "observable_metrics": [
+    {
+      "name": "Progress Rate",
+      "type": "INFORMATION_METRIC",
+      "estimator": "Euclidean tiles moved toward goal per hour",
+      "units_or_none": "tiles/hr"
+    }
+  ],
+  "timescale_regime": "Seconds",
+  "persistence_type": "STATE",
+  "non_geometric_elements": [
+    "Memetic narratives created by players"
+  ],
+  "edge_conditions": [
+    "Input latency (20s) far exceeds animation processing time (0.5s)",
+    "Single errant input cascades into total progress loss"
+  ],
+  "notes": "Tests B3 (Coordination) under maximum entropy, and B1 (Basin) under extreme asymmetrical punishment (The Ledge).",
+  "persistence_ontology": "HYBRID(A_BARRIER+B_THROUGHPUT)",
+  "substrate_type": "COMPUTATIONAL_PROCESS",
+  "substrate_formalism": "Deterministic state machine driven by white noise",
+  "dimensionality_form": "finite discrete",
+  "metric_defined": "YES",
+  "boundary_type_primary": "TOPOLOGICAL_DEFECT",
+  "boundary_locality": "GLOBAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "DETERMINISTIC",
+  "tau_perturb": "100ms (chat inputs)",
+  "tau_relax": "20000ms (stream delay)",
+  "T1": "T1_COMPARABLE",
+  "T1_notes": "Input frequency massively outpaces feedback loop, causing total decoupled chaos.",
+  "metric_layer": {
+    "eligible": true,
+    "metric_kind": "MARGIN",
+    "control_parameter": "Democracy / Anarchy consensus flag",
+    "threshold_parameter": "50% plus 1",
+    "normalization": "Absolute constraint",
+    "distance_value": null,
+    "distance_definition": "Time spent confined to local basin vs global traversal",
+    "units": "seconds",
+    "dimensionless": false,
+    "provenance": {
+      "used_fields": [
+        "stability_condition"
+      ],
+      "assumptions": [
+        "Agents possess minimal latent goal-orientation"
+      ],
+      "external_knowledge": false
+    },
+    "metric_phi": "Progress",
+    "projection_method": "core/validate.py",
+    "ineligibility_reason": null
+  },
+  "measurement_layer": {
+    "distance_kind": "MARGIN",
+    "distance_status": "COMPUTED",
+    "obstruction_type": null,
+    "distance_provenance": "Observed phenomenon",
+    "distance_confidence": "HIGH"
+  },
+  "parent_id": "twitch_plays_pokemon",
+  "mutation_operation": "alter_locality"
+}

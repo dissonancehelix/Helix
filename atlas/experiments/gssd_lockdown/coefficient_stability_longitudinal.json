@@ -1,0 +1,13 @@
+{
+    "rolling_30_day_cv": {
+        "SRD": 0.106,
+        "SPTD": 0.101,
+        "FHO": 0.137,
+        "SAO": 0.151,
+        "RRO": 0.172,
+        "OGO": 0.234,
+        "EIP": 0.095
+    },
+    "hostility_survival_stability": 0.88,
+    "null_z_consistency": 4.1
+}

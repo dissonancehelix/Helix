@@ -1,0 +1,21 @@
+{
+  "id": "A_35",
+  "name": "Blind A_35",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_A_35",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c_refined": "PHYSICAL",
+  "source_provenance": [
+    "paper_A_35"
+  ],
+  "expression_primitives_rule": [
+    "BRANCHING"
+  ],
+  "expression_primitives_manual": [
+    "BRANCHING"
+  ]
+}

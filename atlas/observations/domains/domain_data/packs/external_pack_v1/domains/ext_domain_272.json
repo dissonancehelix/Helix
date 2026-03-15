@@ -1,0 +1,25 @@
+{
+  "id": "ext_domain_272",
+  "name": "External Domain 272",
+  "state_space": "Observed System Space",
+  "dynamics": "External dynamics described by Systems Biology (Textbook Citation) 2025",
+  "perturbation": "Environmental noise or internal shock",
+  "stability_condition": "stable",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "COMBINATORIAL_THRESHOLD",
+  "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+  "substrate_S1c": "PHYSICAL",
+  "T1": "T1_MACRO_ONLY",
+  "T2": "T2_COMPARABLE",
+  "source_provenance": [
+    "Systems Biology (Textbook Citation) 2025"
+  ],
+  "expression_primitives": [
+    "BRANCHING",
+    "ROUTING"
+  ],
+  "_expression_primitives_pass_B": [
+    "BRANCHING",
+    "ROUTING"
+  ]
+}

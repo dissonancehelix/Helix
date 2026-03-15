@@ -1,0 +1,23 @@
+{
+    "id": "genetic_algo",
+    "name": "GA Recombination Pool",
+    "description": "Synthetic expression pack domain: GA Recombination Pool",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "mutation/crossover mixing",
+    "failure_mode": "population diversity collapse",
+    "substrate_S1c": "COMPUTATIONAL",
+    "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "EXPLORATION",
+        "COMPOSITION"
+    ]
+}

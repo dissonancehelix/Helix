@@ -1,0 +1,10 @@
+{
+  "id": "map8-nakamoto_consensus-bond_percolation",
+  "domain_a": "nakamoto_consensus",
+  "domain_b": "bond_percolation",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

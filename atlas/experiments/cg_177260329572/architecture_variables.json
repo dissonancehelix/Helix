@@ -1,0 +1,50 @@
+{
+    "A_Competitive_Opt": {
+        "ctrl_dec": true,
+        "scalar_obj": true,
+        "inter_top": "global",
+        "info_flow": "gradient",
+        "comp_type": "winner_take_all",
+        "attr_struct": "discrete_basins"
+    },
+    "B_Distributed_Avg": {
+        "ctrl_dec": false,
+        "scalar_obj": false,
+        "inter_top": "local",
+        "info_flow": "neighbor",
+        "comp_type": "consensus",
+        "attr_struct": "continuous_manifold"
+    },
+    "C_Leaderless_Coord": {
+        "ctrl_dec": false,
+        "scalar_obj": false,
+        "inter_top": "local",
+        "info_flow": "broadcast",
+        "comp_type": "symmetry_break",
+        "attr_struct": "distributed_field"
+    },
+    "D_Hierarchical_Vote": {
+        "ctrl_dec": true,
+        "scalar_obj": false,
+        "inter_top": "hierarchical",
+        "info_flow": "aggregation",
+        "comp_type": "winner_take_all",
+        "attr_struct": "discrete_basins"
+    },
+    "E_Multi_Attractor_Dyn": {
+        "ctrl_dec": false,
+        "scalar_obj": true,
+        "inter_top": "global",
+        "info_flow": "broadcast",
+        "comp_type": "symmetry_break",
+        "attr_struct": "discrete_basins"
+    },
+    "F_Hybrid_Arbitration": {
+        "ctrl_dec": true,
+        "scalar_obj": false,
+        "inter_top": "local",
+        "info_flow": "neighbor",
+        "comp_type": "consensus",
+        "attr_struct": "distributed_field"
+    }
+}

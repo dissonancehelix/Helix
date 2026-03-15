@@ -1,0 +1,19 @@
+{
+    "id": "blood_glucose",
+    "name": "Blood Glucose Regulation",
+    "description": "Synthetic identity pack domain: Blood Glucose Regulation",
+    "state_space": "Derived states setpoint maintenance",
+    "dynamics": "Internal rules with setpoint maintenance",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "insulin/glucagon homeostatic loop",
+    "failure_mode": "hypoglycemic shock",
+    "substrate_S1c": "BIOLOGICAL",
+    "persistence_ontology": "P2_GLOBAL_INVARIANT",
+    "boundary_type_primary": "GLOBAL_DISCONTINUITY",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

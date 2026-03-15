@@ -1,0 +1,49 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Helix Suggestion Output Schema",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "title": {
+                "type": "string",
+                "description": "Name of the suggested entity"
+            },
+            "domain": {
+                "type": "string",
+                "enum": [
+                    "MUSIC_DISCOVERY",
+                    "GAME_SYSTEM_DISCOVERY",
+                    "RESEARCH_TOPIC_DISCOVERY",
+                    "SIMULATION_EXPERIMENT_DISCOVERY",
+                    "TOOLING_DISCOVERY"
+                ],
+                "description": "The category of the suggestion"
+            },
+            "structural_motifs_matched": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                },
+                "description": "The specific invariants that triggered this matched recommendation"
+            },
+            "reason_for_match": {
+                "type": "string",
+                "description": "Description validating why the math properties overlap with the Operator's motifs"
+            },
+            "confidence_score": {
+                "type": "number",
+                "minimum": 0.0,
+                "maximum": 1.0,
+                "description": "Computed affinity score based on boolean overlaps of core variables."
+            }
+        },
+        "required": [
+            "title",
+            "domain",
+            "structural_motifs_matched",
+            "reason_for_match",
+            "confidence_score"
+        ]
+    }
+}

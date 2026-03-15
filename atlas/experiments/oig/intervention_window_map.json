@@ -1,0 +1,8 @@
+{
+    "window_1_steps": 0.1,
+    "window_2_steps": 0.125,
+    "window_3_steps": 0.125,
+    "window_5_steps": 0.125,
+    "window_10_steps": 0.125,
+    "critical_threshold_failed_at": "no_failure"
+}

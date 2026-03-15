@@ -1,0 +1,23 @@
+{
+    "id": "eco_redundancy",
+    "name": "Ecological Niche Redundancy",
+    "description": "Synthetic expression pack domain: Ecological Niche Redundancy",
+    "state_space": "Derived states",
+    "dynamics": "Internal rules",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "functional proxy overlap",
+    "failure_mode": "keystone species trophic collapse",
+    "substrate_S1c": "BIOLOGICAL",
+    "persistence_ontology": "P2_GLOBAL_INVARIANT",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    },
+    "expression_primitives": [
+        "REDUNDANCY",
+        "ROLE_DIVERSITY"
+    ]
+}

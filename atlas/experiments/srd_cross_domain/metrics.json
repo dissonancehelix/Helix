@@ -1,0 +1,54 @@
+{
+    "baselines": [
+        {
+            "domain": "Microservice Dependency Graph",
+            "nodes": 500,
+            "connectivity": 20.985669961447094,
+            "feedback_loops": 0.11000430208906678,
+            "safeguard_coverage": 0.3650175910214716,
+            "silent_failures": 0.16696322144464684
+        },
+        {
+            "domain": "Event-Driven Pub/Sub System",
+            "nodes": 500,
+            "connectivity": 23.41178035410031,
+            "feedback_loops": 0.3706797949691646,
+            "safeguard_coverage": 0.7353077406229074,
+            "silent_failures": 0.12608164978882486
+        },
+        {
+            "domain": "Financial Contagion Network (Simplified)",
+            "nodes": 500,
+            "connectivity": 15.548045492131761,
+            "feedback_loops": 0.11191888777522814,
+            "safeguard_coverage": 0.331182784882162,
+            "silent_failures": 0.25160658643100875
+        }
+    ],
+    "hostility_results": [
+        {
+            "domain": "Microservice Dependency Graph",
+            "baseline_risk": 0.443,
+            "post_mutation_risk": 0.543,
+            "fragility_gradient": 0.101,
+            "collapse_acceleration": 1.378,
+            "null_baseline_diff": -0.02
+        },
+        {
+            "domain": "Event-Driven Pub/Sub System",
+            "baseline_risk": 0.53,
+            "post_mutation_risk": 0.695,
+            "fragility_gradient": 0.165,
+            "collapse_acceleration": 1.125,
+            "null_baseline_diff": 0.02
+        },
+        {
+            "domain": "Financial Contagion Network (Simplified)",
+            "baseline_risk": 0.44,
+            "post_mutation_risk": 0.542,
+            "fragility_gradient": 0.102,
+            "collapse_acceleration": 1.546,
+            "null_baseline_diff": 0.009
+        }
+    ]
+}

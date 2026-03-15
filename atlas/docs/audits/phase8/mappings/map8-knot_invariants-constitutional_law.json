@@ -1,0 +1,10 @@
+{
+  "id": "map8-knot_invariants-constitutional_law",
+  "domain_a": "knot_invariants",
+  "domain_b": "constitutional_law",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

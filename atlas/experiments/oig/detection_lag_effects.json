@@ -1,0 +1,7 @@
+{
+    "lag_0_steps": 0.125,
+    "lag_1_steps": 0.125,
+    "lag_2_steps": 0.125,
+    "lag_4_steps": 0.125,
+    "lag_8_steps": 0.125
+}

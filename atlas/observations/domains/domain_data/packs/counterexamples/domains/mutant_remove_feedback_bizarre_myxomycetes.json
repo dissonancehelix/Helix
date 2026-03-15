@@ -1,0 +1,36 @@
+{
+  "id": "mutant_remove_feedback_bizarre_myxomycetes",
+  "domain": "Biological Spatial Optimization",
+  "state_space": "2D nutrient gradients on fungal substrate",
+  "dynamics_operator": "Cytoplasmic streaming driven by nutrient sensing",
+  "perturbation_operator": "Light exposure (repellent), desiccation",
+  "stability_condition": "Continuous pulsating network minimizing transport cost and maximizing coverage",
+  "failure_mode": "SCLEROTIUM (Desiccation transition preventing nutrient flow)",
+  "observable_metrics": [
+    {
+      "name": "Network Efficiency",
+      "type": "INFORMATION_METRIC",
+      "estimator": "Total tube length vs minimum spanning tree",
+      "units_or_none": "ratio"
+    }
+  ],
+  "timescale_regime": "Hours",
+  "persistence_type": "NETWORK",
+  "edge_conditions": [
+    "Retracts redundant pathways perfectly",
+    "Maps exactly onto Tokyo railway system when stimulated with oat flakes"
+  ],
+  "notes": "Tests B2 (Expression Capacity) expanding across discrete gradients and B3 (Coordination) as decentralized pulsation.",
+  "persistence_ontology": "TOPOLOGICAL(A_NETWORK+B_RESOURCE)",
+  "substrate_type": "BIOLOGICAL_PROCESS",
+  "dimensionality_form": "continuous 2D",
+  "metric_defined": "YES",
+  "boundary_type_primary": "GRADIENT_NULL",
+  "boundary_locality": "GLOBAL",
+  "boundary_dimensionality_change": "NO",
+  "substrate_S1c": "DETERMINISTIC",
+  "tau_perturb": "10s (light shock)",
+  "tau_relax": "3600s (pathway abandonment)",
+  "parent_id": "bizarre_myxomycetes",
+  "mutation_operation": "remove_feedback"
+}

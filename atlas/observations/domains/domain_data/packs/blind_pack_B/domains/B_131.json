@@ -1,0 +1,23 @@
+{
+  "id": "B_131",
+  "name": "Blind B_131",
+  "state_space": "Observed Phase",
+  "dynamics": "Dynamics generated from paper_B_131",
+  "perturbation": "External shock",
+  "stability_condition": "stable limits",
+  "failure_mode": "collapse",
+  "boundary_type_primary": "SMOOTH_HYPERSURFACE",
+  "persistence_ontology": "P4_DISTRIBUTIONAL_EQUILIBRIUM",
+  "substrate_S1c_refined": "COMPUTATIONAL",
+  "source_provenance": [
+    "paper_B_131"
+  ],
+  "expression_primitives_rule": [
+    "SLACK",
+    "GLOBAL_REDUNDANCY"
+  ],
+  "expression_primitives_manual": [
+    "SLACK",
+    "GLOBAL_REDUNDANCY"
+  ]
+}

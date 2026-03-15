@@ -1,0 +1,19 @@
+{
+    "id": "habit_formation",
+    "name": "Habit Formation Model",
+    "description": "Synthetic identity pack domain: Habit Formation Model",
+    "state_space": "Derived states absorbing state hysteresis",
+    "dynamics": "Internal rules with absorbing state hysteresis",
+    "perturbation": "External noise or targeted disruption",
+    "stability_condition": "irreversible behavioral sink",
+    "failure_mode": "relapse boundary",
+    "substrate_S1c": "COGNITIVE",
+    "persistence_ontology": "P1_PATTERN_SPATIOTEMPORAL",
+    "boundary_type_primary": "DISTRIBUTIONAL_COLLAPSE",
+    "T1": "T1_COMPARABLE",
+    "T2": "T2_MULTIPLE_SCALES",
+    "measurement_layer": {
+        "resolution": "MACRO",
+        "obstruction_type": null
+    }
+}

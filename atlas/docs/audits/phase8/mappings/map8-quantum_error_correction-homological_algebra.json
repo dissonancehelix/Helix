@@ -1,0 +1,12 @@
+{
+  "id": "map8-quantum_error_correction-homological_algebra",
+  "domain_a": "quantum_error_correction",
+  "domain_b": "homological_algebra",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "NON_GEOMETRIC_RULESET"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}
