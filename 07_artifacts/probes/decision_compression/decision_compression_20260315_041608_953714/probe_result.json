@@ -1,0 +1,20 @@
+{
+  "probe_name": "decision_compression",
+  "domain": "music",
+  "passed": true,
+  "signal": 0.4273,
+  "signal_strength": 0.4273,
+  "confidence": "moderate",
+  "decision_dimension": 2.2906,
+  "n_agents": 4,
+  "n_rounds": 4,
+  "k_eff_per_round": [
+    2.2989,
+    2.2989,
+    2.2232,
+    2.3708,
+    2.2614
+  ],
+  "compression_ratio": 0.4273,
+  "version": "1.0.0"
+}

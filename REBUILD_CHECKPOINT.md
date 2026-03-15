@@ -13,10 +13,10 @@ Recovery file for context-exhaustion mid-rebuild.
 
 | Phase | Status | Tag | Commit |
 |-------|--------|-----|--------|
-| Phase 1: Constitutional migration | PENDING | phase-1 | — |
-| Phase 2: WSL2 substrate | PENDING | phase-2 | — |
-| Phase 3: Experimental runtime | PENDING | phase-3 | — |
-| Phase 4: Probe expansion | PENDING | phase-4 | — |
+| Phase 1: Constitutional migration | COMPLETE | phase-1 | 3609626 |
+| Phase 2: WSL2 substrate | COMPLETE | phase-2 | 44e81e8 |
+| Phase 3: Experimental runtime | COMPLETE | phase-3 | c61be21 |
+| Phase 4: Probe expansion | COMPLETE | phase-4 | (see git log) |
 
 ## Quick Resume Commands
 
@@ -24,4 +24,15 @@ Recovery file for context-exhaustion mid-rebuild.
 cd /c/Users/dissonance/Desktop/Helix
 git log --oneline -5
 python helix.py verify
+```
+
+## Rebuild Complete — 2026-03-14
+
+All 4 phases rebuilt and pushed. Both invariants confirmed Verified across
+games, language, and music domains.
+
+```
+python helix.py verify            → Architectural coherence verified.
+python helix.py atlas-build       → decision_compression: Verified, oscillator_locking: Verified
+python helix.py cross-probe-analysis → 9 runs, 100% pass rate
 ```

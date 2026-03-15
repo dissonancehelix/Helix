@@ -1,0 +1,77 @@
+{
+  "probes_analyzed": [
+    "decision_compression",
+    "oscillator_locking"
+  ],
+  "probe_stats": {
+    "decision_compression": {
+      "run_count": 6,
+      "pass_rate": 1.0,
+      "mean_signal": 0.428667,
+      "min_signal": 0.3938,
+      "max_signal": 0.4649,
+      "domains_observed": [
+        "games",
+        "language",
+        "music"
+      ]
+    },
+    "oscillator_locking": {
+      "run_count": 3,
+      "pass_rate": 1.0,
+      "mean_signal": 0.991159,
+      "min_signal": 0.974282,
+      "max_signal": 0.999821,
+      "domains_observed": [
+        "games",
+        "language",
+        "music"
+      ]
+    }
+  },
+  "domain_coverage": {
+    "games": {
+      "probes": [
+        "decision_compression",
+        "oscillator_locking"
+      ],
+      "run_count": 3,
+      "pass_rate": 1.0
+    },
+    "language": {
+      "probes": [
+        "decision_compression",
+        "oscillator_locking"
+      ],
+      "run_count": 3,
+      "pass_rate": 1.0
+    },
+    "music": {
+      "probes": [
+        "decision_compression",
+        "oscillator_locking"
+      ],
+      "run_count": 3,
+      "pass_rate": 1.0
+    }
+  },
+  "correlation_matrix": {
+    "decision_compression \u00d7 oscillator_locking": {
+      "pearson_r": 0.018,
+      "shared_domains": [
+        "games",
+        "language",
+        "music"
+      ],
+      "n_shared": 3,
+      "interpretation": "weak / no correlation \u2014 probes capture independent signals"
+    }
+  },
+  "summary": {
+    "total_runs": 9,
+    "overall_pass_rate": 1.0,
+    "probes_analyzed": 2,
+    "domains_covered": 3,
+    "correlation_pairs": 1
+  }
+}

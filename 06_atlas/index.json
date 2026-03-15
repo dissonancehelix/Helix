@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-03-15T04:09:20.118570+00:00",
+  "generated_at": "2026-03-15T04:16:17.782754+00:00",
   "invariants": [
     {
       "invariant": "decision_compression",
+      "confidence": "Verified",
+      "observed_in": [
+        "games",
+        "language",
+        "music"
+      ],
+      "run_count": 6,
+      "pass_rate": 1.0,
+      "latest_probe_version": "1.0.0"
+    },
+    {
+      "invariant": "oscillator_locking",
       "confidence": "Verified",
       "observed_in": [
         "games",

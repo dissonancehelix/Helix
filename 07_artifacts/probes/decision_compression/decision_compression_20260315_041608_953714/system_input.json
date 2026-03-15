@@ -1,0 +1,78 @@
+{
+  "dataset_path": "c:\\Users\\dissonance\\Desktop\\Helix\\04_labs\\music\\decision_compression_dataset.json",
+  "dataset": {
+    "domain": "music",
+    "system_description": "Polyrhythmic pattern with 4 instrument voices. The kick drum strongly dominates phase-locking in a compressed rhythmic hierarchy.",
+    "agents": [
+      {
+        "id": "kick_drum",
+        "role": "primary_driver",
+        "influence_weight": 0.6
+      },
+      {
+        "id": "snare",
+        "role": "primary_driver",
+        "influence_weight": 0.25
+      },
+      {
+        "id": "hi_hat",
+        "role": "secondary_driver",
+        "influence_weight": 0.1
+      },
+      {
+        "id": "bass_line",
+        "role": "follower",
+        "influence_weight": 0.05
+      }
+    ],
+    "decision_rounds": [
+      {
+        "round": 1,
+        "weights": [
+          0.6,
+          0.25,
+          0.1,
+          0.05
+        ],
+        "outcome": "phase_lock_A"
+      },
+      {
+        "round": 2,
+        "weights": [
+          0.62,
+          0.23,
+          0.1,
+          0.05
+        ],
+        "outcome": "phase_lock_A"
+      },
+      {
+        "round": 3,
+        "weights": [
+          0.58,
+          0.27,
+          0.1,
+          0.05
+        ],
+        "outcome": "phase_lock_A"
+      },
+      {
+        "round": 4,
+        "weights": [
+          0.61,
+          0.24,
+          0.1,
+          0.05
+        ],
+        "outcome": "phase_lock_A"
+      }
+    ],
+    "expected_k_eff_range": [
+      1.5,
+      2.5
+    ],
+    "notes": "Strong kick dominance compresses ensemble phase decisions \u2014 k_eff < N/2 expected"
+  },
+  "lab_name": "music",
+  "run_id": "decision_compression_20260315_041608_953714"
+}

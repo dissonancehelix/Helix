@@ -1,0 +1,87 @@
+{
+  "dataset_path": "c:\\Users\\dissonance\\Desktop\\Helix\\04_labs\\games\\decision_compression_dataset.json",
+  "dataset": {
+    "domain": "games",
+    "system_description": "Five-player board game with resource allocation votes. One player controls majority influence through early coalition formation.",
+    "agents": [
+      {
+        "id": "player_1",
+        "role": "coalition_leader",
+        "influence_weight": 0.55
+      },
+      {
+        "id": "player_2",
+        "role": "coalition_member",
+        "influence_weight": 0.2
+      },
+      {
+        "id": "player_3",
+        "role": "swing_voter",
+        "influence_weight": 0.12
+      },
+      {
+        "id": "player_4",
+        "role": "minority",
+        "influence_weight": 0.08
+      },
+      {
+        "id": "player_5",
+        "role": "minority",
+        "influence_weight": 0.05
+      }
+    ],
+    "decision_rounds": [
+      {
+        "round": 1,
+        "weights": [
+          0.55,
+          0.2,
+          0.12,
+          0.08,
+          0.05
+        ],
+        "outcome": "resource_allocation_A"
+      },
+      {
+        "round": 2,
+        "weights": [
+          0.58,
+          0.18,
+          0.12,
+          0.07,
+          0.05
+        ],
+        "outcome": "resource_allocation_A"
+      },
+      {
+        "round": 3,
+        "weights": [
+          0.52,
+          0.22,
+          0.13,
+          0.08,
+          0.05
+        ],
+        "outcome": "resource_allocation_A"
+      },
+      {
+        "round": 4,
+        "weights": [
+          0.6,
+          0.17,
+          0.11,
+          0.07,
+          0.05
+        ],
+        "outcome": "resource_allocation_A"
+      }
+    ],
+    "expected_k_eff_range": [
+      1.5,
+      2.5
+    ],
+    "notes": "Classic Condorcet winner scenario \u2014 single dominant agent compresses decision space"
+  },
+  "lab_name": "games",
+  "run_id": "decision_compression_20260315_041601_7b4116"
+}
