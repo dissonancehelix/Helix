@@ -1,0 +1,10 @@
+{
+  "id": "map8-lotka_volterra-quantum_error_correction",
+  "domain_a": "lotka_volterra",
+  "domain_b": "quantum_error_correction",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "map8-supply_chain-constitutional_law",
+  "domain_a": "supply_chain",
+  "domain_b": "constitutional_law",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

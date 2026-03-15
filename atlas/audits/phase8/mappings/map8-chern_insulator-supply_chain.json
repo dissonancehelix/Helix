@@ -1,0 +1,12 @@
+{
+  "id": "map8-chern_insulator-supply_chain",
+  "domain_a": "chern_insulator",
+  "domain_b": "supply_chain",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

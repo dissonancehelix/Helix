@@ -1,0 +1,10 @@
+{
+  "id": "map8-supermajority_amendment-traffic_shockwaves",
+  "domain_a": "supermajority_amendment",
+  "domain_b": "traffic_shockwaves",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

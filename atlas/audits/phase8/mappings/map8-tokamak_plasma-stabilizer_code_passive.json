@@ -1,0 +1,10 @@
+{
+  "id": "map8-tokamak_plasma-stabilizer_code_passive",
+  "domain_a": "tokamak_plasma",
+  "domain_b": "stabilizer_code_passive",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

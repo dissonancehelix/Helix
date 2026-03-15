@@ -1,0 +1,12 @@
+{
+  "id": "map8-traffic_shockwaves-tokamak_plasma",
+  "domain_a": "traffic_shockwaves",
+  "domain_b": "tokamak_plasma",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

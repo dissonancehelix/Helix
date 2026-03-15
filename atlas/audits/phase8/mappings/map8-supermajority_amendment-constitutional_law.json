@@ -1,0 +1,12 @@
+{
+  "id": "map8-supermajority_amendment-constitutional_law",
+  "domain_a": "supermajority_amendment",
+  "domain_b": "constitutional_law",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "NON_GEOMETRIC_RULESET"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

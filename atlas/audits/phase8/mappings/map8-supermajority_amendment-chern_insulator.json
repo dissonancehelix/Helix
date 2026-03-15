@@ -1,0 +1,10 @@
+{
+  "id": "map8-supermajority_amendment-chern_insulator",
+  "domain_a": "supermajority_amendment",
+  "domain_b": "chern_insulator",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "map8-supply_chain-bond_percolation",
+  "domain_a": "supply_chain",
+  "domain_b": "bond_percolation",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "map8-tokamak_plasma-quantum_error_correction",
+  "domain_a": "tokamak_plasma",
+  "domain_b": "quantum_error_correction",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

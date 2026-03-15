@@ -1,0 +1,10 @@
+{
+  "id": "map8-traffic_shockwaves-adaptive_immunity",
+  "domain_a": "traffic_shockwaves",
+  "domain_b": "adaptive_immunity",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

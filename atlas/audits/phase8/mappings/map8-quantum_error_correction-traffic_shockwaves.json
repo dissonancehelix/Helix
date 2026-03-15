@@ -1,0 +1,12 @@
+{
+  "id": "map8-quantum_error_correction-traffic_shockwaves",
+  "domain_a": "quantum_error_correction",
+  "domain_b": "traffic_shockwaves",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

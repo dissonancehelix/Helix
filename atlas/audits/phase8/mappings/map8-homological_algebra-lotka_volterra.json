@@ -1,0 +1,10 @@
+{
+  "id": "map8-homological_algebra-lotka_volterra",
+  "domain_a": "homological_algebra",
+  "domain_b": "lotka_volterra",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

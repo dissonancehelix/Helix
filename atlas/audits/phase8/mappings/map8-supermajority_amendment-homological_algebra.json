@@ -1,0 +1,10 @@
+{
+  "id": "map8-supermajority_amendment-homological_algebra",
+  "domain_a": "supermajority_amendment",
+  "domain_b": "homological_algebra",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

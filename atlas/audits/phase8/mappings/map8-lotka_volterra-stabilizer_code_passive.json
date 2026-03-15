@@ -1,0 +1,10 @@
+{
+  "id": "map8-lotka_volterra-stabilizer_code_passive",
+  "domain_a": "lotka_volterra",
+  "domain_b": "stabilizer_code_passive",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

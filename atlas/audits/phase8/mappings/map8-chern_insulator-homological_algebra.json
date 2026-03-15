@@ -1,0 +1,12 @@
+{
+  "id": "map8-chern_insulator-homological_algebra",
+  "domain_a": "chern_insulator",
+  "domain_b": "homological_algebra",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "NON_GEOMETRIC_RULESET"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

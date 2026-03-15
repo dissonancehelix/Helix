@@ -1,0 +1,10 @@
+{
+  "id": "map8-traffic_shockwaves-lotka_volterra",
+  "domain_a": "traffic_shockwaves",
+  "domain_b": "lotka_volterra",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

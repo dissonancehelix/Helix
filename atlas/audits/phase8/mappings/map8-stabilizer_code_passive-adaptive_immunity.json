@@ -1,0 +1,10 @@
+{
+  "id": "map8-stabilizer_code_passive-adaptive_immunity",
+  "domain_a": "stabilizer_code_passive",
+  "domain_b": "adaptive_immunity",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

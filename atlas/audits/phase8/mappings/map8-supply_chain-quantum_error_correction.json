@@ -1,0 +1,12 @@
+{
+  "id": "map8-supply_chain-quantum_error_correction",
+  "domain_a": "supply_chain",
+  "domain_b": "quantum_error_correction",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

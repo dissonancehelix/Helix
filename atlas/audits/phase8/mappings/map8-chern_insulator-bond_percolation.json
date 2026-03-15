@@ -1,0 +1,10 @@
+{
+  "id": "map8-chern_insulator-bond_percolation",
+  "domain_a": "chern_insulator",
+  "domain_b": "bond_percolation",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

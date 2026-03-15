@@ -1,0 +1,10 @@
+{
+  "id": "map8-bond_percolation-language_grammar",
+  "domain_a": "bond_percolation",
+  "domain_b": "language_grammar",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

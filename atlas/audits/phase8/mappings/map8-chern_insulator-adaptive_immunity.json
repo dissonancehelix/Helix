@@ -1,0 +1,10 @@
+{
+  "id": "map8-chern_insulator-adaptive_immunity",
+  "domain_a": "chern_insulator",
+  "domain_b": "adaptive_immunity",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

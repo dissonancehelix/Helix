@@ -1,0 +1,12 @@
+{
+  "id": "map8-constitutional_law-nakamoto_consensus",
+  "domain_a": "constitutional_law",
+  "domain_b": "nakamoto_consensus",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "SEMANTIC_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

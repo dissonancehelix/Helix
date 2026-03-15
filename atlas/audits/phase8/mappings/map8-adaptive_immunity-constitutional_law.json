@@ -1,0 +1,10 @@
+{
+  "id": "map8-adaptive_immunity-constitutional_law",
+  "domain_a": "adaptive_immunity",
+  "domain_b": "constitutional_law",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

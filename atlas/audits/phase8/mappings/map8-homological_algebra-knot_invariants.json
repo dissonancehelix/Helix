@@ -1,0 +1,12 @@
+{
+  "id": "map8-homological_algebra-knot_invariants",
+  "domain_a": "homological_algebra",
+  "domain_b": "knot_invariants",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "TOPOLOGICAL_INCOMPATIBILITY"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

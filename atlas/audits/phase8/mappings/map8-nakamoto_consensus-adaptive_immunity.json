@@ -1,0 +1,10 @@
+{
+  "id": "map8-nakamoto_consensus-adaptive_immunity",
+  "domain_a": "nakamoto_consensus",
+  "domain_b": "adaptive_immunity",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

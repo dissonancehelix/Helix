@@ -1,0 +1,12 @@
+{
+  "id": "map8-quantum_error_correction-protein_folding",
+  "domain_a": "quantum_error_correction",
+  "domain_b": "protein_folding",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

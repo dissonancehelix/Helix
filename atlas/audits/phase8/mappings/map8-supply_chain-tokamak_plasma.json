@@ -1,0 +1,12 @@
+{
+  "id": "map8-supply_chain-tokamak_plasma",
+  "domain_a": "supply_chain",
+  "domain_b": "tokamak_plasma",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

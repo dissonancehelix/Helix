@@ -1,0 +1,12 @@
+{
+  "id": "map8-tokamak_plasma-homological_algebra",
+  "domain_a": "tokamak_plasma",
+  "domain_b": "homological_algebra",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "NON_GEOMETRIC_RULESET"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "map8-traffic_shockwaves-chern_insulator",
+  "domain_a": "traffic_shockwaves",
+  "domain_b": "chern_insulator",
+  "ontology_gate": "PASS",
+  "attempted": true,
+  "result": "NO_MAP",
+  "obstructions": [
+    "STATE_DIMENSION_MISMATCH"
+  ],
+  "notes": "Ontology constrained mapping attempt."
+}

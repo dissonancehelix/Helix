@@ -1,0 +1,10 @@
+{
+  "id": "map8-constitutional_law-protein_folding",
+  "domain_a": "constitutional_law",
+  "domain_b": "protein_folding",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}

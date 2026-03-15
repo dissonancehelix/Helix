@@ -1,0 +1,10 @@
+{
+  "id": "map8-adaptive_immunity-homological_algebra",
+  "domain_a": "adaptive_immunity",
+  "domain_b": "homological_algebra",
+  "ontology_gate": "FAIL",
+  "attempted": false,
+  "result": "NO_ATTEMPT",
+  "obstructions": [],
+  "notes": "Ontology constrained mapping attempt."
+}
