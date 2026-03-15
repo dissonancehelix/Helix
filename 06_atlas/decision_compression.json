@@ -1,0 +1,37 @@
+{
+  "invariant": "decision_compression",
+  "confidence": "Verified",
+  "observed_in": [
+    "games",
+    "language",
+    "music"
+  ],
+  "supporting_runs": [
+    {
+      "run_id": "decision_compression_20260315_040912_9b9715",
+      "domain": "games",
+      "passed": true,
+      "signal": 0.4649
+    },
+    {
+      "run_id": "decision_compression_20260315_040916_72dd2a",
+      "domain": "language",
+      "passed": true,
+      "signal": 0.3938
+    },
+    {
+      "run_id": "decision_compression_20260315_040916_7c0ec2",
+      "domain": "music",
+      "passed": true,
+      "signal": 0.4273
+    }
+  ],
+  "pass_rate": 1.0,
+  "mean_signal": 0.4287,
+  "run_count": 3,
+  "probe_versions_used": [
+    "1.0.0"
+  ],
+  "latest_probe_version": "1.0.0",
+  "last_updated": "2026-03-15T04:09:20.118012+00:00"
+}
