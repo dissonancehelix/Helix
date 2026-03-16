@@ -35,6 +35,14 @@ from typing import Any
 
 from labs.music_lab.vgm_parser import VGMTrack, VGMEvent
 
+# Symbolic reconstruction (optional — imported lazily to avoid circular deps)
+try:
+    from labs.music_lab.analysis.symbolic_music.vgm_note_reconstructor import reconstruct as _symbolic_reconstruct
+    from labs.music_lab.analysis.symbolic_music.score_representation import SymbolicScore
+    _SYMBOLIC_AVAILABLE = True
+except ImportError:
+    _SYMBOLIC_AVAILABLE = False
+
 
 # ---------------------------------------------------------------------------
 # YM2612 register map constants
@@ -114,6 +122,13 @@ class TrackFeatures:
     ym2612_clock:           int   = 0
     psg_clock:              int   = 0
 
+    # Symbolic features (populated by extract() when symbolic=True)
+    symbolic_note_count:    int   = 0
+    symbolic_unique_pitches: int  = 0
+    symbolic_pitch_range:   int   = 0
+    symbolic_avg_duration:  float = 0.0
+    symbolic_score:         object = None   # SymbolicScore | None
+
 
 # ---------------------------------------------------------------------------
 # Extractor
@@ -130,7 +145,7 @@ def _entropy(counter: dict | Counter) -> float:
     )
 
 
-def extract(track: VGMTrack) -> TrackFeatures:
+def extract(track: VGMTrack, symbolic: bool = False) -> TrackFeatures:
     h = track.header
     sample_rate = 44100
 
@@ -294,5 +309,14 @@ def extract(track: VGMTrack) -> TrackFeatures:
             buckets = Counter(round(iv / 50) * 50 for iv in intervals)
             feat.rhythmic_entropy  = _entropy(buckets)
             feat.note_interval_mean = sum(intervals) / len(intervals)
+
+    # --- Optional symbolic reconstruction pass ---
+    if symbolic and _SYMBOLIC_AVAILABLE and not track.error:
+        score = _symbolic_reconstruct(track)
+        feat.symbolic_note_count     = score.note_count
+        feat.symbolic_unique_pitches = len(score.unique_pitches)
+        feat.symbolic_pitch_range    = score.pitch_range
+        feat.symbolic_avg_duration   = round(score.avg_duration(), 4)
+        feat.symbolic_score          = score
 
     return feat
