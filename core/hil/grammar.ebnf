@@ -1,0 +1,78 @@
+(* ============================================================ *)
+(* HIL Formal Grammar — EBNF                                    *)
+(* Helix Interface Language v1.0                                *)
+(* ============================================================ *)
+
+(* Top-level production *)
+command     = verb , [ subcommand ] , { typed-ref | param } ;
+
+(* Command families *)
+verb        = "PROBE" | "RUN" | "SWEEP" | "COMPILE" | "INTEGRITY"
+            | "ATLAS" | "GRAPH" | "VALIDATE" | "TRACE"
+            | "OBSERVE" | "REPORT" ;
+
+(* Subcommand — only valid for certain verbs; required for some *)
+subcommand  = identifier ;
+
+(* Typed object reference — core semantic unit *)
+typed-ref   = type-prefix , ":" , identifier ;
+
+(* Parameter key:value pair *)
+param       = param-key , ":" , param-value ;
+param-key   = "engine" | "range" | "steps" | "seed" | "verbose"
+            | "format" | "output" | "depth" | "overwrite" | "window" ;
+param-value = identifier | number | range-expr ;
+
+(* Range expression: low..high *)
+range-expr  = number , ".." , number ;
+
+(* All legal type prefixes for typed references *)
+type-prefix = "invariant"   | "experiment"  | "model"
+            | "regime"      | "operator"    | "artifact"
+            | "engine"      | "parameter"   | "atlas"
+            | "graph"       | "atlas_entry" | "graph_query" ;
+
+(* Lexical rules *)
+identifier  = letter , { letter | digit | "_" | "-" } ;
+number      = digit , { digit } , [ "." , { digit } ] ;
+letter      = "a" | ... | "z" | "A" | ... | "Z" | "_" ;
+digit       = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;
+
+(* ============================================================ *)
+(* Command family specifications                                *)
+(* ============================================================ *)
+
+(*  PROBE  typed-ref
+    Example: PROBE invariant:decision_compression  *)
+
+(*  RUN    typed-ref  [engine:name]
+    Example: RUN experiment:decision_compression_probe engine:python  *)
+
+(*  SWEEP  parameter:name  range:low..high  [engine:name]
+    Example: SWEEP parameter:coupling_strength range:0..1  *)
+
+(*  COMPILE  ("atlas" | "graph" | "entries")
+    Example: COMPILE atlas  *)
+
+(*  INTEGRITY  ("check" | "report" | "gate")
+    Example: INTEGRITY check  *)
+
+(*  ATLAS  ("lookup" | "list" | "status" | "verify")  typed-ref
+    Example: ATLAS lookup invariant:decision_compression  *)
+
+(*  GRAPH  ("support" | "trace" | "cluster" | "query" | "export" | "build")
+           [typed-ref]
+    Example: GRAPH support invariant:decision_compression  *)
+
+(*  VALIDATE  ("atlas" | "entry" | "invariant" | "experiment" | ...)
+              [typed-ref]
+    Example: VALIDATE atlas invariant:decision_compression  *)
+
+(*  TRACE  typed-ref
+    Example: TRACE experiment:decision_compression_probe  *)
+
+(*  OBSERVE  typed-ref  [window:n]
+    Example: OBSERVE invariant:decision_compression  *)
+
+(*  REPORT  [("summary" | "full" | "graph" | "status")]  typed-ref
+    Example: REPORT summary invariant:decision_compression  *)

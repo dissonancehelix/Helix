@@ -1,50 +1,45 @@
-# HIL Grammar
-# Defines the structural rules for valid Helix commands.
-#
-# HIL command structure:
-#   VERB  TARGET  [PARAMS...]
-#
-# Verbs:   run | probe | sweep | observe | report | validate | reset
-# Targets: engine name, experiment path, or substrate identifier
-# Params:  key=value pairs
+"""
+HIL Grammar — Compat Shim
+==========================
+Preserved for backward compatibility with pre-Phase-11 callers.
+Internally delegates to the new core.hil.parser system.
 
-HIL_VERBS = {"run", "probe", "sweep", "observe", "report", "validate", "reset", "graph", "integrity", "compile"}
+New code should import directly from:
+  core.hil.parser          (parse)
+  core.hil.validator       (validate)
+  core.hil.normalizer      (normalize)
+  core.hil.command_registry (VALID_VERBS, get_spec)
+"""
+from __future__ import annotations
 
-# GRAPH subcommands (Phase 10)
-GRAPH_SUBCOMMANDS = {"build", "query", "cluster", "export"}
+# ── Legacy constants (kept for compat) ────────────────────────────────────────
+from core.hil.command_registry import VALID_VERBS as _VERBS
 
-HIL_SCHEMA = {
-    "run":       {"required": ["target"], "optional": ["params", "mode"]},
-    "probe":     {"required": ["target"], "optional": ["depth", "substrate"]},
-    "sweep":     {"required": ["target", "param"], "optional": ["range", "steps"]},
+HIL_VERBS: set[str] = {v.lower() for v in _VERBS}
+
+GRAPH_SUBCOMMANDS: set[str] = {"build", "query", "cluster", "export", "support", "trace"}
+
+HIL_SCHEMA: dict = {
+    "run":       {"required": ["target"], "optional": ["params", "mode", "engine"]},
+    "probe":     {"required": ["target"], "optional": ["depth", "substrate", "engine"]},
+    "sweep":     {"required": ["target"], "optional": ["range", "steps", "engine"]},
     "observe":   {"required": ["target"], "optional": ["window", "metric"]},
-    "report":    {"required": ["target"], "optional": ["format", "output"]},
-    "validate":  {"required": ["target"], "optional": ["strict"]},
+    "report":    {"required": [],         "optional": ["format", "output"]},
+    "validate":  {"required": [],         "optional": ["strict"]},
     "reset":     {"required": [],         "optional": ["scope"]},
-    "graph":     {"required": ["target"], "optional": ["node", "format"]},    # Phase 10
+    "graph":     {"required": [],         "optional": ["node", "format"]},
     "integrity": {"required": [],         "optional": ["verbose", "no_atlas"]},
     "compile":   {"required": [],         "optional": ["overwrite", "quiet"]},
+    "atlas":     {"required": [],         "optional": ["format", "verbose"]},
+    "trace":     {"required": ["target"], "optional": ["depth", "format"]},
 }
 
 
+# ── Legacy parse_command ───────────────────────────────────────────────────────
 def parse_command(raw: str) -> dict:
-    """Parse a raw string into a HIL command dict."""
-    tokens = raw.strip().split()
-    if not tokens:
-        raise ValueError("Empty command")
-
-    verb = tokens[0].lower()
-    if verb not in HIL_VERBS:
-        raise ValueError(f"Unknown verb '{verb}'. Valid verbs: {HIL_VERBS}")
-
-    result = {"verb": verb, "target": None, "params": {}}
-
-    if len(tokens) > 1:
-        result["target"] = tokens[1]
-
-    for token in tokens[2:]:
-        if "=" in token:
-            k, v = token.split("=", 1)
-            result["params"][k] = v
-
-    return result
+    """
+    Legacy API: parse raw string -> command dict.
+    Now delegates to the full HIL parser internally.
+    """
+    from core.hil.normalizer import normalize_command
+    return normalize_command(raw)

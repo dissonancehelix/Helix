@@ -1,24 +1,67 @@
-# HIL Normalizer
-# Converts a validated HIL command into a canonical normalized form
-# ready for dispatch to the appropriate engine or subsystem.
+"""
+HIL Normalizer
+==============
+Converts raw input into canonical HIL, two ways:
 
-from .grammar import parse_command
-from .validator import validate_command
+  normalize(raw)         -> str   canonical HIL string     (new API)
+  normalize_command(raw) -> dict  legacy envelope dict     (compat API)
+
+Pipeline:
+  1. Alias resolution   (human-ish -> canonical shorthand)
+  2. Parser             (canonical -> typed AST)
+  3. canonical()        (AST -> deterministic canonical string)
+
+Design note (SQL influence):
+  Like SQL normalization, the same semantic query must always produce
+  the same canonical string, regardless of input capitalization or spacing.
+"""
+from __future__ import annotations
+
+from core.hil.aliases import resolve_alias
+from core.hil.parser import parse
+from core.hil.errors import HILError
+
+
+def normalize(raw: str) -> str:
+    """
+    Normalize raw input to a canonical HIL string.
+    Applies alias resolution before parsing.
+    """
+    tokens = raw.strip().split()
+    if not tokens:
+        from core.hil.errors import HILSyntaxError
+        raise HILSyntaxError("Empty command", raw=raw)
+
+    alias = resolve_alias(tokens)
+    if alias:
+        raw = alias
+
+    cmd = parse(raw)
+    return cmd.canonical()
 
 
 def normalize_command(raw: str) -> dict:
     """
-    Full pipeline: parse → validate → normalize.
-    Returns a normalized command envelope for the dispatcher.
+    Compat API: normalize raw input and return a legacy envelope dict.
+    Used by hil_probe and other pre-Phase-11 callers.
     """
-    cmd = parse_command(raw)
-    validate_command(cmd)
+    tokens = raw.strip().split()
+    if not tokens:
+        from core.hil.errors import HILSyntaxError
+        raise HILSyntaxError("Empty command", raw=raw)
 
-    normalized = {
-        "verb":    cmd["verb"],
-        "target":  cmd.get("target"),
-        "params":  cmd.get("params", {}),
-        "source":  "hil",
-        "version": "1.0",
+    alias = resolve_alias(tokens)
+    if alias:
+        raw = alias
+
+    cmd = parse(raw)
+    primary = cmd.primary_target()
+    return {
+        "verb":      cmd.verb.lower(),
+        "target":    str(primary) if primary else (cmd.subcommand or ""),
+        "params":    {k: str(v) for k, v in cmd.params.items()},
+        "source":    "hil",
+        "version":   "1.0",
+        "canonical": cmd.canonical(),
+        "ast":       cmd.to_dict(),
     }
-    return normalized
