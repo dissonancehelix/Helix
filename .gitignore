@@ -1,8 +1,15 @@
+# Runtime directory (local, non-architectural)
+runtime/*
+
 # Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Temp / logs
+*.log
+*.tmp
 
 # Virtual environments
 .venv/
@@ -16,13 +23,6 @@ Thumbs.db
 # Editors
 .vscode/
 .idea/
-.claude/
-
-# Logs
-*.log
-
-# Staging scratch
-staging/*.tmp
 
 # Jupyter
 .ipynb_checkpoints/

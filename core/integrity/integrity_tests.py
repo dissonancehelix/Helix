@@ -40,6 +40,7 @@ from core.integrity.entropy_probe     import probe as entr_probe, EntropyResult
 from core.integrity.filesystem_probe  import probe as fs_probe,   FilesystemResult
 from core.integrity.hil_probe         import probe as hil_probe,  HILResult
 from core.integrity.sandbox_probe     import probe as sbx_probe,  SandboxResult
+from core.integrity.root_structure    import probe as root_probe, RootStructureResult
 
 ATLAS_INTEGRITY = ROOT / "atlas" / "system_integrity"
 
@@ -50,15 +51,16 @@ ATLAS_INTEGRITY = ROOT / "atlas" / "system_integrity"
 
 @dataclass
 class IntegrityReport:
-    run_id:      str
-    timestamp:   str
-    environment: EnvironmentResult
-    entropy:     EntropyResult
-    filesystem:  FilesystemResult
-    hil:         HILResult
-    sandbox:     SandboxResult
-    status:      str = "UNKNOWN"   # PASS | FAIL | INVALID_ENVIRONMENT
-    errors:      list[str] = field(default_factory=list)
+    run_id:         str
+    timestamp:      str
+    root_structure: RootStructureResult
+    environment:    EnvironmentResult
+    entropy:        EntropyResult
+    filesystem:     FilesystemResult
+    hil:            HILResult
+    sandbox:        SandboxResult
+    status:         str = "UNKNOWN"   # PASS | FAIL | INVALID_ENVIRONMENT | INVALID_ROOT_STRUCTURE
+    errors:         list[str] = field(default_factory=list)
 
     @property
     def passed(self) -> bool:
@@ -70,11 +72,12 @@ class IntegrityReport:
             f"Timestamp : {self.timestamp}",
             f"Status    : {self.status}",
             "",
-            f"  [{'PASS' if self.environment.passed else 'FAIL'}] environment  {self.environment.details}",
-            f"  [{'PASS' if self.entropy.passed     else 'FAIL'}] entropy      {self.entropy.details}",
-            f"  [{'PASS' if self.filesystem.passed  else 'FAIL'}] filesystem   {self.filesystem.details}",
-            f"  [{'PASS' if self.hil.passed         else 'FAIL'}] hil          {self.hil.details}",
-            f"  [{'PASS' if self.sandbox.passed     else 'FAIL'}] sandbox      {self.sandbox.details}",
+            f"  [{'PASS' if self.root_structure.passed else 'FAIL'}] root_structure  {self.root_structure.details}",
+            f"  [{'PASS' if self.environment.passed    else 'FAIL'}] environment     {self.environment.details}",
+            f"  [{'PASS' if self.entropy.passed        else 'FAIL'}] entropy         {self.entropy.details}",
+            f"  [{'PASS' if self.filesystem.passed     else 'FAIL'}] filesystem      {self.filesystem.details}",
+            f"  [{'PASS' if self.hil.passed            else 'FAIL'}] hil             {self.hil.details}",
+            f"  [{'PASS' if self.sandbox.passed        else 'FAIL'}] sandbox         {self.sandbox.details}",
         ]
         if self.errors:
             lines += ["", "Errors:"] + [f"  - {e}" for e in self.errors]
@@ -82,7 +85,7 @@ class IntegrityReport:
 
     def to_md(self) -> str:
         pass_icon = lambda b: "PASS" if b else "FAIL"
-        env = self.environment
+        env  = self.environment
         entr = self.entropy
         fs   = self.filesystem
         hil  = self.hil
@@ -92,11 +95,20 @@ class IntegrityReport:
         hil_invalid = "\n".join(f"  - [{'+' if not v.get('ok') else 'BREACH'}] {v['cmd']}" for v in hil.invalid_results)
         sbx_lines   = "\n".join(f"  - [{'+' if v['blocked'] else 'BREACH'}] `{v['cmd']}` — {v['reason']}" for v in sbx.results)
 
+        root = self.root_structure
         return f"""# Integrity Report: {self.run_id}
 
 **Status:** {self.status}
 **Timestamp:** {self.timestamp}
 **Run ID:** {self.run_id}
+
+---
+
+## Root Structure
+
+**Result:** {pass_icon(root.passed)}
+
+{root.details}
 
 ---
 
@@ -157,14 +169,15 @@ Invalid commands (must be rejected):
 
 ## Summary
 
-| Probe       | Result |
-|-------------|--------|
-| Environment | {pass_icon(env.passed)} |
-| Entropy     | {pass_icon(entr.passed)} |
-| Filesystem  | {pass_icon(fs.passed)} |
-| HIL         | {pass_icon(hil.passed)} |
-| Sandbox     | {pass_icon(sbx.passed)} |
-| **Overall** | **{self.status}** |
+| Probe          | Result |
+|----------------|--------|
+| Root Structure | {pass_icon(root.passed)} |
+| Environment    | {pass_icon(env.passed)} |
+| Entropy        | {pass_icon(entr.passed)} |
+| Filesystem     | {pass_icon(fs.passed)} |
+| HIL            | {pass_icon(hil.passed)} |
+| Sandbox        | {pass_icon(sbx.passed)} |
+| **Overall**    | **{self.status}** |
 """
 
 
@@ -184,48 +197,74 @@ def run_all(
 
     log(f"\n=== Helix Integrity Check — {run_id} ===")
 
-    log("  [1/5] environment_probe...")
+    log("  [0/6] root_structure_probe...")
+    try:
+        root = root_probe()
+    except Exception as e:
+        errors.append(f"root_structure_probe crashed: {e}")
+        root = RootStructureResult(passed=False, unexpected=[], details=str(e))
+    log(f"         {'PASS' if root.passed else 'FAIL'}: {root.details}")
+
+    # Root structure failure is fatal — halt immediately before other probes
+    if not root.passed:
+        status = "INVALID_ROOT_STRUCTURE"
+        report = IntegrityReport(
+            run_id=run_id,
+            timestamp=timestamp,
+            root_structure=root,
+            environment=EnvironmentResult(passed=False, signature="SKIPPED", details="Skipped: root structure invalid"),
+            entropy=EntropyResult(passed=False, sample1="", sample2="", details="Skipped: root structure invalid"),
+            filesystem=FilesystemResult(passed=False, sentinel_path="", details="Skipped: root structure invalid"),
+            hil=HILResult(passed=False, valid_results=[], invalid_results=[], details="Skipped: root structure invalid"),
+            sandbox=SandboxResult(passed=False, results=[], details="Skipped: root structure invalid"),
+            status=status,
+            errors=errors,
+        )
+        log(f"\n  Overall: {status}")
+        if not no_atlas:
+            ATLAS_INTEGRITY.mkdir(parents=True, exist_ok=True)
+            out = ATLAS_INTEGRITY / f"{run_id}.md"
+            out.write_text(report.to_md())
+            log(f"  Written: atlas/system_integrity/{run_id}.md")
+        return report
+
+    log("  [1/6] environment_probe...")
     try:
         env = env_probe()
     except Exception as e:
         errors.append(f"environment_probe crashed: {e}")
-        from core.integrity.environment_probe import EnvironmentResult
         env = EnvironmentResult(passed=False, signature="ERROR", details=str(e))
     log(f"         {'PASS' if env.passed else 'FAIL'}: {env.details}")
 
-    log("  [2/5] entropy_probe...")
+    log("  [2/6] entropy_probe...")
     try:
         entr = entr_probe()
     except Exception as e:
         errors.append(f"entropy_probe crashed: {e}")
-        from core.integrity.entropy_probe import EntropyResult
         entr = EntropyResult(passed=False, sample1="", sample2="", details=str(e))
     log(f"         {'PASS' if entr.passed else 'FAIL'}: {entr.details}")
 
-    log("  [3/5] filesystem_probe...")
+    log("  [3/6] filesystem_probe...")
     try:
         fs = fs_probe()
     except Exception as e:
         errors.append(f"filesystem_probe crashed: {e}")
-        from core.integrity.filesystem_probe import FilesystemResult
         fs = FilesystemResult(passed=False, sentinel_path="", details=str(e))
     log(f"         {'PASS' if fs.passed else 'FAIL'}: {fs.details}")
 
-    log("  [4/5] hil_probe...")
+    log("  [4/6] hil_probe...")
     try:
         hil = hil_probe()
     except Exception as e:
         errors.append(f"hil_probe crashed: {e}")
-        from core.integrity.hil_probe import HILResult
         hil = HILResult(passed=False, valid_results=[], invalid_results=[], details=str(e))
     log(f"         {'PASS' if hil.passed else 'FAIL'}: {hil.details}")
 
-    log("  [5/5] sandbox_probe...")
+    log("  [5/6] sandbox_probe...")
     try:
         sbx = sbx_probe()
     except Exception as e:
         errors.append(f"sandbox_probe crashed: {e}")
-        from core.integrity.sandbox_probe import SandboxResult
         sbx = SandboxResult(passed=False, results=[], details=str(e))
     log(f"         {'PASS' if sbx.passed else 'FAIL'}: {sbx.details}")
 
@@ -249,6 +288,7 @@ def run_all(
     report = IntegrityReport(
         run_id=run_id,
         timestamp=timestamp,
+        root_structure=root,
         environment=env,
         entropy=entr,
         filesystem=fs,
@@ -280,7 +320,7 @@ def gate(verbose: bool = True) -> bool:
     Call this at the top of the dispatcher before running experiments.
     """
     report = run_all(verbose=verbose)
-    if report.status == "INVALID_ENVIRONMENT":
+    if report.status in ("INVALID_ENVIRONMENT", "INVALID_ROOT_STRUCTURE"):
         print(f"\nHELIX INTEGRITY GATE: HALTED — {report.status}")
         print("Experiment execution is suspended. Fix the environment first.")
         return False

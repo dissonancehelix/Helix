@@ -71,9 +71,18 @@ Helix functions as a pattern discovery engine that:
 
   /artifacts       — raw experiment output (append-only)
 
+  /runtime         — local, non-architectural runtime state (gitignored)
+    /venv          — Python virtual environment
+    /deps          — installed dependencies and source packages
+    /cache         — knowledge caches (helix_knowledge, etc.)
+    /tmp           — temporary execution scratch space
+    /reports       — local diagnostic reports
+    /claude        — Claude Code project configuration (.claude/)
+
   HELIX.md         — this file
   OPERATOR.md      — operator context and cognitive model
   ROADMAP.md       — system vision and future modules
+  .gitignore       — excludes runtime/* and build artifacts
 ```
 
 ---
@@ -195,13 +204,17 @@ prefix:name     e.g.  invariant:decision_compression
 
 The integrity harness (`core/integrity/`) runs standard probes before every experiment:
 
-| Probe       | Tests                                           | Failure Meaning            |
-|-------------|------------------------------------------------|----------------------------|
-| environment | WSL2 kernel signature in /proc/version         | Not running in real WSL2   |
-| entropy     | Two /dev/urandom reads differ                  | Execution may be simulated |
-| filesystem  | Sentinel file persists across reads            | Filesystem not persistent  |
-| hil         | HIL accepts valid / rejects invalid commands   | HIL enforcement broken     |
-| sandbox     | Destructive commands blocked (rm -rf /, etc.)  | Safety policy breach       |
+| Probe          | Tests                                           | Failure Meaning                  |
+|----------------|------------------------------------------------|----------------------------------|
+| root_structure | Root contains only allowed architectural dirs  | Repo layout violates HELIX.md    |
+| environment    | WSL2 kernel signature in /proc/version         | Not running in real WSL2         |
+| entropy        | Two /dev/urandom reads differ                  | Execution may be simulated       |
+| filesystem     | Sentinel file persists across reads            | Filesystem not persistent        |
+| hil            | HIL accepts valid / rejects invalid commands   | HIL enforcement broken           |
+| sandbox        | Destructive commands blocked (rm -rf /, etc.)  | Safety policy breach             |
+
+`root_structure` runs first and halts immediately on failure (status: `INVALID_ROOT_STRUCTURE`).
+All other probes are skipped until the root is clean.
 
 ---
 
@@ -411,11 +424,17 @@ Allowed root entries:
 - `atlas/`
 - `interface/`
 - `artifacts/`
+- `runtime/`       — local runtime state; gitignored; never committed
 - `HELIX.md`
 - `OPERATOR.md`
 - `ROADMAP.md`
 - `helix` (CLI wrapper)
+- `.git`
+- `.gitignore`
 
 All functional modules must exist under `core/`.
 No additional folders may be added to the root without architectural review.
 Artifacts are append-only and must never be modified automatically.
+
+Root structure is enforced at runtime by `core/integrity/root_structure.py`.
+Any unexpected root entry will raise `INVALID_ROOT_STRUCTURE` and halt experiment dispatch.
