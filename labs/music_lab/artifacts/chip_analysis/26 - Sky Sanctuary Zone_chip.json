@@ -1,0 +1,50 @@
+{
+  "file": "26 - Sky Sanctuary Zone.vgz",
+  "title": "Sky Sanctuary Zone",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2695505,
+  "duration_sec": 61.12,
+  "events": {
+    "ym2612_port0_writes": 25206,
+    "ym2612_port1_writes": 13315,
+    "psg_writes": 5157,
+    "wait_samples_total": 1476226
+  },
+  "ym2612_channel_activity": {
+    "ch0": 100,
+    "ch1": 20,
+    "ch2": 522,
+    "ch3": 145,
+    "ch4": 144
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg2": 1,
+    "alg4": 6,
+    "alg5": 29,
+    "alg6": 1
+  },
+  "psg_channel_activity": {
+    "ch0": 3039,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 1509
+  },
+  "register_hotspots": {
+    "0xa4": 6775,
+    "0xa0": 6775,
+    "0xa5": 6399,
+    "0xa1": 6399,
+    "0xa6": 3280,
+    "0xa2": 3280,
+    "0x28": 2265,
+    "0x2a": 1314,
+    "0x2b": 421,
+    "0x27": 287
+  }
+}

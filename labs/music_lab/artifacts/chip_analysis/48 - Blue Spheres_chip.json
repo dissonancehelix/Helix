@@ -1,0 +1,50 @@
+{
+  "file": "48 - Blue Spheres.vgz",
+  "title": "Blue Spheres",
+  "artist": "Yoshiaki Kashima",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 3086725,
+  "duration_sec": 69.99,
+  "events": {
+    "ym2612_port0_writes": 27485,
+    "ym2612_port1_writes": 15182,
+    "psg_writes": 6811,
+    "wait_samples_total": 1810611
+  },
+  "ym2612_channel_activity": {
+    "ch0": 265,
+    "ch1": 208,
+    "ch2": 247,
+    "ch3": 238,
+    "ch4": 261
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 3,
+    "alg3": 11,
+    "alg4": 5,
+    "alg5": 7,
+    "alg6": 2
+  },
+  "psg_channel_activity": {
+    "ch0": 1529,
+    "ch1": 1523,
+    "ch2": 4,
+    "ch3": 3341
+  },
+  "register_hotspots": {
+    "0xa5": 7717,
+    "0xa1": 7717,
+    "0xa4": 7398,
+    "0xa0": 7398,
+    "0xa6": 3479,
+    "0xa2": 3479,
+    "0x28": 2959,
+    "0x2a": 730,
+    "0x2b": 505,
+    "0x27": 303
+  }
+}

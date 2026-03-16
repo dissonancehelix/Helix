@@ -1,0 +1,35 @@
+{
+  "track": "Gumball Machine",
+  "file": "45 - Gumball Machine.vgz",
+  "artist": "Jun Senoue",
+  "keyon_density": 19.349,
+  "rhythmic_entropy": 3.6208,
+  "pitch_center": 70.16,
+  "pitch_range": 52,
+  "pitch_entropy": 4.8151,
+  "psg_to_fm_ratio": 2.2228,
+  "ams_fms_usage": 0.0,
+  "silence_ratio": 0.3708,
+  "duration_sec": 39.85,
+  "channel_activity": {
+    "0": 162,
+    "3": 139,
+    "1": 181,
+    "2": 159,
+    "4": 130
+  },
+  "algorithm_dist": {
+    "3": 1,
+    "6": 7,
+    "4": 4,
+    "2": 4,
+    "0": 2
+  },
+  "channel_roles": {
+    "ch0": "lead_or_harmony",
+    "ch1": "lead_or_harmony",
+    "ch2": "lead_or_harmony",
+    "ch3": "lead_or_harmony",
+    "ch4": "lead_or_harmony"
+  }
+}

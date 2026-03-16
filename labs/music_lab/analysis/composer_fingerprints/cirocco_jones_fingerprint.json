@@ -1,0 +1,53 @@
+{
+  "composer": "Cirocco Jones",
+  "training_tracks": 3,
+  "tracks": [
+    "Competition Menu",
+    "Azure Lake",
+    "Chrome Gadget"
+  ],
+  "features": {
+    "keyon_density": {
+      "mean": 13.517,
+      "std": 6.523
+    },
+    "rhythmic_entropy": {
+      "mean": 4.0789,
+      "std": 0.0659
+    },
+    "pitch_center": {
+      "mean": 68.31,
+      "std": 3.04
+    },
+    "pitch_range": {
+      "mean": 44.0,
+      "std": 4.3
+    },
+    "pitch_entropy": {
+      "mean": 3.9938,
+      "std": 0.426
+    },
+    "psg_to_fm_ratio": {
+      "mean": 3.4533,
+      "std": 2.4435
+    },
+    "ams_fms_usage": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "silence_ratio": {
+      "mean": 0.6816,
+      "std": 0.2252
+    }
+  },
+  "algorithm_distribution": {
+    "5": 30,
+    "2": 9,
+    "0": 19,
+    "4": 36,
+    "6": 3,
+    "1": 1,
+    "7": 10
+  },
+  "style_signature": "moderate note density; moderate rhythmic complexity; mid-range pitch center; moderate PSG usage"
+}

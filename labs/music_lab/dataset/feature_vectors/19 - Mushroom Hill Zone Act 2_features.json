@@ -1,0 +1,35 @@
+{
+  "track": "Mushroom Hill Zone Act 2",
+  "file": "19 - Mushroom Hill Zone Act 2.vgz",
+  "artist": "Masanori Hikichi",
+  "keyon_density": 15.504,
+  "rhythmic_entropy": 4.3552,
+  "pitch_center": 70.89,
+  "pitch_range": 42,
+  "pitch_entropy": 4.706,
+  "psg_to_fm_ratio": 0.0244,
+  "ams_fms_usage": 0.0,
+  "silence_ratio": 0.4988,
+  "duration_sec": 42.18,
+  "channel_activity": {
+    "4": 105,
+    "2": 118,
+    "3": 118,
+    "0": 105,
+    "1": 208
+  },
+  "algorithm_dist": {
+    "3": 10,
+    "4": 12,
+    "5": 3,
+    "0": 7,
+    "7": 4
+  },
+  "channel_roles": {
+    "ch0": "accompaniment",
+    "ch1": "lead_or_harmony",
+    "ch2": "accompaniment",
+    "ch3": "accompaniment",
+    "ch4": "accompaniment"
+  }
+}

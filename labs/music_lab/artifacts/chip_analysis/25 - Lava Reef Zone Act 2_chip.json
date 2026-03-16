@@ -1,0 +1,49 @@
+{
+  "file": "25 - Lava Reef Zone Act 2.vgz",
+  "title": "Lava Reef Zone Act 2",
+  "artist": "Masayuki Nagao",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2355575,
+  "duration_sec": 53.41,
+  "events": {
+    "ym2612_port0_writes": 18224,
+    "ym2612_port1_writes": 10149,
+    "psg_writes": 3401,
+    "wait_samples_total": 1599676
+  },
+  "ym2612_channel_activity": {
+    "ch0": 34,
+    "ch1": 199,
+    "ch2": 34,
+    "ch3": 430,
+    "ch4": 280
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 2,
+    "alg2": 2,
+    "alg4": 14,
+    "alg6": 1
+  },
+  "psg_channel_activity": {
+    "ch0": 1036,
+    "ch1": 1433,
+    "ch2": 5,
+    "ch3": 427
+  },
+  "register_hotspots": {
+    "0xa4": 5471,
+    "0xa0": 5471,
+    "0xa5": 4657,
+    "0xa1": 4657,
+    "0x28": 2441,
+    "0xa6": 2256,
+    "0xa2": 2256,
+    "0x2b": 219,
+    "0x27": 119,
+    "0xb6": 92
+  }
+}

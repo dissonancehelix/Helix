@@ -1,0 +1,47 @@
+{
+  "file": "35 - Data Select.vgz",
+  "title": "Data Select",
+  "artist": "Masaru Setsumaru",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2674721,
+  "duration_sec": 60.65,
+  "events": {
+    "ym2612_port0_writes": 23217,
+    "ym2612_port1_writes": 7255,
+    "psg_writes": 5701,
+    "wait_samples_total": 1425311
+  },
+  "ym2612_channel_activity": {
+    "ch0": 162,
+    "ch1": 236,
+    "ch2": 236,
+    "ch3": 205,
+    "ch4": 205
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 9,
+    "alg4": 52
+  },
+  "psg_channel_activity": {
+    "ch0": 1418,
+    "ch1": 1429,
+    "ch2": 4,
+    "ch3": 2506
+  },
+  "register_hotspots": {
+    "0xa4": 4787,
+    "0xa0": 4787,
+    "0xa5": 4490,
+    "0xa1": 4490,
+    "0xa6": 2932,
+    "0xa2": 2932,
+    "0x28": 2888,
+    "0x2b": 481,
+    "0x2a": 430,
+    "0x27": 276
+  }
+}

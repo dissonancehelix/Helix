@@ -1,0 +1,50 @@
+{
+  "file": "30 - Boss Theme.vgz",
+  "title": "Boss Theme",
+  "artist": "Masanori Hikichi",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 1437190,
+  "duration_sec": 32.59,
+  "events": {
+    "ym2612_port0_writes": 13183,
+    "ym2612_port1_writes": 6519,
+    "psg_writes": 318,
+    "wait_samples_total": 541483
+  },
+  "ym2612_channel_activity": {
+    "ch0": 124,
+    "ch1": 155,
+    "ch2": 59,
+    "ch3": 64,
+    "ch4": 123
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 9,
+    "alg2": 2,
+    "alg4": 11,
+    "alg5": 11,
+    "alg7": 4
+  },
+  "psg_channel_activity": {
+    "ch0": 172,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 3486,
+    "0xa1": 3486,
+    "0xa4": 2994,
+    "0xa0": 2994,
+    "0x28": 1421,
+    "0xa6": 1399,
+    "0xa2": 1399,
+    "0x2a": 898,
+    "0x2b": 242,
+    "0x27": 179
+  }
+}

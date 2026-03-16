@@ -1,0 +1,50 @@
+{
+  "file": "32 - The Doomsday Zone.vgz",
+  "title": "The Doomsday Zone",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2755196,
+  "duration_sec": 62.48,
+  "events": {
+    "ym2612_port0_writes": 26165,
+    "ym2612_port1_writes": 10124,
+    "psg_writes": 1540,
+    "wait_samples_total": 1257424
+  },
+  "ym2612_channel_activity": {
+    "ch0": 225,
+    "ch1": 496,
+    "ch2": 174,
+    "ch3": 132,
+    "ch4": 224
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 2,
+    "alg2": 6,
+    "alg4": 8,
+    "alg5": 9,
+    "alg7": 2
+  },
+  "psg_channel_activity": {
+    "ch0": 127,
+    "ch1": 657,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 6519,
+    "0xa1": 6519,
+    "0xa4": 4848,
+    "0xa0": 4848,
+    "0xa6": 3485,
+    "0xa2": 3485,
+    "0x28": 3022,
+    "0x2a": 1812,
+    "0x2b": 522,
+    "0x27": 337
+  }
+}

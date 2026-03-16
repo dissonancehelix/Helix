@@ -1,0 +1,50 @@
+{
+  "file": "36 - Competition Menu.vgz",
+  "title": "Competition Menu",
+  "artist": "Brad Buxer",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x110",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2381387,
+  "duration_sec": 54.0,
+  "events": {
+    "ym2612_port0_writes": 376452,
+    "ym2612_port1_writes": 12784,
+    "psg_writes": 1760,
+    "wait_samples_total": 2381387
+  },
+  "ym2612_channel_activity": {
+    "ch0": 117,
+    "ch1": 22,
+    "ch2": 37,
+    "ch3": 35,
+    "ch4": 21
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 14,
+    "alg2": 3,
+    "alg4": 24,
+    "alg5": 10,
+    "alg6": 3
+  },
+  "psg_channel_activity": {
+    "ch0": 452,
+    "ch1": 453,
+    "ch2": 3,
+    "ch3": 647
+  },
+  "register_hotspots": {
+    "0x2a": 363290,
+    "0xa4": 4329,
+    "0xa0": 4329,
+    "0xa5": 4103,
+    "0xa1": 4103,
+    "0xa6": 2973,
+    "0xa2": 2973,
+    "0x28": 823,
+    "0x2b": 316,
+    "0x27": 167
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "file": "69 - Unused.vgz",
+  "title": "Unused",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 3012954,
+  "duration_sec": 68.32,
+  "events": {
+    "ym2612_port0_writes": 22526,
+    "ym2612_port1_writes": 11853,
+    "psg_writes": 21,
+    "wait_samples_total": 1551815
+  },
+  "ym2612_channel_activity": {
+    "ch0": 97,
+    "ch1": 302,
+    "ch2": 77,
+    "ch3": 211,
+    "ch4": 211
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 2,
+    "alg2": 5,
+    "alg4": 12
+  },
+  "psg_channel_activity": {
+    "ch0": 4,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 6
+  },
+  "register_hotspots": {
+    "0xa4": 6488,
+    "0xa0": 6488,
+    "0xa5": 6295,
+    "0xa1": 6295,
+    "0x28": 2696,
+    "0xa6": 1884,
+    "0xa2": 1884,
+    "0x2a": 1000,
+    "0x2b": 438,
+    "0x27": 256
+  }
+}

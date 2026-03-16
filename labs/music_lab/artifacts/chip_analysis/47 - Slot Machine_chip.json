@@ -1,0 +1,50 @@
+{
+  "file": "47 - Slot Machine.vgz",
+  "title": "Slot Machine",
+  "artist": "Jun Senoue",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2266710,
+  "duration_sec": 51.4,
+  "events": {
+    "ym2612_port0_writes": 16259,
+    "ym2612_port1_writes": 9295,
+    "psg_writes": 11320,
+    "wait_samples_total": 835136
+  },
+  "ym2612_channel_activity": {
+    "ch0": 239,
+    "ch1": 131,
+    "ch2": 123,
+    "ch3": 174,
+    "ch4": 131
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg2": 2,
+    "alg3": 3,
+    "alg4": 4,
+    "alg6": 1
+  },
+  "psg_channel_activity": {
+    "ch0": 3160,
+    "ch1": 3161,
+    "ch2": 4,
+    "ch3": 357
+  },
+  "register_hotspots": {
+    "0xa4": 4696,
+    "0xa0": 4696,
+    "0xa5": 3880,
+    "0xa1": 3880,
+    "0x28": 2360,
+    "0xa6": 1758,
+    "0xa2": 1758,
+    "0x2a": 1394,
+    "0x2b": 419,
+    "0x27": 290
+  }
+}

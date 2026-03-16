@@ -1,0 +1,50 @@
+{
+  "file": "68 - Staff Roll (prototype).vgz",
+  "title": "Staff Roll (Beta)",
+  "artist": "Tatsuyuki Maeda",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 3631769,
+  "duration_sec": 82.35,
+  "events": {
+    "ym2612_port0_writes": 25350,
+    "ym2612_port1_writes": 16620,
+    "psg_writes": 37897,
+    "wait_samples_total": 2337934
+  },
+  "ym2612_channel_activity": {
+    "ch0": 185,
+    "ch1": 216,
+    "ch2": 525,
+    "ch3": 126,
+    "ch4": 183
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg2": 6,
+    "alg3": 1,
+    "alg5": 4,
+    "alg6": 12
+  },
+  "psg_channel_activity": {
+    "ch0": 6677,
+    "ch1": 6677,
+    "ch2": 5522,
+    "ch3": 4910
+  },
+  "register_hotspots": {
+    "0xa4": 8104,
+    "0xa0": 8104,
+    "0xa5": 5452,
+    "0xa1": 5452,
+    "0xa6": 3928,
+    "0xa2": 3928,
+    "0x28": 3035,
+    "0x2a": 2519,
+    "0x2b": 349,
+    "0x27": 213
+  }
+}

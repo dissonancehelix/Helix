@@ -1,0 +1,49 @@
+{
+  "file": "04 - Hydrocity Zone Act 1.vgz",
+  "title": "Hydrocity Zone Act 1",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2504960,
+  "duration_sec": 56.8,
+  "events": {
+    "ym2612_port0_writes": 17608,
+    "ym2612_port1_writes": 9425,
+    "psg_writes": 3443,
+    "wait_samples_total": 1727286
+  },
+  "ym2612_channel_activity": {
+    "ch0": 239,
+    "ch1": 203,
+    "ch2": 237,
+    "ch3": 192,
+    "ch4": 233
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg2": 40,
+    "alg4": 18,
+    "alg7": 2
+  },
+  "psg_channel_activity": {
+    "ch0": 963,
+    "ch1": 965,
+    "ch2": 2,
+    "ch3": 1164
+  },
+  "register_hotspots": {
+    "0xa4": 4190,
+    "0xa0": 4190,
+    "0xa5": 4186,
+    "0xa1": 4186,
+    "0x28": 2920,
+    "0xa6": 2226,
+    "0xa2": 2226,
+    "0x2b": 266,
+    "0x27": 144,
+    "0x40": 80
+  }
+}

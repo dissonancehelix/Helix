@@ -1,0 +1,49 @@
+{
+  "file": "12 - Launch Base Zone Act 1.vgz",
+  "title": "Launch Base Zone Act 1",
+  "artist": "Brad Buxer",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 3120695,
+  "duration_sec": 70.76,
+  "events": {
+    "ym2612_port0_writes": 17880,
+    "ym2612_port1_writes": 6335,
+    "psg_writes": 5628,
+    "wait_samples_total": 1023850
+  },
+  "ym2612_channel_activity": {
+    "ch0": 85,
+    "ch1": 206,
+    "ch2": 26,
+    "ch3": 26,
+    "ch4": 53
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 2,
+    "alg2": 38,
+    "alg3": 4,
+    "alg5": 8
+  },
+  "psg_channel_activity": {
+    "ch0": 266,
+    "ch1": 1205,
+    "ch2": 4,
+    "ch3": 3110
+  },
+  "register_hotspots": {
+    "0xa5": 4112,
+    "0xa1": 4112,
+    "0xa4": 2975,
+    "0xa0": 2975,
+    "0x2a": 2266,
+    "0xa6": 1973,
+    "0xa2": 1973,
+    "0x28": 1355,
+    "0x2b": 403,
+    "0x27": 335
+  }
+}

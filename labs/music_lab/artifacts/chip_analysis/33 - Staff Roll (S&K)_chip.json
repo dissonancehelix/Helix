@@ -1,0 +1,51 @@
+{
+  "file": "33 - Staff Roll (S&K).vgz",
+  "title": "Staff Roll (S&K)",
+  "artist": "Masaru Setsumaru",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 7478577,
+  "duration_sec": 169.58,
+  "events": {
+    "ym2612_port0_writes": 58554,
+    "ym2612_port1_writes": 28374,
+    "psg_writes": 6645,
+    "wait_samples_total": 3959620
+  },
+  "ym2612_channel_activity": {
+    "ch0": 449,
+    "ch1": 599,
+    "ch2": 618,
+    "ch3": 397,
+    "ch4": 414
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 14,
+    "alg2": 11,
+    "alg3": 19,
+    "alg4": 21,
+    "alg5": 30,
+    "alg7": 2
+  },
+  "psg_channel_activity": {
+    "ch0": 3271,
+    "ch1": 1459,
+    "ch2": 4,
+    "ch3": 1135
+  },
+  "register_hotspots": {
+    "0xa5": 14105,
+    "0xa1": 14105,
+    "0xa4": 13324,
+    "0xa0": 13324,
+    "0x2a": 6795,
+    "0x28": 6701,
+    "0xa6": 6662,
+    "0xa2": 6662,
+    "0x2b": 1213,
+    "0x27": 752
+  }
+}

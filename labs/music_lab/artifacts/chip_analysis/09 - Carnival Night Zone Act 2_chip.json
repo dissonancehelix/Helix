@@ -1,0 +1,48 @@
+{
+  "file": "09 - Carnival Night Zone Act 2.vgz",
+  "title": "Carnival Night Zone Act 2",
+  "artist": "Brad Buxer",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2977582,
+  "duration_sec": 67.52,
+  "events": {
+    "ym2612_port0_writes": 11229,
+    "ym2612_port1_writes": 6192,
+    "psg_writes": 6669,
+    "wait_samples_total": 1804045
+  },
+  "ym2612_channel_activity": {
+    "ch0": 121,
+    "ch1": 81,
+    "ch2": 58,
+    "ch3": 128,
+    "ch4": 98
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg3": 46,
+    "alg5": 3
+  },
+  "psg_channel_activity": {
+    "ch0": 1428,
+    "ch1": 2021,
+    "ch2": 2,
+    "ch3": 441
+  },
+  "register_hotspots": {
+    "0xa4": 3067,
+    "0xa0": 3067,
+    "0xa5": 2689,
+    "0xa1": 2689,
+    "0x28": 1591,
+    "0xa6": 1099,
+    "0xa2": 1099,
+    "0x2b": 338,
+    "0x27": 172,
+    "0x80": 46
+  }
+}

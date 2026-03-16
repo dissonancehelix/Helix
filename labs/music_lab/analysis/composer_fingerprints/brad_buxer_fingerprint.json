@@ -1,0 +1,56 @@
+{
+  "composer": "Brad Buxer",
+  "training_tracks": 7,
+  "tracks": [
+    "Carnival Night Zone Act 1",
+    "Carnival Night Zone Act 2",
+    "IceCap Zone Act 1",
+    "IceCap Zone Act 2",
+    "Launch Base Zone Act 1",
+    "Launch Base Zone Act 2",
+    "Data Select"
+  ],
+  "features": {
+    "keyon_density": {
+      "mean": 11.667,
+      "std": 5.696
+    },
+    "rhythmic_entropy": {
+      "mean": 3.9684,
+      "std": 0.6853
+    },
+    "pitch_center": {
+      "mean": 67.34,
+      "std": 5.05
+    },
+    "pitch_range": {
+      "mean": 49.9,
+      "std": 7.5
+    },
+    "pitch_entropy": {
+      "mean": 4.2039,
+      "std": 0.4666
+    },
+    "psg_to_fm_ratio": {
+      "mean": 7.6868,
+      "std": 3.5961
+    },
+    "ams_fms_usage": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "silence_ratio": {
+      "mean": 0.4702,
+      "std": 0.1167
+    }
+  },
+  "algorithm_distribution": {
+    "3": 135,
+    "5": 81,
+    "0": 21,
+    "2": 98,
+    "6": 8,
+    "4": 52
+  },
+  "style_signature": "moderate note density; simple/driving rhythm; mid-range pitch center; heavy PSG usage"
+}

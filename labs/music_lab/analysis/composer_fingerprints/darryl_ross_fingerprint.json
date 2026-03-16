@@ -1,0 +1,50 @@
+{
+  "composer": "Darryl Ross",
+  "training_tracks": 1,
+  "tracks": [
+    "Balloon Park"
+  ],
+  "features": {
+    "keyon_density": {
+      "mean": 18.888,
+      "std": 0.0
+    },
+    "rhythmic_entropy": {
+      "mean": 3.1476,
+      "std": 0.0
+    },
+    "pitch_center": {
+      "mean": 71.26,
+      "std": 0.0
+    },
+    "pitch_range": {
+      "mean": 49.0,
+      "std": 0.0
+    },
+    "pitch_entropy": {
+      "mean": 4.7049,
+      "std": 0.0
+    },
+    "psg_to_fm_ratio": {
+      "mean": 0.633,
+      "std": 0.0
+    },
+    "ams_fms_usage": {
+      "mean": 0.0,
+      "std": 0.0
+    },
+    "silence_ratio": {
+      "mean": 0.4063,
+      "std": 0.0
+    }
+  },
+  "algorithm_distribution": {
+    "4": 14,
+    "7": 2,
+    "0": 3,
+    "2": 4,
+    "5": 6,
+    "1": 2
+  },
+  "style_signature": "high note density; simple/driving rhythm; treble-forward pitch; FM-dominant"
+}

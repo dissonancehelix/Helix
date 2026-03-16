@@ -1,0 +1,50 @@
+{
+  "file": "06 - Marble Garden Zone Act 1.vgz",
+  "title": "Marble Garden Zone Act 1",
+  "artist": "Miyoko Takaoka",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2633872,
+  "duration_sec": 59.72,
+  "events": {
+    "ym2612_port0_writes": 16897,
+    "ym2612_port1_writes": 9816,
+    "psg_writes": 22,
+    "wait_samples_total": 1335709
+  },
+  "ym2612_channel_activity": {
+    "ch0": 183,
+    "ch1": 86,
+    "ch2": 162,
+    "ch3": 164,
+    "ch4": 86
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 15,
+    "alg2": 2,
+    "alg3": 94,
+    "alg4": 20,
+    "alg7": 2
+  },
+  "psg_channel_activity": {
+    "ch0": 4,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa4": 4087,
+    "0xa0": 4087,
+    "0xa5": 3587,
+    "0xa1": 3587,
+    "0xa6": 2120,
+    "0xa2": 2120,
+    "0x28": 2040,
+    "0x2b": 565,
+    "0x27": 299,
+    "0x2a": 160
+  }
+}

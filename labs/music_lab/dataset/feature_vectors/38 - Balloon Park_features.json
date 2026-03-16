@@ -1,0 +1,36 @@
+{
+  "track": "Balloon Park",
+  "file": "38 - Balloon Park.vgz",
+  "artist": "Jun Senoue",
+  "keyon_density": 18.888,
+  "rhythmic_entropy": 3.1476,
+  "pitch_center": 71.26,
+  "pitch_range": 49,
+  "pitch_entropy": 4.7049,
+  "psg_to_fm_ratio": 0.633,
+  "ams_fms_usage": 0.0,
+  "silence_ratio": 0.4063,
+  "duration_sec": 54.48,
+  "channel_activity": {
+    "0": 194,
+    "1": 275,
+    "3": 289,
+    "4": 34,
+    "2": 237
+  },
+  "algorithm_dist": {
+    "4": 14,
+    "7": 2,
+    "0": 3,
+    "2": 4,
+    "5": 6,
+    "1": 2
+  },
+  "channel_roles": {
+    "ch0": "accompaniment",
+    "ch1": "lead_or_harmony",
+    "ch2": "lead_or_harmony",
+    "ch3": "lead_or_harmony",
+    "ch4": "sparse/fx"
+  }
+}

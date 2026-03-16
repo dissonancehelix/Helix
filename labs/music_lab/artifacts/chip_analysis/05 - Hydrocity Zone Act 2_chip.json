@@ -1,0 +1,48 @@
+{
+  "file": "05 - Hydrocity Zone Act 2.vgz",
+  "title": "Hydrocity Zone Act 2",
+  "artist": "Masayuki Nagao",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2308726,
+  "duration_sec": 52.35,
+  "events": {
+    "ym2612_port0_writes": 17655,
+    "ym2612_port1_writes": 7033,
+    "psg_writes": 2538,
+    "wait_samples_total": 1308087
+  },
+  "ym2612_channel_activity": {
+    "ch0": 283,
+    "ch1": 207,
+    "ch2": 283,
+    "ch3": 236,
+    "ch4": 219
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 3,
+    "alg2": 6,
+    "alg4": 8
+  },
+  "psg_channel_activity": {
+    "ch0": 634,
+    "ch1": 774,
+    "ch2": 2,
+    "ch3": 857
+  },
+  "register_hotspots": {
+    "0xa4": 3873,
+    "0xa0": 3873,
+    "0xa5": 3686,
+    "0xa1": 3686,
+    "0x28": 3539,
+    "0xa6": 2104,
+    "0xa2": 2104,
+    "0x2a": 645,
+    "0x2b": 351,
+    "0x27": 229
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "file": "65 - Launch Base Zone Act 2 (prototype).vgz",
+  "title": "Launch Base Zone Act 2 (Beta)",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2974127,
+  "duration_sec": 67.44,
+  "events": {
+    "ym2612_port0_writes": 21272,
+    "ym2612_port1_writes": 9153,
+    "psg_writes": 34595,
+    "wait_samples_total": 1590005
+  },
+  "ym2612_channel_activity": {
+    "ch0": 400,
+    "ch1": 400,
+    "ch2": 169,
+    "ch3": 182,
+    "ch4": 169
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg4": 8,
+    "alg6": 2
+  },
+  "psg_channel_activity": {
+    "ch0": 6687,
+    "ch1": 6687,
+    "ch2": 5567,
+    "ch3": 4048
+  },
+  "register_hotspots": {
+    "0xa5": 5205,
+    "0xa1": 5205,
+    "0xa4": 4134,
+    "0xa0": 4134,
+    "0x28": 4130,
+    "0xa6": 2795,
+    "0xa2": 2795,
+    "0x2a": 1060,
+    "0x2b": 382,
+    "0x27": 247
+  }
+}

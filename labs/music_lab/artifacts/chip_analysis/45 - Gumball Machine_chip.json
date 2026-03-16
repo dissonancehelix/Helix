@@ -1,0 +1,50 @@
+{
+  "file": "45 - Gumball Machine.vgz",
+  "title": "Gumball Machine",
+  "artist": "Jun Senoue",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 1757238,
+  "duration_sec": 39.85,
+  "events": {
+    "ym2612_port0_writes": 14887,
+    "ym2612_port1_writes": 7057,
+    "psg_writes": 2042,
+    "wait_samples_total": 651669
+  },
+  "ym2612_channel_activity": {
+    "ch0": 162,
+    "ch1": 181,
+    "ch2": 159,
+    "ch3": 139,
+    "ch4": 130
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 2,
+    "alg2": 4,
+    "alg3": 1,
+    "alg4": 4,
+    "alg6": 7
+  },
+  "psg_channel_activity": {
+    "ch0": 607,
+    "ch1": 612,
+    "ch2": 4,
+    "ch3": 493
+  },
+  "register_hotspots": {
+    "0xa4": 4129,
+    "0xa0": 4129,
+    "0xa5": 2744,
+    "0xa1": 2744,
+    "0x28": 2233,
+    "0xa6": 1820,
+    "0xa2": 1820,
+    "0x2a": 1070,
+    "0x2b": 301,
+    "0x27": 219
+  }
+}

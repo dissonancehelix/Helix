@@ -1,0 +1,49 @@
+{
+  "file": "14 - Sub-Boss (S3).vgz",
+  "title": "Sub-Boss (S3)",
+  "artist": "Brad Buxer",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2690185,
+  "duration_sec": 61.0,
+  "events": {
+    "ym2612_port0_writes": 18623,
+    "ym2612_port1_writes": 11383,
+    "psg_writes": 8487,
+    "wait_samples_total": 1129262
+  },
+  "ym2612_channel_activity": {
+    "ch0": 163,
+    "ch1": 159,
+    "ch2": 176,
+    "ch3": 40,
+    "ch4": 40
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg2": 1,
+    "alg4": 43,
+    "alg5": 48
+  },
+  "psg_channel_activity": {
+    "ch0": 4129,
+    "ch1": 122,
+    "ch2": 2,
+    "ch3": 1111
+  },
+  "register_hotspots": {
+    "0xa4": 5241,
+    "0xa0": 5241,
+    "0xa5": 5022,
+    "0xa1": 5022,
+    "0xa6": 1685,
+    "0xa2": 1685,
+    "0x28": 1581,
+    "0x2a": 1223,
+    "0x2b": 204,
+    "0x27": 184
+  }
+}

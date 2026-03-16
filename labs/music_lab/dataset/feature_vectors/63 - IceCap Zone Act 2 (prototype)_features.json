@@ -1,0 +1,32 @@
+{
+  "track": "IceCap Zone Act 2 (Beta)",
+  "file": "63 - IceCap Zone Act 2 (prototype).vgz",
+  "artist": "Sega Sound Team",
+  "keyon_density": 16.567,
+  "rhythmic_entropy": 3.7338,
+  "pitch_center": 70.75,
+  "pitch_range": 60,
+  "pitch_entropy": 3.7812,
+  "psg_to_fm_ratio": 16.1402,
+  "ams_fms_usage": 0.0,
+  "silence_ratio": 0.4696,
+  "duration_sec": 94.65,
+  "channel_activity": {
+    "0": 155,
+    "1": 458,
+    "2": 408,
+    "3": 408,
+    "4": 139
+  },
+  "algorithm_dist": {
+    "5": 15,
+    "2": 1
+  },
+  "channel_roles": {
+    "ch0": "accompaniment",
+    "ch1": "lead_or_harmony",
+    "ch2": "lead_or_harmony",
+    "ch3": "lead_or_harmony",
+    "ch4": "accompaniment"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "file": "03 - Angel Island Zone Act 2.vgz",
+  "title": "Angel Island Zone Act 2",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2862161,
+  "duration_sec": 64.9,
+  "events": {
+    "ym2612_port0_writes": 24269,
+    "ym2612_port1_writes": 12106,
+    "psg_writes": 6098,
+    "wait_samples_total": 1139483
+  },
+  "ym2612_channel_activity": {
+    "ch0": 294,
+    "ch1": 282,
+    "ch2": 264,
+    "ch3": 172,
+    "ch4": 222
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 30,
+    "alg1": 17,
+    "alg2": 42,
+    "alg4": 15,
+    "alg6": 21,
+    "alg7": 2
+  },
+  "psg_channel_activity": {
+    "ch0": 1339,
+    "ch1": 1558,
+    "ch2": 4,
+    "ch3": 2492
+  },
+  "register_hotspots": {
+    "0xa4": 5904,
+    "0xa0": 5904,
+    "0xa5": 5083,
+    "0xa1": 5083,
+    "0x28": 3667,
+    "0x2a": 1995,
+    "0xa6": 1892,
+    "0xa2": 1892,
+    "0x2b": 555,
+    "0x27": 380
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "file": "41 - Endless Mine.vgz",
+  "title": "Endless Mine",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2613814,
+  "duration_sec": 59.27,
+  "events": {
+    "ym2612_port0_writes": 22575,
+    "ym2612_port1_writes": 10375,
+    "psg_writes": 1758,
+    "wait_samples_total": 1921628
+  },
+  "ym2612_channel_activity": {
+    "ch0": 128,
+    "ch1": 263,
+    "ch2": 334,
+    "ch3": 271,
+    "ch4": 129
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 5,
+    "alg2": 4,
+    "alg3": 12,
+    "alg4": 6,
+    "alg5": 6
+  },
+  "psg_channel_activity": {
+    "ch0": 882,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 6352,
+    "0xa1": 6352,
+    "0xa4": 4955,
+    "0xa0": 4955,
+    "0xa6": 2907,
+    "0xa2": 2907,
+    "0x28": 2680,
+    "0x2b": 315,
+    "0x2a": 292,
+    "0x27": 184
+  }
+}

@@ -1,0 +1,1766 @@
+[
+  {
+    "track": "Angel Island Zone Act 1",
+    "file": "02 - Angel Island Zone Act 1.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.9235,
+      "Howard Drossin": 0.0493,
+      "Cirocco Jones": 0.0103,
+      "Darryl Ross": 0.0095,
+      "Brad Buxer": 0.0075
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.9235,
+    "musicological_prior": {
+      "Jun Senoue": 0.95,
+      "Howard Drossin": 0.05
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5357,
+      "Howard Drossin": 0.5435,
+      "Brad Buxer": 0.4141,
+      "Cirocco Jones": 0.5653,
+      "Darryl Ross": 0.5208
+    },
+    "features": {
+      "keyon_density": 19.35,
+      "rhythmic_entropy": 4.162,
+      "pitch_center": 73.2,
+      "psg_to_fm_ratio": 3.015,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (92.3% posterior). High note density (19.3/s) typical of energetic composition."
+  },
+  {
+    "track": "Angel Island Zone Act 2",
+    "file": "03 - Angel Island Zone Act 2.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.8082,
+      "Howard Drossin": 0.1645,
+      "Cirocco Jones": 0.0107,
+      "Darryl Ross": 0.0096,
+      "Brad Buxer": 0.0071
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8082,
+    "musicological_prior": {
+      "Jun Senoue": 0.85,
+      "Howard Drossin": 0.15
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.4752,
+      "Howard Drossin": 0.5481,
+      "Brad Buxer": 0.3528,
+      "Cirocco Jones": 0.5354,
+      "Darryl Ross": 0.4782
+    },
+    "features": {
+      "keyon_density": 19.01,
+      "rhythmic_entropy": 3.546,
+      "pitch_center": 74.2,
+      "psg_to_fm_ratio": 4.367,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (80.8% posterior). High note density (19.0/s) typical of energetic composition."
+  },
+  {
+    "track": "Hydrocity Zone Act 1",
+    "file": "04 - Hydrocity Zone Act 1.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.8624,
+      "Howard Drossin": 0.1104,
+      "Cirocco Jones": 0.0103,
+      "Darryl Ross": 0.0093,
+      "Brad Buxer": 0.0076
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8624,
+    "musicological_prior": {
+      "Jun Senoue": 0.9,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.4936,
+      "Howard Drossin": 0.5688,
+      "Brad Buxer": 0.3923,
+      "Cirocco Jones": 0.5282,
+      "Darryl Ross": 0.4794
+    },
+    "features": {
+      "keyon_density": 19.44,
+      "rhythmic_entropy": 4.181,
+      "pitch_center": 74.7,
+      "psg_to_fm_ratio": 2.8,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (86.2% posterior). High note density (19.4/s) typical of energetic composition."
+  },
+  {
+    "track": "Hydrocity Zone Act 2",
+    "file": "05 - Hydrocity Zone Act 2.vgz",
+    "metadata_artist": "Masayuki Nagao",
+    "attribution": {
+      "Jun Senoue": 0.8636,
+      "Howard Drossin": 0.109,
+      "Cirocco Jones": 0.0106,
+      "Darryl Ross": 0.0095,
+      "Brad Buxer": 0.0073
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8636,
+    "musicological_prior": {
+      "Jun Senoue": 0.9,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.476,
+      "Howard Drossin": 0.5405,
+      "Brad Buxer": 0.3644,
+      "Cirocco Jones": 0.5258,
+      "Darryl Ross": 0.4688
+    },
+    "features": {
+      "keyon_density": 23.46,
+      "rhythmic_entropy": 4.045,
+      "pitch_center": 77.8,
+      "psg_to_fm_ratio": 1.845,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (86.4% posterior). High note density (23.5/s) typical of energetic composition."
+  },
+  {
+    "track": "Marble Garden Zone Act 1",
+    "file": "06 - Marble Garden Zone Act 1.vgz",
+    "metadata_artist": "Miyoko Takaoka",
+    "attribution": {
+      "Jun Senoue": 0.8247,
+      "Howard Drossin": 0.1487,
+      "Cirocco Jones": 0.0093,
+      "Darryl Ross": 0.009,
+      "Brad Buxer": 0.0083
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8247,
+    "musicological_prior": {
+      "Jun Senoue": 0.85,
+      "Howard Drossin": 0.15
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6948,
+      "Howard Drossin": 0.71,
+      "Brad Buxer": 0.5937,
+      "Cirocco Jones": 0.6637,
+      "Darryl Ross": 0.6454
+    },
+    "features": {
+      "keyon_density": 11.4,
+      "rhythmic_entropy": 4.598,
+      "pitch_center": 70.6,
+      "psg_to_fm_ratio": 0.023,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (82.5% posterior)."
+  },
+  {
+    "track": "Marble Garden Zone Act 2",
+    "file": "07 - Marble Garden Zone Act 2.vgz",
+    "metadata_artist": "Masanori Hikichi",
+    "attribution": {
+      "Jun Senoue": 0.7154,
+      "Howard Drossin": 0.2577,
+      "Darryl Ross": 0.0094,
+      "Cirocco Jones": 0.0093,
+      "Brad Buxer": 0.0082
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.7154,
+    "musicological_prior": {
+      "Jun Senoue": 0.75,
+      "Howard Drossin": 0.25
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.7173,
+      "Howard Drossin": 0.7753,
+      "Brad Buxer": 0.6162,
+      "Cirocco Jones": 0.7023,
+      "Darryl Ross": 0.7053
+    },
+    "features": {
+      "keyon_density": 8.06,
+      "rhythmic_entropy": 4.748,
+      "pitch_center": 61.4,
+      "psg_to_fm_ratio": 0.033,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (71.5% posterior). Low pitch center (61) suggests bass-heavy or darker tonality."
+  },
+  {
+    "track": "Carnival Night Zone Act 1",
+    "file": "08 - Carnival Night Zone Act 1.vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Brad Buxer": 0.6439,
+      "Jun Senoue": 0.215,
+      "Howard Drossin": 0.1206,
+      "Cirocco Jones": 0.0105,
+      "Darryl Ross": 0.01
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.6439,
+    "musicological_prior": {
+      "Brad Buxer": 0.7,
+      "Jun Senoue": 0.2,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5499,
+      "Howard Drossin": 0.6169,
+      "Brad Buxer": 0.4705,
+      "Cirocco Jones": 0.5353,
+      "Darryl Ross": 0.5093
+    },
+    "features": {
+      "keyon_density": 11.51,
+      "rhythmic_entropy": 3.842,
+      "pitch_center": 73.7,
+      "psg_to_fm_ratio": 8.211,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (64.4% posterior). High PSG/FM ratio (8.21) consistent with Brad Buxer's style. Carnival Night Zone: Brad Buxer/MJ collaboration confirmed via structural analysis."
+  },
+  {
+    "track": "Carnival Night Zone Act 2",
+    "file": "09 - Carnival Night Zone Act 2.vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Brad Buxer": 0.6373,
+      "Jun Senoue": 0.2166,
+      "Howard Drossin": 0.1244,
+      "Cirocco Jones": 0.011,
+      "Darryl Ross": 0.0106
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.6373,
+    "musicological_prior": {
+      "Brad Buxer": 0.7,
+      "Jun Senoue": 0.2,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.626,
+      "Howard Drossin": 0.7192,
+      "Brad Buxer": 0.5262,
+      "Cirocco Jones": 0.6376,
+      "Darryl Ross": 0.6129
+    },
+    "features": {
+      "keyon_density": 7.2,
+      "rhythmic_entropy": 4.56,
+      "pitch_center": 71.6,
+      "psg_to_fm_ratio": 7.992,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (63.7% posterior). High PSG/FM ratio (7.99) consistent with Brad Buxer's style. Carnival Night Zone: Brad Buxer/MJ collaboration confirmed via structural analysis."
+  },
+  {
+    "track": "IceCap Zone Act 1",
+    "file": "10 - IceCap Zone Act 1.vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Brad Buxer": 0.814,
+      "Jun Senoue": 0.1073,
+      "Howard Drossin": 0.0549,
+      "Cirocco Jones": 0.012,
+      "Darryl Ross": 0.0118
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.814,
+    "musicological_prior": {
+      "Brad Buxer": 0.85,
+      "Jun Senoue": 0.1,
+      "Howard Drossin": 0.05
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5213,
+      "Howard Drossin": 0.5339,
+      "Brad Buxer": 0.4653,
+      "Cirocco Jones": 0.5811,
+      "Darryl Ross": 0.5745
+    },
+    "features": {
+      "keyon_density": 18.91,
+      "rhythmic_entropy": 3.102,
+      "pitch_center": 60.3,
+      "psg_to_fm_ratio": 2.193,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (81.4% posterior). Low rhythmic entropy (3.10b) suggests repetitive groove pattern. High note density (18.9/s) typical of energetic composition. Low pitch center (60) suggests bass-heavy or darker tonality. IceCap Zone: based on The Jetzons 'Hard Times' (1981), Brad Buxer confirmed as composer."
+  },
+  {
+    "track": "IceCap Zone Act 2",
+    "file": "11 - IceCap Zone Act 2.vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Brad Buxer": 0.8187,
+      "Jun Senoue": 0.1057,
+      "Howard Drossin": 0.0528,
+      "Darryl Ross": 0.0114,
+      "Cirocco Jones": 0.0114
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.8187,
+    "musicological_prior": {
+      "Brad Buxer": 0.85,
+      "Jun Senoue": 0.1,
+      "Howard Drossin": 0.05
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5519,
+      "Howard Drossin": 0.5514,
+      "Brad Buxer": 0.5029,
+      "Cirocco Jones": 0.5958,
+      "Darryl Ross": 0.5971
+    },
+    "features": {
+      "keyon_density": 17.13,
+      "rhythmic_entropy": 3.603,
+      "pitch_center": 60.7,
+      "psg_to_fm_ratio": 5.316,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (81.9% posterior). High PSG/FM ratio (5.32) consistent with Brad Buxer's style. High note density (17.1/s) typical of energetic composition. Low pitch center (61) suggests bass-heavy or darker tonality. IceCap Zone: based on The Jetzons 'Hard Times' (1981), Brad Buxer confirmed as composer."
+  },
+  {
+    "track": "Launch Base Zone Act 1",
+    "file": "12 - Launch Base Zone Act 1.vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Brad Buxer": 0.5969,
+      "Jun Senoue": 0.2584,
+      "Howard Drossin": 0.1234,
+      "Cirocco Jones": 0.0106,
+      "Darryl Ross": 0.0106
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.5969,
+    "musicological_prior": {
+      "Brad Buxer": 0.65,
+      "Jun Senoue": 0.25,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.65,
+      "Howard Drossin": 0.7762,
+      "Brad Buxer": 0.5775,
+      "Cirocco Jones": 0.6681,
+      "Darryl Ross": 0.6668
+    },
+    "features": {
+      "keyon_density": 5.6,
+      "rhythmic_entropy": 4.989,
+      "pitch_center": 66.0,
+      "psg_to_fm_ratio": 11.549,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (59.7% posterior). High PSG/FM ratio (11.55) consistent with Brad Buxer's style. High rhythmic entropy (4.99b) suggests complex arrangement. Launch Base Zone: strong rhythmic groove signature consistent with Buxer's funk style."
+  },
+  {
+    "track": "Launch Base Zone Act 2",
+    "file": "13 - Launch Base Zone Act 2.vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Brad Buxer": 0.5813,
+      "Jun Senoue": 0.2597,
+      "Howard Drossin": 0.1369,
+      "Cirocco Jones": 0.0112,
+      "Darryl Ross": 0.011
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.5813,
+    "musicological_prior": {
+      "Brad Buxer": 0.65,
+      "Jun Senoue": 0.25,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5933,
+      "Howard Drossin": 0.7817,
+      "Brad Buxer": 0.5107,
+      "Cirocco Jones": 0.64,
+      "Darryl Ross": 0.6276
+    },
+    "features": {
+      "keyon_density": 4.11,
+      "rhythmic_entropy": 4.535,
+      "pitch_center": 66.7,
+      "psg_to_fm_ratio": 13.421,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (58.1% posterior). High PSG/FM ratio (13.42) consistent with Brad Buxer's style. Launch Base Zone: strong rhythmic groove signature consistent with Buxer's funk style."
+  },
+  {
+    "track": "Sub-Boss (S3)",
+    "file": "14 - Sub-Boss (S3).vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Jun Senoue": 0.7028,
+      "Howard Drossin": 0.2684,
+      "Darryl Ross": 0.0099,
+      "Brad Buxer": 0.0095,
+      "Cirocco Jones": 0.0094
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.7028,
+    "musicological_prior": {
+      "Jun Senoue": 0.7,
+      "Howard Drossin": 0.3
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.7497,
+      "Howard Drossin": 0.668,
+      "Brad Buxer": 0.7122,
+      "Cirocco Jones": 0.6984,
+      "Darryl Ross": 0.7382
+    },
+    "features": {
+      "keyon_density": 9.48,
+      "rhythmic_entropy": 4.596,
+      "pitch_center": 60.6,
+      "psg_to_fm_ratio": 9.264,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (70.3% posterior). High PSG/FM ratio (9.26) consistent with Jun Senoue's style. Low pitch center (61) suggests bass-heavy or darker tonality."
+  },
+  {
+    "track": "Staff Roll (S3)",
+    "file": "15 - Staff Roll (S3).vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Jun Senoue": 0.6952,
+      "Brad Buxer": 0.2744,
+      "Howard Drossin": 0.0117,
+      "Darryl Ross": 0.0094,
+      "Cirocco Jones": 0.0094
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.6952,
+    "musicological_prior": {
+      "Jun Senoue": 0.7,
+      "Brad Buxer": 0.3
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5462,
+      "Howard Drossin": 0.641,
+      "Brad Buxer": 0.5029,
+      "Cirocco Jones": 0.5143,
+      "Darryl Ross": 0.5166
+    },
+    "features": {
+      "keyon_density": 13.68,
+      "rhythmic_entropy": 4.409,
+      "pitch_center": 64.9,
+      "psg_to_fm_ratio": 3.749,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (69.5% posterior). Low pitch center (65) suggests bass-heavy or darker tonality."
+  },
+  {
+    "track": "Mushroom Hill Zone Act 1",
+    "file": "18 - Mushroom Hill Zone Act 1.vgz",
+    "metadata_artist": "Masanori Hikichi",
+    "attribution": {
+      "Jun Senoue": 0.8788,
+      "Howard Drossin": 0.0938,
+      "Cirocco Jones": 0.01,
+      "Darryl Ross": 0.0093,
+      "Brad Buxer": 0.0081
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8788,
+    "musicological_prior": {
+      "Jun Senoue": 0.9,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.65,
+      "Howard Drossin": 0.6243,
+      "Brad Buxer": 0.537,
+      "Cirocco Jones": 0.6685,
+      "Darryl Ross": 0.6223
+    },
+    "features": {
+      "keyon_density": 14.92,
+      "rhythmic_entropy": 4.375,
+      "pitch_center": 70.8,
+      "psg_to_fm_ratio": 0.024,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (87.9% posterior)."
+  },
+  {
+    "track": "Mushroom Hill Zone Act 2",
+    "file": "19 - Mushroom Hill Zone Act 2.vgz",
+    "metadata_artist": "Masanori Hikichi",
+    "attribution": {
+      "Jun Senoue": 0.8787,
+      "Howard Drossin": 0.0942,
+      "Cirocco Jones": 0.0099,
+      "Darryl Ross": 0.0092,
+      "Brad Buxer": 0.008
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8787,
+    "musicological_prior": {
+      "Jun Senoue": 0.9,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6502,
+      "Howard Drossin": 0.6273,
+      "Brad Buxer": 0.5344,
+      "Cirocco Jones": 0.6607,
+      "Darryl Ross": 0.612
+    },
+    "features": {
+      "keyon_density": 15.5,
+      "rhythmic_entropy": 4.355,
+      "pitch_center": 70.9,
+      "psg_to_fm_ratio": 0.024,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (87.9% posterior). High note density (15.5/s) typical of energetic composition."
+  },
+  {
+    "track": "Flying Battery Zone Act 1",
+    "file": "20 - Flying Battery Zone Act 1.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.8653,
+      "Howard Drossin": 0.107,
+      "Cirocco Jones": 0.0106,
+      "Darryl Ross": 0.0096,
+      "Brad Buxer": 0.0075
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8653,
+    "musicological_prior": {
+      "Jun Senoue": 0.9,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5799,
+      "Howard Drossin": 0.6452,
+      "Brad Buxer": 0.4521,
+      "Cirocco Jones": 0.6401,
+      "Darryl Ross": 0.5809
+    },
+    "features": {
+      "keyon_density": 18.36,
+      "rhythmic_entropy": 4.051,
+      "pitch_center": 71.5,
+      "psg_to_fm_ratio": 0.021,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (86.5% posterior). High note density (18.4/s) typical of energetic composition."
+  },
+  {
+    "track": "Flying Battery Zone Act 2",
+    "file": "21 - Flying Battery Zone Act 2.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.8743,
+      "Howard Drossin": 0.0975,
+      "Cirocco Jones": 0.0099,
+      "Darryl Ross": 0.0097,
+      "Brad Buxer": 0.0084
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8743,
+    "musicological_prior": {
+      "Jun Senoue": 0.9,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6345,
+      "Howard Drossin": 0.637,
+      "Brad Buxer": 0.5505,
+      "Cirocco Jones": 0.6498,
+      "Darryl Ross": 0.6367
+    },
+    "features": {
+      "keyon_density": 15.92,
+      "rhythmic_entropy": 4.406,
+      "pitch_center": 61.4,
+      "psg_to_fm_ratio": 0.024,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (87.4% posterior). High note density (15.9/s) typical of energetic composition. Low pitch center (61) suggests bass-heavy or darker tonality."
+  },
+  {
+    "track": "Sandopolis Zone Act 1",
+    "file": "22 - Sandopolis Zone Act 1.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.7796,
+      "Howard Drossin": 0.1937,
+      "Darryl Ross": 0.009,
+      "Cirocco Jones": 0.0089,
+      "Brad Buxer": 0.0088
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.7796,
+    "musicological_prior": {
+      "Jun Senoue": 0.8,
+      "Howard Drossin": 0.2
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6582,
+      "Howard Drossin": 0.6543,
+      "Brad Buxer": 0.5969,
+      "Cirocco Jones": 0.6008,
+      "Darryl Ross": 0.6071
+    },
+    "features": {
+      "keyon_density": 10.42,
+      "rhythmic_entropy": 4.679,
+      "pitch_center": 69.8,
+      "psg_to_fm_ratio": 1.434,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (78.0% posterior)."
+  },
+  {
+    "track": "Sandopolis Zone Act 2",
+    "file": "23 - Sandopolis Zone Act 2.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.7331,
+      "Howard Drossin": 0.2399,
+      "Cirocco Jones": 0.0093,
+      "Darryl Ross": 0.0092,
+      "Brad Buxer": 0.0084
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.7331,
+    "musicological_prior": {
+      "Jun Senoue": 0.75,
+      "Howard Drossin": 0.25
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.738,
+      "Howard Drossin": 0.7246,
+      "Brad Buxer": 0.6364,
+      "Cirocco Jones": 0.7044,
+      "Darryl Ross": 0.6945
+    },
+    "features": {
+      "keyon_density": 10.22,
+      "rhythmic_entropy": 4.641,
+      "pitch_center": 68.8,
+      "psg_to_fm_ratio": 0.031,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (73.3% posterior)."
+  },
+  {
+    "track": "Lava Reef Zone Act 1",
+    "file": "24 - Lava Reef Zone Act 1.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.8181,
+      "Howard Drossin": 0.1543,
+      "Cirocco Jones": 0.01,
+      "Darryl Ross": 0.0093,
+      "Brad Buxer": 0.0082
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8181,
+    "musicological_prior": {
+      "Jun Senoue": 0.85,
+      "Howard Drossin": 0.15
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5577,
+      "Howard Drossin": 0.596,
+      "Brad Buxer": 0.476,
+      "Cirocco Jones": 0.5822,
+      "Darryl Ross": 0.5389
+    },
+    "features": {
+      "keyon_density": 14.78,
+      "rhythmic_entropy": 3.817,
+      "pitch_center": 73.3,
+      "psg_to_fm_ratio": 5.233,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (81.8% posterior). High PSG/FM ratio (5.23) consistent with Jun Senoue's style."
+  },
+  {
+    "track": "Lava Reef Zone Act 2",
+    "file": "25 - Lava Reef Zone Act 2.vgz",
+    "metadata_artist": "Masayuki Nagao",
+    "attribution": {
+      "Jun Senoue": 0.8202,
+      "Howard Drossin": 0.1514,
+      "Cirocco Jones": 0.0109,
+      "Darryl Ross": 0.0098,
+      "Brad Buxer": 0.0078
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8202,
+    "musicological_prior": {
+      "Jun Senoue": 0.85,
+      "Howard Drossin": 0.15
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5411,
+      "Howard Drossin": 0.5659,
+      "Brad Buxer": 0.4358,
+      "Cirocco Jones": 0.6092,
+      "Darryl Ross": 0.5491
+    },
+    "features": {
+      "keyon_density": 18.29,
+      "rhythmic_entropy": 3.365,
+      "pitch_center": 75.2,
+      "psg_to_fm_ratio": 2.966,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (82.0% posterior). Low rhythmic entropy (3.37b) suggests repetitive groove pattern. High note density (18.3/s) typical of energetic composition."
+  },
+  {
+    "track": "Sky Sanctuary Zone",
+    "file": "26 - Sky Sanctuary Zone.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.8911,
+      "Howard Drossin": 0.0809,
+      "Darryl Ross": 0.0095,
+      "Brad Buxer": 0.0093,
+      "Cirocco Jones": 0.0092
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8911,
+    "musicological_prior": {
+      "Jun Senoue": 0.9,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6372,
+      "Howard Drossin": 0.5208,
+      "Brad Buxer": 0.5977,
+      "Cirocco Jones": 0.593,
+      "Darryl Ross": 0.6089
+    },
+    "features": {
+      "keyon_density": 15.23,
+      "rhythmic_entropy": 4.965,
+      "pitch_center": 61.0,
+      "psg_to_fm_ratio": 4.888,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (89.1% posterior). High rhythmic entropy (4.96b) suggests complex arrangement. High note density (15.2/s) typical of energetic composition. Low pitch center (61) suggests bass-heavy or darker tonality."
+  },
+  {
+    "track": "Death Egg Zone Act 1",
+    "file": "27 - Death Egg Zone Act 1.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Howard Drossin": 0.794,
+      "Jun Senoue": 0.1793,
+      "Cirocco Jones": 0.0098,
+      "Darryl Ross": 0.0094,
+      "Brad Buxer": 0.0074
+    },
+    "top_composer": "Howard Drossin",
+    "confidence": 0.794,
+    "musicological_prior": {
+      "Howard Drossin": 0.8,
+      "Jun Senoue": 0.2
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5737,
+      "Howard Drossin": 0.635,
+      "Brad Buxer": 0.4761,
+      "Cirocco Jones": 0.6276,
+      "Darryl Ross": 0.6
+    },
+    "features": {
+      "keyon_density": 19.44,
+      "rhythmic_entropy": 3.852,
+      "pitch_center": 61.5,
+      "psg_to_fm_ratio": 0.02,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Howard Drossin (79.4% posterior). High note density (19.4/s) typical of energetic composition. Low pitch center (61) suggests bass-heavy or darker tonality."
+  },
+  {
+    "track": "Death Egg Zone Act 2",
+    "file": "28 - Death Egg Zone Act 2.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Howard Drossin": 0.8094,
+      "Jun Senoue": 0.1659,
+      "Cirocco Jones": 0.0092,
+      "Darryl Ross": 0.0087,
+      "Brad Buxer": 0.0068
+    },
+    "top_composer": "Howard Drossin",
+    "confidence": 0.8094,
+    "musicological_prior": {
+      "Howard Drossin": 0.8,
+      "Jun Senoue": 0.2
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5368,
+      "Howard Drossin": 0.6545,
+      "Brad Buxer": 0.4382,
+      "Cirocco Jones": 0.5939,
+      "Darryl Ross": 0.5652
+    },
+    "features": {
+      "keyon_density": 20.19,
+      "rhythmic_entropy": 3.793,
+      "pitch_center": 61.5,
+      "psg_to_fm_ratio": 0.02,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Howard Drossin (80.9% posterior). High note density (20.2/s) typical of energetic composition. Low pitch center (62) suggests bass-heavy or darker tonality."
+  },
+  {
+    "track": "Sub-Boss (S&K)",
+    "file": "29 - Sub-Boss (S&K).vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Howard Drossin": 0.6922,
+      "Jun Senoue": 0.2795,
+      "Cirocco Jones": 0.0108,
+      "Darryl Ross": 0.0099,
+      "Brad Buxer": 0.0075
+    },
+    "top_composer": "Howard Drossin",
+    "confidence": 0.6922,
+    "musicological_prior": {
+      "Howard Drossin": 0.7,
+      "Jun Senoue": 0.3
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5905,
+      "Howard Drossin": 0.6267,
+      "Brad Buxer": 0.4771,
+      "Cirocco Jones": 0.685,
+      "Darryl Ross": 0.6287
+    },
+    "features": {
+      "keyon_density": 18.76,
+      "rhythmic_entropy": 3.322,
+      "pitch_center": 70.4,
+      "psg_to_fm_ratio": 0.031,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Howard Drossin (69.2% posterior). Low rhythmic entropy (3.32b) suggests repetitive groove pattern. High note density (18.8/s) typical of energetic composition."
+  },
+  {
+    "track": "Boss Theme",
+    "file": "30 - Boss Theme.vgz",
+    "metadata_artist": "Masanori Hikichi",
+    "attribution": {
+      "Howard Drossin": 0.6813,
+      "Jun Senoue": 0.2902,
+      "Cirocco Jones": 0.0099,
+      "Darryl Ross": 0.0098,
+      "Brad Buxer": 0.0088
+    },
+    "top_composer": "Howard Drossin",
+    "confidence": 0.6813,
+    "musicological_prior": {
+      "Howard Drossin": 0.7,
+      "Jun Senoue": 0.3
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.7017,
+      "Howard Drossin": 0.706,
+      "Brad Buxer": 0.6364,
+      "Cirocco Jones": 0.7174,
+      "Darryl Ross": 0.7112
+    },
+    "features": {
+      "keyon_density": 16.11,
+      "rhythmic_entropy": 3.551,
+      "pitch_center": 71.0,
+      "psg_to_fm_ratio": 0.35,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Howard Drossin (68.1% posterior). High note density (16.1/s) typical of energetic composition."
+  },
+  {
+    "track": "Big Arms",
+    "file": "31 - Big Arms.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Howard Drossin": 0.7569,
+      "Jun Senoue": 0.2136,
+      "Cirocco Jones": 0.01,
+      "Darryl Ross": 0.0098,
+      "Brad Buxer": 0.0097
+    },
+    "top_composer": "Howard Drossin",
+    "confidence": 0.7569,
+    "musicological_prior": {
+      "Howard Drossin": 0.8,
+      "Jun Senoue": 0.2
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6268,
+      "Howard Drossin": 0.5553,
+      "Brad Buxer": 0.5694,
+      "Cirocco Jones": 0.586,
+      "Darryl Ross": 0.5767
+    },
+    "features": {
+      "keyon_density": 13.57,
+      "rhythmic_entropy": 4.716,
+      "pitch_center": 69.4,
+      "psg_to_fm_ratio": 2.505,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Howard Drossin (75.7% posterior)."
+  },
+  {
+    "track": "The Doomsday Zone",
+    "file": "32 - The Doomsday Zone.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Jun Senoue": 0.8168,
+      "Howard Drossin": 0.154,
+      "Cirocco Jones": 0.01,
+      "Darryl Ross": 0.0099,
+      "Brad Buxer": 0.0093
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.8168,
+    "musicological_prior": {
+      "Jun Senoue": 0.85,
+      "Howard Drossin": 0.15
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.565,
+      "Howard Drossin": 0.6035,
+      "Brad Buxer": 0.5478,
+      "Cirocco Jones": 0.5866,
+      "Darryl Ross": 0.5814
+    },
+    "features": {
+      "keyon_density": 20.02,
+      "rhythmic_entropy": 4.17,
+      "pitch_center": 75.2,
+      "psg_to_fm_ratio": 0.633,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (81.7% posterior). High note density (20.0/s) typical of energetic composition."
+  },
+  {
+    "track": "Staff Roll (S&K)",
+    "file": "33 - Staff Roll (S&K).vgz",
+    "metadata_artist": "Masaru Setsumaru",
+    "attribution": {
+      "Jun Senoue": 0.7894,
+      "Howard Drossin": 0.1837,
+      "Brad Buxer": 0.0091,
+      "Darryl Ross": 0.0089,
+      "Cirocco Jones": 0.0089
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.7894,
+    "musicological_prior": {
+      "Jun Senoue": 0.8,
+      "Howard Drossin": 0.2
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5791,
+      "Howard Drossin": 0.5391,
+      "Brad Buxer": 0.5333,
+      "Cirocco Jones": 0.5203,
+      "Darryl Ross": 0.5219
+    },
+    "features": {
+      "keyon_density": 14.61,
+      "rhythmic_entropy": 5.154,
+      "pitch_center": 66.6,
+      "psg_to_fm_ratio": 2.368,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (78.9% posterior). High rhythmic entropy (5.15b) suggests complex arrangement."
+  },
+  {
+    "track": "Data Select",
+    "file": "35 - Data Select.vgz",
+    "metadata_artist": "Masaru Setsumaru",
+    "attribution": {
+      "Brad Buxer": 0.6917,
+      "Jun Senoue": 0.2738,
+      "Cirocco Jones": 0.0122,
+      "Howard Drossin": 0.0113,
+      "Darryl Ross": 0.011
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.6917,
+    "musicological_prior": {
+      "Brad Buxer": 0.75,
+      "Jun Senoue": 0.25
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5482,
+      "Howard Drossin": 0.5655,
+      "Brad Buxer": 0.4616,
+      "Cirocco Jones": 0.6081,
+      "Darryl Ross": 0.552
+    },
+    "features": {
+      "keyon_density": 17.21,
+      "rhythmic_entropy": 3.147,
+      "pitch_center": 72.2,
+      "psg_to_fm_ratio": 5.126,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (69.2% posterior). High PSG/FM ratio (5.13) consistent with Brad Buxer's style. Low rhythmic entropy (3.15b) suggests repetitive groove pattern. High note density (17.2/s) typical of energetic composition."
+  },
+  {
+    "track": "Competition Menu",
+    "file": "36 - Competition Menu.vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Cirocco Jones": 0.5779,
+      "Howard Drossin": 0.3962,
+      "Darryl Ross": 0.0094,
+      "Jun Senoue": 0.0088,
+      "Brad Buxer": 0.0077
+    },
+    "top_composer": "Cirocco Jones",
+    "confidence": 0.5779,
+    "musicological_prior": {
+      "Cirocco Jones": 0.6,
+      "Howard Drossin": 0.4
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6744,
+      "Howard Drossin": 0.7583,
+      "Brad Buxer": 0.5857,
+      "Cirocco Jones": 0.7372,
+      "Darryl Ross": 0.7228
+    },
+    "features": {
+      "keyon_density": 4.3,
+      "rhythmic_entropy": 4.163,
+      "pitch_center": 65.5,
+      "psg_to_fm_ratio": 6.674,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Cirocco Jones (57.8% posterior). High PSG/FM ratio (6.67) consistent with Cirocco Jones's style."
+  },
+  {
+    "track": "Azure Lake",
+    "file": "37 - Azure Lake.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Cirocco Jones": 0.7751,
+      "Howard Drossin": 0.1957,
+      "Darryl Ross": 0.0099,
+      "Brad Buxer": 0.0097,
+      "Jun Senoue": 0.0096
+    },
+    "top_composer": "Cirocco Jones",
+    "confidence": 0.7751,
+    "musicological_prior": {
+      "Cirocco Jones": 0.8,
+      "Howard Drossin": 0.2
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6056,
+      "Howard Drossin": 0.619,
+      "Brad Buxer": 0.6139,
+      "Cirocco Jones": 0.6129,
+      "Darryl Ross": 0.6257
+    },
+    "features": {
+      "keyon_density": 17.91,
+      "rhythmic_entropy": 4.002,
+      "pitch_center": 67.0,
+      "psg_to_fm_ratio": 0.758,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Cirocco Jones (77.5% posterior). High note density (17.9/s) typical of energetic composition."
+  },
+  {
+    "track": "Balloon Park",
+    "file": "38 - Balloon Park.vgz",
+    "metadata_artist": "Jun Senoue",
+    "attribution": {
+      "Darryl Ross": 0.7168,
+      "Howard Drossin": 0.2556,
+      "Cirocco Jones": 0.0097,
+      "Brad Buxer": 0.0089,
+      "Jun Senoue": 0.0089
+    },
+    "top_composer": "Darryl Ross",
+    "confidence": 0.7168,
+    "musicological_prior": {
+      "Darryl Ross": 0.75,
+      "Howard Drossin": 0.25
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5515,
+      "Howard Drossin": 0.6315,
+      "Brad Buxer": 0.552,
+      "Cirocco Jones": 0.5985,
+      "Darryl Ross": 0.5903
+    },
+    "features": {
+      "keyon_density": 18.89,
+      "rhythmic_entropy": 3.148,
+      "pitch_center": 71.3,
+      "psg_to_fm_ratio": 0.633,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Darryl Ross (71.7% posterior). Low rhythmic entropy (3.15b) suggests repetitive groove pattern. High note density (18.9/s) typical of energetic composition."
+  },
+  {
+    "track": "Chrome Gadget",
+    "file": "39 - Chrome Gadget.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Cirocco Jones": 0.7829,
+      "Howard Drossin": 0.1913,
+      "Jun Senoue": 0.0091,
+      "Darryl Ross": 0.0091,
+      "Brad Buxer": 0.0076
+    },
+    "top_composer": "Cirocco Jones",
+    "confidence": 0.7829,
+    "musicological_prior": {
+      "Cirocco Jones": 0.8,
+      "Howard Drossin": 0.2
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5418,
+      "Howard Drossin": 0.5697,
+      "Brad Buxer": 0.4524,
+      "Cirocco Jones": 0.5828,
+      "Darryl Ross": 0.5404
+    },
+    "features": {
+      "keyon_density": 18.34,
+      "rhythmic_entropy": 4.072,
+      "pitch_center": 72.5,
+      "psg_to_fm_ratio": 2.928,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Cirocco Jones (78.3% posterior). High note density (18.3/s) typical of energetic composition."
+  },
+  {
+    "track": "Desert Palace",
+    "file": "40 - Desert Palace.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Howard Drossin": 0.776,
+      "Cirocco Jones": 0.197,
+      "Jun Senoue": 0.0097,
+      "Darryl Ross": 0.0091,
+      "Brad Buxer": 0.0081
+    },
+    "top_composer": "Howard Drossin",
+    "confidence": 0.776,
+    "musicological_prior": {
+      "Howard Drossin": 0.8,
+      "Cirocco Jones": 0.2
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5579,
+      "Howard Drossin": 0.5596,
+      "Brad Buxer": 0.4691,
+      "Cirocco Jones": 0.5683,
+      "Darryl Ross": 0.5275
+    },
+    "features": {
+      "keyon_density": 15.55,
+      "rhythmic_entropy": 4.406,
+      "pitch_center": 75.2,
+      "psg_to_fm_ratio": 3.16,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Howard Drossin (77.6% posterior). High note density (15.5/s) typical of energetic composition."
+  },
+  {
+    "track": "Endless Mine",
+    "file": "41 - Endless Mine.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Howard Drossin": 0.8527,
+      "Jun Senoue": 0.122,
+      "Cirocco Jones": 0.0089,
+      "Darryl Ross": 0.0087,
+      "Brad Buxer": 0.0078
+    },
+    "top_composer": "Howard Drossin",
+    "confidence": 0.8527,
+    "musicological_prior": {
+      "Howard Drossin": 0.85,
+      "Jun Senoue": 0.15
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5097,
+      "Howard Drossin": 0.6288,
+      "Brad Buxer": 0.4911,
+      "Cirocco Jones": 0.557,
+      "Darryl Ross": 0.5432
+    },
+    "features": {
+      "keyon_density": 18.98,
+      "rhythmic_entropy": 3.586,
+      "pitch_center": 67.4,
+      "psg_to_fm_ratio": 0.794,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Howard Drossin (85.3% posterior). High note density (19.0/s) typical of energetic composition."
+  },
+  {
+    "track": "Knuckles' Theme (S3)",
+    "file": "43 - Knuckles' Theme (S3).vgz",
+    "metadata_artist": "Brad Buxer",
+    "attribution": {
+      "Howard Drossin": 0.8217,
+      "Jun Senoue": 0.1493,
+      "Cirocco Jones": 0.0105,
+      "Darryl Ross": 0.0104,
+      "Brad Buxer": 0.0082
+    },
+    "top_composer": "Howard Drossin",
+    "confidence": 0.8217,
+    "musicological_prior": {
+      "Howard Drossin": 0.85,
+      "Jun Senoue": 0.15
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5404,
+      "Howard Drossin": 0.5249,
+      "Brad Buxer": 0.4429,
+      "Cirocco Jones": 0.5674,
+      "Darryl Ross": 0.5623
+    },
+    "features": {
+      "keyon_density": 9.5,
+      "rhythmic_entropy": 3.625,
+      "pitch_center": 39.1,
+      "psg_to_fm_ratio": 0.048,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Howard Drossin (82.2% posterior). Low pitch center (39) suggests bass-heavy or darker tonality."
+  },
+  {
+    "track": "Knuckles' Theme (S&K)",
+    "file": "44 - Knuckles' Theme (S&K).vgz",
+    "metadata_artist": "Howard Drossin",
+    "attribution": {
+      "Howard Drossin": 0.8647,
+      "Jun Senoue": 0.1122,
+      "Cirocco Jones": 0.0087,
+      "Darryl Ross": 0.0081,
+      "Brad Buxer": 0.0063
+    },
+    "top_composer": "Howard Drossin",
+    "confidence": 0.8647,
+    "musicological_prior": {
+      "Howard Drossin": 0.85,
+      "Jun Senoue": 0.15
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.4594,
+      "Howard Drossin": 0.625,
+      "Brad Buxer": 0.3884,
+      "Cirocco Jones": 0.5331,
+      "Darryl Ross": 0.4957
+    },
+    "features": {
+      "keyon_density": 19.21,
+      "rhythmic_entropy": 3.292,
+      "pitch_center": 70.3,
+      "psg_to_fm_ratio": 2.839,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Howard Drossin (86.5% posterior). Low rhythmic entropy (3.29b) suggests repetitive groove pattern. High note density (19.2/s) typical of energetic composition."
+  },
+  {
+    "track": "Gumball Machine",
+    "file": "45 - Gumball Machine.vgz",
+    "metadata_artist": "Jun Senoue",
+    "attribution": {
+      "Jun Senoue": 0.5818,
+      "Howard Drossin": 0.3905,
+      "Cirocco Jones": 0.0107,
+      "Darryl Ross": 0.0099,
+      "Brad Buxer": 0.0071
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.5818,
+    "musicological_prior": {
+      "Jun Senoue": 0.6,
+      "Howard Drossin": 0.4
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5322,
+      "Howard Drossin": 0.5358,
+      "Brad Buxer": 0.3922,
+      "Cirocco Jones": 0.585,
+      "Darryl Ross": 0.5412
+    },
+    "features": {
+      "keyon_density": 19.35,
+      "rhythmic_entropy": 3.621,
+      "pitch_center": 70.2,
+      "psg_to_fm_ratio": 2.223,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (58.2% posterior). High note density (19.3/s) typical of energetic composition."
+  },
+  {
+    "track": "Magnetic Orbs",
+    "file": "46 - Magnetic Orbs.vgz",
+    "metadata_artist": "Jun Senoue",
+    "attribution": {
+      "Jun Senoue": 0.5722,
+      "Howard Drossin": 0.4004,
+      "Cirocco Jones": 0.0103,
+      "Darryl Ross": 0.0095,
+      "Brad Buxer": 0.0076
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.5722,
+    "musicological_prior": {
+      "Jun Senoue": 0.6,
+      "Howard Drossin": 0.4
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6305,
+      "Howard Drossin": 0.6618,
+      "Brad Buxer": 0.5032,
+      "Cirocco Jones": 0.6798,
+      "Darryl Ross": 0.6296
+    },
+    "features": {
+      "keyon_density": 17.19,
+      "rhythmic_entropy": 3.506,
+      "pitch_center": 72.9,
+      "psg_to_fm_ratio": 0.255,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (57.2% posterior). High note density (17.2/s) typical of energetic composition."
+  },
+  {
+    "track": "Slot Machine",
+    "file": "47 - Slot Machine.vgz",
+    "metadata_artist": "Jun Senoue",
+    "attribution": {
+      "Jun Senoue": 0.6196,
+      "Howard Drossin": 0.3537,
+      "Cirocco Jones": 0.0099,
+      "Darryl Ross": 0.0091,
+      "Brad Buxer": 0.0077
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.6196,
+    "musicological_prior": {
+      "Jun Senoue": 0.65,
+      "Howard Drossin": 0.35
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5331,
+      "Howard Drossin": 0.5652,
+      "Brad Buxer": 0.4285,
+      "Cirocco Jones": 0.5557,
+      "Darryl Ross": 0.509
+    },
+    "features": {
+      "keyon_density": 15.53,
+      "rhythmic_entropy": 4.121,
+      "pitch_center": 75.4,
+      "psg_to_fm_ratio": 8.363,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (62.0% posterior). High PSG/FM ratio (8.36) consistent with Jun Senoue's style. High note density (15.5/s) typical of energetic composition."
+  },
+  {
+    "track": "Blue Spheres",
+    "file": "48 - Blue Spheres.vgz",
+    "metadata_artist": "Yoshiaki Kashima",
+    "attribution": {
+      "Jun Senoue": 0.5752,
+      "Howard Drossin": 0.397,
+      "Cirocco Jones": 0.0108,
+      "Darryl Ross": 0.0095,
+      "Brad Buxer": 0.0074
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.5752,
+    "musicological_prior": {
+      "Jun Senoue": 0.6,
+      "Howard Drossin": 0.4
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.4783,
+      "Howard Drossin": 0.4951,
+      "Brad Buxer": 0.3667,
+      "Cirocco Jones": 0.5399,
+      "Darryl Ross": 0.476
+    },
+    "features": {
+      "keyon_density": 17.42,
+      "rhythmic_entropy": 3.367,
+      "pitch_center": 76.0,
+      "psg_to_fm_ratio": 5.243,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (57.5% posterior). High PSG/FM ratio (5.24) consistent with Jun Senoue's style. Low rhythmic entropy (3.37b) suggests repetitive groove pattern. High note density (17.4/s) typical of energetic composition."
+  },
+  {
+    "track": "Invincibility (S&K)",
+    "file": "51 - Invincibility (S&K).vgz",
+    "metadata_artist": "Masaru Setsumaru",
+    "attribution": {
+      "Jun Senoue": 0.6938,
+      "Howard Drossin": 0.2772,
+      "Darryl Ross": 0.0099,
+      "Cirocco Jones": 0.0098,
+      "Brad Buxer": 0.0094
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.6938,
+    "musicological_prior": {
+      "Jun Senoue": 0.7,
+      "Howard Drossin": 0.3
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6506,
+      "Howard Drossin": 0.6065,
+      "Brad Buxer": 0.6158,
+      "Cirocco Jones": 0.6403,
+      "Darryl Ross": 0.6493
+    },
+    "features": {
+      "keyon_density": 14.76,
+      "rhythmic_entropy": 4.416,
+      "pitch_center": 63.8,
+      "psg_to_fm_ratio": 5.732,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (69.4% posterior). High PSG/FM ratio (5.73) consistent with Jun Senoue's style. Low pitch center (64) suggests bass-heavy or darker tonality."
+  },
+  {
+    "track": "Carnival Night Zone Act 1 (Beta)",
+    "file": "60 - Carnival Night Zone Act 1 (prototype).vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Brad Buxer": 0.6437,
+      "Jun Senoue": 0.2091,
+      "Howard Drossin": 0.1255,
+      "Cirocco Jones": 0.011,
+      "Darryl Ross": 0.0106
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.6437,
+    "musicological_prior": {
+      "Brad Buxer": 0.7,
+      "Jun Senoue": 0.2,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5342,
+      "Howard Drossin": 0.6414,
+      "Brad Buxer": 0.4699,
+      "Cirocco Jones": 0.5629,
+      "Darryl Ross": 0.5436
+    },
+    "features": {
+      "keyon_density": 18.79,
+      "rhythmic_entropy": 4.108,
+      "pitch_center": 67.4,
+      "psg_to_fm_ratio": 17.117,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (64.4% posterior). High PSG/FM ratio (17.12) consistent with Brad Buxer's style. High note density (18.8/s) typical of energetic composition. Carnival Night Zone: Brad Buxer/MJ collaboration confirmed via structural analysis."
+  },
+  {
+    "track": "Carnival Night Zone Act 2 (Beta)",
+    "file": "61 - Carnival Night Zone Act 2 (prototype).vgz",
+    "metadata_artist": "Masayuki Nagao",
+    "attribution": {
+      "Brad Buxer": 0.5987,
+      "Jun Senoue": 0.2402,
+      "Howard Drossin": 0.1366,
+      "Cirocco Jones": 0.0131,
+      "Darryl Ross": 0.0113
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.5987,
+    "musicological_prior": {
+      "Brad Buxer": 0.7,
+      "Jun Senoue": 0.2,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.4187,
+      "Howard Drossin": 0.476,
+      "Brad Buxer": 0.2981,
+      "Cirocco Jones": 0.4582,
+      "Darryl Ross": 0.3947
+    },
+    "features": {
+      "keyon_density": 21.48,
+      "rhythmic_entropy": 3.713,
+      "pitch_center": 79.7,
+      "psg_to_fm_ratio": 15.915,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (59.9% posterior). High PSG/FM ratio (15.92) consistent with Brad Buxer's style. High note density (21.5/s) typical of energetic composition. Carnival Night Zone: Brad Buxer/MJ collaboration confirmed via structural analysis."
+  },
+  {
+    "track": "IceCap Zone Act 1 (Beta)",
+    "file": "62 - IceCap Zone Act 1 (prototype).vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Brad Buxer": 0.8045,
+      "Jun Senoue": 0.1129,
+      "Howard Drossin": 0.0579,
+      "Cirocco Jones": 0.0129,
+      "Darryl Ross": 0.0118
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.8045,
+    "musicological_prior": {
+      "Brad Buxer": 0.85,
+      "Jun Senoue": 0.1,
+      "Howard Drossin": 0.05
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5112,
+      "Howard Drossin": 0.5242,
+      "Brad Buxer": 0.4285,
+      "Cirocco Jones": 0.5862,
+      "Darryl Ross": 0.5339
+    },
+    "features": {
+      "keyon_density": 17.32,
+      "rhythmic_entropy": 3.123,
+      "pitch_center": 74.1,
+      "psg_to_fm_ratio": 15.381,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (80.4% posterior). High PSG/FM ratio (15.38) consistent with Brad Buxer's style. Low rhythmic entropy (3.12b) suggests repetitive groove pattern. High note density (17.3/s) typical of energetic composition. IceCap Zone: based on The Jetzons 'Hard Times' (1981), Brad Buxer confirmed as composer."
+  },
+  {
+    "track": "IceCap Zone Act 2 (Beta)",
+    "file": "63 - IceCap Zone Act 2 (prototype).vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Brad Buxer": 0.8231,
+      "Jun Senoue": 0.1091,
+      "Howard Drossin": 0.0447,
+      "Cirocco Jones": 0.0118,
+      "Darryl Ross": 0.0112
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.8231,
+    "musicological_prior": {
+      "Brad Buxer": 0.85,
+      "Jun Senoue": 0.1,
+      "Howard Drossin": 0.05
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6122,
+      "Howard Drossin": 0.5014,
+      "Brad Buxer": 0.5433,
+      "Cirocco Jones": 0.6622,
+      "Darryl Ross": 0.6295
+    },
+    "features": {
+      "keyon_density": 16.57,
+      "rhythmic_entropy": 3.734,
+      "pitch_center": 70.8,
+      "psg_to_fm_ratio": 16.14,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (82.3% posterior). High PSG/FM ratio (16.14) consistent with Brad Buxer's style. High note density (16.6/s) typical of energetic composition. IceCap Zone: based on The Jetzons 'Hard Times' (1981), Brad Buxer confirmed as composer."
+  },
+  {
+    "track": "Launch Base Zone Act 1 (Beta)",
+    "file": "64 - Launch Base Zone Act 1 (prototype).vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Brad Buxer": 0.6083,
+      "Jun Senoue": 0.2548,
+      "Howard Drossin": 0.1163,
+      "Cirocco Jones": 0.0105,
+      "Darryl Ross": 0.0101
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.6083,
+    "musicological_prior": {
+      "Brad Buxer": 0.65,
+      "Jun Senoue": 0.25,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5471,
+      "Howard Drossin": 0.6242,
+      "Brad Buxer": 0.5024,
+      "Cirocco Jones": 0.5618,
+      "Darryl Ross": 0.5412
+    },
+    "features": {
+      "keyon_density": 13.26,
+      "rhythmic_entropy": 2.982,
+      "pitch_center": 67.0,
+      "psg_to_fm_ratio": 20.102,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (60.8% posterior). High PSG/FM ratio (20.10) consistent with Brad Buxer's style. Low rhythmic entropy (2.98b) suggests repetitive groove pattern. Launch Base Zone: strong rhythmic groove signature consistent with Buxer's funk style."
+  },
+  {
+    "track": "Launch Base Zone Act 2 (Beta)",
+    "file": "65 - Launch Base Zone Act 2 (prototype).vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Brad Buxer": 0.5686,
+      "Jun Senoue": 0.2926,
+      "Howard Drossin": 0.1138,
+      "Cirocco Jones": 0.0132,
+      "Darryl Ross": 0.0118
+    },
+    "top_composer": "Brad Buxer",
+    "confidence": 0.5686,
+    "musicological_prior": {
+      "Brad Buxer": 0.65,
+      "Jun Senoue": 0.25,
+      "Howard Drossin": 0.1
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5299,
+      "Howard Drossin": 0.5152,
+      "Brad Buxer": 0.3961,
+      "Cirocco Jones": 0.5981,
+      "Darryl Ross": 0.5329
+    },
+    "features": {
+      "keyon_density": 19.57,
+      "rhythmic_entropy": 3.445,
+      "pitch_center": 77.2,
+      "psg_to_fm_ratio": 17.403,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Brad Buxer (56.9% posterior). High PSG/FM ratio (17.40) consistent with Brad Buxer's style. Low rhythmic entropy (3.44b) suggests repetitive groove pattern. High note density (19.6/s) typical of energetic composition. Launch Base Zone: strong rhythmic groove signature consistent with Buxer's funk style."
+  },
+  {
+    "track": "Competition Menu (Beta)",
+    "file": "66 - Competition Menu (prototype).vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "Cirocco Jones": 0.5595,
+      "Howard Drossin": 0.4168,
+      "Jun Senoue": 0.0086,
+      "Darryl Ross": 0.0084,
+      "Brad Buxer": 0.0067
+    },
+    "top_composer": "Cirocco Jones",
+    "confidence": 0.5595,
+    "musicological_prior": {
+      "Cirocco Jones": 0.6,
+      "Howard Drossin": 0.4
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.4703,
+      "Howard Drossin": 0.5691,
+      "Brad Buxer": 0.3669,
+      "Cirocco Jones": 0.5092,
+      "Darryl Ross": 0.4573
+    },
+    "features": {
+      "keyon_density": 18.69,
+      "rhythmic_entropy": 4.14,
+      "pitch_center": 76.6,
+      "psg_to_fm_ratio": 18.253,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Cirocco Jones (55.9% posterior). High PSG/FM ratio (18.25) consistent with Cirocco Jones's style. High note density (18.7/s) typical of energetic composition."
+  },
+  {
+    "track": "Staff Roll (Beta)",
+    "file": "68 - Staff Roll (prototype).vgz",
+    "metadata_artist": "Tatsuyuki Maeda",
+    "attribution": {
+      "Jun Senoue": 0.2183,
+      "Cirocco Jones": 0.218,
+      "Darryl Ross": 0.2086,
+      "Howard Drossin": 0.188,
+      "Brad Buxer": 0.1671
+    },
+    "top_composer": "Jun Senoue",
+    "confidence": 0.2183,
+    "musicological_prior": {
+      "Jun Senoue": 0.2,
+      "Howard Drossin": 0.2,
+      "Brad Buxer": 0.2,
+      "Cirocco Jones": 0.2,
+      "Darryl Ross": 0.2
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.5977,
+      "Howard Drossin": 0.5147,
+      "Brad Buxer": 0.4576,
+      "Cirocco Jones": 0.5969,
+      "Darryl Ross": 0.5713
+    },
+    "features": {
+      "keyon_density": 15.0,
+      "rhythmic_entropy": 4.303,
+      "pitch_center": 70.0,
+      "psg_to_fm_ratio": 19.244,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: Jun Senoue (21.8% posterior). High PSG/FM ratio (19.24) consistent with Jun Senoue's style."
+  },
+  {
+    "track": "Unused",
+    "file": "69 - Unused.vgz",
+    "metadata_artist": "Sega Sound Team",
+    "attribution": {
+      "unknown": 0.5,
+      "Cirocco Jones": 0.1078,
+      "Jun Senoue": 0.1028,
+      "Howard Drossin": 0.1018,
+      "Darryl Ross": 0.1007,
+      "Brad Buxer": 0.0869
+    },
+    "top_composer": "unknown",
+    "confidence": 0.5,
+    "musicological_prior": {
+      "unknown": 1.0
+    },
+    "feature_likelihood": {
+      "Jun Senoue": 0.6831,
+      "Howard Drossin": 0.6764,
+      "Brad Buxer": 0.5777,
+      "Cirocco Jones": 0.7167,
+      "Darryl Ross": 0.6696
+    },
+    "features": {
+      "keyon_density": 13.14,
+      "rhythmic_entropy": 3.588,
+      "pitch_center": 71.5,
+      "psg_to_fm_ratio": 0.02,
+      "ams_fms_usage": 0.0
+    },
+    "reasoning": "Top attribution: unknown (50.0% posterior)."
+  }
+]

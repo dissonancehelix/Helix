@@ -1,0 +1,50 @@
+{
+  "file": "18 - Mushroom Hill Zone Act 1.vgz",
+  "title": "Mushroom Hill Zone Act 1",
+  "artist": "Masanori Hikichi",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 1991807,
+  "duration_sec": 45.17,
+  "events": {
+    "ym2612_port0_writes": 12032,
+    "ym2612_port1_writes": 5116,
+    "psg_writes": 22,
+    "wait_samples_total": 973533
+  },
+  "ym2612_channel_activity": {
+    "ch0": 102,
+    "ch1": 214,
+    "ch2": 128,
+    "ch3": 128,
+    "ch4": 102
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 5,
+    "alg2": 2,
+    "alg3": 5,
+    "alg4": 6,
+    "alg5": 5
+  },
+  "psg_channel_activity": {
+    "ch0": 4,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 3019,
+    "0xa1": 3019,
+    "0xa4": 2386,
+    "0xa0": 2386,
+    "0x28": 1827,
+    "0xa6": 1216,
+    "0xa2": 1216,
+    "0x2a": 895,
+    "0x2b": 242,
+    "0x27": 159
+  }
+}

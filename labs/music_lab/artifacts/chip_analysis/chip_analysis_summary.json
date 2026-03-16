@@ -1,0 +1,2615 @@
+[
+  {
+    "file": "02 - Angel Island Zone Act 1.vgz",
+    "title": "Angel Island Zone Act 1",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2890103,
+    "duration_sec": 65.54,
+    "events": {
+      "ym2612_port0_writes": 26955,
+      "ym2612_port1_writes": 9858,
+      "psg_writes": 4269,
+      "wait_samples_total": 1458097
+    },
+    "ym2612_channel_activity": {
+      "ch0": 259,
+      "ch1": 283,
+      "ch2": 267,
+      "ch3": 276,
+      "ch4": 183
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 11,
+      "alg1": 7,
+      "alg2": 26,
+      "alg4": 17,
+      "alg5": 8,
+      "alg6": 17,
+      "alg7": 6
+    },
+    "psg_channel_activity": {
+      "ch0": 1250,
+      "ch1": 1246,
+      "ch2": 6,
+      "ch3": 1324
+    },
+    "register_hotspots": {
+      "0xa5": 5279,
+      "0xa1": 5279,
+      "0xa4": 4918,
+      "0xa0": 4918,
+      "0x28": 3844,
+      "0xa6": 2835,
+      "0xa2": 2835,
+      "0x2a": 2111,
+      "0x2b": 674,
+      "0x27": 435
+    }
+  },
+  {
+    "file": "03 - Angel Island Zone Act 2.vgz",
+    "title": "Angel Island Zone Act 2",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2862161,
+    "duration_sec": 64.9,
+    "events": {
+      "ym2612_port0_writes": 24269,
+      "ym2612_port1_writes": 12106,
+      "psg_writes": 6098,
+      "wait_samples_total": 1139483
+    },
+    "ym2612_channel_activity": {
+      "ch0": 294,
+      "ch1": 282,
+      "ch2": 264,
+      "ch3": 172,
+      "ch4": 222
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 30,
+      "alg1": 17,
+      "alg2": 42,
+      "alg4": 15,
+      "alg6": 21,
+      "alg7": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 1339,
+      "ch1": 1558,
+      "ch2": 4,
+      "ch3": 2492
+    },
+    "register_hotspots": {
+      "0xa4": 5904,
+      "0xa0": 5904,
+      "0xa5": 5083,
+      "0xa1": 5083,
+      "0x28": 3667,
+      "0x2a": 1995,
+      "0xa6": 1892,
+      "0xa2": 1892,
+      "0x2b": 555,
+      "0x27": 380
+    }
+  },
+  {
+    "file": "04 - Hydrocity Zone Act 1.vgz",
+    "title": "Hydrocity Zone Act 1",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2504960,
+    "duration_sec": 56.8,
+    "events": {
+      "ym2612_port0_writes": 17608,
+      "ym2612_port1_writes": 9425,
+      "psg_writes": 3443,
+      "wait_samples_total": 1727286
+    },
+    "ym2612_channel_activity": {
+      "ch0": 239,
+      "ch1": 203,
+      "ch2": 237,
+      "ch3": 192,
+      "ch4": 233
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg2": 40,
+      "alg4": 18,
+      "alg7": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 963,
+      "ch1": 965,
+      "ch2": 2,
+      "ch3": 1164
+    },
+    "register_hotspots": {
+      "0xa4": 4190,
+      "0xa0": 4190,
+      "0xa5": 4186,
+      "0xa1": 4186,
+      "0x28": 2920,
+      "0xa6": 2226,
+      "0xa2": 2226,
+      "0x2b": 266,
+      "0x27": 144,
+      "0x40": 80
+    }
+  },
+  {
+    "file": "05 - Hydrocity Zone Act 2.vgz",
+    "title": "Hydrocity Zone Act 2",
+    "artist": "Masayuki Nagao",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2308726,
+    "duration_sec": 52.35,
+    "events": {
+      "ym2612_port0_writes": 17655,
+      "ym2612_port1_writes": 7033,
+      "psg_writes": 2538,
+      "wait_samples_total": 1308087
+    },
+    "ym2612_channel_activity": {
+      "ch0": 283,
+      "ch1": 207,
+      "ch2": 283,
+      "ch3": 236,
+      "ch4": 219
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 3,
+      "alg2": 6,
+      "alg4": 8
+    },
+    "psg_channel_activity": {
+      "ch0": 634,
+      "ch1": 774,
+      "ch2": 2,
+      "ch3": 857
+    },
+    "register_hotspots": {
+      "0xa4": 3873,
+      "0xa0": 3873,
+      "0xa5": 3686,
+      "0xa1": 3686,
+      "0x28": 3539,
+      "0xa6": 2104,
+      "0xa2": 2104,
+      "0x2a": 645,
+      "0x2b": 351,
+      "0x27": 229
+    }
+  },
+  {
+    "file": "06 - Marble Garden Zone Act 1.vgz",
+    "title": "Marble Garden Zone Act 1",
+    "artist": "Miyoko Takaoka",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2633872,
+    "duration_sec": 59.72,
+    "events": {
+      "ym2612_port0_writes": 16897,
+      "ym2612_port1_writes": 9816,
+      "psg_writes": 22,
+      "wait_samples_total": 1335709
+    },
+    "ym2612_channel_activity": {
+      "ch0": 183,
+      "ch1": 86,
+      "ch2": 162,
+      "ch3": 164,
+      "ch4": 86
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 15,
+      "alg2": 2,
+      "alg3": 94,
+      "alg4": 20,
+      "alg7": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa4": 4087,
+      "0xa0": 4087,
+      "0xa5": 3587,
+      "0xa1": 3587,
+      "0xa6": 2120,
+      "0xa2": 2120,
+      "0x28": 2040,
+      "0x2b": 565,
+      "0x27": 299,
+      "0x2a": 160
+    }
+  },
+  {
+    "file": "07 - Marble Garden Zone Act 2.vgz",
+    "title": "Marble Garden Zone Act 2",
+    "artist": "Masanori Hikichi",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2615842,
+    "duration_sec": 59.32,
+    "events": {
+      "ym2612_port0_writes": 15768,
+      "ym2612_port1_writes": 9145,
+      "psg_writes": 22,
+      "wait_samples_total": 1738015
+    },
+    "ym2612_channel_activity": {
+      "ch0": 214,
+      "ch1": 84,
+      "ch2": 48,
+      "ch3": 48,
+      "ch4": 84
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 11,
+      "alg2": 12,
+      "alg3": 7,
+      "alg4": 2,
+      "alg5": 4
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa4": 4881,
+      "0xa0": 4881,
+      "0xa5": 3508,
+      "0xa1": 3508,
+      "0xa6": 2509,
+      "0xa2": 2509,
+      "0x28": 1425,
+      "0x2b": 324,
+      "0x27": 172,
+      "0x2a": 30
+    }
+  },
+  {
+    "file": "08 - Carnival Night Zone Act 1.vgz",
+    "title": "Carnival Night Zone Act 1",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2977582,
+    "duration_sec": 67.52,
+    "events": {
+      "ym2612_port0_writes": 16859,
+      "ym2612_port1_writes": 10922,
+      "psg_writes": 10881,
+      "wait_samples_total": 1804743
+    },
+    "ym2612_channel_activity": {
+      "ch0": 199,
+      "ch1": 79,
+      "ch2": 110,
+      "ch3": 231,
+      "ch4": 158
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg3": 80,
+      "alg5": 3
+    },
+    "psg_channel_activity": {
+      "ch0": 2312,
+      "ch1": 3633,
+      "ch2": 2,
+      "ch3": 441
+    },
+    "register_hotspots": {
+      "0xa4": 5413,
+      "0xa0": 5413,
+      "0xa5": 3204,
+      "0xa1": 3204,
+      "0xa6": 2518,
+      "0xa2": 2518,
+      "0x28": 2373,
+      "0x2b": 337,
+      "0x27": 171,
+      "0x80": 84
+    }
+  },
+  {
+    "file": "09 - Carnival Night Zone Act 2.vgz",
+    "title": "Carnival Night Zone Act 2",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2977582,
+    "duration_sec": 67.52,
+    "events": {
+      "ym2612_port0_writes": 11229,
+      "ym2612_port1_writes": 6192,
+      "psg_writes": 6669,
+      "wait_samples_total": 1804045
+    },
+    "ym2612_channel_activity": {
+      "ch0": 121,
+      "ch1": 81,
+      "ch2": 58,
+      "ch3": 128,
+      "ch4": 98
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg3": 46,
+      "alg5": 3
+    },
+    "psg_channel_activity": {
+      "ch0": 1428,
+      "ch1": 2021,
+      "ch2": 2,
+      "ch3": 441
+    },
+    "register_hotspots": {
+      "0xa4": 3067,
+      "0xa0": 3067,
+      "0xa5": 2689,
+      "0xa1": 2689,
+      "0x28": 1591,
+      "0xa6": 1099,
+      "0xa2": 1099,
+      "0x2b": 338,
+      "0x27": 172,
+      "0x80": 46
+    }
+  },
+  {
+    "file": "10 - IceCap Zone Act 1.vgz",
+    "title": "IceCap Zone Act 1",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 3740396,
+    "duration_sec": 84.82,
+    "events": {
+      "ym2612_port0_writes": 36104,
+      "ym2612_port1_writes": 20957,
+      "psg_writes": 3661,
+      "wait_samples_total": 1065545
+    },
+    "ym2612_channel_activity": {
+      "ch0": 495,
+      "ch1": 91,
+      "ch2": 186,
+      "ch3": 423,
+      "ch4": 409
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 4,
+      "alg2": 7,
+      "alg5": 27,
+      "alg6": 4
+    },
+    "psg_channel_activity": {
+      "ch0": 1464,
+      "ch1": 888,
+      "ch2": 4,
+      "ch3": 1163
+    },
+    "register_hotspots": {
+      "0xa4": 10263,
+      "0xa0": 10263,
+      "0xa5": 10262,
+      "0xa1": 10262,
+      "0x28": 3675,
+      "0xa6": 3319,
+      "0xa2": 3319,
+      "0x2a": 2855,
+      "0x2b": 509,
+      "0x27": 411
+    }
+  },
+  {
+    "file": "11 - IceCap Zone Act 2.vgz",
+    "title": "IceCap Zone Act 2",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 4285338,
+    "duration_sec": 97.17,
+    "events": {
+      "ym2612_port0_writes": 25949,
+      "ym2612_port1_writes": 22227,
+      "psg_writes": 14008,
+      "wait_samples_total": 1985386
+    },
+    "ym2612_channel_activity": {
+      "ch0": 294,
+      "ch1": 76,
+      "ch2": 220,
+      "ch3": 543,
+      "ch4": 532
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 3,
+      "alg2": 11,
+      "alg5": 38,
+      "alg6": 4
+    },
+    "psg_channel_activity": {
+      "ch0": 1615,
+      "ch1": 6001,
+      "ch2": 2,
+      "ch3": 1239
+    },
+    "register_hotspots": {
+      "0xa5": 9645,
+      "0xa1": 9645,
+      "0xa4": 8396,
+      "0xa0": 8396,
+      "0x28": 3882,
+      "0x2a": 3036,
+      "0xa6": 876,
+      "0xa2": 876,
+      "0x2b": 419,
+      "0x27": 323
+    }
+  },
+  {
+    "file": "12 - Launch Base Zone Act 1.vgz",
+    "title": "Launch Base Zone Act 1",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 3120695,
+    "duration_sec": 70.76,
+    "events": {
+      "ym2612_port0_writes": 17880,
+      "ym2612_port1_writes": 6335,
+      "psg_writes": 5628,
+      "wait_samples_total": 1023850
+    },
+    "ym2612_channel_activity": {
+      "ch0": 85,
+      "ch1": 206,
+      "ch2": 26,
+      "ch3": 26,
+      "ch4": 53
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 2,
+      "alg2": 38,
+      "alg3": 4,
+      "alg5": 8
+    },
+    "psg_channel_activity": {
+      "ch0": 266,
+      "ch1": 1205,
+      "ch2": 4,
+      "ch3": 3110
+    },
+    "register_hotspots": {
+      "0xa5": 4112,
+      "0xa1": 4112,
+      "0xa4": 2975,
+      "0xa0": 2975,
+      "0x2a": 2266,
+      "0xa6": 1973,
+      "0xa2": 1973,
+      "0x28": 1355,
+      "0x2b": 403,
+      "0x27": 335
+    }
+  },
+  {
+    "file": "13 - Launch Base Zone Act 2.vgz",
+    "title": "Launch Base Zone Act 2",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2899477,
+    "duration_sec": 65.75,
+    "events": {
+      "ym2612_port0_writes": 10550,
+      "ym2612_port1_writes": 3281,
+      "psg_writes": 4236,
+      "wait_samples_total": 1363334
+    },
+    "ym2612_channel_activity": {
+      "ch0": 70,
+      "ch1": 122,
+      "ch2": 18,
+      "ch3": 18,
+      "ch4": 42
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg2": 42,
+      "alg3": 5,
+      "alg5": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 97,
+      "ch1": 654,
+      "ch2": 4,
+      "ch3": 2882
+    },
+    "register_hotspots": {
+      "0xa5": 2235,
+      "0xa1": 2235,
+      "0x2a": 1736,
+      "0xa4": 1495,
+      "0xa0": 1495,
+      "0x28": 1030,
+      "0xa6": 679,
+      "0xa2": 679,
+      "0x2b": 339,
+      "0x27": 256
+    }
+  },
+  {
+    "file": "14 - Sub-Boss (S3).vgz",
+    "title": "Sub-Boss (S3)",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2690185,
+    "duration_sec": 61.0,
+    "events": {
+      "ym2612_port0_writes": 18623,
+      "ym2612_port1_writes": 11383,
+      "psg_writes": 8487,
+      "wait_samples_total": 1129262
+    },
+    "ym2612_channel_activity": {
+      "ch0": 163,
+      "ch1": 159,
+      "ch2": 176,
+      "ch3": 40,
+      "ch4": 40
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg2": 1,
+      "alg4": 43,
+      "alg5": 48
+    },
+    "psg_channel_activity": {
+      "ch0": 4129,
+      "ch1": 122,
+      "ch2": 2,
+      "ch3": 1111
+    },
+    "register_hotspots": {
+      "0xa4": 5241,
+      "0xa0": 5241,
+      "0xa5": 5022,
+      "0xa1": 5022,
+      "0xa6": 1685,
+      "0xa2": 1685,
+      "0x28": 1581,
+      "0x2a": 1223,
+      "0x2b": 204,
+      "0x27": 184
+    }
+  },
+  {
+    "file": "15 - Staff Roll (S3).vgz",
+    "title": "Staff Roll (S3)",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 3337255,
+    "duration_sec": 75.67,
+    "events": {
+      "ym2612_port0_writes": 24503,
+      "ym2612_port1_writes": 17235,
+      "psg_writes": 4370,
+      "wait_samples_total": 1743352
+    },
+    "ym2612_channel_activity": {
+      "ch0": 108,
+      "ch1": 722,
+      "ch2": 71,
+      "ch3": 63,
+      "ch4": 71
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg2": 14,
+      "alg4": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 1444,
+      "ch1": 1447,
+      "ch2": 4,
+      "ch3": 989
+    },
+    "register_hotspots": {
+      "0xa5": 8005,
+      "0xa1": 8005,
+      "0xa4": 6059,
+      "0xa0": 6059,
+      "0xa6": 4190,
+      "0xa2": 4190,
+      "0x28": 3069,
+      "0x2a": 1044,
+      "0x2b": 318,
+      "0x27": 172
+    }
+  },
+  {
+    "file": "18 - Mushroom Hill Zone Act 1.vgz",
+    "title": "Mushroom Hill Zone Act 1",
+    "artist": "Masanori Hikichi",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1991807,
+    "duration_sec": 45.17,
+    "events": {
+      "ym2612_port0_writes": 12032,
+      "ym2612_port1_writes": 5116,
+      "psg_writes": 22,
+      "wait_samples_total": 973533
+    },
+    "ym2612_channel_activity": {
+      "ch0": 102,
+      "ch1": 214,
+      "ch2": 128,
+      "ch3": 128,
+      "ch4": 102
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 5,
+      "alg2": 2,
+      "alg3": 5,
+      "alg4": 6,
+      "alg5": 5
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 3019,
+      "0xa1": 3019,
+      "0xa4": 2386,
+      "0xa0": 2386,
+      "0x28": 1827,
+      "0xa6": 1216,
+      "0xa2": 1216,
+      "0x2a": 895,
+      "0x2b": 242,
+      "0x27": 159
+    }
+  },
+  {
+    "file": "19 - Mushroom Hill Zone Act 2.vgz",
+    "title": "Mushroom Hill Zone Act 2",
+    "artist": "Masanori Hikichi",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1860230,
+    "duration_sec": 42.18,
+    "events": {
+      "ym2612_port0_writes": 11951,
+      "ym2612_port1_writes": 4925,
+      "psg_writes": 22,
+      "wait_samples_total": 927875
+    },
+    "ym2612_channel_activity": {
+      "ch0": 105,
+      "ch1": 208,
+      "ch2": 118,
+      "ch3": 118,
+      "ch4": 105
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 7,
+      "alg3": 10,
+      "alg4": 12,
+      "alg5": 3,
+      "alg7": 4
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 2737,
+      "0xa1": 2737,
+      "0xa4": 2192,
+      "0xa0": 2192,
+      "0x28": 1817,
+      "0x2a": 1430,
+      "0xa6": 1047,
+      "0xa2": 1047,
+      "0x2b": 323,
+      "0x27": 184
+    }
+  },
+  {
+    "file": "20 - Flying Battery Zone Act 1.vgz",
+    "title": "Flying Battery Zone Act 1",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1816165,
+    "duration_sec": 41.18,
+    "events": {
+      "ym2612_port0_writes": 15097,
+      "ym2612_port1_writes": 7245,
+      "psg_writes": 22,
+      "wait_samples_total": 931230
+    },
+    "ym2612_channel_activity": {
+      "ch0": 110,
+      "ch1": 300,
+      "ch2": 118,
+      "ch3": 118,
+      "ch4": 110
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 7,
+      "alg3": 19,
+      "alg4": 8,
+      "alg5": 1
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 3648,
+      "0xa1": 3648,
+      "0xa4": 3364,
+      "0xa0": 3364,
+      "0x28": 2083,
+      "0xa6": 1646,
+      "0xa2": 1646,
+      "0x2a": 1367,
+      "0x2b": 271,
+      "0x27": 170
+    }
+  },
+  {
+    "file": "21 - Flying Battery Zone Act 2.vgz",
+    "title": "Flying Battery Zone Act 2",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1833898,
+    "duration_sec": 41.58,
+    "events": {
+      "ym2612_port0_writes": 15908,
+      "ym2612_port1_writes": 8043,
+      "psg_writes": 22,
+      "wait_samples_total": 810869
+    },
+    "ym2612_channel_activity": {
+      "ch0": 91,
+      "ch1": 312,
+      "ch2": 82,
+      "ch3": 84,
+      "ch4": 93
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 3,
+      "alg2": 6,
+      "alg3": 12,
+      "alg4": 2,
+      "alg5": 17
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 3937,
+      "0xa1": 3937,
+      "0xa4": 3718,
+      "0xa0": 3718,
+      "0xa6": 2099,
+      "0xa2": 2099,
+      "0x28": 1802,
+      "0x2a": 742,
+      "0x2b": 374,
+      "0x27": 240
+    }
+  },
+  {
+    "file": "22 - Sandopolis Zone Act 1.vgz",
+    "title": "Sandopolis Zone Act 1",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2199722,
+    "duration_sec": 49.88,
+    "events": {
+      "ym2612_port0_writes": 13462,
+      "ym2612_port1_writes": 7343,
+      "psg_writes": 1482,
+      "wait_samples_total": 1274079
+    },
+    "ym2612_channel_activity": {
+      "ch0": 119,
+      "ch1": 159,
+      "ch2": 80,
+      "ch3": 43,
+      "ch4": 119
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 10,
+      "alg2": 3,
+      "alg3": 6,
+      "alg4": 3,
+      "alg5": 5
+    },
+    "psg_channel_activity": {
+      "ch0": 735,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 3727,
+      "0xa1": 3727,
+      "0xa4": 3467,
+      "0xa0": 3467,
+      "0xa6": 1604,
+      "0xa2": 1604,
+      "0x28": 1535,
+      "0x2b": 331,
+      "0x2a": 252,
+      "0x27": 196
+    }
+  },
+  {
+    "file": "23 - Sandopolis Zone Act 2.vgz",
+    "title": "Sandopolis Zone Act 2",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2257547,
+    "duration_sec": 51.19,
+    "events": {
+      "ym2612_port0_writes": 14877,
+      "ym2612_port1_writes": 7493,
+      "psg_writes": 22,
+      "wait_samples_total": 1480960
+    },
+    "ym2612_channel_activity": {
+      "ch0": 117,
+      "ch1": 171,
+      "ch2": 78,
+      "ch3": 41,
+      "ch4": 116
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 13,
+      "alg2": 4,
+      "alg3": 2,
+      "alg4": 4,
+      "alg5": 3
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 4620,
+      "0xa1": 4620,
+      "0xa4": 3553,
+      "0xa0": 3553,
+      "0xa6": 1579,
+      "0xa2": 1579,
+      "0x28": 1436,
+      "0x2b": 280,
+      "0x27": 155,
+      "0x2a": 130
+    }
+  },
+  {
+    "file": "24 - Lava Reef Zone Act 1.vgz",
+    "title": "Lava Reef Zone Act 1",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1738975,
+    "duration_sec": 39.43,
+    "events": {
+      "ym2612_port0_writes": 11923,
+      "ym2612_port1_writes": 7729,
+      "psg_writes": 3450,
+      "wait_samples_total": 954804
+    },
+    "ym2612_channel_activity": {
+      "ch0": 103,
+      "ch1": 74,
+      "ch2": 74,
+      "ch3": 165,
+      "ch4": 167
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 5,
+      "alg2": 5,
+      "alg4": 11
+    },
+    "psg_channel_activity": {
+      "ch0": 1373,
+      "ch1": 1424,
+      "ch2": 6,
+      "ch3": 253
+    },
+    "register_hotspots": {
+      "0xa4": 3318,
+      "0xa0": 3318,
+      "0xa5": 3306,
+      "0xa1": 3306,
+      "0x28": 1752,
+      "0xa6": 1468,
+      "0xa2": 1468,
+      "0x2a": 574,
+      "0x2b": 248,
+      "0x27": 164
+    }
+  },
+  {
+    "file": "25 - Lava Reef Zone Act 2.vgz",
+    "title": "Lava Reef Zone Act 2",
+    "artist": "Masayuki Nagao",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2355575,
+    "duration_sec": 53.41,
+    "events": {
+      "ym2612_port0_writes": 18224,
+      "ym2612_port1_writes": 10149,
+      "psg_writes": 3401,
+      "wait_samples_total": 1599676
+    },
+    "ym2612_channel_activity": {
+      "ch0": 34,
+      "ch1": 199,
+      "ch2": 34,
+      "ch3": 430,
+      "ch4": 280
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 2,
+      "alg2": 2,
+      "alg4": 14,
+      "alg6": 1
+    },
+    "psg_channel_activity": {
+      "ch0": 1036,
+      "ch1": 1433,
+      "ch2": 5,
+      "ch3": 427
+    },
+    "register_hotspots": {
+      "0xa4": 5471,
+      "0xa0": 5471,
+      "0xa5": 4657,
+      "0xa1": 4657,
+      "0x28": 2441,
+      "0xa6": 2256,
+      "0xa2": 2256,
+      "0x2b": 219,
+      "0x27": 119,
+      "0xb6": 92
+    }
+  },
+  {
+    "file": "26 - Sky Sanctuary Zone.vgz",
+    "title": "Sky Sanctuary Zone",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2695505,
+    "duration_sec": 61.12,
+    "events": {
+      "ym2612_port0_writes": 25206,
+      "ym2612_port1_writes": 13315,
+      "psg_writes": 5157,
+      "wait_samples_total": 1476226
+    },
+    "ym2612_channel_activity": {
+      "ch0": 100,
+      "ch1": 20,
+      "ch2": 522,
+      "ch3": 145,
+      "ch4": 144
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg2": 1,
+      "alg4": 6,
+      "alg5": 29,
+      "alg6": 1
+    },
+    "psg_channel_activity": {
+      "ch0": 3039,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 1509
+    },
+    "register_hotspots": {
+      "0xa4": 6775,
+      "0xa0": 6775,
+      "0xa5": 6399,
+      "0xa1": 6399,
+      "0xa6": 3280,
+      "0xa2": 3280,
+      "0x28": 2265,
+      "0x2a": 1314,
+      "0x2b": 421,
+      "0x27": 287
+    }
+  },
+  {
+    "file": "27 - Death Egg Zone Act 1.vgz",
+    "title": "Death Egg Zone Act 1",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1819730,
+    "duration_sec": 41.26,
+    "events": {
+      "ym2612_port0_writes": 14038,
+      "ym2612_port1_writes": 6953,
+      "psg_writes": 22,
+      "wait_samples_total": 631781
+    },
+    "ym2612_channel_activity": {
+      "ch0": 136,
+      "ch1": 238,
+      "ch2": 157,
+      "ch3": 136,
+      "ch4": 135
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 11,
+      "alg1": 2,
+      "alg4": 2,
+      "alg5": 6
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 3864,
+      "0xa1": 3864,
+      "0xa4": 3299,
+      "0xa0": 3299,
+      "0x28": 2122,
+      "0x2a": 1084,
+      "0xa6": 972,
+      "0xa2": 972,
+      "0x2b": 490,
+      "0x27": 283
+    }
+  },
+  {
+    "file": "28 - Death Egg Zone Act 2.vgz",
+    "title": "Death Egg Zone Act 2",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1710069,
+    "duration_sec": 38.78,
+    "events": {
+      "ym2612_port0_writes": 11650,
+      "ym2612_port1_writes": 6575,
+      "psg_writes": 22,
+      "wait_samples_total": 1133163
+    },
+    "ym2612_channel_activity": {
+      "ch0": 134,
+      "ch1": 232,
+      "ch2": 150,
+      "ch3": 134,
+      "ch4": 133
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 15,
+      "alg1": 1,
+      "alg2": 2,
+      "alg5": 3
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 3614,
+      "0xa1": 3614,
+      "0xa4": 3129,
+      "0xa0": 3129,
+      "0x28": 1893,
+      "0xa6": 905,
+      "0xa2": 905,
+      "0x2b": 196,
+      "0x27": 99,
+      "0xb6": 28
+    }
+  },
+  {
+    "file": "29 - Sub-Boss (S&K).vgz",
+    "title": "Sub-Boss (S&K)",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1198858,
+    "duration_sec": 27.18,
+    "events": {
+      "ym2612_port0_writes": 11532,
+      "ym2612_port1_writes": 6335,
+      "psg_writes": 22,
+      "wait_samples_total": 724752
+    },
+    "ym2612_channel_activity": {
+      "ch0": 35,
+      "ch1": 255,
+      "ch2": 25,
+      "ch3": 160,
+      "ch4": 35
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 15,
+      "alg1": 2,
+      "alg2": 1,
+      "alg4": 4,
+      "alg5": 11
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 3081,
+      "0xa1": 3081,
+      "0xa4": 2973,
+      "0xa0": 2973,
+      "0xa6": 1485,
+      "0xa2": 1485,
+      "0x28": 1174,
+      "0x2a": 232,
+      "0x2b": 196,
+      "0x27": 120
+    }
+  },
+  {
+    "file": "30 - Boss Theme.vgz",
+    "title": "Boss Theme",
+    "artist": "Masanori Hikichi",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1437190,
+    "duration_sec": 32.59,
+    "events": {
+      "ym2612_port0_writes": 13183,
+      "ym2612_port1_writes": 6519,
+      "psg_writes": 318,
+      "wait_samples_total": 541483
+    },
+    "ym2612_channel_activity": {
+      "ch0": 124,
+      "ch1": 155,
+      "ch2": 59,
+      "ch3": 64,
+      "ch4": 123
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 9,
+      "alg2": 2,
+      "alg4": 11,
+      "alg5": 11,
+      "alg7": 4
+    },
+    "psg_channel_activity": {
+      "ch0": 172,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 3486,
+      "0xa1": 3486,
+      "0xa4": 2994,
+      "0xa0": 2994,
+      "0x28": 1421,
+      "0xa6": 1399,
+      "0xa2": 1399,
+      "0x2a": 898,
+      "0x2b": 242,
+      "0x27": 179
+    }
+  },
+  {
+    "file": "31 - Big Arms.vgz",
+    "title": "Big Arms",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2564778,
+    "duration_sec": 58.16,
+    "events": {
+      "ym2612_port0_writes": 21332,
+      "ym2612_port1_writes": 12096,
+      "psg_writes": 3850,
+      "wait_samples_total": 1550902
+    },
+    "ym2612_channel_activity": {
+      "ch0": 199,
+      "ch1": 244,
+      "ch2": 74,
+      "ch3": 74,
+      "ch4": 198
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg2": 19,
+      "alg4": 7,
+      "alg5": 23
+    },
+    "psg_channel_activity": {
+      "ch0": 1729,
+      "ch1": 242,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 5748,
+      "0xa1": 5748,
+      "0xa4": 5663,
+      "0xa0": 5663,
+      "0xa6": 3190,
+      "0xa2": 3190,
+      "0x28": 1901,
+      "0x2b": 375,
+      "0x27": 206,
+      "0x2a": 158
+    }
+  },
+  {
+    "file": "32 - The Doomsday Zone.vgz",
+    "title": "The Doomsday Zone",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2755196,
+    "duration_sec": 62.48,
+    "events": {
+      "ym2612_port0_writes": 26165,
+      "ym2612_port1_writes": 10124,
+      "psg_writes": 1540,
+      "wait_samples_total": 1257424
+    },
+    "ym2612_channel_activity": {
+      "ch0": 225,
+      "ch1": 496,
+      "ch2": 174,
+      "ch3": 132,
+      "ch4": 224
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 2,
+      "alg2": 6,
+      "alg4": 8,
+      "alg5": 9,
+      "alg7": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 127,
+      "ch1": 657,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 6519,
+      "0xa1": 6519,
+      "0xa4": 4848,
+      "0xa0": 4848,
+      "0xa6": 3485,
+      "0xa2": 3485,
+      "0x28": 3022,
+      "0x2a": 1812,
+      "0x2b": 522,
+      "0x27": 337
+    }
+  },
+  {
+    "file": "33 - Staff Roll (S&K).vgz",
+    "title": "Staff Roll (S&K)",
+    "artist": "Masaru Setsumaru",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 7478577,
+    "duration_sec": 169.58,
+    "events": {
+      "ym2612_port0_writes": 58554,
+      "ym2612_port1_writes": 28374,
+      "psg_writes": 6645,
+      "wait_samples_total": 3959620
+    },
+    "ym2612_channel_activity": {
+      "ch0": 449,
+      "ch1": 599,
+      "ch2": 618,
+      "ch3": 397,
+      "ch4": 414
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 14,
+      "alg2": 11,
+      "alg3": 19,
+      "alg4": 21,
+      "alg5": 30,
+      "alg7": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 3271,
+      "ch1": 1459,
+      "ch2": 4,
+      "ch3": 1135
+    },
+    "register_hotspots": {
+      "0xa5": 14105,
+      "0xa1": 14105,
+      "0xa4": 13324,
+      "0xa0": 13324,
+      "0x2a": 6795,
+      "0x28": 6701,
+      "0xa6": 6662,
+      "0xa2": 6662,
+      "0x2b": 1213,
+      "0x27": 752
+    }
+  },
+  {
+    "file": "35 - Data Select.vgz",
+    "title": "Data Select",
+    "artist": "Masaru Setsumaru",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2674721,
+    "duration_sec": 60.65,
+    "events": {
+      "ym2612_port0_writes": 23217,
+      "ym2612_port1_writes": 7255,
+      "psg_writes": 5701,
+      "wait_samples_total": 1425311
+    },
+    "ym2612_channel_activity": {
+      "ch0": 162,
+      "ch1": 236,
+      "ch2": 236,
+      "ch3": 205,
+      "ch4": 205
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 9,
+      "alg4": 52
+    },
+    "psg_channel_activity": {
+      "ch0": 1418,
+      "ch1": 1429,
+      "ch2": 4,
+      "ch3": 2506
+    },
+    "register_hotspots": {
+      "0xa4": 4787,
+      "0xa0": 4787,
+      "0xa5": 4490,
+      "0xa1": 4490,
+      "0xa6": 2932,
+      "0xa2": 2932,
+      "0x28": 2888,
+      "0x2b": 481,
+      "0x2a": 430,
+      "0x27": 276
+    }
+  },
+  {
+    "file": "36 - Competition Menu.vgz",
+    "title": "Competition Menu",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x110",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2381387,
+    "duration_sec": 54.0,
+    "events": {
+      "ym2612_port0_writes": 376452,
+      "ym2612_port1_writes": 12784,
+      "psg_writes": 1760,
+      "wait_samples_total": 2381387
+    },
+    "ym2612_channel_activity": {
+      "ch0": 117,
+      "ch1": 22,
+      "ch2": 37,
+      "ch3": 35,
+      "ch4": 21
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 14,
+      "alg2": 3,
+      "alg4": 24,
+      "alg5": 10,
+      "alg6": 3
+    },
+    "psg_channel_activity": {
+      "ch0": 452,
+      "ch1": 453,
+      "ch2": 3,
+      "ch3": 647
+    },
+    "register_hotspots": {
+      "0x2a": 363290,
+      "0xa4": 4329,
+      "0xa0": 4329,
+      "0xa5": 4103,
+      "0xa1": 4103,
+      "0xa6": 2973,
+      "0xa2": 2973,
+      "0x28": 823,
+      "0x2b": 316,
+      "0x27": 167
+    }
+  },
+  {
+    "file": "37 - Azure Lake.vgz",
+    "title": "Azure Lake",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2508527,
+    "duration_sec": 56.88,
+    "events": {
+      "ym2612_port0_writes": 17603,
+      "ym2612_port1_writes": 6357,
+      "psg_writes": 1302,
+      "wait_samples_total": 1302519
+    },
+    "ym2612_channel_activity": {
+      "ch0": 186,
+      "ch1": 335,
+      "ch2": 163,
+      "ch3": 149,
+      "ch4": 186
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 3,
+      "alg1": 1,
+      "alg2": 2,
+      "alg4": 9,
+      "alg5": 17,
+      "alg7": 10
+    },
+    "psg_channel_activity": {
+      "ch0": 761,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 4347,
+      "0xa1": 4347,
+      "0x28": 2903,
+      "0xa4": 2859,
+      "0xa0": 2859,
+      "0xa6": 1742,
+      "0xa2": 1742,
+      "0x2a": 1117,
+      "0x2b": 424,
+      "0x27": 255
+    }
+  },
+  {
+    "file": "38 - Balloon Park.vgz",
+    "title": "Balloon Park",
+    "artist": "Jun Senoue",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2402551,
+    "duration_sec": 54.48,
+    "events": {
+      "ym2612_port0_writes": 18906,
+      "ym2612_port1_writes": 9640,
+      "psg_writes": 706,
+      "wait_samples_total": 976107
+    },
+    "ym2612_channel_activity": {
+      "ch0": 194,
+      "ch1": 275,
+      "ch2": 237,
+      "ch3": 289,
+      "ch4": 34
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 3,
+      "alg1": 2,
+      "alg2": 4,
+      "alg4": 14,
+      "alg5": 6,
+      "alg7": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 321,
+      "ch1": 323,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa4": 5005,
+      "0xa0": 5005,
+      "0xa5": 4179,
+      "0xa1": 4179,
+      "0x28": 2819,
+      "0xa6": 2392,
+      "0xa2": 2392,
+      "0x2a": 752,
+      "0x2b": 463,
+      "0x27": 286
+    }
+  },
+  {
+    "file": "39 - Chrome Gadget.vgz",
+    "title": "Chrome Gadget",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2649639,
+    "duration_sec": 60.08,
+    "events": {
+      "ym2612_port0_writes": 20494,
+      "ym2612_port1_writes": 10577,
+      "psg_writes": 3544,
+      "wait_samples_total": 1392501
+    },
+    "ym2612_channel_activity": {
+      "ch0": 347,
+      "ch1": 195,
+      "ch2": 195,
+      "ch3": 180,
+      "ch4": 185
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 2,
+      "alg2": 4,
+      "alg4": 3,
+      "alg5": 3
+    },
+    "psg_channel_activity": {
+      "ch0": 1071,
+      "ch1": 886,
+      "ch2": 4,
+      "ch3": 1269
+    },
+    "register_hotspots": {
+      "0xa5": 5178,
+      "0xa1": 5178,
+      "0xa4": 5054,
+      "0xa0": 5054,
+      "0x28": 3576,
+      "0xa6": 2578,
+      "0xa2": 2578,
+      "0x2a": 648,
+      "0x2b": 496,
+      "0x27": 289
+    }
+  },
+  {
+    "file": "40 - Desert Palace.vgz",
+    "title": "Desert Palace",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1999912,
+    "duration_sec": 45.35,
+    "events": {
+      "ym2612_port0_writes": 15706,
+      "ym2612_port1_writes": 6675,
+      "psg_writes": 2573,
+      "wait_samples_total": 1129178
+    },
+    "ym2612_channel_activity": {
+      "ch0": 227,
+      "ch1": 112,
+      "ch2": 110,
+      "ch3": 162,
+      "ch4": 94
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 2,
+      "alg2": 8,
+      "alg4": 7,
+      "alg5": 4
+    },
+    "psg_channel_activity": {
+      "ch0": 910,
+      "ch1": 908,
+      "ch2": 4,
+      "ch3": 409
+    },
+    "register_hotspots": {
+      "0xa4": 3722,
+      "0xa0": 3722,
+      "0xa5": 3451,
+      "0xa1": 3451,
+      "0x28": 2347,
+      "0xa6": 2132,
+      "0xa2": 2132,
+      "0x2b": 276,
+      "0x2a": 249,
+      "0x27": 161
+    }
+  },
+  {
+    "file": "41 - Endless Mine.vgz",
+    "title": "Endless Mine",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2613814,
+    "duration_sec": 59.27,
+    "events": {
+      "ym2612_port0_writes": 22575,
+      "ym2612_port1_writes": 10375,
+      "psg_writes": 1758,
+      "wait_samples_total": 1921628
+    },
+    "ym2612_channel_activity": {
+      "ch0": 128,
+      "ch1": 263,
+      "ch2": 334,
+      "ch3": 271,
+      "ch4": 129
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 5,
+      "alg2": 4,
+      "alg3": 12,
+      "alg4": 6,
+      "alg5": 6
+    },
+    "psg_channel_activity": {
+      "ch0": 882,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 6352,
+      "0xa1": 6352,
+      "0xa4": 4955,
+      "0xa0": 4955,
+      "0xa6": 2907,
+      "0xa2": 2907,
+      "0x28": 2680,
+      "0x2b": 315,
+      "0x2a": 292,
+      "0x27": 184
+    }
+  },
+  {
+    "file": "43 - Knuckles' Theme (S3).vgz",
+    "title": "Knuckles' Theme (S3)",
+    "artist": "Brad Buxer",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1540573,
+    "duration_sec": 34.93,
+    "events": {
+      "ym2612_port0_writes": 11060,
+      "ym2612_port1_writes": 133,
+      "psg_writes": 22,
+      "wait_samples_total": 346861
+    },
+    "ym2612_channel_activity": {
+      "ch0": 106,
+      "ch1": 226
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg1": 18,
+      "alg2": 1,
+      "alg4": 33,
+      "alg5": 34,
+      "alg6": 1
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 1834,
+      "0xa1": 1834,
+      "0xa4": 1635,
+      "0xa0": 1635,
+      "0x28": 881,
+      "0x2a": 387,
+      "0x2b": 139,
+      "0x80": 134,
+      "0x84": 134,
+      "0x88": 134
+    }
+  },
+  {
+    "file": "44 - Knuckles' Theme (S&K).vgz",
+    "title": "Knuckles' Theme (S&K)",
+    "artist": "Howard Drossin",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 723224,
+    "duration_sec": 16.4,
+    "events": {
+      "ym2612_port0_writes": 7712,
+      "ym2612_port1_writes": 1367,
+      "psg_writes": 972,
+      "wait_samples_total": 197370
+    },
+    "ym2612_channel_activity": {
+      "ch0": 98,
+      "ch1": 51,
+      "ch2": 96,
+      "ch3": 34,
+      "ch4": 36
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 18,
+      "alg1": 16,
+      "alg2": 6,
+      "alg4": 4
+    },
+    "psg_channel_activity": {
+      "ch0": 279,
+      "ch1": 278,
+      "ch2": 4,
+      "ch3": 336
+    },
+    "register_hotspots": {
+      "0xa4": 1231,
+      "0xa0": 1231,
+      "0xa6": 941,
+      "0xa2": 941,
+      "0xa5": 917,
+      "0xa1": 917,
+      "0x28": 834,
+      "0x2a": 502,
+      "0x2b": 88,
+      "0x27": 77
+    }
+  },
+  {
+    "file": "45 - Gumball Machine.vgz",
+    "title": "Gumball Machine",
+    "artist": "Jun Senoue",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 1757238,
+    "duration_sec": 39.85,
+    "events": {
+      "ym2612_port0_writes": 14887,
+      "ym2612_port1_writes": 7057,
+      "psg_writes": 2042,
+      "wait_samples_total": 651669
+    },
+    "ym2612_channel_activity": {
+      "ch0": 162,
+      "ch1": 181,
+      "ch2": 159,
+      "ch3": 139,
+      "ch4": 130
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 2,
+      "alg2": 4,
+      "alg3": 1,
+      "alg4": 4,
+      "alg6": 7
+    },
+    "psg_channel_activity": {
+      "ch0": 607,
+      "ch1": 612,
+      "ch2": 4,
+      "ch3": 493
+    },
+    "register_hotspots": {
+      "0xa4": 4129,
+      "0xa0": 4129,
+      "0xa5": 2744,
+      "0xa1": 2744,
+      "0x28": 2233,
+      "0xa6": 1820,
+      "0xa2": 1820,
+      "0x2a": 1070,
+      "0x2b": 301,
+      "0x27": 219
+    }
+  },
+  {
+    "file": "46 - Magnetic Orbs.vgz",
+    "title": "Magnetic Orbs",
+    "artist": "Jun Senoue",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2314557,
+    "duration_sec": 52.48,
+    "events": {
+      "ym2612_port0_writes": 17632,
+      "ym2612_port1_writes": 8479,
+      "psg_writes": 448,
+      "wait_samples_total": 1052382
+    },
+    "ym2612_channel_activity": {
+      "ch0": 135,
+      "ch1": 270,
+      "ch2": 108,
+      "ch3": 255,
+      "ch4": 134
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 10,
+      "alg2": 1,
+      "alg3": 14,
+      "alg4": 1,
+      "alg5": 10
+    },
+    "psg_channel_activity": {
+      "ch0": 218,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa5": 4795,
+      "0xa1": 4795,
+      "0xa4": 4066,
+      "0xa0": 4066,
+      "0x28": 2466,
+      "0x2a": 2182,
+      "0xa6": 933,
+      "0xa2": 933,
+      "0x2b": 423,
+      "0x27": 299
+    }
+  },
+  {
+    "file": "47 - Slot Machine.vgz",
+    "title": "Slot Machine",
+    "artist": "Jun Senoue",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2266710,
+    "duration_sec": 51.4,
+    "events": {
+      "ym2612_port0_writes": 16259,
+      "ym2612_port1_writes": 9295,
+      "psg_writes": 11320,
+      "wait_samples_total": 835136
+    },
+    "ym2612_channel_activity": {
+      "ch0": 239,
+      "ch1": 131,
+      "ch2": 123,
+      "ch3": 174,
+      "ch4": 131
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg2": 2,
+      "alg3": 3,
+      "alg4": 4,
+      "alg6": 1
+    },
+    "psg_channel_activity": {
+      "ch0": 3160,
+      "ch1": 3161,
+      "ch2": 4,
+      "ch3": 357
+    },
+    "register_hotspots": {
+      "0xa4": 4696,
+      "0xa0": 4696,
+      "0xa5": 3880,
+      "0xa1": 3880,
+      "0x28": 2360,
+      "0xa6": 1758,
+      "0xa2": 1758,
+      "0x2a": 1394,
+      "0x2b": 419,
+      "0x27": 290
+    }
+  },
+  {
+    "file": "48 - Blue Spheres.vgz",
+    "title": "Blue Spheres",
+    "artist": "Yoshiaki Kashima",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 3086725,
+    "duration_sec": 69.99,
+    "events": {
+      "ym2612_port0_writes": 27485,
+      "ym2612_port1_writes": 15182,
+      "psg_writes": 6811,
+      "wait_samples_total": 1810611
+    },
+    "ym2612_channel_activity": {
+      "ch0": 265,
+      "ch1": 208,
+      "ch2": 247,
+      "ch3": 238,
+      "ch4": 261
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 3,
+      "alg3": 11,
+      "alg4": 5,
+      "alg5": 7,
+      "alg6": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 1529,
+      "ch1": 1523,
+      "ch2": 4,
+      "ch3": 3341
+    },
+    "register_hotspots": {
+      "0xa5": 7717,
+      "0xa1": 7717,
+      "0xa4": 7398,
+      "0xa0": 7398,
+      "0xa6": 3479,
+      "0xa2": 3479,
+      "0x28": 2959,
+      "0x2a": 730,
+      "0x2b": 505,
+      "0x27": 303
+    }
+  },
+  {
+    "file": "51 - Invincibility (S&K).vgz",
+    "title": "Invincibility (S&K)",
+    "artist": "Masaru Setsumaru",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 531810,
+    "duration_sec": 12.06,
+    "events": {
+      "ym2612_port0_writes": 4549,
+      "ym2612_port1_writes": 2279,
+      "psg_writes": 1366,
+      "wait_samples_total": 247326
+    },
+    "ym2612_channel_activity": {
+      "ch0": 35,
+      "ch1": 73,
+      "ch2": 34,
+      "ch3": 18,
+      "ch4": 18
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg4": 5,
+      "alg5": 5
+    },
+    "psg_channel_activity": {
+      "ch0": 323,
+      "ch1": 321,
+      "ch2": 378,
+      "ch3": 4
+    },
+    "register_hotspots": {
+      "0xa4": 1143,
+      "0xa0": 1143,
+      "0xa5": 1079,
+      "0xa1": 1079,
+      "0xa6": 622,
+      "0xa2": 622,
+      "0x28": 514,
+      "0x2b": 92,
+      "0x2a": 63,
+      "0x27": 57
+    }
+  },
+  {
+    "file": "60 - Carnival Night Zone Act 1 (prototype).vgz",
+    "title": "Carnival Night Zone Act 1 (Beta)",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2771104,
+    "duration_sec": 62.84,
+    "events": {
+      "ym2612_port0_writes": 24767,
+      "ym2612_port1_writes": 12154,
+      "psg_writes": 31161,
+      "wait_samples_total": 1221281
+    },
+    "ym2612_channel_activity": {
+      "ch0": 227,
+      "ch1": 248,
+      "ch2": 214,
+      "ch3": 279,
+      "ch4": 213
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 34,
+      "alg2": 22,
+      "alg4": 23,
+      "alg7": 4
+    },
+    "psg_channel_activity": {
+      "ch0": 5000,
+      "ch1": 5000,
+      "ch2": 6459,
+      "ch3": 3773
+    },
+    "register_hotspots": {
+      "0xa5": 5202,
+      "0xa1": 5202,
+      "0xa4": 5196,
+      "0xa0": 5196,
+      "0x2a": 4336,
+      "0x28": 3133,
+      "0xa6": 2598,
+      "0xa2": 2598,
+      "0x2b": 480,
+      "0x27": 325
+    }
+  },
+  {
+    "file": "61 - Carnival Night Zone Act 2 (prototype).vgz",
+    "title": "Carnival Night Zone Act 2 (Beta)",
+    "artist": "Masayuki Nagao",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2683472,
+    "duration_sec": 60.85,
+    "events": {
+      "ym2612_port0_writes": 20395,
+      "ym2612_port1_writes": 10349,
+      "psg_writes": 31098,
+      "wait_samples_total": 1132605
+    },
+    "ym2612_channel_activity": {
+      "ch0": 256,
+      "ch1": 266,
+      "ch2": 286,
+      "ch3": 213,
+      "ch4": 286
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 6,
+      "alg2": 18,
+      "alg4": 6,
+      "alg6": 2,
+      "alg7": 6
+    },
+    "psg_channel_activity": {
+      "ch0": 5536,
+      "ch1": 5536,
+      "ch2": 6139,
+      "ch3": 3606
+    },
+    "register_hotspots": {
+      "0xa4": 4828,
+      "0xa0": 4828,
+      "0xa5": 4702,
+      "0xa1": 4702,
+      "0x28": 3927,
+      "0xa6": 2390,
+      "0xa2": 2390,
+      "0x2a": 1000,
+      "0x2b": 477,
+      "0x27": 317
+    }
+  },
+  {
+    "file": "62 - IceCap Zone Act 1 (prototype).vgz",
+    "title": "IceCap Zone Act 1 (Beta)",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 3976293,
+    "duration_sec": 90.17,
+    "events": {
+      "ym2612_port0_writes": 26526,
+      "ym2612_port1_writes": 12500,
+      "psg_writes": 39366,
+      "wait_samples_total": 3252310
+    },
+    "ym2612_channel_activity": {
+      "ch0": 155,
+      "ch1": 456,
+      "ch2": 406,
+      "ch3": 406,
+      "ch4": 139
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg2": 9,
+      "alg4": 1,
+      "alg5": 11
+    },
+    "psg_channel_activity": {
+      "ch0": 7008,
+      "ch1": 7009,
+      "ch2": 6313,
+      "ch3": 3710
+    },
+    "register_hotspots": {
+      "0xa4": 6177,
+      "0xa0": 6177,
+      "0xa5": 5846,
+      "0xa1": 5846,
+      "0x28": 4540,
+      "0x2a": 4104,
+      "0xa6": 2473,
+      "0xa2": 2473,
+      "0x2b": 410,
+      "0x27": 206
+    }
+  },
+  {
+    "file": "63 - IceCap Zone Act 2 (prototype).vgz",
+    "title": "IceCap Zone Act 2 (Beta)",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 4173951,
+    "duration_sec": 94.65,
+    "events": {
+      "ym2612_port0_writes": 28481,
+      "ym2612_port1_writes": 12911,
+      "psg_writes": 41451,
+      "wait_samples_total": 1960079
+    },
+    "ym2612_channel_activity": {
+      "ch0": 155,
+      "ch1": 458,
+      "ch2": 408,
+      "ch3": 408,
+      "ch4": 139
+    },
+    "ym2612_algorithm_usage": {
+      "alg2": 1,
+      "alg5": 15
+    },
+    "psg_channel_activity": {
+      "ch0": 7344,
+      "ch1": 7351,
+      "ch2": 6718,
+      "ch3": 3911
+    },
+    "register_hotspots": {
+      "0xa5": 7023,
+      "0xa1": 7023,
+      "0xa4": 6457,
+      "0xa0": 6457,
+      "0x28": 4684,
+      "0x2a": 2871,
+      "0xa6": 2589,
+      "0xa2": 2589,
+      "0x2b": 718,
+      "0x27": 490
+    }
+  },
+  {
+    "file": "64 - Launch Base Zone Act 1 (prototype).vgz",
+    "title": "Launch Base Zone Act 1 (Beta)",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 3020435,
+    "duration_sec": 68.49,
+    "events": {
+      "ym2612_port0_writes": 19637,
+      "ym2612_port1_writes": 10431,
+      "psg_writes": 30462,
+      "wait_samples_total": 2107908
+    },
+    "ym2612_channel_activity": {
+      "ch0": 304,
+      "ch1": 158,
+      "ch2": 158,
+      "ch3": 144,
+      "ch4": 144
+    },
+    "ym2612_algorithm_usage": {
+      "alg2": 7,
+      "alg4": 4
+    },
+    "psg_channel_activity": {
+      "ch0": 4331,
+      "ch1": 4331,
+      "ch2": 5500,
+      "ch3": 4111
+    },
+    "register_hotspots": {
+      "0xa5": 5917,
+      "0xa1": 5917,
+      "0xa4": 3932,
+      "0xa0": 3932,
+      "0xa6": 3307,
+      "0xa2": 3307,
+      "0x28": 2838,
+      "0x2b": 320,
+      "0x27": 169,
+      "0x2a": 87
+    }
+  },
+  {
+    "file": "65 - Launch Base Zone Act 2 (prototype).vgz",
+    "title": "Launch Base Zone Act 2 (Beta)",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2974127,
+    "duration_sec": 67.44,
+    "events": {
+      "ym2612_port0_writes": 21272,
+      "ym2612_port1_writes": 9153,
+      "psg_writes": 34595,
+      "wait_samples_total": 1590005
+    },
+    "ym2612_channel_activity": {
+      "ch0": 400,
+      "ch1": 400,
+      "ch2": 169,
+      "ch3": 182,
+      "ch4": 169
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg4": 8,
+      "alg6": 2
+    },
+    "psg_channel_activity": {
+      "ch0": 6687,
+      "ch1": 6687,
+      "ch2": 5567,
+      "ch3": 4048
+    },
+    "register_hotspots": {
+      "0xa5": 5205,
+      "0xa1": 5205,
+      "0xa4": 4134,
+      "0xa0": 4134,
+      "0x28": 4130,
+      "0xa6": 2795,
+      "0xa2": 2795,
+      "0x2a": 1060,
+      "0x2b": 382,
+      "0x27": 247
+    }
+  },
+  {
+    "file": "66 - Competition Menu (prototype).vgz",
+    "title": "Competition Menu (Beta)",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 2241091,
+    "duration_sec": 50.82,
+    "events": {
+      "ym2612_port0_writes": 14527,
+      "ym2612_port1_writes": 7663,
+      "psg_writes": 26224,
+      "wait_samples_total": 1312197
+    },
+    "ym2612_channel_activity": {
+      "ch0": 206,
+      "ch1": 185,
+      "ch2": 167,
+      "ch3": 207,
+      "ch4": 185
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 2,
+      "alg1": 2,
+      "alg2": 23,
+      "alg4": 5,
+      "alg7": 1
+    },
+    "psg_channel_activity": {
+      "ch0": 4863,
+      "ch1": 5842,
+      "ch2": 3634,
+      "ch3": 3020
+    },
+    "register_hotspots": {
+      "0xa5": 4008,
+      "0xa1": 4008,
+      "0xa4": 3370,
+      "0xa0": 3370,
+      "0x28": 2638,
+      "0xa6": 1243,
+      "0xa2": 1243,
+      "0x2a": 708,
+      "0x2b": 330,
+      "0x27": 202
+    }
+  },
+  {
+    "file": "68 - Staff Roll (prototype).vgz",
+    "title": "Staff Roll (Beta)",
+    "artist": "Tatsuyuki Maeda",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 3631769,
+    "duration_sec": 82.35,
+    "events": {
+      "ym2612_port0_writes": 25350,
+      "ym2612_port1_writes": 16620,
+      "psg_writes": 37897,
+      "wait_samples_total": 2337934
+    },
+    "ym2612_channel_activity": {
+      "ch0": 185,
+      "ch1": 216,
+      "ch2": 525,
+      "ch3": 126,
+      "ch4": 183
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 1,
+      "alg2": 6,
+      "alg3": 1,
+      "alg5": 4,
+      "alg6": 12
+    },
+    "psg_channel_activity": {
+      "ch0": 6677,
+      "ch1": 6677,
+      "ch2": 5522,
+      "ch3": 4910
+    },
+    "register_hotspots": {
+      "0xa4": 8104,
+      "0xa0": 8104,
+      "0xa5": 5452,
+      "0xa1": 5452,
+      "0xa6": 3928,
+      "0xa2": 3928,
+      "0x28": 3035,
+      "0x2a": 2519,
+      "0x2b": 349,
+      "0x27": 213
+    }
+  },
+  {
+    "file": "69 - Unused.vgz",
+    "title": "Unused",
+    "artist": "Sega Sound Team",
+    "sound_chip": "YM2612\u0000SN76489",
+    "platform": "Mega Drive",
+    "vgm_version": "0x150",
+    "ym2612_clock_hz": 7670453,
+    "psg_clock_hz": 3579545,
+    "total_samples": 3012954,
+    "duration_sec": 68.32,
+    "events": {
+      "ym2612_port0_writes": 22526,
+      "ym2612_port1_writes": 11853,
+      "psg_writes": 21,
+      "wait_samples_total": 1551815
+    },
+    "ym2612_channel_activity": {
+      "ch0": 97,
+      "ch1": 302,
+      "ch2": 77,
+      "ch3": 211,
+      "ch4": 211
+    },
+    "ym2612_algorithm_usage": {
+      "alg0": 2,
+      "alg2": 5,
+      "alg4": 12
+    },
+    "psg_channel_activity": {
+      "ch0": 4,
+      "ch1": 4,
+      "ch2": 4,
+      "ch3": 6
+    },
+    "register_hotspots": {
+      "0xa4": 6488,
+      "0xa0": 6488,
+      "0xa5": 6295,
+      "0xa1": 6295,
+      "0x28": 2696,
+      "0xa6": 1884,
+      "0xa2": 1884,
+      "0x2a": 1000,
+      "0x2b": 438,
+      "0x27": 256
+    }
+  }
+]

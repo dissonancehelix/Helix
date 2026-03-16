@@ -1,0 +1,50 @@
+{
+  "file": "21 - Flying Battery Zone Act 2.vgz",
+  "title": "Flying Battery Zone Act 2",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 1833898,
+  "duration_sec": 41.58,
+  "events": {
+    "ym2612_port0_writes": 15908,
+    "ym2612_port1_writes": 8043,
+    "psg_writes": 22,
+    "wait_samples_total": 810869
+  },
+  "ym2612_channel_activity": {
+    "ch0": 91,
+    "ch1": 312,
+    "ch2": 82,
+    "ch3": 84,
+    "ch4": 93
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 3,
+    "alg2": 6,
+    "alg3": 12,
+    "alg4": 2,
+    "alg5": 17
+  },
+  "psg_channel_activity": {
+    "ch0": 4,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 3937,
+    "0xa1": 3937,
+    "0xa4": 3718,
+    "0xa0": 3718,
+    "0xa6": 2099,
+    "0xa2": 2099,
+    "0x28": 1802,
+    "0x2a": 742,
+    "0x2b": 374,
+    "0x27": 240
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "file": "60 - Carnival Night Zone Act 1 (prototype).vgz",
+  "title": "Carnival Night Zone Act 1 (Beta)",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2771104,
+  "duration_sec": 62.84,
+  "events": {
+    "ym2612_port0_writes": 24767,
+    "ym2612_port1_writes": 12154,
+    "psg_writes": 31161,
+    "wait_samples_total": 1221281
+  },
+  "ym2612_channel_activity": {
+    "ch0": 227,
+    "ch1": 248,
+    "ch2": 214,
+    "ch3": 279,
+    "ch4": 213
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 34,
+    "alg2": 22,
+    "alg4": 23,
+    "alg7": 4
+  },
+  "psg_channel_activity": {
+    "ch0": 5000,
+    "ch1": 5000,
+    "ch2": 6459,
+    "ch3": 3773
+  },
+  "register_hotspots": {
+    "0xa5": 5202,
+    "0xa1": 5202,
+    "0xa4": 5196,
+    "0xa0": 5196,
+    "0x2a": 4336,
+    "0x28": 3133,
+    "0xa6": 2598,
+    "0xa2": 2598,
+    "0x2b": 480,
+    "0x27": 325
+  }
+}

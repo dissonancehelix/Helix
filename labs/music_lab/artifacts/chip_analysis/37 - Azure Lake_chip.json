@@ -1,0 +1,51 @@
+{
+  "file": "37 - Azure Lake.vgz",
+  "title": "Azure Lake",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2508527,
+  "duration_sec": 56.88,
+  "events": {
+    "ym2612_port0_writes": 17603,
+    "ym2612_port1_writes": 6357,
+    "psg_writes": 1302,
+    "wait_samples_total": 1302519
+  },
+  "ym2612_channel_activity": {
+    "ch0": 186,
+    "ch1": 335,
+    "ch2": 163,
+    "ch3": 149,
+    "ch4": 186
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 3,
+    "alg1": 1,
+    "alg2": 2,
+    "alg4": 9,
+    "alg5": 17,
+    "alg7": 10
+  },
+  "psg_channel_activity": {
+    "ch0": 761,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 4347,
+    "0xa1": 4347,
+    "0x28": 2903,
+    "0xa4": 2859,
+    "0xa0": 2859,
+    "0xa6": 1742,
+    "0xa2": 1742,
+    "0x2a": 1117,
+    "0x2b": 424,
+    "0x27": 255
+  }
+}

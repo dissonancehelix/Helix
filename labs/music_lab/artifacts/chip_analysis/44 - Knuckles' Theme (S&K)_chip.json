@@ -1,0 +1,49 @@
+{
+  "file": "44 - Knuckles' Theme (S&K).vgz",
+  "title": "Knuckles' Theme (S&K)",
+  "artist": "Howard Drossin",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 723224,
+  "duration_sec": 16.4,
+  "events": {
+    "ym2612_port0_writes": 7712,
+    "ym2612_port1_writes": 1367,
+    "psg_writes": 972,
+    "wait_samples_total": 197370
+  },
+  "ym2612_channel_activity": {
+    "ch0": 98,
+    "ch1": 51,
+    "ch2": 96,
+    "ch3": 34,
+    "ch4": 36
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 18,
+    "alg1": 16,
+    "alg2": 6,
+    "alg4": 4
+  },
+  "psg_channel_activity": {
+    "ch0": 279,
+    "ch1": 278,
+    "ch2": 4,
+    "ch3": 336
+  },
+  "register_hotspots": {
+    "0xa4": 1231,
+    "0xa0": 1231,
+    "0xa6": 941,
+    "0xa2": 941,
+    "0xa5": 917,
+    "0xa1": 917,
+    "0x28": 834,
+    "0x2a": 502,
+    "0x2b": 88,
+    "0x27": 77
+  }
+}

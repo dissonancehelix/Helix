@@ -1,0 +1,50 @@
+{
+  "file": "29 - Sub-Boss (S&K).vgz",
+  "title": "Sub-Boss (S&K)",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 1198858,
+  "duration_sec": 27.18,
+  "events": {
+    "ym2612_port0_writes": 11532,
+    "ym2612_port1_writes": 6335,
+    "psg_writes": 22,
+    "wait_samples_total": 724752
+  },
+  "ym2612_channel_activity": {
+    "ch0": 35,
+    "ch1": 255,
+    "ch2": 25,
+    "ch3": 160,
+    "ch4": 35
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 15,
+    "alg1": 2,
+    "alg2": 1,
+    "alg4": 4,
+    "alg5": 11
+  },
+  "psg_channel_activity": {
+    "ch0": 4,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 3081,
+    "0xa1": 3081,
+    "0xa4": 2973,
+    "0xa0": 2973,
+    "0xa6": 1485,
+    "0xa2": 1485,
+    "0x28": 1174,
+    "0x2a": 232,
+    "0x2b": 196,
+    "0x27": 120
+  }
+}

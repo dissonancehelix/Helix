@@ -1,0 +1,50 @@
+{
+  "file": "66 - Competition Menu (prototype).vgz",
+  "title": "Competition Menu (Beta)",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2241091,
+  "duration_sec": 50.82,
+  "events": {
+    "ym2612_port0_writes": 14527,
+    "ym2612_port1_writes": 7663,
+    "psg_writes": 26224,
+    "wait_samples_total": 1312197
+  },
+  "ym2612_channel_activity": {
+    "ch0": 206,
+    "ch1": 185,
+    "ch2": 167,
+    "ch3": 207,
+    "ch4": 185
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 2,
+    "alg1": 2,
+    "alg2": 23,
+    "alg4": 5,
+    "alg7": 1
+  },
+  "psg_channel_activity": {
+    "ch0": 4863,
+    "ch1": 5842,
+    "ch2": 3634,
+    "ch3": 3020
+  },
+  "register_hotspots": {
+    "0xa5": 4008,
+    "0xa1": 4008,
+    "0xa4": 3370,
+    "0xa0": 3370,
+    "0x28": 2638,
+    "0xa6": 1243,
+    "0xa2": 1243,
+    "0x2a": 708,
+    "0x2b": 330,
+    "0x27": 202
+  }
+}

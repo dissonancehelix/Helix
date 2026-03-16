@@ -1,0 +1,49 @@
+{
+  "file": "62 - IceCap Zone Act 1 (prototype).vgz",
+  "title": "IceCap Zone Act 1 (Beta)",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 3976293,
+  "duration_sec": 90.17,
+  "events": {
+    "ym2612_port0_writes": 26526,
+    "ym2612_port1_writes": 12500,
+    "psg_writes": 39366,
+    "wait_samples_total": 3252310
+  },
+  "ym2612_channel_activity": {
+    "ch0": 155,
+    "ch1": 456,
+    "ch2": 406,
+    "ch3": 406,
+    "ch4": 139
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg2": 9,
+    "alg4": 1,
+    "alg5": 11
+  },
+  "psg_channel_activity": {
+    "ch0": 7008,
+    "ch1": 7009,
+    "ch2": 6313,
+    "ch3": 3710
+  },
+  "register_hotspots": {
+    "0xa4": 6177,
+    "0xa0": 6177,
+    "0xa5": 5846,
+    "0xa1": 5846,
+    "0x28": 4540,
+    "0x2a": 4104,
+    "0xa6": 2473,
+    "0xa2": 2473,
+    "0x2b": 410,
+    "0x27": 206
+  }
+}

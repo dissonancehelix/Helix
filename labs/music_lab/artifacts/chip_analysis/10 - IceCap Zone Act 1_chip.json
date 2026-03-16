@@ -1,0 +1,49 @@
+{
+  "file": "10 - IceCap Zone Act 1.vgz",
+  "title": "IceCap Zone Act 1",
+  "artist": "Brad Buxer",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 3740396,
+  "duration_sec": 84.82,
+  "events": {
+    "ym2612_port0_writes": 36104,
+    "ym2612_port1_writes": 20957,
+    "psg_writes": 3661,
+    "wait_samples_total": 1065545
+  },
+  "ym2612_channel_activity": {
+    "ch0": 495,
+    "ch1": 91,
+    "ch2": 186,
+    "ch3": 423,
+    "ch4": 409
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 4,
+    "alg2": 7,
+    "alg5": 27,
+    "alg6": 4
+  },
+  "psg_channel_activity": {
+    "ch0": 1464,
+    "ch1": 888,
+    "ch2": 4,
+    "ch3": 1163
+  },
+  "register_hotspots": {
+    "0xa4": 10263,
+    "0xa0": 10263,
+    "0xa5": 10262,
+    "0xa1": 10262,
+    "0x28": 3675,
+    "0xa6": 3319,
+    "0xa2": 3319,
+    "0x2a": 2855,
+    "0x2b": 509,
+    "0x27": 411
+  }
+}

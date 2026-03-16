@@ -1,0 +1,35 @@
+{
+  "track": "Sky Sanctuary Zone",
+  "file": "26 - Sky Sanctuary Zone.vgz",
+  "artist": "Sega Sound Team",
+  "keyon_density": 15.232,
+  "rhythmic_entropy": 4.9645,
+  "pitch_center": 60.97,
+  "pitch_range": 75,
+  "pitch_entropy": 4.6725,
+  "psg_to_fm_ratio": 4.8884,
+  "ams_fms_usage": 0.0,
+  "silence_ratio": 0.5477,
+  "duration_sec": 61.12,
+  "channel_activity": {
+    "3": 145,
+    "1": 20,
+    "4": 144,
+    "0": 100,
+    "2": 522
+  },
+  "algorithm_dist": {
+    "6": 1,
+    "4": 6,
+    "2": 1,
+    "0": 1,
+    "5": 29
+  },
+  "channel_roles": {
+    "ch0": "sparse/fx",
+    "ch1": "sparse/fx",
+    "ch2": "lead_or_harmony",
+    "ch3": "sparse/fx",
+    "ch4": "sparse/fx"
+  }
+}

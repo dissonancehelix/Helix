@@ -1,0 +1,30 @@
+{
+  "track": "Knuckles' Theme (S3)",
+  "file": "43 - Knuckles' Theme (S3).vgz",
+  "artist": "Brad Buxer",
+  "keyon_density": 9.504,
+  "rhythmic_entropy": 3.6253,
+  "pitch_center": 39.06,
+  "pitch_range": 28,
+  "pitch_entropy": 1.1857,
+  "psg_to_fm_ratio": 0.048,
+  "ams_fms_usage": 0.0,
+  "silence_ratio": 0.2252,
+  "duration_sec": 34.93,
+  "channel_activity": {
+    "0": 106,
+    "1": 226
+  },
+  "algorithm_dist": {
+    "5": 34,
+    "4": 33,
+    "1": 18,
+    "2": 1,
+    "6": 1,
+    "0": 1
+  },
+  "channel_roles": {
+    "ch0": "accompaniment",
+    "ch1": "lead_or_harmony"
+  }
+}

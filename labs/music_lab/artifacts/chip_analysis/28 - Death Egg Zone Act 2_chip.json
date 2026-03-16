@@ -1,0 +1,49 @@
+{
+  "file": "28 - Death Egg Zone Act 2.vgz",
+  "title": "Death Egg Zone Act 2",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 1710069,
+  "duration_sec": 38.78,
+  "events": {
+    "ym2612_port0_writes": 11650,
+    "ym2612_port1_writes": 6575,
+    "psg_writes": 22,
+    "wait_samples_total": 1133163
+  },
+  "ym2612_channel_activity": {
+    "ch0": 134,
+    "ch1": 232,
+    "ch2": 150,
+    "ch3": 134,
+    "ch4": 133
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 15,
+    "alg1": 1,
+    "alg2": 2,
+    "alg5": 3
+  },
+  "psg_channel_activity": {
+    "ch0": 4,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 3614,
+    "0xa1": 3614,
+    "0xa4": 3129,
+    "0xa0": 3129,
+    "0x28": 1893,
+    "0xa6": 905,
+    "0xa2": 905,
+    "0x2b": 196,
+    "0x27": 99,
+    "0xb6": 28
+  }
+}

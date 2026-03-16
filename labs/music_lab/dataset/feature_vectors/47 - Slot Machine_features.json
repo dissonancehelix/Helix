@@ -1,0 +1,35 @@
+{
+  "track": "Slot Machine",
+  "file": "47 - Slot Machine.vgz",
+  "artist": "Jun Senoue",
+  "keyon_density": 15.525,
+  "rhythmic_entropy": 4.1207,
+  "pitch_center": 75.36,
+  "pitch_range": 55,
+  "pitch_entropy": 4.7473,
+  "psg_to_fm_ratio": 8.363,
+  "ams_fms_usage": 0.0,
+  "silence_ratio": 0.3684,
+  "duration_sec": 51.4,
+  "channel_activity": {
+    "0": 239,
+    "1": 131,
+    "4": 131,
+    "2": 123,
+    "3": 174
+  },
+  "algorithm_dist": {
+    "4": 4,
+    "3": 3,
+    "0": 1,
+    "2": 2,
+    "6": 1
+  },
+  "channel_roles": {
+    "ch0": "lead_or_harmony",
+    "ch1": "accompaniment",
+    "ch2": "accompaniment",
+    "ch3": "lead_or_harmony",
+    "ch4": "accompaniment"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "Jun Senoue": {
+    "composer": "Jun Senoue",
+    "training_tracks": 24,
+    "tracks": [
+      "Angel Island Zone Act 1",
+      "Angel Island Zone Act 2",
+      "Hydrocity Zone Act 1",
+      "Hydrocity Zone Act 2",
+      "Marble Garden Zone Act 1",
+      "Marble Garden Zone Act 2",
+      "Sub-Boss (S3)",
+      "Staff Roll (S3)",
+      "Mushroom Hill Zone Act 1",
+      "Mushroom Hill Zone Act 2",
+      "Flying Battery Zone Act 1",
+      "Flying Battery Zone Act 2",
+      "Sandopolis Zone Act 1",
+      "Sandopolis Zone Act 2",
+      "Lava Reef Zone Act 1",
+      "Lava Reef Zone Act 2",
+      "Sky Sanctuary Zone",
+      "The Doomsday Zone",
+      "Staff Roll (S&K)",
+      "Gumball Machine",
+      "Magnetic Orbs",
+      "Slot Machine",
+      "Blue Spheres",
+      "Invincibility (S&K)"
+    ],
+    "features": {
+      "keyon_density": {
+        "mean": 15.683,
+        "std": 3.713
+      },
+      "rhythmic_entropy": {
+        "mean": 4.2205,
+        "std": 0.4808
+      },
+      "pitch_center": {
+        "mean": 70.0,
+        "std": 5.2
+      },
+      "pitch_range": {
+        "mean": 55.1,
+        "std": 8.1
+      },
+      "pitch_entropy": {
+        "mean": 4.6265,
+        "std": 0.3281
+      },
+      "psg_to_fm_ratio": {
+        "mean": 2.6899,
+        "std": 2.6541
+      },
+      "ams_fms_usage": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "silence_ratio": {
+        "mean": 0.5191,
+        "std": 0.09
+      }
+    },
+    "algorithm_distribution": {
+      "4": 239,
+      "0": 159,
+      "7": 20,
+      "6": 50,
+      "2": 190,
+      "5": 184,
+      "1": 24,
+      "3": 203
+    },
+    "style_signature": "high note density; moderate rhythmic complexity; treble-forward pitch; moderate PSG usage"
+  },
+  "Brad Buxer": {
+    "composer": "Brad Buxer",
+    "training_tracks": 7,
+    "tracks": [
+      "Carnival Night Zone Act 1",
+      "Carnival Night Zone Act 2",
+      "IceCap Zone Act 1",
+      "IceCap Zone Act 2",
+      "Launch Base Zone Act 1",
+      "Launch Base Zone Act 2",
+      "Data Select"
+    ],
+    "features": {
+      "keyon_density": {
+        "mean": 11.667,
+        "std": 5.696
+      },
+      "rhythmic_entropy": {
+        "mean": 3.9684,
+        "std": 0.6853
+      },
+      "pitch_center": {
+        "mean": 67.34,
+        "std": 5.05
+      },
+      "pitch_range": {
+        "mean": 49.9,
+        "std": 7.5
+      },
+      "pitch_entropy": {
+        "mean": 4.2039,
+        "std": 0.4666
+      },
+      "psg_to_fm_ratio": {
+        "mean": 7.6868,
+        "std": 3.5961
+      },
+      "ams_fms_usage": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "silence_ratio": {
+        "mean": 0.4702,
+        "std": 0.1167
+      }
+    },
+    "algorithm_distribution": {
+      "3": 135,
+      "5": 81,
+      "0": 21,
+      "2": 98,
+      "6": 8,
+      "4": 52
+    },
+    "style_signature": "moderate note density; simple/driving rhythm; mid-range pitch center; heavy PSG usage"
+  },
+  "Howard Drossin": {
+    "composer": "Howard Drossin",
+    "training_tracks": 9,
+    "tracks": [
+      "Death Egg Zone Act 1",
+      "Death Egg Zone Act 2",
+      "Sub-Boss (S&K)",
+      "Boss Theme",
+      "Big Arms",
+      "Desert Palace",
+      "Endless Mine",
+      "Knuckles' Theme (S3)",
+      "Knuckles' Theme (S&K)"
+    ],
+    "features": {
+      "keyon_density": {
+        "mean": 16.811,
+        "std": 3.31
+      },
+      "rhythmic_entropy": {
+        "mean": 3.7937,
+        "std": 0.4515
+      },
+      "pitch_center": {
+        "mean": 65.07,
+        "std": 10.1
+      },
+      "pitch_range": {
+        "mean": 46.4,
+        "std": 8.7
+      },
+      "pitch_entropy": {
+        "mean": 3.9629,
+        "std": 1.0706
+      },
+      "psg_to_fm_ratio": {
+        "mean": 1.0852,
+        "std": 1.2682
+      },
+      "ams_fms_usage": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "silence_ratio": {
+        "mean": 0.4882,
+        "std": 0.1739
+      }
+    },
+    "algorithm_distribution": {
+      "4": 74,
+      "5": 98,
+      "0": 77,
+      "1": 39,
+      "2": 43,
+      "7": 4,
+      "3": 12,
+      "6": 1
+    },
+    "style_signature": "high note density; simple/driving rhythm; mid-range pitch center; moderate PSG usage"
+  },
+  "Cirocco Jones": {
+    "composer": "Cirocco Jones",
+    "training_tracks": 3,
+    "tracks": [
+      "Competition Menu",
+      "Azure Lake",
+      "Chrome Gadget"
+    ],
+    "features": {
+      "keyon_density": {
+        "mean": 13.517,
+        "std": 6.523
+      },
+      "rhythmic_entropy": {
+        "mean": 4.0789,
+        "std": 0.0659
+      },
+      "pitch_center": {
+        "mean": 68.31,
+        "std": 3.04
+      },
+      "pitch_range": {
+        "mean": 44.0,
+        "std": 4.3
+      },
+      "pitch_entropy": {
+        "mean": 3.9938,
+        "std": 0.426
+      },
+      "psg_to_fm_ratio": {
+        "mean": 3.4533,
+        "std": 2.4435
+      },
+      "ams_fms_usage": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "silence_ratio": {
+        "mean": 0.6816,
+        "std": 0.2252
+      }
+    },
+    "algorithm_distribution": {
+      "5": 30,
+      "2": 9,
+      "0": 19,
+      "4": 36,
+      "6": 3,
+      "1": 1,
+      "7": 10
+    },
+    "style_signature": "moderate note density; moderate rhythmic complexity; mid-range pitch center; moderate PSG usage"
+  },
+  "Darryl Ross": {
+    "composer": "Darryl Ross",
+    "training_tracks": 1,
+    "tracks": [
+      "Balloon Park"
+    ],
+    "features": {
+      "keyon_density": {
+        "mean": 18.888,
+        "std": 0.0
+      },
+      "rhythmic_entropy": {
+        "mean": 3.1476,
+        "std": 0.0
+      },
+      "pitch_center": {
+        "mean": 71.26,
+        "std": 0.0
+      },
+      "pitch_range": {
+        "mean": 49.0,
+        "std": 0.0
+      },
+      "pitch_entropy": {
+        "mean": 4.7049,
+        "std": 0.0
+      },
+      "psg_to_fm_ratio": {
+        "mean": 0.633,
+        "std": 0.0
+      },
+      "ams_fms_usage": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "silence_ratio": {
+        "mean": 0.4063,
+        "std": 0.0
+      }
+    },
+    "algorithm_distribution": {
+      "4": 14,
+      "7": 2,
+      "0": 3,
+      "2": 4,
+      "5": 6,
+      "1": 2
+    },
+    "style_signature": "high note density; simple/driving rhythm; treble-forward pitch; FM-dominant"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "file": "23 - Sandopolis Zone Act 2.vgz",
+  "title": "Sandopolis Zone Act 2",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2257547,
+  "duration_sec": 51.19,
+  "events": {
+    "ym2612_port0_writes": 14877,
+    "ym2612_port1_writes": 7493,
+    "psg_writes": 22,
+    "wait_samples_total": 1480960
+  },
+  "ym2612_channel_activity": {
+    "ch0": 117,
+    "ch1": 171,
+    "ch2": 78,
+    "ch3": 41,
+    "ch4": 116
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 13,
+    "alg2": 4,
+    "alg3": 2,
+    "alg4": 4,
+    "alg5": 3
+  },
+  "psg_channel_activity": {
+    "ch0": 4,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 4620,
+    "0xa1": 4620,
+    "0xa4": 3553,
+    "0xa0": 3553,
+    "0xa6": 1579,
+    "0xa2": 1579,
+    "0x28": 1436,
+    "0x2b": 280,
+    "0x27": 155,
+    "0x2a": 130
+  }
+}

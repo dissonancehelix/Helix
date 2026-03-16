@@ -1,0 +1,133 @@
+{
+  "project": "Sonic the Hedgehog 3 & Knuckles",
+  "platform": "Sega Mega Drive / Genesis",
+  "year": 1994,
+  "sound_chips": [
+    "YM2612",
+    "SN76489"
+  ],
+  "sound_driver": "SMPS (Sonic Music Production System)",
+  "source": "Sonic Retro development documentation, TCRF, Huffman 2009 interview, Buxer 2009 interview",
+  "notes": "S3&K has a contested composer history. Michael Jackson was initially contracted to compose the S3 soundtrack, but was removed from credits following the Neverland Ranch allegations in late 1993. His collaborators (Buxer, Brooks, Jones, Ross) remained. Senoue and Drossin are the confirmed Sega-internal composers for the S&K half.",
+  "candidate_composers": [
+    {
+      "name": "Jun Senoue",
+      "role": "Composer (Sega AM2 / Sound Team)",
+      "confirmed": true,
+      "tracks_attributed": [
+        "Angel Island Zone",
+        "Hydrocity Zone",
+        "Marble Garden Zone",
+        "Mushroom Hill Zone",
+        "Flying Battery Zone",
+        "Sandopolis Zone",
+        "Lava Reef Zone",
+        "Sky Sanctuary Zone",
+        "The Doomsday Zone",
+        "Staff Roll (S&K)",
+        "Invincibility (S&K)"
+      ],
+      "style_notes": "Energetic, high note density, wide pitch range. Favors FM algorithms 4\u20137. Active PSG accompaniment. Strong melodic identity with driving rhythms.",
+      "other_confirmed_games": [
+        "Sonic 3D Blast (Saturn)",
+        "Sonic Adventure",
+        "Sonic Unleashed"
+      ]
+    },
+    {
+      "name": "Howard Drossin",
+      "role": "Composer (Sega AM4 / Sound Team)",
+      "confirmed": true,
+      "tracks_attributed": [
+        "Death Egg Zone",
+        "Big Arms",
+        "Knuckles' Theme",
+        "Sub-Boss (S&K)",
+        "Boss Theme",
+        "Desert Palace",
+        "Endless Mine"
+      ],
+      "style_notes": "Darker, more atmospheric. Lower pitch center. Favors algorithms 0\u20134 (heavier modulation). More sparse PSG usage. Strong rhythmic bass structures.",
+      "other_confirmed_games": [
+        "Comix Zone",
+        "Vectorman",
+        "Sonic 3D Blast (Genesis)"
+      ]
+    },
+    {
+      "name": "Brad Buxer",
+      "role": "Composer / Keyboardist (Michael Jackson Music Team, uncredited)",
+      "confirmed": true,
+      "confirmation_source": "2009 interview with Jeff Peters (Jamlegend)",
+      "tracks_attributed": [
+        "IceCap Zone",
+        "Carnival Night Zone",
+        "Launch Base Zone",
+        "Data Select",
+        "Staff Roll (S3)"
+      ],
+      "style_notes": "Synth-funk and R&B influenced. High PSG/FM ratio. IceCap Zone derived from The Jetzons 'Hard Times' (1981). Strong groove patterns, characteristic layered chords.",
+      "connections": [
+        "Michael Jackson (keyboard director, Off the Wall/Thriller/Bad era)",
+        "The Jetzons (early 1980s synth-pop group)"
+      ]
+    },
+    {
+      "name": "Cirocco Jones",
+      "role": "Composer (Michael Jackson Music Team, uncredited)",
+      "confirmed": true,
+      "tracks_attributed": [
+        "Azure Lake",
+        "Chrome Gadget",
+        "Competition Menu"
+      ],
+      "style_notes": "Lighter melodic style. Moderate density. Higher pitch center than Drossin. Compact arrangements."
+    },
+    {
+      "name": "Darryl Ross",
+      "role": "Composer (Michael Jackson Music Team, uncredited)",
+      "confirmed": true,
+      "tracks_attributed": [
+        "Balloon Park"
+      ],
+      "style_notes": "Upbeat, high note density, clean melodic lines."
+    },
+    {
+      "name": "Michael Jackson",
+      "role": "Composer (originally contracted, removed from credits)",
+      "confirmed": false,
+      "confirmation_source": "Indirect \u2014 via Buxer testimony and musical analysis",
+      "notes": "Jackson was removed from official credits after the 1993 Neverland allegations. His direct compositional contribution vs his collaborators' is unclear. IceCap Zone's proto-theme predates S3 (Buxer/Jetzons origin). Several tracks show structural similarity to Jackson's contemporaneous unreleased demos."
+    },
+    {
+      "name": "Bobby Brooks",
+      "role": "Arranger / Producer (Michael Jackson Music Team, uncredited)",
+      "confirmed": false,
+      "notes": "Part of the MJ production team during the S3 sessions."
+    },
+    {
+      "name": "Donn Combs",
+      "role": "Arranger (Michael Jackson Music Team, uncredited)",
+      "confirmed": false,
+      "notes": "Co-arranger during the MJ S3 sessions."
+    },
+    {
+      "name": "Bruce Botnik",
+      "role": "Sound Engineer / Producer (Michael Jackson sessions)",
+      "confirmed": false,
+      "notes": "Engineered the MJ Sonic 3 recording sessions at Village Recorders."
+    },
+    {
+      "name": "Sachio Ogawa",
+      "role": "Sound Producer / Supervisor (Sega internal)",
+      "confirmed": true,
+      "notes": "Oversaw sound production for the S3 development."
+    },
+    {
+      "name": "Masaru Setsumaru",
+      "role": "Sound Effects (Sega internal)",
+      "confirmed": true,
+      "notes": "Credited for sound effects; not music composition."
+    }
+  ]
+}

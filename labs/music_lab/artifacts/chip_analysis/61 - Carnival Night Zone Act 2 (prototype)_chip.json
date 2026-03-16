@@ -1,0 +1,50 @@
+{
+  "file": "61 - Carnival Night Zone Act 2 (prototype).vgz",
+  "title": "Carnival Night Zone Act 2 (Beta)",
+  "artist": "Masayuki Nagao",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2683472,
+  "duration_sec": 60.85,
+  "events": {
+    "ym2612_port0_writes": 20395,
+    "ym2612_port1_writes": 10349,
+    "psg_writes": 31098,
+    "wait_samples_total": 1132605
+  },
+  "ym2612_channel_activity": {
+    "ch0": 256,
+    "ch1": 266,
+    "ch2": 286,
+    "ch3": 213,
+    "ch4": 286
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 6,
+    "alg2": 18,
+    "alg4": 6,
+    "alg6": 2,
+    "alg7": 6
+  },
+  "psg_channel_activity": {
+    "ch0": 5536,
+    "ch1": 5536,
+    "ch2": 6139,
+    "ch3": 3606
+  },
+  "register_hotspots": {
+    "0xa4": 4828,
+    "0xa0": 4828,
+    "0xa5": 4702,
+    "0xa1": 4702,
+    "0x28": 3927,
+    "0xa6": 2390,
+    "0xa2": 2390,
+    "0x2a": 1000,
+    "0x2b": 477,
+    "0x27": 317
+  }
+}

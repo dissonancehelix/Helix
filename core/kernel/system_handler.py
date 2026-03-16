@@ -90,20 +90,23 @@ class SystemHandler:
             return {"status": "error", "message": f"Sync failed: {e}"}
 
     def _sys_status(self, params: dict) -> dict:
-        """git status --short + disk usage."""
+        """git status --short + disk usage (Python-native, MSYS2-safe)."""
         try:
             res = subprocess.run(
                 ["git", "status", "--short"],
                 cwd=self.repo_root, capture_output=True, text=True,
             )
-            disk = subprocess.run(
-                ["du", "-sh", str(self.repo_root)],
-                capture_output=True, text=True,
+            total_bytes = sum(
+                f.stat().st_size
+                for f in self.repo_root.rglob("*")
+                if f.is_file()
             )
+            mb = total_bytes / (1024 * 1024)
+            disk_str = f"{mb:.1f} MB" if mb < 1024 else f"{mb/1024:.2f} GB"
             return {
                 "status":     "ok",
                 "git_status": res.stdout or "(clean)",
-                "disk_usage": disk.stdout.strip(),
+                "disk_usage": disk_str,
                 "repo_root":  str(self.repo_root),
             }
         except Exception as e:
@@ -175,16 +178,18 @@ class SystemHandler:
     # ── File operations ───────────────────────────────────────────────────────
 
     def _sys_clean(self, params: dict) -> dict:
-        """Remove __pycache__ trees."""
+        """Remove __pycache__ trees (Python-native, MSYS2-safe)."""
+        import shutil
         try:
-            subprocess.run(
-                ["find", ".", "-name", "__pycache__", "-exec", "rm", "-rf", "{}", "+"],
-                cwd=self.repo_root,
-            )
+            removed = 0
+            for cache_dir in self.repo_root.rglob("__pycache__"):
+                if cache_dir.is_dir():
+                    shutil.rmtree(cache_dir, ignore_errors=True)
+                    removed += 1
             tmp = self.repo_root / "last_hil_run.json"
             if tmp.exists():
                 tmp.unlink()
-            return {"status": "ok", "message": "Cleaned __pycache__ and temp files."}
+            return {"status": "ok", "message": f"Cleaned {removed} __pycache__ dirs and temp files."}
         except Exception as e:
             return {"status": "error", "message": str(e)}
 

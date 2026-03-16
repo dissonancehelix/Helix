@@ -1,0 +1,48 @@
+{
+  "file": "24 - Lava Reef Zone Act 1.vgz",
+  "title": "Lava Reef Zone Act 1",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 1738975,
+  "duration_sec": 39.43,
+  "events": {
+    "ym2612_port0_writes": 11923,
+    "ym2612_port1_writes": 7729,
+    "psg_writes": 3450,
+    "wait_samples_total": 954804
+  },
+  "ym2612_channel_activity": {
+    "ch0": 103,
+    "ch1": 74,
+    "ch2": 74,
+    "ch3": 165,
+    "ch4": 167
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 5,
+    "alg2": 5,
+    "alg4": 11
+  },
+  "psg_channel_activity": {
+    "ch0": 1373,
+    "ch1": 1424,
+    "ch2": 6,
+    "ch3": 253
+  },
+  "register_hotspots": {
+    "0xa4": 3318,
+    "0xa0": 3318,
+    "0xa5": 3306,
+    "0xa1": 3306,
+    "0x28": 1752,
+    "0xa6": 1468,
+    "0xa2": 1468,
+    "0x2a": 574,
+    "0x2b": 248,
+    "0x27": 164
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "file": "51 - Invincibility (S&K).vgz",
+  "title": "Invincibility (S&K)",
+  "artist": "Masaru Setsumaru",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 531810,
+  "duration_sec": 12.06,
+  "events": {
+    "ym2612_port0_writes": 4549,
+    "ym2612_port1_writes": 2279,
+    "psg_writes": 1366,
+    "wait_samples_total": 247326
+  },
+  "ym2612_channel_activity": {
+    "ch0": 35,
+    "ch1": 73,
+    "ch2": 34,
+    "ch3": 18,
+    "ch4": 18
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg4": 5,
+    "alg5": 5
+  },
+  "psg_channel_activity": {
+    "ch0": 323,
+    "ch1": 321,
+    "ch2": 378,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa4": 1143,
+    "0xa0": 1143,
+    "0xa5": 1079,
+    "0xa1": 1079,
+    "0xa6": 622,
+    "0xa2": 622,
+    "0x28": 514,
+    "0x2b": 92,
+    "0x2a": 63,
+    "0x27": 57
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "file": "38 - Balloon Park.vgz",
+  "title": "Balloon Park",
+  "artist": "Jun Senoue",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2402551,
+  "duration_sec": 54.48,
+  "events": {
+    "ym2612_port0_writes": 18906,
+    "ym2612_port1_writes": 9640,
+    "psg_writes": 706,
+    "wait_samples_total": 976107
+  },
+  "ym2612_channel_activity": {
+    "ch0": 194,
+    "ch1": 275,
+    "ch2": 237,
+    "ch3": 289,
+    "ch4": 34
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 3,
+    "alg1": 2,
+    "alg2": 4,
+    "alg4": 14,
+    "alg5": 6,
+    "alg7": 2
+  },
+  "psg_channel_activity": {
+    "ch0": 321,
+    "ch1": 323,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa4": 5005,
+    "0xa0": 5005,
+    "0xa5": 4179,
+    "0xa1": 4179,
+    "0x28": 2819,
+    "0xa6": 2392,
+    "0xa2": 2392,
+    "0x2a": 752,
+    "0x2b": 463,
+    "0x27": 286
+  }
+}

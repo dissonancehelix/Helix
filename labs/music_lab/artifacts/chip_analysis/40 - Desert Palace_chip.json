@@ -1,0 +1,49 @@
+{
+  "file": "40 - Desert Palace.vgz",
+  "title": "Desert Palace",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 1999912,
+  "duration_sec": 45.35,
+  "events": {
+    "ym2612_port0_writes": 15706,
+    "ym2612_port1_writes": 6675,
+    "psg_writes": 2573,
+    "wait_samples_total": 1129178
+  },
+  "ym2612_channel_activity": {
+    "ch0": 227,
+    "ch1": 112,
+    "ch2": 110,
+    "ch3": 162,
+    "ch4": 94
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 2,
+    "alg2": 8,
+    "alg4": 7,
+    "alg5": 4
+  },
+  "psg_channel_activity": {
+    "ch0": 910,
+    "ch1": 908,
+    "ch2": 4,
+    "ch3": 409
+  },
+  "register_hotspots": {
+    "0xa4": 3722,
+    "0xa0": 3722,
+    "0xa5": 3451,
+    "0xa1": 3451,
+    "0x28": 2347,
+    "0xa6": 2132,
+    "0xa2": 2132,
+    "0x2b": 276,
+    "0x2a": 249,
+    "0x27": 161
+  }
+}

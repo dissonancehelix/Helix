@@ -1,0 +1,35 @@
+{
+  "track": "Competition Menu (Beta)",
+  "file": "66 - Competition Menu (prototype).vgz",
+  "artist": "Sega Sound Team",
+  "keyon_density": 18.694,
+  "rhythmic_entropy": 4.1401,
+  "pitch_center": 76.59,
+  "pitch_range": 50,
+  "pitch_entropy": 4.6595,
+  "psg_to_fm_ratio": 18.2534,
+  "ams_fms_usage": 0.0,
+  "silence_ratio": 0.5855,
+  "duration_sec": 50.82,
+  "channel_activity": {
+    "0": 206,
+    "2": 167,
+    "3": 207,
+    "1": 185,
+    "4": 185
+  },
+  "algorithm_dist": {
+    "4": 5,
+    "0": 2,
+    "2": 23,
+    "7": 1,
+    "1": 2
+  },
+  "channel_roles": {
+    "ch0": "lead_or_harmony",
+    "ch1": "lead_or_harmony",
+    "ch2": "lead_or_harmony",
+    "ch3": "lead_or_harmony",
+    "ch4": "lead_or_harmony"
+  }
+}

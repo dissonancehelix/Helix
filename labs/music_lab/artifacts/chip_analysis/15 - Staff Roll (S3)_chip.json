@@ -1,0 +1,48 @@
+{
+  "file": "15 - Staff Roll (S3).vgz",
+  "title": "Staff Roll (S3)",
+  "artist": "Brad Buxer",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 3337255,
+  "duration_sec": 75.67,
+  "events": {
+    "ym2612_port0_writes": 24503,
+    "ym2612_port1_writes": 17235,
+    "psg_writes": 4370,
+    "wait_samples_total": 1743352
+  },
+  "ym2612_channel_activity": {
+    "ch0": 108,
+    "ch1": 722,
+    "ch2": 71,
+    "ch3": 63,
+    "ch4": 71
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg2": 14,
+    "alg4": 2
+  },
+  "psg_channel_activity": {
+    "ch0": 1444,
+    "ch1": 1447,
+    "ch2": 4,
+    "ch3": 989
+  },
+  "register_hotspots": {
+    "0xa5": 8005,
+    "0xa1": 8005,
+    "0xa4": 6059,
+    "0xa0": 6059,
+    "0xa6": 4190,
+    "0xa2": 4190,
+    "0x28": 3069,
+    "0x2a": 1044,
+    "0x2b": 318,
+    "0x27": 172
+  }
+}

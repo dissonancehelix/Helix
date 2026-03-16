@@ -1,0 +1,48 @@
+{
+  "file": "43 - Knuckles' Theme (S3).vgz",
+  "title": "Knuckles' Theme (S3)",
+  "artist": "Brad Buxer",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 1540573,
+  "duration_sec": 34.93,
+  "events": {
+    "ym2612_port0_writes": 11060,
+    "ym2612_port1_writes": 133,
+    "psg_writes": 22,
+    "wait_samples_total": 346861
+  },
+  "ym2612_channel_activity": {
+    "ch0": 106,
+    "ch1": 226
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 1,
+    "alg1": 18,
+    "alg2": 1,
+    "alg4": 33,
+    "alg5": 34,
+    "alg6": 1
+  },
+  "psg_channel_activity": {
+    "ch0": 4,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 1834,
+    "0xa1": 1834,
+    "0xa4": 1635,
+    "0xa0": 1635,
+    "0x28": 881,
+    "0x2a": 387,
+    "0x2b": 139,
+    "0x80": 134,
+    "0x84": 134,
+    "0x88": 134
+  }
+}

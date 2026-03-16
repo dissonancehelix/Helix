@@ -1,0 +1,49 @@
+{
+  "file": "39 - Chrome Gadget.vgz",
+  "title": "Chrome Gadget",
+  "artist": "Sega Sound Team",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2649639,
+  "duration_sec": 60.08,
+  "events": {
+    "ym2612_port0_writes": 20494,
+    "ym2612_port1_writes": 10577,
+    "psg_writes": 3544,
+    "wait_samples_total": 1392501
+  },
+  "ym2612_channel_activity": {
+    "ch0": 347,
+    "ch1": 195,
+    "ch2": 195,
+    "ch3": 180,
+    "ch4": 185
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 2,
+    "alg2": 4,
+    "alg4": 3,
+    "alg5": 3
+  },
+  "psg_channel_activity": {
+    "ch0": 1071,
+    "ch1": 886,
+    "ch2": 4,
+    "ch3": 1269
+  },
+  "register_hotspots": {
+    "0xa5": 5178,
+    "0xa1": 5178,
+    "0xa4": 5054,
+    "0xa0": 5054,
+    "0x28": 3576,
+    "0xa6": 2578,
+    "0xa2": 2578,
+    "0x2a": 648,
+    "0x2b": 496,
+    "0x27": 289
+  }
+}

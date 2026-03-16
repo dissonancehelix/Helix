@@ -1,0 +1,50 @@
+{
+  "file": "46 - Magnetic Orbs.vgz",
+  "title": "Magnetic Orbs",
+  "artist": "Jun Senoue",
+  "sound_chip": "YM2612\u0000SN76489",
+  "platform": "Mega Drive",
+  "vgm_version": "0x150",
+  "ym2612_clock_hz": 7670453,
+  "psg_clock_hz": 3579545,
+  "total_samples": 2314557,
+  "duration_sec": 52.48,
+  "events": {
+    "ym2612_port0_writes": 17632,
+    "ym2612_port1_writes": 8479,
+    "psg_writes": 448,
+    "wait_samples_total": 1052382
+  },
+  "ym2612_channel_activity": {
+    "ch0": 135,
+    "ch1": 270,
+    "ch2": 108,
+    "ch3": 255,
+    "ch4": 134
+  },
+  "ym2612_algorithm_usage": {
+    "alg0": 10,
+    "alg2": 1,
+    "alg3": 14,
+    "alg4": 1,
+    "alg5": 10
+  },
+  "psg_channel_activity": {
+    "ch0": 218,
+    "ch1": 4,
+    "ch2": 4,
+    "ch3": 4
+  },
+  "register_hotspots": {
+    "0xa5": 4795,
+    "0xa1": 4795,
+    "0xa4": 4066,
+    "0xa0": 4066,
+    "0x28": 2466,
+    "0x2a": 2182,
+    "0xa6": 933,
+    "0xa2": 933,
+    "0x2b": 423,
+    "0x27": 299
+  }
+}
