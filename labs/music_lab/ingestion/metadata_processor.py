@@ -9,6 +9,12 @@ from concurrent.futures import ThreadPoolExecutor
 import mutagen
 from mutagen import File as MutagenFile
 
+from labs.music_lab.config import (
+    LIBRARY_ROOT as LIBRARY_PATH,
+    ARTIFACTS as ARTIFACTS_DIR,
+    REPORTS as REPORTS_DIR,
+)
+
 # Format Definitions
 EMULATED_FORMATS = {
     'VGM', 'VGZ', 'SPC', '2SF', 'USF', 'NCSF', 'GSF', 'PSF', 'PSF2', 'S98', 'SSF', 'DSF', 'GBS', 'HES', 'KSS'
@@ -17,13 +23,8 @@ RENDERED_FORMATS = {
     'OPUS', 'MP3', 'AAC', 'VORBIS', 'WMA', 'MP2', 'WAV', 'FLAC', 'M4A'
 }
 
-# Target Paths
-BASE_DIR = Path(".").resolve()
-LIBRARY_PATH = Path(r"C:\Users\dissonance\Music")
-ARTIFACTS_DIR = BASE_DIR / "artifacts/music_lab"
 METADATA_DIR = ARTIFACTS_DIR / "metadata"
 ENTITIES_DIR = ARTIFACTS_DIR / "entities"
-REPORTS_DIR = BASE_DIR / "reports"
 
 class MetadataProcessor:
     def __init__(self, library_path: Path):
