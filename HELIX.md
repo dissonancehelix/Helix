@@ -1,5 +1,7 @@
 # HELIX
 
+**Repository:** [github.com/dissonance-eft/Helix](https://github.com/dissonance-eft/Helix)
+
 Helix is a structured discovery platform that runs disciplined experiments
 across multiple substrates and compresses results into a unified knowledge atlas.
 
