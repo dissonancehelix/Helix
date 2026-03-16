@@ -169,6 +169,26 @@ prefix:name     e.g.  invariant:decision_compression
                       engine:python
 ```
 
+### Command families
+
+| Command    | Subcommands / Arguments                  | Example                                            |
+|------------|------------------------------------------|----------------------------------------------------|
+| PROBE      | —                                        | `PROBE invariant:decision_compression`             |
+| RUN        | —                                        | `RUN experiment:network_consensus engine:python`   |
+| SWEEP      | —                                        | `SWEEP parameter:noise range:0..0.5 steps:10`      |
+| COMPILE    | atlas                                    | `COMPILE atlas`                                    |
+| ATLAS      | lookup / list / status / verify          | `ATLAS lookup invariant:decision_compression`      |
+| GRAPH      | support / trace / cluster / query / ...  | `GRAPH support invariant:decision_compression`     |
+| VALIDATE   | atlas / entry / invariant / experiment   | `VALIDATE atlas invariant:decision_compression`    |
+| TRACE      | —                                        | `TRACE experiment:decision_compression_probe`      |
+| OBSERVE    | —                                        | `OBSERVE invariant:decision_compression`           |
+| REPORT     | summary / full / graph / status          | `REPORT summary invariant:decision_compression`    |
+| EXPORT     | atlas / wiki / graph                     | `EXPORT atlas format:wiki`                         |
+| ANALYZE    | atlas / patterns / features              | `ANALYZE atlas`                                    |
+| DISCOVER   | invariants / regimes / probes            | `DISCOVER invariants domain:swarm`                 |
+| SYSTEM     | sync / status / clean / move / list ...  | `SYSTEM sync message:"Finalize architecture"`      |
+| OPERATOR   | log / status / profile                   | `OPERATOR log message:"Observed synchronization"`  |
+
 ---
 
 ## INTEGRITY SYSTEM
@@ -272,19 +292,74 @@ artifacts/     — raw output, grows freely; never edited after write
 
 ---
 
+## PROJECT MANAGEMENT (HIL-INTERNAL)
+
+Helix provides built-in commands for repository maintenance and operator context, eliminating the need for raw shell access.
+
+### System Maintenance
+
+| Command | Subcommand | Description |
+| :--- | :--- | :--- |
+| `SYSTEM` | `sync` | Add, commit, and push all changes (`message` param supported). |
+| `SYSTEM` | `status` | Show git status and repository disk usage. |
+| `SYSTEM` | `clean` | Remove `__pycache__` and temporary execution artifacts. |
+| `SYSTEM` | `mkdir` | Create directories (`path` param required). |
+| `SYSTEM` | `move` | Move or rename files (`src` and `dest` params required). |
+| `SYSTEM` | `delete` | Delete files or directories (`path` param required). |
+| `SYSTEM` | `list` | List directory contents (`path` param optional). |
+
+### Operator Context
+
+| Command | Subcommand | Description |
+| :--- | :--- | :--- |
+| `OPERATOR` | `log` | Append a timestamped observation to `OPERATOR.md`. |
+| `OPERATOR` | `status` | View the most recent entries in the operator log. |
+| `OPERATOR` | `profile` | View the current operator cognitive profile. |
+
+Example:
+```bash
+./helix 'OPERATOR log message:"Observed strong synchronization at K:0.8"'
+./helix 'SYSTEM sync message:"Logged Kuramoto synchronization discovery"'
+```
+
+---
+
 ## RUNNING HELIX
 
-All experiment execution must go through the HIL wrapper.
+**All experiment execution must originate from a HIL command.**
+Direct shell invocation (`python labs/...`, `wsl -e bash -c "..."`) is
+blocked at the dispatcher and runner layers. The LLM must never construct
+or approve a raw shell command to run an experiment.
+
+### Enforcement layers
+
+| Layer | File | Rule enforced |
+|---|---|---|
+| Dispatcher | `core/kernel/dispatcher/router.py` | Rejects envelopes where `source != "hil"` |
+| ExperimentRunner | `core/runner/experiment_runner.py` | Rejects envelopes where `source != "hil"` |
+| ExperimentRegistry | `engines/python/experiment_registry.py` | Canonical name → module resolution |
+| Shell | permitted for env setup only | Not for experiment execution |
+
+### HIL experiment commands
 
 ```bash
-# Issue a HIL command
-./helix "PROBE invariant:epistemic_irreversibility"
+# Run an invariant probe
+./helix "RUN experiment:epistemic_irreversibility engine:python"
 
-# Run a specific experiment with parameters
+# Run with parameters
 ./helix "RUN experiment:network_consensus engine:python p:0.4"
 
-# Perform a parameter sweep
-./helix "SWEEP parameter:noise range:0..0.5 steps:10 RUN experiment:epistemic_irreversibility"
+# Probe an invariant (runs default probe for that invariant)
+./helix "PROBE invariant:epistemic_irreversibility"
+
+# Repeat a run
+./helix "RUN experiment:decision_compression engine:python repeat:5"
+
+# Parameter sweep
+./helix "SWEEP parameter:noise range:0..0.5 steps:10 experiment:epistemic_irreversibility"
+
+# List registered experiments (via HIL)
+./helix "ATLAS list experiment:all"
 
 # Compile artifacts into atlas + rebuild graph
 ./helix "COMPILE atlas"
@@ -292,6 +367,29 @@ All experiment execution must go through the HIL wrapper.
 # Run full HIL test suite
 python3 -m pytest core/hil/tests/ -v
 ```
+
+### Registered experiments
+
+| HIL name | Module path |
+|---|---|
+| `epistemic_irreversibility` | `labs.invariants.epistemic_irreversibility_probe` |
+| `decision_compression` | `labs.invariants.decision_compression_probe` |
+| `oscillator_locking` | `labs.invariants.oscillator_locking_probe` |
+| `local_incompleteness` | `labs.invariants.local_incompleteness_probe` |
+| `regime_transition` | `labs.invariants.regime_transition_probe` |
+| `network_consensus` | `labs.network_consensus.experiment` |
+| `oscillator_sync` | `labs.oscillator_sync.experiment` |
+
+Add new experiments to `engines/python/experiment_registry.py` — never bypass via shell.
+
+### Shell access scope
+
+Shell (`bash`, `wsl`) is permitted **only** for:
+- Environment setup (`pip install`, `apt`, virtual env activation)
+- Dependency installation
+- System maintenance (`git`, file ops via `SYSTEM` commands)
+
+Shell must **not** be used to execute experiments directly.
 
 ---
 

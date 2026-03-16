@@ -1,0 +1,12 @@
+experiment: decision_compression
+engine: python
+parameters:
+  engine: engine:python
+timestamp: 2026-03-15T22:49:28.988213
+helix_version: 1.0
+hil_command: "RUN experiment:decision_compression engine:python"
+integrity_status: True
+artifact_paths:
+  - results.json
+  - parameters.json
+  - metadata.json

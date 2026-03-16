@@ -20,16 +20,34 @@ try:
 except ImportError:
     _invariant_engine = None
 
+_HIL_SOURCE_REQUIRED = True  # Set False only in unit tests
+
+
 class ExperimentRunner:
     """
     Executes a single experiment through a selected engine.
     Handles artifact generation and Atlas compiler invocation.
+
+    Enforcement rule: all envelopes must originate from the HIL pipeline.
+    An envelope produced by direct shell invocation will be rejected.
     """
     def __init__(self, engine_registry: dict | None = None):
         # engine_registry is legacy/optional now
         self.legacy_registry = engine_registry or {}
 
     def run(self, envelope: dict) -> dict:
+        # ── HIL source gate ───────────────────────────────────────────────────
+        if _HIL_SOURCE_REQUIRED and envelope.get("source") != "hil":
+            return {
+                "status": "HIL_REQUIRED",
+                "message": (
+                    "Direct execution is blocked. "
+                    "All experiments must enter through the HIL pipeline.\n"
+                    "Use: RUN experiment:<name> engine:<engine>\n"
+                    "Example: RUN experiment:epistemic_irreversibility engine:python"
+                ),
+            }
+
         experiment_name = envelope.get("target", "unknown")
         # Handle engine resolving from target or params
         engine_name = envelope.get("engine", "python")

@@ -163,6 +163,27 @@ COMMAND_REGISTRY: dict[str, CommandSpec] = {
         example="DISCOVER invariants domain:swarm",
         allows_no_subcommand=True,
     ),
+    "SYSTEM": CommandSpec(
+        verb="SYSTEM",
+        subcommands=frozenset({
+            "sync", "status", "diff", "log", "add", "commit", "push", "pull",
+            "clean", "move", "rename", "delete", "mkdir", "list",
+        }),
+        required_target_types=frozenset(),
+        optional_params=frozenset({"message", "verbose", "mode", "src", "dest", "path", "n"}),
+        description="Git operations and file system tasks — no raw shell needed.",
+        example="SYSTEM commit message:\"Enforce HIL execution pipeline\"",
+        allows_no_subcommand=False,
+    ),
+    "OPERATOR": CommandSpec(
+        verb="OPERATOR",
+        subcommands=frozenset({"log", "status", "profile"}),
+        required_target_types=frozenset(),
+        optional_params=frozenset({"message", "context", "level"}),
+        description="Manage operator context and logging.",
+        example="OPERATOR log message:'Observed phase shift in Kuramoto trials'",
+        allows_no_subcommand=False,
+    ),
 }
 
 VALID_VERBS: frozenset[str] = frozenset(COMMAND_REGISTRY.keys())

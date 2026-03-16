@@ -1,17 +1,21 @@
-#!/bin/bash
-# Helix Interface Language (HIL) CLI Wrapper
-# Usage: ./helix "PROBE invariant:epistemic_irreversibility"
+#!/usr/bin/env bash
+# helix — Helix Interface Language CLI wrapper
+#
+# Usage:
+#   ./helix "RUN experiment:epistemic_irreversibility engine:python"
+#   ./helix "PROBE invariant:decision_compression"
+#   ./helix "COMPILE atlas"
+#
+# All experiment execution must go through this wrapper.
+# Direct Python invocation of labs/ scripts is not supported.
 
-# Get the script directory
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+set -euo pipefail
 
-# Set PYTHONPATH to the repo root
-export PYTHONPATH="$DIR"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Run through the venv if it exists
-if [ -f "$DIR/venv/bin/python" ]; then
-    "$DIR/venv/bin/python" "$DIR/core/hil/hil_dispatch.py" "$@"
-else
-    # Fallback to system python
-    python3 "$DIR/core/hil/hil_dispatch.py" "$@"
+# Activate venv if present
+if [ -f "$REPO_ROOT/venv/bin/activate" ]; then
+    source "$REPO_ROOT/venv/bin/activate"
 fi
+
+exec python3 "$REPO_ROOT/core/hil/hil_dispatch.py" "$@"

@@ -117,6 +117,14 @@
       "metadata": {}
     },
     {
+      "id": "last_hil_run",
+      "type": "REGIME",
+      "status": "unknown",
+      "domains": [],
+      "path": "atlas/regimes/last_hil_run.md",
+      "metadata": {}
+    },
+    {
       "id": "probe_result",
       "type": "REGIME",
       "status": "unknown",
@@ -217,7 +225,7 @@
     }
   ],
   "_meta": {
-    "node_count": 11,
+    "node_count": 12,
     "edge_count": 10
   }
 }

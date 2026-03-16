@@ -122,14 +122,26 @@ def validate(cmd: HILCommand, registry: dict | None = None) -> HILCommand:
                     )
 
     # 8. Defense-in-depth: blocked patterns on canonical string
+    import re as _re
     canonical = cmd.canonical().lower()
     for pat in _BLOCKED:
-        if pat.lower() in canonical:
-            from core.hil.errors import HILUnsafeCommandError
-            raise HILUnsafeCommandError(
-                f"Blocked pattern in canonical command: {pat.strip()!r}",
-                raw=cmd.raw,
-            )
+        stripped = pat.strip()
+        # Use word-boundary matching for short alphabetic tokens to avoid
+        # false positives (e.g. "dd" matching inside "add").
+        if stripped.isalpha() and len(stripped) <= 5:
+            if _re.search(rf"\b{_re.escape(stripped)}\b", canonical):
+                from core.hil.errors import HILUnsafeCommandError
+                raise HILUnsafeCommandError(
+                    f"Blocked pattern in canonical command: {stripped!r}",
+                    raw=cmd.raw,
+                )
+        else:
+            if stripped.lower() in canonical:
+                from core.hil.errors import HILUnsafeCommandError
+                raise HILUnsafeCommandError(
+                    f"Blocked pattern in canonical command: {stripped!r}",
+                    raw=cmd.raw,
+                )
 
     return cmd
 

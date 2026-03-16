@@ -2,6 +2,11 @@ from __future__ import annotations
 import os
 import json
 from engines.python.experiment_loader import PythonExperimentLoader
+from engines.python.experiment_registry import (
+    ExperimentLoadError,
+    ExperimentNotFoundError,
+    list_experiments,
+)
 
 class PythonAdapter:
     """
@@ -14,10 +19,23 @@ class PythonAdapter:
     def run_experiment(self, experiment_name: str, parameters: dict) -> dict:
         """
         Standard Phase 13 engine interface.
+        Resolves experiment name via ExperimentRegistry, then executes.
         """
-        module = self.loader.load(experiment_name)
+        try:
+            module = self.loader.load(experiment_name)
+        except ExperimentLoadError as e:
+            return {"status": "error", "message": str(e)}
+
         if not module:
-            return {"status": "error", "message": f"Experiment '{experiment_name}' not found in Python engine"}
+            valid = ", ".join(list_experiments())
+            return {
+                "status": "error",
+                "message": (
+                    f"Experiment '{experiment_name}' not found.\n"
+                    f"Use: RUN experiment:<name> engine:python\n"
+                    f"Registered: {valid}"
+                ),
+            }
 
         try:
             # 2. Execute experiment

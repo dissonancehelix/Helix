@@ -40,12 +40,13 @@ _BLOCKED_RAW: tuple[str, ...] = (
     "DROP ", "DELETE FROM", "> /dev/",
     "chmod ", "chown ", "wget ", "curl ",
     "exec(", "__import__", "os.system", "subprocess",
-    "eval(", "fork()",
+    "eval(", "fork()", ">>",
 )
 
 # ── Tokenizer ─────────────────────────────────────────────────────────────────
 _TOKEN_PATTERNS: list[tuple[str, str]] = [
-    ("TYPED_REF", r"[a-zA-Z_][a-zA-Z0-9_]*:[a-zA-Z0-9_][a-zA-Z0-9_.\-]*"),
+    # Support prefix:"quoted value" or prefix:unquoted_value
+    ("TYPED_REF", r'[a-zA-Z_][a-zA-Z0-9_]*:(?:"[^"]*"|\'[^\']*\'|[a-zA-Z0-9_][a-zA-Z0-9_.\-]*)'),
     ("RANGE",     r"\d+(?:\.\d+)?\.\.\d+(?:\.\d+)?"),
     ("NUMBER",    r"\d+(?:\.\d+)?"),
     ("WORD",      r"[a-zA-Z_][a-zA-Z0-9_\-]*"),
@@ -109,10 +110,19 @@ def parse(raw: str) -> HILCommand:
     # Safety: reject blocked patterns before tokenization
     text_lower = text.lower()
     for pat in _BLOCKED_RAW:
-        if pat.lower() in text_lower:
-            raise HILUnsafeCommandError(
-                f"Blocked pattern detected: {pat.strip()!r}", raw=raw
-            )
+        stripped = pat.strip()
+        # For patterns that are likely commands (short, alphabetic), use strict word boundaries.
+        if stripped.isalpha() and len(stripped) <= 5:
+            if re.search(rf"\b{re.escape(stripped)}\b", text_lower):
+                raise HILUnsafeCommandError(
+                    f"Blocked pattern detected: {stripped!r}", raw=raw
+                )
+        # For mult-word or symbolic patterns, check for direct inclusion.
+        elif len(stripped) > 5 or not stripped.isalpha():
+            if stripped.lower() in text_lower:
+                raise HILUnsafeCommandError(
+                    f"Blocked pattern detected: {stripped!r}", raw=raw
+                )
 
     try:
         tokens = _tokenize(text)
@@ -177,6 +187,11 @@ def parse(raw: str) -> HILCommand:
             colon = val.index(":")
             prefix = val[:colon].lower()
             name   = val[colon + 1:]
+
+            # Unquote if necessary
+            if (name.startswith('"') and name.endswith('"')) or \
+               (name.startswith("'") and name.endswith("'")):
+                name = name[1:-1]
 
             if prefix == "range":
                 params["range"] = _parse_range(name, raw)

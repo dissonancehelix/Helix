@@ -35,9 +35,17 @@ class Dispatcher:
     """
     Routes normalized HIL envelopes to the correct engine through the Orchestrator.
 
-    Phase 13 pipeline:
-      HIL envelope -> integrity gate -> scheduler -> experiment runner -> engine -> result
+    Enforcement rules:
+      - All envelopes must carry source="hil" (set by dispatch_interface.py)
+      - RUN/PROBE/SWEEP envelopes must identify an experiment target
+      - No raw shell commands may reach this layer
+
+    Pipeline:
+      HIL envelope -> source gate -> integrity gate -> scheduler -> engine -> result
     """
+
+    # Verbs that require an experiment or invariant target
+    _EXPERIMENT_VERBS: frozenset[str] = frozenset({"RUN", "PROBE", "SWEEP", "TRACE", "OBSERVE"})
 
     def __init__(self, skip_integrity: bool = False):
         self._skip_integrity = skip_integrity
@@ -46,6 +54,34 @@ class Dispatcher:
         self.scheduler = Scheduler(self.experiment_runner, self.sweep_runner)
 
     def route(self, envelope: dict) -> dict:
+        # ── HIL source gate ───────────────────────────────────────────────
+        if envelope.get("source") != "hil":
+            return {
+                "status": "HIL_REQUIRED",
+                "message": (
+                    "Execution rejected: envelope did not originate from the HIL pipeline. "
+                    "All experiment execution must use the HIL command language.\n"
+                    "Example: RUN experiment:epistemic_irreversibility engine:python"
+                ),
+            }
+
+        # ── Experiment target gate ────────────────────────────────────────
+        verb = envelope.get("verb", "").upper()
+        if verb in self._EXPERIMENT_VERBS:
+            targets = envelope.get("targets", [])
+            has_experiment_target = any(
+                str(t).startswith(("experiment:", "invariant:", "parameter:"))
+                for t in targets
+            )
+            if not has_experiment_target and not envelope.get("target"):
+                return {
+                    "status": "HIL_INVALID",
+                    "message": (
+                        f"{verb} requires an experiment or invariant target.\n"
+                        f"Example: {verb} experiment:<name> engine:python"
+                    ),
+                }
+
         # ── Phase 9: integrity gate ──────────────────────────────────────
         if not self._skip_integrity:
             ok = _run_integrity_gate(verbose=False)

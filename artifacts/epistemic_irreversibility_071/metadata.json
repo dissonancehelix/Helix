@@ -1,0 +1,17 @@
+{
+    "runtime_duration": "0.0128s",
+    "engine_used": "python",
+    "parameter_values": {
+        "engine": "engine:python",
+        "null_control": true
+    },
+    "system_environment": {
+        "os": "Linux",
+        "node": "dissonance",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "machine": "x86_64",
+        "python_version": "3.12.3"
+    },
+    "execution_status": "ok",
+    "timestamp": 1773629348.737796
+}

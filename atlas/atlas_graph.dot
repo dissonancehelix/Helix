@@ -15,6 +15,7 @@ digraph HelixAtlas {
   decision_compression_sweep [label="decision\ncompression\nsweep", tooltip="EXPERIMENT: completed", shape="box", color="#A23B72", fontcolor="white", style="filled"];
   epistemic_irreversibility [label="epistemic\nirreversibility", tooltip="INVARIANT: exploratory", shape="ellipse", color="#2E86AB", fontcolor="white", style="filled"];
   finding_status_table [label="finding\nstatus\ntable", tooltip="REGIME: unknown", shape="hexagon", color="#C73E1D", fontcolor="white", style="filled"];
+  last_hil_run [label="last\nhil\nrun", tooltip="REGIME: unknown", shape="hexagon", color="#C73E1D", fontcolor="white", style="filled"];
   local_incompleteness [label="local\nincompleteness", tooltip="INVARIANT: exploratory", shape="ellipse", color="#2E86AB", fontcolor="white", style="filled"];
   oscillator_locking [label="oscillator\nlocking", tooltip="INVARIANT: verified", shape="ellipse", color="#2E86AB", fontcolor="white", style="filled"];
   probe_result [label="probe\nresult", tooltip="REGIME: unknown", shape="hexagon", color="#C73E1D", fontcolor="white", style="filled"];

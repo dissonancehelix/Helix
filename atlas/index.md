@@ -28,6 +28,7 @@ Registry: `atlas/atlas_index.yaml`
 ## Regimes
 
 - [Regime: Finding Status Table](regimes/finding_status_table.md)
+- [Regime: Last Hil Run](regimes/last_hil_run.md)
 - [Regime: Probe Result](regimes/probe_result.md)
 - [Regime: Results](regimes/results.md)
 

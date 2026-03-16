@@ -11,6 +11,13 @@ class Scheduler:
     def __init__(self, experiment_runner: ExperimentRunner, sweep_runner: SweepRunner):
         self.experiment_runner = experiment_runner
         self.sweep_runner = sweep_runner
+        
+        # Resolve repo root relative to core/runner/scheduler.py
+        import os
+        from pathlib import Path
+        repo_root = Path(__file__).resolve().parent.parent.parent
+        from core.kernel.system_handler import SystemHandler
+        self.system_handler = SystemHandler(str(repo_root))
 
     def dispatch(self, envelope: dict) -> dict:
         verb = envelope.get("verb", "")
@@ -23,6 +30,8 @@ class Scheduler:
             return self._handle_export(envelope)
         elif verb == "ANALYZE":
             return self._handle_analyze(envelope)
+        elif verb in ("SYSTEM", "OPERATOR"):
+            return self.system_handler.handle(envelope)
         else:
             # Fallback for PROBE, TRACE, etc.
             return self.experiment_runner.run(envelope)
