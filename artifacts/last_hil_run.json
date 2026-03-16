@@ -1,8 +1,59 @@
 {
-    "name": "invariant_epistemic_irreversibility",
-    "occurrences": 42,
-    "similarity_mean": 0.9999437750480873,
-    "supporting_artifacts": [
+  "status": "ok",
+  "message": null,
+  "artifact_dir": "artifacts/epistemic_irreversibility_051",
+  "result": {
+    "probe_name": "epistemic_irreversibility",
+    "signal": 49.82892142331041,
+    "confidence": "HIGH",
+    "passed": true,
+    "domain": "dynamical_systems",
+    "findings": {
+      "mean_info_loss_bits": 49.82892142331041,
+      "commitment_bias": 0.5836504683877465,
+      "unstable_ratio": 0.0
+    },
+    "features": {
+      "final_states_stats": {
+        "mean": 0.5836504683877465,
+        "variance": 0.6655054961726544,
+        "max": 1.054566862566451,
+        "min": -1.0378841480825052
+      },
+      "final_states_entropy": 0.5139567089000653,
+      "irreversibility_distribution_stats": {
+        "mean": 49.82892142331041,
+        "variance": 4.543838814073028e-28,
+        "max": 49.82892142331043,
+        "min": 49.82892142331043
+      },
+      "irreversibility_distribution_entropy": 2.1623265891184758e-08
+    }
+  },
+  "manifest_path": "artifacts/epistemic_irreversibility_051/run_manifest.yaml",
+  "validation": {
+    "status": "UNSTABLE",
+    "confidence": "LOW",
+    "replication": {
+      "variance": 0.0,
+      "passed": true,
+      "count": 5
+    },
+    "perturbation": {
+      "resilience": 1.0,
+      "passed": true
+    },
+    "null_model": {
+      "null_model_difference": 0.0,
+      "passed": false
+    }
+  },
+  "discovered_invariants": {
+    "invariant_epistemic_irreversibility": {
+      "name": "invariant_epistemic_irreversibility",
+      "occurrences": 42,
+      "similarity_mean": 0.9999437750480873,
+      "supporting_artifacts": [
         "artifacts/epistemic_irreversibility_051",
         "artifacts/epistemic_irreversibility_054",
         "artifacts/epistemic_irreversibility_049",
@@ -45,7 +96,9 @@
         "artifacts/epistemic_irreversibility_022",
         "artifacts/epistemic_irreversibility_037",
         "artifacts/epistemic_irreversibility_042"
-    ],
-    "confidence": 0.99,
-    "status": "candidate"
+      ],
+      "confidence": 0.99,
+      "status": "candidate"
+    }
+  }
 }

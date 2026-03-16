@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 
 # Add REPO_ROOT to sys.path
-REPO_ROOT = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
 from core.hil import dispatch
@@ -37,8 +37,10 @@ def main():
         print(f"Status: {result.get('status')}")
         print(f"Error: {result.get('message') or result.get('error')}")
     
-    # Save the full result for verification
-    with open("last_hil_run.json", "w") as f:
+    # Save the full result for verification in artifacts/
+    log_dir = REPO_ROOT / "artifacts"
+    log_dir.mkdir(exist_ok=True)
+    with open(log_dir / "last_hil_run.json", "w") as f:
         json.dump(result, f, indent=2)
 
 if __name__ == "__main__":

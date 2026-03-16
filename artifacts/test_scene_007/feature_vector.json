@@ -1,0 +1,10 @@
+{
+    "val_spatial_sync": 0.88,
+    "global_mean": 0.88,
+    "global_variance": 0.0,
+    "global_max": 0.88,
+    "entropy": -0.0,
+    "is_spatial": 1.0,
+    "density": 200.0,
+    "sync_index": 0.88
+}

@@ -1,0 +1,11 @@
+experiment: epistemic_irreversibility
+engine: python
+parameters: {}
+timestamp: 2026-03-15T22:24:14.132561
+helix_version: 1.0
+hil_command: "PROBE invariant:epistemic_irreversibility"
+integrity_status: True
+artifact_paths:
+  - results.json
+  - parameters.json
+  - metadata.json

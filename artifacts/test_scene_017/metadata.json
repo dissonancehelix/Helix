@@ -1,0 +1,17 @@
+{
+    "runtime_duration": "1.0001s",
+    "engine_used": "godot",
+    "parameter_values": {
+        "engine": "engine:godot",
+        "agent_count": "200"
+    },
+    "system_environment": {
+        "os": "Linux",
+        "node": "dissonance",
+        "release": "6.6.87.2-microsoft-standard-WSL2",
+        "machine": "x86_64",
+        "python_version": "3.12.3"
+    },
+    "execution_status": "ok",
+    "timestamp": 1773627415.7172775
+}

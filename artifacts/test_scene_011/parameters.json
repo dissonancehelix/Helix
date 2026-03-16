@@ -1,0 +1,5 @@
+{
+    "engine": "engine:godot",
+    "agent_count": "200",
+    "null_control": true
+}
