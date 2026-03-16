@@ -1,14 +1,20 @@
 """
-Entropy Probe — Helix Phase 9
-Detects simulated execution by checking that /dev/urandom produces
-non-deterministic output across two consecutive reads.
+Entropy Probe — Helix
+=====================
+Detects simulated execution by checking that the OS entropy source
+produces non-deterministic output across two consecutive reads.
 
-If outputs are identical, the environment is likely simulated or
-the entropy source is broken.
+Uses Python's os.urandom() — works natively on Windows, MSYS2, and Linux
+without any subprocess or /dev/urandom dependency.
+
+If outputs are identical, the environment is likely simulated or the
+entropy source is broken.
 """
 
 from __future__ import annotations
-import subprocess
+
+import os
+import base64
 from dataclasses import dataclass
 
 
@@ -21,11 +27,7 @@ class EntropyResult:
 
 
 def _sample() -> str:
-    result = subprocess.run(
-        ["bash", "-c", "head -c 32 /dev/urandom | base64"],
-        capture_output=True, text=True, timeout=5
-    )
-    return result.stdout.strip()
+    return base64.b64encode(os.urandom(32)).decode()
 
 
 def probe() -> EntropyResult:
@@ -35,18 +37,18 @@ def probe() -> EntropyResult:
     except Exception as e:
         return EntropyResult(
             passed=False, sample1="", sample2="",
-            details=f"Failed to read /dev/urandom: {e}",
+            details=f"Failed to read OS entropy source: {e}",
         )
 
-    passed  = bool(s1) and bool(s2) and s1 != s2
+    passed = bool(s1) and bool(s2) and s1 != s2
     details = (
         "Entropy source produces distinct outputs — real execution confirmed."
         if passed
         else (
             "Entropy samples are identical — execution may be simulated or "
-            "/dev/urandom is not functioning correctly."
+            "os.urandom() is not functioning correctly."
             if s1 == s2
-            else "Empty entropy output — /dev/urandom unavailable."
+            else "Empty entropy output — os.urandom() unavailable."
         )
     )
     return EntropyResult(passed=passed, sample1=s1, sample2=s2, details=details)

@@ -12,10 +12,19 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+VENV_ROOT="$REPO_ROOT/runtime/venv"
 
-# Activate venv if present
-if [ -f "$REPO_ROOT/venv/bin/activate" ]; then
-    source "$REPO_ROOT/venv/bin/activate"
+# Activate venv if present — try Scripts/ (MSYS2/Windows) then bin/ (Unix)
+if [ -f "$VENV_ROOT/Scripts/activate" ]; then
+    source "$VENV_ROOT/Scripts/activate"
+elif [ -f "$VENV_ROOT/bin/activate" ]; then
+    source "$VENV_ROOT/bin/activate"
 fi
 
-exec python3 "$REPO_ROOT/core/hil/hil_dispatch.py" "$@"
+# Prefer python3, fall back to python
+PYTHON="python3"
+if ! command -v python3 &>/dev/null; then
+    PYTHON="python"
+fi
+
+exec "$PYTHON" "$REPO_ROOT/core/hil/hil_dispatch.py" "$@"

@@ -1,20 +1,27 @@
 """
-Environment Probe — Helix Phase 9
-Verifies Helix is running inside a real WSL2 environment.
+Environment Probe — Helix
+=========================
+Verifies Helix is running inside a supported execution environment.
 
-Checks /proc/version for the WSL2 kernel signature.
-Failure means the execution environment is not what is expected
-(simulated, wrong OS, CI runner without WSL, etc.)
+Supported environments (in priority order):
+  1. MSYS2   — any MSYSTEM value (MSYS, MINGW64, UCRT64, CLANG64, …)
+  2. Windows  — sys.platform == "win32" without MSYSTEM (bare CPython)
+
+Failure means the environment is entirely unrecognised.
 """
 
 from __future__ import annotations
-import subprocess
+
+import os
+import sys
 from dataclasses import dataclass
-from pathlib import Path
 
 
-WSL_SIGNATURE = "microsoft-standard-WSL2"
-PROC_VERSION  = Path("/proc/version")
+# All known MSYS2 subsystem names
+MSYS2_SYSTEMS = {
+    "MSYS", "MINGW32", "MINGW64",
+    "UCRT64", "CLANG32", "CLANG64", "CLANGARM64",
+}
 
 
 @dataclass
@@ -25,29 +32,35 @@ class EnvironmentResult:
 
 
 def probe() -> EnvironmentResult:
-    # Primary check: /proc/version
-    if PROC_VERSION.exists():
-        version = PROC_VERSION.read_text().strip()
-    else:
-        # Fallback: uname -r
-        try:
-            version = subprocess.check_output(
-                ["uname", "-r"], text=True, timeout=5
-            ).strip()
-        except Exception as e:
-            return EnvironmentResult(
-                passed=False,
-                signature="UNAVAILABLE",
-                details=f"Could not read kernel version: {e}",
-            )
+    msystem = os.environ.get("MSYSTEM", "")
 
-    passed  = WSL_SIGNATURE.lower() in version.lower()
-    details = (
-        "WSL2 kernel signature confirmed."
-        if passed
-        else f"Expected '{WSL_SIGNATURE}' in kernel string. Got: {version[:120]}"
+    # Primary: MSYS2 (any subsystem)
+    if msystem:
+        label = msystem if msystem in MSYS2_SYSTEMS else f"MSYS2/{msystem}"
+        return EnvironmentResult(
+            passed=True,
+            signature=msystem,
+            details=f"MSYS2 environment confirmed (MSYSTEM={msystem}).",
+        )
+
+    # Fallback: bare Windows CPython (no MSYS2 shell)
+    if sys.platform == "win32":
+        sig = f"win32/CPython-{sys.version.split()[0]}"
+        return EnvironmentResult(
+            passed=True,
+            signature=sig,
+            details=f"Windows native CPython environment ({sig}).",
+        )
+
+    return EnvironmentResult(
+        passed=False,
+        signature="UNKNOWN",
+        details=(
+            "Unrecognised environment. "
+            "Helix requires MSYS2 (any subsystem) or Windows CPython. "
+            f"MSYSTEM={msystem!r}, platform={sys.platform!r}"
+        ),
     )
-    return EnvironmentResult(passed=passed, signature=version[:120], details=details)
 
 
 if __name__ == "__main__":
