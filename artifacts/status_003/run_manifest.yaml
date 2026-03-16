@@ -1,0 +1,11 @@
+experiment: status
+engine: python
+parameters: {}
+timestamp: 2026-03-15T22:57:46.562166
+helix_version: 1.0
+hil_command: "ATLAS status"
+integrity_status: True
+artifact_paths:
+  - results.json
+  - parameters.json
+  - metadata.json

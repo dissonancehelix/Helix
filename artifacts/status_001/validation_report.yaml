@@ -1,0 +1,11 @@
+status: UNSTABLE
+confidence: LOW
+replication:
+  status: error
+  message: No successful replications
+perturbation:
+  status: error
+  message: Perturbation run failed
+null_model:
+  status: error
+  message: Null model run failed

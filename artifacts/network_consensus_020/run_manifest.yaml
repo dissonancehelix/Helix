@@ -1,0 +1,13 @@
+experiment: network_consensus
+engine: python
+parameters:
+  engine: engine:python
+  null_control: True
+timestamp: 2026-03-15T23:01:06.272297
+helix_version: 1.0
+hil_command: "RUN experiment:network_consensus engine:python"
+integrity_status: True
+artifact_paths:
+  - results.json
+  - parameters.json
+  - metadata.json

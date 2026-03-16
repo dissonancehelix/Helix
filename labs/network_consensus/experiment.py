@@ -58,5 +58,15 @@ def run_consensus(n_nodes=20, p=0.3, steps=100):
     print(f"Consensus experiment complete: {artifact_dir}")
     return artifact_dir
 
+def run(params: dict = None) -> dict:
+    """HIL-compatible entry point: RUN experiment:network_consensus engine:python"""
+    params = params or {}
+    n_nodes = int(params.get("n", 20))
+    p       = float(params.get("p", 0.3))
+    steps   = int(params.get("steps", 100))
+    artifact_dir = run_consensus(n_nodes=n_nodes, p=p, steps=steps)
+    return {"artifact_dir": artifact_dir, "status": "ok"}
+
+
 if __name__ == "__main__":
     run_consensus()

@@ -1,0 +1,13 @@
+{
+  "experiment": "network_consensus",
+  "features": {
+    "network_metrics": {
+      "nodes": 20,
+      "edges": 40,
+      "density": 0.21052631578947367,
+      "clustering": 0.2333333333333333
+    },
+    "final_variance": 1.4092507663543973e-09,
+    "convergence_step": 39
+  }
+}

@@ -1,26 +1,28 @@
 {
   "status": "ok",
-  "path": "core/hil",
-  "items": [
-    "__init__.py",
-    "__pycache__",
-    "aliases.py",
-    "ast_nodes.py",
-    "command_logger.py",
-    "command_registry.py",
-    "debug_safety.py",
-    "dispatch_interface.py",
-    "errors.py",
-    "grammar.ebnf",
-    "grammar.py",
-    "hil_dispatch.py",
-    "hil_influences.md",
-    "hil_reference.md",
-    "normalizer.py",
-    "ontology.py",
-    "parser.py",
-    "semantic_roles.py",
-    "tests",
-    "validator.py"
-  ]
+  "message": null,
+  "artifact_dir": "artifacts/network_consensus_011",
+  "result": {
+    "artifact_dir": "artifacts/network_consensus_791",
+    "status": "ok"
+  },
+  "manifest_path": "artifacts/network_consensus_011/run_manifest.yaml",
+  "validation": {
+    "status": "UNSTABLE",
+    "confidence": "LOW",
+    "replication": {
+      "variance": 0.0,
+      "passed": true,
+      "count": 5
+    },
+    "perturbation": {
+      "resilience": 1.0,
+      "passed": true
+    },
+    "null_model": {
+      "null_model_difference": 0.0,
+      "passed": false
+    }
+  },
+  "discovered_invariants": null
 }
