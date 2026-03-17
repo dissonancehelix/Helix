@@ -30,3 +30,7 @@ Thumbs.db
 # Local experiment outputs
 experiments/output/
 /05_applications/eft/
+
+# Generated atlas data — large, rebuilt by pipeline stage 9
+atlas/entities/registry.json
+atlas/entities/entity_graph.json
