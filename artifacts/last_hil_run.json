@@ -1,4 +1,5 @@
 {
   "status": "error",
-  "message": "Sync failed: Command '['git', 'commit', '-m', 'Save template system implementation and schema alignment']' returned non-zero exit status 1."
+  "error": "GRAPH does not accept 'entity' targets. Expected: ['composer', 'experiment', 'graph', 'graph_query', 'invariant', 'model', 'soundtrack']",
+  "command": "GRAPH edges entity:music_track_golden_axe_iii_track_1"
 }
