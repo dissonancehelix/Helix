@@ -29,10 +29,23 @@ ENTITY_RESERVED_TYPES: frozenset[str] = frozenset({
     "Model",
     "Invariant",
     "Operator",
+    "Driver",
+    "Infrasubstrate",
+})
+
+# Music analysis entity types: produced by the music operator pipeline
+# (INGEST_TRACK → ANALYZE_TRACK → STYLE_VECTOR → COMPILE_ATLAS)
+ENTITY_MUSIC_ANALYSIS_TYPES: frozenset[str] = frozenset({
+    "ControlSequence",    # hardware-level register-write log
+    "SymbolicScore",      # music-theory representation (notes, chords, intervals)
+    "SignalProfile",      # audio feature representation (spectral, rhythm, timbral)
+    "ArtistStyleVector",  # aggregated musical fingerprint for a composer
 })
 
 # Full ontology: all recognized entity types
-ENTITY_ONTOLOGY: frozenset[str] = ENTITY_CORE_TYPES | ENTITY_RESERVED_TYPES
+ENTITY_ONTOLOGY: frozenset[str] = (
+    ENTITY_CORE_TYPES | ENTITY_RESERVED_TYPES | ENTITY_MUSIC_ANALYSIS_TYPES
+)
 
 
 def is_core_entity_type(type_str: str) -> bool:
@@ -41,6 +54,10 @@ def is_core_entity_type(type_str: str) -> bool:
 
 def is_reserved_entity_type(type_str: str) -> bool:
     return type_str in ENTITY_RESERVED_TYPES
+
+
+def is_music_analysis_entity_type(type_str: str) -> bool:
+    return type_str in ENTITY_MUSIC_ANALYSIS_TYPES
 
 
 def is_known_entity_type(type_str: str) -> bool:

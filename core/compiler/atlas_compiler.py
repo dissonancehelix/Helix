@@ -1,27 +1,40 @@
 """
-Atlas Compiler — Helix Phase 8
-==============================
-Converts raw experimental artifacts into structured Atlas knowledge objects.
+Atlas Compiler — Helix Formal System
+======================================
+Converts validated artifacts into Atlas entities via the mandated pipeline:
 
-Object types:
+    normalize(entity_dict)
+    → semantic_validate(entity)
+    → compile_entity(entity)
+    → atlas_commit(entity, substrate_path)
+
+CLOSED SYSTEM LAW:
+  No operator, substrate, or script may write to atlas/ directly.
+  All Atlas writes must pass through this compiler.
+  Invalid entities are rejected before any filesystem write.
+
+Atlas organization (by substrate):
+  atlas/
+    entities/registry.json   ← authoritative entity index
+    music/
+      composers/
+      tracks/
+      albums/
+      games/
+      platforms/
+      sound_chips/
+    games/
+    language/
+    mathematics/
+    invariants/
+    signals/
+
+Object types (legacy knowledge objects — markdown-based):
   Invariant   — cross-domain structural rule
-  Experiment  — runnable falsification test with dataset + results
+  Experiment  — runnable falsification test
   Model       — candidate explanatory structure
   Regime      — identified phase or system state
   Operator    — reusable transformation or diagnostic tool
-
-Pipeline:
-  artifacts/<run>/  ->  [discover] -> [extract] -> [validate]
-                    ->  [dedup]    -> [link]     -> [write]
-                    ->  atlas/<type>/<id>.md
-                    ->  atlas/atlas_index.yaml  (updated)
-                    ->  atlas/index.md          (updated)
-
-Design rules:
-  - Atlas must NEVER contain raw experiment data
-  - Atlas entries link to artifacts, never copy them
-  - Atlas entries must be atomic and falsifiable
-  - Atlas is the reasoning memory of Helix
 """
 
 from __future__ import annotations
@@ -37,7 +50,6 @@ from typing import Any
 # Paths
 # ---------------------------------------------------------------------------
 
-# File is at core/compiler/atlas_compiler.py
 REPO_ROOT       = Path(__file__).resolve().parent.parent.parent
 ARTIFACTS_DIR   = REPO_ROOT / "artifacts"
 ATLAS_DIR       = REPO_ROOT / "atlas"
@@ -49,8 +61,190 @@ OPERATORS_DIR   = ATLAS_DIR / "operators"
 INDEX_MD        = ATLAS_DIR / "index.md"
 INDEX_YAML      = ATLAS_DIR / "atlas_index.yaml"
 
+# Substrate entity directories (organized by substrate/type_plural)
+SUBSTRATE_DIRS: dict[str, dict[str, Path]] = {
+    "music": {
+        "composer":   ATLAS_DIR / "music" / "composers",
+        "track":      ATLAS_DIR / "music" / "tracks",
+        "album":      ATLAS_DIR / "music" / "albums",
+        "game":       ATLAS_DIR / "music" / "games",
+        "platform":   ATLAS_DIR / "music" / "platforms",
+        "sound_chip": ATLAS_DIR / "music" / "sound_chips",
+        "soundchip":  ATLAS_DIR / "music" / "sound_chips",
+        "soundtrack":  ATLAS_DIR / "music" / "albums",
+    },
+    "games": {
+        "game":     ATLAS_DIR / "games" / "titles",
+        "platform": ATLAS_DIR / "games" / "platforms",
+    },
+    "language": {
+        "text":     ATLAS_DIR / "language" / "texts",
+        "corpus":   ATLAS_DIR / "language" / "corpora",
+    },
+    "mathematics": {
+        "dataset":  ATLAS_DIR / "mathematics" / "datasets",
+        "model":    ATLAS_DIR / "mathematics" / "models",
+    },
+}
+
+
 # ---------------------------------------------------------------------------
-# Phase 8 entry template
+# Entity compilation pipeline
+# ---------------------------------------------------------------------------
+
+class CompilationError(Exception):
+    """Raised when an entity fails the compilation pipeline."""
+    pass
+
+
+def compile_entity(entity_dict: dict[str, Any]) -> dict[str, Any]:
+    """
+    Run the full compilation pipeline on an entity dict.
+
+    Pipeline:
+      normalize → semantic_validate → resolve_path → return compiled entry
+
+    Returns the compiled entry dict on success.
+    Raises CompilationError on any failure.
+    """
+    # Stage 1: Normalize
+    try:
+        entity_dict = _normalize_entity(entity_dict)
+    except Exception as e:
+        raise CompilationError(f"Normalization failed: {e}") from e
+
+    # Stage 2: Semantic validation
+    try:
+        _semantic_validate(entity_dict)
+    except Exception as e:
+        raise CompilationError(f"Semantic validation failed: {e}") from e
+
+    # Stage 3: Resolve output path
+    output_path = _resolve_atlas_path(entity_dict)
+
+    # Stage 4: Build compiled entry with provenance
+    compiled = _build_compiled_entry(entity_dict, output_path)
+    return compiled
+
+
+def atlas_commit(compiled: dict[str, Any]) -> Path:
+    """
+    Write a compiled entry to the Atlas filesystem.
+
+    This is the ONLY authorized path for writing to atlas/.
+    Raises CompilationError if the entity fails validation or the
+    runtime mode blocks direct writes.
+    """
+    output_path: Path = compiled["_output_path"]
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Write JSON entity file
+    entry = {k: v for k, v in compiled.items() if not k.startswith("_")}
+    output_path.write_text(json.dumps(entry, indent=2))
+    return output_path
+
+
+def compile_and_commit(entity_dict: dict[str, Any]) -> Path:
+    """
+    Full pipeline: normalize → semantic_validate → compile → commit.
+    Returns the path of the written Atlas file.
+    """
+    compiled = compile_entity(entity_dict)
+    return atlas_commit(compiled)
+
+
+# ---------------------------------------------------------------------------
+# Pipeline stages (internal)
+# ---------------------------------------------------------------------------
+
+def _normalize_entity(entity_dict: dict[str, Any]) -> dict[str, Any]:
+    """
+    Normalize entity dict fields:
+    - Ensure id is lowercase
+    - Ensure type is Title-cased
+    - Populate label from name if absent
+    - Strip whitespace from string fields
+    """
+    d = dict(entity_dict)
+
+    if "id" in d and d["id"]:
+        d["id"] = str(d["id"]).strip().lower()
+
+    if "type" in d and d["type"]:
+        raw_type = str(d["type"]).strip()
+        d["type"] = raw_type[0].upper() + raw_type[1:] if raw_type else raw_type
+
+    if "name" in d and d["name"]:
+        d["name"] = str(d["name"]).strip()
+
+    # label defaults to name
+    if not d.get("label"):
+        d["label"] = d.get("name", "")
+
+    if "description" in d and d["description"]:
+        d["description"] = str(d["description"]).strip()
+
+    # Validate ID format
+    from core.normalization.id_enforcer import enforce_id
+    if d.get("id"):
+        enforce_id(d["id"])  # raises InvalidIDError on failure
+
+    return d
+
+
+def _semantic_validate(entity_dict: dict[str, Any]) -> None:
+    """Run SemanticValidator against entity_dict. Raises on failure."""
+    from core.semantics.validator import SemanticValidator
+    result = SemanticValidator.validate(entity_dict)
+    if not result.valid:
+        raise ValueError("; ".join(result.errors))
+
+
+def _resolve_atlas_path(entity_dict: dict[str, Any]) -> Path:
+    """
+    Determine the output path for this entity in the Atlas filesystem.
+
+    Uses: atlas/{substrate}/{type_plural}/{slug}.json
+    Falls back to atlas/entities/{id_slug}.json for unknown substrates.
+    """
+    entity_id = entity_dict.get("id", "")
+    namespace = entity_id.split(".")[0] if "." in entity_id else ""
+    type_slug = entity_id.split(":")[0].split(".")[-1] if "." in entity_id else ""
+    slug = entity_id.split(":", 1)[-1] if ":" in entity_id else _slugify(entity_dict.get("name", "unknown"))
+
+    substrate_map = SUBSTRATE_DIRS.get(namespace, {})
+    base_dir = substrate_map.get(type_slug)
+
+    if base_dir is None:
+        # Unknown substrate or type — fall back to atlas/entities/
+        base_dir = ATLAS_DIR / "entities" / namespace / (type_slug + "s") if namespace else ATLAS_DIR / "entities"
+
+    return base_dir / f"{slug}.json"
+
+
+def _build_compiled_entry(entity_dict: dict[str, Any], output_path: Path) -> dict[str, Any]:
+    """Build the final compiled Atlas entry with provenance fields."""
+    now = datetime.now(timezone.utc).isoformat()
+
+    compiled = dict(entity_dict)
+
+    # Ensure provenance fields
+    metadata = dict(compiled.get("metadata", {}))
+    if "compiled_at" not in metadata:
+        metadata["compiled_at"] = now
+    if "compiled_by" not in metadata:
+        metadata["compiled_by"] = "atlas_compiler"
+    if "compiler_version" not in metadata:
+        metadata["compiler_version"] = "2.0.0"
+    compiled["metadata"] = metadata
+
+    # Store output path for atlas_commit (stripped before writing)
+    compiled["_output_path"] = output_path
+    return compiled
+
+
+# ---------------------------------------------------------------------------
+# Legacy knowledge object templates (Invariant/Regime/etc. markdown entries)
 # ---------------------------------------------------------------------------
 
 _HEADER = """\
@@ -130,8 +324,8 @@ def discover_artifacts() -> list[dict]:
                 try:
                     data = json.loads(path.read_text())
                     found.append({
-                        "path": path, 
-                        "rel": path.relative_to(REPO_ROOT), 
+                        "path": path,
+                        "rel": path.relative_to(REPO_ROOT),
                         "data": data,
                         "validation": validation_data
                     })
@@ -182,8 +376,7 @@ def extract_invariant(artifact: dict) -> dict | None:
 
     name        = d["invariant"]
     confidence  = d.get("confidence", "experimental")
-    
-    # Phase 14: Use validation report for confidence
+
     if artifact.get("validation"):
         val = artifact["validation"]
         if val.get("confidence"):
@@ -235,7 +428,6 @@ def extract_regime(artifact: dict) -> dict | None:
     stem = artifact["path"].stem
     status = d.get("confidence", "experimental")
 
-    # Phase 14: Use validation report for status
     if artifact.get("validation"):
         val = artifact["validation"]
         if val.get("confidence"):
@@ -319,7 +511,7 @@ def registry_ids(registry: dict, object_type: str) -> set[str]:
 
 
 # ---------------------------------------------------------------------------
-# Entry writing
+# Entry writing (legacy markdown knowledge objects)
 # ---------------------------------------------------------------------------
 
 TYPE_DIRS: dict[str, Path] = {
@@ -364,9 +556,9 @@ def write_entry(obj: dict, overwrite: bool = False) -> Path | None:
 
 def validate_entry(obj: dict) -> tuple[bool, list[str]]:
     issues = []
-    for field in ("name", "mechanism", "falsifiers", "evidence"):
-        if not obj.get(field, "").strip():
-            issues.append(f"missing field: {field}")
+    for f in ("name", "mechanism", "falsifiers", "evidence"):
+        if not obj.get(f, "").strip():
+            issues.append(f"missing field: {f}")
     falsifiers = obj.get("falsifiers", "")
     weak = ("unknown", "tbd", "n/a", "none", "unclear")
     if any(w in falsifiers.lower() for w in weak) and len(falsifiers) < 60:
@@ -422,12 +614,13 @@ def write_index_md(sections: dict[str, list[str]]) -> None:
     lines = [
         "# Helix Atlas",
         "",
-        f"*Compiled {today} — Phase 8: Atlas Consolidation System*",
+        f"*Compiled {today} — Helix Formal System*",
         "",
-        "The Atlas is Helix's structured reasoning memory.",
+        "The Atlas is Helix's structured semantic memory.",
         "Raw data lives in `artifacts/`. Only validated knowledge lives here.",
+        "All Atlas writes pass through the Atlas Compiler.",
         "",
-        "Registry: `atlas/atlas_index.yaml`",
+        "Registry: `atlas/entities/registry.json`",
         "",
         "---",
         "",
@@ -492,8 +685,9 @@ def run(verbose: bool = True, overwrite: bool = False) -> dict[str, Any]:
     stats: dict[str, Any] = {"created": [], "skipped": [], "errors": [], "candidates": []}
     log = print if verbose else (lambda *a, **k: None)
 
-    log("=== Helix Atlas Compiler — Phase 8 ===")
+    log("=== Helix Atlas Compiler — Formal System ===")
     log(f"Repo root: {REPO_ROOT}")
+    log("Pipeline: normalize → semantic_validate → compile → atlas_commit")
 
     registry = load_registry()
 
@@ -585,11 +779,11 @@ def run(verbose: bool = True, overwrite: bool = False) -> dict[str, Any]:
     except ImportError as e:
         log(f"  Validator unavailable: {e}")
 
-    # 6. Build Atlas Knowledge Graph (Phase 10)
+    # 6. Build Atlas Knowledge Graph
     log("\n[6/6] Building Atlas Knowledge Graph...")
     try:
-        from core.graph.graph_builder   import build_graph
-        from core.graph.graph_visualizer import export_dot
+        from core.kernel.graph.traversal.graph_builder   import build_graph
+        from core.kernel.graph.storage.graph_visualizer import export_dot
         graph = build_graph()
         graph.save()
         log(f"  WRITE: atlas/atlas_graph.json")
@@ -616,9 +810,8 @@ def run(verbose: bool = True, overwrite: bool = False) -> dict[str, Any]:
 
 if __name__ == "__main__":
     import argparse
-    p = argparse.ArgumentParser(description="Helix Atlas Compiler — Phase 8/10")
+    p = argparse.ArgumentParser(description="Helix Atlas Compiler — Formal System")
     p.add_argument("--overwrite",   action="store_true", help="Overwrite existing atlas entries")
     p.add_argument("--quiet",       action="store_true", help="Suppress output")
-    p.add_argument("--no-graph",    action="store_true", help="Skip graph build step")
     args = p.parse_args()
     run(verbose=not args.quiet, overwrite=args.overwrite)

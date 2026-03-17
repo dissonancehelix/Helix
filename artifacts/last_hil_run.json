@@ -1,4 +1,9 @@
 {
-  "status": "ok",
-  "message": "Synced: Update tags logic in mock substrate"
+  "status": "hil_error",
+  "error": {
+    "error_type": "HILSyntaxError",
+    "message": "Unexpected character ':' at position 23",
+    "raw": "SCAN music_library path:\" C:\\Users\\dissonance\\Music\\",
+    "position": 23
+  }
 }

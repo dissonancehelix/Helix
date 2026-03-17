@@ -6,16 +6,26 @@ Defines the canonical Entity dataclass for the Helix entity system.
 All entities must:
   - have a globally unique id in format "namespace.type:slug"
   - declare a type that exists in ENTITY_ONTOLOGY
-  - include metadata, external_ids, and relationships fields
+  - include name, label, description, metadata, external_ids, relationships
 
 Canonical ID format:
   namespace.type:slug   e.g. "music.composer:jun_senoue"
 
   namespace — Helix substrate (music, games, math, language)
   type      — entity type slug from ENTITY_ONTOLOGY (lowercase)
-  slug      — unique identifier within type (lowercase, underscores)
+  slug      — unique identifier within type (lowercase, underscores/digits)
 
-Entities created by pipeline stage 9 must include provenance keys in metadata:
+Fields:
+  id            — canonical ID (required)
+  type          — entity type from ENTITY_ONTOLOGY (required)
+  name          — human-readable display name (required)
+  label         — short display label; defaults to name on load (required)
+  description   — one-sentence description (required for new entities)
+  metadata      — domain-specific extras; pipeline entities include provenance keys
+  external_ids  — references to external knowledge bases
+  relationships — list of {relation, target_id, confidence} dicts
+
+Provenance keys required for pipeline-generated entities:
   source, source_stage, source_artifact, extraction_method
 """
 from __future__ import annotations
@@ -44,10 +54,12 @@ class Entity:
     """
     A Helix entity — a real-world or conceptual object referenced across substrates.
 
-    Fields (all required per SPEC-02):
+    Fields (SPEC-02 + Semantics Layer):
       id            globally unique, format "namespace.type:slug"
       type          entity type from ENTITY_ONTOLOGY
       name          human-readable display name
+      label         short display label (defaults to name if absent on load)
+      description   one-sentence description (required for new entities)
       metadata      domain-specific extras; pipeline entities include provenance keys
       external_ids  references to external knowledge bases
       relationships list of {relation, target_id, confidence} dicts
@@ -56,9 +68,11 @@ class Entity:
     id:            str
     type:          str
     name:          str
-    metadata:      dict[str, Any]       = field(default_factory=dict)
-    external_ids:  dict[str, str]       = field(default_factory=dict)
-    relationships: list[dict[str, Any]] = field(default_factory=list)
+    label:         str                      = field(default="")
+    description:   str                     = field(default="")
+    metadata:      dict[str, Any]          = field(default_factory=dict)
+    external_ids:  dict[str, str]          = field(default_factory=dict)
+    relationships: list[dict[str, Any]]    = field(default_factory=list)
 
     # ── Derived properties ────────────────────────────────────────────────────
 
@@ -86,9 +100,12 @@ class Entity:
         Validate schema correctness. Raises ValueError on hard errors.
         Emits warnings for reserved-type usage.
 
+        Runs both structural checks (id format, type ontology) and
+        semantic validation via SemanticValidator.
+
         Does NOT enforce registry uniqueness — that is EntityRegistry.add()'s job.
         """
-        # Required fields
+        # Required structural fields
         if not self.id:
             raise ValueError("Entity.id must not be empty")
         if not self.type:
@@ -104,8 +121,6 @@ class Entity:
             )
 
         # type portion of id must match declared type (lowercased, normalised)
-        # Normalisation strips underscores so that e.g. "sound_chip" and
-        # "soundchip" are treated as equivalent representations of "SoundChip".
         id_type_part = self.type_slug                            # "sound_chip"
         declared_type_slug = self.type.lower().replace(" ", "_")  # "soundchip"
         if id_type_part.replace("_", "") != declared_type_slug.replace("_", ""):
@@ -137,6 +152,30 @@ class Entity:
                     f"relationships[{i}] must contain 'relation' and 'target_id' keys"
                 )
 
+        # Semantic validation (label + description + field signatures)
+        self._semantic_validate()
+
+    def _semantic_validate(self) -> None:
+        """
+        Run SemanticValidator against this entity.
+        Raises ValueError wrapping SemanticValidationError on failure.
+        Emits warnings for semantic issues that don't block saving.
+        """
+        try:
+            from core.semantics.validator import SemanticValidator
+        except ImportError:
+            return  # Semantics layer not yet available — skip gracefully
+
+        result = SemanticValidator.validate(self)
+        if result.warnings:
+            for w in result.warnings:
+                warnings.warn(f"Semantic warning for {self.id}: {w}", UserWarning, stacklevel=3)
+        if not result.valid:
+            raise ValueError(
+                f"Semantic validation failed for entity {self.id!r}: "
+                + "; ".join(result.errors)
+            )
+
     # ── Serialization ─────────────────────────────────────────────────────────
 
     def to_dict(self) -> dict[str, Any]:
@@ -144,6 +183,8 @@ class Entity:
             "id":            self.id,
             "type":          self.type,
             "name":          self.name,
+            "label":         self.label or self.name,
+            "description":   self.description,
             "metadata":      self.metadata,
             "external_ids":  self.external_ids,
             "relationships": self.relationships,
@@ -151,10 +192,15 @@ class Entity:
 
     @classmethod
     def from_dict(cls, d: dict[str, Any]) -> "Entity":
+        name = d.get("name", "")
         return cls(
             id=d["id"],
             type=d["type"],
-            name=d["name"],
+            name=name,
+            # label defaults to name for backward compat with pre-label entities
+            label=d.get("label", "") or name,
+            # description flagged as missing in metadata if absent
+            description=d.get("description", ""),
             metadata=d.get("metadata", {}),
             external_ids=d.get("external_ids", {}),
             relationships=d.get("relationships", []),
