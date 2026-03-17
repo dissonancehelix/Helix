@@ -221,6 +221,27 @@ VALID_RELATIONS = {
     # Soundtrack → X
     "documents",          # soundtrack → game
     "released_by",        # soundtrack → studio
+    # New relationships
+    "has_style_profile",  # artist -> artist_style_vector
+    "uses_motif",         # artist/track -> motif
+    "uses_chip",          # track/platform/sound_driver -> sound_chip
+    "contains_track",     # album -> track
+    "characterizes",      # artist_style_vector -> artist
+    "appears_in_track",   # motif/musical_pattern -> track
+    "pattern_used_by",    # musical_pattern -> artist
+    "driver_supports",    # sound_driver -> sound_chip
+    "driver_used_in",     # sound_driver -> game/track
+    # Listener -> X
+    "listened_to",        # listener -> track
+    "has_taste_profile",  # listener -> listener_taste_vector
+    # ListenerTasteVector -> X
+    "taste_affinity",     # listener_taste_vector -> motif / artist / track
+    # Motif Evolution Graph -> X
+    "has_transformation", # motif -> motif_relationship
+    "transformation_of",  # motif_relationship -> motif
+    "observed_in",        # motif_relationship -> track
+    "has_lineage",        # artist -> motif_lineage
+    "uses_motif",         # artist -> motif
 }
 
 
@@ -528,6 +549,163 @@ class SoundDriverNode:
     def from_dict(cls, d: dict[str, Any]) -> "SoundDriverNode":
         return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
 
+
+# ---------------------------------------------------------------------------
+# Machine Learned / Analytical Types
+# ---------------------------------------------------------------------------
+
+@dataclass
+class SoundChipNode:
+    """A sound chip specification."""
+    chip_id:          str
+    name:             str
+    manufacturer:     str | None       = None
+    release_year:     int | None       = None
+    synthesis_type:   str | None       = None
+    channel_count:    int | None       = None
+    operator_count:   int | None       = None
+    clock_rate:       int | None       = None
+    algorithm_count:  int | None       = None
+    voice_limit:      int | None       = None
+    register_layout:  dict[str, Any]   = field(default_factory=dict)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {k: getattr(self, k) for k in self.__dataclass_fields__}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]) -> "SoundChipNode":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
+
+
+@dataclass
+class MotifNode:
+    """A recurring musical motif."""
+    motif_id:         str
+    interval_pattern: list[int]      = field(default_factory=list)
+    rhythmic_pattern: list[float]    = field(default_factory=list)
+    motif_length:     int | None     = None
+    tonal_context:    str | None     = None
+
+    def to_dict(self) -> dict[str, Any]:
+        return {k: getattr(self, k) for k in self.__dataclass_fields__}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]) -> "MotifNode":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
+
+
+@dataclass
+class MotifRelationshipNode:
+    """A transformation relationship between two motifs."""
+    relationship_id:          str
+    source_motif:             str
+    target_motif:             str
+    relationship_type:        str
+    similarity_score:         float
+    transformation_description: str | None = None
+
+    def to_dict(self) -> dict[str, Any]:
+        return {k: getattr(self, k) for k in self.__dataclass_fields__}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]) -> "MotifRelationshipNode":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
+
+
+@dataclass
+class MotifLineageNode:
+    """An evolutionary path of motif transformation."""
+    lineage_id:     str
+    motif_sequence: list[str] = field(default_factory=list)
+    lineage_length: int | None = None
+    occurrence_count: int | None = None
+
+    def to_dict(self) -> dict[str, Any]:
+        return {k: getattr(self, k) for k in self.__dataclass_fields__}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]) -> "MotifLineageNode":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
+
+
+@dataclass
+class MusicalPatternNode:
+    """A broader structural musical pattern."""
+    pattern_id:       str
+    pattern_type:     str | None     = None
+    structure:        list[str]      = field(default_factory=list)
+    harmonic_context: str | None     = None
+    tempo_context:    str | None     = None
+
+    def to_dict(self) -> dict[str, Any]:
+        return {k: getattr(self, k) for k in self.__dataclass_fields__}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]) -> "MusicalPatternNode":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
+
+
+@dataclass
+class ArtistStyleVectorNode:
+    """A learned stylistic fingerprint of an artist."""
+    vector_id:                       str
+    melodic_interval_distribution:   dict[str, float] = field(default_factory=dict)
+    rhythmic_signature_distribution: dict[str, float] = field(default_factory=dict)
+    harmonic_profile:                dict[str, float] = field(default_factory=dict)
+    motif_clusters:                  list[str]        = field(default_factory=list)
+    spectral_profile:                dict[str, float] = field(default_factory=dict)
+    dynamic_profile:                 dict[str, float] = field(default_factory=dict)
+
+    def to_dict(self) -> dict[str, Any]:
+        return {k: getattr(self, k) for k in self.__dataclass_fields__}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]) -> "ArtistStyleVectorNode":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
+
+
+@dataclass
+class ListenerNode:
+    """A user or listener profile."""
+    listener_id:        str
+    name:               str | None       = None
+    library_size:       int | None       = None
+    analysis_timestamp: str | None       = None
+
+    def to_dict(self) -> dict[str, Any]:
+        return {k: getattr(self, k) for k in self.__dataclass_fields__}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]) -> "ListenerNode":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
+
+
+@dataclass
+class ListenerTasteVectorNode:
+    """A learned stylistic preference vector of a listener."""
+    vector_id:                       str
+    melodic_interval_distribution:   dict[str, float] = field(default_factory=dict)
+    rhythmic_density_profile:        dict[str, float] = field(default_factory=dict)
+    syncopation_preference:          float | None     = None
+    harmonic_tension_profile:        dict[str, float] = field(default_factory=dict)
+    motif_family_distribution:       dict[str, float] = field(default_factory=dict)
+    spectral_energy_profile:         dict[str, float] = field(default_factory=dict)
+    dynamic_profile:                 dict[str, float] = field(default_factory=dict)
+    structural_preference_profile:   dict[str, float] = field(default_factory=dict)
+    # Derived metrics
+    motif_cluster_affinity:          float | None     = None
+    entropy_preference:              float | None     = None
+    spectral_centroid_bias:          float | None     = None
+    rhythmic_complexity_bias:        float | None     = None
+    lineage_affinity:                float | None     = None
+    motif_variation_preference:      float | None     = None
+
+    def to_dict(self) -> dict[str, Any]:
+        return {k: getattr(self, k) for k in self.__dataclass_fields__}
+
+    @classmethod
+    def from_dict(cls, d: dict[str, Any]) -> "ListenerTasteVectorNode":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
 
 # ---------------------------------------------------------------------------
 # S3K seed: platform + sound driver
