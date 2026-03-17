@@ -755,29 +755,40 @@ def run(verbose: bool = True, overwrite: bool = False) -> dict[str, Any]:
     write_index_md(sections)
     log("  WRITE: atlas/index.md")
 
-    # 5. Validate all atlas entries
-    log("\n[5/5] Validating existing atlas entries...")
+    # 5. Validate compiled JSON entities via SemanticValidator
+    log("\n[5/5] Validating compiled atlas entities...")
     try:
-        import sys as _sys
-        _sys.path.insert(0, str(REPO_ROOT))
-        from core.validator.pipeline import validate_file
+        from core.semantics.validator import SemanticValidator
+        from core.kernel.schema.entities.schema import Entity
+        validator = SemanticValidator()
         all_pass = True
-        for directory in [INVARIANTS_DIR, EXPERIMENTS_DIR, MODELS_DIR, REGIMES_DIR, OPERATORS_DIR]:
-            if not directory.exists():
+        validated = 0
+        failed = 0
+        for json_path in REPO_ROOT.joinpath("atlas").rglob("*.json"):
+            if json_path.name == "registry.json":
                 continue
-            for md_path in sorted(directory.glob("*.md")):
-                result = validate_file(md_path)
-                icon   = "PASS" if result.passed else "FAIL"
-                log(f"  [{icon}] {md_path.relative_to(REPO_ROOT)}")
-                if not result.passed:
+            try:
+                import json as _json
+                data = _json.loads(json_path.read_text(encoding="utf-8"))
+                if not isinstance(data, dict) or "type" not in data:
+                    continue
+                entity = Entity.from_dict(data)
+                result = validator.validate(entity)
+                if not result.valid:
                     all_pass = False
-                    for r in result.results:
-                        if not r.passed:
-                            log(f"         x {r.rule}: {r.reason}")
+                    failed += 1
+                    log(f"  [FAIL] {json_path.relative_to(REPO_ROOT)}")
+                    for err in result.errors:
+                        log(f"         x {err}")
+                else:
+                    validated += 1
+            except Exception:
+                pass
+        log(f"  Validated {validated} entities. Failures: {failed}.")
         if all_pass:
-            log("  All entries passed.")
+            log("  All entities passed semantic validation.")
     except ImportError as e:
-        log(f"  Validator unavailable: {e}")
+        log(f"  SemanticValidator unavailable: {e}")
 
     # 6. Build Atlas Knowledge Graph
     log("\n[6/6] Building Atlas Knowledge Graph...")

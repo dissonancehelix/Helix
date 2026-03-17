@@ -514,9 +514,15 @@ class HILInterpreter:
 
     def _exec_integrity(self, cmd: HILCommand) -> dict:
         try:
-            from core.integrity.integrity_runner import run_integrity_checks
-            result = run_integrity_checks()
-            return self._ok(cmd, result)
+            from core.integrity.integrity_tests import run_all
+            report = run_all()
+            return self._ok(cmd, {
+                "status": report.status,
+                "passed": report.passed,
+                "run_id": report.run_id,
+                "summary": report.summary(),
+                "errors": report.errors,
+            })
         except ImportError:
             return self._ok(cmd, {"status": "ok", "message": "Integrity check pass (runner unavailable)"})
 
