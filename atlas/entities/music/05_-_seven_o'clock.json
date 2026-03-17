@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_seven_o'clock",
+    "track_name": "05 - Seven O'Clock",
+    "album": "Battle Chopper",
+    "composer": "Masahiko Ishida",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 88,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

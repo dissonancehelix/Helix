@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_einherjar",
+    "track_name": "14 - Einherjar",
+    "album": "Mahjong Fantasia II",
+    "composer": "Keishi Yonao",
+    "year": "1993-08-06",
+    "track_order": "14/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

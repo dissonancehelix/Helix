@@ -1,0 +1,9 @@
+{
+  "source": "chip_docs\\YM2612_manual.pdf",
+  "stage": "parsed",
+  "measurable_interpretation": "Determined via parsed analysis of YM2612_manual.pdf",
+  "metrics": {
+    "complexity": 0.5,
+    "structural_depth": 0.8
+  }
+}

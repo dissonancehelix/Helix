@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_act_5",
+    "track_name": "06 - Act 5",
+    "album": "Battle Ace",
+    "composer": "Tomotsune Maeno",
+    "year": "1989-11-30",
+    "track_order": "6/10",
+    "chip_data": {
+        "fm_writes": 79,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

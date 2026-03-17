@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_theme_of_super_iron_brikin'ger",
+    "track_name": "02 - Theme of Super Iron Brikin'ger",
+    "album": "Ironclad",
+    "composer": "Hiroyuki Takei",
+    "year": "1996",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

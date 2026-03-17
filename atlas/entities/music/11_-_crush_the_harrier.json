@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_crush_the_harrier",
+    "track_name": "11 - Crush The Harrier",
+    "album": "Surprise Attack",
+    "composer": "Hidenori Maezawa",
+    "year": "1990",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

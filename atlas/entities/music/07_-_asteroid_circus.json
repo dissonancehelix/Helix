@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_asteroid_circus",
+    "track_name": "07 - Asteroid Circus",
+    "album": "Zed Blade",
+    "composer": "Manabu Namiki",
+    "year": "1994-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

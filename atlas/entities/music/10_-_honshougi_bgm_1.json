@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_honshougi_bgm_1",
+    "track_name": "10 - Honshougi BGM 1",
+    "album": "Shougi no Hoshi",
+    "composer": "Nobuko Hasebe",
+    "year": "1991-10-31",
+    "track_order": "10/11",
+    "chip_data": {
+        "fm_writes": 2570,
+        "complexity": 0.631
+    },
+    "_type": "music:track"
+}

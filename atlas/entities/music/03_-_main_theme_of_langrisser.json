@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_main_theme_of_langrisser",
+    "track_name": "03 - Main Theme of Langrisser",
+    "album": "Langrisser II",
+    "composer": "Noriyuki Iwadare",
+    "year": "1994-08-26",
+    "track_order": "3/29",
+    "chip_data": {
+        "fm_writes": 8477,
+        "complexity": 0.52
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_slot_machine",
+    "track_name": "05 - Slot Machine",
+    "album": "Medal City",
+    "composer": "Izuho Numata",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4197,
+        "complexity": 0.167
+    },
+    "_type": "music:track"
+}

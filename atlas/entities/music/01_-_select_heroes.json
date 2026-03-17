@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_select_heroes",
+    "track_name": "01 - Select Heroes",
+    "album": "World Heroes Perfect",
+    "composer": "Takeshi Muramatsu",
+    "year": "1995-05-25",
+    "track_order": "1/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

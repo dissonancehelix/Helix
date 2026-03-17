@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_stage_7",
+    "track_name": "06 - Stage 7",
+    "album": "Crisis Force",
+    "composer": "Kenichi Matsubara",
+    "year": "1991-08-27",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

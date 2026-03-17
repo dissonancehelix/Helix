@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_drama",
+    "track_name": "03 - Drama",
+    "album": "Disney's Aladdin",
+    "composer": "Tommy Tallarico",
+    "year": "1993",
+    "track_order": "3/14",
+    "chip_data": {
+        "fm_writes": 7813,
+        "complexity": 0.528
+    },
+    "_type": "music:track"
+}

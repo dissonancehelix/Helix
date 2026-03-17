@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_cave_of_the_evil_dragon",
+    "track_name": "09 - Cave of the Evil Dragon",
+    "album": "Monster Maulers",
+    "composer": "Yoshihiko Koezuka",
+    "year": "1993",
+    "track_order": "9/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -2,7 +2,7 @@ import json
 import math
 from pathlib import Path
 from typing import Any
-from substrates.music.config import ARTIFACTS, COMPOSER_PROFILES_PATH
+from substrates.music.ingestion.config import ARTIFACTS, COMPOSER_PROFILES_PATH
 
 def generate_composer_reports(profiler_data: dict[str, Any]):
     """

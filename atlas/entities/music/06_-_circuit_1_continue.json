@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_circuit_1_continue",
+    "track_name": "06 - Circuit 1 (continue)",
+    "album": "Smash TV",
+    "composer": "Jon Hey",
+    "year": "1990-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

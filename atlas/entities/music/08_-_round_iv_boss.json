@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_round_iv_boss",
+    "track_name": "08 - Round IV Boss",
+    "album": "Tecmo Knight",
+    "composer": "Mikio Saito",
+    "year": "1989-05",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

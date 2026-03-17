@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_soda_pop",
+    "track_name": "22 - Soda Pop",
+    "album": "Knuckles' Chaotix",
+    "composer": "Mariko Nanba",
+    "year": "1995-04-21",
+    "track_order": "22/30",
+    "chip_data": {
+        "fm_writes": 219,
+        "complexity": 0.143
+    },
+    "_type": "music:track"
+}

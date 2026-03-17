@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_schumacher_fly",
+    "track_name": "02 - Schumacher Fly",
+    "album": "Dynamite Headdy",
+    "composer": "Katsuhiko Suzuki",
+    "year": "1994",
+    "track_order": "2/32",
+    "chip_data": {
+        "fm_writes": 38170,
+        "complexity": 0.723
+    },
+    "_type": "music:track"
+}

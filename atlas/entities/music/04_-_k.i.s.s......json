@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_k.i.s.s.....",
+    "track_name": "04 - K.I.S.S.....",
+    "album": "Farland Story: Juuou no Akashi",
+    "composer": "Masataka Kitaura",
+    "year": "1995-10-11",
+    "track_order": "4/29",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

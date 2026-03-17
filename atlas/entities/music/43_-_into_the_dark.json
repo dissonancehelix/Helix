@@ -1,0 +1,13 @@
+{
+    "entity_id": "43_-_into_the_dark",
+    "track_name": "43 - Into the Dark",
+    "album": "The Legend of Xanadu II",
+    "composer": "Atsushi Shirakawa",
+    "year": "1996",
+    "track_order": "43/49",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

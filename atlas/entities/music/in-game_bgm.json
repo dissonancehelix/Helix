@@ -1,0 +1,13 @@
+{
+    "entity_id": "in-game_bgm",
+    "track_name": "In-Game BGM",
+    "album": "Antarctic Adventure",
+    "composer": "Konami Kukeiha Club",
+    "year": "1983-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

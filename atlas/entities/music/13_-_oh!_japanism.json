@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_oh!_japanism",
+    "track_name": "13 - Oh! Japanism",
+    "album": "Parodius DA!",
+    "composer": "Kazuki Muraoka",
+    "year": "1990-04-25",
+    "track_order": "13/25",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

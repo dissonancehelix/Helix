@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_the_monkey_lair",
+    "track_name": "09 - The Monkey Lair",
+    "album": "Ren & Stimpy: Stimpy's Invention",
+    "composer": "Sam Powell ",
+    "year": "1993",
+    "track_order": "9/17",
+    "chip_data": {
+        "fm_writes": 48480,
+        "complexity": 0.659
+    },
+    "_type": "music:track"
+}

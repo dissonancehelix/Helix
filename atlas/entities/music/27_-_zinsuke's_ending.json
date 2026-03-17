@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_zinsuke's_ending",
+    "track_name": "27 - Zinsuke's Ending",
+    "album": "Asura Buster: Eternal Warriors",
+    "composer": "Akihiro Nishida",
+    "year": "2000-12-26",
+    "track_order": "27/30",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

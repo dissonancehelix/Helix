@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_morning_star",
+    "track_name": "09 - Morning Star",
+    "album": "Guwange",
+    "composer": "Masahiro Kusunoki",
+    "year": "1999-06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

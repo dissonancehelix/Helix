@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_resurrection_~the_first~",
+    "track_name": "05 - Resurrection ~The First~",
+    "album": "The Last Blade",
+    "composer": "Yasuhiro Naka",
+    "year": "1997",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

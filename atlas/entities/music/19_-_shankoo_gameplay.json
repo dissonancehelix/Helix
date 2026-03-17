@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_shankoo_gameplay",
+    "track_name": "19 - Shankoo Gameplay",
+    "album": "Solar Jetman: Hunt for the Golden Warpship",
+    "composer": "David Wise*",
+    "year": "1990",
+    "track_order": "19/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

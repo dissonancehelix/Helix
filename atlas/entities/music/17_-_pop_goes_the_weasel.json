@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_pop_goes_the_weasel",
+    "track_name": "17 - Pop Goes the Weasel",
+    "album": "Tails and the Music Maker",
+    "composer": "David Scheffler",
+    "year": "1994-10-04",
+    "track_order": "17/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

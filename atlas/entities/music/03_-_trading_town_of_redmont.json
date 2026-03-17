@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_trading_town_of_redmont",
+    "track_name": "03 - Trading Town of Redmont",
+    "album": "Ys III: Wanderers from Ys",
+    "composer": "Yoshiaki Kubotera",
+    "year": "1991",
+    "track_order": "3/29",
+    "chip_data": {
+        "fm_writes": 41293,
+        "complexity": 0.286
+    },
+    "_type": "music:track"
+}

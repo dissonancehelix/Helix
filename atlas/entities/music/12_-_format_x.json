@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_format_x",
+    "track_name": "12 - Format X",
+    "album": "Contra: Hard Corps",
+    "composer": "Hiroshi Kobayashi",
+    "year": "1994",
+    "track_order": "12/25",
+    "chip_data": {
+        "fm_writes": 10985,
+        "complexity": 0.072
+    },
+    "_type": "music:track"
+}

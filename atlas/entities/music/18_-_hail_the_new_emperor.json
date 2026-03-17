@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_hail_the_new_emperor",
+    "track_name": "18 - Hail the New Emperor",
+    "album": "Akatsuki no Bizantira",
+    "composer": "Kazuhiro Ogawa",
+    "year": "1994-09",
+    "track_order": "18/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

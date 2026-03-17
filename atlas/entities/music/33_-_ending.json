@@ -1,0 +1,13 @@
+{
+    "entity_id": "33_-_ending",
+    "track_name": "33 - Ending",
+    "album": "Mother",
+    "composer": "Hip Tanaka",
+    "year": "1988-07-27",
+    "track_order": "33/33",
+    "chip_data": {
+        "fm_writes": 168,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

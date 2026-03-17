@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_i_-_open_the_door",
+    "track_name": "01 - I - OPEN THE DOOR",
+    "album": "Madou Monogatari 1-2-3",
+    "composer": "Masanobu Tsukamoto",
+    "year": "1991-11-23",
+    "track_order": "1/31",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

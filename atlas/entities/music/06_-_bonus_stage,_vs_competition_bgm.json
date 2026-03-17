@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_bonus_stage,_vs_competition_bgm",
+    "track_name": "06 - Bonus Stage, VS Competition BGM",
+    "album": "Bomberman II",
+    "composer": "June Chikuma",
+    "year": "1991-06-28",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 9,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

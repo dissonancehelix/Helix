@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_poem_of_svc_hell",
+    "track_name": "12 - Poem of SVC Hell",
+    "album": "SNK vs. Capcom: SVC Chaos",
+    "composer": "Yasuo Yamate",
+    "year": "2003",
+    "track_order": "12/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

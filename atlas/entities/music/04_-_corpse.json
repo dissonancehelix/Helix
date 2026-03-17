@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_corpse",
+    "track_name": "04 - Corpse",
+    "album": "The Immortal",
+    "composer": "Rob Hubbard",
+    "year": "1991/07/11",
+    "track_order": "4/18",
+    "chip_data": {
+        "fm_writes": 40309,
+        "complexity": 0.855
+    },
+    "_type": "music:track"
+}

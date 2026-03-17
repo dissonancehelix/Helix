@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_metropolis_zone",
+    "track_name": "12 - Metropolis Zone",
+    "album": "Sonic the Hedgehog 2",
+    "composer": "Masato Nakamura",
+    "year": "1992",
+    "track_order": "9/24",
+    "chip_data": {
+        "fm_writes": 6406,
+        "complexity": 0.345
+    },
+    "_type": "music:track"
+}

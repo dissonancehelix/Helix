@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_afrobeaty",
+    "track_name": "07 - Afrobeaty",
+    "album": "The Jungle Book",
+    "composer": "Mark Miller",
+    "year": "1994",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 72012,
+        "complexity": 0.273
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "49_-_triumphal_arch,_part_2",
+    "track_name": "49 - Triumphal Arch, part 2",
+    "album": "SD Snatcher",
+    "composer": "Masahiro Ikariko",
+    "year": "1990",
+    "track_order": "49/53",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

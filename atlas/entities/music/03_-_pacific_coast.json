@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_pacific_coast",
+    "track_name": "03 - Pacific Coast",
+    "album": "Road Rash",
+    "composer": "Rob Hubbard",
+    "year": "1991/09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 39650,
+        "complexity": 0.406
+    },
+    "_type": "music:track"
+}

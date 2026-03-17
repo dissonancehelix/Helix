@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_strong_of_bring_the_noise",
+    "track_name": "08 - Strong of Bring The Noise",
+    "album": "Galaxy Fight: Universal Warriors",
+    "composer": "Masato Araikawa",
+    "year": "1995-01-24",
+    "track_order": "8/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

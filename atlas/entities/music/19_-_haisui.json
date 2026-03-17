@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_haisui",
+    "track_name": "19 - Haisui",
+    "album": "Risa's Fairy Tale",
+    "composer": "Shinya Sakamoto",
+    "year": "1988-06-21",
+    "track_order": "19/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

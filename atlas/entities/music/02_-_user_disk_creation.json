@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_user_disk_creation",
+    "track_name": "02 - User Disk Creation",
+    "album": "Dragon Slayer: The Legend of Heroes",
+    "composer": "Mieko Ishikawa#",
+    "year": "1990",
+    "track_order": "2/17",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

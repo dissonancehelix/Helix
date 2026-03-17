@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_bomber_king's_theme",
+    "track_name": "01 - Bomber King's Theme",
+    "album": "Robo Warrior",
+    "composer": "Takeaki Kunimoto",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 90,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

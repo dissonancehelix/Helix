@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_area_4_ruins",
+    "track_name": "05 - Area 4 (Ruins)",
+    "album": "Caliber .50",
+    "composer": "Kenji Yamazaki",
+    "year": "1991/11/01",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 14277,
+        "complexity": 0.6
+    },
+    "_type": "music:track"
+}

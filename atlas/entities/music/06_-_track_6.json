@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_track_6",
+    "track_name": "06 - Track 6",
+    "album": "Lord Monarch",
+    "composer": "Maki Tanimoto",
+    "year": "1994/06/24",
+    "track_order": "6/28",
+    "chip_data": {
+        "fm_writes": 19848,
+        "complexity": 0.578
+    },
+    "_type": "music:track"
+}

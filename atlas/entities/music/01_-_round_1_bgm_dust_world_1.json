@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_round_1_bgm_dust_world_1",
+    "track_name": "01 - Round 1 BGM (Dust World 1)",
+    "album": "Forgotten Worlds",
+    "composer": "Tamayo Kawamoto",
+    "year": "1988-12",
+    "track_order": "1/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_stage_5_-_speedy_gonzales_-_stage_7_-_bugs_bunny",
+    "track_name": "07 - Stage 5 - Speedy Gonzales - Stage 7 - Bugs Bunny",
+    "album": "Looney Tunes",
+    "composer": "Manami Matsumae",
+    "year": "1992",
+    "track_order": "7/90",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

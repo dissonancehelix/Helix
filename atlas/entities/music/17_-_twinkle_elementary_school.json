@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_twinkle_elementary_school",
+    "track_name": "17 - Twinkle Elementary School",
+    "album": "Mother",
+    "composer": "Hip Tanaka",
+    "year": "1988-07-27",
+    "track_order": "17/33",
+    "chip_data": {
+        "fm_writes": 57,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

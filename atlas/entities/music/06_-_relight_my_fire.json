@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_relight_my_fire",
+    "track_name": "06 - Relight my Fire",
+    "album": "OutRun 2019",
+    "composer": "Shigeki Sako",
+    "year": "1993/03/26",
+    "track_order": "6/12",
+    "chip_data": {
+        "fm_writes": 5879,
+        "complexity": 0.167
+    },
+    "_type": "music:track"
+}

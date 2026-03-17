@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_foresight_songs",
+    "track_name": "19 - Foresight Songs",
+    "album": "World Heroes 2",
+    "composer": "Hideki Yamamoto",
+    "year": "1993-04-26",
+    "track_order": "19/41",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

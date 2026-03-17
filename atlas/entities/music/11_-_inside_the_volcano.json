@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_inside_the_volcano",
+    "track_name": "11 - Inside the Volcano",
+    "album": "The Smurfs GB",
+    "composer": "Alberto Jose Gonz",
+    "year": "1994",
+    "track_order": "11/17",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

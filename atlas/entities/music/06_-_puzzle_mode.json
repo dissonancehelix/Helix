@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_puzzle_mode",
+    "track_name": "06 - Puzzle Mode",
+    "album": "Pac-Attack",
+    "composer": "Hiromi Shibano",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 592847,
+        "complexity": 0.498
+    },
+    "_type": "music:track"
+}

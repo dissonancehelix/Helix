@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_mission_select_japan",
+    "track_name": "02 - Mission Select (Japan)",
+    "album": "CrossFire",
+    "composer": "Tsukasa Masuko",
+    "year": "1991/03/29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5387,
+        "complexity": 0.982
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_fujiyama_oriental_golf_club_-_japan",
+    "track_name": "03 - Fujiyama Oriental Golf Club - Japan",
+    "album": "Neo Turf Masters",
+    "composer": "Takushi Hiyamuta",
+    "year": "1996-01-29",
+    "track_order": "3/6#",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

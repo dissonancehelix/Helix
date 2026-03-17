@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_moonrise",
+    "track_name": "05 - Moonrise",
+    "album": "Sonic Crackers",
+    "composer": "Junko Shiratsu",
+    "year": "1994/04/01",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 14213,
+        "complexity": 0.8180000000000001
+    },
+    "_type": "music:track"
+}

@@ -17,7 +17,7 @@ from typing import TYPE_CHECKING, Any
 if TYPE_CHECKING:
     from core.kernel.schema.entities.registry import EntityRegistry
     from core.kernel.schema.entities.schema import Entity
-    from core.graph.entity_graph import EntityGraph
+    from core.kernel.graph.storage.entity_graph import EntityGraph
 
 
 @dataclass
@@ -49,7 +49,7 @@ class CommandContext:
         If the atlas files do not exist, returns an empty context (no error).
         """
         from core.kernel.schema.entities.registry import EntityRegistry
-        from core.graph.entity_graph import EntityGraph
+        from core.kernel.graph.storage.entity_graph import EntityGraph
 
         registry = EntityRegistry.load()
         try:

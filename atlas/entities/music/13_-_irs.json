@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_irs",
+    "track_name": "13 - IRS",
+    "album": "WWF Royal Rumble",
+    "composer": "Paul Webb",
+    "year": "1993",
+    "track_order": "13/14",
+    "chip_data": {
+        "fm_writes": 16753,
+        "complexity": 0.163
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,20 @@
+macro dr
+l mdDR11.hex
+
+macro dt
+l mdDT11.hex
+
+macro vt
+l mdVT11.hex
+
+macro init
+e 1ff8=0
+e 1ff9=80
+e 1ffa=0
+e 1ffb=0
+e 1ffc=0
+e 1ffd=0
+e 1ffe=0
+e 1fff=1
+
+

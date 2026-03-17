@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_blue_illumination",
+    "track_name": "12 - Blue Illumination",
+    "album": "Batsugun",
+    "composer": "Yoshitatsu Sakai",
+    "year": "1993",
+    "track_order": "12/14",
+    "chip_data": {
+        "fm_writes": 11,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

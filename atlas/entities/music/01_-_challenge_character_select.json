@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_challenge_character_select",
+    "track_name": "01 - Challenge (Character Select)",
+    "album": "Fighter's History",
+    "composer": "Hiroaki Yoshida",
+    "year": "1993-03",
+    "track_order": "1/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_green_hill_zone",
+    "track_name": "01 - Green Hill Zone",
+    "album": "Sonic the Hedgehog",
+    "composer": "Yuzo Koshiro",
+    "year": "1991-12-28",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 84,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

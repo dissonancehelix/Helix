@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_bgm_a",
+    "track_name": "01 - BGM A",
+    "album": "Clu Clu Land",
+    "composer": "Akito Nakatsuka",
+    "year": "1984",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 44,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

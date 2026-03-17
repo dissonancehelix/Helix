@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_the_legend_of_zelda",
+    "track_name": "01 - The Legend of Zelda",
+    "album": "The Legend of Zelda",
+    "composer": "Koji Kondo",
+    "year": "1986-02-21",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_iron_blue_intention",
+    "track_name": "10 - Iron Blue Intention",
+    "album": "Castlevania: Bloodlines",
+    "composer": "Michiru Yamane",
+    "year": "1994/03/18",
+    "track_order": "10/19",
+    "chip_data": {
+        "fm_writes": 23175,
+        "complexity": 0.942
+    },
+    "_type": "music:track"
+}

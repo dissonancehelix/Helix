@@ -363,3 +363,27 @@ Required components:
 
 *This document is the authoritative specification for the Helix Games Substrate.*
 *Version 2.0 — 2026-03-17*
+
+
+---
+
+## Architecture Guardrail
+
+**Helix Architecture Law**
+`HIL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler`
+
+* Operators orchestrate
+* Adapters translate
+* Toolkits execute
+* Artifacts store results
+* Atlas compiler creates entities
+
+**Prohibited Patterns**
+- `master_pipeline.py`
+- Direct toolkit calls from operators
+- Toolkits writing artifacts
+- Toolkits writing Atlas entities
+- Operators writing Atlas entities
+- Monolithic pipelines
+
+*All new modules must follow the template registry located in `runtime/templates/`.*

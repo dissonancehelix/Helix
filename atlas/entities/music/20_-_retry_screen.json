@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_retry_screen",
+    "track_name": "20 - Retry Screen",
+    "album": "Splatterhouse 3",
+    "composer": "Eiko Kaneda",
+    "year": "1993",
+    "track_order": "20/25",
+    "chip_data": {
+        "fm_writes": 572562,
+        "complexity": 0.297
+    },
+    "_type": "music:track"
+}

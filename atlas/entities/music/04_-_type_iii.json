@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_type_iii",
+    "track_name": "04 - Type III",
+    "album": "Super Thunder Blade",
+    "composer": "Sachio Ogawa",
+    "year": "1988-10-29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 23978,
+        "complexity": 0.96
+    },
+    "_type": "music:track"
+}

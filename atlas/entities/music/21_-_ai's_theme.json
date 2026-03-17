@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_ai's_theme",
+    "track_name": "21 - Ai's Theme",
+    "album": "Kakyusei",
+    "composer": "Manabu Kunieda",
+    "year": "1996-06-07",
+    "track_order": "21/47",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

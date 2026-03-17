@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_dead_drunkenness_blues",
+    "track_name": "18 - Dead Drunkenness Blues",
+    "album": "Mime",
+    "composer": "Hiroaki Sano",
+    "year": "1995-09-29",
+    "track_order": "18/38",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

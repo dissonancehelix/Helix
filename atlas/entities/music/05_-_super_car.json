@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_super_car",
+    "track_name": "05 - Super Car",
+    "album": "Action Fighter",
+    "composer": "Tohru Nakabayashi",
+    "year": "1986",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

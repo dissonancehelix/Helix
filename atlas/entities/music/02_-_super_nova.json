@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_super_nova",
+    "track_name": "02 - Super Nova",
+    "album": "Major Stryker",
+    "composer": "Bobby Prince",
+    "year": "1993-01-15",
+    "track_order": "2/19",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

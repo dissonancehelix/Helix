@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_blue_point_stage_2",
+    "track_name": "06 - Blue Point (Stage 2)",
+    "album": "Aquales",
+    "composer": "Hiroyuki Saegusa",
+    "year": "1991-09-12",
+    "track_order": "6/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_june_ending_theme",
+    "track_name": "11 - June Ending Theme",
+    "album": "Star Gladiator 2: Nightmare of Bilstein",
+    "composer": "Takayuki Iwai",
+    "year": "1998-03-16",
+    "track_order": "11/23",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

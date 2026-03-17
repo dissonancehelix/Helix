@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_fisherman_from_7_seas",
+    "track_name": "05 - Fisherman from 7 Seas",
+    "album": "Virtua Fighter 2",
+    "composer": "Takenobu Mitsuyoshi",
+    "year": "1996",
+    "track_order": "5/10",
+    "chip_data": {
+        "fm_writes": 37030,
+        "complexity": 0.182
+    },
+    "_type": "music:track"
+}

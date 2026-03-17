@@ -1,0 +1,13 @@
+{
+    "entity_id": "42_-_powerful_blade",
+    "track_name": "42 - Powerful Blade",
+    "album": "Star Cruiser II",
+    "composer": "Toshiya Yamanaka",
+    "year": "1992-06-18",
+    "track_order": "42/43",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

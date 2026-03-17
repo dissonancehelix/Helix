@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_kikunojo",
+    "track_name": "05 - Kikunojo",
+    "album": "Ganryu",
+    "composer": "Yasuko Yamada",
+    "year": "1999",
+    "track_order": "5/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_in_spain",
+    "track_name": "07 - In Spain",
+    "album": "Gaudi: Barcelona no Kaze",
+    "composer": "Yasunori Shiono",
+    "year": "1989-08-10",
+    "track_order": "7/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

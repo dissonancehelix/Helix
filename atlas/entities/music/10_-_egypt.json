@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_egypt",
+    "track_name": "10 - Egypt",
+    "album": "Quack Shot",
+    "composer": "Shigenori Kamiya",
+    "year": "1991-12-19",
+    "track_order": "10/17",
+    "chip_data": {
+        "fm_writes": 5819,
+        "complexity": 0.19
+    },
+    "_type": "music:track"
+}

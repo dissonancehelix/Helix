@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_boss_3",
+    "track_name": "11 - Boss 3",
+    "album": "Sol-Feace",
+    "composer": "Motoi Sakuraba",
+    "year": "1990-11",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

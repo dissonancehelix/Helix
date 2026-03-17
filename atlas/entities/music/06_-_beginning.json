@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_beginning",
+    "track_name": "06 - Beginning",
+    "album": "Castlevania: Bloodlines",
+    "composer": "Michiru Yamane",
+    "year": "1994/03/18",
+    "track_order": "6/19",
+    "chip_data": {
+        "fm_writes": 20998,
+        "complexity": 0.7050000000000001
+    },
+    "_type": "music:track"
+}

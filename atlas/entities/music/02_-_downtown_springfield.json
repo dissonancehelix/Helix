@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_downtown_springfield",
+    "track_name": "02 - Downtown Springfield",
+    "album": "The Simpsons",
+    "composer": "Norio Hanzawa",
+    "year": "1991-04",
+    "track_order": "2/25",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

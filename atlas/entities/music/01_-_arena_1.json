@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_arena_1",
+    "track_name": "01 - Arena 1",
+    "album": "Fighting Masters",
+    "composer": "Masaki Kase",
+    "year": "1991/12/06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 202651,
+        "complexity": 0.654
+    },
+    "_type": "music:track"
+}

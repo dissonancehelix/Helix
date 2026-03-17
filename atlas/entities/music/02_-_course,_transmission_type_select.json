@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_course,_transmission_type_select",
+    "track_name": "02 - Course, Transmission Type Select",
+    "album": "Racin' Force",
+    "composer": "Kenichiro Fukui",
+    "year": "1994-03",
+    "track_order": "2/5 ",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

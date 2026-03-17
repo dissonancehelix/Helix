@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_funny_angry",
+    "track_name": "18 - Funny Angry",
+    "album": "Dynamite Headdy",
+    "composer": "Norio Hanzawa",
+    "year": "1994",
+    "track_order": "18/32",
+    "chip_data": {
+        "fm_writes": 48826,
+        "complexity": 0.5960000000000001
+    },
+    "_type": "music:track"
+}

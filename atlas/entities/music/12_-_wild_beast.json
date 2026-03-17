@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_wild_beast",
+    "track_name": "12 - Wild Beast",
+    "album": "Magical Drop II",
+    "composer": "Hiroaki Yoshida",
+    "year": "1996",
+    "track_order": "12/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

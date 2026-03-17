@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_mysterious_charisma_-emergence-",
+    "track_name": "20 - Mysterious Charisma -Emergence-",
+    "album": "Garou: Mark of the Wolves",
+    "composer": "Akihiro Uchida",
+    "year": "1999",
+    "track_order": "20/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_fated_lands",
+    "track_name": "26 - Fated Lands",
+    "album": "Yami no Ketsuzoku",
+    "composer": "Manabu Saito",
+    "year": "1990-07-21",
+    "track_order": "26/34",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

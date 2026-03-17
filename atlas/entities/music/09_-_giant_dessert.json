@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_giant_dessert",
+    "track_name": "09 - Giant Dessert",
+    "album": "Bishoujo Senshi Sailor Moon",
+    "composer": "Aki Hata",
+    "year": "1994/07/08",
+    "track_order": "9/25",
+    "chip_data": {
+        "fm_writes": 25316,
+        "complexity": 0.905
+    },
+    "_type": "music:track"
+}

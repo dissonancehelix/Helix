@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_final_boss",
+    "track_name": "06 - Final Boss",
+    "album": "Chopper I",
+    "composer": "Toshikazu Tanaka",
+    "year": "1988",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

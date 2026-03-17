@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_mega_man_3-_needleman_stage",
+    "track_name": "30 - Mega Man 3- Needleman Stage",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "30/55",
+    "chip_data": {
+        "fm_writes": 44164,
+        "complexity": 0.967
+    },
+    "_type": "music:track"
+}

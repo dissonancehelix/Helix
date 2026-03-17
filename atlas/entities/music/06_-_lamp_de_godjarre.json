@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_lamp_de_godjarre",
+    "track_name": "06 - Lamp de Godjarre",
+    "album": "Monster World IV",
+    "composer": "Jin Watanabe",
+    "year": "1994/04/01",
+    "track_order": "6/21",
+    "chip_data": {
+        "fm_writes": 68150,
+        "complexity": 0.5
+    },
+    "_type": "music:track"
+}

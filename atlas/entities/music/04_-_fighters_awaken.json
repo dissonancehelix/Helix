@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_fighters_awaken",
+    "track_name": "04 - Fighters Awaken",
+    "album": "Lagrange Point",
+    "composer": "Konami Kukeiha Club",
+    "year": "1991-04-26",
+    "track_order": "4/28",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

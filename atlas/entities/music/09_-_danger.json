@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_danger",
+    "track_name": "09 - Danger",
+    "album": "Burning Rival",
+    "composer": "Hideaki Miyamoto",
+    "year": "1993-07",
+    "track_order": "9/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

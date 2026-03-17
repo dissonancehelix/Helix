@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_burning_sumo_hall",
+    "track_name": "04 - Burning Sumo Hall",
+    "album": "Aa Harimanada",
+    "composer": "Morihiko Akiyama",
+    "year": "1993/09/03",
+    "track_order": "4/22",
+    "chip_data": {
+        "fm_writes": 290,
+        "complexity": 0.429
+    },
+    "_type": "music:track"
+}

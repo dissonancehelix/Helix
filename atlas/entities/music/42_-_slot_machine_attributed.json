@@ -1,0 +1,9 @@
+{
+    "entity_id": "42_-_slot_machine",
+    "track_name": "42 - Slot Machine",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.45,
+    "rationale": "High YM2612 algorithm complexity (0.45) matches Maeda signature.",
+    "_type": "music:track"
+}

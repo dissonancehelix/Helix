@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_mr._spider_attacks!",
+    "track_name": "04 - Mr. Spider Attacks!",
+    "album": "Mr. Nutz",
+    "composer": "Rapha",
+    "year": "1994",
+    "track_order": "4/12",
+    "chip_data": {
+        "fm_writes": 4639,
+        "complexity": 0.47700000000000004
+    },
+    "_type": "music:track"
+}

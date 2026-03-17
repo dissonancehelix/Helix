@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_yoru_no_nikusyokujyu",
+    "track_name": "05 - Yoru no Nikusyokujyu",
+    "album": "Contra: Hard Corps",
+    "composer": "Hiroshi Kobayashi",
+    "year": "1994",
+    "track_order": "5/25",
+    "chip_data": {
+        "fm_writes": 6123,
+        "complexity": 0.56
+    },
+    "_type": "music:track"
+}

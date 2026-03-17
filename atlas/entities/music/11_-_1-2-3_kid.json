@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_1-2-3_kid",
+    "track_name": "11 - 1-2-3 Kid",
+    "album": "WWF Raw",
+    "composer": "Chris Braymen",
+    "year": "1994",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 271545,
+        "complexity": 0.743
+    },
+    "_type": "music:track"
+}

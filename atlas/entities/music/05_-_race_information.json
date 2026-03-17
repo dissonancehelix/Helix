@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_race_information",
+    "track_name": "05 - Race Information",
+    "album": "Fastest 1",
+    "composer": "Hiroya Niwayama",
+    "year": "1991/06/28",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 30853,
+        "complexity": 0.728
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_spiral_locus",
+    "track_name": "13 - Spiral Locus",
+    "album": "Armed Police Batrider",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1998-02-13",
+    "track_order": "13/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_area_4",
+    "track_name": "06 - Area 4",
+    "album": "Krusty's Super Fun House",
+    "composer": "Mark Miller",
+    "year": "1992",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 38404,
+        "complexity": 0.294
+    },
+    "_type": "music:track"
+}

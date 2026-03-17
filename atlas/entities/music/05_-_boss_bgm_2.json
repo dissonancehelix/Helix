@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_boss_bgm_2",
+    "track_name": "05 - Boss BGM 2",
+    "album": "Eco Fighters",
+    "composer": "Syun Nishigaki",
+    "year": "1993-12-03",
+    "track_order": "5/21",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

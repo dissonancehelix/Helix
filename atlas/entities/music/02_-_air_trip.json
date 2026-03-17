@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_air_trip",
+    "track_name": "02 - Air Trip",
+    "album": "Prehistoric Isle in 1930",
+    "composer": "Toshikazu Tanaka",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

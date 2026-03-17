@@ -1,0 +1,13 @@
+{
+    "entity_id": "53_-_wily's_tower-_wily's_tower_stage_3",
+    "track_name": "53 - Wily's Tower- Wily's Tower Stage 3",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "53/55\"",
+    "chip_data": {
+        "fm_writes": 55673,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

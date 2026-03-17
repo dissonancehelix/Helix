@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_the_eden",
+    "track_name": "12 - The Eden",
+    "album": "The Fallen Angels",
+    "composer": "Masaki Izutani",
+    "year": "1998",
+    "track_order": "12/15",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

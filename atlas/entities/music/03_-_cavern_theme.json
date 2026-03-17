@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_cavern_theme",
+    "track_name": "03 - Cavern Theme",
+    "album": "The Goonies II",
+    "composer": "Satoe Terashima",
+    "year": "1987-03-18",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 21,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

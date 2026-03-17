@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_heaven",
+    "track_name": "06 - Heaven",
+    "album": "rchen Veil",
+    "composer": "Kouichi Sato",
+    "year": "1985-08",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

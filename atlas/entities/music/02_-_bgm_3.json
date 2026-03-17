@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_bgm_3",
+    "track_name": "02 - BGM 3",
+    "album": "Sega Game Toshokan",
+    "composer": "Tadahiko Inoue",
+    "year": "1990/11/03",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 73536,
+        "complexity": 0.546
+    },
+    "_type": "music:track"
+}

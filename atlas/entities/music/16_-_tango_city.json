@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_tango_city",
+    "track_name": "16 - Tango City",
+    "album": "Minnesota Fats: Pool Legend",
+    "composer": "Shogo Sakai",
+    "year": "1995/09",
+    "track_order": "16/27",
+    "chip_data": {
+        "fm_writes": 5276,
+        "complexity": 0.5289999999999999
+    },
+    "_type": "music:track"
+}

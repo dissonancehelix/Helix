@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_tittle-tattle",
+    "track_name": "01 - Tittle-Tattle",
+    "album": "Viper-GTS",
+    "composer": "Kenichi Arakawa",
+    "year": "1995-11-24",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 11342,
+        "complexity": 0.8420000000000001
+    },
+    "_type": "music:track"
+}

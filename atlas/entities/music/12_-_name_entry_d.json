@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_name_entry_d",
+    "track_name": "12 - Name Entry D",
+    "album": "Metal Hawk",
+    "composer": "Shinji Hosoe",
+    "year": "1988-09",
+    "track_order": "12/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

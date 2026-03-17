@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_power_core_n_plague_factory_part_iii",
+    "track_name": "11 - Power Core & Plague Factory (Part III)",
+    "album": "The Ooze",
+    "composer": "Howard Drossin",
+    "year": "1995/05/06",
+    "track_order": "11/16&",
+    "chip_data": {
+        "fm_writes": 437418,
+        "complexity": 0.524
+    },
+    "_type": "music:track"
+}

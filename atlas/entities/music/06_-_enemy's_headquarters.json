@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_enemy's_headquarters",
+    "track_name": "06 - Enemy's Headquarters",
+    "album": "Golden Axe II",
+    "composer": "Naofumi Hataya",
+    "year": "1991-12-27",
+    "track_order": "6/12",
+    "chip_data": {
+        "fm_writes": 19039,
+        "complexity": 0.764
+    },
+    "_type": "music:track"
+}

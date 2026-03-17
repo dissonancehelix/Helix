@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_satomi's_theme",
+    "track_name": "14 - Satomi's Theme",
+    "album": "D-Return",
+    "composer": "Norihiro Akasaka",
+    "year": "1989-03",
+    "track_order": "14/32",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

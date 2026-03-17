@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_achievement",
+    "track_name": "11 - Achievement",
+    "album": "Jinn: Eien no Yuushi",
+    "composer": "Osamu Ishikawa",
+    "year": "1994-09-02",
+    "track_order": "11/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

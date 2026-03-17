@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_waste_plant_part_iii",
+    "track_name": "08 - Waste Plant (Part III)",
+    "album": "The Ooze",
+    "composer": "Howard Drossin",
+    "year": "1995/05/06",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 261449,
+        "complexity": 0.519
+    },
+    "_type": "music:track"
+}

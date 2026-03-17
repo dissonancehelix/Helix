@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_stage_1-2_temple",
+    "track_name": "04 - Stage 1-2 (Temple)",
+    "album": "Ranger-X",
+    "composer": "Yoshinobu Hiraiwa",
+    "year": "1993/05/28",
+    "track_order": "4/21",
+    "chip_data": {
+        "fm_writes": 53336,
+        "complexity": 0.632
+    },
+    "_type": "music:track"
+}

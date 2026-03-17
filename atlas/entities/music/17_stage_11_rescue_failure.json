@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_stage_11_rescue_failure",
+    "track_name": "17 Stage 11 (Rescue Failure)",
+    "album": "GleylancerB",
+    "composer": "Masanori Hikichi",
+    "year": "1992-07-17",
+    "track_order": "16/20",
+    "chip_data": {
+        "fm_writes": 15488,
+        "complexity": 0.637
+    },
+    "_type": "music:track"
+}

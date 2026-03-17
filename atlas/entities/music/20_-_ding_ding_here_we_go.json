@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_ding_ding_here_we_go",
+    "track_name": "20 - Ding Ding Here We Go",
+    "album": "World Heroes 2",
+    "composer": "Yuka Watanabe",
+    "year": "1993-04-26",
+    "track_order": "20/41",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

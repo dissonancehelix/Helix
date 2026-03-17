@@ -1,0 +1,13 @@
+{
+    "entity_id": "48_-_liberation",
+    "track_name": "48 - Liberation",
+    "album": "Cosmic Psycho",
+    "composer": "Izuho Yoshitani",
+    "year": "1991-09-14",
+    "track_order": "48/49",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

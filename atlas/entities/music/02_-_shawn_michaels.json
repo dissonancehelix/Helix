@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_shawn_michaels",
+    "track_name": "02 - Shawn Michaels",
+    "album": "WWF Raw",
+    "composer": "Chris Braymen",
+    "year": "1994",
+    "track_order": "2/14",
+    "chip_data": {
+        "fm_writes": 16471,
+        "complexity": 0.28300000000000003
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "41_-_undersea_cave",
+    "track_name": "41 - Undersea Cave",
+    "album": "The Legend of Heroes IV: A Tear of Vermillion",
+    "composer": "Atsushi Shirakawa-",
+    "year": "1996-05-24",
+    "track_order": "41/54",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

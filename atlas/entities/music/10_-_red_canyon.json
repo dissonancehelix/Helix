@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_red_canyon",
+    "track_name": "10 - Red Canyon",
+    "album": "Kirby's Dream Land 2",
+    "composer": "Hirokazu Ando",
+    "year": "1995-03-21",
+    "track_order": "10/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

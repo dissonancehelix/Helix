@@ -35,7 +35,7 @@ def run(pipeline: "MusicSubstratePipeline") -> None:
     try:
         from substrates.music.vgm_parser import parse_vgm_file
         from substrates.music.analysis.symbolic_music.vgm_note_reconstructor import reconstruct
-        from substrates.music.config import ARTIFACTS, VGM_ROOT, LIBRARY_ROOT
+        from substrates.music.ingestion.config import ARTIFACTS, VGM_ROOT, LIBRARY_ROOT
     except ImportError as exc:
         print(f"    Symbolic reconstruction unavailable: {exc}")
         return

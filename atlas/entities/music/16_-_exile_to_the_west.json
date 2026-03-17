@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_exile_to_the_west",
+    "track_name": "16 - Exile to the West",
+    "album": "Sora no Fudousan",
+    "composer": "Hiroyuki Mizuno",
+    "year": "2004-04-28",
+    "track_order": "16/16",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_2-player_vs.",
+    "track_name": "01 - 2-Player vs.",
+    "album": "Ball Jacks",
+    "composer": "Yoshinori Kawamoto",
+    "year": "1992",
+    "track_order": "1/18",
+    "chip_data": {
+        "fm_writes": 1499329,
+        "complexity": 0.478
+    },
+    "_type": "music:track"
+}

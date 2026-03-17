@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_player's_defeat",
+    "track_name": "11 - Player's Defeat",
+    "album": "Military Madness",
+    "composer": "June Chikuma",
+    "year": "1989-02-09",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_great_temple",
+    "track_name": "06 - Great Temple",
+    "album": "Zelda II: The Adventure of Link",
+    "composer": "Akito Nakatsuka",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 83,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

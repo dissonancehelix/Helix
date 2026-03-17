@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_double-deck_fortress_energy_furnace",
+    "track_name": "10 - Double-Deck Fortress (Energy Furnace)",
+    "album": "Legion",
+    "composer": "Shinobu Ogawa",
+    "year": "1990-09-21",
+    "track_order": "10/10%",
+    "chip_data": {
+        "fm_writes": 28,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:vboy_vsu",
+  "name": "Sound Chip: VBOY_VSU",
+  "type": "SoundChip",
+  "libvgm_id": "0x22"
+}

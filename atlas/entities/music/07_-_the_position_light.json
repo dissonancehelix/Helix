@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_the_position_light",
+    "track_name": "07 - The Position Light",
+    "album": "Nemesis 3: The Eve of Destruction",
+    "composer": "Kazuhiko Uehara",
+    "year": "1988",
+    "track_order": "7/22",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

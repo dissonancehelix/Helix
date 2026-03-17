@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_battle_3",
+    "track_name": "03 - Battle 3",
+    "album": "Ballz",
+    "composer": "Mark Miller",
+    "year": "1994",
+    "track_order": "3/12",
+    "chip_data": {
+        "fm_writes": 77082,
+        "complexity": 0.679
+    },
+    "_type": "music:track"
+}

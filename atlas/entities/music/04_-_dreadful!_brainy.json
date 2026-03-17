@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_dreadful!_brainy",
+    "track_name": "04 - Dreadful! Brainy",
+    "album": "Monster Maulers",
+    "composer": "Yoshihiko Koezuka",
+    "year": "1993",
+    "track_order": "4/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

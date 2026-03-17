@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_flare-up",
+    "track_name": "14 - Flare-Up",
+    "album": "Night Slave",
+    "composer": "Izuho Yoshitani",
+    "year": "1996-03-08",
+    "track_order": "14/33",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

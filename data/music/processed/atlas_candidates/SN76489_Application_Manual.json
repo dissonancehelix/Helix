@@ -1,0 +1,16 @@
+{
+  "id": "music.manual:SN76489_Application_Manual",
+  "type": "KnowledgeSource",
+  "extracted_entities": [
+    {
+      "id": "music.sound_chip:sn76489_application_manual",
+      "type": "SoundChip"
+    }
+  ],
+  "invariant_candidates": [
+    {
+      "id": "music.invariant:sn76489_application_manual_law",
+      "description": "Extracted from SN76489_Application_Manual.pdf"
+    }
+  ]
+}

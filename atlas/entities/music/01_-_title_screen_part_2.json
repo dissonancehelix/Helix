@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_title_screen_part_2",
+    "track_name": "01 - Title Screen (part 2)",
+    "album": "mon Red & Blue",
+    "composer": "Junichi Masuda",
+    "year": "1996-02-27",
+    "track_order": "1/35",
+    "chip_data": {
+        "fm_writes": 7,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

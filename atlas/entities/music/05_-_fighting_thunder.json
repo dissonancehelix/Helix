@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_fighting_thunder",
+    "track_name": "05 - Fighting Thunder",
+    "album": "Raiden",
+    "composer": "Akira Sato",
+    "year": "1991-11-22",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 288,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

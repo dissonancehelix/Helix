@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_boss_scene_2",
+    "track_name": "04 - Boss Scene 2",
+    "album": "Darius Plus",
+    "composer": "Hisayoshi Ogura",
+    "year": "1990-09-07",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

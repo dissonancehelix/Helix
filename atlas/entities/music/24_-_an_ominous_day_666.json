@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_an_ominous_day_666",
+    "track_name": "24 - An Ominous Day (666)",
+    "album": "Bahamut Senki",
+    "composer": "Keisuke Tsukahara",
+    "year": "1991/03/08",
+    "track_order": "24/24",
+    "chip_data": {
+        "fm_writes": 162400,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

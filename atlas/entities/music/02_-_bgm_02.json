@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_bgm_02",
+    "track_name": "02 - BGM 02",
+    "album": "Angel",
+    "composer": "Naoki",
+    "year": "1993-10-01",
+    "track_order": "2/10",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

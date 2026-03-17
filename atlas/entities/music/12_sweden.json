@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_sweden",
+    "track_name": "12 Sweden",
+    "album": "Grand Striker: Human Cup",
+    "composer": "Hironori Tanaka",
+    "year": "1993-08",
+    "track_order": "10/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

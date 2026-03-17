@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_protagonist's_home",
+    "track_name": "02 - Protagonist's Home",
+    "album": "Seasons of Sakura",
+    "composer": "Takanori Nakaigawa",
+    "year": "1996",
+    "track_order": "2/32",
+    "chip_data": {
+        "fm_writes": 126,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

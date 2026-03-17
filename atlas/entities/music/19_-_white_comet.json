@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_white_comet",
+    "track_name": "19 - White Comet",
+    "album": "Star Cruiser II",
+    "composer": "Tetsuya Nakano",
+    "year": "1992-06-18",
+    "track_order": "19/43",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

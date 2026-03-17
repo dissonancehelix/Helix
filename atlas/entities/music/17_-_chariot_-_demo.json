@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_chariot_-_demo",
+    "track_name": "17 - Chariot - Demo",
+    "album": "Three Wonders",
+    "composer": "Masaki Izutani",
+    "year": "1991-07",
+    "track_order": "17/34",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

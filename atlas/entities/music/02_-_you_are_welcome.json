@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_you_are_welcome",
+    "track_name": "02 - You Are Welcome",
+    "album": "Farland Story: Tooi Kuni no Monogatari",
+    "composer": "Tomoo Kasahara",
+    "year": "1993",
+    "track_order": "2/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

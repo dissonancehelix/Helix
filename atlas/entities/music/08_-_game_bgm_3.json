@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_game_bgm_3",
+    "track_name": "08 - Game BGM 3",
+    "album": "Kaitou Saint Tail",
+    "composer": "Kojiro Mikusa",
+    "year": "1993",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

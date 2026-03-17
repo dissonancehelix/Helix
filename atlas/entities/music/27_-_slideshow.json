@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_slideshow",
+    "track_name": "27 - Slideshow",
+    "album": "Urusei Yatsura: Dear My Friends",
+    "composer": "Kenichi Okuma",
+    "year": "1994-04-15",
+    "track_order": "27/27",
+    "chip_data": {
+        "fm_writes": 317,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

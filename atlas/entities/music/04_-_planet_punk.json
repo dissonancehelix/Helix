@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_planet_punk",
+    "track_name": "04 - Planet Punk",
+    "album": "Bucky O'Hare",
+    "composer": "Norio Hanzawa",
+    "year": "1992",
+    "track_order": "4/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

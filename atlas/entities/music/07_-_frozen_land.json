@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_frozen_land",
+    "track_name": "07 - Frozen Land",
+    "album": "Metamorphic Force",
+    "composer": "Mariko Egawa",
+    "year": "1993-08",
+    "track_order": "7/28",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

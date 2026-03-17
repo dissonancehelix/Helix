@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_hope,_disappointment_and_counterattack",
+    "track_name": "03 - Hope, Disappointment and Counterattack",
+    "album": "Midnight Resistance",
+    "composer": "Hiroaki Yoshida",
+    "year": "1989",
+    "track_order": "3/10&",
+    "chip_data": {
+        "fm_writes": 15,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_we_are_desirous_of_peace",
+    "track_name": "06 - We Are Desirous of Peace",
+    "album": "Year",
+    "composer": "Katsuhiro Hayashi",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

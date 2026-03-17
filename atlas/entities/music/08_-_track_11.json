@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_track_11",
+    "track_name": "08 - Track 11",
+    "album": "Thunder Pro Wrestling Retsuden",
+    "composer": "Takeshi Saito",
+    "year": "1992/03/27",
+    "track_order": "8/14",
+    "chip_data": {
+        "fm_writes": 29525,
+        "complexity": 0.963
+    },
+    "_type": "music:track"
+}

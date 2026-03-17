@@ -1,0 +1,13 @@
+{
+    "entity_id": "36_-_happy_end",
+    "track_name": "36 - Happy End",
+    "album": "Filsnown",
+    "composer": "Shinya Ishikawa",
+    "year": "1995-08-03",
+    "track_order": "36/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

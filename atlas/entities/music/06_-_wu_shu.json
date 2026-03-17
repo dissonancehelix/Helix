@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_wu_shu",
+    "track_name": "06 - Wu Shu",
+    "album": "Kuri Kinton",
+    "composer": "Masahiko Takaki",
+    "year": "1988-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

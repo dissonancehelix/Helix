@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_sub-space_2_bgm",
+    "track_name": "06 - Sub-Space 2 BGM",
+    "album": "YuYu Hakusho: Sunset Fighters",
+    "composer": "Norio Hanzawa",
+    "year": "1994",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 80728,
+        "complexity": 0.7849999999999999
+    },
+    "_type": "music:track"
+}

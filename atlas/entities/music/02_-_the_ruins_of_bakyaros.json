@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_the_ruins_of_bakyaros",
+    "track_name": "02 - The Ruins of Bakyaros",
+    "album": "Metamorphic Force",
+    "composer": "Mariko Egawa",
+    "year": "1993-08",
+    "track_order": "2/28",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_theme_alt_2",
+    "track_name": "07 - Theme (Alt 2)",
+    "album": "Air Combat",
+    "composer": "Hiroyuki Kawada",
+    "year": "1993-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

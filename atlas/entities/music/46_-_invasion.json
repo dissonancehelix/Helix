@@ -1,0 +1,13 @@
+{
+    "entity_id": "46_-_invasion",
+    "track_name": "46 - Invasion",
+    "album": "The Legend of Heroes III: Moonlight Witch",
+    "composer": "Masaru Nakajima)",
+    "year": "1994-03-18",
+    "track_order": "46/61",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

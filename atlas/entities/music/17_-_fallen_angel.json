@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_fallen_angel",
+    "track_name": "17 - Fallen Angel",
+    "album": "Angelus: Akuma no Fukuin",
+    "composer": "Koichi Sugiyama",
+    "year": "1988-07",
+    "track_order": "17/22",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

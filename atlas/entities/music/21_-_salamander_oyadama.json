@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_salamander_oyadama",
+    "track_name": "21 - Salamander Oyadama",
+    "album": "Revolter",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1988-07-13",
+    "track_order": "21/22",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

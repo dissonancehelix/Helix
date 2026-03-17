@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_area_select_-_lake_hum",
+    "track_name": "04 - Area Select - Lake Hum",
+    "album": "Bass Masters Classic",
+    "composer": "Kinuyo Yamashita",
+    "year": "1999-11-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

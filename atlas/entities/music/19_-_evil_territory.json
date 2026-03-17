@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_evil_territory",
+    "track_name": "19 - Evil Territory",
+    "album": "Beyond Oasis",
+    "composer": "Yuzo Koshiro",
+    "year": "1994",
+    "track_order": "19/30",
+    "chip_data": {
+        "fm_writes": 35102,
+        "complexity": 0.643
+    },
+    "_type": "music:track"
+}

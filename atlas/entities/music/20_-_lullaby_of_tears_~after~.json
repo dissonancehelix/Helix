@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_lullaby_of_tears_~after~",
+    "track_name": "20 - Lullaby of Tears ~After~",
+    "album": "Valis II",
+    "composer": "Masahiro Kajihara",
+    "year": "1989-11-17",
+    "track_order": "20/32",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

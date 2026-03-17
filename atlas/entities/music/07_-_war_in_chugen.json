@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_war_in_chugen",
+    "track_name": "07 - War in Chugen",
+    "album": "Romance of the Three Kingdoms II",
+    "composer": "Minoru Mukaiya ",
+    "year": "1991/12/26",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 2782,
+        "complexity": 0.75
+    },
+    "_type": "music:track"
+}

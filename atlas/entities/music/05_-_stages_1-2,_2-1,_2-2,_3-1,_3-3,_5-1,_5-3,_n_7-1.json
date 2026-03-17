@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stages_1-2,_2-1,_2-2,_3-1,_3-3,_5-1,_5-3,_n_7-1",
+    "track_name": "05 - Stages 1-2, 2-1, 2-2, 3-1, 3-3, 5-1, 5-3, & 7-1",
+    "album": "Magical Hat no Buttobi Turbo! Daibouken",
+    "composer": "Toshiko Tasaki'",
+    "year": "1990/12/15",
+    "track_order": "5/11/",
+    "chip_data": {
+        "fm_writes": 41933,
+        "complexity": 0.55
+    },
+    "_type": "music:track"
+}

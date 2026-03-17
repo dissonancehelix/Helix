@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_opening_theme",
+    "track_name": "03 - Opening Theme",
+    "album": "Maten no Soumetsu",
+    "composer": "Noriyuki Iwadare",
+    "year": "1993/12/29",
+    "track_order": "3/18",
+    "chip_data": {
+        "fm_writes": 34870,
+        "complexity": 0.56
+    },
+    "_type": "music:track"
+}

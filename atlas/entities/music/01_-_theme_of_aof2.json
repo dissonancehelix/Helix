@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_theme_of_aof2",
+    "track_name": "01 - Theme of AOF2",
+    "album": "Art of Fighting 2",
+    "composer": "Yasumasa Yamada",
+    "year": "1994-02-03",
+    "track_order": "1/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

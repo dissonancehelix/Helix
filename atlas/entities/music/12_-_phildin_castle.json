@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_phildin_castle",
+    "track_name": "12 - Phildin Castle",
+    "album": "The Legend of Heroes IV: A Tear of Vermillion",
+    "composer": "Atsushi Shirakawa-",
+    "year": "1996-05-24",
+    "track_order": "12/54",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

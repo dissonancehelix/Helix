@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_temple_of_cant",
+    "track_name": "03 Temple of Cant",
+    "album": "Wizardry III+IV",
+    "composer": "Miyoko Takaoka",
+    "year": "1994-03-04",
+    "track_order": "3/11",
+    "chip_data": {
+        "fm_writes": 185,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -30,8 +30,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from substrates.music.knowledge.composer_graph import ComposerGraph, get_graph, reset_graph
-from substrates.music.knowledge.composer_schema import (
+from substrates.music.atlas_integration.composer_graph import ComposerGraph, get_graph, reset_graph
+from substrates.music.atlas_integration.composer_schema import (
     ComposerNode, TrackNode, GameNode, SoundTeamNode, Relationship,
 )
 

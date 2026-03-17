@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_track_05",
+    "track_name": "05 - Track 05",
+    "album": "Cuarto",
+    "composer": "Junko Yamada",
+    "year": "1991",
+    "track_order": "5/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -16,7 +16,7 @@ Queries:
 from __future__ import annotations
 
 from dataclasses import dataclass
-from core.graph.atlas_graph import AtlasGraph, Node, Edge
+from core.kernel.graph.storage.atlas_graph import AtlasGraph, Node, Edge
 
 
 @dataclass

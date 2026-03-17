@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_mega_man_2-_airman_stage",
+    "track_name": "16 - Mega Man 2- Airman Stage",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "16/55",
+    "chip_data": {
+        "fm_writes": 34832,
+        "complexity": 0.996
+    },
+    "_type": "music:track"
+}

@@ -2,7 +2,7 @@ import os
 import sqlite3
 from pathlib import Path
 from substrates.music.ingestion.metadata_processor import MetadataProcessor
-from substrates.music.config import VGM_ROOT, LIBRARY_ROOT
+from substrates.music.ingestion.config import VGM_ROOT, LIBRARY_ROOT
 
 TARGET_COMPOSERS = {
     "Jun Senoue", "Tatsuyuki Maeda", "Sachio Ogawa", 

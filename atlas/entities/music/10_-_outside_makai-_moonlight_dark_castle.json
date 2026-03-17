@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_outside_makai-_moonlight_dark_castle",
+    "track_name": "10 - Outside Makai- Moonlight Dark Castle",
+    "album": "Super Gem Fighter: Mini Mix",
+    "composer": "Yuki Iwai",
+    "year": "1997-09-04",
+    "track_order": "10/22$",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

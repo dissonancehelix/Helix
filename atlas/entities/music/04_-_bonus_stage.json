@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_bonus_stage",
+    "track_name": "04 - Bonus Stage",
+    "album": "Chiki Chiki Boys",
+    "composer": "Hiromitsu Takaoka",
+    "year": "1992/10/16",
+    "track_order": "4/20",
+    "chip_data": {
+        "fm_writes": 25431,
+        "complexity": 0.9259999999999999
+    },
+    "_type": "music:track"
+}

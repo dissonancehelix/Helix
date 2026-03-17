@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_rigold",
+    "track_name": "16 - Rigold",
+    "album": "Digan no Maseki",
+    "composer": "Psycho Sonic",
+    "year": "1988-04",
+    "track_order": "16/36",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

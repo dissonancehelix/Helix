@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_ending_theme",
+    "track_name": "23 - Ending Theme",
+    "album": "Bishoujo Senshi Sailor Moon",
+    "composer": "Aki Hata",
+    "year": "1994/07/08",
+    "track_order": "23/25",
+    "chip_data": {
+        "fm_writes": 32156,
+        "complexity": 0.464
+    },
+    "_type": "music:track"
+}

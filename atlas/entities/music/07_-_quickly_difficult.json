@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_quickly_difficult",
+    "track_name": "07 - Quickly Difficult",
+    "album": "Puyo Puyo Tsuu",
+    "composer": "Tsuyoshi Matsushima",
+    "year": "1994-09",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 36705,
+        "complexity": 0.48100000000000004
+    },
+    "_type": "music:track"
+}

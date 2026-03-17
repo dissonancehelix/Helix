@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_mission_3_boss",
+    "track_name": "08 - Mission 3 Boss",
+    "album": "Double Dragon II: The Revenge",
+    "composer": "Kazunaka Yamane",
+    "year": "1991/12/20",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 31406,
+        "complexity": 0.749
+    },
+    "_type": "music:track"
+}

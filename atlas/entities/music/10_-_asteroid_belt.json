@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_asteroid_belt",
+    "track_name": "10 - Asteroid Belt",
+    "album": "Silpheed",
+    "composer": "Mamoru Ishimoda",
+    "year": "1993",
+    "track_order": "10/18",
+    "chip_data": {
+        "fm_writes": 229,
+        "complexity": 0.667
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_another_side",
+    "track_name": "10 - Another Side",
+    "album": "Strikers 1945 III",
+    "composer": "Masaki Izutani",
+    "year": "1999",
+    "track_order": "10/14",
+    "chip_data": {
+        "fm_writes": 182,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

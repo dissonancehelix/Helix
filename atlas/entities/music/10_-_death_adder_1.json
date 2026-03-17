@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_death_adder_1",
+    "track_name": "10 - Death Adder 1",
+    "album": "Golden Axe: The Revenge of Death Adder",
+    "composer": "Masanori Takeuchi&",
+    "year": "1992-07",
+    "track_order": "10/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

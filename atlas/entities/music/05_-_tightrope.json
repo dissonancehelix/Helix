@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_tightrope",
+    "track_name": "05 - Tightrope",
+    "album": "Minnesota Fats: Pool Legend",
+    "composer": "Shogo Sakai",
+    "year": "1995/09",
+    "track_order": "5/27",
+    "chip_data": {
+        "fm_writes": 4535,
+        "complexity": 0.25
+    },
+    "_type": "music:track"
+}

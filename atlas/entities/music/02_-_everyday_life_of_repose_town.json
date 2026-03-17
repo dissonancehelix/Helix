@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_everyday_life_of_repose_town",
+    "track_name": "02 - Everyday Life of Repose (Town)",
+    "album": "Famicom Jump II: Saikyo no 7-nin",
+    "composer": "Satoshi Kadokura ",
+    "year": "1991-12-02",
+    "track_order": "2/17",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

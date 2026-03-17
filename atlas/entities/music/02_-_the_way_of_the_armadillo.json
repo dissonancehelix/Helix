@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_the_way_of_the_armadillo",
+    "track_name": "02 - The Way of the Armadillo",
+    "album": "Armadillo Racing",
+    "composer": "Yuri Misumi",
+    "year": "1997-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 133,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

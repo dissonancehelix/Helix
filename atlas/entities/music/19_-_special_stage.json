@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_special_stage",
+    "track_name": "19 - Special Stage",
+    "album": "Sonic 3D Blast",
+    "composer": "Jun Senoue",
+    "year": "1996/11/06",
+    "track_order": "18/24",
+    "chip_data": {
+        "fm_writes": 5166,
+        "complexity": 0.539
+    },
+    "_type": "music:track"
+}

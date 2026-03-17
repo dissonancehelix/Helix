@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_omega_ending_theme_1",
+    "track_name": "18 - Omega Ending Theme 1",
+    "album": "Star Gladiator 2: Nightmare of Bilstein",
+    "composer": "Takayuki Iwai",
+    "year": "1998-03-16",
+    "track_order": "18/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

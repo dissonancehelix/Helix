@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_pachimon_again",
+    "track_name": "16 - Pachimon Again",
+    "album": "Space Bomber",
+    "composer": "Masaki Izutani",
+    "year": "1998",
+    "track_order": "16/16",
+    "chip_data": {
+        "fm_writes": 124,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

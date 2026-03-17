@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_boss_2_shtrom_jr.",
+    "track_name": "03 - Boss 2 (Shtrom Jr.)",
+    "album": "Captain Commando",
+    "composer": "Masaki Izutani",
+    "year": "1991-11",
+    "track_order": "3/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

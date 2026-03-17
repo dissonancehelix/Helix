@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_scream",
+    "track_name": "09 - Scream",
+    "album": "Mahjong Fantasia III",
+    "composer": "Keishi Yonao",
+    "year": "1995-09-14",
+    "track_order": "9/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_credits",
+    "track_name": "11 - Credits",
+    "album": "Robo Army",
+    "composer": "Yasumasa Yamada",
+    "year": "1991-12-20",
+    "track_order": "11/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

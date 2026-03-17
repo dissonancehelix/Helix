@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_brick_pandemonium",
+    "track_name": "07 - Brick Pandemonium",
+    "album": "Polygonet Commanders",
+    "composer": "Junya Nakano",
+    "year": "1994-03",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

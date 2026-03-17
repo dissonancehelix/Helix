@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_tennessee",
+    "track_name": "03 - Tennessee",
+    "album": "Road Rash II",
+    "composer": "Don Veca",
+    "year": "1992/05/17",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 27902,
+        "complexity": 0.45
+    },
+    "_type": "music:track"
+}

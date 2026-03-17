@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_final_boss",
+    "track_name": "04 - Final Boss",
+    "album": "Kozure Ookami",
+    "composer": "Kenji Yoshida",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 93500,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

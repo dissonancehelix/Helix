@@ -1,0 +1,13 @@
+{
+    "entity_id": "50_-_avin's_determination",
+    "track_name": "50 - Avin's Determination",
+    "album": "The Legend of Heroes IV: A Tear of Vermillion",
+    "composer": "Atsushi Shirakawa-",
+    "year": "1996-05-24",
+    "track_order": "50/54",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

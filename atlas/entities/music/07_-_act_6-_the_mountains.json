@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_act_6-_the_mountains",
+    "track_name": "07 - Act 6- The Mountains",
+    "album": "The Smurfs",
+    "composer": "Alberto Jose Gonz",
+    "year": "1994",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 20,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

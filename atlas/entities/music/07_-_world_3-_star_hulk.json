@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_world_3-_star_hulk",
+    "track_name": "07 - World 3- Star Hulk",
+    "album": "Tinhead",
+    "composer": "Paul Tonge",
+    "year": "1993",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 170402,
+        "complexity": 0.485
+    },
+    "_type": "music:track"
+}

@@ -9,6 +9,8 @@ Any RUN targeting an unregistered operator raises HILValidationError.
 from __future__ import annotations
 
 from core.operators.operator_spec import OperatorSpec
+from core.operators.base import BaseOperator
+from typing import Type
 
 
 class OperatorRegistry:
@@ -22,11 +24,12 @@ class OperatorRegistry:
 
     def __init__(self) -> None:
         self._operators: dict[str, OperatorSpec] = {}
+        self._implementations: dict[str, Type[BaseOperator]] = {}
         self._locked: bool = False
 
     # ── Registration ──────────────────────────────────────────────────────
 
-    def register(self, spec: OperatorSpec) -> None:
+    def register(self, spec: OperatorSpec, implementation: Type[BaseOperator] | None = None) -> None:
         """Register an operator. Raises RuntimeError if registry is locked."""
         if self._locked:
             raise RuntimeError(
@@ -35,6 +38,8 @@ class OperatorRegistry:
                 f"Set HELIX_MODE=dev to allow operator registration."
             )
         self._operators[spec.name.upper()] = spec
+        if implementation:
+            self._implementations[spec.name.upper()] = implementation
 
     def lock(self) -> None:
         """Lock the registry. Called when entering runtime mode."""
@@ -60,6 +65,10 @@ class OperatorRegistry:
                 raw=f"RUN operator:{name}",
             )
         return spec
+
+    def get_implementation(self, name: str) -> Type[BaseOperator] | None:
+        """Return the functional implementation class for an operator."""
+        return self._implementations.get(name.upper())
 
     def all(self) -> list[OperatorSpec]:
         return list(self._operators.values())

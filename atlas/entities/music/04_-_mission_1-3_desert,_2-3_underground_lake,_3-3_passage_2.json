@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_mission_1-3_desert,_2-3_underground_lake,_3-3_passage_2",
+    "track_name": "04 - Mission 1-3 (Desert), 2-3 (Underground Lake), 3-3 (Passage 2)",
+    "album": "Veigues: Tactical Gladiator",
+    "composer": "Fumihito Kasatani",
+    "year": "1988-12-16",
+    "track_order": "4/16=",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_battle_bgm_9~11",
+    "track_name": "06 - Battle BGM 9~11",
+    "album": "Super Metal Crusher",
+    "composer": "Sachiko Oita",
+    "year": "1991-11-29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 45,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

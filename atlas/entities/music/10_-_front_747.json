@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_front_747",
+    "track_name": "10 - Front 747",
+    "album": "Escape Kids",
+    "composer": "Konami Kukeiha Club",
+    "year": "1991",
+    "track_order": "10/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

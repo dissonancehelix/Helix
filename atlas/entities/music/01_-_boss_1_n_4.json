@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_boss_1_n_4",
+    "track_name": "01 - Boss 1 & 4",
+    "album": "Fire Mustang",
+    "composer": "Kazunori Hideya",
+    "year": "1991/05/31",
+    "track_order": "1/11",
+    "chip_data": {
+        "fm_writes": 285362,
+        "complexity": 0.336
+    },
+    "_type": "music:track"
+}

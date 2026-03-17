@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_last_boss_kingpin",
+    "track_name": "14 - Last Boss (Kingpin)",
+    "album": "The Punisher",
+    "composer": "Yoko Shimomura",
+    "year": "1993-04-22",
+    "track_order": "14/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

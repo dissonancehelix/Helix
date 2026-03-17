@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_airwolf_theme_in_the_air_japan",
+    "track_name": "04 - Airwolf Theme (In the Air) (Japan)",
+    "album": "CrossFire",
+    "composer": "Tsukasa Masuko",
+    "year": "1991/03/29",
+    "track_order": "4/9\"",
+    "chip_data": {
+        "fm_writes": 39456,
+        "complexity": 0.9530000000000001
+    },
+    "_type": "music:track"
+}

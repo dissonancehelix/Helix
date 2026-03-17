@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_tuna",
+    "track_name": "09 - Tuna",
+    "album": "Samurai Shodown",
+    "composer": "Masahiko Hataya",
+    "year": "1993-07-07",
+    "track_order": "9/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_fort_redstar_act_1_~_meeting_with_boris",
+    "track_name": "08 - Fort Redstar (Act 1) ~ Meeting with Boris",
+    "album": "Aero the Acro-Bat 2",
+    "composer": "Rick Fox",
+    "year": "1994/04/01",
+    "track_order": "8/20)",
+    "chip_data": {
+        "fm_writes": 39119,
+        "complexity": 0.325
+    },
+    "_type": "music:track"
+}

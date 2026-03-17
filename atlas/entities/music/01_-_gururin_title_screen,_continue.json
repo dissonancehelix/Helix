@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_gururin_title_screen,_continue",
+    "track_name": "01 - Gururin (Title Screen, Continue)",
+    "album": "Gururin",
+    "composer": "Kenji Sugai",
+    "year": "1994-05-25",
+    "track_order": "1/14 ",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

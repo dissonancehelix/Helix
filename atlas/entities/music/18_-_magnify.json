@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_magnify",
+    "track_name": "18 - Magnify",
+    "album": "Xenon: Mugen no Shitai",
+    "composer": "Ryu Umemoto",
+    "year": "1995-03-31",
+    "track_order": "18/20",
+    "chip_data": {
+        "fm_writes": 3618,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

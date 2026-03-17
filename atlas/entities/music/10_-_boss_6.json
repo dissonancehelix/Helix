@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_boss_6",
+    "track_name": "10 - Boss 6",
+    "album": "Darius",
+    "composer": "Hisayoshi Ogura",
+    "year": "1986",
+    "track_order": "10/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

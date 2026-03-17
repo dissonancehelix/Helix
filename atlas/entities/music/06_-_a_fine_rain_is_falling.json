@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_a_fine_rain_is_falling",
+    "track_name": "06 - A Fine Rain Is Falling",
+    "album": "Ninja Master's",
+    "composer": "Yuka Watanabe",
+    "year": "1996-06-28",
+    "track_order": "6/26",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

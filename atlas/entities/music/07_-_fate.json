@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_fate",
+    "track_name": "07 - Fate",
+    "album": "Viper-V16",
+    "composer": "Kenichi Arakawa",
+    "year": "1995-12-22",
+    "track_order": "7/28",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

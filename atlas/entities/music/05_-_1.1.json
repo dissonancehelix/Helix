@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_1.1",
+    "track_name": "05 - 1.1",
+    "album": "The Flintstones: Burgertime in Bedrock",
+    "composer": "Allister Brimble&",
+    "year": "2001-05-30",
+    "track_order": "5/36",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

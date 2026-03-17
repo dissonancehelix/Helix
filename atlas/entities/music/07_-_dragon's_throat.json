@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_dragon's_throat",
+    "track_name": "07 - Dragon's Throat",
+    "album": "Golden Axe II",
+    "composer": "Naofumi Hataya",
+    "year": "1991-12-27",
+    "track_order": "7/12",
+    "chip_data": {
+        "fm_writes": 7176,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

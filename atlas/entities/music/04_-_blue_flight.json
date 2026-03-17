@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_blue_flight",
+    "track_name": "04 - Blue Flight",
+    "album": "Viper-V12",
+    "composer": "Kenichi Arakawa",
+    "year": "1995-12-15",
+    "track_order": "4/16",
+    "chip_data": {
+        "fm_writes": 34722,
+        "complexity": 0.928
+    },
+    "_type": "music:track"
+}

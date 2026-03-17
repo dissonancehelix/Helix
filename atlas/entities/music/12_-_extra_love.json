@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_extra_love",
+    "track_name": "12 - Extra Love",
+    "album": "Touhou Fuumaroku ~ The Story of Eastern Wonderland",
+    "composer": "ZUN2",
+    "year": "1997-08-15",
+    "track_order": "12/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

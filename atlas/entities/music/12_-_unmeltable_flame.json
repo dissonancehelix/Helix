@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_unmeltable_flame",
+    "track_name": "12 - Unmeltable Flame",
+    "album": "YuYu Hakusho: Sunset Fighters",
+    "composer": "Aki Hata",
+    "year": "1994",
+    "track_order": "12/16",
+    "chip_data": {
+        "fm_writes": 28469,
+        "complexity": 0.5940000000000001
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_europe_a",
+    "track_name": "05 Europe A",
+    "album": "Grand Striker 2 ",
+    "composer": "Chiyomaru Shikura",
+    "year": "1996-02",
+    "track_order": "3/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

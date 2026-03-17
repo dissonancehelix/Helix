@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_rapids_stage_1_~_factory_stage_3",
+    "track_name": "07 - Rapids (Stage 1) ~ Factory (Stage 3)",
+    "album": "Zero the Kamikaze Squirrel",
+    "composer": "Rick Fox",
+    "year": "1994/01/18",
+    "track_order": "7/16$",
+    "chip_data": {
+        "fm_writes": 69221,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

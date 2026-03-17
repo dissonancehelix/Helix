@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_shinyang_castle",
+    "track_name": "09 - Shinyang Castle",
+    "album": "Dynasty Wars",
+    "composer": "Manami Matsumae",
+    "year": "1989-04",
+    "track_order": "9/14",
+    "chip_data": {
+        "fm_writes": 163,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_a_strange_enemy",
+    "track_name": "02 - A Strange Enemy",
+    "album": "Lightning Fighters",
+    "composer": "Michiru Yamane",
+    "year": "1990",
+    "track_order": "2/16",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

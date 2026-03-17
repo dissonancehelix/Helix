@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_pipeline",
+    "track_name": "18 - Pipeline",
+    "album": "Blaster Burn: Budruga Episode III",
+    "composer": "Masanobu Tsukamoto!",
+    "year": "1990",
+    "track_order": "18/27",
+    "chip_data": {
+        "fm_writes": 195,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

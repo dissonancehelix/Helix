@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_submission_n_domination",
+    "track_name": "04 - Submission & Domination",
+    "album": "Rad Mobile",
+    "composer": "Kazuhiko Nagai",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_dippy_the_dinosaur,_the_river_race",
+    "track_name": "05 - Dippy the Dinosaur, The River Race",
+    "album": "Chuck Rock II: Son of Chuck",
+    "composer": "Martin Iveson",
+    "year": "1993-11-16",
+    "track_order": "5/11\"",
+    "chip_data": {
+        "fm_writes": 11856,
+        "complexity": 0.44799999999999995
+    },
+    "_type": "music:track"
+}

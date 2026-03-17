@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_sea_side_step!!",
+    "track_name": "08 - Sea Side Step!!",
+    "album": "Marine Rouge",
+    "composer": "Hiroaki Sano",
+    "year": "1995-09-29",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

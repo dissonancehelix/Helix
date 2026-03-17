@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_yo!_what's_up",
+    "track_name": "04 - Yo! What's Up",
+    "album": "Street Hoop",
+    "composer": "Tatsuya Kiuchi",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

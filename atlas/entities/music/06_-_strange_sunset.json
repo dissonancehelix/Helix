@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_strange_sunset",
+    "track_name": "06 - Strange Sunset",
+    "album": "Street Fighter EX",
+    "composer": "Ayako Saso",
+    "year": "1996-11-30",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

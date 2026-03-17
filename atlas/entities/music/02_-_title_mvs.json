@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_title_mvs",
+    "track_name": "02 - Title MVS",
+    "album": "Bomberman: Panic Bomber",
+    "composer": "Kenichi Koyano",
+    "year": "1995-01-18",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

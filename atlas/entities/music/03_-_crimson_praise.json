@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_crimson_praise",
+    "track_name": "03 - Crimson Praise",
+    "album": "Ninja Burai Densetsu",
+    "composer": "Hiro",
+    "year": "1991",
+    "track_order": "3/16",
+    "chip_data": {
+        "fm_writes": 26283,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

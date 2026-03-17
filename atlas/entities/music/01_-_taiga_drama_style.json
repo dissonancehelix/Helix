@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_taiga_drama_style",
+    "track_name": "01 - Taiga Drama Style",
+    "album": "Harakiri",
+    "composer": "Fumihito Kasatani",
+    "year": "1990",
+    "track_order": "1/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

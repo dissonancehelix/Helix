@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_the_madness_that_lurks_underground_stage_8-3",
+    "track_name": "20 - The Madness that Lurks Underground (Stage 8-3)",
+    "album": "Cadillacs and Dinosaurs",
+    "composer": "Isao Abe",
+    "year": "1993-02-01",
+    "track_order": "20/26.",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -27,7 +27,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from substrates.music.config import CONFIDENCE_BY_TIER
+from substrates.music.ingestion.config import CONFIDENCE_BY_TIER
 
 try:
     import numpy as _np
@@ -160,7 +160,7 @@ def _apply_diversity_bonus(results: list[RecommendationResult]) -> list[Recommen
 def _load_meta(db: Any) -> dict[str, dict]:
     """Build track metadata map from DB including feature vectors."""
     try:
-        from substrates.music.config import FEATURE_VECTOR_VERSION
+        from substrates.music.ingestion.config import FEATURE_VECTOR_VERSION
         ids, mat = db.load_all_vectors(FEATURE_VECTOR_VERSION)
         tracks   = {t["track_id"]: t for t in db.get_tracks_by_tier(max_tier=4)}
 

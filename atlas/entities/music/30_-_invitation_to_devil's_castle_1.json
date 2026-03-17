@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_invitation_to_devil's_castle_1",
+    "track_name": "30 - Invitation to Devil's Castle 1",
+    "album": "Wai Wai World 2",
+    "composer": "Kenichi Matsubara",
+    "year": "1991-01-05",
+    "track_order": "30/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

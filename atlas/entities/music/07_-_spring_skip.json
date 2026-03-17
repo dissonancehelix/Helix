@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_spring_skip",
+    "track_name": "07 - Spring Skip",
+    "album": "Ojousama Club",
+    "composer": "Album",
+    "year": "1987-07-25",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

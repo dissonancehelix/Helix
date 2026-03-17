@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_world_map_party_of_4",
+    "track_name": "12 - World Map (Party of 4)",
+    "album": "Phantasy Star III",
+    "composer": "Izuho Numata",
+    "year": "1990/04/21",
+    "track_order": "12/33",
+    "chip_data": {
+        "fm_writes": 42597,
+        "complexity": 0.316
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_dungeon_1,_dungeon_6",
+    "track_name": "06 - Dungeon 1, Dungeon 6",
+    "album": "Light Crusader",
+    "composer": "Aki Hata",
+    "year": "1995",
+    "track_order": "6/28",
+    "chip_data": {
+        "fm_writes": 47326,
+        "complexity": 0.455
+    },
+    "_type": "music:track"
+}

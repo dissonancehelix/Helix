@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_laya's_temple",
+    "track_name": "25 - Laya's Temple",
+    "album": "Phantasy Star III",
+    "composer": "Izuho Numata",
+    "year": "1990/04/21",
+    "track_order": "25/33",
+    "chip_data": {
+        "fm_writes": 18478,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

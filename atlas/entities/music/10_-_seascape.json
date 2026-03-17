@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_seascape",
+    "track_name": "10 - Seascape",
+    "album": "Knuckles' Chaotix",
+    "composer": "Junko Shiratsu",
+    "year": "1995-04-21",
+    "track_order": "10/30",
+    "chip_data": {
+        "fm_writes": 192,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

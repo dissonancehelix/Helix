@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_emerald_forest",
+    "track_name": "02 - Emerald Forest",
+    "album": "Socket",
+    "composer": "Fumito Tamayama",
+    "year": "1993",
+    "track_order": "2/17",
+    "chip_data": {
+        "fm_writes": 20861,
+        "complexity": 0.407
+    },
+    "_type": "music:track"
+}

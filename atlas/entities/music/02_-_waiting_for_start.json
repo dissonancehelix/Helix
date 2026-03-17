@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_waiting_for_start",
+    "track_name": "02 - Waiting for Start",
+    "album": "Master's Fury",
+    "composer": "Jeon Seuk Ki",
+    "year": "1996-02",
+    "track_order": "2/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_evil_priest",
+    "track_name": "30 - Evil Priest",
+    "album": "Dragon Knight II",
+    "composer": "Manabu Kunieda",
+    "year": "1990-12-20",
+    "track_order": "30/54",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

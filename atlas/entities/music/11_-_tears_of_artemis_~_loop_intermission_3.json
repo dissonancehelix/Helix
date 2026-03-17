@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_tears_of_artemis_~_loop_intermission_3",
+    "track_name": "11 - Tears of Artemis ~ Loop (Intermission 3)",
+    "album": "Phelios",
+    "composer": "Yoshinori Kawamoto",
+    "year": "1990/07/20",
+    "track_order": "11/22(",
+    "chip_data": {
+        "fm_writes": 2298,
+        "complexity": 0.4
+    },
+    "_type": "music:track"
+}

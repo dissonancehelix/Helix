@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_cutscene_16a",
+    "track_name": "25 - Cutscene 16a",
+    "album": "Urusei Yatsura: Dear My Friends",
+    "composer": "Kenichi Okuma",
+    "year": "1994-04-15",
+    "track_order": "25/27",
+    "chip_data": {
+        "fm_writes": 432,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

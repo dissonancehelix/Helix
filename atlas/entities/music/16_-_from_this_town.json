@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_from_this_town",
+    "track_name": "16 - From This Town",
+    "album": "Xak III: The Eternal Recurrence",
+    "composer": "Yukiharu Urita",
+    "year": "1993-04-23",
+    "track_order": "16/25",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

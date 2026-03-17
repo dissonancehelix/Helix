@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_under_the_cloud_of_darkness",
+    "track_name": "16 - Under the Cloud of Darkness",
+    "album": "Metal Gear 2: Solid Snake",
+    "composer": "Masahiro Ikariko",
+    "year": "1990-07-20",
+    "track_order": "16/36",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

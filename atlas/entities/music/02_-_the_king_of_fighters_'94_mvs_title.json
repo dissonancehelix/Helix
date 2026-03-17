@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_the_king_of_fighters_'94_mvs_title",
+    "track_name": "02 - The King of Fighters '94 (MVS Title)",
+    "album": "The King of Fighters '94",
+    "composer": "Masahiko Hataya",
+    "year": "1994-08-25",
+    "track_order": "2/14$",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

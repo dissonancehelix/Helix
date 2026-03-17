@@ -1,0 +1,41 @@
+{
+  "doc_id": "SN76489_Application_Manual",
+  "signal_flow": [
+    {
+      "source": "Oscillator 1",
+      "targets": ["Attenuator 1", "Noise Clock Input (Optional)"],
+      "type": "audio"
+    },
+    {
+      "source": "Noise Generator",
+      "targets": ["Attenuator 4"],
+      "type": "audio"
+    },
+    {
+      "source": "Summing Amp",
+      "targets": ["Audio Out"],
+      "type": "mix"
+    }
+  ],
+  "control_graph": {
+    "nodes": [
+      {
+        "id": "Square 1-3",
+        "type": "TONE OSC",
+        "description": "Square wave with 10-bit frequency."
+      },
+      {
+        "id": "Noise Unit",
+        "type": "SOURCE NOISE",
+        "description": "White/Periodic noise."
+      }
+    ],
+    "edges": [
+      {
+        "from": "Square 3",
+        "to": "Noise Unit",
+        "type": "clock_source"
+      }
+    ]
+  }
+}

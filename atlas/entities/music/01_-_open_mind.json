@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_open_mind",
+    "track_name": "01 - Open Mind",
+    "album": "Battle Mania Daiginjou",
+    "composer": "Shigenori Masuko",
+    "year": "1993/12/24",
+    "track_order": "1/27",
+    "chip_data": {
+        "fm_writes": 10828,
+        "complexity": 0.222
+    },
+    "_type": "music:track"
+}

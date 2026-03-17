@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_stage_6",
+    "track_name": "09 - Stage 6",
+    "album": "Dragon Blaze",
+    "composer": "Masaki Izutani",
+    "year": "2000",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 82,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

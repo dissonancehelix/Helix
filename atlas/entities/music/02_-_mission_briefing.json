@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_mission_briefing",
+    "track_name": "02 - Mission Briefing",
+    "album": "Snake's Revenge",
+    "composer": "Tsutomu Ogura",
+    "year": "1990-04",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 45,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

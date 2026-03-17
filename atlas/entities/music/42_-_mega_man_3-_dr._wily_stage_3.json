@@ -1,0 +1,13 @@
+{
+    "entity_id": "42_-_mega_man_3-_dr._wily_stage_3",
+    "track_name": "42 - Mega Man 3- Dr. Wily Stage 3",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "42/55",
+    "chip_data": {
+        "fm_writes": 34983,
+        "complexity": 0.98
+    },
+    "_type": "music:track"
+}

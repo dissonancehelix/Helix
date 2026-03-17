@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_a_story_forever",
+    "track_name": "28 - A Story Forever",
+    "album": "Langrisser II",
+    "composer": "Noriyuki Iwadare",
+    "year": "1994-08-26",
+    "track_order": "28/29",
+    "chip_data": {
+        "fm_writes": 110454,
+        "complexity": 0.7090000000000001
+    },
+    "_type": "music:track"
+}

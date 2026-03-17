@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_dungeon_master",
+    "track_name": "07 - Dungeon Master",
+    "album": "The King of Dragons",
+    "composer": "Yoko Shimomura",
+    "year": "1991-09",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

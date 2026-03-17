@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_back_to_the_fire",
+    "track_name": "02 - Back to the Fire",
+    "album": "Thunder Force III",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1990/06/08",
+    "track_order": "2/18",
+    "chip_data": {
+        "fm_writes": 37192,
+        "complexity": 0.683
+    },
+    "_type": "music:track"
+}

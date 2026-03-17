@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_a_song_for_the_man_of_the_future",
+    "track_name": "12 - A Song for the Man of the Future",
+    "album": "Ehrgeiz",
+    "composer": "Takayuki Nakamura",
+    "year": "1998-03",
+    "track_order": "12/23 ",
+    "chip_data": {
+        "fm_writes": 11,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

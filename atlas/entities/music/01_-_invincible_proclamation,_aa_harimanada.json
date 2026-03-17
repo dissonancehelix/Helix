@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_invincible_proclamation,_aa_harimanada",
+    "track_name": "01 - Invincible Proclamation, Aa Harimanada",
+    "album": "Aa Harimanada",
+    "composer": "Morihiko Akiyama",
+    "year": "1993/09/03",
+    "track_order": "1/22&",
+    "chip_data": {
+        "fm_writes": 29720,
+        "complexity": 0.915
+    },
+    "_type": "music:track"
+}

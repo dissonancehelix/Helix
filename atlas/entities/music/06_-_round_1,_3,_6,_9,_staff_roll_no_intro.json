@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_round_1,_3,_6,_9,_staff_roll_no_intro",
+    "track_name": "06 - Round 1, 3, 6, 9, Staff Roll (No Intro)",
+    "album": "Kageki",
+    "composer": "Tatsuya Watanabe",
+    "year": "1988-03",
+    "track_order": "6/10'",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

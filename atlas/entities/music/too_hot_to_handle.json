@@ -1,0 +1,13 @@
+{
+    "entity_id": "too_hot_to_handle",
+    "track_name": "Too Hot to Handle",
+    "album": "Catacomb 3-D",
+    "composer": "Bobby Prince",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_smash",
+    "track_name": "04 - Smash",
+    "album": "Slam City with Scottie Pippen",
+    "composer": "John Baker",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 77511,
+        "complexity": 0.596
+    },
+    "_type": "music:track"
+}

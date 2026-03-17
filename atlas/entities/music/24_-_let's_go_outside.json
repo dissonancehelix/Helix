@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_let's_go_outside",
+    "track_name": "24 - Let's Go Outside",
+    "album": "World Heroes 2",
+    "composer": "Yuka Watanabe",
+    "year": "1993-04-26",
+    "track_order": "24/41",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

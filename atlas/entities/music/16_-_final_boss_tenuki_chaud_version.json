@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_final_boss_tenuki_chaud_version",
+    "track_name": "16 - Final Boss (Tenuki Chaud Version)",
+    "album": "Aero Fighters 2",
+    "composer": "Soshi Hosoi",
+    "year": "1994-07",
+    "track_order": "16/17!",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

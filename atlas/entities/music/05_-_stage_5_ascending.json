@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stage_5_ascending",
+    "track_name": "05 - Stage 5 Ascending",
+    "album": "Hachoo!",
+    "composer": "Kiyoshi Yokoyama",
+    "year": "1989-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

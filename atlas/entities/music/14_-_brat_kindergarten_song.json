@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_brat_kindergarten_song",
+    "track_name": "14 - Brat Kindergarten Song",
+    "album": "Power Instinct 2",
+    "composer": "Toshikazu Tanaka",
+    "year": "1994-10",
+    "track_order": "14/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_e_war_1",
+    "track_name": "02 - E War 1",
+    "album": "Kishi Densetsu",
+    "composer": "Noriyuki Iwadare",
+    "year": "1993/07/30",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 49781,
+        "complexity": 0.9500000000000001
+    },
+    "_type": "music:track"
+}

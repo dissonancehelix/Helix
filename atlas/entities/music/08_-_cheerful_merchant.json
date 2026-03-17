@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_cheerful_merchant",
+    "track_name": "08 - Cheerful Merchant",
+    "album": "Shining in the Darkness",
+    "composer": "Masahiko Yoshimura",
+    "year": "1991/03/29",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 48996,
+        "complexity": 0.7
+    },
+    "_type": "music:track"
+}

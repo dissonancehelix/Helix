@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_dopey",
+    "track_name": "08 - Dopey",
+    "album": "Commander Keen in Goodbye, Galaxy! Episode IV: Secret of the Oracle",
+    "composer": "Bobby PrinceC",
+    "year": "1991-12-15",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 14,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

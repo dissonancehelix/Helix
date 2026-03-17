@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_battle_with_hastur",
+    "track_name": "16 - Battle with Hastur",
+    "album": "El Viento",
+    "composer": "Motoi Sakuraba",
+    "year": "1991",
+    "track_order": "16/18",
+    "chip_data": {
+        "fm_writes": 31701,
+        "complexity": 0.645
+    },
+    "_type": "music:track"
+}

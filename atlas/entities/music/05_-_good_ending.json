@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_good_ending",
+    "track_name": "05 - Good Ending",
+    "album": "King Kong 2: Yomigaeru Densetsu",
+    "composer": "Motoaki Furukawa",
+    "year": "1986",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

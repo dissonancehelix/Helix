@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_town_1",
+    "track_name": "04 - Town 1",
+    "album": "War-torn Versnag",
+    "composer": "Masasuke Kusanagi",
+    "year": "1993-04-28",
+    "track_order": "4/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_good_ending_gamof",
+    "track_name": "19 - Good Ending Gamof",
+    "album": "Star Gladiator Episode I: Final Crusade",
+    "composer": "Isao Abe",
+    "year": "1996-07-16",
+    "track_order": "19/30",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

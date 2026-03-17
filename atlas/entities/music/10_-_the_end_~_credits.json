@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_the_end_~_credits",
+    "track_name": "10 - The End ~ Credits",
+    "album": "The Smurfs",
+    "composer": "Alberto Jose Gonz",
+    "year": "1994",
+    "track_order": "10/11",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

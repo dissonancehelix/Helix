@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_area_4",
+    "track_name": "08 - Area 4",
+    "album": "Mutation Nation",
+    "composer": "Masahiko Hataya",
+    "year": "1992-04-17",
+    "track_order": "8/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

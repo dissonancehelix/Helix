@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_intro,_dungeon_5",
+    "track_name": "15 - Intro, Dungeon 5",
+    "album": "Light Crusader",
+    "composer": "Aki Hata",
+    "year": "1995",
+    "track_order": "15/28",
+    "chip_data": {
+        "fm_writes": 26675,
+        "complexity": 0.414
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_little_neo_fight",
+    "track_name": "05 - Little Neo Fight",
+    "album": "Dark Lord",
+    "composer": "Shogo Sakai",
+    "year": "1991-02-08",
+    "track_order": "5/23",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

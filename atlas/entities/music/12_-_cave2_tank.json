@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_cave2_tank",
+    "track_name": "12 - Cave2 Tank",
+    "album": "Vectorman 2",
+    "composer": "Jon Holland",
+    "year": "1996/08/04",
+    "track_order": "12/19",
+    "chip_data": {
+        "fm_writes": 66002,
+        "complexity": 0.622
+    },
+    "_type": "music:track"
+}

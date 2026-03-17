@@ -1,0 +1,13 @@
+{
+    "entity_id": "64_-_mystic_woods",
+    "track_name": "64 - Mystic Woods",
+    "album": "Grounseed",
+    "composer": "Daisuke Takahashi",
+    "year": "1996-06-07",
+    "track_order": "64/76",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

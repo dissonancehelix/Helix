@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_thunder_blade",
+    "track_name": "02 - Thunder Blade",
+    "album": "Super Thunder Blade",
+    "composer": "Sachio Ogawa",
+    "year": "1988-10-29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 58580,
+        "complexity": 0.988
+    },
+    "_type": "music:track"
+}

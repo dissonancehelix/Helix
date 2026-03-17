@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_karasu_ending",
+    "track_name": "18 - Karasu Ending",
+    "album": "Ninja Master's",
+    "composer": "Yuka Watanabe",
+    "year": "1996-06-28",
+    "track_order": "18/26",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

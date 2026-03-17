@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_trap_boogie",
+    "track_name": "10 - Trap Boogie",
+    "album": "Shinobi III: Return of the Ninja Master",
+    "composer": "Morihiko Akiyama / Hirofumi Murasaki",
+    "year": "1993-07-23",
+    "track_order": "10/19",
+    "chip_data": {
+        "fm_writes": 6534,
+        "complexity": 0.125
+    },
+    "_type": "music:track"
+}

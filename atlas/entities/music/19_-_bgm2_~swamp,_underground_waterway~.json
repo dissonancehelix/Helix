@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_bgm2_~swamp,_underground_waterway~",
+    "track_name": "19 - BGM2 ~Swamp, Underground Waterway~",
+    "album": "Dungeons & Dragons: Tower of Doom",
+    "composer": "Isao Abe",
+    "year": "1993",
+    "track_order": "19/31\"",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

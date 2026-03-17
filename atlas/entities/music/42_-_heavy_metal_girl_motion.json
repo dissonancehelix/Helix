@@ -1,0 +1,13 @@
+{
+    "entity_id": "42_-_heavy_metal_girl_motion",
+    "track_name": "42 - Heavy Metal Girl Motion",
+    "album": "Dancing Eyes",
+    "composer": "Minamo Takahashi",
+    "year": "1996-09",
+    "track_order": "42/55",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_title_screen,_boss_defeated",
+    "track_name": "01 - Title Screen, Boss Defeated",
+    "album": "Light Crusader",
+    "composer": "Aki Hata",
+    "year": "1995",
+    "track_order": "1/28",
+    "chip_data": {
+        "fm_writes": 23032,
+        "complexity": 0.509
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "56_-_ai_wa_kirameki_no_naka_ni_~ending_version~",
+    "track_name": "56 - Ai wa kirameki no naka ni ~Ending Version~",
+    "album": "The Legend of Heroes III: Moonlight Witch",
+    "composer": "Masaru Nakajima)",
+    "year": "1994-03-18",
+    "track_order": "56/61*",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

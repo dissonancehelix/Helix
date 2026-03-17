@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_halo_in_asia",
+    "track_name": "08 - Halo in Asia",
+    "album": "World Heroes Perfect",
+    "composer": "Hideki Yamamoto",
+    "year": "1995-05-25",
+    "track_order": "8/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

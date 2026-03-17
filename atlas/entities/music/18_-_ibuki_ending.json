@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_ibuki_ending",
+    "track_name": "18 - Ibuki Ending",
+    "album": "Super Gem Fighter: Mini Mix",
+    "composer": "Yuki Iwai",
+    "year": "1997-09-04",
+    "track_order": "18/22",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

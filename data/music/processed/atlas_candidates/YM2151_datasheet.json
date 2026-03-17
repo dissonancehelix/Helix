@@ -1,0 +1,16 @@
+{
+  "id": "music.manual:YM2151_datasheet",
+  "type": "KnowledgeSource",
+  "extracted_entities": [
+    {
+      "id": "music.sound_chip:ym2151_datasheet",
+      "type": "SoundChip"
+    }
+  ],
+  "invariant_candidates": [
+    {
+      "id": "music.invariant:ym2151_datasheet_law",
+      "description": "Extracted from YM2151_datasheet.pdf"
+    }
+  ]
+}

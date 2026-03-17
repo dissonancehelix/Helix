@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_burning_fighter",
+    "track_name": "04 - Burning Fighter",
+    "album": "Surprise Attack",
+    "composer": "Hidenori Maezawa",
+    "year": "1990",
+    "track_order": "4/14",
+    "chip_data": {
+        "fm_writes": 51,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_circus_act_5",
+    "track_name": "07 - Circus Act 5",
+    "album": "Aero the Acro-Bat",
+    "composer": "Rick Fox",
+    "year": "1993",
+    "track_order": "7/23",
+    "chip_data": {
+        "fm_writes": 61092,
+        "complexity": 0.477
+    },
+    "_type": "music:track"
+}

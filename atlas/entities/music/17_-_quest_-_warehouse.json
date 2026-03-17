@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_quest_-_warehouse",
+    "track_name": "17 - Quest - Warehouse",
+    "album": "Final Lap Twin",
+    "composer": "Katsuhiro Hayashi",
+    "year": "1989-07-07",
+    "track_order": "17/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

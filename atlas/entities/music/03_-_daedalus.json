@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_daedalus",
+    "track_name": "03 - Daedalus",
+    "album": "Digital Devil Story: Megami Tensei",
+    "composer": "Tsukasa Masuko\"",
+    "year": "1987-09-11",
+    "track_order": "3/15",
+    "chip_data": {
+        "fm_writes": 140,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

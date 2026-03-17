@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_fortress",
+    "track_name": "10 - Fortress",
+    "album": "Beyond Oasis",
+    "composer": "Yuzo Koshiro",
+    "year": "1994",
+    "track_order": "10/30",
+    "chip_data": {
+        "fm_writes": 72780,
+        "complexity": 0.081
+    },
+    "_type": "music:track"
+}

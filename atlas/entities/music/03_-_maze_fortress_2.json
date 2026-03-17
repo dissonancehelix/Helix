@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_maze_fortress_2",
+    "track_name": "03 - Maze Fortress 2",
+    "album": "Operation C",
+    "composer": "Hidehiro Funauchi",
+    "year": "1991-01-08",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

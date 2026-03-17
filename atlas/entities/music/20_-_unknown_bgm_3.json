@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_unknown_bgm_3",
+    "track_name": "20 - Unknown BGM 3",
+    "album": "Lethal Crash Race",
+    "composer": "Soshi Hosoi",
+    "year": "1993-09",
+    "track_order": "20/24",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

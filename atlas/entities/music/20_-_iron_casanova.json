@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_iron_casanova",
+    "track_name": "20 - Iron Casanova",
+    "album": "Battle Mania Daiginjou",
+    "composer": "Fumito Tamayama",
+    "year": "1993/12/24",
+    "track_order": "20/27",
+    "chip_data": {
+        "fm_writes": 30469,
+        "complexity": 0.308
+    },
+    "_type": "music:track"
+}

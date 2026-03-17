@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_boobie-woogie",
+    "track_name": "01 - Boobie-Woogie",
+    "album": "Cratermaze",
+    "composer": "Kenji Yoshida",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 156,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

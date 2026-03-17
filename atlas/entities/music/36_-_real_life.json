@@ -1,0 +1,13 @@
+{
+    "entity_id": "36_-_real_life",
+    "track_name": "36 - Real Life",
+    "album": "Grounseed",
+    "composer": "Ryu Takami",
+    "year": "1996-06-07",
+    "track_order": "36/76",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

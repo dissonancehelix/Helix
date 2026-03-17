@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_town_of_deese",
+    "track_name": "03 - Town of Deese",
+    "album": "Knights of Xentar",
+    "composer": "Bananapple",
+    "year": "1994-05-12",
+    "track_order": "3/38",
+    "chip_data": {
+        "fm_writes": 87,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

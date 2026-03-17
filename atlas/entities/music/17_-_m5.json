@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_m5",
+    "track_name": "17 - M5",
+    "album": "FOXY 2",
+    "composer": "Manabu Kunieda",
+    "year": "1991-04-25",
+    "track_order": "17/28",
+    "chip_data": {
+        "fm_writes": 47,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

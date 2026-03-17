@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_fox-day_-_ultra_gay_edit",
+    "track_name": "10 - FOX-day - Ultra Gay Edit",
+    "album": "X-Day 2",
+    "composer": "LindaAI-CUE",
+    "year": "1995",
+    "track_order": "10/12",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_trixie's_shot",
+    "track_name": "03 - Trixie's Shot",
+    "album": "Barker Bill's Trick Shooting",
+    "composer": "Hip Tanaka",
+    "year": "1990-08",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

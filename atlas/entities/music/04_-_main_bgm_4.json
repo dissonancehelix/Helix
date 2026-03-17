@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_main_bgm_4",
+    "track_name": "04 - Main BGM 4",
+    "album": "Dynamic Country Club",
+    "composer": "Minoru Aoki",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

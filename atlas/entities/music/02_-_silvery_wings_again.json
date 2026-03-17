@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_silvery_wings_again",
+    "track_name": "02 - Silvery Wings Again",
+    "album": "Salamander 2",
+    "composer": "Naoki Maeda",
+    "year": "1996-01",
+    "track_order": "2/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

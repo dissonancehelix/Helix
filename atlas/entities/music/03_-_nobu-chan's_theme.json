@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_nobu-chan's_theme",
+    "track_name": "03 - Nobu-chan's Theme",
+    "album": "Strawberry Daisenryaku NOVU",
+    "composer": "Masami Yitsuse",
+    "year": "1990-10",
+    "track_order": "3/16",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

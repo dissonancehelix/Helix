@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_finale_part_1",
+    "track_name": "09 - Finale Part 1",
+    "album": "Eye of the Beholder II: The Legend of Darkmoon",
+    "composer": "Frank Klepacki.",
+    "year": "1991",
+    "track_order": "9/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

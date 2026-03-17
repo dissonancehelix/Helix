@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_the_crypt_elevator",
+    "track_name": "08 - The Crypt Elevator",
+    "album": "The Simpsons",
+    "composer": "Norio Hanzawa",
+    "year": "1991-04",
+    "track_order": "8/25",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

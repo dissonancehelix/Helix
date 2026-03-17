@@ -1,0 +1,9 @@
+{
+    "entity_id": "58_-_unused",
+    "track_name": "58 - Unused",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.63,
+    "rationale": "High YM2612 algorithm complexity (0.63) matches Maeda signature.",
+    "_type": "music:track"
+}

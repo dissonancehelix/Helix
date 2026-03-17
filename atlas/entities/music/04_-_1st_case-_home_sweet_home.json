@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_1st_case-_home_sweet_home",
+    "track_name": "04 - 1st Case- Home Sweet Home",
+    "album": "Ghostbusters",
+    "composer": "Kazuhiko Nagai",
+    "year": "1990/06/30",
+    "track_order": "4/16",
+    "chip_data": {
+        "fm_writes": 101314,
+        "complexity": 0.71
+    },
+    "_type": "music:track"
+}

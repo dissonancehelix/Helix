@@ -1,0 +1,13 @@
+{
+    "entity_id": "40_-_diary_iii",
+    "track_name": "40 - Diary III",
+    "album": "EVE Burst Error",
+    "composer": "Ryu Umemoto",
+    "year": "1995-11-22",
+    "track_order": "40/45",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

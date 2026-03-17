@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_the_puzzle_is_puzzle-dama",
+    "track_name": "06 - The Puzzle is Puzzle-dama",
+    "album": "Crazy Cross",
+    "composer": "Mayuko Kageshita",
+    "year": "1994-07",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_head_for_cap.",
+    "track_name": "09 - Head for Cap.",
+    "album": "Tokyo Wars",
+    "composer": "LindaAI-CUE",
+    "year": "1996-09",
+    "track_order": "9/19",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

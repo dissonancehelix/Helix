@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_idaho",
+    "track_name": "02 - Idaho",
+    "album": "Chase H.Q.",
+    "composer": "Takami Asano",
+    "year": "1988-11",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

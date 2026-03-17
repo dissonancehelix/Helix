@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_funk_for_avengers",
+    "track_name": "09 - Funk For Avengers",
+    "album": "Avengers in Galactic Storm",
+    "composer": "Takuto Kitsuta",
+    "year": "1995",
+    "track_order": "9/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

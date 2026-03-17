@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_temple,_at_the_gates...",
+    "track_name": "11 - Temple, at the Gates...",
+    "album": "Comix Zone",
+    "composer": "Howard Drossin",
+    "year": "1995",
+    "track_order": "11/28",
+    "chip_data": {
+        "fm_writes": 729813,
+        "complexity": 0.331
+    },
+    "_type": "music:track"
+}

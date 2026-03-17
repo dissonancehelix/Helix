@@ -1,0 +1,13 @@
+{
+    "entity_id": "33_-_mu6_110_unused_2",
+    "track_name": "33 - MU6_110 (Unused 2)",
+    "album": "Metajo",
+    "composer": "Yoji Takahashi",
+    "year": "1996-03-15",
+    "track_order": "33/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

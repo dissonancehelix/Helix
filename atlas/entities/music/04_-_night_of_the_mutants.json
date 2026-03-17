@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_night_of_the_mutants",
+    "track_name": "04 - Night of the Mutants",
+    "album": "Comix Zone",
+    "composer": "Howard Drossin",
+    "year": "1995",
+    "track_order": "4/28",
+    "chip_data": {
+        "fm_writes": 976320,
+        "complexity": 0.378
+    },
+    "_type": "music:track"
+}

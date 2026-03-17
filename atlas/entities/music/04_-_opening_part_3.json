@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_opening_part_3",
+    "track_name": "04 - Opening (Part 3)",
+    "album": "Desert Strike: Return to the Gulf",
+    "composer": "Rob Hubbard!",
+    "year": "1993",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 22235,
+        "complexity": 0.266
+    },
+    "_type": "music:track"
+}

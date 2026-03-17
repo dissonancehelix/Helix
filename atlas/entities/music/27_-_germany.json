@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_germany",
+    "track_name": "27 - Germany",
+    "album": "OutRunners",
+    "composer": "Takenobu Mitsuyoshi",
+    "year": "1993",
+    "track_order": "27/34",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

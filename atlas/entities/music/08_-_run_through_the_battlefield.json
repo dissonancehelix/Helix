@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_run_through_the_battlefield",
+    "track_name": "08 - Run Through the Battlefield",
+    "album": "Surprise Attack",
+    "composer": "Hidenori Maezawa",
+    "year": "1990",
+    "track_order": "8/14",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

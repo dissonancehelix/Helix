@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_scene_of_carnage",
+    "track_name": "14 - Scene of Carnage",
+    "album": "Columns III",
+    "composer": "Morihiko Akiyama",
+    "year": "1993/10/15",
+    "track_order": "14/14",
+    "chip_data": {
+        "fm_writes": 46456,
+        "complexity": 0.9660000000000001
+    },
+    "_type": "music:track"
+}

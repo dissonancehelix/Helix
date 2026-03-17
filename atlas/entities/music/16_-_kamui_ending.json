@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_kamui_ending",
+    "track_name": "16 - Kamui Ending",
+    "album": "Ninja Master's",
+    "composer": "Yuka Watanabe",
+    "year": "1996-06-28",
+    "track_order": "16/26",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

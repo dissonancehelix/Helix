@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_fanfare",
+    "track_name": "17 - Fanfare",
+    "album": "Run and Gun",
+    "composer": "Mariko Egawa",
+    "year": "1993",
+    "track_order": "17/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

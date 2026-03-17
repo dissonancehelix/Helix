@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_waiting_for_start",
+    "track_name": "01 - Waiting for Start",
+    "album": "Rapid Hero",
+    "composer": "Kazunori Hideya",
+    "year": "1994-07",
+    "track_order": "1/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

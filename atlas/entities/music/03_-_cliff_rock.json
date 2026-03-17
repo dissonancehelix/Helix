@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_cliff_rock",
+    "track_name": "03 - Cliff Rock",
+    "album": "Prop Cycle",
+    "composer": "Yoshie Arakawa",
+    "year": "1996-09",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

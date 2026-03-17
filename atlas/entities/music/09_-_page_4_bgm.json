@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_page_4_bgm",
+    "track_name": "09 - Page 4 BGM",
+    "album": "Kiteretsu Daihyakka",
+    "composer": "Izuho Numata",
+    "year": "1994",
+    "track_order": "9/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

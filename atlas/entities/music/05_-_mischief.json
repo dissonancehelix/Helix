@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_mischief",
+    "track_name": "05 - Mischief",
+    "album": "Pac-Man 2: The New Adventures",
+    "composer": "Fuken Tajimaa",
+    "year": "1994/04/06",
+    "track_order": "5/26",
+    "chip_data": {
+        "fm_writes": 308057,
+        "complexity": 0.7789999999999999
+    },
+    "_type": "music:track"
+}

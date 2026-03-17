@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_beach",
+    "track_name": "08 - Beach",
+    "album": "Wonder Boy in Monster Land",
+    "composer": "Shinichi Sakamoto",
+    "year": "1987-10-30",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

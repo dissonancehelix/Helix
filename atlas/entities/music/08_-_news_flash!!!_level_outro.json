@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_news_flash!!!_level_outro",
+    "track_name": "08 - News Flash!!! (Level Outro)",
+    "album": "Toxic Crusaders",
+    "composer": "Shinji Amagishi",
+    "year": "1992-04",
+    "track_order": "8/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

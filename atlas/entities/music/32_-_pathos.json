@@ -1,0 +1,13 @@
+{
+    "entity_id": "32_-_pathos",
+    "track_name": "32 - Pathos",
+    "album": "Emerald Dragon",
+    "composer": "Nobuhito Koise",
+    "year": "1989-12-12",
+    "track_order": "32/42",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

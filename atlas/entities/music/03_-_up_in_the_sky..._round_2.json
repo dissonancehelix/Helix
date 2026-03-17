@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_up_in_the_sky..._round_2",
+    "track_name": "03 - Up in the Sky... (Round 2)",
+    "album": "Mega Twins",
+    "composer": "Hiromitsu Takaoka",
+    "year": "1990-06-19",
+    "track_order": "3/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

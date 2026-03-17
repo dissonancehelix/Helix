@@ -1,0 +1,13 @@
+{
+    "entity_id": "41_-_fairy",
+    "track_name": "41 - Fairy",
+    "album": "Dragon Knight II",
+    "composer": "Manabu Kunieda",
+    "year": "1990-12-20",
+    "track_order": "41/54",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

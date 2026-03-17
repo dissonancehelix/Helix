@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_area_1-_shinjuku",
+    "track_name": "04 - Area 1- Shinjuku",
+    "album": "Prajator: Image Ranger",
+    "composer": "Yoshinari Miya",
+    "year": "1989-12",
+    "track_order": "4/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

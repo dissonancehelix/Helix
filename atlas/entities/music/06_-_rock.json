@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_rock",
+    "track_name": "06 - Rock",
+    "album": "Undead Line",
+    "composer": "Kazunori Hasegawa",
+    "year": "1991/12/20",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 27496,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

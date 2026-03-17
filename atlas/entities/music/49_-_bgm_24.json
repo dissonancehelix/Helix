@@ -1,0 +1,13 @@
+{
+    "entity_id": "49_-_bgm_24",
+    "track_name": "49 - BGM 24",
+    "album": "Shooting Tsukuru 98",
+    "composer": "Mitsuhiro Arisaka",
+    "year": "1994-09-09",
+    "track_order": "49/50",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

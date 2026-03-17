@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_gate",
+    "track_name": "02 - Gate",
+    "album": "Ikari Warriors",
+    "composer": "Mr. O",
+    "year": "1986-03",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_legendary_wings_bgm1",
+    "track_name": "19 - Legendary Wings Bgm1",
+    "album": "Revolter",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1988-07-13",
+    "track_order": "19/22",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

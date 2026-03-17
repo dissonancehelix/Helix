@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_main_bgm",
+    "track_name": "01 - Main BGM",
+    "album": "Bubble Ghost",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

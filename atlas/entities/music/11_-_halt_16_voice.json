@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_halt_16_voice",
+    "track_name": "11 - Halt 16 Voice",
+    "album": "Pulseman",
+    "composer": "Junichi Masuda",
+    "year": "1994",
+    "track_order": "11/33",
+    "chip_data": {
+        "fm_writes": 4505,
+        "complexity": 0.428
+    },
+    "_type": "music:track"
+}

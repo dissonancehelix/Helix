@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_arm",
+    "track_name": "18 Arm",
+    "album": "Power Slave",
+    "composer": "Naoto Ishikawa",
+    "year": "1995-10-27",
+    "track_order": "17/57",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

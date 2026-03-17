@@ -1,0 +1,13 @@
+{
+    "entity_id": "34_-_king_of_chaos",
+    "track_name": "34 - King of Chaos",
+    "album": "Riviera: The Promised Land",
+    "composer": "Minako Adachi",
+    "year": "2002-07-12",
+    "track_order": "34/34",
+    "chip_data": {
+        "fm_writes": 64,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

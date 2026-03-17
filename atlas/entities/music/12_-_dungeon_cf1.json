@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_dungeon_cf1",
+    "track_name": "12 - Dungeon (CF1)",
+    "album": "Cosmic Fantasy Stories",
+    "composer": "Hisao Inoue",
+    "year": "1992-03-27",
+    "track_order": "12/21",
+    "chip_data": {
+        "fm_writes": 3381,
+        "complexity": 0.583
+    },
+    "_type": "music:track"
+}

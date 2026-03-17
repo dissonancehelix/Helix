@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_stage_1-1_desert",
+    "track_name": "03 - Stage 1-1 (Desert)",
+    "album": "Ranger-X",
+    "composer": "Yoshinobu Hiraiwa",
+    "year": "1993/05/28",
+    "track_order": "3/21",
+    "chip_data": {
+        "fm_writes": 43395,
+        "complexity": 0.342
+    },
+    "_type": "music:track"
+}

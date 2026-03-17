@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_scene_select",
+    "track_name": "01 - Scene Select",
+    "album": "Galaxy Force II",
+    "composer": "Koichi Namiki",
+    "year": "1988",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 120,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

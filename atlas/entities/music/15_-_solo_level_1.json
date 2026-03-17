@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_solo_level_1",
+    "track_name": "15 - Solo Level 1",
+    "album": "Gyakuten!! Puzzle Bancho",
+    "composer": "Akihiro Nishida ",
+    "year": "1996",
+    "track_order": "15/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_cargo_ship_flooding",
+    "track_name": "05 - Cargo Ship (Flooding)",
+    "album": "Jurassic Park: Rampage Edition",
+    "composer": "Sam Powell",
+    "year": "1994-10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 496,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

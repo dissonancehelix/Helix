@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_diamond_maze",
+    "track_name": "10 - Diamond Maze",
+    "album": "Sonic the Hedgehog's GameWorld",
+    "composer": "Kojiro Mikusa",
+    "year": "1994-08",
+    "track_order": "10/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

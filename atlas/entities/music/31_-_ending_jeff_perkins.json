@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_ending_jeff_perkins",
+    "track_name": "31 - Ending Jeff Perkins",
+    "album": "Armored Warriors",
+    "composer": "Takayuki Iwai",
+    "year": "1994-10",
+    "track_order": "31/34",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

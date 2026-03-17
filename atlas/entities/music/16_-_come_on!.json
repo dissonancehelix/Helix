@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_come_on!",
+    "track_name": "16 - Come On!",
+    "album": "Fatal Fury 3",
+    "composer": "Yoshihiko Kitamura",
+    "year": "1995",
+    "track_order": "16/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

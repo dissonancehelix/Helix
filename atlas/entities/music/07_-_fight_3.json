@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_fight_3",
+    "track_name": "07 - Fight 3",
+    "album": "Monster Pro Wrestling",
+    "composer": "Kanta Watanabe",
+    "year": "1991-11-22",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

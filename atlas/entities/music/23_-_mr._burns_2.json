@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_mr._burns_2",
+    "track_name": "23 - Mr. Burns 2",
+    "album": "The Simpsons",
+    "composer": "Norio Hanzawa",
+    "year": "1991-04",
+    "track_order": "23/25",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

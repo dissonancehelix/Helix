@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_cylic's_stage_fully_armored",
+    "track_name": "04 - Cylic's Stage (Fully Armored)",
+    "album": "Cosmic Carnage",
+    "composer": "Hikoshi Hashimoto",
+    "year": "1995/01/27",
+    "track_order": "4/16",
+    "chip_data": {
+        "fm_writes": 27888,
+        "complexity": 0.762
+    },
+    "_type": "music:track"
+}

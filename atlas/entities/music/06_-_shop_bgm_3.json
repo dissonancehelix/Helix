@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_shop_bgm_3",
+    "track_name": "06 - Shop BGM 3",
+    "album": "Grandi Florum: Mischief of Iveris",
+    "composer": "Koji Niikura",
+    "year": "1990-03",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 11,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

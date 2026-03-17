@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_escape_from_tinkerbat_factory",
+    "track_name": "26 - Escape from Tinkerbat Factory",
+    "album": "Shantae",
+    "composer": "Jake Kaufman",
+    "year": "2002-06-02",
+    "track_order": "26/27",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

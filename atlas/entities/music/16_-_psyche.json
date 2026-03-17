@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_psyche",
+    "track_name": "16 - Psyche",
+    "album": "Angelus: Akuma no Fukuin",
+    "composer": "Koichi Sugiyama",
+    "year": "1988-07",
+    "track_order": "16/22",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

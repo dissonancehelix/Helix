@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_just_another_day",
+    "track_name": "30 - Just Another Day",
+    "album": "Knuckles' Chaotix",
+    "composer": "Junko Shiratsu",
+    "year": "1995-04-21",
+    "track_order": "30/30",
+    "chip_data": {
+        "fm_writes": 107,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

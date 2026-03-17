@@ -12,7 +12,7 @@ Render with:
 from __future__ import annotations
 
 from pathlib import Path
-from core.graph.atlas_graph import AtlasGraph
+from core.kernel.graph.storage.atlas_graph import AtlasGraph
 
 ATLAS_DIR    = Path(__file__).parent.parent.parent / "atlas"
 DOT_OUTPUT   = ATLAS_DIR / "atlas_graph.dot"

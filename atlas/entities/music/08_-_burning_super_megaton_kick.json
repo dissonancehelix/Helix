@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_burning_super_megaton_kick",
+    "track_name": "08 - Burning Super Megaton Kick",
+    "album": "3 Count Bout",
+    "composer": "Masahiko Hataya",
+    "year": "1993",
+    "track_order": "8/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_rampish_chase",
+    "track_name": "02 - Rampish Chase",
+    "album": "Magical Chase",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1991-11-15",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 51,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

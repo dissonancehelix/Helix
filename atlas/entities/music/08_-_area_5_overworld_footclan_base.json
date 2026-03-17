@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_area_5_overworld_footclan_base",
+    "track_name": "08 - Area 5 Overworld (FootClan Base)",
+    "album": "Teenage Mutant Ninja Turtles",
+    "composer": "Jun Funahashi",
+    "year": "1989-05-12",
+    "track_order": "8/10 ",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

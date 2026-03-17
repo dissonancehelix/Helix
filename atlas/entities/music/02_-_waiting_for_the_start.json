@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_waiting_for_the_start",
+    "track_name": "02 - Waiting for the Start",
+    "album": "Desert War",
+    "composer": "Manabu Namiki",
+    "year": "1995-09",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

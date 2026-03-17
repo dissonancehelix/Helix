@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_invader's_rest",
+    "track_name": "05 - Invader's Rest",
+    "album": "Space Bomber",
+    "composer": "Masaki Izutani",
+    "year": "1998",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 170,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

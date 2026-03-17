@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_next_stage",
+    "track_name": "04 - Next Stage",
+    "album": "Battletoads & Double Dragon",
+    "composer": "David Wise",
+    "year": "1993/02/19",
+    "track_order": "4/13",
+    "chip_data": {
+        "fm_writes": 8982,
+        "complexity": 0.431
+    },
+    "_type": "music:track"
+}

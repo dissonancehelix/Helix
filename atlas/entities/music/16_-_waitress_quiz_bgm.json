@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_waitress_quiz_bgm",
+    "track_name": "16 - Waitress Quiz BGM",
+    "album": "Quiz King of Fighters",
+    "composer": "Shinichi Yamazaki",
+    "year": "1995-02-25",
+    "track_order": "16/30",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

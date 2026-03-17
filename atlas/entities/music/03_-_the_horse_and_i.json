@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_the_horse_and_i",
+    "track_name": "03 - The Horse and I",
+    "album": "Art of Fighting 2",
+    "composer": "Yasumasa Yamada",
+    "year": "1994-02-03",
+    "track_order": "3/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_the_palace_in_the_sky",
+    "track_name": "07 - The Palace in the Sky",
+    "album": "Kid Icarus",
+    "composer": "Hip Tanaka",
+    "year": "1986-12-19",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

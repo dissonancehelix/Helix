@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_asuka",
+    "track_name": "03 - Asuka",
+    "album": "Viper-V10",
+    "composer": "Kenichi Arakawa",
+    "year": "1994-03-11",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 3928,
+        "complexity": 0.696
+    },
+    "_type": "music:track"
+}

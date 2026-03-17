@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_multiplayer_race_bgm",
+    "track_name": "04 - Multiplayer Race BGM",
+    "album": "F1 Exhaust Note",
+    "composer": "Takayuki Nakamura",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

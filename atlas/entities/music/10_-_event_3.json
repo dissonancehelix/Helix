@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_event_3",
+    "track_name": "10 - Event 3",
+    "album": "Tsunyan Jaayao",
+    "composer": "Takeshi Abo",
+    "year": "1994-04-08",
+    "track_order": "10/15",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

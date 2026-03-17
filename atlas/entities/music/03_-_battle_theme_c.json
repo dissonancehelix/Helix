@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_battle_theme_c",
+    "track_name": "03 - Battle Theme C",
+    "album": "Beast Wrestler",
+    "composer": "Shinobu Ogawa",
+    "year": "1991/11/29",
+    "track_order": "3/13",
+    "chip_data": {
+        "fm_writes": 96354,
+        "complexity": 0.978
+    },
+    "_type": "music:track"
+}

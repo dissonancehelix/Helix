@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_the_final_fight",
+    "track_name": "17 - The Final Fight",
+    "album": "Sonic 3D Blast",
+    "composer": "Masaru Setsumaru",
+    "year": "1996/11/06",
+    "track_order": "17/24",
+    "chip_data": {
+        "fm_writes": 12596,
+        "complexity": 0.909
+    },
+    "_type": "music:track"
+}

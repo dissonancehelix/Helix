@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_unused_bgm_3",
+    "track_name": "08 - Unused BGM 3",
+    "album": "Sky Soldiers",
+    "composer": "Yuka Watanabe",
+    "year": "1988-07",
+    "track_order": "8/10",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

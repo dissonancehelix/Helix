@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_puzzle_-_boss",
+    "track_name": "04 - Puzzle - Boss",
+    "album": "The Incredible Crash Dummies",
+    "composer": "Geoff Follin",
+    "year": "1994-08",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

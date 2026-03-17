@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_european_horde",
+    "track_name": "21 - European Horde",
+    "album": "Genghis Khan II: Clan of the Grey Wolf",
+    "composer": "Michiru Oshima&",
+    "year": "1993/03/25",
+    "track_order": "21/23",
+    "chip_data": {
+        "fm_writes": 13010,
+        "complexity": 0.313
+    },
+    "_type": "music:track"
+}

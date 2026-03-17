@@ -1,0 +1,13 @@
+{
+    "entity_id": "34_something_is_stirring_somewhere",
+    "track_name": "34 Something is Stirring Somewhere",
+    "album": "Power Slave",
+    "composer": "Naoto Ishikawa",
+    "year": "1995-10-27",
+    "track_order": "29/57",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

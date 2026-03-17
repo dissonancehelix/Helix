@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_bgm_3",
+    "track_name": "09 - BGM 3",
+    "album": "Doukyusei 2",
+    "composer": "Manabu Kunieda",
+    "year": "1995-01-31",
+    "track_order": "9/45",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

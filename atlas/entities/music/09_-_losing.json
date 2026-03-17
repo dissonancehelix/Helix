@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_losing",
+    "track_name": "09 - Losing",
+    "album": "Mahjong Fun Club: Idol Saizensen",
+    "composer": "Kenji Okuda",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

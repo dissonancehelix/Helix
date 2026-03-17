@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_operation_explanation,_new_york_stage",
+    "track_name": "01 - Operation Explanation, New York Stage",
+    "album": "Schmeiser Robo",
+    "composer": "Michiya Hirasawa",
+    "year": "1993",
+    "track_order": "1/11%",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

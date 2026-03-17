@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_quick_draw",
+    "track_name": "15 - Quick Draw",
+    "album": "Sunset Riders",
+    "composer": "Motoaki Furukawa",
+    "year": "1991-09-04",
+    "track_order": "15/17",
+    "chip_data": {
+        "fm_writes": 1590,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

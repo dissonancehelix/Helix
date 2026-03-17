@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:c352",
+  "name": "Sound Chip: C352",
+  "type": "SoundChip",
+  "libvgm_id": "0x27"
+}

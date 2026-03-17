@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_stage_hsien-ko",
+    "track_name": "03 - Stage Hsien-Ko",
+    "album": "Super Puzzle Fighter II Turbo",
+    "composer": "Takayuki Iwai",
+    "year": "1996-05-31",
+    "track_order": "3/14",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

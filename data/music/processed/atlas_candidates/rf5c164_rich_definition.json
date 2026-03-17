@@ -1,0 +1,17 @@
+{
+  "id": "music.sound_chip:rf5c164",
+  "type": "SoundChip",
+  "name": "Ricoh RF5C164",
+  "substrate": "music",
+  "properties": {
+    "channels": 8,
+    "resolution": "8-bit PCM",
+    "platforms": [
+      "Sega Mega-CD"
+    ]
+  },
+  "sources": [
+    "data/music/source/docs/MCDHardware_Manual_PCM_Sound_Source.pdf",
+    "https://segaretro.org/RF5C164"
+  ]
+}

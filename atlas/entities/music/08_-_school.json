@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_school",
+    "track_name": "08 - School",
+    "album": "Three Sisters' Story",
+    "composer": "Naofumi Nakaigawa",
+    "year": "1996-02-29",
+    "track_order": "8/20",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_awaiting_entry",
+    "track_name": "01 - Awaiting Entry",
+    "album": "Final Lap",
+    "composer": "Shinji Hosoe",
+    "year": "1987-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

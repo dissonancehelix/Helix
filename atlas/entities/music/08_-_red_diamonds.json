@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_red_diamonds",
+    "track_name": "08 - Red Diamonds",
+    "album": "Formation Soccer on J.League",
+    "composer": "Hironori Tanaka",
+    "year": "1994-01-15",
+    "track_order": "8/25",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

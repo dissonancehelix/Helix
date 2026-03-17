@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_classics",
+    "track_name": "09 - Classics",
+    "album": "Sega Channel",
+    "composer": "David Javelosa",
+    "year": "1994",
+    "track_order": "9/11",
+    "chip_data": {
+        "fm_writes": 3065,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

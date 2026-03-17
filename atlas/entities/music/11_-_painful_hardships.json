@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_painful_hardships",
+    "track_name": "11 - Painful Hardships",
+    "album": "Sengoku 3",
+    "composer": "Toshikazu Tanaka",
+    "year": "2001",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

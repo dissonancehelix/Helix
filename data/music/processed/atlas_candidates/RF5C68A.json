@@ -1,0 +1,16 @@
+{
+  "id": "music.manual:RF5C68A",
+  "type": "KnowledgeSource",
+  "extracted_entities": [
+    {
+      "id": "music.sound_chip:rf5c68a",
+      "type": "SoundChip"
+    }
+  ],
+  "invariant_candidates": [
+    {
+      "id": "music.invariant:rf5c68a_law",
+      "description": "Extracted from RF5C68A.pdf"
+    }
+  ]
+}

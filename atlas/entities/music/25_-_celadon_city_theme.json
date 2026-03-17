@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_celadon_city_theme",
+    "track_name": "25 - Celadon City Theme",
+    "album": "mon Red & Blue",
+    "composer": "Junichi Masuda",
+    "year": "1996-02-27",
+    "track_order": "25/35",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

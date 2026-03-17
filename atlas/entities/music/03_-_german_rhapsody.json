@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_german_rhapsody",
+    "track_name": "03 - German Rhapsody",
+    "album": "World Heroes 2 Jet",
+    "composer": "Hideki Yamamoto",
+    "year": "1994-04-26",
+    "track_order": "3/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

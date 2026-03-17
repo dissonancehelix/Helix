@@ -40,13 +40,13 @@ log = logging.getLogger(__name__)
 # Paths
 # ---------------------------------------------------------------------------
 
-_RUNTIME_DEPS = Path(__file__).parent.parent.parent.parent.parent / "runtime" / "deps"
-_BIN_DIR       = _RUNTIME_DEPS.parent / "bin"
+_TOOLKITS_DIR  = Path(__file__).parent.parent / "toolkits"
+_BIN_DIR       = _TOOLKITS_DIR / "bin"
 
-_VGM2TXT_SRC   = _RUNTIME_DEPS / "vgmtools" / "vgm2txt.c"
+_VGM2TXT_SRC   = _TOOLKITS_DIR / "vgmtools" / "vgm2txt.c"
 _VGM2TXT_BIN   = _BIN_DIR / "vgm2txt.exe"
 
-_GEMS2MID_SRC  = _RUNTIME_DEPS / "helix_sources" / "sound_drivers" / "MidiConverters" / "gems2mid.c"
+_GEMS2MID_SRC  = _TOOLKITS_DIR / "helix_sources" / "sound_drivers" / "MidiConverters" / "gems2mid.c"
 _GEMS2MID_BIN  = _BIN_DIR / "gems2mid.exe"
 
 # ---------------------------------------------------------------------------
@@ -112,9 +112,9 @@ def compile_tools(force: bool = False) -> dict[str, bool]:
 
     tools = [
         ("vgm2txt",  _VGM2TXT_SRC,  _VGM2TXT_BIN,
-         ["-I", str(_RUNTIME_DEPS / "vgmtools"), "-lz", "-lm"]),
+         ["-I", str(_TOOLKITS_DIR / "vgmtools"), "-lz", "-lm"]),
         ("gems2mid",  _GEMS2MID_SRC, _GEMS2MID_BIN,
-         ["-I", str(_RUNTIME_DEPS / "helix_sources" / "sound_drivers" / "MidiConverters")]),
+         ["-I", str(_TOOLKITS_DIR / "helix_sources" / "sound_drivers" / "MidiConverters")]),
     ]
 
     for name, src, out, extra_flags in tools:

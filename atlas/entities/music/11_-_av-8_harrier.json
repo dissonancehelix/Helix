@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_av-8_harrier",
+    "track_name": "11 - AV-8 Harrier",
+    "album": "Wing War",
+    "composer": "Tomoyuki Kawamura",
+    "year": "1994",
+    "track_order": "11/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

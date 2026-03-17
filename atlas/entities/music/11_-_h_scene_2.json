@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_h_scene_2",
+    "track_name": "11 - H Scene 2",
+    "album": "Rouge: Manatsu no Kuchibeni",
+    "composer": "Masahiro Kajihara",
+    "year": "1990-06-13",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

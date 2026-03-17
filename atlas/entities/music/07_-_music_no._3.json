@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_music_no._3",
+    "track_name": "07 - Music No. 3",
+    "album": "Devil's Course",
+    "composer": "Yumi Satake",
+    "year": "1994",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 50790,
+        "complexity": 0.508
+    },
+    "_type": "music:track"
+}

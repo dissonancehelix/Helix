@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_close_quarters",
+    "track_name": "17 - Close Quarters",
+    "album": "Nemesis 3: The Eve of Destruction",
+    "composer": "Kazuhiko Uehara",
+    "year": "1988",
+    "track_order": "17/22",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

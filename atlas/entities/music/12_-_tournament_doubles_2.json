@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_tournament_doubles_2",
+    "track_name": "12 - Tournament Doubles 2",
+    "album": "Mario's Tennis",
+    "composer": "Hitoshi Fukushima",
+    "year": "1995-07-21",
+    "track_order": "12/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

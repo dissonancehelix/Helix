@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_a_ray_of_hope",
+    "track_name": "15 - A Ray of Hope",
+    "album": "Kingdom Grandprix",
+    "composer": "Masaharu Iwata",
+    "year": "1994-09",
+    "track_order": "15/16",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

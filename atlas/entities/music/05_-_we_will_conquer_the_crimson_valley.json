@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_we_will_conquer_the_crimson_valley",
+    "track_name": "05 - We Will Conquer the Crimson Valley",
+    "album": "Master of Monsters",
+    "composer": "Hayato Matsuo",
+    "year": "1991/07/26",
+    "track_order": "5/9\"",
+    "chip_data": {
+        "fm_writes": 52359,
+        "complexity": 0.229
+    },
+    "_type": "music:track"
+}

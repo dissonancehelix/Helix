@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_mission_2,_5,_8",
+    "track_name": "03 - Mission 2, 5, 8",
+    "album": "Dynamite Duke",
+    "composer": "Akira Sato",
+    "year": "1989-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

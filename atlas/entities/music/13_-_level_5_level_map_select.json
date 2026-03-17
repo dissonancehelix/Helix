@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_level_5_level_map_select",
+    "track_name": "13 - Level 5 Level Map Select",
+    "album": "Kirby's Adventure",
+    "composer": "Hirokazu Ando",
+    "year": "1993-03-23",
+    "track_order": "13/23",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

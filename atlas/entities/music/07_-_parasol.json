@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_parasol",
+    "track_name": "07 - Parasol",
+    "album": "Lam-Mal",
+    "composer": "Hideaki Takeshita",
+    "year": "1992-09-04",
+    "track_order": "7/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -41,3 +41,27 @@ EIP is detachable without affecting Helix.
 Helix hosts EIP as a modular experiment.
 Helix does not endorse EIP.
 Helix enforces structure. EIP provides content.
+
+
+---
+
+## Architecture Guardrail
+
+**Helix Architecture Law**
+`HIL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler`
+
+* Operators orchestrate
+* Adapters translate
+* Toolkits execute
+* Artifacts store results
+* Atlas compiler creates entities
+
+**Prohibited Patterns**
+- `master_pipeline.py`
+- Direct toolkit calls from operators
+- Toolkits writing artifacts
+- Toolkits writing Atlas entities
+- Operators writing Atlas entities
+- Monolithic pipelines
+
+*All new modules must follow the template registry located in `runtime/templates/`.*

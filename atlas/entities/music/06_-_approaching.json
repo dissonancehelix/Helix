@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_approaching",
+    "track_name": "06 - Approaching",
+    "album": "Battle Mania Daiginjou",
+    "composer": "Shigenori Masuko",
+    "year": "1993/12/24",
+    "track_order": "6/27",
+    "chip_data": {
+        "fm_writes": 9555,
+        "complexity": 0.182
+    },
+    "_type": "music:track"
+}

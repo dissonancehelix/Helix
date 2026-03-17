@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_boss_of_hell",
+    "track_name": "17 - Boss of Hell",
+    "album": "Maten no Soumetsu",
+    "composer": "Noriyuki Iwadare",
+    "year": "1993/12/29",
+    "track_order": "17/18",
+    "chip_data": {
+        "fm_writes": 38325,
+        "complexity": 0.5489999999999999
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_race_information",
+    "track_name": "04 - Race Information",
+    "album": "F1 Grand Prix",
+    "composer": "Yusuke Takahama",
+    "year": "1991/12/20",
+    "track_order": "4/20",
+    "chip_data": {
+        "fm_writes": 5695,
+        "complexity": 0.465
+    },
+    "_type": "music:track"
+}

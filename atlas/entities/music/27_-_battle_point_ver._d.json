@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_battle_point_ver._d",
+    "track_name": "27 - Battle Point Ver. D",
+    "album": "Brandish 2: The Planet Buster",
+    "composer": "Hirofumi Matsuoka",
+    "year": "1993-03-12",
+    "track_order": "27/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

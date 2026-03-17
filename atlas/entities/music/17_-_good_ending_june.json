@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_good_ending_june",
+    "track_name": "17 - Good Ending June",
+    "album": "Star Gladiator Episode I: Final Crusade",
+    "composer": "Isao Abe",
+    "year": "1996-07-16",
+    "track_order": "17/30",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

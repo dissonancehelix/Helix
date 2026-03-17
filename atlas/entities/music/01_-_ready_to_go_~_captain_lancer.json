@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_ready_to_go_~_captain_lancer",
+    "track_name": "01 - Ready to Go ~ Captain Lancer",
+    "album": "Hellfire",
+    "composer": "Tatsuya Uemura",
+    "year": "1990/09/28",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6698,
+        "complexity": 0.308
+    },
+    "_type": "music:track"
+}

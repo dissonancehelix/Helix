@@ -1,0 +1,13 @@
+{
+    "entity_id": "37_i'm_not_a_kid",
+    "track_name": "37 I'm Not a Kid",
+    "album": "Power Slave",
+    "composer": "Naoto Ishikawa",
+    "year": "1995-10-27",
+    "track_order": "32/57",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

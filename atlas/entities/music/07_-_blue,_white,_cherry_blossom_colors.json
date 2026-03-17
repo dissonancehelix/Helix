@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_blue,_white,_cherry_blossom_colors",
+    "track_name": "07 - Blue, White, Cherry Blossom Colors",
+    "album": "Chakura: Challenger Club",
+    "composer": "Album",
+    "year": "1993-03-14",
+    "track_order": "7/12\"",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

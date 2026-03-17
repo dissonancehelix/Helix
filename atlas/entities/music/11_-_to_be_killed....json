@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_to_be_killed...",
+    "track_name": "11 - To be Killed...",
+    "album": "Viper-V16",
+    "composer": "Kenichi Arakawa",
+    "year": "1995-12-22",
+    "track_order": "11/28",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

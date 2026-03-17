@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_mandara",
+    "track_name": "05 - Mandara",
+    "album": "Shinobi III: Return of the Ninja Master",
+    "composer": "Morihiko Akiyama / Hirofumi Murasaki",
+    "year": "1993-07-23",
+    "track_order": "5/19",
+    "chip_data": {
+        "fm_writes": 12128,
+        "complexity": 0.259
+    },
+    "_type": "music:track"
+}

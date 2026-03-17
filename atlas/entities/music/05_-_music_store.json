@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_music_store",
+    "track_name": "05 - Music Store",
+    "album": "Baby Boom",
+    "composer": "David Javelosa",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 36225,
+        "complexity": 0.03
+    },
+    "_type": "music:track"
+}

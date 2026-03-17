@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_boss_battle",
+    "track_name": "05 - Boss Battle",
+    "album": "Ai Senshi Nicol",
+    "composer": "Konami Kukeiha Club",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

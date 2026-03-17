@@ -1,0 +1,13 @@
+{
+    "entity_id": "47_-_propaganda",
+    "track_name": "47 - Propaganda",
+    "album": "SD Snatcher",
+    "composer": "TECHNOuchi",
+    "year": "1990",
+    "track_order": "47/53",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

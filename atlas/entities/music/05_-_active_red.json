@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_active_red",
+    "track_name": "05 - Active Red",
+    "album": "Street Fighter Alpha 3",
+    "composer": "Isao Abe",
+    "year": "1998-07",
+    "track_order": "5/39",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

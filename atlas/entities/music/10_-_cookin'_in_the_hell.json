@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_cookin'_in_the_hell",
+    "track_name": "10 - Cookin' in the Hell",
+    "album": "ChoRenSha 68K",
+    "composer": "Ruzarin Kashiwagi",
+    "year": "1995",
+    "track_order": "10/12",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

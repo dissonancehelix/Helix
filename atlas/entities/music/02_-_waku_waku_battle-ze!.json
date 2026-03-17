@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_waku_waku_battle-ze!",
+    "track_name": "02 - Waku Waku Battle-ze!",
+    "album": "Waku Waku 7",
+    "composer": "Masato Araikawa",
+    "year": "1996",
+    "track_order": "2/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

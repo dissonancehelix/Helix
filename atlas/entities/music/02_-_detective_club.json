@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_detective_club",
+    "track_name": "02 - Detective Club",
+    "album": "Visitte",
+    "composer": "Youichi Iwasaki",
+    "year": "1996-08-30",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "33_-_battle_2_music_disk",
+    "track_name": "33 - Battle 2 (Music Disk)",
+    "album": "Emerald Dragon",
+    "composer": "Nobuhito Koise",
+    "year": "1989-12-12",
+    "track_order": "33/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_cursed_city",
+    "track_name": "17 - Cursed City",
+    "album": "Golden Axe III",
+    "composer": "Haruyo Oguro",
+    "year": "1993-06-25",
+    "track_order": "17/21",
+    "chip_data": {
+        "fm_writes": 818,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

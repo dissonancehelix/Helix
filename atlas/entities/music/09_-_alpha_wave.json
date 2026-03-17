@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_alpha_wave",
+    "track_name": "09 - Alpha Wave",
+    "album": "M.U.S.H.A.",
+    "composer": "Toshiaki Sakoda",
+    "year": "1990/02/10",
+    "track_order": "9/14",
+    "chip_data": {
+        "fm_writes": 83920,
+        "complexity": 0.785
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_cutscene_-_halfpipe_situation",
+    "track_name": "06 - Cutscene - Halfpipe Situation",
+    "album": "Skate or Die 2",
+    "composer": "Rob Hubbard",
+    "year": "1990-09",
+    "track_order": "6/14",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

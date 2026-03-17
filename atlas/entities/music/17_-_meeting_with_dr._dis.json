@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_meeting_with_dr._dis",
+    "track_name": "17 - Meeting with Dr. Dis",
+    "album": "Aero the Acro-Bat 2",
+    "composer": "Rick Fox",
+    "year": "1994/04/01",
+    "track_order": "17/20",
+    "chip_data": {
+        "fm_writes": 83598,
+        "complexity": 0.524
+    },
+    "_type": "music:track"
+}

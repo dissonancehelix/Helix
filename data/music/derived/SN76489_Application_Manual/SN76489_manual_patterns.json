@@ -1,0 +1,17 @@
+{
+  "doc_id": "SN76489_Application_Manual",
+  "modulation_patterns": [
+    {
+      "type": "Noise Pattern",
+      "description": "White noise (PRNG) or Periodic noise (toggling square).",
+      "harmonic_content": "broadband or subharmonic pulses"
+    }
+  ],
+  "envelope_types": [
+    {
+      "name": "Step Attenuation",
+      "description": "Direct volume set (attenuation). No internal EG. All envelopes must be software-driven.",
+      "precision": "4-bit (16 levels, 2dB steps)"
+    }
+  ]
+}

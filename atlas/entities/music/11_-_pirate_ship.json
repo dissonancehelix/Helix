@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_pirate_ship",
+    "track_name": "11 - Pirate Ship",
+    "album": "Tiny Toon Adventures: Buster's Hidden Treasure",
+    "composer": "Shinji Tasaka",
+    "year": "1993-02-07",
+    "track_order": "11/16",
+    "chip_data": {
+        "fm_writes": 26118,
+        "complexity": 0.329
+    },
+    "_type": "music:track"
+}

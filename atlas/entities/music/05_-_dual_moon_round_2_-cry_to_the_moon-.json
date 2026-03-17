@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_dual_moon_round_2_-cry_to_the_moon-",
+    "track_name": "05 - Dual Moon (Round 2 -Cry to the Moon-)",
+    "album": "Metal Black",
+    "composer": "Yasuhisa Watanabe",
+    "year": "1991-11",
+    "track_order": "5/19%",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

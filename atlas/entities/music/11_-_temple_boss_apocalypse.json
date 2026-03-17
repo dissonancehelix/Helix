@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_temple_boss_apocalypse",
+    "track_name": "11 - Temple Boss (Apocalypse)",
+    "album": "X-Men 2: Clone Wars",
+    "composer": "Kurt Harland",
+    "year": "1995/05/16",
+    "track_order": "11/15",
+    "chip_data": {
+        "fm_writes": 552275,
+        "complexity": 0.935
+    },
+    "_type": "music:track"
+}

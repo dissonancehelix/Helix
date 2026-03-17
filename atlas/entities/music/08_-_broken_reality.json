@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_broken_reality",
+    "track_name": "08 - Broken Reality",
+    "album": "Ninja Master's",
+    "composer": "Hiroaki Kujirai",
+    "year": "1996-06-28",
+    "track_order": "8/26",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_antiship_battle_b",
+    "track_name": "04 - Antiship Battle B",
+    "album": "1943 Kai: Midway Kaisen",
+    "composer": "Harumi Fujita",
+    "year": "1988-06",
+    "track_order": "4/13",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

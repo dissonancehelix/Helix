@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_squiter",
+    "track_name": "06 - Squiter",
+    "album": "Viper-GTS",
+    "composer": "Kenichi Arakawa",
+    "year": "1995-11-24",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 26284,
+        "complexity": 0.529
+    },
+    "_type": "music:track"
+}

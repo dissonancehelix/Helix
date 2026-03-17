@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_boss_4_intro",
+    "track_name": "16 - Boss 4 Intro",
+    "album": "Cadillacs and Dinosaurs",
+    "composer": "Isao Abe",
+    "year": "1993-02-01",
+    "track_order": "16/26",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

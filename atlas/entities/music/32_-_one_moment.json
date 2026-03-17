@@ -1,0 +1,13 @@
+{
+    "entity_id": "32_-_one_moment",
+    "track_name": "32 - One Moment",
+    "album": "Doukyusei 2",
+    "composer": "Manabu Kunieda",
+    "year": "1995-01-31",
+    "track_order": "32/45",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_pax_germana",
+    "track_name": "01 - Pax Germana",
+    "album": "Advanced Daisenryaku",
+    "composer": "Galapagos",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 55059,
+        "complexity": 0.16
+    },
+    "_type": "music:track"
+}

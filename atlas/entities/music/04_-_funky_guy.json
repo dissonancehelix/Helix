@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_funky_guy",
+    "track_name": "04 - Funky Guy",
+    "album": "Over Drive",
+    "composer": "Konami Kukeiha Club",
+    "year": "1990",
+    "track_order": "4/11",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_trans-europe_express",
+    "track_name": "07 - Trans-Europe Express",
+    "album": "Earnest Evans",
+    "composer": "Motoi Sakuraba",
+    "year": "1992/12/02",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 26856,
+        "complexity": 0.937
+    },
+    "_type": "music:track"
+}

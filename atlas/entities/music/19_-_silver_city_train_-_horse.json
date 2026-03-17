@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_silver_city_train_-_horse",
+    "track_name": "19 - Silver City Train - Horse",
+    "album": "The Lone Ranger",
+    "composer": "Yoshinori Sasaki",
+    "year": "1991-08",
+    "track_order": "19/32",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

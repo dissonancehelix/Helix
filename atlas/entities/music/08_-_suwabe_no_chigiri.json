@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_suwabe_no_chigiri",
+    "track_name": "08 - Suwabe no Chigiri",
+    "album": "Mirai Ninja",
+    "composer": "Norio Nakagata",
+    "year": "1988-12",
+    "track_order": "8/14",
+    "chip_data": {
+        "fm_writes": 15,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

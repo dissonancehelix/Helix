@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_cpu_stage_4_bgm_~_1p_stage_bgm_4",
+    "track_name": "07 - CPU Stage 4 BGM ~ 1P Stage BGM 4",
+    "album": "Gururin",
+    "composer": "Kenji Sugai",
+    "year": "1994-05-25",
+    "track_order": "7/14 ",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

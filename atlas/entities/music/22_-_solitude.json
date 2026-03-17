@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_solitude",
+    "track_name": "22 - Solitude",
+    "album": "Desire: Haitoku no Rasen",
+    "composer": "Ryu Umemoto",
+    "year": "1994-11",
+    "track_order": "22/27",
+    "chip_data": {
+        "fm_writes": 2184,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_ending_theme",
+    "track_name": "13 - Ending Theme",
+    "album": "Arrow Flash",
+    "composer": "Hanauri Musume",
+    "year": "1990/10/20",
+    "track_order": "13/14",
+    "chip_data": {
+        "fm_writes": 136552,
+        "complexity": 0.94
+    },
+    "_type": "music:track"
+}

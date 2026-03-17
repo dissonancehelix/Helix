@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_shanxi_battle",
+    "track_name": "11 - Shanxi Battle",
+    "album": "Phantom Fighter",
+    "composer": "Hironari Tadokoro",
+    "year": "1988-09-16",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 204,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

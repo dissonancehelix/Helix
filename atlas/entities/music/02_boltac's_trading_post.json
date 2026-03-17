@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_boltac's_trading_post",
+    "track_name": "02 Boltac's Trading Post",
+    "album": "Wizardry III+IV",
+    "composer": "Miyoko Takaoka",
+    "year": "1994-03-04",
+    "track_order": "2/11",
+    "chip_data": {
+        "fm_writes": 120,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

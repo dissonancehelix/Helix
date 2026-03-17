@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_mq_blues",
+    "track_name": "01 - MQ Blues",
+    "album": "Party Quiz Mega Q",
+    "composer": "Hirofumi Murasaki",
+    "year": "1993/11/05",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 25535,
+        "complexity": 0.032
+    },
+    "_type": "music:track"
+}

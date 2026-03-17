@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_combined_elemental",
+    "track_name": "23 - Combined Elemental",
+    "album": "Xak: The Art of Visual Stage",
+    "composer": "Tadahiro Nitta",
+    "year": "1989",
+    "track_order": "23/39",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

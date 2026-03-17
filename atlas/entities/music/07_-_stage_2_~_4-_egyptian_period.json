@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_stage_2_~_4-_egyptian_period",
+    "track_name": "07 - Stage 2 ~ 4- Egyptian Period",
+    "album": "Ninja Commando",
+    "composer": "Yuka Watanabe",
+    "year": "1992",
+    "track_order": "7/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

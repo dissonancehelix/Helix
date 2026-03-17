@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_los_angeles",
+    "track_name": "07 - Los Angeles",
+    "album": "Saturday Night Slam Masters",
+    "composer": "Masaki Izutani",
+    "year": "1993-07",
+    "track_order": "7/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

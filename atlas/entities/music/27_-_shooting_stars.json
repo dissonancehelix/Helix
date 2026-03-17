@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_shooting_stars",
+    "track_name": "27 - Shooting Stars",
+    "album": "Thunder Force IV",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1992/07/24",
+    "track_order": "27/44",
+    "chip_data": {
+        "fm_writes": 29610,
+        "complexity": 0.281
+    },
+    "_type": "music:track"
+}

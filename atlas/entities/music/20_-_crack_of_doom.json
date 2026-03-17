@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_crack_of_doom",
+    "track_name": "20 - Crack of Doom",
+    "album": "Bahamut Senki",
+    "composer": "Keisuke Tsukahara",
+    "year": "1991/03/08",
+    "track_order": "20/24",
+    "chip_data": {
+        "fm_writes": 79281,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

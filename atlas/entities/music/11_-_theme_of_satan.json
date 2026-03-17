@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_theme_of_satan",
+    "track_name": "11 - Theme of Satan",
+    "album": "Ghosts 'n Goblins",
+    "composer": "Ayako Mori",
+    "year": "1985-09-19",
+    "track_order": "11/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

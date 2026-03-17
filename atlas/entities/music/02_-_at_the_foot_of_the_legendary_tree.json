@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_at_the_foot_of_the_legendary_tree",
+    "track_name": "02 - At the Foot of the Legendary Tree",
+    "album": "Tokimeki Memorial Taisen Puzzle-Dama",
+    "composer": "Kazuhiro Senoo",
+    "year": "1995-12",
+    "track_order": "2/35!",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

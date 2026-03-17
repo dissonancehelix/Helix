@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_death_messenger",
+    "track_name": "11 - Death Messenger",
+    "album": "Bahamut Senki",
+    "composer": "Keisuke Tsukahara",
+    "year": "1991/03/08",
+    "track_order": "11/24",
+    "chip_data": {
+        "fm_writes": 86023,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

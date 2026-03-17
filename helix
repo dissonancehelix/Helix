@@ -27,4 +27,4 @@ if ! command -v python3 &>/dev/null; then
     PYTHON="python"
 fi
 
-exec "$PYTHON" "$REPO_ROOT/core/hil/hil_dispatch.py" "$@"
+exec "$PYTHON" "$REPO_ROOT/core/cli/helix_cli.py" "$@"

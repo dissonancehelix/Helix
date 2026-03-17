@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_bustling!_high_school_girls",
+    "track_name": "01 - Bustling! High School Girls",
+    "album": "Teen",
+    "composer": "Yoshio Furukawa",
+    "year": "1995-03-24",
+    "track_order": "1/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_underground_people_attack",
+    "track_name": "02 - Underground People Attack",
+    "album": "Viper-V16",
+    "composer": "Kenichi Arakawa",
+    "year": "1995-12-22",
+    "track_order": "2/28",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

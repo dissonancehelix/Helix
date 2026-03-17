@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_danger_2",
+    "track_name": "31 - Danger 2",
+    "album": "Madou Monogatari 1-2-3",
+    "composer": "Masanobu Tsukamoto",
+    "year": "1991-11-23",
+    "track_order": "31/31",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

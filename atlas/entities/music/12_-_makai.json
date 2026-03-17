@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_makai",
+    "track_name": "12 - Makai",
+    "album": "Valis III",
+    "composer": "Shingo Murakami",
+    "year": "1991",
+    "track_order": "12/16",
+    "chip_data": {
+        "fm_writes": 125689,
+        "complexity": 0.968
+    },
+    "_type": "music:track"
+}

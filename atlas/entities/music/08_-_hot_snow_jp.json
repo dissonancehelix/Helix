@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_hot_snow_jp",
+    "track_name": "08 - Hot Snow (JP)",
+    "album": "Fantasy Zone",
+    "composer": "Hiro",
+    "year": "1986-03-28",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

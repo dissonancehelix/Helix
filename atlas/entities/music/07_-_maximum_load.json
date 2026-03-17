@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_maximum_load",
+    "track_name": "07 - Maximum Load",
+    "album": "Locked 'n Loaded",
+    "composer": "Hiroaki Yoshida",
+    "year": "1994",
+    "track_order": "7/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

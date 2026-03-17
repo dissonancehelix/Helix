@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_twin_vulcan",
+    "track_name": "04 - Twin Vulcan",
+    "album": "Thunder Force AC",
+    "composer": "Tomomi Otani",
+    "year": "1990",
+    "track_order": "4/18",
+    "chip_data": {
+        "fm_writes": 11587,
+        "complexity": 0.272
+    },
+    "_type": "music:track"
+}

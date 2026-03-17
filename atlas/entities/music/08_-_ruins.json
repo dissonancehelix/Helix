@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_ruins",
+    "track_name": "08 - Ruins",
+    "album": "Shining Crystal",
+    "composer": "Kazuhiko Naruse",
+    "year": "1995-04-19",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

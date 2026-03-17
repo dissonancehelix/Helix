@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_magic_mirror",
+    "track_name": "09 - Magic Mirror",
+    "album": "Touhou Reiiden ~ Highly Responsive to Prayers",
+    "composer": "ZUN-",
+    "year": "1996",
+    "track_order": "9/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

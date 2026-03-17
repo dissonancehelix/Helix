@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_ohnami_konami",
+    "track_name": "24 - Ohnami Konami",
+    "album": "Dynamite Headdy",
+    "composer": "Katsuhiko Suzuki",
+    "year": "1994",
+    "track_order": "24/32",
+    "chip_data": {
+        "fm_writes": 4296,
+        "complexity": 0.594
+    },
+    "_type": "music:track"
+}

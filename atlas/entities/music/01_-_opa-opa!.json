@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_opa-opa!",
+    "track_name": "01 - Opa-Opa!",
+    "album": "Fantasy Zone",
+    "composer": "Hiro",
+    "year": "1986-03-28",
+    "track_order": "1/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_dragon's_call",
+    "track_name": "08 - Dragon's Call",
+    "album": "Soul Edge",
+    "composer": "Takayuki Aihara",
+    "year": "1995-12",
+    "track_order": "8/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_tear_curse",
+    "track_name": "22 - Tear Curse",
+    "album": "Mime",
+    "composer": "Hiroaki Sano",
+    "year": "1995-09-29",
+    "track_order": "22/38",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

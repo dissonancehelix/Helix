@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_the_foreigner_-_kitten_express",
+    "track_name": "09 - The Foreigner - Kitten Express",
+    "album": "World Heroes Perfect",
+    "composer": "Yuka Watanabe",
+    "year": "1995-05-25",
+    "track_order": "9/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

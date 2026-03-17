@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_stage_5-_the_test_of_duckhood",
+    "track_name": "09 - Stage 5- The Test of Duckhood",
+    "album": "Maui Mallard",
+    "composer": "Michael Giacchino",
+    "year": "1995",
+    "track_order": "9/13",
+    "chip_data": {
+        "fm_writes": 285853,
+        "complexity": 0.56
+    },
+    "_type": "music:track"
+}

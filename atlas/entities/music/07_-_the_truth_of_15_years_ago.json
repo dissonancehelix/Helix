@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_the_truth_of_15_years_ago",
+    "track_name": "07 - The Truth of 15 Years Ago",
+    "album": "Burning Point",
+    "composer": "Kazuo Sawa",
+    "year": "1989-02-23",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_the_end_of_the_day",
+    "track_name": "16 - The End of the Day",
+    "album": "Castlevania II: Belmont's Revenge",
+    "composer": "Hidehiro Funauchi!",
+    "year": "1991-08",
+    "track_order": "16/17",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

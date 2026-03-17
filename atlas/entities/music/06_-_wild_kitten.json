@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_wild_kitten",
+    "track_name": "06 - Wild Kitten",
+    "album": "V.G. II: The Bout of Cabalistic Goddess",
+    "composer": "Atsuyoshi Isemura'",
+    "year": "1994-11-25",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

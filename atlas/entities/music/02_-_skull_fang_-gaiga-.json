@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_skull_fang_-gaiga-",
+    "track_name": "02 - Skull Fang -Gaiga-",
+    "album": "Skull Fang: Kuhga Gaiden",
+    "composer": "Hiroaki Yoshida",
+    "year": "1996-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

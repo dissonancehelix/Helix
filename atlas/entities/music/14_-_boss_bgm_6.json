@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_boss_bgm_6",
+    "track_name": "14 - Boss BGM 6",
+    "album": "Eco Fighters",
+    "composer": "Syun Nishigaki",
+    "year": "1993-12-03",
+    "track_order": "14/21",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

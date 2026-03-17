@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_final_boss_defeated",
+    "track_name": "16 - Final Boss Defeated",
+    "album": "Virtual Boy Wario Land",
+    "composer": "Kazumi Totaka",
+    "year": "1995-11-27",
+    "track_order": "16/23",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

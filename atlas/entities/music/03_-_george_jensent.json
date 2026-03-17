@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_george_jensent",
+    "track_name": "03 - George Jensent",
+    "album": "Fighting Layer",
+    "composer": "Takayuki Aihara",
+    "year": "1998-12",
+    "track_order": "3/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

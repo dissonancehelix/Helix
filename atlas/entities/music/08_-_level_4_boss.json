@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_level_4_boss",
+    "track_name": "08 - Level 4 Boss",
+    "album": "rix and the Great Rescue",
+    "composer": "Nathan McCree",
+    "year": "1993-10",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 3388,
+        "complexity": 0.014
+    },
+    "_type": "music:track"
+}

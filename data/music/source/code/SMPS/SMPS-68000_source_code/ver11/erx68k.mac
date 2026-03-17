@@ -1,0 +1,63 @@
+
+macro dir
+echo off
+exec dir %1
+
+macro type
+echo off
+exec type %1
+
+macro mini
+echo off
+exec mini %1
+
+macro ed
+l a:\m5\ed11\ed11.s28
+
+macro symed
+l a:\m5\ed11\ed11.evt
+
+macro se
+l mdSE11.s28
+
+macro symse
+l mdSE11.evt
+
+macro sng
+l mdSNG11.s28
+
+macro symsng
+l mdSNG11.evt
+
+macro cnt
+l mdCNT11.s28
+
+macro symcnt
+l mdCNT11.evt
+
+macro bnk
+l mdBNK11.s28
+
+macro symbnk
+l mdBNK11.evt
+
+macro setup
+ed
+cnt
+sng
+se
+
+macro all
+cnt
+sng
+se
+
+macro ky
+e/b 0ffd30a=0%1
+
+macro dr
+e/n 0a11100=100
+e/b 0a01fff=%1
+e/n 0a11100=000
+
+

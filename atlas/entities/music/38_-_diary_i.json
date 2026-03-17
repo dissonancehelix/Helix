@@ -1,0 +1,13 @@
+{
+    "entity_id": "38_-_diary_i",
+    "track_name": "38 - Diary I",
+    "album": "EVE Burst Error",
+    "composer": "Ryu Umemoto",
+    "year": "1995-11-22",
+    "track_order": "38/45",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

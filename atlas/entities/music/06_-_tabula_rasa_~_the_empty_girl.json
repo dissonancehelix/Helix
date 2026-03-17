@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_tabula_rasa_~_the_empty_girl",
+    "track_name": "06 - Tabula rasa ~ The Empty Girl",
+    "album": "Touhou Yumejikuu: Phantasmagoria of Dim.Dream.",
+    "composer": "ZUN.",
+    "year": "1997-12-29",
+    "track_order": "6/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

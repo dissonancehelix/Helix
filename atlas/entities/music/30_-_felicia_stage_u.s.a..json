@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_felicia_stage_u.s.a.",
+    "track_name": "30 - FELICIA Stage (U.S.A.)",
+    "album": "Night Warriors: Darkstalkers' Revenge",
+    "composer": "Takayuki Iwai",
+    "year": "1995",
+    "track_order": "30/44",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

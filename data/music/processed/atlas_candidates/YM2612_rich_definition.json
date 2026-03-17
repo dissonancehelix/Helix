@@ -1,0 +1,63 @@
+{
+  "id": "music.sound_chip:ym2612",
+  "type": "SoundChip",
+  "name": "Yamaha YM2612 (OPN2)",
+  "substrate": "music",
+  "properties": {
+    "channels": 6,
+    "operators_per_channel": 4,
+    "synthesis_type": "FM",
+    "clock_speed": "7.67 MHz (NTSC Mega Drive)",
+    "native_sampling_rate": 53267,
+    "dac_resolution": "9-bit (Time-Division Multiplexed)",
+    "dynamic_range": "54 dB (theoretical)",
+    "features": [
+      "LFO (Global)",
+      "DAC (PCM via Ch6)",
+      "SSG-EG (Complex Envelopes)",
+      "CSM (Special Mode)",
+      "Feedback (Ch1, 7 levels)"
+    ]
+  },
+  "topologies": [
+    { "id": "music.topology:ym2612_alg0", "description": "Linear stack (4 modulators, 1 carrier)", "carrier_slots": [3], "modulator_slots": [0, 1, 2], "carrier_count": 1 },
+    { "id": "music.topology:ym2612_alg1", "description": "Parallel modulators (3 modulators, 1 carrier)", "carrier_slots": [3], "modulator_slots": [0, 1, 2], "carrier_count": 1 },
+    { "id": "music.topology:ym2612_alg2", "description": "Parallel modulators (3 modulators, 1 carrier)", "carrier_slots": [3], "modulator_slots": [0, 1, 2], "carrier_count": 1 },
+    { "id": "music.topology:ym2612_alg3", "description": "Parallel modulators (3 modulators, 1 carrier)", "carrier_slots": [3], "modulator_slots": [0, 1, 2], "carrier_count": 1 },
+    { "id": "music.topology:ym2612_alg4", "description": "Dual carriers (2 modulators, 2 carriers)", "carrier_slots": [1, 3], "modulator_slots": [0, 2], "carrier_count": 2 },
+    { "id": "music.topology:ym2612_alg5", "description": "Triple carriers (1 modulator, 3 carriers)", "carrier_slots": [1, 2, 3], "modulator_slots": [0], "carrier_count": 3 },
+    { "id": "music.topology:ym2612_alg6", "description": "Triple carriers (1 modulator, 3 carriers)", "carrier_slots": [1, 2, 3], "modulator_slots": [0], "carrier_count": 3 },
+    { "id": "music.topology:ym2612_alg7", "description": "Additive (4 carriers, 0 modulators)", "carrier_slots": [0, 1, 2, 3], "modulator_slots": [], "carrier_count": 4 }
+  ],
+  "variants": [
+    { "id": "music.sound_chip:ym3438", "name": "Yamaha YM3438 (OPN2C)", "description": "CMOS version with reduced crossover distortion." },
+    { "id": "music.sound_chip:ymf276", "name": "Yamaha YMF276 (OPN2L)", "description": "Low-power version requiring external DAC; removes ladder effect." }
+  ],
+  "behavioral_invariants": [
+    {
+      "id": "music.invariant:ladder_effect",
+      "description": "9-bit DAC voltage ladder crossover distortion occurring at low amplitudes.",
+      "type": "HarmonicArtifact"
+    },
+    {
+      "id": "music.invariant:ch3_special_mode",
+      "description": "Independent frequency control for each operator on Channel 3.",
+      "type": "SynthesisConstraint"
+    },
+    {
+      "id": "music.invariant:ssg_eg_logic",
+      "description": "Logic-level leftover from SSG core allowing complex, repeating envelope shapes.",
+      "type": "EnvelopePhasePattern"
+    },
+    {
+      "id": "music.invariant:dac_enable_noise",
+      "description": "Periodic 'click' or 'crackle' artifact when toggling DAC Enable on Channel 6.",
+      "type": "SwitchingArtifact"
+    }
+  ],
+  "sources": [
+    "data/music/source/chip_docs/YM2612_manual.pdf",
+    "substrates/music/toolkits/Nuked-OPN2",
+    "https://en.wikipedia.org/wiki/Yamaha_YM2612"
+  ]
+}

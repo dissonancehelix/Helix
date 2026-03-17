@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_action_stage_1",
+    "track_name": "03 - Action Stage 1",
+    "album": "Golgo 13: Top Secret Episode",
+    "composer": "Michiharu Hasuya",
+    "year": "1988-03-26",
+    "track_order": "3/14",
+    "chip_data": {
+        "fm_writes": 158,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

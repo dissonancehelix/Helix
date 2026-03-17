@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_run_red_light_arrange",
+    "track_name": "08 - Run Red Light (Arrange)",
+    "album": "Full Throttle",
+    "composer": "Masahiko Takaki",
+    "year": "1988-12",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

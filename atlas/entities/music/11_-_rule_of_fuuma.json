@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_rule_of_fuuma",
+    "track_name": "11 - Rule of Fuuma",
+    "album": "Aggressors of Dark Kombat",
+    "composer": "Hideki Yamamoto",
+    "year": "1994-07-26",
+    "track_order": "11/31",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

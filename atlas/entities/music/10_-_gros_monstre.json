@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_gros_monstre",
+    "track_name": "10 - Gros Monstre",
+    "album": "Revival Xanadu",
+    "composer": "Hirofumi Matsuoka",
+    "year": "1995-04-28",
+    "track_order": "10/19",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

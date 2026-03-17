@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_city_202",
+    "track_name": "05 - City 202",
+    "album": "After Burner II",
+    "composer": "Hiro",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

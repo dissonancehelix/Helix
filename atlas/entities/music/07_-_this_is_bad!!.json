@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_this_is_bad!!",
+    "track_name": "07 - This Is Bad!!",
+    "album": "Desert Assault",
+    "composer": "Hiroaki Yoshida",
+    "year": "1991",
+    "track_order": "7/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

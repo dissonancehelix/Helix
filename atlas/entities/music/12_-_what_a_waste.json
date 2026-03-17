@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_what_a_waste",
+    "track_name": "12 - What a Waste",
+    "album": "Rune Worth: Kokui no Kikoushi",
+    "composer": "Shigeru Tomita",
+    "year": "1990-01",
+    "track_order": "12/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

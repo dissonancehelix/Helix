@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_game_bgm_4",
+    "track_name": "05 - Game BGM 4",
+    "album": "The Pro Baseball Clash Pennant Race",
+    "composer": "Konami Kukeiha Club#",
+    "year": "1988",
+    "track_order": "5/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

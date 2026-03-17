@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_foot_pursuit",
+    "track_name": "04 - Foot Pursuit",
+    "album": "Tintin: Prisoners of the Sun",
+    "composer": "Alberto Jose Gonz",
+    "year": "1996",
+    "track_order": "4/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

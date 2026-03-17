@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_circus_act_3_n_museum_act_2",
+    "track_name": "05 - Circus Act 3 & Museum Act 2",
+    "album": "Aero the Acro-Bat",
+    "composer": "Rick Fox",
+    "year": "1993",
+    "track_order": "5/23",
+    "chip_data": {
+        "fm_writes": 32808,
+        "complexity": 0.997
+    },
+    "_type": "music:track"
+}

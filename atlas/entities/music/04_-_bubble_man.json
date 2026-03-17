@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_bubble_man",
+    "track_name": "04 - Bubble Man",
+    "album": "Mega Man 2: The Power Fighters",
+    "composer": "Yuki Iwai",
+    "year": "1996",
+    "track_order": "4/34",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

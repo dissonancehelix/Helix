@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_swing!_mq!",
+    "track_name": "07 - Swing! MQ!",
+    "album": "Party Quiz Mega Q",
+    "composer": "Hirofumi Murasaki",
+    "year": "1993/11/05",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 25142,
+        "complexity": 0.19
+    },
+    "_type": "music:track"
+}

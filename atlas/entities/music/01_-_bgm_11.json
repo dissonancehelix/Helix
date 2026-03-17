@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_bgm_11",
+    "track_name": "01 - BGM 11",
+    "album": "Dark Wizard",
+    "composer": "Keisuke Tsukahara",
+    "year": "1993/11/12",
+    "track_order": "1/26",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

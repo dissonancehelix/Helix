@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_bad_blue",
+    "track_name": "16 - Bad Blue",
+    "album": "Rolling Thunder 3",
+    "composer": "Rose & Dick Boy!!!",
+    "year": "1993/05/19",
+    "track_order": "16/21",
+    "chip_data": {
+        "fm_writes": 423325,
+        "complexity": 0.13
+    },
+    "_type": "music:track"
+}

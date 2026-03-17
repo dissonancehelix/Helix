@@ -46,6 +46,8 @@ ALLOWED_FILES: frozenset[str] = frozenset({
     "helix",
     ".git",
     ".gitignore",
+    ".claude",
+    "pyproject.toml",
 })
 
 ALLOWED: frozenset[str] = ALLOWED_DIRS | ALLOWED_FILES

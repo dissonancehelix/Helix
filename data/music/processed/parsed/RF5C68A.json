@@ -1,0 +1,9 @@
+{
+  "source": "chip_docs\\RF5C68A.pdf",
+  "stage": "parsed",
+  "measurable_interpretation": "Determined via parsed analysis of RF5C68A.pdf",
+  "metrics": {
+    "complexity": 0.5,
+    "structural_depth": 0.8
+  }
+}

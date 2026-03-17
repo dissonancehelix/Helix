@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_story_element,_cowboy_world",
+    "track_name": "19 - Story Element, Cowboy World",
+    "album": "Light Crusader",
+    "composer": "Aki Hata",
+    "year": "1995",
+    "track_order": "19/28",
+    "chip_data": {
+        "fm_writes": 18821,
+        "complexity": 0.179
+    },
+    "_type": "music:track"
+}

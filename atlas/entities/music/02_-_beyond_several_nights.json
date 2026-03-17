@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_beyond_several_nights",
+    "track_name": "02 - Beyond Several Nights",
+    "album": "Miwaku no Chousho",
+    "composer": "Hiroaki Sano",
+    "year": "1995-12-08",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

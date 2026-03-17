@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_danger-seed",
+    "track_name": "14 - Danger-Seed",
+    "album": "Dangerous Seed",
+    "composer": "Yoshinori Nagumo",
+    "year": "1989-12",
+    "track_order": "14/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

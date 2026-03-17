@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_slumberland",
+    "track_name": "10 - Slumberland",
+    "album": "Little Nemo: The Dream Master",
+    "composer": "Junko Tamiya",
+    "year": "1990",
+    "track_order": "10/14",
+    "chip_data": {
+        "fm_writes": 28,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

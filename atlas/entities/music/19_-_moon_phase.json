@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_moon_phase",
+    "track_name": "19 - Moon Phase",
+    "album": "Shizuku",
+    "composer": "Shinji Orito",
+    "year": "1996-01-26",
+    "track_order": "19/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

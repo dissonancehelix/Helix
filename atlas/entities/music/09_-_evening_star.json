@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_evening_star",
+    "track_name": "09 - Evening Star",
+    "album": "Knuckles' Chaotix",
+    "composer": "Junko Shiratsu",
+    "year": "1995-04-21",
+    "track_order": "9/30",
+    "chip_data": {
+        "fm_writes": 248,
+        "complexity": 0.167
+    },
+    "_type": "music:track"
+}

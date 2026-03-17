@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_hurry",
+    "track_name": "09 - Hurry",
+    "album": "Syvalion",
+    "composer": "Yasuhisa Watanabe",
+    "year": "1988-10",
+    "track_order": "9/16",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

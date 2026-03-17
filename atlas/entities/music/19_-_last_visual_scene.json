@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_last_visual_scene",
+    "track_name": "19 - Last Visual Scene",
+    "album": "Aquales",
+    "composer": "Hiroyuki Saegusa",
+    "year": "1991-09-12",
+    "track_order": "19/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

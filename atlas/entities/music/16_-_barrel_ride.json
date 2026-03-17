@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_barrel_ride",
+    "track_name": "16 - Barrel Ride",
+    "album": "The Immortal",
+    "composer": "Rob Hubbard",
+    "year": "1991/07/11",
+    "track_order": "16/18",
+    "chip_data": {
+        "fm_writes": 41341,
+        "complexity": 0.109
+    },
+    "_type": "music:track"
+}

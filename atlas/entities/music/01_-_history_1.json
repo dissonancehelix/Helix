@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_history_1",
+    "track_name": "01 - History 1",
+    "album": "Starship Hector",
+    "composer": "Takeaki Kunimoto",
+    "year": "1987-07-16",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

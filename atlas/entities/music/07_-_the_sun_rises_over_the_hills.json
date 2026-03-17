@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_the_sun_rises_over_the_hills",
+    "track_name": "07 - The Sun Rises Over the Hills",
+    "album": "Shadow Warriors",
+    "composer": "Ryuichi Nitta",
+    "year": "1988",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

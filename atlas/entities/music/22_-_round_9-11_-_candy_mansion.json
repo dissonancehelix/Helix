@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_round_9-11_-_candy_mansion",
+    "track_name": "22 - Round 9-11 - Candy Mansion",
+    "album": "Mappy Arrangement",
+    "composer": "Takayuki Ishikawa",
+    "year": "1995-11",
+    "track_order": "22/34",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

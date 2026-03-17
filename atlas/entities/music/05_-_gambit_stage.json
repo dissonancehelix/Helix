@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_gambit_stage",
+    "track_name": "05 - Gambit Stage",
+    "album": "X-Men vs. Street Fighter",
+    "composer": "Yuki Iwai",
+    "year": "1996",
+    "track_order": "5/29",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

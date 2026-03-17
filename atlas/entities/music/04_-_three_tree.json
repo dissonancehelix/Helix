@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_three_tree",
+    "track_name": "04 - Three Tree",
+    "album": "Street Fighter EX2",
+    "composer": "Shinji Hosoe",
+    "year": "1998-05",
+    "track_order": "4/29",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

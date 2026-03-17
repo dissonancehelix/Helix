@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_battle_theme_2",
+    "track_name": "05 - Battle Theme 2",
+    "album": "Dragon Ball Z: Bu Yuu Retsuden",
+    "composer": "Shinji Amagishi",
+    "year": "1994/04/01",
+    "track_order": "5/13",
+    "chip_data": {
+        "fm_writes": 16819,
+        "complexity": 0.768
+    },
+    "_type": "music:track"
+}

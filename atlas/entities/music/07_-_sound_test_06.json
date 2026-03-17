@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_sound_test_06",
+    "track_name": "07 - Sound Test 06",
+    "album": "Crayon Shin-chan: Arashi o Yobu Enji",
+    "composer": "Hikoshi Hashimoto$",
+    "year": "1994/03/11",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 13400,
+        "complexity": 0.956
+    },
+    "_type": "music:track"
+}

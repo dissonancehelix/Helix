@@ -1,0 +1,13 @@
+{
+    "entity_id": "48_-_wily's_tower-_mega_water-s_stage",
+    "track_name": "48 - Wily's Tower- Mega Water-S Stage",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "48/55 ",
+    "chip_data": {
+        "fm_writes": 35180,
+        "complexity": 0.995
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_ingame_4",
+    "track_name": "06 - Ingame 4",
+    "album": "Moto Roader II",
+    "composer": "Kouji Hayama",
+    "year": "1991-03-29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

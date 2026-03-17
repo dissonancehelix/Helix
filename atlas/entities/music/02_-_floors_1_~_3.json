@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_floors_1_~_3",
+    "track_name": "02 - Floors 1 ~ 3",
+    "album": "Sonic the Hedgehog's GameWorld",
+    "composer": "Kojiro Mikusa",
+    "year": "1994-08",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

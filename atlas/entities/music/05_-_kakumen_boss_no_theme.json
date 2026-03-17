@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_kakumen_boss_no_theme",
+    "track_name": "05 - Kakumen Boss no Theme",
+    "album": "Valis III",
+    "composer": "Jun Hasebe",
+    "year": "1991",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 84358,
+        "complexity": 0.319
+    },
+    "_type": "music:track"
+}

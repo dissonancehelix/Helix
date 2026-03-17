@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_fight",
+    "track_name": "04 - Fight",
+    "album": "Scooter Shooter",
+    "composer": "Konami Kukeiha Club",
+    "year": "1985",
+    "track_order": "4/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

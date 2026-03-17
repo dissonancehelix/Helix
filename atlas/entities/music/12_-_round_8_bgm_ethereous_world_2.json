@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_round_8_bgm_ethereous_world_2",
+    "track_name": "12 - Round 8 BGM (Ethereous World 2)",
+    "album": "Forgotten Worlds",
+    "composer": "Tamayo Kawamoto",
+    "year": "1988-12",
+    "track_order": "12/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

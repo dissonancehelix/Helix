@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_a_minute_to_midnight",
+    "track_name": "09 - A Minute to Midnight",
+    "album": "Gunbird 2",
+    "composer": "Masaki Izutani",
+    "year": "1998-12",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 124,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

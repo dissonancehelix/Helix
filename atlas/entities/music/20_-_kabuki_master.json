@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_kabuki_master",
+    "track_name": "20 - Kabuki Master",
+    "album": "The Simpsons",
+    "composer": "Norio Hanzawa",
+    "year": "1991-04",
+    "track_order": "20/25",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

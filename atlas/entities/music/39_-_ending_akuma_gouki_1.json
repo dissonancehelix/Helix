@@ -1,0 +1,13 @@
+{
+    "entity_id": "39_-_ending_akuma_gouki_1",
+    "track_name": "39 - Ending Akuma (Gouki) 1",
+    "album": "Street Fighter Alpha 2",
+    "composer": "Syun Nishigaki",
+    "year": "1996-03-25",
+    "track_order": "39/43",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

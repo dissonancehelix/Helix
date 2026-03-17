@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_title_theme_no_intro",
+    "track_name": "19 - Title Theme (No Intro)",
+    "album": "Jungle Strike",
+    "composer": "Brian Schmidt",
+    "year": "1993/09/01",
+    "track_order": "19/27",
+    "chip_data": {
+        "fm_writes": 1066343,
+        "complexity": 0.925
+    },
+    "_type": "music:track"
+}

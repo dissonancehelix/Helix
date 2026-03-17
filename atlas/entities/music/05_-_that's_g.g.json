@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_that's_g.g",
+    "track_name": "05 - That's G.G",
+    "album": "Alien Storm",
+    "composer": "Keisuke Tsukahara",
+    "year": "1990-05",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

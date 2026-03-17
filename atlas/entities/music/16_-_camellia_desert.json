@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_camellia_desert",
+    "track_name": "16 - Camellia Desert",
+    "album": "Crusader of Centy",
+    "composer": "Motokazu Shinoda",
+    "year": "1994/06/17",
+    "track_order": "16/25",
+    "chip_data": {
+        "fm_writes": 52842,
+        "complexity": 0.276
+    },
+    "_type": "music:track"
+}

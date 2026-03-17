@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_smells_like_tuna",
+    "track_name": "18 - Smells Like Tuna",
+    "album": "Skitchin'",
+    "composer": "Jeff van Dyck",
+    "year": "1993",
+    "track_order": "18/25",
+    "chip_data": {
+        "fm_writes": 3459,
+        "complexity": 0.9430000000000001
+    },
+    "_type": "music:track"
+}

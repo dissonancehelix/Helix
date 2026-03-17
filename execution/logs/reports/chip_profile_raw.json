@@ -1,0 +1,183 @@
+{
+    "maeda_profiles": {
+        "Golden Axe III": [
+            {
+                "fm_writes": 2817,
+                "psg_writes": 819,
+                "dac_writes": 40682,
+                "op_algos": {
+                    "algo_5": 5
+                },
+                "op_feedback": {},
+                "pcm_size": 81210
+            },
+            {
+                "fm_writes": 4204,
+                "psg_writes": 1761,
+                "dac_writes": 84739,
+                "op_algos": {
+                    "algo_5": 3,
+                    "algo_0": 1,
+                    "algo_4": 1
+                },
+                "op_feedback": {},
+                "pcm_size": 2206572884
+            },
+            {
+                "fm_writes": 8225,
+                "psg_writes": 7304,
+                "dac_writes": 254073,
+                "op_algos": {
+                    "algo_2": 9,
+                    "algo_3": 3,
+                    "algo_5": 7
+                },
+                "op_feedback": {},
+                "pcm_size": 2206921103
+            },
+            {
+                "fm_writes": 991,
+                "psg_writes": 1186,
+                "dac_writes": 33605,
+                "op_algos": {
+                    "algo_0": 1,
+                    "algo_2": 2
+                },
+                "op_feedback": {},
+                "pcm_size": 2223350119
+            },
+            {
+                "fm_writes": 3726,
+                "psg_writes": 2884,
+                "dac_writes": 178228,
+                "op_algos": {
+                    "algo_2": 5,
+                    "algo_4": 5,
+                    "algo_5": 1,
+                    "algo_0": 2
+                },
+                "op_feedback": {},
+                "pcm_size": 68805
+            }
+        ],
+        "J League Pro Striker 2": [
+            {
+                "fm_writes": 39347,
+                "psg_writes": 4871,
+                "dac_writes": 265524,
+                "op_algos": {
+                    "algo_3": 8,
+                    "algo_2": 10,
+                    "algo_4": 182,
+                    "algo_5": 5
+                },
+                "op_feedback": {},
+                "pcm_size": 15374
+            },
+            {
+                "fm_writes": 5077,
+                "psg_writes": 802,
+                "dac_writes": 83585,
+                "op_algos": {
+                    "algo_5": 3,
+                    "algo_4": 8,
+                    "algo_0": 1
+                },
+                "op_feedback": {},
+                "pcm_size": 13190
+            },
+            {
+                "fm_writes": 37831,
+                "psg_writes": 4279,
+                "dac_writes": 261743,
+                "op_algos": {
+                    "algo_4": 180,
+                    "algo_0": 1,
+                    "algo_5": 5,
+                    "algo_3": 4,
+                    "algo_2": 7
+                },
+                "op_feedback": {},
+                "pcm_size": 14400
+            },
+            {
+                "fm_writes": 30642,
+                "psg_writes": 2912,
+                "dac_writes": 16584,
+                "op_algos": {
+                    "algo_2": 5,
+                    "algo_0": 1,
+                    "algo_4": 29
+                },
+                "op_feedback": {},
+                "pcm_size": 1286
+            },
+            {
+                "fm_writes": 9814,
+                "psg_writes": 2765,
+                "dac_writes": 80199,
+                "op_algos": {
+                    "algo_4": 87,
+                    "algo_2": 3,
+                    "algo_5": 5,
+                    "algo_0": 2
+                },
+                "op_feedback": {},
+                "pcm_size": 13664
+            }
+        ],
+        "Sonic 3D Blast": []
+    },
+    "sst_profiles": {
+        "J League Pro Striker 1": [
+            {
+                "fm_writes": 21091,
+                "psg_writes": 2111,
+                "dac_writes": 253900,
+                "op_algos": {
+                    "algo_0": 16,
+                    "algo_4": 118,
+                    "algo_5": 3
+                },
+                "op_feedback": {},
+                "pcm_size": 9866
+            },
+            {
+                "fm_writes": 7753,
+                "psg_writes": 701,
+                "dac_writes": 117922,
+                "op_algos": {
+                    "algo_0": 8,
+                    "algo_4": 54,
+                    "algo_5": 2
+                },
+                "op_feedback": {},
+                "pcm_size": 8796
+            },
+            {
+                "fm_writes": 1402,
+                "psg_writes": 46,
+                "dac_writes": 11019,
+                "op_algos": {
+                    "algo_0": 15,
+                    "algo_4": 3,
+                    "algo_7": 2
+                },
+                "op_feedback": {},
+                "pcm_size": 2206444322
+            },
+            {
+                "fm_writes": 12501,
+                "psg_writes": 1469,
+                "dac_writes": 167738,
+                "op_algos": {
+                    "algo_4": 87,
+                    "algo_5": 4,
+                    "algo_0": 9
+                },
+                "op_feedback": {},
+                "pcm_size": 6910
+            }
+        ]
+    }
+}

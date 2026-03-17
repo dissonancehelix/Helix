@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_stage_2_briefing",
+    "track_name": "04 - Stage 2 Briefing",
+    "album": "G-LOC Air Battle",
+    "composer": "Matt Furniss",
+    "year": "1992/08/16",
+    "track_order": "4/14",
+    "chip_data": {
+        "fm_writes": 191336,
+        "complexity": 0.899
+    },
+    "_type": "music:track"
+}

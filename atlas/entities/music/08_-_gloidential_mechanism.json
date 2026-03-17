@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_gloidential_mechanism",
+    "track_name": "08 - Gloidential Mechanism",
+    "album": "Thunder Cross",
+    "composer": "Junichiro Kaneda",
+    "year": "1988-10",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 17,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

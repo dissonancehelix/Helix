@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_long_distance",
+    "track_name": "07 - Long Distance",
+    "album": "Monster World IV",
+    "composer": "Jin Watanabe",
+    "year": "1994/04/01",
+    "track_order": "7/21",
+    "chip_data": {
+        "fm_writes": 34799,
+        "complexity": 0.469
+    },
+    "_type": "music:track"
+}

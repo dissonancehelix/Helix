@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_fray's_march",
+    "track_name": "08 - Fray's March",
+    "album": "Fray",
+    "composer": "Tadahiro Nitta",
+    "year": "1990",
+    "track_order": "8/22",
+    "chip_data": {
+        "fm_writes": 9,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

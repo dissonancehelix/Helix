@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_marstorius_bgm",
+    "track_name": "18 - Marstorius BGM",
+    "album": "Fighter's History",
+    "composer": "Hiroaki Yoshida",
+    "year": "1993-03",
+    "track_order": "18/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

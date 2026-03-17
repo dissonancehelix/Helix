@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_adios,_amigo!",
+    "track_name": "11 - Adios, Amigo!",
+    "album": "Sunset Riders",
+    "composer": "Motoaki Furukawa",
+    "year": "1991-09-04",
+    "track_order": "11/17",
+    "chip_data": {
+        "fm_writes": 37,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

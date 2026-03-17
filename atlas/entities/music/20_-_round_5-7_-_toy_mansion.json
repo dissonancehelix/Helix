@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_round_5-7_-_toy_mansion",
+    "track_name": "20 - Round 5-7 - Toy Mansion",
+    "album": "Mappy Arrangement",
+    "composer": "Takayuki Ishikawa",
+    "year": "1995-11",
+    "track_order": "20/34",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

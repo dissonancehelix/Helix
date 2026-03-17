@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_hideout_stages_5-1_n_5-4",
+    "track_name": "09 - Hideout (Stages 5-1 & 5-4)",
+    "album": "Lethal Enforcers II: Gun Fighters",
+    "composer": "Tsuyoshi Sekito",
+    "year": "1994",
+    "track_order": "9/17",
+    "chip_data": {
+        "fm_writes": 5411,
+        "complexity": 0.7859999999999999
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_myst",
+    "track_name": "09 - Myst",
+    "album": "Turok 2: Seeds of Evil",
+    "composer": "Alberto Jose Gonz",
+    "year": "1998-12",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 45,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

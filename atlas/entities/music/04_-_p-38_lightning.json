@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_p-38_lightning",
+    "track_name": "04 - P-38 Lightning",
+    "album": "Wing War",
+    "composer": "Tomoyuki Kawamura",
+    "year": "1994",
+    "track_order": "4/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

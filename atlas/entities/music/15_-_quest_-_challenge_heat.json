@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_quest_-_challenge_heat",
+    "track_name": "15 - Quest - Challenge Heat",
+    "album": "Final Lap Twin",
+    "composer": "Katsuhiro Hayashi",
+    "year": "1989-07-07",
+    "track_order": "15/18",
+    "chip_data": {
+        "fm_writes": 9,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

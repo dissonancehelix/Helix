@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_rug_ride",
+    "track_name": "09 - Rug Ride",
+    "album": "Disney's Aladdin",
+    "composer": "Donald Griffin",
+    "year": "1993",
+    "track_order": "9/14",
+    "chip_data": {
+        "fm_writes": 87366,
+        "complexity": 0.58
+    },
+    "_type": "music:track"
+}

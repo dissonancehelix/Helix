@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_hospital_chase",
+    "track_name": "07 - Hospital Chase",
+    "album": "Beavis and Butt-head",
+    "composer": "Marc Baril",
+    "year": "1994",
+    "track_order": "7/19",
+    "chip_data": {
+        "fm_writes": 4270,
+        "complexity": 0.214
+    },
+    "_type": "music:track"
+}

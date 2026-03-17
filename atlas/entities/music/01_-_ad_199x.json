@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_ad_199x",
+    "track_name": "01 - AD 199X",
+    "album": "Metamorphic Force",
+    "composer": "Mariko Egawa",
+    "year": "1993-08",
+    "track_order": "1/28",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

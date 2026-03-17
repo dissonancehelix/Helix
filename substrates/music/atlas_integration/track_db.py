@@ -8,7 +8,7 @@ Feature vector schema version (config.FEATURE_VECTOR_VERSION) is stored with
 every vector row; mismatched vectors are detected and can be recomputed.
 
 Usage:
-    from substrates.music.db.track_db import TrackDB
+    from substrates.music.atlas_integration.track_db import TrackDB
     db = TrackDB()
     db.insert_track({"file_path": "...", "title": "...", ...})
 """
@@ -27,7 +27,7 @@ import numpy as np
 
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
-from substrates.music.config import DB_PATH, FEATURE_VECTOR_VERSION, FEATURE_VECTOR_DIM
+from substrates.music.ingestion.config import DB_PATH, FEATURE_VECTOR_VERSION, FEATURE_VECTOR_DIM
 
 SCHEMA_PATH = Path(__file__).parent / "schema.sql"
 

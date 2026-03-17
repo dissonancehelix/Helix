@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_story_text",
+    "track_name": "06 - Story Text",
+    "album": "The Terminator",
+    "composer": "Matt Furniss",
+    "year": "1991/07/06",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 166052,
+        "complexity": 0.111
+    },
+    "_type": "music:track"
+}

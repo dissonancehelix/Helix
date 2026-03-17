@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_above_ground_aircraft_carrier",
+    "track_name": "10 - Above Ground Aircraft Carrier",
+    "album": "U.N. Squadron",
+    "composer": "Manami Matsumae",
+    "year": "1989",
+    "track_order": "10/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

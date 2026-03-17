@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_dear_friend",
+    "track_name": "25 - Dear Friend",
+    "album": "Aggressors of Dark Kombat",
+    "composer": "Hiroaki Shimizu",
+    "year": "1994-07-26",
+    "track_order": "25/31",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

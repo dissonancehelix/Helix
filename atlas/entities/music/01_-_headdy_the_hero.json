@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_headdy_the_hero",
+    "track_name": "01 - Headdy the Hero",
+    "album": "Dynamite Headdy",
+    "composer": "Katsuhiko Suzuki",
+    "year": "1994",
+    "track_order": "1/32",
+    "chip_data": {
+        "fm_writes": 38254,
+        "complexity": 0.426
+    },
+    "_type": "music:track"
+}

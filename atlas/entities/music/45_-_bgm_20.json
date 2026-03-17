@@ -1,0 +1,13 @@
+{
+    "entity_id": "45_-_bgm_20",
+    "track_name": "45 - BGM 20",
+    "album": "Shooting Tsukuru 98",
+    "composer": "Masamichi Iwasaki",
+    "year": "1994-09-09",
+    "track_order": "45/50",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

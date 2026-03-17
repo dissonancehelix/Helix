@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_siberian_wilderness_1_~_drive_wheel",
+    "track_name": "06 - Siberian Wilderness 1 ~ Drive Wheel",
+    "album": "Strider",
+    "composer": "Junko Tamiya",
+    "year": "1989",
+    "track_order": "6/18#",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_fight!",
+    "track_name": "02 - Fight!",
+    "album": "Teenage Mutant Ninja Turtles II: The Arcade Game",
+    "composer": "Mutsuhiko Izumi",
+    "year": "1990-12-17",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

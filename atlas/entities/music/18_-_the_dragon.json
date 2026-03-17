@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_the_dragon",
+    "track_name": "18 - The Dragon",
+    "album": "The Immortal",
+    "composer": "Rob Hubbard",
+    "year": "1991/07/11",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 69147,
+        "complexity": 0.386
+    },
+    "_type": "music:track"
+}

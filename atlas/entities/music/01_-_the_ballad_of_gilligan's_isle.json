@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_the_ballad_of_gilligan's_isle",
+    "track_name": "01 - The Ballad of Gilligan's Isle",
+    "album": "The Adventures of Gilligan's Island",
+    "composer": "Masaki Hashimoto",
+    "year": "1990-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

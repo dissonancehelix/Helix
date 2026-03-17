@@ -1,0 +1,13 @@
+{
+    "entity_id": "35_-_bad_end",
+    "track_name": "35 - Bad End",
+    "album": "Filsnown",
+    "composer": "Naoya Shimokawa",
+    "year": "1995-08-03",
+    "track_order": "35/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

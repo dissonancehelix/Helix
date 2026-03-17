@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_yushis_-_battle_theme",
+    "track_name": "10 - Yushis - Battle Theme",
+    "album": "Phantasy Star II Text Adventures",
+    "composer": "Sachio Ogawa ",
+    "year": "1990",
+    "track_order": "10/15",
+    "chip_data": {
+        "fm_writes": 26396,
+        "complexity": 0.321
+    },
+    "_type": "music:track"
+}

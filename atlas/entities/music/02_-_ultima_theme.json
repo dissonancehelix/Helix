@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_ultima_theme",
+    "track_name": "02 - Ultima Theme",
+    "album": "Ultima VI: The False Prophet",
+    "composer": "Ken Arnold",
+    "year": "1990",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 9,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_intermission",
+    "track_name": "06 - Intermission",
+    "album": "Maniac Mansion",
+    "composer": "Tsukasa Tawada",
+    "year": "1988-06-23",
+    "track_order": "6/10",
+    "chip_data": {
+        "fm_writes": 20,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

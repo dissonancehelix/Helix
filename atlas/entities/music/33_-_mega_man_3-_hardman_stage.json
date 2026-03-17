@@ -1,0 +1,13 @@
+{
+    "entity_id": "33_-_mega_man_3-_hardman_stage",
+    "track_name": "33 - Mega Man 3- Hardman Stage",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "33/55",
+    "chip_data": {
+        "fm_writes": 28751,
+        "complexity": 0.9610000000000001
+    },
+    "_type": "music:track"
+}

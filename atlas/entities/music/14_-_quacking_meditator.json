@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_quacking_meditator",
+    "track_name": "14 - Quacking Meditator",
+    "album": "Aero Fighters 3",
+    "composer": "Soshi Hosoi",
+    "year": "1995",
+    "track_order": "14/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

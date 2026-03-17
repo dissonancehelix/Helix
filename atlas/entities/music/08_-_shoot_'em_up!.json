@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_shoot_'em_up!",
+    "track_name": "08 - Shoot 'Em Up!",
+    "album": "Desert Assault",
+    "composer": "Hiroaki Yoshida",
+    "year": "1991",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

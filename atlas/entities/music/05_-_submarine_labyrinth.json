@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_submarine_labyrinth",
+    "track_name": "05 - Submarine Labyrinth",
+    "album": "Euphory",
+    "composer": "Manabu Saito",
+    "year": "1987",
+    "track_order": "5/17",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

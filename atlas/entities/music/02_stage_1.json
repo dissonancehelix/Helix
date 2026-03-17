@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_stage_1",
+    "track_name": "02 Stage 1",
+    "album": "Aliens: Alien 2",
+    "composer": "Nobuo Uematsu",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

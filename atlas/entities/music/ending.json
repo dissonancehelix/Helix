@@ -1,0 +1,13 @@
+{
+    "entity_id": "ending",
+    "track_name": "Ending",
+    "album": "Fleet Commander",
+    "composer": "Katsuhiro Hatano",
+    "year": "1988-03-29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

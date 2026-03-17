@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_factory_marion",
+    "track_name": "14 - Factory Marion",
+    "album": "Voltage Fighter Gowcaizer",
+    "composer": "Chikaki Iizuka",
+    "year": "1995-09-18",
+    "track_order": "14/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

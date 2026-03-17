@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_epicurean",
+    "track_name": "20 - Epicurean",
+    "album": "SD Snatcher",
+    "composer": "Masahiro Ikariko",
+    "year": "1990",
+    "track_order": "20/53",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

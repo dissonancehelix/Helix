@@ -1,0 +1,13 @@
+{
+    "entity_id": "balloon_trip,_bonus_stage",
+    "track_name": "Balloon Trip, Bonus Stage",
+    "album": "Balloon Fight",
+    "composer": "Hip Tanaka",
+    "year": "1985-01-22",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 54,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

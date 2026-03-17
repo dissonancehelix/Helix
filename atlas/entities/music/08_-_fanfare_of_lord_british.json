@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_fanfare_of_lord_british",
+    "track_name": "08 - Fanfare of Lord British",
+    "album": "Ultima IV: Quest of the Avatar",
+    "composer": "Ken Arnold",
+    "year": "1985",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

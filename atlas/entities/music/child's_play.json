@@ -1,0 +1,13 @@
+{
+    "entity_id": "child's_play",
+    "track_name": "Child's Play",
+    "album": "Athletic Land",
+    "composer": "Konami Kukeiha Club",
+    "year": "1984",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_the_quacker_tracker",
+    "track_name": "12 The Quacker Tracker",
+    "album": "Daffy Duck in Hollywood",
+    "composer": "Matt Furniss",
+    "year": "1995-01",
+    "track_order": "9/10",
+    "chip_data": {
+        "fm_writes": 15095,
+        "complexity": 0.475
+    },
+    "_type": "music:track"
+}

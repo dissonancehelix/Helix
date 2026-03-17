@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_straw_berry,_star_light",
+    "track_name": "07 - Straw Berry, Star Light",
+    "album": "Cuty Suzuki no Ringside Angel",
+    "composer": "Akihiko Mori",
+    "year": "1990/12/12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 136280,
+        "complexity": 0.446
+    },
+    "_type": "music:track"
+}

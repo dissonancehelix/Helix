@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_rising_sun",
+    "track_name": "01 - Rising Sun",
+    "album": "Final Fantasy Adventure",
+    "composer": "Kenji Ito",
+    "year": "1991-06-28",
+    "track_order": "1/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,9 @@
+{
+    "entity_id": "26_-_sub-boss_(s&k)",
+    "track_name": "26 - Sub-Boss (S&K)",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.45,
+    "rationale": "High YM2612 algorithm complexity (0.45) matches Maeda signature.",
+    "_type": "music:track"
+}

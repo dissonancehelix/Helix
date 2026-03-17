@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_low_tention_~_hi_position",
+    "track_name": "02 - Low Tention ~ Hi Position",
+    "album": "Marusa no Onna",
+    "composer": "Tamayo Kawamoto",
+    "year": "1989-09-19",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

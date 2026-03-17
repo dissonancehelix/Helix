@@ -1,0 +1,49 @@
+{
+  "doc_id": "YM2612_manual",
+  "entities": [
+    {
+      "id": "music.sound_chip:ym2612",
+      "type": "SoundChip",
+      "name": "YM2612",
+      "description": "6-channel FM synthesizer chip used in the Sega Genesis / Mega Drive. 4 operators per channel.",
+      "metadata_candidate": {
+        "manufacturer": "Yamaha",
+        "chip_type": "FM Synthesizer",
+        "channels": 6,
+        "operators_per_channel": 4
+      }
+    },
+    {
+      "id": "music.knowledge_source:ym2612_manual",
+      "type": "KnowledgeSource",
+      "name": "YM2612 Application Manual",
+      "description": "Official technical documentation for the YM2612 chip hardware and register map.",
+      "metadata_candidate": {
+        "format": "PDF",
+        "is_source": true
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": "music.knowledge_source:ym2612_manual",
+      "relation": "DESCRIBES",
+      "target": "music.sound_chip:ym2612"
+    },
+    {
+      "source": "music.sound_chip:ym2612",
+      "relation": "USED_BY",
+      "target": "music.platform:mega_drive"
+    }
+  ],
+  "invariants": [
+    {
+      "name": "Operator Phase Invariant",
+      "description": "FM operator phase reset ensures deterministic timbral behavior at key-on."
+    },
+    {
+      "name": "Series Modulation Compression",
+      "description": "Increase in modulator stack depth (Algorithms 0-3) compresses available harmonic space into high-frequency sidebands."
+    }
+  ]
+}

@@ -23,7 +23,7 @@ if TYPE_CHECKING:
     from core.kernel.schema.entities.registry import EntityRegistry
 
 _DEFAULT_GRAPH_PATH = (
-    Path(__file__).parent.parent.parent / "atlas" / "entities" / "entity_graph.json"
+    Path(__file__).parent.parent.parent.parent.parent / "atlas" / "entities" / "entity_graph.json"
 )
 
 # Entity node types — must not overlap with AtlasGraph NODE_TYPES

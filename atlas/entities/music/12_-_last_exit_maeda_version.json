@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_last_exit_maeda_version",
+    "track_name": "12 - Last Exit (Maeda Version)",
+    "album": "Salamander 2",
+    "composer": "Motoaki Furukawa",
+    "year": "1996-01",
+    "track_order": "12/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

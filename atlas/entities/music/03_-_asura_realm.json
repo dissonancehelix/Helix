@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_asura_realm",
+    "track_name": "03 - Asura Realm",
+    "album": "Sengoku 3",
+    "composer": "Toshikazu Tanaka",
+    "year": "2001",
+    "track_order": "3/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_final_boss_part_3",
+    "track_name": "13 - Final Boss (Part 3)",
+    "album": "Battle Mania",
+    "composer": "Hiroto Kanno",
+    "year": "1991/07/11",
+    "track_order": "13/15",
+    "chip_data": {
+        "fm_writes": 19063,
+        "complexity": 0.125
+    },
+    "_type": "music:track"
+}

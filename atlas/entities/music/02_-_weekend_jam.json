@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_weekend_jam",
+    "track_name": "02 - Weekend Jam",
+    "album": "Hatris",
+    "composer": "Hiroshi Suzuki",
+    "year": "1991-10-18",
+    "track_order": "2/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

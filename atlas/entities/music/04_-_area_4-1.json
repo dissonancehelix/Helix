@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_area_4-1",
+    "track_name": "04 - Area 4-1",
+    "album": "Ikari III: The Rescue",
+    "composer": "Kikuko Hataya",
+    "year": "1989-03",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

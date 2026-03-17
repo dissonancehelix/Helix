@@ -1,0 +1,9 @@
+{
+    "entity_id": "01_-_angel_island_zone_act_1",
+    "track_name": "01 - Angel Island Zone Act 1",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.46,
+    "rationale": "High YM2612 algorithm complexity (0.46) matches Maeda signature.",
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_funpark_act_1_n_woods_act_3",
+    "track_name": "10 - Funpark Act 1 & Woods Act 3",
+    "album": "Aero the Acro-Bat",
+    "composer": "Rick Fox",
+    "year": "1993",
+    "track_order": "10/23",
+    "chip_data": {
+        "fm_writes": 38143,
+        "complexity": 0.22
+    },
+    "_type": "music:track"
+}

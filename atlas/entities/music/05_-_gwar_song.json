@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_gwar_song",
+    "track_name": "05 - Gwar Song",
+    "album": "Beavis and Butt-head",
+    "composer": "Marc Baril",
+    "year": "1994",
+    "track_order": "5/19",
+    "chip_data": {
+        "fm_writes": 9612,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

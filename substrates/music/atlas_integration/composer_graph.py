@@ -42,7 +42,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from substrates.music.knowledge.composer_schema import (
+from substrates.music.atlas_integration.composer_schema import (
     ComposerNode, GameNode, Relationship, SoundTeamNode, TrackNode,
     SoundtrackNode, StudioNode, PlatformNode, SoundDriverNode,
     SEED_COMPOSERS, SEED_SOUND_TEAMS, S3K_GAME,

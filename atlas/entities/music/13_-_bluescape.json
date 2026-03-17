@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_bluescape",
+    "track_name": "13 - Bluescape",
+    "album": "Battle Garegga",
+    "composer": "Manabu Namiki",
+    "year": "1996-02-03",
+    "track_order": "13/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

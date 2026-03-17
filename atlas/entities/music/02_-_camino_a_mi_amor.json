@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_camino_a_mi_amor",
+    "track_name": "02 - Camino a Mi Amor",
+    "album": "3D OutRun",
+    "composer": "Jaelyn Nisperos",
+    "year": "2014-04-23",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

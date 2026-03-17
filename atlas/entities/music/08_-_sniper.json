@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_sniper",
+    "track_name": "08 - Sniper",
+    "album": "Herzog Zwei",
+    "composer": "Naosuke Arai",
+    "year": "1989/12/15",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 40295,
+        "complexity": 0.396
+    },
+    "_type": "music:track"
+}

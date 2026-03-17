@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_taratuness",
+    "track_name": "08 - Taratuness",
+    "album": "Dragon Slayer IV: Drasle Family",
+    "composer": "Yuzo Koshiro",
+    "year": "1987-10",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

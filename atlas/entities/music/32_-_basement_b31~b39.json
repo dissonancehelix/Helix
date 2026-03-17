@@ -1,0 +1,13 @@
+{
+    "entity_id": "32_-_basement_b31~b39",
+    "track_name": "32 - Basement (B31~B39)",
+    "album": "Dark Arms: Beast Buster 1999",
+    "composer": "Toshikazu Tanaka",
+    "year": "1999-10-21",
+    "track_order": "32/38",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

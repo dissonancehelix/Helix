@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_splend",
+    "track_name": "05 - Splend",
+    "album": "Super Daisenryaku",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1989/04/29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 17334,
+        "complexity": 0.649
+    },
+    "_type": "music:track"
+}

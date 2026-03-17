@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_theme_of_roll",
+    "track_name": "20 - Theme of Roll",
+    "album": "Marvel vs. Capcom",
+    "composer": "Yuko Takehara",
+    "year": "1998",
+    "track_order": "20/35",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

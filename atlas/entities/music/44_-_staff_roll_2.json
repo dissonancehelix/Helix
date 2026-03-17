@@ -1,0 +1,13 @@
+{
+    "entity_id": "44_-_staff_roll_2",
+    "track_name": "44 - Staff Roll 2",
+    "album": "Night Warriors: Darkstalkers' Revenge",
+    "composer": "Takayuki Iwai",
+    "year": "1995",
+    "track_order": "44/44",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "37_-_fascinate",
+    "track_name": "37 - Fascinate",
+    "album": "Kakyusei",
+    "composer": "Manabu Kunieda",
+    "year": "1996-06-07",
+    "track_order": "37/47",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

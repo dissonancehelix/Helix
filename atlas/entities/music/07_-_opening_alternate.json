@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_opening_alternate",
+    "track_name": "07 - Opening (alternate)",
+    "album": "Speed Racer",
+    "composer": "Shinji Hosoe",
+    "year": "1995",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

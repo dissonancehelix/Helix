@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_day_2-_metalhead",
+    "track_name": "02 - Day 2- Metalhead",
+    "album": "Vectorman",
+    "composer": "Jon Holland",
+    "year": "1995",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 31836,
+        "complexity": 0.8360000000000001
+    },
+    "_type": "music:track"
+}

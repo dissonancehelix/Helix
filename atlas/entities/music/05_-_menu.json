@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_menu",
+    "track_name": "05 - Menu",
+    "album": "Popful Mail",
+    "composer": "Mieko Ishikawa",
+    "year": "1992",
+    "track_order": "5/27",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_bgm_3",
+    "track_name": "07 - BGM 3",
+    "album": "Harukanaru Augusta",
+    "composer": "Yumi Satake",
+    "year": "1991",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 14801,
+        "complexity": 0.334
+    },
+    "_type": "music:track"
+}

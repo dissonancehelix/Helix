@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_climax!_orgaban",
+    "track_name": "13 - Climax! Orgaban",
+    "album": "Goice",
+    "composer": "Takahiro Yonemura",
+    "year": "1994-12-15",
+    "track_order": "13/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

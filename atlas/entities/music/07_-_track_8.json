@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_track_8",
+    "track_name": "07 - Track 8",
+    "album": "Man Overboard!",
+    "composer": "Tony Williams",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 252763,
+        "complexity": 0.6559999999999999
+    },
+    "_type": "music:track"
+}

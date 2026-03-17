@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_space_battleship_war",
+    "track_name": "04 - Space Battleship War",
+    "album": "Gravity Response",
+    "composer": "Takahiro Yonemura",
+    "year": "1993-02-01",
+    "track_order": "4/13",
+    "chip_data": {
+        "fm_writes": 45,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

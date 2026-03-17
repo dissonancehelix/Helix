@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_i'll_kiss_u",
+    "track_name": "16 - I'll Kiss U",
+    "album": "Goice",
+    "composer": "Takahiro Yonemura",
+    "year": "1994-12-15",
+    "track_order": "16/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

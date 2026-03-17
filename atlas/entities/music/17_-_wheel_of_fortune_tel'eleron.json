@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_wheel_of_fortune_tel'eleron",
+    "track_name": "17 - Wheel of Fortune Tel'Eleron",
+    "album": "Dungeons & Dragons: Shadow Over Mystara",
+    "composer": "Masato Kouda'",
+    "year": "1996",
+    "track_order": "17/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

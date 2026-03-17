@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_which_girl_will_you_chose",
+    "track_name": "01 - Which Girl Will You Chose",
+    "album": "Tokimeki Memorial Taisen Puzzle-Dama",
+    "composer": "Kazuhiro Senoo",
+    "year": "1995-12",
+    "track_order": "1/35",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

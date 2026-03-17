@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_stage_4_boss",
+    "track_name": "09 - Stage 4 Boss",
+    "album": "D-Return",
+    "composer": "Norihiro Akasaka",
+    "year": "1989-03",
+    "track_order": "9/32",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

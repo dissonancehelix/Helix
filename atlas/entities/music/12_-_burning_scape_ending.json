@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_burning_scape_ending",
+    "track_name": "12 - Burning Scape (Ending)",
+    "album": "Psychic Force",
+    "composer": "Hideki Takahagi",
+    "year": "1995",
+    "track_order": "12/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

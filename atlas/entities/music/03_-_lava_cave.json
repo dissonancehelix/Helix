@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_lava_cave",
+    "track_name": "03 - Lava Cave",
+    "album": "Etoile Princesse",
+    "composer": "Hiroyuki Saegusa",
+    "year": "1993-03-26",
+    "track_order": "3/23",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

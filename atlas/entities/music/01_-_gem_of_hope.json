@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_gem_of_hope",
+    "track_name": "01 - Gem of Hope",
+    "album": "Tengai",
+    "composer": "Masaki Izutani",
+    "year": "1996",
+    "track_order": "1/19",
+    "chip_data": {
+        "fm_writes": 104,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

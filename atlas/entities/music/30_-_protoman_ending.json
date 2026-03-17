@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_protoman_ending",
+    "track_name": "30 - Protoman Ending",
+    "album": "Mega Man 2: The Power Fighters",
+    "composer": "Setsuo Yamamoto",
+    "year": "1996",
+    "track_order": "30/34",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

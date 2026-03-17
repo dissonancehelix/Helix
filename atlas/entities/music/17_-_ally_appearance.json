@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_ally_appearance",
+    "track_name": "17 - Ally Appearance",
+    "album": "Radia Senki: Reimei Hen",
+    "composer": "Keiji Yamagishi",
+    "year": "1991-11-15",
+    "track_order": "17/31",
+    "chip_data": {
+        "fm_writes": 362,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

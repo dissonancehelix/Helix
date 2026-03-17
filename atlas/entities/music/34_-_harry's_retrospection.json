@@ -1,0 +1,13 @@
+{
+    "entity_id": "34_-_harry's_retrospection",
+    "track_name": "34 - Harry's Retrospection",
+    "album": "SD Snatcher",
+    "composer": "Masahiro Ikariko",
+    "year": "1990",
+    "track_order": "34/53",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_opening_2",
+    "track_name": "02 - Opening 2",
+    "album": "Alien",
+    "composer": "Kentaro Koyama",
+    "year": "1993",
+    "track_order": "2/26",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

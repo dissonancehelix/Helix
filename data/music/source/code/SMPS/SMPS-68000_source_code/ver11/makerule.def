@@ -1,0 +1,4 @@
+.SUFFIXES	:	.s .asm
+.SHELLCMD	:	echo echo/ del copy
+
+

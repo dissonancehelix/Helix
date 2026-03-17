@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_fire_man",
+    "track_name": "07 - Fire Man",
+    "album": "Mega Man World",
+    "composer": "Toru Odasa",
+    "year": "1991-07-26",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_section_1",
+    "track_name": "01 - Section 1",
+    "album": "Slap Fight MD",
+    "composer": "Yuzo Koshiro",
+    "year": "1993",
+    "track_order": "1/12",
+    "chip_data": {
+        "fm_writes": 34896,
+        "complexity": 0.935
+    },
+    "_type": "music:track"
+}

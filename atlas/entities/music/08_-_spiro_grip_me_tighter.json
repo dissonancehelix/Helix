@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_spiro_grip_me_tighter",
+    "track_name": "08 - Spiro Grip Me Tighter",
+    "album": "Commander Keen in Goodbye, Galaxy! Episode V: The Armageddon Machine",
+    "composer": "Bobby PrinceD",
+    "year": "1991-12-15",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

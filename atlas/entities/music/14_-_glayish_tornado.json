@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_glayish_tornado",
+    "track_name": "14 - Glayish Tornado",
+    "album": "19XX: The War Against Destiny",
+    "composer": "Syun Nishigaki",
+    "year": "1996",
+    "track_order": "14/22",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

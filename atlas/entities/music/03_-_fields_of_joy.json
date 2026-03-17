@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_fields_of_joy",
+    "track_name": "03 - Fields Of Joy",
+    "album": "Farland Story: Juuou no Akashi",
+    "composer": "Masataka Kitaura",
+    "year": "1995-10-11",
+    "track_order": "3/29",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

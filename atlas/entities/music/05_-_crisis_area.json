@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_crisis_area",
+    "track_name": "05 - Crisis Area",
+    "album": "Illusion City",
+    "composer": "Tadahiro Nitta",
+    "year": "1991",
+    "track_order": "5/33",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

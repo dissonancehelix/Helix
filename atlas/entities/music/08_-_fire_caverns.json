@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_fire_caverns",
+    "track_name": "08 - Fire Caverns",
+    "album": "Wizards & Warriors",
+    "composer": "David Wise",
+    "year": "1987",
+    "track_order": "8/10",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

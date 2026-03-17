@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_chicago_[stage_6]",
+    "track_name": "08 - Chicago [Stage 6]",
+    "album": "Ninja Baseball Bat Man",
+    "composer": "Hayashi Sho",
+    "year": "1993",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 19,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

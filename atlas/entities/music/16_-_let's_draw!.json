@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_let's_draw!",
+    "track_name": "16 - Let's Draw!",
+    "album": "Futari wa Pretty Cure",
+    "composer": "Kazuhiro Ogawa",
+    "year": "2004-06",
+    "track_order": "16/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

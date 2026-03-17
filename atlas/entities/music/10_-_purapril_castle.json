@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_purapril_castle",
+    "track_name": "10 - Purapril Castle",
+    "album": "Wonder Boy in Monster World",
+    "composer": "Shinichi Sakamoto",
+    "year": "1991/10/25",
+    "track_order": "10/23",
+    "chip_data": {
+        "fm_writes": 37308,
+        "complexity": 0.961
+    },
+    "_type": "music:track"
+}

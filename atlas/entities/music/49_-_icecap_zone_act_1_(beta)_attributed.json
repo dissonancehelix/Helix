@@ -1,0 +1,9 @@
+{
+    "entity_id": "49_-_icecap_zone_act_1_(beta)",
+    "track_name": "49 - IceCap Zone Act 1 (Beta)",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.55,
+    "rationale": "High YM2612 algorithm complexity (0.55) matches Maeda signature.",
+    "_type": "music:track"
+}

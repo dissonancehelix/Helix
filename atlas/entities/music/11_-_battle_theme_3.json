@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_battle_theme_3",
+    "track_name": "11 - Battle Theme 3",
+    "album": "Beggar Prince",
+    "composer": "Zhenglong Zhang",
+    "year": "1996",
+    "track_order": "11/25",
+    "chip_data": {
+        "fm_writes": 8580,
+        "complexity": 0.842
+    },
+    "_type": "music:track"
+}

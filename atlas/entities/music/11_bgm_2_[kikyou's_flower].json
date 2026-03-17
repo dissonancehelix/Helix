@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_bgm_2_[kikyou's_flower]",
+    "track_name": "11 BGM 2 [Kikyou's Flower]",
+    "album": "Album artist",
+    "composer": "Keishi Yonao",
+    "year": "1993-06-19",
+    "track_order": "10/15",
+    "chip_data": {
+        "fm_writes": 19679,
+        "complexity": 0.514
+    },
+    "_type": "music:track"
+}

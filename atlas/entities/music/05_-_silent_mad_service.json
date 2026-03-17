@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_silent_mad_service",
+    "track_name": "05 - Silent Mad Service",
+    "album": "Insector X",
+    "composer": "Cube",
+    "year": "1990/09/07",
+    "track_order": "5/10",
+    "chip_data": {
+        "fm_writes": 6789,
+        "complexity": 0.667
+    },
+    "_type": "music:track"
+}

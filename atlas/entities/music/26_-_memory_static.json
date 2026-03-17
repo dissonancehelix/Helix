@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_memory_static",
+    "track_name": "26 - Memory Static",
+    "album": "Pulseman",
+    "composer": "Junichi Masuda",
+    "year": "1994",
+    "track_order": "26/33",
+    "chip_data": {
+        "fm_writes": 4487,
+        "complexity": 0.84
+    },
+    "_type": "music:track"
+}

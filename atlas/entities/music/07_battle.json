@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_battle",
+    "track_name": "07 Battle",
+    "album": "Wizardry III+IV",
+    "composer": "Hisashi Matsushita",
+    "year": "1994-03-04",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 60,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

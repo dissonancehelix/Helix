@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:ym2203",
+  "name": "Sound Chip: YM2203",
+  "type": "SoundChip",
+  "libvgm_id": "0x06"
+}

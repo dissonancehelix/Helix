@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_page_3_bgm",
+    "track_name": "09 - Page 3 BGM",
+    "album": "Futari wa Pretty Cure",
+    "composer": "Kazuhiro Ogawa",
+    "year": "2004-06",
+    "track_order": "9/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

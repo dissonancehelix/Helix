@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_thrust_and_thrash!",
+    "track_name": "06 - Thrust and Thrash!",
+    "album": "Battle Garegga",
+    "composer": "Manabu Namiki",
+    "year": "1996-02-03",
+    "track_order": "6/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

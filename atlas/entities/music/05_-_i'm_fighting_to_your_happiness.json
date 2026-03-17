@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_i'm_fighting_to_your_happiness",
+    "track_name": "05 - I'm Fighting To Your Happiness",
+    "album": "ChoRenSha 68K",
+    "composer": "Ruzarin Kashiwagi",
+    "year": "1995",
+    "track_order": "5/12",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,15 +1,22 @@
 import os
+import sys
+from pathlib import Path
+
+# Helix Root — Ensures substrates can be imported when run as a script
+helix_root = Path(__file__).resolve().parent.parent.parent.parent
+if str(helix_root) not in sys.path:
+    sys.path.insert(0, str(helix_root))
+
 import json
 import pandas as pd
 import numpy as np
 import re
-from pathlib import Path
 from typing import List, Dict, Any, Optional
 from concurrent.futures import ThreadPoolExecutor
 import mutagen
 from mutagen import File as MutagenFile
 
-from substrates.music.config import (
+from substrates.music.ingestion.config import (
     LIBRARY_ROOT as LIBRARY_PATH,
     ARTIFACTS as ARTIFACTS_DIR,
     REPORTS as REPORTS_DIR,
@@ -17,7 +24,7 @@ from substrates.music.config import (
     FOOBAR_APPDATA,
 )
 from substrates.music.ingestion.adapters.metadb_sqlite import MetadbSqliteReader
-from substrates.music.db.track_db import TrackDB
+from substrates.music.atlas_integration.track_db import TrackDB
 
 # Format Definitions
 EMULATED_FORMATS = {
@@ -161,9 +168,12 @@ class MetadataProcessor:
                         # APE keys are often simple strings
                         norm_key = str(key).upper().replace(' ', '_')
                         if norm_key not in meta:
-                            meta[norm_key] = str(val)
+                            # Handle multi-value APE tags (Mutagen lists)
+                            if isinstance(val.value, list):
+                                meta[norm_key] = " / ".join(str(v) for v in val.value)
+                            else:
+                                meta[norm_key] = str(val.value)
                 except Exception as e:
-                    # print(f"  APE parse error: {e}")
                     pass
 
             # 2. Mutagen (Internal Metadata)

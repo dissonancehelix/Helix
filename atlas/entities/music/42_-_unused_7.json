@@ -1,0 +1,13 @@
+{
+    "entity_id": "42_-_unused_7",
+    "track_name": "42 - Unused 7",
+    "album": "Emerald Dragon",
+    "composer": "Nobuhito Koise",
+    "year": "1989-12-12",
+    "track_order": "42/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

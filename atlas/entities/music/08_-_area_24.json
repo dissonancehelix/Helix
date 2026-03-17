@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_area_24",
+    "track_name": "08 - Area 24",
+    "album": "Terra Cresta II: Mandler no Gyakushuu",
+    "composer": "Akihiro Akamatsu",
+    "year": "1992-11-27",
+    "track_order": "8/20",
+    "chip_data": {
+        "fm_writes": 26,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

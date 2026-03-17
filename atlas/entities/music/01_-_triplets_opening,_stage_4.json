@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_triplets_opening,_stage_4",
+    "track_name": "01 - Triplets (Opening, Stage 4)",
+    "album": "Q*bert",
+    "composer": "Jake Kaufman",
+    "year": "2000",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

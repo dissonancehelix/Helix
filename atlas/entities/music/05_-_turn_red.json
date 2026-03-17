@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_turn_red",
+    "track_name": "05 - Turn Red",
+    "album": "Strikers 1945 III",
+    "composer": "Masaki Izutani",
+    "year": "1999",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 395,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

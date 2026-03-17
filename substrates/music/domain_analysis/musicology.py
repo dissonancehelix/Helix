@@ -34,7 +34,7 @@ def run(pipeline: "MusicSubstratePipeline") -> None:
         return
 
     try:
-        from substrates.music.config import ARTIFACTS, TIER_C_SYMBOLIC, VGM_ROOT, LIBRARY_ROOT
+        from substrates.music.ingestion.config import ARTIFACTS, TIER_C_SYMBOLIC, VGM_ROOT, LIBRARY_ROOT
         from substrates.music.analysis.theory_features.key_estimator import estimate, pitch_histogram
         from substrates.music.analysis.theory_features.rhythm_analyzer import analyze as analyze_rhythm
         from substrates.music.analysis.theory_features.motif_detector  import detect as detect_motifs

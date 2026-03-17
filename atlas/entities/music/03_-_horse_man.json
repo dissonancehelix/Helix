@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_horse_man",
+    "track_name": "03 - Horse Man",
+    "album": "Knight Move",
+    "composer": "Hip Tanaka",
+    "year": "1990-06-05",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_fairyland_field",
+    "track_name": "05 Fairyland (Field)",
+    "album": "Hydlide 3",
+    "composer": "Shigeru Tomita",
+    "year": "1987-11-21",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

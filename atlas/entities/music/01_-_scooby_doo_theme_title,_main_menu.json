@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_scooby_doo_theme_title,_main_menu",
+    "track_name": "01 - Scooby Doo Theme (Title, Main Menu)",
+    "album": "Scooby-Doo Mystery",
+    "composer": "Mark Miller",
+    "year": "1995-09",
+    "track_order": "1/11#",
+    "chip_data": {
+        "fm_writes": 12294,
+        "complexity": 0.244
+    },
+    "_type": "music:track"
+}

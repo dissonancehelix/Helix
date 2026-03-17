@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_china_event",
+    "track_name": "07 - China Event",
+    "album": "Princess Maker: Yumemiru Yousei",
+    "composer": "Masahiro Kajihara",
+    "year": "1998",
+    "track_order": "7/30",
+    "chip_data": {
+        "fm_writes": 120,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

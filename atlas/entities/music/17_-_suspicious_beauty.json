@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_suspicious_beauty",
+    "track_name": "17 - Suspicious Beauty",
+    "album": "Elemental Master",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1990/12/14",
+    "track_order": "17/22",
+    "chip_data": {
+        "fm_writes": 19866,
+        "complexity": 0.5
+    },
+    "_type": "music:track"
+}

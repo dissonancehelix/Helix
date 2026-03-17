@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_with_a_tension_'again'",
+    "track_name": "09 - With a Tension 'Again'",
+    "album": "Time Crisis II",
+    "composer": "Kazuhiro Nakamura",
+    "year": "1998",
+    "track_order": "9/16",
+    "chip_data": {
+        "fm_writes": 8,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

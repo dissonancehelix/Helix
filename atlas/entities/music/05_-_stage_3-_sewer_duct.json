@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stage_3-_sewer_duct",
+    "track_name": "05 - Stage 3- Sewer Duct",
+    "album": "Skeleton Krew",
+    "composer": "Nathan McCree",
+    "year": "1995",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 37938,
+        "complexity": 0.673
+    },
+    "_type": "music:track"
+}

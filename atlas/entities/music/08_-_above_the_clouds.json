@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_above_the_clouds",
+    "track_name": "08 - Above the Clouds",
+    "album": "Gun & Frontier",
+    "composer": "Hidetoshi Fukumori",
+    "year": "1991-01",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

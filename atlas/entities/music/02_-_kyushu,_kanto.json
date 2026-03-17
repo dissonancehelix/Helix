@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_kyushu,_kanto",
+    "track_name": "02 - Kyushu, Kanto",
+    "album": "Ganbare Goemon 2",
+    "composer": "Michiru Yamane",
+    "year": "1989",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

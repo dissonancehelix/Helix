@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_let's_go_samus",
+    "track_name": "06 - Let's Go Samus",
+    "album": "Galactic Pinball",
+    "composer": "Kenji Yamamoto",
+    "year": "1995-07-21",
+    "track_order": "6/21",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

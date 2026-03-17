@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_untamable_fists",
+    "track_name": "27 - Untamable Fists",
+    "album": "Street Fighter Alpha 3",
+    "composer": "Hideki Okugawa",
+    "year": "1998-07",
+    "track_order": "27/39",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

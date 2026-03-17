@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_graphic_mode",
+    "track_name": "15 - Graphic Mode",
+    "album": "Marble Cooking",
+    "composer": "Katsumi Mirai",
+    "year": "1994-12-16",
+    "track_order": "15/16",
+    "chip_data": {
+        "fm_writes": 7,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

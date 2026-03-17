@@ -156,12 +156,12 @@ COMMAND_REGISTRY: dict[str, CommandSpec] = {
     ),
     "DISCOVER": CommandSpec(
         verb="DISCOVER",
-        subcommands=frozenset({"invariants", "regimes", "probes"}),
+        subcommands=frozenset({"invariants", "experiments", "crossdomain", "execute"}),
         required_target_types=frozenset({"invariant", "domain"}),
-        optional_params=frozenset({"domain", "threshold"}),
-        description="Search for recurring patterns across validated experiments.",
-        example="DISCOVER invariants domain:swarm",
-        allows_no_subcommand=True,
+        optional_params=frozenset({"domain", "threshold", "verbose"}),
+        description="Search for or execute Atlas-driven discovery patterns.",
+        example="DISCOVER experiments invariant:decision_compression",
+        allows_no_subcommand=False,
     ),
     "SCAN": CommandSpec(
         verb="SCAN",
@@ -231,11 +231,11 @@ COMMAND_REGISTRY: dict[str, CommandSpec] = {
     ),
     "OPERATOR": CommandSpec(
         verb="OPERATOR",
-        subcommands=frozenset({"log", "status", "profile"}),
+        subcommands=frozenset({"log", "status", "profile", "list", "registry"}),
         required_target_types=frozenset(),
         optional_params=frozenset({"message", "context", "level"}),
-        description="Manage operator context and logging.",
-        example="OPERATOR log message:'Observed phase shift in Kuramoto trials'",
+        description="Manage and introspect the operator registry.",
+        example="OPERATOR list",
         allows_no_subcommand=False,
     ),
     "ENTITY": CommandSpec(

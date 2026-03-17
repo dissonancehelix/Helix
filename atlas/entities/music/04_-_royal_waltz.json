@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_royal_waltz",
+    "track_name": "04 - Royal Waltz",
+    "album": "Phantasy Star III",
+    "composer": "Izuho Numata",
+    "year": "1990/04/21",
+    "track_order": "4/33",
+    "chip_data": {
+        "fm_writes": 37008,
+        "complexity": 0.909
+    },
+    "_type": "music:track"
+}

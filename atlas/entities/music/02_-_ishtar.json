@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_ishtar",
+    "track_name": "02 - Ishtar",
+    "album": "The Quest of Ki",
+    "composer": "Junko Ozawa",
+    "year": "1988-07-22",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

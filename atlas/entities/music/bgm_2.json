@@ -1,0 +1,13 @@
+{
+    "entity_id": "bgm_2",
+    "track_name": "BGM 2",
+    "album": "Dam Dam Boy",
+    "composer": "Konami Kukeiha Club",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

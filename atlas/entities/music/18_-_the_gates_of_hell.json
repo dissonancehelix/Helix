@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_the_gates_of_hell",
+    "track_name": "18 - The Gates of Hell",
+    "album": "SD Snatcher",
+    "composer": "Seiichi Fukami",
+    "year": "1990",
+    "track_order": "18/53",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

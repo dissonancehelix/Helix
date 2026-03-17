@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_my_earth",
+    "track_name": "01 - My Earth",
+    "album": "Growl",
+    "composer": "Yasuhisa Watanabe",
+    "year": "1991-01",
+    "track_order": "1/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

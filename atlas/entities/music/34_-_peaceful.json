@@ -1,0 +1,13 @@
+{
+    "entity_id": "34_-_peaceful",
+    "track_name": "34 - Peaceful",
+    "album": "Rune Worth: Kokui no Kikoushi",
+    "composer": "Shigeru Tomita",
+    "year": "1990-01",
+    "track_order": "34/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

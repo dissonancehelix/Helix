@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_event_4",
+    "track_name": "28 - Event 4",
+    "album": "Filsnown",
+    "composer": "Shinji Orito",
+    "year": "1995-08-03",
+    "track_order": "28/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

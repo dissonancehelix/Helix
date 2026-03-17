@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_theme_of_kahoku",
+    "track_name": "04 - Theme of Kahoku",
+    "album": "Romance of the Three Kingdoms II",
+    "composer": "Minoru Mukaiya ",
+    "year": "1991/12/26",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 2620,
+        "complexity": 0.6419999999999999
+    },
+    "_type": "music:track"
+}

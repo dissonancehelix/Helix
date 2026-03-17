@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_solitary_existence_boss_2",
+    "track_name": "08 Solitary Existence (Boss 2)",
+    "album": "Partial Axiom",
+    "composer": "Naoto Ishikawa",
+    "year": "1993-06",
+    "track_order": "6/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

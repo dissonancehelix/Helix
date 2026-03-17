@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_mid-boss_battle_3",
+    "track_name": "12 - Mid-Boss Battle 3",
+    "album": "Filsnown",
+    "composer": "Naoya Shimokawa",
+    "year": "1995-08-03",
+    "track_order": "12/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

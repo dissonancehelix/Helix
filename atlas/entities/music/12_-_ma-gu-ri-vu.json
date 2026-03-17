@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_ma-gu-ri-vu",
+    "track_name": "12 - ma-gu-ri-vu",
+    "album": "Night Striker",
+    "composer": "Masahiko Takaki",
+    "year": "1989-10",
+    "track_order": "12/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_master_monster",
+    "track_name": "22 - Master Monster",
+    "album": "Sorcerian",
+    "composer": "Hiroshi Kubota",
+    "year": "1990/02/24",
+    "track_order": "22/40",
+    "chip_data": {
+        "fm_writes": 58766,
+        "complexity": 0.239
+    },
+    "_type": "music:track"
+}

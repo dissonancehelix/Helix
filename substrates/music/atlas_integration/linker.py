@@ -29,7 +29,7 @@ import logging
 from collections import defaultdict
 from typing import Any
 
-from substrates.music.knowledge.composer_graph import ComposerGraph, cid, tid
+from substrates.music.atlas_integration.composer_graph import ComposerGraph, cid, tid
 
 log = logging.getLogger(__name__)
 

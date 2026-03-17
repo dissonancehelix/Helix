@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_dr._wily_stage_1",
+    "track_name": "13 - Dr. Wily Stage 1",
+    "album": "Mega Man 3",
+    "composer": "Yasuaki Fujita",
+    "year": "1990-09-28",
+    "track_order": "13/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

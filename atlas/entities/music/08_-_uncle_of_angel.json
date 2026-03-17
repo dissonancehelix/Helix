@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_uncle_of_angel",
+    "track_name": "08 - Uncle of Angel",
+    "album": "Hatris",
+    "composer": "Takashi Nakamura",
+    "year": "1991-10-18",
+    "track_order": "8/14",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

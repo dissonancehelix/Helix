@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_flatulent_swamps",
+    "track_name": "03 - Flatulent Swamps",
+    "album": "Boogerman",
+    "composer": "Matt Furniss",
+    "year": "1994/08/06",
+    "track_order": "3/13",
+    "chip_data": {
+        "fm_writes": 16734,
+        "complexity": 0.428
+    },
+    "_type": "music:track"
+}

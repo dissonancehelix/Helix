@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_the_mambo_snake_gonna_eat_you,_boy!",
+    "track_name": "06 - The Mambo Snake Gonna Eat You, Boy!",
+    "album": "Commander Keen in Aliens Ate My Babysitter!",
+    "composer": "Bobby Prince+",
+    "year": "1991-12-15",
+    "track_order": "6/9#",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

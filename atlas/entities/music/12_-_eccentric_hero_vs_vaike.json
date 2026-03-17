@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_eccentric_hero_vs_vaike",
+    "track_name": "12 - Eccentric Hero (VS Vaike)",
+    "album": "Knuckle Heads",
+    "composer": "Takayuki Aihara",
+    "year": "1992-12",
+    "track_order": "12/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

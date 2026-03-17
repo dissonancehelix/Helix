@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_tragedy",
+    "track_name": "23 - Tragedy",
+    "album": "Pier Solar and the Great Architects",
+    "composer": "Zable Fahr#",
+    "year": "2007",
+    "track_order": "23/55",
+    "chip_data": {
+        "fm_writes": 1522,
+        "complexity": 0.062
+    },
+    "_type": "music:track"
+}

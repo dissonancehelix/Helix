@@ -1,0 +1,13 @@
+{
+    "entity_id": "49_-_wily's_tower-_hyper_storm-h_stage",
+    "track_name": "49 - Wily's Tower- Hyper Storm-H Stage",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "49/55!",
+    "chip_data": {
+        "fm_writes": 45412,
+        "complexity": 0.993
+    },
+    "_type": "music:track"
+}

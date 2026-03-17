@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_i'll_introduce_demo_bgm",
+    "track_name": "01 - I'll Introduce (Demo BGM)",
+    "album": "YuYu Hakusho: Sunset Fighters",
+    "composer": "Aki Hata",
+    "year": "1994",
+    "track_order": "1/16",
+    "chip_data": {
+        "fm_writes": 42335,
+        "complexity": 0.484
+    },
+    "_type": "music:track"
+}

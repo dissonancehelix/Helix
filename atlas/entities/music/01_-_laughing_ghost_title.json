@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_laughing_ghost_title",
+    "track_name": "01 - Laughing Ghost (Title)",
+    "album": "Legend of Hero Tonma",
+    "composer": "Masahiko Ishida",
+    "year": "1991-03-13",
+    "track_order": "1/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

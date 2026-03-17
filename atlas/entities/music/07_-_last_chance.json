@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_last_chance",
+    "track_name": "07 - Last Chance",
+    "album": "Fire Shark",
+    "composer": "Masahiro Yuge",
+    "year": "1989-11",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

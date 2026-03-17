@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_gallantry",
+    "track_name": "01 - Gallantry",
+    "album": "Raiden",
+    "composer": "Akira Sato",
+    "year": "1991-11-22",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 30,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

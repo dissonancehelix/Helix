@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_the_origin_of_mind",
+    "track_name": "11 - The Origin of Mind",
+    "album": "King of Fighters R-1",
+    "composer": "Takushi Hiyamuta",
+    "year": "1998-10-28",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

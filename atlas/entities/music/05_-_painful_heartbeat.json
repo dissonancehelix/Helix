@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_painful_heartbeat",
+    "track_name": "05 - Painful Heartbeat",
+    "album": "Get!",
+    "composer": "Youichi Iwasaki",
+    "year": "1996-09-13",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

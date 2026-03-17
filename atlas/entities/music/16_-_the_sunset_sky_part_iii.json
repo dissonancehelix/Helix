@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_the_sunset_sky_part_iii",
+    "track_name": "16 - The Sunset Sky Part III",
+    "album": "Fatal Fury 2",
+    "composer": "Toshio Shimizu",
+    "year": "1992-12",
+    "track_order": "16/22",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

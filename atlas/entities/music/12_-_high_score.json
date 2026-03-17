@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_high_score",
+    "track_name": "12 - High Score",
+    "album": "Curse",
+    "composer": "Shaka",
+    "year": "1989/12/23",
+    "track_order": "12/12",
+    "chip_data": {
+        "fm_writes": 87645,
+        "complexity": 0.39099999999999996
+    },
+    "_type": "music:track"
+}

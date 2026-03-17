@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_matching_pairs_stage",
+    "track_name": "07 - Matching Pairs Stage",
+    "album": "The Magic School Bus: Space Exploration Game",
+    "composer": "bor Folt",
+    "year": "1995",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 5396,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

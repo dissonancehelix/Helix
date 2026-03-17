@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_records",
+    "track_name": "05 - Records",
+    "album": "Virtua Racing Deluxe",
+    "composer": "Naofumi Hataya",
+    "year": "1994/12/16",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 380,
+        "complexity": 0.5
+    },
+    "_type": "music:track"
+}

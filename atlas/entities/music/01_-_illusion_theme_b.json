@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_illusion_theme_b",
+    "track_name": "01 - Illusion Theme B",
+    "album": "Illusion City",
+    "composer": "Yukiharu Urita",
+    "year": "1991",
+    "track_order": "1/33",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

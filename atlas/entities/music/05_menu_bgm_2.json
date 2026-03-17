@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_menu_bgm_2",
+    "track_name": "05 Menu BGM 2",
+    "album": "FIFA International Soccer",
+    "composer": "Jeff van Dyck",
+    "year": "1993-12",
+    "track_order": "Album",
+    "chip_data": {
+        "fm_writes": 983,
+        "complexity": 0.8
+    },
+    "_type": "music:track"
+}

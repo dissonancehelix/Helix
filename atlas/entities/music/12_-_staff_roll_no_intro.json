@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_staff_roll_no_intro",
+    "track_name": "12 - Staff Roll (no intro)",
+    "album": "Tiny Toon Adventures: Wacky Sports",
+    "composer": "Jun Funahashi",
+    "year": "1994-12",
+    "track_order": "12/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

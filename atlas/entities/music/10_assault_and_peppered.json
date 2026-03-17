@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_assault_and_peppered",
+    "track_name": "10 Assault and Peppered",
+    "album": "Daffy Duck in Hollywood",
+    "composer": "Matt Furniss",
+    "year": "1995-01",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 17653,
+        "complexity": 0.5640000000000001
+    },
+    "_type": "music:track"
+}

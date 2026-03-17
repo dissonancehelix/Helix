@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_dead_dimension",
+    "track_name": "20 - Dead Dimension",
+    "album": "Pulseman",
+    "composer": "Junichi Masuda",
+    "year": "1994",
+    "track_order": "20/33",
+    "chip_data": {
+        "fm_writes": 12746,
+        "complexity": 0.895
+    },
+    "_type": "music:track"
+}

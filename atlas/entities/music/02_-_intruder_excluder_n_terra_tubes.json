@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_intruder_excluder_n_terra_tubes",
+    "track_name": "02 - Intruder Excluder & Terra Tubes",
+    "album": "Battletoads",
+    "composer": "David Wise",
+    "year": "1991",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 496523,
+        "complexity": 0.8140000000000001
+    },
+    "_type": "music:track"
+}

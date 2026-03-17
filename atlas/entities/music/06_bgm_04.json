@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_bgm_04",
+    "track_name": "06 BGM 04",
+    "album": "Mesuneko Hishoshitsu",
+    "composer": "Izuho Yoshitani",
+    "year": "1995-12-22",
+    "track_order": "5/12",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

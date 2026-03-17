@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_exodus",
+    "track_name": "12 - Exodus",
+    "album": "Fighting Layer",
+    "composer": "Takayuki Aihara",
+    "year": "1998-12",
+    "track_order": "12/18",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

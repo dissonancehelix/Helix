@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_credits",
+    "track_name": "28 - Credits",
+    "album": "Sonic 3D Blast",
+    "composer": "Seirou Okamoto",
+    "year": "1996/11/06",
+    "track_order": "24/24",
+    "chip_data": {
+        "fm_writes": 30928,
+        "complexity": 0.276
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_mishima_family",
+    "track_name": "01 - Mishima Family",
+    "album": "Abnormal Check",
+    "composer": "LindaAI-CUE",
+    "year": "1996",
+    "track_order": "1/13",
+    "chip_data": {
+        "fm_writes": 43,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_into_the_super_battle",
+    "track_name": "02 - Into The Super Battle",
+    "album": "Super Star Soldier",
+    "composer": "Nozomi Nakahashi",
+    "year": "1990-07-06",
+    "track_order": "2/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

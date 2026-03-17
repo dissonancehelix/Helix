@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_grand_cross_bgm",
+    "track_name": "08 - Grand Cross BGM",
+    "album": "Shalom",
+    "composer": "Konami Kukeiha Club",
+    "year": "1987",
+    "track_order": "8/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_chasing_after_rudolf",
+    "track_name": "05 - Chasing After Rudolf",
+    "album": "Burning Point",
+    "composer": "Kazuo Sawa",
+    "year": "1989-02-23",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

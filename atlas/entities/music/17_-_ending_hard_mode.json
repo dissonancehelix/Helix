@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_ending_hard_mode",
+    "track_name": "17 - Ending (Hard Mode)",
+    "album": "Teenage Mutant Ninja Turtles: The Hyperstone Heist",
+    "composer": "Masahiro Ikariko",
+    "year": "1992/08/11",
+    "track_order": "17/19",
+    "chip_data": {
+        "fm_writes": 20126,
+        "complexity": 0.16499999999999998
+    },
+    "_type": "music:track"
+}

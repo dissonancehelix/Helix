@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_background_3_dna",
+    "track_name": "04 - Background 3 (DNA)",
+    "album": "Junction",
+    "composer": "Shaka",
+    "year": "1990/11/25",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 35346,
+        "complexity": 0.326
+    },
+    "_type": "music:track"
+}

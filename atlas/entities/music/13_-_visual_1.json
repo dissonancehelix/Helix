@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_visual_1",
+    "track_name": "13 - Visual 1",
+    "album": "Beast Wrestler",
+    "composer": "Shinobu Ogawa",
+    "year": "1991/11/29",
+    "track_order": "13/13",
+    "chip_data": {
+        "fm_writes": 66808,
+        "complexity": 0.8280000000000001
+    },
+    "_type": "music:track"
+}

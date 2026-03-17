@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_dragon!!",
+    "track_name": "05 - Dragon!!",
+    "album": "Super Hydlide",
+    "composer": "Shigeru Tomita",
+    "year": "1989",
+    "track_order": "5/15",
+    "chip_data": {
+        "fm_writes": 52005,
+        "complexity": 0.435
+    },
+    "_type": "music:track"
+}

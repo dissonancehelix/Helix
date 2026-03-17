@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_battle",
+    "track_name": "24 - Battle",
+    "album": "Tokyo Twilight Busters",
+    "composer": "Motoi Sakuraba",
+    "year": "1995-06-23",
+    "track_order": "24/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

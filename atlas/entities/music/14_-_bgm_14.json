@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_bgm_14",
+    "track_name": "14 - BGM 14",
+    "album": "Faselei!",
+    "composer": "Yoshitaka Hirota",
+    "year": "1999.12.29",
+    "track_order": "14/30",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

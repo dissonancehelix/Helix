@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_rain_calling_taiko",
+    "track_name": "19 - Rain Calling Taiko",
+    "album": "Samurai Shodown III",
+    "composer": "Yasuo Yamate",
+    "year": "1995-11-15",
+    "track_order": "19/20",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

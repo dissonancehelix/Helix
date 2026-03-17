@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_main_theme_from_xak_iii",
+    "track_name": "01 - Main Theme from Xak III",
+    "album": "Xak III: The Eternal Recurrence",
+    "composer": "Yukiharu Urita",
+    "year": "1993-04-23",
+    "track_order": "1/25",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_shining_one",
+    "track_name": "09 - Shining One",
+    "album": "Street Fighter Alpha 3",
+    "composer": "Isao Abe",
+    "year": "1998-07",
+    "track_order": "9/39",
+    "chip_data": {
+        "fm_writes": 16,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_o_ho_ho_ho_misty",
+    "track_name": "21 - O ho ho ho MISTY",
+    "album": "Top Hunter: Roddy & Cathy",
+    "composer": "Yoko Osaka",
+    "year": "1994-05-18",
+    "track_order": "21/28",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

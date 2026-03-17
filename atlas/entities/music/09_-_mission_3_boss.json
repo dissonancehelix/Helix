@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_mission_3_boss",
+    "track_name": "09 - Mission 3 Boss",
+    "album": "Shadow Dancer",
+    "composer": "Keisuke Tsukahara",
+    "year": "1989-05",
+    "track_order": "9/13",
+    "chip_data": {
+        "fm_writes": 113,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

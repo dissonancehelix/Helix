@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_mission_07",
+    "track_name": "07 - Mission 07",
+    "album": "Air Duel",
+    "composer": "Takushi Hiyamuta",
+    "year": "1990",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 27,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

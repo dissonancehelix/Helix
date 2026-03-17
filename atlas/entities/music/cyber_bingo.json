@@ -1,0 +1,13 @@
+{
+    "entity_id": "cyber_bingo",
+    "track_name": "Cyber Bingo",
+    "album": "Quiz Marugoto The World",
+    "composer": "Tsukasa Masuko",
+    "year": "1991-04-05",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

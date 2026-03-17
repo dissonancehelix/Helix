@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_leon",
+    "track_name": "12 - Leon",
+    "album": "Langrisser II",
+    "composer": "Noriyuki Iwadare",
+    "year": "1994-08-26",
+    "track_order": "12/29",
+    "chip_data": {
+        "fm_writes": 20247,
+        "complexity": 0.7
+    },
+    "_type": "music:track"
+}

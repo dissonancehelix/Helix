@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_bubbly_clouds",
+    "track_name": "06 - Bubbly Clouds",
+    "album": "Kirby's Dream Land",
+    "composer": "Jun Ishikawa",
+    "year": "1992-04-27",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

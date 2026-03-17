@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_giant_tower_rounds_1-19",
+    "track_name": "01 - Giant Tower (Rounds 1-19)",
+    "album": "Bubble Bobble Part 2",
+    "composer": "Kenichi Kamio",
+    "year": "1993-03-05",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 20,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

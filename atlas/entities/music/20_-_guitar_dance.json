@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_guitar_dance",
+    "track_name": "20 - Guitar Dance",
+    "album": "Savage Reign",
+    "composer": "Yoshihiko Kitamura",
+    "year": "1995-04-25",
+    "track_order": "20/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

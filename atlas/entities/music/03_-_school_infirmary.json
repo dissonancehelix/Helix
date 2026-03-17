@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_school_infirmary",
+    "track_name": "03 - School Infirmary",
+    "album": "Jantei Monogatari 3: Saver Angels",
+    "composer": "Iku Mizutani!",
+    "year": "1993-04-23",
+    "track_order": "3/30",
+    "chip_data": {
+        "fm_writes": 20,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

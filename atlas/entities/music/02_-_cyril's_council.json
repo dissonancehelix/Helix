@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_cyril's_council",
+    "track_name": "02 - Cyril's Council",
+    "album": "Dune: The Battle for Arrakis",
+    "composer": "Paul Mudra",
+    "year": "1994/04",
+    "track_order": "2/22",
+    "chip_data": {
+        "fm_writes": 155332,
+        "complexity": 0.162
+    },
+    "_type": "music:track"
+}

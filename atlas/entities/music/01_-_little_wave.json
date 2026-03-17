@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_little_wave",
+    "track_name": "01 - Little Wave",
+    "album": "Bosconian",
+    "composer": "Hideya Nagata",
+    "year": "1988-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

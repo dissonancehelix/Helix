@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_shrine_maiden_stage",
+    "track_name": "17 - Shrine Maiden Stage",
+    "album": "Dancing Eyes",
+    "composer": "Masahiro Fukuzawa",
+    "year": "1996-09",
+    "track_order": "17/55",
+    "chip_data": {
+        "fm_writes": 67,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:nes_apu",
+  "name": "Sound Chip: NES_APU",
+  "type": "SoundChip",
+  "libvgm_id": "0x14"
+}

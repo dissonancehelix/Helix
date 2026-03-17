@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_crankin'_castle",
+    "track_name": "09 - Crankin' Castle",
+    "album": "Mega Bomberman",
+    "composer": "June Chikuma",
+    "year": "1994",
+    "track_order": "9/18",
+    "chip_data": {
+        "fm_writes": 58021,
+        "complexity": 0.393
+    },
+    "_type": "music:track"
+}

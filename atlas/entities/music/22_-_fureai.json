@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_fureai",
+    "track_name": "22 - Fureai",
+    "album": "Photo Genic",
+    "composer": "Kanta Watanabe",
+    "year": "1997-05-16",
+    "track_order": "22/30",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

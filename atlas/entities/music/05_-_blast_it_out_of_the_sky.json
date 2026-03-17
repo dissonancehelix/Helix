@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_blast_it_out_of_the_sky",
+    "track_name": "05 - Blast It Out of the Sky",
+    "album": "Top Gun: The Second Mission",
+    "composer": "Hidenori Maezawa",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 11,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

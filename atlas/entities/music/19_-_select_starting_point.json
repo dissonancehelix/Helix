@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_select_starting_point",
+    "track_name": "19 - Select Starting Point",
+    "album": "Diet Go Go",
+    "composer": "Tomoyoshi Sato",
+    "year": "1992-08",
+    "track_order": "19/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "music.manual:MCDHardware_Manual_PCM_Sound_Source",
+  "type": "KnowledgeSource",
+  "extracted_entities": [
+    {
+      "id": "music.sound_chip:mcdhardware_manual_pcm_sound_source",
+      "type": "SoundChip"
+    }
+  ],
+  "invariant_candidates": [
+    {
+      "id": "music.invariant:mcdhardware_manual_pcm_sound_source_law",
+      "description": "Extracted from MCDHardware_Manual_PCM_Sound_Source.pdf"
+    }
+  ]
+}

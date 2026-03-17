@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_crazy_speeder",
+    "track_name": "22 - Crazy Speeder",
+    "album": "Revolter",
+    "composer": "Masaharu Iwata",
+    "year": "1988-07-13",
+    "track_order": "22/22",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

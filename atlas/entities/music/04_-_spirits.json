@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_spirits",
+    "track_name": "04 - Spirits",
+    "album": "Super Daisenryaku",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1989/04/29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 35247,
+        "complexity": 0.094
+    },
+    "_type": "music:track"
+}

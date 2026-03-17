@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_mission",
+    "track_name": "03 - Mission",
+    "album": "Geograph Seal",
+    "composer": "Hiroyuki Saegusa",
+    "year": "1994-03-12",
+    "track_order": "3/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

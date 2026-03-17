@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_bartman",
+    "track_name": "01 - Bartman",
+    "album": "The Simpsons: Bart's Nightmare",
+    "composer": "Dean Morrell",
+    "year": "1993/01",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 31654,
+        "complexity": 0.8059999999999999
+    },
+    "_type": "music:track"
+}

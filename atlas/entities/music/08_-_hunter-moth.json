@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_hunter-moth",
+    "track_name": "08 - Hunter-Moth",
+    "album": "Dangerous Seed",
+    "composer": "Yoshinori Nagumo",
+    "year": "1989-12",
+    "track_order": "8/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

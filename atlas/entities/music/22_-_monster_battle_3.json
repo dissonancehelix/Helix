@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_monster_battle_3",
+    "track_name": "22 - Monster Battle 3",
+    "album": "Knights of Xentar",
+    "composer": "Bananapple",
+    "year": "1994-05-12",
+    "track_order": "22/38",
+    "chip_data": {
+        "fm_writes": 14,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

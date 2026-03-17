@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_suspect_1",
+    "track_name": "08 - Suspect 1",
+    "album": "Desire: Haitoku no Rasen",
+    "composer": "Ryu Umemoto",
+    "year": "1994-11",
+    "track_order": "8/27",
+    "chip_data": {
+        "fm_writes": 4053,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

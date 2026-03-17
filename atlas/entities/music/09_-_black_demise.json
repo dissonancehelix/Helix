@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_black_demise",
+    "track_name": "09 - Black Demise",
+    "album": "Master of Monsters",
+    "composer": "Hayato Matsuo",
+    "year": "1991/07/26",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 24346,
+        "complexity": 0.536
+    },
+    "_type": "music:track"
+}

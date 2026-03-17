@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_7th_force",
+    "track_name": "15 - 7th Force",
+    "album": "Alien Soldier",
+    "composer": "Norio Hanzawa",
+    "year": "1995",
+    "track_order": "15/20",
+    "chip_data": {
+        "fm_writes": 2249,
+        "complexity": 0.455
+    },
+    "_type": "music:track"
+}

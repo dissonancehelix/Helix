@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_the_boat_of_''pachacamac''",
+    "track_name": "07 - The Boat of ''Pachacamac''",
+    "album": "Tintin: Prisoners of the Sun",
+    "composer": "Alberto Jose Gonz",
+    "year": "1996",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

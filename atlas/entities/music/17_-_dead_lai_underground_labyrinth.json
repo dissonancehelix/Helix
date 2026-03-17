@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_dead_lai_underground_labyrinth",
+    "track_name": "17 - Dead Lai Underground Labyrinth",
+    "album": "Dragon Half",
+    "composer": "Tadahiro Nitta",
+    "year": "1993",
+    "track_order": "17/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

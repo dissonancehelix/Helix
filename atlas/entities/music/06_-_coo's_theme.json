@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_coo's_theme",
+    "track_name": "06 - Coo's Theme",
+    "album": "Kirby's Dream Land 2",
+    "composer": "Tadashi Ikegami",
+    "year": "1995-03-21",
+    "track_order": "6/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

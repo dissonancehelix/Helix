@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_heat_wave",
+    "track_name": "15 - Heat Wave",
+    "album": "Shizuku",
+    "composer": "Shinji Orito",
+    "year": "1996-01-26",
+    "track_order": "15/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

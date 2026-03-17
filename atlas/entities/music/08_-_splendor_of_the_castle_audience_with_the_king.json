@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_splendor_of_the_castle_audience_with_the_king",
+    "track_name": "08 - Splendor of the Castle (Audience with The King)",
+    "album": "Princess Maker",
+    "composer": "Masahiro Kajihara",
+    "year": "1991-05-24",
+    "track_order": "8/15/",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

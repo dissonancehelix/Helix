@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_mission_failed",
+    "track_name": "10 - Mission Failed",
+    "album": "Golgo 13",
+    "composer": "Jin Watanabe",
+    "year": "1999",
+    "track_order": "10/18",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

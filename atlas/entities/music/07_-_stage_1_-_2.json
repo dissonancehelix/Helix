@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_stage_1_-_2",
+    "track_name": "07 - Stage 1 - 2",
+    "album": "Castle of Illusion",
+    "composer": "Shigenori Kamiya",
+    "year": "1990",
+    "track_order": "7/19",
+    "chip_data": {
+        "fm_writes": 45716,
+        "complexity": 0.412
+    },
+    "_type": "music:track"
+}

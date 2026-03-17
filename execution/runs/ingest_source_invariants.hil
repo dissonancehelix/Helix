@@ -1,0 +1,3 @@
+ENTITY add music.driver:smps_68k name:"SMPS 68000" type:Driver
+ENTITY add music.driver:smps_z80 name:"SMPS Z80" type:Driver
+ENTITY add music.driver:gems name:"GEMS Sound Driver" type:Driver

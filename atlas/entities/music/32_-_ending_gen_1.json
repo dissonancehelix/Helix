@@ -1,0 +1,13 @@
+{
+    "entity_id": "32_-_ending_gen_1",
+    "track_name": "32 - Ending Gen 1",
+    "album": "Street Fighter Alpha 2",
+    "composer": "Tatsuro Suzuki",
+    "year": "1996-03-25",
+    "track_order": "32/43",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

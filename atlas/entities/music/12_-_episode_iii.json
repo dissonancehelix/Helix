@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_episode_iii",
+    "track_name": "12 - Episode III",
+    "album": "King of Fighters R-1",
+    "composer": "Takushi Hiyamuta",
+    "year": "1998-10-28",
+    "track_order": "12/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_start_~_phase_bgm",
+    "track_name": "01 - Start ~ Phase BGM",
+    "album": "Wrecking Crew",
+    "composer": "Hip Tanaka",
+    "year": "1985",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 29,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

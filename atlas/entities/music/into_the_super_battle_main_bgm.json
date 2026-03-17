@@ -1,0 +1,13 @@
+{
+    "entity_id": "into_the_super_battle_main_bgm",
+    "track_name": "Into The Super Battle (Main BGM)",
+    "album": "Blade Buster",
+    "composer": "Nozomi Nakahashi",
+    "year": "2012",
+    "track_order": "1/1 ",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

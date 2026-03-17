@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_peaceful_afternoon",
+    "track_name": "10 - Peaceful Afternoon",
+    "album": "Get!",
+    "composer": "Youichi Iwasaki",
+    "year": "1996-09-13",
+    "track_order": "10/14",
+    "chip_data": {
+        "fm_writes": 42,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

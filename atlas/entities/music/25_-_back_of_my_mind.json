@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_back_of_my_mind",
+    "track_name": "25 - Back of My Mind",
+    "album": "Ninja Master's",
+    "composer": "Hiroaki Kujirai",
+    "year": "1996-06-28",
+    "track_order": "25/26",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

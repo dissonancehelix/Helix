@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_naming_second",
+    "track_name": "24 - Naming Second",
+    "album": "D-Return",
+    "composer": "Norihiro Akasaka",
+    "year": "1989-03",
+    "track_order": "24/32",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

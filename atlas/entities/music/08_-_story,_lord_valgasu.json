@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_story,_lord_valgasu",
+    "track_name": "08 - Story, Lord Valgasu",
+    "album": "Fighting Masters",
+    "composer": "Masaki Kase",
+    "year": "1991/12/06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 171366,
+        "complexity": 0.853
+    },
+    "_type": "music:track"
+}

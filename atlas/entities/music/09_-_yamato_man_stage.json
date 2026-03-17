@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_yamato_man_stage",
+    "track_name": "09 - Yamato Man Stage",
+    "album": "Mega Man 6",
+    "composer": "Yuko Takehara",
+    "year": "1993-11-05",
+    "track_order": "9/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

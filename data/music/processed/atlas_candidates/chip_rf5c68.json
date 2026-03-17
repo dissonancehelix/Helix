@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:rf5c68",
+  "name": "Sound Chip: RF5C68",
+  "type": "SoundChip",
+  "libvgm_id": "0x05"
+}

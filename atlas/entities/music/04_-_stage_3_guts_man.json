@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_stage_3_guts_man",
+    "track_name": "04 - Stage 3 (Guts Man)",
+    "album": "Mega Man: The Power Battle",
+    "composer": "Manami Matsumae",
+    "year": "1995",
+    "track_order": "4/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

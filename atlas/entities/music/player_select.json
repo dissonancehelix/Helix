@@ -1,0 +1,13 @@
+{
+    "entity_id": "player_select",
+    "track_name": "Player Select",
+    "album": "Kabuki Ittouryoudan",
+    "composer": "Hironao Yamamoto",
+    "year": "1995-02-24",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 44,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

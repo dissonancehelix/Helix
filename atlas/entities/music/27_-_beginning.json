@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_beginning",
+    "track_name": "27 - Beginning",
+    "album": "Desire: Haitoku no Rasen",
+    "composer": "Ryu Umemoto",
+    "year": "1994-11",
+    "track_order": "27/27",
+    "chip_data": {
+        "fm_writes": 3220,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

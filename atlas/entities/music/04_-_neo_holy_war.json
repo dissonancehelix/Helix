@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_neo_holy_war",
+    "track_name": "04 - Neo Holy War",
+    "album": "Langrisser II",
+    "composer": "Noriyuki Iwadare",
+    "year": "1994-08-26",
+    "track_order": "4/29",
+    "chip_data": {
+        "fm_writes": 15525,
+        "complexity": 0.608
+    },
+    "_type": "music:track"
+}

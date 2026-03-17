@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_tower_adult_scene",
+    "track_name": "12 - Tower Adult Scene",
+    "album": "Possessioner",
+    "composer": "Hiroaki Sano",
+    "year": "1994-03-18",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

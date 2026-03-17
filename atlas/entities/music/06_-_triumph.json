@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_triumph",
+    "track_name": "06 - Triumph",
+    "album": "Flying Shark",
+    "composer": "Masahiro Yuge",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_crossed_swords_opening",
+    "track_name": "01 - Crossed Swords Opening",
+    "album": "Crossed Swords",
+    "composer": "Yuka Watanabe",
+    "year": "1991-06-25",
+    "track_order": "1/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

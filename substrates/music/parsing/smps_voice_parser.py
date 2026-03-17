@@ -366,7 +366,7 @@ def match_channel_to_patch(
 
 if __name__ == '__main__':
     import sys
-    from substrates.music.config import TEMP_DIR, DATA
+    from substrates.music.ingestion.config import TEMP_DIR, DATA
 
     smps_dirs = {
         'SOUND-SORCE_Z80_v1.3':  TEMP_DIR / 'SMPS-Z80_source_code' / 'ver13',

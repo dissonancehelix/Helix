@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_rose_ending",
+    "track_name": "19 - Rose Ending",
+    "album": "Street Fighter Alpha",
+    "composer": "Yuko Takehara",
+    "year": "1995-06-27",
+    "track_order": "19/29",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

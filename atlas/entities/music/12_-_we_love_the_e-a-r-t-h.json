@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_we_love_the_e-a-r-t-h",
+    "track_name": "12 - We Love the E-A-R-T-H",
+    "album": "ChoRenSha 68K",
+    "composer": "Ruzarin Kashiwagi",
+    "year": "1995",
+    "track_order": "12/12",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

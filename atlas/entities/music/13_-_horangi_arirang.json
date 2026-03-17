@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_horangi_arirang",
+    "track_name": "13 - Horangi Arirang",
+    "album": "Soul Edge",
+    "composer": "Takayuki Aihara",
+    "year": "1995-12",
+    "track_order": "13/22",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

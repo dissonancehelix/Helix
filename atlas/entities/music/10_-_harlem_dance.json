@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_harlem_dance",
+    "track_name": "10 - Harlem Dance",
+    "album": "Viper-V10",
+    "composer": "Kenichi Arakawa",
+    "year": "1994-03-11",
+    "track_order": "10/10",
+    "chip_data": {
+        "fm_writes": 21355,
+        "complexity": 0.681
+    },
+    "_type": "music:track"
+}

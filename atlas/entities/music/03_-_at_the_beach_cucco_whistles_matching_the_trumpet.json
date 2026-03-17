@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_at_the_beach_cucco_whistles_matching_the_trumpet",
+    "track_name": "03 - At the Beach Cucco Whistles Matching the Trumpet",
+    "album": "Dragon Half",
+    "composer": "Tadahiro Nitta",
+    "year": "1993",
+    "track_order": "3/230",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

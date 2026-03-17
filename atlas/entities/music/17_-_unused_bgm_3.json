@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_unused_bgm_3",
+    "track_name": "17 - Unused BGM 3",
+    "album": "Hebereke no Popoon",
+    "composer": "Izumi Hara",
+    "year": "1994-05",
+    "track_order": "17/19",
+    "chip_data": {
+        "fm_writes": 10743,
+        "complexity": 0.952
+    },
+    "_type": "music:track"
+}

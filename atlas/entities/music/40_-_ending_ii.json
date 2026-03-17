@@ -1,0 +1,13 @@
+{
+    "entity_id": "40_-_ending_ii",
+    "track_name": "40 - Ending II",
+    "album": "Sorcerian",
+    "composer": "Hiroshi Kubota",
+    "year": "1990/02/24",
+    "track_order": "40/40",
+    "chip_data": {
+        "fm_writes": 157071,
+        "complexity": 0.36100000000000004
+    },
+    "_type": "music:track"
+}

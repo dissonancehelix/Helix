@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_bone",
+    "track_name": "04 - Bone",
+    "album": "Armed F",
+    "composer": "Kenji Yoshida",
+    "year": "1988",
+    "track_order": "4/12",
+    "chip_data": {
+        "fm_writes": 110904,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

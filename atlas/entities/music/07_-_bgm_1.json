@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_bgm_1",
+    "track_name": "07 - BGM 1",
+    "album": "Doukyusei 2",
+    "composer": "Manabu Kunieda",
+    "year": "1995-01-31",
+    "track_order": "7/45",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

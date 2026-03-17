@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_scene_2",
+    "track_name": "03 - Scene 2",
+    "album": "Captain Silver",
+    "composer": "Gamadelic",
+    "year": "1987-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

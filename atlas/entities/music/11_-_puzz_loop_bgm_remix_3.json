@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_puzz_loop_bgm_remix_3",
+    "track_name": "11 - Puzz Loop BGM Remix 3",
+    "album": "Puzz Loop 2",
+    "composer": "Takafumi Wada",
+    "year": "2001-02",
+    "track_order": "11/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

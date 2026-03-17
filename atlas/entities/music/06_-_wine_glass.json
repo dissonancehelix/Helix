@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_wine_glass",
+    "track_name": "06 - Wine Glass",
+    "album": "Birdie Try",
+    "composer": "Gamadelic",
+    "year": "1988-06",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 85,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_advent",
+    "track_name": "01 - Advent",
+    "album": "The Fallen Angels",
+    "composer": "Masaki Izutani",
+    "year": "1998",
+    "track_order": "1/15",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

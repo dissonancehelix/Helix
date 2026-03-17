@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_rock_around_ice",
+    "track_name": "07 - Rock Around Ice",
+    "album": "Escape Kids",
+    "composer": "Konami Kukeiha Club",
+    "year": "1991",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

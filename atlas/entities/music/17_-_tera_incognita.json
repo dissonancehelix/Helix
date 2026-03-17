@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_tera_incognita",
+    "track_name": "17 - Tera Incognita",
+    "album": "Xak III: The Eternal Recurrence",
+    "composer": "Yukiharu Urita",
+    "year": "1993-04-23",
+    "track_order": "17/25",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,9 @@
+{
+    "entity_id": "30_-_staff_roll_(s&k)",
+    "track_name": "30 - Staff Roll (S&K)",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.43,
+    "rationale": "High YM2612 algorithm complexity (0.43) matches Maeda signature.",
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_venus_fire",
+    "track_name": "04 - Venus Fire",
+    "album": "Thunder Force III",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1990/06/08",
+    "track_order": "4/18",
+    "chip_data": {
+        "fm_writes": 49032,
+        "complexity": 0.625
+    },
+    "_type": "music:track"
+}

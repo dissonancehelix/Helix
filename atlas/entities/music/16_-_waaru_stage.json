@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_waaru_stage",
+    "track_name": "16 - WAARU Stage",
+    "album": "Tenkomori Shooting",
+    "composer": "Takanori Otsuka",
+    "year": "1998",
+    "track_order": "16/27",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_story",
+    "track_name": "02 - Story",
+    "album": "Blackthorne",
+    "composer": "Glenn Stafford",
+    "year": "1995",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 196,
+        "complexity": 0.333
+    },
+    "_type": "music:track"
+}

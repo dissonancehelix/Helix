@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_sound_test_13",
+    "track_name": "13 - Sound Test 13",
+    "album": "Dyna Brothers",
+    "composer": "Masami Yitsuse",
+    "year": "1992/07/24",
+    "track_order": "13/19",
+    "chip_data": {
+        "fm_writes": 1048571,
+        "complexity": 0.94
+    },
+    "_type": "music:track"
+}

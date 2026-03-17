@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_10_count_of_flames",
+    "track_name": "21 - 10 Count of Flames",
+    "album": "Voltage Fighter Gowcaizer",
+    "composer": "Chikaki Iizuka",
+    "year": "1995-09-18",
+    "track_order": "21/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

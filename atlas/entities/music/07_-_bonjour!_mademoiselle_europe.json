@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_bonjour!_mademoiselle_europe",
+    "track_name": "07 - Bonjour! Mademoiselle (Europe)",
+    "album": "Tumble Pop",
+    "composer": "Tatsuya Kiuchi",
+    "year": "1991-11",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

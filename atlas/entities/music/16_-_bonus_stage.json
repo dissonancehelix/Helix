@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_bonus_stage",
+    "track_name": "16 - Bonus Stage",
+    "album": "Asura Buster: Eternal Warriors",
+    "composer": "Akihiro Nishida",
+    "year": "2000-12-26",
+    "track_order": "16/30",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

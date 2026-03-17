@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_fun_house",
+    "track_name": "10 - Fun House",
+    "album": "Tiny Toon Adventures 2",
+    "composer": "Hiroshi Takeyasu",
+    "year": "1993-04",
+    "track_order": "10/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

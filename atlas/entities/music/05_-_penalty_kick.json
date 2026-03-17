@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_penalty_kick",
+    "track_name": "05 - Penalty Kick",
+    "album": "Tecmo World Cup Soccer",
+    "composer": "Ryuichi Nitta",
+    "year": "1990-12-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 97,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

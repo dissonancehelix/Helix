@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_stage_7-_the_realm_of_the_dead",
+    "track_name": "11 - Stage 7- The Realm of the Dead",
+    "album": "Maui Mallard",
+    "composer": "Michael Giacchino",
+    "year": "1995",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 191188,
+        "complexity": 0.869
+    },
+    "_type": "music:track"
+}

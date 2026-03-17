@@ -23,10 +23,10 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from substrates.music.knowledge.composer_schema import (
+from substrates.music.atlas_integration.composer_schema import (
     ComposerNode, GameNode, Relationship, SoundTeamNode, TrackNode,
 )
-from substrates.music.knowledge.composer_graph import (
+from substrates.music.atlas_integration.composer_graph import (
     ComposerGraph, cid, gid, tid, tmid,
 )
 
@@ -459,7 +459,7 @@ def ingest_s3k_html(
 
     # --- Ensure game node exists ---
     if not graph._games.get(game_id):
-        from substrates.music.knowledge.composer_schema import S3K_GAME
+        from substrates.music.atlas_integration.composer_schema import S3K_GAME
         graph.add_game(S3K_GAME)
 
     # --- Pass 1: find and parse staff table ---

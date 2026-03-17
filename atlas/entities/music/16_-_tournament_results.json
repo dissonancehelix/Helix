@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_tournament_results",
+    "track_name": "16 - Tournament Results",
+    "album": "Eternal Champions",
+    "composer": "Joe Delia",
+    "year": "1993/08/14",
+    "track_order": "16/16",
+    "chip_data": {
+        "fm_writes": 25928,
+        "complexity": 0.25
+    },
+    "_type": "music:track"
+}

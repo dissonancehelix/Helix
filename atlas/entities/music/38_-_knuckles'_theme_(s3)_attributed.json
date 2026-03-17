@@ -1,0 +1,9 @@
+{
+    "entity_id": "38_-_knuckles'_theme_(s3)",
+    "track_name": "38 - Knuckles' Theme (S3)",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.77,
+    "rationale": "High YM2612 algorithm complexity (0.77) matches Maeda signature.",
+    "_type": "music:track"
+}

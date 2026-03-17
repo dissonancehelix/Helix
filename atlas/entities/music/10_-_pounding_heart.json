@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_pounding_heart",
+    "track_name": "10 - Pounding Heart",
+    "album": "Sorcerian: Utility Vol.1",
+    "composer": "Yuzo Koshiro",
+    "year": "1988-07-29",
+    "track_order": "10/10",
+    "chip_data": {
+        "fm_writes": 158,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

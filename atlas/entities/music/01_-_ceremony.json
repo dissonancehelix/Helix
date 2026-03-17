@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_ceremony",
+    "track_name": "01 - Ceremony",
+    "album": "Genocide",
+    "composer": "Hideki Suzuki",
+    "year": "1989-07-23",
+    "track_order": "1/28",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

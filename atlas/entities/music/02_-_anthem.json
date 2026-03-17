@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_anthem",
+    "track_name": "02 - Anthem",
+    "album": "Cruise Chaser Blassty",
+    "composer": "Nobuo Uematsu",
+    "year": "1986",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

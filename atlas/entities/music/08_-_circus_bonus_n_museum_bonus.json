@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_circus_bonus_n_museum_bonus",
+    "track_name": "08 - Circus Bonus & Museum Bonus",
+    "album": "Aero the Acro-Bat",
+    "composer": "Rick Fox",
+    "year": "1993",
+    "track_order": "8/23",
+    "chip_data": {
+        "fm_writes": 28256,
+        "complexity": 0.063
+    },
+    "_type": "music:track"
+}

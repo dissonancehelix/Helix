@@ -227,3 +227,21 @@ def _render_libvgm(raw: bytes, sample_rate: int) -> list[ChipEvent]:
     # A full ctypes binding to libvgm's player API is deferred until the
     # compiled library is confirmed present and its symbol table verified.
     return _vgm_fallback(raw)
+
+
+class ToolkitBridge:
+    """
+    Toolkit Bridge for libvgm.
+    """
+    def run(self, payload: dict[str, Any]) -> list[ChipEvent]:
+        """
+        Execute libvgm rendering.
+        """
+        path = payload.get("path")
+        sample_rate = payload.get("sample_rate", 44100)
+        if not path:
+            return []
+        return render(Path(path), sample_rate)
+
+    def is_available(self) -> bool:
+        return is_available()

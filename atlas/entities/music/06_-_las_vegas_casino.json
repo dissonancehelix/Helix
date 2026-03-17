@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_las_vegas_casino",
+    "track_name": "06 - Las Vegas Casino",
+    "album": "Street Smart",
+    "composer": "Toshikazu Tanaka",
+    "year": "1989-08",
+    "track_order": "6/10",
+    "chip_data": {
+        "fm_writes": 352,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

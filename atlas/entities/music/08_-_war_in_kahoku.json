@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_war_in_kahoku",
+    "track_name": "08 - War in Kahoku",
+    "album": "Romance of the Three Kingdoms II",
+    "composer": "Minoru Mukaiya ",
+    "year": "1991/12/26",
+    "track_order": "8/15",
+    "chip_data": {
+        "fm_writes": 4365,
+        "complexity": 0.749
+    },
+    "_type": "music:track"
+}

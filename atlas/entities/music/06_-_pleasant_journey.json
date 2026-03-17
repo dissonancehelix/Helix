@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_pleasant_journey",
+    "track_name": "06 - Pleasant Journey",
+    "album": "Doukyusei 2",
+    "composer": "Manabu Kunieda",
+    "year": "1995-01-31",
+    "track_order": "6/45",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

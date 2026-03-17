@@ -38,7 +38,7 @@ from io import StringIO
 from pathlib import Path
 from typing import Any
 
-from substrates.music.knowledge.composer_graph import ComposerGraph
+from substrates.music.atlas_integration.composer_graph import ComposerGraph
 
 log = logging.getLogger(__name__)
 

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_drone",
+    "track_name": "03 - Drone",
+    "album": "Columns II",
+    "composer": "Takayuki Nakamura",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 16730,
+        "complexity": 0.494
+    },
+    "_type": "music:track"
+}

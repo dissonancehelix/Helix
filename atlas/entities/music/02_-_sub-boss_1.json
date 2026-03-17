@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_sub-boss_1",
+    "track_name": "02 - Sub-Boss 1",
+    "album": "Mutation Nation",
+    "composer": "Masahiko Hataya",
+    "year": "1992-04-17",
+    "track_order": "2/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

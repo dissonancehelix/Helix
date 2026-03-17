@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_fight_-_a",
+    "track_name": "02 - Fight - A",
+    "album": "Digital Champ: Battle Boxing",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1989-10-13",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

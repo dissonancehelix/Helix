@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_a_quiet_moment",
+    "track_name": "04 - A Quiet Moment",
+    "album": "Ys III: Wanderers from Ys",
+    "composer": "Mieko Ishikawa",
+    "year": "1989",
+    "track_order": "4/30",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

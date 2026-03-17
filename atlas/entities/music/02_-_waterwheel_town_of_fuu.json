@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_waterwheel_town_of_fuu",
+    "track_name": "02 - Waterwheel Town of Fuu",
+    "album": "Etoile Princesse",
+    "composer": "Hiroyuki Saegusa",
+    "year": "1993-03-26",
+    "track_order": "2/23",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

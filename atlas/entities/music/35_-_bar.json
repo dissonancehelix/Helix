@@ -1,0 +1,13 @@
+{
+    "entity_id": "35_-_bar",
+    "track_name": "35 - Bar",
+    "album": "Doukyusei",
+    "composer": "Manabu Kunieda",
+    "year": "1992-12-17",
+    "track_order": "35/46",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

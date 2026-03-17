@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_real_battle_phase_01_above_city",
+    "track_name": "12 - Real Battle Phase 01 (Above City)",
+    "album": "Raiden Fighters Jet",
+    "composer": "Yasuhiro Hashimoto",
+    "year": "1998-08",
+    "track_order": "12/18!",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_shop_kerokero",
+    "track_name": "06 - Shop KeroKero",
+    "album": "Princess Quest: Mahjong Sword",
+    "composer": "Daisuke Takahashi",
+    "year": "1995-07-21",
+    "track_order": "6/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

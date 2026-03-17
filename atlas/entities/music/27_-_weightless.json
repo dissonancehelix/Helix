@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_weightless",
+    "track_name": "27 - Weightless",
+    "album": "Lagrange Point",
+    "composer": "Konami Kukeiha Club",
+    "year": "1991-04-26",
+    "track_order": "27/28",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

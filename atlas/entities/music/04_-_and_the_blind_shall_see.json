@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_and_the_blind_shall_see",
+    "track_name": "04 - And the Blind Shall See",
+    "album": "Soul Edge",
+    "composer": "Takayuki Aihara",
+    "year": "1995-12",
+    "track_order": "4/22",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

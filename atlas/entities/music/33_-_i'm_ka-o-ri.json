@@ -1,0 +1,13 @@
+{
+    "entity_id": "33_-_i'm_ka-o-ri",
+    "track_name": "33 - I'm Ka-o-ri",
+    "album": "Sexy Parodius",
+    "composer": "Mayuko Kageshita",
+    "year": "1996-03",
+    "track_order": "33/38",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

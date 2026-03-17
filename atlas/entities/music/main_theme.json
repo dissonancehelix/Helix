@@ -1,0 +1,13 @@
+{
+    "entity_id": "main_theme",
+    "track_name": "Main Theme",
+    "album": "Alpha",
+    "composer": "Nobuo Uematsu",
+    "year": "1986-07-08",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

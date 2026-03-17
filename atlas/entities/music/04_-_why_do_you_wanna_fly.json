@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_why_do_you_wanna_fly",
+    "track_name": "04 - Why Do You Wanna Fly",
+    "album": "Gunbird 2",
+    "composer": "Masaki Izutani",
+    "year": "1998-12",
+    "track_order": "4/12",
+    "chip_data": {
+        "fm_writes": 432,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

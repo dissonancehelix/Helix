@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_mission_complete_2",
+    "track_name": "04 - Mission Complete 2",
+    "album": "BattleTech",
+    "composer": "Keith Arem",
+    "year": "1994",
+    "track_order": "4/12",
+    "chip_data": {
+        "fm_writes": 6204,
+        "complexity": 0.231
+    },
+    "_type": "music:track"
+}

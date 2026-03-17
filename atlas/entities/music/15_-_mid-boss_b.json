@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_mid-boss_b",
+    "track_name": "15 - Mid-Boss B",
+    "album": "1941: Counter Attack",
+    "composer": "Hiromitsu Takaoka",
+    "year": "1990-02",
+    "track_order": "15/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

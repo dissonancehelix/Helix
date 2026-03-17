@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_game_1",
+    "track_name": "10 - Game 1",
+    "album": "Dynamite D",
+    "composer": "Hiro",
+    "year": "1988",
+    "track_order": "10/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_face-off_of_martial_artists",
+    "track_name": "02 - Face-Off of Martial Artists",
+    "album": "Kuri Kinton",
+    "composer": "Masahiko Takaki",
+    "year": "1988-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,9 @@
+{
+    "entity_id": "30_-_unused_boss_theme_(825_version)",
+    "track_name": "30 - Unused Boss Theme (825 version)",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.57,
+    "rationale": "High YM2612 algorithm complexity (0.57) matches Maeda signature.",
+    "_type": "music:track"
+}

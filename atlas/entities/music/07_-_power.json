@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_power",
+    "track_name": "07 - Power",
+    "album": "Spider-Man: Web of Fire",
+    "composer": "Sam Powell",
+    "year": "1996-03",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 640,
+        "complexity": 0.08
+    },
+    "_type": "music:track"
+}

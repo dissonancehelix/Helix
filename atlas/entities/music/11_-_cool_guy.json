@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_cool_guy",
+    "track_name": "11 - Cool Guy",
+    "album": "Fighting Run",
+    "composer": "Hiroshi Semba",
+    "year": "1991-11-29",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

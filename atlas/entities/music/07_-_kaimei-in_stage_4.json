@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_kaimei-in_stage_4",
+    "track_name": "07 - Kaimei-In (Stage 4)",
+    "album": "Tiger Road",
+    "composer": "Harumi Fujita",
+    "year": "1987-11",
+    "track_order": "7/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

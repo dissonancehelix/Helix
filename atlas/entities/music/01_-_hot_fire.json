@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_hot_fire",
+    "track_name": "01 - Hot Fire",
+    "album": "OutRun 2019",
+    "composer": "Shigeki Sako",
+    "year": "1993/03/26",
+    "track_order": "1/12",
+    "chip_data": {
+        "fm_writes": 97680,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

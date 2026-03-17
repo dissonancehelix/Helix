@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_shiver_with_fright",
+    "track_name": "14 - Shiver with Fright",
+    "album": "World Heroes Perfect",
+    "composer": "Takeshi Muramatsu",
+    "year": "1995-05-25",
+    "track_order": "14/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

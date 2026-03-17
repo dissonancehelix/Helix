@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_feel",
+    "track_name": "25 - Feel",
+    "album": "Desire: Haitoku no Rasen",
+    "composer": "Ryu Umemoto",
+    "year": "1994-11",
+    "track_order": "25/27",
+    "chip_data": {
+        "fm_writes": 7259,
+        "complexity": 0.9830000000000001
+    },
+    "_type": "music:track"
+}

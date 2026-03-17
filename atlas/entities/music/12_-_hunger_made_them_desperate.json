@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_hunger_made_them_desperate",
+    "track_name": "12 - Hunger Made Them Desperate",
+    "album": "Thunder Force AC",
+    "composer": "Tomomi Otani",
+    "year": "1990",
+    "track_order": "12/18",
+    "chip_data": {
+        "fm_writes": 32628,
+        "complexity": 0.133
+    },
+    "_type": "music:track"
+}

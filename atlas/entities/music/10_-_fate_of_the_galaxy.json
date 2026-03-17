@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_fate_of_the_galaxy",
+    "track_name": "10 - Fate of the Galaxy",
+    "album": "Star Gladiator 2: Nightmare of Bilstein",
+    "composer": "Takayuki Iwai",
+    "year": "1998-03-16",
+    "track_order": "10/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

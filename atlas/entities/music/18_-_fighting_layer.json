@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_fighting_layer",
+    "track_name": "18 - Fighting Layer",
+    "album": "Fighting Layer",
+    "composer": "Takayuki Aihara",
+    "year": "1998-12",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

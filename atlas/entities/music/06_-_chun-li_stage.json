@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_chun-li_stage",
+    "track_name": "06 - Chun-Li Stage",
+    "album": "Street Fighter Alpha",
+    "composer": "Naoshi Mizuta",
+    "year": "1995-06-27",
+    "track_order": "6/29",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

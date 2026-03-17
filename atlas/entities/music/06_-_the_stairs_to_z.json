@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_the_stairs_to_z",
+    "track_name": "06 - The Stairs to Z",
+    "album": "Space Harrier II",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1988/10/29",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 27136,
+        "complexity": 0.973
+    },
+    "_type": "music:track"
+}

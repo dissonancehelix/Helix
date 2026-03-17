@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_japan",
+    "track_name": "05 - Japan",
+    "album": "The King of Fighters '97",
+    "composer": "Hideki Asanaka",
+    "year": "1997",
+    "track_order": "5/31",
+    "chip_data": {
+        "fm_writes": 15,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

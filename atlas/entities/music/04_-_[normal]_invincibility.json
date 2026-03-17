@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_[normal]_invincibility",
+    "track_name": "04 - [Normal] Invincibility",
+    "album": "Rainbow Islands",
+    "composer": "Shizuo Aizawa",
+    "year": "1987",
+    "track_order": "4/14",
+    "chip_data": {
+        "fm_writes": 21,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

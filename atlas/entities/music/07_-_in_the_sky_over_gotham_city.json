@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_in_the_sky_over_gotham_city",
+    "track_name": "07 - In the Sky Over Gotham City",
+    "album": "Batman",
+    "composer": "Naoki Kodaka",
+    "year": "1990/07/27",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 204900,
+        "complexity": 0.954
+    },
+    "_type": "music:track"
+}

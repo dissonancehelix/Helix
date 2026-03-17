@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_world_conquest",
+    "track_name": "25 - World Conquest",
+    "album": "Magical Drop III",
+    "composer": "Hiroaki Yoshida",
+    "year": "1997",
+    "track_order": "25/32",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

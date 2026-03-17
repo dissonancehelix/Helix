@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_genesis",
+    "track_name": "14 - Genesis",
+    "album": "Mahjong Fantasia III",
+    "composer": "Keishi Yonao",
+    "year": "1995-09-14",
+    "track_order": "14/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

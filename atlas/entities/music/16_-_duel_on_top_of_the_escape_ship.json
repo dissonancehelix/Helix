@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_duel_on_top_of_the_escape_ship",
+    "track_name": "16 - Duel on Top of The Escape Ship",
+    "album": "Strider 2",
+    "composer": "Setsuo Yamamoto",
+    "year": "1999-12",
+    "track_order": "16/22",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

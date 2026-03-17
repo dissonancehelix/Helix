@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_violation",
+    "track_name": "17 - Violation",
+    "album": "Phantasy Star II",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1989",
+    "track_order": "17/22",
+    "chip_data": {
+        "fm_writes": 7098,
+        "complexity": 0.45
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_friday_brother",
+    "track_name": "05 - Friday Brother",
+    "album": "Street Hoop",
+    "composer": "Tatsuya Kiuchi",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

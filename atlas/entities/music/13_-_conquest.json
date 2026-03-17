@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_conquest",
+    "track_name": "13 - Conquest",
+    "album": "Dune: The Battle for Arrakis",
+    "composer": "Paul Mudra",
+    "year": "1994/04",
+    "track_order": "13/22",
+    "chip_data": {
+        "fm_writes": 262971,
+        "complexity": 0.478
+    },
+    "_type": "music:track"
+}

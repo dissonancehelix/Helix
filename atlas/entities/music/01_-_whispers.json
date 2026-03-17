@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_whispers",
+    "track_name": "01 - Whispers",
+    "album": "Side Pocket",
+    "composer": "Emi Shimizu",
+    "year": "1992/12/11",
+    "track_order": "1/19",
+    "chip_data": {
+        "fm_writes": 11252,
+        "complexity": 0.364
+    },
+    "_type": "music:track"
+}

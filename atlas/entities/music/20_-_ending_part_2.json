@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_ending_part_2",
+    "track_name": "20 - Ending Part 2",
+    "album": "Splatterhouse 2",
+    "composer": "Eiko Kaneda",
+    "year": "1992",
+    "track_order": "20/22",
+    "chip_data": {
+        "fm_writes": 4460,
+        "complexity": 0.323
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_file_select",
+    "track_name": "02 - File Select",
+    "album": "Teleroboxer",
+    "composer": "Katsuya Yamano",
+    "year": "1995",
+    "track_order": "2/18",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

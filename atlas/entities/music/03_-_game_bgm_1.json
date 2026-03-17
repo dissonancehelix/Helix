@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_game_bgm_1",
+    "track_name": "03 - Game BGM 1",
+    "album": "Clash Pennant Race 2",
+    "composer": "Konami Kukeiha Club",
+    "year": "1989",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

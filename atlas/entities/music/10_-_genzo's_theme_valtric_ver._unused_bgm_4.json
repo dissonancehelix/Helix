@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_genzo's_theme_valtric_ver._unused_bgm_4",
+    "track_name": "10 - Genzo's Theme Valtric Ver. (Unused BGM 4)",
+    "album": "Valtric",
+    "composer": "Shinichi Sakamoto",
+    "year": "1986-11",
+    "track_order": "10/18)",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

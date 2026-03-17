@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_zena-lan's_stage",
+    "track_name": "05 - Zena-Lan's Stage",
+    "album": "Cosmic Carnage",
+    "composer": "Hikoshi Hashimoto",
+    "year": "1995/01/27",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 32748,
+        "complexity": 0.971
+    },
+    "_type": "music:track"
+}

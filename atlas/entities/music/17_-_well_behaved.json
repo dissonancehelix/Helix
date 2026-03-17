@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_well_behaved",
+    "track_name": "17 - Well Behaved",
+    "album": "Princess Maker: Yumemiru Yousei",
+    "composer": "Masahiro Kajihara",
+    "year": "1998",
+    "track_order": "17/30",
+    "chip_data": {
+        "fm_writes": 77,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

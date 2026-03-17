@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_go!_go!_politank-z",
+    "track_name": "04 - Go! Go! Politank-Z",
+    "album": "Waku Waku 7",
+    "composer": "Masato Araikawa",
+    "year": "1996",
+    "track_order": "4/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_unknown_bgm_2",
+    "track_name": "13 - Unknown BGM 2",
+    "album": "Puzz Loop 2",
+    "composer": "Takafumi Wada",
+    "year": "2001-02",
+    "track_order": "13/19",
+    "chip_data": {
+        "fm_writes": 24,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

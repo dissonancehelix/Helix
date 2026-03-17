@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_ding-dong-ding",
+    "track_name": "17 - Ding-Dong-Ding",
+    "album": "Voltage Fighter Gowcaizer",
+    "composer": "Chikaki Iizuka",
+    "year": "1995-09-18",
+    "track_order": "17/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

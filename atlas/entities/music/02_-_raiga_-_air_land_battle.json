@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_raiga_-_air_land_battle",
+    "track_name": "02 - Raiga - Air Land Battle",
+    "album": "Raiga: Strato Fighter",
+    "composer": "Mikio Saito",
+    "year": "1991-02",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

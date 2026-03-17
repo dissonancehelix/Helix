@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_stones",
+    "track_name": "09 - Stones",
+    "album": "Ultima VI: The False Prophet",
+    "composer": "David Watson",
+    "year": "1990",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

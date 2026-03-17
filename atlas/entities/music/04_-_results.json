@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_results",
+    "track_name": "04 - Results",
+    "album": "Tetris: The Grand Master",
+    "composer": "Shinji Hosoe",
+    "year": "1998-08",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

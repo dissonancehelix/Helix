@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_bambuseae",
+    "track_name": "16 - Bambuseae",
+    "album": "Samurai Shodown V",
+    "composer": "Kennosuke Suemura",
+    "year": "2003-10-10",
+    "track_order": "16/25",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

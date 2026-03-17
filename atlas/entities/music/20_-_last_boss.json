@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_last_boss",
+    "track_name": "20 - Last Boss",
+    "album": "Golden Axe III",
+    "composer": "Tatsuyuki Maeda",
+    "year": "1993-06-25",
+    "track_order": "20/21",
+    "chip_data": {
+        "fm_writes": 1002,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

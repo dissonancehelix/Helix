@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_bgm_30",
+    "track_name": "27 - BGM 30",
+    "album": "Faselei!",
+    "composer": "Yoshitaka Hirota",
+    "year": "1999.12.29",
+    "track_order": "27/30",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

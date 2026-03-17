@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_woods_stage_3",
+    "track_name": "04 - Woods (Stage 3)",
+    "album": "Legend of Hero Tonma",
+    "composer": "Masahiko Ishida",
+    "year": "1991-03-13",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 16,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

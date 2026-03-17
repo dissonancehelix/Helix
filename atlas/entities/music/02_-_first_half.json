@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_first_half",
+    "track_name": "02 - First Half",
+    "album": "Pigskin 621 A.D.",
+    "composer": "Dan Forden",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

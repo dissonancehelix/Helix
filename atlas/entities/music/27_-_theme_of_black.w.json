@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_theme_of_black.w",
+    "track_name": "27 - Theme of Black.W",
+    "album": "Ring of Destruction: Slam Masters II",
+    "composer": "Toshio Kajino",
+    "year": "1994-09",
+    "track_order": "27/32",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

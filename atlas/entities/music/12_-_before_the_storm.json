@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_before_the_storm",
+    "track_name": "12 - Before The Storm",
+    "album": "Genocide",
+    "composer": "Hideki Suzuki",
+    "year": "1989-07-23",
+    "track_order": "12/28",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

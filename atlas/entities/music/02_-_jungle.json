@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_jungle",
+    "track_name": "02 - Jungle",
+    "album": "Finest Hour",
+    "composer": "Katsuro Tajima",
+    "year": "1989-09",
+    "track_order": "2/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

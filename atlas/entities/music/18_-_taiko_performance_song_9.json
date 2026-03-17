@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_taiko_performance_song_9",
+    "track_name": "18 - Taiko Performance Song 9",
+    "album": "Futari wa Pretty Cure",
+    "composer": "Kazuhiro Ogawa",
+    "year": "2004-06",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_base_theme_1",
+    "track_name": "13 - Base Theme 1",
+    "album": "Mission: Impossible",
+    "composer": "Jun Funahashi",
+    "year": "1990-09",
+    "track_order": "13/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

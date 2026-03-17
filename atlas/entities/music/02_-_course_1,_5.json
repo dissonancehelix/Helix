@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_course_1,_5",
+    "track_name": "02 - Course 1, 5",
+    "album": "Motocross Maniacs",
+    "composer": "Michiru Yamane",
+    "year": "1989-09-20",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

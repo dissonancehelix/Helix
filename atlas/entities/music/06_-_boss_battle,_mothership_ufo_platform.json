@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_boss_battle,_mothership_ufo_platform",
+    "track_name": "06 - Boss Battle, Mothership (UFO Platform)",
+    "album": "Fester's Quest",
+    "composer": "Naoki Kodaka",
+    "year": "1989-09",
+    "track_order": "6/6&",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

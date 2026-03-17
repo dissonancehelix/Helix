@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_princess_ellis",
+    "track_name": "17 - Princess Ellis",
+    "album": "Shining Force II",
+    "composer": "Motoaki Takenouchi",
+    "year": "1993",
+    "track_order": "17/25",
+    "chip_data": {
+        "fm_writes": 48043,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

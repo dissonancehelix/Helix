@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_ancient_ruins_world",
+    "track_name": "05 - Ancient Ruins World",
+    "album": "Pac-Man Arrangement",
+    "composer": "Takayuki Ishikawa",
+    "year": "1996-03",
+    "track_order": "5/28",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

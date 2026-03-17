@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_red_field_theme",
+    "track_name": "04 - Red Field Theme",
+    "album": "mon Pinball",
+    "composer": "Go Ichinose",
+    "year": "1999-06-28",
+    "track_order": "4/19",
+    "chip_data": {
+        "fm_writes": 148,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

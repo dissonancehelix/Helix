@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_-ii-_the_trap_trap",
+    "track_name": "02 - -II- THE TRAP (Trap)",
+    "album": "Rastan Saga II",
+    "composer": "Hisayoshi Ogura",
+    "year": "1990/08/10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 12512,
+        "complexity": 0.485
+    },
+    "_type": "music:track"
+}

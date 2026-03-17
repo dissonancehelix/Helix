@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_theme_of_gunloc",
+    "track_name": "12 - Theme of Gunloc",
+    "album": "Saturday Night Slam Masters",
+    "composer": "Masaki Izutani",
+    "year": "1993-07",
+    "track_order": "12/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

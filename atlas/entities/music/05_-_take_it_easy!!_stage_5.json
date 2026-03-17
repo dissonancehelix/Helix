@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_take_it_easy!!_stage_5",
+    "track_name": "05 - Take It Easy!! (Stage 5)",
+    "album": "Line of Fire",
+    "composer": "Minoru Aoki",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

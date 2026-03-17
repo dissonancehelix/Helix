@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_dash",
+    "track_name": "07 - Dash",
+    "album": "Strider 2",
+    "composer": "Setsuo Yamamoto",
+    "year": "1999-12",
+    "track_order": "7/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

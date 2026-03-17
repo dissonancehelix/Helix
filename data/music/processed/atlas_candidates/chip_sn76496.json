@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:sn76496",
+  "name": "Sound Chip: SN76496",
+  "type": "SoundChip",
+  "libvgm_id": "0x00"
+}

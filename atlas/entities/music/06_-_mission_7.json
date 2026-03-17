@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_mission_7",
+    "track_name": "06 - Mission 7",
+    "album": "Strike Gunner S.T.G",
+    "composer": "Shotaro Sasaki",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_i_will_run_and_face_tomorrow!",
+    "track_name": "04 - I Will Run and Face Tomorrow!",
+    "album": "Sunset Riders",
+    "composer": "Motoaki Furukawa",
+    "year": "1991-09-04",
+    "track_order": "4/17",
+    "chip_data": {
+        "fm_writes": 31,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

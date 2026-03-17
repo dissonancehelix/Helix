@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_lullaby_of_tears_~before~",
+    "track_name": "16 - Lullaby of Tears ~Before~",
+    "album": "Valis II",
+    "composer": "Masahiro Kajihara",
+    "year": "1989-11-17",
+    "track_order": "16/32",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

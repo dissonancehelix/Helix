@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_blake's_hotel_-_mystery_solved",
+    "track_name": "06 - Blake's Hotel - Mystery Solved",
+    "album": "Scooby-Doo Mystery",
+    "composer": "Mark Miller",
+    "year": "1995-09",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 15404,
+        "complexity": 0.546
+    },
+    "_type": "music:track"
+}

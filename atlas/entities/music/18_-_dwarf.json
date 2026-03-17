@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_dwarf",
+    "track_name": "18 - Dwarf",
+    "album": "Shining Force II",
+    "composer": "Motoaki Takenouchi",
+    "year": "1993",
+    "track_order": "18/25",
+    "chip_data": {
+        "fm_writes": 64755,
+        "complexity": 0.028
+    },
+    "_type": "music:track"
+}

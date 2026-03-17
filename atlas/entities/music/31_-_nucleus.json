@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_nucleus",
+    "track_name": "31 - Nucleus",
+    "album": "Brandish 2: The Planet Buster",
+    "composer": "Takahiro Tsunashima",
+    "year": "1993-03-12",
+    "track_order": "31/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

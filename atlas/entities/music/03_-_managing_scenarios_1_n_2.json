@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_managing_scenarios_1_n_2",
+    "track_name": "03 - Managing Scenarios 1 & 2",
+    "album": "Aerobiz Supersonic",
+    "composer": "Taku Iwasaki",
+    "year": "1994/02/18",
+    "track_order": "3/19",
+    "chip_data": {
+        "fm_writes": 9727,
+        "complexity": 0.41
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_doubtful_eyes",
+    "track_name": "23 - Doubtful eyes",
+    "album": "Mime",
+    "composer": "Hiroaki Sano",
+    "year": "1995-09-29",
+    "track_order": "23/38",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

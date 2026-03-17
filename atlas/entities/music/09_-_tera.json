@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_tera",
+    "track_name": "09 - Tera",
+    "album": "Summer Carnival '92: Recca",
+    "composer": "Nobuyuki Shioda",
+    "year": "1992-07-17",
+    "track_order": "9/17",
+    "chip_data": {
+        "fm_writes": 64,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

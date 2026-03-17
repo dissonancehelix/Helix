@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_store_-_bank_-_station_-_hotel",
+    "track_name": "05 - Store - Bank - Station - Hotel",
+    "album": "The Lone Ranger",
+    "composer": "Yoshinori Sasaki",
+    "year": "1991-08",
+    "track_order": "5/32",
+    "chip_data": {
+        "fm_writes": 61,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

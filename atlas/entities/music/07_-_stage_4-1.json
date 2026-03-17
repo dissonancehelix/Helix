@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_stage_4-1",
+    "track_name": "07 - Stage 4-1",
+    "album": "A.B. Cop",
+    "composer": "Kiyoshi Yokoyama",
+    "year": "1990-12",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

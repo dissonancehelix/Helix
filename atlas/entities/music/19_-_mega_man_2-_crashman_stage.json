@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_mega_man_2-_crashman_stage",
+    "track_name": "19 - Mega Man 2- Crashman Stage",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "19/55",
+    "chip_data": {
+        "fm_writes": 43987,
+        "complexity": 0.922
+    },
+    "_type": "music:track"
+}

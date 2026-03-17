@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stones_by_iolo_n_gwenno",
+    "track_name": "05 - Stones (by Iolo & Gwenno)",
+    "album": "Ultima V: Warriors of Destiny",
+    "composer": "Ken Arnold",
+    "year": "1988",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

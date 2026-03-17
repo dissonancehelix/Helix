@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_start_~_stage_3",
+    "track_name": "05 - Start ~ Stage 3",
+    "album": "Pettan Pyu",
+    "composer": "Naoki Kodaka",
+    "year": "1984",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

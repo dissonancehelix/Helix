@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_strangled_cry",
+    "track_name": "07 - Strangled Cry",
+    "album": "Farland Story: Juuou no Akashi",
+    "composer": "Masataka Kitaura",
+    "year": "1995-10-11",
+    "track_order": "7/29",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

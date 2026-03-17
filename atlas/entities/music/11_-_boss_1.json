@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_boss_1",
+    "track_name": "11 - Boss 1",
+    "album": "Decap Attack",
+    "composer": "Fumito Tamayama",
+    "year": "1991",
+    "track_order": "11/15",
+    "chip_data": {
+        "fm_writes": 23080,
+        "complexity": 0.952
+    },
+    "_type": "music:track"
+}

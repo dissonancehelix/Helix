@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_twin_islands",
+    "track_name": "23 - Twin Islands",
+    "album": "Sorcerian",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1990/02/24",
+    "track_order": "23/40",
+    "chip_data": {
+        "fm_writes": 103608,
+        "complexity": 0.196
+    },
+    "_type": "music:track"
+}

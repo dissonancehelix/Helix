@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_master_mind",
+    "track_name": "30 - Master Mind",
+    "album": "Beyond Oasis",
+    "composer": "Yuzo Koshiro",
+    "year": "1994",
+    "track_order": "30/30",
+    "chip_data": {
+        "fm_writes": 23884,
+        "complexity": 0.231
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_strawberry_fields",
+    "track_name": "06 - Strawberry Fields",
+    "album": "Knights of Xentar",
+    "composer": "Bananapple",
+    "year": "1994-05-12",
+    "track_order": "6/38",
+    "chip_data": {
+        "fm_writes": 87,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

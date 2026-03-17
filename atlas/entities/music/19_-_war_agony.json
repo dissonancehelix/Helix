@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_war_agony",
+    "track_name": "19 - War Agony",
+    "album": "Vampire Savior: The Lord of Vampire",
+    "composer": "Masato Kouda#",
+    "year": "1997",
+    "track_order": "19/40",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

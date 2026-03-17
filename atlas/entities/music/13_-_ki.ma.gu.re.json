@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_ki.ma.gu.re",
+    "track_name": "13 - Ki.Ma.Gu.Re",
+    "album": "Magical Drop III",
+    "composer": "Hiroaki Yoshida",
+    "year": "1997",
+    "track_order": "13/32",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_captain_lancer",
+    "track_name": "08 - Captain Lancer",
+    "album": "Hellfire",
+    "composer": "Tatsuya Uemura",
+    "year": "1990/09/28",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5623,
+        "complexity": 0.261
+    },
+    "_type": "music:track"
+}

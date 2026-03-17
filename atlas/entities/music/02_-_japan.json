@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_japan",
+    "track_name": "02 - Japan",
+    "album": "Dynamite D",
+    "composer": "Hiro",
+    "year": "1988",
+    "track_order": "2/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

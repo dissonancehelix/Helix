@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_intro_~_opening",
+    "track_name": "01 - Intro ~ Opening",
+    "album": "Ningyou Tsukai 2",
+    "composer": "Hideki Higuchi",
+    "year": "1996",
+    "track_order": "1/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

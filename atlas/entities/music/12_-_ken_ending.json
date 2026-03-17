@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_ken_ending",
+    "track_name": "12 - Ken Ending",
+    "album": "Super Gem Fighter: Mini Mix",
+    "composer": "Setsuo Yamamoto",
+    "year": "1997-09-04",
+    "track_order": "12/22",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

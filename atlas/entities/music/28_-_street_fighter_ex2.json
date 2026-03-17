@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_street_fighter_ex2",
+    "track_name": "28 - Street Fighter EX2",
+    "album": "Street Fighter EX2",
+    "composer": "Takayuki Aihara",
+    "year": "1998-05",
+    "track_order": "28/29",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

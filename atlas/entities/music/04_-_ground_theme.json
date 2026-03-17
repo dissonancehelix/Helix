@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_ground_theme",
+    "track_name": "04 - Ground Theme",
+    "album": "Dragon Slayer IV: Drasle Family",
+    "composer": "Yuzo Koshiro",
+    "year": "1987-10",
+    "track_order": "4/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

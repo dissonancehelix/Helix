@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_chromatische_phantasie",
+    "track_name": "12 - Chromatische Phantasie",
+    "album": "Castlevania II: Belmont's Revenge",
+    "composer": "Hidehiro Funauchi!",
+    "year": "1991-08",
+    "track_order": "12/17",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

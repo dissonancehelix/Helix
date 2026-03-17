@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_shrines_on_ambrosia",
+    "track_name": "08 - Shrines on Ambrosia",
+    "album": "Ultima III: Exodus",
+    "composer": "Ken Arnold",
+    "year": "1983",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

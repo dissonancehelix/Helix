@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_nuclear_shock",
+    "track_name": "03 - Nuclear Shock",
+    "album": "Space Harrier II",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1988/10/29",
+    "track_order": "3/18",
+    "chip_data": {
+        "fm_writes": 27247,
+        "complexity": 0.969
+    },
+    "_type": "music:track"
+}

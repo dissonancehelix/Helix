@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_wookie_hole",
+    "track_name": "12 - Wookie Hole",
+    "album": "Battletoads",
+    "composer": "David Wise",
+    "year": "1991",
+    "track_order": "12/12",
+    "chip_data": {
+        "fm_writes": 1831894,
+        "complexity": 0.55
+    },
+    "_type": "music:track"
+}

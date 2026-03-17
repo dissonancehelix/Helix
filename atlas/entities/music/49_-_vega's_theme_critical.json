@@ -1,0 +1,13 @@
+{
+    "entity_id": "49_-_vega's_theme_critical",
+    "track_name": "49 - Vega's Theme (Critical)",
+    "album": "Street Fighter II",
+    "composer": "Yoko Shimomura",
+    "year": "1991",
+    "track_order": "49/54",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

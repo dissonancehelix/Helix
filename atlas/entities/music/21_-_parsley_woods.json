@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_parsley_woods",
+    "track_name": "21 - Parsley Woods",
+    "album": "Wario Land: Super Mario Land 3",
+    "composer": "Ryoji Yoshitomi",
+    "year": "1994",
+    "track_order": "21/27",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

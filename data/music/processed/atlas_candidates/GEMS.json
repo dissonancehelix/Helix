@@ -1,0 +1,16 @@
+{
+  "id": "music.manual:GEMS",
+  "type": "KnowledgeSource",
+  "extracted_entities": [
+    {
+      "id": "music.sound_chip:gems",
+      "type": "SoundChip"
+    }
+  ],
+  "invariant_candidates": [
+    {
+      "id": "music.invariant:gems_law",
+      "description": "Extracted from GEMS.htm"
+    }
+  ]
+}

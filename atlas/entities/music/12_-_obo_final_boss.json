@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_obo_final_boss",
+    "track_name": "12 - Obo (Final Boss)",
+    "album": "Phantom Fighter",
+    "composer": "Hironari Tadokoro",
+    "year": "1988-09-16",
+    "track_order": "12/14",
+    "chip_data": {
+        "fm_writes": 175,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

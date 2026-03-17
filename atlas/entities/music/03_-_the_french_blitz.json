@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_the_french_blitz",
+    "track_name": "03 - The French Blitz",
+    "album": "Operation Europe: Path to Victory 1939-45",
+    "composer": "Yuji Ohno)",
+    "year": "1993/01/16",
+    "track_order": "3/16",
+    "chip_data": {
+        "fm_writes": 12612,
+        "complexity": 0.571
+    },
+    "_type": "music:track"
+}

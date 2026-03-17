@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_training",
+    "track_name": "13 - Training",
+    "album": "Princess Maker 2",
+    "composer": "Masahiro Kajihara",
+    "year": "1993-06-15",
+    "track_order": "13/31",
+    "chip_data": {
+        "fm_writes": 8,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

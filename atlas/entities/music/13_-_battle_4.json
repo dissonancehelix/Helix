@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_battle_4",
+    "track_name": "13 - Battle 4",
+    "album": "Shining Force",
+    "composer": "Masahiko Yoshimura",
+    "year": "1992",
+    "track_order": "13/19",
+    "chip_data": {
+        "fm_writes": 49840,
+        "complexity": 0.19
+    },
+    "_type": "music:track"
+}

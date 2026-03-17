@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_shelter_from_rain",
+    "track_name": "06 - Shelter From Rain",
+    "album": "Marine Rouge",
+    "composer": "Hiroaki Sano",
+    "year": "1995-09-29",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_shop_cf1",
+    "track_name": "07 - Shop (CF1)",
+    "album": "Cosmic Fantasy Stories",
+    "composer": "Hisao Inoue",
+    "year": "1992-03-27",
+    "track_order": "7/21",
+    "chip_data": {
+        "fm_writes": 3249,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

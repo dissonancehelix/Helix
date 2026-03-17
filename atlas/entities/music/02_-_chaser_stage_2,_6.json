@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_chaser_stage_2,_6",
+    "track_name": "02 - Chaser (Stage 2, 6)",
+    "album": "The Speed Rumbler",
+    "composer": "Tamayo Kawamoto",
+    "year": "1986-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_area_2_cave",
+    "track_name": "03 - Area 2 (Cave)",
+    "album": "Caliber .50",
+    "composer": "Kenji Yamazaki",
+    "year": "1991/11/01",
+    "track_order": "3/14",
+    "chip_data": {
+        "fm_writes": 19979,
+        "complexity": 0.818
+    },
+    "_type": "music:track"
+}

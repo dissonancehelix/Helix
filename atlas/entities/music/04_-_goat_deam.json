@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_goat_deam",
+    "track_name": "04 - Goat Deam",
+    "album": "Super Real Darwin",
+    "composer": "Hiroaki Yoshida",
+    "year": "1987-10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

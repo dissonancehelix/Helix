@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_disgraceful_behaviour",
+    "track_name": "15 - Disgraceful Behaviour",
+    "album": "Samurai Shodown III",
+    "composer": "Mariko",
+    "year": "1995-11-15",
+    "track_order": "15/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

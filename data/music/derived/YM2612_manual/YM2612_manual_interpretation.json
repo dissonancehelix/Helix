@@ -1,0 +1,32 @@
+{
+  "doc_id": "YM2612_manual",
+  "expressive_capabilities": [
+    {
+      "type": "FM Timbre Evolution",
+      "description": "Dynamic timbral shifts via operator EG to carrier frequency ratio changes.",
+      "complexity": "high"
+    },
+    {
+      "type": "Ch3 Special Mode",
+      "description": "Per-operator key-on and independent frequency control for Channel 3 operators (OP1-OP4). Permits 4 independent notes in one channel.",
+      "usage": "very high"
+    },
+    {
+      "type": "8-bit DAC Output",
+      "description": "Direct sample PCM playback via 8-bit DAC register ($2A).",
+      "performance_cost": "interrupt driven bandwidth"
+    }
+  ],
+  "constraints": [
+    {
+      "type": "Time Division Multiplexing (TDM)",
+      "description": "Serial DAC output creates 'staircase' quantization noise if not filtered.",
+      "result": "the characteristic Sega Genesis 'gritty' FM sound."
+    },
+    {
+      "type": "Bit Depths",
+      "description": "Internal math and accumulator resolution limits total dynamic range.",
+      "clipping": "prone at high operator feedback levels."
+    }
+  ]
+}

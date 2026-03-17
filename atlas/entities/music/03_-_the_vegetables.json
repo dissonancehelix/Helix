@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_the_vegetables",
+    "track_name": "03 - The Vegetables",
+    "album": "Fushigi no Yume no Alice",
+    "composer": "Ako Matsudaira",
+    "year": "1990-12-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

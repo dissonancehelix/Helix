@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_yumika",
+    "track_name": "05 - Yumika",
+    "album": "Animahjong V3",
+    "composer": "Kenichi Arakawa",
+    "year": "1993-07-30",
+    "track_order": "5/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

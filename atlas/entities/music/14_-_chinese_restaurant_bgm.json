@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_chinese_restaurant_bgm",
+    "track_name": "14 - Chinese Restaurant BGM",
+    "album": "Quiz King of Fighters",
+    "composer": "Shinichi Yamazaki",
+    "year": "1995-02-25",
+    "track_order": "14/30",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

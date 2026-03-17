@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_quackerjack's_bridge",
+    "track_name": "03 - Quackerjack's Bridge",
+    "album": "Darkwing Duck",
+    "composer": "Yasuaki Fujita",
+    "year": "1992-06",
+    "track_order": "3/12",
+    "chip_data": {
+        "fm_writes": 95,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

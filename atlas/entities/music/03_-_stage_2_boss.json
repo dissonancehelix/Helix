@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_stage_2_boss",
+    "track_name": "03 - Stage 2 Boss",
+    "album": "Cyvern: The Dragon Weapons",
+    "composer": "Katsuya Yoneda",
+    "year": "1998",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

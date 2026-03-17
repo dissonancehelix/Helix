@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_air_battle_c",
+    "track_name": "06 - Air Battle C",
+    "album": "1943 Kai: Midway Kaisen",
+    "composer": "Harumi Fujita",
+    "year": "1988-06",
+    "track_order": "6/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

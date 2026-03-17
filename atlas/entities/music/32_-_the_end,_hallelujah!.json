@@ -1,0 +1,13 @@
+{
+    "entity_id": "32_-_the_end,_hallelujah!",
+    "track_name": "32 - The End, Hallelujah!",
+    "album": "Sexy Parodius",
+    "composer": "Mayuko Kageshita",
+    "year": "1996-03",
+    "track_order": "32/38",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

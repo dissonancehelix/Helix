@@ -1,0 +1,13 @@
+{
+    "entity_id": "50_advisor_#2",
+    "track_name": "50 Advisor #2",
+    "album": "Power Slave",
+    "composer": "Naoto Ishikawa",
+    "year": "1995-10-27",
+    "track_order": "45/57",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

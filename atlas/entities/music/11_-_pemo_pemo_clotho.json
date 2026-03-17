@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_pemo_pemo_clotho",
+    "track_name": "11 - Pemo Pemo Clotho",
+    "album": "Columns III",
+    "composer": "Morihiko Akiyama",
+    "year": "1993/10/15",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 40442,
+        "complexity": 0.988
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_way_to_gooooo...",
+    "track_name": "05 - Way to Gooooo...",
+    "album": "Punk Shot",
+    "composer": "Norio Hanzawa",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

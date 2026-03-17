@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_battle_2",
+    "track_name": "08 - Battle 2",
+    "album": "Phantom Fighter",
+    "composer": "Hironari Tadokoro",
+    "year": "1988-09-16",
+    "track_order": "8/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

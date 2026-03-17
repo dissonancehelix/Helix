@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_water_pipe",
+    "track_name": "24 - Water Pipe",
+    "album": "Illusion City",
+    "composer": "Tadahiro Nitta",
+    "year": "1991",
+    "track_order": "24/33",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

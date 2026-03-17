@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_okinawa~n_part_ii",
+    "track_name": "05 - Okinawa~n Part II",
+    "album": "Power Instinct Legends",
+    "composer": "Toshikazu Tanaka",
+    "year": "1995-09",
+    "track_order": "5/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

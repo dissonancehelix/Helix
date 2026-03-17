@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_a_high_cedar",
+    "track_name": "07 - A High Cedar",
+    "album": "Tengai",
+    "composer": "Masaki Izutani",
+    "year": "1996",
+    "track_order": "7/19",
+    "chip_data": {
+        "fm_writes": 80,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

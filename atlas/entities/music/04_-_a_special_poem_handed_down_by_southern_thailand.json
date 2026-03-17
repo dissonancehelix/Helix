@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_a_special_poem_handed_down_by_southern_thailand",
+    "track_name": "04 - A Special Poem Handed Down by Southern Thailand",
+    "album": "Real Bout Fatal Fury Special",
+    "composer": "Toshio Shimizu",
+    "year": "1997-01-28",
+    "track_order": "4/22/",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

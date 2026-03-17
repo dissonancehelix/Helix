@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_meeting_with_rick_the_rat_~_disco_fever_act_2",
+    "track_name": "12 - Meeting with Rick the Rat ~ Disco Fever (Act 2)",
+    "album": "Aero the Acro-Bat 2",
+    "composer": "Rick Fox",
+    "year": "1994/04/01",
+    "track_order": "12/20/",
+    "chip_data": {
+        "fm_writes": 72380,
+        "complexity": 0.251
+    },
+    "_type": "music:track"
+}

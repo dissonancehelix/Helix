@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_blaze_of_flame",
+    "track_name": "05 - Blaze of Flame",
+    "album": "Briganty: The Roots of Darkness",
+    "composer": "Takahiro Yonemura",
+    "year": "1995-08-27",
+    "track_order": "5/20",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

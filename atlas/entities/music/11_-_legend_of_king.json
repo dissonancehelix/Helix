@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_legend_of_king",
+    "track_name": "11 - Legend of King",
+    "album": "Last Resort",
+    "composer": "Toshio Shimizu",
+    "year": "1992-04-24",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

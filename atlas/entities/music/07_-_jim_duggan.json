@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_jim_duggan",
+    "track_name": "07 - Jim Duggan",
+    "album": "WWF Royal Rumble",
+    "composer": "Paul Webb",
+    "year": "1993",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 13807,
+        "complexity": 0.35600000000000004
+    },
+    "_type": "music:track"
+}

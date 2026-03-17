@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_docking_to_snroglat's_vessel",
+    "track_name": "08 - Docking to Snroglat's Vessel",
+    "album": "Universe",
+    "composer": "Martin Ivenson",
+    "year": "1994",
+    "track_order": "8/17",
+    "chip_data": {
+        "fm_writes": 222,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "34_-_the_demon_of_the_lake",
+    "track_name": "34 - The Demon of the Lake",
+    "album": "The Legend of Xanadu",
+    "composer": "Naoki Kaneda",
+    "year": "1994",
+    "track_order": "34/84",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

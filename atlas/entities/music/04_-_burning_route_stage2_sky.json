@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_burning_route_stage2_sky",
+    "track_name": "04 - Burning Route (Stage2 Sky)",
+    "album": "Last Duel",
+    "composer": "Tamayo Kawamoto",
+    "year": "1988",
+    "track_order": "4/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

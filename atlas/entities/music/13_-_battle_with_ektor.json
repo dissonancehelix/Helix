@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_battle_with_ektor",
+    "track_name": "13 - Battle with Ektor",
+    "album": "Zero the Kamikaze Squirrel",
+    "composer": "Rick Fox",
+    "year": "1994/01/18",
+    "track_order": "13/16",
+    "chip_data": {
+        "fm_writes": 41602,
+        "complexity": 0.166
+    },
+    "_type": "music:track"
+}

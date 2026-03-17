@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_conflict",
+    "track_name": "10 - Conflict",
+    "album": "Slap Fight MD",
+    "composer": "Yuzo Koshiro",
+    "year": "1993",
+    "track_order": "10/12",
+    "chip_data": {
+        "fm_writes": 20477,
+        "complexity": 0.273
+    },
+    "_type": "music:track"
+}

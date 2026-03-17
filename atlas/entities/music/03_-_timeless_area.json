@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_timeless_area",
+    "track_name": "03 - Timeless Area",
+    "album": "Miwaku no Chousho",
+    "composer": "Hiroaki Sano",
+    "year": "1995-12-08",
+    "track_order": "3/12",
+    "chip_data": {
+        "fm_writes": 157,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

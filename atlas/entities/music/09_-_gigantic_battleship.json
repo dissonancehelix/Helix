@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_gigantic_battleship",
+    "track_name": "09 - Gigantic Battleship",
+    "album": "Whip Rush",
+    "composer": "Toshiko Tasaki",
+    "year": "1990/05/26",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 56497,
+        "complexity": 0.741
+    },
+    "_type": "music:track"
+}

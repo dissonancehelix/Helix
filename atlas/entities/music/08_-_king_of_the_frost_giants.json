@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_king_of_the_frost_giants",
+    "track_name": "08 - King of the Frost Giants",
+    "album": "Eye of the Beholder II: The Legend of Darkmoon",
+    "composer": "Frank Klepacki.",
+    "year": "1991",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

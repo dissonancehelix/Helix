@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_main_screen_winter",
+    "track_name": "07 - Main Screen (Winter)",
+    "album": "Princess Maker 2",
+    "composer": "Masahiro Kajihara",
+    "year": "1993-06-15",
+    "track_order": "7/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

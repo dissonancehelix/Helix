@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_rapids_stage_2",
+    "track_name": "08 - Rapids (Stage 2)",
+    "album": "Zero the Kamikaze Squirrel",
+    "composer": "Rick Fox",
+    "year": "1994/01/18",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 29762,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

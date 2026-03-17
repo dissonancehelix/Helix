@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_stage_7_mega_man_7_opening_stage",
+    "track_name": "08 - Stage 7 (Mega Man 7 Opening Stage)",
+    "album": "Mega Man: The Power Battle",
+    "composer": "Yuko Takehara",
+    "year": "1995",
+    "track_order": "8/22\"",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

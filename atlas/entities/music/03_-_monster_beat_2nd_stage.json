@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_monster_beat_2nd_stage",
+    "track_name": "03 - Monster Beat (2nd Stage)",
+    "album": "R-Type",
+    "composer": "Masato Ishizaki",
+    "year": "1987",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 102,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

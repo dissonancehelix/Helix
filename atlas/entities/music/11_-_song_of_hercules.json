@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_song_of_hercules",
+    "track_name": "11 - Song of Hercules",
+    "album": "Spin Master",
+    "composer": "Mitsuteru Furukawa",
+    "year": "1993-12-16",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

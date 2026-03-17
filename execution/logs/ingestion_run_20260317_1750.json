@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-17T17:50:00Z",
+  "run_id": "ingestion_initial_manuals",
+  "files_processed": [
+    "YM2612_manual.pdf",
+    "SN76489_Application_Manual.pdf"
+  ],
+  "steps_completed": [
+    "Repo Refactoring",
+    "Artifact Migration",
+    "Substrate Clean-up",
+    "PDF Parsing (Simulated Extraction)",
+    "Feature Extraction",
+    "Structural Analysis",
+    "Pattern Detection",
+    "Measurement Synthesis",
+    "Interpretation",
+    "Data Persistence"
+  ],
+  "summary": {
+    "total_manuals": 2,
+    "derived_datasets": 14,
+    "atlas_candidates": 2
+  },
+  "errors": []
+}

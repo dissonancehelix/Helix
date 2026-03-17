@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_the_discolored_wall",
+    "track_name": "05 - The Discolored Wall",
+    "album": "Castlevania: Bloodlines",
+    "composer": "Michiru Yamane",
+    "year": "1994/03/18",
+    "track_order": "5/19",
+    "chip_data": {
+        "fm_writes": 19517,
+        "complexity": 0.28300000000000003
+    },
+    "_type": "music:track"
+}

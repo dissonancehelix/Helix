@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_spirit_of_fang_-gouga-",
+    "track_name": "01 - Spirit of Fang -Gouga-",
+    "album": "Skull Fang: Kuhga Gaiden",
+    "composer": "Hiroaki Yoshida",
+    "year": "1996-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_messenger_of_time",
+    "track_name": "06 - Messenger of Time",
+    "album": "Surging Aura",
+    "composer": "KAMO",
+    "year": "1995/03/17",
+    "track_order": "6/22",
+    "chip_data": {
+        "fm_writes": 22336,
+        "complexity": 0.6459999999999999
+    },
+    "_type": "music:track"
+}

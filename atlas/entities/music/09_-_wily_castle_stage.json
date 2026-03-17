@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_wily_castle_stage",
+    "track_name": "09 - Wily Castle Stage",
+    "album": "Mega Man World III",
+    "composer": "Kouji Murata",
+    "year": "1992-12-11",
+    "track_order": "9/18",
+    "chip_data": {
+        "fm_writes": 98,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

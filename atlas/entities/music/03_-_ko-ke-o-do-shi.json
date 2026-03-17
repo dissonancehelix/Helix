@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_ko-ke-o-do-shi",
+    "track_name": "03 - Ko-Ke-O-Do-Shi",
+    "album": "Raiga: Strato Fighter",
+    "composer": "Mikio Saito",
+    "year": "1991-02",
+    "track_order": "3/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

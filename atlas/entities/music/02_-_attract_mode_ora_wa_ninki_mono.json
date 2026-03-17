@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_attract_mode_ora_wa_ninki_mono",
+    "track_name": "02 - Attract Mode (Ora wa Ninki Mono)",
+    "album": "Crayon Shin-chan Orato Asobo",
+    "composer": "Yasuko Yamada",
+    "year": "1993/12",
+    "track_order": "2/8 ",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

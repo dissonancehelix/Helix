@@ -1,0 +1,13 @@
+{
+    "entity_id": "33_-_bee_girl_stage",
+    "track_name": "33 - Bee Girl Stage",
+    "album": "Dancing Eyes",
+    "composer": "Masahiro Fukuzawa",
+    "year": "1996-09",
+    "track_order": "33/55",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

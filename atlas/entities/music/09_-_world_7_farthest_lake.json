@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_world_7_farthest_lake",
+    "track_name": "09 - World 7 (Farthest Lake)",
+    "album": "Fire 'n Ice",
+    "composer": "Ryuichi Nitta",
+    "year": "1992-01-23",
+    "track_order": "9/16",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

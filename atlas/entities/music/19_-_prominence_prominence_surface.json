@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_prominence_prominence_surface",
+    "track_name": "19 - Prominence (Prominence Surface)",
+    "album": "Star Trader",
+    "composer": "Mieko Ishikawa",
+    "year": "1989",
+    "track_order": "19/27",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

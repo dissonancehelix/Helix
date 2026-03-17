@@ -1,0 +1,97 @@
+
+
+song : mdCNT11.s28 mdSNG11.s28 mdSE11.s28
+bank : mdVDT11.s28 mdBNK11.s28
+voice : mdVDT11.s28
+
+songobjs1 = mdSNG111.obj mdSNG211.obj mdSNG311.obj mdSNG411.obj
+songobjs2 = mdSNG511.obj mdSNG611.obj mdSNG711.obj mdSNG811.obj
+songobjs3 = mdSNG911.obj mdSNGA11.obj mdSNGB11.obj mdSNGC11.obj
+songobjs4 = mdSNGD11.obj mdSNGE11.obj mdSNGF11.obj
+
+seobjs = mdSE111.obj mdSE211.obj mdSE311.obj mdBSE11.obj
+
+mdCNT11.s28 : mdCNT11.obj mdPSG11.obj mdCMD11.obj
+	@echo/
+	@echo ***************  Link Å® Control S28 File Making  **************
+	l68 -c mdCNT11 mdPSG11 mdCMD11 -omdCNT11 -s
+	@echo ******************  Control Event File Making  *****************
+	cf -zb mdCNT11.sym mdCNT11.evt
+	@echo **********************  Control File Send  *********************
+	+icd_ldr mdCNT11.s28
+
+mdSNG11.s28 : mdTB11.obj md11.lnk
+mdSNG11.s28 : $(songobjs1) $(songobjs2) $(songobjs3) $(songobjs4)
+	@echo/
+	@echo ****************  Link Å® Song S28 File Making  ****************
+	l68 md11
+	@echo *******************  Song Event File Making  *******************
+	cf -zb mdSNG11.sym mdSNG11.evt
+	@echo ***********************  Song File Send  ***********************
+	+icd_ldr mdSNG11.s28
+
+mdSE11.s28 : mdSETB11.obj $(seobjs)
+	@echo/
+	@echo ****************  Link Å® S.E. S28 File Making  ****************
+	l68 -c mdSETB11 mdSE111 mdSE211 mdSE311 mdBSE11 -omdSE11 -s
+	@echo *******************  S.E. Event File Making  *******************
+	cf -zb mdSE11.sym mdSE11.evt
+	@echo ***********************  S.E. File Send  ***********************
+	+icd_ldr mdSE11.s28
+
+mdBNK11.s28 : mdTB11.obj mdCNT11.obj mdPSG11.obj mdCMD11.obj mdSETB11.obj
+mdBNK11.s28 : mdPCM11.obj mdVDT11.obj
+mdBNK11.s28 : $(songobjs1) $(songobjs2) $(songobjs3) $(songobjs4)
+mdBNK11.s28 : $(seobjs)
+
+
+mdCNT11.obj : mdCNT11.asm mdEQ11.lib
+	@echo/
+	@echo ****************  Main Control Program Assemble  ***************
+	x68k -q mdCNT11
+
+mdPSG11.obj : mdPSG11.asm mdEQ11.lib
+	@echo/
+	@echo ****************  PSG Control Program Assemble  ****************
+	x68k -q mdPSG11
+
+mdCMD11.obj : mdCMD11.asm mdEQ11.lib
+	@echo/
+	@echo **************  Command Control Program Assemble  **************
+	x68k -q mdCMD11
+
+mdSETB11.obj : mdSETB11.asm mdEQ11.lib
+	@echo/
+	@echo *********************  S.E. Table Assemble  ********************
+	x68k -q mdSETB11
+
+mdTB11.obj : mdTB11.asm mdEQ11.lib mdTB11.lib
+	@echo/
+	@echo ************  Address Table & Data Table Assemble  *************
+	x68k -q mdTB11
+
+.s.obj :
+	@echo/
+	@echo/
+	@echo *****************  Song or S.E. Data Assemble  *****************
+	x68k -q $<
+
+
+mdPCM11.obj : mdPCM11.asm pcm\mdDR11.hhh
+	@echo/
+	@echo ****************  PCM Control Program Assemble  ****************
+	x68k -q mdPCM11
+
+mdVDT11.s28 : mdVDT11.obj
+	@echo/
+	@echo ***************  Link Å® Voice S28 File Making  ****************
+	l68 -c mdVDT11 -omdVDT11 -s
+	@echo ******************  Voice Event File Making  *******************
+	cf -zb mdVDT11.sym mdVDT11.evt
+
+mdVDT11.obj : mdVDT11.asm pcm\mdVT11.hhh
+	@echo/
+	@echo *********************  Voice Data Assemble  ********************
+	x68k -q mdVDT11
+
+

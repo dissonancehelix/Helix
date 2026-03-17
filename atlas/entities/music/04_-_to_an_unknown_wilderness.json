@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_to_an_unknown_wilderness",
+    "track_name": "04 - To an Unknown Wilderness",
+    "album": "Metal Max",
+    "composer": "Satoshi Kadokura",
+    "year": "1991-05-24",
+    "track_order": "4/26",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

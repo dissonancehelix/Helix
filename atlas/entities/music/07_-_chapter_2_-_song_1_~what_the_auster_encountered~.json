@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_chapter_2_-_song_1_~what_the_auster_encountered~",
+    "track_name": "07 - Chapter 2 - Song 1 ~What the Auster Encountered~",
+    "album": "Rod Land",
+    "composer": "Tsukasa Tawada",
+    "year": "1990",
+    "track_order": "7/150",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

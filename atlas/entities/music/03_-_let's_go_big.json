@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_let's_go_big",
+    "track_name": "03 - Let's Go Big",
+    "album": "Doukyusei 2",
+    "composer": "Manabu Kunieda",
+    "year": "1995-01-31",
+    "track_order": "3/45",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

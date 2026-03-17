@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_ipl_~_opening_demo",
+    "track_name": "01 - IPL ~ Opening Demo",
+    "album": "Silpheed",
+    "composer": "Mamoru Ishimoda",
+    "year": "1993",
+    "track_order": "1/18",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -17,7 +17,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-from core.graph.atlas_graph import AtlasGraph, Node, Edge
+from core.kernel.graph.storage.atlas_graph import AtlasGraph, Node, Edge
 
 REPO_ROOT    = Path(__file__).parent.parent.parent
 ATLAS_DIR    = REPO_ROOT / "atlas"

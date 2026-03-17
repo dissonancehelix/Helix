@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_engage_3",
+    "track_name": "08 - Engage 3",
+    "album": "Fatal Fury 3",
+    "composer": "Yoshihiko Kitamura",
+    "year": "1995",
+    "track_order": "8/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_earth_frame_g",
+    "track_name": "11 - Earth Frame G",
+    "album": "R360 G-LOC",
+    "composer": "Takenobu Mitsuyoshi",
+    "year": "1990",
+    "track_order": "11/11",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

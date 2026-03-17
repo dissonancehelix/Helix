@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_to_a_new_adventure",
+    "track_name": "16 - To a New Adventure",
+    "album": "Zeliard",
+    "composer": "Masakuni Mitsuhashi",
+    "year": "1987-12-19",
+    "track_order": "16/18",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

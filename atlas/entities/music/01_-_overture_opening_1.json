@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_overture_opening_1",
+    "track_name": "01 - Overture (Opening 1)",
+    "album": "Emerald Dragon",
+    "composer": "Nobuhito Koise",
+    "year": "1989-12-12",
+    "track_order": "1/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_deserted_village",
+    "track_name": "05 - Deserted Village",
+    "album": "Cosmic Fantasy: Bouken Shounen Yuu",
+    "composer": "Hisao Inoue",
+    "year": "1990-03-30",
+    "track_order": "5/21",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

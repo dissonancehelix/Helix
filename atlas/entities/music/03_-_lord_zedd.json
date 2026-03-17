@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_lord_zedd",
+    "track_name": "03 - Lord Zedd",
+    "album": "Mighty Morphin Power Rangers: The Movie",
+    "composer": "Hikoshi Hashimoto'",
+    "year": "1995/05/15",
+    "track_order": "3/15",
+    "chip_data": {
+        "fm_writes": 54359,
+        "complexity": 0.9289999999999999
+    },
+    "_type": "music:track"
+}

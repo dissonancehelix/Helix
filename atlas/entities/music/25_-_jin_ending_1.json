@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_jin_ending_1",
+    "track_name": "25 - Jin Ending 1",
+    "album": "Cyberbots",
+    "composer": "Akari Kaida",
+    "year": "1995-04",
+    "track_order": "25/35",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

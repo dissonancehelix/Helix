@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_shinobi",
+    "track_name": "01 - Shinobi",
+    "album": "Shinobi III: Return of the Ninja Master",
+    "composer": "Masayuki Nagao",
+    "year": "1993-07-23",
+    "track_order": "1/19",
+    "chip_data": {
+        "fm_writes": 11845,
+        "complexity": 0.892
+    },
+    "_type": "music:track"
+}

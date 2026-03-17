@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_knuckle_on_fire",
+    "track_name": "09 - Knuckle on Fire",
+    "album": "V.G. II: The Bout of Cabalistic Goddess",
+    "composer": "Takahiro Yonemura'",
+    "year": "1994-11-25",
+    "track_order": "9/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

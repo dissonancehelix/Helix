@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_stage_4",
+    "track_name": "16 - Stage 4",
+    "album": "Splatterhouse 3",
+    "composer": "Eiko Kaneda",
+    "year": "1993",
+    "track_order": "16/25",
+    "chip_data": {
+        "fm_writes": 605463,
+        "complexity": 0.194
+    },
+    "_type": "music:track"
+}

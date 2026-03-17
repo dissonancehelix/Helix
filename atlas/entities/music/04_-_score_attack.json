@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_score_attack",
+    "track_name": "04 - Score Attack",
+    "album": "Bound High!",
+    "composer": "Takaaki Oka",
+    "year": "1996",
+    "track_order": "4/20",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

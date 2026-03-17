@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_sweet_dreams",
+    "track_name": "06 - Sweet Dreams",
+    "album": "Jinn: Eien no Yuushi",
+    "composer": "Osamu Ishikawa",
+    "year": "1994-09-02",
+    "track_order": "6/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

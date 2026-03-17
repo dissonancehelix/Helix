@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_story_interlude",
+    "track_name": "03 - Story Interlude",
+    "album": "Chakan: The Forever Man",
+    "composer": "Mark Miller",
+    "year": "1992/08/12",
+    "track_order": "3/15",
+    "chip_data": {
+        "fm_writes": 10095,
+        "complexity": 0.045
+    },
+    "_type": "music:track"
+}

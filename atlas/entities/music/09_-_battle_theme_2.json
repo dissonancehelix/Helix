@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_battle_theme_2",
+    "track_name": "09 - Battle Theme 2",
+    "album": "Beggar Prince",
+    "composer": "Zhenglong Zhang",
+    "year": "1996",
+    "track_order": "9/25",
+    "chip_data": {
+        "fm_writes": 6269,
+        "complexity": 0.4
+    },
+    "_type": "music:track"
+}

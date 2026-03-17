@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_locked_n_loaded",
+    "track_name": "01 - Locked & Loaded",
+    "album": "Contra: Hard Corps",
+    "composer": "Hiroshi Kobayashi",
+    "year": "1994",
+    "track_order": "1/25",
+    "chip_data": {
+        "fm_writes": 7292,
+        "complexity": 0.435
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_bad_bob",
+    "track_name": "03 - Bad Bob",
+    "album": "Rolling Thunder 3",
+    "composer": "Rose & Dick Boy!!!",
+    "year": "1993/05/19",
+    "track_order": "3/21",
+    "chip_data": {
+        "fm_writes": 1122517,
+        "complexity": 0.133
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_rain_forest",
+    "track_name": "02 - Rain Forest",
+    "album": "Awesome Possum Kicks Dr. Machino's Butt!%",
+    "composer": "Earl Vickers",
+    "year": "1993",
+    "track_order": "2/8(",
+    "chip_data": {
+        "fm_writes": 53545,
+        "complexity": 0.574
+    },
+    "_type": "music:track"
+}

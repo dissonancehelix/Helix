@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_second_area-_in_194x-_age_of_the_great_war_bgm_3",
+    "track_name": "09 - Second Area- In 194X- Age of the Great War (BGM 3)",
+    "album": "Sengoku 2",
+    "composer": "Yasuo Yamate",
+    "year": "1993-02-18",
+    "track_order": "9/202",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_stairs_too_high",
+    "track_name": "09 - Stairs Too High",
+    "album": "Gunstar Heroes",
+    "composer": "Norio Hanzawa",
+    "year": "1993",
+    "track_order": "9/22",
+    "chip_data": {
+        "fm_writes": 55150,
+        "complexity": 0.667
+    },
+    "_type": "music:track"
+}

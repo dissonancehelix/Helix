@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_final_base_area",
+    "track_name": "17 - Final Base Area",
+    "album": "Mission: Impossible",
+    "composer": "Jun Funahashi",
+    "year": "1990-09",
+    "track_order": "17/18",
+    "chip_data": {
+        "fm_writes": 27,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

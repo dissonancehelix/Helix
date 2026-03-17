@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_brain_wash",
+    "track_name": "12 - Brain Wash",
+    "album": "Pulseman",
+    "composer": "Junichi Masuda",
+    "year": "1994",
+    "track_order": "12/33",
+    "chip_data": {
+        "fm_writes": 16744,
+        "complexity": 0.969
+    },
+    "_type": "music:track"
+}

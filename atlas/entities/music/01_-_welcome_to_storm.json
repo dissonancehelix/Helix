@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_welcome_to_storm",
+    "track_name": "01 - Welcome to Storm",
+    "album": "Shining in the Darkness",
+    "composer": "Masahiko Yoshimura",
+    "year": "1991/03/29",
+    "track_order": "1/16",
+    "chip_data": {
+        "fm_writes": 41277,
+        "complexity": 0.833
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "32_-_dump_succeeded",
+    "track_name": "32 - Dump Succeeded",
+    "album": "Pulseman",
+    "composer": "Junichi Masuda",
+    "year": "1994",
+    "track_order": "32/33",
+    "chip_data": {
+        "fm_writes": 10936,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

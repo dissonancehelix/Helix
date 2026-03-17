@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_rescue_mission_~_the_cesspool",
+    "track_name": "07 - Rescue Mission ~ The Cesspool",
+    "album": "Zen: Intergalactic Ninja",
+    "composer": "Junichiro Kaneda",
+    "year": "1993-03-07",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

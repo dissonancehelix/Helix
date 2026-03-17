@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_unknown_bgm_1",
+    "track_name": "17 - Unknown BGM 1",
+    "album": "Power Spikes II",
+    "composer": "Soushi Hosoi",
+    "year": "1994-10-19",
+    "track_order": "17/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

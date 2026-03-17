@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_stage_devilot",
+    "track_name": "11 - Stage Devilot",
+    "album": "Super Puzzle Fighter II Turbo",
+    "composer": "Yuko Takehara",
+    "year": "1996-05-31",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_faded_memories",
+    "track_name": "21 - Faded Memories",
+    "album": "Snatcher",
+    "composer": "Konami Kukeiha Club",
+    "year": "1988-11-26",
+    "track_order": "21/36",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

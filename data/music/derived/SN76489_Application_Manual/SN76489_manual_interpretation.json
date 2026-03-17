@@ -1,0 +1,22 @@
+{
+  "doc_id": "SN76489_Application_Manual",
+  "expressive_capabilities": [
+    {
+      "type": "Noise/Tone Hybrid",
+      "description": "Square 3 as noise clock source permits tunable noise and complex beat frequencies.",
+      "complexity": "moderate"
+    },
+    {
+      "type": "Software EG",
+      "description": "All envelopes require high-frequency CPU updates (60Hz or faster).",
+      "performance_cost": "CPU overhead"
+    }
+  ],
+  "constraints": [
+    {
+      "type": "Resolution",
+      "description": "4-bit attenuation leads to significant quantization in volume ramps.",
+      "result": "the characteristic NES-PSG similar but distinct DCSG crunch."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_futari_wa_pretty_cure_game",
+    "track_name": "12 - Futari wa Pretty Cure Game",
+    "album": "Futari wa Pretty Cure",
+    "composer": "Kazuhiro Ogawa",
+    "year": "2004-06",
+    "track_order": "12/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

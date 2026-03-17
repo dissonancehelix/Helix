@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_puzzle_maze",
+    "track_name": "15 - Puzzle Maze",
+    "album": "Indiana Jones and the Last Crusade",
+    "composer": "Tim Follin",
+    "year": "1991-03",
+    "track_order": "15/17",
+    "chip_data": {
+        "fm_writes": 37,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

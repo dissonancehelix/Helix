@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_be_very_sphereful_with_my_diamonds",
+    "track_name": "03 - Be Very Sphereful With My Diamonds",
+    "album": "Commander Keen in Goodbye, Galaxy! Episode V: The Armageddon Machine",
+    "composer": "Bobby PrinceD",
+    "year": "1991-12-15",
+    "track_order": "3/16\"",
+    "chip_data": {
+        "fm_writes": 14,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

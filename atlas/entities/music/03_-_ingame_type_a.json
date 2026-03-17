@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_ingame_type_a",
+    "track_name": "03 - Ingame Type A",
+    "album": "Spin Pair",
+    "composer": "Tomotsune Maeno",
+    "year": "1990-12-14",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

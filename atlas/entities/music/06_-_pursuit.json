@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_pursuit",
+    "track_name": "06 - Pursuit",
+    "album": "Gaudi: Barcelona no Kaze",
+    "composer": "Yasunori Shiono",
+    "year": "1989-08-10",
+    "track_order": "6/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

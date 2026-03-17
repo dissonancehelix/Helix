@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_rock_is_great!!",
+    "track_name": "07 - ROCK is Great!!",
+    "album": "Netto! Gekitou! Quiztou!!",
+    "composer": "Masahiro Fukuzawa",
+    "year": "1993-09",
+    "track_order": "7/12",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

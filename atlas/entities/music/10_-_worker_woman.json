@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_worker_woman",
+    "track_name": "10 - Worker woman",
+    "album": "Farland Story: Kamigami no Isen",
+    "composer": "Atsuyoshi Isemura",
+    "year": "1995-07-21",
+    "track_order": "10/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

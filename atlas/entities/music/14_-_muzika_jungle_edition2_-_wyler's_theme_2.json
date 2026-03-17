@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_muzika_jungle_edition2_-_wyler's_theme_2",
+    "track_name": "14 - Muzika Jungle (edition2) - Wyler's Theme 2",
+    "album": "Art of Fighting 3",
+    "composer": "Yasumasa Yamada",
+    "year": "1996",
+    "track_order": "14/16*",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

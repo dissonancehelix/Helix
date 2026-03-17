@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_alice's_castle",
+    "track_name": "20 - Alice's Castle",
+    "album": "Jantei Monogatari 3: Saver Angels",
+    "composer": "Iku Mizutani!",
+    "year": "1993-04-23",
+    "track_order": "20/30",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

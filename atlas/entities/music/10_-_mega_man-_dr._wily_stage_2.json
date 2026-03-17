@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_mega_man-_dr._wily_stage_2",
+    "track_name": "10 - Mega Man- Dr. Wily Stage 2",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "10/55",
+    "chip_data": {
+        "fm_writes": 16348,
+        "complexity": 0.9510000000000001
+    },
+    "_type": "music:track"
+}

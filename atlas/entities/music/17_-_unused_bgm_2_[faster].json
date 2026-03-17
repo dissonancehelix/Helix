@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_unused_bgm_2_[faster]",
+    "track_name": "17 - Unused BGM 2 [Faster]",
+    "album": "Valtric",
+    "composer": "Shinichi Sakamoto",
+    "year": "1986-11",
+    "track_order": "17/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

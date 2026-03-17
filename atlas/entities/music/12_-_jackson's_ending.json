@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_jackson's_ending",
+    "track_name": "12 - Jackson's Ending",
+    "album": "Burning Rival",
+    "composer": "Hideaki Miyamoto",
+    "year": "1993-07",
+    "track_order": "12/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

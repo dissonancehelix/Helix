@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_nu_era_of_technology",
+    "track_name": "09 - Nu Era of Technology",
+    "album": "Shock Troopers",
+    "composer": "Masahiko Hataya",
+    "year": "1997-11-11",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

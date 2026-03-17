@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_greased_lightning",
+    "track_name": "03 - Greased Lightning",
+    "album": "Bad Dudes vs. Dragonninja",
+    "composer": "Azusa Hara",
+    "year": "1988",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 433,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

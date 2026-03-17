@@ -1,0 +1,13 @@
+{
+    "entity_id": "60_-_the_ice_tower",
+    "track_name": "60 - The Ice Tower",
+    "album": "The Legend of Xanadu",
+    "composer": "Naoki Kaneda",
+    "year": "1994",
+    "track_order": "60/84",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

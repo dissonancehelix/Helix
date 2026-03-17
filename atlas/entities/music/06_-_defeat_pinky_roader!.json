@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_defeat_pinky_roader!",
+    "track_name": "06 - Defeat Pinky Roader!",
+    "album": "Gunstar Heroes",
+    "composer": "Norio Hanzawa",
+    "year": "1993",
+    "track_order": "6/22",
+    "chip_data": {
+        "fm_writes": 31639,
+        "complexity": 0.617
+    },
+    "_type": "music:track"
+}

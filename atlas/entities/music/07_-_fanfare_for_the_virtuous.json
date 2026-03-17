@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_fanfare_for_the_virtuous",
+    "track_name": "07 - Fanfare for the Virtuous",
+    "album": "Ultima V: Warriors of Destiny",
+    "composer": "Ken Arnold",
+    "year": "1988",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

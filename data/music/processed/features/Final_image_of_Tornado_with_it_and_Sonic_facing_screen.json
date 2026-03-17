@@ -1,0 +1,8 @@
+{
+  "doc_id": "Final_image_of_Tornado_with_it_and_Sonic_facing_screen",
+  "complexity_metrics": {
+    "degrees_of_freedom": 64,
+    "control_resolution": 8,
+    "temporal_dependency": 4
+  }
+}

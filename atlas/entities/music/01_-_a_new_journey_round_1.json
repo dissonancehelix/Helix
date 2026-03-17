@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_a_new_journey_round_1",
+    "track_name": "01 - A New Journey (Round 1)",
+    "album": "Mega Twins",
+    "composer": "Hiromitsu Takaoka",
+    "year": "1990-06-19",
+    "track_order": "1/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

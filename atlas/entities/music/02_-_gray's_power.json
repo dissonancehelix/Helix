@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_gray's_power",
+    "track_name": "02 - Gray's Power",
+    "album": "Last Mission",
+    "composer": "Yukihiko Kitahara",
+    "year": "1986",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

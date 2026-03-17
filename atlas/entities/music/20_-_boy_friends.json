@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_boy_friends",
+    "track_name": "20 - Boy Friends",
+    "album": "Tokimeki Memorial Taisen Puzzle-Dama",
+    "composer": "Kazuhiro Senoo",
+    "year": "1995-12",
+    "track_order": "20/35",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

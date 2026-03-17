@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_now,_until_the_moment_you_die",
+    "track_name": "11 - Now, Until the Moment You Die",
+    "album": "Touhou Reiiden ~ Highly Responsive to Prayers",
+    "composer": "ZUN-",
+    "year": "1996",
+    "track_order": "11/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_stage_7-5_-_7-6",
+    "track_name": "17 - Stage 7-5 - 7-6",
+    "album": "Ninja Gaiden III",
+    "composer": "Kaori Nakabai",
+    "year": "1991-06-21",
+    "track_order": "17/19",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_restoration",
+    "track_name": "30 - Restoration",
+    "album": "Snatcher",
+    "composer": "Masahiro Ikariko",
+    "year": "1988-11-26",
+    "track_order": "30/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

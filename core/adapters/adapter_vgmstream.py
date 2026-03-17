@@ -41,13 +41,15 @@ class AdapterError(Exception):
     pass
 
 
-class VgmstreamAdapter:
+class Adapter:
     """
     Adapter wrapping the vgmstream CLI decode path.
 
     Correct call path:
-        HIL → INGEST_TRACK operator → VgmstreamAdapter → vgmstream CLI → WAV → envelope
+        HIL → INGEST_TRACK operator → Adapter → vgmstream CLI → WAV → envelope
     """
+    toolkit = "vgmstream"
+    substrate = "music"
 
     # Audio formats vgmstream can decode
     SUPPORTED_EXTENSIONS: frozenset[str] = frozenset({
@@ -60,14 +62,13 @@ class VgmstreamAdapter:
     def supports(self, file_path: str | Path) -> bool:
         return Path(file_path).suffix.lower() in self.SUPPORTED_EXTENSIONS
 
-    def decode(
-        self,
-        file_path: str | Path,
-        sample_rate: int = 44100,
-    ) -> dict[str, Any]:
+    def execute(self, payload: dict[str, Any]) -> dict[str, Any]:
         """
         Decode an audio file via vgmstream and extract an amplitude envelope proxy.
         """
+        file_path = payload.get("file_path")
+        sample_rate = payload.get("sample_rate", 44100)
+        
         path = Path(file_path)
         ext  = path.suffix.lower()
 
@@ -82,6 +83,16 @@ class VgmstreamAdapter:
         except Exception as exc:
             raise AdapterError(f"vgmstream decode failed for {path}: {exc}") from exc
 
+        return self.normalize(events, path, ext, sample_rate, mode)
+
+    def normalize(
+        self,
+        events: list[Any],
+        path: Path,
+        ext: str,
+        sample_rate: int,
+        mode: str,
+    ) -> dict[str, Any]:
         return {
             "format":          ext.lstrip("."),
             "chip_target":     "pcm",

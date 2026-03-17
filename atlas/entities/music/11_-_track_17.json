@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_track_17",
+    "track_name": "11 - Track 17",
+    "album": "Slam Dunk: Kyougou Makkou Taiketsu!",
+    "composer": "Yoko Wada#",
+    "year": "1995/04/28",
+    "track_order": "11/16",
+    "chip_data": {
+        "fm_writes": 16214,
+        "complexity": 0.158
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_stillness_of_the_nights",
+    "track_name": "08 - Stillness of the Nights",
+    "album": "Xak III: The Eternal Recurrence",
+    "composer": "Yukiharu Urita",
+    "year": "1993-04-23",
+    "track_order": "8/25",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -34,7 +34,7 @@ try:
 except ImportError:
     _HAS_NP = False
 
-from substrates.music.config import FEATURE_VECTOR_DIM
+from substrates.music.ingestion.config import FEATURE_VECTOR_DIM
 
 
 @dataclass

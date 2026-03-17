@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_stage_3",
+    "track_name": "08 Stage 3",
+    "album": "GleylancerB",
+    "composer": "Masanori Hikichi",
+    "year": "1992-07-17",
+    "track_order": "7/20",
+    "chip_data": {
+        "fm_writes": 14241,
+        "complexity": 0.9
+    },
+    "_type": "music:track"
+}

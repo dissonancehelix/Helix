@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_future_gate",
+    "track_name": "09 - Future Gate",
+    "album": "Mach Breakers: Numan Athletics 2",
+    "composer": "Hiroto Sasaki ",
+    "year": "1995",
+    "track_order": "9/22",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

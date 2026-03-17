@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_ending_~_staff_roll",
+    "track_name": "05 - Ending ~ Staff Roll",
+    "album": "Blaster Master Boy",
+    "composer": "Shinichi Seya",
+    "year": "1991-08-23",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 7,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_[fairly_land_story]_bgm",
+    "track_name": "05 - [Fairly Land Story] BGM",
+    "album": "Rainbow Islands",
+    "composer": "Shizuo Aizawa",
+    "year": "1987",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 59,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

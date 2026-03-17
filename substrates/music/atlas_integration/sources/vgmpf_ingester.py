@@ -22,7 +22,7 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from substrates.music.knowledge.composer_schema import ComposerNode, SoundDriverNode
+from substrates.music.atlas_integration.composer_schema import ComposerNode, SoundDriverNode
 
 log = logging.getLogger(__name__)
 
@@ -179,6 +179,12 @@ COMPOSER_TECHNICAL_TRAITS: dict[str, dict[str, Any]] = {
         "primary_chip":     "YM2612",
         "technique":        "Boss music composition; percussive FM programming",
         "driver":           "SMPS",
+    },
+    "naoki_maeda": {
+        "primary_chip":     "K054539",
+        "technique":        "Sampling/Sequencing; progressive rock and techno influence",
+        "vgmpf_notes":      "Composed Salamander 2; known for energetic and rhythmically complex FM/PCM arrangements",
+        "driver":           "Konami Custom",
     },
 }
 

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_boss_tune",
+    "track_name": "13 - Boss Tune",
+    "album": "Disney's Aladdin",
+    "composer": "Tommy Tallarico",
+    "year": "1993",
+    "track_order": "13/14",
+    "chip_data": {
+        "fm_writes": 150108,
+        "complexity": 0.287
+    },
+    "_type": "music:track"
+}

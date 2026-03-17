@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_a_bottom",
+    "track_name": "03 - A Bottom",
+    "album": "Super Daisenryaku",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1989/04/29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 21948,
+        "complexity": 0.569
+    },
+    "_type": "music:track"
+}

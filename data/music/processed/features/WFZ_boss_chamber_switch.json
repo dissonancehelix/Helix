@@ -1,0 +1,8 @@
+{
+  "doc_id": "WFZ_boss_chamber_switch",
+  "complexity_metrics": {
+    "degrees_of_freedom": 64,
+    "control_resolution": 8,
+    "temporal_dependency": 4
+  }
+}

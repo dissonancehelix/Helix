@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_purple_time",
+    "track_name": "02 - Purple Time",
+    "album": "Master of Monsters",
+    "composer": "Hayato Matsuo",
+    "year": "1991/07/26",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 29804,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_freak_show",
+    "track_name": "11 - Freak Show",
+    "album": "Ganbare Goemon 2",
+    "composer": "Michiru Yamane",
+    "year": "1989",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

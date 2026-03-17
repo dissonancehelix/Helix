@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_theme_of_bryan",
+    "track_name": "06 - Theme of Bryan",
+    "album": "Merry Go Round",
+    "composer": "Youichi Iwasaki",
+    "year": "1996-03-08",
+    "track_order": "6/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

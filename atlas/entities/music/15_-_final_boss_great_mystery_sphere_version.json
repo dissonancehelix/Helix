@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_final_boss_great_mystery_sphere_version",
+    "track_name": "15 - Final Boss (Great Mystery Sphere Version)",
+    "album": "Aero Fighters 2",
+    "composer": "Soshi Hosoi",
+    "year": "1994-07",
+    "track_order": "15/17)",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

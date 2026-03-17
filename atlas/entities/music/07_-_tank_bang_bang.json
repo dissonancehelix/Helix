@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_tank_bang_bang",
+    "track_name": "07 - Tank Bang Bang",
+    "album": "Metal Max",
+    "composer": "Satoshi Kadokura",
+    "year": "1991-05-24",
+    "track_order": "7/26",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

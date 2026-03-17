@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_music_7",
+    "track_name": "06 - Music 7",
+    "album": "Double Dribble: The Playoff Edition",
+    "composer": "Miki Higashino#",
+    "year": "1994/03/04",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 6843,
+        "complexity": 0.78
+    },
+    "_type": "music:track"
+}

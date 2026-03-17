@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_run_to_the_dark",
+    "track_name": "13 - Run to the Dark",
+    "album": "SNK vs. Capcom: SVC Chaos",
+    "composer": "Yasuo Yamate",
+    "year": "2003",
+    "track_order": "13/21",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

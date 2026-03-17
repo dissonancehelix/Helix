@@ -1,0 +1,13 @@
+{
+    "entity_id": "32_-_good_song",
+    "track_name": "32 - Good Song",
+    "album": "World Heroes Perfect",
+    "composer": "Yuka Watanabe",
+    "year": "1995-05-25",
+    "track_order": "32/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

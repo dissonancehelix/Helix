@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_theme_of_thanos",
+    "track_name": "28 - Theme of Thanos",
+    "album": "Marvel Super Heroes",
+    "composer": "Yuki Iwai",
+    "year": "1995",
+    "track_order": "28/45",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_exclaim_targets",
+    "track_name": "03 - Exclaim Targets",
+    "album": "Sorcer Striker",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1993-05",
+    "track_order": "3/13",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_escape_theme",
+    "track_name": "08 - Escape Theme",
+    "album": "Emeraldia",
+    "composer": "Yoshie Arakawa",
+    "year": "1993-07",
+    "track_order": "8/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

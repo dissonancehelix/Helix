@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_raphael's_stage",
+    "track_name": "05 - Raphael's Stage",
+    "album": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+    "composer": "Miki Higashino1",
+    "year": "1993/09/04",
+    "track_order": "5/18",
+    "chip_data": {
+        "fm_writes": 25032,
+        "complexity": 0.5369999999999999
+    },
+    "_type": "music:track"
+}

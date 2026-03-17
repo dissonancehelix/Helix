@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_day_after_day",
+    "track_name": "03 - Day After Day",
+    "album": "Viper-V6",
+    "composer": "Kenichi Arakawa",
+    "year": "1993-06-25",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4641,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

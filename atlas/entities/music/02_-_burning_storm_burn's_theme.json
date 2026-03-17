@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_burning_storm_burn's_theme",
+    "track_name": "02 - Burning Storm (Burn's Theme)",
+    "album": "Psychic Force",
+    "composer": "Hideki Takahagi",
+    "year": "1995",
+    "track_order": "2/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

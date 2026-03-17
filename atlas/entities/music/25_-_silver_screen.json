@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_silver_screen",
+    "track_name": "25 - Silver Screen",
+    "album": "Knuckles' Chaotix",
+    "composer": "Mariko Nanba",
+    "year": "1995-04-21",
+    "track_order": "25/30",
+    "chip_data": {
+        "fm_writes": 237,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

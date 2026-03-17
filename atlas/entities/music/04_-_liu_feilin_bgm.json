@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_liu_feilin_bgm",
+    "track_name": "04 - Liu Feilin BGM",
+    "album": "Fighter's History",
+    "composer": "Hiroaki Yoshida",
+    "year": "1993-03",
+    "track_order": "4/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

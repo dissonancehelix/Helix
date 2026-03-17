@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_last_area_intro",
+    "track_name": "08 - Last Area Intro",
+    "album": "Choujin Sentai Jetman",
+    "composer": "Hiroyuki Iwatsuki",
+    "year": "1991",
+    "track_order": "8/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

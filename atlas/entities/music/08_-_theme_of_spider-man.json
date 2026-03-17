@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_theme_of_spider-man",
+    "track_name": "08 - Theme of Spider-Man",
+    "album": "Marvel vs. Capcom",
+    "composer": "Masato Kouda",
+    "year": "1998",
+    "track_order": "8/35",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

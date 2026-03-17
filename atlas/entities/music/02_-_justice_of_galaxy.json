@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_justice_of_galaxy",
+    "track_name": "02 - Justice of Galaxy",
+    "album": "ChoRenSha 68K",
+    "composer": "Ruzarin Kashiwagi",
+    "year": "1995",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

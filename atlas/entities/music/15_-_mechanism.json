@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_mechanism",
+    "track_name": "15 - Mechanism",
+    "album": "McDonald's Treasure Land Adventure",
+    "composer": "Katsuhiko Suzuki\"",
+    "year": "1993/09/23",
+    "track_order": "15/19",
+    "chip_data": {
+        "fm_writes": 9049,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

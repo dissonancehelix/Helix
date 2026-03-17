@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_club_master_duel",
+    "track_name": "09 - Club Master Duel",
+    "album": "mon Card GB",
+    "composer": "Ichiro Shimakura",
+    "year": "1998-12-18",
+    "track_order": "9/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

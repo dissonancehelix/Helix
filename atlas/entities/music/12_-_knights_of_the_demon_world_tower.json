@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_knights_of_the_demon_world_tower",
+    "track_name": "12 - Knights of the Demon World Tower",
+    "album": "Final Fantasy Legend",
+    "composer": "Nobuo Uematsu",
+    "year": "1989-12-15",
+    "track_order": "12/15 ",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

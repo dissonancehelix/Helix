@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_floating_on_a_harp_and_piano_fantasy_for_yvonne_lelord",
+    "track_name": "09 - Floating on a Harp and Piano Fantasy for Yvonne Lelord",
+    "album": "Fatal Fury 3",
+    "composer": "Mariko",
+    "year": "1995",
+    "track_order": "9/236",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

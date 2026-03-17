@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_electoria",
+    "track_name": "01 - Electoria",
+    "album": "Sonic Crackers",
+    "composer": "Junko Shiratsu",
+    "year": "1994/04/01",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 783,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

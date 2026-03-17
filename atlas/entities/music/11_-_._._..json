@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_._._.",
+    "track_name": "11 - . . .",
+    "album": "Gauntlet IV",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1993/03/18",
+    "track_order": "11/11",
+    "chip_data": {
+        "fm_writes": 9199,
+        "complexity": 0.5
+    },
+    "_type": "music:track"
+}

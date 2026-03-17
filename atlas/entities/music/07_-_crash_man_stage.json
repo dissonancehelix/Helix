@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_crash_man_stage",
+    "track_name": "07 - Crash Man Stage",
+    "album": "Mega Man 2",
+    "composer": "Takashi Tateishi",
+    "year": "1988-12-24",
+    "track_order": "7/16",
+    "chip_data": {
+        "fm_writes": 51,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

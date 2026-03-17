@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_hard_struggle",
+    "track_name": "19 - Hard Struggle",
+    "album": "Illumina!",
+    "composer": "Akira Sato",
+    "year": "1990-12-06",
+    "track_order": "19/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

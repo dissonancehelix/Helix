@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_ancient_wrath",
+    "track_name": "05 - Ancient Wrath",
+    "album": "Galaxy Fight: Universal Warriors",
+    "composer": "Masato Araikawa",
+    "year": "1995-01-24",
+    "track_order": "5/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

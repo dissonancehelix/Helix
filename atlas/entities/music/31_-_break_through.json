@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_break_through",
+    "track_name": "31 - Break Through",
+    "album": "The Legend of Xanadu II",
+    "composer": "Masaru Nakajima",
+    "year": "1996",
+    "track_order": "31/49",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

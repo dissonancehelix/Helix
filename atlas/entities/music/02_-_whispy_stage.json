@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_whispy_stage",
+    "track_name": "02 - Whispy Stage",
+    "album": "Kirby's Pinball Land",
+    "composer": "Tadashi Ikegami",
+    "year": "1993-11-27",
+    "track_order": "2/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -31,7 +31,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from substrates.music.config import (
+from substrates.music.ingestion.config import (
     TASTE_WEIGHT, TASTE_PATH, TEMP_DIR, FOOBAR_LOVED_FIELD,
     FEATURE_VECTOR_DIM, FEATURE_VECTOR_VERSION,
 )
@@ -176,7 +176,7 @@ def build(db: Any, library_root: Path | None = None) -> TasteVector:
     db: TrackDB instance (used to look up feature vectors by path)
     library_root: override for music library scan (defaults to config.LIBRARY_ROOT)
     """
-    from substrates.music.config import LIBRARY_ROOT
+    from substrates.music.ingestion.config import LIBRARY_ROOT
 
     if library_root is None:
         library_root = LIBRARY_ROOT

@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_johann_strauss_ii_~_tritsch-tratsch_polka",
+    "track_name": "18 - Johann Strauss II ~ Tritsch-Tratsch Polka",
+    "album": "rix and the Power of the Gods",
+    "composer": "Nathan McCree\"",
+    "year": "1995",
+    "track_order": "18/18)",
+    "chip_data": {
+        "fm_writes": 23292,
+        "complexity": 0.582
+    },
+    "_type": "music:track"
+}

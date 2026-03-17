@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_pyramid_boss_~_stages_4,_6,_9",
+    "track_name": "07 - Pyramid (Boss ~ Stages 4, 6, 9)",
+    "album": "Darwin 4081",
+    "composer": "Seiichi Hamada",
+    "year": "1990/04/07",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 9016,
+        "complexity": 0.8250000000000001
+    },
+    "_type": "music:track"
+}

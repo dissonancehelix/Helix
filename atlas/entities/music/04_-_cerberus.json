@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_cerberus",
+    "track_name": "04 - Cerberus",
+    "album": "Ghouls 'n Ghosts",
+    "composer": "Tamayo Kawamoto",
+    "year": "1988-12",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

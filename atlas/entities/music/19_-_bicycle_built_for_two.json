@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_bicycle_built_for_two",
+    "track_name": "19 - Bicycle Built for Two",
+    "album": "Tails and the Music Maker",
+    "composer": "David Scheffler",
+    "year": "1994-10-04",
+    "track_order": "19/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

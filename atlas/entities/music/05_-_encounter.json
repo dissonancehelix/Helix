@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_encounter",
+    "track_name": "05 - Encounter",
+    "album": "Mad Stalker: Full Metal Forth",
+    "composer": "Keishi Yonao",
+    "year": "2020-09-17",
+    "track_order": "5/11",
+    "chip_data": {
+        "fm_writes": 418,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

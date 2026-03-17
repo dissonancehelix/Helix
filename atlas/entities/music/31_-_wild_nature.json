@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_wild_nature",
+    "track_name": "31 - Wild Nature",
+    "album": "Street Fighter Alpha 3",
+    "composer": "Takayuki Iwai",
+    "year": "1998-07",
+    "track_order": "31/39",
+    "chip_data": {
+        "fm_writes": 26,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

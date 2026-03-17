@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_round_table_conference",
+    "track_name": "13 - Round Table Conference",
+    "album": "Strider 2",
+    "composer": "Setsuo Yamamoto",
+    "year": "1999-12",
+    "track_order": "13/22",
+    "chip_data": {
+        "fm_writes": 21,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

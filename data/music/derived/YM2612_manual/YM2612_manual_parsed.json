@@ -1,0 +1,26 @@
+{
+  "doc_id": "YM2612_manual",
+  "name": "YM2612 Japanese Application Manual",
+  "sections": [
+    {
+      "heading": "1. Overview",
+      "content": "Digital FM (Frequency Modulation) sound source with 6 channels, 4 operators per channel. Features SSG-EG, DAC control, and LFO."
+    },
+    {
+      "heading": "2. Register Map",
+      "content": "Registers $22-$2B (System control), $30-$9E (Channel parameters 1), $30-$9E (Channel parameters 2), $A0-$B6 (Frequency/Pan)."
+    },
+    {
+      "heading": "3. Operator Structure",
+      "content": "4 operators (OP1-OP4) with per-operator TL, MULTI, AR, DR, SR, RR, SL, etc."
+    }
+  ],
+  "tables": [
+    {
+      "title": "Algorithm Table",
+      "rows": 8,
+      "columns": 2,
+      "description": "8 algorithms (0-7) mapping modulators to carriers."
+    }
+  ]
+}

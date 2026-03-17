@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_azure_castle_theme_1",
+    "track_name": "19 - Azure Castle (Theme 1)",
+    "album": "Surging Aura",
+    "composer": "KAMO",
+    "year": "1995/03/17",
+    "track_order": "19/22",
+    "chip_data": {
+        "fm_writes": 35121,
+        "complexity": 0.931
+    },
+    "_type": "music:track"
+}

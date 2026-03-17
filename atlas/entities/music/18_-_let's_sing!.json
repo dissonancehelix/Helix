@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_let's_sing!",
+    "track_name": "18 - Let's Sing!",
+    "album": "Sexy Parodius",
+    "composer": "Mayuko Kageshita",
+    "year": "1996-03",
+    "track_order": "18/38",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

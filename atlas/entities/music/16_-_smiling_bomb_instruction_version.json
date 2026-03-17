@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_smiling_bomb_instruction_version",
+    "track_name": "16 - Smiling Bomb (Instruction Version)",
+    "album": "YuYu Hakusho: Sunset Fighters",
+    "composer": "Matsuko Mawatari",
+    "year": "1994",
+    "track_order": "16/16\"",
+    "chip_data": {
+        "fm_writes": 25549,
+        "complexity": 0.473
+    },
+    "_type": "music:track"
+}

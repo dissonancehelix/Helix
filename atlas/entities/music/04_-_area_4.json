@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_area_4",
+    "track_name": "04 - Area 4",
+    "album": "Blaster Master",
+    "composer": "Naoki Kodaka",
+    "year": "1988-06-17",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_fortress_stage_first_half_~_monkey_station",
+    "track_name": "13 - Fortress Stage First Half ~ Monkey Station",
+    "album": "Aero Fighters 2",
+    "composer": "Soshi Hosoi",
+    "year": "1994-07",
+    "track_order": "13/17*",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_afterimage",
+    "track_name": "02 - Afterimage",
+    "album": "Virtua Fighter 2",
+    "composer": "Takenobu Mitsuyoshi",
+    "year": "1996",
+    "track_order": "2/10",
+    "chip_data": {
+        "fm_writes": 10226,
+        "complexity": 0.364
+    },
+    "_type": "music:track"
+}

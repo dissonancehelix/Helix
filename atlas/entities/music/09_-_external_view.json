@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_external_view",
+    "track_name": "09 - External View",
+    "album": "Armed Police Batrider",
+    "composer": "Kenichi Koyano",
+    "year": "1998-02-13",
+    "track_order": "9/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

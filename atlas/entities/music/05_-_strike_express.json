@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_strike_express",
+    "track_name": "05 - Strike Express",
+    "album": "Mirage 2",
+    "composer": "Hiroaki Sano",
+    "year": "1994-12-02",
+    "track_order": "5/18",
+    "chip_data": {
+        "fm_writes": 12985,
+        "complexity": 0.583
+    },
+    "_type": "music:track"
+}

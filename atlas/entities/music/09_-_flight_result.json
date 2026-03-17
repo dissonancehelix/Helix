@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_flight_result",
+    "track_name": "09 - Flight Result",
+    "album": "The Cockpit X68000 Special",
+    "composer": "Masato Tsurumaki",
+    "year": "1987-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

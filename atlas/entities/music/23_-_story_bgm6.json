@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_story_bgm6",
+    "track_name": "23 - Story BGM6",
+    "album": "Shalom",
+    "composer": "Konami Kukeiha Club",
+    "year": "1987",
+    "track_order": "23/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_counterattack",
+    "track_name": "10 - Counterattack",
+    "album": "Tengai",
+    "composer": "Masaki Izutani",
+    "year": "1996",
+    "track_order": "10/19",
+    "chip_data": {
+        "fm_writes": 152,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

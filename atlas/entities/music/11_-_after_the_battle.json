@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_after_the_battle",
+    "track_name": "11 - After The Battle",
+    "album": "Vendetta",
+    "composer": "Michiru Yamane",
+    "year": "1991-07",
+    "track_order": "11/12",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

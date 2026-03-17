@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_disappear",
+    "track_name": "04 - Disappear",
+    "album": "Super Hydlide",
+    "composer": "Shigeru Tomita",
+    "year": "1989",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 79309,
+        "complexity": 0.181
+    },
+    "_type": "music:track"
+}

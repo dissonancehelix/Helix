@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_opening_german",
+    "track_name": "21 - Opening (German)",
+    "album": "Dune: The Battle for Arrakis",
+    "composer": "Paul Mudra",
+    "year": "1994/04",
+    "track_order": "21/22",
+    "chip_data": {
+        "fm_writes": 145946,
+        "complexity": 0.7040000000000001
+    },
+    "_type": "music:track"
+}

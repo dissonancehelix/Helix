@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_forest_of_the_demon_spider",
+    "track_name": "01 - Forest of the Demon Spider",
+    "album": "Buster",
+    "composer": "Kenichi Hashimoto",
+    "year": "1995-10-29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

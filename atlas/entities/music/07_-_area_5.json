@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_area_5",
+    "track_name": "07 - Area 5",
+    "album": "Krusty's Super Fun House",
+    "composer": "Mark Miller",
+    "year": "1992",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 20710,
+        "complexity": 0.266
+    },
+    "_type": "music:track"
+}

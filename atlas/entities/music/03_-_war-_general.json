@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_war-_general",
+    "track_name": "03 - War- General",
+    "album": "Romance of the Three Kingdoms III: Dragon of Destiny",
+    "composer": "Minoru Mukaiya4",
+    "year": "1992",
+    "track_order": "3/19",
+    "chip_data": {
+        "fm_writes": 2419,
+        "complexity": 0.42899999999999994
+    },
+    "_type": "music:track"
+}

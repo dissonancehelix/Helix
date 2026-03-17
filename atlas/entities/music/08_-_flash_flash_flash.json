@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_flash_flash_flash",
+    "track_name": "08 - Flash Flash Flash",
+    "album": "Bosconian",
+    "composer": "Yuzo Koshiro",
+    "year": "1988-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_impact",
+    "track_name": "02 - Impact",
+    "album": "Heavy Barrel",
+    "composer": "Azusa Hara",
+    "year": "1987-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 11,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

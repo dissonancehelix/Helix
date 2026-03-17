@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_who_created_such_a_tank",
+    "track_name": "22 - Who Created Such a Tank",
+    "album": "Metal Max",
+    "composer": "Satoshi Kadokura",
+    "year": "1991-05-24",
+    "track_order": "22/26",
+    "chip_data": {
+        "fm_writes": 32,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

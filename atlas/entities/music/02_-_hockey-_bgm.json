@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_hockey-_bgm",
+    "track_name": "02 - Hockey- BGM",
+    "album": "Game Master 2",
+    "composer": "Konami Kukeiha Club",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_warmth",
+    "track_name": "09 - Warmth",
+    "album": "Get!",
+    "composer": "Youichi Iwasaki",
+    "year": "1996-09-13",
+    "track_order": "9/14",
+    "chip_data": {
+        "fm_writes": 108,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

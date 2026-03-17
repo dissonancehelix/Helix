@@ -1,0 +1,13 @@
+{
+    "entity_id": "29_-_requiem",
+    "track_name": "29 - Requiem",
+    "album": "Langrisser II",
+    "composer": "Noriyuki Iwadare",
+    "year": "1994-08-26",
+    "track_order": "29/29",
+    "chip_data": {
+        "fm_writes": 11421,
+        "complexity": 0.524
+    },
+    "_type": "music:track"
+}

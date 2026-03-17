@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_q's_final_form_2",
+    "track_name": "23 - Q's Final Form 2",
+    "album": "Quiz King of Fighters",
+    "composer": "Shinichi Yamazaki",
+    "year": "1995-02-25",
+    "track_order": "23/30",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

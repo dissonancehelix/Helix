@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_unused_6",
+    "track_name": "30 - Unused 6",
+    "album": "D-Return",
+    "composer": "Norihiro Akasaka",
+    "year": "1989-03",
+    "track_order": "30/32",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

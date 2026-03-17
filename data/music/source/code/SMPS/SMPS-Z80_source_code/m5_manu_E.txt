@@ -1,0 +1,1144 @@
+ 
+								1989.10.4
+
+	SEGA SOUND Development Manual
+
+						SEGA Enterprises Ltd.
+						No.2 Research & Development Dept.
+					  		   Norihiko Uwabo
+
+
+1: Outline of data format
+	A: Note length data
+	B: Pitch data
+	C: Rhythm data
+	D: Command data
+	E: Header data
+	F: Tone data
+	G: Vibrato and envelope data
+
+2: Details of data format
+	A: Note length data
+	B: Note pitch data
+	C: Rhythm data
+	D: Command data
+	E: Header data
+	F: Tone data
+	G: Vibrato, envelope data
+
+
+
+1: Data format
+	The data is segregated as follows
+
+	A: Sound length data
+		Normal
+		Note data
+		Portamento
+
+	B: Note data
+		Direct
+		Normal
+		Frequency
+		Data
+		Portamento
+
+	C: Rhythm data
+
+	D: Command data
+
+	E: Header data
+
+	F: Tone data
+
+	G: Vibrato and envelope data
+
+	 The format of each data format is briefly described below. For more information, please refer to chapter 2.
+
+
+
+　1-A: Note length data
+	　Use direct values or assignments. For example
+            quarter note         L4
+            Dotted quarter note  LF4
+            Triad                L4_3
+
+
+
+　1-B: Pitch data
+	1) Note NORMAL mode
+	　Format: note data, note length data, note data, note length data
+
+	　The note data has 8 octaves from C0 to BS7 by assignment.
+	　  Example: DB C0,L4,E0,LF8
+	  This data can be omitted if it has the same pitch or duration as the previous data.
+	    Example: DB C0,L8,D0,L8,E0,L4 → DB C0,L8,D0,E0,L4
+	    Example: DB C0,L8,C0,L4,E0,L4 → DB C0,L8,L4,E0
+	　However, only the note length can be omitted for rests.
+	    Example: DB NL,L1,NL,L1,NL,L8 → DB NL,L1,NL,NL,L8
+
+	2) Note portamento mode
+	  Format: note data, signed variation, note length data
+
+	　Both pitch and duration cannot be omitted.
+	    Example: DB C0,0F0H,L8
+
+	3) Direct FREQ NORMAL mode
+	　Format: FREQ data HIGH, LOW, note length
+
+	　Both pitch and note length cannot be omitted.
+	　　Example: DB 0,0F0H,L8
+
+	4) Direct FREQ Portamento mode
+	　Format: FREQ data HIGH, LOW, amount of change, note length data
+
+	　Both pitch and note length cannot be omitted.
+	　　Example: DB 0,0F0H,020H,L8
+
+
+
+　1-C: Rhythm data
+        　With the following assignments, it is possible to play FM and PSG simultaneously.
+
+	*FM
+		S  Snare
+		HT Hi Tom
+		MT Mid Tom
+		LT Low Tom
+		B  Bass Drum
+		H  HiHat
+
+	*PSG
+		PH  PSG HiHat
+		PO  PSG Open HiHat
+
+	*FM + PSG
+		OS  PSG Open  + FM Snare
+		HS  PSG HiHat + FM Snare
+		HB  PSG HiHat + FM Bass Dr.
+		OB  PSG Open  + FM BassDr
+		POH PSG Open  + FM HiHat
+
+
+	　These combinations represent the rhythm data.
+
+	　Format: Rhythm data, note length data
+		(Like note data, it can be abbreviated.)
+	　　Example: DB BH,L8,H,SBH,H
+
+
+
+　1-D: Command data
+
+	LRPAN | L/R setting (FM)
+	　		Format: LRPAN,<L/R DATA>
+			　Example: DB LRPAN,LSET cf. LRSET equ C0h
+							    LSET equ 80h
+							    RSET equ 40h
+
+	FDT | Detuning (FM/PSG)
+	　		Format: FDT,<SIGN DATA>.
+			  Example: DB FDT,1
+
+	SET_TFLG | Timing flag SET (FM/PSG)
+			Format: SET_TFLG,<DATA>
+			  Example: DB SET_TFLG,80H
+
+	CMTREND | Total Release OFF (FM)
+			Format: CMTREND
+			  Example: DB CMTREND
+
+	AUTOPAN | Set AUTOPAN (FM)
+			Format: AUTOPAN,<PAN NO.>,<PAN TABLE NO.>,
+			       <POINT START NO.>,<POINT LIMIT>,<LENGTH DATA
+			  Example: DB AUTOPAN,1,2,1,3,3
+
+	PFVADD | Volume ADD (FM/PSG)
+			Format: PFVADD,<PSG SIGN DATA>,<FM SIGN DATA
+			  Example: DB PFVADD,01H,07H
+
+	CMVADD | FM Volume ADD (FM)
+			Format: CMVADD,<SIGN DATA>.
+			  Example: DB CMVADD,-1
+
+	CMTAB | Tab (connecting the previous and next notes) (FM/PSG)
+			Format: CMTAB
+			  Example: DB CMTAB
+
+	TIE | Tie (FM/PSG)
+			Format: TIE
+			  Example: DB TIE
+
+	SRE | Slur (FM/PSG)
+			Format: SRE
+			  Example: DB SRE
+
+	CMGATE | Gate time setting (FM/PSG)
+			Format: CMGATE,<DATA> 
+			  Example: DB CMGATE,8
+
+	LFO | LFO setting (FM)
+			Format: LFO,<LFO DATA>,<PMS,AMS DATA>
+			  Example: DB LFO,2,3FH
+
+	TIMER | Timer setting (FM/PSG)
+			Format: TIMER,<A DATA(DW)>,<B DATA(DB)>.
+			  Example: DB TIMER
+				DW 120H
+				DB 0E6H
+
+	TIMER_ADD | TIMER ADD (FM/PSG)
+			Format: TIMER_ADD,<A DATA(DW)>,<B DATA(DB)>
+			  Example: DB TIMER_ADD
+				DW 2
+				DB 0
+
+	PVADD | PSG Volume ADD (PSG)
+			Format: PVADD,<SIGN DATA
+			  Example: DB PVADD,-2
+
+	REGSET | FM register setting (Channel Looking) (FM)
+			Format: REGSET,<REGISTER NO.>,<DATA>
+			  Example: DB REGSET,040H,8
+
+	FMWRITE | FM register setting (Channel Not Look) (FM/PSG)
+			Format: FMWRITE,<REGSTER NO.>,<DATA>
+			  Example: DB FMWRITE,22H,8
+
+	FEV | FM tone setting (FM)
+			Form: FEV,<NO.(0-7Fh)>,<DATA> Example: DB FMWRITE,22H,8
+			Format: FEV,<NO.(80-FFh)>,<SONG NO.
+			  Example: DB FEV,0
+			  Example: DB FEV,80H,81H
+
+	FVR | AUTO Vibrato Setting (FM/PSG)
+			Format: FVR,<DELAY>,<COUNTER>,<ADD DATA>,<LIMIT>
+			  Example: DB FVR,5,1,2,4
+
+	PFVR | Table Vibrato Setting (FM/PSG)
+			Format: PFVR,<PSG DATA>,<FM DATA 
+			  Example: DB PFVR,2,8
+
+	CMEND | Data Table End (FM/PSG)
+			Format: CMEND
+			  Example: DB CMEND
+
+	CMNOIS | PSG noise mode setting (PSG)
+			Format: CMNOIS,<DATA> ( 0E0H - 0E7H )
+			  Example: DB CMNOIS,NOIS7 cf. NOIS7 equ 0E7H
+
+	VR | Table Vibrato Setting (FM/PSG)
+			Format: VR,<TABLE NO.>
+			  Example: DB VR,2
+
+	EV | Envelope setting (PSG)
+			Format: EV,<TABLE NO.>
+			  Example: DB EV,5
+
+	CMJUMP | Table jump (FM/PSG)
+			Format: CMJUMP,<ADDRESS(DW)>
+			  Example: DB CMJUMP
+				DW ******
+
+	CMREPT | Repeat setting (FM/PSG)
+			Format: CMREPT,<REG>,<REPEAT TIME>,<ADDRESS(DW)>
+			  Example
+			   T810:
+			   	  DB C3,L8
+				  DB CMREPT,0,2
+				  DW T810
+				  DB E3,L16
+				  DB CMREPT,1,8
+				  DW T810
+
+	CMCALL | Sub-data CALL (FM/PSG)
+			Format: CMCALL,<ADDRESS (DW)>
+			  Example: DB CMCALL
+				  DB CMCALL
+				  DW SUB810
+				  DB CMEND
+			  SUB810:
+				  DB C3,L4,CMRET
+
+	CMRET | Return of sub-data (FM/PSG)
+			Format: CMRET
+			  Example: DB CMRET
+
+	CMBASE | Tempo base setting (FM/PSG)
+			Format: CMBASE,<ABS DATA
+			  Example: DB CMBASE,2
+
+	CMBIAS | KEY bias setting (FM/PSG)
+			Format: CMBIAS,<SIGN DATA
+			  Example: DB CMBIAS,-4
+
+	CMPORT | Portamento mode on/off (FM/PSG)
+			Format: CMPORT,<ON/OFF
+			  Example: DB CMPORT,ON
+
+	CMFREQ | direct frequency mode on/off
+								       (FM/PSG)
+			Format: CMFREQ,<ON/OFF
+			  Example: DB CMFREQ,ON
+
+	DT | Setting the SE mode of the FM chip (FM)
+				and detuned FREQ setting
+			Format: DT,<SLOT1 DT(0-3)>,<SLOT2 DT(0-3)>,
+			       <SLOT3 DT(0-3)>,<SLOT4 DT(0-3)>.
+			  Example: DB DT,0,1,0,3
+
+	DTDR | Same as DT
+
+	EXCOM | EXTEND COMMAND (FM/PSG)
+			Format: EXCOM,<EXTEND COMMAND
+
+	CMINT | Selects interrupt or timer use (FM/PSG)
+			Format: EXCOM,CMINT,<DATA>
+			  Example: DB EXCOM,CMINT,80H	
+			 		cf. 0H : int use
+			 		   40H : timer B use
+					   80H : timer A(song)/B(s.e.) use
+
+	TEMPO_CHG | Tempo change (FM/PSG)
+			Format: EXCOM,TEMPO_CHG,<DELAYCOUNT(ADD SIGN DATA)>
+			  Example: DB EXCOM,TEMPO_CHG,1
+
+	KEYSET | Key flag SET (FM/PSG)
+			Format: EXCOM,KEYSET,<SONG/S.E. NO.> 
+			  Example: DB EXCOM,KEYSET,81H
+
+	S_PSE | Pause ON/OFF (FM/PSG)
+			Format: EXCOM,S_PSE,<ON/OFF>
+			  Example: DB EXCOM,S_PSE,ON
+
+	WRITE_DATA | Write data to memory (FM/PSG)
+			Format: EXCOM,WRTTE_DATA,<ADDR(DW)>,<BYTE NO.(DB)>,
+			       <DATA1>,<DATA2>,<DATA3>,...
+			  Example: DB EXCOM,WRITE_DATA
+				DW 1C00H
+				DB 4,1,0,0,80H
+
+	SNG_BASE | Tempo BASE settings for all channels of a song
+						        	       (FM/PSG)
+			Format: EXCOM,SNG_BASE,<ABS DATA
+			  Example: DB EXCOM,SNG_BASE,3
+
+	SSG | Determination of SSG TYPE (FM/PSG)
+			Format: EXCOM,SSG,<SLOT1 DATA>,<SLOT2 DATA>,<SLOT3 DATA
+			　　　 ,<SLOT4 DATA>.
+			  Example: DB EXCOM,SSG,8,10,12,0
+
+	WOW | Wah setting (FM/PSG)
+			Format: EXCOM,WOW,<ENVE TABLE NO.(0-0FFh)>,<FMREG BIT MA
+			       P>
+			  Example: DB EXCOM,WOW,1,3
+				cf. bit 3 2 1 0
+				             | | | | SL4
+				            SL4 | SL2 | SL3
+					       SL3 SL1
+
+
+	***** Vibrato, envelope table command *****
+
+
+	TBREPT | Return to the top of the table.
+			Format: TBREPT
+
+	TBSTAY | Keep the current output value.
+			Format: TBSTAY
+
+	TBBAK | Return to the specified number of data from the beginning of the table.
+				and repeat.
+			Format: TBBAK,<DATA>
+
+	TBEND | For envelopes, stops the sound.
+				Same as TBSTAY for vibrato.
+			Format: TBEND
+
+	TBADD | FREQ MULTIPLE DATA
+							　　　　 (VIBRATE ONLY)
+			Format: TBADD,<DATA>
+
+
+
+　1-E: Header data
+	　Each song and S.E. has its own header for FM and PSG.
+	　When a song or S.E. is requested, the header is transferred to RAM in order to control the song or S.E.
+
+        Example: (request no. 81H)
+
+	S81::
+		DW	TIMB81				; voice top addr.
+	
+		DB	6,3,TP81,DL81			; FM use ch,PSG,use ch
+							; base,delay counter
+		DEFW	TAB81D				; rythm table pointer
+		DEFB	FB81D,FA81D			; bias,volm
+	
+		DEFW	TAB810				; FM 1ch table pointer
+		DEFB	FB81M,FA81M			; bias,volm
+	
+		DEFW	TAB811				; FM 2ch table pointer
+		DEFB	FB81B,FA81B                     ; bias,volm
+	
+		DEFW	TAB812				; FM 3ch table pointer
+		DEFB	FB81K1,FA81K1                   ; bias,volm
+	
+		DEFW	TAB813				; FM 4ch table pointer
+		DEFB	FB81K2,FA81K2                   ; bias,volm
+	
+		DEFW	TAB814				; FM 5ch table pointer
+		DEFB	FB81K3,FA81K3                   ; bias,volm
+	
+		DEFW	TAB810P				; PSG 1ch table pointer
+		DEFB	PB81M,PA81M,PV81M,PE81M         ; bias,volm,vibr,enve
+	
+		DEFW	TAB811P				; PSG 2ch table pointer
+		DEFB	PB81B,PA81B,PV81B,PE81B         ; bias,volm,vibr,enve
+	
+		DEFW	TAB812P				; PSG 3ch table pointer
+		DEFB	PB81K,PA81K,PV81K,PE81K         ; bias,volm,vibr,enve
+	
+	TAB810::
+		DB	C3,L8,.........
+	
+		
+	
+	TIMB81::
+	;----------------< Piano >-------------------
+	fev8100::
+		CNF	4,5			; algorithm , feedback
+		MD	1,6,3,0,1,0,3,3		; multiple , detune
+		RSAR	1,31,2,20,1,31,2,20	; key scale , attack rate
+		D1R	5,5,5,7			; decay rate
+		D2R	2,2,2,2 		; sustain rate
+		RRL	15,1,15,6,15,1,15,10	; release rate , sustain level
+		TL	30,0,30,0		; total level
+	;----------------< Bass >-------------------
+	fev8101::
+		CNF	2,7
+		MD	4,0,2,0,8,0,4,0
+		RSAR	0,31,0,31,0,31,0,31
+		D1R	16,15,9,8
+		D2R	7,0,0,0
+		RRL	15,3,15,0,15,0,15,4
+		TL	20h,20h,20H,00H
+
+
+	CHANNEL NO. * Number of channels to be used
+	FLAG        * Mode setting flag (note mode, portamento mode, etc.)
+        CHANNEL     * Channel data to be used.
+        BASE        * Tempo setting, where BASE * note length is the actual note length.
+	BASE        * Tempo setting.
+	BIAS        * Key setting in note mode. In direct FREQ mode, it is added to the pitch data.
+	VOLM        * VOLM data
+	VIBR        * Vibrato NO.
+	ENVE        * Envelope NO.
+
+
+
+　1-F: Voice data
+	　25 bytes make up one tone. The order is as follows
+	
+	
+	０ｂｙｔｅ　　	：	 bit 0-2 = algorithm   / 3-7 = feedback  
+
+	１		：slot 1 bit 0-3 = multiple    / 4-7 = detune
+	２		：slot 2 bit 0-3 = multiple    / 4-7 = detune
+	３		：slot 3 bit 0-3 = multiple    / 4-7 = detune
+	４		：slot 4 bit 0-3 = multiple    / 4-7 = detune
+
+	５		：slot 1 bit 0-4 = attack rate / 6-7 = key scale
+	６		：slot 2 bit 0-4 = attack rate / 6-7 = key scale
+	７		：slot 3 bit 0-4 = attack rate / 6-7 = key scale
+	８		：slot 4 bit 0-4 = attack rate / 6-7 = key scale
+
+	９		：slot 1 bit 0-4 = decay rate  / 7 = am on
+　　　１０		：slot 2 bit 0-4 = decay rate  / 7 = am on
+　　　１１		：slot 3 bit 0-4 = decay rate  / 7 = am on
+　　　１２		：slot 4 bit 0-4 = decay rate  / 7 = am on
+		
+　　　１３		：slot 1 bit 0-4 = sustain rate
+　　　１４		：slot 2 bit 0-4 = sustain rate
+　　　１５		：slot 3 bit 0-4 = sustain rate
+　　　１６		：slot 4 bit 0-4 = sustain rate
+
+　　　１７		：slot 1 bit 0-3 = sustain level / 4-7 rerease rate
+　　　１８		：slot 2 bit 0-3 = sustain level / 4-7 rerease rate
+　　　１９　		：slot 3 bit 0-3 = sustain level / 4-7 rerease rate
+　　　２０		：slot 4 bit 0-3 = sustain level / 4-7 rerease rate
+
+　　　２１		：slot 1 bit 0-6 = total level / 7 carier flag
+　　　２２		：slot 1 bit 0-6 = total level / 7 carier flag
+　　　２３		：slot 1 bit 0-6 = total level / 7 carier flag
+　　　２４		：slot 1 bit 0-6 = total level / 7 carier flag
+
+
+
+　1-G: Vibrato and envelope data
+
+	　M5TB13.SRC has an envelope table and a vibrato table. Each table is signed data.
+	　The vibrato table is used in both FM and PSG.
+	　The envelope is matched against the VOLM data each time the sound routine is called, valid for PSG only.
+	
+		The format is
+
+			LAVEL:
+				DB <data>,<data>, .... ,<table command>
+		
+	　The following table commands are also available.
+
+
+	***** vibrato, envelope table command *****
+
+
+	TBREPT | Return to the top of the table.
+			Format: TBREPT
+
+	TBSTAY | To keep the current output value.
+			Format: TBSTAY
+
+	TBBAK | Repeats from the beginning of the table back to the specified number of data.
+			Format: TBBAK,<DATA>
+
+	TBEND | For envelopes, stops the sound.
+				Same as TBSTAY for vibrato.
+			Format: TBEND
+
+	TBADD | FREQ MULTIPLE DATA
+							　　　　 (VIBRATE ONLY)
+			Format: TBADD,<DATA>
+
+	　
+
+
+
+
+
+
+2: Data format details
+
+
+　2-B: Pitch data
+	　In the note mode, note length, notes and commands are assigned as follows.
+		Note length   1-7FH
+		Note               80H-DFH
+		Command     E0H-FFH
+
+
+	Normal note mode
+	　Format: Note data, note length data, note data, note length data
+
+	　The note data has 8 octaves from C0 to BS7.
+
+	　C0 is set to 854H in PSG frequency data and 284H in FM.
+
+	　Transposition can be done with BIAS data, where 1 is a semitone. In BIAS data, 1 corresponds to a semitone, so 0FFH will produce a semitone lower.
+
+
+	Note Portamento Mode
+	  Format: note data, signed change, note length data
+	    Example: DB C3,-1,6
+
+	　In this mode, starting from the initial pitch, each time the sound routine is called, the amount of change is added to the previous pitch and the operation is repeated for the note length.
+
+	　If the table data is
+		　DB C0,010H,4
+	the actual data is
+		PSG FREQ FM FREQ
+          1: 854H 284H
+	  2: 864H 294H
+	  3: 874H 2A4H
+	  4: 884H 2B4H
+        The higher the data, the lower the sound.
+
+	　In PSG, the higher the data, the lower the pitch, and in FM, the opposite is true.
+
+	Direct Frequency Normal Mode
+	　Format: FREQ data HIGH, LOW, tone length
+
+	　The table FREQ data and the BIAS value are added together and set to the chip as the pitch.
+
+	　If BIAS is 0 and table data is
+		　DB 03H,050H,4
+	　then the actual output data is
+	          1: 350H
+		  2: 350H
+		  3: 350H
+		  4: 350H
+	　The actual output data will be
+
+
+	Direct Frequency Portamento Mode
+	　Format: FREQ data HIGH, LOW, amount of change, sound length data
+
+	　In this mode, starting from the initial pitch (table data + BIAS value), each time the sound routine is called, the amount of change is added to the previous pitch and the output operation is repeated for the length of the note.
+
+	　If the table data is
+		　DB 2,0F0H,010H,4
+	the actual data is
+			 FREQ
+        	  1: 2F0H
+		  2: 300H
+		  3: 310H
+		  4: 320H
+       and so on.
+
+
+　2-C: Rhythm data
+
+	　The FM and PSG data are recalled sequentially from the table in M5FMDR13.SRC.
+	(DRTB for FM and PSG_DRTB for PSG).
+
+	　The DRUM data format is similar to that of S.E. (except for the header).
+
+	　The DRUM bit assignments are as follows
+
+			7 6 5 4 3 2 1 0
+			| |     |--------- FM RYTHM NO.
+			| |
+			| |----------------PSG RYTHM NO.
+			|------------------RYTHM FLAG
+
+	　Therefore, there can be 15 FM rhythms (1-15) and 7 PSG rhythms (1-7).
+	　
+	　When the table data is 92H, PSG NO. is 1, so we scan PSG_DRTB and get the address of P_HI. With this data, the PSG rhythm is sounded. When the FM NO. is 2, scan DRTB to get the address HTOM. This data gives the FM rhythm. In the case of HTOM, NO. is 0, so the tone of VSNR is set. In the case of HTOM, NO. is 0, so the VSNR tone is set.
+
+	　If you want to add or change the PSG or FM rhythms, add or change the DRTB, DRVTB, PSG_DRTB and table data.
+
+
+	DRTB::
+		DW	SNR,HTOM,MTOM,LTOM,BSD,HHT,LTOM2,SNR2,KSDS,HTH
+	DRVTB::
+		DW	VSNR,VBD,VHHT,VSNR2,VSDSTB,VHIHTTB
+	PSG_DRTB:
+		DW	P_HI,P_OHI
+
+	;************************
+	;  	HI TOM		*
+	;************************
+	HTOM::
+		DW	HTOMT
+		DB	00,10H,01H,0			; bias,volm,vibr,enve
+	HTOMT::
+		DB	LRPAN,LSET,FHT,010,CMEND
+	
+	VSNR::
+		CNF	6,7
+		MD	0,6,0,3,0,3,0,3
+		RSAR	0,25,0,31,0,31,0,31
+		D1R	21,17,17,12
+		D2R	16,10,6,9
+		RRL	15,4,15,5,15,10,15,8
+		TL	0,2,3,0
+	
+	;<<<<<<<<< psg hihat table >>>>>>>>>
+	P_HI::
+		DW	P_HITB
+		DB	00,04h,00H,1			; bias,volm,vibr,enve
+	P_HITB::
+		DB	CMNOIS,0E7H
+		DB	0C2H,8,CMEND
+
+
+
+　2-D: Command data details
+
+	LRPAN L/R setting (FM)
+			Format: LRPAN,<L/R DATA>
+			　Example: DB LRPAN,LSET		  cf. LRSET equ C0h
+							      LSET equ 80h
+							      RSET equ 40h
+		　Sets the L/R of the FM chip, C0H for L/R, 80H for L and 40H for R.
+
+
+	FDT detuning (FM/PSG)
+	　		Format: FDT,<SIGN DATA>
+			  Example: DB FDT,1
+
+		　The pitch value given by NOTE or direct FREQUENCY is added up with the signed data set by the FDT command and set to the chip.
+
+			
+	SET_TFLG Timing flag SET (FM/PSG)
+			Format: SET_TFLG,<DATA>
+			  Example: DB SET_TFLG,80H
+
+		　This sets the data value to T_FLG (0A01C22H). This is used to synchronize the song and character.
+
+
+	CMTREND Total Release OFF (FM)
+			Format: CMTREND
+			  Example: DB CMTREND
+
+		　Turns off the total level and release and exits PLAY.
+
+
+	AUTOPAN AUTOPAN setting (FM)
+			Format: AUTOPAN,<PAN NO.>,<PAN TABLE NO.>,
+			       <POINT START NO.>,<POINT LIMIT>,<LENGTH DATA>
+			  Example: DB AUTOPAN,1,2,1,3,3
+
+		　When the AUTOPAN command is set, the L/R setting is made according to the PAN setting table in <PRJ>CNT.SRC.
+
+		　There are three modes of AUTOPAN, which are set by PAN NO.
+
+	　　Mode 1: (PAN NO. = 1)
+	
+		　First of all, scan pan_addr_tb of <PRJ>CNT.SRC according to <PAN TABLE NO. > If NO. is 0, L/R setting is done according to the table of pan_0_data, and if NO. is 1, the reading start position of the table is determined by <POINT START NO.> Then, after counting down by <LENGTH DATA>, the next table data is read and set. The counting unit in this mode is the number of sounds. Therefore, after the <LENGTH DATA> is output, the next L/R is set. The data connected by the TIE command is counted as one note. After the table data has been read from the top of the table by <POINT LIMIT> bytes, the data is read again from the top of the table. At this time, <POINT START NO.> is ignored.
+
+		　The following is an example.
+		　If the table data is
+			DB	AUTOPAN,1,2,1,3,2
+			DB	C3,L8,D3,E3,F3,G3,A3,B3
+		When the value of <PAN TABLE NO. > is 2, the data is read from the table PAN_2_DATA.
+			pan_2_data::
+				db	0c0h
+			pan_3_data::
+				db	040h
+				db	080h
+				db	0c0h
+		　Also, because <POINT START NO.> is 1, 40H, one byte behind the table TOP, is set, and the sound of C3 is emitted from R. Because <LENGTH DATA> is 2, the two sounds up to the sound of D3 are emitted from R. The sounds of E3 and F3 are set to 80H, the second byte from the table TOP, and are emitted from L. ＜Since <LENGTH DATA> is 2, two notes up to the note of D3 come out from R. The notes of E3 and F3 are set to 80H, the second byte from table TOP, and come out from L. The notes of G3 and A3 are set to C0H, the third byte from table TOP, and come out from L/R. Now that the data up to the table TOP + <POINT LIMIT> has been set, the next data reading returns to the table TOP and C0H is set.
+
+	　　Mode 2: (PAN NO. = 2)
+		　The difference between Mode 2 and Mode 1 is
+		(A) The counting unit is the number of CALLs in the sound routine (by interrupt or FM timer).
+		(B) After <POINT LIMIT>, the output is not looped and remains unchanged.
+		(C) The sound routine is initialised when the next sound is played.
+		
+		　Here is an example. Assume that the sound routine is CALLed in the interrupt.
+		
+		　If the table data is
+			DB	AUTOPAN,2,3,0,3,2
+			DB	C3,L8,D3,E3,F3,G3,A3,B3
+		When <POINT START NO.> is 0, 40H of the table TOP is set and the sound of C3 is output from R.
+		　Also, since <POINT START NO. > is 0, 40H of the table TOP is set, and the sound of C3 is emitted from R. ＜Since <LENGTH DATA> is 2, 80H of the next data is set after 2 interrupts, and the sound of C3 is emitted from L. After two more interrupts, the next data C0H is set and the sound is played from L/R. Now that the data up to the table TOP + <POINT LIMIT> has been set, this state will be maintained until the next pitch is set.
+		　The pitch of D3 is processed in the same way as the pitch of C3.
+		
+
+	　　Mode 3: (PAN NO. = 3)
+		　Mode 3 is the same as Mode 2. The difference between mode 2 and mode 3 is that after the <POINT LIMIT>, it loops and sets the data in the table TOP.
+
+
+
+
+	PFVADD Volume ADD (FM/PSG)
+			Format: PFVADD,<PSG SIGN DATA>,<FM SIGN DATA
+			  Example: DB PFVADD,01H,07H
+
+		　This function is used to set different VOLM values for PSG and FM when both channels are reading from the same table.
+		　Both PSG and FM will be +/- to the current setting.
+
+	CMVADD FM volume ADD (FM)
+			Format: CMVADD,<SIGN DATA>.
+			  Example: DB CMVADD,-1
+
+		　This is used to set the FM VOLM value. For PSG channels, this will be cancelled.
+
+
+	CMTAB tab (connecting the preceding and following notes) (FM/PSG)
+			Format: CMTAB
+			  Example: DB CMTAB
+
+	TIE Tie (FM/PSG)
+			Format: TIE
+			  Example: DB TIE
+
+	SRE Slur (FM/PSG)
+			Format: SRE
+			  Example: DB SRE
+
+		　CMTAB, TIE and SRE are identical except for the NAME.
+		　They cancel KEY OFF and KEY ON. Thus the envelope is maintained.
+
+	CMGATE Gate time setting (FM/PSG)
+			Format: CMGATE,<DATA 
+			  Example: DB CMGATE,8
+
+		　The data multiplied by the BASE value is the actual gate time value.
+
+	LFO LFO setting (FM)
+			Format: LFO,<LFO DATA>,<PMS,AMS DATA>
+			  Example: DB LFO,2,3FH
+
+		　Set the LFO of the FM sound source, and AMS and PMS of the command execution channel.
+
+	TIMER Timer setting (FM/PSG)
+			Format: TIMER,<A DATA(DW)>,<B DATA(DB)>
+			  Example: DB TIMER
+				DW 120H
+				DB 0E6H
+
+		　This sets the value of timer A and B for FM sound source. The value of timer A is set to 0A01C05H (WORD (LOW, HIGH)) and timer B is STORE to 0A01C07H (BYTE).
+
+
+	TIMER_ADD Timer ADD (FM/PSG)
+			Format: TIMER_ADD,<A DATA(DW)>,<B DATA(DB)>
+			  Example: DB TIMER_ADD
+				DW 2
+				DB 0
+
+		　The timer value is set by adding the data value to the values of the FM sources A and B that have been set. The set value of timer A is stored in A01C05 (WORD (LOW, HIGH)) and timer B is stored in A01C07H (BYTE).
+
+
+	PVADD PSG Volume ADD (PSG)
+			Format: PVADD,<SIGN DATA>
+			  Example: DB PVADD,-2
+
+		　This is used to set the PSG VOLM value. For FM channels, this will be cancelled.
+
+
+	REGSET FM Register Setting (Channel Looking) (FM)
+			Format: REGSET,<REGISTER NO.>,<DATA>
+			  Example: DB REGSET,040H,8
+
+		　Determines the register number of the FM chip with reference to the channel number. Write data to that register. In the example, the TL data of SLOT1 of the command setting channel is set to 8.
+		　Note that the data written is transient. Even if this command is used in the song, the recovery after S.E. is not performed.
+
+
+	FMWRITE FM register setting (Channel Not Look) (FM/PSG)
+			Format: FMWRITE,<REGSTER NO.>,<DATA>
+			  Example: DB FMWRITE,22H,8
+
+		　Writes data directly to the specified FM register. In the example, LFO is set to 8.
+		　You can also change the timbre with this command, but there is no recovery after S.E.
+
+
+	FEV FM timbre setting (FM)
+			Format: FEV,<NO.(0-7Fh)>
+			Format: FEV,<NO.(80-FFh)>,<SONG NO.>
+			  Example: DB FEV,0
+			  Example: DB FEV,80H,81H
+
+		　Sets the FM sound source tone. One tone is set by 25 bytes from the address specified in the TOP of the song and S.E. header. Therefore, if tone NO. is set to 1, 25BYTE data starting from 26BYTE from the specified address will be set.
+		　If you specify the tone NO. with BIT7 turned on, you can set the tone of another song to the chip. In the example, the tone of No. 0 of the song with request NO. 81H is specified.
+		
+
+	FVR AUTO Vibrato Setting (FM/PSG)
+			Format: FVR,<DELAY>,<COUNTER>,<ADD DATA>,<LIMIT>
+			  Example: DB FVR,5,1,2,4
+
+		　When this command is set, the following steps are taken to add vibrato.
+		
+		(A) Outputs the set pitch for <DELAY> data - 1 count. The count interval is determined by the interrupt or FM timer setting.
+		(B) After counting down by the <COUNTER> value, the <ADD DATA> value is added to the previously set division data. ＜This is a signed data.
+		C) <LIMIT> data / 2 times After repeating the operation in B), the sign of <ADD DATA> is reversed.
+		D） ＜LIMIT＞ data times After repeating the operation of B), the sign of <ADD DATA> is reversed.
+		E) Repeat the operation in D) until the key is turned off.
+
+		　In the example data, the following vibrato is applied.
+		
+				
+			      ／＼
+			    ／  | ＼
+　　　　　　　　　　　　      ／ ---    ＼
+　　　　　　　　　　　 　   ／  |2        ＼
+		    ＝＝＝＝ ---            ＼            ／
+		　DELAY   1               ＼        ／  
+                                            ＼    ／    
+				              ＼／      
+				                        
+
+
+		 To cancel this command, use the VR command and set NO.0.
+
+
+	PFVR Table Vibrato Setting (FM/PSG)
+			Format: PFVR,<PSG DATA>,<FM DATA> 
+			  Example: DB PFVR,2,8
+
+		　This is used to set different table vibrato settings for PSG and FM when both channels are reading from the same table. Table bifurcation is the process of adding the signed data from the vibrato table to the frequency division data to create vibrato. Unlike the FVR command, Table Vibrato does not accumulate the division data.
+		　The vibrato table is <PRJ> TB.SRC VB1, VB2, .... SRC.
+		  When vibrato no. 2 is set, data from the VB2 table is read out and added to the division value. For example, if the FM channel is used and the pitch data is C1, the divider value is 8284H. Therefore, after vibrato processing, the divider values will be 8284H, 8286H, 8288H, 828A, 828CH, .... ....
+		　The data readout interval is determined by the interrupt or FM timer setting.
+
+			DB	000H,002H,004H,006H,008H,00AH,00CH,00EH
+			DB	010H,012H,014H,018H,TBSTAY
+
+	CMEND data table END (FM/PSG)
+			Format: CMEND
+			  Example: DB CMEND
+
+		　Indicates the end of the song, S.E. data table.
+
+	CMNOIS PSG noise mode setting (PSG)
+			Format: CMNOIS,<DATA> ( 0E0H - 0E7H )
+			  Example: DB CMNOIS,NOIS7       cf. NOIS7 equ 0E7H
+
+		　This parameter specifies the NOIS mode of PSG.
+		　The PSG noise can be of the following types
+		
+		Synchronous noise 0: fixed noise with frequency 13.65 Hz (E0H)
+			　　　　1: Fixed noise with a frequency of 6.83 Hz (E1H)
+			　　　　2: fixed noise with frequency 3.41 Hz (E2H)
+			　　　　3: Variable frequency noise (E3H)
+
+		White noise 4: Fixed noise with frequency 13.65Hz (E4H)
+			　　　　5: Fixed noise with frequency 6.83Hz (E5H)
+			　　　　6: Fixed noise with frequency 3.41Hz (E6H)
+			　　　　7: Variable frequency noise (E7H)
+
+		　The noise divides the tone's clock by 16. Noise 3 can therefore be used to achieve a lower pitch than the TONE.
+		
+		
+
+	VR table vibrato setting (FM/PSG)
+			Format: VR,<TABLE NO.>
+			  Example: DB VR,2
+
+		　This command is used to set the table vibrato no.>. If no.0 is set, vibrato processing is cancelled.
+		　This command is valid for both PSG and FM.
+		　This command is valid for both PSG and FM, but cannot be shared with the FVR command.
+		
+		
+
+	Setting the EV envelope (PSG)
+			Format: EV,<TABLE NO.>
+			  Example: DB EV,5
+
+		　This command is used to set the PSG envelope.
+		　The envelope is added by adding the signed data marked in the envelope table to the VOLM data.
+		　The envelope table is <PRJ> TB.SRC EV1, EV2, .... SRC.
+		  When envelope no. 2 is set, the data is read from the EV2 table and added to the VOLM. For example, if the VOLM value is 2, the attenuation data after envelope processing will be 1H, 3H, 5H, 7H, 9H and 11H.
+		　The data readout interval is determined by the interrupt or FM timer setting.
+		　Envelope processing is cancelled at envelope no. 0.
+
+		EV2::
+			DB	000H,002H,004H,006H,008H,010H,TBEND
+
+
+	CMJUMP table jump (FM/PSG)
+			Format: CMJUMP,<ADDRESS(DW)>
+			  Example: DB CMJUMP
+				DW ******
+
+		　JUMP the table read position to the address set by DW.
+
+
+	CMREPT Repeat setting (FM/PSG)
+			Format: CMREPT,<REG>,<REPEAT TIME>,<ADDRESS(DW)>
+			  Example
+			   T810:
+			   	  DB C3,L8
+				  DB CMREPT,0,2
+				  DW T810
+				  DB E3,L16
+				  DB CMREPT,1,8
+				  DW T810
+
+		　The CMREPT command is repeated <REPEAT TIME> times from the CMREPT command to the address specified by DW. ＜REG＞ specifies the nesting depth.
+
+
+	CMCALL Sub-data CALL (FM/PSG)
+			Format: CMCALL,<ADDRESS (DW)>
+			  Example
+				  DB CMCALL
+				  DW SUB810
+				  DB CMEND
+			  SUB810:
+				  DB C3,L4,CMRET
+
+		　JUMPs the table read position to the address set by DW, and the CMRET command returns the table read position to the next data after the command.
+
+
+	CMRET return of sub-data (FM/PSG)
+			Format: CMRET
+			  Example: DB CMRET
+
+		　This command returns the table read position to the next data after the CMCALL command.
+
+
+	CMBASE Tempo base setting (FM/PSG)
+			Format: CMBASE,<ABS DATA>
+			  Example: DB CMBASE,2
+
+		　Sets the tempo BASE value for the channel. The data is an absolute value. The BASE value of the data sets the note length counter to the note length data ＊BASE value when the note length data is read. Therefore, even if the CMBASE command is executed when the note length is omitted, the note length counter will not be updated.
+
+	CMBIAS KEY bias setting (FM/PSG)
+			Format: CMBIAS,<SIGN DATA
+			  Example: DB CMBIAS,-4
+
+		　Sets the KEY bias value for the channel. Add the DATA value to the KEY bias value set when the command is executed.
+		　In NOTE mode, +1 raises the pitch by a semitone, and -1 lowers it by a semitone. The bias value is added to the pitch data when the pitch data is read, and then the frequency data is calculated. Therefore, if the CMBIAS command is executed when the pitch is omitted, the frequency will not be updated.
+
+
+	CMPORT portamento mode on/off (FM/PSG)
+			Format: CMPORT,<ON/OFF
+			  Example: DB CMPORT,ON
+
+		　Turn portamento mode on and off.
+
+	CMFREQ Direct Frequency Mode ON/OFF
+								　　　 (FM/PSG)
+			Format: CMFREQ,<ON/OFF
+			  Example: DB CMFREQ,ON
+
+		　This specifies the setting and release of the direct frequency mode.
+
+	DT Sets the SE mode of the FM chip (FM) and setting of detuning FREQ
+			Format: DT,<SLOT1 DT(0-3)>,<SLOT2 DT(0-3)>,
+			       <SLOT3 DT(0-3)>,<SLOT4 DT(0-3)>.
+			  Example: DB DT,0,1,0,3
+
+		　Specifies the use of FM chip sound effect mode. ＜The data of dtune_tb in PRJ>CNT.SRC is obtained by the command specification data and added to the frequency division data obtained by the pitch data to obtain the frequency division data to be set for each slot.
+		　For example, when the pitch data is C2, the frequency divider value is 8284H. For example, if the pitch data is C2, the division value is 8284H. In the case of the DT command setting as shown in the example, the command data of SLOT1 is 0, so the 0th data of dtune_tb, 000H, is added to the division value and set to SLOT1. Similarly, the first data 132H is set in SLOT2, the 0th data 000H in SLOT3 and the 3rd data 1E4H in SLOT4 are added to the division value and set.
+
+
+		dtune_tb::
+			DW	000H,0132H,018EH,01E4H
+
+
+	Same as DTDR DT
+
+	EXCOM EXTEND COMMAND (FM/PSG)
+			Format: EXCOM,<EXTEND COMMAND>.
+
+		　This command is used for extension.
+
+
+	CMINT Selects interrupt or timer use (FM/PSG)
+			Format: EXCOM,CMINT,<DATA>
+			  Example: DB EXCOM,CMINT,80H	
+			 		cf. 0H : int use
+			 		   40H : timer B use
+					   80H : timer A(song)/B(s.e.) use
+
+		　Specifies one of three ways to synchronize the sound routine: A) by interrupt B) by FM timer B C) by FM timers A and B.
+		　If the data is 0, then A) Interrupt, if 40H, then B) FM Timer B, if 80H, then C) FM Timer A, B.
+
+		A) Interrupt synchronisation
+		　The sound routine is called for each interrupt, and the song, S.E., is processed.
+
+		(B) FM Timer B Synchronization
+
+	　	　The sound routine is called every time TIMERB overflows and the song, S.E. is processed.
+		　The value of TIMERB is set to 1C06H (BYTE) in the Z80 SRAM.
+		
+	
+	
+		(C) FM timer A and B synchronization
+
+		　The sound routine monitors TIMERA and B for overflow and processes the song on A overflow and the S.E. on B overflow.
+	　　	　The value of TIMERA A is set to 1C04H (WORD (LOW, HIGH)) in the Z80 SRAM and the value of TIMERA B is set to 1C06H (BYTE).
+
+
+	TEMPO_CHG Tempo change (FM/PSG)
+			Format: EXCOM,TEMPO_CHG,<DELAYCOUNT(ADD SIGN DATA)>
+			  Example: DB EXCOM,TEMPO_CHG,1
+
+		　This function increases or decreases the DELAY counter value.
+		　The DELAY counter is used to adjust the note length of a song. If the counter value is N, the note length will be multiplied by N/(N-1).
+		　This is not relevant for S.E.
+
+	KEYSET Key flag SET (FM/PSG)
+			Format: EXCOM,KEYSET,<SONG/S.E. NO.> 
+			  Example: DB EXCOM,KEYSET,81H
+
+		　Play the song that corresponds to request no. 1, S.E. No. 1. In the example, the song that corresponds to request no. 81H will be played.
+
+	S_PSE Pause ON/OFF (FM/PSG)
+			Format: EXCOM,S_PSE,<ON/OFF
+			  Example: DB EXCOM,S_PSE,ON
+
+		　When turned OFF, the song will start from the position where PAUSE was applied.
+
+	WRITE_DATA Write data to memory (FM/PSG)
+			Format: EXCOM,WRTTE_DATA,<ADDR(DW)>,<BYTE NO.(DB)>,
+			       <DATA1>,<DATA2>,<DATA3>,...
+			  Example: DB EXCOM,WRITE_DATA
+				DW 1C00H
+				DB 4,1,0,0,80H
+	
+		　The data of the number of BYTE is written from the address specified by <ADDR(DW)> to <BYTE NO.(DB)>. In the example, 4 bytes of data (1,0,0,80H) are written from 1C00H.
+
+	SNG_BASE Tempo BASE setting for all channels of a song
+						        	       (FM/PSG)
+			Format: EXCOM,SNG_BASE,<ABS DATA
+			  Example: DB EXCOM,SNG_BASE,3
+
+		　Sets the BASE value for all channels of the song. The data is an absolute value.
+
+	SSG Determination of SSG TYPE (FM/PSG)
+			Format: EXCOM,SSG,<SLOT1 DATA>,<SLOT2 DATA>,<SLOT3 DATA
+			       ,<SLOT4 DATA>.
+			  Example: DB EXCOM,SSG,8,10,12,0
+
+		　This sets the SSG envelope for the FM chip, note that BIT4 in the SLOT data must be ON.
+		
+
+
+	WOW Wah setting (FM/PSG)
+			Format： EXCOM,WOW,<ENVE TABLE NO.(0-0FFh)>,<FMREG BIT MAP>
+			  Example：	DB	EXCOM,WOW,1,3
+				cf.  	 bit 3  2  1  0
+				             |  |  |  |
+				            SL4 | SL2 |
+					       SL3   SL1
+
+
+		　When WOW command is set, the total level set in the tone data and the value read from the envelope table are added together and set for the specified slot. When BIT is ON, the process is applied to the specified slot.
+		　The envelope table data is read in the same way as when the EV command is specified.
+
+
+
+
+
+
+	***** Vibrato and envelope table commands *****
+
+	　There are four commands for describing envelope and vibrato tables.
+
+
+	TBREPT Return to the beginning of the table.
+			Format: TBREPT
+
+		　Moves the data read position to the top of the table.
+
+
+	TBSTAY Keeps the current output value.
+			Format: TBSTAY
+
+		　Stops reading data and keeps the current output value.
+
+	TBBAK Returns to the specified number of data from the top of the table and repeats.
+				and repeat.
+			Format: TBBAK,<DATA>
+
+		　Moves the data read position to the top of the table + <DATA> position.
+
+	TBEND For envelopes, stops the sound.
+						Same as TBSTAY for vibrato.
+			Format: TBEND
+
+		　In the case of an envelope table, stops reading data and turns off the output.
+		　Same as TBSTAY in case of vibrato table.
+
+	TBADD FREQ MULTIPLE DATA
+							　　　　 (VIBRATE ONLY)
+			Format: TBADD,<SIGN DATA
+		　This is only valid for vibrato tables. This command increases or decreases the depth of the vibrato.
+		　When this command is set, <SIGN DATA> is added to the previous vibrato ADD data, and the new vibrato ADD data is created. The vibrato data that is added to the division data is vibrato ADD data * vibrato table data.
+		　The vibrato ADD data is cleared each time the KEY is turned ON.
+
+
+
+
+
+
+
+
+　1-F: Voice data
+	　25 bytes make up one tone. The sequence is as follows
+	　For the carrier total level data, bit 7 is switched on. This sets the value to which the VOLM data is added.
+	
+	
+
+
+
+
+　1-G: Vibrato and envelope data
+
+	　M5TB13.SRC has an envelope table and a vibrato table. Each table is signed data.
+	　Both envelope and vibrato data are specified by the ENVTB: and VIBTB: address tables. For example, if vibrato no. 1 is specified, the first table in VIBTB: will be used.
+	
+		
+	　For details of the table commands, please refer to the previous section.

@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_endless_journey",
+    "track_name": "20 - Endless Journey",
+    "album": "SNK vs. Capcom: SVC Chaos",
+    "composer": "Yasuo Yamate",
+    "year": "2003",
+    "track_order": "20/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

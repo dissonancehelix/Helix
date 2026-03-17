@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_portal_~_item_room",
+    "track_name": "07 - Portal ~ Item Room",
+    "album": "King Kong 2: Ikari no Megaton Punch",
+    "composer": "Shinya Sakamoto",
+    "year": "1986-12-18",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

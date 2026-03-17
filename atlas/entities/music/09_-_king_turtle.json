@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_king_turtle",
+    "track_name": "09 - King Turtle",
+    "album": "Jewel Master",
+    "composer": "Motoaki Takenouchi",
+    "year": "1991/08/30",
+    "track_order": "9/18",
+    "chip_data": {
+        "fm_writes": 35295,
+        "complexity": 0.037
+    },
+    "_type": "music:track"
+}

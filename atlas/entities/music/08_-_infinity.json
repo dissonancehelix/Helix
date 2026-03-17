@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_infinity",
+    "track_name": "08 - Infinity",
+    "album": "Ace Driver: Victory Lap",
+    "composer": "Hiroyuki Kawada",
+    "year": "1996-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_m.d.c._j.b.",
+    "track_name": "28 - M.D.C. J.B.",
+    "album": "Genocide 2: Master of the Dark Communion",
+    "composer": "Hideyuki Shimono",
+    "year": "1991-12-07",
+    "track_order": "28/49",
+    "chip_data": {
+        "fm_writes": 17,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

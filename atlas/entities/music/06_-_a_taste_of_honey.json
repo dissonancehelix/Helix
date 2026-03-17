@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_a_taste_of_honey",
+    "track_name": "06 - A Taste of Honey",
+    "album": "Fatal Fury 3",
+    "composer": "Masahiko Hataya",
+    "year": "1995",
+    "track_order": "6/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

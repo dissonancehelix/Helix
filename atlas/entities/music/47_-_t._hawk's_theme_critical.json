@@ -1,0 +1,13 @@
+{
+    "entity_id": "47_-_t._hawk's_theme_critical",
+    "track_name": "47 - T. Hawk's Theme (Critical)",
+    "album": "Street Fighter II",
+    "composer": "Isao Abe",
+    "year": "1991",
+    "track_order": "47/54",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

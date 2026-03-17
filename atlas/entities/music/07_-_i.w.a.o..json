@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_i.w.a.o.",
+    "track_name": "07 - I.W.A.O.",
+    "album": "Hyper Duel",
+    "composer": "Hyakutaro Tsukumo",
+    "year": "1993",
+    "track_order": "7/19",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

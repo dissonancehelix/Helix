@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_izanami",
+    "track_name": "11 - Izanami",
+    "album": "Digital Devil Story: Megami Tensei",
+    "composer": "Tsukasa Masuko\"",
+    "year": "1987-09-11",
+    "track_order": "11/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

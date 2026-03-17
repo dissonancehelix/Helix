@@ -383,8 +383,31 @@ class HILInterpreter:
         # Dispatch to operator pipeline
         return self._dispatch_operator(cmd, spec, entity_target)
 
+        # Dispatch to operator pipeline
+        return self._dispatch_operator(cmd, spec, entity_target)
+
     def _dispatch_operator(self, cmd: HILCommand, spec: Any, entity_target: Any) -> dict:
         """Route to the appropriate operator pipeline."""
+        from core.operators.operator_registry import get_registry
+        registry = get_registry()
+        
+        # Check for functional implementation
+        impl_class = registry.get_implementation(spec.name)
+        if impl_class:
+            op_instance = impl_class()
+            payload = {**cmd.params}
+            if entity_target:
+                payload["entity_id"] = entity_target.entity_id()
+                # If target has a name that looks like a path, use it
+                if not payload.get("file_path") and hasattr(entity_target, "name"):
+                    payload["file_path"] = entity_target.name
+            
+            try:
+                result = op_instance.run(payload)
+                return self._ok(cmd, result)
+            except Exception as e:
+                return self._error(cmd, f"Operator {spec.name} execution failed: {e}")
+
         op = spec.name
 
         if op == "PROBE":

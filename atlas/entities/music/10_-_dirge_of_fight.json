@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_dirge_of_fight",
+    "track_name": "10 - Dirge of Fight",
+    "album": "Fire Pro Wrestling: 2nd Bout",
+    "composer": "Hironori Tanaka",
+    "year": "1991-08-30",
+    "track_order": "10/11",
+    "chip_data": {
+        "fm_writes": 25,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_circus_act_2",
+    "track_name": "04 - Circus Act 2",
+    "album": "Aero the Acro-Bat",
+    "composer": "Rick Fox",
+    "year": "1993",
+    "track_order": "4/23",
+    "chip_data": {
+        "fm_writes": 20333,
+        "complexity": 0.81
+    },
+    "_type": "music:track"
+}

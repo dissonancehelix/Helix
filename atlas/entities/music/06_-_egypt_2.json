@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_egypt_2",
+    "track_name": "06 - Egypt 2",
+    "album": "Strider",
+    "composer": "Harumi Fujita",
+    "year": "1989-07",
+    "track_order": "6/14",
+    "chip_data": {
+        "fm_writes": 24,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

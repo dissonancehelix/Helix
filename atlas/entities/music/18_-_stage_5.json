@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_stage_5",
+    "track_name": "18 - Stage 5",
+    "album": "Splatterhouse 3",
+    "composer": "Eiko Kaneda",
+    "year": "1993",
+    "track_order": "18/25",
+    "chip_data": {
+        "fm_writes": 982700,
+        "complexity": 0.242
+    },
+    "_type": "music:track"
+}

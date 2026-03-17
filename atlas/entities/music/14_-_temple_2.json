@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_temple_2",
+    "track_name": "14 - Temple 2",
+    "album": "Filsnown",
+    "composer": "Naoya Shimokawa",
+    "year": "1995-08-03",
+    "track_order": "14/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

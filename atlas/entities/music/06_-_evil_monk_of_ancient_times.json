@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_evil_monk_of_ancient_times",
+    "track_name": "06 - Evil Monk of Ancient Times",
+    "album": "Sol Divide: Sword of Darkness",
+    "composer": "Masaki Izutani",
+    "year": "1997",
+    "track_order": "6/19",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_credits_do-shite",
+    "track_name": "07 - Credits (DO-shite)",
+    "album": "Crayon Shin-chan Orato Asobo",
+    "composer": "Yasuko Yamada",
+    "year": "1993/12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

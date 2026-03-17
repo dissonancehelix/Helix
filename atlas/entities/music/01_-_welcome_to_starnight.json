@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_welcome_to_starnight",
+    "track_name": "01 - Welcome to StarNight",
+    "album": "Kira Kira Star Night",
+    "composer": "Bunpei Nagahama",
+    "year": "2016-10-06",
+    "track_order": "1/29",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

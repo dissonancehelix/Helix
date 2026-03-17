@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_m._bison_vega_stage",
+    "track_name": "24 - M. Bison (Vega) Stage",
+    "album": "Street Fighter Alpha",
+    "composer": "Naoaki Iwami",
+    "year": "1995-06-27",
+    "track_order": "24/29",
+    "chip_data": {
+        "fm_writes": 309,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_sunrise",
+    "track_name": "13 - Sunrise",
+    "album": "Night Slashers",
+    "composer": "Tomoyoshi Sato",
+    "year": "1993-09",
+    "track_order": "13/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

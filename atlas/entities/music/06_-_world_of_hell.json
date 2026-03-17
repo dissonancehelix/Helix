@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_world_of_hell",
+    "track_name": "06 - World of Hell",
+    "album": "Athena",
+    "composer": "SNK Sound Team",
+    "year": "1986",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 37,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

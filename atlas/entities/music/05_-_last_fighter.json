@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_last_fighter",
+    "track_name": "05 - Last Fighter",
+    "album": "Flying Shark",
+    "composer": "Masahiro Yuge",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

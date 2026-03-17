@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_morning_departure",
+    "track_name": "02 - Morning Departure",
+    "album": "Gaiapolis",
+    "composer": "Seiichi Fukami",
+    "year": "1993-04",
+    "track_order": "2/37",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

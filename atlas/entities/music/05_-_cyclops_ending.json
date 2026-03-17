@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_cyclops_ending",
+    "track_name": "05 - Cyclops Ending",
+    "album": "Marvel Super Heroes Vs. Street Fighter",
+    "composer": "Yuki Iwai",
+    "year": "1997",
+    "track_order": "5/38",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

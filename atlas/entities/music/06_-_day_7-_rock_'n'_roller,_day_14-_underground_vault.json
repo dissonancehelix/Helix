@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_day_7-_rock_'n'_roller,_day_14-_underground_vault",
+    "track_name": "06 - Day 7- Rock 'n' Roller, Day 14- Underground Vault",
+    "album": "Vectorman",
+    "composer": "Jon Holland",
+    "year": "1995",
+    "track_order": "6/131",
+    "chip_data": {
+        "fm_writes": 39018,
+        "complexity": 0.586
+    },
+    "_type": "music:track"
+}

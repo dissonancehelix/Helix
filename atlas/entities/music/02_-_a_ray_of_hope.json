@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_a_ray_of_hope",
+    "track_name": "02 - A Ray of Hope",
+    "album": "Thunder Force II",
+    "composer": "Tomomi Otani",
+    "year": "1989/06/15",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 56739,
+        "complexity": 0.9169999999999999
+    },
+    "_type": "music:track"
+}

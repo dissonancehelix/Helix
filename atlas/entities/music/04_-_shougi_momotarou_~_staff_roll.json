@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_shougi_momotarou_~_staff_roll",
+    "track_name": "04 - Shougi Momotarou ~ Staff Roll",
+    "album": "Shougi: Shodan Icchokusen",
+    "composer": "Nobuko Hasebe",
+    "year": "1990-08-10",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 103,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

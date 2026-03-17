@@ -1,0 +1,13 @@
+{
+    "entity_id": "29_-_that's_the_way_the_boss_is_killed",
+    "track_name": "29 - That's the Way the Boss is Killed",
+    "album": "Dynamite Headdy",
+    "composer": "Aki Hata",
+    "year": "1994",
+    "track_order": "29/32!",
+    "chip_data": {
+        "fm_writes": 21870,
+        "complexity": 0.246
+    },
+    "_type": "music:track"
+}

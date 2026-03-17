@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_boss_battle_5_~shadow_elf~",
+    "track_name": "23 - Boss Battle 5 ~Shadow Elf~",
+    "album": "Dungeons & Dragons: Tower of Doom",
+    "composer": "Isao Abe",
+    "year": "1993",
+    "track_order": "23/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

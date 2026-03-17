@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_jean_pierre_bgm",
+    "track_name": "16 - Jean Pierre BGM",
+    "album": "Fighter's History",
+    "composer": "Hiroaki Yoshida",
+    "year": "1993-03",
+    "track_order": "16/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

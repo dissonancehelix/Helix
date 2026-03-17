@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_black_cat_moon",
+    "track_name": "04 - Black Cat Moon",
+    "album": "Virtua Fighter 2",
+    "composer": "Takenobu Mitsuyoshi",
+    "year": "1996",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 51896,
+        "complexity": 0.182
+    },
+    "_type": "music:track"
+}

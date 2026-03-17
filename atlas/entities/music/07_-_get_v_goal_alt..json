@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_get_v_goal_alt.",
+    "track_name": "07 - Get V Goal (Alt.)",
+    "album": "V Goal Soccer",
+    "composer": "Tetsukazu Nakanishi",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

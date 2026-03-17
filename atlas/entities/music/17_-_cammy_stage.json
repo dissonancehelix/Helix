@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_cammy_stage",
+    "track_name": "17 - Cammy Stage",
+    "album": "X-Men vs. Street Fighter",
+    "composer": "Yuko Takehara",
+    "year": "1996",
+    "track_order": "17/29",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

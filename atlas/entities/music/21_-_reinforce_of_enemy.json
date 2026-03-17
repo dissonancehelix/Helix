@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_reinforce_of_enemy",
+    "track_name": "21 - Reinforce of Enemy",
+    "album": "Langrisser II",
+    "composer": "Noriyuki Iwadare",
+    "year": "1994-08-26",
+    "track_order": "21/29",
+    "chip_data": {
+        "fm_writes": 19806,
+        "complexity": 0.366
+    },
+    "_type": "music:track"
+}

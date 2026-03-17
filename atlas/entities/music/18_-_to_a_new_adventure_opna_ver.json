@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_to_a_new_adventure_opna_ver",
+    "track_name": "18 - To a New Adventure (OPNA Ver)",
+    "album": "Zeliard",
+    "composer": "Masakuni Mitsuhashi",
+    "year": "1987-12-19",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

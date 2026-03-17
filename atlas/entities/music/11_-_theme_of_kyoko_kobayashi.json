@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_theme_of_kyoko_kobayashi",
+    "track_name": "11 - Theme of Kyoko Kobayashi",
+    "album": "Seasons of Sakura",
+    "composer": "Takanori Nakaigawa",
+    "year": "1996",
+    "track_order": "11/32",
+    "chip_data": {
+        "fm_writes": 289,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

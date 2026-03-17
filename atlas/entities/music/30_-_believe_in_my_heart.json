@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_believe_in_my_heart",
+    "track_name": "30 - Believe in My Heart",
+    "album": "Ys III: Wanderers from Ys",
+    "composer": "Masaaki Kawai",
+    "year": "1989",
+    "track_order": "30/30",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,8 @@
+{
+  "doc_id": "Strange_unused_mappings_1_-_8",
+  "complexity_metrics": {
+    "degrees_of_freedom": 64,
+    "control_resolution": 8,
+    "temporal_dependency": 4
+  }
+}

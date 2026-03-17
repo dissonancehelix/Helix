@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_wily_castle_stage",
+    "track_name": "10 - Wily Castle Stage",
+    "album": "Mega Man World",
+    "composer": "Toru Odasa",
+    "year": "1991-07-26",
+    "track_order": "10/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

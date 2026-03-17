@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_armed_wings",
+    "track_name": "01 - Armed Wings",
+    "album": "Strikers 1945 III",
+    "composer": "Masaki Izutani",
+    "year": "1999",
+    "track_order": "1/14",
+    "chip_data": {
+        "fm_writes": 112,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

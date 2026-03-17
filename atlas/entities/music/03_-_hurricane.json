@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_hurricane",
+    "track_name": "03 - Hurricane",
+    "album": "Stadium Hero",
+    "composer": "Gamadelic",
+    "year": "1988",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 15,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:upd7759",
+  "name": "Sound Chip: uPD7759",
+  "type": "SoundChip",
+  "libvgm_id": "0x16"
+}

@@ -1,0 +1,90 @@
+{
+  "external_links": [
+    {
+      "title": "Sega of Japan Sound Documents and Source Code",
+      "source": "Hidden Palace",
+      "relevance": "Direct source code for drivers/instruments"
+    }
+  ],
+  "scanned_entities": [],
+  "signals": [
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "",
+      "driver": "Download SMPS 68000 source codeFile:SMPS-68000_source_code.zip (231 kB) (info)",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "",
+      "driver": "Download SMPS Z80 source codeFile:SMPS-Z80_source_code.zip (258 kB) (info)",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "Sound-Sorce",
+      "driver": "Appears in the header at the top of SMPS Z80's source code files. Included with the source code is asedscript that replaces the instances of this name with a parameter that is labelled \"game name\". This script was seemingly used on a handful of files, replacing \"Sound-Sorce\" with \"MODEM_BOOT_ROM\" and \"DICK_TRACY\".",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "Sound-Source",
+      "driver": "Appears in the header at the top of SMPS 68000's and SMPS-Pico's source code files. It is also the name used by some developers who had used SMPS back in the 90s.[2][3][4]Included with the source code is a sed script that replaces the instances of this name with a parameter that is labelled \"game name\".",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "Sound-Sample",
+      "driver": "Written on the labels for the SMPS 68000 and SMPS Z80 source code's floppy disks. The SMPS 68000 source code has a batch script (fmk.bat) that uses the aforementioned sed script to replace \"Sound-Source\" with \"Sound-Sample\".",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "EASYSND",
+      "driver": "The name of the ZIP file that holds another ZIP file which contains the SMPS-Pico source code.",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "PICOSND",
+      "driver": "The name of the ZIP file which contains the SMPS-Pico source code. Also appears in various filenames and build scripts.",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "The PICO sound driver",
+      "driver": "Used by SMPS-Pico's GENERIC.MAK and PICOSND.MAK files.",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "Tokuhiko Uwabo",
+      "driver": "Maintainer of SMPS Z80.",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "Hiroshi Kubota",
+      "driver": "Maintainer of SMPS 68000.",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "\"M.Nagao\" (presumablyMasayuki Nagao)",
+      "driver": "Maintainer of SMPS-Pico.",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DRIVER_MAPPING",
+      "game": "Ken Chao",
+      "driver": "\"Cleaned-up\" the SMPS-Pico source code for use by Western developers.",
+      "source": "Sega Retro (SMPS)"
+    },
+    {
+      "type": "DEV_HISTORY",
+      "subject": "Sonic 3 & Knuckles",
+      "topic": "Michael Jackson / SST attribution gap",
+      "source": "Sonic Retro"
+    }
+  ]
+}

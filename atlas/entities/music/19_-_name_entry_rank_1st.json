@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_name_entry_rank_1st",
+    "track_name": "19 - Name Entry Rank 1st",
+    "album": "Dragon Spirit",
+    "composer": "Shinji Hosoe",
+    "year": "1988-09-23",
+    "track_order": "19/20",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

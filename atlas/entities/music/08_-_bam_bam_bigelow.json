@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_bam_bam_bigelow",
+    "track_name": "08 - Bam Bam Bigelow",
+    "album": "WWF Raw",
+    "composer": "Chris Braymen",
+    "year": "1994",
+    "track_order": "8/14",
+    "chip_data": {
+        "fm_writes": 177081,
+        "complexity": 0.782
+    },
+    "_type": "music:track"
+}

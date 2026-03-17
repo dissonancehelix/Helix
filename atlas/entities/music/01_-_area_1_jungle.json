@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_area_1_jungle",
+    "track_name": "01 - Area 1 (Jungle)",
+    "album": "Caliber .50",
+    "composer": "Kenji Yamazaki",
+    "year": "1991/11/01",
+    "track_order": "1/14",
+    "chip_data": {
+        "fm_writes": 23293,
+        "complexity": 0.515
+    },
+    "_type": "music:track"
+}

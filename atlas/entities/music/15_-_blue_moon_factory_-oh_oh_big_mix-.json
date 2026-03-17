@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_blue_moon_factory_-oh_oh_big_mix-",
+    "track_name": "15 - Blue Moon Factory -Oh Oh Big Mix-",
+    "album": "Art of Fighting 2",
+    "composer": "Yasumasa Yamada",
+    "year": "1994-02-03",
+    "track_order": "15/21!",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

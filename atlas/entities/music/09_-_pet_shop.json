@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_pet_shop",
+    "track_name": "09 - Pet Shop",
+    "album": "Beavis and Butt-head",
+    "composer": "Marc Baril",
+    "year": "1994",
+    "track_order": "9/19",
+    "chip_data": {
+        "fm_writes": 8246,
+        "complexity": 0.727
+    },
+    "_type": "music:track"
+}

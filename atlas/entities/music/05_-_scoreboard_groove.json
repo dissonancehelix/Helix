@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_scoreboard_groove",
+    "track_name": "05 - Scoreboard Groove",
+    "album": "NFL '95",
+    "composer": "Andy Armer",
+    "year": "1994/08/07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 158894,
+        "complexity": 0.333
+    },
+    "_type": "music:track"
+}

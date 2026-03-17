@@ -227,3 +227,22 @@ def render(path: Path, track: int = 0, sample_rate: int = 44100) -> list[ChipEve
 
     # Fall back to vgmstream proxy
     return _vgmstream_proxy(path, track)
+
+
+class ToolkitBridge:
+    """
+    Toolkit Bridge for Game_Music_Emu (gme) and vgmstream.
+    """
+    def run(self, payload: dict[str, Any]) -> list[ChipEvent]:
+        """
+        Execute gme rendering/tracing.
+        """
+        path = payload.get("file_path") or payload.get("path")
+        track = payload.get("track", 0)
+        sample_rate = payload.get("sample_rate", 44100)
+        if not path:
+            return []
+        return render(Path(path), track, sample_rate)
+
+    def is_available(self) -> bool:
+        return is_available()

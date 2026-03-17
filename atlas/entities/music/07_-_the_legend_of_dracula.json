@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_the_legend_of_dracula",
+    "track_name": "07 - The Legend of Dracula",
+    "album": "Castlevania: The Adventure",
+    "composer": "Shigeru Fukutake",
+    "year": "1989-12-15",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

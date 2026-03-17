@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_funhouse_level_2_",
+    "track_name": "05 - Funhouse Level 2 ()",
+    "album": "Nightmare Circus",
+    "composer": "Kurt Harland",
+    "year": "1995",
+    "track_order": "5/18",
+    "chip_data": {
+        "fm_writes": 65310,
+        "complexity": 0.253
+    },
+    "_type": "music:track"
+}

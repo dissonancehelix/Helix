@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_rikuo_ending_1",
+    "track_name": "04 - RIKUO Ending 1",
+    "album": "Night Warriors: Darkstalkers' Revenge",
+    "composer": "Takayuki Iwai",
+    "year": "1995",
+    "track_order": "4/44",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_[darius]_cosmic_airway",
+    "track_name": "07 - [Darius] Cosmic Airway",
+    "album": "Rainbow Islands",
+    "composer": "Shizuo Aizawa",
+    "year": "1987",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 311,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_chosen_destiny",
+    "track_name": "12 - Chosen Destiny",
+    "album": "Dune: The Battle for Arrakis",
+    "composer": "Paul Mudra",
+    "year": "1994/04",
+    "track_order": "12/22",
+    "chip_data": {
+        "fm_writes": 6873,
+        "complexity": 0.471
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_colonel_claud_miniboss",
+    "track_name": "03 - Colonel Claud (Miniboss)",
+    "album": "Sky Adventure",
+    "composer": "Yuka Watanabe",
+    "year": "1989",
+    "track_order": "3/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

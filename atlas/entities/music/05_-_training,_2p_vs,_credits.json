@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_training,_2p_vs,_credits",
+    "track_name": "05 - Training, 2P VS, Credits",
+    "album": "Naname de Magic!",
+    "composer": "Hiroyuki Yanada",
+    "year": "1994-06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

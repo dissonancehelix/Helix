@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_player_select_2",
+    "track_name": "03 - Player Select 2",
+    "album": "Vampire Savior: The Lord of Vampire",
+    "composer": "Takayuki Iwai#",
+    "year": "1997",
+    "track_order": "3/40",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_ryuukaku_san's_theme,_honshougi_bgm_2",
+    "track_name": "08 - Ryuukaku San's Theme, Honshougi BGM 2",
+    "album": "Shougi no Hoshi",
+    "composer": "Nobuko Hasebe",
+    "year": "1991-10-31",
+    "track_order": "8/11%",
+    "chip_data": {
+        "fm_writes": 10145,
+        "complexity": 0.52
+    },
+    "_type": "music:track"
+}

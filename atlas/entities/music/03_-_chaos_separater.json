@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_chaos_separater",
+    "track_name": "03 - Chaos Separater",
+    "album": "Super Hydlide",
+    "composer": "Shigeru Tomita",
+    "year": "1989",
+    "track_order": "3/15",
+    "chip_data": {
+        "fm_writes": 70985,
+        "complexity": 0.177
+    },
+    "_type": "music:track"
+}

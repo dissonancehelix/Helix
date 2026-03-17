@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_warlock_theme_1",
+    "track_name": "23 - Warlock Theme 1",
+    "album": "Cyberbots",
+    "composer": "Takayuki Iwai",
+    "year": "1995-04",
+    "track_order": "23/35",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

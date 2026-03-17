@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_cosmic",
+    "track_name": "05 - Cosmic",
+    "album": "Galactic Pinball",
+    "composer": "Kenji Yamamoto",
+    "year": "1995-07-21",
+    "track_order": "5/21",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

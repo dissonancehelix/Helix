@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_rap_b",
+    "track_name": "10 - Rap B",
+    "album": "Beavis and Butt-head",
+    "composer": "Paul Wilkinson",
+    "year": "1994",
+    "track_order": "10/19",
+    "chip_data": {
+        "fm_writes": 9785,
+        "complexity": 0.1
+    },
+    "_type": "music:track"
+}

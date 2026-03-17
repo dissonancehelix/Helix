@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_round_n_player_select",
+    "track_name": "04 - Round & Player Select",
+    "album": "Shadow Blasters",
+    "composer": "Kim Songdong",
+    "year": "1990/08/10",
+    "track_order": "4/13",
+    "chip_data": {
+        "fm_writes": 8618,
+        "complexity": 0.852
+    },
+    "_type": "music:track"
+}

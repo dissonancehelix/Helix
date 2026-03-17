@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_aoi_yuki",
+    "track_name": "03 - Aoi Yuki",
+    "album": "E Jong High School",
+    "composer": "Go Sato",
+    "year": "1996",
+    "track_order": "3/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

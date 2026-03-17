@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_after_the_fight",
+    "track_name": "17 - After the Fight",
+    "album": "Burai",
+    "composer": "Chihiro Fujioka",
+    "year": "1990",
+    "track_order": "17/23",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

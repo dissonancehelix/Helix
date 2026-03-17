@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_relentless_attack",
+    "track_name": "05 - Relentless Attack",
+    "album": "Cadash",
+    "composer": "Toshiko Tasaki",
+    "year": "1992/03/04",
+    "track_order": "5/15",
+    "chip_data": {
+        "fm_writes": 48287,
+        "complexity": 0.026
+    },
+    "_type": "music:track"
+}

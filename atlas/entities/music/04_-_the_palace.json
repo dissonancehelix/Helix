@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_the_palace",
+    "track_name": "04 - The Palace",
+    "album": "Fushigi no Yume no Alice",
+    "composer": "Ako Matsudaira",
+    "year": "1990-12-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

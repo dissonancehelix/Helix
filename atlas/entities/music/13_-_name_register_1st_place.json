@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_name_register_1st_place",
+    "track_name": "13 - Name Register (1st Place)",
+    "album": "Ghouls 'n Ghosts",
+    "composer": "Tamayo Kawamoto",
+    "year": "1988-12",
+    "track_order": "13/15",
+    "chip_data": {
+        "fm_writes": 16,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

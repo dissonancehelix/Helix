@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_gantz's_elegy",
+    "track_name": "08 - Gantz's Elegy",
+    "album": "Gravity Response",
+    "composer": "Takahiro Yonemura",
+    "year": "1993-02-01",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

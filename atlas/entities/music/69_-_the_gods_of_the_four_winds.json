@@ -1,0 +1,13 @@
+{
+    "entity_id": "69_-_the_gods_of_the_four_winds",
+    "track_name": "69 - The Gods of the Four Winds",
+    "album": "The Legend of Xanadu",
+    "composer": "Naoki Kaneda",
+    "year": "1994",
+    "track_order": "69/84",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

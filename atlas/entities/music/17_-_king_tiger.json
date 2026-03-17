@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_king_tiger",
+    "track_name": "17 - King Tiger",
+    "album": "Samurai Shodown",
+    "composer": "Yasuo Yamate",
+    "year": "1993-07-07",
+    "track_order": "17/21",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

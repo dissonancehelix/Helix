@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_millennium_after_the_fall",
+    "track_name": "19 - Millennium After The Fall",
+    "album": "Giten Megami Tensei: Tokyo Mokushiroku",
+    "composer": "Tsukasa Masuko&",
+    "year": "1997-04-04",
+    "track_order": "19/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

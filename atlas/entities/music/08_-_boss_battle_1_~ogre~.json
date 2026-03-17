@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_boss_battle_1_~ogre~",
+    "track_name": "08 - Boss Battle 1 ~Ogre~",
+    "album": "Dungeons & Dragons: Tower of Doom",
+    "composer": "Isao Abe",
+    "year": "1993",
+    "track_order": "8/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

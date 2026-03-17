@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_ending_ryu_2",
+    "track_name": "24 - Ending Ryu 2",
+    "album": "Street Fighter Alpha 2",
+    "composer": "Setsuo Yamamoto",
+    "year": "1996-03-25",
+    "track_order": "24/43",
+    "chip_data": {
+        "fm_writes": 84,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

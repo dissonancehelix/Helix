@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_inside_the_ship",
+    "track_name": "07 - Inside the Ship",
+    "album": "Battletoads & Double Dragon",
+    "composer": "David Wise",
+    "year": "1993/02/19",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 60900,
+        "complexity": 0.663
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_face_off_with_the_boss!",
+    "track_name": "12 - Face off with the Boss!",
+    "album": "Ghoul Panic",
+    "composer": "Masahiro Fukuzawa",
+    "year": "1999",
+    "track_order": "12/16",
+    "chip_data": {
+        "fm_writes": 116,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

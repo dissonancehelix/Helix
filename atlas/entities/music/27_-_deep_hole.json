@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_deep_hole",
+    "track_name": "27 - Deep Hole",
+    "album": "Beyond Oasis",
+    "composer": "Yuzo Koshiro",
+    "year": "1994",
+    "track_order": "27/30",
+    "chip_data": {
+        "fm_writes": 121007,
+        "complexity": 0.316
+    },
+    "_type": "music:track"
+}

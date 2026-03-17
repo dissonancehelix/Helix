@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_combat",
+    "track_name": "08 - Combat",
+    "album": "King's Bounty: Nusumareta Chitsujo",
+    "composer": "Takeshi Abo\"",
+    "year": "1994-07-08",
+    "track_order": "8/10",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

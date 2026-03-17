@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_danger_zone",
+    "track_name": "03 - Danger Zone",
+    "album": "FZ Senki Axis",
+    "composer": "Motoi Sakuraba",
+    "year": "1990",
+    "track_order": "3/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

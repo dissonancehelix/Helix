@@ -1,0 +1,13 @@
+{
+    "entity_id": "45_-_movement_2",
+    "track_name": "45 - Movement 2",
+    "album": "YU-NO: A Girl Who Chants Love at the Bound of this World",
+    "composer": "Ryu Umemoto8",
+    "year": "1996",
+    "track_order": "45/81",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

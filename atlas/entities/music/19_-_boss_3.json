@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_boss_3",
+    "track_name": "19 - Boss 3",
+    "album": "Etoile Princesse",
+    "composer": "Hiroyuki Saegusa",
+    "year": "1993-03-26",
+    "track_order": "19/23",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

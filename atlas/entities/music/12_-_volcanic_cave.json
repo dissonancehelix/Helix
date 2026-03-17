@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_volcanic_cave",
+    "track_name": "12 - Volcanic Cave",
+    "album": "Monster World IV",
+    "composer": "Jin Watanabe",
+    "year": "1994/04/01",
+    "track_order": "12/21",
+    "chip_data": {
+        "fm_writes": 31296,
+        "complexity": 0.453
+    },
+    "_type": "music:track"
+}

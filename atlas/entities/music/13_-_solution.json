@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_solution",
+    "track_name": "13 - Solution",
+    "album": "Pier Solar and the Great Architects",
+    "composer": "Zable Fahr#",
+    "year": "2007",
+    "track_order": "13/55",
+    "chip_data": {
+        "fm_writes": 2064,
+        "complexity": 0.143
+    },
+    "_type": "music:track"
+}

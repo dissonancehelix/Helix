@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_main_theme_bubble_bobble",
+    "track_name": "06 - Main Theme (Bubble Bobble)",
+    "album": "Rainbow Islands Extra",
+    "composer": "Shizuo Aizawa, Hisayoshi Ogura",
+    "year": "1990/10/05",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 28744,
+        "complexity": 0.6000000000000001
+    },
+    "_type": "music:track"
+}

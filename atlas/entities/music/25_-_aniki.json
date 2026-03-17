@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_aniki",
+    "track_name": "25 - Aniki",
+    "album": "Langrisser II",
+    "composer": "Noriyuki Iwadare",
+    "year": "1994-08-26",
+    "track_order": "25/29",
+    "chip_data": {
+        "fm_writes": 7501,
+        "complexity": 0.539
+    },
+    "_type": "music:track"
+}

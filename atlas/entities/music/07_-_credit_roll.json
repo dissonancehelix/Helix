@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_credit_roll",
+    "track_name": "07 - Credit Roll",
+    "album": "P.O.W.: Prisoners of War",
+    "composer": "Toshikazu Tanaka",
+    "year": "1988-11",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 70,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

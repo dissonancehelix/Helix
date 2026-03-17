@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_open_space",
+    "track_name": "07 - Open Space",
+    "album": "Farland Story Denki: Arc Ou no Ensei",
+    "composer": "Tatsuya Watarai$",
+    "year": "1994-02-10",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_go_go_train",
+    "track_name": "06 - Go Go Train",
+    "album": "Rent-a-Hero",
+    "composer": "Hiro",
+    "year": "1991",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 5381,
+        "complexity": 0.176
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_course_3,_7",
+    "track_name": "04 - Course 3, 7",
+    "album": "Motocross Maniacs",
+    "composer": "Michiru Yamane",
+    "year": "1989-09-20",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

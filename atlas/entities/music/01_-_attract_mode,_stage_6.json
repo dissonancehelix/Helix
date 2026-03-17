@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_attract_mode,_stage_6",
+    "track_name": "01 - Attract Mode, Stage 6",
+    "album": "Prehistoric Isle 2",
+    "composer": "Masahiko Hataya",
+    "year": "1999-09-27",
+    "track_order": "1/10",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

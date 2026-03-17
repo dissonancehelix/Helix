@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_extra_stage_5",
+    "track_name": "13 - Extra Stage 5",
+    "album": "W-Ring: The Double Rings",
+    "composer": "Hisashi Matsushita",
+    "year": "1990-09-28",
+    "track_order": "13/19",
+    "chip_data": {
+        "fm_writes": 124,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

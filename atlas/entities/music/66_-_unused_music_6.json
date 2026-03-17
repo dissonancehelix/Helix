@@ -1,0 +1,13 @@
+{
+    "entity_id": "66_-_unused_music_6",
+    "track_name": "66 - Unused Music 6",
+    "album": "Lufia: The Legend Returns",
+    "composer": "Yasunori Shiono",
+    "year": "2001-09-07",
+    "track_order": "66/66",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

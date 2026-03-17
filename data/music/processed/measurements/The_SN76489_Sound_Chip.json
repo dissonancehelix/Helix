@@ -1,0 +1,9 @@
+{
+  "source": "chip_docs\\The_SN76489_Sound_Chip.pdf",
+  "stage": "measurements",
+  "measurable_interpretation": "Determined via measurements analysis of The_SN76489_Sound_Chip.pdf",
+  "metrics": {
+    "complexity": 0.5,
+    "structural_depth": 0.8
+  }
+}

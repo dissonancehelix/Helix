@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_archwinger",
+    "track_name": "12 - Archwinger",
+    "album": "Dragon Slayer IV: Drasle Family",
+    "composer": "Mieko Ishikawa",
+    "year": "1987-10",
+    "track_order": "12/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

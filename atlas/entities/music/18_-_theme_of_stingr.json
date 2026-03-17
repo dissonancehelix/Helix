@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_theme_of_stingr",
+    "track_name": "18 - Theme of Stingr",
+    "album": "Ring of Destruction: Slam Masters II",
+    "composer": "Toshio Kajino",
+    "year": "1994-09",
+    "track_order": "18/32",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

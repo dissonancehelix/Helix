@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_waltz",
+    "track_name": "11 - Waltz",
+    "album": "Pac-Man 2: The New Adventures",
+    "composer": "Fuken Tajimaa",
+    "year": "1994/04/06",
+    "track_order": "11/26",
+    "chip_data": {
+        "fm_writes": 339647,
+        "complexity": 0.778
+    },
+    "_type": "music:track"
+}

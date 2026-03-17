@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_bad_end",
+    "track_name": "11 - Bad End",
+    "album": "Harakiri",
+    "composer": "Fumihito Kasatani",
+    "year": "1990",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

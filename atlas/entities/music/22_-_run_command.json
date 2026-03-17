@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_run_command",
+    "track_name": "22 - Run Command",
+    "album": "Pulseman",
+    "composer": "Junichi Masuda",
+    "year": "1994",
+    "track_order": "22/33",
+    "chip_data": {
+        "fm_writes": 10859,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

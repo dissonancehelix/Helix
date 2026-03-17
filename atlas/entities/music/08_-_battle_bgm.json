@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_battle_bgm",
+    "track_name": "08 - Battle BGM",
+    "album": "Tetris: The Grand Master 2",
+    "composer": "Ayako Saso",
+    "year": "2000-10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

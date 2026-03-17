@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_body_bgm_2",
+    "track_name": "08 - Body BGM 2",
+    "album": "Gynotai",
+    "composer": "Yoshie Arakawa",
+    "year": "1996",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

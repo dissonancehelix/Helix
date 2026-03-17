@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_maple_wise",
+    "track_name": "08 - Maple Wise",
+    "album": "Touhou Kaikidan: Mystic Square",
+    "composer": "Album",
+    "year": "1998-12-30",
+    "track_order": "8/23",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_day_3-_tidal_surge,_day_12-_nightscape,_bonus_round",
+    "track_name": "03 - Day 3- Tidal Surge, Day 12- Nightscape, Bonus Round",
+    "album": "Vectorman",
+    "composer": "Jon Holland",
+    "year": "1995",
+    "track_order": "3/133",
+    "chip_data": {
+        "fm_writes": 33419,
+        "complexity": 0.9889999999999999
+    },
+    "_type": "music:track"
+}

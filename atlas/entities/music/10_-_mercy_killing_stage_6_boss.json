@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_mercy_killing_stage_6_boss",
+    "track_name": "10 - Mercy Killing (Stage 6 Boss)",
+    "album": "DownTown",
+    "composer": "Hisashi Yotsumoto",
+    "year": "1989",
+    "track_order": "10/12",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

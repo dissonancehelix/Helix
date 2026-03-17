@@ -1,0 +1,13 @@
+{
+    "entity_id": "42_-_search",
+    "track_name": "42 - Search",
+    "album": "YU-NO: A Girl Who Chants Love at the Bound of this World",
+    "composer": "Ryu Umemoto8",
+    "year": "1996",
+    "track_order": "42/81",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

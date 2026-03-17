@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_selector",
+    "track_name": "02 - Selector",
+    "album": "Virtua Fighter",
+    "composer": "Takayuki Nakamura",
+    "year": "1995-10-10",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 273,
+        "complexity": 0.6000000000000001
+    },
+    "_type": "music:track"
+}

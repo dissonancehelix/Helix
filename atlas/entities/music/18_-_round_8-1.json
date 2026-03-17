@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_round_8-1",
+    "track_name": "18 - Round 8-1",
+    "album": "Eliminate Down",
+    "composer": "Tatsuya Matsumoto",
+    "year": "1993/06/25",
+    "track_order": "18/23",
+    "chip_data": {
+        "fm_writes": 11834,
+        "complexity": 0.44
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_ending_~true_love~",
+    "track_name": "27 - Ending ~True Love~",
+    "album": "X-Men vs. Street Fighter",
+    "composer": "Yuko Takehara",
+    "year": "1996",
+    "track_order": "27/29",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

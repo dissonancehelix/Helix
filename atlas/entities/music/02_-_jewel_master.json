@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_jewel_master",
+    "track_name": "02 - Jewel Master",
+    "album": "Jewel Master",
+    "composer": "Motoaki Takenouchi",
+    "year": "1991/08/30",
+    "track_order": "2/18",
+    "chip_data": {
+        "fm_writes": 142483,
+        "complexity": 0.112
+    },
+    "_type": "music:track"
+}

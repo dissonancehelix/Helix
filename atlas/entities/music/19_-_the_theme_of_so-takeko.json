@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_the_theme_of_so-takeko",
+    "track_name": "19 - The Theme Of So-Takeko",
+    "album": "Aero Fighters 3",
+    "composer": "Soshi Hosoi",
+    "year": "1995",
+    "track_order": "19/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

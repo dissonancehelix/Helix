@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_polygon_world_stage_6_bgm_-_mode_select_n_player_select",
+    "track_name": "08 - Polygon World (Stage 6 BGM) - Mode Select & Player Select",
+    "album": "The Game Paradise!: Master of Shooting!",
+    "composer": "Kazuo Sawa'",
+    "year": "1995-11",
+    "track_order": "8/129",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

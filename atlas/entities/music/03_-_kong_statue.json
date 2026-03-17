@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_kong_statue",
+    "track_name": "03 - Kong Statue",
+    "album": "King Kong 2: Yomigaeru Densetsu",
+    "composer": "Motoaki Furukawa",
+    "year": "1986",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_4th_tube",
+    "track_name": "07 - 4th Tube",
+    "album": "Dangerous Seed",
+    "composer": "Yoshinori Nagumo",
+    "year": "1989-12",
+    "track_order": "7/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

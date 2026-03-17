@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_termination_4_u",
+    "track_name": "04 - Termination 4 U",
+    "album": "Zed Blade",
+    "composer": "Manabu Namiki",
+    "year": "1994-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

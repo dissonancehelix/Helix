@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_tetozaru",
+    "track_name": "05 - Tetozaru",
+    "album": "Psy-O-Blade",
+    "composer": "Hiroto Kanno",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2721,
+        "complexity": 0.462
+    },
+    "_type": "music:track"
+}

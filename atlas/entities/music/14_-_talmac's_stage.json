@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_talmac's_stage",
+    "track_name": "14 - Talmac's Stage",
+    "album": "Cosmic Carnage",
+    "composer": "Hikoshi Hashimoto",
+    "year": "1995/01/27",
+    "track_order": "14/16",
+    "chip_data": {
+        "fm_writes": 37137,
+        "complexity": 0.989
+    },
+    "_type": "music:track"
+}

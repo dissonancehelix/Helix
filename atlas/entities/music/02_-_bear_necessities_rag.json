@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_bear_necessities_rag",
+    "track_name": "02 - Bear Necessities Rag",
+    "album": "The Jungle Book",
+    "composer": "Tommy Tallarico",
+    "year": "1994",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 22855,
+        "complexity": 0.001
+    },
+    "_type": "music:track"
+}

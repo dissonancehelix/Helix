@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_vargas",
+    "track_name": "13 - Vargas",
+    "album": "Langrisser II",
+    "composer": "Isao Mizoguchi",
+    "year": "1994-08-26",
+    "track_order": "13/29",
+    "chip_data": {
+        "fm_writes": 29472,
+        "complexity": 0.728
+    },
+    "_type": "music:track"
+}

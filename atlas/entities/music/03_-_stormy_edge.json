@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_stormy_edge",
+    "track_name": "03 - Stormy Edge",
+    "album": "Night Slave",
+    "composer": "Izuho Yoshitani",
+    "year": "1996-03-08",
+    "track_order": "3/33",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

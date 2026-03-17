@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_foot_bag",
+    "track_name": "04 - Foot Bag",
+    "album": "California Games",
+    "composer": "Chikako Kamatani",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

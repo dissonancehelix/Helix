@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_mission_clear",
+    "track_name": "08 - Mission Clear",
+    "album": "The Hybrid Front",
+    "composer": "Naofumi Hataya",
+    "year": "1994/07/22",
+    "track_order": "8/20",
+    "chip_data": {
+        "fm_writes": 9046,
+        "complexity": 0.5
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_atomic_sucker",
+    "track_name": "05 - Atomic Sucker",
+    "album": "Bloody Roar",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1997-07-07",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_last_boss",
+    "track_name": "11 - Last Boss",
+    "album": "rchen Maze",
+    "composer": "Satoshi Kobayashi",
+    "year": "1988",
+    "track_order": "11/12",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

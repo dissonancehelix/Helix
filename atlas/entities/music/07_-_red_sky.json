@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_red_sky",
+    "track_name": "07 - Red Sky",
+    "album": "Mars Matrix: Hyper Solid Shooting",
+    "composer": "Yasushi Kaminishi!",
+    "year": "2000-04",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 231,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

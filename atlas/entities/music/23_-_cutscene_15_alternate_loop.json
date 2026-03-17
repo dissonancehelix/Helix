@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_cutscene_15_alternate_loop",
+    "track_name": "23 - Cutscene 15 (alternate loop)",
+    "album": "Urusei Yatsura: Dear My Friends",
+    "composer": "Kenichi Okuma",
+    "year": "1994-04-15",
+    "track_order": "23/27",
+    "chip_data": {
+        "fm_writes": 810,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

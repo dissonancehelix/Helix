@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_excite_town",
+    "track_name": "16 - Excite Town",
+    "album": "Phantasy Star II",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1989",
+    "track_order": "16/22",
+    "chip_data": {
+        "fm_writes": 9989,
+        "complexity": 0.2
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_battle_2",
+    "track_name": "26 - Battle 2",
+    "album": "Emerald Dragon",
+    "composer": "Nobuhito Koise",
+    "year": "1989-12-12",
+    "track_order": "26/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

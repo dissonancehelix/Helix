@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_in_hiding-_pursuing_the_nightmare",
+    "track_name": "05 - In Hiding- Pursuing the Nightmare",
+    "album": "Ninja Gaiden",
+    "composer": "Ryuichi Nitta",
+    "year": "1988-12-09",
+    "track_order": "5/20!",
+    "chip_data": {
+        "fm_writes": 2158,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_episode_of_epilepsy",
+    "track_name": "05 - Episode of Epilepsy",
+    "album": "World Court Tennis",
+    "composer": "Junko Ozawa",
+    "year": "1988-08-11",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 20,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

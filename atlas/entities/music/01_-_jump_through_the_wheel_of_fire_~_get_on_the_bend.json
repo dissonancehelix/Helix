@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_jump_through_the_wheel_of_fire_~_get_on_the_bend",
+    "track_name": "01 - Jump Through the Wheel of Fire ~ Get on the Bend",
+    "album": "Circus Charlie",
+    "composer": "Shinya Sakamoto",
+    "year": "1986-03-04",
+    "track_order": "1/30",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

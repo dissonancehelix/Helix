@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_darksyne_2,_haunted_hills_1",
+    "track_name": "06 - Darksyne (2), Haunted Hills (1)",
+    "album": "Action 52",
+    "composer": "Mark Miller",
+    "year": "1993",
+    "track_order": "6/47",
+    "chip_data": {
+        "fm_writes": 22783,
+        "complexity": 0.094
+    },
+    "_type": "music:track"
+}

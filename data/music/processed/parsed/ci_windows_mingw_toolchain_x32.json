@@ -1,0 +1,5 @@
+{
+  "doc_id": "ci_windows_mingw_toolchain_x32",
+  "name": "ci windows mingw toolchain x32",
+  "status": "parsed_deterministic"
+}

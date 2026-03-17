@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_hi-score_screen",
+    "track_name": "19 - Hi-Score Screen",
+    "album": "mon Pinball",
+    "composer": "Go Ichinose",
+    "year": "1999-06-28",
+    "track_order": "19/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

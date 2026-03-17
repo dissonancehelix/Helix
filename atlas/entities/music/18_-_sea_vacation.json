@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_sea_vacation",
+    "track_name": "18 - Sea Vacation",
+    "album": "Princess Maker 2",
+    "composer": "Masahiro Kajihara",
+    "year": "1993-06-15",
+    "track_order": "18/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

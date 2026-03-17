@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_a_way_of_escape",
+    "track_name": "16 - A Way of Escape",
+    "album": "World Heroes 2",
+    "composer": "Hideki Yamamoto",
+    "year": "1993-04-26",
+    "track_order": "16/41",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

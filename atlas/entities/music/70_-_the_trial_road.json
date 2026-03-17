@@ -1,0 +1,13 @@
+{
+    "entity_id": "70_-_the_trial_road",
+    "track_name": "70 - The Trial Road",
+    "album": "Grounseed",
+    "composer": "Masahiro Kajihara",
+    "year": "1996-06-07",
+    "track_order": "70/76",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

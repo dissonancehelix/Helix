@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_senegul",
+    "track_name": "09 - Senegul",
+    "album": "Lagoon",
+    "composer": "Hideki Suzuki",
+    "year": "1990-09-12",
+    "track_order": "9/37",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

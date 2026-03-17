@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_through_the_cramped_darkness",
+    "track_name": "08 - Through the Cramped Darkness",
+    "album": "Final Fantasy Legend II",
+    "composer": "Kenji Ito",
+    "year": "1990-12-14",
+    "track_order": "8/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

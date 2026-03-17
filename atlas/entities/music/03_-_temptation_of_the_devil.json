@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_temptation_of_the_devil",
+    "track_name": "03 - Temptation of the Devil",
+    "album": "Elemental Master",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1990/12/14",
+    "track_order": "3/22",
+    "chip_data": {
+        "fm_writes": 18646,
+        "complexity": 0.799
+    },
+    "_type": "music:track"
+}

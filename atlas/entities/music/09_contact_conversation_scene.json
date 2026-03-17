@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_contact_conversation_scene",
+    "track_name": "09 Contact (Conversation Scene)",
+    "album": "Mid-Garts",
+    "composer": "Masaaki Uno",
+    "year": "1989",
+    "track_order": "7/37",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

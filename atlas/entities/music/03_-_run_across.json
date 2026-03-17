@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_run_across",
+    "track_name": "03 - Run Across",
+    "album": "Aqua Jet",
+    "composer": "Keiichi Okabe",
+    "year": "1996-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

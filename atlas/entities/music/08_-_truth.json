@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_truth",
+    "track_name": "08 - Truth",
+    "album": "Thunder Force III",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1990/06/08",
+    "track_order": "8/18",
+    "chip_data": {
+        "fm_writes": 36198,
+        "complexity": 0.371
+    },
+    "_type": "music:track"
+}

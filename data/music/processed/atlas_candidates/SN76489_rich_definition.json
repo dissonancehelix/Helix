@@ -1,0 +1,41 @@
+{
+  "id": "music.sound_chip:sn76489",
+  "type": "SoundChip",
+  "name": "Texas Instruments SN76489 (PSG)",
+  "substrate": "music",
+  "properties": {
+    "channels": 4,
+    "tone_channels": 3,
+    "noise_channels": 1,
+    "synthesis_type": "PSG (Square Wave + Noise)",
+    "clock_speed": "3.58 MHz / 4.0 MHz (typical)",
+    "divider_logic": "10-bit programmable counter (N)",
+    "volume_resolution": "4-bit (16 levels, 2dB steps)",
+    "frequency_formula": "Clock / (32 * N)"
+  },
+  "behavioral_invariants": [
+    {
+      "id": "music.invariant:lfsr_15_feedback",
+      "description": "15-stage LFSR using XNOR of bits 12 and 13 for White/Periodic noise (Standard TI).",
+      "type": "NoiseLogic"
+    },
+    {
+      "id": "music.invariant:sega_psg_variant",
+      "description": "16-stage LFSR used in Sega clones, resulting in 6.25% lower pitch for periodic noise.",
+      "type": "NoiseLogic"
+    },
+    {
+      "id": "music.invariant:noise_channel_slaving",
+      "description": "Noise frequency can be slaved to the output of Tone Generator 3 for pitched noise effects.",
+      "type": "RoutingConstraint"
+    }
+  ],
+  "variants": [
+    { "id": "music.sound_chip:sn76494", "name": "TI SN76494", "description": "Low-clock version (500 kHz) with Audio In." },
+    { "id": "music.sound_chip:sn76496", "name": "TI SN76496", "description": "Standard version with Audio In pin." }
+  ],
+  "sources": [
+    "data/music/source/chip_docs/SN76489_Application_Manual.pdf",
+    "https://en.wikipedia.org/wiki/Texas_Instruments_SN76489"
+  ]
+}

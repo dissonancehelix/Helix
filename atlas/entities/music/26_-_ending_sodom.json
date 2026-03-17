@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_ending_sodom",
+    "track_name": "26 - Ending Sodom",
+    "album": "Street Fighter Alpha 2",
+    "composer": "Syun Nishigaki",
+    "year": "1996-03-25",
+    "track_order": "26/43",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

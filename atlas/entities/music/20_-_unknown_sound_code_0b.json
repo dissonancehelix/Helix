@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_unknown_sound_code_0b",
+    "track_name": "20 - Unknown (Sound Code 0B)",
+    "album": "Jungle Strike",
+    "composer": "Brian Schmidt",
+    "year": "1993/09/01",
+    "track_order": "20/27",
+    "chip_data": {
+        "fm_writes": 697466,
+        "complexity": 0.873
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_attack",
+    "track_name": "05 - Attack",
+    "album": "Shining Force II",
+    "composer": "Motoaki Takenouchi",
+    "year": "1993",
+    "track_order": "5/25",
+    "chip_data": {
+        "fm_writes": 26600,
+        "complexity": 0.274
+    },
+    "_type": "music:track"
+}

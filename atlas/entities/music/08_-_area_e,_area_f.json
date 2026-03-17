@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_area_e,_area_f",
+    "track_name": "08 - Area E, Area F",
+    "album": "Shatterhand",
+    "composer": "Iku Mizutani",
+    "year": "1991-10-26",
+    "track_order": "8/10",
+    "chip_data": {
+        "fm_writes": 82,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

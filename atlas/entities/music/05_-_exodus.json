@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_exodus",
+    "track_name": "05 - Exodus",
+    "album": "Zombie Nation",
+    "composer": "Norio Nakagata",
+    "year": "1990-12-14",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 35,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

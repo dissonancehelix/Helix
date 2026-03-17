@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_shop_3",
+    "track_name": "16 - Shop 3",
+    "album": "Emerald Dragon",
+    "composer": "Nobuhito Koise",
+    "year": "1989-12-12",
+    "track_order": "16/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_thunder_blade",
+    "track_name": "01 - Thunder Blade",
+    "album": "Thunder Blade",
+    "composer": "Koichi Namiki",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

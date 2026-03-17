@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_prarie",
+    "track_name": "08 - Prarie",
+    "album": "Devilish",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1992",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 48966,
+        "complexity": 0.632
+    },
+    "_type": "music:track"
+}

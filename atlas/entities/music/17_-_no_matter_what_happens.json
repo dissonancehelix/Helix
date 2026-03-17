@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_no_matter_what_happens",
+    "track_name": "17 - No Matter What Happens",
+    "album": "Magical Drop III",
+    "composer": "Hiroaki Yoshida",
+    "year": "1997",
+    "track_order": "17/32",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

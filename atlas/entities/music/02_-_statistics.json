@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_statistics",
+    "track_name": "02 - Statistics",
+    "album": "John Madden Football '93",
+    "composer": "Rob Hubbard",
+    "year": "1992/02/04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 18928,
+        "complexity": 0.14900000000000002
+    },
+    "_type": "music:track"
+}

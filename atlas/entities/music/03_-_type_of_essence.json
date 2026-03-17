@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_type_of_essence",
+    "track_name": "03 - Type of Essence",
+    "album": "Gunbird 2",
+    "composer": "Masaki Izutani",
+    "year": "1998-12",
+    "track_order": "3/12",
+    "chip_data": {
+        "fm_writes": 298,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

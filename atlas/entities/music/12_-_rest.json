@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_rest",
+    "track_name": "12 - Rest",
+    "album": "Jantei Monogatari 3: Saver Angels",
+    "composer": "Iku Mizutani!",
+    "year": "1993-04-23",
+    "track_order": "12/30",
+    "chip_data": {
+        "fm_writes": 31,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

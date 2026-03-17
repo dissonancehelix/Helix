@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_speeding_trucks",
+    "track_name": "12 - Speeding Trucks",
+    "album": "Bishoujo Senshi Sailor Moon",
+    "composer": "Aki Hata",
+    "year": "1994/07/08",
+    "track_order": "12/25",
+    "chip_data": {
+        "fm_writes": 26966,
+        "complexity": 0.6779999999999999
+    },
+    "_type": "music:track"
+}

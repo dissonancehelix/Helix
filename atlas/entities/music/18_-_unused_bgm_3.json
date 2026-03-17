@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_unused_bgm_3",
+    "track_name": "18 - Unused BGM 3",
+    "album": "The Punisher",
+    "composer": "Yoko Shimomura",
+    "year": "1993-04-22",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_a_ten_thousand_mile_journey_for_a_good_challenge",
+    "track_name": "03 - A Ten Thousand Mile Journey for a Good Challenge",
+    "album": "Fatal Fury 3",
+    "composer": "Yoshihiko Kitamura",
+    "year": "1995",
+    "track_order": "3/230",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

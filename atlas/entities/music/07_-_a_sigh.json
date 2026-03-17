@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_a_sigh",
+    "track_name": "07 - A Sigh",
+    "album": "Kizuato",
+    "composer": "Kazuhide Nakagami",
+    "year": "1996-07-26",
+    "track_order": "7/25",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

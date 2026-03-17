@@ -1,0 +1,40 @@
+
+pcm : mdDR11.hex mdVT11.hex
+
+
+mdDR11.hex : mdDR11.rel mdDT11.rel
+	@echo/
+	@echo *******************  PCM Control & Data Link  ******************
+	LNK mdDR11,mdDT11,mdDR11/N,/P:0,/H,/S
+	@echo/
+	@echo ************  PCM Control & Data Symbol File Change  ***********
+	ZSYM mdDR11.SYM > mdDR11Z.SYM
+	@echo/
+	@echo **********  PCM Control & Data hex File ¨ dc.b File  **********
+	CF -D mdDR11.HEX temp
+	@echo/
+	@echo ********  'label:' Cut in PCM Control & Data dc.b File  ********
+	TAIL +1 temp > mdDR11.HHH
+
+mdVT11.hex : mdVT11.rel
+	@echo/
+	@echo *********************  PCM Voice Data Link  ********************
+	LNK mdVT11,mdVT11/N,/P:0,/H,/S
+	@echo/
+	@echo *************  PCM Voice Data Symbolic File Change  ************
+	ZSYM mdVT11.SYM > mdVT11Z.SYM
+	@echo/
+	@echo ************  PCM Voice Data HEX File ¨ dc.b File  ************
+	CF -D mdVT11.HEX temp
+	@echo/
+	@echo **********  'label:' Cut in PCM Voice Data dc.b File  **********
+	TAIL +1 temp > mdVT11.HHH
+
+.src.rel :
+	@echo/
+	@echo/
+	@echo ****************  PCM Control or Data Assemble  ****************
+	IR80 $<
+	@echo/
+
+

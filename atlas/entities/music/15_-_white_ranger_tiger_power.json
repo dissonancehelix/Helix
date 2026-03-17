@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_white_ranger_tiger_power",
+    "track_name": "15 - White Ranger Tiger Power",
+    "album": "Mighty Morphin Power Rangers: The Movie",
+    "composer": "Hikoshi Hashimoto'",
+    "year": "1995/05/15",
+    "track_order": "15/15",
+    "chip_data": {
+        "fm_writes": 17644,
+        "complexity": 0.4
+    },
+    "_type": "music:track"
+}

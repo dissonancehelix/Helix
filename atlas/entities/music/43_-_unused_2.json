@@ -1,0 +1,13 @@
+{
+    "entity_id": "43_-_unused_2",
+    "track_name": "43 - Unused 2",
+    "album": "Doukyusei",
+    "composer": "Manabu Kunieda",
+    "year": "1992-12-17",
+    "track_order": "43/46",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

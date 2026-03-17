@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_queen's_lair",
+    "track_name": "11 - Queen's Lair",
+    "album": "Battletoads & Double Dragon",
+    "composer": "David Wise",
+    "year": "1993/02/19",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 22721,
+        "complexity": 0.692
+    },
+    "_type": "music:track"
+}

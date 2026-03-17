@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_final_shell_shock_a.d._1991_-_technodrome",
+    "track_name": "11 - Final Shell Shock (A.D. 1991 - Technodrome)",
+    "album": "Teenage Mutant Ninja Turtles: Turtles in Time",
+    "composer": "Mutsuhiko Izumi",
+    "year": "1991-09-18",
+    "track_order": "11/14-",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

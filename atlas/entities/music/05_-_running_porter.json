@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_running_porter",
+    "track_name": "05 - Running Porter",
+    "album": "Hatris",
+    "composer": "Hiroshi Suzuki",
+    "year": "1991-10-18",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

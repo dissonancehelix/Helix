@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_hollywood_freeway",
+    "track_name": "07 - Hollywood Freeway",
+    "album": "Bonkers",
+    "composer": "Paul Gadbois",
+    "year": "1994-10",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 4265,
+        "complexity": 0.466
+    },
+    "_type": "music:track"
+}

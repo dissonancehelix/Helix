@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_guitar_rumba",
+    "track_name": "15 - Guitar Rumba",
+    "album": "Savage Reign",
+    "composer": "Yoshihiko Kitamura",
+    "year": "1995-04-25",
+    "track_order": "15/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

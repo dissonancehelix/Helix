@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_ride_the_whirlwind",
+    "track_name": "16 - Ride the Whirlwind",
+    "album": "Golden Axe III",
+    "composer": "Naofumi Hataya",
+    "year": "1993-06-25",
+    "track_order": "16/21",
+    "chip_data": {
+        "fm_writes": 32987,
+        "complexity": 0.371
+    },
+    "_type": "music:track"
+}

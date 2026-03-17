@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_1st_tube",
+    "track_name": "01 - 1st Tube",
+    "album": "Dangerous Seed",
+    "composer": "Yoshinori Nagumo",
+    "year": "1989-12",
+    "track_order": "1/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

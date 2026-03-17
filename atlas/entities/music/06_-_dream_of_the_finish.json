@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_dream_of_the_finish",
+    "track_name": "06 - Dream of the Finish",
+    "album": "Aa Harimanada",
+    "composer": "Morihiko Akiyama",
+    "year": "1993/09/03",
+    "track_order": "6/22",
+    "chip_data": {
+        "fm_writes": 29027,
+        "complexity": 0.571
+    },
+    "_type": "music:track"
+}

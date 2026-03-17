@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_boy_wonder",
+    "track_name": "04 - Boy Wonder",
+    "album": "Columns",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1310,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

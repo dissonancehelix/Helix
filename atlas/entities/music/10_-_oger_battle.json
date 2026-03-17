@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_oger_battle",
+    "track_name": "10 - Oger Battle",
+    "album": "Valis",
+    "composer": "Shinobu Ogawa",
+    "year": "1991/12/27",
+    "track_order": "10/17",
+    "chip_data": {
+        "fm_writes": 42443,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

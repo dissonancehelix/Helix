@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-03-17T04:07:34.380965",
+  "triggered_invariant": "invariant:decision_compression",
+  "generated_commands": [
+    "PROBE invariant:invariant:decision_compression",
+    "SWEEP parameter:invariant:decision_compression_param range:0..1 steps:10"
+  ],
+  "experiment_artifact": "",
+  "atlas_update": false,
+  "confidence_delta": 0.0
+}

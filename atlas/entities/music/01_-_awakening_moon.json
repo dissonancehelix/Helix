@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_awakening_moon",
+    "track_name": "01 - Awakening Moon",
+    "album": "Kizuato",
+    "composer": "Shinya Ishikawa",
+    "year": "1996-07-26",
+    "track_order": "1/25",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

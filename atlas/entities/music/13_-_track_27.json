@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_track_27",
+    "track_name": "13 - Track 27",
+    "album": "Tecmo Super Bowl II",
+    "composer": "Takuya Hanaoka",
+    "year": "1994/10/08",
+    "track_order": "13/16",
+    "chip_data": {
+        "fm_writes": 12278,
+        "complexity": 0.675
+    },
+    "_type": "music:track"
+}

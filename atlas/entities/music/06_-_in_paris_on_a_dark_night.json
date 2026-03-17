@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_in_paris_on_a_dark_night",
+    "track_name": "06 - In Paris on a Dark Night",
+    "album": "Martial Champion",
+    "composer": "Junya Nakano",
+    "year": "1993-02-10",
+    "track_order": "6/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

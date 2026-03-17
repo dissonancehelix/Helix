@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_destruction",
+    "track_name": "07 - Destruction",
+    "album": "Cobra-Command",
+    "composer": "Azusa Hara",
+    "year": "1988",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 9,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_blow_your_cool",
+    "track_name": "07 - Blow Your Cool",
+    "album": "OutRunners",
+    "composer": "Takayuki Nakamura",
+    "year": "1993",
+    "track_order": "7/34",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_riddle,_darkness_world",
+    "track_name": "18 - Riddle, Darkness World",
+    "album": "Light Crusader",
+    "composer": "Aki Hata",
+    "year": "1995",
+    "track_order": "18/28",
+    "chip_data": {
+        "fm_writes": 13907,
+        "complexity": 0.275
+    },
+    "_type": "music:track"
+}

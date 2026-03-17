@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_1st_n_3rd_guardian",
+    "track_name": "03 - 1st & 3rd Guardian",
+    "album": "Alien",
+    "composer": "Jeroen Tel",
+    "year": "1993-03",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 404,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

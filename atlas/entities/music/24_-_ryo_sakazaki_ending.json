@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_ryo_sakazaki_ending",
+    "track_name": "24 - Ryo Sakazaki Ending",
+    "album": "Quiz King of Fighters",
+    "composer": "Shinichi Yamazaki",
+    "year": "1995-02-25",
+    "track_order": "24/30",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_psycho_soldier_theme",
+    "track_name": "04 - Psycho Soldier Theme",
+    "album": "Psycho Soldier",
+    "composer": "Eikichi Kawaseki",
+    "year": "1987-03",
+    "track_order": "4/11",
+    "chip_data": {
+        "fm_writes": 32,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

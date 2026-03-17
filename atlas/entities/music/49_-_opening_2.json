@@ -1,0 +1,13 @@
+{
+    "entity_id": "49_-_opening_2",
+    "track_name": "49 - Opening 2",
+    "album": "Genocide 2: Master of the Dark Communion",
+    "composer": "Hideyuki Shimono",
+    "year": "1991-12-07",
+    "track_order": "49/49",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

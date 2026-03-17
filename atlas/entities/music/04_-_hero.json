@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_hero",
+    "track_name": "04 - Hero",
+    "album": "Tiger-Heli",
+    "composer": "Tatsuya Uemura",
+    "year": "1985",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

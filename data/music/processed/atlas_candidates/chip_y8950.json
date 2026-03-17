@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:y8950",
+  "name": "Sound Chip: Y8950",
+  "type": "SoundChip",
+  "libvgm_id": "0x0B"
+}

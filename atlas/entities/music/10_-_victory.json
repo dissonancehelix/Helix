@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_victory",
+    "track_name": "10 - Victory",
+    "album": "Battlantis",
+    "composer": "Konami Kukeiha Club",
+    "year": "1987-07",
+    "track_order": "10/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

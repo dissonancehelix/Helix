@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_yakyuu_quiz",
+    "track_name": "05 - Yakyuu Quiz",
+    "album": "Famista '93",
+    "composer": "Hiromi Shibano",
+    "year": "1992",
+    "track_order": "5/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

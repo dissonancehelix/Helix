@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_ghost_rock_stage_1_boss",
+    "track_name": "02 - Ghost Rock (Stage 1 Boss)",
+    "album": "Wanderers from Super Scheme",
+    "composer": "Yuzo Koshiro",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

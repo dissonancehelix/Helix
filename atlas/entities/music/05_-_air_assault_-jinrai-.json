@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_air_assault_-jinrai-",
+    "track_name": "05 - Air Assault -Jinrai-",
+    "album": "Skull Fang: Kuhga Gaiden",
+    "composer": "Hiroaki Yoshida",
+    "year": "1996-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

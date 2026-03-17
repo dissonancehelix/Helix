@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_theme_of_stingr",
+    "track_name": "13 - Theme of Stingr",
+    "album": "Saturday Night Slam Masters",
+    "composer": "Masaki Izutani",
+    "year": "1993-07",
+    "track_order": "13/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

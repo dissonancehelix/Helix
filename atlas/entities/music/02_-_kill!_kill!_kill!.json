@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_kill!_kill!_kill!",
+    "track_name": "02 - Kill! Kill! Kill!",
+    "album": "Castlevania: The Adventure",
+    "composer": "Shigeru Fukutake",
+    "year": "1989-12-15",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

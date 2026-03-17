@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_boot_camp",
+    "track_name": "03 - Boot Camp",
+    "album": "General Chaos",
+    "composer": "Michael Bartlow",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2227,
+        "complexity": 0.9450000000000001
+    },
+    "_type": "music:track"
+}

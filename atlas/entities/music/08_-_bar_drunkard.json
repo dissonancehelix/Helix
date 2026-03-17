@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_bar_drunkard",
+    "track_name": "08 - Bar Drunkard",
+    "album": "Xak II: Rising of the Redmoon",
+    "composer": "Tadahiro Nitta",
+    "year": "1990",
+    "track_order": "8/42",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

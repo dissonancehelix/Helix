@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_theme_of_miracle_ropit_unused_version",
+    "track_name": "08 - Theme of Miracle Ropit (unused version)",
+    "album": "Miracle Ropit's Adventure in 2100",
+    "composer": "Yasunori Shiono",
+    "year": "1987-08-07",
+    "track_order": "8/8'",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

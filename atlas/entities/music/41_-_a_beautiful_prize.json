@@ -1,0 +1,13 @@
+{
+    "entity_id": "41_-_a_beautiful_prize",
+    "track_name": "41 - A Beautiful Prize",
+    "album": "The Legend of Xanadu",
+    "composer": "Hirofumi Matsuoka",
+    "year": "1994",
+    "track_order": "41/84",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

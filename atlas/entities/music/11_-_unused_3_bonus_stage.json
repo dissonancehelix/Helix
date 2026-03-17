@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_unused_3_bonus_stage",
+    "track_name": "11 - Unused 3 (Bonus Stage)",
+    "album": "Fail Gate",
+    "composer": "Gouji Tsuno",
+    "year": "1991",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 38,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

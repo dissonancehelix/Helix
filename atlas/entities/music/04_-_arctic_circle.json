@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_arctic_circle",
+    "track_name": "04 - Arctic Circle",
+    "album": "Awesome Possum Kicks Dr. Machino's Butt!",
+    "composer": "Earl Vickers",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 47224,
+        "complexity": 0.22799999999999998
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_bgm#1",
+    "track_name": "02 - BGM#1",
+    "album": "Slimyer",
+    "composer": "Toshimitsu Kawano",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

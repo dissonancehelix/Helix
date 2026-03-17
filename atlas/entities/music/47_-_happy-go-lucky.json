@@ -1,0 +1,13 @@
+{
+    "entity_id": "47_-_happy-go-lucky",
+    "track_name": "47 - Happy-Go-Lucky",
+    "album": "The Legend of Xanadu II",
+    "composer": "Atsushi Shirakawa",
+    "year": "1996",
+    "track_order": "47/49",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

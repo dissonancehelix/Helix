@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_girl's_sorrow",
+    "track_name": "06 - Girl's Sorrow",
+    "album": "Akiko Gold",
+    "composer": "Yoshihito Hata",
+    "year": "1994-12-22",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

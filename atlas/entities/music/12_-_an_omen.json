@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_an_omen",
+    "track_name": "12 - An Omen",
+    "album": "Space Harrier II",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1988/10/29",
+    "track_order": "12/18",
+    "chip_data": {
+        "fm_writes": 19263,
+        "complexity": 0.961
+    },
+    "_type": "music:track"
+}

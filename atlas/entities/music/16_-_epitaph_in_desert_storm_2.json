@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_epitaph_in_desert_storm_2",
+    "track_name": "16 - Epitaph in Desert Storm 2",
+    "album": "Aggressors of Dark Kombat",
+    "composer": "Hideki Yamamoto",
+    "year": "1994-07-26",
+    "track_order": "16/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

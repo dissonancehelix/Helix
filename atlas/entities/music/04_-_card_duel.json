@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_card_duel",
+    "track_name": "04 - Card Duel",
+    "album": "Yo! Noid",
+    "composer": "Masakatsu Maekawa",
+    "year": "1990-03-16",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_fight_-_c",
+    "track_name": "04 - Fight - C",
+    "album": "Digital Champ: Battle Boxing",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1989-10-13",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

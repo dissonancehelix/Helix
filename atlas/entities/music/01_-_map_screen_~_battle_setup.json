@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_map_screen_~_battle_setup",
+    "track_name": "01 - Map Screen ~ Battle Setup",
+    "album": "Pepenga Pengo",
+    "composer": "Hyodori Tome",
+    "year": "1995/12/22",
+    "track_order": "1/16",
+    "chip_data": {
+        "fm_writes": 9168,
+        "complexity": 0.5
+    },
+    "_type": "music:track"
+}

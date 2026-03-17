@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_typhoone_vol._1",
+    "track_name": "10 - Typhoone Vol. 1",
+    "album": "Battle Mania Daiginjou",
+    "composer": "Shigenori Masuko",
+    "year": "1993/12/24",
+    "track_order": "10/27",
+    "chip_data": {
+        "fm_writes": 12171,
+        "complexity": 0.182
+    },
+    "_type": "music:track"
+}

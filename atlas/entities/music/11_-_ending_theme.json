@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_ending_theme",
+    "track_name": "11 - Ending Theme",
+    "album": "Batman",
+    "composer": "Naoki Kodaka",
+    "year": "1990/07/27",
+    "track_order": "11/11",
+    "chip_data": {
+        "fm_writes": 399070,
+        "complexity": 0.517
+    },
+    "_type": "music:track"
+}

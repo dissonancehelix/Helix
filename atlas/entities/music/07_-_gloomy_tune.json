@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_gloomy_tune",
+    "track_name": "07 - Gloomy Tune",
+    "album": "Disney's Aladdin",
+    "composer": "Tommy Tallarico",
+    "year": "1993",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 61049,
+        "complexity": 0.739
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_user_disk_creation",
+    "track_name": "17 - User Disk Creation",
+    "album": "Barbatus no Majo",
+    "composer": "Chiaki Ito",
+    "year": "1990-03-09",
+    "track_order": "17/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

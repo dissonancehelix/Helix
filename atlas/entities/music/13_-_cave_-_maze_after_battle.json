@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_cave_-_maze_after_battle",
+    "track_name": "13 - Cave - Maze (After Battle)",
+    "album": "The Lone Ranger",
+    "composer": "Yoshinori Sasaki",
+    "year": "1991-08",
+    "track_order": "13/32",
+    "chip_data": {
+        "fm_writes": 96,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_harmonious_rock_rhyming_six_sentences",
+    "track_name": "18 - Harmonious Rock Rhyming Six Sentences",
+    "album": "Samurai Shodown II",
+    "composer": "Yasuo Yamate",
+    "year": "1994-10-28",
+    "track_order": "18/22%",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

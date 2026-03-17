@@ -1,0 +1,13 @@
+{
+    "entity_id": "38_-_soldier's_sorrow",
+    "track_name": "38 - Soldier's Sorrow",
+    "album": "Brandish 2: The Planet Buster",
+    "composer": "Naoki Kaneda",
+    "year": "1993-03-12",
+    "track_order": "38/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

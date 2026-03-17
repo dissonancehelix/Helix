@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_bring_it_on!!",
+    "track_name": "06 - Bring it on!!",
+    "album": "Detana!! TwinBee",
+    "composer": "Hidenori Maezawa",
+    "year": "1991-02-20",
+    "track_order": "6/12",
+    "chip_data": {
+        "fm_writes": 17,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

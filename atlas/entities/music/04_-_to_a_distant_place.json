@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_to_a_distant_place",
+    "track_name": "04 - To a Distant Place",
+    "album": "Riviera: The Promised Land",
+    "composer": "Minako Adachi",
+    "year": "2002-07-12",
+    "track_order": "4/34",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

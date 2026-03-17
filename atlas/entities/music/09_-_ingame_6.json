@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_ingame_6",
+    "track_name": "09 - Ingame 6",
+    "album": "Aoi Blink",
+    "composer": "Shinichi Sakamoto",
+    "year": "1990-04-27",
+    "track_order": "9/13",
+    "chip_data": {
+        "fm_writes": 154,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

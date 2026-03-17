@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_lightning,_grass_n_psychic_club",
+    "track_name": "06 - Lightning, Grass & Psychic Club",
+    "album": "mon Card GB",
+    "composer": "Ichiro Shimakura",
+    "year": "1998-12-18",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_alien_2",
+    "track_name": "12 - Alien 2",
+    "album": "Lemmings 3D",
+    "composer": "Phil Morris",
+    "year": "1995",
+    "track_order": "12/32",
+    "chip_data": {
+        "fm_writes": 392,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

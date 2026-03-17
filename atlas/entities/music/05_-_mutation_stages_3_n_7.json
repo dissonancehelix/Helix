@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_mutation_stages_3_n_7",
+    "track_name": "05 - Mutation (Stages 3 & 7)",
+    "album": "Darwin 4081",
+    "composer": "Seiichi Hamada",
+    "year": "1990/04/07",
+    "track_order": "5/10",
+    "chip_data": {
+        "fm_writes": 10772,
+        "complexity": 0.454
+    },
+    "_type": "music:track"
+}

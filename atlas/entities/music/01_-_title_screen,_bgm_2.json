@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_title_screen,_bgm_2",
+    "track_name": "01 - Title Screen, BGM 2",
+    "album": "Putter Golf",
+    "composer": "Sachio Ogawa",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 25346,
+        "complexity": 0.45399999999999996
+    },
+    "_type": "music:track"
+}

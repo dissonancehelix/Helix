@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_saint_louis_[senegal]",
+    "track_name": "07 - Saint Louis [Senegal]",
+    "album": "11e Rallye Big Run",
+    "composer": "Yasuhiko Takashiba",
+    "year": "1989-08",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

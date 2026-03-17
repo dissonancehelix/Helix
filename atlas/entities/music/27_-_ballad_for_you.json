@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_ballad_for_you",
+    "track_name": "27 - Ballad for You",
+    "album": "Dynamite Headdy",
+    "composer": "Katsuhiko Suzuki",
+    "year": "1994",
+    "track_order": "27/32",
+    "chip_data": {
+        "fm_writes": 5761,
+        "complexity": 0.471
+    },
+    "_type": "music:track"
+}

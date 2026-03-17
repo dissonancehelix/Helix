@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_ropewalking_~_jump_on_the_jewel",
+    "track_name": "02 - Ropewalking ~ Jump on the Jewel",
+    "album": "Circus Charlie",
+    "composer": "Shinya Sakamoto",
+    "year": "1986-03-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 14,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_old_japan_stage_theme_4",
+    "track_name": "18 - Old Japan Stage Theme 4",
+    "album": "The Second Samurai",
+    "composer": "Matt Furniss",
+    "year": "1994",
+    "track_order": "18/20",
+    "chip_data": {
+        "fm_writes": 574922,
+        "complexity": 0.021
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_in_the_castle",
+    "track_name": "19 - In the Castle",
+    "album": "Golden Axe III",
+    "composer": "Tatsuyuki Maeda",
+    "year": "1993-06-25",
+    "track_order": "19/21",
+    "chip_data": {
+        "fm_writes": 3543,
+        "complexity": 0.4
+    },
+    "_type": "music:track"
+}

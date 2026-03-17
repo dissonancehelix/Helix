@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_dark_demon's_song",
+    "track_name": "26 - Dark Demon's Song",
+    "album": "Dynamite Headdy",
+    "composer": "Katsuhiko Suzuki",
+    "year": "1994",
+    "track_order": "26/32",
+    "chip_data": {
+        "fm_writes": 45650,
+        "complexity": 0.677
+    },
+    "_type": "music:track"
+}

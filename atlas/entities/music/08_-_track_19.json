@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_track_19",
+    "track_name": "08 - Track 19",
+    "album": "Tecmo Super Bowl III",
+    "composer": "Takuya Hanaoka",
+    "year": "1995/08/04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 41156,
+        "complexity": 0.697
+    },
+    "_type": "music:track"
+}

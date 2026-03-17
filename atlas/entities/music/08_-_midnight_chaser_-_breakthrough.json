@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_midnight_chaser_-_breakthrough",
+    "track_name": "08 - Midnight Chaser - Breakthrough",
+    "album": "Rohga: Armor Force",
+    "composer": "Hiroaki Yoshida",
+    "year": "1991",
+    "track_order": "8/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

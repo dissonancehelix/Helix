@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_house_of_toys",
+    "track_name": "04 - House of Toys",
+    "album": "Little Nemo: The Dream Master",
+    "composer": "Junko Tamiya",
+    "year": "1990",
+    "track_order": "4/14",
+    "chip_data": {
+        "fm_writes": 127,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

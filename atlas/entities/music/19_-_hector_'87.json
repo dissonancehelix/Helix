@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_hector_'87",
+    "track_name": "19 - Hector '87",
+    "album": "Super Star Soldier",
+    "composer": "Takeaki Kunimoto",
+    "year": "1990-07-06",
+    "track_order": "19/19",
+    "chip_data": {
+        "fm_writes": 63,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_dangerous_afternoon",
+    "track_name": "09 - Dangerous Afternoon",
+    "album": "Desert Assault",
+    "composer": "Hiroaki Yoshida",
+    "year": "1991",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_wackyland_map",
+    "track_name": "02 - Wackyland Map",
+    "album": "Tiny Toon Adventures 2",
+    "composer": "Hiroshi Takeyasu",
+    "year": "1993-04",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 19,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

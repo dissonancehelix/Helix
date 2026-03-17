@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_fierce_god_of_flame",
+    "track_name": "02 - Fierce God of Flame",
+    "album": "Aa Harimanada",
+    "composer": "Morihiko Akiyama",
+    "year": "1993/09/03",
+    "track_order": "2/22",
+    "chip_data": {
+        "fm_writes": 22462,
+        "complexity": 0.154
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_geist_wraith",
+    "track_name": "25 - Geist Wraith",
+    "album": "Popful Mail",
+    "composer": "Mieko Ishikawa",
+    "year": "1992",
+    "track_order": "25/27",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

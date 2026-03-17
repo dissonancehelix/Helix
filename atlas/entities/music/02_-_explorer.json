@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_explorer",
+    "track_name": "02 - Explorer",
+    "album": "Columns III",
+    "composer": "Morihiko Akiyama",
+    "year": "1993/10/15",
+    "track_order": "2/14",
+    "chip_data": {
+        "fm_writes": 37506,
+        "complexity": 0.9720000000000001
+    },
+    "_type": "music:track"
+}

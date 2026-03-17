@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_arch_enemy_3_boss_3",
+    "track_name": "06 - Arch Enemy 3 (Boss 3)",
+    "album": "P-47: The Phantom Fighter",
+    "composer": "Sizlla Okamura",
+    "year": "1988",
+    "track_order": "6/13",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

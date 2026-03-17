@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_funky_guys",
+    "track_name": "02 - Funky Guys",
+    "album": "Violent Storm",
+    "composer": "Kenichiro Fukui",
+    "year": "1993-07",
+    "track_order": "2/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

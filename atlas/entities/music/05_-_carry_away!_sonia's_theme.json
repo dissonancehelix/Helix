@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_carry_away!_sonia's_theme",
+    "track_name": "05 - Carry Away! (Sonia's Theme)",
+    "album": "Psychic Force",
+    "composer": "Hideki Takahagi",
+    "year": "1995",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

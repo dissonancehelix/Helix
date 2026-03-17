@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_frozen_mist",
+    "track_name": "13 - Frozen Mist",
+    "album": "Street Fighter EX2",
+    "composer": "Ayako Saso",
+    "year": "1998-05",
+    "track_order": "13/29",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

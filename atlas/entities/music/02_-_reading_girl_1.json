@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_reading_girl_1",
+    "track_name": "02 - Reading Girl 1",
+    "album": "Shining Force",
+    "composer": "Masahiko Yoshimura",
+    "year": "1992",
+    "track_order": "2/19",
+    "chip_data": {
+        "fm_writes": 20976,
+        "complexity": 0.667
+    },
+    "_type": "music:track"
+}

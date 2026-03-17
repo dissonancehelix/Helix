@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_ringo_no_mori_no_koneko_tachi_bgm_1",
+    "track_name": "01 - Ringo no Mori no Koneko Tachi (BGM 1)",
+    "album": "Bomb Jack",
+    "composer": "Tsukasa Masuko",
+    "year": "1984",
+    "track_order": "1/5%",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

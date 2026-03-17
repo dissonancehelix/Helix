@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_chug_wagon",
+    "track_name": "07 - Chug Wagon",
+    "album": "Skitchin'",
+    "composer": "Jeff van Dyck",
+    "year": "1993",
+    "track_order": "7/25",
+    "chip_data": {
+        "fm_writes": 1847,
+        "complexity": 0.886
+    },
+    "_type": "music:track"
+}

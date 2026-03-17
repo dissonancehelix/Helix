@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_snow_land",
+    "track_name": "04 - Snow Land",
+    "album": "Neo Drift Out: New Technology",
+    "composer": "Kenichi Kamio",
+    "year": "1996-03-28",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stage_1_-_1_intro_variation",
+    "track_name": "05 - Stage 1 - 1 (Intro Variation)",
+    "album": "Castle of Illusion",
+    "composer": "Shigenori Kamiya",
+    "year": "1990",
+    "track_order": "5/19",
+    "chip_data": {
+        "fm_writes": 128732,
+        "complexity": 0.431
+    },
+    "_type": "music:track"
+}

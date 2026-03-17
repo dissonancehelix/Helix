@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_mission_1",
+    "track_name": "02 - Mission 1",
+    "album": "Double Dragon II: The Revenge",
+    "composer": "Kazunaka Yamane",
+    "year": "1991/12/20",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 54939,
+        "complexity": 0.6950000000000001
+    },
+    "_type": "music:track"
+}

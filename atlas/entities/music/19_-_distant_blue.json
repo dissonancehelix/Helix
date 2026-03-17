@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_distant_blue",
+    "track_name": "19 - Distant Blue",
+    "album": "Sorcerer's Kingdom",
+    "composer": "Koichi Shimamura",
+    "year": "1992/02/07",
+    "track_order": "19/34",
+    "chip_data": {
+        "fm_writes": 32817,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

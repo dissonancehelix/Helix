@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_hole-in-one",
+    "track_name": "09 - Hole-In-One",
+    "album": "Devil's Course",
+    "composer": "Yumi Satake",
+    "year": "1994",
+    "track_order": "9/10",
+    "chip_data": {
+        "fm_writes": 12689,
+        "complexity": 0.85
+    },
+    "_type": "music:track"
+}

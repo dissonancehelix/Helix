@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_banana",
+    "track_name": "05 - Banana",
+    "album": "Zoom!",
+    "composer": "Kim Songdong",
+    "year": "1989/11/03",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 37999,
+        "complexity": 0.898
+    },
+    "_type": "music:track"
+}

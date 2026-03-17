@@ -1,0 +1,13 @@
+{
+    "entity_id": "36_-_heavenly_praise",
+    "track_name": "36 - Heavenly Praise",
+    "album": "The Legend of Xanadu II",
+    "composer": "Atsushi Shirakawa",
+    "year": "1996",
+    "track_order": "36/49",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

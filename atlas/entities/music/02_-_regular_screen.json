@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_regular_screen",
+    "track_name": "02 - Regular Screen",
+    "album": "Strawberry Daisenryaku NOVU",
+    "composer": "Masami Yitsuse",
+    "year": "1990-10",
+    "track_order": "2/16",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

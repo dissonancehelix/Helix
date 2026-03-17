@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_chapter_3_mid-boss_bgm",
+    "track_name": "21 - Chapter 3 Mid-Boss BGM",
+    "album": "Quiz King of Fighters",
+    "composer": "Shinichi Yamazaki",
+    "year": "1995-02-25",
+    "track_order": "21/30",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_boss_1_mission_1,_8-1",
+    "track_name": "04 - Boss 1 (Mission 1, 8-1)",
+    "album": "Carrier Air Wing",
+    "composer": "Manami Matsumae",
+    "year": "1990-10",
+    "track_order": "4/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

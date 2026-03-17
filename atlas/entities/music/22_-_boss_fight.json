@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_boss_fight",
+    "track_name": "22 - Boss Fight",
+    "album": "Light Crusader",
+    "composer": "Aki Hata",
+    "year": "1995",
+    "track_order": "22/28",
+    "chip_data": {
+        "fm_writes": 21667,
+        "complexity": 0.432
+    },
+    "_type": "music:track"
+}

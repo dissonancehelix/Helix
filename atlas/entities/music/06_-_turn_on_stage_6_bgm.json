@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_turn_on_stage_6_bgm",
+    "track_name": "06 - Turn On (Stage 6 BGM)",
+    "album": "Final Soldier",
+    "composer": "Masakatsu Maekawa",
+    "year": "1991-07-05",
+    "track_order": "6/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -27,7 +27,7 @@ from __future__ import annotations
 import math
 from typing import Any
 
-from substrates.music.config import FEATURE_VECTOR_VERSION as SCHEMA_VERSION
+from substrates.music.ingestion.config import FEATURE_VECTOR_VERSION as SCHEMA_VERSION
 
 try:
     import numpy as _np

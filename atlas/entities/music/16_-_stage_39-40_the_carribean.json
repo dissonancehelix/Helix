@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_stage_39-40_the_carribean",
+    "track_name": "16 - Stage 39-40 (The Carribean)",
+    "album": "Super Pang",
+    "composer": "Hiromitsu Takaoka",
+    "year": "1990-09-19",
+    "track_order": "16/20",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_into_the_deep_blue_sky",
+    "track_name": "08 - Into the Deep Blue Sky",
+    "album": "Master of Monsters",
+    "composer": "Hayato Matsuo",
+    "year": "1991/07/26",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 41220,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

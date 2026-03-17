@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_slashing_edo",
+    "track_name": "10 - Slashing Edo",
+    "album": "Sengoku Sorcerian",
+    "composer": "Mieko Ishikawa",
+    "year": "1988-10-21",
+    "track_order": "10/12",
+    "chip_data": {
+        "fm_writes": 11,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

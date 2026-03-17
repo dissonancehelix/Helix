@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_i_don't_feel_so_good...",
+    "track_name": "06 - I don't feel so good...",
+    "album": "Madou Monogatari 1-2-3",
+    "composer": "Masanobu Tsukamoto",
+    "year": "1991-11-23",
+    "track_order": "6/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

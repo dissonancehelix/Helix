@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_sound_test_05",
+    "track_name": "05 - Sound Test 05",
+    "album": "Dyna Brothers",
+    "composer": "Masami Yitsuse",
+    "year": "1992/07/24",
+    "track_order": "5/19",
+    "chip_data": {
+        "fm_writes": 1844197,
+        "complexity": 0.938
+    },
+    "_type": "music:track"
+}

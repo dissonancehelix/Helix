@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_the_pits",
+    "track_name": "06 - The Pits",
+    "album": "Boogerman",
+    "composer": "Matt Furniss",
+    "year": "1994/08/06",
+    "track_order": "6/13",
+    "chip_data": {
+        "fm_writes": 19090,
+        "complexity": 0.324
+    },
+    "_type": "music:track"
+}

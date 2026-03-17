@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_sva-100mr_warlock_mark_ii_theme",
+    "track_name": "17 - SVA-100MR Warlock Mark II Theme",
+    "album": "Armored Warriors",
+    "composer": "Takayuki Iwai",
+    "year": "1994-10",
+    "track_order": "17/34",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

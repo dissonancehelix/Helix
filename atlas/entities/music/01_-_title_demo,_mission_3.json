@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_title_demo,_mission_3",
+    "track_name": "01 - Title Demo, Mission 3",
+    "album": "Strike Gunner S.T.G",
+    "composer": "Shotaro Sasaki",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

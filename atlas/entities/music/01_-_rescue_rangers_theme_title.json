@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_rescue_rangers_theme_title",
+    "track_name": "01 - Rescue Rangers Theme (Title)",
+    "album": "Chip 'n Dale Rescue Rangers",
+    "composer": "Harumi Fujita",
+    "year": "1990",
+    "track_order": "1/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

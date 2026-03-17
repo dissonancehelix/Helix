@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_main_screen_autumn",
+    "track_name": "06 - Main Screen (Autumn)",
+    "album": "Princess Maker 2",
+    "composer": "Masahiro Kajihara",
+    "year": "1993-06-15",
+    "track_order": "6/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

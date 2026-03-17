@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_devastating_disorder",
+    "track_name": "09 - Devastating Disorder",
+    "album": "Sorcer Striker",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1993-05",
+    "track_order": "9/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -60,29 +60,30 @@ _CHIP_MAP: dict[str, str] = {
 SUPPORTED_EXTENSIONS: frozenset[str] = frozenset(_CHIP_MAP.keys())
 
 
-class GmeAdapter:
+class Adapter:
     """
     Adapter wrapping gme_bridge for SNES/NES/GBS/etc. chip formats.
 
     Correct call path:
-        HIL → INGEST_TRACK operator → GmeAdapter → gme_bridge
+        HIL → INGEST_TRACK operator → Adapter → gme_bridge
     """
+    toolkit = "gme"
+    substrate = "music"
 
     def supports(self, file_path: str | Path) -> bool:
         return Path(file_path).suffix.lower() in SUPPORTED_EXTENSIONS
 
-    def render(
-        self,
-        file_path: str | Path,
-        track: int = 0,
-        sample_rate: int = 44100,
-    ) -> dict[str, Any]:
+    def execute(self, payload: dict[str, Any]) -> dict[str, Any]:
         """
         Decode a chip music file and return a ControlSequence dict.
 
         Returns an empty-events ControlSequence on bridge unavailability
         (non-blocking — upstream operators treat this as Tier A only).
         """
+        file_path = payload.get("file_path")
+        track = payload.get("track", 0)
+        sample_rate = payload.get("sample_rate", 44100)
+        
         path = Path(file_path)
         ext  = path.suffix.lower()
         if ext not in SUPPORTED_EXTENSIONS:
@@ -102,7 +103,7 @@ class GmeAdapter:
         except Exception as exc:
             raise AdapterError(f"gme render failed for {path}: {exc}") from exc
 
-        return self._normalize_output(events, path, ext, track, sample_rate, mode)
+        return self.normalize(events, path, ext, track, sample_rate, mode)
 
     def is_available(self) -> bool:
         try:
@@ -111,7 +112,7 @@ class GmeAdapter:
         except ImportError:
             return False
 
-    def _normalize_output(
+    def normalize(
         self,
         events: list[Any],
         path: Path,

@@ -1,0 +1,13 @@
+{
+    "entity_id": "42_-_slot_machine",
+    "track_name": "42 - Slot Machine",
+    "album": "Sonic 3 & Knuckles",
+    "composer": "Jun Senoue",
+    "year": "1994",
+    "track_order": "42/58",
+    "chip_data": {
+        "fm_writes": 25574,
+        "complexity": 0.45499999999999996
+    },
+    "_type": "music:track"
+}

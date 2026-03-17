@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_hi-fi_performance_solo",
+    "track_name": "04 - Hi-Fi Performance (Solo)",
+    "album": "Tempo",
+    "composer": "Chamy Ishi",
+    "year": "1995",
+    "track_order": "4/16",
+    "chip_data": {
+        "fm_writes": 14991,
+        "complexity": 0.8
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_bet_on_death",
+    "track_name": "07 - Bet on Death",
+    "album": "Touhou Fuumaroku ~ The Story of Eastern Wonderland",
+    "composer": "ZUN2",
+    "year": "1997-08-15",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

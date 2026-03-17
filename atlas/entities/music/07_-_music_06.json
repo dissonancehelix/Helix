@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_music_06",
+    "track_name": "07 - Music 06",
+    "album": "Active RPG Construction Tool: Dante 2",
+    "composer": "Youta Kitagami%",
+    "year": "1992-02",
+    "track_order": "7/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

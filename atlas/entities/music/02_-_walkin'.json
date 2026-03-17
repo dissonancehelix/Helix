@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_walkin'",
+    "track_name": "02 - Walkin'",
+    "album": "Sonic Crackers",
+    "composer": "Junko Shiratsu",
+    "year": "1994/04/01",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 7700,
+        "complexity": 0.182
+    },
+    "_type": "music:track"
+}

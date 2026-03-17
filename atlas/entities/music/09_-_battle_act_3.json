@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_battle_act_3",
+    "track_name": "09 - Battle Act 3",
+    "album": "Ninja Combat",
+    "composer": "Hideki Yamamoto",
+    "year": "1992",
+    "track_order": "9/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

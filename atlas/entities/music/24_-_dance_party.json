@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_dance_party",
+    "track_name": "24 - Dance Party",
+    "album": "Princess Maker 2",
+    "composer": "Masahiro Kajihara",
+    "year": "1993-06-15",
+    "track_order": "24/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

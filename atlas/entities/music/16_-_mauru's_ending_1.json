@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_mauru's_ending_1",
+    "track_name": "16 - Mauru's Ending 1",
+    "album": "Waku Waku 7",
+    "composer": "Masato Araikawa",
+    "year": "1996",
+    "track_order": "16/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

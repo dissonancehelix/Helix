@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_cutscene",
+    "track_name": "02 - Cutscene",
+    "album": "Gremlins 2: The New Batch",
+    "composer": "Naoki Kodaka",
+    "year": "1990-10",
+    "track_order": "2/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_krang's_stage_1",
+    "track_name": "12 - Krang's Stage 1",
+    "album": "Teenage Mutant Ninja Turtles: Tournament Fighters",
+    "composer": "Miki Higashino1",
+    "year": "1993/09/04",
+    "track_order": "12/18",
+    "chip_data": {
+        "fm_writes": 19992,
+        "complexity": 0.8039999999999999
+    },
+    "_type": "music:track"
+}

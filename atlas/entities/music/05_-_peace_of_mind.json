@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_peace_of_mind",
+    "track_name": "05 - Peace of Mind",
+    "album": "Thunder Dragon",
+    "composer": "Kazunori Hideya",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

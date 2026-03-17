@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_closing_credits",
+    "track_name": "25 - Closing Credits",
+    "album": "Xak III: The Eternal Recurrence",
+    "composer": "Yukiharu Urita",
+    "year": "1993-04-23",
+    "track_order": "25/25",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

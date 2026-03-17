@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_campaign_#3_intro",
+    "track_name": "10 - Campaign #3 Intro",
+    "album": "Jungle Strike",
+    "composer": "Brian Schmidt",
+    "year": "1993/09/01",
+    "track_order": "10/27",
+    "chip_data": {
+        "fm_writes": 1050686,
+        "complexity": 0.926
+    },
+    "_type": "music:track"
+}

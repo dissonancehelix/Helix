@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_randy_savage",
+    "track_name": "06 - Randy Savage",
+    "album": "WWF Super WrestleMania",
+    "composer": "Mark Miller",
+    "year": "1992",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 12763,
+        "complexity": 0.3
+    },
+    "_type": "music:track"
+}

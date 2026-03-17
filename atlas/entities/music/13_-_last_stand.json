@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_last_stand",
+    "track_name": "13 - Last Stand",
+    "album": "Raiga: Strato Fighter",
+    "composer": "Mitsuhito Tanaka",
+    "year": "1991-02",
+    "track_order": "13/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

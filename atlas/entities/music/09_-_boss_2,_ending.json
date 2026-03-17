@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_boss_2,_ending",
+    "track_name": "09 - Boss 2, Ending",
+    "album": "Rapid Hero",
+    "composer": "Kazunori Hideya",
+    "year": "1994-07",
+    "track_order": "9/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

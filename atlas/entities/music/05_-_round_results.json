@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_round_results",
+    "track_name": "05 - Round Results",
+    "album": "Crayon Shin-chan Orato Asobo",
+    "composer": "Yasuko Yamada",
+    "year": "1993/12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

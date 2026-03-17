@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_cheerful_event",
+    "track_name": "20 - Cheerful Event",
+    "album": "Princess Maker: Yumemiru Yousei",
+    "composer": "Masahiro Kajihara",
+    "year": "1998",
+    "track_order": "20/30",
+    "chip_data": {
+        "fm_writes": 88,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

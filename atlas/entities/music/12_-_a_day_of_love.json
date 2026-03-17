@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_a_day_of_love",
+    "track_name": "12 - A Day of Love",
+    "album": "The Legend of Xanadu II",
+    "composer": "Atsushi Shirakawa",
+    "year": "1996",
+    "track_order": "12/49",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

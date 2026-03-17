@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_music_box",
+    "track_name": "03 - Music Box",
+    "album": "Adventure Tsukuru 98",
+    "composer": "Youta Kitagami",
+    "year": "1992-03-19",
+    "track_order": "3/26",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

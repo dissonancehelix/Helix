@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_illburns_ruins",
+    "track_name": "11 - Illburns Ruins",
+    "album": "Ys III: Wanderers from Ys",
+    "composer": "Yoshiaki Kubotera",
+    "year": "1991",
+    "track_order": "11/29",
+    "chip_data": {
+        "fm_writes": 51430,
+        "complexity": 0.195
+    },
+    "_type": "music:track"
+}

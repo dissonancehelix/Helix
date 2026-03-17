@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_ending_2",
+    "track_name": "11 - Ending 2",
+    "album": "City Hunter",
+    "composer": "Sunsoft",
+    "year": "1990-03-02",
+    "track_order": "11/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_stage_1-3_bgm",
+    "track_name": "01 - Stage 1-3 BGM",
+    "album": "Mahjong Gakuen",
+    "composer": "Capcom Sound Team",
+    "year": "1988-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

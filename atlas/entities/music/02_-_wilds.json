@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_wilds",
+    "track_name": "02 - Wilds",
+    "album": "Rings of Power",
+    "composer": "Alexander Hinds",
+    "year": "1991/02/01",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 8622,
+        "complexity": 0.591
+    },
+    "_type": "music:track"
+}

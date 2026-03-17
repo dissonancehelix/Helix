@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_banquet_of_nature",
+    "track_name": "10 - Banquet of Nature",
+    "album": "Samurai Shodown",
+    "composer": "Yasuo Yamate",
+    "year": "1993-07-07",
+    "track_order": "10/21",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

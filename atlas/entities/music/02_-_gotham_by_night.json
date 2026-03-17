@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_gotham_by_night",
+    "track_name": "02 - Gotham by Night",
+    "album": "The Adventures of Batman and Robin",
+    "composer": "Jesper Kyd\"",
+    "year": "1995",
+    "track_order": "2/18",
+    "chip_data": {
+        "fm_writes": 1293993,
+        "complexity": 0.21300000000000002
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_akindo",
+    "track_name": "10 - Akindo",
+    "album": "Brandish 3: Spirit of Balcan",
+    "composer": "Takahiro Tsunashima",
+    "year": "1994-11-25",
+    "track_order": "10/56",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

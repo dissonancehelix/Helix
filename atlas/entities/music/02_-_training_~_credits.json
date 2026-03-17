@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_training_~_credits",
+    "track_name": "02 - Training ~ Credits",
+    "album": "Mike Tyson's Punch-Out!!",
+    "composer": "Kenji Yamamoto",
+    "year": "1987-10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 175,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

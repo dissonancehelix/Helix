@@ -16,7 +16,7 @@ from typing import Any
 from core.kernel.schema.entities.schema import Entity
 
 _DEFAULT_REGISTRY_PATH = (
-    Path(__file__).parent.parent.parent / "atlas" / "entities" / "registry.json"
+    Path(__file__).parent.parent.parent.parent.parent / "atlas" / "entities" / "registry.json"
 )
 
 

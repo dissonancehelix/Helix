@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_hex-day_-_information_mix",
+    "track_name": "01 - HEX-day - Information Mix",
+    "album": "X-Day 2",
+    "composer": "Ayako Saso",
+    "year": "1995",
+    "track_order": "1/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "36_-_am_i_sexy",
+    "track_name": "36 - Am I Sexy",
+    "album": "Sexy Parodius",
+    "composer": "Mayuko Kageshita",
+    "year": "1996-03",
+    "track_order": "36/38",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

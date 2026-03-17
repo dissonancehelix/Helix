@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_rail_canyon_boss",
+    "track_name": "07 - Rail Canyon Boss",
+    "album": "Tails' Skypatrol",
+    "composer": "Chikayo Fukuda",
+    "year": "1995/04/28",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

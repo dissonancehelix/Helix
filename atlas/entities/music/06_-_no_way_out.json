@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_no_way_out",
+    "track_name": "06 - No Way Out",
+    "album": "Armed Police Batrider",
+    "composer": "Manabu Namiki",
+    "year": "1998-02-13",
+    "track_order": "6/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

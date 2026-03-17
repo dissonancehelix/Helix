@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_cool_waterline",
+    "track_name": "02 - Cool Waterline",
+    "album": "Mirage 2",
+    "composer": "Hiroaki Sano",
+    "year": "1994-12-02",
+    "track_order": "2/18",
+    "chip_data": {
+        "fm_writes": 19115,
+        "complexity": 0.742
+    },
+    "_type": "music:track"
+}

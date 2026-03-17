@@ -1,0 +1,13 @@
+{
+    "entity_id": "35_-_staff_roll",
+    "track_name": "35 - Staff Roll",
+    "album": "Tokyo Twilight Busters",
+    "composer": "Motoi Sakuraba",
+    "year": "1995-06-23",
+    "track_order": "35/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

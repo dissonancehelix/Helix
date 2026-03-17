@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_chi!!_chi!!_chi!!_chi!!",
+    "track_name": "11 - Chi!! Chi!! Chi!! Chi!!",
+    "album": "Fatal Fury 3",
+    "composer": "Masahiko Hataya",
+    "year": "1995",
+    "track_order": "11/23",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

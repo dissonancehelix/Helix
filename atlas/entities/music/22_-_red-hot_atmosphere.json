@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_red-hot_atmosphere",
+    "track_name": "22 - Red-Hot Atmosphere",
+    "album": "Genocide 2: Master of the Dark Communion",
+    "composer": "Hideyuki Shimono",
+    "year": "1991-12-07",
+    "track_order": "22/49",
+    "chip_data": {
+        "fm_writes": 19,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

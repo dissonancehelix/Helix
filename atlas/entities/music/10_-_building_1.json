@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_building_1",
+    "track_name": "10 - Building 1",
+    "album": "Bloody Roar 2: Bringer of the New Age",
+    "composer": "Manabu Namiki",
+    "year": "1998-09-10",
+    "track_order": "10/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

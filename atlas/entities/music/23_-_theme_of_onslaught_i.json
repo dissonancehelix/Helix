@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_theme_of_onslaught_i",
+    "track_name": "23 - Theme of Onslaught I",
+    "album": "Marvel vs. Capcom",
+    "composer": "Yuko Takehara",
+    "year": "1998",
+    "track_order": "23/35",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

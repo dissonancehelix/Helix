@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_butterfly_grove,_wacky_waterfalls",
+    "track_name": "06 - Butterfly Grove, Wacky Waterfalls",
+    "album": "Chuck Rock II: Son of Chuck",
+    "composer": "Martin Iveson",
+    "year": "1993-11-16",
+    "track_order": "6/11!",
+    "chip_data": {
+        "fm_writes": 6056,
+        "complexity": 0.4
+    },
+    "_type": "music:track"
+}

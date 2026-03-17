@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_back_to_the_fire",
+    "track_name": "01 - Back to the Fire",
+    "album": "Thunder Force AC",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1990",
+    "track_order": "1/18",
+    "chip_data": {
+        "fm_writes": 21363,
+        "complexity": 0.278
+    },
+    "_type": "music:track"
+}

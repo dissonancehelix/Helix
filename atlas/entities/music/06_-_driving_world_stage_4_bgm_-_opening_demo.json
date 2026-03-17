@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_driving_world_stage_4_bgm_-_opening_demo",
+    "track_name": "06 - Driving World (Stage 4 BGM) - Opening Demo",
+    "album": "The Game Paradise!: Master of Shooting!",
+    "composer": "Kazuo Sawa'",
+    "year": "1995-11",
+    "track_order": "6/12*",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

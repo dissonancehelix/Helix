@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_sen5",
+    "track_name": "10 - SEN5",
+    "album": "FOXY 2",
+    "composer": "Manabu Kunieda",
+    "year": "1991-04-25",
+    "track_order": "10/28",
+    "chip_data": {
+        "fm_writes": 15,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_mountainous_region_at_night_area_1",
+    "track_name": "01 - Mountainous Region at Night (Area 1)",
+    "album": "Task Force Harrier",
+    "composer": "Kazunori Hideya",
+    "year": "1989-08",
+    "track_order": "1/11$",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

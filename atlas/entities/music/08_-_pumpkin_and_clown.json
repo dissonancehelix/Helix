@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_pumpkin_and_clown",
+    "track_name": "08 - Pumpkin and Clown",
+    "album": "Art of Fighting 2",
+    "composer": "Yasumasa Yamada",
+    "year": "1994-02-03",
+    "track_order": "8/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

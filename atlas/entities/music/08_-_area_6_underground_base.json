@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_area_6_underground_base",
+    "track_name": "08 - Area 6 (Underground Base)",
+    "album": "Caliber .50",
+    "composer": "Kenji Yamazaki",
+    "year": "1991/11/01",
+    "track_order": "8/14",
+    "chip_data": {
+        "fm_writes": 15919,
+        "complexity": 0.2
+    },
+    "_type": "music:track"
+}

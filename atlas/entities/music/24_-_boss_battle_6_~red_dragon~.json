@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_boss_battle_6_~red_dragon~",
+    "track_name": "24 - Boss Battle 6 ~Red Dragon~",
+    "album": "Dungeons & Dragons: Tower of Doom",
+    "composer": "Isao Abe",
+    "year": "1993",
+    "track_order": "24/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

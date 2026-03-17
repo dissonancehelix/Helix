@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_nanban_shop",
+    "track_name": "19 - Nanban Shop",
+    "album": "Taikou Risshiden",
+    "composer": "Michiru Oshima",
+    "year": "1993",
+    "track_order": "19/25",
+    "chip_data": {
+        "fm_writes": 3381,
+        "complexity": 0.8340000000000001
+    },
+    "_type": "music:track"
+}

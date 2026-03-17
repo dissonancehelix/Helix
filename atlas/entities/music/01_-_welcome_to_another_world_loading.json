@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_welcome_to_another_world_loading",
+    "track_name": "01 - Welcome to Another World (Loading)",
+    "album": "Vulqar",
+    "composer": "Hideki Awata",
+    "year": "1993-08-17",
+    "track_order": "1/4\"",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_school-_romance",
+    "track_name": "05 - School- Romance",
+    "album": "Adventure Tsukuru II",
+    "composer": "Youta Kitagami",
+    "year": "1994-09",
+    "track_order": "5/24",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

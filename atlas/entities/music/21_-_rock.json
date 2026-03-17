@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_rock",
+    "track_name": "21 - Rock",
+    "album": "Emerald Dragon",
+    "composer": "Tenpei Sato",
+    "year": "1989-12-12",
+    "track_order": "21/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

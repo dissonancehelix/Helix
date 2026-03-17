@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_king_fish",
+    "track_name": "07 - King Fish",
+    "album": "Thunder Force III",
+    "composer": "Tomomi Otani",
+    "year": "1990/06/08",
+    "track_order": "7/18",
+    "chip_data": {
+        "fm_writes": 28215,
+        "complexity": 0.76
+    },
+    "_type": "music:track"
+}

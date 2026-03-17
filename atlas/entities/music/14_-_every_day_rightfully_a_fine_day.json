@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_every_day_rightfully_a_fine_day",
+    "track_name": "14 - Every day rightfully a fine day",
+    "album": "Farland Story: Kamigami no Isen",
+    "composer": "Atsuyoshi Isemura",
+    "year": "1995-07-21",
+    "track_order": "14/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

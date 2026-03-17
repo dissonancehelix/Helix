@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_doomsday_weapon",
+    "track_name": "19 - Doomsday Weapon",
+    "album": "Cyberbots",
+    "composer": "Takayuki Iwai",
+    "year": "1995-04",
+    "track_order": "19/35",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_pendulum",
+    "track_name": "07 - Pendulum",
+    "album": "Raiga: Strato Fighter",
+    "composer": "Mitsuhito Tanaka",
+    "year": "1991-02",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_eric's_victory_screen",
+    "track_name": "13 - Eric's Victory Screen",
+    "album": "Blazing Tornado",
+    "composer": "Hironori Tanaka",
+    "year": "1994",
+    "track_order": "13/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

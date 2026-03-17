@@ -1,0 +1,16 @@
+{
+  "id": "music.manual:SCHG_Music_Hacking_Other_Games_and_Data_Locations_-_Sonic_Retro",
+  "type": "KnowledgeSource",
+  "extracted_entities": [
+    {
+      "id": "music.sound_chip:schg_music_hacking_other_games_and_data_locations_-_sonic_retro",
+      "type": "SoundChip"
+    }
+  ],
+  "invariant_candidates": [
+    {
+      "id": "music.invariant:schg_music_hacking_other_games_and_data_locations_-_sonic_retro_law",
+      "description": "Extracted from SCHG_Music Hacking_Other Games and Data Locations - Sonic Retro.htm"
+    }
+  ]
+}

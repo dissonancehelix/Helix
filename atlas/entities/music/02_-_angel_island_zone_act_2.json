@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_angel_island_zone_act_2",
+    "track_name": "02 - Angel Island Zone Act 2",
+    "album": "Sonic 3 & Knuckles",
+    "composer": "Sega Sound Team",
+    "year": "1994",
+    "track_order": "2/58",
+    "chip_data": {
+        "fm_writes": 11970,
+        "complexity": 0.227
+    },
+    "_type": "music:track"
+}

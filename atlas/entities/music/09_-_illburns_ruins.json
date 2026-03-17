@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_illburns_ruins",
+    "track_name": "09 - Illburns Ruins",
+    "album": "Ys III: Wanderers from Ys",
+    "composer": "Mieko Ishikawa",
+    "year": "1989",
+    "track_order": "9/30",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

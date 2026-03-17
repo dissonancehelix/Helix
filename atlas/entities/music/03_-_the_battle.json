@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_the_battle",
+    "track_name": "03 - The Battle",
+    "album": "Nastar",
+    "composer": "Hisayoshi Ogura",
+    "year": "1988",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

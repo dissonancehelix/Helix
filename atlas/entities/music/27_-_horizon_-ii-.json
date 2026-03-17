@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_horizon_-ii-",
+    "track_name": "27 - Horizon -II-",
+    "album": "Samurai Shodown IV",
+    "composer": "Yasumasa Yamada",
+    "year": "1996-10-25",
+    "track_order": "27/28",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

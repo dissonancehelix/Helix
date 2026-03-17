@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_ken's_ending_2",
+    "track_name": "20 - Ken's Ending 2",
+    "album": "Street Fighter II",
+    "composer": "Yoko Shimomura",
+    "year": "1991",
+    "track_order": "20/54",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

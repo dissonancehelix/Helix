@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_guillotine",
+    "track_name": "19 - Guillotine",
+    "album": "Contra: Hard Corps",
+    "composer": "Hiroshi Kobayashi",
+    "year": "1994",
+    "track_order": "19/25",
+    "chip_data": {
+        "fm_writes": 1835,
+        "complexity": 0.5
+    },
+    "_type": "music:track"
+}

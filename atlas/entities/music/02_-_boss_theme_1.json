@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_boss_theme_1",
+    "track_name": "02 - Boss Theme 1",
+    "album": "Caliber .50",
+    "composer": "Kenji Yamazaki",
+    "year": "1991/11/01",
+    "track_order": "2/14",
+    "chip_data": {
+        "fm_writes": 11047,
+        "complexity": 0.563
+    },
+    "_type": "music:track"
+}

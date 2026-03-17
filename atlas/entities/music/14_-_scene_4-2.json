@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_scene_4-2",
+    "track_name": "14 - Scene 4-2",
+    "album": "Operation Wolf 3",
+    "composer": "Hiroshi Tuda",
+    "year": "1994",
+    "track_order": "14/18",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_battle_theme",
+    "track_name": "16 - Battle Theme",
+    "album": "Mission: Impossible",
+    "composer": "Jun Funahashi",
+    "year": "1990-09",
+    "track_order": "16/18",
+    "chip_data": {
+        "fm_writes": 16,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

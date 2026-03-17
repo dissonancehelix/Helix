@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_theme_hagata",
+    "track_name": "04 - Theme Hagata",
+    "album": "Battle Golfer Yui",
+    "composer": "Aruaru Nakayama",
+    "year": "1991/02/15",
+    "track_order": "4/18",
+    "chip_data": {
+        "fm_writes": 6594,
+        "complexity": 0.75
+    },
+    "_type": "music:track"
+}

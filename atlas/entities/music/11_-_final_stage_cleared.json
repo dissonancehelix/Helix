@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_final_stage_cleared",
+    "track_name": "11 - Final Stage Cleared",
+    "album": "1943: The Battle of Midway",
+    "composer": "Kumi Yamaga",
+    "year": "1987-06",
+    "track_order": "11/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

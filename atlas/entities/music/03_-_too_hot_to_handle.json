@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_too_hot_to_handle",
+    "track_name": "03 - Too Hot to Handle",
+    "album": "Commander Keen in Goodbye, Galaxy! Episode IV: Secret of the Oracle",
+    "composer": "Bobby PrinceC",
+    "year": "1991-12-15",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

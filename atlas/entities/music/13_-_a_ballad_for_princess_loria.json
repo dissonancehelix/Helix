@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_a_ballad_for_princess_loria",
+    "track_name": "13 - A Ballad for Princess Loria",
+    "album": "LandStalker",
+    "composer": "Motoaki Takenouchi",
+    "year": "1992/10/30",
+    "track_order": "13/29",
+    "chip_data": {
+        "fm_writes": 54288,
+        "complexity": 0.965
+    },
+    "_type": "music:track"
+}

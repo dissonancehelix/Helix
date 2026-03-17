@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_the_hard_corps_blues",
+    "track_name": "23 - The Hard Corps Blues",
+    "album": "Contra: Hard Corps",
+    "composer": "Hiroshi Kobayashi",
+    "year": "1994",
+    "track_order": "23/25",
+    "chip_data": {
+        "fm_writes": 6757,
+        "complexity": 0.458
+    },
+    "_type": "music:track"
+}

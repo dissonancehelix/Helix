@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_the_third_moon_boss_~_dark_lord_grandmaster",
+    "track_name": "17 - The Third Moon Boss ~ Dark Lord Grandmaster",
+    "album": "Strider",
+    "composer": "Junko Tamiya",
+    "year": "1989",
+    "track_order": "17/18+",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

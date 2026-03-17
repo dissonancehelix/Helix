@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_heroine_i",
+    "track_name": "11 - Heroine I",
+    "album": "Meikyuu Gakuensai",
+    "composer": "Ryu Umemoto",
+    "year": "1994-09-30",
+    "track_order": "11/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

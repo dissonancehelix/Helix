@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_dark_trap",
+    "track_name": "14 - Dark Trap",
+    "album": "Ys III: Wanderers from Ys",
+    "composer": "Yoshiaki Kubotera",
+    "year": "1991",
+    "track_order": "14/29",
+    "chip_data": {
+        "fm_writes": 40103,
+        "complexity": 0.504
+    },
+    "_type": "music:track"
+}

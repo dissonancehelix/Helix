@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_ittetsuko_hoshi's_theme_1,_honshougi_bgm_3",
+    "track_name": "04 - Ittetsuko Hoshi's Theme 1, Honshougi BGM 3",
+    "album": "Shougi no Hoshi",
+    "composer": "Nobuko Hasebe",
+    "year": "1991-10-31",
+    "track_order": "4/11*",
+    "chip_data": {
+        "fm_writes": 2790,
+        "complexity": 0.728
+    },
+    "_type": "music:track"
+}

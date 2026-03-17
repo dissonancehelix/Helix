@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_dungeon_escape",
+    "track_name": "07 - Dungeon Escape",
+    "album": "Cave Noire",
+    "composer": "Shinji Tasaka",
+    "year": "1991-04-19",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

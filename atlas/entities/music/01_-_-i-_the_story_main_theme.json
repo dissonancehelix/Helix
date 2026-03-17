@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_-i-_the_story_main_theme",
+    "track_name": "01 - -I- THE STORY (Main Theme)",
+    "album": "Rastan Saga II",
+    "composer": "Hisayoshi Ogura",
+    "year": "1990/08/10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 11079,
+        "complexity": 0.408
+    },
+    "_type": "music:track"
+}

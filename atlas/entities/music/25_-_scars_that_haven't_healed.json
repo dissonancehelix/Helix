@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_scars_that_haven't_healed",
+    "track_name": "25 - Scars That Haven't Healed",
+    "album": "Kizuato",
+    "composer": "Kazuhide Nakagami",
+    "year": "1996-07-26",
+    "track_order": "25/25",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_ice_cream_island",
+    "track_name": "06 - Ice Cream Island",
+    "album": "Kirby's Adventure",
+    "composer": "Hirokazu Ando",
+    "year": "1993-03-23",
+    "track_order": "6/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_bido_army_theme",
+    "track_name": "01 - Bido Army Theme",
+    "album": "Burai",
+    "composer": "Chihiro Fujioka",
+    "year": "1990",
+    "track_order": "1/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

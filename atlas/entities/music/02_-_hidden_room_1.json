@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_hidden_room_1",
+    "track_name": "02 - Hidden Room 1",
+    "album": "Solomon's Key",
+    "composer": "Michiharu Hasuya",
+    "year": "1986-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

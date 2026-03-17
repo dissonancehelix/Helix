@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_hard_enemy_quiz_bgm_5_q.1_-_q.3",
+    "track_name": "13 - Hard Enemy (Quiz BGM 5 Q.1 - Q.3)",
+    "album": "Quiz Tonosama no Yabou",
+    "composer": "Manami Matsumae",
+    "year": "1991-01-16",
+    "track_order": "13/19!",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

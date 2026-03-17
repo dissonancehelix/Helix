@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_verdy",
+    "track_name": "09 - Verdy",
+    "album": "Formation Soccer on J.League",
+    "composer": "Masahiro Yonezawa",
+    "year": "1994-01-15",
+    "track_order": "9/25",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_professor_country_samara",
+    "track_name": "25 - Professor Country Samara",
+    "album": "Radia Senki: Reimei Hen",
+    "composer": "Keiji Yamagishi",
+    "year": "1991-11-15",
+    "track_order": "25/31",
+    "chip_data": {
+        "fm_writes": 87,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

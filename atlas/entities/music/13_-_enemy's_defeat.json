@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_enemy's_defeat",
+    "track_name": "13 - Enemy's Defeat",
+    "album": "Military Madness",
+    "composer": "June Chikuma",
+    "year": "1989-02-09",
+    "track_order": "13/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

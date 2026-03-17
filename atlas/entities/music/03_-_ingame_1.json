@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_ingame_1",
+    "track_name": "03 - Ingame 1",
+    "album": "Moto Roader II",
+    "composer": "Kouji Hayama",
+    "year": "1991-03-29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 99,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

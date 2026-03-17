@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_the_parasprinter",
+    "track_name": "09 - The Parasprinter",
+    "album": "Ninja Gaiden II",
+    "composer": "Ryuichi Nitta",
+    "year": "1990-04-06",
+    "track_order": "9/19",
+    "chip_data": {
+        "fm_writes": 65,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

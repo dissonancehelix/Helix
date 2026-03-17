@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_final_boss_biotech_monster",
+    "track_name": "16 - Final Boss (Biotech Monster)",
+    "album": "Ranger-X",
+    "composer": "Yoshinobu Hiraiwa",
+    "year": "1993/05/28",
+    "track_order": "16/21",
+    "chip_data": {
+        "fm_writes": 47640,
+        "complexity": 0.235
+    },
+    "_type": "music:track"
+}

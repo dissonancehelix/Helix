@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_perplexing_dungeons",
+    "track_name": "18 - Perplexing Dungeons",
+    "album": "High Seas Havoc",
+    "composer": "Emi Shimizu",
+    "year": "1993-08-16",
+    "track_order": "18/23",
+    "chip_data": {
+        "fm_writes": 2817,
+        "complexity": 0.571
+    },
+    "_type": "music:track"
+}

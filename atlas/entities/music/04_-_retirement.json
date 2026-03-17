@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_retirement",
+    "track_name": "04 - Retirement",
+    "album": "Red Zone",
+    "composer": "Jesper Kyd",
+    "year": "1993",
+    "track_order": "4/17",
+    "chip_data": {
+        "fm_writes": 835488,
+        "complexity": 0.20500000000000002
+    },
+    "_type": "music:track"
+}

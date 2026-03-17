@@ -1,0 +1,13 @@
+{
+    "entity_id": "37_-_beloved_person",
+    "track_name": "37 - Beloved Person",
+    "album": "Lufia: The Legend Returns",
+    "composer": "Yasunori Shiono",
+    "year": "2001-09-07",
+    "track_order": "37/66",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

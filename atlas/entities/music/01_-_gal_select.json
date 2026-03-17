@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_gal_select",
+    "track_name": "01 - Gal Select",
+    "album": "Gals Panic 3",
+    "composer": "Tatsuya Watanabe",
+    "year": "1995",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

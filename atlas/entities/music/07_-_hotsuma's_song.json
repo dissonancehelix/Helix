@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_hotsuma's_song",
+    "track_name": "07 - Hotsuma's Song",
+    "album": "Hany in the Sky",
+    "composer": "Ako Matsudaira",
+    "year": "1989-03-01",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 28,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

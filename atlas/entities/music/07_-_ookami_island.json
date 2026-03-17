@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_ookami_island",
+    "track_name": "07 - Ookami Island",
+    "album": "Higemaru Makaijima: Nanatsu no Shima Daibouken",
+    "composer": "Harumi Fujita.",
+    "year": "1987",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

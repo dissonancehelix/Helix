@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_we_need_a_hero",
+    "track_name": "06 - We Need a Hero",
+    "album": "Mighty Morphin Power Rangers: The Movie",
+    "composer": "Hikoshi Hashimoto'",
+    "year": "1995/05/15",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 29037,
+        "complexity": 0.353
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_stage_4_boss_bgm",
+    "track_name": "04 - Stage 4 Boss BGM",
+    "album": "Cabal",
+    "composer": "Yukihiko Kitahara",
+    "year": "1988-07-25",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_ending",
+    "track_name": "02 - Ending",
+    "album": "Arkanoid: Revenge of DOH",
+    "composer": "Hisayoshi Ogura",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

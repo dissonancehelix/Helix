@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_chasing_him_until_the_very_end",
+    "track_name": "08 - Chasing Him Until the Very End",
+    "album": "Shadow Warriors",
+    "composer": "Ryuichi Nitta",
+    "year": "1988",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

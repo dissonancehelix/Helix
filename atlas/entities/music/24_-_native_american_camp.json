@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_native_american_camp",
+    "track_name": "24 - Native American Camp",
+    "album": "The Lone Ranger",
+    "composer": "Yoshinori Sasaki",
+    "year": "1991-08",
+    "track_order": "24/32",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

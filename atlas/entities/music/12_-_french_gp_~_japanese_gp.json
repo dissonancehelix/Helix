@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_french_gp_~_japanese_gp",
+    "track_name": "12 - French GP ~ Japanese GP",
+    "album": "F1 Grand Prix",
+    "composer": "Yusuke Takahama",
+    "year": "1991/12/20",
+    "track_order": "12/20",
+    "chip_data": {
+        "fm_writes": 12194,
+        "complexity": 0.503
+    },
+    "_type": "music:track"
+}

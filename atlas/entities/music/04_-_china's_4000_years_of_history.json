@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_china's_4000_years_of_history",
+    "track_name": "04 - China's 4000 Years of History",
+    "album": "Fatal Fury",
+    "composer": "Kazuhiro Nishida",
+    "year": "1991",
+    "track_order": "4/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_good_ending_hayato",
+    "track_name": "16 - Good Ending Hayato",
+    "album": "Star Gladiator Episode I: Final Crusade",
+    "composer": "Yuko Takehara'",
+    "year": "1996-07-16",
+    "track_order": "16/30",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

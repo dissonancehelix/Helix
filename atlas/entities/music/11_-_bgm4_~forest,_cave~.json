@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_bgm4_~forest,_cave~",
+    "track_name": "11 - BGM4 ~Forest, Cave~",
+    "album": "Dungeons & Dragons: Tower of Doom",
+    "composer": "Isao Abe",
+    "year": "1993",
+    "track_order": "11/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

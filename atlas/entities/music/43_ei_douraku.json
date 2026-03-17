@@ -1,0 +1,13 @@
+{
+    "entity_id": "43_ei_douraku",
+    "track_name": "43 Ei Douraku",
+    "album": "Power Slave",
+    "composer": "Kira Jidou",
+    "year": "1995-10-27",
+    "track_order": "38/57",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

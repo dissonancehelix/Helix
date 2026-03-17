@@ -1,0 +1,9 @@
+{
+  "source": "chip_docs\\SN76489_Application_Manual.pdf",
+  "stage": "measurements",
+  "measurable_interpretation": "Determined via measurements analysis of SN76489_Application_Manual.pdf",
+  "metrics": {
+    "complexity": 0.5,
+    "structural_depth": 0.8
+  }
+}

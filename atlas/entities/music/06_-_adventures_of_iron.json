@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_adventures_of_iron",
+    "track_name": "06 - Adventures of Iron",
+    "album": "Gauntlet IV",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1993/03/18",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 34293,
+        "complexity": 0.607
+    },
+    "_type": "music:track"
+}

@@ -46,22 +46,25 @@ class AdapterError(Exception):
     pass
 
 
-class PrettyMidiAdapter:
+class Adapter:
     """
     Adapter wrapping pretty_midi for efficient MIDI feature extraction.
 
     Correct call path:
-        HIL → ANALYZE_TRACK operator → PrettyMidiAdapter → pretty_midi
+        HIL → ANALYZE_TRACK operator → Adapter → pretty_midi
     """
+    toolkit = "pretty_midi"
+    substrate = "music"
 
     SUPPORTED_EXTENSIONS: frozenset[str] = frozenset({".mid", ".midi"})
 
-    def analyze(self, file_path: str | Path) -> dict[str, Any]:
+    def execute(self, payload: dict[str, Any]) -> dict[str, Any]:
         """
         Parse a MIDI file and extract features.
 
         Returns available=False if pretty_midi is not installed.
         """
+        file_path = payload.get("file_path")
         path = Path(file_path)
         if not path.exists():
             raise AdapterError(f"File not found: {path}")
@@ -165,7 +168,7 @@ class PrettyMidiAdapter:
             if ts_str not in time_sigs:
                 time_sigs.append(ts_str)
 
-        return {
+        result = {
             "notes":               all_notes[:2000],
             "duration_total":      duration_total,
             "tempo_map":           tempo_map,
@@ -184,6 +187,10 @@ class PrettyMidiAdapter:
             "adapter":             "pretty_midi",
             "available":           True,
         }
+        return self.normalize(result)
+
+    def normalize(self, result: dict[str, Any]) -> dict[str, Any]:
+        return result
 
     def is_available(self) -> bool:
         try:

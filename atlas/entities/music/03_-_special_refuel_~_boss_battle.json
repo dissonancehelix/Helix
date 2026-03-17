@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_special_refuel_~_boss_battle",
+    "track_name": "03 - Special Refuel ~ Boss Battle",
+    "album": "Quiz H.Q.",
+    "composer": "Kazuko Umino",
+    "year": "1990-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

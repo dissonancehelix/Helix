@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_opening_theme_song",
+    "track_name": "01 - Opening (Theme Song)",
+    "album": "Tiny Toon Adventures",
+    "composer": "Jun Funahashi",
+    "year": "1991-12-20",
+    "track_order": "1/13",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

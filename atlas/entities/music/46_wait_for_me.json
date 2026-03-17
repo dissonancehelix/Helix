@@ -1,0 +1,13 @@
+{
+    "entity_id": "46_wait_for_me",
+    "track_name": "46 Wait for Me",
+    "album": "Power Slave",
+    "composer": "Naoto Ishikawa",
+    "year": "1995-10-27",
+    "track_order": "41/57",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

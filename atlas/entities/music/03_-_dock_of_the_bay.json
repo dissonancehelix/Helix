@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_dock_of_the_bay",
+    "track_name": "03 - Dock of the Bay",
+    "album": "Hammerin' Harry",
+    "composer": "Hiroshi Kimura",
+    "year": "1990",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

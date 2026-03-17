@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_cop_startup",
+    "track_name": "01 - Cop Startup",
+    "album": "Star Saber",
+    "composer": "Takaaki Oda",
+    "year": "1995-02-21",
+    "track_order": "1/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

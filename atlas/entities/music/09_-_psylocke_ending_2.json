@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_psylocke_ending_2",
+    "track_name": "09 - Psylocke Ending 2",
+    "album": "Marvel Super Heroes",
+    "composer": "Yuki Iwai",
+    "year": "1995",
+    "track_order": "9/45",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

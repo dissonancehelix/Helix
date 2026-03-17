@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_before_moon",
+    "track_name": "18 - Before Moon",
+    "album": "Street Fighter EX2",
+    "composer": "Shinji Hosoe",
+    "year": "1998-05",
+    "track_order": "18/29",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

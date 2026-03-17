@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_flash_man_stage",
+    "track_name": "08 - Flash Man Stage",
+    "album": "Mega Man 2",
+    "composer": "Takashi Tateishi",
+    "year": "1988-12-24",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 1040,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

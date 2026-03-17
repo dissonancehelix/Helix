@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_brawing_up",
+    "track_name": "22 - Brawing Up",
+    "album": "Battle Mania Daiginjou",
+    "composer": "Fumito Tamayama",
+    "year": "1993/12/24",
+    "track_order": "22/27",
+    "chip_data": {
+        "fm_writes": 3639,
+        "complexity": 0.154
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_pyramid",
+    "track_name": "05 - Pyramid",
+    "album": "Year",
+    "composer": "Mutsuhiko Izumi",
+    "year": "1992",
+    "track_order": "5/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

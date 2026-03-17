@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_stage_3,_5,_7_intro",
+    "track_name": "07 - Stage 3, 5, 7 Intro",
+    "album": "Naious",
+    "composer": "Hiroyuki Saegusa",
+    "year": "1990-10-26",
+    "track_order": "7/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_boss-yade_boss",
+    "track_name": "04 - Boss-Yade (Boss)",
+    "album": "Snow Bros 2: With New Elves",
+    "composer": "Osamu Ohta",
+    "year": "1993",
+    "track_order": "4/12",
+    "chip_data": {
+        "fm_writes": 19,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

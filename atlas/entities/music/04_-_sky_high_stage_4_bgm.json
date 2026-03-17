@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_sky_high_stage_4_bgm",
+    "track_name": "04 - Sky High (Stage 4 BGM)",
+    "album": "Final Soldier",
+    "composer": "Masakatsu Maekawa",
+    "year": "1991-07-05",
+    "track_order": "4/14",
+    "chip_data": {
+        "fm_writes": 31,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

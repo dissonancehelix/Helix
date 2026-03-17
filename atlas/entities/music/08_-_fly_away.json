@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_fly_away",
+    "track_name": "08 - Fly Away",
+    "album": "Night Striker",
+    "composer": "Masahiko Takaki",
+    "year": "1989-10",
+    "track_order": "8/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_attract",
+    "track_name": "01 - Attract",
+    "album": "500GP",
+    "composer": "Yoshie Takayanagi",
+    "year": "1999-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

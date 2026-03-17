@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_akira's_theme",
+    "track_name": "30 - Akira's Theme",
+    "album": "Doukyusei 2",
+    "composer": "Manabu Kunieda",
+    "year": "1995-01-31",
+    "track_order": "30/45",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

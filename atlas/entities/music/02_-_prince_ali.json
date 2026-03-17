@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_prince_ali",
+    "track_name": "02 - Prince Ali",
+    "album": "Disney's Aladdin",
+    "composer": "Donald Griffin",
+    "year": "1993",
+    "track_order": "2/14",
+    "chip_data": {
+        "fm_writes": 68210,
+        "complexity": 0.726
+    },
+    "_type": "music:track"
+}

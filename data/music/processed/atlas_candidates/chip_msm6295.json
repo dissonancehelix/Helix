@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:msm6295",
+  "name": "Sound Chip: MSM6295",
+  "type": "SoundChip",
+  "libvgm_id": "0x18"
+}

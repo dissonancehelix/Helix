@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_good_ending_gore",
+    "track_name": "24 - Good Ending Gore",
+    "album": "Star Gladiator Episode I: Final Crusade",
+    "composer": "Yuko Takehara'",
+    "year": "1996-07-16",
+    "track_order": "24/30",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

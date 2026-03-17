@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_read_all_about_it",
+    "track_name": "04 - Read All About It",
+    "album": "F-15 Strike Eagle II",
+    "composer": "Matt Furniss",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 150977,
+        "complexity": 0.5760000000000001
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_world_series_champions",
+    "track_name": "05 - World Series Champions",
+    "album": "Tecmo Super Baseball",
+    "composer": "Rick Rhodes",
+    "year": "1994/08/06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 110439,
+        "complexity": 0.666
+    },
+    "_type": "music:track"
+}

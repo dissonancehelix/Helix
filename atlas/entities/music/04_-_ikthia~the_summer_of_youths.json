@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_ikthia~the_summer_of_youths",
+    "track_name": "04 - Ikthia~The Summer of Youths",
+    "album": "The Legend of Xanadu",
+    "composer": "Atsushi Shirakawa",
+    "year": "1994",
+    "track_order": "4/84",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

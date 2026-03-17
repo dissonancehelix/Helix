@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_fuuma's_theme-_wind_and_flame",
+    "track_name": "03 - Fuuma's Theme- Wind and Flame",
+    "album": "World Heroes",
+    "composer": "Hiroaki Shimizu",
+    "year": "1992-07-28",
+    "track_order": "3/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

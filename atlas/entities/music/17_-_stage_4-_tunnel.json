@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_stage_4-_tunnel",
+    "track_name": "17 - Stage 4- Tunnel",
+    "album": "Alien",
+    "composer": "Kentaro Koyama",
+    "year": "1993",
+    "track_order": "17/26",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

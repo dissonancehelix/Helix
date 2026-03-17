@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_name_entry_short",
+    "track_name": "03 - Name Entry (Short)",
+    "album": "Sword of Vermilion",
+    "composer": "Hiro",
+    "year": "1989/12/16",
+    "track_order": "3/23",
+    "chip_data": {
+        "fm_writes": 47109,
+        "complexity": 0.222
+    },
+    "_type": "music:track"
+}

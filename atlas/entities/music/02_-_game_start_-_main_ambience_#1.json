@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_game_start_-_main_ambience_#1",
+    "track_name": "02 - Game Start - Main Ambience #1",
+    "album": "Solvalou",
+    "composer": "Hiroyuki Kawada",
+    "year": "1991",
+    "track_order": "2/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

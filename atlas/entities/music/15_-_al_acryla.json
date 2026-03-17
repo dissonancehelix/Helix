@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_al_acryla",
+    "track_name": "15 - Al Acryla",
+    "album": "The Tower of Gazzel",
+    "composer": "Yukiharu Urita",
+    "year": "1991",
+    "track_order": "15/32",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

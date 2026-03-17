@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_moanin'",
+    "track_name": "03 - Moanin'",
+    "album": "Grounseed",
+    "composer": "Masahiro Kajihara",
+    "year": "1996-06-07",
+    "track_order": "3/76",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

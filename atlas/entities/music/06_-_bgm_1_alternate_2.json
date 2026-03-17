@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_bgm_1_alternate_2",
+    "track_name": "06 - BGM 1 (Alternate 2)",
+    "album": "Ka-Ge-Ki: Fists of Steel",
+    "composer": "Tatsuya Watanabe",
+    "year": "1991/04/26",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 20017,
+        "complexity": 0.247
+    },
+    "_type": "music:track"
+}

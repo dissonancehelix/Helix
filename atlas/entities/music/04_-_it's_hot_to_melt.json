@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_it's_hot_to_melt",
+    "track_name": "04 - It's Hot to Melt",
+    "album": "Spin Master",
+    "composer": "Mitsuteru Furukawa",
+    "year": "1993-12-16",
+    "track_order": "4/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

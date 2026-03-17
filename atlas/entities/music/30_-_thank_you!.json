@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_thank_you!",
+    "track_name": "30 - Thank You!",
+    "album": "Genocide 2: Master of the Dark Communion",
+    "composer": "Hideyuki Shimono",
+    "year": "1991-12-07",
+    "track_order": "30/49",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

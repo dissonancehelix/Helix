@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stage_2,_4_boss",
+    "track_name": "05 - Stage 2, 4 Boss",
+    "album": "Scorpius",
+    "composer": "Yusuke Takahama",
+    "year": "1991-05-10",
+    "track_order": "5/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

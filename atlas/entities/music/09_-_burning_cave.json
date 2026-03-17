@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_burning_cave",
+    "track_name": "09 - Burning Cave",
+    "album": "Beyond Oasis",
+    "composer": "Yuzo Koshiro",
+    "year": "1994",
+    "track_order": "9/30",
+    "chip_data": {
+        "fm_writes": 75929,
+        "complexity": 0.05
+    },
+    "_type": "music:track"
+}

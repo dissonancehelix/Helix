@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_north_shore",
+    "track_name": "03 - North Shore",
+    "album": "Virtual Pinball",
+    "composer": "Mark Miller",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 41842,
+        "complexity": 0.256
+    },
+    "_type": "music:track"
+}

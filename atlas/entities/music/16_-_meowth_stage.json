@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_meowth_stage",
+    "track_name": "16 - Meowth Stage",
+    "album": "mon Pinball",
+    "composer": "Go Ichinose",
+    "year": "1999-06-28",
+    "track_order": "16/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

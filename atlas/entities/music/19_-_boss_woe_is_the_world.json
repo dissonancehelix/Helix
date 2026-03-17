@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_boss_woe_is_the_world",
+    "track_name": "19 - Boss (Woe is the World)",
+    "album": "Comix Zone",
+    "composer": "Howard Drossin",
+    "year": "1995",
+    "track_order": "19/28",
+    "chip_data": {
+        "fm_writes": 285344,
+        "complexity": 0.332
+    },
+    "_type": "music:track"
+}

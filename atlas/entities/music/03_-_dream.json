@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_dream",
+    "track_name": "03 - Dream",
+    "album": "The Immortal",
+    "composer": "Rob Hubbard",
+    "year": "1991/07/11",
+    "track_order": "3/18",
+    "chip_data": {
+        "fm_writes": 16764,
+        "complexity": 0.614
+    },
+    "_type": "music:track"
+}

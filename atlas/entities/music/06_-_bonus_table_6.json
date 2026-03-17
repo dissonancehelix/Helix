@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_bonus_table_6",
+    "track_name": "06 - Bonus Table 6",
+    "album": "Dragon's Fury",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1991",
+    "track_order": "6/12",
+    "chip_data": {
+        "fm_writes": 34176,
+        "complexity": 0.694
+    },
+    "_type": "music:track"
+}

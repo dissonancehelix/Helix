@@ -1,0 +1,9 @@
+{
+  "source": "docs\\SMPS - Sega Retro.htm",
+  "stage": "parsed",
+  "measurable_interpretation": "Determined via parsed analysis of SMPS - Sega Retro.htm",
+  "metrics": {
+    "complexity": 0.5,
+    "structural_depth": 0.8
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_hi_no_tori_ending",
+    "track_name": "06 - Hi no Tori (Ending)",
+    "album": "Hi no Tori Hououhen: Gaou no Bouken",
+    "composer": "Fumio Miyashita#",
+    "year": "1987-01-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

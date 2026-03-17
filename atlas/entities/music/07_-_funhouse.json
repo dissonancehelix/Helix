@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_funhouse",
+    "track_name": "07 - Funhouse",
+    "album": "Nightmare Circus",
+    "composer": "Kurt Harland",
+    "year": "1995",
+    "track_order": "7/18",
+    "chip_data": {
+        "fm_writes": 60331,
+        "complexity": 0.49
+    },
+    "_type": "music:track"
+}

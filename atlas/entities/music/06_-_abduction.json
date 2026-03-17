@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_abduction",
+    "track_name": "06 - Abduction",
+    "album": "Phantasy Star III",
+    "composer": "Izuho Numata",
+    "year": "1990/04/21",
+    "track_order": "6/33",
+    "chip_data": {
+        "fm_writes": 95699,
+        "complexity": 0.064
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_on_trimaran",
+    "track_name": "05 - On Trimaran",
+    "album": "Waterworld",
+    "composer": "Jason Page",
+    "year": "1995",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 108874,
+        "complexity": 0.009000000000000001
+    },
+    "_type": "music:track"
+}

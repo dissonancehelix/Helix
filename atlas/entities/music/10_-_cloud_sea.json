@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_cloud_sea",
+    "track_name": "10 - Cloud Sea",
+    "album": "Strider Hiryu",
+    "composer": "Junko Tamiya",
+    "year": "1992",
+    "track_order": "10/21",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

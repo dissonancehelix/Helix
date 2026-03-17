@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_mission",
+    "track_name": "08 - Mission",
+    "album": "Dungeons & Dragons: Shadow Over Mystara",
+    "composer": "Masato Kouda'",
+    "year": "1996",
+    "track_order": "8/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

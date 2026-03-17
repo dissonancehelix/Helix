@@ -1,0 +1,13 @@
+{
+    "entity_id": "44_-_labyrinth_of_space-time",
+    "track_name": "44 - Labyrinth of Space-Time",
+    "album": "The Legend of Heroes IV: A Tear of Vermillion",
+    "composer": "Atsushi Shirakawa-",
+    "year": "1996-05-24",
+    "track_order": "44/54",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

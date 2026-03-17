@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_talk_dirty_to_me",
+    "track_name": "12 - Talk Dirty to Me",
+    "album": "Shock Troopers",
+    "composer": "Masahiko Hataya",
+    "year": "1997-11-11",
+    "track_order": "12/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

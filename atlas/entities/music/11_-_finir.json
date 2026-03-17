@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_finir",
+    "track_name": "11 - Finir",
+    "album": "Revival Xanadu",
+    "composer": "Masaru Nakajima",
+    "year": "1995-04-28",
+    "track_order": "11/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

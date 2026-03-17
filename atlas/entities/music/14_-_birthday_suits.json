@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_birthday_suits",
+    "track_name": "14 - Birthday Suits",
+    "album": "Xexex",
+    "composer": "Hidenori Maezawa",
+    "year": "1991",
+    "track_order": "14/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

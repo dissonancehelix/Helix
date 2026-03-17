@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_unknown_track_1",
+    "track_name": "12 - Unknown Track 1",
+    "album": "Dragon Ball Z: Bu Yuu Retsuden",
+    "composer": "Shinji Amagishi",
+    "year": "1994/04/01",
+    "track_order": "12/13",
+    "chip_data": {
+        "fm_writes": 9392,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

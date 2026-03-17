@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_lively_lava,_spooky_cave",
+    "track_name": "07 - Lively Lava, Spooky Cave",
+    "album": "Chuck Rock II: Son of Chuck",
+    "composer": "Martin Iveson",
+    "year": "1993-11-16",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 5965,
+        "complexity": 0.067
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_arcade_~_main_bgm",
+    "track_name": "16 - Arcade ~ Main BGM",
+    "album": "Pepenga Pengo",
+    "composer": "Hyodori Tome",
+    "year": "1995/12/22",
+    "track_order": "16/16",
+    "chip_data": {
+        "fm_writes": 7707,
+        "complexity": 0.666
+    },
+    "_type": "music:track"
+}

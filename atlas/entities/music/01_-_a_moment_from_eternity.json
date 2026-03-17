@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_a_moment_from_eternity",
+    "track_name": "01 - A Moment from Eternity",
+    "album": "Virtua Fighter 2",
+    "composer": "Takenobu Mitsuyoshi",
+    "year": "1996",
+    "track_order": "1/10",
+    "chip_data": {
+        "fm_writes": 30574,
+        "complexity": 0.909
+    },
+    "_type": "music:track"
+}

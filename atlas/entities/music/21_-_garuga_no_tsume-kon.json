@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_garuga_no_tsume-kon",
+    "track_name": "21 - Garuga no tsume-kon",
+    "album": "The Legend of Heroes III: Moonlight Witch",
+    "composer": "Atsushi Shirakawa)",
+    "year": "1994-03-18",
+    "track_order": "21/61",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

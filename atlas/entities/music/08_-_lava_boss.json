@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_lava_boss",
+    "track_name": "08 - Lava Boss",
+    "album": "Vectorman 2",
+    "composer": "Jon Holland",
+    "year": "1996/08/04",
+    "track_order": "8/19",
+    "chip_data": {
+        "fm_writes": 47520,
+        "complexity": 0.63
+    },
+    "_type": "music:track"
+}

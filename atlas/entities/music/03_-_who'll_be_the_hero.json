@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_who'll_be_the_hero",
+    "track_name": "03 - Who'll be the Hero",
+    "album": "Violent Storm",
+    "composer": "Kenichiro Fukui",
+    "year": "1993-07",
+    "track_order": "3/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

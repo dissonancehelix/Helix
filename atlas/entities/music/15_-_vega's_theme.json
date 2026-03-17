@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_vega's_theme",
+    "track_name": "15 - Vega's Theme",
+    "album": "Street Fighter II",
+    "composer": "Yoko Shimomura",
+    "year": "1991",
+    "track_order": "15/54",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_gyro_man",
+    "track_name": "06 - Gyro Man",
+    "album": "Mega Man 2: The Power Fighters",
+    "composer": "Hideki Okugawa",
+    "year": "1996",
+    "track_order": "6/34",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

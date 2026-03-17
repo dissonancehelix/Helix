@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_water_of_a_fountain",
+    "track_name": "10 - Water of a Fountain",
+    "album": "Revolter",
+    "composer": "Masaharu Iwata",
+    "year": "1988-07-13",
+    "track_order": "10/22",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

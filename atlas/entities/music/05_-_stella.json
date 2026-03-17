@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stella",
+    "track_name": "05 - Stella",
+    "album": "Stadium Hero",
+    "composer": "Gamadelic",
+    "year": "1988",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 176,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

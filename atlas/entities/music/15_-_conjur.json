@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_conjur",
+    "track_name": "15 - Conjur",
+    "album": "Rings of Power",
+    "composer": "Alexander Hinds",
+    "year": "1991/02/01",
+    "track_order": "15/15",
+    "chip_data": {
+        "fm_writes": 13483,
+        "complexity": 0.241
+    },
+    "_type": "music:track"
+}

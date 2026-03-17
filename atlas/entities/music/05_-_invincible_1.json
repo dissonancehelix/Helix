@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_invincible_1",
+    "track_name": "05 - Invincible 1",
+    "album": "Tails' Skypatrol",
+    "composer": "Chikayo Fukuda",
+    "year": "1995/04/28",
+    "track_order": "5/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

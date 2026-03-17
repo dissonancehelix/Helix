@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_titleback",
+    "track_name": "01 - Titleback",
+    "album": "Souhou: Blue Phoenix",
+    "composer": "Hidefumi Saito",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

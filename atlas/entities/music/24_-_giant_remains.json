@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_giant_remains",
+    "track_name": "24 - Giant Remains",
+    "album": "Jinn: Eien no Yuushi",
+    "composer": "Osamu Ishikawa",
+    "year": "1994-09-02",
+    "track_order": "24/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

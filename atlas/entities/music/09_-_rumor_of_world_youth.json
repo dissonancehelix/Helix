@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_rumor_of_world_youth",
+    "track_name": "09 - Rumor of World Youth",
+    "album": "Captain Tsubasa II",
+    "composer": "Keiji Yamagishi",
+    "year": "1990-07-20",
+    "track_order": "9/28",
+    "chip_data": {
+        "fm_writes": 320,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

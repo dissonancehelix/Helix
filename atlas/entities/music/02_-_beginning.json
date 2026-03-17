@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_beginning",
+    "track_name": "02 - Beginning",
+    "album": "Wonder Boy in Monster World",
+    "composer": "Shinichi Sakamoto",
+    "year": "1991/10/25",
+    "track_order": "2/23",
+    "chip_data": {
+        "fm_writes": 30430,
+        "complexity": 0.491
+    },
+    "_type": "music:track"
+}

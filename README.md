@@ -1,710 +1,372 @@
 # Helix
 
-**Closed semantic execution system for experimental invariant discovery.**
+**Helix is a research framework for discovering patterns in datasets and storing those discoveries in a structured knowledge graph called the atlas.**
 
-Helix is a constrained, deterministic research machine. It discovers structural invariants across complex systems by running experiments through a formal five-layer execution pipeline. Every input is normalized, every entity is semantically validated, every action is performed by a registered operator, and every piece of knowledge is compiled into a structured Atlas before it can be reasoned about.
+Helix analyzes data, extracts measurable structure, and records the results so they can be compared across many experiments. Instead of treating analysis output as temporary files, Helix converts results into persistent entities and relationships. Over time this builds a map of patterns that can be explored, expanded, and tested.
 
-This document is the authoritative system specification. A complete Helix instance can be regenerated from this file, `HIL.md`, and the substrate READMEs.
-
----
-
-## Closed System Law
-
-```
-No untyped input.
-No undefined meaning.
-No unregistered execution.
-No unvalidated output.
-No direct Atlas writes.
-```
-
-All execution passes through:
-
-```
-HIL → Normalization → Semantics → Operators → Atlas Compiler → Atlas
-```
-
-Substrates produce artifacts. The Atlas Compiler converts artifacts into Atlas entities. Nothing else writes to Atlas.
+The system is designed to help both humans and reasoning systems understand how complex structures appear across different domains such as music, language, simulations, and other structured data.
 
 ---
 
-## Execution Pipeline
+# Philosophy
 
-### Layer 1 — HIL (Syntax)
+Helix is built around a simple principle:
 
-The Helix Interface Language. A strict formal DSL. The only valid way to express intent in Helix. See `HIL.md` for the complete language specification.
+**patterns that appear across different systems often reveal deeper structural rules.**
 
-| Component | Location | Purpose |
-|-----------|----------|---------|
-| Grammar (EBNF) | `core/hil/grammar.ebnf` | Authoritative syntax definition |
-| Parser | `core/hil/parser.py` | Tokenizer → typed AST |
-| Validator | `core/hil/validator.py` | 10-stage semantic validation |
-| Interpreter | `core/hil/interpreter.py` | Command execution dispatcher |
-| Dispatcher | `core/hil/hil_dispatch.py` | Routes to interpreter or kernel |
-| Normalizer | `core/hil/normalizer.py` | Shim → `core/normalization/` |
-| Aliases | `core/hil/aliases.py` | Human shorthand → canonical HIL |
-| Command registry | `core/hil/command_registry.py` | Formal spec of all 24 command families |
-| AST nodes | `core/hil/ast_nodes.py` | `HILCommand`, `TypedRef`, `RangeExpr` |
-| Errors | `core/hil/errors.py` | 6 typed error classes |
-| Semantic roles | `core/hil/semantic_roles.py` | 11 relationship role types |
-| Ontology | `core/hil/ontology.py` | 24 HIL object types, valid engines |
+Many complex systems—music, language, games, biological rhythms, and mathematical models—share forms that are not obvious when each system is studied separately. Helix attempts to reveal these forms by measuring structure and storing the results in a connected graph of knowledge.
 
-Non-HIL input is rejected. There is no fallback to Python or shell in runtime mode.
+Every dataset processed by Helix becomes part of this graph. Measurements, observations, and discovered relationships are preserved so they can be compared with new experiments later.
 
-### Layer 2 — Normalization
+This philosophy guides the design of the system:
 
-Before semantic validation, all inputs are normalized to canonical form.
+* discoveries should accumulate rather than disappear
+* datasets should be comparable across domains
+* experiments should be reproducible
+* knowledge should be stored as connected entities rather than isolated files
 
-| Component | Location | Purpose |
-|-----------|----------|---------|
-| Normalizer | `core/normalization/normalizer.py` | Alias resolution, casing, typed ref resolution |
-| ID enforcer | `core/normalization/id_enforcer.py` | Pattern validation, namespace check |
-| Errors | `core/normalization/errors.py` | `NormalizationError`, `InvalidIDError`, `DuplicateEntityError` |
-
-**Normalization pipeline:**
-1. Alias resolution (`"Jun Senoue"` → `music.composer:jun_senoue`)
-2. Casing normalization (verbs/types upper, slugs lower)
-3. ID pattern enforcement: must match `^[a-z_]+\.[a-z_]+:[a-z0-9_]+$`
-4. Typed reference resolution: `prefix:name` → registry entity lookup
-5. Deduplication detection: warn if entity ID already registered
-
-### Layer 3 — Semantics
-
-Defines all valid meaning. Every entity type has a `SemanticSignature` declaring required fields, optional fields, and allowed relationships.
-
-| Component | Location | Purpose |
-|-----------|----------|---------|
-| Entity registry | `core/semantics/entity_registry/entity_types.py` | `SemanticSignature` for all 19 types |
-| Property registry | `core/semantics/property_registry/property_types.py` | 50+ typed `PropertySpec` definitions |
-| Relationship registry | `core/semantics/relationship_registry/relationship_types.py` | 30+ typed `RelationshipSpec` definitions |
-| Validator | `core/semantics/validator.py` | `SemanticValidator.validate()` → `ValidationResult` |
-
-No entity may exist without a registered type. No property may be unknown. No relationship may connect incompatible types.
-
-### Layer 4 — Operators
-
-The only execution units in runtime mode. Operators are deterministic: fixed pipeline stages, declared input types, declared output schema.
-
-| Component | Location | Purpose |
-|-----------|----------|---------|
-| Spec | `core/operators/operator_spec.py` | `OperatorSpec` dataclass |
-| Registry | `core/operators/operator_registry.py` | Singleton, closed-world enforcement |
-| Built-ins | `core/operators/builtin_operators.py` | 12 pre-registered operators |
-
-No operator generates scripts at runtime. No operator writes to Atlas directly.
-
-### Layer 5 — Atlas Compiler → Atlas
-
-The only authorized path for writing to Atlas. Enforces normalize → validate → compile → commit.
-
-| Component | Location | Purpose |
-|-----------|----------|---------|
-| Compiler | `core/compiler/atlas_compiler.py` | Full compilation pipeline (700+ lines) |
-| Output root | `atlas/` | Organized by substrate |
-| Entity index | `atlas/entities/registry.json` | Authoritative entity index |
+Helix therefore acts both as an analysis environment and as a system for documenting discovery.
 
 ---
 
-## Execution Modes
+# Purpose
 
-Controlled by the `HELIX_MODE` environment variable (default: `runtime`).
+The purpose of Helix is to make it easier to **discover patterns by organizing data into a structured network of relationships**.
 
-| Mode | Operators | Schemas | Atlas writes | Script execution |
-|------|-----------|---------|--------------|-----------------|
-| `runtime` | registered only | immutable | compiler only | blocked |
-| `dev` | register new | evolvable | compiler only | allowed |
+In many research workflows, scripts generate results that are written to files and then forgotten. Helix takes a different approach. Each analysis produces structured artifacts that are compiled into the atlas, where they become part of a persistent graph of knowledge.
 
-```bash
-HELIX_MODE=dev helix ...
-```
+Because the information is connected, new analyses can build on previous results. Patterns that are invisible in isolated datasets can become visible when many observations are combined.
+
+Helix is also designed to work well with large language models. The atlas provides a structured representation of entities and relationships that allows reasoning systems to explore connections between datasets.
 
 ---
 
-## Repository Structure
+# Core Concepts
 
-```
-Helix/
-│
-├── helix                          ← CLI entry point (bash wrapper)
-├── README.md                      ← This file — system specification
-├── HIL.md                         ← HIL language specification
-├── DISSONANCE.md                  ← Operator profile
-├── pyproject.toml                 ← Python package definition
-│
-├── core/                          ← Execution infrastructure
-│   ├── hil/                       ← HIL: parser, validator, interpreter
-│   ├── normalization/             ← Normalization gate
-│   ├── semantics/                 ← Semantic type/property/relationship registries
-│   ├── operators/                 ← Operator registry and 12 built-ins
-│   ├── adapters/                  ← Toolkit translation layers (8 adapters)
-│   ├── compiler/                  ← Atlas compiler (sole authorized Atlas writer)
-│   ├── kernel/
-│   │   ├── schema/entities/       ← Entity dataclass, ontology, registry, resolver
-│   │   ├── graph/                 ← EntityGraph, AtlasGraph, traversal
-│   │   ├── dispatcher/            ← Probe runner, probe registry
-│   │   └── runtime/orchestration/ ← master_pipeline.py (internal shim)
-│   ├── discovery/                 ← Hypothesis engine, experiment generator
-│   ├── integrity/                 ← Architecture integrity checks
-│   ├── analysis/                  ← Feature extraction, pattern stores
-│   ├── engines/                   ← Python and Godot runtime engines
-│   └── cli/                       ← helix_cli.py, command_runner.py, repl.py
-│
-├── substrates/                    ← Domain analysis pipelines
-│   ├── music/                     ← Game music / VGM / composer style
-│   │   ├── pipeline_core.py       ← 18-stage operator-callable pipeline
-│   │   ├── style_vector/          ← StyleVectorComputer, CrossEraAnalyzer
-│   │   ├── measurement_synthesis/ ← libvgm_bridge, gme_bridge, build_extensions
-│   │   ├── domain_analysis/       ← composer fingerprint, symbolic, MIR, theory
-│   │   ├── feature_extraction/    ← feature extractor, channel profiler
-│   │   ├── embedding_generation/  ← style embedding, signal generator
-│   │   ├── pattern_detection/     ← FAISS index, similarity, attribution
-│   │   ├── atlas_integration/     ← entity builder, graph integration, sources
-│   │   ├── ingestion/             ← library scanner, metadata, adapters
-│   │   └── parsing/               ← VGM, SPC, NSF, SID parsers
-│   ├── games/                     ← Agent decision system analysis
-│   ├── language/                  ← Symbolic communication analysis
-│   ├── math/                      ← Formal structure and topology
-│   └── agents/                    ← Multi-agent simulation
-│
-├── atlas/                         ← Compiled semantic knowledge
-│   ├── entities/
-│   │   └── registry.json          ← Authoritative entity index (98,313+ entities)
-│   ├── music/
-│   │   ├── composers/
-│   │   ├── tracks/
-│   │   ├── albums/
-│   │   ├── games/
-│   │   ├── platforms/
-│   │   └── sound_chips/
-│   ├── games/
-│   ├── language/
-│   ├── mathematics/
-│   ├── invariants/                ← Verified structural invariants
-│   ├── signals/                   ← Processed measurable signals
-│   └── system_integrity/          ← Integrity audit logs
-│
-├── artifacts/                     ← Intermediate pipeline outputs
-│   ├── music/
-│   │   └── <track_id>/
-│   │       ├── control_sequence.json
-│   │       ├── symbolic_score.json
-│   │       └── signal_profile.json
-│   └── tests/                     ← Test data (not Atlas entities)
-│
-├── labs/
-│   ├── experiments/               ← Active probes and experiments
-│   └── legacy_experiments/        ← Archived scripts (see AUDIT.md)
-│
-├── datasets/                      ← Raw input data
-├── governance/                    ← Validation and promotion rules
-├── applications/                  ← Tools built on Helix invariants
-└── runtime/
-    └── deps/                      ← Cloned external tool source repos
-        ├── libvgm/
-        ├── vgmstream/
-        ├── Nuked-OPN2/
-        ├── game-music-emu/
-        └── helix_sources/         ← Sound driver reference collection
-```
+## The atlas
+
+The atlas is the central knowledge graph used by Helix. It stores entities and the relationships between them.
+
+Entities can represent many different kinds of objects, including:
+
+* artists
+* musical tracks
+* motifs or musical patterns
+* audio features
+* hardware sound chips
+* software sound drivers
+* datasets and experiments
+
+Relationships describe how these entities interact. For example, a musical track may be connected to the artist who created it, the sound hardware used to produce it, and motifs detected in its structure.
+
+The atlas is designed to grow continuously as new datasets are analyzed.
 
 ---
 
-## Entity System
+## Artifacts
 
-### Canonical ID Format
+Artifacts are structured outputs produced by analysis tools.
 
-```
-namespace.type:slug
-```
+They contain measurements or representations extracted from data, such as:
 
-| Part | Description | Pattern |
-|------|-------------|---------|
-| `namespace` | substrate or domain | `music`, `games`, `language`, `mathematics`, `system` |
-| `type` | entity type (lowercase) | matches `ENTITY_ONTOLOGY` slug |
-| `slug` | unique identifier | lowercase, underscores, digits |
+* symbolic representations of music
+* audio feature measurements
+* motif detection results
+* similarity graphs
+* dataset metadata
 
-Examples:
-```
-music.composer:jun_senoue
-music.track:8aa0534f...
-games.invariant:decision_compression
-music.controlsequence:8aa0534f_cs
-```
-
-### Entity Schema (all entities)
-
-| Field | Type | Required | Notes |
-|-------|------|----------|-------|
-| `id` | string | yes | canonical `namespace.type:slug` |
-| `type` | string | yes | must be in `ENTITY_ONTOLOGY` |
-| `name` | string | yes | human-readable display name |
-| `label` | string | yes | short display label; defaults to `name` on load |
-| `description` | string | required in runtime | one-sentence description |
-| `metadata` | dict | no | domain extras + provenance keys |
-| `external_ids` | dict | no | references to external knowledge bases |
-| `relationships` | list | no | `[{relation, target_id, confidence}]` |
-
-**Provenance keys (required for pipeline-generated entities):**
-`source`, `source_stage`, `source_artifact`, `extraction_method`
-
-### Entity Types (19 total)
-
-**Core music domain:**
-
-| Type | Purpose | Required Extra Fields | Allowed Relationships |
-|------|---------|----------------------|----------------------|
-| `Composer` | Music creator | — | COMPOSED, MEMBER_OF, COLLABORATED_WITH |
-| `Track` | Musical work | — | APPEARS_IN, COMPOSED_BY |
-| `Game` | Videogame title | — | RUNS_ON, USES_CHIP, HAS_SOUNDTRACK |
-| `Platform` | Hardware platform | — | HOSTS, USES_CHIP |
-| `SoundChip` | Audio hardware | — | USED_BY |
-| `SoundTeam` | Composer group | — | MEMBER_OF |
-
-**Music analysis artifacts (produced by operators):**
-
-| Type | Purpose | Required Extra Fields | Allowed Relationships |
-|------|---------|----------------------|----------------------|
-| `ControlSequence` | Hardware register-write log | `source_track`, `chip_target`, `format` | DERIVED_FROM, TARGETS_CHIP |
-| `SymbolicScore` | Music theory representation | `source_track` | DERIVED_FROM, REPRESENTS |
-| `SignalProfile` | Audio feature representation | `source_track` | DERIVED_FROM, REPRESENTS |
-| `ArtistStyleVector` | Composer musical fingerprint | `composer_id`, `melodic_features`, `harmonic_features`, `rhythmic_features` | ATTRIBUTED_TO, SIMILAR_TO, DIVERGES_FROM, DERIVED_FROM |
-
-**Reserved (planned substrates):**
-
-| Type | Purpose |
-|------|---------|
-| `Soundtrack` | Game soundtrack collection |
-| `Studio` | Development studio |
-
-**Research domain:**
-
-| Type | Purpose | Required Extra Fields |
-|------|---------|----------------------|
-| `Dataset` | Input data collection | `source`, `version` |
-| `Experiment` | Falsification test | `source` |
-| `Model` | Explanatory structure | — |
-| `Invariant` | Cross-domain structural rule | `source` |
-| `Operator` | Execution unit | `version` |
-| `Driver` | Substrate driver | — |
-| `Infrasubstrate` | Infrastructure layer | — |
+Artifacts act as an intermediate layer between analysis tools and the atlas. They preserve raw results before those results are compiled into graph entities.
 
 ---
 
-## Operator Registry
+## Operators and Adapters
 
-12 registered operators. `RUN operator:UNKNOWN` raises `HILValidationError` in all modes.
+Helix separates **running analysis tools** from **storing knowledge**.
 
-### Music Substrate Operators
+Operators define analysis tasks such as ingesting datasets or analyzing tracks.
 
-| Operator | Accepted Input Types | Output Schema | Pipeline Stages |
-|----------|---------------------|---------------|----------------|
-| `INGEST_TRACK` | Track, * | `{track_id, control_sequence, artifact_path, bridge_used, bridge_mode}` | validate_source → route_to_adapter → render_control_sequence → write_artifact |
-| `ANALYZE_TRACK` | Track, ControlSequence | `{track_id, symbolic_score, signal_profile, artifact_paths}` | load_control_sequence → symbolic_analysis → signal_analysis → nuked_opn2_topology → write_artifacts |
-| `STYLE_VECTOR` | Composer | `{composer_id, artist_style_vector, track_count, artifact_path}` | load_composer_tracks → compute_melodic → compute_harmonic → compute_rhythmic → compute_structural → compute_timbral → compute_motivic → aggregate_context → write |
-| `COMPILE_ATLAS` | Track, Composer, ControlSequence, SymbolicScore, SignalProfile, ArtistStyleVector, * | `{entities_compiled, entities_rejected, atlas_paths, substrate}` | discover_music_artifacts → normalize → semantic_validate → compile_to_substrate_dir → atlas_commit → update_registry |
+Adapters translate the output of external tools into structured artifacts that Helix can store.
 
-### Core Operators
-
-| Operator | Accepted Input Types | Output Schema | Pipeline Stages |
-|----------|---------------------|---------------|----------------|
-| `PROBE` | Invariant | `{probe_name, domain, signal, confidence, passed, run_id, artifact_dir}` | load_dataset → execute_probe → collect_signal → write_artifact → update_atlas |
-| `INGEST` | * | `{entities_created, entities_updated, artifact_path}` | validate_source → parse_records → normalize_entities → write_artifacts |
-| `LINK` | all entity types | `{source_id, relation, target_id, created}` | validate_source → validate_target → check_relationship_type → write_relationship |
-| `COMPILE` | * | `{entities_compiled, entities_rejected, atlas_paths}` | discover_artifacts → normalize → semantic_validate → compile_entries → atlas_commit → update_index |
-| `SCAN` | * | `{substrate, entities_found, artifact_path}` | enumerate_substrate → extract_entities → write_artifacts |
-| `ANALYZE` | Composer, Track, Game, Invariant, Experiment | `{signals, artifact_path}` | load_entity → extract_features → compute_signals → write_artifact |
-| `DISCOVER` | Invariant | `{candidate_commands, reasoning, log_path}` | load_atlas → analyze_gaps → generate_hil_candidates → log_session |
-| `MIGRATE` | * | `{entities_migrated, entities_failed, migration_log}` | detect_legacy → convert_to_canonical → compile_entity → mark_migration_metadata |
+This separation ensures that external tools cannot directly modify the atlas.
 
 ---
 
-## Adapter Layer
+# Architecture
 
-`core/adapters/` — Pure translation layers. No Helix logic. Each adapter normalizes inputs, calls one external toolkit, and returns a structured JSON-compatible dict.
+Helix uses a structured execution pipeline that separates user interaction, analysis tools, and knowledge storage.
 
-| Adapter | Toolkit | Purpose | Available |
-|---------|---------|---------|-----------|
-| `adapter_libvgm.py` | libvgm (ValleyBell) | VGM/VGZ emulation, YM2612/SN76489/OPL chip events | Source in `runtime/deps/libvgm/`; compile required |
-| `adapter_gme.py` | Game_Music_Emu | SPC (SPC700), NSF (2A03), GBS (DMG), HES, KSS, AY | Source in `runtime/deps/game-music-emu/`; compile required |
-| `adapter_vgmstream.py` | vgmstream CLI | FLAC, MP3, OGG, WAV, OPUS, PSF, 2SF, USF → amplitude envelope | Source in `runtime/deps/vgmstream/`; compile required |
-| `adapter_nuked_opn2.py` | Nuked-OPN2 | YM2612 algorithm → carrier slot tables, brightness proxy | Always available (static constants, no compilation) |
-| `adapter_librosa.py` | librosa | Spectral, rhythm, timbral MIR features from audio | pip installed |
-| `adapter_essentia.py` | Essentia | High-quality descriptors: tonal centroid, chord histogram, HPCP | `pip install essentia` (optional) |
-| `adapter_music21.py` | music21 | MIDI/MusicXML: key, chord progression, phrase segmentation | pip installed |
-| `adapter_pretty_midi.py` | pretty_midi | MIDI: note events, pitch histogram, velocity, note density | pip installed |
+The system operates in the following stages:
 
-**Adapter output schemas:**
-- `adapter_libvgm`, `adapter_gme`, `adapter_vgmstream` → ControlSequence schema
-- `adapter_librosa`, `adapter_essentia` → SignalProfile schema
-- `adapter_music21`, `adapter_pretty_midi` → SymbolicScore schema
-- `adapter_nuked_opn2` → topology dict `{algorithm, carrier_slots, modulator_slots, brightness_proxy}`
+Human Interface Layer → Operators → Adapters → Toolkits → Artifacts → Atlas compiler
 
----
+## Data Layer (Helix Data Root)
 
-## Atlas Architecture
+Helix enforces a unified root data layer at `helix/data/`. This separates raw and processed knowledge from the engine logic.
 
-### Directory Layout
+*   `data/<domain>/source/`: Immutable raw knowledge (manuals, audio, code).
+*   `data/<domain>/processed/`: Structured, reusable outputs (parsed, features, structure).
+*   `data/<domain>/metadata/`: Tags, annotations, and curated metadata.
 
-```
-atlas/
-├── entities/
-│   └── registry.json          ← authoritative entity index (primary source of truth)
-├── music/
-│   ├── composers/             ← one JSON per compiled Composer entity
-│   ├── tracks/                ← one JSON per compiled Track entity
-│   ├── albums/
-│   ├── games/
-│   ├── platforms/
-│   └── sound_chips/
-├── games/
-├── language/
-├── mathematics/
-├── invariants/                ← verified structural invariants (markdown + JSON)
-├── signals/                   ← per-track signal extracts
-└── system_integrity/          ← timestamped integrity audit logs
-```
+## Execution Layer
 
-**`registry.json`** is the authoritative source. Filesystem entity files are compiled projections.
+All runtime traces, logs, and temporary outputs are stored in `helix/execution/`.
 
-### Compilation Law
-
-No file may be written to `atlas/` except by the Atlas Compiler gate.
-
-```
-# CORRECT
-RUN operator:COMPILE_ATLAS
-RUN operator:COMPILE
-
-# WRONG — direct write (blocked in runtime mode)
-with open("atlas/music/composers/foo.json", "w") as f: ...
-```
-
-### Compilation Pipeline
-
-```
-artifacts/music/<track_id>/control_sequence.json
-  ↓
-normalize(entity_dict)           # ID pattern, casing, alias resolution
-  ↓
-SemanticValidator.validate()     # type check, required fields, relationship validity
-  ↓
-compile_entity()                 # resolve substrate path → atlas/music/composers/
-  ↓
-atlas_commit()                   # write JSON (ONLY authorized path)
-  ↓
-registry.json updated
-```
-
-### Entity File Format
-
-```json
-{
-  "id":            "music.composer:jun_senoue",
-  "type":          "Composer",
-  "name":          "Jun Senoue",
-  "label":         "Jun Senoue",
-  "description":   "Sonic Team lead guitarist and composer.",
-  "metadata": {
-    "source":           "vgmdb_ingester",
-    "source_stage":     "knowledge_graph_integration",
-    "source_artifact":  "track_db",
-    "extraction_method": "vgmdb_scraper"
-  },
-  "external_ids":  {"vgmdb_id": "..."},
-  "relationships": [
-    {"relation": "MEMBER_OF", "target_id": "music.soundteam:sonic_team", "confidence": 1.0}
-  ]
-}
-```
+*   `execution/runs/`: Command history and results.
+*   `execution/logs/`: Detailed trace logs.
+*   `execution/integrity/`: Tests and validation reports.
 
 ---
 
-## Music Research System
+# Music Analysis
 
-### Objective
+Music analysis is currently one of the main experimental domains in Helix.
 
-Discover structural properties of a composer's musical identity that persist across hardware eras and platform constraints.
+The system can analyze both modern audio recordings and video game music formats that contain instructions for specialized sound hardware. These formats provide detailed information about how music is generated.
 
-**Target capability example:**
-Motoi Sakuraba's early YM2612 work (El Viento, Genesis, 1991) should be analyzable alongside later orchestral work (Dark Souls, PS3, 2011). Atlas must recognize them as the same composer entity while explaining timbral differences as platform constraints — not identity drift.
+Helix uses methods from **music information retrieval (MIR)** to measure structural properties of music, including:
 
-### Style Vector Design Law
+* melodic interval patterns
+* rhythmic structure
+* harmonic movement
+* spectral characteristics
+* recurring motifs
 
-```
-Musical cognition features DOMINATE (80% weight in cross-era similarity).
-Hardware context is METADATA (20% weight).
-Context explains differences. It does not define identity.
-```
-
-### ArtistStyleVector Feature Categories
-
-| Category | Features | Identity Role |
-|----------|---------|--------------|
-| **Melodic** | interval_distribution, leap_frequency, step_frequency, phrase_length_mean/std, melodic_contour_bias, register_preference | Defines identity |
-| **Harmonic** | chord_type_distribution, key_distribution, modulation_frequency, chromaticism_index, tonal_centroid_mean | Defines identity |
-| **Rhythmic** | note_density_mean/std, tempo_mean/variance, syncopation_score, onset_density_mean | Defines identity |
-| **Structural** | track_length_mean, phrase_count_mean, section_transition_freq, loop_length_estimate | Defines identity |
-| **Timbral** | spectral_centroid_mean/std, brightness_mean/distribution, mfcc_centroid, dynamic_range_mean | Partially hardware-influenced |
-| **Motivic** | motif_repetition_frequency, motif_entropy, common_motifs | Defines identity |
-| **Context metadata** | platforms_used, chips_used, era_range | Context only — never overrides musical fingerprint |
-
-### Music Pipeline (operator sequence)
-
-```
-RUN operator:INGEST_TRACK track:music.track:<id>
-  → adapter_libvgm (VGM/VGZ) | adapter_gme (SPC/NSF/GBS) | adapter_vgmstream (audio)
-  → artifacts/music/<track_id>/control_sequence.json
-
-RUN operator:ANALYZE_TRACK track:music.track:<id>
-  → adapter_pretty_midi | adapter_music21    (symbolic analysis)
-  → adapter_librosa | adapter_essentia       (signal analysis)
-  → adapter_nuked_opn2                       (YM2612 brightness, if applicable)
-  → artifacts/music/<track_id>/symbolic_score.json
-  → artifacts/music/<track_id>/signal_profile.json
-
-RUN operator:STYLE_VECTOR composer:music.composer:<slug>
-  → StyleVectorComputer (substrates/music/style_vector/style_vector.py)
-  → 6 cognition feature computations + context metadata aggregation
-  → artifacts/music/<composer_id>/artist_style_vector.json
-
-RUN operator:COMPILE_ATLAS
-  → Atlas Compiler gate (normalize → validate → compile → commit)
-  → atlas/music/composers/, atlas/music/tracks/, etc.
-```
-
-### Cross-Era Reasoning
-
-```python
-from substrates.music.style_vector import CrossEraAnalyzer
-analyzer = CrossEraAnalyzer()
-result = analyzer.compare(
-    vector_ym2612,
-    vector_orchestral,
-    composer_id="music.composer:motoi_sakuraba",
-    label_a="YM2612 era (1991)",
-    label_b="orchestral era (2011)",
-)
-# result.relationship:         "SIMILAR_TO"
-# result.cognition_similarity: 0.87
-# result.hardware_divergence:  0.08
-# result.attribution_note:     "Motoi Sakuraba shows highly similar musical cognition..."
-```
-
-Atlas relationship types for cross-era:
-- `SIMILAR_TO` — cognition similarity ≥ 0.75
-- `DIVERGES_FROM` — cognition similarity < 0.40 (hardware era divergence)
-- `ATTRIBUTED_TO` — ArtistStyleVector → Composer
-
-### Format Support
-
-| Format | Tier | Adapter | Fallback |
-|--------|------|---------|---------|
-| VGM/VGZ | B (emulated) | `adapter_libvgm` | Static register parse |
-| SPC | B (emulated) | `adapter_gme` | Empty ControlSequence |
-| NSF/NSFE | B (emulated) | `adapter_gme` | Empty ControlSequence |
-| GBS, HES, KSS, AY, SGC | B (emulated) | `adapter_gme` | Empty ControlSequence |
-| GYM | B (emulated) | `adapter_gme` | — |
-| FLAC, MP3, OGG, WAV, OPUS | A (rendered) | `adapter_vgmstream` | Amplitude envelope proxy |
-| PSF, PSF2, SSF, DSF | A (rendered) | `adapter_vgmstream` | — |
-| 2SF, NCSF, USF, GSF | A (rendered) | `adapter_vgmstream` | — |
-| MIDI | C (symbolic) | `adapter_pretty_midi`, `adapter_music21` | — |
+These measurements allow Helix to analyze how music is structured rather than relying only on metadata such as genre.
 
 ---
 
-## Active Invariants
+# Motifs and Musical Structure
 
-| Invariant | Confidence | Domains | Pass Rate | Location |
-|-----------|-----------|---------|-----------|---------|
-| `decision_compression` | Verified | games, music, language | 86% | `atlas/invariants/decision_compression/` |
-| `oscillator_locking` | Verified | games, language, music | 100% | `atlas/invariants/oscillator_sync/` |
-| `epistemic_irreversibility` | Candidate | multiple | 82% | `atlas/invariants/epistemic_irreversibility/` |
+Helix attempts to detect repeating musical fragments known as **motifs**.
 
-**Confidence tiers:**
-| Threshold | Class |
-|-----------|-------|
-| ≥ 4 domains + ≥ 90% pass rate | Structural |
-| ≥ 3 domains + ≥ 75% pass rate | Verified |
-| ≥ 2 domains + ≥ 50% pass rate | Candidate |
-| ≥ 1 domain | Exploratory |
+Motifs are short melodic or rhythmic patterns that appear throughout a piece of music. When Helix detects motifs, they are stored as entities in the atlas and connected to the tracks where they appear.
+
+By comparing motifs across many works, Helix can identify structural similarities between pieces of music.
+
+Motifs can also be linked together to form networks that describe how musical ideas evolve across works or artists.
 
 ---
 
-## CLI Reference
+# Artist Style Modeling
 
-```bash
-helix                           # interactive REPL
-helix "HIL COMMAND"             # single command
-helix script.hil                # execute .hil script file
-echo "VERB target" | helix      # piped input
-```
+Helix can build statistical descriptions of how an artist composes music.
 
-### Operator Execution
+These descriptions summarize patterns such as:
 
-```
-RUN operator:PROBE invariant:games.invariant:decision_compression [lab:games]
-RUN operator:INGEST_TRACK track:music.track:<id>
-RUN operator:ANALYZE_TRACK track:music.track:<id>
-RUN operator:STYLE_VECTOR composer:music.composer:<slug>
-RUN operator:COMPILE_ATLAS
-RUN operator:SCAN substrate:music
-RUN operator:UNDEFINED              → HILValidationError (closed-world)
+* melodic interval usage
+* rhythmic tendencies
+* harmonic movement
+* motif usage
 
-OPERATOR list
-OPERATOR status operator:PROBE
-```
+These measurements form an **artist style profile**. When profiles are compared, Helix can estimate structural similarity between artists.
 
-### Entity Management
-
-```
-ENTITY add music.composer:<slug> name:"Name" description:"One sentence."
-ENTITY get music.composer:jun_senoue
-ENTITY list type:Composer namespace:music limit:50
-ENTITY list name:senoue
-ENTITY link music.composer:jun_senoue relation:COLLABORATED_WITH target:music.composer:...
-ENTITY export
-```
-
-### Atlas & Compilation
-
-```
-ATLAS lookup invariant:games.invariant:decision_compression
-ATLAS list
-ATLAS verify
-COMPILE atlas
-```
-
-### Discovery
-
-```
-DISCOVER experiments invariant:games.invariant:decision_compression
-DISCOVER invariants
-DISCOVER execute invariant:games.invariant:decision_compression
-```
-
-### Substrate
-
-```
-SUBSTRATE list
-SUBSTRATE info name:music
-SUBSTRATE run name:music stages:1,2,3
-SUBSTRATE run name:music stages:1,2,3 limit:100 dry-run:true
-```
-
-### Graph
-
-```
-GRAPH neighbors music.composer:jun_senoue
-GRAPH path music.composer:jun_senoue music.composer:yuzo_koshiro
-GRAPH edges music.composer:jun_senoue
-```
-
-### Integrity & System
-
-```
-INTEGRITY check
-SYSTEM sync
-```
+This approach allows the system to reveal relationships that may not correspond to traditional genre categories.
 
 ---
 
-## Governance
+# Exploring Personal Music Libraries
 
-### Anti-Drift Rules
+Helix can analyze entire personal music collections.
 
-1. Never modify `core/hil/`, `core/semantics/`, or `core/normalization/` without updating this README.
-2. Every new entity type requires: `SemanticSignature` in `entity_types.py` + entry in `ENTITY_ONTOLOGY`.
-3. Every new operator requires: `OperatorSpec` in `builtin_operators.py`.
-4. Substrate code must not import from `core/operators/`, `core/semantics/`, or `core/compiler/`.
-5. No substrate may write to `atlas/` directly. All Atlas writes through `COMPILE` or `COMPILE_ATLAS`.
-6. No new pip dependency without a corresponding adapter in `core/adapters/`.
-7. No standalone pipeline scripts. All execution through HIL operators.
-8. `INTEGRITY check` must pass clean before any commit to main.
+By measuring musical structure across many tracks, the system can identify patterns that appear frequently in the listener’s library. These patterns can describe aspects of musical taste, such as:
 
-### Promotion Gate (invariants)
+* preferred melodic structures
+* rhythmic complexity
+* recurring motif patterns
+* similarities between favored artists
 
-```
-helix "ATLAS verify"
-```
+In this way Helix can help reconstruct the structural patterns that appear in a listener’s collection.
 
 ---
 
-## Environment
+# Execution Model
 
-| Requirement | Value |
-|-------------|-------|
-| Python | ≥ 3.10 |
-| Shell | bash (MSYS2 on Windows, native on Linux/WSL2) |
-| Required pip | `mutagen pandas numpy beautifulsoup4 networkx librosa music21 pretty_midi` |
-| Optional pip | `essentia faiss-cpu scikit-learn umap-learn hdbscan anthropic` |
-| External (compile) | `libvgm vgmstream game-music-emu` (source in `runtime/deps/`) |
+Helix operates in two distinct phases:
 
-```bash
-# Setup
-python -m venv .venv
-source .venv/Scripts/activate      # Windows/MSYS2
-source .venv/bin/activate          # Linux/WSL2
-pip install -e .
-pip install mutagen pandas numpy beautifulsoup4 networkx librosa music21 pretty_midi
+## 1. Indexing Phase
 
-# Run
-helix                              # REPL
-helix "OPERATOR list"              # verify system
-helix "INTEGRITY check"            # verify architecture
-```
+Helix first builds a structural index of a dataset inside the atlas.
 
----
+During indexing:
 
-## Regeneration Specification
+* entities are created (tracks, artists, games, sound chips, drivers, knowledge sources)
+* relationships are established
+* file paths and metadata are stored
+* no structural analysis is performed
 
-To regenerate a complete Helix instance from scratch, implement in this order:
+This phase converts raw data into a queryable space.
 
-| Priority | Component | Key Files | Spec Source |
-|----------|-----------|-----------|-------------|
-| 1 | HIL syntax layer | `core/hil/` | `HIL.md` |
-| 2 | Normalization gate | `core/normalization/` | This README, Layer 2 |
-| 3 | Semantics layer | `core/semantics/` | This README, Entity Types |
-| 4 | Entity schema | `core/kernel/schema/entities/` | This README, Entity Schema |
-| 5 | Operator registry | `core/operators/` | This README, Operator Registry |
-| 6 | Adapter layer | `core/adapters/` | This README, Adapter Layer |
-| 7 | Atlas compiler | `core/compiler/` | This README, Atlas Architecture |
-| 8 | Entity graph | `core/kernel/graph/` | SPEC-03 (graph storage) |
-| 9 | Music substrate | `substrates/music/` | `substrates/music/README.md` |
-| 10 | Style vector | `substrates/music/style_vector/` | This README, Music Research System |
-| 11 | Discovery system | `core/discovery/` | This README, DISCOVER operator |
-| 12 | Atlas structure | `atlas/` | This README, Atlas Architecture |
-| 13 | CLI | `core/cli/`, `helix` | This README, CLI Reference |
-| 14 | Integrity | `core/integrity/` | INTEGRITY check section |
+## 2. Analysis Phase
+
+Helix then performs structural analysis on selected entities.
+
+During analysis:
+
+* measurable features are extracted
+* motifs and patterns are detected
+* artifacts are generated
+* results are compiled into the atlas
+
+Analysis is selective and controlled. Not all indexed data must be analyzed.
 
 ---
 
-## Key File Index
+# Atlas as Primary Interface
 
-| File | Purpose |
-|------|---------|
-| `helix` | Bash CLI entry point |
-| `HIL.md` | HIL language specification |
-| `core/hil/grammar.ebnf` | Formal HIL grammar (EBNF) |
-| `core/hil/interpreter.py` | HIL execution engine + execution modes |
-| `core/hil/command_registry.py` | All 24 HIL command family specs |
-| `core/normalization/normalizer.py` | Normalization pipeline |
-| `core/normalization/id_enforcer.py` | ID pattern enforcement |
-| `core/semantics/entity_registry/entity_types.py` | All 19 semantic signatures |
-| `core/semantics/property_registry/property_types.py` | All 50+ property specs |
-| `core/semantics/relationship_registry/relationship_types.py` | All 30+ relationship specs |
-| `core/semantics/validator.py` | SemanticValidator |
-| `core/operators/builtin_operators.py` | All 12 operator specs |
-| `core/operators/operator_registry.py` | Singleton registry, require() |
-| `core/adapters/__init__.py` | Adapter layer public API |
-| `core/compiler/atlas_compiler.py` | Atlas compilation pipeline |
-| `core/kernel/schema/entities/schema.py` | Entity dataclass |
-| `core/kernel/schema/entities/ontology.py` | ENTITY_ONTOLOGY (19 types) |
-| `core/kernel/schema/entities/registry.py` | EntityRegistry |
-| `substrates/music/pipeline_core.py` | 18-stage operator-callable pipeline |
-| `substrates/music/style_vector/style_vector.py` | ArtistStyleVector computation |
-| `substrates/music/style_vector/cross_era.py` | CrossEraAnalyzer |
-| `substrates/music/measurement_synthesis/libvgm_bridge.py` | libvgm ctypes bridge |
-| `substrates/music/measurement_synthesis/gme_bridge.py` | gme + vgmstream bridge |
-| `substrates/music/domain_analysis/tool_bridge.py` | vgm2txt, gems2mid, Nuked-OPN2 |
-| `atlas/entities/registry.json` | Authoritative entity index |
-| `artifacts/music_audit_report.md` | Music subsystem audit (2026-03-17) |
-| `labs/legacy_experiments/AUDIT.md` | Legacy script classification |
+Once data is indexed, the atlas becomes the primary interface for all interaction.
+
+All queries must resolve through atlas entities rather than raw files.
+
+---
+
+# Entity States
+
+Entities in the atlas are not required to be fully analyzed.
+
+A track may exist as:
+
+* indexed (metadata only)
+* analyzed (features extracted)
+* modeled (included in higher-level structures)
+
+---
+
+# Attribution as Hypothesis
+
+Helix separates:
+
+* recorded credit (metadata)
+* inferred attribution (structural analysis)
+
+These are stored independently. Inferred attribution is a testable hypothesis and must never overwrite recorded metadata.
+
+---
+
+# Helix Ingestion Contract
+
+Every data ingestion must strictly follow the **Deterministic Structural Extraction** contract:
+
+1.  **Source Purity**: Only read from `data/source/`.
+2.  **Decomposition**: Extract atomic components (operators, topologies, envelopes).
+3.  **Measurable Interpretation**: Use quantified metrics, never vague labels.
+4.  **6-Stage Pipeline**: Must produce Parsed, Features, Structure, Patterns, Measurements, and Atlas Candidates.
+5.  **Invariant Safety**: Only `invariant_candidates` are permitted; true invariants require cross-source validation.
+
+---
+
+# Atlas as a Structured Memory of Your Data
+
+When Helix processes a personal music library, it does not simply analyze files on demand.
+It builds a structured index of the entire collection inside the atlas.
+
+Each track, artist, game, and platform is registered as an entity with relationships and metadata, including file paths. This allows Helix to treat the user’s library as a persistent, queryable space.
+
+As a result:
+
+* tracks can be referenced directly without manual lookup
+* relationships between artists, games, and structures are preserved
+* future analyses build on previously indexed knowledge
+
+The atlas becomes a working memory of the user’s music collection rather than a temporary analysis cache.
+
+---
+
+# Structural vs Recorded Truth
+
+Helix distinguishes between two types of information:
+
+* recorded metadata (credits, tags, known information)
+* inferred structure (patterns detected through analysis)
+
+For example, a track may have an official credited composer, while Helix may detect strong structural similarity to another artist’s style.
+
+Both are preserved separately.
+
+This allows Helix to generate hypotheses (such as likely authorship) without overwriting or distorting known information. All inferred results remain testable and falsifiable.
+
+---
+
+# The Atlas as a State Space
+
+The atlas can be understood as a structured space of relationships.
+
+In this space:
+
+* tracks are points defined by structural features
+* artist style profiles are regions or distributions
+* similarity defines distance
+* invariants describe recurring geometric patterns
+
+This allows Helix to move beyond simple queries and instead navigate the data structurally.
+
+Users and reasoning systems can explore the atlas by:
+
+* finding nearby structures
+* clustering similar works
+* tracing paths between artists or motifs
+
+This transforms a static dataset into a navigable representation of structure.
+
+---
+
+# Future Research
+
+Helix is designed as a long-term discovery system.
+
+The research roadmap focuses on identifying structural patterns that may appear across different domains. Planned areas of investigation include:
+
+* decision structure in complex systems
+* compression of symbolic systems such as language and notation
+* synchronization behavior in oscillatory systems
+* effects of hardware constraints on musical structure
+* communication efficiency in multi-agent systems
+* phase transitions in strategic environments
+* timing patterns shared across music, speech, and biological rhythms
+* emergence of hierarchical structure in complex systems
+* the relationship between constraints and creativity
+* translation of structural patterns between different domains
+
+These research directions form part of the Helix discovery program described in the roadmap. 
+
+---
+
+# Evolving into a Closed Semantic Research System
+
+Helix has evolved from a music analysis engine into a **Closed Semantic Research System**. It now integrates observation, execution, and formal reasoning into a self-correcting loop.
+
+### The Research Loop:
+1. **Observation**: Extraction of structural signatures across substrates (Music, Games).
+2. **Formalization**: Integration with the **Mathematics Substrate** to apply models like the Decision Compression Principle (DCP).
+3. **Hypothesis**: Autonomous discovery of **Invariants** using the `DISCOVER_INVARIANTS` operator.
+4. **Validation**: Targeted testing of invariants through the **Invariant Lifecycle** (Proposed → Tested → Verified).
+5. **Falsification**: Active hunting for counterexamples via `FALSIFY_INVARIANT` to ensure scientific rigor.
+
+### Scientific Rigor (Dissonance & Confidence)
+Helix treats every piece of evidence as a weighted vote.
+- **Confidence Score**: How strongly an invariant is supported by data.
+- **Dissonance Score**: The ratio of counterexamples found to the total evidence pool.
+
+By identifying **Outliers** and **Structural Deviations**, Helix distinguishes between local noise and universal structural laws.
+
+### Design Philosophy
+Helix is built on the idea that research should produce **structured knowledge that grows over time**. Instead of generating isolated analysis results, Helix records each observation as part of a connected network. As the Atlas expands, it becomes possible to explore relationships and test new hypotheses using previously discovered patterns.
+
+---
+
+# Related Fields
+
+Helix draws ideas from several areas of research:
+
+* music information retrieval
+* computational musicology
+* knowledge graphs
+* data mining
+* pattern discovery systems
+
+---
+
+# Project Status
+
+Helix is an evolving experimental system. Its architecture is designed to support expansion into additional research domains while maintaining a consistent structure for documenting and connecting results.
+
+Future work will focus on expanding the atlas, improving pattern discovery methods, and exploring new datasets that contribute to the system’s knowledge base.

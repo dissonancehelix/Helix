@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_skill",
+    "track_name": "07 - sKILL",
+    "album": "Mad Stalker: Full Metal Forth",
+    "composer": "Keishi Yonao",
+    "year": "2020-09-17",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 5250,
+        "complexity": 0.222
+    },
+    "_type": "music:track"
+}

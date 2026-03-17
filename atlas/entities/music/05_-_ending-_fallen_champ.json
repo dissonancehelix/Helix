@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_ending-_fallen_champ",
+    "track_name": "05 - Ending- Fallen Champ",
+    "album": "Bucket Relay Champ",
+    "composer": "Satoshi Shimazaki",
+    "year": "1999",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

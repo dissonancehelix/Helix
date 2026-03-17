@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_vagrant",
+    "track_name": "05 - Vagrant",
+    "album": "The King of Dragons",
+    "composer": "Yoko Shimomura",
+    "year": "1991-09",
+    "track_order": "5/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

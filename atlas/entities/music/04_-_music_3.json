@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_music_3",
+    "track_name": "04 - Music 3",
+    "album": "Ah Eikou no Koshien",
+    "composer": "Yasuko Yamada",
+    "year": "1991-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_mission_1-2_wasteland",
+    "track_name": "03 - Mission 1-2 (Wasteland)",
+    "album": "Veigues: Tactical Gladiator",
+    "composer": "Fumihito Kasatani",
+    "year": "1988-12-16",
+    "track_order": "3/16",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

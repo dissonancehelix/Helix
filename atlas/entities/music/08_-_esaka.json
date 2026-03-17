@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_esaka",
+    "track_name": "08 - Esaka",
+    "album": "The King of Fighters '94",
+    "composer": "Akihiro Uchida",
+    "year": "1994-08-25",
+    "track_order": "8/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

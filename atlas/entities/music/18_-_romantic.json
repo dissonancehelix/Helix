@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_romantic",
+    "track_name": "18 - Romantic",
+    "album": "Princess Maker: Yumemiru Yousei",
+    "composer": "Masahiro Kajihara",
+    "year": "1998",
+    "track_order": "18/30",
+    "chip_data": {
+        "fm_writes": 47,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

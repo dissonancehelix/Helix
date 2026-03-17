@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_sacred_sacrific",
+    "track_name": "03 - Sacred Sacrific",
+    "album": "Valis II",
+    "composer": "Shinobu Ogawa",
+    "year": "1989-11-17",
+    "track_order": "3/32",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

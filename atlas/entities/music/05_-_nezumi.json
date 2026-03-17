@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_nezumi",
+    "track_name": "05 - Nezumi",
+    "album": "Risa's Fairy Tale",
+    "composer": "Shinya Sakamoto",
+    "year": "1988-06-21",
+    "track_order": "5/21",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

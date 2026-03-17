@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_juggernaut_stage",
+    "track_name": "07 - Juggernaut Stage",
+    "album": "X-Men vs. Street Fighter",
+    "composer": "Yuko Takehara",
+    "year": "1996",
+    "track_order": "7/29",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

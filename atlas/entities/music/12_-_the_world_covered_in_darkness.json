@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_the_world_covered_in_darkness",
+    "track_name": "12 - The World Covered in Darkness",
+    "album": "World Heroes 2 Jet",
+    "composer": "Hiroaki Shimizu",
+    "year": "1994-04-26",
+    "track_order": "12/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

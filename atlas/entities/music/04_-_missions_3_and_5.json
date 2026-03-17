@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_missions_3_and_5",
+    "track_name": "04 - Missions 3 and 5",
+    "album": "Rambo III",
+    "composer": "Kazuhiko Nagai",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 86703,
+        "complexity": 0.168
+    },
+    "_type": "music:track"
+}

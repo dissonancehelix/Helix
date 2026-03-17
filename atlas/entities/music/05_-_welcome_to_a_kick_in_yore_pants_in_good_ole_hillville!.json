@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_welcome_to_a_kick_in_yore_pants_in_good_ole_hillville!",
+    "track_name": "05 - Welcome to a Kick In Yore Pants In Good Ole Hillville!",
+    "album": "Commander Keen in Goodbye, Galaxy! Episode IV: Secret of the Oracle",
+    "composer": "Bobby PrinceC",
+    "year": "1991-12-15",
+    "track_order": "5/86",
+    "chip_data": {
+        "fm_writes": 28,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

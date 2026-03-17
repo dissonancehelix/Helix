@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_descent_into_the_tunnels",
+    "track_name": "04 - Descent into the Tunnels",
+    "album": "Flashback: The Quest for Identity",
+    "composer": "Jean Baudlot",
+    "year": "1993/11/07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 10328,
+        "complexity": 0.626
+    },
+    "_type": "music:track"
+}

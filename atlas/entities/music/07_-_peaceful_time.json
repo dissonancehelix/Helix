@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_peaceful_time",
+    "track_name": "07 - Peaceful Time",
+    "album": "Jinn: Eien no Yuushi",
+    "composer": "Osamu Ishikawa",
+    "year": "1994-09-02",
+    "track_order": "7/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

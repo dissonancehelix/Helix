@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_combat",
+    "track_name": "07 - Combat",
+    "album": "Mighty Morphin Power Rangers: The Movie",
+    "composer": "Hikoshi Hashimoto'",
+    "year": "1995/05/15",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 23694,
+        "complexity": 0.303
+    },
+    "_type": "music:track"
+}

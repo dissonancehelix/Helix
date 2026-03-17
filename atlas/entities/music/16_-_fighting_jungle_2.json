@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_fighting_jungle_2",
+    "track_name": "16 - Fighting Jungle 2",
+    "album": "Wai Wai World 2",
+    "composer": "Yuichi Sakakura",
+    "year": "1991-01-05",
+    "track_order": "16/35",
+    "chip_data": {
+        "fm_writes": 19,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

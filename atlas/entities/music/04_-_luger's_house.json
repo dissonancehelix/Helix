@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_luger's_house",
+    "track_name": "04 - Luger's House",
+    "album": "King Breeder",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1991-02",
+    "track_order": "4/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

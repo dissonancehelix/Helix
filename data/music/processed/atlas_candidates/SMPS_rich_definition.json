@@ -1,0 +1,39 @@
+{
+  "id": "music.sound_driver:smps",
+  "type": "SoundDriver",
+  "name": "Sega Music Pre-processor System (SMPS) v1.3",
+  "substrate": "music",
+  "platform": "Sega Mega Drive",
+  "language": "Z80 Assembly",
+  "capabilities": [
+    "FM Synthesis (YM2612)",
+    "PSG Synthesis (SN76489)",
+    "PCM Playback (DAC)",
+    "SSG-EG Support",
+    "Dynamic Volume Envelopes",
+    "Stereo Panning Control"
+  ],
+  "command_set": [
+    { "opcode": "CMEND", "description": "End of track data." },
+    { "opcode": "CMNOIS", "description": "Noise generator configuration (PSG)." },
+    { "opcode": "FEVE", "description": "Set FM voice (patch) data." },
+    { "opcode": "SET_TEMPO", "description": "Global sequencer playback speed." },
+    { "opcode": "FADE_OUT", "description": "Gradual volume reduction macro." }
+  ],
+  "behavioral_invariants": [
+    {
+      "id": "music.invariant:smps_rhythmic_swing",
+      "description": "Specific Z80-level delay loops that create 'swing' or 'jitter' profiles in drum timing.",
+      "type": "TimingArtifact"
+    },
+    {
+      "id": "music.invariant:dynamic_fm_pairing",
+      "description": "Ability to pair FM channels for complex modulation during runtime (e.g. Channel 3 special mode).",
+      "type": "RoutingPattern"
+    }
+  ],
+  "sources": [
+    "data/music/source/code/SMPS/SMPS-Z80_source_code/ver13/m5z8013.txt",
+    "data/music/source/code/SMPS/SMPS-Z80_source_code/ver13/m5cnt13.src"
+  ]
+}

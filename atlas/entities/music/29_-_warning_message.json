@@ -1,0 +1,13 @@
+{
+    "entity_id": "29_-_warning_message",
+    "track_name": "29 - Warning Message",
+    "album": "Madou Monogatari 1-2-3",
+    "composer": "Masanobu Tsukamoto",
+    "year": "1991-11-23",
+    "track_order": "29/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

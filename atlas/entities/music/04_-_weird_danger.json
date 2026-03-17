@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_weird_danger",
+    "track_name": "04 - Weird Danger",
+    "album": "Risky Challenge",
+    "composer": "Takushi Hiyamuta",
+    "year": "1993-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 285,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

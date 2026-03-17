@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_lyll_worzen",
+    "track_name": "11 - Lyll Worzen",
+    "album": "Dragon Slayer IV: Drasle Family",
+    "composer": "Yuzo Koshiro",
+    "year": "1987-10",
+    "track_order": "11/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

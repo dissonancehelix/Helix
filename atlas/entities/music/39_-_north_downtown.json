@@ -1,0 +1,13 @@
+{
+    "entity_id": "39_-_north_downtown",
+    "track_name": "39 - North Downtown",
+    "album": "SD Snatcher",
+    "composer": "Masahiro Ikariko",
+    "year": "1990",
+    "track_order": "39/53",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

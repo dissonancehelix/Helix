@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_stone_ruins",
+    "track_name": "03 - Stone Ruins",
+    "album": "Kanshaku Tamanage Kantarou no Tokaido Gojusan Tsugi",
+    "composer": "Sunsoft3",
+    "year": "1986-07-03",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

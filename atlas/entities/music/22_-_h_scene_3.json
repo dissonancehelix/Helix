@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_h_scene_3",
+    "track_name": "22 - H Scene 3",
+    "album": "Doukyusei",
+    "composer": "Manabu Kunieda",
+    "year": "1992-12-17",
+    "track_order": "22/46",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

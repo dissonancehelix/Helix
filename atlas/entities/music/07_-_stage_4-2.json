@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_stage_4-2",
+    "track_name": "07 - Stage 4-2",
+    "album": "Final Mission",
+    "composer": "Kiyohiro Sada",
+    "year": "1990-07-22",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_hard_man_stage",
+    "track_name": "06 - Hard Man Stage",
+    "album": "Mega Man 3",
+    "composer": "Yasuaki Fujita",
+    "year": "1990-09-28",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_town_1",
+    "track_name": "22 - Town 1",
+    "album": "Emerald Dragon",
+    "composer": "Tenpei Sato",
+    "year": "1989-12-12",
+    "track_order": "22/42",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

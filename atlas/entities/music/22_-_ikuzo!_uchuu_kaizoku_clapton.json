@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_ikuzo!_uchuu_kaizoku_clapton",
+    "track_name": "22 - Ikuzo! Uchuu Kaizoku Clapton",
+    "album": "Top Hunter: Roddy & Cathy",
+    "composer": "Yoko Osaka",
+    "year": "1994-05-18",
+    "track_order": "22/28",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

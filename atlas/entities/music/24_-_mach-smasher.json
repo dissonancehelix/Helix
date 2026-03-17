@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_mach-smasher",
+    "track_name": "24 - Mach-Smasher",
+    "album": "Street Fighter Alpha 3",
+    "composer": "Isao Abe",
+    "year": "1998-07",
+    "track_order": "24/39",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

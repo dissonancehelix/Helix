@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_huey_reane_-_battle_theme",
+    "track_name": "08 - Huey Reane - Battle Theme",
+    "album": "Phantasy Star II Text Adventures",
+    "composer": "Sachio Ogawa ",
+    "year": "1990",
+    "track_order": "8/15",
+    "chip_data": {
+        "fm_writes": 17099,
+        "complexity": 0.156
+    },
+    "_type": "music:track"
+}

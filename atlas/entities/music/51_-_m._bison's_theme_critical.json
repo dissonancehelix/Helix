@@ -1,0 +1,13 @@
+{
+    "entity_id": "51_-_m._bison's_theme_critical",
+    "track_name": "51 - M. Bison's Theme (Critical)",
+    "album": "Street Fighter II",
+    "composer": "Yoko Shimomura",
+    "year": "1991",
+    "track_order": "51/54",
+    "chip_data": {
+        "fm_writes": 209,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

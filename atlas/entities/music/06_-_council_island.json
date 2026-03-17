@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_council_island",
+    "track_name": "06 - Council Island",
+    "album": "Shadowrun",
+    "composer": "Sam Powell",
+    "year": "1994",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 27290,
+        "complexity": 0.228
+    },
+    "_type": "music:track"
+}

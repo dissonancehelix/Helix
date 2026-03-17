@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_bgm_1_main_theme_[run!]_no_intro_1",
+    "track_name": "02 - BGM 1 (Main Theme) [Run!] (No Intro 1)",
+    "album": "The Legend of Kage",
+    "composer": "Hisayoshi Ogura",
+    "year": "1985-10",
+    "track_order": "2/6&",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_let's_go_to_pao_pao_island!",
+    "track_name": "02 - Let's Go to Pao Pao Island!",
+    "album": "Puzzle Bobble",
+    "composer": "Kazuko Umino",
+    "year": "1994-06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

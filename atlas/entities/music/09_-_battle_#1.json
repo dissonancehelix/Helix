@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_battle_#1",
+    "track_name": "09 - Battle #1",
+    "album": "Lufia: The Legend Returns",
+    "composer": "Yasunori Shiono",
+    "year": "2001-09-07",
+    "track_order": "9/66",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

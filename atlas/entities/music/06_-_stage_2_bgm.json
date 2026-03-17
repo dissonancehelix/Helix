@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_stage_2_bgm",
+    "track_name": "06 - Stage 2 BGM",
+    "album": "Lethal Crash Race",
+    "composer": "Soshi Hosoi",
+    "year": "1993-09",
+    "track_order": "6/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

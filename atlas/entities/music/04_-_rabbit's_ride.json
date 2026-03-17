@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_rabbit's_ride",
+    "track_name": "04 - Rabbit's Ride",
+    "album": "The Smurfs' Nightmare",
+    "composer": "Alberto Jose Gonz",
+    "year": "1999-02",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

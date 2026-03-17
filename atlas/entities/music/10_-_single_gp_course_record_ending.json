@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_single_gp_course_record_ending",
+    "track_name": "10 - Single GP Course Record Ending",
+    "album": "Tail to Nose: Great Championship",
+    "composer": "Naoki Itamura ",
+    "year": "1989-12",
+    "track_order": "10/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

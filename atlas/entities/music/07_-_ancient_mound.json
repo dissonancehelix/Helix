@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_ancient_mound",
+    "track_name": "07 - Ancient Mound",
+    "album": "Golden Axe III",
+    "composer": "Haruyo Oguro",
+    "year": "1993-06-25",
+    "track_order": "7/21",
+    "chip_data": {
+        "fm_writes": 13099,
+        "complexity": 0.87
+    },
+    "_type": "music:track"
+}

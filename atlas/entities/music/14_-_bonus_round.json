@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_bonus_round",
+    "track_name": "14 - Bonus Round",
+    "album": "Alien vs. Predator",
+    "composer": "Hideki Okugawa",
+    "year": "1994",
+    "track_order": "14/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

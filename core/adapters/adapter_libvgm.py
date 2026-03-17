@@ -41,13 +41,15 @@ class AdapterError(Exception):
     """Raised when an adapter cannot process its input."""
 
 
-class LibvgmAdapter:
+class Adapter:
     """
     Adapter wrapping libvgm_bridge for VGM/VGZ emulation.
 
     Correct call path:
-        HIL → INGEST_TRACK operator → LibvgmAdapter → libvgm_bridge
+        HIL → INGEST_TRACK operator → Adapter → libvgm_bridge
     """
+    toolkit = "libvgm"
+    substrate = "music"
 
     # Supported input extensions
     SUPPORTED_EXTENSIONS: frozenset[str] = frozenset({".vgm", ".vgz"})
@@ -56,17 +58,12 @@ class LibvgmAdapter:
         """Return True if this adapter handles the given file format."""
         return Path(file_path).suffix.lower() in self.SUPPORTED_EXTENSIONS
 
-    def render(
-        self,
-        file_path: str | Path,
-        sample_rate: int = 44100,
-    ) -> dict[str, Any]:
+    def execute(self, payload: dict[str, Any]) -> dict[str, Any]:
         """
         Render a VGM/VGZ file and return a ControlSequence dict.
 
         Args:
-            file_path:   Path to .vgm or .vgz file.
-            sample_rate: Target emulation sample rate.
+            payload: Dict containing 'file_path' and 'sample_rate'.
 
         Returns:
             ControlSequence dict compatible with Atlas schema.
@@ -74,6 +71,9 @@ class LibvgmAdapter:
         Raises:
             AdapterError: if file does not exist or format is unsupported.
         """
+        file_path = payload.get("file_path")
+        sample_rate = payload.get("sample_rate", 44100)
+        
         path = self._normalize_path(file_path)
         fmt  = path.suffix.lower().lstrip(".")
 
@@ -89,7 +89,7 @@ class LibvgmAdapter:
         except Exception as exc:
             raise AdapterError(f"libvgm render failed for {path}: {exc}") from exc
 
-        return self._normalize_output(events, path, fmt, sample_rate, bridge_mode)
+        return self.normalize(events, path, fmt, sample_rate, bridge_mode)
 
     def is_available(self) -> bool:
         """Return True if the underlying bridge is importable."""
@@ -112,7 +112,7 @@ class LibvgmAdapter:
             )
         return path
 
-    def _normalize_output(
+    def normalize(
         self,
         events: list[Any],
         path: Path,

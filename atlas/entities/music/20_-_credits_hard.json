@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_credits_hard",
+    "track_name": "20 - Credits (Hard)",
+    "album": "Coryoon: Child of Dragon",
+    "composer": "Hisashi Matsushita",
+    "year": "1991-11-29",
+    "track_order": "20/23",
+    "chip_data": {
+        "fm_writes": 22,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

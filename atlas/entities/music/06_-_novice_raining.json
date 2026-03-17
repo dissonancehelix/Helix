@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_novice_raining",
+    "track_name": "06 - Novice Raining",
+    "album": "Kingdom Grandprix",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1994-09",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

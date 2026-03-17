@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_ground_bgm",
+    "track_name": "01 - Ground BGM",
+    "album": "Ghosts 'n Goblins",
+    "composer": "Ayako Mori",
+    "year": "1985-09-19",
+    "track_order": "1/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

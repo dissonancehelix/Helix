@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_area_4,_8",
+    "track_name": "07 - Area 4, 8",
+    "album": "P-47: The Phantom Fighter",
+    "composer": "Sizlla Okamura",
+    "year": "1988",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

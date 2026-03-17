@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_the_sly",
+    "track_name": "06 - THE SLY",
+    "album": "Top Hunter: Roddy & Cathy",
+    "composer": "Yoko Osaka",
+    "year": "1994-05-18",
+    "track_order": "6/28",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

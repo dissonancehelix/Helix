@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helix-research"
+version = "0.1.0"
+description = "Helix Interface Language (HIL) Research Platform"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "mutagen",
+    "pandas",
+    "numpy",
+    "beautifulsoup4",
+    "networkx",
+]
+
+[project.scripts]
+helix = "core.cli.helix_cli:main"

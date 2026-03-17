@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_music_of_the_wind",
+    "track_name": "05 - Music of the Wind",
+    "album": "Over Top",
+    "composer": "Keiichiro Segawa",
+    "year": "1996-05-24",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

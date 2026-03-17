@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_sakamoto's_theme",
+    "track_name": "10 - Sakamoto's Theme",
+    "album": "Master's Fury",
+    "composer": "Jeon Seuk Ki",
+    "year": "1996-02",
+    "track_order": "10/17",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

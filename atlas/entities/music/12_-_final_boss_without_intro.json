@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_final_boss_without_intro",
+    "track_name": "12 - Final Boss (Without Intro)",
+    "album": "Zanac EX",
+    "composer": "Masatomo Miyamoto",
+    "year": "1986",
+    "track_order": "12/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

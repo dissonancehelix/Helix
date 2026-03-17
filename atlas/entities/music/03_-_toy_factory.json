@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_toy_factory",
+    "track_name": "03 - Toy Factory",
+    "album": "Spirou",
+    "composer": "Alberto Jose Gonz",
+    "year": "1996",
+    "track_order": "3/12",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

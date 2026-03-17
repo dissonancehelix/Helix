@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_brain",
+    "track_name": "09 - Brain",
+    "album": "Desire: Haitoku no Rasen",
+    "composer": "Ryu Umemoto",
+    "year": "1994-11",
+    "track_order": "9/27",
+    "chip_data": {
+        "fm_writes": 14282,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_stages_2_n_5_part_1",
+    "track_name": "03 - Stages 2 & 5 (Part 1)",
+    "album": "Super Spy Hunter",
+    "composer": "Naoki Kodaka",
+    "year": "1991-09-27",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 90,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

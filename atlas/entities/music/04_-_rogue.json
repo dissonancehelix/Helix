@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_rogue",
+    "track_name": "04 - Rogue",
+    "album": "X-Men: Mind Games",
+    "composer": "Jesper Kyd",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1030915,
+        "complexity": 0.607
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "38_-_unused_3",
+    "track_name": "38 - Unused 3",
+    "album": "Emerald Dragon",
+    "composer": "Nobuhito Koise",
+    "year": "1989-12-12",
+    "track_order": "38/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_we_shall_die_together",
+    "track_name": "12 - We Shall Die Together",
+    "album": "Touhou Reiiden ~ Highly Responsive to Prayers",
+    "composer": "ZUN-",
+    "year": "1996",
+    "track_order": "12/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_game_demo,_1p_stage_bgm_1",
+    "track_name": "02 - Game Demo, 1P Stage BGM 1",
+    "album": "Gururin",
+    "composer": "Kenji Sugai",
+    "year": "1994-05-25",
+    "track_order": "2/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

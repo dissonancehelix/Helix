@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_galactic_dancing_march",
+    "track_name": "03 - Galactic Dancing (March)",
+    "album": "Galaga '88",
+    "composer": "Hiroyuki Kawada",
+    "year": "1987-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

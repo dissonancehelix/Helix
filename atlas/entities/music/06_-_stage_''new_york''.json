@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_stage_''new_york''",
+    "track_name": "06 - Stage ''New York''",
+    "album": "Ring of Destruction: Slam Masters II",
+    "composer": "Toshio Kajino",
+    "year": "1994-09",
+    "track_order": "6/32",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

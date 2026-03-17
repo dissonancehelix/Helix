@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_intension",
+    "track_name": "12 - Intension",
+    "album": "Ristar",
+    "composer": "Tomoko Sasaki",
+    "year": "1995-16-02",
+    "track_order": "12/22",
+    "chip_data": {
+        "fm_writes": 26623,
+        "complexity": 0.5
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_rescued_clara",
+    "track_name": "28 - Rescued Clara",
+    "album": "The Lone Ranger",
+    "composer": "Yoshinori Sasaki",
+    "year": "1991-08",
+    "track_order": "28/32",
+    "chip_data": {
+        "fm_writes": 31,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

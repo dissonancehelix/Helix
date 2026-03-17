@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_[fairly_land_story]_boss",
+    "track_name": "06 - [Fairly Land Story] Boss",
+    "album": "Rainbow Islands",
+    "composer": "Shizuo Aizawa",
+    "year": "1987",
+    "track_order": "6/14",
+    "chip_data": {
+        "fm_writes": 34,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

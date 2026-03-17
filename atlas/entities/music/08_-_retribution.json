@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_retribution",
+    "track_name": "08 - Retribution",
+    "album": "Gauntlet IV",
+    "composer": "Hitoshi Sakimoto",
+    "year": "1993/03/18",
+    "track_order": "8/11",
+    "chip_data": {
+        "fm_writes": 26675,
+        "complexity": 0.686
+    },
+    "_type": "music:track"
+}

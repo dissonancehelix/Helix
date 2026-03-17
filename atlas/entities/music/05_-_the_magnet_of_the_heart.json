@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_the_magnet_of_the_heart",
+    "track_name": "05 - The Magnet of The Heart",
+    "album": "Ultima: Exodus",
+    "composer": "Tsugutoshi Goto",
+    "year": "1987-10-09",
+    "track_order": "5/11",
+    "chip_data": {
+        "fm_writes": 21,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_kindan_no_ai",
+    "track_name": "07 - Kindan no ai",
+    "album": "Yumimi Mix)",
+    "composer": "Ari Kamijo",
+    "year": "1993/01/29",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 24546,
+        "complexity": 0.533
+    },
+    "_type": "music:track"
+}

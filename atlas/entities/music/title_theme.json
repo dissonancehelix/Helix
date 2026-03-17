@@ -1,0 +1,13 @@
+{
+    "entity_id": "title_theme",
+    "track_name": "Title Theme",
+    "album": "Missile: Ground Zero",
+    "composer": "Tim Follin",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 18,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

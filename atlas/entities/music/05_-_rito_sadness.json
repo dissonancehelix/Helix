@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_rito_sadness",
+    "track_name": "05 - Rito (Sadness)",
+    "album": "Ano, Subarashii o Mou Ichido",
+    "composer": "Hiroyuki Mizuno",
+    "year": "1999-09-15",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

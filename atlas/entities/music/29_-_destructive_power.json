@@ -1,0 +1,13 @@
+{
+    "entity_id": "29_-_destructive_power",
+    "track_name": "29 - Destructive Power",
+    "album": "Knuckles' Chaotix",
+    "composer": "Mariko Nanba",
+    "year": "1995-04-21",
+    "track_order": "29/30",
+    "chip_data": {
+        "fm_writes": 262,
+        "complexity": 0.375
+    },
+    "_type": "music:track"
+}

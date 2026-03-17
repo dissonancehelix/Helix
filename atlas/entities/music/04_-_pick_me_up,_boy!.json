@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_pick_me_up,_boy!",
+    "track_name": "04 - Pick Me Up, Boy!",
+    "album": "Battle Mania Daiginjou",
+    "composer": "Shigenori Masuko",
+    "year": "1993/12/24",
+    "track_order": "4/27",
+    "chip_data": {
+        "fm_writes": 12686,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_an_album_with_a_single_page",
+    "track_name": "28 - An Album with a Single Page",
+    "album": "Tokimeki Memorial Taisen Puzzle-Dama",
+    "composer": "Kazuhiro Senoo",
+    "year": "1995-12",
+    "track_order": "28/35",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

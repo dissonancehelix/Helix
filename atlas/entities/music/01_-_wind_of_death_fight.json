@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_wind_of_death_fight",
+    "track_name": "01 - Wind of Death Fight",
+    "album": "SNK vs. Capcom: SVC Chaos",
+    "composer": "Yasuo Yamate",
+    "year": "2003",
+    "track_order": "1/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

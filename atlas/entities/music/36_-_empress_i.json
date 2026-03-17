@@ -1,0 +1,13 @@
+{
+    "entity_id": "36_-_empress_i",
+    "track_name": "36 - Empress I",
+    "album": "EVE Burst Error",
+    "composer": "Ryu Umemoto",
+    "year": "1995-11-22",
+    "track_order": "36/45",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

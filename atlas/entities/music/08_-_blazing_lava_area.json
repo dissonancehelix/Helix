@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_blazing_lava_area",
+    "track_name": "08 - Blazing Lava Area",
+    "album": "Psycho Soldier",
+    "composer": "Kazuhiro Nishida",
+    "year": "1987-03",
+    "track_order": "8/11",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

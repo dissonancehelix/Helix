@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_dementia",
+    "track_name": "04 - Dementia",
+    "album": "Virtual Pinball",
+    "composer": "Mark Miller",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 111250,
+        "complexity": 0.183
+    },
+    "_type": "music:track"
+}

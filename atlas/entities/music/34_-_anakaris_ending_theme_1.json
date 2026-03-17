@@ -1,0 +1,13 @@
+{
+    "entity_id": "34_-_anakaris_ending_theme_1",
+    "track_name": "34 - Anakaris Ending Theme 1",
+    "album": "Vampire Savior: The Lord of Vampire",
+    "composer": "Masato Kouda#",
+    "year": "1997",
+    "track_order": "34/40",
+    "chip_data": {
+        "fm_writes": 30,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

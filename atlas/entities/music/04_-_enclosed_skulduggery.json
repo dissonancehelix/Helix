@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_enclosed_skulduggery",
+    "track_name": "04 - Enclosed Skulduggery",
+    "album": "James Pond 3: Operation Starfish",
+    "composer": "Richard Joseph ",
+    "year": "1993/09",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 14961,
+        "complexity": 0.526
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_puzz-rock_~double_edge~",
+    "track_name": "04 - Puzz-Rock ~Double Edge~",
+    "album": "Crazy Cross",
+    "composer": "Mayuko Kageshita",
+    "year": "1994-07",
+    "track_order": "4/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

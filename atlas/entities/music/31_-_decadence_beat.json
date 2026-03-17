@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_decadence_beat",
+    "track_name": "31 - Decadence Beat",
+    "album": "SD Snatcher",
+    "composer": "Masahiro Ikariko",
+    "year": "1990",
+    "track_order": "31/53",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

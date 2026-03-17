@@ -1,0 +1,13 @@
+{
+    "entity_id": "44_-_race_queen_motion",
+    "track_name": "44 - Race Queen Motion",
+    "album": "Dancing Eyes",
+    "composer": "Minamo Takahashi",
+    "year": "1996-09",
+    "track_order": "44/55",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

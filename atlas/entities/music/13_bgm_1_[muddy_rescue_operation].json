@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_bgm_1_[muddy_rescue_operation]",
+    "track_name": "13 BGM 1 [Muddy Rescue Operation]",
+    "album": "Album artist",
+    "composer": "Keishi Yonao",
+    "year": "1993-06-19",
+    "track_order": "12/15",
+    "chip_data": {
+        "fm_writes": 14186,
+        "complexity": 0.617
+    },
+    "_type": "music:track"
+}

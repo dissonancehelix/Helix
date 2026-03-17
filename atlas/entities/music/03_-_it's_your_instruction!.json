@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_it's_your_instruction!",
+    "track_name": "03 - It's Your Instruction!",
+    "album": "Puyo Puyo Tsuu",
+    "composer": "Tsuyoshi Matsushima",
+    "year": "1994-09",
+    "track_order": "3/11",
+    "chip_data": {
+        "fm_writes": 84451,
+        "complexity": 0.645
+    },
+    "_type": "music:track"
+}

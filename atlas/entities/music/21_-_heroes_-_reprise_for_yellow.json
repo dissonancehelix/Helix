@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_heroes_-_reprise_for_yellow",
+    "track_name": "21 - Heroes - Reprise for Yellow",
+    "album": "Gunstar Heroes",
+    "composer": "Norio Hanzawa",
+    "year": "1993",
+    "track_order": "21/22",
+    "chip_data": {
+        "fm_writes": 54502,
+        "complexity": 0.857
+    },
+    "_type": "music:track"
+}

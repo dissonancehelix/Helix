@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_throne_room",
+    "track_name": "26 - Throne Room",
+    "album": "Dragon Slayer: The Legend of Heroes II",
+    "composer": "Mieko Ishikawa&",
+    "year": "1992",
+    "track_order": "26/29",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

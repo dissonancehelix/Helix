@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_wacky_world",
+    "track_name": "07 - Wacky World",
+    "album": "The Lost Vikings",
+    "composer": "Matt Furniss",
+    "year": "1993/05/04",
+    "track_order": "7/10",
+    "chip_data": {
+        "fm_writes": 663729,
+        "complexity": 0.261
+    },
+    "_type": "music:track"
+}

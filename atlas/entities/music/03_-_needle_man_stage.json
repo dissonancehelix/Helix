@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_needle_man_stage",
+    "track_name": "03 - Needle Man Stage",
+    "album": "Mega Man 3",
+    "composer": "Harumi Fujita",
+    "year": "1990-09-28",
+    "track_order": "3/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

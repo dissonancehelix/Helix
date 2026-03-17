@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_zuckuss",
+    "track_name": "10 - Zuckuss",
+    "album": "Barbatus no Majo",
+    "composer": "Chiaki Ito",
+    "year": "1990-03-09",
+    "track_order": "10/17",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

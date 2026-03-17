@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_lord_contaminous",
+    "track_name": "11 - Lord Contaminous",
+    "album": "Zen: Intergalactic Ninja",
+    "composer": "Junichiro Kaneda",
+    "year": "1993-03-07",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

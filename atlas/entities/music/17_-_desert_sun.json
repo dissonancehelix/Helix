@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_desert_sun",
+    "track_name": "17 - Desert Sun",
+    "album": "Pier Solar and the Great Architects",
+    "composer": "Zable Fahr#",
+    "year": "2007",
+    "track_order": "17/55",
+    "chip_data": {
+        "fm_writes": 1657,
+        "complexity": 0.1
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_bgm_2_boss_theme_[fight!]_no_intro",
+    "track_name": "05 - BGM 2 (Boss Theme) [Fight!] (No Intro)",
+    "album": "The Legend of Kage",
+    "composer": "Hisayoshi Ogura",
+    "year": "1985-10",
+    "track_order": "5/6&",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

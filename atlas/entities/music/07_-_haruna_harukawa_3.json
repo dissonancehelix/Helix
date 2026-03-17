@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_haruna_harukawa_3",
+    "track_name": "07 - Haruna Harukawa 3",
+    "album": "Sora no Fudousan",
+    "composer": "Hiroyuki Mizuno",
+    "year": "2004-04-28",
+    "track_order": "7/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

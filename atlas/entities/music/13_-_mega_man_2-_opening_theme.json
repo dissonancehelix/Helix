@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_mega_man_2-_opening_theme",
+    "track_name": "13 - Mega Man 2- Opening Theme",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "13/55",
+    "chip_data": {
+        "fm_writes": 27207,
+        "complexity": 0.936
+    },
+    "_type": "music:track"
+}

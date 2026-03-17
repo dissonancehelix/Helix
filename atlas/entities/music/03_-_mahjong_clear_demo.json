@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_mahjong_clear_demo",
+    "track_name": "03 - Mahjong Clear Demo",
+    "album": "Shikinjoh",
+    "composer": "Yoshikatsu Sakai",
+    "year": "1990-07-14",
+    "track_order": "3/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_red_city",
+    "track_name": "03 - Red City",
+    "album": "Air Inferno",
+    "composer": "Shizuo Aizawa",
+    "year": "1990-06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

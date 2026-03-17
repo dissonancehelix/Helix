@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_fire_n_ice_attract_demo_bgm",
+    "track_name": "01 - Fire & Ice (Attract Demo BGM)",
+    "album": "Psychic Force",
+    "composer": "Hideki Takahagi",
+    "year": "1995",
+    "track_order": "1/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

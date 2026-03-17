@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_sudden_death_p.k.",
+    "track_name": "01 - Sudden Death P.K.",
+    "album": "Tecmo World Soccer '96",
+    "composer": "Shigekiyo Okuda",
+    "year": "1996",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

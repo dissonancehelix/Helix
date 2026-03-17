@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_like_a_hurricane",
+    "track_name": "03 - Like a Hurricane",
+    "album": "Crude Buster",
+    "composer": "Azusa Hara",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

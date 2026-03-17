@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_5_black_vol_5",
+    "track_name": "08 - 5 Black Vol 5",
+    "album": "Rolling Thunder 3",
+    "composer": "Rose & Dick Boy!!!",
+    "year": "1993/05/19",
+    "track_order": "8/21",
+    "chip_data": {
+        "fm_writes": 436446,
+        "complexity": 0.577
+    },
+    "_type": "music:track"
+}

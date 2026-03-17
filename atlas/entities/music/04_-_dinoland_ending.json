@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_dinoland_ending",
+    "track_name": "04 - Dinoland Ending",
+    "album": "Dino Land",
+    "composer": "Ichiro Hada",
+    "year": "1991/08/02",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 121505,
+        "complexity": 0.362
+    },
+    "_type": "music:track"
+}

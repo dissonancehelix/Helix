@@ -1,0 +1,13 @@
+{
+    "entity_id": "40_-_omake_6",
+    "track_name": "40 - Omake 6",
+    "album": "Thunder Force IV",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1992/07/24",
+    "track_order": "40/44",
+    "chip_data": {
+        "fm_writes": 30093,
+        "complexity": 0.859
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_scene_2-1",
+    "track_name": "08 - Scene 2-1",
+    "album": "Operation Wolf 3",
+    "composer": "Hiroshi Tuda",
+    "year": "1994",
+    "track_order": "8/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

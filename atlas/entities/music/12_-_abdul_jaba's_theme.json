@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_abdul_jaba's_theme",
+    "track_name": "12 - Abdul Jaba's Theme",
+    "album": "Master's Fury",
+    "composer": "Jeon Seuk Ki",
+    "year": "1996-02",
+    "track_order": "12/17",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_meeting_with_friendly_aircraft_demo_1",
+    "track_name": "02 - Meeting with Friendly Aircraft (Demo 1)",
+    "album": "Task Force Harrier",
+    "composer": "Kazunori Hideya",
+    "year": "1989-08",
+    "track_order": "2/11'",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

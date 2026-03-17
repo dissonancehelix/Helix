@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_black_angels",
+    "track_name": "05 - Black Angels",
+    "album": "Dengeki Nurse",
+    "composer": "Naoki Kanamori",
+    "year": "1992-12",
+    "track_order": "5/13",
+    "chip_data": {
+        "fm_writes": 13233,
+        "complexity": 0.04
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_scraps_fight",
+    "track_name": "02 - Scraps Fight",
+    "album": "Vigilante",
+    "composer": "Masato Ishizaki",
+    "year": "1988-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 58,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

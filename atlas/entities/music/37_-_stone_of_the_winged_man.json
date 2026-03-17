@@ -1,0 +1,13 @@
+{
+    "entity_id": "37_-_stone_of_the_winged_man",
+    "track_name": "37 - Stone of the Winged Man",
+    "album": "Gaiapolis",
+    "composer": "Satoko Miyawaki",
+    "year": "1993-04",
+    "track_order": "37/37",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

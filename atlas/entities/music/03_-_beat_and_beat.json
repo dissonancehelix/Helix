@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_beat_and_beat",
+    "track_name": "03 - Beat and Beat",
+    "album": "Last Mission",
+    "composer": "Yukihiko Kitahara",
+    "year": "1986",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

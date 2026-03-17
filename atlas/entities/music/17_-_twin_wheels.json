@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_twin_wheels",
+    "track_name": "17 - Twin Wheels",
+    "album": "Nightmare Circus",
+    "composer": "Kurt Harland",
+    "year": "1995",
+    "track_order": "17/18",
+    "chip_data": {
+        "fm_writes": 66791,
+        "complexity": 0.348
+    },
+    "_type": "music:track"
+}

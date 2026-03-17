@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_staff_roll_snk",
+    "track_name": "30 - Staff Roll (S&K)",
+    "album": "Sonic 3 & Knuckles",
+    "composer": "Masaru Setsumaru",
+    "year": "1994",
+    "track_order": "30/58",
+    "chip_data": {
+        "fm_writes": 52785,
+        "complexity": 0.43000000000000005
+    },
+    "_type": "music:track"
+}

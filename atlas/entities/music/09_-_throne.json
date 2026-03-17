@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_throne",
+    "track_name": "09 - Throne",
+    "album": "The Immortal",
+    "composer": "Michael Bartlow",
+    "year": "1991/07/11",
+    "track_order": "9/18",
+    "chip_data": {
+        "fm_writes": 42358,
+        "complexity": 0.57
+    },
+    "_type": "music:track"
+}

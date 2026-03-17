@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_gyasyalba",
+    "track_name": "07 - Gyasyalba",
+    "album": "Super Real Darwin",
+    "composer": "Hiroaki Yoshida",
+    "year": "1987-10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 20,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

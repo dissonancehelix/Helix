@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_greedy_game",
+    "track_name": "20 - Greedy Game",
+    "album": "Ristar",
+    "composer": "Tomoko Sasaki",
+    "year": "1995-16-02",
+    "track_order": "20/22",
+    "chip_data": {
+        "fm_writes": 16714,
+        "complexity": 0.583
+    },
+    "_type": "music:track"
+}

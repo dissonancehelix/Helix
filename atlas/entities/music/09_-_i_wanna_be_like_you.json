@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_i_wanna_be_like_you",
+    "track_name": "09 - I Wanna Be Like You",
+    "album": "The Jungle Book",
+    "composer": "Donald Griffin",
+    "year": "1994",
+    "track_order": "9/13",
+    "chip_data": {
+        "fm_writes": 79100,
+        "complexity": 0.39299999999999996
+    },
+    "_type": "music:track"
+}

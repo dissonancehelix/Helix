@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_lee's_theme",
+    "track_name": "10 - Lee's Theme",
+    "album": "Karnov's Revenge",
+    "composer": "Mihoko Ando",
+    "year": "1994-03-17",
+    "track_order": "10/32",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

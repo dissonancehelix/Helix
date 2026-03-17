@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_theme_of_motos_arrange_version",
+    "track_name": "04 - Theme of Motos (Arrange Version)",
+    "album": "Motos",
+    "composer": "Norio Nakagata",
+    "year": "1989-11-24",
+    "track_order": "4/16 ",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "34_-_r._or_l.",
+    "track_name": "34 - R. or L.",
+    "album": "Grounseed",
+    "composer": "Ryu Takami",
+    "year": "1996-06-07",
+    "track_order": "34/76",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

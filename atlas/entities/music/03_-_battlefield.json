@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_battlefield",
+    "track_name": "03 - Battlefield",
+    "album": "Ninja Gaiden II",
+    "composer": "Keiji Yamagishi",
+    "year": "1990-04-06",
+    "track_order": "3/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

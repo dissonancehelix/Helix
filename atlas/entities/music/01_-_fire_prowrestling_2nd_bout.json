@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_fire_prowrestling_2nd_bout",
+    "track_name": "01 - Fire Prowrestling 2nd Bout",
+    "album": "Fire Pro Wrestling: 2nd Bout",
+    "composer": "Hironori Tanaka",
+    "year": "1991-08-30",
+    "track_order": "1/11",
+    "chip_data": {
+        "fm_writes": 29,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_the_warrior_and_the_official",
+    "track_name": "18 - The Warrior and the Official",
+    "album": "Gigandes",
+    "composer": "Takaro Nozaki",
+    "year": "1989",
+    "track_order": "18/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_barrel_girl_stage",
+    "track_name": "18 - Barrel Girl Stage",
+    "album": "Dancing Eyes",
+    "composer": "Yoshie Arakawa",
+    "year": "1996-09",
+    "track_order": "18/55",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

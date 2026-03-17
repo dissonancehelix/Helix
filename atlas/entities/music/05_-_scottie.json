@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_scottie",
+    "track_name": "05 - Scottie",
+    "album": "Slam City with Scottie Pippen",
+    "composer": "John Baker",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 68747,
+        "complexity": 0.734
+    },
+    "_type": "music:track"
+}

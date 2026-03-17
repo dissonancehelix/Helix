@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_options_menu_~_bonus_level_~_results",
+    "track_name": "02 - Options Menu ~ Bonus Level ~ Results",
+    "album": "Lucky Luke",
+    "composer": "Alberto Jose Gonz",
+    "year": "1996",
+    "track_order": "2/15$",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_quest_-_magic_board",
+    "track_name": "16 - Quest - Magic Board",
+    "album": "Final Lap Twin",
+    "composer": "Katsuhiro Hayashi",
+    "year": "1989-07-07",
+    "track_order": "16/18",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

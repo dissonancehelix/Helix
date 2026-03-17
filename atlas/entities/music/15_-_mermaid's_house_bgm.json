@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_mermaid's_house_bgm",
+    "track_name": "15 - Mermaid's House BGM",
+    "album": "Shalom",
+    "composer": "Konami Kukeiha Club",
+    "year": "1987",
+    "track_order": "15/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

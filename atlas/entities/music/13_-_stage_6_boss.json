@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_stage_6_boss",
+    "track_name": "13 - Stage 6 Boss",
+    "album": "D-Return",
+    "composer": "Norihiro Akasaka",
+    "year": "1989-03",
+    "track_order": "13/32",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

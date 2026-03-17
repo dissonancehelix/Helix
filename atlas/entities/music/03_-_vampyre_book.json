@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_vampyre_book",
+    "track_name": "03 - Vampyre Book",
+    "album": "Bram Stoker's Dracula",
+    "composer": "Matt Furniss",
+    "year": "1993",
+    "track_order": "3/24",
+    "chip_data": {
+        "fm_writes": 4353,
+        "complexity": 0.206
+    },
+    "_type": "music:track"
+}

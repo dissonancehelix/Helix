@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_inside_miyama_corporation_building",
+    "track_name": "09 - Inside Miyama Corporation Building",
+    "album": "Three Sisters' Story",
+    "composer": "Naofumi Nakaigawa",
+    "year": "1996-02-29",
+    "track_order": "9/20\"",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

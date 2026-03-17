@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_round_1",
+    "track_name": "04 - Round 1",
+    "album": "Mystic Defender",
+    "composer": "Chikako Kamatani",
+    "year": "1988",
+    "track_order": "4/11",
+    "chip_data": {
+        "fm_writes": 89219,
+        "complexity": 0.32699999999999996
+    },
+    "_type": "music:track"
+}

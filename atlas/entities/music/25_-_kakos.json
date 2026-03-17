@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_kakos",
+    "track_name": "25 - Kakos",
+    "album": "The Legend of Xanadu",
+    "composer": "Naoki Kaneda",
+    "year": "1994",
+    "track_order": "25/84",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

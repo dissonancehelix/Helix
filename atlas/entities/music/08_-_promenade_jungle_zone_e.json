@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_promenade_jungle_zone_e",
+    "track_name": "08 - Promenade Jungle (Zone E)",
+    "album": "Cosmic Cop",
+    "composer": "Takushi Hiyamuta",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 494,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

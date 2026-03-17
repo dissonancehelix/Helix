@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_sea_side_go_go",
+    "track_name": "08 - Sea Side Go Go",
+    "album": "Farland Story: Shirogane no Tsubasa",
+    "composer": "Masataka Kitaura#",
+    "year": "1994-11-11",
+    "track_order": "8/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

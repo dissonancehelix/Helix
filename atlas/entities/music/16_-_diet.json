@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_diet",
+    "track_name": "16 - Diet",
+    "album": "King of Fighters R-2",
+    "composer": "Takushi Hiyamuta",
+    "year": "1999",
+    "track_order": "16/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

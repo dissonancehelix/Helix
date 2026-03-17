@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_area_4",
+    "track_name": "05 - Area 4",
+    "album": "Blaster Master: Enemy Below",
+    "composer": "Naoki Kodaka",
+    "year": "2000-02-24",
+    "track_order": "5/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

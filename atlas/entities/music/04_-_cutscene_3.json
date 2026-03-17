@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_cutscene_3",
+    "track_name": "04 - Cutscene 3",
+    "album": "Monster Pro Wrestling",
+    "composer": "Kanta Watanabe",
+    "year": "1991-11-22",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

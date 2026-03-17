@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_funpark_act_4",
+    "track_name": "12 - Funpark Act 4",
+    "album": "Aero the Acro-Bat",
+    "composer": "Rick Fox",
+    "year": "1993",
+    "track_order": "12/23",
+    "chip_data": {
+        "fm_writes": 57249,
+        "complexity": 0.428
+    },
+    "_type": "music:track"
+}

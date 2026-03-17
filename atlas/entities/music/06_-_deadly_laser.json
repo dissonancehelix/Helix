@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_deadly_laser",
+    "track_name": "06 - Deadly Laser",
+    "album": "Lightning Fighters",
+    "composer": "Michiru Yamane",
+    "year": "1990",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 60,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

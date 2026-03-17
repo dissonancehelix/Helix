@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_mega_man_3-_title_theme",
+    "track_name": "28 - Mega Man 3- Title Theme",
+    "album": "Mega Man: The Wily Wars",
+    "composer": "Kinuyo Yamashita",
+    "year": "1994",
+    "track_order": "28/55",
+    "chip_data": {
+        "fm_writes": 31554,
+        "complexity": 0.891
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "35_-_cast_ending",
+    "track_name": "35 - Cast Ending",
+    "album": "Cyberbots",
+    "composer": "Akari Kaida",
+    "year": "1995-04",
+    "track_order": "35/35",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

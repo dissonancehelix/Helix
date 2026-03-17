@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_border_region",
+    "track_name": "03 - Border Region",
+    "album": "Verytex",
+    "composer": "Masaharu Iwata",
+    "year": "1991",
+    "track_order": "3/10",
+    "chip_data": {
+        "fm_writes": 186402,
+        "complexity": 0.672
+    },
+    "_type": "music:track"
+}

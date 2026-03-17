@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_king_koopa",
+    "track_name": "14 - King Koopa",
+    "album": "Super Mario Bros. 3",
+    "composer": "Koji Kondo",
+    "year": "1988-10-23",
+    "track_order": "14/15",
+    "chip_data": {
+        "fm_writes": 26,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

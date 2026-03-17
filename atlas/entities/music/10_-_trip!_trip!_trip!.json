@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_trip!_trip!_trip!",
+    "track_name": "10 - Trip! Trip! Trip!",
+    "album": "Galaxy Fight: Universal Warriors",
+    "composer": "Masayuki Iwata ",
+    "year": "1995-01-24",
+    "track_order": "10/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

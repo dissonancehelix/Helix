@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_drastic_advance",
+    "track_name": "31 - Drastic Advance",
+    "album": "Marginal Points",
+    "composer": "Kyohei Noma",
+    "year": "1995-04-29",
+    "track_order": "31/33",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

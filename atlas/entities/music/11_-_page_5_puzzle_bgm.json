@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_page_5_puzzle_bgm",
+    "track_name": "11 - Page 5 Puzzle BGM",
+    "album": "Pepe's Puzzles",
+    "composer": "Seiji Momoi",
+    "year": "1994",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

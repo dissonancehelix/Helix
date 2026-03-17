@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_seaside_carnival",
+    "track_name": "05 - Seaside Carnival",
+    "album": "Birdie Try",
+    "composer": "Gamadelic",
+    "year": "1988-06",
+    "track_order": "5/11",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

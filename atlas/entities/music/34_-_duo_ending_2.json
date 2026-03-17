@@ -1,0 +1,13 @@
+{
+    "entity_id": "34_-_duo_ending_2",
+    "track_name": "34 - Duo Ending 2",
+    "album": "Mega Man 2: The Power Fighters",
+    "composer": "Masato Kouda",
+    "year": "1996",
+    "track_order": "34/34",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

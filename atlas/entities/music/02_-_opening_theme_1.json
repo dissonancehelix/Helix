@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_opening_theme_1",
+    "track_name": "02 - Opening Theme 1",
+    "album": "Nekketsu Koukou Dodgeball Bu: Soccer Hen MD",
+    "composer": "Kazuo Sawa+",
+    "year": "1992/08/07",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 4950,
+        "complexity": 0.7330000000000001
+    },
+    "_type": "music:track"
+}

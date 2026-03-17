@@ -69,34 +69,81 @@ def extract_from_file(
     try:
         result: dict[str, Any] = {}
 
-        # MFCC-13
-        mfcc = _librosa.feature.mfcc(y=y, sr=loaded_sr, n_mfcc=n_mfcc)
-        result["mfcc"] = [float(v) for v in mfcc.mean(axis=1)]
+        # 1. Melodic Features (approximated from chroma/pitch tracking)
+        pitches, magnitudes = _librosa.piptrack(y=y, sr=loaded_sr)
+        pitch_contour = []
+        for t in range(magnitudes.shape[1]):
+            index = magnitudes[:, t].argmax()
+            pitch = pitches[index, t] if magnitudes[index, t] > 0 else 0
+            if pitch > 0:
+                pitch_contour.append(float(_librosa.hz_to_midi(pitch)))
+        
+        intervals = _np.diff(pitch_contour).tolist() if len(pitch_contour) > 1 else []
+        interval_dist = {str(k): int(v) for k, v in zip(*_np.unique(intervals, return_counts=True))} if intervals else {}
+        melodic_range = float(max(pitch_contour) - min(pitch_contour)) if pitch_contour else 0.0
+        
+        counts = _np.array(list(interval_dist.values()))
+        probs = counts / counts.sum() if counts.sum() > 0 else _np.array([0])
+        melodic_entropy = float(-_np.sum(probs * _np.log2(probs + 1e-9)))
 
-        # Chroma-12
-        chroma = _librosa.feature.chroma_stft(y=y, sr=loaded_sr)
-        result["chroma"] = [float(v) for v in chroma.mean(axis=1)]
+        result["melodic"] = {
+            "interval_distribution": interval_dist,
+            "pitch_contour": pitch_contour[::max(1, len(pitch_contour)//100)], # downsampled
+            "melodic_range": melodic_range,
+            "melodic_entropy": melodic_entropy
+        }
 
-        # Spectral features
+        # 2. Spectral Features
         spec_centroid = _librosa.feature.spectral_centroid(y=y, sr=loaded_sr)
-        spec_rolloff  = _librosa.feature.spectral_rolloff(y=y, sr=loaded_sr)
-        zcr           = _librosa.feature.zero_crossing_rate(y)
-        spec_flux     = _np.mean(_np.diff(_np.abs(_librosa.stft(y)), axis=1) ** 2)
+        spec_bandwidth = _librosa.feature.spectral_bandwidth(y=y, sr=loaded_sr)
         spec_flatness = _librosa.feature.spectral_flatness(y=y)
 
-        result["spectral_centroid"] = float(spec_centroid.mean())
-        result["spectral_rolloff"]  = float(spec_rolloff.mean())
-        result["zcr"]               = float(zcr.mean())
-        result["spectral_flux"]     = float(spec_flux)
-        result["spectral_flatness"] = float(spec_flatness.mean())
+        result["spectral"] = {
+            "spectral_centroid": float(spec_centroid.mean()),
+            "spectral_bandwidth": float(spec_bandwidth.mean()),
+            "spectral_flatness": float(spec_flatness.mean())
+        }
 
-        # Tempo and beat
-        tempo, beats = _librosa.beat.beat_track(y=y, sr=loaded_sr)
+        # 3. Dynamic Features
+        rms = _librosa.feature.rms(y=y)
+        dynamic_range = float(rms.max() - rms.min())
         onset_env = _librosa.onset.onset_strength(y=y, sr=loaded_sr)
-        beat_strength = float(onset_env[beats].mean()) if len(beats) else 0.0
 
-        result["tempo"]        = float(tempo)
-        result["beat_strength"] = beat_strength
+        result["dynamic"] = {
+            "rms_loudness": float(rms.mean()),
+            "dynamic_range": dynamic_range,
+            "attack_envelope": [float(x) for x in onset_env[::max(1, len(onset_env)//100)]]
+        }
+
+        # 4. Rhythmic Features
+        tempo, beats = _librosa.beat.beat_track(y=y, sr=loaded_sr)
+        beat_times = _librosa.frames_to_time(beats, sr=loaded_sr)
+        duration = _librosa.get_duration(y=y, sr=loaded_sr)
+        rhythmic_density = len(beats) / duration if duration > 0 else 0
+        syncopation_index = float(_np.var(_np.diff(beat_times))) if len(beat_times) > 1 else 0.0
+        
+        result["rhythmic"] = {
+            "tempo_histogram": [float(tempo)],
+            "beat_histogram": [float(b) for b in beat_times[:50]], 
+            "rhythmic_density": rhythmic_density,
+            "syncopation_index": syncopation_index
+        }
+
+        # 5. Harmonic Features
+        chroma = _librosa.feature.chroma_cqt(y=y, sr=loaded_sr)
+        key_dist = [float(v) for v in chroma.mean(axis=1)]
+        tonal_tension = _librosa.feature.tonnetz(y=y, sr=loaded_sr)
+
+        result["harmonic"] = {
+            "key_distribution": key_dist,
+            "chord_distribution": key_dist, # Simplified proxy
+            "modulation_frequency": float(_np.var(key_dist)),
+            "tonal_tension_curve": [float(v) for v in tonal_tension[0][::max(1, len(tonal_tension[0])//100)]]
+        }
+
+        # 6. Motif & 7. Structural (Placeholder for integration logic in motif_discovery)
+        result["motif_features"] = {}
+        result["structural_features"] = {"phrase_length_distribution": [], "section_segmentation": [], "repetition_patterns": []}
 
         return result
 

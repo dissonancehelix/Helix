@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_genetics_lab_parts_i_n_ii",
+    "track_name": "09 - Genetics Lab (Parts I & II)",
+    "album": "The Ooze",
+    "composer": "Howard Drossin",
+    "year": "1995/05/06",
+    "track_order": "9/16",
+    "chip_data": {
+        "fm_writes": 287451,
+        "complexity": 0.214
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_solo_4",
+    "track_name": "04 - Solo 4",
+    "album": "Oh My God!",
+    "composer": "Hiroyuki Yanada",
+    "year": "1993-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

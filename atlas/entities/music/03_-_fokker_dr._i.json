@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_fokker_dr._i",
+    "track_name": "03 - Fokker Dr. I",
+    "album": "Wing War",
+    "composer": "Tomoyuki Kawamura",
+    "year": "1994",
+    "track_order": "3/16",
+    "chip_data": {
+        "fm_writes": 68,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

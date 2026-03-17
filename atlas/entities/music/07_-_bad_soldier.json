@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_bad_soldier",
+    "track_name": "07 - Bad Soldier",
+    "album": "Teenage Mutant Ninja Turtles III: The Manhattan Project",
+    "composer": "Yuichi Sakakura",
+    "year": "1992-02",
+    "track_order": "7/18",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_temple",
+    "track_name": "16 - Temple",
+    "album": "Taikou Risshiden",
+    "composer": "Michiru Oshima",
+    "year": "1993",
+    "track_order": "16/25",
+    "chip_data": {
+        "fm_writes": 4080,
+        "complexity": 0.806
+    },
+    "_type": "music:track"
+}

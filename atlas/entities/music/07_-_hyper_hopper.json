@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_hyper_hopper",
+    "track_name": "07 - Hyper Hopper",
+    "album": "Strike Fighter",
+    "composer": "Takenobu Mitsuyoshi",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_fighter_blood",
+    "track_name": "05 - Fighter Blood",
+    "album": "Nemesis 3: The Eve of Destruction",
+    "composer": "Kazuhiko Uehara",
+    "year": "1988",
+    "track_order": "5/22",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

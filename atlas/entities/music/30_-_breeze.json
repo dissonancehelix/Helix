@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_breeze",
+    "track_name": "30 - Breeze",
+    "album": "Street Fighter Alpha 3",
+    "composer": "Yuki Iwai",
+    "year": "1998-07",
+    "track_order": "30/39",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

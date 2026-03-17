@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_jef_united",
+    "track_name": "07 - JEF United",
+    "album": "Formation Soccer on J.League",
+    "composer": "Yukie Sugawara",
+    "year": "1994-01-15",
+    "track_order": "7/25",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

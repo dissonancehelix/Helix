@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_who'll_be_your_double",
+    "track_name": "02 - Who'll Be Your Double",
+    "album": "Street Fighter Alpha 3",
+    "composer": "Takayuki Iwai",
+    "year": "1998-07",
+    "track_order": "2/39",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

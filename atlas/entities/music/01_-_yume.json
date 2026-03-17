@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_yume",
+    "track_name": "01 - Yume",
+    "album": "Risa's Fairy Tale",
+    "composer": "Shinya Sakamoto",
+    "year": "1988-06-21",
+    "track_order": "1/21",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

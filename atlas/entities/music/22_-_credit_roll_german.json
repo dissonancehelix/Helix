@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_credit_roll_german",
+    "track_name": "22 - Credit Roll (German)",
+    "album": "Dune: The Battle for Arrakis",
+    "composer": "Paul Mudra",
+    "year": "1994/04",
+    "track_order": "22/22",
+    "chip_data": {
+        "fm_writes": 308023,
+        "complexity": 0.9009999999999999
+    },
+    "_type": "music:track"
+}

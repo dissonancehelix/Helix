@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_fairy_village",
+    "track_name": "08 - Fairy Village",
+    "album": "Knights of Xentar",
+    "composer": "Bananapple",
+    "year": "1994-05-12",
+    "track_order": "8/38",
+    "chip_data": {
+        "fm_writes": 178,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

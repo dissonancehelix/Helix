@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_egypt",
+    "track_name": "05 - Egypt",
+    "album": "The Lost Vikings",
+    "composer": "Matt Furniss",
+    "year": "1993/05/04",
+    "track_order": "5/10",
+    "chip_data": {
+        "fm_writes": 384321,
+        "complexity": 0.039
+    },
+    "_type": "music:track"
+}

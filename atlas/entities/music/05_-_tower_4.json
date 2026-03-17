@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_tower_4",
+    "track_name": "05 - Tower 4",
+    "album": "Spanky's Quest",
+    "composer": "Hiroyuki Iwatsuki",
+    "year": "1991-04-26",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

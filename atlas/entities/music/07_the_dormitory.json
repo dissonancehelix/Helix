@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_the_dormitory",
+    "track_name": "07 The Dormitory",
+    "album": "Mario Tennis GB",
+    "composer": "Motoi Sakuraba",
+    "year": "2000-11-01",
+    "track_order": "4/37",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

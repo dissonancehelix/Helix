@@ -1,0 +1,13 @@
+{
+    "entity_id": "29_-_setting_sail",
+    "track_name": "29 - Setting Sail",
+    "album": "Xak II: Rising of the Redmoon",
+    "composer": "Tadahiro Nitta",
+    "year": "1990",
+    "track_order": "29/42",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

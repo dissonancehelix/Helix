@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_wasteland_-_the_pit_ii_-_kahn's_arena",
+    "track_name": "04 - Wasteland - The Pit II - Kahn's Arena",
+    "album": "Mortal Kombat II",
+    "composer": "Matt Furniss",
+    "year": "1994",
+    "track_order": "4/9%",
+    "chip_data": {
+        "fm_writes": 533365,
+        "complexity": 0.033
+    },
+    "_type": "music:track"
+}

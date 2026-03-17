@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_battlefield",
+    "track_name": "04 - Battlefield",
+    "album": "Digital Devil Story: Megami Tensei",
+    "composer": "Tsukasa Masuko\"",
+    "year": "1987-09-11",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 15,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_dr._o's_theme",
+    "track_name": "08 - Dr. O's Theme",
+    "album": "Mission: Impossible",
+    "composer": "Jun Funahashi",
+    "year": "1990-09",
+    "track_order": "8/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

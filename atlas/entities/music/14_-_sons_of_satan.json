@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_sons_of_satan",
+    "track_name": "14 - Sons of Satan",
+    "album": "Castlevania II: Belmont's Revenge",
+    "composer": "Hidehiro Funauchi!",
+    "year": "1991-08",
+    "track_order": "14/17",
+    "chip_data": {
+        "fm_writes": 176,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

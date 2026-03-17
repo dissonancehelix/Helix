@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_cryptic_number",
+    "track_name": "09 - Cryptic Number",
+    "album": "Hatris",
+    "composer": "Takashi Nakamura",
+    "year": "1991-10-18",
+    "track_order": "9/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

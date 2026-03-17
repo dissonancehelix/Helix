@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_last_mission",
+    "track_name": "05 - Last Mission",
+    "album": "Vigilante",
+    "composer": "Masato Ishizaki",
+    "year": "1988-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 39,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

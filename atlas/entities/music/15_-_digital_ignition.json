@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_digital_ignition",
+    "track_name": "15 - Digital Ignition",
+    "album": "Street Fighter EX2",
+    "composer": "Takayuki Aihara",
+    "year": "1998-05",
+    "track_order": "15/29",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

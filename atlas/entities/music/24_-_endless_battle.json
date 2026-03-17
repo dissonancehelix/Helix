@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_endless_battle",
+    "track_name": "24 - Endless Battle",
+    "album": "Dragoon Might",
+    "composer": "Konami Kukeiha Club",
+    "year": "1995",
+    "track_order": "24/29",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

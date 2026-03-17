@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_ora_ora_rock_and_roll_taison_maeda's_theme",
+    "track_name": "07 - Ora Ora Rock and Roll (Taison Maeda's Theme)",
+    "album": "Famicom Jump II: Saikyo no 7-nin",
+    "composer": "Satoshi Kadokura ",
+    "year": "1991-12-02",
+    "track_order": "7/17,",
+    "chip_data": {
+        "fm_writes": 24,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

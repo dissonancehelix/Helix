@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_overdrive",
+    "track_name": "06 - Overdrive",
+    "album": "Ninja Gaiden II",
+    "composer": "Ryuichi Nitta",
+    "year": "1990-04-06",
+    "track_order": "6/19",
+    "chip_data": {
+        "fm_writes": 542,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

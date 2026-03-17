@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_hidden_ruins",
+    "track_name": "07 - Hidden Ruins",
+    "album": "Jurassic Park: Rampage Edition",
+    "composer": "Sam Powell",
+    "year": "1994-10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 7680,
+        "complexity": 0.28
+    },
+    "_type": "music:track"
+}

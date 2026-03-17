@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_the_theme_of_starblade_-type_2-",
+    "track_name": "04 - The Theme of Starblade -Type 2-",
+    "album": "Starblade",
+    "composer": "Shinji Hosoe",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

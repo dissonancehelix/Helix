@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_victory_2",
+    "track_name": "08 - Victory 2",
+    "album": "Monster Pro Wrestling",
+    "composer": "Kanta Watanabe",
+    "year": "1991-11-22",
+    "track_order": "8/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

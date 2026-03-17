@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_boss_1_dogodaga-dogodege",
+    "track_name": "03 - Boss 1 (Dogodaga-Dogodege)",
+    "album": "Aleste Gaiden",
+    "composer": "Masanobu Tsukamoto",
+    "year": "1989-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

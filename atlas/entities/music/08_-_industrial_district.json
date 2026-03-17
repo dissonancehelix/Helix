@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_industrial_district",
+    "track_name": "08 - Industrial District",
+    "album": "Teenage Mutant Ninja Turtles II: The Arcade Game",
+    "composer": "Kozo Nakamura0",
+    "year": "1990-12-17",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 75,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

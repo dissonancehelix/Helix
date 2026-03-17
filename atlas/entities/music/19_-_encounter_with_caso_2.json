@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_encounter_with_caso_2",
+    "track_name": "19 - Encounter with Caso 2",
+    "album": "Dark Arms: Beast Buster 1999",
+    "composer": "Toshikazu Tanaka",
+    "year": "1999-10-21",
+    "track_order": "19/38",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

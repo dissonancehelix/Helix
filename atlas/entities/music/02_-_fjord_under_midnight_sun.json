@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_fjord_under_midnight_sun",
+    "track_name": "02 - Fjord under Midnight Sun",
+    "album": "World Heroes 2",
+    "composer": "Yuka Watanabe",
+    "year": "1993-04-26",
+    "track_order": "2/41",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_burning_heat",
+    "track_name": "05 - Burning Heat",
+    "album": "Gradius II: Gofer no Yabou",
+    "composer": "Motoaki Furukawa",
+    "year": "1992-02-07",
+    "track_order": "5/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

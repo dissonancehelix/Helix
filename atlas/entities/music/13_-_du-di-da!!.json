@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_du-di-da!!",
+    "track_name": "13 - Du-Di-Da!!",
+    "album": "Ristar",
+    "composer": "Tomoko Sasaki",
+    "year": "1995-16-02",
+    "track_order": "13/22",
+    "chip_data": {
+        "fm_writes": 2384,
+        "complexity": 0.4
+    },
+    "_type": "music:track"
+}

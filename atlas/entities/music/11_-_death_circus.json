@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_death_circus",
+    "track_name": "11 - Death Circus",
+    "album": "Air Buster",
+    "composer": "Tatsuya Watanabe",
+    "year": "1990",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

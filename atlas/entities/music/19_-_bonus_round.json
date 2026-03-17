@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_bonus_round",
+    "track_name": "19 - Bonus Round",
+    "album": "Mappy Arrangement",
+    "composer": "Takayuki Ishikawa",
+    "year": "1995-11",
+    "track_order": "19/34",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

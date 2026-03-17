@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_ura_draa_trap",
+    "track_name": "18 - Ura Draa Trap",
+    "album": "Jantei Monogatari 3: Saver Angels",
+    "composer": "Iku Mizutani!",
+    "year": "1993-04-23",
+    "track_order": "18/30",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_island_~_ice_island",
+    "track_name": "02 - Island ~ Ice Island",
+    "album": "Yo! Noid",
+    "composer": "Masakatsu Maekawa",
+    "year": "1990-03-16",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

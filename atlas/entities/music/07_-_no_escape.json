@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_no_escape",
+    "track_name": "07 - No Escape",
+    "album": "Super Contra",
+    "composer": "Kazuki Muraoka",
+    "year": "1990-02-02",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

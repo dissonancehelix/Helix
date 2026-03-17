@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_the_outsider",
+    "track_name": "06 - The Outsider",
+    "album": "Starship Rendezvous",
+    "composer": "Masaharu Iwata",
+    "year": "1988",
+    "track_order": "6/10",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -31,7 +31,7 @@ import time
 import urllib.request
 from typing import Any
 
-from substrates.music.knowledge.composer_schema import ComposerNode, TrackNode, GameNode
+from substrates.music.atlas_integration.composer_schema import ComposerNode, TrackNode, GameNode
 
 log = logging.getLogger(__name__)
 

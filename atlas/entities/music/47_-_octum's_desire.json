@@ -1,0 +1,13 @@
+{
+    "entity_id": "47_-_octum's_desire",
+    "track_name": "47 - Octum's Desire",
+    "album": "The Legend of Heroes IV: A Tear of Vermillion",
+    "composer": "Naoki Kaneda-",
+    "year": "1996-05-24",
+    "track_order": "47/54",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

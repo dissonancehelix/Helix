@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_revolt_ii",
+    "track_name": "25 - Revolt II",
+    "album": "Blaster Burn: Budruga Episode III",
+    "composer": "Keiji Takeuchi!",
+    "year": "1990",
+    "track_order": "25/27",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

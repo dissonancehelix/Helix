@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_smile_2",
+    "track_name": "09 - Smile 2",
+    "album": "Xak: The Art of Visual Stage",
+    "composer": "Tadahiro Nitta",
+    "year": "1989",
+    "track_order": "9/39",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

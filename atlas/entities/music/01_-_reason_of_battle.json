@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_reason_of_battle",
+    "track_name": "01 - Reason of Battle",
+    "album": "Bloody Roar",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1997-07-07",
+    "track_order": "1/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

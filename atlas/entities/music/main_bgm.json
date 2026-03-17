@@ -1,0 +1,13 @@
+{
+    "entity_id": "main_bgm",
+    "track_name": "Main BGM",
+    "album": "1942",
+    "composer": "Ayako Mori",
+    "year": "1984",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

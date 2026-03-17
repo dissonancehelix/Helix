@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_heavy_battle_tank_juggernaut",
+    "track_name": "13 - Heavy Battle Tank Juggernaut",
+    "album": "Dungeons & Dragons: Shadow Over Mystara",
+    "composer": "Masato Kouda'",
+    "year": "1996",
+    "track_order": "13/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

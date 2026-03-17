@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_he_runs",
+    "track_name": "04 - He Runs",
+    "album": "Shinobi III: Return of the Ninja Master",
+    "composer": "Morihiko Akiyama / Hirofumi Murasaki",
+    "year": "1993-07-23",
+    "track_order": "4/19",
+    "chip_data": {
+        "fm_writes": 28834,
+        "complexity": 0.757
+    },
+    "_type": "music:track"
+}

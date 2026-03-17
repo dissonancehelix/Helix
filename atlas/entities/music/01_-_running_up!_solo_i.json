@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_running_up!_solo_i",
+    "track_name": "01 - Running Up! (Solo I)",
+    "album": "Dirt Fox",
+    "composer": "Shinji Hosoe",
+    "year": "1989-06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

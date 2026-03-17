@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_staff_roll_2_alt",
+    "track_name": "27 - Staff Roll 2 Alt",
+    "album": "Darkstalkers: The Night Warriors",
+    "composer": "Takayuki Iwai",
+    "year": "1994",
+    "track_order": "27/27",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

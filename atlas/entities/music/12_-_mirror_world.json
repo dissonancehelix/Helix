@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_mirror_world",
+    "track_name": "12 - Mirror World",
+    "album": "Etoile Princesse",
+    "composer": "Hiroyuki Saegusa",
+    "year": "1993-03-26",
+    "track_order": "12/23",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

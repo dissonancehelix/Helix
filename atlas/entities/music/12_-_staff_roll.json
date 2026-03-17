@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_staff_roll",
+    "track_name": "12 - Staff Roll",
+    "album": "Bloody Roar 2: Bringer of the New Age",
+    "composer": "Manabu Namiki",
+    "year": "1998-09-10",
+    "track_order": "12/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

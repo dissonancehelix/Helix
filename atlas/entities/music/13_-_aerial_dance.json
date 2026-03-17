@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_aerial_dance",
+    "track_name": "13 - Aerial Dance",
+    "album": "Air Combat 22",
+    "composer": "Hiroyuki Kawada",
+    "year": "1995-01-21",
+    "track_order": "13/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_extremely_intense_conflict",
+    "track_name": "12 - Extremely Intense Conflict",
+    "album": "Martial Champion",
+    "composer": "Junya Nakano",
+    "year": "1993-02-10",
+    "track_order": "12/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

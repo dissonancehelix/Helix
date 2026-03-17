@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_gtr_attack!",
+    "track_name": "14 - GTR Attack!",
+    "album": "Contra: Hard Corps",
+    "composer": "Hiroshi Kobayashi",
+    "year": "1994",
+    "track_order": "14/25",
+    "chip_data": {
+        "fm_writes": 1973,
+        "complexity": 0.357
+    },
+    "_type": "music:track"
+}

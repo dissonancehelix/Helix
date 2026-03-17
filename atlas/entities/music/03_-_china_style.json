@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_china_style",
+    "track_name": "03 - China Style",
+    "album": "Harakiri",
+    "composer": "Fumihito Kasatani",
+    "year": "1990",
+    "track_order": "3/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

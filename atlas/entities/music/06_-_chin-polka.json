@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_chin-polka",
+    "track_name": "06 - Chin-Polka",
+    "album": "Ganbare Ginkun",
+    "composer": "Tetsukazu Nakanishi",
+    "year": "1995",
+    "track_order": "6/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

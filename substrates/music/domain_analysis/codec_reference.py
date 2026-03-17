@@ -175,7 +175,7 @@ class CodecReferenceLibrary:
             if force:
                 self._cache.pop(codec, None)
                 try:
-                    from substrates.music.config import SMPS_VOICE_LIBRARY_PATH
+                    from substrates.music.ingestion.config import SMPS_VOICE_LIBRARY_PATH
                     SMPS_VOICE_LIBRARY_PATH.unlink(missing_ok=True)
                 except Exception:
                     pass
@@ -198,7 +198,7 @@ class CodecReferenceLibrary:
         Cache: DATA/smps_voice_library.json
         """
         try:
-            from substrates.music.config import DATA, TEMP_DIR, SMPS_VOICE_LIBRARY_PATH as cache_path
+            from substrates.music.ingestion.config import DATA, TEMP_DIR, SMPS_VOICE_LIBRARY_PATH as cache_path
         except ImportError:
             log.warning("codec_reference: config not importable — no voice library loaded")
             return []
@@ -274,7 +274,7 @@ class CodecReferenceLibrary:
     def _resolved_source_dirs(self, codec: str) -> dict[str, str]:
         """Return source dir paths as strings for the reference metadata."""
         try:
-            from substrates.music.config import TEMP_DIR
+            from substrates.music.ingestion.config import TEMP_DIR
         except ImportError:
             return {}
         dirs: dict[str, str] = {}

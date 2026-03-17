@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_boss_bgm_3",
+    "track_name": "02 - Boss BGM 3",
+    "album": "Battle Shark",
+    "composer": "Yasuko Yamada",
+    "year": "1990-03",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_as_long_as_one_lives",
+    "track_name": "10 - As Long as One Lives",
+    "album": "Aggressors of Dark Kombat",
+    "composer": "Kimiko Kasuga",
+    "year": "1994-07-26",
+    "track_order": "10/31",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

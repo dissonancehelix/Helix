@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_farewell_to_journey",
+    "track_name": "09 - Farewell to Journey",
+    "album": "Falsion",
+    "composer": "Atsushi Fujio",
+    "year": "1987-10-21",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

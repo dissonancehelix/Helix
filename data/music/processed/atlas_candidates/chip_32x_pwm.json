@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:32x_pwm",
+  "name": "Sound Chip: 32X_PWM",
+  "type": "SoundChip",
+  "libvgm_id": "0x11"
+}

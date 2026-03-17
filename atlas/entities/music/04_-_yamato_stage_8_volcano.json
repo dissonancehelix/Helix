@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_yamato_stage_8_volcano",
+    "track_name": "04 - Yamato Stage 8 (Volcano)",
+    "album": "Hi no Tori Hououhen: Gaou no Bouken",
+    "composer": "Kinuyo Yamashita",
+    "year": "1987-01-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

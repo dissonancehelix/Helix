@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_joshou_-_cham_no_theme_-",
+    "track_name": "06 - Joshou - Cham no Theme -",
+    "album": "Valis III",
+    "composer": "Hisao Inoue",
+    "year": "1991",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 81245,
+        "complexity": 0.956
+    },
+    "_type": "music:track"
+}

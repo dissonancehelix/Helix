@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_bgm_1",
+    "track_name": "06 - BGM 1",
+    "album": "M.V.P.",
+    "composer": "Tohru Nakabayashi",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

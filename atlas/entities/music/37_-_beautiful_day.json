@@ -1,0 +1,13 @@
+{
+    "entity_id": "37_-_beautiful_day",
+    "track_name": "37 - Beautiful Day",
+    "album": "Sorcerian",
+    "composer": "Hiroshi Kubota",
+    "year": "1990/02/24",
+    "track_order": "37/40",
+    "chip_data": {
+        "fm_writes": 78996,
+        "complexity": 0.196
+    },
+    "_type": "music:track"
+}

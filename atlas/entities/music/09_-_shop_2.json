@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_shop_2",
+    "track_name": "09 - Shop 2",
+    "album": "Waterworld",
+    "composer": "Jason Page",
+    "year": "1995",
+    "track_order": "9/14",
+    "chip_data": {
+        "fm_writes": 39039,
+        "complexity": 0.462
+    },
+    "_type": "music:track"
+}

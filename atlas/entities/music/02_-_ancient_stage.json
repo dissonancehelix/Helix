@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_ancient_stage",
+    "track_name": "02 - Ancient Stage",
+    "album": "Hi no Tori Hououhen: Gaou no Bouken",
+    "composer": "Kinuyo Yamashita",
+    "year": "1987-01-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

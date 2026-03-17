@@ -57,25 +57,26 @@ def _stats(arr: Any) -> dict[str, float]:
     }
 
 
-class LibrosaAdapter:
+class Adapter:
     """
     Adapter wrapping librosa for audio MIR feature extraction.
 
     Correct call path:
-        HIL → ANALYZE_TRACK operator → LibrosaAdapter → librosa
+        HIL → ANALYZE_TRACK operator → Adapter → librosa
     """
+    toolkit = "librosa"
+    substrate = "music"
 
-    def analyze(
-        self,
-        file_path: str | Path,
-        sample_rate: int = 22050,
-    ) -> dict[str, Any]:
+    def execute(self, payload: dict[str, Any]) -> dict[str, Any]:
         """
         Extract MIR features from an audio file.
 
         Returns a SignalProfile dict. If librosa is not installed, returns
         a minimal dict with available=False (non-blocking).
         """
+        file_path = payload.get("file_path")
+        sample_rate = payload.get("sample_rate", 22050)
+        
         path = Path(file_path)
         if not path.exists():
             raise AdapterError(f"File not found: {path}")
@@ -123,7 +124,7 @@ class LibrosaAdapter:
         centroid_mean = float(np.mean(spec_centroid))
         brightness    = centroid_mean / (sr / 2) if sr > 0 else 0.0  # normalize to [0,1]
 
-        return {
+        result = {
             "spectral_centroid":   _stats(spec_centroid),
             "spectral_bandwidth":  _stats(spec_bandwidth),
             "spectral_rolloff":    _stats(spec_rolloff),
@@ -145,6 +146,10 @@ class LibrosaAdapter:
             "adapter":           "librosa",
             "available":         True,
         }
+        return self.normalize(result)
+
+    def normalize(self, result: dict[str, Any]) -> dict[str, Any]:
+        return result
 
     def is_available(self) -> bool:
         try:

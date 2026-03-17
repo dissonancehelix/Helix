@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_stranger",
+    "track_name": "19 - Stranger",
+    "album": "Briganty: The Roots of Darkness",
+    "composer": "Takahiro Yonemura",
+    "year": "1995-08-27",
+    "track_order": "19/20",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

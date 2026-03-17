@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_tiny_suspect_~_suspect_1",
+    "track_name": "08 - Tiny Suspect ~ Suspect 1",
+    "album": "Desire: Haitoku no Rasen",
+    "composer": "Ryu Umemoto",
+    "year": "1994-07-22",
+    "track_order": "8/27",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

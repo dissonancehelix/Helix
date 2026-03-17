@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_elendia",
+    "track_name": "05 - Elendia",
+    "album": "Riviera: The Promised Land",
+    "composer": "Minako Adachi",
+    "year": "2002-07-12",
+    "track_order": "5/34",
+    "chip_data": {
+        "fm_writes": 21,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

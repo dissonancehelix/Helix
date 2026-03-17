@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_dooms_day",
+    "track_name": "01 - Dooms Day",
+    "album": "Alien Syndrome",
+    "composer": "Tohru Nakabayashi",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

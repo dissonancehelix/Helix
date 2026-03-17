@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_charshoe_x",
+    "track_name": "02 - Charshoe X",
+    "album": "Contra: Hard Corps",
+    "composer": "Hiroshi Kobayashi",
+    "year": "1994",
+    "track_order": "2/25",
+    "chip_data": {
+        "fm_writes": 2194,
+        "complexity": 0.28
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_jane_isabelli's_theme",
+    "track_name": "07 - Jane Isabelli's Theme",
+    "album": "Master's Fury",
+    "composer": "Jeon Seuk Ki",
+    "year": "1996-02",
+    "track_order": "7/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

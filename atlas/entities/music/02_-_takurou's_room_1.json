@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_takurou's_room_1",
+    "track_name": "02 - Takurou's Room 1",
+    "album": "Doukyusei",
+    "composer": "Manabu Kunieda",
+    "year": "1992-12-17",
+    "track_order": "2/46",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

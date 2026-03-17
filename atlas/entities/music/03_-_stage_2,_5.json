@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_stage_2,_5",
+    "track_name": "03 - Stage 2, 5",
+    "album": "Crisis Force",
+    "composer": "Kenichi Matsubara",
+    "year": "1991-08-27",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

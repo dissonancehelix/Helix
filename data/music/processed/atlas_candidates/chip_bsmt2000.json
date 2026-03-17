@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:bsmt2000",
+  "name": "Sound Chip: BSMT2000",
+  "type": "SoundChip",
+  "libvgm_id": "0x2E"
+}

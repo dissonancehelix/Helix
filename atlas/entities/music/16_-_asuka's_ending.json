@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_asuka's_ending",
+    "track_name": "16 - Asuka's Ending",
+    "album": "Burning Rival",
+    "composer": "Hideaki Miyamoto",
+    "year": "1993-07",
+    "track_order": "16/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

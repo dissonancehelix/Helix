@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_team_china",
+    "track_name": "04 - Team China",
+    "album": "Nekketsu Koukou Dodgeball Bu: PC Bangai Hen",
+    "composer": "Kazuo Sawa+",
+    "year": "1990-03-30",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 322,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

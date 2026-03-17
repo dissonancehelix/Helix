@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_bad_step",
+    "track_name": "06 - Bad Step",
+    "album": "Battle Gorilla",
+    "composer": "Chihiro Fujioka",
+    "year": "1988-04",
+    "track_order": "6/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

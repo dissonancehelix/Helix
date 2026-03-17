@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_jigjid_bartol",
+    "track_name": "08 - Jigjid Bartol",
+    "album": "Fighting Layer",
+    "composer": "Ayako Saso",
+    "year": "1998-12",
+    "track_order": "8/18",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

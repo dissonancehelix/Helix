@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_drifting_ashore_of_death_mountain",
+    "track_name": "31 - Drifting Ashore of Death Mountain",
+    "album": "Xak II: Rising of the Redmoon",
+    "composer": "Tadahiro Nitta",
+    "year": "1990",
+    "track_order": "31/42!",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

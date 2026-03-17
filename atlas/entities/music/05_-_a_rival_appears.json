@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_a_rival_appears",
+    "track_name": "05 - A Rival Appears",
+    "album": "mon Red & Blue",
+    "composer": "Junichi Masuda",
+    "year": "1996-02-27",
+    "track_order": "5/35",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

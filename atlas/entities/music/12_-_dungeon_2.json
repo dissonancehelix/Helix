@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_dungeon_2",
+    "track_name": "12 - Dungeon 2",
+    "album": "Sword of Vermilion",
+    "composer": "Hiro",
+    "year": "1989/12/16",
+    "track_order": "12/23",
+    "chip_data": {
+        "fm_writes": 26974,
+        "complexity": 0.118
+    },
+    "_type": "music:track"
+}

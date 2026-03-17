@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_a_piece_of_peace",
+    "track_name": "17 - A Piece of Peace",
+    "album": "Crazy Cross",
+    "composer": "Mayuko Kageshita",
+    "year": "1994-07",
+    "track_order": "17/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

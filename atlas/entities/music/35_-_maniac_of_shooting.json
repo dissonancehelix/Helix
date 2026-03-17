@@ -1,0 +1,13 @@
+{
+    "entity_id": "35_-_maniac_of_shooting",
+    "track_name": "35 - Maniac of Shooting",
+    "album": "Sexy Parodius",
+    "composer": "Naomitsu Ariyama",
+    "year": "1996-03",
+    "track_order": "35/38",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

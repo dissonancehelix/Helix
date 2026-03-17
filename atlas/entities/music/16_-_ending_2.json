@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_ending_2",
+    "track_name": "16 - Ending 2",
+    "album": "Barbatus no Majo",
+    "composer": "Chiaki Ito",
+    "year": "1990-03-09",
+    "track_order": "16/17",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

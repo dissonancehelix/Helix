@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_owari-_oda_nobunaga_battle_plan_bgm_1",
+    "track_name": "02 - Owari- Oda Nobunaga (Battle Plan BGM 1)",
+    "album": "Quiz Tonosama no Yabou 2: Zenkoku Ban",
+    "composer": "Syun Nishigaki%",
+    "year": "1995-01",
+    "track_order": "2/20'",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

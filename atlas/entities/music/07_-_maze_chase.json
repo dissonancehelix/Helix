@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_maze_chase",
+    "track_name": "07 - Maze Chase",
+    "album": "Bubblegum Crash: Knight Sabers 2034",
+    "composer": "Makiko Itoh#",
+    "year": "1991-12-06",
+    "track_order": "7/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

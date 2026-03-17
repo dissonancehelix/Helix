@@ -13,7 +13,7 @@ from __future__ import annotations
 import logging
 from typing import Any
 
-from substrates.music.knowledge.composer_graph import ComposerGraph
+from substrates.music.atlas_integration.composer_graph import ComposerGraph
 
 log = logging.getLogger(__name__)
 
@@ -41,7 +41,7 @@ def load_all_sources(
 
     # --- Sonic Retro HTML (offline, always available) ---
     try:
-        from substrates.music.knowledge.sources.sonic_retro_ingester import ingest_s3k_default
+        from substrates.music.atlas_integration.sources.sonic_retro_ingester import ingest_s3k_default
         result = ingest_s3k_default(graph)
         summary["sonic_retro"] = str(result)
         log.info("knowledge_sources: sonic_retro → %s", result)
@@ -54,7 +54,7 @@ def load_all_sources(
 
     # --- Wikidata (online, requires network) ---
     try:
-        from substrates.music.knowledge.sources.wikidata_ingester import enrich_composer
+        from substrates.music.atlas_integration.sources.wikidata_ingester import enrich_composer
         enriched = 0
         for c in graph.all_composers():
             wikidata_id = c.external_ids.get("wikidata")
@@ -72,7 +72,7 @@ def load_all_sources(
 
     # --- VGMDB (online, requires network) ---
     try:
-        from substrates.music.knowledge.sources.vgmdb_ingester import enrich_composer as vgmdb_enrich
+        from substrates.music.atlas_integration.sources.vgmdb_ingester import enrich_composer as vgmdb_enrich
         enriched = 0
         for c in graph.all_composers():
             vgmdb_id = c.external_ids.get("vgmdb")

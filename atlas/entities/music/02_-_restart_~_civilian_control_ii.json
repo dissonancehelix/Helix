@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_restart_~_civilian_control_ii",
+    "track_name": "02 - Restart ~ Civilian Control II",
+    "album": "Cosmo Police Galivan",
+    "composer": "Kenji Yoshida",
+    "year": "1985-12-11",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

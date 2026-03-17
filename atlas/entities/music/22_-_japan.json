@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_japan",
+    "track_name": "22 - Japan",
+    "album": "OutRunners",
+    "composer": "Takenobu Mitsuyoshi",
+    "year": "1993",
+    "track_order": "22/34",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

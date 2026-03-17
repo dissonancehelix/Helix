@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_level_3_warning",
+    "track_name": "06 - Level 3 Warning",
+    "album": "Metal Gear 2: Solid Snake",
+    "composer": "Masahiro Ikariko",
+    "year": "1990-07-20",
+    "track_order": "6/36",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

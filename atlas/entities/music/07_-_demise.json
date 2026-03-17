@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_demise",
+    "track_name": "07 - Demise",
+    "album": "Act-Fancer: Cybernetick Hyper Weapon",
+    "composer": "Azusa Hara",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 181,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

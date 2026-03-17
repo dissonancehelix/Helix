@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_great_sluggers",
+    "track_name": "02 - Great Sluggers",
+    "album": "Great Sluggers",
+    "composer": "Takayuki Ishikawa",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

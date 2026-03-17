@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_visual-_alien",
+    "track_name": "07 - Visual- Alien",
+    "album": "Hydefos: Hyper Defending Force System",
+    "composer": "Keishi Yonao%",
+    "year": "1989",
+    "track_order": "7/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

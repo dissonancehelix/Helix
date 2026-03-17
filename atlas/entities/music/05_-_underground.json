@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_underground",
+    "track_name": "05 - Underground",
+    "album": "Black Tiger",
+    "composer": "Tamayo Kawamoto",
+    "year": "1987",
+    "track_order": "5/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

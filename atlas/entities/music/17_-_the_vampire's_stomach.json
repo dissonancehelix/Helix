@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_the_vampire's_stomach",
+    "track_name": "17 - The Vampire's Stomach",
+    "album": "Castlevania: Bloodlines",
+    "composer": "Michiru Yamane",
+    "year": "1994/03/18",
+    "track_order": "17/19",
+    "chip_data": {
+        "fm_writes": 15516,
+        "complexity": 0.796
+    },
+    "_type": "music:track"
+}

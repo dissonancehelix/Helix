@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_chapter_1,_chapter_7_scene_2",
+    "track_name": "02 - Chapter 1, Chapter 7 Scene 2",
+    "album": "Saint Sword",
+    "composer": "Toshiko Tasaki",
+    "year": "1991/06/28",
+    "track_order": "2/14",
+    "chip_data": {
+        "fm_writes": 51486,
+        "complexity": 0.658
+    },
+    "_type": "music:track"
+}

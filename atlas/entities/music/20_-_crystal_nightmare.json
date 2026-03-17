@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_crystal_nightmare",
+    "track_name": "20 - Crystal Nightmare",
+    "album": "Knuckles' Chaotix",
+    "composer": "Mariko Nanba",
+    "year": "1995-04-21",
+    "track_order": "20/30",
+    "chip_data": {
+        "fm_writes": 397,
+        "complexity": 0.125
+    },
+    "_type": "music:track"
+}

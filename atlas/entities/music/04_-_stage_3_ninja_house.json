@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_stage_3_ninja_house",
+    "track_name": "04 - Stage 3 (Ninja House)",
+    "album": "Captain Commando",
+    "composer": "Masaki Izutani",
+    "year": "1991-11",
+    "track_order": "4/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

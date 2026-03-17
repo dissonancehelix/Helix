@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_adventurer's_inn",
+    "track_name": "01 Adventurer's Inn",
+    "album": "Wizardry III+IV",
+    "composer": "Miyoko Takaoka",
+    "year": "1994-03-04",
+    "track_order": "1/11",
+    "chip_data": {
+        "fm_writes": 70,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

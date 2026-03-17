@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_heat_theme_4",
+    "track_name": "06 - Heat Theme 4",
+    "album": "Final Lap Twin",
+    "composer": "Katsuhiro Hayashi",
+    "year": "1989-07-07",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 38,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_dame_2",
+    "track_name": "04 - Dame 2",
+    "album": "Psy-O-Blade",
+    "composer": "Hiroto Kanno",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2514,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_funky_writer",
+    "track_name": "07 - Funky Writer",
+    "album": "Sub-Terrania",
+    "composer": "Jesper Kyd",
+    "year": "1993",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 998057,
+        "complexity": 0.18
+    },
+    "_type": "music:track"
+}

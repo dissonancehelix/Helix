@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_in_the_name_of_strikers",
+    "track_name": "13 - In The Name of Strikers",
+    "album": "Strikers 1945 III",
+    "composer": "Masaki Izutani",
+    "year": "1999",
+    "track_order": "13/14",
+    "chip_data": {
+        "fm_writes": 30,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

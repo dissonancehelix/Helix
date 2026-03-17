@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_main_theme",
+    "track_name": "03 - Main Theme",
+    "album": "Crayon Shin-chan: Arashi o Yobu Enji",
+    "composer": "Hikoshi Hashimoto$",
+    "year": "1994/03/11",
+    "track_order": "3/14",
+    "chip_data": {
+        "fm_writes": 18905,
+        "complexity": 0.857
+    },
+    "_type": "music:track"
+}

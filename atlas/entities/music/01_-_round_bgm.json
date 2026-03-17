@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_round_bgm",
+    "track_name": "01 - Round BGM",
+    "album": "Battle Shark",
+    "composer": "Yasuko Yamada",
+    "year": "1990-03",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

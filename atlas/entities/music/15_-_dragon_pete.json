@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_dragon_pete",
+    "track_name": "15 - Dragon Pete",
+    "album": "The Great Circus Mystery",
+    "composer": "Mari Yamaguchi",
+    "year": "1994/02/06",
+    "track_order": "15/17",
+    "chip_data": {
+        "fm_writes": 24781,
+        "complexity": 0.05399999999999999
+    },
+    "_type": "music:track"
+}

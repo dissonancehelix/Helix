@@ -1,0 +1,13 @@
+{
+    "entity_id": "52_worry",
+    "track_name": "52 Worry",
+    "album": "Power Slave",
+    "composer": "Naoto Ishikawa",
+    "year": "1995-10-27",
+    "track_order": "47/57",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

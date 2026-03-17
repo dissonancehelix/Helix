@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_sea_breeze_town",
+    "track_name": "11 - Sea Breeze Town",
+    "album": "The Legend of Xanadu II",
+    "composer": "Naoki Kaneda",
+    "year": "1996",
+    "track_order": "11/49",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "38_luigi,_baby_mario,_waluigi,_shooting_stars",
+    "track_name": "38 Luigi, Baby Mario, Waluigi, Shooting Stars",
+    "album": "Mario Tennis GB",
+    "composer": "Motoi Sakuraba",
+    "year": "2000-11-01",
+    "track_order": "28/37",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_shudder_of_the_magician",
+    "track_name": "24 - Shudder of The Magician",
+    "album": "Rune Worth: Kokui no Kikoushi",
+    "composer": "Shigeru Tomita",
+    "year": "1990-01",
+    "track_order": "24/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

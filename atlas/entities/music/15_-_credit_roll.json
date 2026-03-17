@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_credit_roll",
+    "track_name": "15 - Credit Roll",
+    "album": "Jantei Monogatari 2: Uchu Tantei Divan Shutsudo Hen",
+    "composer": "Tsukasa Masuko",
+    "year": "1992-02-28",
+    "track_order": "15/15",
+    "chip_data": {
+        "fm_writes": 45,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

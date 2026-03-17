@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_the_universe_of_blackness",
+    "track_name": "01 - The Universe of Blackness",
+    "album": "Nemesis 3: The Eve of Destruction",
+    "composer": "Kinuyo Yamashita!",
+    "year": "1988",
+    "track_order": "1/22",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

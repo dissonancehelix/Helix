@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_rocket_rap",
+    "track_name": "10 - Rocket Rap",
+    "album": "ToeJam & Earl in Panic on Funkotron",
+    "composer": "John Baker#",
+    "year": "1993/03/17",
+    "track_order": "10/13",
+    "chip_data": {
+        "fm_writes": 59528,
+        "complexity": 0.265
+    },
+    "_type": "music:track"
+}

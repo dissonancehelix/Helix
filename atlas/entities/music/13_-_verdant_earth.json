@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_verdant_earth",
+    "track_name": "13 - Verdant Earth",
+    "album": "Xak: The Art of Visual Stage",
+    "composer": "Tadahiro Nitta",
+    "year": "1989",
+    "track_order": "13/39",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

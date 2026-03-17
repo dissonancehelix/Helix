@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_the_racing_spirit",
+    "track_name": "06 - The Racing Spirit",
+    "album": "Racing Damashii",
+    "composer": "Hiroshi Kimura",
+    "year": "1991-07-19",
+    "track_order": "6/10",
+    "chip_data": {
+        "fm_writes": 52,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_winners",
+    "track_name": "15 - Winners",
+    "album": "Burning Force",
+    "composer": "Yoshinori Kawamoto",
+    "year": "1989-11",
+    "track_order": "15/17",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

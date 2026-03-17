@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_boss",
+    "track_name": "08 - Boss",
+    "album": "Air Gallet",
+    "composer": "Yoshitatsu Sakai",
+    "year": "1996-02",
+    "track_order": "8/11",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

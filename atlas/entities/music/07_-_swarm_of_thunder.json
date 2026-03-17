@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_swarm_of_thunder",
+    "track_name": "07 - Swarm of Thunder",
+    "album": "Lightning Swords",
+    "composer": "Takushi Hiyamuta",
+    "year": "1991-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 223,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "44_bowser's_two-on-one",
+    "track_name": "44 Bowser's Two-On-One",
+    "album": "Mario Tennis GB",
+    "composer": "Motoi Sakuraba-",
+    "year": "2000-11-01",
+    "track_order": "34/37",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

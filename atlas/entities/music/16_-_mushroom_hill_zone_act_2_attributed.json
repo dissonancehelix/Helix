@@ -1,0 +1,9 @@
+{
+    "entity_id": "16_-_mushroom_hill_zone_act_2",
+    "track_name": "16 - Mushroom Hill Zone Act 2",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.42,
+    "rationale": "High YM2612 algorithm complexity (0.42) matches Maeda signature.",
+    "_type": "music:track"
+}

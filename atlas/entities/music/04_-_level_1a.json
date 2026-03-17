@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_level_1a",
+    "track_name": "04 - Level 1A",
+    "album": "ResQ",
+    "composer": "Matt Furniss",
+    "year": "1993",
+    "track_order": "4/18",
+    "chip_data": {
+        "fm_writes": 989207,
+        "complexity": 0.761
+    },
+    "_type": "music:track"
+}

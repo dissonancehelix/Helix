@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_clear_eyes",
+    "track_name": "06 - Clear Eyes",
+    "album": "Mirage 2",
+    "composer": "Hiroaki Sano",
+    "year": "1994-12-02",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 16901,
+        "complexity": 0.696
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_approach_of_dawn",
+    "track_name": "11 - Approach of Dawn",
+    "album": "Tengai",
+    "composer": "Masaki Izutani",
+    "year": "1996",
+    "track_order": "11/19",
+    "chip_data": {
+        "fm_writes": 115,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_dream_of_childhood",
+    "track_name": "07 - Dream of Childhood",
+    "album": "Ganbare! Golf Boys",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1989-03-28",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

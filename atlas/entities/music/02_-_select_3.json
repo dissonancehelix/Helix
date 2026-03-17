@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_select_3",
+    "track_name": "02 - Select 3",
+    "album": "Racing Damashii",
+    "composer": "Hiroshi Kimura",
+    "year": "1991-07-19",
+    "track_order": "2/10",
+    "chip_data": {
+        "fm_writes": 322,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

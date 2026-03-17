@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_japanese_strategy",
+    "track_name": "07 - Japanese Strategy",
+    "album": "Aoki Okami to Shiroki Mejika: Gencho Hishi",
+    "composer": "Michiru Oshima*",
+    "year": "1993-09-30",
+    "track_order": "7/20",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

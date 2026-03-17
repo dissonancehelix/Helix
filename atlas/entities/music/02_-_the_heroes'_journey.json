@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_the_heroes'_journey",
+    "track_name": "02 - The Heroes' Journey",
+    "album": "Ultima: Exodus",
+    "composer": "Tsugutoshi Goto",
+    "year": "1987-10-09",
+    "track_order": "2/11",
+    "chip_data": {
+        "fm_writes": 203,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

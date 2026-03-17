@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_pain~flow",
+    "track_name": "13 - Pain~Flow",
+    "album": "Bloody Roar",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1997-07-07",
+    "track_order": "13/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

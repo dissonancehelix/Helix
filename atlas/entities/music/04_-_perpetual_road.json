@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_perpetual_road",
+    "track_name": "04 - Perpetual Road",
+    "album": "Metal Sight",
+    "composer": "Keishi Yonao",
+    "year": "1989-12-01",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

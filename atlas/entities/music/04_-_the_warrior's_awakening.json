@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_the_warrior's_awakening",
+    "track_name": "04 - The Warrior's Awakening",
+    "album": "Shining Force II",
+    "composer": "Motoaki Takenouchi",
+    "year": "1993",
+    "track_order": "4/25",
+    "chip_data": {
+        "fm_writes": 87319,
+        "complexity": 0.366
+    },
+    "_type": "music:track"
+}

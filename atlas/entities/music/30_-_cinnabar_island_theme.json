@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_cinnabar_island_theme",
+    "track_name": "30 - Cinnabar Island Theme",
+    "album": "mon Red & Blue",
+    "composer": "Junichi Masuda",
+    "year": "1996-02-27",
+    "track_order": "30/35",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

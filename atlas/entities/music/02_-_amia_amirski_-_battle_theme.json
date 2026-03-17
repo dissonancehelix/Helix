@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_amia_amirski_-_battle_theme",
+    "track_name": "02 - Amia Amirski - Battle Theme",
+    "album": "Phantasy Star II Text Adventures",
+    "composer": "Sachio Ogawa ",
+    "year": "1990",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 22069,
+        "complexity": 0.366
+    },
+    "_type": "music:track"
+}

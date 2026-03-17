@@ -1,0 +1,8 @@
+{
+  "doc_id": "Movie_sequence_at_end_of_game",
+  "complexity_metrics": {
+    "degrees_of_freedom": 64,
+    "control_resolution": 8,
+    "temporal_dependency": 4
+  }
+}

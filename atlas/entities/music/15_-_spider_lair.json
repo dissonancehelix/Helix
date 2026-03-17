@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_spider_lair",
+    "track_name": "15 - Spider Lair",
+    "album": "The Immortal",
+    "composer": "Michael Bartlow",
+    "year": "1991/07/11",
+    "track_order": "15/18",
+    "chip_data": {
+        "fm_writes": 87504,
+        "complexity": 0.622
+    },
+    "_type": "music:track"
+}

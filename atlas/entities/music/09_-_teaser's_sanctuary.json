@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_teaser's_sanctuary",
+    "track_name": "09 - Teaser's Sanctuary",
+    "album": "Shadow Force",
+    "composer": "Kazunaka Yamane",
+    "year": "1993",
+    "track_order": "9/19",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

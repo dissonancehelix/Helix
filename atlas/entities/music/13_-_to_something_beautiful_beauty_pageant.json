@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_to_something_beautiful_beauty_pageant",
+    "track_name": "13 - To Something Beautiful (Beauty Pageant)",
+    "album": "Princess Maker",
+    "composer": "Masahiro Kajihara",
+    "year": "1991-05-24",
+    "track_order": "13/15'",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

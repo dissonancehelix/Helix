@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_dungeon_5",
+    "track_name": "07 - Dungeon 5",
+    "album": "Eye of the Beholder",
+    "composer": "Shinji Hosoe",
+    "year": "1992",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

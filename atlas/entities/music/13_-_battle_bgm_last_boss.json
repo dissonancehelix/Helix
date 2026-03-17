@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_battle_bgm_last_boss",
+    "track_name": "13 - Battle BGM (Last Boss)",
+    "album": "Grandi Florum: Mischief of Iveris",
+    "composer": "Koji Niikura",
+    "year": "1990-03",
+    "track_order": "13/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

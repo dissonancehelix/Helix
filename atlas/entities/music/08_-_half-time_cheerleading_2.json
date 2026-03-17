@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_half-time_cheerleading_2",
+    "track_name": "08 - Half-Time Cheerleading 2",
+    "album": "Power Eleven",
+    "composer": "Shinichi Sakamoto",
+    "year": "1991-06-21",
+    "track_order": "8/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

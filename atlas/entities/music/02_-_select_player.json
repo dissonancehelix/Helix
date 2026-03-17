@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_select_player",
+    "track_name": "02 - Select Player",
+    "album": "Snow Bros 2: With New Elves",
+    "composer": "Ryuichi Yabuki",
+    "year": "1993",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 45,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

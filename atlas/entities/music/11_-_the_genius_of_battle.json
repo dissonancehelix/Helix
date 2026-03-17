@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_the_genius_of_battle",
+    "track_name": "11 - The Genius of Battle",
+    "album": "Dimahoo",
+    "composer": "Atsuhiro Motoyama",
+    "year": "2000-01",
+    "track_order": "11/15",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

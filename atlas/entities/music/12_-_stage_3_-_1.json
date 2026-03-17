@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_stage_3_-_1",
+    "track_name": "12 - Stage 3 - 1",
+    "album": "Castle of Illusion",
+    "composer": "Shigenori Kamiya",
+    "year": "1990",
+    "track_order": "12/19",
+    "chip_data": {
+        "fm_writes": 49120,
+        "complexity": 0.812
+    },
+    "_type": "music:track"
+}

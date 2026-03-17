@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_sea_area_-_emeraldia_2p",
+    "track_name": "07 - Sea Area - Emeraldia (2P)",
+    "album": "Tinkle Pit",
+    "composer": "Yoshie Arakawa",
+    "year": "1994-02",
+    "track_order": "7/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

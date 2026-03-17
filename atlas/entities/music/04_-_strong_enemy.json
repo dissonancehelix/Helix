@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_strong_enemy",
+    "track_name": "04 - Strong Enemy",
+    "album": "Crossed Swords",
+    "composer": "Yuka Watanabe",
+    "year": "1991-06-25",
+    "track_order": "4/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

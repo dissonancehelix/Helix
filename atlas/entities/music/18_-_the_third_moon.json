@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_the_third_moon",
+    "track_name": "18 - The Third Moon",
+    "album": "Strider 2",
+    "composer": "Setsuo Yamamoto",
+    "year": "1999-12",
+    "track_order": "18/22",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

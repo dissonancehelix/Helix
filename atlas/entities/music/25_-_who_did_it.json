@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_who_did_it",
+    "track_name": "25 - Who Did It",
+    "album": "38 Man Kilo no Kokuu",
+    "composer": "Manabu Saito",
+    "year": "1989-10-21",
+    "track_order": "25/27",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

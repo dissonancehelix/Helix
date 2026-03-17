@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_magical_drop_shuffle",
+    "track_name": "18 - Magical Drop Shuffle",
+    "album": "Magical Drop II",
+    "composer": "Hiroaki Yoshida",
+    "year": "1996",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

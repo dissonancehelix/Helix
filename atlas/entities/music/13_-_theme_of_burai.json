@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_theme_of_burai",
+    "track_name": "13 - Theme of Burai",
+    "album": "Burai",
+    "composer": "Chihiro Fujioka",
+    "year": "1990",
+    "track_order": "13/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_steal_into_the_night",
+    "track_name": "05 - Steal Into the Night",
+    "album": "OutRun 2019",
+    "composer": "Shigeki Sako",
+    "year": "1993/03/26",
+    "track_order": "5/12",
+    "chip_data": {
+        "fm_writes": 34043,
+        "complexity": 0.05
+    },
+    "_type": "music:track"
+}

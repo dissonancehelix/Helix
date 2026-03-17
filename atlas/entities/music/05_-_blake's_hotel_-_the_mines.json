@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_blake's_hotel_-_the_mines",
+    "track_name": "05 - Blake's Hotel - The Mines",
+    "album": "Scooby-Doo Mystery",
+    "composer": "Mark Miller",
+    "year": "1995-09",
+    "track_order": "5/11",
+    "chip_data": {
+        "fm_writes": 6461,
+        "complexity": 0.46499999999999997
+    },
+    "_type": "music:track"
+}

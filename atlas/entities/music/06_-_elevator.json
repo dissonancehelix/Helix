@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_elevator",
+    "track_name": "06 - Elevator",
+    "album": "Bishoujo Senshi Sailor Moon",
+    "composer": "Aki Hata",
+    "year": "1994/07/08",
+    "track_order": "6/25",
+    "chip_data": {
+        "fm_writes": 27941,
+        "complexity": 0.7649999999999999
+    },
+    "_type": "music:track"
+}

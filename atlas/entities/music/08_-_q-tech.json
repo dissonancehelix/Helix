@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_q-tech",
+    "track_name": "08 - Q-TECH",
+    "album": "Netto! Gekitou! Quiztou!!",
+    "composer": "Masahiro Fukuzawa",
+    "year": "1993-09",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

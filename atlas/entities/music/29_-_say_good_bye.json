@@ -1,0 +1,13 @@
+{
+    "entity_id": "29_-_say_good_bye",
+    "track_name": "29 - Say Good Bye",
+    "album": "Cosmic Psycho",
+    "composer": "Izuho Yoshitani",
+    "year": "1991-09-14",
+    "track_order": "29/49",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

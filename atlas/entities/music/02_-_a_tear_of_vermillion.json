@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_a_tear_of_vermillion",
+    "track_name": "02 - A Tear of Vermillion",
+    "album": "The Legend of Heroes IV: A Tear of Vermillion",
+    "composer": "Naoki Kaneda-",
+    "year": "1996-05-24",
+    "track_order": "2/54",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

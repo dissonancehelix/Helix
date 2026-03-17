@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_consideration",
+    "track_name": "05 - Consideration",
+    "album": "Desire: Haitoku no Rasen",
+    "composer": "Ryu Umemoto",
+    "year": "1994-07-22",
+    "track_order": "5/27",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

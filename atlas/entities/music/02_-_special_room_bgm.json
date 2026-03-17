@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_special_room_bgm",
+    "track_name": "02 - Special Room BGM",
+    "album": "Babel no Tou",
+    "composer": "Norio Nakagata",
+    "year": "1986-07-18",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

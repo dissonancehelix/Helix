@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_anne_saga_-_main_theme",
+    "track_name": "05 - Anne Saga - Main Theme",
+    "album": "Phantasy Star II Text Adventures",
+    "composer": "Sachio Ogawa ",
+    "year": "1990",
+    "track_order": "5/15",
+    "chip_data": {
+        "fm_writes": 13473,
+        "complexity": 0.443
+    },
+    "_type": "music:track"
+}

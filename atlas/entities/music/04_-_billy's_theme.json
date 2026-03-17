@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_billy's_theme",
+    "track_name": "04 - Billy's Theme",
+    "album": "Drymouth",
+    "composer": "Jake Kaufman",
+    "year": "2000-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

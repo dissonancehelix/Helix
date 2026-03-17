@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_chapter_1_-_song_3_~dance_on_maple_leaf~",
+    "track_name": "04 - Chapter 1 - Song 3 ~Dance on Maple Leaf~",
+    "album": "Rod Land",
+    "composer": "Tsukasa Tawada",
+    "year": "1990",
+    "track_order": "4/15(",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

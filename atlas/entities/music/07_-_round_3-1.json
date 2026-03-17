@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_round_3-1",
+    "track_name": "07 - Round 3-1",
+    "album": "Gynoug",
+    "composer": "Noriyuki Iwadare",
+    "year": "1991/01/25",
+    "track_order": "7/16",
+    "chip_data": {
+        "fm_writes": 64088,
+        "complexity": 0.32499999999999996
+    },
+    "_type": "music:track"
+}

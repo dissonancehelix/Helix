@@ -1,0 +1,13 @@
+{
+    "entity_id": "37_-_sasquatch_ending_1",
+    "track_name": "37 - SASQUATCH Ending 1",
+    "album": "Night Warriors: Darkstalkers' Revenge",
+    "composer": "Takayuki Iwai",
+    "year": "1995",
+    "track_order": "37/44",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

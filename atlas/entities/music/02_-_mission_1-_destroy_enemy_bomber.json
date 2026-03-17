@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_mission_1-_destroy_enemy_bomber",
+    "track_name": "02 - Mission 1- Destroy Enemy Bomber",
+    "album": "Top Gun: The Second Mission",
+    "composer": "Hidenori Maezawa",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

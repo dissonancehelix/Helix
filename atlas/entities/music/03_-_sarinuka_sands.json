@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_sarinuka_sands",
+    "track_name": "03 - Sarinuka Sands",
+    "album": "Burning Force",
+    "composer": "Yoshinori Kawamoto",
+    "year": "1989-11",
+    "track_order": "3/17",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

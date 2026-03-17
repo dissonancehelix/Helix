@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_credit_roll",
+    "track_name": "19 - Credit Roll",
+    "album": "Dungeon Explorer",
+    "composer": "Tsukasa Masuko",
+    "year": "1989-03-04",
+    "track_order": "19/19",
+    "chip_data": {
+        "fm_writes": 16,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

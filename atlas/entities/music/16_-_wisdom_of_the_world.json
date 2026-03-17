@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_wisdom_of_the_world",
+    "track_name": "16 - Wisdom of the World",
+    "album": "Mother",
+    "composer": "Keiichi Suzuki",
+    "year": "1988-07-27",
+    "track_order": "16/33",
+    "chip_data": {
+        "fm_writes": 468,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_battle_center",
+    "track_name": "18 - Battle Center",
+    "album": "mon Card GB",
+    "composer": "Ichiro Shimakura",
+    "year": "1998-12-18",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_growin'_up",
+    "track_name": "12 - Growin' Up",
+    "album": "Viper-V12",
+    "composer": "Kenichi Arakawa",
+    "year": "1995-12-15",
+    "track_order": "12/16",
+    "chip_data": {
+        "fm_writes": 9913,
+        "complexity": 0.9670000000000001
+    },
+    "_type": "music:track"
+}

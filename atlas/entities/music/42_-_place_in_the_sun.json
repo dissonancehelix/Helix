@@ -1,0 +1,13 @@
+{
+    "entity_id": "42_-_place_in_the_sun",
+    "track_name": "42 - Place In The Sun",
+    "album": "Kakyusei",
+    "composer": "Manabu Kunieda",
+    "year": "1996-06-07",
+    "track_order": "42/47",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

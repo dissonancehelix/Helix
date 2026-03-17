@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_stage_b_theme_of_debtmiser",
+    "track_name": "04 - Stage B (Theme of Debtmiser)",
+    "album": "Money Puzzle Exchanger",
+    "composer": "Kennosuke Suemura",
+    "year": "1997",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

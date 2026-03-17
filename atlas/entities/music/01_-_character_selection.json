@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_character_selection",
+    "track_name": "01 - Character Selection",
+    "album": "Jack Bros.",
+    "composer": "Hiroyuki Yanada",
+    "year": "1995-09-29",
+    "track_order": "1/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

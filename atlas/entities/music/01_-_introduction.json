@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_introduction",
+    "track_name": "01 - Introduction",
+    "album": "AWS Pro Moves Soccer",
+    "composer": "Jesper Kyd",
+    "year": "1994/05/06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 868701,
+        "complexity": 0.497
+    },
+    "_type": "music:track"
+}

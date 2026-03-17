@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_bar_3",
+    "track_name": "04 - Bar 3",
+    "album": "Shadowrun",
+    "composer": "Sam Powell",
+    "year": "1994",
+    "track_order": "4/16",
+    "chip_data": {
+        "fm_writes": 64663,
+        "complexity": 0.389
+    },
+    "_type": "music:track"
+}

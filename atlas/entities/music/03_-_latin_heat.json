@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_latin_heat",
+    "track_name": "03 - Latin Heat",
+    "album": "European Club Soccer",
+    "composer": "Matt Furniss",
+    "year": "1992/11/18",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1032579,
+        "complexity": 0.7090000000000001
+    },
+    "_type": "music:track"
+}

@@ -41,24 +41,27 @@ class AdapterError(Exception):
     pass
 
 
-class Music21Adapter:
+class Adapter:
     """
     Adapter wrapping music21 for symbolic score analysis.
 
     Correct call path:
-        HIL → ANALYZE_TRACK operator → Music21Adapter → music21
+        HIL → ANALYZE_TRACK operator → Adapter → music21
     """
+    toolkit = "music21"
+    substrate = "music"
 
     SUPPORTED_EXTENSIONS: frozenset[str] = frozenset({
         ".mid", ".midi", ".xml", ".mxl", ".musicxml",
     })
 
-    def analyze(self, file_path: str | Path) -> dict[str, Any]:
+    def execute(self, payload: dict[str, Any]) -> dict[str, Any]:
         """
         Parse and analyze a symbolic music file.
 
         Returns available=False if music21 is not installed.
         """
+        file_path = payload.get("file_path")
         path = Path(file_path)
         if not path.exists():
             raise AdapterError(f"File not found: {path}")
@@ -178,7 +181,7 @@ class Music21Adapter:
         except Exception:
             pass
 
-        return {
+        result = {
             "notes":               notes[:500],  # cap for serialization
             "duration_total":      duration_total,
             "tempo_map":           tempo_map,
@@ -192,6 +195,10 @@ class Music21Adapter:
             "adapter":             "music21",
             "available":           True,
         }
+        return self.normalize(result)
+
+    def normalize(self, result: dict[str, Any]) -> dict[str, Any]:
+        return result
 
     def is_available(self) -> bool:
         try:

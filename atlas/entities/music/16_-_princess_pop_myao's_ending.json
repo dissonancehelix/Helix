@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_princess_pop_myao's_ending",
+    "track_name": "16 - Princess Pop (Myao's Ending)",
+    "album": "Knuckle Heads",
+    "composer": "Takayuki Aihara",
+    "year": "1992-12",
+    "track_order": "16/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

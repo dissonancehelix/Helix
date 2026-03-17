@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_farewell_love",
+    "track_name": "27 - Farewell Love",
+    "album": "Fantastic Journey",
+    "composer": "Seiichi Fukami",
+    "year": "1994-04-26",
+    "track_order": "27/34",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

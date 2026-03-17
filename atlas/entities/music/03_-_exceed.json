@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_exceed",
+    "track_name": "03 - Exceed",
+    "album": "Thunder Force II",
+    "composer": "Tomomi Otani",
+    "year": "1989/06/15",
+    "track_order": "3/13",
+    "chip_data": {
+        "fm_writes": 45144,
+        "complexity": 0.886
+    },
+    "_type": "music:track"
+}

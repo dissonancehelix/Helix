@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_sewer~cave_~_ship_yard~jungle",
+    "track_name": "06 - Sewer~Cave ~ Ship Yard~Jungle",
+    "album": "Yo! Noid",
+    "composer": "Masakatsu Maekawa",
+    "year": "1990-03-16",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

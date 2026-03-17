@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_if_the_sky_is_burnin'_out",
+    "track_name": "03 - If the Sky is Burnin' Out",
+    "album": "Air Combat 22",
+    "composer": "Kazuhiro Nakamura",
+    "year": "1995-01-21",
+    "track_order": "3/19",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

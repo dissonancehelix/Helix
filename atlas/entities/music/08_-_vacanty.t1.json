@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_vacanty.t1",
+    "track_name": "08 - Vacanty.T1",
+    "album": "Valis II",
+    "composer": "Shinobu Ogawa",
+    "year": "1989-11-17",
+    "track_order": "8/32",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

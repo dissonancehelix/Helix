@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_area_6_boss_a",
+    "track_name": "28 - Area 6 Boss A",
+    "album": "Seed of Dragon",
+    "composer": "Hiroaki Iwatani",
+    "year": "1990",
+    "track_order": "28/32",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

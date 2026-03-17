@@ -1,0 +1,267 @@
+{
+  "composers": [
+    {
+      "composer_id": "tatsuyuki_maeda",
+      "full_name": "Tatsuyuki Maeda",
+      "aliases": [
+        "Johnny Maeda",
+        "Ryunosuke"
+      ],
+      "nationality": null,
+      "birth_year": null,
+      "years_active": null,
+      "instruments": [],
+      "studios": [
+        "Sega"
+      ],
+      "sound_teams": [],
+      "external_ids": {
+        "sega_retro": "Tatsuyuki_Maeda"
+      },
+      "bio_summary": null,
+      "bio_url": null,
+      "fingerprint_vector": null,
+      "cluster_memberships": [],
+      "representative_tracks": [],
+      "style_traits": {}
+    }
+  ],
+  "tracks": [],
+  "games": [
+    {
+      "game_id": "golden_axe_iii",
+      "title": "Golden Axe III",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "astal",
+      "title": "Astal",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "dragon_force",
+      "title": "Dragon Force",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "sonic_3d_flickies_island",
+      "title": "Sonic 3D: Flickies' Island",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "radio_dc",
+      "title": "Radio DC",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "skies_of_arcadia",
+      "title": "Skies of Arcadia",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "daytona_usa_2001",
+      "title": "Daytona USA 2001",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "gunvalkyrie",
+      "title": "Gunvalkyrie",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "shinobi",
+      "title": "Shinobi",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "sega_ages_2500_series_vol_18_dragon_force",
+      "title": "Sega Ages 2500 Series Vol. 18: Dragon Force",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "nights_journey_of_dreams",
+      "title": "NiGHTS: Journey of Dreams",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    },
+    {
+      "game_id": "dengeki_bunko_fighting_climax",
+      "title": "Dengeki Bunko Fighting Climax",
+      "platform": null,
+      "year": null,
+      "developer": null,
+      "publisher": null,
+      "composers": [],
+      "sound_team": null,
+      "external_ids": {}
+    }
+  ],
+  "teams": [],
+  "soundtracks": [],
+  "studios": [],
+  "platforms": [],
+  "drivers": [],
+  "relationships": [
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:golden_axe_iii",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:astal",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:dragon_force",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:sonic_3d_flickies_island",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:radio_dc",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:skies_of_arcadia",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:daytona_usa_2001",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:gunvalkyrie",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:shinobi",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:sega_ages_2500_series_vol_18_dragon_force",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:nights_journey_of_dreams",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    },
+    {
+      "source": "composer:tatsuyuki_maeda",
+      "relation": "worked_on",
+      "target": "game:dengeki_bunko_fighting_climax",
+      "confidence": 1.0,
+      "source_name": "sega_retro_html",
+      "notes": "Composer"
+    }
+  ]
+}

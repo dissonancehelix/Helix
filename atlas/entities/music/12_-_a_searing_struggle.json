@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_a_searing_struggle",
+    "track_name": "12 - A Searing Struggle",
+    "album": "Ys III: Wanderers from Ys",
+    "composer": "Yoshiaki Kubotera",
+    "year": "1991",
+    "track_order": "12/29",
+    "chip_data": {
+        "fm_writes": 60134,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_hydrocity_zone_act_1",
+    "track_name": "03 - Hydrocity Zone Act 1",
+    "album": "Sonic 3 & Knuckles",
+    "composer": "Sega Sound Team",
+    "year": "1994",
+    "track_order": "3/58",
+    "chip_data": {
+        "fm_writes": 27033,
+        "complexity": 0.295
+    },
+    "_type": "music:track"
+}

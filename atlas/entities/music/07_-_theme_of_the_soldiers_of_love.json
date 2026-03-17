@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_theme_of_the_soldiers_of_love",
+    "track_name": "07 - Theme of the Soldiers of Love",
+    "album": "Shock Troopers: 2nd Squad",
+    "composer": "Masaki Kase",
+    "year": "1998-11-06",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

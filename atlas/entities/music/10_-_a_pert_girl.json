@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_a_pert_girl",
+    "track_name": "10 - A Pert Girl",
+    "album": "Blaster Burn: Budruga Episode III",
+    "composer": "Keiji Takeuchi!",
+    "year": "1990",
+    "track_order": "10/27",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

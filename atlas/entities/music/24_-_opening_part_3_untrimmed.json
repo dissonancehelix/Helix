@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_opening_part_3_untrimmed",
+    "track_name": "24 - Opening Part 3 (Untrimmed)",
+    "album": "Jungle Strike",
+    "composer": "Brian Schmidt",
+    "year": "1993/09/01",
+    "track_order": "24/27",
+    "chip_data": {
+        "fm_writes": 1462675,
+        "complexity": 0.928
+    },
+    "_type": "music:track"
+}

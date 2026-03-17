@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_the_dragon's_tower_1",
+    "track_name": "02 - The Dragon's Tower 1",
+    "album": "Magic Sword: Heroic Fantasy",
+    "composer": "Manami Matsumae",
+    "year": "1990-07",
+    "track_order": "2/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

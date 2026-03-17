@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_slums_arrival_of_the_black_warriors",
+    "track_name": "02 - Slums (Arrival of the Black Warriors)",
+    "album": "Double Dragon",
+    "composer": "Kazunaka Yamane",
+    "year": "1987",
+    "track_order": "2/9%",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

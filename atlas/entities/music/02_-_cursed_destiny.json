@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_cursed_destiny",
+    "track_name": "02 - Cursed Destiny",
+    "album": "Elemental Master",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1990/12/14",
+    "track_order": "2/22",
+    "chip_data": {
+        "fm_writes": 76987,
+        "complexity": 0.652
+    },
+    "_type": "music:track"
+}

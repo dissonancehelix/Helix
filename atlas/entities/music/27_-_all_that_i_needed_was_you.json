@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_all_that_i_needed_was_you",
+    "track_name": "27 - All That I Needed (Was You)",
+    "album": "Mother",
+    "composer": "Keiichi Suzuki",
+    "year": "1988-07-27",
+    "track_order": "27/33",
+    "chip_data": {
+        "fm_writes": 180,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

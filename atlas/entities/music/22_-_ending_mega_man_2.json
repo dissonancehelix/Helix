@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_ending_mega_man_2",
+    "track_name": "22 - Ending (Mega Man 2)",
+    "album": "Mega Man: The Power Battle",
+    "composer": "Takashi Tateishi",
+    "year": "1995",
+    "track_order": "22/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

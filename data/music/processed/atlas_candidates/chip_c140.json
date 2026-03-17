@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:c140",
+  "name": "Sound Chip: C140",
+  "type": "SoundChip",
+  "libvgm_id": "0x1C"
+}

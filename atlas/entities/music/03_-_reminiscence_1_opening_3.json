@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_reminiscence_1_opening_3",
+    "track_name": "03 - Reminiscence 1 (Opening 3)",
+    "album": "Emerald Dragon",
+    "composer": "Nobuhito Koise",
+    "year": "1989-12-12",
+    "track_order": "3/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

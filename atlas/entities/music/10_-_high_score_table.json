@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_high_score_table",
+    "track_name": "10 - High Score Table",
+    "album": "Combat Cars",
+    "composer": "John Carehag",
+    "year": "1994/06/14",
+    "track_order": "10/12",
+    "chip_data": {
+        "fm_writes": 5067,
+        "complexity": 0.098
+    },
+    "_type": "music:track"
+}

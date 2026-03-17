@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_come_on_baby!_yeah,_right",
+    "track_name": "05 - Come On Baby! Yeah, Right",
+    "album": "Voltage Fighter Gowcaizer",
+    "composer": "Chikaki Iizuka",
+    "year": "1995-09-18",
+    "track_order": "5/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_great_demon_king_stage",
+    "track_name": "07 - Great Demon King Stage",
+    "album": "Ghosts 'n Goblins",
+    "composer": "Ayako Mori",
+    "year": "1985-09-19",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

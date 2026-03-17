@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_zulu",
+    "track_name": "04 - Zulu",
+    "album": "The Legend of Valkyrie",
+    "composer": "Hiroyuki Kawada",
+    "year": "1989-04-21",
+    "track_order": "4/13",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

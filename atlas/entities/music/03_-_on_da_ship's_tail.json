@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_on_da_ship's_tail",
+    "track_name": "03 - On da Ship's Tail",
+    "album": "Battletoads & Double Dragon",
+    "composer": "David Wise",
+    "year": "1993/02/19",
+    "track_order": "3/13",
+    "chip_data": {
+        "fm_writes": 41194,
+        "complexity": 0.464
+    },
+    "_type": "music:track"
+}

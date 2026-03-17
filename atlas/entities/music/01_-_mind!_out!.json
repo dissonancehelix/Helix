@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_mind!_out!",
+    "track_name": "01 - Mind! Out!",
+    "album": "Illumina!",
+    "composer": "Akira Sato",
+    "year": "1990-12-06",
+    "track_order": "1/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

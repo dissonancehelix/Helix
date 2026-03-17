@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_smithers",
+    "track_name": "21 - Smithers",
+    "album": "The Simpsons",
+    "composer": "Norio Hanzawa",
+    "year": "1991-04",
+    "track_order": "21/25",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

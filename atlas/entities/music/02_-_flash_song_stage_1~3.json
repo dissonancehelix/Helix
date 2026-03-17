@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_flash_song_stage_1~3",
+    "track_name": "02 - Flash Song (Stage 1~3)",
+    "album": "Mutant Fighter",
+    "composer": "Akira Takemoto",
+    "year": "1991-07",
+    "track_order": "2/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_[darius]_register_your_name",
+    "track_name": "09 - [Darius] Register Your Name",
+    "album": "Rainbow Islands",
+    "composer": "Shizuo Aizawa",
+    "year": "1987",
+    "track_order": "9/14",
+    "chip_data": {
+        "fm_writes": 175,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

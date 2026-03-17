@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_ta.ka.mi.ni.te",
+    "track_name": "19 - TA.KA.MI.NI.TE",
+    "album": "Xak II: Rising of the Redmoon",
+    "composer": "Tadahiro Nitta",
+    "year": "1990",
+    "track_order": "19/42",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

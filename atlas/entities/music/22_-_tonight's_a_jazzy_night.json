@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_tonight's_a_jazzy_night",
+    "track_name": "22 - Tonight's a Jazzy Night",
+    "album": "Dynamite Headdy",
+    "composer": "Katsuhiko Suzuki",
+    "year": "1994",
+    "track_order": "22/32",
+    "chip_data": {
+        "fm_writes": 25845,
+        "complexity": 0.44000000000000006
+    },
+    "_type": "music:track"
+}

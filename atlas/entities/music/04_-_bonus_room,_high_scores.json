@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_bonus_room,_high_scores",
+    "track_name": "04 - Bonus Room, High Scores",
+    "album": "Wolverine",
+    "composer": "Geoff Follin",
+    "year": "1991-10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 16,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

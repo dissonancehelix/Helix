@@ -1,0 +1,13 @@
+{
+    "entity_id": "40_-_gumball_machine",
+    "track_name": "40 - Gumball Machine",
+    "album": "Sonic 3 & Knuckles",
+    "composer": "Jun Senoue",
+    "year": "1994",
+    "track_order": "40/58",
+    "chip_data": {
+        "fm_writes": 21944,
+        "complexity": 0.611
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_royal_tomb",
+    "track_name": "17 - Royal Tomb",
+    "album": "Fushigi no Umi no Nadia",
+    "composer": "Hiromi Shibano",
+    "year": "1991/03/19",
+    "track_order": "17/23",
+    "chip_data": {
+        "fm_writes": 20670,
+        "complexity": 0.455
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_the_menace_of_jaquio",
+    "track_name": "14 - The Menace of Jaquio",
+    "album": "Ninja Gaiden",
+    "composer": "Keiji Yamagishi",
+    "year": "1988-12-09",
+    "track_order": "14/20",
+    "chip_data": {
+        "fm_writes": 673,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

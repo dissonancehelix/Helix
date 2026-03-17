@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_sea_caverns",
+    "track_name": "03 - Sea Caverns",
+    "album": "Awesome Possum Kicks Dr. Machino's Butt!%",
+    "composer": "Earl Vickers",
+    "year": "1993",
+    "track_order": "3/8(",
+    "chip_data": {
+        "fm_writes": 45047,
+        "complexity": 0.227
+    },
+    "_type": "music:track"
+}

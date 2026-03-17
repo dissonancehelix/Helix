@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_microbes",
+    "track_name": "01 - Microbes",
+    "album": "Chimera Beast",
+    "composer": "Kiyoshi Yokoyama",
+    "year": "1993",
+    "track_order": "1/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

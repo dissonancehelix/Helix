@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_ending_-_original_mode_bgm",
+    "track_name": "10 - Ending - Original Mode BGM",
+    "album": "Xenon 2: Mega Blast",
+    "composer": "Yuji Nomi, Manabu Saito",
+    "year": "1991-11-30",
+    "track_order": "10/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_game_explanation,_result_screen,_staff_roll",
+    "track_name": "01 - Game Explanation, Result Screen, Staff Roll",
+    "album": "Neo Turf Masters",
+    "composer": "Takushi Hiyamuta",
+    "year": "1996-01-29",
+    "track_order": "1/6+",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

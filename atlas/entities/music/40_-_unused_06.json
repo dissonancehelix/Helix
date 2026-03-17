@@ -1,0 +1,13 @@
+{
+    "entity_id": "40_-_unused_06",
+    "track_name": "40 - Unused 06",
+    "album": "Genocide 2: Master of the Dark Communion",
+    "composer": "Hideyuki Shimono",
+    "year": "1991-12-07",
+    "track_order": "40/49",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

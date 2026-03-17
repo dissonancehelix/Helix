@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_technoir_disco",
+    "track_name": "08 - Technoir Disco",
+    "album": "The Terminator",
+    "composer": "Matt Furniss",
+    "year": "1991/07/06",
+    "track_order": "8/11",
+    "chip_data": {
+        "fm_writes": 182387,
+        "complexity": 0.095
+    },
+    "_type": "music:track"
+}

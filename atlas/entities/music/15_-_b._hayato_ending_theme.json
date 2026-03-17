@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_b._hayato_ending_theme",
+    "track_name": "15 - B. Hayato Ending Theme",
+    "album": "Star Gladiator 2: Nightmare of Bilstein",
+    "composer": "Takayuki Iwai",
+    "year": "1998-03-16",
+    "track_order": "15/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

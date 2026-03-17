@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_select_play_mode",
+    "track_name": "01 - Select Play Mode",
+    "album": "World Court Tennis",
+    "composer": "Junko Ozawa",
+    "year": "1988-08-11",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

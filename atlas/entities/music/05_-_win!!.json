@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_win!!",
+    "track_name": "05 - Win!!",
+    "album": "The Legend of Heroes III: Moonlight Witch",
+    "composer": "Naoki Kaneda)",
+    "year": "1994-03-18",
+    "track_order": "5/61",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

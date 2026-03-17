@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_town",
+    "track_name": "01 - Town",
+    "album": "Alex Kidd in the Enchanted Castle",
+    "composer": "Chikako Kamatani!",
+    "year": "1990",
+    "track_order": "1/10",
+    "chip_data": {
+        "fm_writes": 9100,
+        "complexity": 0.874
+    },
+    "_type": "music:track"
+}

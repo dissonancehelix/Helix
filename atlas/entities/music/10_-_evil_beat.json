@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_evil_beat",
+    "track_name": "10 - Evil Beat",
+    "album": "Elemental Master",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1990/12/14",
+    "track_order": "10/22",
+    "chip_data": {
+        "fm_writes": 23713,
+        "complexity": 0.7070000000000001
+    },
+    "_type": "music:track"
+}

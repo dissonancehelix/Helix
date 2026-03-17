@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_area_g",
+    "track_name": "09 - Area G",
+    "album": "Shatterhand",
+    "composer": "Iku Mizutani",
+    "year": "1991-10-26",
+    "track_order": "9/10",
+    "chip_data": {
+        "fm_writes": 84,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

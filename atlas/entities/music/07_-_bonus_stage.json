@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_bonus_stage",
+    "track_name": "07 - Bonus Stage",
+    "album": "Denjin Makai",
+    "composer": "Noboru Yamane",
+    "year": "1994-02-01",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

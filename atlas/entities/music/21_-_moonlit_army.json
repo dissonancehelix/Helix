@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_moonlit_army",
+    "track_name": "21 - Moonlit Army",
+    "album": "Contra: Hard Corps",
+    "composer": "Michiru Yamane",
+    "year": "1994",
+    "track_order": "21/25",
+    "chip_data": {
+        "fm_writes": 2976,
+        "complexity": 0.539
+    },
+    "_type": "music:track"
+}

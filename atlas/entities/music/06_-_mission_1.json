@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_mission_1",
+    "track_name": "06 - Mission 1",
+    "album": "Gaiares",
+    "composer": "Shinobu Ogawa",
+    "year": "1990",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 189067,
+        "complexity": 0.944
+    },
+    "_type": "music:track"
+}

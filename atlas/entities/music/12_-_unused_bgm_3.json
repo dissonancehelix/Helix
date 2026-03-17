@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_unused_bgm_3",
+    "track_name": "12 - Unused BGM 3",
+    "album": "Ganryu",
+    "composer": "Yasuko Yamada",
+    "year": "1999",
+    "track_order": "12/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

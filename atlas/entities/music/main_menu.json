@@ -1,0 +1,13 @@
+{
+    "entity_id": "main_menu",
+    "track_name": "Main Menu",
+    "album": "Game no Kandzume Otokuyou",
+    "composer": "Masami Yitsuse",
+    "year": "1995/03",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 43088,
+        "complexity": 0.5329999999999999
+    },
+    "_type": "music:track"
+}

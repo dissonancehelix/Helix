@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_forestal_foreteller",
+    "track_name": "17 - Forestal Foreteller",
+    "album": "Genocide 2: Master of the Dark Communion",
+    "composer": "Hideyuki Shimono",
+    "year": "1991-12-07",
+    "track_order": "17/49",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

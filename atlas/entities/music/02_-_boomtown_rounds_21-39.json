@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_boomtown_rounds_21-39",
+    "track_name": "02 - Boomtown (Rounds 21-39)",
+    "album": "Bubble Bobble Part 2",
+    "composer": "Kenichi Kamio",
+    "year": "1993-03-05",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

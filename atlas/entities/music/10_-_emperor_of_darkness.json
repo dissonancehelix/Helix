@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_emperor_of_darkness",
+    "track_name": "10 - Emperor of Darkness",
+    "album": "Dragoon Might",
+    "composer": "Konami Kukeiha Club",
+    "year": "1995",
+    "track_order": "10/29",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

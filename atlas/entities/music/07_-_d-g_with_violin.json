@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_d-g_with_violin",
+    "track_name": "07 - D-G with Violin",
+    "album": "V.G. II: The Bout of Cabalistic Goddess",
+    "composer": "Takahiro Yonemura'",
+    "year": "1994-11-25",
+    "track_order": "7/18",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

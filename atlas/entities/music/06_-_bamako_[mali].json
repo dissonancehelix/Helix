@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_bamako_[mali]",
+    "track_name": "06 - Bamako [Mali]",
+    "album": "11e Rallye Big Run",
+    "composer": "Yasuhiko Takashiba",
+    "year": "1989-08",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

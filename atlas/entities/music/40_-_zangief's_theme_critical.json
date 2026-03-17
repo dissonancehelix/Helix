@@ -1,0 +1,13 @@
+{
+    "entity_id": "40_-_zangief's_theme_critical",
+    "track_name": "40 - Zangief's Theme (Critical)",
+    "album": "Street Fighter II",
+    "composer": "Yoko Shimomura",
+    "year": "1991",
+    "track_order": "40/54",
+    "chip_data": {
+        "fm_writes": 119,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_king_duke",
+    "track_name": "18 - King Duke",
+    "album": "Duke Nukem II",
+    "composer": "Bobby Prince",
+    "year": "1993-12-03",
+    "track_order": "18/19",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

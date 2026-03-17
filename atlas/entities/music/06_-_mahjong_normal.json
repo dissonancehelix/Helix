@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_mahjong_normal",
+    "track_name": "06 - Mahjong (Normal)",
+    "album": "Jantei Monogatari 3: Saver Angels",
+    "composer": "Iku Mizutani!",
+    "year": "1993-04-23",
+    "track_order": "6/30",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

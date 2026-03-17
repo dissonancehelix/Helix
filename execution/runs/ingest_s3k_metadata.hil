@@ -1,0 +1,15 @@
+ENTITY add music.composer:michael_jackson name:"Michael Jackson" type:Composer
+ENTITY add music.composer:brad_buxer name:"Brad Buxer" type:Composer
+ENTITY add music.composer:bobby_brooks name:"Bobby Brooks" type:Composer
+ENTITY add music.composer:darryl_ross name:"Darryl Ross" type:Composer
+ENTITY add music.composer:geoff_grace name:"Geoff Grace" type:Composer
+ENTITY add music.composer:doug_grigsby name:"Doug Grigsby" type:Composer
+ENTITY add music.composer:jun_senoue name:"Jun Senoue" type:Composer
+ENTITY add music.composer:tatsuyuki_maeda name:"Tatsuyuki Maeda" type:Composer
+ENTITY add music.composer:tomonori_sawada name:"Tomonori Sawada" type:Composer
+ENTITY add music.composer:masayuki_nagao name:"Masayuki Nagao" type:Composer
+ENTITY add music.composer:teruhiko_nakagawa name:"Teruhiko Nakagawa" type:Composer
+ENTITY add music.game:sonic_3_and_knuckles name:"Sonic 3 & Knuckles" type:Game
+ENTITY add music.track:s3k_all name:"ALL" type:Track
+ENTITY link music.track:s3k_all relation:APPEARS_IN target:music.game:sonic_3_and_knuckles
+ENTITY link music.track:s3k_all relation:COMPOSED target:music.composer:masayuki_nagao

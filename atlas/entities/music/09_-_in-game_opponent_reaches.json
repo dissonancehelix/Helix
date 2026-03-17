@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_in-game_opponent_reaches",
+    "track_name": "09 - In-game (Opponent Reaches)",
+    "album": "Mahjong Fantasia",
+    "composer": "Keishi Yonao",
+    "year": "1992-06-06",
+    "track_order": "9/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

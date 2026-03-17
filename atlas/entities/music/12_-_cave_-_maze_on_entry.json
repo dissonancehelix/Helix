@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_cave_-_maze_on_entry",
+    "track_name": "12 - Cave - Maze (On Entry)",
+    "album": "The Lone Ranger",
+    "composer": "Yoshinori Sasaki",
+    "year": "1991-08",
+    "track_order": "12/32",
+    "chip_data": {
+        "fm_writes": 96,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

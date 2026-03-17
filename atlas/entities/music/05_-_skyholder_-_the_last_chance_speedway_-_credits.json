@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_skyholder_-_the_last_chance_speedway_-_credits",
+    "track_name": "05 - Skyholder - The Last Chance Speedway - Credits",
+    "album": "MegaRace",
+    "composer": "phane Picq",
+    "year": "1993",
+    "track_order": "5/6.",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

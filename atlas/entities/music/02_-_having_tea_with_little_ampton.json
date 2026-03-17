@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_having_tea_with_little_ampton",
+    "track_name": "02 - Having Tea With Little Ampton",
+    "album": "Commander Keen in Goodbye, Galaxy! Episode V: The Armageddon Machine",
+    "composer": "Bobby PrinceD",
+    "year": "1991-12-15",
+    "track_order": "2/16",
+    "chip_data": {
+        "fm_writes": 12,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

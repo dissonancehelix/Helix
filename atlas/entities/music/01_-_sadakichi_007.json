@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_sadakichi_007",
+    "track_name": "01 - Sadakichi 007",
+    "album": "Sadakichi Seven: Hideyoshi no Ougon",
+    "composer": "Daisuke Inoue#",
+    "year": "1988-11-18",
+    "track_order": "1/13",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

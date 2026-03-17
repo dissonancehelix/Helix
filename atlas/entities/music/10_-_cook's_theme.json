@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_cook's_theme",
+    "track_name": "10 - Cook's Theme",
+    "album": "Burai",
+    "composer": "Chihiro Fujioka",
+    "year": "1990",
+    "track_order": "10/23",
+    "chip_data": {
+        "fm_writes": 11,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_death",
+    "track_name": "18 - Death",
+    "album": "Daikoukai Jidai II",
+    "composer": "Yoko Kanno",
+    "year": "1993",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 2111,
+        "complexity": 0.286
+    },
+    "_type": "music:track"
+}

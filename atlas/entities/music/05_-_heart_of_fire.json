@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_heart_of_fire",
+    "track_name": "05 - Heart of Fire",
+    "album": "Castlevania",
+    "composer": "Kinuyo Yamashita",
+    "year": "1986",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

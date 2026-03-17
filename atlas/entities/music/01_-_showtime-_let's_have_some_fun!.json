@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_showtime-_let's_have_some_fun!",
+    "track_name": "01 - Showtime- Let's Have Some Fun!",
+    "album": "Desert Assault",
+    "composer": "Hiroaki Yoshida",
+    "year": "1991",
+    "track_order": "1/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

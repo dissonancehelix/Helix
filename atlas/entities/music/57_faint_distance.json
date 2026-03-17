@@ -1,0 +1,13 @@
+{
+    "entity_id": "57_faint_distance",
+    "track_name": "57 Faint Distance",
+    "album": "Power Slave",
+    "composer": "Naoto Ishikawa",
+    "year": "1995-10-27",
+    "track_order": "52/57",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

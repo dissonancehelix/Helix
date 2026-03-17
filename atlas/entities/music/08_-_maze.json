@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_maze",
+    "track_name": "08 - Maze",
+    "album": "Ganbare Goemon 2",
+    "composer": "Michiru Yamane",
+    "year": "1989",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

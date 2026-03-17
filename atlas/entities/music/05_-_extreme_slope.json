@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_extreme_slope",
+    "track_name": "05 - Extreme Slope",
+    "album": "Alpine Racer",
+    "composer": "Takayuki Ishikawa",
+    "year": "1994-09-11",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

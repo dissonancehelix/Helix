@@ -1,0 +1,19 @@
+
+ GEMS 2.5
+==========
+
+ Released by drx. 24/09/2007
+ 
+ Visit http://www.hidden-palace.org/ for more prototype/dev stuff.
+ Visit http://www.hacking-cult.org/ if you want to learn more about programming the Megadrive.
+ 
+ Enjoy another great Hidden Palace release. Included is the full GEMS development kit for developing music on the Megadrive.
+ Contains all the necessary source code and the main GEMS application. 
+ You can also find the source code to the game SHIP inside.
+ 
+ If you don't have the RAM/ROM development board hooked up to the PC, or the MPU-401, I suggest using these switches to run the app:
+ 
+  GEMS -nm -ng
+  
+ Have fun!
+ -drx

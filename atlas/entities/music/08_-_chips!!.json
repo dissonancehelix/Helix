@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_chips!!",
+    "track_name": "08 - Chips!!",
+    "album": "ChoRenSha 68K",
+    "composer": "Ruzarin Kashiwagi",
+    "year": "1995",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

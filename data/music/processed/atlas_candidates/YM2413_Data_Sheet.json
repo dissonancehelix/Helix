@@ -1,0 +1,16 @@
+{
+  "id": "music.manual:YM2413_Data_Sheet",
+  "type": "KnowledgeSource",
+  "extracted_entities": [
+    {
+      "id": "music.sound_chip:ym2413_data_sheet",
+      "type": "SoundChip"
+    }
+  ],
+  "invariant_candidates": [
+    {
+      "id": "music.invariant:ym2413_data_sheet_law",
+      "description": "Extracted from YM2413_Data_Sheet.pdf"
+    }
+  ]
+}

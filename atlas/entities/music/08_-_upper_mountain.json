@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_upper_mountain",
+    "track_name": "08 - Upper Mountain",
+    "album": "Tintin in Tibet",
+    "composer": "Alberto Jose Gonz",
+    "year": "1994",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 57,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

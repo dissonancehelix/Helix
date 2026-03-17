@@ -1,0 +1,13 @@
+{
+    "entity_id": "39_-_attending_to_the_royal_city",
+    "track_name": "39 - Attending to the Royal City",
+    "album": "The Legend of Xanadu",
+    "composer": "Atsushi Shirakawa",
+    "year": "1994",
+    "track_order": "39/84",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

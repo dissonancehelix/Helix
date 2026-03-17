@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_mission_briefing",
+    "track_name": "03 - Mission Briefing",
+    "album": "Gunship",
+    "composer": "Matt Furniss",
+    "year": "1993",
+    "track_order": "3/13",
+    "chip_data": {
+        "fm_writes": 31983,
+        "complexity": 0.034
+    },
+    "_type": "music:track"
+}

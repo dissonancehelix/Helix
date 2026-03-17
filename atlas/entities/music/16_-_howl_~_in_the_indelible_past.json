@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_howl_~_in_the_indelible_past",
+    "track_name": "16 - Howl ~ In the Indelible Past",
+    "album": "Metal Max",
+    "composer": "Satoshi Kadokura",
+    "year": "1991-05-24",
+    "track_order": "16/26",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

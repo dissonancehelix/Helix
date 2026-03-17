@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_ending_~a_scolding~",
+    "track_name": "25 - Ending ~A Scolding~",
+    "album": "X-Men vs. Street Fighter",
+    "composer": "Yuki Iwai",
+    "year": "1996",
+    "track_order": "25/29",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

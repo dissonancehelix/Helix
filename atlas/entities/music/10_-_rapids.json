@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_rapids",
+    "track_name": "10 - Rapids",
+    "album": "Lucky Luke",
+    "composer": "Alberto Jose Gonz",
+    "year": "1996",
+    "track_order": "10/15",
+    "chip_data": {
+        "fm_writes": 62,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

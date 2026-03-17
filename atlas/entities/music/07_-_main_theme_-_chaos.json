@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_main_theme_-_chaos",
+    "track_name": "07 - Main Theme - Chaos",
+    "album": "Darius Plus",
+    "composer": "Hisayoshi Ogura",
+    "year": "1990-09-07",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

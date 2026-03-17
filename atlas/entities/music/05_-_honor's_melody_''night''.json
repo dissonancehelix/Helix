@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_honor's_melody_''night''",
+    "track_name": "05 - Honor's Melody ''Night''",
+    "album": "Samurai Shodown",
+    "composer": "Yasuo Yamate",
+    "year": "1993-07-07",
+    "track_order": "5/21",
+    "chip_data": {
+        "fm_writes": 23,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

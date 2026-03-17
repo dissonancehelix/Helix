@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_hero",
+    "track_name": "21 - Hero",
+    "album": "Samurai Shodown V",
+    "composer": "Kennosuke Suemura",
+    "year": "2003-10-10",
+    "track_order": "21/25",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

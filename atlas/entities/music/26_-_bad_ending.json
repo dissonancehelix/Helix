@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_bad_ending",
+    "track_name": "26 - Bad Ending",
+    "album": "Rival Schools: United by Fate",
+    "composer": "Setsuo Yamamoto",
+    "year": "1997-11-17 ",
+    "track_order": "26/27",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_metal_beat_2",
+    "track_name": "02 - Metal Beat 2",
+    "album": "Metal Masters",
+    "composer": "Alberto Jose Gonz",
+    "year": "1993-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 84,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

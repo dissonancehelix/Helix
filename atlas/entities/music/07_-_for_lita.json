@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_for_lita",
+    "track_name": "07 - For Lita",
+    "album": "Mad Paradox",
+    "composer": "Shirahama Nanki",
+    "year": "1992-08-28",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 8,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

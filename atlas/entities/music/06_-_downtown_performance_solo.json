@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_downtown_performance_solo",
+    "track_name": "06 - Downtown Performance (Solo)",
+    "album": "Tempo",
+    "composer": "Chamy Ishi",
+    "year": "1995",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 445640,
+        "complexity": 0.027
+    },
+    "_type": "music:track"
+}

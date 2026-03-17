@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_boss_1_stage_1,_5",
+    "track_name": "06 - Boss 1 (Stage 1, 5)",
+    "album": "Cadillacs and Dinosaurs",
+    "composer": "Isao Abe",
+    "year": "1993-02-01",
+    "track_order": "6/26",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

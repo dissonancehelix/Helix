@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_pus_palace",
+    "track_name": "10 - Pus Palace",
+    "album": "Boogerman",
+    "composer": "Matt Furniss",
+    "year": "1994/08/06",
+    "track_order": "10/13",
+    "chip_data": {
+        "fm_writes": 11275,
+        "complexity": 0.328
+    },
+    "_type": "music:track"
+}

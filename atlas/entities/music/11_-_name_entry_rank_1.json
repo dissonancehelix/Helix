@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_name_entry_rank_1",
+    "track_name": "11 - Name Entry (Rank 1)",
+    "album": "Last Duel",
+    "composer": "Tamayo Kawamoto",
+    "year": "1988",
+    "track_order": "11/12",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

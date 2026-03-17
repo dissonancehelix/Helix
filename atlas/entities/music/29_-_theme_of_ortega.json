@@ -1,0 +1,13 @@
+{
+    "entity_id": "29_-_theme_of_ortega",
+    "track_name": "29 - Theme of Ortega",
+    "album": "Ring of Destruction: Slam Masters II",
+    "composer": "Toshio Kajino",
+    "year": "1994-09",
+    "track_order": "29/32",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

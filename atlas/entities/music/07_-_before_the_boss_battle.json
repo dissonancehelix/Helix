@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_before_the_boss_battle",
+    "track_name": "07 - Before the Boss Battle",
+    "album": "The Tower of Gazzel",
+    "composer": "Yukiharu Urita",
+    "year": "1991",
+    "track_order": "7/32",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

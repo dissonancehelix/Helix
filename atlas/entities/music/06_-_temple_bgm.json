@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_temple_bgm",
+    "track_name": "06 - Temple BGM",
+    "album": "Silk Road 2",
+    "composer": "Shinoda Nobuhisa",
+    "year": "1995-08-13",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

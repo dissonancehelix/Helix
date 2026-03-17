@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stage_1-_the_mojo_mansion",
+    "track_name": "05 - Stage 1- The Mojo Mansion",
+    "album": "Maui Mallard",
+    "composer": "Michael Giacchino",
+    "year": "1995",
+    "track_order": "5/13",
+    "chip_data": {
+        "fm_writes": 102776,
+        "complexity": 0.312
+    },
+    "_type": "music:track"
+}

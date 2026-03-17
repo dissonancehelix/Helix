@@ -1,0 +1,13 @@
+{
+    "entity_id": "37_-_i'm_first_in_line",
+    "track_name": "37 - I'm First in Line",
+    "album": "World Heroes 2",
+    "composer": "Yuka Watanabe",
+    "year": "1993-04-26",
+    "track_order": "37/41",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

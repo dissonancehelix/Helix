@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_wonder_attack",
+    "track_name": "04 - Wonder Attack",
+    "album": "Wonder Planet",
+    "composer": "Azusa Hara",
+    "year": "1987",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

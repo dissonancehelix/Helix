@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_enemy_ship_ii",
+    "track_name": "11 - Enemy Ship II",
+    "album": "Starfire",
+    "composer": "Takeshi Abo",
+    "year": "1994-10-14",
+    "track_order": "11/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_cutscene_3",
+    "track_name": "07 - Cutscene 3",
+    "album": "Indiana Jones and the Last Crusade",
+    "composer": "Tim Follin",
+    "year": "1991-03",
+    "track_order": "7/17",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_elite_soldier_forest",
+    "track_name": "05 - Elite Soldier Forest",
+    "album": "Top Hunter: Roddy & Cathy",
+    "composer": "Yoko Osaka",
+    "year": "1994-05-18",
+    "track_order": "5/28",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

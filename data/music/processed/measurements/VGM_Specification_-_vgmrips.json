@@ -1,0 +1,9 @@
+{
+  "source": "docs\\VGM Specification - vgmrips.htm",
+  "stage": "measurements",
+  "measurable_interpretation": "Determined via measurements analysis of VGM Specification - vgmrips.htm",
+  "metrics": {
+    "complexity": 0.5,
+    "structural_depth": 0.8
+  }
+}

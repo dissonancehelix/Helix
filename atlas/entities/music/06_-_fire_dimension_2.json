@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_fire_dimension_2",
+    "track_name": "06 - Fire Dimension 2",
+    "album": "Chakan: The Forever Man",
+    "composer": "Mark Miller",
+    "year": "1992/08/12",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 12814,
+        "complexity": 0.855
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_name_entry_1",
+    "track_name": "04 - Name Entry 1",
+    "album": "Bomb Jack",
+    "composer": "Tsukasa Masuko",
+    "year": "1984",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_magenta",
+    "track_name": "12 - Magenta",
+    "album": "Xenon: Mugen no Shitai",
+    "composer": "Ryu Umemoto",
+    "year": "1995-03-31",
+    "track_order": "12/20",
+    "chip_data": {
+        "fm_writes": 3634,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

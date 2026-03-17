@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_stage_3_version_a",
+    "track_name": "04 - Stage 3 (Version A)",
+    "album": "Batman",
+    "composer": "Nobuyuki Hara",
+    "year": "1990-09-14",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_fire_warning",
+    "track_name": "10 - Fire Warning",
+    "album": "Space Manbow",
+    "composer": "Tsuyoshi Sekito",
+    "year": "1989-12-21",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

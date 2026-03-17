@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_fun_invader_extermination",
+    "track_name": "06 - Fun Invader Extermination",
+    "album": "Space Bomber",
+    "composer": "Masaki Izutani",
+    "year": "1998",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 214,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

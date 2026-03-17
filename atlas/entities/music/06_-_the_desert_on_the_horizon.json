@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_the_desert_on_the_horizon",
+    "track_name": "06 - The Desert on the Horizon",
+    "album": "Blazer",
+    "composer": "Seiichi Sakurai",
+    "year": "1987-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

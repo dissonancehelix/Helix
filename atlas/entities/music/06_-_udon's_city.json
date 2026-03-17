@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_udon's_city",
+    "track_name": "06 - Udon's City",
+    "album": "Tricky Kick",
+    "composer": "Masahiro Teramoto",
+    "year": "1991-07-06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

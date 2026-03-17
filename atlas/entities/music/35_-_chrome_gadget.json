@@ -1,0 +1,13 @@
+{
+    "entity_id": "35_-_chrome_gadget",
+    "track_name": "35 - Chrome Gadget",
+    "album": "Sonic 3 & Knuckles",
+    "composer": "Sega Sound Team",
+    "year": "1994",
+    "track_order": "35/58",
+    "chip_data": {
+        "fm_writes": 31071,
+        "complexity": 0.5
+    },
+    "_type": "music:track"
+}

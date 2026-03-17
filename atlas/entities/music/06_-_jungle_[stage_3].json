@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_jungle_[stage_3]",
+    "track_name": "06 - Jungle [Stage 3]",
+    "album": "Marble Cooking",
+    "composer": "Katsumi Mirai",
+    "year": "1994-12-16",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

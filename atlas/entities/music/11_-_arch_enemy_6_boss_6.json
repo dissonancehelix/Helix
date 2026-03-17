@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_arch_enemy_6_boss_6",
+    "track_name": "11 - Arch Enemy 6 (Boss 6)",
+    "album": "P-47: The Phantom Fighter",
+    "composer": "Sizlla Okamura",
+    "year": "1988",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

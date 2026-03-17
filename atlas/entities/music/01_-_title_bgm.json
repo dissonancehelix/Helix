@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_title_bgm",
+    "track_name": "01 - Title BGM",
+    "album": "Gall Force: Eternal Story",
+    "composer": "Hideki Kanazashi",
+    "year": "1986-12-10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

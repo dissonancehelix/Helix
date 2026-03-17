@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_track_7",
+    "track_name": "05 - Track 7",
+    "album": "Gargoyles",
+    "composer": "Michael Giacchino",
+    "year": "1995/05/15",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 329537,
+        "complexity": 0.28400000000000003
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "32_-_your_short_sleeves",
+    "track_name": "32 - Your Short Sleeves",
+    "album": "Tokimeki Memorial Taisen Puzzle-Dama",
+    "composer": "Kazuhiro Senoo",
+    "year": "1995-12",
+    "track_order": "32/35",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

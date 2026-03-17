@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_suggestion",
+    "track_name": "31 - Suggestion",
+    "album": "Jinn: Eien no Yuushi",
+    "composer": "Osamu Ishikawa",
+    "year": "1994-09-02",
+    "track_order": "31/31",
+    "chip_data": {
+        "fm_writes": 41,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

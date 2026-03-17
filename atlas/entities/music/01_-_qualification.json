@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_qualification",
+    "track_name": "01 - Qualification",
+    "album": "GP Rider",
+    "composer": "Hiro",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

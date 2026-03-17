@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_boss_bgm_1-_tomax_and_xamot,_major_bludd,_destro",
+    "track_name": "04 - Boss BGM 1- Tomax and Xamot, Major Bludd, Destro",
+    "album": "G.I. Joe: A Real American Hero",
+    "composer": "Tsutomu Ogura",
+    "year": "1992-04",
+    "track_order": "4/170",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

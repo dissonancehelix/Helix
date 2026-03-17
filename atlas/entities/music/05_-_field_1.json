@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_field_1",
+    "track_name": "05 - Field 1",
+    "album": "Dungeon Explorer",
+    "composer": "Tsukasa Masuko",
+    "year": "1989-03-04",
+    "track_order": "5/19",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_map_bgm",
+    "track_name": "03 - Map BGM",
+    "album": "Hany on the Road",
+    "composer": "Ako Matsudaira",
+    "year": "1990-09-07",
+    "track_order": "3/25",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

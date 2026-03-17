@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_mari's_death",
+    "track_name": "07 - Mari's Death",
+    "album": "Yami no Ketsuzoku",
+    "composer": "Manabu Saito",
+    "year": "1990-07-21",
+    "track_order": "7/34",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

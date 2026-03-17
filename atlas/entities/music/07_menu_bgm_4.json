@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_menu_bgm_4",
+    "track_name": "07 Menu BGM 4",
+    "album": "FIFA International Soccer",
+    "composer": "Jeff van Dyck",
+    "year": "1993-12",
+    "track_order": "Album",
+    "chip_data": {
+        "fm_writes": 11113,
+        "complexity": 0.857
+    },
+    "_type": "music:track"
+}

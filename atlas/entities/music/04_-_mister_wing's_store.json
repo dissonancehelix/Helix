@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_mister_wing's_store",
+    "track_name": "04 - Mister Wing's Store",
+    "album": "Gremlins 2: The New Batch",
+    "composer": "Naoki Kodaka",
+    "year": "1990-10",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

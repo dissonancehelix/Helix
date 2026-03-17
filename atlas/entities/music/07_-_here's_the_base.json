@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_here's_the_base",
+    "track_name": "07 - Here's the Base",
+    "album": "Ironclad",
+    "composer": "Hiroyuki Takei",
+    "year": "1996",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

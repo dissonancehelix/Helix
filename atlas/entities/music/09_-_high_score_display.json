@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_high_score_display",
+    "track_name": "09 - High Score Display",
+    "album": "Kirby's Pinball Land",
+    "composer": "Tadashi Ikegami",
+    "year": "1993-11-27",
+    "track_order": "9/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

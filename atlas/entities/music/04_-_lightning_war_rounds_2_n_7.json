@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_lightning_war_rounds_2_n_7",
+    "track_name": "04 - Lightning War (Rounds 2 & 7)",
+    "album": "Raiden Trad",
+    "composer": "Akira Sato",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 38380,
+        "complexity": 0.659
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_the_spaceport",
+    "track_name": "06 - The Spaceport",
+    "album": "Bubba 'n' Stix",
+    "composer": "Nathan McCree",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 40777,
+        "complexity": 0.398
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_d-beat",
+    "track_name": "13 - D-Beat",
+    "album": "Cy-Lips",
+    "composer": "Naoto Ishikawa",
+    "year": "1993",
+    "track_order": "13/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

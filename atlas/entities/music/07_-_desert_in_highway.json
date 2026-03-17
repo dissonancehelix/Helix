@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_desert_in_highway",
+    "track_name": "07 - Desert in Highway",
+    "album": "Hany on the Road",
+    "composer": "Ako Matsudaira",
+    "year": "1990-09-07",
+    "track_order": "7/25",
+    "chip_data": {
+        "fm_writes": 21,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

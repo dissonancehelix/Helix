@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_fm_funk",
+    "track_name": "02 - FM Funk",
+    "album": "Quartet",
+    "composer": "Katsuhiro Hayashi",
+    "year": "1986",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

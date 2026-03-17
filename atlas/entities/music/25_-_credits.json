@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_credits",
+    "track_name": "25 - Credits",
+    "album": "Beggar Prince",
+    "composer": "Zhenglong Zhang",
+    "year": "1996",
+    "track_order": "25/25",
+    "chip_data": {
+        "fm_writes": 3024,
+        "complexity": 0.364
+    },
+    "_type": "music:track"
+}

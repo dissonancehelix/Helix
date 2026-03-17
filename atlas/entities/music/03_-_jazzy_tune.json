@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_jazzy_tune",
+    "track_name": "03 - Jazzy Tune",
+    "album": "Cool Spot",
+    "composer": "Tommy Tallarico",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 209216,
+        "complexity": 0.6699999999999999
+    },
+    "_type": "music:track"
+}

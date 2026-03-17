@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_the_dark_route_stage2_overworld",
+    "track_name": "03 - The Dark Route (Stage2 Overworld)",
+    "album": "Last Duel",
+    "composer": "Tamayo Kawamoto",
+    "year": "1988",
+    "track_order": "3/12!",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

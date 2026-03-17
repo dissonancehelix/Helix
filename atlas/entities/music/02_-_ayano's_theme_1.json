@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_ayano's_theme_1",
+    "track_name": "02 - Ayano's Theme 1",
+    "album": "Photo Genic",
+    "composer": "Kanta Watanabe",
+    "year": "1997-05-16",
+    "track_order": "2/30",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

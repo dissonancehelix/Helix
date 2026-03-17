@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_inside_shop",
+    "track_name": "04 - Inside Shop",
+    "album": "The Legend of Galahad",
+    "composer": "Matt Furniss",
+    "year": "1992/02/12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6925,
+        "complexity": 0.049
+    },
+    "_type": "music:track"
+}

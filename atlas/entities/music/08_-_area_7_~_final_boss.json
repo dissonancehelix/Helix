@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_area_7_~_final_boss",
+    "track_name": "08 - Area 7 ~ Final Boss",
+    "album": "Blaster Master: Enemy Below",
+    "composer": "Naoki Kodaka",
+    "year": "2000-02-24",
+    "track_order": "8/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

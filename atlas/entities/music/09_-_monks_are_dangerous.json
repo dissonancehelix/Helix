@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_monks_are_dangerous",
+    "track_name": "09 - Monks are Dangerous",
+    "album": "Power Instinct Legends",
+    "composer": "Toshikazu Tanaka",
+    "year": "1995-09",
+    "track_order": "9/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

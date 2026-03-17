@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_fatal_depth",
+    "track_name": "12 - Fatal Depth",
+    "album": "Street Fighter Alpha 3",
+    "composer": "Isao Abe",
+    "year": "1998-07",
+    "track_order": "12/39",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

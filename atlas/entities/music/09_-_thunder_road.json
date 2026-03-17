@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_thunder_road",
+    "track_name": "09 - Thunder Road",
+    "album": "Mad Gear",
+    "composer": "Takashi Tateishi",
+    "year": "1989-02",
+    "track_order": "9/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_night_of_the_ranch",
+    "track_name": "03 - Night of the Ranch",
+    "album": "Cattle Mutilation",
+    "composer": "Yasushi Takeda",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

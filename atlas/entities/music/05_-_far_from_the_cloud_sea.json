@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_far_from_the_cloud_sea",
+    "track_name": "05 - Far from The Cloud Sea",
+    "album": "Strikers 1945 II",
+    "composer": "Masaki Izutani",
+    "year": "1997",
+    "track_order": "5/13",
+    "chip_data": {
+        "fm_writes": 232,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

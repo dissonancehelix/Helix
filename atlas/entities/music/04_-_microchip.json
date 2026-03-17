@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_microchip",
+    "track_name": "04 - Microchip",
+    "album": "Treasure Master",
+    "composer": "Geoff Follin",
+    "year": "1991-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 85,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

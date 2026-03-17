@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_enemy_army_turn_part_2_-_normal",
+    "track_name": "15 - Enemy Army Turn (Part 2 - Normal)",
+    "album": "The Hybrid Front",
+    "composer": "Naofumi Hataya",
+    "year": "1994/07/22",
+    "track_order": "15/20!",
+    "chip_data": {
+        "fm_writes": 7957,
+        "complexity": 0.294
+    },
+    "_type": "music:track"
+}

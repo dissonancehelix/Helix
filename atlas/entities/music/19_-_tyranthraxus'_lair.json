@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_tyranthraxus'_lair",
+    "track_name": "19 - Tyranthraxus' Lair",
+    "album": "Pool of Radiance",
+    "composer": "Seiji Toda",
+    "year": "1991-06-28",
+    "track_order": "19/26",
+    "chip_data": {
+        "fm_writes": 151,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

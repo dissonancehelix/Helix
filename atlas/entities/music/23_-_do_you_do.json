@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_do_you_do",
+    "track_name": "23 - Do You Do",
+    "album": "Garou: Mark of the Wolves",
+    "composer": "Akihiro Uchida",
+    "year": "1999",
+    "track_order": "23/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_episode_4",
+    "track_name": "05 - Episode 4",
+    "album": "The Adventures of Gilligan's Island",
+    "composer": "Masaki Hashimoto",
+    "year": "1990-07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

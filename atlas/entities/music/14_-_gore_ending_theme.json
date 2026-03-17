@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_gore_ending_theme",
+    "track_name": "14 - Gore Ending Theme",
+    "album": "Star Gladiator 2: Nightmare of Bilstein",
+    "composer": "Takayuki Iwai",
+    "year": "1998-03-16",
+    "track_order": "14/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

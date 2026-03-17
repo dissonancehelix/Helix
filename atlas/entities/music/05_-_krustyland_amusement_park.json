@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_krustyland_amusement_park",
+    "track_name": "05 - Krustyland Amusement Park",
+    "album": "The Simpsons",
+    "composer": "Norio Hanzawa",
+    "year": "1991-04",
+    "track_order": "5/25",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

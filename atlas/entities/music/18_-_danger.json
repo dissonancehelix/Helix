@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_danger",
+    "track_name": "18 - Danger",
+    "album": "Urusei Yatsura: Dear My Friends",
+    "composer": "Kenichi Okuma",
+    "year": "1994-04-15",
+    "track_order": "18/27",
+    "chip_data": {
+        "fm_writes": 87,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

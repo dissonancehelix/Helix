@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_do_play_a_game!",
+    "track_name": "01 - Do Play a Game!",
+    "album": "Punk Shot",
+    "composer": "Norio Hanzawa",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

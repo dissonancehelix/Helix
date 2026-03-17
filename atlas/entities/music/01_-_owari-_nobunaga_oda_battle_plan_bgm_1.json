@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_owari-_nobunaga_oda_battle_plan_bgm_1",
+    "track_name": "01 - Owari- Nobunaga Oda (Battle Plan BGM 1)",
+    "album": "Quiz Tonosama no Yabou",
+    "composer": "Manami Matsumae",
+    "year": "1991-01-16",
+    "track_order": "1/19'",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

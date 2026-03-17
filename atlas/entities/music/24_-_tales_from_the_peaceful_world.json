@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_tales_from_the_peaceful_world",
+    "track_name": "24 - Tales from the Peaceful World",
+    "album": "Lagoon",
+    "composer": "Hideki Suzuki",
+    "year": "1990-09-12",
+    "track_order": "24/37",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

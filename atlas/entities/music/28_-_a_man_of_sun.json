@@ -1,0 +1,13 @@
+{
+    "entity_id": "28_-_a_man_of_sun",
+    "track_name": "28 - A Man of Sun",
+    "album": "Dynamite Headdy",
+    "composer": "Katsuhiko Suzuki",
+    "year": "1994",
+    "track_order": "28/32",
+    "chip_data": {
+        "fm_writes": 21334,
+        "complexity": 0.462
+    },
+    "_type": "music:track"
+}

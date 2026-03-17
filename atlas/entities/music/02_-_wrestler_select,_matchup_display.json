@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_wrestler_select,_matchup_display",
+    "track_name": "02 - Wrestler Select, Matchup Display",
+    "album": "Blazing Tornado",
+    "composer": "Hiroyuki Naka",
+    "year": "1994",
+    "track_order": "2/19 ",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

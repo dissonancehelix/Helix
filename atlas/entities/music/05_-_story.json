@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_story",
+    "track_name": "05 - Story",
+    "album": "Ren & Stimpy: Stimpy's Invention",
+    "composer": "Sam Powell ",
+    "year": "1993",
+    "track_order": "5/17",
+    "chip_data": {
+        "fm_writes": 24528,
+        "complexity": 0.375
+    },
+    "_type": "music:track"
+}

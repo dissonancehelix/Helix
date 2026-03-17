@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_bombs_away",
+    "track_name": "11 - Bombs Away",
+    "album": "Mach Breakers: Numan Athletics 2",
+    "composer": "Hiroto Sasaki ",
+    "year": "1995",
+    "track_order": "11/22",
+    "chip_data": {
+        "fm_writes": 9,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

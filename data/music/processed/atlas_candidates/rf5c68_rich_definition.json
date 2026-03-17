@@ -1,0 +1,19 @@
+{
+  "id": "music.sound_chip:rf5c68",
+  "type": "SoundChip",
+  "name": "Ricoh RF5C68",
+  "substrate": "music",
+  "properties": {
+    "channels": 8,
+    "resolution": "8-bit PCM",
+    "platforms": [
+      "FM Towns",
+      "Sega System 18",
+      "Sega System 32"
+    ]
+  },
+  "sources": [
+    "data/music/source/docs/RF5C68A.pdf",
+    "https://segaretro.org/RF5c68"
+  ]
+}

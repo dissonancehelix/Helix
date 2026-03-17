@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_we_discover_new_worlds",
+    "track_name": "18 - We Discover New Worlds",
+    "album": "Mirage 2",
+    "composer": "Hiroaki Sano",
+    "year": "1994-12-02",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 56342,
+        "complexity": 0.539
+    },
+    "_type": "music:track"
+}

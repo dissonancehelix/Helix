@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_battle_mode_draw",
+    "track_name": "14 - Battle Mode Draw",
+    "album": "Battle Lode Runner",
+    "composer": "Jin Watanabe",
+    "year": "1993-02-10",
+    "track_order": "14/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_page_4_bgm",
+    "track_name": "05 - Page 4 BGM",
+    "album": "Kaitou Saint Tail",
+    "composer": "Kojiro Mikusa",
+    "year": "1993",
+    "track_order": "5/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

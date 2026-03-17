@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_on_the_windy_savannah",
+    "track_name": "07 - On the Windy Savannah",
+    "album": "Capcom Sports Club",
+    "composer": "Hideki Okugawa",
+    "year": "1997-07",
+    "track_order": "7/17",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

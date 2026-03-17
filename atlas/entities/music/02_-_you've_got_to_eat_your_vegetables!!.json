@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_you've_got_to_eat_your_vegetables!!",
+    "track_name": "02 - You've Got to Eat Your Vegetables!!",
+    "album": "Commander Keen in Goodbye, Galaxy! Episode IV: Secret of the Oracle",
+    "composer": "Bobby PrinceC",
+    "year": "1991-12-15",
+    "track_order": "2/8#",
+    "chip_data": {
+        "fm_writes": 22,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

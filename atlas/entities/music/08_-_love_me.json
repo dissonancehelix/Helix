@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_love_me",
+    "track_name": "08 - Love Me",
+    "album": "Twinkle Star Sprites",
+    "composer": "Takao Ohshima",
+    "year": "1996-11-25",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_surprise_attack",
+    "track_name": "06 - Surprise Attack",
+    "album": "Mars Matrix: Hyper Solid Shooting",
+    "composer": "Yasushi Kaminishi!",
+    "year": "2000-04",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

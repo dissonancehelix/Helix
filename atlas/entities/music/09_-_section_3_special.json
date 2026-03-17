@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_section_3_special",
+    "track_name": "09 - Section 3 (Special)",
+    "album": "Slap Fight MD",
+    "composer": "Yuzo Koshiro",
+    "year": "1993",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 25073,
+        "complexity": 0.342
+    },
+    "_type": "music:track"
+}

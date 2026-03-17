@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_bonus_theme_1",
+    "track_name": "04 - Bonus Theme 1",
+    "album": "The Second Samurai",
+    "composer": "Matt Furniss",
+    "year": "1994",
+    "track_order": "4/20",
+    "chip_data": {
+        "fm_writes": 363192,
+        "complexity": 0.506
+    },
+    "_type": "music:track"
+}

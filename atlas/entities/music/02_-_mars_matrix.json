@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_mars_matrix",
+    "track_name": "02 - Mars Matrix",
+    "album": "Mars Matrix: Hyper Solid Shooting",
+    "composer": "Yasushi Kaminishi!",
+    "year": "2000-04",
+    "track_order": "2/11",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_laws_of_life",
+    "track_name": "08 - Laws of Life",
+    "album": "Viper-V16",
+    "composer": "Kenichi Arakawa",
+    "year": "1995-12-22",
+    "track_order": "8/28",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

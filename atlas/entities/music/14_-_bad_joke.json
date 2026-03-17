@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_bad_joke",
+    "track_name": "14 - Bad Joke",
+    "album": "Rolling Thunder 3",
+    "composer": "Rose & Dick Boy!!!",
+    "year": "1993/05/19",
+    "track_order": "14/21",
+    "chip_data": {
+        "fm_writes": 289100,
+        "complexity": 0.125
+    },
+    "_type": "music:track"
+}

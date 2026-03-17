@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stage_3_-_bonus_stage",
+    "track_name": "05 - Stage 3 - Bonus Stage",
+    "album": "Doraemon: Yume Dorobou to 7-Nin no Gozans",
+    "composer": "Koichi Shimamura)",
+    "year": "1993/03/26",
+    "track_order": "5/13",
+    "chip_data": {
+        "fm_writes": 8562,
+        "complexity": 0.425
+    },
+    "_type": "music:track"
+}

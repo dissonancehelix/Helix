@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_banquet_of_nature_-part_ii-",
+    "track_name": "06 - Banquet of Nature -Part II-",
+    "album": "Samurai Shodown IV",
+    "composer": "Mitsuo",
+    "year": "1996-10-25",
+    "track_order": "6/28",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

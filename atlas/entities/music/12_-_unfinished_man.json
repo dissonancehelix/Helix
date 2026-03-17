@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_unfinished_man",
+    "track_name": "12 - Unfinished Man",
+    "album": "Magician Lord",
+    "composer": "Yuka Watanabe",
+    "year": "1990-04-26",
+    "track_order": "12/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

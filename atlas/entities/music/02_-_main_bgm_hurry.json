@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_main_bgm_hurry",
+    "track_name": "02 - Main BGM (Hurry)",
+    "album": "Parasol Stars: The Story of Bubble Bobble III",
+    "composer": "Noriyuki Iwadare-",
+    "year": "1991-02-15",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

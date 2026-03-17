@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_this_is_what_the_seal_means_to_me",
+    "track_name": "27 - This is what the Seal Means to Me",
+    "album": "Dragoon Might",
+    "composer": "Konami Kukeiha Club",
+    "year": "1995",
+    "track_order": "27/29!",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

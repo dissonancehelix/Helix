@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_shi'ar_empire",
+    "track_name": "05 - Shi'ar Empire",
+    "album": "X-Men",
+    "composer": "Fletcher Beasley",
+    "year": "1993/05/18",
+    "track_order": "5/10",
+    "chip_data": {
+        "fm_writes": 943799,
+        "complexity": 0.001
+    },
+    "_type": "music:track"
+}

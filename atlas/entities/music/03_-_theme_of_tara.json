@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_theme_of_tara",
+    "track_name": "03 - Theme of Tara",
+    "album": "Snatcher",
+    "composer": "Masanori Adachi",
+    "year": "1988-11-26",
+    "track_order": "3/36",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

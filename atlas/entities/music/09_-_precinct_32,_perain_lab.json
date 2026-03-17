@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_precinct_32,_perain_lab",
+    "track_name": "09 - Precinct 32, Perain Lab",
+    "album": "Dead of the Brain 2",
+    "composer": "Akira Sato",
+    "year": "1993-11-26",
+    "track_order": "9/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

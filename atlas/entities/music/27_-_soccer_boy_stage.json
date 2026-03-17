@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_soccer_boy_stage",
+    "track_name": "27 - Soccer Boy Stage",
+    "album": "Dancing Eyes",
+    "composer": "Masahiro Fukuzawa",
+    "year": "1996-09",
+    "track_order": "27/55",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

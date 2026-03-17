@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_boss_bgm2",
+    "track_name": "12 - Boss BGM2",
+    "album": "Shalom",
+    "composer": "Konami Kukeiha Club",
+    "year": "1987",
+    "track_order": "12/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_finalizing",
+    "track_name": "08 - Finalizing",
+    "album": "Avengers in Galactic Storm",
+    "composer": "Takuto Kitsuta",
+    "year": "1995",
+    "track_order": "8/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

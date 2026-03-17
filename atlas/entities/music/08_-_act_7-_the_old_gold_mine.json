@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_act_7-_the_old_gold_mine",
+    "track_name": "08 - Act 7- The Old Gold Mine",
+    "album": "The Smurfs",
+    "composer": "Alberto Jose Gonz",
+    "year": "1994",
+    "track_order": "8/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

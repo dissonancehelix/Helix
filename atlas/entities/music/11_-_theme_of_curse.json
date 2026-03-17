@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_theme_of_curse",
+    "track_name": "11 - Theme of Curse",
+    "album": "4.6 Billion Year Story",
+    "composer": "Koichi Sugiyama",
+    "year": "1990",
+    "track_order": "11/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

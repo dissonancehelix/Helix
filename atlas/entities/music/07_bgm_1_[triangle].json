@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_bgm_1_[triangle]",
+    "track_name": "07 BGM 1 [TriAngle]",
+    "album": "Album artist",
+    "composer": "Keishi Yonao",
+    "year": "1993-06-19",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 11005,
+        "complexity": 0.6950000000000001
+    },
+    "_type": "music:track"
+}

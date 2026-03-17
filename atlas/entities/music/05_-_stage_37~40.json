@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_stage_37~40",
+    "track_name": "05 - Stage 37~40",
+    "album": "Amazing Penguin",
+    "composer": "Iku Mizutani",
+    "year": "1990-08-08",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

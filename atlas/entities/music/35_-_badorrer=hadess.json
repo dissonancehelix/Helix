@@ -1,0 +1,13 @@
+{
+    "entity_id": "35_-_badorrer=hadess",
+    "track_name": "35 - Badorrer=hadess",
+    "album": "Brandish 2: The Planet Buster",
+    "composer": "Naoki Kaneda",
+    "year": "1993-03-12",
+    "track_order": "35/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

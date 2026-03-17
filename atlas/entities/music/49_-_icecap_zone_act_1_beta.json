@@ -1,0 +1,13 @@
+{
+    "entity_id": "49_-_icecap_zone_act_1_beta",
+    "track_name": "49 - IceCap Zone Act 1 (Beta)",
+    "album": "Sonic 3 & Knuckles",
+    "composer": "Sega Sound Team",
+    "year": "1994",
+    "track_order": "49/58",
+    "chip_data": {
+        "fm_writes": 39026,
+        "complexity": 0.545
+    },
+    "_type": "music:track"
+}

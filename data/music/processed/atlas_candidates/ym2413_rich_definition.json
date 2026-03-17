@@ -1,0 +1,35 @@
+{
+  "id": "music.sound_chip:ym2413",
+  "type": "SoundChip",
+  "name": "Yamaha YM2413 (OPLL)",
+  "substrate": "music",
+  "properties": {
+    "channels": 9,
+    "synthesis_type": "FM (Operator Type-L)",
+    "instruments": "15 Hardcoded + 1 User-defined",
+    "percussion_modes": "5 sounds (Bass, Snare, Tom, Cymbal, Hi-Hat)"
+  },
+  "behavioral_invariants": [
+    {
+      "id": "music.invariant:single_user_instrument",
+      "description": "Only one custom timbre can be active globally; all other channels must use hardcoded ROM patches.",
+      "type": "SynthesisConstraint"
+    },
+    {
+      "id": "music.invariant:tdm_dac_aliasing",
+      "description": "Sequential channel output without an adder creates time-division multiplexing artifacts requiring analog filtering.",
+      "type": "HarmonicArtifact"
+    }
+  ],
+  "variants": [
+    {
+      "id": "music.sound_chip:vrc7",
+      "name": "Konami VRC7 FM",
+      "description": "Custom variant with different internal patch ROM."
+    }
+  ],
+  "sources": [
+    "data/music/source/docs/YM2413_Data_Sheet.pdf",
+    "https://segaretro.org/YM2413"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_takuma_sakazaki",
+    "track_name": "22 - Takuma Sakazaki",
+    "album": "Quiz King of Fighters",
+    "composer": "Shinichi Yamazaki",
+    "year": "1995-02-25",
+    "track_order": "22/30",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

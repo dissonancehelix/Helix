@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_night_safe_777",
+    "track_name": "17 - Night Safe 777",
+    "album": "Mime",
+    "composer": "Hiroaki Sano",
+    "year": "1995-09-29",
+    "track_order": "17/38",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

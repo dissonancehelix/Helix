@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_prelude_from_ffvii",
+    "track_name": "11 - Prelude (From FFVII)",
+    "album": "Ehrgeiz",
+    "composer": "Takayuki Nakamura",
+    "year": "1998-03",
+    "track_order": "11/23",
+    "chip_data": {
+        "fm_writes": 8,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

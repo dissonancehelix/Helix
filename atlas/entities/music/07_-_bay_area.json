@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_bay_area",
+    "track_name": "07 - Bay Area",
+    "album": "Vendetta",
+    "composer": "Michiru Yamane",
+    "year": "1991-07",
+    "track_order": "7/12",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

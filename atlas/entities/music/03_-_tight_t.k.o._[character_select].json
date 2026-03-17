@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_tight_t.k.o._[character_select]",
+    "track_name": "03 - Tight T.K.O. [Character Select]",
+    "album": "V.G.: Variable Geo",
+    "composer": "Naoya Shimokawa",
+    "year": "1993-07-09",
+    "track_order": "3/16",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

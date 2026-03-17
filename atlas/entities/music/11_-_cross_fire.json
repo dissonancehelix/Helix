@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_cross_fire",
+    "track_name": "11 - Cross Fire",
+    "album": "Mirage 2",
+    "composer": "Hiroaki Sano",
+    "year": "1994-12-02",
+    "track_order": "11/18",
+    "chip_data": {
+        "fm_writes": 29714,
+        "complexity": 0.33299999999999996
+    },
+    "_type": "music:track"
+}

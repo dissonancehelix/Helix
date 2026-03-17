@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_bael_castle_top_floor",
+    "track_name": "22 - Bael Castle Top Floor",
+    "album": "Giten Megami Tensei: Tokyo Mokushiroku",
+    "composer": "Tsukasa Masuko&",
+    "year": "1997-04-04",
+    "track_order": "22/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

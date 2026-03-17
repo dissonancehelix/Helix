@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_ranphar_1",
+    "track_name": "04 - Ranphar 1",
+    "album": "Xenon: Mugen no Shitai",
+    "composer": "Ryu Umemoto",
+    "year": "1995-03-31",
+    "track_order": "4/20",
+    "chip_data": {
+        "fm_writes": 28640,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

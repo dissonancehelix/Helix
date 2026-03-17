@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_bgm_c",
+    "track_name": "04 - BGM C",
+    "album": "R360 G-LOC",
+    "composer": "Hiro",
+    "year": "1990",
+    "track_order": "4/11",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

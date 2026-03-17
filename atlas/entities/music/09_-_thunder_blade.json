@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_thunder_blade",
+    "track_name": "09 - Thunder Blade",
+    "album": "Battle Gorilla",
+    "composer": "Chihiro Fujioka",
+    "year": "1988-04",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

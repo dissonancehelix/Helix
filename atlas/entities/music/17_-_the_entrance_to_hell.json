@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_the_entrance_to_hell",
+    "track_name": "17 - The Entrance to Hell",
+    "album": "Snatcher",
+    "composer": "Seiichi Fukami",
+    "year": "1988-11-26",
+    "track_order": "17/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

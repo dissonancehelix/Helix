@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_getsu_fuuma",
+    "track_name": "06 - Getsu Fuuma",
+    "album": "Konami Wai Wai World",
+    "composer": "Shinya Sakamoto",
+    "year": "1988-01-14",
+    "track_order": "6/19",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

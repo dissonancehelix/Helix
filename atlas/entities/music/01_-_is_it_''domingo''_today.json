@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_is_it_''domingo''_today",
+    "track_name": "01 - Is it ''Domingo'' Today",
+    "album": "F-1 Spirit 3D Special",
+    "composer": "Tsutomu Ogura",
+    "year": "1988",
+    "track_order": "1/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_the_explorer",
+    "track_name": "03 - The Explorer",
+    "album": "Prehistoric Isle in 1930",
+    "composer": "Yoko Osaka",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

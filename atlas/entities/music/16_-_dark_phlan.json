@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_dark_phlan",
+    "track_name": "16 - Dark Phlan",
+    "album": "Pools of Darkness",
+    "composer": "Takeshi Yasuda",
+    "year": "1993-03-19",
+    "track_order": "16/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

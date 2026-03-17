@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_wakaki_shishitachi",
+    "track_name": "07 - Wakaki Shishitachi",
+    "album": "Great Sluggers '94: New World Stadium",
+    "composer": "Kaoru Ito",
+    "year": "1994",
+    "track_order": "7/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

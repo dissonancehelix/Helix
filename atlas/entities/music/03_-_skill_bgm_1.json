@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_skill_bgm_1",
+    "track_name": "03 - Skill BGM 1",
+    "album": "Gynotai",
+    "composer": "Yoshie Arakawa",
+    "year": "1996",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_town_of_disease_poper",
+    "track_name": "11 - Town of Disease (Poper)",
+    "album": "Lagoon",
+    "composer": "Hideki Suzuki",
+    "year": "1990-09-12",
+    "track_order": "11/37",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

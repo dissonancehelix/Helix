@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_new_york_by_day",
+    "track_name": "04 - New York by Day",
+    "album": "Home Alone 2: Lost in New York",
+    "composer": "Paul Gadbois",
+    "year": "1993-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 285744,
+        "complexity": 0.418
+    },
+    "_type": "music:track"
+}

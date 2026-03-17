@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_a_suspicious_man",
+    "track_name": "05 - A Suspicious Man",
+    "album": "Quiz King of Fighters",
+    "composer": "Shinichi Yamazaki",
+    "year": "1995-02-25",
+    "track_order": "5/30",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

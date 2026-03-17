@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_too_cold",
+    "track_name": "02 - Too Cold",
+    "album": "Viper-V8",
+    "composer": "Kenichi Arakawa",
+    "year": "1993-09-10",
+    "track_order": "2/10",
+    "chip_data": {
+        "fm_writes": 10294,
+        "complexity": 0.9189999999999999
+    },
+    "_type": "music:track"
+}

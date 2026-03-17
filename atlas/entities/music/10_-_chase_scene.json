@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_chase_scene",
+    "track_name": "10 - Chase Scene",
+    "album": "Kid Chameleon",
+    "composer": "Mark Miller",
+    "year": "1992",
+    "track_order": "10/14",
+    "chip_data": {
+        "fm_writes": 57635,
+        "complexity": 0.1
+    },
+    "_type": "music:track"
+}

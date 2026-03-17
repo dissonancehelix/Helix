@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_interval_of_a_huge_gorge",
+    "track_name": "02 - Interval of a Huge Gorge",
+    "album": "Strikers 1945 III",
+    "composer": "Masaki Izutani",
+    "year": "1999",
+    "track_order": "2/14",
+    "chip_data": {
+        "fm_writes": 338,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

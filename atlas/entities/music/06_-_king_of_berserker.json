@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_king_of_berserker",
+    "track_name": "06 - King of Berserker",
+    "album": "Bahamut Senki",
+    "composer": "Keisuke Tsukahara",
+    "year": "1991/03/08",
+    "track_order": "6/24",
+    "chip_data": {
+        "fm_writes": 110349,
+        "complexity": 0.154
+    },
+    "_type": "music:track"
+}

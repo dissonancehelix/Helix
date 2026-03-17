@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_behind_muse_[chiho]",
+    "track_name": "05 - Behind Muse [Chiho]",
+    "album": "V.G.: Variable Geo",
+    "composer": "Naoya Shimokawa",
+    "year": "1993-07-09",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

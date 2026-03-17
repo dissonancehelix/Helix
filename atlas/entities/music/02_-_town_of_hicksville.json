@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_town_of_hicksville",
+    "track_name": "02 - Town of Hicksville",
+    "album": "Gun.Smoke",
+    "composer": "Junko Tamiya",
+    "year": "1988",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 300,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

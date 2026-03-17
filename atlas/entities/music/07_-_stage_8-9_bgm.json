@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_stage_8-9_bgm",
+    "track_name": "07 - Stage 8-9 BGM",
+    "album": "Mahjong Gakuen",
+    "composer": "Capcom Sound Team",
+    "year": "1988-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

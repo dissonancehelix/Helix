@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_rock_the_accept",
+    "track_name": "07 - Rock the Accept",
+    "album": "Sorcer Striker",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1993-05",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

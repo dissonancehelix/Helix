@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_5_minute_score_attack",
+    "track_name": "16 - 5 Minute Score Attack",
+    "album": "Coryoon: Child of Dragon",
+    "composer": "Hisashi Matsushita",
+    "year": "1991-11-29",
+    "track_order": "16/23",
+    "chip_data": {
+        "fm_writes": 747,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

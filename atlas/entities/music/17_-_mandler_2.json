@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_mandler_2",
+    "track_name": "17 - Mandler 2",
+    "album": "Terra Cresta II: Mandler no Gyakushuu",
+    "composer": "Akihiro Akamatsu",
+    "year": "1992-11-27",
+    "track_order": "17/20",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

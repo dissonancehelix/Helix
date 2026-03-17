@@ -1,0 +1,13 @@
+{
+    "entity_id": "35_-_ranking",
+    "track_name": "35 - Ranking",
+    "album": "World Heroes Perfect",
+    "composer": "Takao Ohshima",
+    "year": "1995-05-25",
+    "track_order": "35/35",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

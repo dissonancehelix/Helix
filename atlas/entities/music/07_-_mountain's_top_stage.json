@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_mountain's_top_stage",
+    "track_name": "07 - Mountain's Top Stage",
+    "album": "Joe & Mac Returns",
+    "composer": "Tatsuya Kiuchi",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_same_one",
+    "track_name": "07 - Same One",
+    "album": "Zero Wing",
+    "composer": "Tatsuya Uemura",
+    "year": "1989",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

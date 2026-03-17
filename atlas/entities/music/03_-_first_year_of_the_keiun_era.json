@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_first_year_of_the_keiun_era",
+    "track_name": "03 - First Year of the Keiun Era",
+    "album": "Mirai Ninja",
+    "composer": "Norio Nakagata",
+    "year": "1988-12",
+    "track_order": "3/14",
+    "chip_data": {
+        "fm_writes": 10,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

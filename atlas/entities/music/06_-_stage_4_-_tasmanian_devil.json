@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_stage_4_-_tasmanian_devil",
+    "track_name": "06 - Stage 4 - Tasmanian Devil",
+    "album": "Looney Tunes",
+    "composer": "Manami Matsumae",
+    "year": "1992",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 37,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

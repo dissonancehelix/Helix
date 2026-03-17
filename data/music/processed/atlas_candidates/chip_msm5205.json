@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:msm5205",
+  "name": "Sound Chip: MSM5205",
+  "type": "SoundChip",
+  "libvgm_id": "0x2C"
+}

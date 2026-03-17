@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_into_the_core_stage_7_bgm",
+    "track_name": "07 - Into The Core (Stage 7 BGM)",
+    "album": "Final Soldier",
+    "composer": "Masakatsu Maekawa",
+    "year": "1991-07-05",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

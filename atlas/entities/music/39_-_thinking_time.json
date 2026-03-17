@@ -1,0 +1,13 @@
+{
+    "entity_id": "39_-_thinking_time",
+    "track_name": "39 - Thinking Time",
+    "album": "Doukyusei 2",
+    "composer": "Manabu Kunieda",
+    "year": "1995-01-31",
+    "track_order": "39/45",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_testament_boss",
+    "track_name": "30 - Testament Boss",
+    "album": "Emerald Dragon",
+    "composer": "Nobuhito Koise",
+    "year": "1989-12-12",
+    "track_order": "30/42",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

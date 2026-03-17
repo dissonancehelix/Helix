@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_big_battleship",
+    "track_name": "12 - Big Battleship",
+    "album": "Silpheed",
+    "composer": "Mamoru Ishimoda",
+    "year": "1993",
+    "track_order": "12/18",
+    "chip_data": {
+        "fm_writes": 222,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

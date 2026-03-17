@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_centaur_man",
+    "track_name": "07 - Centaur Man",
+    "album": "Mega Man 2: The Power Fighters",
+    "composer": "Setsuo Yamamoto",
+    "year": "1996",
+    "track_order": "7/34",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

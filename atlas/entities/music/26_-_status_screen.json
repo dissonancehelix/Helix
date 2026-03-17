@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_status_screen",
+    "track_name": "26 - Status Screen",
+    "album": "Light Crusader",
+    "composer": "Aki Hata",
+    "year": "1995",
+    "track_order": "26/28",
+    "chip_data": {
+        "fm_writes": 8098,
+        "complexity": 0.35
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "that's_thrice",
+    "track_name": "That's Thrice",
+    "album": "Thrice",
+    "composer": "Yuzo Koshiro",
+    "year": "1991-01-22",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

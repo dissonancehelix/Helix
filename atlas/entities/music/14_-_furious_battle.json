@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_furious_battle",
+    "track_name": "14 - Furious Battle",
+    "album": "Final Fantasy Legend",
+    "composer": "Nobuo Uematsu",
+    "year": "1989-12-15",
+    "track_order": "14/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

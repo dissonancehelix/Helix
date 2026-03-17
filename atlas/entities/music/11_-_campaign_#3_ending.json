@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_campaign_#3_ending",
+    "track_name": "11 - Campaign #3 Ending",
+    "album": "Jungle Strike",
+    "composer": "Brian Schmidt",
+    "year": "1993/09/01",
+    "track_order": "11/27",
+    "chip_data": {
+        "fm_writes": 1751559,
+        "complexity": 0.334
+    },
+    "_type": "music:track"
+}

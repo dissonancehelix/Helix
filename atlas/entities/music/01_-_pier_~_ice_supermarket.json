@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_pier_~_ice_supermarket",
+    "track_name": "01 - Pier ~ Ice Supermarket",
+    "album": "Yo! Noid",
+    "composer": "Masakatsu Maekawa",
+    "year": "1990-11",
+    "track_order": "1/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

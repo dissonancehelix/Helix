@@ -1,0 +1,13 @@
+{
+    "entity_id": "33_-_when_the_red_moon_is_full",
+    "track_name": "33 - When the Red Moon is Full",
+    "album": "Xak II: Rising of the Redmoon",
+    "composer": "Tadahiro Nitta",
+    "year": "1990",
+    "track_order": "33/42",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

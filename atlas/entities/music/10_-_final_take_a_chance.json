@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_final_take_a_chance",
+    "track_name": "10 - Final Take a Chance",
+    "album": "Thunder Force III",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1990/06/08",
+    "track_order": "10/18",
+    "chip_data": {
+        "fm_writes": 27035,
+        "complexity": 0.888
+    },
+    "_type": "music:track"
+}

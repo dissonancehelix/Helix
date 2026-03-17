@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_sister_okyou's_theme",
+    "track_name": "07 - Sister Okyou's Theme",
+    "album": "Shougi no Hoshi",
+    "composer": "Nobuko Hasebe",
+    "year": "1991-10-31",
+    "track_order": "7/11",
+    "chip_data": {
+        "fm_writes": 1777,
+        "complexity": 0.917
+    },
+    "_type": "music:track"
+}

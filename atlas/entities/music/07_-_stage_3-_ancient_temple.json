@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_stage_3-_ancient_temple",
+    "track_name": "07 - Stage 3- Ancient Temple",
+    "album": "Wolfchild",
+    "composer": "Matt Furniss",
+    "year": "1992",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 514550,
+        "complexity": 0.34900000000000003
+    },
+    "_type": "music:track"
+}

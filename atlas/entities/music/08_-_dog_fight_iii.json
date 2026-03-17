@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_dog_fight_iii",
+    "track_name": "08 - Dog Fight III",
+    "album": "Thunder Cross II",
+    "composer": "Mikio Saito",
+    "year": "1991",
+    "track_order": "8/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

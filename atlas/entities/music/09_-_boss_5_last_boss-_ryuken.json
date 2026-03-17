@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_boss_5_last_boss-_ryuken",
+    "track_name": "09 - Boss 5 (Last Boss- Ryuken)",
+    "album": "Tiger Road",
+    "composer": "Tamayo Kawamoto",
+    "year": "1987-11",
+    "track_order": "9/12",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

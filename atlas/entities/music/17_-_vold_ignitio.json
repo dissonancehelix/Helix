@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_vold_ignitio",
+    "track_name": "17 - Vold Ignitio",
+    "album": "Fighting Layer",
+    "composer": "Takayuki Aihara",
+    "year": "1998-12",
+    "track_order": "17/18",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

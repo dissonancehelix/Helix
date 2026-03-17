@@ -6,8 +6,8 @@
 #   EntityGraph  — COMPOSER, TRACK, GAME, PLATFORM, SOUND_CHIP, SOUND_TEAM
 
 from .atlas_graph    import AtlasGraph, Node, Edge
-from .graph_builder  import build_graph
-from .graph_queries  import GraphQuery
+from core.kernel.graph.traversal.graph_builder  import build_graph
+from core.kernel.graph.traversal.graph_queries  import GraphQuery
 from .entity_graph   import (
     EntityGraph,
     EntityNode,

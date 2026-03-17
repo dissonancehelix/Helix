@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_combat",
+    "track_name": "06 - Combat",
+    "album": "Rings of Power",
+    "composer": "Alexander Hinds",
+    "year": "1991/02/01",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 25716,
+        "complexity": 0.431
+    },
+    "_type": "music:track"
+}

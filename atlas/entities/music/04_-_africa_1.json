@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_africa_1",
+    "track_name": "04 - Africa 1",
+    "album": "Kishi Densetsu",
+    "composer": "Noriyuki Iwadare",
+    "year": "1993/07/30",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 63262,
+        "complexity": 0.758
+    },
+    "_type": "music:track"
+}

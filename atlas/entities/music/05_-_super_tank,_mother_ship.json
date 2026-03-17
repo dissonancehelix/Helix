@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_super_tank,_mother_ship",
+    "track_name": "05 - Super Tank, Mother Ship",
+    "album": "Low G Man",
+    "composer": "Nobuyuki Shioda",
+    "year": "1990-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

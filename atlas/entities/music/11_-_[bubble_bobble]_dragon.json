@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_[bubble_bobble]_dragon",
+    "track_name": "11 - [Bubble Bobble] Dragon",
+    "album": "Rainbow Islands",
+    "composer": "Shizuo Aizawa",
+    "year": "1987",
+    "track_order": "11/14",
+    "chip_data": {
+        "fm_writes": 8,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

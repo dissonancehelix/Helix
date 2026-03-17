@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_boss_bgm_a-2",
+    "track_name": "03 - Boss BGM A-2",
+    "album": "TwinBee",
+    "composer": "Shigeru Fukutake",
+    "year": "1988-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_stage_2~7_bgm_1",
+    "track_name": "04 - Stage 2~7 BGM 1",
+    "album": "Rapid Hero",
+    "composer": "Kazunori Hideya",
+    "year": "1994-07",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

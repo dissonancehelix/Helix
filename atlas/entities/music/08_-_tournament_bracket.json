@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_tournament_bracket",
+    "track_name": "08 - Tournament Bracket",
+    "album": "Mario's Tennis",
+    "composer": "Hitoshi Fukushima",
+    "year": "1995-07-21",
+    "track_order": "8/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

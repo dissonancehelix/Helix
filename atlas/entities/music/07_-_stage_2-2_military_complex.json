@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_stage_2-2_military_complex",
+    "track_name": "07 - Stage 2-2 (Military Complex)",
+    "album": "Ranger-X",
+    "composer": "Yoshinobu Hiraiwa",
+    "year": "1993/05/28",
+    "track_order": "7/21",
+    "chip_data": {
+        "fm_writes": 47715,
+        "complexity": 0.558
+    },
+    "_type": "music:track"
+}

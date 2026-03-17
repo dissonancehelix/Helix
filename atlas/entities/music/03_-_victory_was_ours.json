@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_victory_was_ours",
+    "track_name": "03 - Victory Was Ours",
+    "album": "Air Combat",
+    "composer": "Hiroyuki Kawada",
+    "year": "1993-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

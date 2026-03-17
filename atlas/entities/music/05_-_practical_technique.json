@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_practical_technique",
+    "track_name": "05 - Practical Technique",
+    "album": "Techno Drive",
+    "composer": "Koji Nakagawa",
+    "year": "1998",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 38,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_title_screen",
+    "track_name": "02 - Title Screen",
+    "album": "688 Attack Sub",
+    "composer": "Rob Hubbard",
+    "year": "1989-03-23",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 312,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

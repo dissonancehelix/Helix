@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_stage_3_boss_bgm",
+    "track_name": "06 - Stage 3 Boss BGM",
+    "album": "Rabbit Punch",
+    "composer": "Yasutoshi Ishida",
+    "year": "1987",
+    "track_order": "6/21",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

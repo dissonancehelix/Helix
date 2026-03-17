@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_bubbles_and_bathtubs",
+    "track_name": "04 - Bubbles and Bathtubs",
+    "album": "James Pond II: Codename RoboCod",
+    "composer": "Richard Joseph",
+    "year": "1991/12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 18225,
+        "complexity": 0.254
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_atreides_dirge",
+    "track_name": "16 - Atreides Dirge",
+    "album": "Dune: The Battle for Arrakis",
+    "composer": "Paul Mudra",
+    "year": "1994/04",
+    "track_order": "16/22",
+    "chip_data": {
+        "fm_writes": 1792,
+        "complexity": 0.796
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:c6280",
+  "name": "Sound Chip: C6280",
+  "type": "SoundChip",
+  "libvgm_id": "0x1B"
+}

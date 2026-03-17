@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_detention_camp",
+    "track_name": "09 - Detention Camp",
+    "album": "Bloody Wolf",
+    "composer": "Azusa Hara",
+    "year": "1988",
+    "track_order": "9/10",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

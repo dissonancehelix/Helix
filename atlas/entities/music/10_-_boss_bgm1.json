@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_boss_bgm1",
+    "track_name": "10 - Boss BGM1",
+    "album": "Shalom",
+    "composer": "Konami Kukeiha Club",
+    "year": "1987",
+    "track_order": "10/24",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

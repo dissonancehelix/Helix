@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_whisper_of_phantom",
+    "track_name": "02 - Whisper of Phantom",
+    "album": "Gauntlet IV",
+    "composer": "Masaharu Iwata",
+    "year": "1993/03/18",
+    "track_order": "2/11",
+    "chip_data": {
+        "fm_writes": 83917,
+        "complexity": 0.746
+    },
+    "_type": "music:track"
+}

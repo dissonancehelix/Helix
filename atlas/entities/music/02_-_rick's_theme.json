@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_rick's_theme",
+    "track_name": "02 - Rick's Theme",
+    "album": "Kirby's Dream Land 2",
+    "composer": "Hirokazu Ando",
+    "year": "1995-03-21",
+    "track_order": "2/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_king_fish",
+    "track_name": "06 - King Fish",
+    "album": "Thunder Force AC",
+    "composer": "Tomomi Otani",
+    "year": "1990",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 13145,
+        "complexity": 0.707
+    },
+    "_type": "music:track"
+}

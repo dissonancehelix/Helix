@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_this_is_chase_h.q.!_2",
+    "track_name": "07 - This is Chase H.Q.! 2",
+    "album": "Chase H.Q.",
+    "composer": "Takami Asano",
+    "year": "1988-11",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

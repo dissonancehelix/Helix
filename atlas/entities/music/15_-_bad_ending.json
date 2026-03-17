@@ -1,0 +1,13 @@
+{
+    "entity_id": "15_-_bad_ending",
+    "track_name": "15 - Bad Ending",
+    "album": "Star Gladiator Episode I: Final Crusade",
+    "composer": "Yuko Takehara'",
+    "year": "1996-07-16",
+    "track_order": "15/30",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

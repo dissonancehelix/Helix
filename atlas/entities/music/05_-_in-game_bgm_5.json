@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_in-game_bgm_5",
+    "track_name": "05 - In-Game BGM 5",
+    "album": "Run and Gun 2",
+    "composer": "Mutsuhiko Izumi",
+    "year": "1996",
+    "track_order": "5/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

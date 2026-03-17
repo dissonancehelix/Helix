@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_magical_moon",
+    "track_name": "13 - Magical Moon",
+    "album": "McDonald's Treasure Land Adventure",
+    "composer": "Katsuhiko Suzuki\"",
+    "year": "1993/09/23",
+    "track_order": "13/19",
+    "chip_data": {
+        "fm_writes": 31842,
+        "complexity": 0.301
+    },
+    "_type": "music:track"
+}

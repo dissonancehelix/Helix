@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_close_to_the_edge",
+    "track_name": "01 - Close to the Edge",
+    "album": "Jewel Master",
+    "composer": "Motoaki Takenouchi",
+    "year": "1991/08/30",
+    "track_order": "1/18",
+    "chip_data": {
+        "fm_writes": 12512,
+        "complexity": 0.16
+    },
+    "_type": "music:track"
+}

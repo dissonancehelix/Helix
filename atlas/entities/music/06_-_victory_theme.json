@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_victory_theme",
+    "track_name": "06 - Victory Theme",
+    "album": "NFL '95",
+    "composer": "Andy Armer",
+    "year": "1994/08/07",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 284579,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

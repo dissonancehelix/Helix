@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_planet_terra_slade",
+    "track_name": "03 - Planet Terra Slade",
+    "album": "Blue Almanac",
+    "composer": "Yoshiaki Kubotera",
+    "year": "1991/06/22",
+    "track_order": "3/17",
+    "chip_data": {
+        "fm_writes": 13046,
+        "complexity": 0.485
+    },
+    "_type": "music:track"
+}

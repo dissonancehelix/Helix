@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_pressure's_on",
+    "track_name": "04 - Pressure's On",
+    "album": "Major Stryker",
+    "composer": "Bobby Prince",
+    "year": "1993-01-15",
+    "track_order": "4/19",
+    "chip_data": {
+        "fm_writes": 13,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

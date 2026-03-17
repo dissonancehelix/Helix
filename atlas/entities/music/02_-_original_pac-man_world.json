@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_original_pac-man_world",
+    "track_name": "02 - Original Pac-Man World",
+    "album": "Pac-Man Arrangement",
+    "composer": "Takayuki Ishikawa",
+    "year": "1996-03",
+    "track_order": "2/28",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

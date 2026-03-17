@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_double-headed_dragon_appears",
+    "track_name": "08 - Double-Headed Dragon Appears",
+    "album": "Sol Divide: Sword of Darkness",
+    "composer": "Masaki Izutani",
+    "year": "1997",
+    "track_order": "8/19",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "38_-_the_silent_shore",
+    "track_name": "38 - The Silent Shore",
+    "album": "The Legend of Xanadu",
+    "composer": "Naoki Kaneda",
+    "year": "1994",
+    "track_order": "38/84",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

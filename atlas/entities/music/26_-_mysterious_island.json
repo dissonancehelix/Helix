@@ -1,0 +1,13 @@
+{
+    "entity_id": "26_-_mysterious_island",
+    "track_name": "26 - Mysterious Island",
+    "album": "LandStalker",
+    "composer": "Motoaki Takenouchi",
+    "year": "1992/10/30",
+    "track_order": "26/29",
+    "chip_data": {
+        "fm_writes": 71685,
+        "complexity": 0.257
+    },
+    "_type": "music:track"
+}

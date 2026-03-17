@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_wings_n_wheels",
+    "track_name": "06 - Wings N Wheels",
+    "album": "Sega Channel",
+    "composer": "David Javelosa",
+    "year": "1994",
+    "track_order": "6/11",
+    "chip_data": {
+        "fm_writes": 6741,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

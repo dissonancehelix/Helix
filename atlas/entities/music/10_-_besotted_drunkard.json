@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_besotted_drunkard",
+    "track_name": "10 - Besotted Drunkard",
+    "album": "YuYu Hakusho: Sunset Fighters",
+    "composer": "Aki Hata",
+    "year": "1994",
+    "track_order": "10/16",
+    "chip_data": {
+        "fm_writes": 26298,
+        "complexity": 0.46699999999999997
+    },
+    "_type": "music:track"
+}

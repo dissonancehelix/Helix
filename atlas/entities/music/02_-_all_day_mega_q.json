@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_all_day_mega_q",
+    "track_name": "02 - All Day Mega Q",
+    "album": "Party Quiz Mega Q",
+    "composer": "Hirofumi Murasaki",
+    "year": "1993/11/05",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 23637,
+        "complexity": 0.20800000000000002
+    },
+    "_type": "music:track"
+}

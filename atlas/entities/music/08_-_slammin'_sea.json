@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_slammin'_sea",
+    "track_name": "08 - Slammin' Sea",
+    "album": "Bomberman '94",
+    "composer": "June Chikuma",
+    "year": "1993-12-10",
+    "track_order": "8/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

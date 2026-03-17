@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_busy_flare",
+    "track_name": "10 - Busy Flare",
+    "album": "Ristar",
+    "composer": "Tomoko Sasaki",
+    "year": "1995-16-02",
+    "track_order": "10/22",
+    "chip_data": {
+        "fm_writes": 7642,
+        "complexity": 0.185
+    },
+    "_type": "music:track"
+}

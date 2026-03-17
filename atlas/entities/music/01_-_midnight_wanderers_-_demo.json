@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_midnight_wanderers_-_demo",
+    "track_name": "01 - Midnight Wanderers - Demo",
+    "album": "Three Wonders",
+    "composer": "Masaki Izutani",
+    "year": "1991-07",
+    "track_order": "1/34",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_normandy_landing_operations",
+    "track_name": "09 - Normandy Landing Operations",
+    "album": "Operation Europe: Path to Victory 1939-45",
+    "composer": "Yuji Ohno)",
+    "year": "1993/01/16",
+    "track_order": "9/16",
+    "chip_data": {
+        "fm_writes": 5500,
+        "complexity": 0.647
+    },
+    "_type": "music:track"
+}

@@ -24,14 +24,14 @@ Available adapters:
 """
 from __future__ import annotations
 
-from core.adapters.adapter_libvgm    import LibvgmAdapter
-from core.adapters.adapter_gme       import GmeAdapter
-from core.adapters.adapter_vgmstream import VgmstreamAdapter
-from core.adapters.adapter_nuked_opn2 import NukedOpn2Adapter
-from core.adapters.adapter_librosa   import LibrosaAdapter
-from core.adapters.adapter_essentia  import EssentiaAdapter
-from core.adapters.adapter_music21   import Music21Adapter
-from core.adapters.adapter_pretty_midi import PrettyMidiAdapter
+from core.adapters.adapter_libvgm    import Adapter as LibvgmAdapter
+from core.adapters.adapter_gme       import Adapter as GmeAdapter
+from core.adapters.adapter_vgmstream import Adapter as VgmstreamAdapter
+from core.adapters.adapter_nuked_opn2 import Adapter as NukedOpn2Adapter
+from core.adapters.adapter_librosa   import Adapter as LibrosaAdapter
+from core.adapters.adapter_essentia  import Adapter as EssentiaAdapter
+from core.adapters.adapter_music21   import Adapter as Music21Adapter
+from core.adapters.adapter_pretty_midi import Adapter as PrettyMidiAdapter
 
 __all__ = [
     "LibvgmAdapter",

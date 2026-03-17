@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_gouketsuji_ondo",
+    "track_name": "10 - Gouketsuji Ondo",
+    "album": "Power Instinct",
+    "composer": "Toshikazu Tanaka",
+    "year": "1993-11",
+    "track_order": "10/10",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_general_havoc",
+    "track_name": "02 - General Havoc",
+    "album": "General Chaos",
+    "composer": "Michael Bartlow",
+    "year": "1993",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 22796,
+        "complexity": 0.873
+    },
+    "_type": "music:track"
+}

@@ -26,7 +26,7 @@ if TYPE_CHECKING:
 def run(pipeline: "MusicSubstratePipeline") -> None:
     """Stage 9: entity registry + graph population + atlas file writing."""
     from core.kernel.schema.entities import EntityRegistry
-    from core.graph import EntityGraph, build_from_registry
+    from core.kernel.graph.storage.entity_graph import EntityGraph, build_from_registry
     from substrates.music.kg.entity_builder import build_entities
     from substrates.music.kg.library_index import build_library_index
 

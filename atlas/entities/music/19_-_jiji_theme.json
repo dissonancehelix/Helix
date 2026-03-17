@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_jiji_theme",
+    "track_name": "19 - Jiji Theme",
+    "album": "Sword of Vermilion",
+    "composer": "Hiro",
+    "year": "1989/12/16",
+    "track_order": "19/23",
+    "chip_data": {
+        "fm_writes": 11974,
+        "complexity": 0.222
+    },
+    "_type": "music:track"
+}

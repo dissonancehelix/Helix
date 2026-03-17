@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_stage_22-24_paris",
+    "track_name": "08 - Stage 22-24 (Paris)",
+    "album": "Buster Bros.",
+    "composer": "Tamayo Kawamoto",
+    "year": "1989-11-29",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

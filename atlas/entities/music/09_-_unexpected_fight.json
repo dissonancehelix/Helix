@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_unexpected_fight",
+    "track_name": "09 - Unexpected Fight",
+    "album": "SNK vs. Capcom: SVC Chaos",
+    "composer": "Yasuo Yamate",
+    "year": "2003",
+    "track_order": "9/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

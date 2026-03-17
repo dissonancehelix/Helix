@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_kong",
+    "track_name": "05 - Kong",
+    "album": "Virtua Cop",
+    "composer": "Kentaro Kobayashi",
+    "year": "1994-12",
+    "track_order": "5/12",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

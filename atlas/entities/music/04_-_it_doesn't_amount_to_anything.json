@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_it_doesn't_amount_to_anything",
+    "track_name": "04 - It Doesn't Amount to Anything",
+    "album": "Sion II: The First Attack",
+    "composer": "Zenji Nishikawa",
+    "year": "1992-06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

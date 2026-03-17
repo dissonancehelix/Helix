@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_mellow_groove",
+    "track_name": "04 - Mellow Groove",
+    "album": "ToeJam & Earl in Panic on Funkotron",
+    "composer": "John Baker#",
+    "year": "1993/03/17",
+    "track_order": "4/13",
+    "chip_data": {
+        "fm_writes": 26944,
+        "complexity": 0.581
+    },
+    "_type": "music:track"
+}

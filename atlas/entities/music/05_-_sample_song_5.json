@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_sample_song_5",
+    "track_name": "05 - Sample Song 5",
+    "album": "Ongaku Tsukuru",
+    "composer": "Youta Kitagami",
+    "year": "1994-03",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

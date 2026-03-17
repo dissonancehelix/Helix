@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_please_don't_metal_with_me!",
+    "track_name": "08 - Please Don't Metal With Me!",
+    "album": "Commander Keen in Aliens Ate My Babysitter!",
+    "composer": "Bobby Prince+",
+    "year": "1991-12-15",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 26,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_ending_ai_oboete_imasu_ka",
+    "track_name": "11 - Ending (Ai Oboete Imasu ka)",
+    "album": "Super Space Fortress Macross",
+    "composer": "Kazunori Hideya",
+    "year": "1992",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

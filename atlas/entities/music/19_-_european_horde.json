@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_european_horde",
+    "track_name": "19 - European Horde",
+    "album": "Aoki Okami to Shiroki Mejika: Gencho Hishi",
+    "composer": "Michiru Oshima*",
+    "year": "1993-09-30",
+    "track_order": "19/20",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

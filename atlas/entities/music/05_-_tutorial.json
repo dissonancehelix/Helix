@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_tutorial",
+    "track_name": "05 - Tutorial",
+    "album": "Lufia: The Legend Returns",
+    "composer": "Yasunori Shiono",
+    "year": "2001-09-07",
+    "track_order": "5/66",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

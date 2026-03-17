@@ -1,0 +1,13 @@
+{
+    "entity_id": "24_-_boss_round",
+    "track_name": "24 - Boss Round",
+    "album": "Mappy Arrangement",
+    "composer": "Takayuki Ishikawa",
+    "year": "1995-11",
+    "track_order": "24/34",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

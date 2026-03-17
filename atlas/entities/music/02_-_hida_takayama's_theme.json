@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_hida_takayama's_theme",
+    "track_name": "02 - Hida Takayama's Theme",
+    "album": "Shougi no Hoshi",
+    "composer": "Nobuko Hasebe",
+    "year": "1991-10-31",
+    "track_order": "2/11",
+    "chip_data": {
+        "fm_writes": 7277,
+        "complexity": 0.546
+    },
+    "_type": "music:track"
+}

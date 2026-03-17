@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_rigil_kent_system",
+    "track_name": "17 - Rigil Kent System",
+    "album": "Star Cruiser",
+    "composer": "Toshiya Yamanaka",
+    "year": "1988-08",
+    "track_order": "17/27",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

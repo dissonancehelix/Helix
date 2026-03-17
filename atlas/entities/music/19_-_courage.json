@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_courage",
+    "track_name": "19 - Courage",
+    "album": "Soul Edge",
+    "composer": "Takayuki Aihara",
+    "year": "1995-12",
+    "track_order": "19/22",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

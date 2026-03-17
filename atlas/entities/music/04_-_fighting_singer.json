@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_fighting_singer",
+    "track_name": "04 - Fighting Singer",
+    "album": "The Fallen Angels",
+    "composer": "Masaki Izutani",
+    "year": "1998",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

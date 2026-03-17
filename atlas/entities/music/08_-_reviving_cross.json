@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_reviving_cross",
+    "track_name": "08 - Reviving Cross",
+    "album": "Laplace no Ma",
+    "composer": "Akiko Kosaka",
+    "year": "1990-12-21",
+    "track_order": "8/21",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

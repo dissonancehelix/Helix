@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_omake_2",
+    "track_name": "07 - Omake 2",
+    "album": "Thunder Force AC",
+    "composer": "Takeshi Yoshida",
+    "year": "1990",
+    "track_order": "7/18",
+    "chip_data": {
+        "fm_writes": 29921,
+        "complexity": 0.482
+    },
+    "_type": "music:track"
+}

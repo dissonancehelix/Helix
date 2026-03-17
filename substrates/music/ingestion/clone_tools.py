@@ -23,9 +23,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent.parent.parent
 LAB  = Path(__file__).parent.parent
-TOOLS_RT  = LAB / "tools" / "runtime"
-TOOLS_EMU = LAB / "tools" / "emulation"
-TOOLS_REF = LAB / "tools" / "reference"
+TOOLS_RT  = LAB / "toolkits"
+TOOLS_EMU = LAB / "toolkits"
+TOOLS_REF = LAB / "toolkits" / "reference"
 
 # ---------------------------------------------------------------------------
 # Repository registry

@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_are_you_ready",
+    "track_name": "02 - Are You Ready",
+    "album": "Wave Shark",
+    "composer": "Mutsuhiko Izumi",
+    "year": "1996-06",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_scramble",
+    "track_name": "03 - Scramble",
+    "album": "Silpheed",
+    "composer": "Mamoru Ishimoda",
+    "year": "1993",
+    "track_order": "3/18",
+    "chip_data": {
+        "fm_writes": 115,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

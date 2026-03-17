@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_airport",
+    "track_name": "02 - Airport",
+    "album": "Home Alone 2: Lost in New York",
+    "composer": "Paul Gadbois",
+    "year": "1993-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 361150,
+        "complexity": 0.635
+    },
+    "_type": "music:track"
+}

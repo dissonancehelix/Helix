@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_pick_up_your_wings_short",
+    "track_name": "08 - Pick Up Your Wings (Short)",
+    "album": "Wing War",
+    "composer": "Tomoyuki Kawamura",
+    "year": "1994",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 48,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

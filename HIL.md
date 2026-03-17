@@ -75,7 +75,7 @@ typed-ref   = type-prefix , ":" , identifier ;
 param       = param-key , ":" , param-value ;
 param-key   = "engine" | "range" | "steps" | "seed" | "verbose"
             | "format" | "output" | "depth" | "overwrite" | "window"
-            | "message" | "track" | "composer" | "lab" | "domain" ;
+            | "message" | "track" | "composer" | "lab" | "domain" | "mode" | "scope" ;
 param-value = identifier | number | range-expr | quoted-string ;
 
 range-expr  = number , ".." , number ;
@@ -91,6 +91,7 @@ type-prefix = "invariant"   | "experiment"  | "model"
             | "graph"       | "atlas_entry" | "graph_query"
             | "track"       | "composer"    | "album"
             | "game"        | "platform"    | "sound_chip"
+            | "math_model"  | "conjecture"  | "proof"
             | "entity" ;
 ```
 
@@ -112,8 +113,8 @@ Canonical entity IDs used within HIL typed references must match:
 ```
 
 Examples:
-- `music.track:angel_island_zone_act_1`
-- `music.composer:jun_senoue`
+- `music.track:green_hill_zone`
+- `music.composer:masato_nakamura`
 - `invariant:decision_compression` ← short form used in PROBE/ATLAS
 
 Full-form canonical IDs are required for ENTITY commands. Short-form typed refs are accepted in other command families.
@@ -150,6 +151,9 @@ The prefix determines how the identifier is resolved:
 | `game` | music.game entity |
 | `platform` | music.platform entity |
 | `sound_chip` | music.sound_chip entity |
+| `math_model` | math.model entity |
+| `conjecture` | math.conjecture entity |
+| `proof` | math.proof entity |
 | `entity` | Generic entity by full ID |
 
 ### 3.3 Resolution order
@@ -213,21 +217,83 @@ RUN operator:<name> [<typed-ref>...] [<param>...]
 - Writes output artifacts; never writes Atlas directly
 
 **Built-in operator dispatch examples:**
-```
-RUN operator:PROBE invariant:decision_compression
-RUN operator:INGEST_TRACK track:music.track:angel_island_zone_act_1
-RUN operator:ANALYZE_TRACK track:music.track:angel_island_zone_act_1
-RUN operator:STYLE_VECTOR composer:music.composer:yuzo_koshiro
+```hil
+RUN operator:INGEST_TRACK track:music.track:<id>
+RUN operator:ANALYZE_TRACK track:music.track:<id>
+RUN operator:DISCOVER target:math_model:decision_compression_principle
+RUN operator:DISCOVER target:attribution track:music.track:<id>
+RUN operator:DISCOVER_INVARIANTS
+RUN operator:FALSIFY_INVARIANT invariant:decision_compression
+RUN operator:TOPOLOGY_MAP entity:music.track:<id> entity:games.experiment:<id>
+RUN operator:MEASURE_KNOWLEDGE_GAIN substrate:music
 RUN operator:COMPILE_ATLAS
-RUN operator:SCAN
-RUN operator:DISCOVER
 ```
 
 **Error:** `RUN operator:UNDEFINED` → `HILValidationError: operator 'UNDEFINED' not registered`
 
 ---
 
-### 4.3 SWEEP
+### 4.3 INGEST_TRACK
+
+**Behavior:**
+Supports multi-type ingestion across substrates following the **Helix Ingestion Contract**.
+
+**Modes:**
+- `mode:index`:
+  - Create entities only (Track, KnowledgeSource, SoundDriver, SoundChip, CPU)
+  - Split multi-artist fields using ";"
+  - Assign `attribution_type`
+  - Set `analysis_status: pending`
+  - NO analysis performed
+
+**Required Ingestion Pipeline (The 6-Stage Contract):**
+Every ingestion MUST execute and produce artifacts for:
+1. `parsed` - Hardware/Document structure
+2. `features` - Measurable properties
+3. `structure` - Signal flow / Control graphs
+4. `patterns` - Recurring motifs
+5. `measurements` - Hard parameters/limits
+6. `atlas_candidates` - Entity/Relation proposals
+
+**Rules:**
+- ONLY read from `data/<domain>/source/`.
+- NO True Invariants allowed; use `invariant_candidates`.
+- MUST decompose systems into reusable components (operators, topologies).
+- MUST use measurable metrics, never vague descriptors.
+
+**Extended Ingestion:**
+- Audio files → `Track` entities
+- PDFs/manuals → `KnowledgeSource` entities
+- Folders (e.g., GEMS, SMPS) → `SoundDriver` entities
+- Chip references (YM*, SN*) → `SoundChip` entities
+- CPU references → `CPU` entities
+
+---
+
+### 4.4 QUERY
+
+**Signature:**
+```
+RUN operator:QUERY entity:<type> [filters:<key:value>]
+```
+
+**Constraints:**
+- Atlas only: Resolves only against already indexed entities.
+- No analysis: Cannot trigger analysis tools.
+- No mutation: Cannot modify existing entities or metadata.
+
+---
+
+### 4.5 ANALYZE_TRACK
+
+**Constraints:**
+- Must respect Knowledge Gain gating (verified via `MEASURE_KNOWLEDGE_GAIN`).
+- Must not run globally without explicit `scope:global` instruction.
+- Must attach results as artifacts; never overwrites entity metadata.
+
+---
+
+### 4.6 SWEEP
 
 Parameter sweep across a numeric range.
 
@@ -722,8 +788,8 @@ class OperatorSpec:
 - `RUN operator:X` validates X against `OperatorRegistry`
 - Unknown operator → `HILValidationError` (not degraded silently)
 - Input entity types checked against `accepted_input_types`
-- Operators dispatch predefined pipelines only — no arbitrary script execution
-
+- **Functional Execution**: In `runtime` mode, the registry links the `OperatorSpec` to a `BaseOperator` implementation class. The `run(payload)` method is the sole execution path.
+- Operators dispatch predefined pipelines only — no arbitrary script execution via subprocess is permitted outside of the operator-adapter flow.
 ### 8.3 Registered built-in operators
 
 | Name | Input Types | Pipeline Stages |

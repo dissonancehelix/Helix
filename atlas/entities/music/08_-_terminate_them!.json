@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_terminate_them!",
+    "track_name": "08 - Terminate Them!",
+    "album": "Armored Warriors",
+    "composer": "Takayuki Iwai",
+    "year": "1994-10",
+    "track_order": "8/34",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

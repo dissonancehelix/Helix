@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_ruined_area",
+    "track_name": "04 - Ruined Area",
+    "album": "Verytex",
+    "composer": "Yoshio Furukawa",
+    "year": "1991",
+    "track_order": "4/10",
+    "chip_data": {
+        "fm_writes": 67819,
+        "complexity": 0.663
+    },
+    "_type": "music:track"
+}

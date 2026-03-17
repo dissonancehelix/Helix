@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_sunken_ship",
+    "track_name": "12 - Sunken Ship",
+    "album": "McDonald's Treasure Land Adventure",
+    "composer": "Aki Hata\"",
+    "year": "1993/09/23",
+    "track_order": "12/19",
+    "chip_data": {
+        "fm_writes": 24893,
+        "complexity": 0.628
+    },
+    "_type": "music:track"
+}

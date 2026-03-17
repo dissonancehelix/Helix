@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_defeat_them_all!",
+    "track_name": "12 - Defeat them All!",
+    "album": "Gunstar Heroes",
+    "composer": "Norio Hanzawa",
+    "year": "1993",
+    "track_order": "12/22",
+    "chip_data": {
+        "fm_writes": 42360,
+        "complexity": 0.6920000000000001
+    },
+    "_type": "music:track"
+}

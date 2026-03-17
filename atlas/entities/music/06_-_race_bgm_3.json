@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_race_bgm_3",
+    "track_name": "06 - Race BGM 3",
+    "album": "F-1 Grand Prix",
+    "composer": "Naoki Itamura",
+    "year": "1991-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

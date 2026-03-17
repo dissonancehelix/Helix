@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.py$\")",
+      "Bash(head -5 /c/Users/dissonance/Desktop/Helix/atlas/entities/music/*.json)",
+      "Bash(python3:*)",
+      "Bash(/c/Users/dissonance/AppData/Local/Programs/Python/Python314/python:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

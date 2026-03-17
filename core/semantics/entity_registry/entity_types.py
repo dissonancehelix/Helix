@@ -46,6 +46,10 @@ TRACK = SemanticSignature(
     required_fields=_BASE_REQUIRED,
     optional_fields=_BASE_OPTIONAL | frozenset({
         "duration", "year", "genre", "chip", "bpm", "key",
+        "attribution_type",     # solo, multi, inferred
+        "artist_contributions", # list of {artist_id, confidence, source}
+        "original_credit",      # original unparsed string
+        "analysis_status",      # pending, analyzed, modeled
     }),
     allowed_relationships=frozenset({
         "APPEARS_IN", "COMPOSED_BY",
@@ -93,6 +97,39 @@ SOUND_TEAM = SemanticSignature(
     }),
     allowed_relationships=frozenset({
         "MEMBER_OF",
+    }),
+)
+
+SOUND_DRIVER = SemanticSignature(
+    entity_type="SoundDriver",
+    required_fields=_BASE_REQUIRED,
+    optional_fields=_BASE_OPTIONAL | frozenset({
+        "version", "manufacturer", "supported_chips",
+    }),
+    allowed_relationships=frozenset({
+        "RUNS_ON", "EXECUTES_ON", "USED_BY",
+    }),
+)
+
+CPU = SemanticSignature(
+    entity_type="CPU",
+    required_fields=_BASE_REQUIRED,
+    optional_fields=_BASE_OPTIONAL | frozenset({
+        "architecture", "manufacturer", "clock_speed_hz", "bits",
+    }),
+    allowed_relationships=frozenset({
+        "HOSTS", "USED_BY",
+    }),
+)
+
+KNOWLEDGE_SOURCE = SemanticSignature(
+    entity_type="KnowledgeSource",
+    required_fields=_BASE_REQUIRED,
+    optional_fields=_BASE_OPTIONAL | frozenset({
+        "format", "url", "publication_date", "author",
+    }),
+    allowed_relationships=frozenset({
+        "DESCRIBES", "CONTEXT_FOR",
     }),
 )
 
@@ -155,12 +192,61 @@ MODEL = SemanticSignature(
 
 INVARIANT = SemanticSignature(
     entity_type="Invariant",
-    required_fields=_BASE_REQUIRED | frozenset({"source"}),
+    required_fields=_BASE_REQUIRED,
     optional_fields=_BASE_OPTIONAL | frozenset({
-        "confidence", "domains", "pass_rate", "falsifiers",
+        "status",              # proposed, measured, tested, falsified, refined, verified, retired
+        "confidence_score",
+        "dissonance_score",
+        "evidence_entities",
+        "counterexamples",
     }),
     allowed_relationships=frozenset({
         "SUPPORTED_BY", "CONTRADICTED_BY", "TESTED_BY",
+        "SHARES_INVARIANT", "RELATES_TO",
+    }),
+)
+
+MATH_MODEL = SemanticSignature(
+    entity_type="MathModel",
+    required_fields=_BASE_REQUIRED | frozenset({"formal_definition"}),
+    optional_fields=_BASE_OPTIONAL | frozenset({
+        "equations", "parameters", "predicted_behavior", "applicable_substrates",
+    }),
+    allowed_relationships=frozenset({
+        "EXPLAINS", "FORMALIZES", "APPLIED_TO",
+    }),
+)
+
+CONJECTURE = SemanticSignature(
+    entity_type="Conjecture",
+    required_fields=_BASE_REQUIRED | frozenset({"statement"}),
+    optional_fields=_BASE_OPTIONAL | frozenset({
+        "predicted_by_model", "evidence_count",
+    }),
+    allowed_relationships=frozenset({
+        "PREDICTS", "PROVEN_BY",
+    }),
+)
+
+PROOF = SemanticSignature(
+    entity_type="Proof",
+    required_fields=_BASE_REQUIRED,
+    optional_fields=_BASE_OPTIONAL | frozenset({
+        "derivation", "assumptions", "model_id",
+    }),
+    allowed_relationships=frozenset({
+        "PROVES", "DERIVED_FROM",
+    }),
+)
+
+RESEARCH_REPORT = SemanticSignature(
+    entity_type="ResearchReport",
+    required_fields=_BASE_REQUIRED | frozenset({"report_type", "findings"}),
+    optional_fields=_BASE_OPTIONAL | frozenset({
+        "structural_deviation", "entropy_shift", "confidence_delta",
+    }),
+    allowed_relationships=frozenset({
+        "DOCUMENTS", "FALSIFIES", "MAPS",
     }),
 )
 
@@ -255,6 +341,9 @@ SIGNAL_PROFILE = SemanticSignature(
         "zero_crossing_rate",
         # Tonal
         "key", "key_strength", "chord_histogram", "tonal_centroid",
+        # Research Metrics
+        "commitment_density",  # EIP Metric: how strongly a system collapses its decision space
+        "entropy_collapse_rate",
         # Meta
         "duration", "sample_rate", "adapter",
     }),
@@ -297,8 +386,10 @@ _SIGNATURES: dict[str, SemanticSignature] = {
     sig.entity_type: sig
     for sig in [
         COMPOSER, TRACK, GAME, PLATFORM, SOUND_CHIP, SOUND_TEAM,
+        SOUND_DRIVER, CPU, KNOWLEDGE_SOURCE,
         SOUNDTRACK, STUDIO, DATASET, EXPERIMENT, MODEL,
-        INVARIANT, OPERATOR, DRIVER, INFRASUBSTRATE,
+        INVARIANT, OPERATOR, INFRASUBSTRATE,
+        MATH_MODEL, CONJECTURE, PROOF, RESEARCH_REPORT,
         # Music analysis entities
         CONTROL_SEQUENCE, SYMBOLIC_SCORE, SIGNAL_PROFILE, ARTIST_STYLE_VECTOR,
     ]

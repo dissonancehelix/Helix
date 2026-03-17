@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_warrior's_relaxation",
+    "track_name": "03 - Warrior's Relaxation",
+    "album": "Shi-Kin-Jou",
+    "composer": "Naoki Kodaka",
+    "year": "1991/04/27",
+    "track_order": "3/12",
+    "chip_data": {
+        "fm_writes": 213474,
+        "complexity": 0.946
+    },
+    "_type": "music:track"
+}

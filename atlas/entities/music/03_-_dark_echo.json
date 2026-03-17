@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_dark_echo",
+    "track_name": "03 - Dark Echo",
+    "album": "Batsugun",
+    "composer": "Yoshitatsu Sakai",
+    "year": "1993",
+    "track_order": "3/14",
+    "chip_data": {
+        "fm_writes": 28,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

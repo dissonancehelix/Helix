@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_round_i_boss",
+    "track_name": "02 - Round I Boss",
+    "album": "Tecmo Knight",
+    "composer": "Mikio Saito",
+    "year": "1989-05",
+    "track_order": "2/12",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

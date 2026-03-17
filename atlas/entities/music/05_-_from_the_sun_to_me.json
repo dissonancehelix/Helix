@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_from_the_sun_to_me",
+    "track_name": "05 - From the Sun to Me",
+    "album": "Fire Shark",
+    "composer": "Masahiro Yuge",
+    "year": "1989-11",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 14,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

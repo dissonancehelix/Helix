@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_slash's_stage",
+    "track_name": "08 - Slash's Stage",
+    "album": "Eternal Champions",
+    "composer": "Joe Delia",
+    "year": "1993/08/14",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 37901,
+        "complexity": 0.433
+    },
+    "_type": "music:track"
+}

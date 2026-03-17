@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_phantasy",
+    "track_name": "01 - Phantasy",
+    "album": "Phantasy Star II",
+    "composer": "Tokuhiko Uwabo",
+    "year": "1989",
+    "track_order": "1/22",
+    "chip_data": {
+        "fm_writes": 27596,
+        "complexity": 0.417
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "50_-_sagat's_theme_critical",
+    "track_name": "50 - Sagat's Theme (Critical)",
+    "album": "Street Fighter II",
+    "composer": "Isao Abe",
+    "year": "1991",
+    "track_order": "50/54",
+    "chip_data": {
+        "fm_writes": 8,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

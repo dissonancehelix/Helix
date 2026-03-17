@@ -1,0 +1,13 @@
+{
+    "entity_id": "42_-_beauty_is_a_trap",
+    "track_name": "42 - Beauty is a Trap",
+    "album": "The Legend of Xanadu",
+    "composer": "Masaru Nakajima",
+    "year": "1994",
+    "track_order": "42/84",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

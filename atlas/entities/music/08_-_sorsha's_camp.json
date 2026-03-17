@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_sorsha's_camp",
+    "track_name": "08 - Sorsha's Camp",
+    "album": "Willow",
+    "composer": "Takashi Tateishi",
+    "year": "1989",
+    "track_order": "8/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

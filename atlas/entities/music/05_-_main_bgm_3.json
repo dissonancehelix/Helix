@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_main_bgm_3",
+    "track_name": "05 - Main BGM 3",
+    "album": "Superman",
+    "composer": "Masahiko Takaki",
+    "year": "1989-02",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

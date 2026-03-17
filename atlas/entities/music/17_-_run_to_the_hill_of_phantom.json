@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_run_to_the_hill_of_phantom",
+    "track_name": "17 - Run to the Hill of Phantom",
+    "album": "Lagoon",
+    "composer": "Hideki Suzuki",
+    "year": "1990-09-12",
+    "track_order": "17/37",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

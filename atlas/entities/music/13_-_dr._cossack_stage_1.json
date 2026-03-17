@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_dr._cossack_stage_1",
+    "track_name": "13 - Dr. Cossack Stage 1",
+    "album": "Mega Man 4",
+    "composer": "Minae Fujii",
+    "year": "1991-12-06",
+    "track_order": "13/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

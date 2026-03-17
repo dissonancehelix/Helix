@@ -1,0 +1,13 @@
+{
+    "entity_id": "41_-_magnetic_orbs",
+    "track_name": "41 - Magnetic Orbs",
+    "album": "Sonic 3 & Knuckles",
+    "composer": "Jun Senoue",
+    "year": "1994",
+    "track_order": "41/58",
+    "chip_data": {
+        "fm_writes": 26111,
+        "complexity": 0.30600000000000005
+    },
+    "_type": "music:track"
+}

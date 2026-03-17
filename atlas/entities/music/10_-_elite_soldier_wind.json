@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_elite_soldier_wind",
+    "track_name": "10 - Elite Soldier Wind",
+    "album": "Top Hunter: Roddy & Cathy",
+    "composer": "Yoko Osaka",
+    "year": "1994-05-18",
+    "track_order": "10/28",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

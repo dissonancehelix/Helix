@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_river",
+    "track_name": "02 - River",
+    "album": "Magical Pumpkin: Puroland de Daibouken",
+    "composer": "Capcom Sound Team&",
+    "year": "1996-07-12",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

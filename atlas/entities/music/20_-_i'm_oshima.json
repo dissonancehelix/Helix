@@ -1,0 +1,13 @@
+{
+    "entity_id": "20_-_i'm_oshima",
+    "track_name": "20 - I'm Oshima",
+    "album": "Power Instinct 2",
+    "composer": "Toshikazu Tanaka",
+    "year": "1994-10",
+    "track_order": "20/21",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

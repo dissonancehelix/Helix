@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_the_downfall_of_saris",
+    "track_name": "01 - The Downfall of Saris",
+    "album": "Rune Worth: Kokui no Kikoushi",
+    "composer": "Shigeru Tomita",
+    "year": "1990-01",
+    "track_order": "1/35",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

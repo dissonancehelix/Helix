@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_shrine",
+    "track_name": "23 - Shrine",
+    "album": "Radia Senki: Reimei Hen",
+    "composer": "Keiji Yamagishi",
+    "year": "1991-11-15",
+    "track_order": "23/31",
+    "chip_data": {
+        "fm_writes": 18,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

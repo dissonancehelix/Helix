@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_izanami_ii",
+    "track_name": "14 - Izanami II",
+    "album": "Digital Devil Story: Megami Tensei",
+    "composer": "Tsukasa Masuko\"",
+    "year": "1987-09-11",
+    "track_order": "14/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,9 @@
+{
+    "entity_id": "13_-_sub-boss_(s3)",
+    "track_name": "13 - Sub-Boss (S3)",
+    "composer": "Sega Sound Team",
+    "attributed_to": "Tatsuyuki Maeda",
+    "attribution_confidence": 0.98,
+    "rationale": "High YM2612 algorithm complexity (0.98) matches Maeda signature.",
+    "_type": "music:track"
+}

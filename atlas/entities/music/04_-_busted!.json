@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_busted!",
+    "track_name": "04 - Busted!",
+    "album": "Skitchin'",
+    "composer": "Jeff van Dyck",
+    "year": "1993",
+    "track_order": "4/25",
+    "chip_data": {
+        "fm_writes": 1225,
+        "complexity": 0.8
+    },
+    "_type": "music:track"
+}

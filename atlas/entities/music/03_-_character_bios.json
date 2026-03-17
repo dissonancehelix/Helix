@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_character_bios",
+    "track_name": "03 - Character Bios",
+    "album": "Eternal Champions",
+    "composer": "Andy Armer",
+    "year": "1993/08/14",
+    "track_order": "3/16",
+    "chip_data": {
+        "fm_writes": 20703,
+        "complexity": 0.445
+    },
+    "_type": "music:track"
+}

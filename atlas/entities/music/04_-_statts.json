@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_statts",
+    "track_name": "04 - Statts",
+    "album": "Sword of Vermilion",
+    "composer": "Hiro",
+    "year": "1989/12/16",
+    "track_order": "4/23",
+    "chip_data": {
+        "fm_writes": 26960,
+        "complexity": 0.28500000000000003
+    },
+    "_type": "music:track"
+}

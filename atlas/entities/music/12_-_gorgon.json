@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_gorgon",
+    "track_name": "12 - Gorgon",
+    "album": "Saint Sword",
+    "composer": "Toshiko Tasaki",
+    "year": "1991/06/28",
+    "track_order": "12/14",
+    "chip_data": {
+        "fm_writes": 73461,
+        "complexity": 0.62
+    },
+    "_type": "music:track"
+}

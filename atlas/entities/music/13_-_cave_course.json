@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_cave_course",
+    "track_name": "13 - Cave Course",
+    "album": "Wario Land: Super Mario Land 3",
+    "composer": "Ryoji Yoshitomi",
+    "year": "1994",
+    "track_order": "13/27",
+    "chip_data": {
+        "fm_writes": 99,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

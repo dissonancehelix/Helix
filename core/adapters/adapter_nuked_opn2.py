@@ -59,13 +59,31 @@ _CARRIER_SLOTS: dict[int, frozenset[int]] = {
 _ALL_SLOTS: frozenset[int] = frozenset({0, 1, 2, 3})
 
 
-class NukedOpn2Adapter:
+class Adapter:
     """
     Adapter exposing Nuked-OPN2 YM2612 topology constants.
 
     Correct call path:
-        HIL → ANALYZE_TRACK operator → NukedOpn2Adapter → constant tables
+        HIL → ANALYZE_TRACK operator → Adapter → constant tables
     """
+    toolkit = "nuked_opn2"
+    substrate = "music"
+
+    def execute(self, payload: dict[str, Any]) -> dict[str, Any]:
+        """
+        Execute adapter logic for YM2612 FM topologies.
+        """
+        algorithm = payload.get("algorithm")
+        operator_total_levels = payload.get("operator_total_levels")
+        
+        if algorithm is None:
+            raise AdapterError("Payload must contain 'algorithm'")
+            
+        result = self.analyze_patch(algorithm, operator_total_levels or {})
+        return self.normalize(result)
+
+    def normalize(self, result: dict[str, Any]) -> dict[str, Any]:
+        return result
 
     def get_carrier_slots(self, algorithm: int) -> dict[str, Any]:
         """

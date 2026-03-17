@@ -1,0 +1,13 @@
+{
+    "entity_id": "31_-_felicia_ending_1",
+    "track_name": "31 - FELICIA Ending 1",
+    "album": "Night Warriors: Darkstalkers' Revenge",
+    "composer": "Takayuki Iwai",
+    "year": "1995",
+    "track_order": "31/44",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

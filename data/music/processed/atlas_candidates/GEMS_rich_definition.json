@@ -1,0 +1,42 @@
+{
+  "id": "music.sound_driver:gems",
+  "type": "SoundDriver",
+  "name": "Genesis Editor for Music and Sound (GEMS) v2.5",
+  "substrate": "music",
+  "platform": [ "Sega Mega Drive", "32X", "Sega CD" ],
+  "language": "68000 / Z80 Assembly",
+  "capabilities": [
+    "MIDI File Playback",
+    "Real-time Sequencer Control",
+    "Shared Memory (Mailbox) Comm.",
+    "Dynamic Pitch/Tempo Adjustment",
+    "PCM/Sample Support"
+  ],
+  "command_set": [
+    { "opcode": "PLAY_PATCH", "description": "Trigger an FM/PSG patch with a MIDI-style note." },
+    { "opcode": "SET_PARAM", "description": "Set a specific voice parameter (ADSR, LFO, etc.)." },
+    { "opcode": "TEMPO", "description": "Set sequencer speed." },
+    { "opcode": "STOP_ALL", "description": "Silence all channels (panic button)." }
+  ],
+  "behavioral_invariants": [
+    {
+      "id": "music.invariant:six_note_limit",
+      "description": "Hardware/software crash risk if more than 6 notes are active simultaneously in earlier versions.",
+      "type": "RuntimeConstraint"
+    },
+    {
+      "id": "music.invariant:mailbox_latency",
+      "description": "0.1-0.5ms jitter between 68k commander and Z80 executor due to polling interaction.",
+      "type": "TimingJitter"
+    },
+    {
+      "id": "music.invariant:shared_patch_rom",
+      "description": "Large banks of reused patches ('florentine', 'twangy') shared across multiple games.",
+      "type": "PatchSignature"
+    }
+  ],
+  "sources": [
+    "data/music/source/code/GEMS/GEMS.htm",
+    "data/music/source/code/GEMS/GEMS.DOC"
+  ]
+}

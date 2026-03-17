@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_boss_tune",
+    "track_name": "12 - Boss Tune",
+    "album": "The Jungle Book",
+    "composer": "Tommy Tallarico",
+    "year": "1994",
+    "track_order": "12/13",
+    "chip_data": {
+        "fm_writes": 1386579,
+        "complexity": 0.554
+    },
+    "_type": "music:track"
+}

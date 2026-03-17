@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_opening_~_main_theme",
+    "track_name": "01 - Opening ~ Main Theme",
+    "album": "The NewZealand Story",
+    "composer": "Yasuko Yamada",
+    "year": "1988",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_illusion_area_-_phantomana",
+    "track_name": "17 - Illusion Area - Phantomana",
+    "album": "Tinkle Pit",
+    "composer": "Yoshie Arakawa",
+    "year": "1994-02",
+    "track_order": "17/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

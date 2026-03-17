@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_highly_responsive_to_prayers",
+    "track_name": "04 - Highly Responsive to Prayers",
+    "album": "Touhou Reiiden ~ Highly Responsive to Prayers",
+    "composer": "ZUN-",
+    "year": "1996",
+    "track_order": "4/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

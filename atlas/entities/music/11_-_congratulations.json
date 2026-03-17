@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_congratulations",
+    "track_name": "11 - Congratulations",
+    "album": "Fire Pro Wrestling: 2nd Bout",
+    "composer": "Hironori Tanaka",
+    "year": "1991-08-30",
+    "track_order": "11/11",
+    "chip_data": {
+        "fm_writes": 7,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

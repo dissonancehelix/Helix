@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_theme_of_jumbo",
+    "track_name": "19 - Theme of Jumbo",
+    "album": "Saturday Night Slam Masters",
+    "composer": "Masaki Izutani",
+    "year": "1993-07",
+    "track_order": "19/23",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

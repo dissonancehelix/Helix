@@ -1,0 +1,8 @@
+{
+  "doc_id": "Weird_crawling_badnik_from_CPZ",
+  "complexity_metrics": {
+    "degrees_of_freedom": 64,
+    "control_resolution": 8,
+    "temporal_dependency": 4
+  }
+}

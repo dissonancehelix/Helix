@@ -1,0 +1,13 @@
+{
+    "entity_id": "18_-_champions_of_time_and_space",
+    "track_name": "18 - Champions of Time and Space",
+    "album": "Final Fantasy Legend III",
+    "composer": "Chihiro Fujioka",
+    "year": "1991-12-13",
+    "track_order": "18/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

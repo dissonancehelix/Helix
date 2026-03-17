@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_diamond_mines",
+    "track_name": "21 - Diamond Mines",
+    "album": "Puggsy",
+    "composer": "Matt Furniss",
+    "year": "1993",
+    "track_order": "21/31",
+    "chip_data": {
+        "fm_writes": 311073,
+        "complexity": 0.44099999999999995
+    },
+    "_type": "music:track"
+}

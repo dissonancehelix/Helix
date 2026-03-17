@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_diablo_the_thunder_genie",
+    "track_name": "06 - Diablo the Thunder Genie",
+    "album": "Monster Maulers",
+    "composer": "Yoshihiko Koezuka",
+    "year": "1993",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

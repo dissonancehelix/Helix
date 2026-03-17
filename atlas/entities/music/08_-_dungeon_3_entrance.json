@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_dungeon_3_entrance",
+    "track_name": "08 - Dungeon 3 Entrance",
+    "album": "Light Crusader",
+    "composer": "Aki Hata",
+    "year": "1995",
+    "track_order": "8/28",
+    "chip_data": {
+        "fm_writes": 31734,
+        "complexity": 0.41200000000000003
+    },
+    "_type": "music:track"
+}

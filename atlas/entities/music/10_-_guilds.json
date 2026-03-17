@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_guilds",
+    "track_name": "10 - Guilds",
+    "album": "Rings of Power",
+    "composer": "Alexander Hinds",
+    "year": "1991/02/01",
+    "track_order": "10/15",
+    "chip_data": {
+        "fm_writes": 14977,
+        "complexity": 0.452
+    },
+    "_type": "music:track"
+}

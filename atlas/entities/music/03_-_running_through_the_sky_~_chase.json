@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_running_through_the_sky_~_chase",
+    "track_name": "03 - Running Through the Sky ~ Chase",
+    "album": "Gaiapolis",
+    "composer": "Seiichi Fukami",
+    "year": "1993-04",
+    "track_order": "3/37",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_reverie_of_might",
+    "track_name": "05 - Reverie of Might",
+    "album": "Ninja Master's",
+    "composer": "Takeshi Muramatsu",
+    "year": "1996-06-28",
+    "track_order": "5/26",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

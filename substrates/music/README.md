@@ -30,6 +30,13 @@ Redundancy in this document is intentional. Explicit beats implicit.
 
 The Music Substrate is the Helix environment responsible for transforming music libraries into structured computational datasets.
 
+## Core Capabilities
+* **Hardware Invariant Extraction**: Direct structural modeling of vintage sound chips (YM2612, YM2151, etc.) from reference emulator code.
+* **Driver Layer Analysis**: Disentangling software-driver implementations (GEMS, SMPS) from hardware capabilities using source-code invariants.
+* **Control Sequence Ingestion**: High-fidelity rendering of VGM/VGZ/SPC/NSF data.
+* **Cognition Discovery**: Detection of cross-platform melodic fingerprints.
+* **Style Vector Computation**: Construction of artist identities from structural data.
+
 It analyzes music as a layered structural system spanning:
 - synthesis mechanisms (chip register events, FM operator graphs)
 - audio perception (signal features, spectral analysis)
@@ -40,8 +47,9 @@ It analyzes music as a layered structural system spanning:
 It converts music artifacts into:
 
 ```
-raw files
+raw files (data/music/source/)
 → decoded representations (chip events / rendered waveforms)
+→ hardware architecture extraction (the 6-stage Ingestion Contract)
 → feature layers (MIR / symbolic / synthesis)
 → fused style vectors (per-track and per-composer)
 → embeddings and clusters
@@ -112,10 +120,20 @@ Scripts in `substrates/music/` must not be invoked directly in runtime mode.
 All substrate outputs are written to:
 
 ```
-artifacts/music/<track_id>/
+artifacts/music/processed/
 ```
 
-Never to `atlas/`. Artifacts accumulate. The Atlas Compiler batch-processes them.
+Never to `atlas/`. Artifacts accumulate in the **Execution Layer** before being persisted to the **Root Data Layer** under `data/music/processed/`.
+
+### 2.3 Hardware Ingestion Contract
+
+The Music Substrate is responsible for ingesting technical documentation (PDFs, manuals) to seed hardware entities. This MUST follow the **6-stage pipeline**:
+1. `parsed.json` (Document sections)
+2. `features.json` (Measurable hardware properties)
+3. `structure.json` (Signal flow / Topology graphs)
+4. `patterns.json` (Motific extraction)
+5. `measurements.json` (Quantified parameters/limits)
+6. `atlas_candidates.json` (Proposed entities/relationships)
 
 ---
 
@@ -140,11 +158,15 @@ HIL
   core/adapters/  modules  Vector
         │         │         │
         └─────────┼─────────┘
-                  ▼
-            artifacts/music/
                   │
                   ▼
-         Atlas Compiler (COMPILE_ATLAS)
+           execution/runs/           ← Intermediate Traces
+                  │
+                  ▼
+        data/music/processed/        ← Persistent Derived Data
+                  │
+                  ▼
+          Atlas Compiler (COMPILE_ATLAS)
                   │
                   ▼
               atlas/music/
@@ -379,7 +401,7 @@ These entities live in `atlas/music/`:
 | `Album` | `music.album:<slug>` | Collection of tracks |
 | `Game` | `music.game:<slug>` | Video game |
 | `Platform` | `music.platform:<slug>` | Hardware platform |
-| `SoundChip` | `music.sound_chip:<slug>` | Audio synthesis chip |
+| `SoundChip` | `music.sound_chip:<slug>` | Audio synthesis chip (channels, topologies, DAC resolution) |
 | `SoundTeam` | `music.sound_team:<slug>` | Composer group / studio |
 
 ### 7.2 Music analysis entities
@@ -671,6 +693,8 @@ All artifacts are written to `artifacts/music/<track_id>/`.
   "mfcc_means": [...],
   "chroma_means": [...],
   "onset_density": 4.2,
+  "commitment_density": 0.82,  # EIP Metric: decision collapse strength
+  "entropy_collapse_rate": 0.15,
   "tempo": 142.0,
   "dynamic_range_mean": 18.4,
   "adapter": "librosa"
@@ -699,6 +723,10 @@ All artifacts are written to `artifacts/music/<track_id>/`.
   "structural_features": {...},
   "timbral_features": {...},
   "motivic_features": {...},
+  "research_features": {
+    "commitment_density_mean": 0.76,
+    "entropy_collapse_variance": 0.04
+  },
   "context_metadata": {
     "platforms_used": ["Sega Genesis", "PC-88"],
     "chips_used": ["YM2612", "OPN"],
@@ -823,19 +851,43 @@ The `AUDIT.md` in that directory classifies them:
 
 **Refactor candidates must not be invoked directly.** Their functionality is now available via HIL operators.
 
-```
+```hil
 # Ingest tracks
 RUN operator:INGEST_TRACK track:music.track:<id>
 
-# Analyze tracks
+# Analyze tracks (Produces MIR, Motif, Geometry, Causal, and Style artifacts)
 RUN operator:ANALYZE_TRACK track:music.track:<id>
 
-# Compute style vector
-RUN operator:STYLE_VECTOR composer:music.composer:<slug>
+# Research Loop: Falsification and Topology
+RUN operator:FALSIFY_INVARIANT invariant:decision_compression
+RUN operator:TOPOLOGY_MAP entity:music.track:<id> entity:games.experiment:<id>
+
+# Knowledge Gain Monitoring
+RUN operator:MEASURE_KNOWLEDGE_GAIN substrate:music
+
+# Pattern Search
+RUN operator:DISCOVER
+RUN operator:DISCOVER target:attribution track:music.track:<id>
+RUN operator:DISCOVER_INVARIANTS
 
 # Compile to Atlas
 RUN operator:COMPILE_ATLAS
 ```
+
+---
+
+## 15. MULTI-ARTIST ATTRIBUTION RULES
+
+Tracks with multiple artists are treated as latent mixtures to prevent style vector corruption.
+
+1.  **Delimiters**: Use `;` in `artist` field for parsing.
+2.  **Attribution Persistence**:
+    - `solo`: Verified single author. Weight = 1.0.
+    - `multi`: Multiple credits, equal distribution placeholder. Weight = 0.25 (Low baseline).
+    - `inferred`: Authorship refined via structural analysis. Weight = 0.5 - 1.0.
+3.  **Refinement Pipeline**: Use `DISCOVER target:attribution` to generate an `attribution_inference.json`. If confidence is high, `COMPILE_ATLAS` promotes this to an `inferred` status.
+4.  **Style Fingerprinting**: Only `solo` and `verified inferred` tracks are used for ground-truth style vector formation. `multi` tracks are deprioritized.
+
 
 ---
 
@@ -1000,5 +1052,93 @@ A future system can reconstruct the Music Substrate from this document. Required
 
 ---
 
+---
+
+## 22. TOOLKITS AND EXTERNAL DEPENDENCIES
+
+The Music Substrate integrates a wide array of specialized toolkits for synthesis tracing, audio analysis, and symbolic musicology. Each is integrated via the **Adapter** layer to ensure modularity.
+
+### 22.1 Synthesis & Emulation (C-Layer)
+These toolkits reside in `runtime/deps/` and provide the **Causal Timeline** (register-level accuracy).
+
+| Toolkit | Implementation Name | Usage in Helix |
+|---------|---------------------|----------------|
+| **Libvgm** | `libvgm` | Primary VGM/VGZ emulator. Used via `libvgm_bridge` for YM2612/SN76489 register-write tracing. |
+| **Game_Music_Emu** | `gme` | Multi-chip emulator for SPC, NSF, GBS, HES, KSS, AY. Used for 8/16-bit console formats. |
+| **Vgmstream** | `vgmstream` | Comprehensive audio decoder. Used for PSF, 2SF, USF, and modern streaming formats (.adx, .hca). |
+| **Nuked-OPN2** | `Nuked-OPN2` | Cycle-accurate OPN2 (YM2612) model. Used to derive algorithmic operator topology and brightness proxies. |
+
+### 22.2 Driver-Level Analysis (Binary Analysis)
+Used for deeper inspection of sound drivers and instruction-level behavior.
+
+| Toolkit | Description | Usage |
+|---------|-------------|-------|
+| **SMPS Source** | Sega Music Processor System | Reference source for Z80/68k drivers. Integration via `smps_reconstructor.py` for MIDI recovery. |
+| **GEMS Source** | Genesis Editor for Music and Sound | Sega's mid-90s interactive driver. Used for format-native patch extraction. |
+| **vgm2txt** | VGM utility | CLI tool used for raw register dumps when bypass of `libvgm_bridge` is required. |
+
+### 22.3 Signal & MIR Analysis (Python-Layer)
+Provides the **Perceptual Timeline** (how the listener hears the sound).
+
+| Toolkit | Key Capabilities | Usage |
+|---------|------------------|-------|
+| **Librosa** | Spectral features, MFCC, Chroma, Onset detection. | Primary signal profile extractor in `LibrosaAdapter`. |
+| **Essentia** | Tonal Centroid, Chord segmentation, Rhythm features. | Advanced descriptors used by `EssentiaAdapter`. |
+
+### 22.4 Symbolic Musicology
+Handles the **Compositional Representation** (notes and structure).
+
+| Toolkit | Purpose | Usage |
+|---------|---------|-------|
+| **Music21** | Music XML, Score-level analysis, Parallel phrase detection. | Musicological research and score modeling in `Music21Adapter`. |
+| **PrettyMidi** | MIDI manipulation, Note density, Pitch histograms. | Efficient symbolic feature extraction in `PrettyMidiAdapter`. |
+
+### 22.5 Cross-Substrate Pattern Libraries
+- **FAISS**: Vector similarity search for motif and style clustering.
+- **NetworkX**: Relationship graph modeling and traversal.
+
+---
+
 *This document is the authoritative specification for the Helix Music Substrate.*
 *Version 2.0 — 2026-03-17*
+
+
+---
+
+## 4. DOMAIN ENTITIES
+
+### **SoundChip**
+Physical hardware entity (e.g. YM2612).
+- **Properties**: `synthesis_type`, `clock_speed`, `channels`, `dac_resolution`.
+- **Topologies**: List of supported FM algorithms or routing maps.
+
+### **SoundDriver**
+Software layer orchestrating the hardware (e.g. GEMS, SMPS).
+- **Properties**: `command_set`, `envelope_logic`, `platform`.
+- **Invariants**: Discovered biases in timing, rhythm, and patch reuse.
+
+## **Hardware & Driver Ontology**
+See [hardware_ontology.md](./hardware_ontology.md) for the formal definition of these physical and logical invariants.
+
+---
+
+## Architecture Guardrail
+
+**Helix Architecture Law**
+`HIL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler`
+
+* Operators orchestrate
+* Adapters translate
+* Toolkits execute
+* Artifacts store results
+* Atlas compiler creates entities
+
+**Prohibited Patterns**
+- `master_pipeline.py`
+- Direct toolkit calls from operators
+- Toolkits writing artifacts
+- Toolkits writing Atlas entities
+- Operators writing Atlas entities
+- Monolithic pipelines
+
+*All new modules must follow the template registry located in `runtime/templates/`.*

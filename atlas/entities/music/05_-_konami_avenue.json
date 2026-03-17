@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_konami_avenue",
+    "track_name": "05 - Konami Avenue",
+    "album": "World Circuit Series",
+    "composer": "Konami Kukeiha Club",
+    "year": "1991-02-28",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

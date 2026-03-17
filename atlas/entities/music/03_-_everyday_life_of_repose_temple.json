@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_everyday_life_of_repose_temple",
+    "track_name": "03 - Everyday Life of Repose (Temple)",
+    "album": "Famicom Jump II: Saikyo no 7-nin",
+    "composer": "Satoshi Kadokura ",
+    "year": "1991-12-02",
+    "track_order": "3/17 ",
+    "chip_data": {
+        "fm_writes": 21,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

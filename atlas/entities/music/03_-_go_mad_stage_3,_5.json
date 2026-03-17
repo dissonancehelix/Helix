@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_go_mad_stage_3,_5",
+    "track_name": "03 - Go Mad (Stage 3, 5)",
+    "album": "The Speed Rumbler",
+    "composer": "Tamayo Kawamoto",
+    "year": "1986-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

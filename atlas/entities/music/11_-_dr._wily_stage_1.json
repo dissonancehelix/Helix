@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_dr._wily_stage_1",
+    "track_name": "11 - Dr. Wily Stage 1",
+    "album": "Mega Man 2",
+    "composer": "Takashi Tateishi",
+    "year": "1988-12-24",
+    "track_order": "11/16",
+    "chip_data": {
+        "fm_writes": 69,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

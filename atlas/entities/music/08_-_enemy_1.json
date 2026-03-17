@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_enemy_1",
+    "track_name": "08 - Enemy 1",
+    "album": "Sadakichi Seven: Hideyoshi no Ougon",
+    "composer": "Daisuke Inoue#",
+    "year": "1988-11-18",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

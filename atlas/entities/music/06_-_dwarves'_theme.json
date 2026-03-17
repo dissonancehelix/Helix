@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_dwarves'_theme",
+    "track_name": "06 - Dwarves' Theme",
+    "album": "Final Fantasy Adventure",
+    "composer": "Kenji Ito",
+    "year": "1991-06-28",
+    "track_order": "6/23",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

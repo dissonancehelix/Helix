@@ -36,6 +36,7 @@ from core.hil.command_registry import get_spec, VALID_VERBS
 # Blocked shell patterns (defense-in-depth after parser)
 _BLOCKED: tuple[str, ...] = (
     "rm ", "rm\t", "mkfs", "dd ", "sudo ",
+    "curl ", "wget ", "exec(", "eval(",
     "DROP ", "DELETE FROM", "> /dev/",
 )
 

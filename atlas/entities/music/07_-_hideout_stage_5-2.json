@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_hideout_stage_5-2",
+    "track_name": "07 - Hideout (Stage 5-2)",
+    "album": "Lethal Enforcers II: Gun Fighters",
+    "composer": "Tsuyoshi Sekito",
+    "year": "1994",
+    "track_order": "7/17",
+    "chip_data": {
+        "fm_writes": 10170,
+        "complexity": 0.7649999999999999
+    },
+    "_type": "music:track"
+}

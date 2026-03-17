@@ -1,0 +1,13 @@
+{
+    "entity_id": "40_-_wandering_thoughts",
+    "track_name": "40 - Wandering Thoughts",
+    "album": "The Legend of Heroes IV: A Tear of Vermillion",
+    "composer": "Atsushi Shirakawa-",
+    "year": "1996",
+    "track_order": "40/54",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

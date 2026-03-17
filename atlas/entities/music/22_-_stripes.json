@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_stripes",
+    "track_name": "22 - Stripes",
+    "album": "Street Fighter Alpha 3",
+    "composer": "Yuki Iwai",
+    "year": "1998-07",
+    "track_order": "22/39",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

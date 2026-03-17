@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_starnight_dance",
+    "track_name": "02 - StarNight Dance",
+    "album": "Kira Kira Star Night",
+    "composer": "Bunpei Nagahama",
+    "year": "2016-10-06",
+    "track_order": "2/29",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

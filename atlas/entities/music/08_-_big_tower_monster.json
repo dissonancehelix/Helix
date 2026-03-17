@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_big_tower_monster",
+    "track_name": "08 - Big Tower Monster",
+    "album": "Gargoyle's Quest",
+    "composer": "Harumi Fujita",
+    "year": "1990-05-02",
+    "track_order": "8/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

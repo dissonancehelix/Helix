@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_red_sunset",
+    "track_name": "11 - Red Sunset",
+    "album": "Rusty",
+    "composer": "Masahiro Kajihara",
+    "year": "1993-07-16",
+    "track_order": "11/24",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

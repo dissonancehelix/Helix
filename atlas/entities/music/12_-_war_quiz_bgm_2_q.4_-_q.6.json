@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_war_quiz_bgm_2_q.4_-_q.6",
+    "track_name": "12 - War (Quiz BGM 2 Q.4 - Q.6)",
+    "album": "Quiz Tonosama no Yabou",
+    "composer": "Manami Matsumae",
+    "year": "1991-01-16",
+    "track_order": "12/19",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_black_out_#1",
+    "track_name": "14 - Black Out #1",
+    "album": "World Heroes 2",
+    "composer": "Hideki Yamamoto",
+    "year": "1993-04-26",
+    "track_order": "14/41",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

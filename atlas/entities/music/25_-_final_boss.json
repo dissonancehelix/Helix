@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_final_boss",
+    "track_name": "25 - Final Boss",
+    "album": "Wario Land: Super Mario Land 3",
+    "composer": "Ryoji Yoshitomi",
+    "year": "1994",
+    "track_order": "25/27",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

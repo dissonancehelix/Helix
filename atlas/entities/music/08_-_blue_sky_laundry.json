@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_blue_sky_laundry",
+    "track_name": "08 - Blue Sky Laundry",
+    "album": "Battle Mania Daiginjou",
+    "composer": "Fumito Tamayama",
+    "year": "1993/12/24",
+    "track_order": "8/27",
+    "chip_data": {
+        "fm_writes": 25262,
+        "complexity": 0.143
+    },
+    "_type": "music:track"
+}

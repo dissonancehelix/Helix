@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_all_together_now",
+    "track_name": "05 - All Together Now",
+    "album": "Dragon Slayer IV: Drasle Family",
+    "composer": "Yuzo Koshiro",
+    "year": "1987-10",
+    "track_order": "5/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

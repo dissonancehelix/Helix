@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_selection",
+    "track_name": "02 - Selection",
+    "album": "The Adventures of Mighty Max",
+    "composer": "Matt Furniss",
+    "year": "1994/09/04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 103335,
+        "complexity": 0.32
+    },
+    "_type": "music:track"
+}

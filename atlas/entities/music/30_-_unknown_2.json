@@ -1,0 +1,13 @@
+{
+    "entity_id": "30_-_unknown_2",
+    "track_name": "30 - Unknown 2",
+    "album": "Asura Buster: Eternal Warriors",
+    "composer": "Akihiro Nishida",
+    "year": "2000-12-26",
+    "track_order": "30/30",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

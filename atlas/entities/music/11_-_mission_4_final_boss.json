@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_mission_4_final_boss",
+    "track_name": "11 - Mission 4 Final Boss",
+    "album": "Shadow Dancer",
+    "composer": "Keisuke Tsukahara",
+    "year": "1989-05",
+    "track_order": "11/13",
+    "chip_data": {
+        "fm_writes": 112,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

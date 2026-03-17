@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_stage_5-2_access_tube_~_boss",
+    "track_name": "13 - Stage 5-2 (Access Tube ~ Boss)",
+    "album": "Ranger-X",
+    "composer": "Yoshinobu Hiraiwa",
+    "year": "1993/05/28",
+    "track_order": "13/21",
+    "chip_data": {
+        "fm_writes": 48211,
+        "complexity": 0.637
+    },
+    "_type": "music:track"
+}

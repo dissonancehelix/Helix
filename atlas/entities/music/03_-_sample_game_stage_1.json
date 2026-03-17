@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_sample_game_stage_1",
+    "track_name": "03 - Sample Game Stage 1",
+    "album": "Dezaemon",
+    "composer": "Shotaro Sasaki",
+    "year": "1991-09-13",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 160,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

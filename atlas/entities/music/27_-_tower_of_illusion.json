@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_tower_of_illusion",
+    "track_name": "27 - Tower of Illusion",
+    "album": "Lufia: The Legend Returns",
+    "composer": "Yasunori Shiono",
+    "year": "2001-09-07",
+    "track_order": "27/66",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "19_-_sun's_afternoon_nap",
+    "track_name": "19 - Sun's Afternoon Nap",
+    "album": "Magical Drop III",
+    "composer": "Hiroaki Yoshida",
+    "year": "1997",
+    "track_order": "19/32",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

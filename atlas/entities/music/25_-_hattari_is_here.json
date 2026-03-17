@@ -1,0 +1,13 @@
+{
+    "entity_id": "25_-_hattari_is_here",
+    "track_name": "25 - Hattari is Here",
+    "album": "Dynamite Headdy",
+    "composer": "Norio Hanzawa",
+    "year": "1994",
+    "track_order": "25/32",
+    "chip_data": {
+        "fm_writes": 622,
+        "complexity": 0.308
+    },
+    "_type": "music:track"
+}

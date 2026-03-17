@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_legend_of_the_gunstars",
+    "track_name": "02 - Legend of the Gunstars",
+    "album": "Gunstar Heroes",
+    "composer": "Norio Hanzawa",
+    "year": "1993",
+    "track_order": "2/22",
+    "chip_data": {
+        "fm_writes": 64442,
+        "complexity": 0.9580000000000001
+    },
+    "_type": "music:track"
+}

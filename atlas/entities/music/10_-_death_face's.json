@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_death_face's",
+    "track_name": "10 - Death Face's",
+    "album": "Thunder Force II",
+    "composer": "Tomomi Otani",
+    "year": "1989/06/15",
+    "track_order": "10/13",
+    "chip_data": {
+        "fm_writes": 66513,
+        "complexity": 0.88
+    },
+    "_type": "music:track"
+}

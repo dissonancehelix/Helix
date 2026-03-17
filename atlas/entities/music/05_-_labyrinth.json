@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_labyrinth",
+    "track_name": "05 - Labyrinth",
+    "album": "Kid Icarus",
+    "composer": "Hip Tanaka",
+    "year": "1986-12-19",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 90,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

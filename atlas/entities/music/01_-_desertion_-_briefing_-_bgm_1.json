@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_desertion_-_briefing_-_bgm_1",
+    "track_name": "01 - Desertion - Briefing - BGM 1",
+    "album": "Master of Weapon",
+    "composer": "Yasuhisa Watanabe",
+    "year": "1991/09/27",
+    "track_order": "1/13",
+    "chip_data": {
+        "fm_writes": 27576,
+        "complexity": 0.724
+    },
+    "_type": "music:track"
+}

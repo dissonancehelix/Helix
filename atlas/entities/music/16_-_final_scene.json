@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_final_scene",
+    "track_name": "16 - Final Scene",
+    "album": "Operation Wolf 3",
+    "composer": "Hiroshi Tuda",
+    "year": "1994",
+    "track_order": "16/18",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

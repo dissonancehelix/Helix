@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_the_song_of_oni",
+    "track_name": "10 - The Song of Oni",
+    "album": "Samurai Shodown III",
+    "composer": "Yasuo Yamate",
+    "year": "1995-11-15",
+    "track_order": "10/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

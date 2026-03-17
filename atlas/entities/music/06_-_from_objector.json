@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_from_objector",
+    "track_name": "06 - From Objector",
+    "album": "Alien Soldier",
+    "composer": "Norio Hanzawa",
+    "year": "1995",
+    "track_order": "6/20",
+    "chip_data": {
+        "fm_writes": 60956,
+        "complexity": 0.596
+    },
+    "_type": "music:track"
+}

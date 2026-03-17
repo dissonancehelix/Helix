@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_warning_~_boss_battle",
+    "track_name": "04 - Warning ~ Boss Battle",
+    "album": "Jackal",
+    "composer": "Shinya Sakamoto",
+    "year": "1988-05-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

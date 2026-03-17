@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_la_valse_pour_xanadu",
+    "track_name": "04 - La Valse Pour Xanadu",
+    "album": "Revival Xanadu",
+    "composer": "Masaru Nakajima",
+    "year": "1995-04-28",
+    "track_order": "4/19",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

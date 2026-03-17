@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_area_5_main",
+    "track_name": "21 - Area 5 Main",
+    "album": "Seed of Dragon",
+    "composer": "Hiroaki Iwatani",
+    "year": "1990",
+    "track_order": "21/32",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

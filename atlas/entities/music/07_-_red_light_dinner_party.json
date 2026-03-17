@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_red_light_dinner_party",
+    "track_name": "07 - Red Light Dinner Party",
+    "album": "Rent-a-Hero",
+    "composer": "Hiro",
+    "year": "1991",
+    "track_order": "7/15",
+    "chip_data": {
+        "fm_writes": 1104,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

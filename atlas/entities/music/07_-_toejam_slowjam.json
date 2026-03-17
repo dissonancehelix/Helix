@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_toejam_slowjam",
+    "track_name": "07 - ToeJam Slowjam",
+    "album": "ToeJam & Earl",
+    "composer": "John Baker",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 49466,
+        "complexity": 0.346
+    },
+    "_type": "music:track"
+}

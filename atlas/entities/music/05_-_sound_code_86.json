@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_sound_code_86",
+    "track_name": "05 - Sound Code 86",
+    "album": "Nikkan Sports Pro Yakyuu VAN",
+    "composer": "Naofumi Hataya",
+    "year": "1991/04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 106267,
+        "complexity": 0.279
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "32_-_ending_-strider_hiryu-",
+    "track_name": "32 - Ending -Strider Hiryu-",
+    "album": "Marvel vs. Capcom",
+    "composer": "Masato Kouda",
+    "year": "1998",
+    "track_order": "32/35",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

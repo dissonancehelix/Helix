@@ -1,0 +1,13 @@
+{
+    "entity_id": "42_-_four_mad_gods_amon_n_erim",
+    "track_name": "42 - Four Mad Gods Amon & Erim",
+    "album": "Lufia: The Legend Returns",
+    "composer": "Yasunori Shiono",
+    "year": "2001-09-07",
+    "track_order": "42/66",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "14_-_prophet",
+    "track_name": "14 - Prophet",
+    "album": "Angelus: Akuma no Fukuin",
+    "composer": "Koichi Sugiyama",
+    "year": "1988-07",
+    "track_order": "14/22",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_chapter_of_gonsuke_troop_-_game",
+    "track_name": "09 - Chapter of Gonsuke Troop - Game",
+    "album": "Pistol Daimyo no Bouken",
+    "composer": "Seiichi Sakurai",
+    "year": "1990",
+    "track_order": "9/13",
+    "chip_data": {
+        "fm_writes": 117,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

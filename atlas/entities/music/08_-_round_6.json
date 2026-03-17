@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_round_6",
+    "track_name": "08 - Round 6",
+    "album": "Blast Off",
+    "composer": "Satoshi Kobayashi",
+    "year": "1989-03",
+    "track_order": "8/10",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

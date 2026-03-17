@@ -1,0 +1,13 @@
+{
+    "entity_id": "29_-_stranger",
+    "track_name": "29 - Stranger",
+    "album": "Aggressors of Dark Kombat",
+    "composer": "Kimiko Kasuga",
+    "year": "1994-07-26",
+    "track_order": "29/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_jackal's_theme",
+    "track_name": "01 - Jackal's Theme",
+    "album": "Jackal",
+    "composer": "Shinya Sakamoto",
+    "year": "1988-05-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 7,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

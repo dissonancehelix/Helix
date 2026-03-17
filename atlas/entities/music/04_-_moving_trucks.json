@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_moving_trucks",
+    "track_name": "04 - Moving Trucks",
+    "album": "The Adventures of Batman and Robin",
+    "composer": "Jesper Kyd\"",
+    "year": "1995",
+    "track_order": "4/18",
+    "chip_data": {
+        "fm_writes": 534645,
+        "complexity": 0.72
+    },
+    "_type": "music:track"
+}

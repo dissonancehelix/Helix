@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_2nd_tube",
+    "track_name": "03 - 2nd Tube",
+    "album": "Dangerous Seed",
+    "composer": "Yoshinori Nagumo",
+    "year": "1989-12",
+    "track_order": "3/17",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

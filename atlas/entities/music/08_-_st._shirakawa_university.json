@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_st._shirakawa_university",
+    "track_name": "08 - St. Shirakawa University",
+    "album": "Jantei Monogatari",
+    "composer": "Tsukasa Masuko",
+    "year": "1991-03-29",
+    "track_order": "8/12",
+    "chip_data": {
+        "fm_writes": 7412,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

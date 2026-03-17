@@ -1,0 +1,6 @@
+{
+  "id": "music.sound_chip:scsp",
+  "name": "Sound Chip: SCSP",
+  "type": "SoundChip",
+  "libvgm_id": "0x20"
+}

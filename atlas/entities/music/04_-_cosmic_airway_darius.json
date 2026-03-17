@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_cosmic_airway_darius",
+    "track_name": "04 - Cosmic Airway (Darius)",
+    "album": "Rainbow Islands Extra",
+    "composer": "Shizuo Aizawa, Hisayoshi Ogura",
+    "year": "1990/10/05",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 71399,
+        "complexity": 0.965
+    },
+    "_type": "music:track"
+}

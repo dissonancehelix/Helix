@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_menu_-_lure_select",
+    "track_name": "01 - Menu - Lure Select",
+    "album": "Bass Masters Classic",
+    "composer": "Kinuyo Yamashita",
+    "year": "1999-11-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

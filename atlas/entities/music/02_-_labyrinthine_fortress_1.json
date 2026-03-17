@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_labyrinthine_fortress_1",
+    "track_name": "02 - Labyrinthine Fortress 1",
+    "album": "Contra",
+    "composer": "Kazuki Muraoka",
+    "year": "1987-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

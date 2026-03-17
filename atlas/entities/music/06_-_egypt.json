@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_egypt",
+    "track_name": "06 - Egypt",
+    "album": "Year",
+    "composer": "Alberto Jose Gonz",
+    "year": "1993",
+    "track_order": "6/10",
+    "chip_data": {
+        "fm_writes": 24,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

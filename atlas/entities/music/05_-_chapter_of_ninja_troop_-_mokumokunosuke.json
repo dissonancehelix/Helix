@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_chapter_of_ninja_troop_-_mokumokunosuke",
+    "track_name": "05 - Chapter of Ninja Troop - Mokumokunosuke",
+    "album": "Pistol Daimyo no Bouken",
+    "composer": "Seiichi Sakurai",
+    "year": "1990",
+    "track_order": "5/13'",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

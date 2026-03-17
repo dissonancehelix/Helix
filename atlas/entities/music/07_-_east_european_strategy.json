@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_east_european_strategy",
+    "track_name": "07 - East European Strategy",
+    "album": "Genghis Khan II: Clan of the Grey Wolf",
+    "composer": "Michiru Oshima&",
+    "year": "1993/03/25",
+    "track_order": "7/23",
+    "chip_data": {
+        "fm_writes": 1849,
+        "complexity": 0.562
+    },
+    "_type": "music:track"
+}

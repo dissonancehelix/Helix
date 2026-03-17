@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_unknown_sound_code_88",
+    "track_name": "23 - Unknown (Sound Code 88)",
+    "album": "Jungle Strike",
+    "composer": "Brian Schmidt",
+    "year": "1993/09/01",
+    "track_order": "23/27",
+    "chip_data": {
+        "fm_writes": 643511,
+        "complexity": 0.23099999999999998
+    },
+    "_type": "music:track"
+}

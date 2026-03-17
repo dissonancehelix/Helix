@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_abilia_hair",
+    "track_name": "05 - Abilia Hair",
+    "album": "Digan no Maseki",
+    "composer": "Psycho Sonic",
+    "year": "1988-04",
+    "track_order": "5/36",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

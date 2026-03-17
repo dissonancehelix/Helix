@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_curtain_up_2_~_main_theme",
+    "track_name": "03 - Curtain Up 2 ~ Main Theme",
+    "album": "Wonder Momo",
+    "composer": "Kumio Yudate",
+    "year": "1987-02",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

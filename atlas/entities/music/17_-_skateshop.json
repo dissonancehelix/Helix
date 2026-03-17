@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_skateshop",
+    "track_name": "17 - Skateshop",
+    "album": "Skitchin'",
+    "composer": "Jeff van Dyck",
+    "year": "1993",
+    "track_order": "17/25",
+    "chip_data": {
+        "fm_writes": 2605,
+        "complexity": 0.8800000000000001
+    },
+    "_type": "music:track"
+}

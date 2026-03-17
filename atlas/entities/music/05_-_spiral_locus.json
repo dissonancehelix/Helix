@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_spiral_locus",
+    "track_name": "05 - Spiral Locus",
+    "album": "Sorcer Striker",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1993-05",
+    "track_order": "5/13",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

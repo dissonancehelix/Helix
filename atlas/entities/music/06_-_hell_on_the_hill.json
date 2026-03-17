@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_hell_on_the_hill",
+    "track_name": "06 - Hell on the Hill",
+    "album": "Arabian Fight",
+    "composer": "Tohru Nakabayashi",
+    "year": "1991",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

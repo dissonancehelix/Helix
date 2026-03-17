@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_boogerville",
+    "track_name": "07 - Boogerville",
+    "album": "Boogerman",
+    "composer": "Matt Furniss",
+    "year": "1994/08/06",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 11431,
+        "complexity": 0.779
+    },
+    "_type": "music:track"
+}

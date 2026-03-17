@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_a_bolt_from_the_blue",
+    "track_name": "12 - A Bolt from the Blue",
+    "album": "Get!",
+    "composer": "Youichi Iwasaki",
+    "year": "1996-09-13",
+    "track_order": "12/14",
+    "chip_data": {
+        "fm_writes": 73,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

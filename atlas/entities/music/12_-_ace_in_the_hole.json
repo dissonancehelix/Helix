@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_ace_in_the_hole",
+    "track_name": "12 - Ace In The Hole",
+    "album": "Side Pocket",
+    "composer": "Emi Shimizu",
+    "year": "1992/12/11",
+    "track_order": "12/19",
+    "chip_data": {
+        "fm_writes": 16511,
+        "complexity": 0.5429999999999999
+    },
+    "_type": "music:track"
+}

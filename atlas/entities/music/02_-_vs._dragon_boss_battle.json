@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_vs._dragon_boss_battle",
+    "track_name": "02 - VS. Dragon (Boss Battle)",
+    "album": "Dragon's Curse",
+    "composer": "Shinichi Sakamoto",
+    "year": "1991-04-19",
+    "track_order": "2/11",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

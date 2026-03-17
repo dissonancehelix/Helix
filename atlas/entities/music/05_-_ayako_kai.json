@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_ayako_kai",
+    "track_name": "05 - Ayako Kai",
+    "album": "1943 Kai",
+    "composer": "Hisashi Matsushita",
+    "year": "1991-03-22$",
+    "track_order": "5/11",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

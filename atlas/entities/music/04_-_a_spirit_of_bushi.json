@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_a_spirit_of_bushi",
+    "track_name": "04 - A Spirit of Bushi",
+    "album": "Contra: Hard Corps",
+    "composer": "Hiroshi Kobayashi",
+    "year": "1994",
+    "track_order": "4/25",
+    "chip_data": {
+        "fm_writes": 4987,
+        "complexity": 0.476
+    },
+    "_type": "music:track"
+}

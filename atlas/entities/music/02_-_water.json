@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_water",
+    "track_name": "02 - Water",
+    "album": "Alex Kidd in the Enchanted Castle",
+    "composer": "Chikako Kamatani!",
+    "year": "1990",
+    "track_order": "2/10",
+    "chip_data": {
+        "fm_writes": 7886,
+        "complexity": 0.484
+    },
+    "_type": "music:track"
+}

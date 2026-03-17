@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_like_the_phoenix",
+    "track_name": "12 - Like the Phoenix",
+    "album": "V.G. II: The Bout of Cabalistic Goddess",
+    "composer": "Masaya Shiranaga'",
+    "year": "1994-11-25",
+    "track_order": "12/18",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

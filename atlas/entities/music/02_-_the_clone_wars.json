@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_the_clone_wars",
+    "track_name": "02 - The Clone Wars",
+    "album": "X-Men 2: Clone Wars",
+    "composer": "Kurt Harland",
+    "year": "1995/05/16",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 218747,
+        "complexity": 0.377
+    },
+    "_type": "music:track"
+}

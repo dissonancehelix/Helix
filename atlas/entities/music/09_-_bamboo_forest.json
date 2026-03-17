@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_bamboo_forest",
+    "track_name": "09 - Bamboo Forest",
+    "album": "Kingdom Grandprix",
+    "composer": "Masaharu Iwata",
+    "year": "1994-09",
+    "track_order": "9/16",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

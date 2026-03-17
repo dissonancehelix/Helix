@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_labyrinth_on_the_sky",
+    "track_name": "08 - Labyrinth on the Sky",
+    "album": "Monster World IV",
+    "composer": "Jin Watanabe",
+    "year": "1994/04/01",
+    "track_order": "8/21",
+    "chip_data": {
+        "fm_writes": 30701,
+        "complexity": 0.525
+    },
+    "_type": "music:track"
+}

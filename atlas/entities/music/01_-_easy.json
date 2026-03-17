@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_easy",
+    "track_name": "01 - Easy",
+    "album": "Route 16 Turbo",
+    "composer": "Sunsoft",
+    "year": "1985-10-04",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_department_of_defense",
+    "track_name": "05 - Department of Defense",
+    "album": "Heart Heat Girls",
+    "composer": "Panda",
+    "year": "1993-12-02",
+    "track_order": "5/25",
+    "chip_data": {
+        "fm_writes": 14,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

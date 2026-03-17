@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_the_audience_with_the_king",
+    "track_name": "02 - The Audience with The King",
+    "album": "Dark Seal",
+    "composer": "Hiroaki Yoshida",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

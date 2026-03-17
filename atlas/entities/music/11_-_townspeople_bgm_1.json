@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_townspeople_bgm_1",
+    "track_name": "11 - Townspeople BGM 1",
+    "album": "Xak II: Rising of the Redmoon",
+    "composer": "Tadahiro Nitta",
+    "year": "1990",
+    "track_order": "11/42",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

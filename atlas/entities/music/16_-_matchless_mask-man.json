@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_matchless_mask-man",
+    "track_name": "16 - Matchless Mask-Man",
+    "album": "Garou: Mark of the Wolves",
+    "composer": "Akihiro Uchida",
+    "year": "1999",
+    "track_order": "16/31",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_bonus",
+    "track_name": "04 - Bonus",
+    "album": "Columns II",
+    "composer": "Takayuki Nakamura",
+    "year": "1990",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 8625,
+        "complexity": 0.9510000000000001
+    },
+    "_type": "music:track"
+}

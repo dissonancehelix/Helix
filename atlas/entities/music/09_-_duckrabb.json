@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_duckrabb",
+    "track_name": "09 - DUCKRABB",
+    "album": "Bugs Bunny in Double Trouble",
+    "composer": "Andy Brock",
+    "year": "1996",
+    "track_order": "9/13",
+    "chip_data": {
+        "fm_writes": 115312,
+        "complexity": 0.192
+    },
+    "_type": "music:track"
+}

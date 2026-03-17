@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_berutesu_waterway",
+    "track_name": "08 - Berutesu Waterway",
+    "album": "Euphory",
+    "composer": "Manabu Saito",
+    "year": "1987",
+    "track_order": "8/17",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

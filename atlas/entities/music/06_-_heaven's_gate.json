@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_heaven's_gate",
+    "track_name": "06 - Heaven's Gate",
+    "album": "Riviera: The Promised Land",
+    "composer": "Minako Adachi",
+    "year": "2002-07-12",
+    "track_order": "6/34",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

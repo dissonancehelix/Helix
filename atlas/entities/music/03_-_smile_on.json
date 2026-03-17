@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_smile_on",
+    "track_name": "03 - Smile On",
+    "album": "Battle Golfer Yui",
+    "composer": "Aruaru Nakayama",
+    "year": "1991/02/15",
+    "track_order": "3/18",
+    "chip_data": {
+        "fm_writes": 4580,
+        "complexity": 0.083
+    },
+    "_type": "music:track"
+}

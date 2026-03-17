@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_boss_2",
+    "track_name": "21 - Boss 2",
+    "album": "Sonic 3D Blast",
+    "composer": "Jun Senoue",
+    "year": "1996/11/06",
+    "track_order": "21/24",
+    "chip_data": {
+        "fm_writes": 23307,
+        "complexity": 0.6
+    },
+    "_type": "music:track"
+}

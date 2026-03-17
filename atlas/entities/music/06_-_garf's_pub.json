@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_garf's_pub",
+    "track_name": "06 - Garf's Pub",
+    "album": "Shining in the Darkness",
+    "composer": "Masahiko Yoshimura",
+    "year": "1991/03/29",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 43136,
+        "complexity": 0.897
+    },
+    "_type": "music:track"
+}

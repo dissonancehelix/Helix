@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_vs_ming_ming",
+    "track_name": "07 - VS Ming Ming",
+    "album": "Ningyou Tsukai 2",
+    "composer": "Hideki Higuchi",
+    "year": "1996",
+    "track_order": "7/13",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

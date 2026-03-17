@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_lemonte_introduction",
+    "track_name": "11 - Lemonte Introduction",
+    "album": "Solar Jetman: Hunt for the Golden Warpship",
+    "composer": "David Wise*",
+    "year": "1990",
+    "track_order": "11/22",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

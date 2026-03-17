@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_arch_enemy_4",
+    "track_name": "07 - Arch Enemy 4",
+    "album": "P-47 Aces",
+    "composer": "Kazunori Hideya",
+    "year": "1995-03",
+    "track_order": "7/16",
+    "chip_data": {
+        "fm_writes": 4,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_simulation_level_01_enemy_airfield",
+    "track_name": "04 - Simulation Level 01 (Enemy Airfield)",
+    "album": "Raiden Fighters Jet",
+    "composer": "Yasuhiro Hashimoto",
+    "year": "1998-08",
+    "track_order": "4/18$",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

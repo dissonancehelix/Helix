@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_shadows_don't_scare_commander_keen!!",
+    "track_name": "01 - Shadows Don't Scare Commander Keen!!",
+    "album": "Commander Keen in Goodbye, Galaxy! Episode IV: Secret of the Oracle",
+    "composer": "Bobby PrinceC",
+    "year": "1991-12-15",
+    "track_order": "1/8$",
+    "chip_data": {
+        "fm_writes": 17,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

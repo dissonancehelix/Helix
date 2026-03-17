@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_virgin_heart",
+    "track_name": "05 - Virgin Heart",
+    "album": "Viper-V6",
+    "composer": "Kenichi Arakawa",
+    "year": "1993-06-25",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 17351,
+        "complexity": 0.8939999999999999
+    },
+    "_type": "music:track"
+}

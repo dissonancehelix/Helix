@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_arabian_nights",
+    "track_name": "06 - Arabian Nights",
+    "album": "Disney's Aladdin",
+    "composer": "Donald Griffin",
+    "year": "1993",
+    "track_order": "6/14",
+    "chip_data": {
+        "fm_writes": 24816,
+        "complexity": 0.121
+    },
+    "_type": "music:track"
+}

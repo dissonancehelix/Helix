@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_ittetsuko_hoshi's_theme_2",
+    "track_name": "05 - Ittetsuko Hoshi's Theme 2",
+    "album": "Shougi no Hoshi",
+    "composer": "Nobuko Hasebe",
+    "year": "1991-10-31",
+    "track_order": "5/11",
+    "chip_data": {
+        "fm_writes": 1181,
+        "complexity": 0.728
+    },
+    "_type": "music:track"
+}

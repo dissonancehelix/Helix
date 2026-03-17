@@ -1,0 +1,13 @@
+{
+    "entity_id": "16_-_battle",
+    "track_name": "16 - Battle",
+    "album": "Sword of Vermilion",
+    "composer": "Yasuhiro Takagi",
+    "year": "1989/12/16",
+    "track_order": "16/23",
+    "chip_data": {
+        "fm_writes": 11622,
+        "complexity": 0.0
+    },
+    "_type": "music:track"
+}

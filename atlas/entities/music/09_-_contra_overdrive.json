@@ -1,0 +1,13 @@
+{
+    "entity_id": "09_-_contra_overdrive",
+    "track_name": "09 - Contra Overdrive",
+    "album": "Contra: Hard Corps",
+    "composer": "Hiroshi Kobayashi",
+    "year": "1994",
+    "track_order": "9/25",
+    "chip_data": {
+        "fm_writes": 18744,
+        "complexity": 0.518
+    },
+    "_type": "music:track"
+}

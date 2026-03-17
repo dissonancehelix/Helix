@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_looking_for_the_rainbow",
+    "track_name": "08 - Looking for the Rainbow",
+    "album": "OutRunners",
+    "composer": "Takayuki Nakamura",
+    "year": "1993",
+    "track_order": "8/34",
+    "chip_data": {
+        "fm_writes": 16,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

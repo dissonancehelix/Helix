@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_illusionism_ii",
+    "track_name": "10 - Illusionism II",
+    "album": "Sengoku",
+    "composer": "Yasuo Yamate",
+    "year": "1991-02-12",
+    "track_order": "10/25",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

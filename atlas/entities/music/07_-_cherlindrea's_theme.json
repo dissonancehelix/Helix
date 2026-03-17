@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_cherlindrea's_theme",
+    "track_name": "07 - Cherlindrea's Theme",
+    "album": "Willow",
+    "composer": "Harumi Fujita",
+    "year": "1989-12",
+    "track_order": "7/14",
+    "chip_data": {
+        "fm_writes": 17,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

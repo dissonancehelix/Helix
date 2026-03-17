@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_sand_maze",
+    "track_name": "11 - Sand Maze",
+    "album": "Gargoyle's Quest",
+    "composer": "Harumi Fujita",
+    "year": "1990-05-02",
+    "track_order": "11/16",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_mission_briefing_1",
+    "track_name": "06 - Mission Briefing 1",
+    "album": "Desert Strike: Return to the Gulf",
+    "composer": "Brian Schmidt!",
+    "year": "1993",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 15035,
+        "complexity": 0.369
+    },
+    "_type": "music:track"
+}

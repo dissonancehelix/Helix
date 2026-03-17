@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_a_creeping_illness",
+    "track_name": "06 - A Creeping Illness",
+    "album": "Princess Maker",
+    "composer": "Masahiro Kajihara",
+    "year": "1991-05-24",
+    "track_order": "6/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

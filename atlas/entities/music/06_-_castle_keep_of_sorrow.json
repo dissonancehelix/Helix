@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_castle_keep_of_sorrow",
+    "track_name": "06 - Castle Keep of Sorrow",
+    "album": "Sengoku Sorcerian",
+    "composer": "Mieko Ishikawa",
+    "year": "1988-10-21",
+    "track_order": "6/12",
+    "chip_data": {
+        "fm_writes": 74,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

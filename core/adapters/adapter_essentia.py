@@ -44,24 +44,25 @@ class AdapterError(Exception):
     pass
 
 
-class EssentiaAdapter:
+class Adapter:
     """
     Adapter wrapping Essentia for audio descriptors.
 
     Correct call path:
-        HIL → ANALYZE_TRACK operator → EssentiaAdapter → essentia
+        HIL → ANALYZE_TRACK operator → Adapter → essentia
     """
+    toolkit = "essentia"
+    substrate = "music"
 
-    def analyze(
-        self,
-        file_path: str | Path,
-        sample_rate: int = 44100,
-    ) -> dict[str, Any]:
+    def execute(self, payload: dict[str, Any]) -> dict[str, Any]:
         """
         Extract Essentia audio descriptors.
 
         Returns available=False dict if essentia is not installed.
         """
+        file_path = payload.get("file_path")
+        sample_rate = payload.get("sample_rate", 44100)
+        
         path = Path(file_path)
         if not path.exists():
             raise AdapterError(f"File not found: {path}")
@@ -146,7 +147,7 @@ class EssentiaAdapter:
         def _mean(lst: list) -> float:
             return float(sum(lst) / len(lst)) if lst else 0.0
 
-        return {
+        result = {
             "spectral_centroid":   _mean(centroids),
             "spectral_complexity": _mean(complexities),
             "dissonance":          _mean(dissonances),
@@ -162,6 +163,10 @@ class EssentiaAdapter:
             "adapter":             "essentia",
             "available":           True,
         }
+        return self.normalize(result)
+
+    def normalize(self, result: dict[str, Any]) -> dict[str, Any]:
+        return result
 
     def is_available(self) -> bool:
         try:

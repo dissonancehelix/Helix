@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_suspicious",
+    "track_name": "13 - Suspicious",
+    "album": "Tsunyan Jaayao",
+    "composer": "Takeshi Abo",
+    "year": "1994-04-08",
+    "track_order": "13/15",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

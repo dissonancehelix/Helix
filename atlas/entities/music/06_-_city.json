@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_city",
+    "track_name": "06 - City",
+    "album": "Rally-X Arrangement",
+    "composer": "Keiichi Okabe",
+    "year": "1996-03",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

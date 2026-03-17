@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_war-_field_operation",
+    "track_name": "05 - War- Field Operation",
+    "album": "Taikou Risshiden",
+    "composer": "Michiru Oshima",
+    "year": "1993",
+    "track_order": "5/25",
+    "chip_data": {
+        "fm_writes": 6716,
+        "complexity": 0.366
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_sunset_ruins",
+    "track_name": "04 - Sunset Ruins",
+    "album": "Buster",
+    "composer": "Kenichi Hashimoto",
+    "year": "1995-10-29",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

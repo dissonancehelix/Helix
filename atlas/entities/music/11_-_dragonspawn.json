@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_dragonspawn",
+    "track_name": "11 - Dragonspawn",
+    "album": "Jewel Master",
+    "composer": "Motoaki Takenouchi",
+    "year": "1991/08/30",
+    "track_order": "11/18",
+    "chip_data": {
+        "fm_writes": 37718,
+        "complexity": 0.07999999999999999
+    },
+    "_type": "music:track"
+}

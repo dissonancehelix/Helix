@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_pentawa_ii",
+    "track_name": "04 - Pentawa II",
+    "album": "Sorcerian",
+    "composer": "Hiroshi Kubota",
+    "year": "1990/02/24",
+    "track_order": "4/40",
+    "chip_data": {
+        "fm_writes": 121157,
+        "complexity": 0.322
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "33_-_my_spirit_is_blank",
+    "track_name": "33 - My Spirit is Blank",
+    "album": "World Heroes 2",
+    "composer": "Yuka Watanabe",
+    "year": "1993-04-26",
+    "track_order": "33/41",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

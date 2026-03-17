@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_opening_n_ending_theme",
+    "track_name": "01 - Opening & Ending Theme",
+    "album": "Bubble and Squeak",
+    "composer": "Allister Brimble",
+    "year": "1994",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 198955,
+        "complexity": 0.4
+    },
+    "_type": "music:track"
+}

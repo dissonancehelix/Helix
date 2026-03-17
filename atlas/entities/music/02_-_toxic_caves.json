@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_toxic_caves",
+    "track_name": "02 - Toxic Caves",
+    "album": "Sonic Spinball",
+    "composer": "Howard Drossin",
+    "year": "1993/11/15",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 9088,
+        "complexity": 0.547
+    },
+    "_type": "music:track"
+}

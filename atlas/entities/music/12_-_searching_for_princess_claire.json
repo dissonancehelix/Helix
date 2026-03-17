@@ -1,0 +1,13 @@
+{
+    "entity_id": "12_-_searching_for_princess_claire",
+    "track_name": "12 - Searching for Princess Claire",
+    "album": "Shining in the Darkness",
+    "composer": "Masahiko Yoshimura",
+    "year": "1991/03/29",
+    "track_order": "12/16",
+    "chip_data": {
+        "fm_writes": 102355,
+        "complexity": 0.271
+    },
+    "_type": "music:track"
+}

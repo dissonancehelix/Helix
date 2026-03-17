@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_train_yard_1",
+    "track_name": "04 - Train Yard 1",
+    "album": "Shadow Dancer",
+    "composer": "Keisuke Tsukahara",
+    "year": "1989-05",
+    "track_order": "4/13",
+    "chip_data": {
+        "fm_writes": 158,
+        "complexity": 1.0
+    },
+    "_type": "music:track"
+}

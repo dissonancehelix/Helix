@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_final_boss_genocide",
+    "track_name": "17 - Final Boss (Genocide)",
+    "album": "Captain Commando",
+    "composer": "Masaki Izutani",
+    "year": "1991-11",
+    "track_order": "17/18",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_bgm_6",
+    "track_name": "08 - BGM 6",
+    "album": "Pro Striker Final Stage",
+    "composer": "Tomoyuki Hamada",
+    "year": "1995/08/04",
+    "track_order": "8/13",
+    "chip_data": {
+        "fm_writes": 36300,
+        "complexity": 0.532
+    },
+    "_type": "music:track"
+}

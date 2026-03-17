@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_in_the_garage_-_steely_quicken",
+    "track_name": "02 - In The Garage - Steely Quicken",
+    "album": "Rohga: Armor Force",
+    "composer": "Hiroaki Yoshida",
+    "year": "1991",
+    "track_order": "2/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

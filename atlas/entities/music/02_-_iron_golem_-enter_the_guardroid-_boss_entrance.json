@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_iron_golem_-enter_the_guardroid-_boss_entrance",
+    "track_name": "02 - Iron Golem -Enter the Guardroid- (Boss Entrance)",
+    "album": "The Punisher",
+    "composer": "Yoko Shimomura",
+    "year": "1993-04-22",
+    "track_order": "2/180",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

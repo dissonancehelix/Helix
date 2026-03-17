@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_a_man_in_whom_madness_lurks",
+    "track_name": "10 - A Man in whom Madness Lurks",
+    "album": "World Heroes 2 Jet",
+    "composer": "Hiroaki Shimizu",
+    "year": "1994-04-26",
+    "track_order": "10/14",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

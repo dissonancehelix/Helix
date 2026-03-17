@@ -1,0 +1,13 @@
+{
+    "entity_id": "23_-_down_right_attack",
+    "track_name": "23 - Down Right Attack",
+    "album": "Thunder Force IV",
+    "composer": "Toshiharu Yamanishi",
+    "year": "1992/07/24",
+    "track_order": "23/44",
+    "chip_data": {
+        "fm_writes": 65396,
+        "complexity": 0.6839999999999999
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "YM2612_manual",
+  "signal_flow": [
+    {
+      "source": "LFO",
+      "targets": ["PMS (Phase Modulation)", "AMS (Amplitude Modulation)"]
+    },
+    {
+      "source": "Operator 1",
+      "targets": ["Operator 2", "Operator 3"],
+      "type": "modulation"
+    },
+    {
+      "source": "Operator 4",
+      "targets": ["L/R Output"],
+      "type": "carrier"
+    }
+  ],
+  "control_graph": {
+    "nodes": [
+      {
+        "id": "OP1",
+        "type": "operator",
+        "description": "Modulator with feedback."
+      },
+      {
+        "id": "OP2",
+        "type": "operator",
+        "description": "Modulator or carrier."
+      },
+      {
+        "id": "OP3",
+        "type": "operator",
+        "description": "Modulator or carrier."
+      },
+      {
+        "id": "OP4",
+        "type": "operator",
+        "description": "Carrier."
+      }
+    ],
+    "edges": [
+      {
+        "from": "OP1",
+        "to": "OP1",
+        "type": "feedback"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "13_-_disco_fever_act_1_~_disco_fever_act_3",
+    "track_name": "13 - Disco Fever (Act 1) ~ Disco Fever (Act 3)",
+    "album": "Aero the Acro-Bat 2",
+    "composer": "Rick Fox",
+    "year": "1994/04/01",
+    "track_order": "13/20)",
+    "chip_data": {
+        "fm_writes": 69467,
+        "complexity": 0.259
+    },
+    "_type": "music:track"
+}

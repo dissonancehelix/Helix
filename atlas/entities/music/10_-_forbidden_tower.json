@@ -1,0 +1,13 @@
+{
+    "entity_id": "10_-_forbidden_tower",
+    "track_name": "10 - Forbidden Tower",
+    "album": "Final Fantasy Legend",
+    "composer": "Nobuo Uematsu",
+    "year": "1989-12-15",
+    "track_order": "10/15",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

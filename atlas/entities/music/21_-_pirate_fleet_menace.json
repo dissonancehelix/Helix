@@ -1,0 +1,13 @@
+{
+    "entity_id": "21_-_pirate_fleet_menace",
+    "track_name": "21 - Pirate Fleet Menace",
+    "album": "High Seas Havoc",
+    "composer": "Emi Shimizu",
+    "year": "1993-08-16",
+    "track_order": "21/23",
+    "chip_data": {
+        "fm_writes": 4855,
+        "complexity": 0.65
+    },
+    "_type": "music:track"
+}

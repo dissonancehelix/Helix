@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_usual_cities",
+    "track_name": "11 - Usual Cities",
+    "album": "Taikou Risshiden",
+    "composer": "Michiru Oshima",
+    "year": "1993",
+    "track_order": "11/25",
+    "chip_data": {
+        "fm_writes": 3396,
+        "complexity": 0.448
+    },
+    "_type": "music:track"
+}

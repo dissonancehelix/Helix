@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_oil_field_base",
+    "track_name": "03 - Oil Field Base",
+    "album": "U.N. Squadron",
+    "composer": "Manami Matsumae",
+    "year": "1989",
+    "track_order": "3/21",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

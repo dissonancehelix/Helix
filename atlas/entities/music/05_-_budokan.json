@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_budokan",
+    "track_name": "05 - Budokan",
+    "album": "Budokan: The Martial Spirit",
+    "composer": "Rob Hubbard",
+    "year": "1989-10",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

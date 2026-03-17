@@ -1,0 +1,13 @@
+{
+    "entity_id": "03_-_area_1_boss",
+    "track_name": "03 - Area 1 Boss",
+    "album": "The Next Space",
+    "composer": "Kikuko Hataya",
+    "year": "1989",
+    "track_order": "3/15",
+    "chip_data": {
+        "fm_writes": 2,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_desert_zone",
+    "track_name": "11 - Desert Zone",
+    "album": "Star Cruiser",
+    "composer": "Toshiya Yamanaka",
+    "year": "1988-08",
+    "track_order": "11/27",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

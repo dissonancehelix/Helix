@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_sorcer_striker",
+    "track_name": "02 - Sorcer Striker",
+    "album": "Sorcer Striker",
+    "composer": "Atsuhiro Motoyama",
+    "year": "1993-05",
+    "track_order": "2/13",
+    "chip_data": {
+        "fm_writes": 5,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

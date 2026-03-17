@@ -1,0 +1,13 @@
+{
+    "entity_id": "08_-_mendou",
+    "track_name": "08 - Mendou",
+    "album": "Urusei Yatsura: Dear My Friends",
+    "composer": "Kenichi Okuma",
+    "year": "1994-04-15",
+    "track_order": "8/27",
+    "chip_data": {
+        "fm_writes": 411,
+        "complexity": 0.4
+    },
+    "_type": "music:track"
+}

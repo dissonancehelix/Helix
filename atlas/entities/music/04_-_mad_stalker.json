@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_mad_stalker",
+    "track_name": "04 - Mad Stalker",
+    "album": "Mad Stalker: Full Metal Forth",
+    "composer": "Keishi Yonao",
+    "year": "2020-09-17",
+    "track_order": "4/11",
+    "chip_data": {
+        "fm_writes": 12226,
+        "complexity": 0.273
+    },
+    "_type": "music:track"
+}

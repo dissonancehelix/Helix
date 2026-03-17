@@ -1,0 +1,13 @@
+{
+    "entity_id": "07_-_the_sleeping_cave",
+    "track_name": "07 - The Sleeping Cave",
+    "album": "The Legend of Xanadu",
+    "composer": "Naoki Kaneda",
+    "year": "1994",
+    "track_order": "7/84",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

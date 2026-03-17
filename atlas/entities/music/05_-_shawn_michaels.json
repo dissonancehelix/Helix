@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_shawn_michaels",
+    "track_name": "05 - Shawn Michaels",
+    "album": "WWF Super WrestleMania",
+    "composer": "Mark Miller",
+    "year": "1992",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 17213,
+        "complexity": 0.217
+    },
+    "_type": "music:track"
+}

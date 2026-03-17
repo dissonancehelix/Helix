@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_two-face's_theme",
+    "track_name": "06 - Two-Face's Theme",
+    "album": "The Adventures of Batman and Robin",
+    "composer": "Jesper Kyd\"",
+    "year": "1995",
+    "track_order": "6/18",
+    "chip_data": {
+        "fm_writes": 703038,
+        "complexity": 0.205
+    },
+    "_type": "music:track"
+}

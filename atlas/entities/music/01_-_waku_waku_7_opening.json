@@ -1,0 +1,13 @@
+{
+    "entity_id": "01_-_waku_waku_7_opening",
+    "track_name": "01 - Waku Waku 7 Opening",
+    "album": "Waku Waku 7",
+    "composer": "Masato Araikawa",
+    "year": "1996",
+    "track_order": "1/20",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

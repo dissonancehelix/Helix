@@ -1,0 +1,13 @@
+{
+    "entity_id": "17_-_special_bgm_3-_boss_x",
+    "track_name": "17 - Special BGM 3- Boss X",
+    "album": "Ordyne",
+    "composer": "Shinji Hosoe",
+    "year": "1988-09",
+    "track_order": "17/17",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -17,7 +17,10 @@ ENTITY_CORE_TYPES: frozenset[str] = frozenset({
     "Game",
     "Platform",
     "SoundChip",
+    "SoundDriver",
+    "CPU",
     "SoundTeam",
+    "KnowledgeSource",
 })
 
 # Reserved entity types: defined in ontology but not yet required by active substrates
@@ -29,8 +32,14 @@ ENTITY_RESERVED_TYPES: frozenset[str] = frozenset({
     "Model",
     "Invariant",
     "Operator",
-    "Driver",
     "Infrasubstrate",
+    "MathModel",           # formal mathematical model
+    "Conjecture",          # formal conjecture statement
+    "Proof",               # mathematical proof or derivation
+    "CriticalThreshold",   # critical parameter value (math)
+    "PhaseTransition",     # identified phase transition
+    "InvariantCandidate",  # proposed invariant from theory
+    "ResearchReport",      # high-level research output (falsification, mapping, etc.)
 })
 
 # Music analysis entity types: produced by the music operator pipeline

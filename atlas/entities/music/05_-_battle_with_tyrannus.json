@@ -1,0 +1,13 @@
+{
+    "entity_id": "05_-_battle_with_tyrannus",
+    "track_name": "05 - Battle with Tyrannus",
+    "album": "The Incredible Hulk",
+    "composer": "Steve Collett",
+    "year": "1994/09/04",
+    "track_order": "5/14",
+    "chip_data": {
+        "fm_writes": 529138,
+        "complexity": 0.15200000000000002
+    },
+    "_type": "music:track"
+}

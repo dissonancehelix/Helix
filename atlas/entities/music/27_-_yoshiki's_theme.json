@@ -1,0 +1,13 @@
+{
+    "entity_id": "27_-_yoshiki's_theme",
+    "track_name": "27 - Yoshiki's Theme",
+    "album": "Doukyusei 2",
+    "composer": "Manabu Kunieda",
+    "year": "1995-01-31",
+    "track_order": "27/45",
+    "chip_data": {
+        "fm_writes": 1,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

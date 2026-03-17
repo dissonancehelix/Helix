@@ -1,0 +1,13 @@
+{
+    "entity_id": "04_-_operation_map",
+    "track_name": "04 - Operation Map",
+    "album": "Military Madness",
+    "composer": "June Chikuma",
+    "year": "1989-02-09",
+    "track_order": "4/14",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

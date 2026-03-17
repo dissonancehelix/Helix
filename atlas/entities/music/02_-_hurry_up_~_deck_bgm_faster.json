@@ -1,0 +1,13 @@
+{
+    "entity_id": "02_-_hurry_up_~_deck_bgm_faster",
+    "track_name": "02 - Hurry Up ~ Deck BGM (Faster)",
+    "album": "Pirate Ship Higemaru",
+    "composer": "Ayako Mori",
+    "year": "1984-09",
+    "track_order": "Title",
+    "chip_data": {
+        "fm_writes": 6,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

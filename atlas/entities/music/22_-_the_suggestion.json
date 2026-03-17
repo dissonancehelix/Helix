@@ -1,0 +1,13 @@
+{
+    "entity_id": "22_-_the_suggestion",
+    "track_name": "22 - The Suggestion",
+    "album": "Nemesis 3: The Eve of Destruction",
+    "composer": "Kazuhiko Uehara",
+    "year": "1988",
+    "track_order": "22/22",
+    "chip_data": {
+        "fm_writes": 3,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

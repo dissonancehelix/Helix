@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_high_energy",
+    "track_name": "06 - High Energy",
+    "album": "Gunbird 2",
+    "composer": "Masaki Izutani",
+    "year": "1998-12",
+    "track_order": "6/12",
+    "chip_data": {
+        "fm_writes": 184,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

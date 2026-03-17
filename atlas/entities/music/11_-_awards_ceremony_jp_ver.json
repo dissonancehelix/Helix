@@ -1,0 +1,13 @@
+{
+    "entity_id": "11_-_awards_ceremony_jp_ver",
+    "track_name": "11 - Awards Ceremony (JP Ver)",
+    "album": "Tecmo Cup Soccer Game",
+    "composer": "Keiji Yamagishi",
+    "year": "1988-04-28",
+    "track_order": "11/17",
+    "chip_data": {
+        "fm_writes": 0,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}

@@ -1,0 +1,13 @@
+{
+    "entity_id": "06_-_boss_3",
+    "track_name": "06 - Boss 3",
+    "album": "Black Panther",
+    "composer": "Konami Kukeiha Club",
+    "year": "1987",
+    "track_order": "6/16",
+    "chip_data": {
+        "fm_writes": 7,
+        "complexity": 0
+    },
+    "_type": "music:track"
+}
