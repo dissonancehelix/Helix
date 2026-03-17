@@ -219,6 +219,10 @@ def _parse_events(data: bytes, start: int) -> list[VGMEvent]:
     return events
 
 
+def parse_vgm_file(path: Path) -> VGMTrack:
+    return parse(path)
+
+
 def parse(path: Path) -> VGMTrack:
     """Parse a VGM or VGZ file. Returns VGMTrack."""
     try:
