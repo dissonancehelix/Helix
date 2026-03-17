@@ -33,8 +33,8 @@ import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 
-from substrates.music.emulation.build_extensions import is_built, lib_path
-from substrates.music.emulation.libvgm_bridge import ChipEvent
+from substrates.music.measurement_synthesis.build_extensions import is_built, lib_path
+from substrates.music.measurement_synthesis.libvgm_bridge import ChipEvent
 
 # ---------------------------------------------------------------------------
 # Supported formats

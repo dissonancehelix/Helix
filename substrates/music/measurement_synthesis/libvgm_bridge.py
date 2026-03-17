@@ -25,7 +25,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from substrates.music.emulation.build_extensions import is_built, lib_path
+from substrates.music.measurement_synthesis.build_extensions import is_built, lib_path
 
 # ---------------------------------------------------------------------------
 # ChipEvent — common output format shared with chip_state_tracer
