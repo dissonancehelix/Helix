@@ -1,0 +1,11 @@
+--- src/device/nes/s_fme7.c	2009-11-08 18:37:26.000000000 +0100
++++ src/device/nes/s_fme7.c	2013-09-26 22:25:21.000000000 +0200
+@@ -109,7 +110,7 @@
+ 	XMEMSET(psgs, 0, sizeof(PSGSOUND));
+ 	((NSFNSF*)pNezPlay->nsf)->psgs = psgs;
+ 
+-	psgs->psgp = PSGSoundAlloc(PSG_TYPE_AY_3_8910);
++	psgs->psgp = PSGSoundAlloc(PSG_TYPE_YM2149);
+ 	if (!psgs->psgp) return;
+ 
+ 	LogTableInitialize();

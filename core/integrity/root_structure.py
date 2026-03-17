@@ -39,6 +39,7 @@ ALLOWED_DIRS: frozenset[str] = frozenset({
 ALLOWED_FILES: frozenset[str] = frozenset({
     "HELIX.md",
     "OPERATOR.md",
+    "SPEC.md",
     "ROADMAP.md",
     "README.md",
     "HIL.md",

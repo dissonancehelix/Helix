@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>APU - NESdev Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"abnX9_k_zAKp-D3Jr1vXWQAAAE0","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"APU","wgTitle":"APU","wgCurRevisionId":22830,"wgRevisionId":22830,"wgArticleId":48,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["APU"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"APU","wgRelevantArticleId":48,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"]};
+RLSTATE={"site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","skins.monobook.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.monobook.scripts","ext.checkUser.clientHints"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=skins.monobook.styles&amp;only=styles&amp;skin=monobook">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=monobook"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=monobook">
+<meta name="generator" content="MediaWiki 1.45.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="The NES APU is the audio processing unit in the NES console which generates sound for games. It is implemented in the RP2A03 (NTSC) and RP2A07 (PAL) chips. Its registers are mapped in the range $4000–$4013, $4015 and $4017.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="NESdev Wiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://www.nesdev.org/w/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="NESdev Wiki Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+	<meta property="og:type" content="article">
+
+	<meta property="og:site_name" content="NESdev Wiki">
+
+	<meta property="og:title" content="APU">
+
+	<meta property="og:description" content="The NES APU is the audio processing unit in the NES console which generates sound for games. It is implemented in the RP2A03 (NTSC) and RP2A07 (PAL) chips. Its registers are mapped in the range $4000–$4013, $4015 and $4017.">
+
+	<meta property="og:url" content="https://www.nesdev.org/wiki/APU">
+
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-APU rootpage-APU skin-monobook action-view skin--responsive"><div id="globalWrapper">
+	<div id="column-content">
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice"></div>
+			<div class="mw-indicators">
+			</div>
+			<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">APU</span></h1>
+			<div id="bodyContent" class="monobook-body">
+				<div id="siteSub">From NESdev Wiki</div>
+				<div id="contentSub" ><div id="mw-content-subtitle"></div></div>
+				
+				<div id="jump-to-nav"></div><a href="#column-one" class="mw-jump-link">Jump to navigation</a><a href="#searchInput" class="mw-jump-link">Jump to search</a>
+				<!-- start content -->
+				<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><p>The NES <b>APU</b> is the <b>audio processing unit</b> in the NES console which generates sound for games. It is implemented in the RP2A03 (NTSC) and RP2A07 (PAL) chips. Its <a href="/wiki/APU_registers" title="APU registers">registers</a> are mapped in the range $4000–$4013, $4015 and $4017.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Conditions_for_channel_output"><span class="tocnumber">1.1</span> <span class="toctext">Conditions for channel output</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Notes"><span class="tocnumber">1.2</span> <span class="toctext">Notes</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Specification"><span class="tocnumber">2</span> <span class="toctext">Specification</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Registers"><span class="tocnumber">2.1</span> <span class="toctext">Registers</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Pulse_($4000–$4007)"><span class="tocnumber">2.2</span> <span class="toctext">Pulse ($4000–$4007)</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Triangle_($4008–$400B)"><span class="tocnumber">2.3</span> <span class="toctext">Triangle ($4008–$400B)</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Noise_($400C–$400F)"><span class="tocnumber">2.4</span> <span class="toctext">Noise ($400C–$400F)</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#DMC_($4010–$4013)"><span class="tocnumber">2.5</span> <span class="toctext">DMC ($4010–$4013)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#Other_Uses"><span class="tocnumber">2.5.1</span> <span class="toctext">Other Uses</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="#Status_($4015)"><span class="tocnumber">2.6</span> <span class="toctext">Status ($4015)</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Frame_Counter_($4017)"><span class="tocnumber">2.7</span> <span class="toctext">Frame Counter ($4017)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-13"><a href="#Length_Counter"><span class="tocnumber">2.7.1</span> <span class="toctext">Length Counter</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Mixer"><span class="tocnumber">2.8</span> <span class="toctext">Mixer</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#Glossary"><span class="tocnumber">3</span> <span class="toctext">Glossary</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2"><h2 id="Overview">Overview</h2></div>
+<dl><dd><i>For a simple subset of APU functionality oriented toward music engine developers rather than emulator developers, see <a href="/wiki/APU_basics" title="APU basics">APU basics</a>.</i></dd></dl>
+<p>The APU has five channels: two pulse wave generators, a triangle wave, noise, and a delta modulation channel for playing DPCM samples.
+</p><p>Each channel has a variable-rate timer clocking a waveform generator, and various modulators driven by low-frequency clocks from the <a href="#Frame_Counter_($4017)">frame counter</a>. The <a href="#DMC_($4010–$4013)">DMC</a> plays samples while the other channels play waveforms. Each sub-unit of a channel generally runs independently and in parallel to other units, and modification of a channel's parameter usually affects only one sub-unit and doesn't take effect until that unit's next internal cycle begins.
+</p><p>The read/write <a href="#Status_($4015)">status register</a> allows channels to be enabled and disabled, and their current <a href="#Length_Counter">length counter status</a> to be queried.
+</p><p>The outputs from all the channels are combined using a <a href="/wiki/APU_Mixer" title="APU Mixer">non-linear mixing</a> scheme.
+</p>
+<div class="mw-heading mw-heading3"><h3 id="Conditions_for_channel_output">Conditions for channel output</h3></div>
+<p>The pulse, triangle, and noise channels will play their corresponding waveforms (at either a constant volume or at a volume controlled by an <a href="/wiki/APU_Envelope" title="APU Envelope">envelope</a>) only when (and in the model given here, <i>precisely</i> when) their <a href="#Length_Counter">length counters</a> are all non-zero (this includes the linear counter for the triangle channel). There are two exceptions for the pulse channels, which can also be silenced either by having a frequency above a certain threshold (see below), or by a <a href="/wiki/APU_Sweep" title="APU Sweep">sweep</a> towards lower frequencies (longer periods) reaching the end of the range.
+</p><p>The DMC channel always outputs the value of its counter, regardless of the status of the DMC enable bit; the enable bit only controls automatic playback of delta-encoded samples (which is done through counter updates).
+</p>
+<div class="mw-heading mw-heading3"><h3 id="Notes">Notes</h3></div>
+<ul><li>This reference describes the <i>abstract</i> operation of the APU. The <i>exact</i> hardware implementation is not necessarily relevant to an emulator, but the <a rel="nofollow" class="external text" href="http://www.qmtpro.com/~nes/chipimages/visual2a03/">Visual 2A03</a> project can be used to determine detailed information about the hardware implementation.</li>
+<li>The <a href="/wiki/Famicom" class="mw-redirect" title="Famicom">Famicom</a> had an audio return loop on its <a href="/wiki/Cartridge_connector" title="Cartridge connector">cartridge connector</a> allowing extra audio from individual cartridges. See <a href="/wiki/Category:Expansion_audio" title="Category:Expansion audio">Expansion audio</a> for details on the audio produced by various <a href="/wiki/Mapper" title="Mapper">mappers</a>.</li>
+<li>For a basic usage guide to the APU, see <a href="/wiki/APU_basics" title="APU basics">APU basics</a>, or <a href="/wiki/Nerdy_Nights:_APU_overview" title="Nerdy Nights: APU overview">Nerdy Nights: APU overview</a>.</li>
+<li>The APU may have additional diagnostic features if CPU pin 30 is pulled high. See <a href="/wiki/File:Apu_address.jpg" title="File:Apu address.jpg">diagram by Quietust</a>.</li></ul>
+<div class="mw-heading mw-heading2"><h2 id="Specification">Specification</h2></div>
+<div class="mw-heading mw-heading3"><h3 id="Registers">Registers</h3></div>
+<ul><li>See <a href="/wiki/APU_registers" title="APU registers">APU Registers</a> for a complete APU register diagram.</li></ul>
+<table class="tabular">
+<tbody><tr>
+<th>Registers</th>
+<th>Channel</th>
+<th>Units
+</th></tr>
+<tr>
+<th>$4000–$4003
+</th>
+<td><a href="#Pulse_($4000–$4007)">Pulse 1</a></td>
+<td>Timer, <a href="#Length_Counter">length counter</a>, <a href="/wiki/APU_Envelope" title="APU Envelope">envelope</a>, <a href="/wiki/APU_Sweep" title="APU Sweep">sweep</a>
+</td></tr>
+<tr>
+<th>$4004–$4007
+</th>
+<td><a href="#Pulse_($4000–$4007)">Pulse 2</a></td>
+<td>Timer, <a href="#Length_Counter">length counter</a>, <a href="/wiki/APU_Envelope" title="APU Envelope">envelope</a>, <a href="/wiki/APU_Sweep" title="APU Sweep">sweep</a>
+</td></tr>
+<tr>
+<th>$4008–$400B
+</th>
+<td><a href="#Triangle_($4008–$400B)">Triangle</a></td>
+<td>Timer, <a href="#Length_Counter">length counter</a>, linear counter
+</td></tr>
+<tr>
+<th>$400C–$400F
+</th>
+<td><a href="#Noise_($400C–$400F)">Noise</a></td>
+<td>Timer, <a href="#Length_Counter">length counter</a>, <a href="/wiki/APU_Envelope" title="APU Envelope">envelope</a>, linear feedback shift register
+</td></tr>
+<tr>
+<th>$4010–$4013
+</th>
+<td><a href="#DMC_($4010–$4013)">DMC</a></td>
+<td>Timer, memory reader, sample buffer, output unit
+</td></tr>
+<tr>
+<th>$4015
+</th>
+<td>All</td>
+<td><a href="#Status_($4015)">Channel enable and length counter status</a>
+</td></tr>
+<tr>
+<th>$4017
+</th>
+<td>All</td>
+<td><a href="#Frame_Counter_($4017)">Frame counter</a>
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading3"><h3 id="Pulse_($4000–$4007)"><span id="Pulse_.28.244000.E2.80.93.244007.29"></span>Pulse ($4000–$4007)</h3></div>
+<ul><li>See <a href="/wiki/APU_Pulse" title="APU Pulse">APU Pulse</a></li></ul>
+<p>The pulse channels produce a variable-width pulse signal, controlled by volume, envelope, length, and sweep units.
+</p>
+<table class="tabular">
+<tbody><tr>
+<th>$4000 / $4004
+</th>
+<td><tt>DDLC VVVV</tt></td>
+<td>Duty (D), envelope loop / length counter halt (L), constant volume (C), volume/envelope (V)
+</td></tr>
+<tr>
+<th>$4001 / $4005
+</th>
+<td><tt>EPPP NSSS</tt></td>
+<td>Sweep unit: enabled (E), period (P), negate (N), shift (S)
+</td></tr>
+<tr>
+<th>$4002 / $4006
+</th>
+<td><tt>TTTT TTTT</tt></td>
+<td>Timer low (T)
+</td></tr>
+<tr>
+<th>$4003 / $4007
+</th>
+<td><tt>LLLL LTTT</tt></td>
+<td>Length counter load (L), timer high (T)
+</td></tr></tbody></table>
+<ul><li><b>$4000</b>:
+<ul><li><b>D</b>: The width of the pulse is controlled by the duty bits in $4000/$4004. See <a href="/wiki/APU_Pulse" title="APU Pulse">APU Pulse</a> for details.</li>
+<li><b>L</b>: 1 = Infinite play, 0 = One-shot. If 1, the length counter will be frozen at its current value, and the envelope will repeat forever.
+<ul><li>The length counter and envelope units are clocked by the <a href="#Frame_Counter">frame counter</a>.</li>
+<li>If the length counter's current value is 0 the channel will be silenced whether or not this bit is set.</li>
+<li>When using a one-shot envelope, the length counter should be loaded with a time longer than the length of the envelope to prevent it from being cut off early.</li>
+<li>When looping, after reaching 0 the envelope will restart at volume 15 at its next period.</li></ul></li>
+<li><b>C</b>: If <i>C</i> is set the volume will be a constant. If clear, an envelope will be used, starting at volume 15 and lowering to 0 over time.</li>
+<li><b>V</b>: Sets the direct volume if constant, otherwise controls the rate which the envelope lowers.</li></ul></li>
+<li>The frequency of the pulse channels is a division of the <a href="/wiki/Cycle_reference_chart#Clock_rates" title="Cycle reference chart">CPU Clock</a> (<i>f<sub>CPU</sub></i>; 1.789773MHz NTSC, 1.662607MHz PAL). The output frequency (<i>f</i>) of the generator can be determined by the 11-bit period value (<i>t</i>) written to $4002–$4003/$4006–$4007. If <i>t</i> &lt; 8, the corresponding pulse channel is silenced.
+<ul><li><i>f</i> = <i>f<sub>CPU</sub></i> / (16 × (<i>t</i> + 1))</li>
+<li><i>t</i> = (<i>f<sub>CPU</sub></i> / (16 × <i>f</i>)) − 1</li></ul></li>
+<li>Writing to $4003/$4007 reloads the length counter, restarts the envelope, and resets the phase of the pulse generator. Because it resets phase, vibrato should only write the low timer register to avoid a phase reset click. At some pitches, particularly near A440, wide vibrato should normally be avoided (e.g. this flaw is heard throughout the Mega Man 2 ending).</li>
+<li>Registers $4001/$4005 control the sweep unit. Enabling the sweep causes the pitch to constantly rise or fall. When the frequency reaches the end of the generator's range of output, the channel is silenced. See <a href="/wiki/APU_Sweep" title="APU Sweep">APU Sweep</a> for details.</li>
+<li>The two pulse channels are combined in a nonlinear mix (see <a href="#Mixer">mixer</a> below).</li></ul>
+<div class="mw-heading mw-heading3"><h3 id="Triangle_($4008–$400B)"><span id="Triangle_.28.244008.E2.80.93.24400B.29"></span>Triangle ($4008–$400B)</h3></div>
+<ul><li>See <a href="/wiki/APU_Triangle" title="APU Triangle">APU Triangle</a></li></ul>
+<p>The triangle channel produces a quantized triangle wave. It has no volume control, but it has a length counter as well as a higher resolution linear counter control (called "linear" since it uses the 7-bit value written to $4008 directly instead of a lookup table like the length counter).
+</p>
+<table class="tabular">
+<tbody><tr>
+<th>$4008
+</th>
+<td><tt>CRRR RRRR</tt></td>
+<td>Length counter halt / linear counter control (C), linear counter load (R)
+</td></tr>
+<tr>
+<th>$4009
+</th>
+<td><tt>---- ----</tt></td>
+<td>Unused
+</td></tr>
+<tr>
+<th>$400A
+</th>
+<td><tt>TTTT TTTT</tt></td>
+<td>Timer low (T)
+</td></tr>
+<tr>
+<th>$400B
+</th>
+<td><tt>LLLL LTTT</tt></td>
+<td>Length counter load (L), timer high (T), set linear counter reload flag
+</td></tr></tbody></table>
+<ul><li>The triangle wave has 32 steps that output a 4-bit value.</li>
+<li><b>C</b>: This bit controls both the length counter and linear counter at the same time.
+<ul><li>When set this will stop the length counter in the same way as for the pulse/noise channels.</li>
+<li>When set it prevents the linear counter's internal reload flag from clearing, which effectively halts it if $400B is written after setting <i>C</i>.</li>
+<li>The linear counter silences the channel after a specified time with a resolution of 240Hz in NTSC (see <a href="#Frame_Counter">frame counter</a> below).</li>
+<li>Because both the length and linear counters are be enabled at the same time, whichever has a longer setting is redundant.</li>
+<li>See <a href="/wiki/APU_Triangle" title="APU Triangle">APU Triangle</a> for more linear counter details.</li></ul></li>
+<li><b>R</b>: This reload value will be applied to the linear counter on the next frame counter tick, but only if its reload flag is set.
+<ul><li>A write to $400B is needed to raise the reload flag.</li>
+<li>After a frame counter tick applies the load value <i>R</i>, the reload flag will only be cleared if <i>C</i> is also clear, otherwise it will continually reload (i.e. halt).</li></ul></li>
+<li>The pitch of the triangle channel is one octave below the pulse channels with an equivalent timer value (i.e. use the formula above but divide the resulting frequency by two).</li>
+<li>Silencing the triangle channel merely halts it. It will continue to output its last value rather than 0.</li>
+<li>There is no way to reset the triangle channel's phase.</li></ul>
+<div class="mw-heading mw-heading3"><h3 id="Noise_($400C–$400F)"><span id="Noise_.28.24400C.E2.80.93.24400F.29"></span>Noise ($400C–$400F)</h3></div>
+<ul><li>See <a href="/wiki/APU_Noise" title="APU Noise">APU Noise</a></li></ul>
+<p>The noise channel produces noise with a pseudo-random bit generator.
+It has a volume, envelope, and length counter like the pulse channels.
+</p>
+<table class="tabular">
+<tbody><tr>
+<th>$400C
+</th>
+<td><tt>--LC VVVV</tt></td>
+<td>Envelope loop / length counter halt (L), constant volume (C), volume/envelope (V)
+</td></tr>
+<tr>
+<th>$400D
+</th>
+<td><tt>---- ----</tt></td>
+<td>Unused
+</td></tr>
+<tr>
+<th>$400E
+</th>
+<td><tt>M--- PPPP</tt></td>
+<td>Noise mode (M), noise period (P)
+</td></tr>
+<tr>
+<th>$400F
+</th>
+<td><tt>LLLL L---</tt></td>
+<td>Length counter load (L)
+</td></tr></tbody></table>
+<ul><li>The frequency of the noise is determined by a 4-bit value in $400E, which loads a period from a lookup table (see <a href="/wiki/APU_Noise" title="APU Noise">APU Noise</a>).</li>
+<li>If bit 7 of $400E is set, the period of the random bit generation is drastically shortened, producing a buzzing tone (e.g. the metallic ding during <i>Solstice</i>'s gameplay). The actual timbre produced depends on whatever bits happen to be in the generator when it is switched to periodic, and is somewhat random.</li></ul>
+<div class="mw-heading mw-heading3"><h3 id="DMC_($4010–$4013)"><span id="DMC_.28.244010.E2.80.93.244013.29"></span>DMC ($4010–$4013)</h3></div>
+<ul><li>See <a href="/wiki/APU_DMC" title="APU DMC">APU DMC</a></li></ul>
+<p>The delta modulation channel outputs a 7-bit PCM signal from a counter that can be driven by DPCM samples.
+</p>
+<table class="tabular">
+<tbody><tr>
+<th>$4010
+</th>
+<td><tt>IL-- RRRR</tt></td>
+<td>IRQ enable (I), loop (L), frequency (R)
+</td></tr>
+<tr>
+<th>$4011
+</th>
+<td><tt>-DDD DDDD</tt></td>
+<td>Load counter (D)
+</td></tr>
+<tr>
+<th>$4012
+</th>
+<td><tt>AAAA AAAA</tt></td>
+<td>Sample address (A)
+</td></tr>
+<tr>
+<th>$4013
+</th>
+<td><tt>LLLL LLLL</tt></td>
+<td>Sample length (L)
+</td></tr></tbody></table>
+<ul><li>DPCM samples are stored as a stream of 1-bit deltas that control the 7-bit PCM counter that the channel outputs. A bit of 1 will increment the counter, 0 will decrement, and it will clamp rather than overflow if the 7-bit range is exceeded.</li>
+<li>DPCM samples may loop if the loop flag in $4010 is set, and the DMC may be used to generate an IRQ when the end of the sample is reached if its IRQ flag is set.</li>
+<li>The playback rate is controlled by register $4010 with a 4-bit frequency index value (see <a href="/wiki/APU_DMC" title="APU DMC">APU DMC</a> for frequency lookup tables).</li>
+<li>DPCM samples must begin in the memory range $C000–$FFFF at an address set by register $4012 (address = <code>%11AAAAAA AA000000</code>).</li>
+<li>The length of the sample in bytes is set by register $4013 (length = <code>%LLLL LLLL0001</code>).</li></ul>
+<div class="mw-heading mw-heading4"><h4 id="Other_Uses">Other Uses</h4></div>
+<ul><li>The $4011 register can be used to play PCM samples directly by setting the counter value at a high frequency. Because this requires intensive use of the CPU, when used in games all other gameplay is usually halted to facilitate this.</li>
+<li>Because of the APU's <a href="#Mixer">nonlinear mixing</a>, a high value in the PCM counter reduces the volume of the triangle and noise channels. This is sometimes used to apply limited volume control to the triangle channel (e.g. <i>Super Mario Bros.</i> adjusts the counter between levels to accomplish this).</li>
+<li>The DMC's IRQ can be used as an IRQ-based timer when the <a href="/wiki/Mapper" title="Mapper">mapper</a> used does not have one available.</li></ul>
+<div class="mw-heading mw-heading3"><h3 id="Status_($4015)"><span id="Status_.28.244015.29"></span>Status ($4015)</h3></div>
+<p>The status register is used to enable and disable individual channels, control the DMC, and can
+read the status of length counters and APU interrupts.
+</p>
+<table class="tabular">
+<tbody><tr>
+<th>$4015 write
+</th>
+<td><tt>---D NT21</tt></td>
+<td>Enable DMC (D), noise (N), triangle (T), and pulse channels (2/1)
+</td></tr></tbody></table>
+<ul><li>Writing a zero to any of the channel enable bits (NT21) will silence that channel and halt its length counter.</li>
+<li>If the DMC bit is clear, the DMC bytes remaining will be set to 0 and the DMC will silence when it empties.</li>
+<li>If the DMC bit is set, the DMC sample will be restarted <i>only if</i> its bytes remaining is 0. If there are bits remaining in the 1-byte sample buffer, these will finish playing before the next sample is fetched.</li>
+<li>Writing to this register clears the DMC interrupt flag.</li>
+<li><a href="/wiki/CPU_power_up_state" title="CPU power up state">Power-up and reset</a> have the effect of writing $00, silencing all channels.</li></ul>
+<table class="tabular">
+<tbody><tr>
+<th>$4015 read
+</th>
+<td><tt>IF-D NT21</tt></td>
+<td>DMC interrupt (I), frame interrupt (F), DMC active (D), length counter &gt; 0 (N/T/2/1)
+</td></tr></tbody></table>
+<ul><li>N/T/2/1 will read as 1 if the corresponding length counter has not been halted through either expiring or a write of 0 to the corresponding bit. For the triangle channel, the status of the linear counter is irrelevant.</li>
+<li>D will read as 1 if the DMC bytes remaining is more than 0.</li>
+<li>Reading this register clears the frame interrupt flag (but not the DMC interrupt flag).</li>
+<li>If an interrupt flag was set at the same moment of the read, it will read back as 1 but it will <i>not</i> be cleared.</li>
+<li>This register is internal to the CPU and so the external CPU data bus is disconnected when reading it. Therefore the returned value cannot be seen by external devices and the value does not affect <a href="/wiki/Open_bus_behavior" title="Open bus behavior">open bus</a>.</li>
+<li>Bit 5 is open bus. Because the external bus is disconnected when reading $4015, the open bus value comes from the last cycle that did not read $4015.</li></ul>
+<div class="mw-heading mw-heading3"><h3 id="Frame_Counter_($4017)"><span id="Frame_Counter_.28.244017.29"></span>Frame Counter ($4017)</h3></div>
+<ul><li>See <a href="/wiki/APU_Frame_Counter" title="APU Frame Counter">APU Frame Counter</a></li></ul>
+<table class="tabular">
+<tbody><tr>
+<th>$4017
+</th>
+<td><tt>MI-- ----</tt></td>
+<td>Mode (M, 0 = 4-step, 1 = 5-step), IRQ inhibit flag (I)
+</td></tr></tbody></table>
+<p>The frame counter is controlled by register $4017, and it drives the envelope, sweep, and length units on the pulse, triangle and noise channels. It ticks approximately 4 times per frame (240Hz NTSC), and executes either a 4 or 5-step sequence, depending how it is configured. It may optionally issue an <a href="/wiki/IRQ" title="IRQ">IRQ</a> on the last tick of the 4-step sequence.
+</p><p>The following diagram illustrates the two modes, selected by bit 7 of $4017:
+</p>
+<pre>mode 0:    mode 1:       function
+---------  -----------  -----------------------------
+ - - - f    - - - - -    IRQ (if bit 6 is clear)
+ - l - l    - l - - l    Length counter and sweep
+ e e e e    e e e - e    Envelope and linear counter
+</pre>
+<p>Both the 4 and 5-step modes operate at the same rate, but because the 5-step mode has an extra step, the effective update rate for individual units is slower in that mode (total update taking ~60Hz vs ~48Hz in NTSC). Writing to $4017 resets the frame counter and the quarter/half frame triggers happen simultaneously, but only on "odd" cycles (and only after the first "even" cycle after the write occurs) – thus, it happens either 2 or 3 cycles after the write (i.e. on the 2nd or 3rd cycle of the next instruction). After 2 or 3 clock cycles (depending on when the write is performed), the timer is reset. Writing to $4017 with bit 7 set ($80) will immediately clock all of its controlled units at the beginning of the 5-step sequence; with bit 7 clear, only the sequence is reset without clocking any of its units.
+</p><p>Note that the frame counter is not exactly synchronized with the PPU <a href="/wiki/NMI" title="NMI">NMI</a>; it runs independently at a consistent rate which is approximately 240Hz (NTSC). Some games (e.g. <i>The Legend of Zelda</i>, <i>Super Mario Bros.</i>) manually synchronize it by writing $C0 or $FF to $4017 once per frame.
+</p>
+<div class="mw-heading mw-heading4"><h4 id="Length_Counter">Length Counter</h4></div>
+<ul><li>See <a href="/wiki/APU_Length_Counter" title="APU Length Counter">APU Length Counter</a></li></ul>
+<p>The pulse, triangle, and noise channels each have their own length counter unit. It is clocked twice per sequence, and counts down to zero if enabled. When the length counter reaches zero, the channel is silenced. It is reloaded by writing a 5-bit value to the appropriate channel's length counter register, which will load a value from a lookup table. (See <a href="/wiki/APU_Length_Counter" title="APU Length Counter">APU Length Counter</a> for the table.)
+</p><p>The triangle channel has an additional <b>linear counter</b> unit which is clocked four times per sequence (like the envelope of the other channels). It functions independently of the length counter, and will also silence the triangle channel when it reaches zero.
+</p>
+<div class="mw-heading mw-heading3"><h3 id="Mixer">Mixer</h3></div>
+<ul><li>See <a href="/wiki/APU_Mixer" title="APU Mixer">APU Mixer</a></li></ul>
+<p>The APU audio output signal comes from two separate components. The pulse channels are output on one pin, and the triangle/noise/DMC are output on another, after which they are combined. Each of these channels has its own nonlinear DAC. For details, see <a href="/wiki/APU_Mixer" title="APU Mixer">APU Mixer</a>.
+</p><p>After combining the two output signals, the final signal may go through a lowpass and highpass filter. For instance, RF demodulation in televisions usually results in a strong lowpass. The NES' RCA output circuitry has a more mild lowpass filter.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Glossary">Glossary</h2></div>
+<ul><li>All <a class="mw-selflink selflink">APU</a> channels have some form of frequency control. The term <b>frequency</b> is used where larger register value(s) correspond with higher frequencies, and the term <b>period</b> is used where smaller register value(s) correspond with higher frequencies.</li>
+<li>In the block diagrams, a <b>gate</b> takes the input on the left and outputs it on the right, unless the control input on top tells the gate to ignore the input and always output 0.</li>
+<li>Some <a class="mw-selflink selflink">APU</a> units use one or more of the following building blocks:
+<ul><li>A <b>divider</b> outputs a clock periodically. It contains a period reload value, P, and a counter, that starts at P. When the divider is clocked, if the counter is currently 0, it is reloaded with P and generates an output clock, otherwise the counter is decremented. In other words, the divider's period is P + 1.</li>
+<li>A divider can also be forced to reload its counter immediately (counter = P), but this <i>does not</i> output a clock. Similarly, changing a divider's period reload value <i>does not</i> affect the counter. Some counters offer no way to force a reload, but <a rel="nofollow" class="external text" href="http://forums.nesdev.org/viewtopic.php?p=186129#p186129">setting P to 0</a> at least synchronizes it to a known state once the current count expires.</li>
+<li>A divider may be implemented as a down counter (5, 4, 3, …) or as a <a href="https://en.wikipedia.org/wiki/linear_feedback_shift_register" class="extiw" title="wikipedia:linear feedback shift register">linear feedback shift register</a> (LFSR). The dividers in the pulse and triangle channels are linear down-counters. The dividers for noise, DMC, and the APU Frame Counter are implemented as LFSRs to save gates compared to the equivalent down counter.</li>
+<li>A <b>sequencer</b> continuously loops over a sequence of values or events. When clocked, the next item in the sequence is generated. In this APU documentation, clocking a sequencer usually means either advancing to the next step in a waveform, or the event sequence of the <a href="/wiki/APU_Frame_Counter" title="APU Frame Counter">Frame Counter</a> device.</li>
+<li>A <b>timer</b> is used in each of the five channels to control the sound frequency. It contains a divider which is clocked by the <a href="/wiki/CPU" title="CPU">CPU</a> clock. The triangle channel's timer is clocked on every CPU cycle, but the pulse, noise, and DMC timers are clocked only on every second CPU cycle and thus produce only even periods.</li></ul></li></ul>
+<div class="mw-heading mw-heading2"><h2 id="References">References</h2></div>
+<ul><li><a rel="nofollow" class="external text" href="http://nesdev.org/apu_ref.txt">Blargg's NES APU Reference</a></li>
+<li><a rel="nofollow" class="external text" href="http://nesdev.org/2A03%20technical%20reference.txt">Brad Taylor's 2A03 Technical Reference</a></li></ul>
+<!-- 
+NewPP limit report
+Cached time: 20260316224146
+Cache expiry: 86400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.070 seconds
+Real time usage: 0.080 seconds
+Preprocessor visited node count: 116/1000000
+Revision size: 19173/2097152 bytes
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key nesdev_db-wiki_:pcache:48:|#|:idhash:canonical and timestamp 20260316224146 and revision id 22830. Rendering was triggered because: page_view
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://www.nesdev.org/w/index.php?title=APU&amp;oldid=22830">https://www.nesdev.org/w/index.php?title=APU&amp;oldid=22830</a>"</div></div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/Category:APU" title="Category:APU">APU</a></li></ul></div></div>
+				<!-- end content -->
+				<div class="visualClear"></div>
+			</div>
+		</div>
+		<div class="visualClear"></div>
+	</div>
+	<div id="column-one" >
+		<h2>Navigation menu</h2>
+		<div role="navigation" class="portlet" id="p-cactions" aria-labelledby="p-cactions-label">
+			<h3 id="p-cactions-label" >Page actions</h3>
+			<div class="pBody">
+				<ul >
+				<li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/APU" title="View the content page [c]" accesskey="c">Page</a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Talk:APU" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li><li id="ca-view" class="selected mw-list-item"><a href="/wiki/APU">Read</a></li><li id="ca-viewsource" class="mw-list-item"><a href="/w/index.php?title=APU&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=APU&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+				
+				</ul>
+			</div>
+		</div>
+		
+<div role="navigation" class="portlet mw-portlet mw-portlet-cactions-mobile"
+	id="p-cactions-mobile" aria-labelledby="p-cactions-mobile-label">
+	<h3 id="p-cactions-mobile-label" >Page actions</h3>
+	<div class="pBody">
+		<ul ><li id="main-mobile" class="selected mw-list-item"><a href="/wiki/APU" title="Page">Page</a></li><li id="talk-mobile" class="mw-list-item"><a href="/wiki/Talk:APU" title="Discussion">Discussion</a></li><li id="ca-more" class="mw-list-item"><a href="#p-cactions">More</a></li><li id="ca-tools" class="mw-list-item"><a href="#p-tb" title="Tools">Tools</a></li></ul>
+		
+	</div>
+</div>
+
+		<div role="navigation" class="portlet" id="p-personal" aria-labelledby="p-personal-label">
+			<h3 id="p-personal-label" >Personal tools</h3>
+			<div class="pBody">
+				<ul >
+				<li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=APU" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=APU" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="portlet" id="p-logo" role="banner">
+			<a href="/wiki/Nesdev_Wiki" class="mw-wiki-logo"></a>
+		</div>
+		<div id="sidebar">
+		
+<div role="navigation" class="portlet mw-portlet mw-portlet-navigation"
+	id="p-navigation" aria-labelledby="p-navigation-label">
+	<h3 id="p-navigation-label" >Navigation</h3>
+	<div class="pBody">
+		<ul ><li id="n-Wiki-main-page" class="mw-list-item"><a href="/wiki/Nesdev_Wiki">Wiki main page</a></li><li id="n-NES-reference-guide" class="mw-list-item"><a href="/wiki/NES_reference_guide">NES reference guide</a></li><li id="n-Programming-guide" class="mw-list-item"><a href="/wiki/Programming_guide">Programming guide</a></li><li id="n-Projects" class="mw-list-item"><a href="/wiki/Projects">Projects</a></li><li id="n-Offline-wiki-snapshot" class="mw-list-item"><a rel="nofollow" href="https://archive.org/details/NesDevWiki">Offline wiki snapshot</a></li><li id="n-NESdev-Forums" class="mw-list-item"><a rel="nofollow" href="https://forums.nesdev.org/">NESdev Forums</a></li><li id="n-NESdev-Discord" class="mw-list-item"><a rel="nofollow" href="https://discord.gg/SddKcS6ehE">NESdev Discord</a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li></ul>
+		
+	</div>
+</div>
+
+		<div role="search" class="portlet" id="p-search">
+			<h3 id="p-search-label" ><label for="searchInput">Search</label></h3>
+			<div class="pBody" id="searchBody">
+				<form action="/w/index.php" id="searchform"><input type="hidden" value="Special:Search" name="title"><input type="search" name="search" placeholder="Search NESdev Wiki" aria-label="Search NESdev Wiki" autocapitalize="sentences" spellcheck="false" title="Search NESdev Wiki [f]" accesskey="f" id="searchInput"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" class="searchButton" id="searchButton"> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" class="searchButton mw-fallbackSearchButton" id="mw-searchButton"></form>
+			</div>
+		</div>
+		
+<div role="navigation" class="portlet mw-portlet mw-portlet-tb"
+	id="p-tb" aria-labelledby="p-tb-label">
+	<h3 id="p-tb-label" >Tools</h3>
+	<div class="pBody">
+		<ul ><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/APU" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/APU" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=APU&amp;oldid=22830" title="Permanent link to this revision of this page">Permanent link</a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=APU&amp;action=info" title="More information about this page">Page information</a></li><li id="n-Special-Pages" class="mw-list-item"><a href="/wiki/Special:SpecialPages">Special Pages</a></li></ul>
+		
+	</div>
+</div>
+
+		
+		</div>
+		<a href="#sidebar" title="Jump to navigation"
+			class="menu-toggle" id="sidebar-toggle"></a>
+		<a href="#p-personal" title="user tools"
+			class="menu-toggle" id="p-personal-toggle"></a>
+		<a href="#globalWrapper" title="back to top"
+			class="menu-toggle" id="globalWrapper-toggle"></a>
+	</div>
+	<!-- end of the left (by default at least) column -->
+	<div class="visualClear"></div>
+	<div id="footer" class="mw-footer" role="contentinfo"
+		>
+		<div id="f-poweredbyico" class="footer-icons">
+			<a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a>
+		</div>
+		<ul id="f-list">
+			<li id="lastmod"> This page was last edited on 10 July 2025, at 10:38.</li>
+			<li id="privacy"><a href="/wiki/Nesdev_wiki:Privacy_policy">Privacy policy</a></li><li id="about"><a href="/wiki/Nesdev_wiki:About">About NESdev Wiki</a></li><li id="disclaimers"><a href="/wiki/Nesdev_wiki:General_disclaimer">Disclaimers</a></li>
+		</ul>
+	</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":127,"wgPageParseReport":{"limitreport":{"cputime":"0.070","walltime":"0.080","ppvisitednodes":{"value":116,"limit":1000000},"revisionsize":{"value":19173,"limit":2097152},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":100},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20260316224146","ttl":86400,"transientcontent":false}}});});</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"6c2a51884de146568600589c93ac5eda","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

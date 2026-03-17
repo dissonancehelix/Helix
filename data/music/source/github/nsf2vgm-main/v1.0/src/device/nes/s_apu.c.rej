@@ -1,0 +1,27 @@
+--- src/device/nes/s_apu.c	2010-05-19 10:52:18.000000000 +0200
++++ src/device/nes/s_apu.c	2013-09-26 18:47:26.000000000 +0200
+@@ -7,6 +7,7 @@
+ #include "m_nsf.h"
+ #include "s_apu.h"
+ #include <time.h>
++#include "incvgm.h"
+ 
+ #define NES_BASECYCLES (21477270)
+ 
+@@ -158,6 +159,8 @@
+ 	NESAPU_DPCM dpcm;
+ 	Uint32 cpf[4];	/* cycles per frame (240/192Hz) ($4017.bit7) */
+ 	Uint8 regs[0x20];
++	Uint16 vgm_idx;
++	const Uint8* vgm_BnkPtr[8];
+ } APUSOUND;
+ 
+ Int32 NSF_noise_random_reset = 0;
+@@ -1041,6 +1142,7 @@
+ 	APUSOUND *apu = ((NSFNSF*)((NEZ_PLAY*)pNezPlay)->nsf)->apu;
+ 	NSFNSF *nsf = (NSFNSF*)((NEZ_PLAY*)pNezPlay)->nsf;
+ 	Uint i;
++	apu->vgm_idx = 0xFFFF;
+ 	NESAPUSoundSquareReset(pNezPlay, &apu->square[0]);
+ 	NESAPUSoundSquareReset(pNezPlay, &apu->square[1]);
+ 	NESAPUSoundTriangleReset(pNezPlay, &apu->triangle);

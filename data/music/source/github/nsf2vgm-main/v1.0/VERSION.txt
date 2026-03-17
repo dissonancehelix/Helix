@@ -1,0 +1,25 @@
+NSF2VGM Batch Converter
+Version: 2.0.0
+Release Date: 2026-02-02
+Build: Release
+
+Features:
+- NSF to VGM conversion
+- M3U playlist support
+- 7z archive auto-extraction
+- ZIP archive auto-extraction
+- Automatic VGM packaging to ZIP
+- Unicode filename support
+- All NSF expansion chips supported
+
+System Requirements:
+- Windows 7 or higher
+- Linux (Ubuntu 18.04+, Debian 10+, Fedora 30+)
+- macOS 10.13+
+
+Dependencies (included):
+- 7z SDK 24.08
+- zlib 1.2.11
+- NEZplug++ engine
+
+For more information, see README_CN.md or README_EN.md

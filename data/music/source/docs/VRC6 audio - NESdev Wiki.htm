@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>VRC6 audio - NESdev Wiki</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"abnX72y0Eo_jdHTtpLY6ewAAAA8","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"VRC6_audio","wgTitle":"VRC6 audio","wgCurRevisionId":12555,"wgRevisionId":12555,"wgArticleId":1164,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Expansion audio"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"VRC6_audio","wgRelevantArticleId":1164,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"]};
+RLSTATE={"site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","skins.monobook.styles":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.monobook.scripts","ext.checkUser.clientHints"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=skins.monobook.styles&amp;only=styles&amp;skin=monobook">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=monobook"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=monobook">
+<meta name="generator" content="MediaWiki 1.45.1">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Konami&#039;s VRC6 mapper provided 3 extra channels for sound: two pulse waves, and one sawtooth.  All channels operate similarly to the native channels in the NES APU.&#10;On some boards, the A0 and A1 lines were switched, so for those boards, registers will need adjustment when emulating ($x001 will become...">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="NESdev Wiki (en)">
+<link rel="EditURI" type="application/rsd+xml" href="https://www.nesdev.org/w/api.php?action=rsd">
+<link rel="alternate" type="application/atom+xml" title="NESdev Wiki Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+	<meta property="og:type" content="article">
+
+	<meta property="og:site_name" content="NESdev Wiki">
+
+	<meta property="og:title" content="VRC6 audio">
+
+	<meta property="og:description" content="Konami&#039;s VRC6 mapper provided 3 extra channels for sound: two pulse waves, and one sawtooth.  All channels operate similarly to the native channels in the NES APU.&#10;On some boards, the A0 and A1 lines were switched, so for those boards, registers will need adjustment when emulating ($x001 will become...">
+
+	<meta property="og:url" content="https://www.nesdev.org/wiki/VRC6_audio">
+
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-VRC6_audio rootpage-VRC6_audio skin-monobook action-view skin--responsive"><div id="globalWrapper">
+	<div id="column-content">
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="siteNotice"></div>
+			<div class="mw-indicators">
+			</div>
+			<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">VRC6 audio</span></h1>
+			<div id="bodyContent" class="monobook-body">
+				<div id="siteSub">From NESdev Wiki</div>
+				<div id="contentSub" ><div id="mw-content-subtitle"></div></div>
+				
+				<div id="jump-to-nav"></div><a href="#column-one" class="mw-jump-link">Jump to navigation</a><a href="#searchInput" class="mw-jump-link">Jump to search</a>
+				<!-- start content -->
+				<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><p>Konami's <a href="/wiki/VRC6" title="VRC6">VRC6</a> mapper provided 3 extra channels for sound: two pulse waves, and one sawtooth.  All channels operate similarly to the native channels in the <a href="/wiki/APU" title="APU">NES APU</a>.
+</p><p>On some boards, the A0 and A1 lines were switched, so for those boards, registers will need adjustment when emulating ($x001 will become $x002 and vice versa).  Registers listed here are how they are for 悪魔城伝説 (<i>Akumajou Densetsu</i>, iNES mapper 024).  For <i>Madara</i> and <i>Esper Dream 2</i> (iNES mapper 026), you will need to adjust the registers.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Registers"><span class="tocnumber">1</span> <span class="toctext">Registers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Frequency_Control_($9003)"><span class="tocnumber">1.1</span> <span class="toctext">Frequency Control ($9003)</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Pulse_Control_($9000,$A000)"><span class="tocnumber">1.2</span> <span class="toctext">Pulse Control ($9000,$A000)</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Saw_Accum_Rate_($B000)"><span class="tocnumber">1.3</span> <span class="toctext">Saw Accum Rate ($B000)</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Freq_Low_($9001,$A001,$B001)"><span class="tocnumber">1.4</span> <span class="toctext">Freq Low ($9001,$A001,$B001)</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Freq_High_($9002,$A002,$B002)"><span class="tocnumber">1.5</span> <span class="toctext">Freq High ($9002,$A002,$B002)</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Pulse_Channels"><span class="tocnumber">2</span> <span class="toctext">Pulse Channels</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Sawtooth_Channel"><span class="tocnumber">3</span> <span class="toctext">Sawtooth Channel</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Output"><span class="tocnumber">4</span> <span class="toctext">Output</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">5</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+
+<div class="mw-heading mw-heading2"><h2 id="Registers">Registers</h2></div>
+<table class="tabular">
+<caption>Overall map of VRC6 audio registers
+</caption>
+<tbody><tr>
+<th>Base</th>
+<th>+0</th>
+<th>+1</th>
+<th>+2</th>
+<th>+3
+</th></tr>
+<tr>
+<td>$9000</td>
+<td>Pulse 1 duty and volume</td>
+<td>Pulse 1 period low</td>
+<td>Pulse 1 period high</td>
+<td>Frequency scaling
+</td></tr>
+<tr>
+<td>$A000</td>
+<td>Pulse 2 duty and volume</td>
+<td>Pulse 2 period low</td>
+<td>Pulse 2 period high</td>
+<td>
+</td></tr>
+<tr>
+<td>$B000</td>
+<td>Saw volume</td>
+<td>Saw period low</td>
+<td>Saw period high</td>
+<td>(<a href="/wiki/VRC6#PPU_Banking_Style_.28.24B003.29" title="VRC6">mirroring control</a>)
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading3"><h3 id="Frequency_Control_($9003)"><span id="Frequency_Control_.28.249003.29"></span>Frequency Control ($9003)</h3></div>
+<p>Normally you should write $00 to this register on startup to initialize it, and not make any further writes to it. This is what all three original VRC6 games do.
+</p>
+<dl><dd>$9003 controls the overall frequency of the VRC6 audio.</dd></dl>
+<pre>7  bit  0
+---- ----
+.... .ABH
+      |||
+      ||+- Halt
+      |+-- 16x frequency (4 octaves up)
+      +--- 256x frequency (8 octaves up)
+</pre>
+<pre>H - halts all oscillators, stopping them in their current state
+B - 16x frequency, all oscillators (4 octave increase)
+A - 256x frequency, all oscillators (8 octave increase)
+</pre>
+<ul><li>The halt flag overrides the other flags.</li></ul>
+<ul><li>The 256x flag overrides the 16x flag.</li></ul>
+<ul><li>The 16x/256x flags effectively control a 4-bit and 8-bit right shift of the 12-bit period registers.</li></ul>
+<div class="mw-heading mw-heading3"><h3 id="Pulse_Control_($9000,$A000)"><span id="Pulse_Control_.28.249000.2C.24A000.29"></span>Pulse Control ($9000,$A000)</h3></div>
+<dl><dd>$9000 controls Pulse 1</dd>
+<dd>$A000 controls Pulse 2</dd></dl>
+<pre>7  bit  0
+---- ----
+MDDD VVVV
+|||| ||||
+|||| ++++- Volume
+|+++------ Duty Cycle
++--------- Mode (1: ignore duty)
+</pre>
+<div class="mw-heading mw-heading3"><h3 id="Saw_Accum_Rate_($B000)"><span id="Saw_Accum_Rate_.28.24B000.29"></span>Saw Accum Rate ($B000)</h3></div>
+<pre>7  bit  0
+---- ----
+..AA AAAA
+  ++-++++- Accumulator Rate (controls volume)
+</pre>
+<div class="mw-heading mw-heading3"><h3 id="Freq_Low_($9001,$A001,$B001)"><span id="Freq_Low_.28.249001.2C.24A001.2C.24B001.29"></span>Freq Low ($9001,$A001,$B001)</h3></div>
+<dl><dd>$9001 controls Pulse 1</dd>
+<dd>$A001 controls Pulse 2</dd>
+<dd>$B001 controls Saw</dd></dl>
+<pre>7  bit  0
+---- ----
+FFFF FFFF
+|||| ||||
+++++-++++- Low 8 bits of frequency
+</pre>
+<p><br />
+</p>
+<div class="mw-heading mw-heading3"><h3 id="Freq_High_($9002,$A002,$B002)"><span id="Freq_High_.28.249002.2C.24A002.2C.24B002.29"></span>Freq High ($9002,$A002,$B002)</h3></div>
+<dl><dd>$9002 controls Pulse 1</dd>
+<dd>$A002 controls Pulse 2</dd>
+<dd>$B002 controls Saw</dd></dl>
+<pre>7  bit  0
+---- ----
+E... FFFF
+|    ||||
+|    ++++- High 4 bits of frequency
++--------- Enable (0 = channel disabled)
+</pre>
+<div class="mw-heading mw-heading2"><h2 id="Pulse_Channels">Pulse Channels</h2></div>
+<p>The VRC6 pulse channels operate similarly to the NES's own pulse channels.  The CPU clock rate (1.79 MHz) drives the 12-bit divider <b>F</b>.  Every cycle the divider counts down until it reaches zero, at which point the divider resets and the duty cycle generator is clocked.
+</p><p>The duty cycle generator takes 16 steps, counting down from 15 to 0. When the current step is less than or equal to the given duty cycle <b>D</b>, the channel volume <b>V</b> is output, otherwise 0 is output.
+</p><p>When the mode bit <b>M</b> is true, the channel ignores the duty cycle generator and outputs the current volume regardless of the current duty.
+</p><p>Therefore, <b>D</b> and <b>M</b> values provide the following duty cycles:
+</p>
+<table>
+<tbody><tr>
+<th>D value</th>
+<th>Duty (percent)
+</th></tr>
+<tr>
+<td>0</td>
+<td>1/16</td>
+<td>6.25%
+</td></tr>
+<tr>
+<td>1</td>
+<td>2/16</td>
+<td>12.5%
+</td></tr>
+<tr>
+<td>2</td>
+<td>3/16</td>
+<td>18.75%
+</td></tr>
+<tr>
+<td>3</td>
+<td>4/16</td>
+<td>25%
+</td></tr>
+<tr>
+<td>4</td>
+<td>5/16</td>
+<td>31.25%
+</td></tr>
+<tr>
+<td>5</td>
+<td>6/16</td>
+<td>37.5%
+</td></tr>
+<tr>
+<td>6</td>
+<td>7/16</td>
+<td>43.75%
+</td></tr>
+<tr>
+<td>7</td>
+<td>8/16</td>
+<td>50%
+</td></tr>
+<tr>
+<td>M</td>
+<td>16/16</td>
+<td>100%
+</td></tr></tbody></table>
+<p>When the channel is disabled by clearing the <b>E</b> bit, output is forced to 0, and the duty cycle is immediately reset and halted; it will resume from the beginning when <b>E</b> is once again set. Thus it is possible to reset phase by clearing and immediately setting <b>E</b>.
+</p><p>When using equivalent duty cycle settings for the VRC6 pulse channels, they will appear inverted compared to their 2A03 counterparts.
+</p><p>The frequency of the pulse channels is very similar to the APU pulse channels. It is a division of the <a href="/wiki/Cycle_reference_chart#Clock_rates" title="Cycle reference chart">CPU Clock</a> (1.789773MHz NTSC). The output frequency (f) of the generator can be determined by the 12-bit period value (t) written to $9001-9002/$A001-A002.
+</p>
+<pre>f = CPU / (16 * (t + 1))
+t = (CPU / (16 * f)) - 1
+</pre>
+<div class="mw-heading mw-heading2"><h2 id="Sawtooth_Channel">Sawtooth Channel</h2></div>
+<p>For the sawtooth, the CPU clock rate drives a 12-bit divider <b>F</b>.  Every cycle, the divider counts down until it reaches zero, at which point it reloads and clocks the accumulator.  However, it seems that the accumulator only reacts on every 2 clocks.
+</p><p>When clocked, the rate value <b>A</b> is added to an internal 8-bit accumulator.  The high 5 bits of the accumulator are then output (provided the channel is enabled by having the <b>E</b> bit set).  After <b>A</b> has been added 6 times, on the 7th clock, instead of <b>A</b> being added, the internal accumulator is reset to zero.
+</p><p>For an example, assume an <b>A</b> value of $08
+</p>
+<table class="tabular">
+<tbody><tr>
+<th>Step</th>
+<th>Accumulator</th>
+<th>Output</th>
+<th>Comment
+</th></tr>
+<tr>
+<td>0</td>
+<td>$00</td>
+<td>$00</td>
+<td>
+</td></tr>
+<tr>
+<td>1</td>
+<td>$00</td>
+<td>$00</td>
+<td>(odd step, do nothing)
+</td></tr>
+<tr>
+<td>2</td>
+<td>$08</td>
+<td>$01</td>
+<td>(even step, add <b>A</b> to accumulator)
+</td></tr>
+<tr>
+<td>3</td>
+<td>$08</td>
+<td>$01</td>
+<td>
+</td></tr>
+<tr>
+<td>4</td>
+<td>$10</td>
+<td>$02</td>
+<td>
+</td></tr>
+<tr>
+<td>5</td>
+<td>$10</td>
+<td>$02</td>
+<td>
+</td></tr>
+<tr>
+<td>6</td>
+<td>$18</td>
+<td>$03</td>
+<td>
+</td></tr>
+<tr>
+<td>7</td>
+<td>$18</td>
+<td>$03</td>
+<td>
+</td></tr>
+<tr>
+<td>8</td>
+<td>$20</td>
+<td>$04</td>
+<td>
+</td></tr>
+<tr>
+<td>9</td>
+<td>$20</td>
+<td>$04</td>
+<td>
+</td></tr>
+<tr>
+<td>10</td>
+<td>$28</td>
+<td>$05</td>
+<td>
+</td></tr>
+<tr>
+<td>11</td>
+<td>$28</td>
+<td>$05</td>
+<td>
+</td></tr>
+<tr>
+<td>12</td>
+<td>$30</td>
+<td>$06</td>
+<td>
+</td></tr>
+<tr>
+<td>13</td>
+<td>$30</td>
+<td>$06</td>
+<td>
+</td></tr>
+<tr>
+<td>0</td>
+<td>$00</td>
+<td>$00</td>
+<td>(14th step, reset accumulator)
+</td></tr>
+<tr>
+<td>1</td>
+<td>$00</td>
+<td>$00</td>
+<td>
+</td></tr>
+<tr>
+<td>2</td>
+<td>$08</td>
+<td>$01</td>
+<td>
+</td></tr></tbody></table>
+<p>If <b>A</b> is more than 42 (floor(255 / 6)), the accumulator will wrap, resulting in distorted sound.
+</p><p>If <b>E</b> is clear, the accumulator is forced to zero until <b>E</b> is again set. The phase of the saw generator can be mostly reset by clearing and immediately setting <b>E</b>. Clearing <b>E</b> does not reset the frequency divider, however, so the first step of the reset saw may appear shortened.
+</p><p>The frequency of the saw is a division of the <a href="/wiki/Cycle_reference_chart#Clock_rates" title="Cycle reference chart">CPU Clock</a> (1.789773MHz NTSC). The output frequency (f) of the generator can be determined by the 12-bit period value (t) written to $B001-B002. Note that it divides the clock by 14 instead of 16, unlike the pulse channels.
+</p>
+<pre>f = CPU / (14 * (t + 1))
+t = (CPU / (14 * f)) - 1
+</pre>
+<div class="mw-heading mw-heading2"><h2 id="Output">Output</h2></div>
+<p>At maximum volume, the pulse channels of the VRC6 are roughly equivalent to the pulse channels of the 2A03 (except inverted). The DAC of the VRC6, unlike the 2A03, appears to be linear.
+</p><p>The final mix is a 6-bit DAC summing the two 4-bit pulse outputs and the high 5 bits of the saw accumulator.
+</p>
+<div class="mw-heading mw-heading2"><h2 id="References">References</h2></div>
+<ul><li><a rel="nofollow" class="external text" href="//nesdev.org/vrcvi.txt">VRCVI Chip Info</a> by Kevin Horton</li>
+<li><a rel="nofollow" class="external text" href="//forums.nesdev.org/viewtopic.php?f=3&amp;t=9207">Forum post</a>: VRC6 $9003 audio enable register?</li></ul>
+<!-- 
+NewPP limit report
+Cached time: 20260317024326
+Cache expiry: 86400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.032 seconds
+Real time usage: 0.037 seconds
+Preprocessor visited node count: 35/1000000
+Revision size: 6751/2097152 bytes
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/100
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key nesdev_db-wiki_:pcache:1164:|#|:idhash:canonical and timestamp 20260317024326 and revision id 12555. Rendering was triggered because: page_view
+ -->
+</div>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://www.nesdev.org/w/index.php?title=VRC6_audio&amp;oldid=12555">https://www.nesdev.org/w/index.php?title=VRC6_audio&amp;oldid=12555</a>"</div></div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/Category:Expansion_audio" title="Category:Expansion audio">Expansion audio</a></li></ul></div></div>
+				<!-- end content -->
+				<div class="visualClear"></div>
+			</div>
+		</div>
+		<div class="visualClear"></div>
+	</div>
+	<div id="column-one" >
+		<h2>Navigation menu</h2>
+		<div role="navigation" class="portlet" id="p-cactions" aria-labelledby="p-cactions-label">
+			<h3 id="p-cactions-label" >Page actions</h3>
+			<div class="pBody">
+				<ul >
+				<li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/VRC6_audio" title="View the content page [c]" accesskey="c">Page</a></li><li id="ca-talk" class="mw-list-item"><a href="/wiki/Talk:VRC6_audio" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li><li id="ca-view" class="selected mw-list-item"><a href="/wiki/VRC6_audio">Read</a></li><li id="ca-viewsource" class="mw-list-item"><a href="/w/index.php?title=VRC6_audio&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li><li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=VRC6_audio&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+				
+				</ul>
+			</div>
+		</div>
+		
+<div role="navigation" class="portlet mw-portlet mw-portlet-cactions-mobile"
+	id="p-cactions-mobile" aria-labelledby="p-cactions-mobile-label">
+	<h3 id="p-cactions-mobile-label" >Page actions</h3>
+	<div class="pBody">
+		<ul ><li id="main-mobile" class="selected mw-list-item"><a href="/wiki/VRC6_audio" title="Page">Page</a></li><li id="talk-mobile" class="mw-list-item"><a href="/wiki/Talk:VRC6_audio" title="Discussion">Discussion</a></li><li id="ca-more" class="mw-list-item"><a href="#p-cactions">More</a></li><li id="ca-tools" class="mw-list-item"><a href="#p-tb" title="Tools">Tools</a></li></ul>
+		
+	</div>
+</div>
+
+		<div role="navigation" class="portlet" id="p-personal" aria-labelledby="p-personal-label">
+			<h3 id="p-personal-label" >Personal tools</h3>
+			<div class="pBody">
+				<ul >
+				<li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=VRC6+audio" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=VRC6+audio" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="portlet" id="p-logo" role="banner">
+			<a href="/wiki/Nesdev_Wiki" class="mw-wiki-logo"></a>
+		</div>
+		<div id="sidebar">
+		
+<div role="navigation" class="portlet mw-portlet mw-portlet-navigation"
+	id="p-navigation" aria-labelledby="p-navigation-label">
+	<h3 id="p-navigation-label" >Navigation</h3>
+	<div class="pBody">
+		<ul ><li id="n-Wiki-main-page" class="mw-list-item"><a href="/wiki/Nesdev_Wiki">Wiki main page</a></li><li id="n-NES-reference-guide" class="mw-list-item"><a href="/wiki/NES_reference_guide">NES reference guide</a></li><li id="n-Programming-guide" class="mw-list-item"><a href="/wiki/Programming_guide">Programming guide</a></li><li id="n-Projects" class="mw-list-item"><a href="/wiki/Projects">Projects</a></li><li id="n-Offline-wiki-snapshot" class="mw-list-item"><a rel="nofollow" href="https://archive.org/details/NesDevWiki">Offline wiki snapshot</a></li><li id="n-NESdev-Forums" class="mw-list-item"><a rel="nofollow" href="https://forums.nesdev.org/">NESdev Forums</a></li><li id="n-NESdev-Discord" class="mw-list-item"><a rel="nofollow" href="https://discord.gg/SddKcS6ehE">NESdev Discord</a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li></ul>
+		
+	</div>
+</div>
+
+		<div role="search" class="portlet" id="p-search">
+			<h3 id="p-search-label" ><label for="searchInput">Search</label></h3>
+			<div class="pBody" id="searchBody">
+				<form action="/w/index.php" id="searchform"><input type="hidden" value="Special:Search" name="title"><input type="search" name="search" placeholder="Search NESdev Wiki" aria-label="Search NESdev Wiki" autocapitalize="sentences" spellcheck="false" title="Search NESdev Wiki [f]" accesskey="f" id="searchInput"><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" class="searchButton" id="searchButton"> <input type="submit" name="fulltext" value="Search" title="Search the pages for this text" class="searchButton mw-fallbackSearchButton" id="mw-searchButton"></form>
+			</div>
+		</div>
+		
+<div role="navigation" class="portlet mw-portlet mw-portlet-tb"
+	id="p-tb" aria-labelledby="p-tb-label">
+	<h3 id="p-tb-label" >Tools</h3>
+	<div class="pBody">
+		<ul ><li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/VRC6_audio" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/VRC6_audio" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=VRC6_audio&amp;oldid=12555" title="Permanent link to this revision of this page">Permanent link</a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=VRC6_audio&amp;action=info" title="More information about this page">Page information</a></li><li id="n-Special-Pages" class="mw-list-item"><a href="/wiki/Special:SpecialPages">Special Pages</a></li></ul>
+		
+	</div>
+</div>
+
+		
+		</div>
+		<a href="#sidebar" title="Jump to navigation"
+			class="menu-toggle" id="sidebar-toggle"></a>
+		<a href="#p-personal" title="user tools"
+			class="menu-toggle" id="p-personal-toggle"></a>
+		<a href="#globalWrapper" title="back to top"
+			class="menu-toggle" id="globalWrapper-toggle"></a>
+	</div>
+	<!-- end of the left (by default at least) column -->
+	<div class="visualClear"></div>
+	<div id="footer" class="mw-footer" role="contentinfo"
+		>
+		<div id="f-poweredbyico" class="footer-icons">
+			<a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a>
+		</div>
+		<ul id="f-list">
+			<li id="lastmod"> This page was last edited on 20 November 2018, at 05:49.</li>
+			<li id="privacy"><a href="/wiki/Nesdev_wiki:Privacy_policy">Privacy policy</a></li><li id="about"><a href="/wiki/Nesdev_wiki:About">About NESdev Wiki</a></li><li id="disclaimers"><a href="/wiki/Nesdev_wiki:General_disclaimer">Disclaimers</a></li>
+		</ul>
+	</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":171,"wgPageParseReport":{"limitreport":{"cputime":"0.032","walltime":"0.037","ppvisitednodes":{"value":35,"limit":1000000},"revisionsize":{"value":6751,"limit":2097152},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":100},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20260317024326","ttl":86400,"transientcontent":false}}});});</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"6c2a51884de146568600589c93ac5eda","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

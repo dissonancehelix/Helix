@@ -1,0 +1,383 @@
+import { VerticalBox, HorizontalBox, Button, Slider } from "std-widgets.slint";
+import { WindowsWindowControls } from "./window-controls.slint";
+import { ToolbarButton } from "./toolbar-button.slint";
+import { FluentCard } from "./fluent-card.slint";
+import { SettingsMenu, SampleInterpolationType } from "./settings-menu.slint";
+export { SampleInterpolationType }
+import { SeekBar, BufferingSeekBar } from "./seek-bar.slint";
+import { SlintApuChannelState, ApuChannelStateView, SlintApuMasterState, ApuMasterStateView } from "./apu-state-view.slint";
+export { SlintApuChannelState, SlintApuMasterState }
+
+import "./U001-Reg.ttf";
+import "./U001-Bol.ttf";
+
+export component MainWindow inherits Window {
+    in-out property <bool> playing: false;
+
+    in property <string> spc-title: "Title";
+    in property <string> spc-artist: "Artist";
+    in property <string> spc-game: "Game";
+    in property <string> spc-ripper: "Ripper";
+    in-out property <duration> spc-duration: 0s;
+    in-out property <duration> spc-fadeout: 0s;
+    in-out property <duration> playback-position: 0s;
+    in property <duration> buffer-length: 0s;
+    in property <SlintApuMasterState> apu-master-state;
+    in property <[SlintApuChannelState]> apu-channel-states: [{}, {}, {}, {}, {}, {}, {}, {}];
+
+    property <bool> i-seek-bar-hovered: false;
+    property <bool> i-settings-open: false;
+    property <bool> overlay-open: i-overlay-area.has-hover ||
+                                  i-playlist-button.has-hover ||
+                                  i-settings-button.has-hover ||
+                                  i-restart-button.has-hover ||
+                                  i-play-button.has-hover ||
+                                  i-repeat-button.has-hover ||
+                                  i-export-button.has-hover ||
+                                  i-open-button.has-hover ||
+                                  i-window-controls.has-hover ||
+                                  i-seek-bar-hovered ||
+                                  i-settings-open ||
+                                  exporting;
+    property <bool> buffering: playback-position > buffer-length;
+    property <duration> seek-position: 0s;
+    out property <bool> seeking: false;
+    out property <bool> repeat: false;
+    out property <bool> repeat-infinite: false;
+    out property <duration> fadeout-start: repeat-infinite ? 0s : spc-duration;
+    out property <duration> playback-duration: repeat-infinite ? 0s : fadeout-start + spc-fadeout;
+
+    in-out property <string> selected-device-name: "";
+    in property <bool> updating-device-names: true;
+    in property <[string]> device-names: [];
+
+    in property <bool> exporting: false;
+    in property <duration> export-current-time: 0s;
+    in property <duration> export-total-time: 0s;
+
+    callback init-audio();
+    callback play-pause();
+    callback open-spc();
+    callback seek(duration);
+    callback export-wav();
+    pure callback format-duration(duration) -> string;
+    pure callback update-devices();
+    callback sample-interpolation-type-selected(SampleInterpolationType);
+    callback volume-changed(float);
+    callback filter-enabled-selected(bool);
+    callback script700-enabled-selected(bool);
+
+    in property <bool> macos-layout: false;
+    in property <bool> maximized: false;
+    in property <bool> active: true;
+    property <bool> resize-handle-hover-n: !maximized && abs(i-overlay-area.mouse-y) <= 4px;
+    property <bool> resize-handle-hover-e: !maximized && abs(root.width - i-overlay-area.mouse-x) <= 4px;
+    property <bool> resize-handle-hover-s: !maximized && abs(root.height - i-overlay-area.mouse-y) <= 4px;
+    property <bool> resize-handle-hover-w: !maximized && abs(i-overlay-area.mouse-x) <= 4px;
+    pure callback start-window-drag();
+    pure callback start-window-resize(bool, bool, bool, bool);
+    pure callback minimize-pressed();
+    pure callback maximize-pressed();
+    pure callback close-pressed();
+    
+    title: "SPCPresenter Mini";
+    icon: @image-url("spc-presenter-icon.png");
+    min-height: 250px;
+    min-width: 650px;
+    default-font-family: "U001";
+    no-frame: true;
+
+    i-bars := HorizontalBox {
+        alignment: stretch;
+        spacing: 4px;
+
+        FluentCard {
+            n: 2;
+            border-radius: 8px;
+            horizontal-stretch: 4;
+
+            ApuMasterStateView {
+                x: 8px;
+                y: 8px;
+                width: parent.width - 16px;
+                height: parent.height - 16px;
+                state: root.apu-master-state;
+            }
+        }
+        for state[channel] in root.apu-channel-states: FluentCard {
+            n: 2;
+            border-radius: 8px;
+            horizontal-stretch: 3;
+
+            ApuChannelStateView {
+                x: 8px;
+                y: 8px;
+                width: parent.width - 16px;
+                height: parent.height - 16px;
+                channel: channel;
+                state: state;
+            }
+        }
+    }
+
+    i-overlay-area := TouchArea {
+        x: 0;
+        y: 0;
+        z: 5;
+        width: root.width;
+        height: root.height;
+        mouse-cursor: ((resize-handle-hover-n && resize-handle-hover-e) || (resize-handle-hover-s && resize-handle-hover-w)) ? MouseCursor.nesw-resize :
+                      ((resize-handle-hover-n && resize-handle-hover-w) || (resize-handle-hover-s && resize-handle-hover-e)) ? MouseCursor.nwse-resize :
+                      (resize-handle-hover-e || resize-handle-hover-w) ? MouseCursor.ew-resize :
+                      (resize-handle-hover-n || resize-handle-hover-s) ? MouseCursor.ns-resize :
+                      default;
+
+        pointer-event(ev) => {
+            root.i-seek-bar-hovered = false;
+            i-settings.close-submenus();
+
+            if (ev.kind == PointerEventKind.down && ev.button == PointerEventButton.left) {
+                root.i-settings-open = false;
+                if (resize-handle-hover-n || resize-handle-hover-e || resize-handle-hover-s || resize-handle-hover-w) {
+                    root.start-window-resize(resize-handle-hover-n, resize-handle-hover-e, resize-handle-hover-s, resize-handle-hover-w);
+                } else {
+                    root.start-window-drag();
+                }
+            }
+        }
+        double-clicked => { root.maximize-pressed(); }
+    }
+    
+    i-overlay := Rectangle {
+        x: 0;
+        y: 0;
+        z: 10;
+        width: root.width;
+        height: root.height;
+        
+        background: @linear-gradient(0deg, Colors.rgba(0, 0, 0, 0.45) 0%, Colors.rgba(0, 0, 0, 0.7) 100%);
+        opacity: overlay-open ? 1 : 0;
+
+        animate opacity {
+            duration: 200ms;
+            easing: ease-in-out;
+        }
+
+        Rectangle {
+            x: 0;
+            y: 0;
+            width: root.width;
+            height: 20px;
+            
+            Image {
+                x: 8px;
+                y: 8px;
+                width: 16px;
+                height: 16px;
+                source: @image-url("spc-presenter-icon.png");
+            }
+
+            Text {
+                x: 32px;
+                y: 9px;
+                text: "SPCPresenter Mini";
+                font-size: 12px;
+            }
+
+            i-window-controls := WindowsWindowControls {
+                x: root.width - self.width;
+                y: 0;
+                maximized: root.maximized;
+                active: root.active;
+                minimize-pressed => { root.minimize-pressed(); }
+                maximize-pressed => { root.maximize-pressed(); }
+                close-pressed => { root.close-pressed(); }
+            }
+        }
+
+        VerticalBox {
+            x: 0;
+            y: 0;
+            width: root.width;
+            height: root.height;
+            alignment: stretch;
+            spacing: 0;
+
+            Rectangle {
+                height: 20px;
+            }
+
+            VerticalBox {
+                alignment: center;
+                spacing: 3px;
+
+                Text {
+                    text: root.spc-title;
+                    font-size: 26px;
+                    font-weight: 700;
+                    wrap: word-wrap;
+                }
+                Text {
+                    text: root.spc-artist;
+                    font-size: 18px;
+                    wrap: word-wrap;
+                }
+                Text {
+                    text: root.spc-game;
+                    font-size: 18px;
+                    wrap: word-wrap;
+                }
+            }
+
+            HorizontalLayout {
+                alignment: stretch;
+                spacing: 8px;
+                height: 28px;
+
+                Text {
+                    text: root.exporting ? root.format-duration(root.export-current-time) :
+                          root.seeking ? root.format-duration(root.seek-position) : root.format-duration(root.playback-position);
+                    width: 40px;
+                    horizontal-stretch: 0;
+                    horizontal-alignment: right;
+                    vertical-alignment: center;
+                }
+
+                if root.buffering && !root.exporting: BufferingSeekBar {}
+                if !root.buffering || root.exporting: SeekBar {
+                    minimum: 0;
+                    maximum: root.exporting ? root.export-total-time / 1ms : root.playback-duration / 1ms;
+                    value: root.exporting ? root.export-current-time / 1ms : clamp(root.playback-position / 1ms, 0, root.playback-duration / 1ms);
+                    buffer-length: root.exporting ? 0 : clamp(root.buffer-length / 1ms, 0, root.playback-duration / 1ms);
+                    enabled: !root.exporting;
+                    hovered => {
+                        root.i-seek-bar-hovered = true;
+                    }
+                    changed(value) => {
+                        root.seeking = true;
+                        root.play-pause();
+                        root.seek-position = value * 1ms;
+                    }
+                    released(value) => {
+                        root.seek(value * 1ms);
+                        root.seeking = false;
+                        root.play-pause();
+                    }
+                }
+
+                Text {
+                    text: root.exporting ? root.format-duration(root.export-total-time) :
+                          root.buffering ? root.format-duration(root.buffer-length) :
+                          root.repeat-infinite ? "∞" : root.format-duration(root.playback-duration);
+                    width: 40px;
+                    horizontal-stretch: 0;
+                    horizontal-alignment: left;
+                    vertical-alignment: center;
+                }
+            }
+
+            HorizontalLayout {
+                height: 48px;
+
+                alignment: stretch;
+                spacing: 8px;
+
+                i-playlist-button := ToolbarButton {
+                    width: self.height;
+                    icon: @image-url("navigation.svg");
+                    enabled: !root.exporting;
+                }
+                i-settings-button := ToolbarButton {
+                    width: self.height;
+                    icon: @image-url("settings.svg");
+                    checkable: true;
+                    checked <=> root.i-settings-open;
+                    enabled: !root.exporting;
+                    clicked => {
+                        root.update-devices();
+                    }
+                }
+                Rectangle {}
+                i-restart-button := ToolbarButton {
+                    width: self.height;
+                    icon: @image-url("previous.svg");
+                    enabled: !root.exporting;
+                    clicked => { root.seek(0s); }
+                }
+                i-play-button := ToolbarButton {
+                    width: self.height;
+                    icon: root.playing ? @image-url("pause.svg") : @image-url("play.svg");
+                    checkable: true;
+                    checked <=> root.playing;
+                    enabled: !root.exporting;
+                    clicked => {
+                        root.play-pause();
+                    }
+                }
+                i-repeat-button := ToolbarButton {
+                    width: self.height;
+                    icon: root.repeat-infinite ? @image-url("infinity.svg") :
+                          root.repeat ? @image-url("repeat-all.svg") : @image-url("repeat-all-off.svg");
+                    enabled: !root.exporting;
+                    clicked => {
+                        if (root.repeat-infinite) {
+                            root.repeat = false;
+                            root.repeat-infinite = false;
+                        } else if (root.repeat) {
+                            root.repeat-infinite = true;
+                        } else {
+                            root.repeat = true;
+                        }
+                    }
+                }
+                Rectangle {}
+                i-export-button := ToolbarButton {
+                    width: self.height;
+                    icon: root.exporting ? @image-url("dismiss.svg") : @image-url("save-arrow.svg");
+                    destructive: root.exporting;
+                    clicked => { root.export-wav(); }
+                }
+                i-open-button := ToolbarButton {
+                    width: self.height;
+                    icon: @image-url("folder-open.svg");
+                    enabled: !root.exporting;
+                    clicked => {
+                        root.open-spc();
+                    }
+                }
+            }
+        }
+    }
+
+    i-settings := SettingsMenu {
+        x: i-settings-button.x;
+        y: root.height - self.height - 56px;
+        z: 10;
+        open: root.i-settings-open;
+
+        updating: updating-device-names;
+        selected-device-name <=> selected-device-name;
+        device-names: device-names;
+
+        device-selected => {
+            self.close-submenus();
+            root.init-audio();
+        }
+        sample-interpolation-type-selected(t) => {
+            self.close-submenus();
+            root.sample-interpolation-type-selected(t);
+        }
+        volume-changed(v) => {
+            self.close-submenus();
+            root.volume-changed(v);
+        }
+        filter-enabled-selected(en) => {
+            self.close-submenus();
+            root.filter-enabled-selected(en);
+        }
+        script700-enabled-selected(en) => {
+            self.close-submenus();
+            root.script700-enabled-selected(en);
+        }
+    }
+}

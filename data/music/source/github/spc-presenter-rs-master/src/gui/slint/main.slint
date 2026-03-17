@@ -1,0 +1,634 @@
+import { AboutSlint, VerticalBox, Button, StandardButton, SpinBox, CheckBox, LineEdit, ComboBox } from "std-widgets.slint";
+import { ToolbarButton } from "./toolbar-button.slint";
+import { PitchType, SampleConfig, SampleUtils, SampleConfigWidget } from "./sample-config.slint";
+export { PitchType, SampleConfig, SampleUtils }
+import { ColorUtils, ColorPickerButton } from "./color-picker.slint";
+export { ColorUtils }
+import { Progress, ProgressInfo, ProgressType, ProgressUtils } from "./progress.slint";
+export { ProgressInfo, ProgressType }
+import { LocalizationArg, Localization } from "./localization.slint";
+export { LocalizationArg, Localization }
+
+export enum StopConditionType {
+    Frames, Time, SpcDuration
+}
+
+export enum ResamplingType {
+    Accurate, Gaussian, Linear, Cubic, Sinc
+}
+
+component FileBrowser {
+    callback browse() -> string;
+    callback cleared();
+
+    in property <string> text: Localization.tr("file-browser-label-default");
+    in property <bool> enabled: true;
+    in property <bool> clearable: false;
+    out property <string> path: "";
+
+    HorizontalLayout {
+        alignment: stretch;
+        spacing: 8px;
+        Text {
+            text: root.text;
+            vertical-alignment: center;
+        }
+        LineEdit {
+            enabled: false;
+            text: path;
+            placeholder-text: Localization.tr("file-browser-path-placeholder");
+        }
+        Button {
+            text: Localization.tr("file-browser-button-browse");
+            enabled: root.enabled;
+            clicked => {
+                root.path = root.browse();
+            }
+        }
+        if root.clearable: Button {
+            text: Localization.tr("file-browser-button-clear");
+            enabled: root.enabled;
+            clicked => {
+                root.path = "";
+                root.cleared();
+            }
+        }
+    }
+}
+
+export component MainWindow inherits Window {
+    callback browse-for-module() -> string;
+    callback browse-for-background() -> string;
+    callback background-cleared();
+    callback import-tunings();
+    callback get-duration(StopConditionType, int) -> duration;
+    callback start-render();
+    callback cancel-render();
+    callback play-audio(SampleConfig) -> bool;
+    callback stop-audio();
+    callback change-audio-pitch(SampleConfig, int) -> int;
+    callback dump-sample(SampleConfig);
+    callback import-config();
+    callback export-config();
+    callback reset-config();
+    callback update-config(bool);
+
+    in property <string> version: "?";
+    in property <string> snes-apu-version: "?";
+    in property <string> ffmpeg-version: "?";
+
+    in property <bool> rendering: false;
+    in property <bool> processing-samples: false;
+    in property <ProgressInfo> progress-info: {
+        progress-type: ProgressType.Initial,
+        progress: 0.0,
+        error: "",
+        fps: 0,
+        encoded-duration: -2ms,
+        expected-duration: -2ms,
+        video-size: 0,
+        eta: -2ms,
+        source: 0,
+        current-sample: 0,
+        total-samples: 0
+    };
+
+    in property <[string]> metadata-lines: [];
+    in property <string> script700-path: "";
+    in-out property <[[int]]> channel-base-colors: [];
+    in-out property <[SampleConfig]> sample-configs: [];
+    in-out property <int> fadeout-duration: 180;
+    in-out property <int> output-width: 1920;
+    in-out property <int> output-height: 1080;
+    in-out property <bool> filter-enabled: true;
+    in-out property <bool> dim-background: true;
+
+    out property <StopConditionType> stop-condition-type: StopConditionType.Time;
+    out property <int> stop-condition-num: 300;
+
+    property <bool> configuration-open: true;
+
+    public function reformat-duration() {
+        i-formatted-duration.text = ProgressUtils.format-duration(root.get-duration(root.stop-condition-type, root.stop-condition-num));
+    }
+
+    public function reset-sample-configs() {
+        i-sample-config-widget.reset();
+    }
+
+    public function audio-stopped() {
+        i-sample-config-widget.audio-stopped();
+    }
+
+    property <int> i-resampling-type-index;
+    property <string> i-resampling-type-text;
+
+    public pure function resampling-type() -> ResamplingType {
+        if (root.i-resampling-type-index == 1) {
+            ResamplingType.Gaussian
+        } else if (root.i-resampling-type-index == 2) {
+            ResamplingType.Linear
+        } else if (root.i-resampling-type-index == 3) {
+            ResamplingType.Cubic
+        } else if (root.i-resampling-type-index == 4) {
+            ResamplingType.Sinc
+        } else {
+            ResamplingType.Accurate
+        }
+    }
+
+    public function set-resampling-type(new-resampling-type: ResamplingType) {
+        if (new-resampling-type == ResamplingType.Accurate) {
+            root.i-resampling-type-text = Localization.tr("resampling-type-accurate");
+            root.i-resampling-type-index = 0;
+        } else if (new-resampling-type == ResamplingType.Gaussian) {
+            root.i-resampling-type-text = Localization.tr("resampling-type-gaussian");
+            root.i-resampling-type-index = 1;
+        } else if (new-resampling-type == ResamplingType.Linear) {
+            root.i-resampling-type-text = Localization.tr("resampling-type-linear");
+            root.i-resampling-type-index = 2;
+        } else if (new-resampling-type == ResamplingType.Cubic) {
+            root.i-resampling-type-text = Localization.tr("resampling-type-cubic");
+            root.i-resampling-type-index = 3;
+        } else if (new-resampling-type == ResamplingType.Sinc) {
+            root.i-resampling-type-text = Localization.tr("resampling-type-sinc");
+            root.i-resampling-type-index = 4;
+        }
+    }
+
+    property <string> i-duration-type-text: Localization.tr("render-duration-type-seconds");
+
+    public function update-duration-type-text() {
+        if (root.stop-condition-type == StopConditionType.Time) {
+            root.i-duration-type-text = Localization.tr("render-duration-type-seconds");
+        } else if (root.stop-condition-type == StopConditionType.Frames) {
+            root.i-duration-type-text = Localization.tr("render-duration-type-frames");
+        } else if (root.stop-condition-type == StopConditionType.SpcDuration) {
+            root.i-duration-type-text = Localization.tr("render-duration-type-spc");
+        }
+    }
+
+    init => {
+        set-resampling-type(ResamplingType.Accurate);
+    }
+
+    title: "SPCPresenter";
+    icon: @image-url("spc-presenter-icon.png");
+    height: self.min-height;
+    width: self.min-width;
+
+    Rectangle {
+        ComboBox {
+            x: 16px;
+            y: 16px;
+            width: 100px;
+            model: Localization.languages();
+            current-value: Localization.current-language();
+
+            selected(language) => {
+                Localization.set-language(language);
+                root.set-resampling-type(resampling-type());
+                root.update-duration-type-text();
+                root.reformat-duration();
+                i-sample-config-widget.update-tr();
+            }
+        }
+        ToolbarButton {
+            icon: @image-url("info.svg");
+            tooltip: Localization.tr("version-dialog-button-open");
+            x: parent.width - self.width - 16px;
+            y: 16px;
+            clicked => {
+                i-about-popup.show()
+            }
+        }
+        i-about-popup := PopupWindow {
+            x: parent.width - 308px;
+            y: 16px;
+            width: 300px;
+            height: 300px;
+
+            Rectangle {
+                background: #1c1c1c;
+                border-radius: 2px;
+
+                VerticalBox {
+                    alignment: start;
+                    HorizontalLayout {
+                        alignment: center;
+                        spacing: 8px;
+
+                        Image {
+                            width: 32px;
+                            height: 32px;
+                            source: @image-url("spc-presenter-icon.png");
+                            image-rendering: pixelated;
+                        }
+                        Text {
+                            text: "SPCPresenter v" + root.version;
+                            font-size: 24px;
+                            vertical-alignment: center;
+                        }
+                    }
+                    HorizontalLayout {
+                        alignment: center;
+                        spacing: 8px;
+
+                        Image {
+                            width: 32px;
+                            height: 32px;
+                            source: @image-url("snes-apu-spcp-icon.png");
+                            image-rendering: pixelated;
+                        }
+                        VerticalLayout {
+                            alignment: center;
+
+                            Text {
+                                text: "snes-apu-spcp v" + root.snes-apu-version;
+                                font-size: 14px;
+                                horizontal-alignment: center;
+                            }
+                            Text {
+                                text: "https://github.com/emu-rs/snes-apu";
+                                font-size: 10px;
+                                horizontal-alignment: center;
+                            }
+                        }
+                    }
+                    HorizontalLayout {
+                        alignment: center;
+                        spacing: 8px;
+
+                        Image {
+                            width: 32px;
+                            height: 32px;
+                            source: @image-url("ffmpeg-icon.png");
+                        }
+                        VerticalLayout {
+                            alignment: center;
+
+                            Text {
+                                text: "FFmpeg v" + root.ffmpeg-version;
+                                font-size: 14px;
+                                horizontal-alignment: center;
+                            }
+                            Text {
+                                text: "https://ffmpeg.org/";
+                                font-size: 10px;
+                                horizontal-alignment: center;
+                            }
+                        }
+                    }
+
+                    AboutSlint {
+                        preferred-height: 100px;
+                    }
+                    HorizontalLayout {
+                        alignment: center;
+
+                        Button {
+                            text: Localization.tr("version-dialog-button-close");
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    VerticalBox {
+        alignment: start;
+        spacing: 12px;
+        z: -5;
+
+        Text {
+            text: "SPCPresenter";
+            font-size: 32px;
+            horizontal-alignment: center;
+        }
+        FileBrowser {
+            text: Localization.tr("spc-file-browser-label");
+            enabled: !root.rendering;
+            browse => { root.browse-for-module() }
+        }
+        if metadata-lines.length == 0: Text {
+            horizontal-alignment: center;
+            text: Localization.tr("spc-metadata-placeholder");
+        }
+        for line in metadata-lines: Text {
+            horizontal-alignment: center;
+            text: line;
+        }
+
+        if script700-path != "": HorizontalLayout {
+            alignment: center;
+            spacing: 8px;
+
+            VerticalLayout {
+                alignment: center;
+
+                Rectangle {
+                    background: #3a943a;
+                    width: 56px;
+                    height: 18px;
+                    border-radius: 2px;
+
+                    Text {
+                        horizontal-alignment: center;
+                        vertical-alignment: center;
+                        text: "Script700";
+                        color: white;
+                    }
+                }
+            }
+
+            Text {
+                text: root.script700-path;
+            }
+        }
+
+        HorizontalLayout {
+            height: 28px;
+            
+            Text {
+                text: Localization.tr("config-label-base-channel-colors");
+                vertical-alignment: center;
+            }
+            Rectangle {
+                width: 6px;
+            }
+            ToolbarButton {
+                horizontal-stretch: 0.0;
+                icon: @image-url("arrow-import.svg");
+                tooltip: Localization.tr("config-button-import-tooltip");
+                enabled: !rendering;
+                clicked => {
+                    root.import-config();
+                }
+            }
+            ToolbarButton {
+                horizontal-stretch: 0.0;
+                icon: @image-url("arrow-export.svg");
+                tooltip: Localization.tr("config-button-export-tooltip");
+                enabled: !rendering;
+                clicked => {
+                    root.export-config();
+                }
+            }
+            Rectangle {
+                width: 2px;
+            }
+            for color[i] in channel-base-colors: ColorPickerButton {
+                color: color;
+                enabled: !root.rendering;
+                changed(r, g, b) => {
+                    root.channel-base-colors[i] = [r, g, b];
+                }
+            }
+            Rectangle {
+                width: 2px;
+            }
+            ToolbarButton {
+                horizontal-stretch: 0.0;
+                icon: @image-url("arrow-reset.svg");
+                tooltip: Localization.tr("config-button-reset-tooltip");
+                enabled: !root.rendering;
+                destructive: true;
+                clicked => {
+                    root.reset-config();
+                }
+            }
+        }
+        HorizontalLayout {
+            z: -5;
+
+            TouchArea {
+                mouse-cursor: pointer;
+                clicked => {
+                    root.configuration-open = !root.configuration-open;
+                }
+
+                HorizontalLayout {
+                    alignment: stretch;
+                    spacing: 8px;
+
+                    Image {
+                        source: @image-url("chevron-down.svg");
+                        rotation-angle: root.configuration-open ? 0deg : -90deg;
+                        animate rotation-angle {
+                            duration: 100ms;
+                            easing: ease-in-out;
+                        }
+                    }
+                    Text {
+                        text: Localization.tr("tuning-section-header");
+                        vertical-alignment: center;
+                    }
+                    Rectangle {
+                        height: 32px;
+                        horizontal-stretch: 1.0;
+                    }
+                }
+            }
+            if root.configuration-open: ToolbarButton {
+                horizontal-stretch: 0.0;
+                icon: @image-url("arrow-import.svg");
+                text: Localization.tr("tuning-button-import");
+                enabled: !root.rendering && !root.processing-samples;
+                clicked => {
+                    root.import-tunings();
+                }
+            }
+        }
+
+        VerticalLayout {
+            alignment: start;
+            spacing: root.configuration-open ? 12px : 0px;
+
+            i-sample-config-widget := SampleConfigWidget {
+                sample-configs: root.sample-configs;
+                enabled: !root.rendering && !root.processing-samples;
+                open: root.configuration-open;
+
+                play-audio(config) => { root.play-audio(config) }
+                stop-audio => { root.stop-audio(); }
+                change-audio-pitch(config, pitch) => { root.change-audio-pitch(config, pitch) }
+                dump-sample(config) => { root.dump-sample(config); }
+            }
+
+            HorizontalLayout {
+                alignment: stretch;
+                spacing: 8px;
+            
+                FileBrowser {
+                    text: Localization.tr("background-file-browser-label");
+                    enabled: !root.rendering;
+                    clearable: true;
+                    browse => { root.browse-for-background() }
+                    cleared => { root.background-cleared(); }
+                }
+                
+                CheckBox {
+                    text: Localization.tr("dim-background-checkbox-label");
+                    checked <=> root.dim-background;
+                    enabled: !root.rendering;
+                }
+            }
+        }
+
+        HorizontalLayout {
+            alignment: stretch;
+            spacing: 8px;
+            Text {
+                text: Localization.tr("render-duration-label");
+                vertical-alignment: center;
+            }
+            if stop-condition-type != StopConditionType.SpcDuration : LineEdit {
+                enabled: !rendering;
+                text: stop-condition-num;
+                edited => {
+                    if (self.text.is-float()) {
+                        root.stop-condition-num = self.text.to-float();
+                        root.reformat-duration();
+                    }
+                }
+            }
+            ComboBox {
+                model: Localization.tr-arr([
+                    Localization.tr("render-duration-type-seconds"),
+                    Localization.tr("render-duration-type-frames"),
+                    Localization.tr("render-duration-type-spc")
+                ]);
+                enabled: !rendering;
+                current-value <=> root.i-duration-type-text;
+                selected => {
+                    if (self.current-index == 0) {
+                        root.stop-condition-type = StopConditionType.Time;
+                    } else if (self.current-index == 1) {
+                        root.stop-condition-type = StopConditionType.Frames;
+                    } else if (self.current-index == 2) {
+                        root.stop-condition-type = StopConditionType.SpcDuration;
+                    }
+                    root.update-duration-type-text();
+                    root.reformat-duration();
+                }
+            }
+            i-formatted-duration := Text {
+                text: ProgressUtils.format-duration(300s);
+                vertical-alignment: center;
+                color: self.text == ProgressUtils.format-duration(-1ms)
+                    ? red
+                    : white;
+            }
+        }
+
+        HorizontalLayout {
+            alignment: stretch;
+            spacing: 8px;
+            Text {
+                text: Localization.tr("render-fadeout-duration-label");
+                vertical-alignment: center;
+            }
+            SpinBox {
+                value <=> root.fadeout-duration;
+                minimum: 0;
+                maximum: 1200;
+                enabled: !root.rendering;
+            }
+        }
+
+        HorizontalLayout {
+            alignment: stretch;
+            spacing: 8px;
+            Text {
+                text: Localization.tr("render-output-resolution-label");
+                vertical-alignment: center;
+            }
+            SpinBox {
+                value <=> root.output-width;
+                minimum: 960;
+                maximum: 7680;
+                enabled: !root.rendering;
+            }
+            Text {
+                text: "×";
+                vertical-alignment: center;
+            }
+            SpinBox {
+                value <=> root.output-height;
+                minimum: 540;
+                maximum: 4320;
+                enabled: !root.rendering;
+            }
+            Button {
+                text: Localization.tr("render-output-resolution-preset-1080p");
+                enabled: !root.rendering;
+                clicked => {
+                    root.output-width = 1920;
+                    root.output-height = 1080;
+                }
+            }
+            Button {
+                text: Localization.tr("render-output-resolution-preset-4k");
+                enabled: !root.rendering;
+                clicked => {
+                    root.output-width = 3840;
+                    root.output-height = 2160;
+                }
+            }
+        }
+
+        HorizontalLayout {
+            alignment: stretch;
+            spacing: 8px;
+            Text {
+                text: Localization.tr("resampling-type-label");
+                vertical-alignment: center;
+            }
+            ComboBox {
+                model: Localization.tr-arr([
+                    Localization.tr("resampling-type-accurate"),
+                    Localization.tr("resampling-type-gaussian"),
+                    Localization.tr("resampling-type-linear"),
+                    Localization.tr("resampling-type-cubic"),
+                    Localization.tr("resampling-type-sinc")
+                ]);
+                enabled: !root.rendering;
+                current-index <=> root.i-resampling-type-index;
+                current-value <=> root.i-resampling-type-text;
+            }
+        }
+
+        HorizontalLayout {
+            alignment: center;
+            spacing: 8px;
+
+            CheckBox {
+                text: Localization.tr("blargg-dsp-filter-checkbox-label");
+                checked <=> root.filter-enabled;
+                enabled: !root.rendering;
+            }
+        }
+
+        HorizontalLayout {
+            alignment: center;
+            Button {
+                text: rendering
+                    ? Localization.tr("render-button-cancel")
+                    : Localization.tr("render-button-start");
+                primary: !root.rendering;
+                enabled: !root.processing-samples;
+                clicked => {
+                    if (root.rendering) {
+                        root.cancel_render();
+                    } else {
+                        root.start_render();
+                    }
+                }
+            }
+        }
+
+        Progress {
+            progress-info: root.progress-info;
+        }
+    }
+}

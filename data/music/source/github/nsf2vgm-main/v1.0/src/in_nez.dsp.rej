@@ -1,0 +1,19 @@
+--- src/in_nez.dsp	2009-09-05 15:02:06.000000000 +0200
++++ src/in_nez.dsp	2011-09-30 18:59:54.000000000 +0200
+@@ -56,7 +56,7 @@
+ # ADD LINK32 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ..\Release\nezplug.lib /nologo /subsystem:windows /dll /machine:IX86 /def:"ui\winamp\in_nez.def" /pdbtype:sept
+ # SUBTRACT LINK32 /pdb:none
+ # Begin Special Build Tool
+-TargetPath=\CPP Folder\My Project\nezplug\Release\in_nez\in_nez.dll
++TargetPath=\VStudio-Programme\VC++\Release\in_nez\in_nez.dll
+ SOURCE="$(InputPath)"
+ PostBuild_Cmds=copy "$(TargetPath)" "I:\Program Files\Winamp\Plugins\"
+ # End Special Build Tool
+@@ -200,6 +201,7 @@
+ DEP_CPP_DIALO=\
+ 	".\ui\nezplug\ChMask.h"\
+ 	".\ui\nezplug\Dialog.h"\
++	".\ui\nezplug\Dump.h"\
+ 	".\ui\nezplug\FileInfo.h"\
+ 	".\ui\nezplug\IOView.h"\
+ 	".\ui\nezplug\MemView.h"\

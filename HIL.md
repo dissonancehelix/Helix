@@ -91,7 +91,7 @@ type-prefix = "invariant"   | "experiment"  | "model"
             | "graph"       | "atlas_entry" | "graph_query"
             | "track"       | "composer"    | "album"
             | "game"        | "platform"    | "sound_chip"
-            | "math_model"  | "conjecture"  | "proof"
+            | "sound_driver" | "math_model"  | "conjecture"  | "proof"
             | "entity" ;
 ```
 
@@ -151,6 +151,7 @@ The prefix determines how the identifier is resolved:
 | `game` | music.game entity |
 | `platform` | music.platform entity |
 | `sound_chip` | music.sound_chip entity |
+| `sound_driver` | music.sound_driver entity |
 | `math_model` | math.model entity |
 | `conjecture` | math.conjecture entity |
 | `proof` | math.proof entity |

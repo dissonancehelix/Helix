@@ -31,8 +31,9 @@ Redundancy in this document is intentional. Explicit beats implicit.
 The Music Substrate is the Helix environment responsible for transforming music libraries into structured computational datasets.
 
 ## Core Capabilities
-* **Hardware Invariant Extraction**: Direct structural modeling of vintage sound chips (YM2612, YM2151, etc.) from reference emulator code.
-* **Driver Layer Analysis**: Disentangling software-driver implementations (GEMS, SMPS) from hardware capabilities using source-code invariants.
+* **Hardware Invariant Extraction**: Direct structural modeling of vintage sound chips (YM2612, SN76489, YM2151, etc.) from reference emulator code (Nuked, libvgm).
+* **Driver Layer Analysis**: Disentangling software-driver implementations (GEMS, SMPS, MCD DRM) from hardware capabilities using formal driver ontology.
+* **Silicon-Level Logic Calibration**: Capturing undocumented hardware behaviors (e.g. YM2612 "Ladder Effect", SSG-EG logic).
 * **Control Sequence Ingestion**: High-fidelity rendering of VGM/VGZ/SPC/NSF data.
 * **Cognition Discovery**: Detection of cross-platform melodic fingerprints.
 * **Style Vector Computation**: Construction of artist identities from structural data.
@@ -541,7 +542,6 @@ class CrossEraAnalyzer:
 | .gbs | B | gme | ✓ | — | — |
 | .hes | B | gme | ✓ | — | — |
 | .kss | B | gme | ✓ | — | — |
-| .gym | B | gme | ✓ | — | — |
 | .s98 | B | gme | ✓ | — | — |
 | .sid | B | gme | ✓ | — | — |
 | .psf / .psf2 | B | vgmstream | ✓ | — | — |
@@ -561,7 +561,6 @@ class CrossEraAnalyzer:
 | `.gbs` | DMG | Game Boy |
 | `.hes` | HuC6280 | PC Engine |
 | `.kss` | AY-3-8910 | MSX |
-| `.gym` | YM2612 | Sega Genesis |
 
 ### 9.3 YM2612 topology (nuked_opn2 adapter)
 
@@ -837,19 +836,8 @@ Each indexed file stores:
 
 ---
 
-## 14. LEGACY EXPERIMENTS
-
-Scripts previously in `atlas/experiments/` are now archived in `labs/legacy_experiments/`.
-
-The `AUDIT.md` in that directory classifies them:
-
-| Status | Count | Action |
-|--------|-------|--------|
-| REFACTOR CANDIDATES | 16 | Logic superseded by operators; do not invoke directly |
-| ARCHIVE — NO REFACTOR | 3 | Superseded utilities; keep for reference |
-| RESEARCH DOCUMENTS | 2 | Markdown research notes; keep as-is |
-
-**Refactor candidates must not be invoked directly.** Their functionality is now available via HIL operators.
+## 14. OPERATOR APPLICATIONS
+The functionality of legacy scripts is now available via HIL operators.
 
 ```hil
 # Ingest tracks
@@ -880,7 +868,7 @@ RUN operator:COMPILE_ATLAS
 
 Tracks with multiple artists are treated as latent mixtures to prevent style vector corruption.
 
-1.  **Delimiters**: Use `;` in `artist` field for parsing.
+1.  **Delimiters**: Use `;` or `,` in `artist` field for parsing (Helix treats both as identical delimiters).
 2.  **Attribution Persistence**:
     - `solo`: Verified single author. Weight = 1.0.
     - `multi`: Multiple credits, equal distribution placeholder. Weight = 0.25 (Low baseline).
@@ -1099,26 +1087,46 @@ Handles the **Compositional Representation** (notes and structure).
 
 ---
 
-*This document is the authoritative specification for the Helix Music Substrate.*
-*Version 2.0 — 2026-03-17*
+## 4. SOUND HARDWARE & DRIVER ONTOLOGY
 
-
----
-
-## 4. DOMAIN ENTITIES
+Helix treats sound chips and drivers as **Invariants**. A chip's architecture defines the physical constraint space, while a driver's code defines the musical interface for the composer.
 
 ### **SoundChip**
-Physical hardware entity (e.g. YM2612).
-- **Properties**: `synthesis_type`, `clock_speed`, `channels`, `dac_resolution`.
-- **Topologies**: List of supported FM algorithms or routing maps.
+Physical hardware entity (e.g. YM2612, SN76489).
+- **Identity**: `family` (e.g. OPN, OPL, PSG), `internal_name` (e.g. OPN2, OPM), `platforms` (e.g. Sega Genesis, FM Towns).
+- **Physical Invariants**: `dac_resolution` (9-bit truncation), `sampling_rate` (55.5kHz), `lfsr_feedback`.
+- **Logic Invariants**: `ssg_eg_support`, `phase_wrapping`, `oscillator_topologies`.
 
 ### **SoundDriver**
 Software layer orchestrating the hardware (e.g. GEMS, SMPS).
-- **Properties**: `command_set`, `envelope_logic`, `platform`.
-- **Invariants**: Discovered biases in timing, rhythm, and patch reuse.
+- **Rhythmic Invariants**: `tempo_jitter` (SMPS Tempo1Tick), `tick_quantization`.
+- **Command Ontology**: Macro-based instruction sets (`FEVE`, `pan_macros`).
 
-## **Hardware & Driver Ontology**
-See [hardware_ontology.md](./hardware_ontology.md) for the formal definition of these physical and logical invariants.
+### Technical Calibration (Truth Values)
+
+#### **Yamaha Chip Lineage (Family Mapping)**
+- **OPN Series (Operator Type-N)**: YM2203 (OPN), YM2608 (OPNA), YM2610 (OPNB), YM2612 (OPN2), YM3438 (OPN2C), YMF288 (OPN3).
+- **OPL Series (Operator Type-L)**: YM3526 (OPL), YM2413 (OPLL), YM3812 (OPL2), YMF262 (OPL3), YMF278 (OPL4).
+- **OPM/OPP/OPZ Series**: YM2151 (OPM), YM2164 (OPP), YM2414 (OPZ).
+- **PSG (SSG) Series**: YM2149F (SSG).
+- **Next-Gen/Misc**: YMF292 (SCSP), YMZ280B (PCMD8).
+
+#### **YM2612 (OPN2)**
+- **Platforms**: Sega Genesis (Mega Drive), FM Towns, various Arcades (Sega System 18/32).
+- **DAC Resolution**: 9-bit truncation (Root of "Ladder Effect").
+- **SSG-EG**: Supported; enables non-linear envelope loops.
+- **Sampling Rate**: 55.5kHz native output.
+- **Clock**: 7.67MHz (NTSC Sega Genesis).
+
+#### **SN76489 (PSG)**
+- **Platforms**: Sega Master System, Game Gear, Sega Genesis (Mega Drive), ColecoVision, BBC Micro, TI-99/4A, IBM PCjr.
+- **LFSR Pattern**: 16-bit shift register with specific white/periodic noise feedback taps.
+- **Volume**: 4-bit attenuation (16 steps, -2dB intervals).
+
+#### **SMPS Driver**
+- **Tempo Jitter**: "Tempo1Tick" invariant caused by Z80 sub-engine mailbox latency.
+- **Command Set**: 1-byte opcode structure (Notes: 0x00-0x7F; Commands: 0x80-0xFF).
+- **Rhythmic Quantization**: 60Hz or 50Hz tick rate depending on regional vertical interrupt.
 
 ---
 
