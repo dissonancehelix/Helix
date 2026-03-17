@@ -86,7 +86,7 @@ COMMAND_REGISTRY: dict[str, CommandSpec] = {
         verb="GRAPH",
         subcommands=frozenset({"support", "trace", "cluster", "query", "export", "build", "similarity", "motif", "composer_styles", "neighbors", "path", "edges"}),
         required_target_types=frozenset({
-            "invariant", "experiment", "model", "graph", "graph_query", "composer", "soundtrack",
+            "invariant", "experiment", "model", "graph", "graph_query", "composer", "soundtrack", "track", "entity",
         }),
         optional_params=frozenset({"depth", "format", "output", "composer", "soundtrack"}),
         description="Query or export the Atlas Knowledge Graph or music similarity/motif networks.",
