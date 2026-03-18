@@ -124,6 +124,40 @@ These are not independent silos; they are equivalent structural views expressed 
 ### Translation as Operation
 All processing in Helix is framed as **Translation between dialects**. Ingestion and analysis pipelines are translation chains that transform one representation into another without loss of structural meaning (e.g., `chip_control` → `symbolic_music` → `perceptual_audio`).
 
+### Unified Musical Object
+A track or work in Helix is not a file. It is a **Unified Musical Object (UMO)** — a structural entity that may be expressed through multiple dialects simultaneously:
+- `chip_control`: Register writes and hardware instructions (causal generation logic)
+- `symbolic_music`: High-level compositional notation (MIDI, music21, MusicXML)
+- `perceptual_audio`: Rendered sound and spectral feature summaries
+
+These are not separate works. They are aligned views of the same underlying structure. Where complete translation exists, all views are equivalent. Where translation is lossy, each view preserves information the others cannot.
+
+### Observability Depth
+Different formats expose different amounts of structural information. Helix formalizes this as **observability depth**:
+- **Causal**: Full register-write timeline visible (VGM, NSF, SPC, S98, etc.)
+- **Symbolic**: Compositional intent visible, hardware detail absent (MIDI, MusicXML)
+- **Perceptual**: Listener-facing features only; generation logic not recoverable (MP3, WAV, FLAC)
+- **Hybrid**: Partial causal + partial perceptual (compressed game audio, PSF/2SF)
+
+The substrate operates at the highest available observability depth for each input.
+
+### Composer Identity as Invariant Structure
+Helix is not primarily classifying formats or chips. The deeper goal is identifying **persistent compositional identity** across representations — what survives when the format, hardware, and era change. A composer fingerprint is defined by structural habits, decision patterns, motif behavior, harmonic tendencies, and control idioms. This identity is representation-invariant and must be discoverable whether the source is a VGM register dump, a MIDI file, or a rendered audio recording.
+
+### Representation Availability Model
+
+Different works have different available dialects. Helix is designed to function at every level of representation availability:
+
+| Stack Level | Available Dialects | Typical Sources |
+|-------------|-------------------|-----------------|
+| **Full stack** | chip_control + symbolic_music + perceptual_audio | VGM + MIDI + audio render |
+| **Partial stack** | symbolic_music + perceptual_audio | MIDI + MP3, DAW project + render |
+| **Minimal stack** | perceptual_audio only | MP3, streaming audio, live recording |
+
+Helix must function under all of these conditions. Missing dialects must not block analysis — all available structure must still be extracted and stored in the atlas. A composer whose only accessible representation is a streaming audio file must be representable in the same structural space as a chip composer with full register-write access.
+
+Helix does not require perfect information to model structure. It operates under partial observability and reconstructs invariants from whatever representations are available.
+
 ### Atlas as Structural Memory
 The **atlas** is a graph of structures expressed across languages and dialects. It explicitly supports cross-dialect mapping, invariant detection across representations, and structural comparison independent of specific file formats.
 
@@ -174,6 +208,25 @@ Helix uses methods from **music information retrieval (MIR)** to measure structu
 * recurring motifs
 
 These measurements allow Helix to analyze how music is structured rather than relying only on metadata such as genre.
+
+### Perceptual Reasoning Without Hearing
+Helix enables LLM reasoning about musical perception through structured representations — not direct audio. An LLM reasoning over Helix artifacts can access:
+- Register-write timelines that causally determine every audible event
+- Extracted perceptual features (spectral centroids, MFCCs, chroma vectors, onset envelopes)
+- Symbolic projections (pitch sequences, rhythm trees, harmonic motion)
+
+This structural access can exceed the information content of raw MP3/Opus streams in chip-native formats because the generation logic is preserved directly. Conversely, rendered audio and compressed formats preserve expression, mixing, performance nuance, and perceptual realization that symbolic or chip-level representations cannot recover.
+
+### Universal Artist Coverage
+
+Helix is not a chiptune analysis system. Chip-native formats (VGM, SPC, NSF) provide the highest observability depth and enable full causal analysis, but they represent only a subset of supported cases. Helix equally supports:
+
+- Modern electronic artists (MP3, WAV, FLAC, OPUS recordings)
+- Live bands and orchestral recordings (audio-only, no symbolic or control layer)
+- Classical works available as MIDI or MusicXML without audio
+- Any artist whose music is accessible only through streaming or rendered audio
+
+All artists — regardless of data richness — must be representable uniformly in the atlas. Entities support missing dialect fields without breaking structure. Relationships (motifs, style patterns, similarity) remain computable at minimal stack level using perceptual and structural features alone.
 
 ---
 

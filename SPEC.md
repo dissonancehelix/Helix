@@ -848,6 +848,134 @@ All data ingestion MUST be deterministic, structural, and decomposed.
 
 ---
 
+---
+
+# Unified Musical Object Specification
+
+## §UMO-1 — Musical Object Model
+
+A track or work processed by Helix is not represented as a single file. It is a **Unified Musical Object (UMO)**: a structural entity that may simultaneously have multiple aligned dialect views:
+
+| View | Dialect | What it contains |
+|------|---------|-----------------|
+| `control_view` | `chip_control` | Register writes, hardware instructions, causal event timeline |
+| `symbolic_view` | `symbolic_music` | Pitch sequences, rhythm, harmony, form (MIDI, music21, MusicXML) |
+| `perceptual_view` | `perceptual_audio` | Spectral features, MFCCs, chroma, onset/tempo summaries |
+| `structural_view` | (cross-dialect) | Motifs, patterns, invariants, form detected across views |
+
+Conceptual schema:
+
+```json
+{
+  "id": "...",
+  "control_view":   { "format": "VGM", "register_events": [] },
+  "symbolic_view":  { "format": "MIDI", "notes": [], "chords": [] },
+  "perceptual_view":{ "mfcc": [], "chroma": [], "spectral_centroid": [] },
+  "structural_view":{ "motifs": [], "form": [], "patterns": [] },
+  "alignment_map":  { "control_to_symbolic": [], "symbolic_to_perceptual": [] },
+  "provenance":     { "source_files": [], "pipeline_version": "..." }
+}
+```
+
+Views are optional: a UMO may be fully populated, partially populated, or contain a single view. Helix must never treat a single-view UMO as complete.
+
+## §UMO-2 — Observability Depth
+
+Each format family exposes a different level of structural access. Helix assigns **observability depth** per format:
+
+| Depth | Description | Example formats |
+|-------|-------------|-----------------|
+| **Causal** | Full register-write timeline; complete generation logic visible | VGM, VGZ, NSF, SPC, S98, GBS, HES, KSS, AY |
+| **Symbolic** | Compositional intent (pitch/rhythm/harmony); hardware detail absent | MIDI, MusicXML, ABC notation |
+| **Perceptual** | Listener-facing features only; generation logic not recoverable | MP3, WAV, FLAC, OGG, OPUS |
+| **Hybrid** | Partial causal + partial perceptual; generation partially reconstructable | PSF/PSF2, 2SF, USF, GSF, DSF/NCSF |
+
+The pipeline records observability depth per artifact. Cross-view alignment is only possible when at least two views are populated.
+
+## §UMO-3 — Perceptual Inference Principle
+
+LLMs do not hear rendered audio. LLMs reason over structured representations derived from sound. Helix provides these representations explicitly:
+
+1. Causal data (register writes) determines sound with hardware precision.
+2. Symbolic data (note/chord sequences) encodes compositional intent.
+3. Perceptual features (MFCCs, chroma, spectral envelope) summarize audible outcome.
+
+In chip-native formats, causal observability can exceed raw audio in information content: the register timeline is deterministic and explains every audible event. In rendered audio formats, perceptual features capture expression, performance nuance, mixing, and timbral realizations that symbolic/causal representations cannot reconstruct.
+
+Neither representation is universally superior. Helix must maintain all available views and make their differences explicit.
+
+## §UMO-4 — Composer Identity Principle
+
+Helix is not classifying formats or chips. The primary structural target is **compositional identity** — the persistent fingerprint of a composer that survives translation, platform shifts, and hardware constraints.
+
+A composer fingerprint is defined by:
+- Structural habits (harmonic motion, interval preferences, rhythmic tendencies)
+- Decision patterns (compression under hardware constraint)
+- Motif behavior (recurring melodic/rhythmic fragments)
+- Control idioms (timbral choices, envelope shaping, driver-level techniques)
+
+This identity is **representation-invariant**. It must be discoverable whether the source is:
+- A VGM register dump (Genesis, Master System)
+- An SPC file (SNES)
+- A MIDI or MusicXML score
+- A rendered FLAC or MP3 recording
+
+Attribution inference is always a falsifiable hypothesis. Helix separates recorded credit from structurally inferred attribution.
+
+## §UMO-5 — Translation, Not Conversion
+
+All pipeline operations are framed as **translation between dialects**, not format conversion. Translation may be:
+- **Lossless**: When full causal information is preserved (e.g., VGM → register event list)
+- **Lossy downward**: When moving to a lower observability depth (e.g., symbolic → perceptual feature)
+- **Lossy upward** (inference): When moving to a higher depth requires reconstruction (e.g., MIDI → estimated register writes)
+
+Loss must be explicit in artifact metadata. Helix never implies a translation is lossless unless it is verified to be.
+
+## §UMO-6 — Partial Observability and Graceful Degradation
+
+Helix is not dependent on chip-level data. It supports analysis of any musical work regardless of available representation.
+
+### Representation Availability Cases
+
+| Case | Available Dialects | System Behavior |
+|------|--------------------|-----------------|
+| Full stack | chip_control + symbolic_music + perceptual_audio | All pipeline stages active; full UMO populated |
+| Partial stack | symbolic_music + perceptual_audio | Control-layer stages skipped; symbolic + perceptual stages active |
+| Minimal stack | perceptual_audio only | Symbolic inference attempted; perceptual features always extracted |
+| Symbolic only | symbolic_music only | Perceptual estimation attempted; control-layer skipped |
+
+Missing dialects must not block analysis. Every case must produce a valid, atlas-compatible UMO with the available views populated and missing views marked as absent (not errored).
+
+### Dialect Field Optionality
+
+The UMO schema treats all dialect views as optional fields:
+- `control_view`: present if and only if a causal format (VGM, NSF, SPC, etc.) is available
+- `symbolic_view`: present if directly available (MIDI, MusicXML) or successfully inferred
+- `perceptual_view`: present whenever any audio or renderable source is available
+- `structural_view`: derived from any combination of available views
+
+Inferred views (e.g., pitch/chord structure estimated from audio via MIR) must be flagged with `"inferred": true` and `"confidence": <float>` in artifact metadata. They are hypotheses, not measurements.
+
+### Invariant Independence from Dialect
+
+Invariant definitions must not depend on any single dialect. The composer fingerprint invariant must be:
+- Computable from perceptual_audio alone (minimal baseline)
+- Enriched, not replaced, when additional dialects are available
+- Structurally consistent across all stack levels
+
+A modern band representable only through audio recordings must exist in the same atlas structural space as a chip composer with full register-write access. Their fingerprints are measured with different precision, but they occupy the same invariant space and their structural similarity is computable.
+
+### Atlas Uniformity Requirement
+
+All entities in the atlas — regardless of data richness — must be represented with a uniform schema. This requires:
+- All entity types support optional dialect view fields
+- Relationship types (SIMILAR_TO, SHARES_MOTIF, DIVERGES_FROM) must be computable from minimum available features
+- Missing dialect information must be recorded as absent, not as zero or default
+
+Helix does not require perfect information to model structure. It operates under partial observability and reconstructs invariants from whatever representations are available.
+
+---
+
 ## LLM Governance Contract
 
 Helix is a **closed structural system**. All large language models (LLMs) interacting with Helix are **execution agents**, not architects. LLMs must operate strictly within the Helix Structural Language (HSL) and repository specifications. They are not permitted to reinterpret, extend, or redefine the system.

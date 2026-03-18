@@ -18,6 +18,9 @@ Available adapters and their tiers:
     adapter_nuked_opn2  — YM2612 (OPN2) FM carrier topology
     adapter_nuked_opm   — YM2151 (OPM) FM carrier topology
     adapter_nuked_opl3  — YMF262 (OPL3) FM carrier topology (2-op and 4-op)
+    adapter_nuked_opll  — YM2413/OPLL FM carrier topology + patch ROM names
+    adapter_nuked_opl2  — YM3812 (OPL2) FM carrier topology (2-op)
+    adapter_nuked_psg   — YM7101/SN76489 PSG channel constants + volume table
     adapter_smps        — SMPS driver timing + opcode constants
     adapter_gems        — GEMS driver patch format + MIDI conversion bridge
 
@@ -46,6 +49,9 @@ from core.adapters.adapter_vgmstream   import Adapter as VgmstreamAdapter
 from core.adapters.adapter_nuked_opn2  import Adapter as NukedOpn2Adapter
 from core.adapters.adapter_nuked_opm   import Adapter as NukedOpmAdapter
 from core.adapters.adapter_nuked_opl3  import Adapter as NukedOpl3Adapter
+from core.adapters.adapter_nuked_opll  import Adapter as NukedOpllAdapter
+from core.adapters.adapter_nuked_opl2  import Adapter as NukedOpl2Adapter
+from core.adapters.adapter_nuked_psg   import Adapter as NukedPsgAdapter
 from core.adapters.adapter_smps        import Adapter as SmpsAdapter
 from core.adapters.adapter_gems        import Adapter as GemsAdapter
 from core.adapters.adapter_librosa     import Adapter as LibrosaAdapter
@@ -58,6 +64,9 @@ __all__ = [
     "NukedOpn2Adapter",
     "NukedOpmAdapter",
     "NukedOpl3Adapter",
+    "NukedOpllAdapter",
+    "NukedOpl2Adapter",
+    "NukedPsgAdapter",
     "SmpsAdapter",
     "GemsAdapter",
     # Tier B

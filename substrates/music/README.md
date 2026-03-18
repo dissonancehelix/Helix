@@ -24,6 +24,69 @@ Redundancy in this document is intentional. Explicit beats implicit.
 
 ---
 
+## §0.5 — Unified Musical Object (UMO) Model
+
+### Musical Object, Not File
+
+The Music Substrate does not treat tracks as files. Each ingested work is a **Unified Musical Object (UMO)** with potentially multiple aligned dialect views:
+
+| View | Dialect | Source |
+|------|---------|--------|
+| `control_view` | `chip_control` | Register event timelines (VGM, NSF, SPC, S98, GBS, ...) |
+| `symbolic_view` | `symbolic_music` | MIDI, MusicXML, music21 score objects |
+| `perceptual_view` | `perceptual_audio` | librosa/essentia feature vectors |
+| `structural_view` | (derived) | Detected motifs, patterns, invariant candidates |
+
+Views are aligned to the same underlying work. Where a single source is available, the UMO has one populated view. The pipeline's job is to extract and align additional views where translation is possible.
+
+### Observability Depth by Format Family
+
+| Format Family | Example Formats | Observability Depth |
+|---------------|----------------|---------------------|
+| VGM/VGZ | `.vgm`, `.vgz` | **Causal** — full register timeline, deterministic |
+| NSF/NSFE | `.nsf`, `.nsfe` | **Causal** — NES APU register writes via emulation |
+| SPC | `.spc` | **Causal** — SNES S-DSP register writes + SPC700 CPU state |
+| GBS | `.gbs` | **Causal** — Game Boy APU register writes |
+| HES | `.hes` | **Causal** — PC-Engine HuC6280 audio registers |
+| KSS | `.kss` | **Causal** — MSX / SMS register writes |
+| S98 | `.s98` | **Causal** — Japanese arcade FM register dumps |
+| AY | `.ay` | **Causal** — AY-3-8910 register writes |
+| PSF / PSF2 | `.psf`, `.psf2` | **Hybrid** — PlayStation SPU; full CPU execution, partial register visibility |
+| 2SF | `.2sf` | **Hybrid** — Nintendo DS; ARM9/7 execution, DSP events extractable |
+| USF | `.usf` | **Hybrid** — Nintendo 64; RSP microcode, partial audio pipeline visibility |
+| GSF | `.gsf` | **Hybrid** — GBA; ARM7 execution, partial channel register visibility |
+| DSF / NCSF | `.dsf`, `.ncsf` | **Hybrid** — DS/3DS; partial synthesis register visibility |
+| MIDI / MusicXML | `.mid`, `.xml` | **Symbolic** — pitch/rhythm/harmony; no hardware detail |
+| FLAC / WAV | `.flac`, `.wav` | **Perceptual** — full audio; generation logic not recoverable |
+| MP3 / OGG / OPUS | `.mp3`, `.ogg`, `.opus` | **Perceptual** — compressed audio; feature extraction only |
+
+Observability depth determines which pipeline stages are available and which views can be populated in the UMO.
+
+### Perceptual Reasoning Without Hearing
+
+The Music Substrate is designed for LLM reasoning about musical structure — not audio playback. LLMs reason over:
+1. **Causal views** — register writes that deterministically explain every sonic event
+2. **Symbolic views** — pitch/rhythm/harmony sequences that encode compositional intent
+3. **Perceptual feature views** — numerical summaries of audible outcomes (MFCCs, chroma, spectral centroid, onset density)
+
+In chip-native formats, causal observability can exceed compressed audio in structural information content: the register timeline explains every timbral and temporal event completely. In rendered audio formats, features capture expression, mixing, performance, and perceptual realization that chip/symbolic representations cannot encode.
+
+Both directions of advantage are real. The substrate must populate as many views as available and make the observability depth explicit in artifact metadata.
+
+### Composer Identity Principle
+
+The Music Substrate's primary research goal is identifying **persistent compositional identity** across representations. A composer fingerprint consists of:
+
+- **Structural habits**: Harmonic motion, interval sequences, rhythmic density
+- **Decision patterns**: How constraints are navigated (hardware limits, driver idioms)
+- **Motif behavior**: Recurring melodic/rhythmic fragments and their evolution
+- **Control idioms**: Timbre shaping, envelope choices, channel allocation patterns
+- **Perceptual signatures**: Spectral habits, dynamic range preferences, tonal center tendencies
+
+This identity must be discoverable across format families. A composer whose works exist as VGM register dumps, SPC files, MIDI exports, and rendered FLAC files should yield consistent fingerprint measurements regardless of source format. Format and hardware are constraints on expression; compositional identity is what persists through those constraints.
+
+---
+
 ## 1. SUBSTRATE IDENTITY
 
 ### 1.1 What the Music Substrate is
@@ -338,9 +401,12 @@ Adapters:
 
 | Adapter | Toolkit / Source | Output Type | Tier |
 |---------|-----------------|-------------|------|
-| `adapter_nuked_opn2.py` | `code/Nuked-OPN2` (ym3438.h) | YM2612 topology dict | A |
-| `adapter_nuked_opm.py` | `code/Nuked-OPM` (opm.c) | YM2151 topology dict | A |
-| `adapter_nuked_opl3.py` | `code/Nuked-OPL3` (opl3.c) | OPL3 topology dict (2-op/4-op) | A |
+| `adapter_nuked_opn2.py` | `code/Nuked-OPN2` (ym3438.h) | YM2612 carrier topology dict | A |
+| `adapter_nuked_opm.py` | `code/Nuked-OPM` (opm.c) | YM2151 carrier topology dict | A |
+| `adapter_nuked_opl3.py` | `code/Nuked-OPL3` (opl3.c) | OPL3 CON topology dict (2-op/4-op) | A |
+| `adapter_nuked_opll.py` | `code/Nuked-OPLL` (opll.h) | YM2413/OPLL carrier constant + patch ROM names | A |
+| `adapter_nuked_opl2.py` | `code/Nuked-OPL2-Lite` (opl2.h) | YM3812 CON topology dict + waveforms | A |
+| `adapter_nuked_psg.py` | `code/Nuked-PSG` (ympsg.h) | YM7101/SN76489 PSG channel + volume table | A |
 | `adapter_smps.py` | `code/SMPS` source | SMPS timing + opcode constants | A |
 | `adapter_gems.py` | `code/GEMS`, `code/GEMSPlay`, `code/MidiConverters` | GEMS patch constants + MIDI bridge | A/B |
 | `adapter_libvgm.py` | `toolkits/libvgm` C library | ControlSequence | B |
@@ -1023,16 +1089,23 @@ If a behavior is not defined in this spec, extend this document rather than impr
 
 ### 19.2 Adapter-owned modules (`core/adapters/`)
 
-| Module | Responsibility |
-|--------|---------------|
-| `adapter_libvgm.py` | libvgm bridge → ControlSequence |
-| `adapter_gme.py` | gme bridge → ControlSequence |
-| `adapter_vgmstream.py` | vgmstream bridge → ControlSequence |
-| `adapter_nuked_opn2.py` | YM2612 topology constants |
-| `adapter_librosa.py` | librosa → SignalProfile |
-| `adapter_essentia.py` | essentia → SignalProfile extension |
-| `adapter_music21.py` | music21 → SymbolicScore |
-| `adapter_pretty_midi.py` | pretty_midi → SymbolicScore |
+| Module | Tier | Responsibility |
+|--------|------|---------------|
+| `adapter_nuked_opn2.py` | A | YM2612 (OPN2) algorithm → carrier slots, brightness proxy |
+| `adapter_nuked_opm.py` | A | YM2151 (OPM) algorithm → carrier slots |
+| `adapter_nuked_opl3.py` | A | YMF262 (OPL3) 2-op and 4-op CON → carrier slots |
+| `adapter_nuked_opll.py` | A | YM2413/OPLL carrier constant, patch ROM names, chip variants |
+| `adapter_nuked_opl2.py` | A | YM3812 (OPL2) CON → carrier slots, waveform table |
+| `adapter_nuked_psg.py` | A | YM7101/SN76489 PSG channel constants, volume table, freq formula |
+| `adapter_smps.py` | A | SMPS driver timing, opcode table, channel allocation |
+| `adapter_gems.py` | A/B | GEMS patch format constants (A); gems2mid MIDI bridge (B) |
+| `adapter_libvgm.py` | B | libvgm ctypes bridge → ControlSequence |
+| `adapter_gme.py` | B | Game_Music_Emu bridge → ControlSequence |
+| `adapter_vgmstream.py` | B | vgmstream CLI bridge → ControlSequence |
+| `adapter_music21.py` | C | music21 → SymbolicScore |
+| `adapter_pretty_midi.py` | C | pretty_midi → SymbolicScore |
+| `adapter_librosa.py` | D | librosa → SignalProfile |
+| `adapter_essentia.py` | D | essentia → SignalProfile extension |
 
 ### 19.3 Lab-owned modules (`labs/music_lab/`)
 
@@ -1101,6 +1174,9 @@ Extracted from source code in `data/music/source/code/`. No compilation required
 | **Nuked-OPN2** | `code/Nuked-OPN2` | `adapter_nuked_opn2.py` | YM2612 algorithm → carrier slots, brightness proxy |
 | **Nuked-OPM** | `code/Nuked-OPM` | `adapter_nuked_opm.py` | YM2151 algorithm → carrier slots, brightness proxy |
 | **Nuked-OPL3** | `code/Nuked-OPL3` | `adapter_nuked_opl3.py` | OPL3 CON-bit topology (2-op and 4-op modes) |
+| **Nuked-OPLL** | `code/Nuked-OPLL` | `adapter_nuked_opll.py` | YM2413/OPLL fixed carrier topology, patch ROM names, chip variants |
+| **Nuked-OPL2-Lite** | `code/Nuked-OPL2-Lite` | `adapter_nuked_opl2.py` | YM3812 (OPL2) CON-bit topology, waveform table, rhythm voices |
+| **Nuked-PSG** | `code/Nuked-PSG` | `adapter_nuked_psg.py` | YM7101/SN76489 PSG channel structure, volume table, noise register |
 
 ### 22.3 Driver-Level Analysis (Tier A/B)
 Source in `data/music/source/code/`. Constants available at Tier A; binary tools compiled on demand via `tool_bridge.compile_tools()`.
@@ -1119,6 +1195,10 @@ Compiled from `data/music/source/code/` via `tool_bridge.compile_tools()`. Conve
 |------|--------|----------------|-----------------|
 | **s98tovgm** | `code/S98toVGM` | `tool_bridge.s98_to_vgm()` | S98 arcade recordings → VGM → register analysis |
 | **nsf2vgm** | `code/nsf2vgm` | `tool_bridge.nsf_to_vgm()` | NES NSF files → VGM → causal timeline analysis |
+
+### 22.4b SPC Observability Depth Note
+
+The SNESAPU/spcplay component (where referenced in the SPC pipeline) contains the S-DSP register model used for SPC observability depth analysis. Its structural knowledge of the SNES S-DSP register architecture — not its playback capability — is relevant to PSF/SPC pipeline depth assessment when determining how much causal information can be extracted versus inferred from these Hybrid and Causal format families.
 
 ### 22.5 Signal & MIR Analysis (Python-Layer)
 Provides the **Perceptual Timeline** (how the listener hears the sound).

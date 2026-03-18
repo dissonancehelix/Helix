@@ -1,5 +1,0 @@
-LIBRARY "libOPNMIDIConfig"
-
-EXPORTS
-    CPlApplet
-    ToolDlgProc

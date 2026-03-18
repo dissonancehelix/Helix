@@ -1153,6 +1153,88 @@ A future system can reconstruct the HSL implementation from this document. Requi
 
 ---
 
+---
+
+## Unified Musical Object (UMO) Formal Definition
+
+### UMO as HSL Structural Entity
+
+Within the Music SubstrateLanguage, the **Unified Musical Object (UMO)** is the canonical structural entity. A UMO is an HSL structure that may be simultaneously realized in multiple dialects:
+
+| HSL Dialect | View | Observability |
+|-------------|------|---------------|
+| `chip_control` | control_view | Causal (register-write timeline) |
+| `symbolic_music` | symbolic_view | Symbolic (pitch/rhythm/harmony) |
+| `perceptual_audio` | perceptual_view | Perceptual (spectral features) |
+
+The UMO is not a file format. It is the HSL representation of a musical structure across its dialect expressions. Views are partial realizations of the same underlying structural object.
+
+### Observability Depth as HSL Property
+
+HSL assigns **observability depth** as a structural property of dialect realizations:
+
+- **Causal depth**: The dialect exposes the generative mechanism (register writes determine every sonic event deterministically).
+- **Symbolic depth**: The dialect exposes compositional structure (pitch, rhythm, harmony, form).
+- **Perceptual depth**: The dialect exposes listener-facing outcomes (spectral features, timbral summaries, temporal envelope).
+
+Depth is not a quality ranking. Lower-depth views may preserve information that higher-depth views cannot (e.g., perceptual_audio preserves mixing and expression not encoded in chip_control).
+
+### Translation Between UMO Dialects
+
+All translation between UMO dialects is a structural operation in HSL:
+- `chip_control → symbolic_music`: FM register reconstruction → pitch/envelope extraction (lossy: hardware-specific timbre lost)
+- `symbolic_music → perceptual_audio`: Synthesis or feature extraction (lossy: timbral realization not determined by notation alone)
+- `chip_control → perceptual_audio`: Emulation → feature extraction (closest to lossless for chip-native formats)
+
+Loss must be declared. No translation is assumed lossless unless the structural equivalence can be proven from the source dialect's definition.
+
+### Dialect Availability Is Not Fixed
+
+HSL does not assume that all dialects are available for a given structure. A UMO may be observed through:
+- **One dialect only** (minimal): e.g., a perceptual_audio feature vector from an MP3
+- **Multiple dialects** (partial): e.g., symbolic_music + perceptual_audio from MIDI + render
+- **All dialects** (full): e.g., chip_control + symbolic_music + perceptual_audio from VGM + MIDI + audio
+
+This is not a quality hierarchy. A structure observed through perceptual_audio only is still a fully valid HSL structure. The information available is simply constrained to that dialect's observability depth.
+
+Translation in HSL includes three modes:
+- **Direct mapping**: Source dialect is deterministically translatable (chip_control → register event list)
+- **Inference**: Target dialect is estimated from available information, flagged as non-ground-truth (perceptual_audio → estimated pitch/symbolic structure)
+- **Alignment under incomplete information**: Views from different observability depths are aligned without assuming completeness
+
+Inferred translations must be flagged as estimated, never treated as equivalent to ground truth. The atlas must preserve the provenance of every view: whether it was directly extracted, translated, or inferred.
+
+### Universal Structural Comparability
+
+All HSL structures — regardless of how many dialects are populated — must be comparable in the structural space. This requires:
+- Invariant definitions that do not depend on any single dialect
+- Feature representations computable from perceptual_audio alone (minimum baseline)
+- Cross-dialect feature alignment where multiple views are available
+
+A composer fingerprint must be computable from a single MP3 file. It will be less complete than one derived from full-stack data, but it must be structurally consistent — positioned in the same invariant space as all other composer structures regardless of their source representation.
+
+Helix does not require perfect information to model structure. It operates under partial observability and reconstructs invariants from whatever representations are available.
+
+### Perceptual Reasoning Without Hearing
+
+HSL does not require an LLM to render or hear audio. The UMO provides:
+1. Causal views that logically determine audible outcomes
+2. Symbolic views that encode musical intent
+3. Perceptual feature views that summarize audible outcomes numerically
+
+These together allow LLM reasoning about perception, composition, and structural similarity without requiring audio playback.
+
+### Composer Identity as Cross-Dialect Invariant
+
+In HSL terms, a **composer fingerprint** is a structural invariant that holds across UMO dialect translations. It is defined as a set of features that:
+- Appear in control_view (hardware usage patterns, driver idioms)
+- Persist in symbolic_view (interval preferences, rhythmic habits, harmonic tendencies)
+- Manifest in perceptual_view (timbral signatures, spectral habits)
+
+Composer identity is the intersection of structural features that survive dialect translation. Attribution inference is a falsifiable hypothesis derived from cross-dialect invariant comparison.
+
+---
+
 ## LLM GOVERNANCE CONTRACT
 
 Helix is a **closed structural system**. All large language models (LLMs) interacting with Helix are **execution agents**, not architects. LLMs must operate strictly within the Helix Structural Language (HSL) and repository specifications. They are not permitted to reinterpret, extend, or redefine the system.
