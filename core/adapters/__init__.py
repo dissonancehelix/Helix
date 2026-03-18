@@ -23,15 +23,20 @@ Available adapters and their tiers:
     adapter_nuked_psg   — YM7101/SN76489 PSG channel constants + volume table
     adapter_smps        — SMPS driver timing + opcode constants
     adapter_gems        — GEMS driver patch format + MIDI conversion bridge
+    adapter_vgmfile     — VGMFile.h: VGM header parser, GD3 reader, tag priority
+    adapter_chiptext    — chiptext.c: NES APU, GB DMG, Pokey, OPN/OPL flags, waveforms
+    adapter_vgm_system  — vgm_tag.c: 70+ gaming platform taxonomy (code → name)
 
   Tier B — Compiled C libraries (requires cmake build):
     adapter_libvgm      — libvgm ctypes bridge (VGM/VGZ emulation)
     adapter_gme         — Game_Music_Emu bridge (SPC, NSF, GBS, HES, KSS, AY)
     adapter_vgmstream   — vgmstream CLI bridge (broad format decoding)
 
-  Tier B (subprocess) — gcc-compiled tools (requires compile_tools()):
+  Tier B (subprocess) — vgmtools binaries (requires compile from vgmtools/):
+    adapter_vgm2txt     — vgm2txt: full register timeline → causal.temporal_trajectories
+    adapter_vgm_cnt     — vgm_cnt: per-chip command frequency → channel_usage stats
+    adapter_vgm_stat    — vgm_stat: duration/loop statistics + GD3 metadata
     adapter_gems        — gems_to_midi() via gems2mid binary
-    [s98tovgm, nsf2vgm] — via tool_bridge directly (no dedicated adapter)
 
   Tier C — Symbolic analysis (requires Python packages):
     adapter_music21     — music21 symbolic score analysis
@@ -40,6 +45,10 @@ Available adapters and their tiers:
   Tier D — MIR / signal analysis (requires Python packages):
     adapter_librosa     — librosa MIR feature extraction
     adapter_essentia    — Essentia audio descriptors
+
+  Tag Priority (VGM metadata):
+    External .tag file (foobar2000 dialect) > GD3 embedded in VGM binary.
+    adapter_vgmfile enforces this. External tags are canon; GD3 is fallback.
 """
 from __future__ import annotations
 
@@ -54,13 +63,19 @@ from core.adapters.adapter_nuked_opl2  import Adapter as NukedOpl2Adapter
 from core.adapters.adapter_nuked_psg   import Adapter as NukedPsgAdapter
 from core.adapters.adapter_smps        import Adapter as SmpsAdapter
 from core.adapters.adapter_gems        import Adapter as GemsAdapter
+from core.adapters.adapter_vgmfile     import Adapter as VgmfileAdapter
+from core.adapters.adapter_chiptext    import Adapter as ChiptextAdapter
+from core.adapters.adapter_vgm_system  import Adapter as VgmSystemAdapter
+from core.adapters.adapter_vgm2txt     import Adapter as Vgm2txtAdapter
+from core.adapters.adapter_vgm_cnt     import Adapter as VgmCntAdapter
+from core.adapters.adapter_vgm_stat    import Adapter as VgmStatAdapter
 from core.adapters.adapter_librosa     import Adapter as LibrosaAdapter
 from core.adapters.adapter_essentia    import Adapter as EssentiaAdapter
 from core.adapters.adapter_music21     import Adapter as Music21Adapter
 from core.adapters.adapter_pretty_midi import Adapter as PrettyMidiAdapter
 
 __all__ = [
-    # Tier A
+    # Tier A — Nuked FM/PSG chip topology
     "NukedOpn2Adapter",
     "NukedOpmAdapter",
     "NukedOpl3Adapter",
@@ -69,10 +84,18 @@ __all__ = [
     "NukedPsgAdapter",
     "SmpsAdapter",
     "GemsAdapter",
-    # Tier B
+    # Tier A — vgmtools static knowledge
+    "VgmfileAdapter",
+    "ChiptextAdapter",
+    "VgmSystemAdapter",
+    # Tier B — compiled libraries
     "LibvgmAdapter",
     "GmeAdapter",
     "VgmstreamAdapter",
+    # Tier B — vgmtools binaries
+    "Vgm2txtAdapter",
+    "VgmCntAdapter",
+    "VgmStatAdapter",
     # Tier C
     "Music21Adapter",
     "PrettyMidiAdapter",

@@ -413,9 +413,15 @@ Adapters:
 | `adapter_nuked_psg.py` | `code/Nuked-PSG` (ympsg.h) | YM7101/SN76489 PSG channel + volume table | A |
 | `adapter_smps.py` | `code/SMPS` source | SMPS timing + opcode constants | A |
 | `adapter_gems.py` | `code/GEMS`, `code/GEMSPlay`, `code/MidiConverters` | GEMS patch constants + MIDI bridge | A/B |
+| `adapter_vgmfile.py` | `toolkits/vgmtools/VGMFile.h` | VGM header + GD3 + tag priority merge | A |
+| `adapter_chiptext.py` | `toolkits/vgmtools/chiptext.c` | NES APU, GB DMG, Pokey regs; OPN/OPL flags; waveform tables | A |
+| `adapter_vgm_system.py` | `toolkits/vgmtools/vgm_tag.c` | Platform taxonomy (70+ system codes → names) | A |
 | `adapter_libvgm.py` | `toolkits/libvgm` C library | ControlSequence | B |
 | `adapter_gme.py` | `toolkits/game-music-emu` | ControlSequence | B |
 | `adapter_vgmstream.py` | `toolkits/vgmstream` C library | ControlSequence | B |
+| `adapter_vgm2txt.py` | `toolkits/vgmtools/vgm2txt` binary | causal.temporal_trajectories (full register timeline) | B |
+| `adapter_vgm_cnt.py` | `toolkits/vgmtools/vgm_cnt` binary | chip_command_counts + channel_stats | B |
+| `adapter_vgm_stat.py` | `toolkits/vgmtools/vgm_stat` binary | duration_sec, loop points, GD3 fallback | B |
 | `adapter_librosa.py` | librosa | SignalProfile | D |
 | `adapter_essentia.py` | essentia | SignalProfile extension | D |
 | `adapter_music21.py` | music21 | SymbolicScore | C |
@@ -1103,8 +1109,14 @@ If a behavior is not defined in this spec, extend this document rather than impr
 | `adapter_nuked_psg.py` | A | YM7101/SN76489 PSG channel constants, volume table, freq formula |
 | `adapter_smps.py` | A | SMPS driver timing, opcode table, channel allocation |
 | `adapter_gems.py` | A/B | GEMS patch format constants (A); gems2mid MIDI bridge (B) |
+| `adapter_vgmfile.py` | A | VGM binary header parser; GD3 reader; external .tag priority merge |
+| `adapter_chiptext.py` | A | NES APU / GB DMG / Pokey register maps; OPN/OPL type flags; waveform tables |
+| `adapter_vgm_system.py` | A | 70+ platform taxonomy (vgm_tag.c SYSTEM_NAMES) |
 | `adapter_libvgm.py` | B | libvgm ctypes bridge → ControlSequence |
 | `adapter_gme.py` | B | Game_Music_Emu bridge → ControlSequence |
+| `adapter_vgm2txt.py` | B | vgm2txt binary → causal.temporal_trajectories |
+| `adapter_vgm_cnt.py` | B | vgm_cnt binary → chip command counts + channel stats |
+| `adapter_vgm_stat.py` | B | vgm_stat binary → duration, loop points, GD3 fallback |
 | `adapter_vgmstream.py` | B | vgmstream CLI bridge → ControlSequence |
 | `adapter_music21.py` | C | music21 → SymbolicScore |
 | `adapter_pretty_midi.py` | C | pretty_midi → SymbolicScore |

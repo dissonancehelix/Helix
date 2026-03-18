@@ -63,7 +63,21 @@ Every track MUST be represented as:
 
 ## STEP 0 — TAG INGESTION (FOOBAR METADATA DIALECT)
 
-Parse `.vgz.tag` or equivalent metadata using:
+### TAG PRIORITY — NON-NEGOTIABLE
+
+```
+PRIORITY 1 (canon):    external .tag file  (.vgz.tag, .vgm.tag)
+PRIORITY 2 (fallback): GD3 tag embedded in VGM binary
+```
+
+External .tag fields ALWAYS overwrite GD3 fields on conflict.
+GD3 fills only fields absent from the external .tag file.
+Both sources are preserved separately in `provenance`.
+Use `adapter_vgmfile` to perform the merge automatically.
+
+### EXTERNAL .TAG FORMAT (foobar2000 dialect)
+
+Parse `.vgz.tag` or equivalent sidecar file using:
 
 ```
 Title=TITLE
@@ -84,12 +98,30 @@ Platform=PLATFORM
 Sound Chip=SOUND CHIP
 ```
 
+### GD3 FALLBACK FIELDS
+
+When no external .tag exists or a field is absent from it, read from GD3:
+
+| GD3 field          | maps to metadata.recorded field |
+|--------------------|----------------------------------|
+| strTrackNameE      | title                            |
+| strGameNameE       | album                            |
+| strSystemNameE     | platform                         |
+| strAuthorNameE     | artist                           |
+| strReleaseDate     | date                             |
+| strNotes           | comment                          |
+
 Store as:
 
 ```json
 "metadata": {
-  "recorded": { "..." },
+  "recorded":   { "..." },
   "normalized": { "..." }
+},
+"provenance": {
+  "external_tag":  { "..." },
+  "gd3":           { "..." },
+  "field_sources": { "field_name": "external_tag | gd3" }
 }
 ```
 
@@ -100,7 +132,7 @@ Store as:
 - Multiple contributors may exist (artist, sound_team, featuring)
 - Sound Chip informs expectations but does not replace analysis
 - Missing fields are allowed
-- Incorrect metadata must be preserved
+- Incorrect metadata must be preserved exactly as declared
 
 If metadata conflicts with inferred structure:
 - store both
