@@ -1281,6 +1281,33 @@ Software layer orchestrating the hardware (e.g. GEMS, SMPS).
 
 ---
 
+## 23. STRUCTURAL EMBEDDING (OPTIONAL)
+
+Music substrate outputs (UMO artifacts containing causal, symbolic, and perceptual layers) may be mapped into **CCS (Cognitive Coordinate System)** embeddings after pipeline execution.
+
+**CCS is not part of this pipeline.** No music substrate operator invokes it. It is an optional external layer.
+
+**Input signals CCS draws from** (when used):
+
+| Signal | Source layer | Axis |
+|--------|-------------|------|
+| Note density (events/sec) | Causal / perceptual | `structural_density` |
+| Phrase repetition rate | Symbolic / causal | `attractor_stability` |
+| Scale adherence ratio | Symbolic | `generative_constraint` |
+| Pitch class entropy | Symbolic / perceptual | `control_entropy` |
+| Detected recurrence levels | Symbolic / causal | `recurrence_depth` |
+| Transition sharpness | Causal / perceptual | `basin_permeability` |
+
+**Storage:** `atlas/embeddings/music/{tracks|artists|albums}/{slug}.json`
+
+**Pipeline behavior:** `atlas/embeddings/music/PIPELINE.md`
+
+CCS embeddings do not affect substrate pipeline output, Atlas compilation, or invariant discovery. They are computed separately and stored separately.
+
+See: `core/models/ccs/`
+
+---
+
 ## Architecture Guardrail
 
 **Helix Architecture Law**

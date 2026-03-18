@@ -585,6 +585,26 @@ Atlas relationship types for cross-era:
 
 ---
 
+## Structural Embedding Models
+
+Helix supports external structural models that operate on extracted signals and atlas entities after pipeline execution. These models produce embeddings — compact representations of structural properties — that can be stored, compared, and queried.
+
+**Rules:**
+- Models operate on artifact data and atlas entities. They do not define structural truth.
+- Models do not run inside the HSL execution pipeline. They are post-execution.
+- Models do not write directly to the Atlas. Embeddings are stored as separate entity files.
+- No existing operator, adapter, or substrate depends on any model.
+
+**Implemented models:**
+
+| Model | Location | Description |
+|-------|----------|-------------|
+| CCS (Cognitive Coordinate System) | `core/models/ccs/` | 6-axis structural embedding. Maps entities to [0.0, 1.0]⁶. Deterministic. Supports `alignment_score` comparison between embeddings. |
+
+CCS is the first implemented example. It is not required for Helix operation. See `core/models/ccs/SPEC.md` for the full specification and `core/models/ccs/schema/ccs_schema.json` for the embedding schema.
+
+---
+
 ## Active Invariants
 
 | Invariant | Confidence | Domains | Pass Rate | Location |

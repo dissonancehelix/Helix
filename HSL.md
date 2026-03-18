@@ -1224,6 +1224,21 @@ HSL does not require an LLM to render or hear audio. The UMO provides:
 
 These together allow LLM reasoning about perception, composition, and structural similarity without requiring audio playback.
 
+### Structural Embedding Models (Optional)
+
+HSL-compliant substrates produce UMOs with aligned causal, symbolic, and perceptual representations. External models may operate on these representations post-execution to produce compact structural embeddings.
+
+The **Cognitive Coordinate System (CCS)** is one such model. It takes named signals extracted from a UMO and maps them to a point in a 6-axis coordinate space [0.0, 1.0]⁶. CCS operates downstream of HSL. It is not part of HSL normalization, semantics, or the execution pipeline.
+
+**Relationship:**
+- HSL produces UMOs. CCS operates on UMO-derived signals. HSL does not depend on CCS.
+- CCS is optional. Its absence does not affect HSL, substrate pipelines, or invariant discovery.
+- CCS embeddings are stored separately from UMOs and Atlas entities.
+
+See: `core/models/ccs/`
+
+---
+
 ### Composer Identity as Cross-Dialect Invariant
 
 In HSL terms, a **composer fingerprint** is a structural invariant that holds across UMO dialect translations. It is defined as a set of features that:

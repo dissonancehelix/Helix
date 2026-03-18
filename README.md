@@ -410,6 +410,29 @@ This transforms a static dataset into a navigable representation of structure.
 
 ---
 
+# Cognitive Coordinate System (CCS)
+
+CCS is a modular structural embedding model. It maps entities into a 6-axis coordinate system where each axis measures a distinct structural property:
+
+| Axis | Measures |
+|------|---------|
+| `attractor_stability` | Degree to which structural patterns repeat identically |
+| `generative_constraint` | Degree to which the event space is restricted by compositional rules |
+| `recurrence_depth` | Hierarchical depth of detectable recurrence (motif → phrase → section → form) |
+| `structural_density` | Rate of structural events per unit time, domain-normalized |
+| `control_entropy` | Entropy of control signal distributions (pitch, dynamics, articulation) |
+| `basin_permeability` | Degree to which structural transitions between sections are gradual |
+
+All values are in [0.0, 1.0]. All values are derived from observable features. Embeddings are deterministic and evidence-backed.
+
+CCS enables structural comparison between entities via a normalized `alignment_score` (1.0 = identical structure, 0.0 = maximally distinct).
+
+**CCS is not part of the Helix kernel. It is not required for Helix to operate.** It is an optional, modular analysis layer that operates on signals extracted by substrates and stored in the atlas.
+
+See: `core/models/ccs/` for full specification, schema, and examples.
+
+---
+
 # Future Research
 
 Helix is designed as a long-term discovery system.
