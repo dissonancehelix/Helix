@@ -4,7 +4,7 @@ VGM Note Reconstructor — Helix Music Lab
 Converts a parsed VGMTrack into a SymbolicScore by replaying the register
 write stream and reconstructing discrete note events.
 
-Algorithm:
+Algorithm — YM2612 FM (logical channels 0–5):
   - Maintain a cursor of the current sample position (incremented by wait events)
   - Track FNUM + BLOCK per YM2612 channel (channels 0–5) across port 0/1 writes
   - Track Total Level (op1) per channel as a velocity proxy
@@ -15,8 +15,22 @@ Algorithm:
       If slots = 0 → note-off: close open note on that channel
   - FNUM→MIDI: semitone = round(69 + 12 × log2(fnum × 2^block / (653 × 16)))
   - Velocity proxy: 127 − TL_op1  (op1 carrier TL, 0 = loudest, 127 = silent)
-  - PSG tone channels 0–2 → logical channels 6–8 (no MIDI pitch — PSG is
-    10-bit period, not F-number; we mark note=-1 for PSG for now)
+
+Algorithm — SN76489 PSG (logical channels 6–8, tone only):
+  SN76489 uses a serial byte protocol. Each VGM PSG event is one byte:
+    - Bit 7 = 1  → LATCH/DATA byte
+        bits 6:5  = channel (0–3; ch3 = noise, not tracked here)
+        bit  4    = register type (0 = tone period, 1 = volume)
+        bits 3:0  = data
+    - Bit 7 = 0  → DATA continuation byte (upper 6 bits of 10-bit period)
+  Period reconstruction: tone_period[ch] = (data_high << 4) | data_low  (10-bit)
+  Frequency: f = PSG_CLOCK / (32 × period)   [Genesis clock = 3_579_545 Hz]
+  Volume: 4-bit, 0 = max, 15 = silence
+  Note detection:
+    - Volume transitions 15→<15 with period > 0: note-on
+    - Volume transitions →15: note-off
+    - Period change while sounding: note-off (previous pitch) + note-on (new pitch)
+  MIDI pitch: round(69 + 12 × log2(f / 440))
 
 Output: SymbolicScore with all NoteEvents sorted by start time.
 """
@@ -47,6 +61,12 @@ REG_TL_BASE  = 0x40   # 0x40–0x4F total level
 # Genesis YM2612 A4 reference: fnum=653, block=4 ≈ 440 Hz at ~7.67 MHz clock
 _A4_REF = 653.0 * 16   # fnum × 2^block for A4
 
+# SN76489 PSG constants (Genesis / Mega Drive)
+# Clock = master OSC / 15 = 53,693,100 / 15 = 3,579,540 Hz
+_PSG_CLOCK_HZ = 3_579_545   # standard Genesis SN76489 clock
+_PSG_DIVIDER  = 32           # period → frequency divisor
+_PSG_VOL_SILENT = 15         # 4-bit volume value that means silence
+
 
 def _fnum_to_midi(fnum: int, block: int) -> int:
     """Convert YM2612 F-number + block to MIDI note number (0–127)."""
@@ -67,18 +87,62 @@ def _tl_to_velocity(tl: int) -> int:
     return max(1, 127 - tl)
 
 
+def _psg_period_to_midi(period: int, psg_clock: int = _PSG_CLOCK_HZ) -> int:
+    """Convert a 10-bit SN76489 tone period to MIDI note number.
+
+    f = psg_clock / (32 × period)
+    midi = round(69 + 12 × log2(f / 440))
+    Returns -1 when period is 0 or out of audible MIDI range.
+    """
+    if period <= 0:
+        return -1
+    freq = psg_clock / (_PSG_DIVIDER * period)
+    if freq <= 0.0:
+        return -1
+    try:
+        note = round(69 + 12 * math.log2(freq / 440.0))
+    except (ValueError, ZeroDivisionError):
+        return -1
+    return note if 0 <= note <= 127 else -1
+
+
+def _psg_vol_to_velocity(vol4: int) -> int:
+    """Map PSG 4-bit volume (0=max, 15=silent) to MIDI velocity (1–127)."""
+    # Each step is ~2 dB attenuation; 0 → velocity 127, 14 → ~9
+    if vol4 >= _PSG_VOL_SILENT:
+        return 0
+    return max(1, round(127 * (1.0 - vol4 / 14.0)))
+
+
 # ---------------------------------------------------------------------------
 # Channel state
 # ---------------------------------------------------------------------------
 
 @dataclass
 class _ChState:
-    """Mutable per-channel state during reconstruction."""
+    """Mutable per-channel state during reconstruction (YM2612 FM channel)."""
     fnum:        int   = 0
     block:       int   = 0
     tl_op1:      int   = 100   # Total Level for op1 (carrier proxy)
     active_note: int   = -1    # MIDI note currently sounding (-1 = silent)
     on_sample:   int   = -1    # sample at which current note started (-1 = off)
+
+
+@dataclass
+class _PsgChState:
+    """Mutable per-channel state for SN76489 PSG tone reconstruction."""
+    period_lo:   int   = 0     # lower 4 bits of 10-bit period (from LATCH byte)
+    period_hi:   int   = 0     # upper 6 bits of 10-bit period (from DATA byte)
+    volume:      int   = 15    # 4-bit volume (15 = silent)
+    latch_ch:    int   = -1    # channel currently latched for DATA continuation
+    latch_type:  int   = 0     # 0 = tone, 1 = volume
+    active_note: int   = -1    # MIDI note currently sounding (-1 = silent)
+    on_sample:   int   = -1    # sample at which current note started
+    on_velocity: int   = 64    # velocity when note started
+
+    @property
+    def period(self) -> int:
+        return (self.period_hi << 4) | self.period_lo
 
 
 # ---------------------------------------------------------------------------
@@ -107,15 +171,20 @@ def reconstruct(track: VGMTrack) -> SymbolicScore:
 
     # ---- channel state -------------------------------------------------
     # 6 YM2612 FM channels (0–5), 3 PSG tone channels (6–8), 1 PSG noise (9)
-    fm_state: list[_ChState] = [_ChState() for _ in range(6)]
+    fm_state:  list[_ChState]    = [_ChState()    for _ in range(6)]
+    psg_state: list[_PsgChState] = [_PsgChState() for _ in range(3)]  # ch0–ch2 tone
+    # psg_latch tracks which channel+type is awaiting a DATA continuation byte
+    psg_latch_ch:   int = -1
+    psg_latch_type: int = 0
 
     completed_notes: list[NoteEvent] = []
     current_sample: int = 0
 
     # counters for stats
-    keyon_events  = 0
-    keyoff_events = 0
-    orphan_keyons = 0   # key-ons where note stayed open until track end
+    keyon_events      = 0
+    keyoff_events     = 0
+    orphan_keyons     = 0   # key-ons where note stayed open until track end
+    psg_note_events   = 0
 
     def _close_channel(ch_idx: int, end_sample: int) -> None:
         """Close an open note on *ch_idx*, computing duration."""
@@ -136,6 +205,40 @@ def reconstruct(track: VGMTrack) -> SymbolicScore:
         st.active_note = -1
         st.on_sample   = -1
 
+    # ---- PSG note helpers ------------------------------------------------
+
+    def _psg_open(ch: int, note: int, vel: int) -> None:
+        """Open a new PSG note on tone channel *ch* (0–2 → logical 6–8)."""
+        nonlocal psg_note_events
+        ps = psg_state[ch]
+        if ps.active_note >= 0:
+            _psg_close(ch, current_sample)
+        if note < 0:
+            return
+        ps.active_note = note
+        ps.on_sample   = current_sample
+        ps.on_velocity = vel
+        psg_note_events += 1
+
+    def _psg_close(ch: int, end_sample: int) -> None:
+        """Close an open PSG note on tone channel *ch*."""
+        nonlocal keyoff_events
+        ps = psg_state[ch]
+        if ps.on_sample < 0:
+            return
+        duration = max(0.0, (end_sample - ps.on_sample) / SAMPLE_RATE)
+        completed_notes.append(NoteEvent(
+            channel=6 + ch,           # logical channel 6–8
+            note=ps.active_note,
+            start=ps.on_sample / SAMPLE_RATE,
+            duration=duration,
+            velocity=ps.on_velocity,
+            chip="sn76489",
+        ))
+        ps.active_note = -1
+        ps.on_sample   = -1
+        keyoff_events += 1
+
     for ev in track.events:
 
         # ---- timing -------------------------------------------------------
@@ -145,6 +248,59 @@ def reconstruct(track: VGMTrack) -> SymbolicScore:
 
         if ev.kind == "end":
             break
+
+        # ---- SN76489 PSG --------------------------------------------------
+        if ev.kind == "psg":
+            b = ev.val
+            if b & 0x80:
+                # LATCH/DATA byte: set latched channel + type
+                ch        = (b >> 5) & 0x03   # bits 6:5
+                reg_type  = (b >> 4) & 0x01   # bit 4: 0=tone, 1=vol
+                data4     = b & 0x0F           # bits 3:0
+                psg_latch_ch   = ch
+                psg_latch_type = reg_type
+
+                if ch <= 2:
+                    ps = psg_state[ch]
+                    if reg_type == 0:
+                        # Tone period lower nibble
+                        ps.period_lo = data4
+                        # Period changed while sounding → pitch change
+                        if ps.active_note >= 0:
+                            new_note = _psg_period_to_midi(ps.period)
+                            if new_note != ps.active_note:
+                                _psg_close(ch, current_sample)
+                                if new_note >= 0 and ps.volume < _PSG_VOL_SILENT:
+                                    vel = _psg_vol_to_velocity(ps.volume)
+                                    _psg_open(ch, new_note, vel)
+                    else:
+                        # Volume update
+                        old_vol = ps.volume
+                        ps.volume = data4
+                        if old_vol == _PSG_VOL_SILENT and ps.volume < _PSG_VOL_SILENT:
+                            # Silence → sounding: note-on
+                            note = _psg_period_to_midi(ps.period)
+                            vel  = _psg_vol_to_velocity(ps.volume)
+                            _psg_open(ch, note, vel)
+                        elif old_vol < _PSG_VOL_SILENT and ps.volume == _PSG_VOL_SILENT:
+                            # Sounding → silence: note-off
+                            _psg_close(ch, current_sample)
+            else:
+                # DATA continuation byte: upper 6 bits of tone period
+                data6 = b & 0x3F
+                ch = psg_latch_ch
+                if 0 <= ch <= 2 and psg_latch_type == 0:
+                    ps = psg_state[ch]
+                    ps.period_hi = data6
+                    # Period high changed — if sounding, re-evaluate pitch
+                    if ps.active_note >= 0:
+                        new_note = _psg_period_to_midi(ps.period)
+                        if new_note != ps.active_note:
+                            _psg_close(ch, current_sample)
+                            if new_note >= 0 and ps.volume < _PSG_VOL_SILENT:
+                                vel = _psg_vol_to_velocity(ps.volume)
+                                _psg_open(ch, new_note, vel)
+            continue
 
         if ev.kind not in ("ym2612_p0", "ym2612_p1"):
             continue
@@ -206,6 +362,10 @@ def reconstruct(track: VGMTrack) -> SymbolicScore:
         if fm_state[ch_idx].on_sample >= 0:
             _close_channel(ch_idx, end_sample)
             orphan_keyons += 1
+    for psg_ch in range(3):
+        if psg_state[psg_ch].on_sample >= 0:
+            _psg_close(psg_ch, end_sample)
+            orphan_keyons += 1
 
     # ---- Sort by start time, then channel --------------------------------
     completed_notes.sort(key=lambda n: (n.start, n.channel))
@@ -216,6 +376,7 @@ def reconstruct(track: VGMTrack) -> SymbolicScore:
         "keyon_events":        keyon_events,
         "keyoff_events":       keyoff_events,
         "orphan_keyons":       orphan_keyons,
+        "psg_note_events":     psg_note_events,
         "unique_pitches":      len(score.unique_pitches),
         "pitch_range":         score.pitch_range,
         "avg_duration_sec":    round(score.avg_duration(), 4),

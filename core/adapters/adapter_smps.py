@@ -9,6 +9,13 @@ Source references:
       mdbse11.s    — back sound-effect data, FM patch macro format
       mdtb11.asm   — address tables, envelope table entries
 
+    github.com/flamewing/flamedriver (S3&K-specific constants)
+      flamedriver Z80 ASM: SonicDriverVer, zTrack STRUCT, SSGEG fields
+    github.com/sonicretro/s1_music_gen (S1 variant operator ordering)
+      smps_voice.h: operator layout 1,3,2,4 for S1 FM voices
+    github.com/sonicretro/vgm2smps (SN76489 multi-octave period table)
+      sn76489_tone_table[6][12]: 6-octave period reference
+
 Purpose:
     Provide ALL structural constants from the Sega Music Processor System (SMPS)
     driver source code. SMPS is the primary sound driver for Sega Genesis
@@ -20,12 +27,15 @@ Purpose:
 
 Input:
     query (str)  — one of:
-        "timing"     — tick rates, channel counts
-        "opcodes"    — full command opcode table
-        "volume"     — FM volume attenuation table, carrier flags
-        "psg"        — PSG frequency scale, channel encoding, envelope system
-        "fm_format"  — FM patch format, register write order, vibrato/LFO params
-        "all"        — everything
+        "timing"      — tick rates, channel counts
+        "opcodes"     — full command opcode table
+        "volume"      — FM volume attenuation table, carrier flags
+        "psg"         — PSG frequency scale, channel encoding, envelope system
+        "fm_format"   — FM patch format, register write order, vibrato/LFO params
+        "variants"    — multi-variant type codes (S1/S2/S3/SK/S3D), operator ordering, psg shift
+        "s3k"         — S3&K SSGEG constants, extended FM patch format
+        "ym2612_clock" — YM2612 clock derivation from master oscillator
+        "all"         — everything
 
 Adapter rules:
     • No Helix logic. Static constants only. Always available (Tier A).
@@ -335,15 +345,164 @@ SSG_BIT_MASK = 0x08  # bit 3 set in SSG register data
 SSG_AR_VALUE = 0x1F  # attack rate forced to maximum when SSG mode active
 
 
+# ---------------------------------------------------------------------------
+# YM2612 clock derivation  (NTSC master oscillator chain)
+# ---------------------------------------------------------------------------
+
+# NTSC Genesis master oscillator: 53.693100 MHz
+# Derived from: OSC → ÷14 → YM2612 chip clock → ÷72 → sample rate
+# Source: general Genesis hardware reference; confirmed by nukedopn2 source
+YM2612_OSC_HZ_NTSC       = 53_693_100       # Hz — NTSC master oscillator
+YM2612_OSC_HZ_PAL        = 53_203_424       # Hz — PAL master oscillator
+YM2612_MASTER_DIVIDER    = 14               # master → chip clock divisor
+YM2612_SAMPLE_DIVIDER    = 72               # chip clock → sample rate divisor
+YM2612_CHIP_CLOCK_NTSC   = YM2612_OSC_HZ_NTSC // YM2612_MASTER_DIVIDER  # 3,835,221 Hz
+YM2612_SAMPLE_RATE_NTSC  = YM2612_OSC_HZ_NTSC // YM2612_MASTER_DIVIDER // YM2612_SAMPLE_DIVIDER  # 53,267 Hz
+
+# F-Number frequency formula: f_hz = chip_clock / 144 × F_Number / 2^(21 − Block)
+# (144 = 2 × 72; the ×2 comes from halving in the YM2612 frequency accumulator)
+YM2612_FNUMBER_FORMULA = "f_hz = (chip_clock / 144) × (F_Number / 2^(21 − Block))"
+
+# ---------------------------------------------------------------------------
+# SMPS multi-variant type codes
+# ---------------------------------------------------------------------------
+
+# SonicDriverVer constant embeds the variant into the Z80 driver binary.
+# Source: flamedriver (S3&K = 5), general SMPS source tree conventions.
+SMPS_VARIANTS: dict[str, dict] = {
+    "S1": {
+        "game":           "Sonic the Hedgehog (1991)",
+        "sonic_driver_ver": 1,
+        "fm_patch_bytes": 25,
+        "operator_order": [1, 3, 2, 4],   # S1 ONLY: patches stored OP1,OP3,OP2,OP4
+        "ssgeg_support":  False,
+        "psg_note_base":  0,              # no inter-variant shift applied
+    },
+    "S2": {
+        "game":           "Sonic the Hedgehog 2 (1992)",
+        "sonic_driver_ver": 2,
+        "fm_patch_bytes": 25,
+        "operator_order": [1, 2, 3, 4],
+        "ssgeg_support":  False,
+        "psg_note_base":  0,
+    },
+    "S3": {
+        "game":           "Sonic the Hedgehog 3 (1994)",
+        "sonic_driver_ver": 3,
+        "fm_patch_bytes": 25,
+        "operator_order": [1, 2, 3, 4],
+        "ssgeg_support":  False,
+        "psg_note_base":  0,
+    },
+    "SK": {
+        "game":           "Sonic & Knuckles / Sonic 3 & Knuckles (1994)",
+        "sonic_driver_ver": 5,
+        "fm_patch_bytes": 29,             # 25 base + 4 SSGEG bytes (one per operator)
+        "operator_order": [1, 2, 3, 4],
+        "ssgeg_support":  True,
+        "psg_note_base":  0,
+    },
+    "S3D": {
+        "game":           "Sonic 3D Blast (1996)",
+        "sonic_driver_ver": 6,
+        "fm_patch_bytes": 25,
+        "operator_order": [1, 2, 3, 4],
+        "ssgeg_support":  False,
+        "psg_note_base":  0,
+    },
+}
+
+# S1 operator ordering — OP1, OP3, OP2, OP4 (not sequential)
+# Source: s1_music_gen smps_voice.h — confirmed non-standard layout.
+# When parsing S1 FM patches, byte positions [1–4] map to OP1, OP3, OP2, OP4
+# for MUL/DT1, AR/KS, D1R, D2R, RR/D1L, and TL fields.
+# Standard (S2/S3/SK/S3D): OP1, OP2, OP3, OP4.
+S1_OPERATOR_ORDER = [1, 3, 2, 4]     # S1 only
+STANDARD_OPERATOR_ORDER = [1, 2, 3, 4]  # S2, S3, SK, S3D
+
+# PSG inter-variant semitone shift
+# When converting PSG sequences between S1/S2 and S3/SK formats, note indices
+# shift by 12 semitones (one octave). Source: vgm2smps psgdelta = 12.
+PSG_INTER_VARIANT_SEMITONE_SHIFT = 12  # semitones; S3/SK PSG tuned one octave lower
+
+# ---------------------------------------------------------------------------
+# S3&K SSGEG constants  (flamedriver Z80 ASM)
+# ---------------------------------------------------------------------------
+
+# YM2612 SSG-EG register addresses (per operator, part 1 and part 2 banks)
+# Part 1 (channels 1-3): $90=OP1, $94=OP2, $98=OP3, $9C=OP4
+# Part 2 (channels 4-6): same offsets in the $100+ bank
+SSGEG_REGISTER_ADDRS: list[int] = [0x90, 0x94, 0x98, 0x9C]
+
+# SSG-EG byte field layout:
+#   bit 3:  enable SSG-EG mode (0 = normal envelope, 1 = SSG-EG active)
+#   bits 2-0: envelope shape (0-7, only shapes 8-15 are actually effective on hardware)
+SSGEG_BIT_ENABLE   = 0x08   # bit 3: set to activate SSG-EG
+SSGEG_MASK_SHAPE   = 0x07   # bits 0-2: envelope shape selector
+SSGEG_SHAPE_COUNT  = 8      # 8 shapes (0-7), mapped to YM2612 shapes 8-15
+
+# S3&K FM patch format — extended 29-byte layout (SK variant only)
+# Base 25 bytes identical to standard SMPS format (see FM_PATCH_BYTE_LENGTH above)
+# Bytes 25-28: SSGEG per operator [OP1, OP2, OP3, OP4]
+#   Each byte: bit3=enable | bits0-2=shape
+# HaveSSGEGFlag: tracked per-channel in zTrack STRUCT (see adapter_s3k_driver.py)
+SK_FM_PATCH_BYTE_LENGTH      = 29   # S3&K only: 25 base + 4 SSGEG
+SK_FM_PATCH_SSGEG_OFFSET     = 25   # byte index where SSGEG data begins
+SK_FM_PATCH_SSGEG_BYTE_COUNT = 4    # one per operator
+
+# SSG-EG envelope shape semantics (YM2612 hardware shapes 8-15)
+# SMPS stores shape-8 (0x08) as SSGEG byte shape=0, shape-9 as shape=1, etc.
+SSGEG_SHAPE_TABLE: dict[int, str] = {
+    0: "attack only (hard reset after peak)",         # YM2612 shape 8
+    1: "attack–decay cycle, sustain low",             # shape 9
+    2: "attack–decay–attack–decay (saw up)",          # shape 10
+    3: "single attack, sustain at peak",              # shape 11
+    4: "decay only (hard reset after floor)",         # shape 12
+    5: "decay–attack cycle, sustain high",            # shape 13
+    6: "decay–attack–decay–attack (saw down)",        # shape 14
+    7: "single decay, sustain at floor",              # shape 15
+}
+
+# ---------------------------------------------------------------------------
+# SN76489 6-octave period table  (vgm2smps sn76489_tone_table[6][12])
+# ---------------------------------------------------------------------------
+
+# Period values for SN76489 tone registers across 6 octaves.
+# Frequency formula: f_hz = 3,579,545 / (32 × period)
+# Octave numbering: octave 0 = lowest (C1 range), octave 5 = highest (C6 range).
+# Each row is 12 semitones: C, C#, D, D#, E, F, F#, G, G#, A, A#, B
+# Source: vgm2smps sn76489_tone_table — integer period values (rounded).
+SN76489_TONE_TABLE: list[list[int]] = [
+    # Octave 0 — C1 to B1 (C1 ≈ 32.70 Hz)
+    [3414, 3224, 3043, 2873, 2711, 2560, 2416, 2281, 2153, 2033, 1919, 1812],
+    # Octave 1 — C2 to B2 (C2 ≈ 65.41 Hz)
+    [1707, 1612, 1522, 1436, 1356, 1280, 1208, 1140, 1077, 1016,  960,  906],
+    # Octave 2 — C3 to B3 (C3 ≈ 130.81 Hz)
+    [ 854,  806,  761,  718,  678,  640,  604,  570,  538,  508,  480,  453],
+    # Octave 3 — C4 to B4 (C4 ≈ 261.63 Hz)
+    [ 427,  403,  381,  359,  339,  320,  302,  285,  269,  254,  240,  226],
+    # Octave 4 — C5 to B5 (C5 ≈ 523.25 Hz)
+    [ 214,  202,  190,  180,  170,  160,  151,  143,  135,  127,  120,  113],
+    # Octave 5 — C6 to B6 (C6 ≈ 1046.50 Hz)
+    [ 107,  101,   95,   90,   85,   80,   76,   71,   67,   64,   60,   57],
+]
+SN76489_TONE_TABLE_OCTAVES     = 6
+SN76489_TONE_TABLE_NOTES       = 12
+SN76489_CLOCK_HZ               = 3_579_545  # NTSC Genesis SN76489 clock
+SN76489_PERIOD_FORMULA         = "f_hz = 3579545 / (32 × period)"
+
+
 class Adapter:
     """
     Adapter exposing complete SMPS driver structural constants.
 
     Covers: timing, full opcode table, PSG frequency scale & envelope system,
-    FM patch format, vibrato engine, LFO control, gate system, SSG-EG mode.
+    FM patch format, vibrato engine, LFO control, gate system, SSG-EG mode,
+    multi-variant type codes, S3&K SSGEG extended patch format, YM2612 clock
+    derivation, SN76489 6-octave period table.
 
     Correct call path:
-        HIL → ANALYZE_TRACK operator → Adapter → SMPS constants
+        HSL → ANALYZE_TRACK operator → Adapter → SMPS constants
     """
     toolkit  = "smps"
     substrate = "music"
@@ -360,7 +519,8 @@ class Adapter:
         Return SMPS structural constants.
 
         Args:
-            what: "timing" | "opcodes" | "volume" | "psg" | "fm_format" | "all"
+            what: "timing" | "opcodes" | "volume" | "psg" | "fm_format" |
+                  "variants" | "s3k" | "ym2612_clock" | "all"
         """
         base: dict[str, Any] = {"driver": "SMPS", "adapter": "smps"}
 
@@ -415,6 +575,42 @@ class Adapter:
                 "ssg_ar_value":            SSG_AR_VALUE,
             })
 
+        if what in ("variants", "all"):
+            base.update({
+                "smps_variants":                    SMPS_VARIANTS,
+                "s1_operator_order":                S1_OPERATOR_ORDER,
+                "standard_operator_order":          STANDARD_OPERATOR_ORDER,
+                "psg_inter_variant_semitone_shift": PSG_INTER_VARIANT_SEMITONE_SHIFT,
+            })
+
+        if what in ("s3k", "all"):
+            base.update({
+                "ssgeg_register_addrs":         SSGEG_REGISTER_ADDRS,
+                "ssgeg_bit_enable":             SSGEG_BIT_ENABLE,
+                "ssgeg_mask_shape":             SSGEG_MASK_SHAPE,
+                "ssgeg_shape_count":            SSGEG_SHAPE_COUNT,
+                "ssgeg_shape_table":            SSGEG_SHAPE_TABLE,
+                "sk_fm_patch_byte_length":      SK_FM_PATCH_BYTE_LENGTH,
+                "sk_fm_patch_ssgeg_offset":     SK_FM_PATCH_SSGEG_OFFSET,
+                "sk_fm_patch_ssgeg_byte_count": SK_FM_PATCH_SSGEG_BYTE_COUNT,
+            })
+
+        if what in ("ym2612_clock", "all"):
+            base.update({
+                "ym2612_osc_hz_ntsc":      YM2612_OSC_HZ_NTSC,
+                "ym2612_osc_hz_pal":       YM2612_OSC_HZ_PAL,
+                "ym2612_master_divider":   YM2612_MASTER_DIVIDER,
+                "ym2612_sample_divider":   YM2612_SAMPLE_DIVIDER,
+                "ym2612_chip_clock_ntsc":  YM2612_CHIP_CLOCK_NTSC,
+                "ym2612_sample_rate_ntsc": YM2612_SAMPLE_RATE_NTSC,
+                "ym2612_fnumber_formula":  YM2612_FNUMBER_FORMULA,
+                "sn76489_tone_table":      SN76489_TONE_TABLE,
+                "sn76489_tone_octaves":    SN76489_TONE_TABLE_OCTAVES,
+                "sn76489_tone_notes":      SN76489_TONE_TABLE_NOTES,
+                "sn76489_clock_hz":        SN76489_CLOCK_HZ,
+                "sn76489_period_formula":  SN76489_PERIOD_FORMULA,
+            })
+
         return base
 
     def classify_opcode(self, opcode: int) -> dict[str, Any]:
@@ -444,6 +640,71 @@ class Adapter:
         """Convert SMPS tick count to seconds. region: 'ntsc' or 'pal'."""
         rate = _TICK_RATE_NTSC if region == "ntsc" else _TICK_RATE_PAL
         return ticks / rate
+
+    def parse_ssgeg_byte(self, byte: int) -> dict[str, Any]:
+        """
+        Decompose an SSG-EG byte (S3&K FM patch bytes 25-28) into fields.
+
+        Args:
+            byte: raw byte from SK FM patch SSGEG field
+
+        Returns:
+            {"enabled": bool, "shape": int (0-7), "shape_desc": str}
+        """
+        enabled = bool(byte & SSGEG_BIT_ENABLE)
+        shape   = byte & SSGEG_MASK_SHAPE
+        return {
+            "enabled":    enabled,
+            "shape":      shape,
+            "shape_desc": SSGEG_SHAPE_TABLE.get(shape, "unknown") if enabled else "inactive",
+        }
+
+    def parse_sk_fm_patch(self, data: bytes) -> dict[str, Any]:
+        """
+        Parse a 29-byte S3&K FM patch (SK variant with SSGEG).
+
+        Args:
+            data: exactly 29 bytes from smpsHeaderVoice in SK format
+
+        Returns:
+            dict with all FM patch fields + ssgeg list of 4 operator dicts
+        """
+        if len(data) < SK_FM_PATCH_BYTE_LENGTH:
+            raise AdapterError(
+                f"SK FM patch requires {SK_FM_PATCH_BYTE_LENGTH} bytes, got {len(data)}"
+            )
+        base = {
+            "alg":      data[0] & 0x07,
+            "fb":       (data[0] >> 3) & 0x07,
+            "operators": [],
+        }
+        for op_idx in range(4):
+            b = 1 + op_idx
+            base["operators"].append({
+                "op":   STANDARD_OPERATOR_ORDER[op_idx],
+                "mult": data[b]        & 0x0F,
+                "dt1":  (data[b] >> 4) & 0x07,
+                "ar":   data[b + 4]    & 0x1F,
+                "ks":   (data[b + 4] >> 6) & 0x03,
+                "d1r":  data[b + 8]    & 0x1F,
+                "d2r":  data[b + 12]   & 0x1F,
+                "rr":   data[b + 16]   & 0x0F,
+                "d1l":  (data[b + 16] >> 4) & 0x0F,
+                "tl":   data[b + 20]   & 0x7F,
+                "ssgeg": self.parse_ssgeg_byte(data[SK_FM_PATCH_SSGEG_OFFSET + op_idx]),
+            })
+        return base
+
+    def variant_for_driver_ver(self, ver: int) -> str | None:
+        """
+        Look up SMPS variant key from SonicDriverVer integer.
+
+        Returns the variant key string (e.g. "SK") or None if unknown.
+        """
+        for key, info in SMPS_VARIANTS.items():
+            if info["sonic_driver_ver"] == ver:
+                return key
+        return None
 
     def is_available(self) -> bool:
         """SMPS adapter is always available — uses static constants."""

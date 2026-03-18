@@ -36,7 +36,7 @@ class NoteEvent:
         duration  - note duration in seconds (0.0 if key-off not detected)
         velocity  - MIDI velocity approximated from Total Level (0–127);
                     defaults to 100
-        chip      - source chip: "ym2612" or "psg"
+        chip      - source chip: "ym2612", "sn76489", or "psg" (legacy alias)
     """
     channel:   int
     note:      int
@@ -141,7 +141,7 @@ class SymbolicScore:
                     # FM 0-5 -> Piano/E-Piano, PSG 6-8 -> Square Wave
                     program = 0 # Default Piano
                     is_drum = False
-                    if n.chip == "psg":
+                    if n.chip in ("psg", "sn76489"):
                         if n.channel == 9: # Noise
                             is_drum = True
                             program = 118 # Synth Drum

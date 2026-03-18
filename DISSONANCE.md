@@ -351,12 +351,46 @@ Gradient:
 
 Behavior:
 
-home → cluster 1  
-expand → 2 / 4  
-tolerate → 5  
-probe → 6  
+home → cluster 1 (Sakuraba / VGM)
+expand → 2 / 4 (Autechre / Silkie)
+tolerate → 5 (James Blake / Pop)
+probe → 6 (KIKIYAMA / Noise)
 
 ---
+
+## CANONICAL STRUCTURAL SIGNATURES
+
+These entities define specific coordinates in the operator's mental manifold.
+
+### The "Sakuraba" Signature (CORE)
+- **Primary Axis**: 0.92 Attractor Stability (Loop-dominant)
+- **Constraint**: 0.85 Generative Constraint (Sound-chip limits)
+- **Density**: 0.75 Structural Density (Stiff Aggro)
+
+### The "Autechre" Signature (BOUNDARY)
+- **Entropy**: 0.95 Control Entropy (Max algorithmic variance)
+- **Permeability**: 0.20 Basin Permeability (Abrupt shifts)
+- **Stability**: 0.40 Attractor Stability (Fragmented)
+
+### The "Dua Lipa" Signature (LOOSE BASIN)
+- **Stiffness**: 0.20 (Low Energy/Dance ratio)
+- **Acousticness**: 0.45 (Organic substrate)
+- **Valence**: 0.70 (High Basin Positive)
+- **Analysis**: "Loose" structural density used as an occasional relaxant to the "Stiffness" baseline.
+
+---
+
+## CROSS-DOMAIN MAPPING: WIKIPEDIA PROTOCOL
+
+The operator's Wikipedia activity (Top 0.01% contributor) projects identically into the CCS axes:
+
+| Axis | Wikipedia Proxy | Structural Reasoning |
+| :--- | :--- | :--- |
+| **Generative Constraint** | Template Enforcement | Strict adherence to manual-of-style and data structures. |
+| **Structural Density** | Edit Frequency | 188k+ edits / 3k pages = high structural pressure per unit. |
+| **Control Entropy** | Topic Range | From DotA 2 to NFL Stadiums (High information breadth). |
+| **Attractor Stability** | Routine Maintenance | Consistent daily structural pruning/template updates. |
+| **Basin Permeability** | Revert Frequency | High "Hard Cuts" to remove noise vs gradual evolution. |
 
 ------------------------------------------------------------
 GAMES
