@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:pokey",
-  "name": "Sound Chip: POKEY",
-  "type": "SoundChip",
-  "libvgm_id": "0x1E"
-}

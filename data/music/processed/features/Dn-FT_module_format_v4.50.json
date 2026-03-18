@@ -1,8 +1,0 @@
-{
-  "doc_id": "Dn-FT_module_format_v4.50",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

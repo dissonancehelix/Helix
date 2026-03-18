@@ -1,9 +1,9 @@
 """
-HIL Interpreter — Helix Formal System
+HSL Interpreter — Helix Formal System
 =======================================
-Parse, validate, and execute HIL commands through the five-layer pipeline:
+Parse, validate, and execute HSL commands through the five-layer pipeline:
 
-    HIL → Normalization → Semantics → Operator Runtime → Atlas Compiler → Atlas
+    HSL → Normalization → Semantics → Operator Runtime → Atlas Compiler → Atlas
 
 Entry point:
     run_command(raw: str, context: CommandContext | None = None) -> dict
@@ -214,10 +214,10 @@ class HILInterpreter:
                 label=params.get("label", name),
                 description=description,
                 metadata={
-                    "source": "hil",
-                    "source_stage": "hil_add",
+                    "source": "hsl",
+                    "source_stage": "hsl_add",
                     "source_artifact": "manual",
-                    "extraction_method": "hil_command",
+                    "extraction_method": "hsl_command",
                 },
             )
             entity.validate()

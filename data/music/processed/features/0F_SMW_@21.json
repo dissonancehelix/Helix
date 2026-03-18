@@ -1,8 +1,0 @@
-{
-  "doc_id": "0F_SMW_@21",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

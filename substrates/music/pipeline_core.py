@@ -1,14 +1,14 @@
 """
 pipeline_core.py — Helix Music Substrate Pipeline Core
 =========================================================
-Exposes the 18-stage music analysis pipeline as callable stage functions
+Exposes the 18-stage music translation pipeline as callable stage functions
 that Helix operators can invoke deterministically.
 
 This module is the internal orchestration layer. It must NOT be called
 directly as a standalone script in production — operators call stage
 functions through the Helix execution pipeline:
 
-    HIL → Operator → pipeline_core stage → Adapter → Toolkit → Artifact
+    HSL → Operator → pipeline_core translation → Adapter → Toolkit → Artifact
 
 Architecture:
     INGEST_TRACK operator  → stages: scan, ingest, tier_a_parse, chip_features
@@ -20,16 +20,16 @@ Operators MUST NOT write to Atlas directly. All Atlas writes go through
 the Atlas Compiler gate:
     artifacts/music/<track_id>/ → COMPILE_ATLAS → atlas/music/
 
-Stages:
+Stages (Dialect Translations):
     1  scan           — walk library, build file list
-    2  ingest         — insert track metadata into DB
-    3  tier_a_parse   — Tier A static parse (VGM/SPC/NSF/SID/etc.)
-    4  chip_features  — extract chip-level hardware features
-    5  tier_b_trace   — Tier B emulation trace (libvgm/gme if available)
-    6  symbolic       — symbolic reconstruction (note events, MIDI)
-    7  theory         — key estimation, tempo, motifs
-    8  mir            — audio MIR features (librosa, or chip proxy)
-    9  feature_vec    — build 64-dim feature vector
+    2  ingest         — translate raw metadata to HSL entities
+    3  chip_control   — translate to chip_control dialect (Tier A parse)
+    4  chip_invariants — extract invariants from chip_control dialect
+    5  emulation      — Tier B emulation trace (dialect refinement)
+    6  symbolic       — translate to symbolic_music dialect (MIDI/note events)
+    7  theory         — translate symbolic_music to high-level structures
+    8  perceptual     — translate to perceptual_audio dialect (MIR)
+    9  feature_vec    — mapping dialects to invariant feature space
     10 faiss          — build FAISS/KDTree similarity index
     11 composer_fp    — composer Gaussian fingerprinting
     12 attributions   — probabilistic composer attribution
@@ -51,12 +51,12 @@ from typing import Any
 STAGES: list[tuple[int, str]] = [
     (1,  "scan"),
     (2,  "ingest"),
-    (3,  "tier_a_parse"),
-    (4,  "chip_features"),
-    (5,  "tier_b_trace"),
+    (3,  "chip_control"),
+    (4,  "chip_invariants"),
+    (5,  "emulation"),
     (6,  "symbolic"),
     (7,  "theory"),
-    (8,  "mir"),
+    (8,  "perceptual"),
     (9,  "feature_vec"),
     (10, "faiss"),
     (11, "composer_fp"),
@@ -177,18 +177,18 @@ class PipelineCore:
             return self._stage_scan(ctx)
         elif name == "ingest":
             return self._stage_ingest(ctx)
-        elif name == "tier_a_parse":
-            return self._stage_tier_a_parse(ctx)
-        elif name == "chip_features":
-            return self._stage_chip_features(ctx)
-        elif name == "tier_b_trace":
-            return self._stage_tier_b_trace(ctx)
+        elif name == "chip_control": # formerly tier_a_parse
+            return self._stage_chip_control(ctx)
+        elif name == "chip_invariants": # formerly chip_features
+            return self._stage_chip_invariants(ctx)
+        elif name == "emulation": # formerly tier_b_trace
+            return self._stage_emulation(ctx)
         elif name == "symbolic":
             return self._stage_symbolic(ctx)
         elif name == "theory":
             return self._stage_theory(ctx)
-        elif name == "mir":
-            return self._stage_mir(ctx)
+        elif name == "perceptual": # formerly mir
+            return self._stage_perceptual(ctx)
         elif name == "feature_vec":
             return self._stage_feature_vec(ctx)
         elif name == "faiss":
@@ -232,34 +232,34 @@ class PipelineCore:
         count = proc.process(tracks)
         return {"summary": f"Ingested {count} tracks", "context_updates": {}}
 
-    def _stage_tier_a_parse(self, ctx: dict) -> dict:
+    def _stage_chip_control(self, ctx: dict) -> dict:
         from substrates.music.parsing.router import ParsingRouter
         tracks = ctx.get("tracks", [])
         router = ParsingRouter()
         results = router.parse_all(tracks, dry_run=self.dry_run)
         return {
-            "summary": f"Tier A parsed {len(results)} tracks",
-            "context_updates": {"tier_a_results": results},
+            "summary": f"Translated to chip_control: {len(results)} tracks",
+            "context_updates": {"chip_control_results": results},
         }
 
-    def _stage_chip_features(self, ctx: dict) -> dict:
+    def _stage_chip_invariants(self, ctx: dict) -> dict:
         from substrates.music.feature_extraction.feature_extractor import FeatureExtractor
-        tier_a = ctx.get("tier_a_results", {})
+        chip_ctrl = ctx.get("chip_control_results", {})
         extractor = FeatureExtractor()
-        features = extractor.extract_chip_features(tier_a)
+        features = extractor.extract_chip_features(chip_ctrl)
         return {
-            "summary": f"Extracted chip features for {len(features)} tracks",
-            "context_updates": {"chip_features": features},
+            "summary": f"Extracted chip invariants for {len(features)} tracks",
+            "context_updates": {"chip_invariants": features},
         }
 
-    def _stage_tier_b_trace(self, ctx: dict) -> dict:
+    def _stage_emulation(self, ctx: dict) -> dict:
         from substrates.music.measurement_synthesis.measurement_engine import MeasurementEngine
         tracks = ctx.get("tracks", [])
         engine = MeasurementEngine()
         traces = engine.trace_all(tracks, dry_run=self.dry_run)
         return {
-            "summary": f"Tier B traced {len(traces)} tracks",
-            "context_updates": {"tier_b_traces": traces},
+            "summary": f"Refined dialect via emulation: {len(traces)} tracks",
+            "context_updates": {"emulation_traces": traces},
         }
 
     def _stage_symbolic(self, ctx: dict) -> dict:
@@ -282,13 +282,13 @@ class PipelineCore:
             "context_updates": {"theory": theory},
         }
 
-    def _stage_mir(self, ctx: dict) -> dict:
+    def _stage_perceptual(self, ctx: dict) -> dict:
         from substrates.music.domain_analysis.mir import MIRAnalyzer
         tracks = ctx.get("tracks", [])
-        mir = MIRAnalyzer().analyze_all(tracks)
+        perceptual = MIRAnalyzer().analyze_all(tracks)
         return {
-            "summary": f"MIR features for {len(mir)} tracks",
-            "context_updates": {"mir": mir},
+            "summary": f"Translated to perceptual_audio: {len(perceptual)} tracks",
+            "context_updates": {"perceptual_audio": perceptual},
         }
 
     def _stage_feature_vec(self, ctx: dict) -> dict:

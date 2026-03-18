@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:ymf278b",
-  "name": "Sound Chip: YMF278B",
-  "type": "SoundChip",
-  "libvgm_id": "0x0D"
-}

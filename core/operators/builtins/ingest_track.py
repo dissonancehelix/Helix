@@ -8,9 +8,10 @@ from core.adapters import LibvgmAdapter, GmeAdapter, VgmstreamAdapter
 
 class IngestTrackOperator(BaseOperator):
     """
-    Ingest data into Helix. 
-    Supports 'indexing' (metadata only) and 'full' modes.
+    Translate raw data into Helix HSL-aligned dialects. 
+    Supports 'indexing' (metadata only) and 'translation' (full) modes.
     Handles multiple entity types (Track, KnowledgeSource, SoundDriver, SoundChip, CPU).
+    All outputs are framed as dialect translation stages.
     """
     
     def run(self, payload: dict[str, Any]) -> dict[str, Any]:
@@ -60,12 +61,13 @@ class IngestTrackOperator(BaseOperator):
                 "status": "indexed"
             }
             
-        # 5. Full Analysis (Only for supported types like Track)
+        # 5. Dialect Translation (Only for supported types like Track)
+        # Translates raw file into 'chip_control' dialect.
         if entity_type == "Track":
             adapter = self._route_to_adapter(p)
-            result = adapter.execute(payload)
+            result = adapter.execute(payload) # Performs chip_control extraction
             result.update(metadata)
-            result["analysis_status"] = "analyzed"
+            result["analysis_status"] = "translated"
             return result
             
         return {

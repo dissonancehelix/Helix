@@ -1,9 +1,0 @@
-{
-  "source": "chip_docs\\YM2151 User Manual.pdf",
-  "stage": "measurements",
-  "measurable_interpretation": "Determined via measurements analysis of YM2151 User Manual.pdf",
-  "metrics": {
-    "complexity": 0.5,
-    "structural_depth": 0.8
-  }
-}

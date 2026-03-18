@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:qsound",
-  "name": "Sound Chip: QSOUND",
-  "type": "SoundChip",
-  "libvgm_id": "0x1F"
-}

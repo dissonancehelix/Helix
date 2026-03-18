@@ -1,5 +1,7 @@
 # Runtime directory (local, non-architectural)
-runtime/*
+runtime/cache/
+runtime/tmp/
+runtime/claude/
 
 # Python
 __pycache__/
@@ -31,6 +33,40 @@ Thumbs.db
 experiments/output/
 /05_applications/eft/
 
-# Generated atlas data — large, rebuilt by pipeline stage 9
+# ── Data layer: processed outputs (all pipeline-generated, never committed) ──
+data/music/processed/
+data/language/processed/
+data/agents/processed/
+# Allow folder structure stubs (empty .gitkeep files are fine)
+!data/music/processed/**/.gitkeep
+!data/language/processed/**/.gitkeep
+
+# ── Execution layer: run artifacts and archives ──
+execution/runs/*/archive/
+execution/runs/*.zip
+execution/runs/*.tar.gz
+execution/runs/symbolic_scores/
+# Large per-run output JSONs (not probe_result.json)
+execution/runs/*/*_catalog.json
+execution/runs/*/*_rankings.json
+execution/runs/*/*_registry.json
+execution/runs/*/wikidata_*.json
+execution/logs/reports/*.json
+
+# ── Atlas: generated registries (rebuilt by COMPILE_ATLAS) ──
 atlas/entities/registry.json
 atlas/entities/entity_graph.json
+# Numbered per-run invariant artifacts (execution output, not structure)
+atlas/invariants/invariant_*_[0-9]*.json
+
+# ── Source code repos with their own git history ──
+# These are substrate language references stored as plain directories (not submodules)
+data/music/source/github/
+data/music/source/code/*/.git/
+
+# ── Binary / rendered outputs ──
+*.nrg
+*.bin
+*.iso
+data/music/source/audio/
+data/music/source/midi/

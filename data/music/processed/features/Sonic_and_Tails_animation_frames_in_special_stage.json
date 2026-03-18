@@ -1,8 +1,0 @@
-{
-  "doc_id": "Sonic_and_Tails_animation_frames_in_special_stage",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

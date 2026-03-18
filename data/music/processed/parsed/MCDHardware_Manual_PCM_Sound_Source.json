@@ -1,9 +1,0 @@
-{
-  "source": "chip_docs\\MCDHardware_Manual_PCM_Sound_Source.pdf",
-  "stage": "parsed",
-  "measurable_interpretation": "Determined via parsed analysis of MCDHardware_Manual_PCM_Sound_Source.pdf",
-  "metrics": {
-    "complexity": 0.5,
-    "structural_depth": 0.8
-  }
-}

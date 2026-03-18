@@ -59,7 +59,31 @@ raw files (data/music/source/)
 
 The Music Substrate is a translation and extraction layer. It converts music into structured data that Helix can reason over.
 
-### 1.2 What the Music Substrate is not
+### 1.2 Language-Based Hierarchy (HSL Alignment)
+
+As a **SubstrateLanguage** derived from HSL, the Music Substrate defines the following architectural layers:
+
+#### Languages
+The domain is partitioned into three specialized languages describing how structure exists:
+*   **chip-level control language**: Structural description of hardware state and register transitions.
+*   **symbolic music language**: High-level compositional structure (notes, harmony, motifs).
+*   **perceptual audio language**: Measurable properties of the sonic result (timbre, dynamics, spectral flow).
+
+#### Dialects (Representations)
+Each language is expressed through specific dialects:
+*   `chip_control` Dialects: **VGM**, **VGZ**, **SPC**, **NSF**, raw register write streams.
+*   `symbolic_music` Dialects: **MIDI**, **MusicXML**, **music21** stream objects.
+*   `perceptual_audio` Dialects: **waveform** (WAV, FLAC), **spectral features** (spectrograms, MFCCs).
+
+#### Translation Paths
+Processing in the Music Substrate is a formal translation between these dialects:
+1.  **chip → symbolic**: Decoding hardware events into musical notes and score structures.
+2.  **symbolic → perceptual**: Mapping compositional intent to predicted or measured sonic characteristics.
+3.  **chip → perceptual**: Direct rendering of hardware instructions into audio features (skipping symbolic representation where appropriate).
+
+Each stage of the pipeline transforms representation while preserving structural invariants.
+
+### 1.3 What the Music Substrate is not
 
 The Music Substrate is not:
 - a DAW or audio player
@@ -121,10 +145,18 @@ Scripts in `substrates/music/` must not be invoked directly in runtime mode.
 All substrate outputs are written to:
 
 ```
-artifacts/music/processed/
+data/music/processed/
 ```
 
-Never to `atlas/`. Artifacts accumulate in the **Execution Layer** before being persisted to the **Root Data Layer** under `data/music/processed/`.
+Never to `atlas/`. Artifacts correspond to specific **dialect translation stages** and accumulate in the **Execution Layer** before being persisted to the **Root Data Layer** under `data/music/processed/`.
+
+### 2.3 Data Structure Alignment
+The Music Substrate enforces a strict directory structure within `data/music/`:
+*   `source/`: Raw dialect inputs (e.g., PDFs, manuals, VGM/MIDI files, raw audio).
+*   `processed/`: Structured outputs of dialect translation stages (e.g., parsed events, extracted features, symbolic scores).
+*   `metadata/`: Curated annotations, tags, and structured descriptors.
+
+The `derived/` directory is prohibited; all non-source data must be mapped to specific dialect translation artifacts in `processed/`.
 
 ### 2.3 Hardware Ingestion Contract
 
@@ -304,12 +336,16 @@ Adapters:
 
 ### 5.1 Adapter inventory
 
-| Adapter | Toolkit | Output Type | Tier |
-|---------|---------|-------------|------|
-| `adapter_libvgm.py` | libvgm C library | ControlSequence | B |
-| `adapter_gme.py` | game-music-emu | ControlSequence | B |
-| `adapter_vgmstream.py` | vgmstream C library | ControlSequence | B |
-| `adapter_nuked_opn2.py` | Static YM2612 constants | Topology dict | A |
+| Adapter | Toolkit / Source | Output Type | Tier |
+|---------|-----------------|-------------|------|
+| `adapter_nuked_opn2.py` | `code/Nuked-OPN2` (ym3438.h) | YM2612 topology dict | A |
+| `adapter_nuked_opm.py` | `code/Nuked-OPM` (opm.c) | YM2151 topology dict | A |
+| `adapter_nuked_opl3.py` | `code/Nuked-OPL3` (opl3.c) | OPL3 topology dict (2-op/4-op) | A |
+| `adapter_smps.py` | `code/SMPS` source | SMPS timing + opcode constants | A |
+| `adapter_gems.py` | `code/GEMS`, `code/GEMSPlay`, `code/MidiConverters` | GEMS patch constants + MIDI bridge | A/B |
+| `adapter_libvgm.py` | `toolkits/libvgm` C library | ControlSequence | B |
+| `adapter_gme.py` | `toolkits/game-music-emu` | ControlSequence | B |
+| `adapter_vgmstream.py` | `toolkits/vgmstream` C library | ControlSequence | B |
 | `adapter_librosa.py` | librosa | SignalProfile | D |
 | `adapter_essentia.py` | essentia | SignalProfile extension | D |
 | `adapter_music21.py` | music21 | SymbolicScore | C |
@@ -879,7 +915,7 @@ Tracks with multiple artists are treated as latent mixtures to prevent style vec
 
 ---
 
-## 15. HIL CONTRACT
+## 15. HSL CONTRACT
 
 All automated orchestration occurs through HIL.
 
@@ -895,7 +931,7 @@ GRAPH neighbors music.composer:hiroshi_kawaguchi
 ATLAS lookup music.track:angel_island_zone_act_1
 ```
 
-The substrate must not invent alternative orchestration patterns. HIL is the only official automation interface.
+The substrate must not invent alternative orchestration patterns. HSL is the only official automation interface.
 
 ---
 
@@ -1047,25 +1083,44 @@ A future system can reconstruct the Music Substrate from this document. Required
 The Music Substrate integrates a wide array of specialized toolkits for synthesis tracing, audio analysis, and symbolic musicology. Each is integrated via the **Adapter** layer to ensure modularity.
 
 ### 22.1 Synthesis & Emulation (C-Layer)
-These toolkits reside in `runtime/deps/` and provide the **Causal Timeline** (register-level accuracy).
+These toolkits reside in `substrates/music/toolkits/` and provide the **Causal Timeline** (register-level accuracy).
 
-| Toolkit | Implementation Name | Usage in Helix |
-|---------|---------------------|----------------|
-| **Libvgm** | `libvgm` | Primary VGM/VGZ emulator. Used via `libvgm_bridge` for YM2612/SN76489 register-write tracing. |
-| **Game_Music_Emu** | `gme` | Multi-chip emulator for SPC, NSF, GBS, HES, KSS, AY. Used for 8/16-bit console formats. |
-| **Vgmstream** | `vgmstream` | Comprehensive audio decoder. Used for PSF, 2SF, USF, and modern streaming formats (.adx, .hca). |
-| **Nuked-OPN2** | `Nuked-OPN2` | Cycle-accurate OPN2 (YM2612) model. Used to derive algorithmic operator topology and brightness proxies. |
+| Toolkit | Location | Usage in Helix |
+|---------|----------|----------------|
+| **libvgm** | `toolkits/libvgm` | Primary VGM/VGZ emulator. Used via `libvgm_bridge` for YM2612/SN76489 register-write tracing. |
+| **game-music-emu** | `toolkits/game-music-emu` | Multi-chip emulator for SPC, NSF, GBS, HES, KSS, AY. Used for 8/16-bit console formats. |
+| **vgmstream** | `toolkits/vgmstream` | Comprehensive audio decoder. Used for PSF, 2SF, and modern streaming formats. |
+| **Nuked-OPN2** | `toolkits/Nuked-OPN2` | Cycle-accurate OPN2 (YM2612) reference. Carrier slot constants for FM topology analysis. |
+| **vgmtools** | `toolkits/vgmtools` | VGM utilities. `vgm2txt` compiled via `tool_bridge.compile_tools()` for register dump validation. |
 
-### 22.2 Driver-Level Analysis (Binary Analysis)
-Used for deeper inspection of sound drivers and instruction-level behavior.
+### 22.2 Chip Reference Models (Tier A — Static Constants)
+Extracted from source code in `data/music/source/code/`. No compilation required. Always available.
 
-| Toolkit | Description | Usage |
-|---------|-------------|-------|
-| **SMPS Source** | Sega Music Processor System | Reference source for Z80/68k drivers. Integration via `smps_reconstructor.py` for MIDI recovery. |
-| **GEMS Source** | Genesis Editor for Music and Sound | Sega's mid-90s interactive driver. Used for format-native patch extraction. |
-| **vgm2txt** | VGM utility | CLI tool used for raw register dumps when bypass of `libvgm_bridge` is required. |
+| Toolkit | Source | Adapter | What it provides |
+|---------|--------|---------|-----------------|
+| **Nuked-OPN2** | `code/Nuked-OPN2` | `adapter_nuked_opn2.py` | YM2612 algorithm → carrier slots, brightness proxy |
+| **Nuked-OPM** | `code/Nuked-OPM` | `adapter_nuked_opm.py` | YM2151 algorithm → carrier slots, brightness proxy |
+| **Nuked-OPL3** | `code/Nuked-OPL3` | `adapter_nuked_opl3.py` | OPL3 CON-bit topology (2-op and 4-op modes) |
 
-### 22.3 Signal & MIR Analysis (Python-Layer)
+### 22.3 Driver-Level Analysis (Tier A/B)
+Source in `data/music/source/code/`. Constants available at Tier A; binary tools compiled on demand via `tool_bridge.compile_tools()`.
+
+| Toolkit | Source | Adapter | Usage |
+|---------|--------|---------|-------|
+| **SMPS** | `code/SMPS` | `adapter_smps.py` | Tick rates, Tempo1Tick jitter, opcode table, volume steps |
+| **GEMS / GEMSPlay** | `code/GEMS`, `code/GEMSPlay` | `adapter_gems.py` | Patch byte format, field offsets |
+| **gems2mid** | `code/MidiConverters/gems2mid.c` | `adapter_gems.py` (via `tool_bridge`) | GEMS sequence → MIDI (Tier B binary) |
+| **vgm2txt** | `toolkits/vgmtools/vgm2txt.c` | `tool_bridge.vgm2txt()` | VGM register dump for parser validation |
+
+### 22.4 Format Converters (Tier B — Subprocess)
+Compiled from `data/music/source/code/` via `tool_bridge.compile_tools()`. Convert formats into VGM for the libvgm pipeline.
+
+| Tool | Source | Bridge function | What it enables |
+|------|--------|----------------|-----------------|
+| **s98tovgm** | `code/S98toVGM` | `tool_bridge.s98_to_vgm()` | S98 arcade recordings → VGM → register analysis |
+| **nsf2vgm** | `code/nsf2vgm` | `tool_bridge.nsf_to_vgm()` | NES NSF files → VGM → causal timeline analysis |
+
+### 22.5 Signal & MIR Analysis (Python-Layer)
 Provides the **Perceptual Timeline** (how the listener hears the sound).
 
 | Toolkit | Key Capabilities | Usage |
@@ -1073,7 +1128,7 @@ Provides the **Perceptual Timeline** (how the listener hears the sound).
 | **Librosa** | Spectral features, MFCC, Chroma, Onset detection. | Primary signal profile extractor in `LibrosaAdapter`. |
 | **Essentia** | Tonal Centroid, Chord segmentation, Rhythm features. | Advanced descriptors used by `EssentiaAdapter`. |
 
-### 22.4 Symbolic Musicology
+### 22.6 Symbolic Musicology
 Handles the **Compositional Representation** (notes and structure).
 
 | Toolkit | Purpose | Usage |
@@ -1081,7 +1136,7 @@ Handles the **Compositional Representation** (notes and structure).
 | **Music21** | Music XML, Score-level analysis, Parallel phrase detection. | Musicological research and score modeling in `Music21Adapter`. |
 | **PrettyMidi** | MIDI manipulation, Note density, Pitch histograms. | Efficient symbolic feature extraction in `PrettyMidiAdapter`. |
 
-### 22.5 Cross-Substrate Pattern Libraries
+### 22.7 Cross-Substrate Pattern Libraries
 - **FAISS**: Vector similarity search for motif and style clustering.
 - **NetworkX**: Relationship graph modeling and traversal.
 
@@ -1133,7 +1188,7 @@ Software layer orchestrating the hardware (e.g. GEMS, SMPS).
 ## Architecture Guardrail
 
 **Helix Architecture Law**
-`HIL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler`
+`HSL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler`
 
 * Operators orchestrate
 * Adapters translate

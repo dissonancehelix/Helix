@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:wswan",
-  "name": "Sound Chip: WSWAN",
-  "type": "SoundChip",
-  "libvgm_id": "0x21"
-}

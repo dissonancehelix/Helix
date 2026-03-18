@@ -1,9 +1,0 @@
-{
-  "source": "docs\\GEMS.htm",
-  "stage": "parsed",
-  "measurable_interpretation": "Determined via parsed analysis of GEMS.htm",
-  "metrics": {
-    "complexity": 0.5,
-    "structural_depth": 0.8
-  }
-}

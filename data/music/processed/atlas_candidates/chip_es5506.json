@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:es5506",
-  "name": "Sound Chip: ES5506",
-  "type": "SoundChip",
-  "libvgm_id": "0x25"
-}

@@ -1,8 +1,0 @@
-{
-  "doc_id": "gmopl_wohl_mod",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

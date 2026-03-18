@@ -685,7 +685,7 @@ def run(verbose: bool = True, overwrite: bool = False) -> dict[str, Any]:
     stats: dict[str, Any] = {"created": [], "skipped": [], "errors": [], "candidates": []}
     log = print if verbose else (lambda *a, **k: None)
 
-    log("=== Helix Atlas Compiler — Formal System ===")
+    log("=== Helix Atlas Compiler — HSL Formal System ===")
     log(f"Repo root: {REPO_ROOT}")
     log("Pipeline: normalize → semantic_validate → compile → atlas_commit")
 

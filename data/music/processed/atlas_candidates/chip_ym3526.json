@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:ym3526",
-  "name": "Sound Chip: YM3526",
-  "type": "SoundChip",
-  "libvgm_id": "0x0A"
-}

@@ -92,16 +92,16 @@ def _build_track_prompt(
     msf  = sym.get("musif", {}) or {}
 
     lines = [
-        f"# Track Analysis: {tn}",
+        f"# Track Dialect Analysis: {tn}",
         f"Composer (known/predicted): {composer or 'unknown'}",
         "",
-        "## Chip/Synthesis Layer",
+        "## chip_control dialect (Synthesis Layer)",
         f"  Duration: {l1.get('duration_sec')}s, KeyOn density: {l1.get('keyon_density')}/s",
         f"  Dominant algorithm: {l1.get('dominant_alg')}, Carrier brightness: {l1.get('carrier_brightness')}",
         f"  PSG/FM ratio: {l1.get('psg_to_fm_ratio')}, Silence: {l1.get('silence_ratio')}",
         f"  Rhythmic entropy: {l1.get('rhythmic_entropy')}, Pitch entropy: {l1.get('pitch_entropy')}",
         "",
-        "## Symbolic Music Layer",
+        "## symbolic_music dialect (Musical Layer)",
         f"  Key: {key.get('key')} {key.get('mode')} (confidence {key.get('confidence')})",
         f"  Tempo: {rhy.get('tempo_bpm')} BPM, Syncopation: {rhy.get('syncopation')}, Beat regularity: {rhy.get('beat_regularity')}",
         f"  Phrases: {mel.get('phrase_count')}, Mean phrase length: {mel.get('phrase_len_mean')} notes",
@@ -162,13 +162,13 @@ def _build_track_prompt(
     lines += [
         "",
         "---",
-        "Provide a concise musicological interpretation of this track covering:",
-        "1. **Melodic character** — what is compositionally distinctive about the melodic writing?",
+        "Provide a concise musicological interpretation of this track covering its HSL dialect translations:",
+        "1. **Melodic character (symbolic_music)** — what is compositionally distinctive about the melodic writing?",
         "2. **Harmonic language** — tonal center usage, chord vocabulary, progression tendencies",
         "3. **Rhythmic feel** — tempo, groove, syncopation character",
-        "4. **Synthesis identity** — how FM algorithm and operator choices shape the timbre",
+        "4. **Synthesis identity (chip_control)** — how FM algorithm and operator choices shape the timbre",
         "5. **Attribution signal** — which features are stylistically distinctive for composer attribution?",
-        "6. **Research insight** — one novel observation about this track's compositional technique",
+        "6. **Invariant discovery** — one novel observation about structural invariants detected across dialects",
         "",
         "Be concise (6 bullet points max). Use musicological terminology.",
     ]
@@ -270,9 +270,10 @@ def _call_claude(prompt: str, model: str = _DEFAULT_MODEL) -> str | None:
             max_tokens=_MAX_TOKENS,
             system=(
                 "You are a computational musicologist specializing in video game music (VGM) "
-                "analysis and FM synthesis. You interpret structured musical analysis outputs "
-                "to produce research-grade insights. You are precise, technically accurate, "
-                "and write in the style of an academic musicology paper."
+                "analysis and FM synthesis within the Helix Structural Language (HSL) framework. "
+                "You interpret translated musical dialects (chip_control, symbolic_music, etc.) "
+                "to produce research-grade insights and discover structural invariants. "
+                "You are precise, technically accurate, and write in the style of an academic musicology paper."
             ),
             messages=[{"role": "user", "content": prompt}],
         )

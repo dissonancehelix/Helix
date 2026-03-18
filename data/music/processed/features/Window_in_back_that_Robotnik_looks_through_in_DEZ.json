@@ -1,8 +1,0 @@
-{
-  "doc_id": "Window_in_back_that_Robotnik_looks_through_in_DEZ",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

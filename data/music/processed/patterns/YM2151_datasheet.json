@@ -1,9 +1,0 @@
-{
-  "source": "chip_docs\\YM2151_datasheet.pdf",
-  "stage": "patterns",
-  "measurable_interpretation": "Determined via patterns analysis of YM2151_datasheet.pdf",
-  "metrics": {
-    "complexity": 0.5,
-    "structural_depth": 0.8
-  }
-}

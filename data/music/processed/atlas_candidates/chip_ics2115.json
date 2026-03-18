@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:ics2115",
-  "name": "Sound Chip: ICS2115",
-  "type": "SoundChip",
-  "libvgm_id": "0x2F"
-}

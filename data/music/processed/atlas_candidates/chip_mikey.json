@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:mikey",
-  "name": "Sound Chip: MIKEY",
-  "type": "SoundChip",
-  "libvgm_id": "0x29"
-}

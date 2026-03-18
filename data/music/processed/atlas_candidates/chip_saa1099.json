@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:saa1099",
-  "name": "Sound Chip: SAA1099",
-  "type": "SoundChip",
-  "libvgm_id": "0x23"
-}

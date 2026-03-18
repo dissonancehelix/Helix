@@ -1,8 +1,0 @@
-{
-  "doc_id": "pack-a737e243a4417a7c4676da6012491afa7ff785af",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

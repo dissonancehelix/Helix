@@ -60,12 +60,12 @@ _BUILTIN_SPECS: list[OperatorSpec] = [
         pipeline_stages=(
             "validate_source",
             "route_to_adapter",
-            "render_control_sequence",
+            "translate_to_chip_control",    # formerly render_control_sequence
             "write_artifact",
         ),
         failure_conditions=("file_not_found", "adapter_unavailable"),
-        description="Ingest music file and produce ControlSequence artifact.",
-        version="2.0.0",
+        description="Translate raw source into chip_control dialect.",
+        version="2.1.0",
     ),
 
     OperatorSpec(
@@ -81,16 +81,16 @@ _BUILTIN_SPECS: list[OperatorSpec] = [
         },
         pipeline_stages=(
             "load_artifacts",
-            "extract_mir_features",       # SignalProfile → mir_features.json
-            "extract_motif_features",     # SymbolicScore → motif_features.json
-            "generate_collapse_geometry", # DCP analysis
-            "generate_causal_map",        # dual timeline linking
-            "compute_style_vector",       # ArtistStyleVector (if Composer provided)
+            "translate_to_perceptual_audio", # SignalProfile → mir_features.json
+            "translate_to_symbolic_music",  # SymbolicScore → motif_features.json
+            "generate_collapse_geometry",   # DCP analysis
+            "generate_causal_map",          # cross-dialect mapping
+            "compute_style_vector",         # ArtistStyleVector (if Composer provided)
             "write_research_artifacts",
         ),
         failure_conditions=("data_missing", "analysis_error"),
-        description="Full structural analysis. Produces MIR, Motif, Geometry, and Causal artifacts.",
-        version="2.0.0",
+        description="Translate chip_control into symbolic_music and perceptual_audio dialects.",
+        version="2.1.0",
     ),
 
     OperatorSpec(
@@ -108,8 +108,8 @@ _BUILTIN_SPECS: list[OperatorSpec] = [
             "generate_output",
         ),
         failure_conditions=("empty_atlas", "search_error"),
-        description="Search for patterns (data-driven) or model instances (theory-driven).",
-        version="2.0.0",
+        description="Search for patterns (data-driven) or model instances (theory-driven) via HSL candidates.",
+        version="2.1.0",
     ),
 
     OperatorSpec(
@@ -216,7 +216,7 @@ _BUILTIN_SPECS: list[OperatorSpec] = [
             "atlas_commit",
         ),
         failure_conditions=("validation_error", "write_blocked"),
-        description="The ONLY authorized path for writing to Atlas. Compiles artifacts into entities.",
-        version="2.0.0",
+        description="The ONLY authorized path for writing to Atlas. Compiles dialect-specific artifacts into cross-language Atlas entities.",
+        version="2.1.0",
     ),
 ]

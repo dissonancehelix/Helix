@@ -4,7 +4,8 @@ from core.operators.base import BaseOperator
 
 class AnalyzeTrackOperator(BaseOperator):
     """
-    Perform structural analysis on one or more tracks.
+    Perform structural translation across substrate dialects.
+    Translates 'chip_control' into 'symbolic_music' and 'perceptual_audio' dialects.
     Constraints: respect Knowledge Gain, no global runs without scope.
     """
     
@@ -21,11 +22,12 @@ class AnalyzeTrackOperator(BaseOperator):
         mode = payload.get("mode", "default")
         attr_type = payload.get("attribution_type", "solo")
         
-        # 1. Analysis Gating: Respect Knowledge Gain (concept)
+        # 1. Translation Gating: Respect Knowledge Gain (concept)
         # if atlas.is_saturated(substrate='music'): return {"status": "gated"}
             
-        # 2. Structural Features Extraction
-        # mir_features, motif_features, collapse_geometry, cause_effect_map
+        # 2. Cross-Dialect Translation
+        # chip_control → perceptual_audio
+        # chip_control → symbolic_music
         
         # 3. Attribution-weighted style formation
         weighted_contributions = []
@@ -40,8 +42,8 @@ class AnalyzeTrackOperator(BaseOperator):
 
         return {
             "track_id": track_id,
-            "mir_features": {"status": "extracted"},
-            "motif_features": {"status": "extracted"},
+            "perceptual_audio": {"status": "translated"},  # formerly mir_features
+            "symbolic_music": {"status": "translated"},    # formerly motif_features
             "collapse_geometry": {"status": "generated"},
             "cause_effect_map": {"status": "generated"},
             "artist_style_vector": {

@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:msm6258",
-  "name": "Sound Chip: MSM6258",
-  "type": "SoundChip",
-  "libvgm_id": "0x17"
-}

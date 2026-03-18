@@ -1,6 +1,0 @@
-{
-  "id": "music.sound_chip:gb_dmg",
-  "name": "Sound Chip: GB_DMG",
-  "type": "SoundChip",
-  "libvgm_id": "0x13"
-}

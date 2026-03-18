@@ -4,7 +4,9 @@
 
 Helix is a constrained, deterministic research machine. It discovers structural invariants across complex systems by running experiments through a formal five-layer execution pipeline. Every input is normalized, every entity is semantically validated, every action is performed by a registered operator, and every piece of knowledge is compiled into a structured Atlas before it can be reasoned about.
 
-This document is the authoritative system specification. A complete Helix instance can be regenerated from this file, `HIL.md`, and the substrate READMEs.
+The system is built on **HSL (Helix Structural Language)**, the root abstraction from which all domain-specific languages (substrates) are derived.
+
+This document is the authoritative system specification. A complete Helix instance can be regenerated from this file, `HSL.md`, and the substrate READMEs.
 
 ---
 
@@ -21,7 +23,7 @@ No direct Atlas writes.
 All execution passes through:
 
 ```
-HIL → Normalization → Semantics → Operators → Atlas Compiler → Atlas
+HSL → Normalization → Semantics → Operators → Atlas Compiler → Atlas
 ```
 
 Substrates produce artifacts. The Atlas Compiler converts artifacts into Atlas entities. Nothing else writes to Atlas.
@@ -30,9 +32,9 @@ Substrates produce artifacts. The Atlas Compiler converts artifacts into Atlas e
 
 ## Execution Pipeline
 
-### Layer 1 — HIL (Syntax)
+### Layer 1 — HSL (Syntax)
 
-The Helix Interface Language. A strict formal DSL. The only valid way to express intent in Helix. See `HIL.md` for the complete language specification.
+The Helix Structural Language. A strict formal DSL. The only valid way to express intent and structure in Helix. See `HSL.md` for the complete language specification.
 
 | Component | Location | Purpose |
 |-----------|----------|---------|
@@ -42,14 +44,14 @@ The Helix Interface Language. A strict formal DSL. The only valid way to express
 | Interpreter | `core/hil/interpreter.py` | Command execution dispatcher |
 | Dispatcher | `core/hil/hil_dispatch.py` | Routes to interpreter or kernel |
 | Normalizer | `core/hil/normalizer.py` | Shim → `core/normalization/` |
-| Aliases | `core/hil/aliases.py` | Human shorthand → canonical HIL |
+| Aliases | `core/hil/aliases.py` | Human shorthand → canonical HSL |
 | Command registry | `core/hil/command_registry.py` | Formal spec of all 24 command families |
-| AST nodes | `core/hil/ast_nodes.py` | `HILCommand`, `TypedRef`, `RangeExpr` |
+| AST nodes | `core/hil/ast_nodes.py` | `HSLCommand`, `TypedRef`, `RangeExpr` |
 | Errors | `core/hil/errors.py` | 6 typed error classes |
 | Semantic roles | `core/hil/semantic_roles.py` | 11 relationship role types |
-| Ontology | `core/hil/ontology.py` | 24 HIL object types, valid engines |
+| Ontology | `core/hil/ontology.py` | 24 HSL object types, valid engines |
 
-Non-HIL input is rejected. There is no fallback to Python or shell in runtime mode.
+Non-HSL input is rejected. There is no fallback to Python or shell in runtime mode.
 
 ### Layer 2 — Normalization
 
@@ -145,7 +147,7 @@ Helix/
 ├── helix                          ← CLI entry point (bash wrapper)
 ├── README.md                      ← System Overview
 ├── SPEC.md                        ← Detailed technical specification
-├── HIL.md                         ← HIL language specification
+├── HSL.md                         ← HSL language specification
 ├── DISSONANCE.md                  ← Operator profile
 ├── pyproject.toml                 ← Python package definition
 │
@@ -262,6 +264,54 @@ music.controlsequence:8aa0534f_cs
 
 ---
 
+## HSL Architecture Schemas
+
+### HSL (Root Language)
+```json
+{
+  "language": "HSL",
+  "version": "2.0.0",
+  "capabilities": ["representation", "translation", "alignment", "invariant_discovery"],
+  "root_abstraction": true
+}
+```
+
+### SubstrateLanguage
+```json
+{
+  "type": "SubstrateLanguage",
+  "derived_from": "HSL",
+  "id": "substrate.language:slug",
+  "domain": "string",
+  "dialects": ["list of dialect slugs"]
+}
+```
+
+### Dialect
+```json
+{
+  "type": "Dialect",
+  "id": "substrate.dialect:slug",
+  "substrate": "substrate.language:slug",
+  "representation_format": "string",
+  "structural_rules": "list"
+}
+```
+
+### TranslationMapping
+```json
+{
+  "type": "TranslationMapping",
+  "id": "translation.map:slug",
+  "source_dialect": "substrate.dialect:slug",
+  "target_dialect": "substrate.dialect:slug",
+  "transformation_logic": "operator_id",
+  "lossless": true
+}
+```
+
+---
+
 ## Invariant Lifecycle System
 
 Invariants are hypotheses describing recurring structural patterns (Decision Compression, Epistemic Irreversibility, etc.).
@@ -291,7 +341,7 @@ Helix operates as a self-correcting research system:
 
 ## Operator Registry
 
-12 registered operators. `RUN operator:UNKNOWN` raises `HILValidationError` in all modes.
+12 registered operators. `RUN operator:UNKNOWN` raises `HSLValidationError` in all modes.
 
 ### Music Substrate Operators
 
@@ -343,6 +393,12 @@ Adapters are registered by their original names (e.g., `LibvgmAdapter`) but impl
 ---
 
 ## Atlas Architecture
+
+### Definition
+The **Atlas** is a graph of structures expressed across languages and dialects. It functions as the structural memory of Helix, storing entities and invariants in a way that supports:
+*   **Cross-Dialect Mapping**: Linking equivalent structures across different representations.
+*   **Invariant Detection**: Identifying patterns that persist across multiple dialects and substrates.
+*   **Structural Equivalence**: Comparing data independent of its original format.
 
 ### Directory Layout
 
@@ -534,7 +590,7 @@ Atlas relationship types for cross-era:
 
 ```bash
 helix                           # interactive REPL
-helix "HIL COMMAND"             # single command
+helix "HSL COMMAND"             # single command
 helix script.hil                # execute .hil script file
 echo "VERB target" | helix      # piped input
 ```
@@ -548,7 +604,7 @@ RUN operator:ANALYZE_TRACK track:music.track:<id>
 RUN operator:STYLE_VECTOR composer:music.composer:<slug>
 RUN operator:COMPILE_ATLAS
 RUN operator:SCAN substrate:music
-RUN operator:UNDEFINED              → HILValidationError (closed-world)
+RUN operator:UNDEFINED              → HSLValidationError (closed-world)
 
 OPERATOR list
 OPERATOR status operator:PROBE
@@ -618,7 +674,7 @@ SYSTEM sync
 4. Substrate code must not import from `core/operators/`, `core/semantics/`, or `core/compiler/`.
 5. No substrate may write to `atlas/` directly. All Atlas writes through `COMPILE` or `COMPILE_ATLAS`.
 6. No new pip dependency without a corresponding adapter in `core/adapters/`.
-7. No standalone pipeline scripts. All execution through HIL operators.
+7. No standalone pipeline scripts. All execution through HSL operators.
 8. `INTEGRITY check` must pass clean before any commit to main.
 
 ### Promotion Gate (invariants)
@@ -671,7 +727,7 @@ To regenerate a complete Helix instance from scratch, implement in this order:
 
 | Priority | Component | Key Files | Spec Source |
 |----------|-----------|-----------|-------------|
-| 1 | HIL syntax layer | `core/hil/` | `HIL.md` |
+| 1 | HSL syntax layer | `core/hil/` | `HSL.md` |
 | 2 | Normalization gate | `core/normalization/` | This README, Layer 2 |
 | 3 | Semantics layer | `core/semantics/` | This README, Entity Types |
 | 4 | Entity schema | `core/kernel/schema/entities/` | This README, Entity Schema |
@@ -693,10 +749,10 @@ To regenerate a complete Helix instance from scratch, implement in this order:
 | File | Purpose |
 |------|---------|
 | `helix` | Bash CLI entry point |
-| `HIL.md` | HIL language specification |
-| `core/hil/grammar.ebnf` | Formal HIL grammar (EBNF) |
-| `core/hil/interpreter.py` | HIL execution engine + execution modes |
-| `core/hil/command_registry.py` | All 24 HIL command family specs |
+| `HSL.md` | HSL language specification |
+| `core/hil/grammar.ebnf` | Formal HSL grammar (EBNF) |
+| `core/hil/interpreter.py` | HSL execution engine + execution modes |
+| `core/hil/command_registry.py` | All 24 HSL command family specs |
 | `core/normalization/normalizer.py` | Normalization pipeline |
 | `core/normalization/id_enforcer.py` | ID pattern enforcement |
 | `core/semantics/entity_registry/entity_types.py` | All 19 semantic signatures |
@@ -726,7 +782,7 @@ To regenerate a complete Helix instance from scratch, implement in this order:
 ## Architecture Guardrail
 
 **Helix Architecture Law**
-`HIL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler`
+`HSL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler`
 
 * Operators orchestrate
 * Adapters translate
@@ -789,3 +845,113 @@ All data ingestion MUST be deterministic, structural, and decomposed.
 3.  **Entity Decomposition**: Systems MUST be decomposed into reusable entities (operators, topolgoies).
 4.  **No True Invariants**: Forbidden to assert invariants; only `invariant_candidates` allowed.
 5.  **Measurable Interpretation**: Use quantifiable metrics, not vague descriptors.
+
+---
+
+## LLM Governance Contract
+
+Helix is a **closed structural system**. All large language models (LLMs) interacting with Helix are **execution agents**, not architects. LLMs must operate strictly within the Helix Structural Language (HSL) and repository specifications. They are not permitted to reinterpret, extend, or redefine the system.
+
+### 1. Authority Hierarchy
+
+The source of truth in Helix is:
+
+1. HSL (Helix Structural Language)
+2. SPEC (machine-enforceable architecture)
+3. Substrate specifications
+4. Repository structure
+
+LLM outputs are **never authoritative**. They must conform to the above hierarchy.
+
+### 2. Prohibited Actions
+
+LLMs must NOT:
+
+- Rename core concepts (HSL, Substrate, Dialect, Atlas, Translation)
+- Introduce new architectural layers or abstractions
+- Merge distinct layers (structure, execution, data)
+- Reinterpret substrate boundaries
+- Invent alternative pipelines or workflows
+- Modify naming conventions without explicit instruction
+- Replace deterministic structure with heuristic descriptions
+
+Any of the above constitutes **architectural drift**.
+
+### 3. Required Behavior
+
+LLMs must:
+
+- Treat substrates as **languages**
+- Treat dialects as **equivalent structural representations**
+- Treat all processing as **translation between dialects**
+- Preserve strict separation:
+  - `data/` (storage)
+  - `execution/` (runtime)
+  - system code (structure)
+
+If ambiguity exists: → preserve structure rather than invent new interpretation
+
+### 4. Structural Validation Requirement
+
+All LLM outputs must internally satisfy:
+
+- HSL hierarchy is preserved
+- No new abstractions are introduced
+- Translation pathways remain explicit
+- Data is not embedded into structural layers
+- Outputs remain reconstructable
+
+If any condition is violated: → output must be corrected before completion
+
+### 5. Multi-Model Consistency
+
+Different LLMs may produce different outputs. Helix treats LLM disagreement as a **signal**, not authority.
+
+- Agreement across models increases confidence
+- Disagreement requires inspection
+- No single model defines truth
+
+Structural correctness is determined by alignment with HSL and SPEC, not by model output.
+
+### 6. Role of LLMs in Helix
+
+LLMs function as:
+
+- Executors of defined transformations
+- Translators between representations
+- Assistants for structural reasoning
+
+LLMs are NOT:
+
+- System designers
+- Architectural authorities
+- Sources of truth
+
+### 7. Architectural Drift Definition
+
+Architectural drift occurs when:
+
+- System structure changes without specification updates
+- Concepts are renamed or merged implicitly
+- Data and structure boundaries are violated
+- New abstractions appear without formal definition
+
+All drift must be corrected immediately.
+
+### 8. Enforcement Philosophy
+
+Helix prioritizes:
+
+> structural integrity over convenience
+
+Correct structure must be preserved even if it requires:
+
+- rejecting LLM output
+- re-running tasks
+- manual correction
+
+No output is accepted if it violates system architecture.
+
+---
+
+*This contract applies to all current and future LLM interactions with Helix.*

@@ -1,9 +1,0 @@
-{
-  "source": "chip_docs\\YM3438_JP_Application_Manual.pdf",
-  "stage": "parsed",
-  "measurable_interpretation": "Determined via parsed analysis of YM3438_JP_Application_Manual.pdf",
-  "metrics": {
-    "complexity": 0.5,
-    "structural_depth": 0.8
-  }
-}

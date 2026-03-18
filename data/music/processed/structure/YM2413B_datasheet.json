@@ -1,9 +1,0 @@
-{
-  "source": "chip_docs\\YM2413B_datasheet.pdf",
-  "stage": "structure",
-  "measurable_interpretation": "Determined via structure analysis of YM2413B_datasheet.pdf",
-  "metrics": {
-    "complexity": 0.5,
-    "structural_depth": 0.8
-  }
-}

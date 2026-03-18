@@ -4,7 +4,7 @@ Operators — OperatorRegistry
 Singleton registry of all known Helix operators.
 
 In runtime mode, only registered operators may be executed via RUN.
-Any RUN targeting an unregistered operator raises HILValidationError.
+Any RUN targeting an unregistered operator raises HSLValidationError.
 """
 from __future__ import annotations
 
@@ -58,8 +58,8 @@ class OperatorRegistry:
         """
         spec = self.get(name)
         if spec is None:
-            from core.hil.errors import HILValidationError
-            raise HILValidationError(
+            from core.hil.errors import HSLValidationError
+            raise HSLValidationError(
                 f"Unknown operator {name!r}. "
                 f"Registered operators: {', '.join(sorted(self._operators))}",
                 raw=f"RUN operator:{name}",

@@ -1,8 +1,0 @@
-{
-  "doc_id": "Platform_on_belt_in_WFZ",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

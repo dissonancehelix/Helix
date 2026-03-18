@@ -1,8 +1,0 @@
-{
-  "doc_id": "prog-z80-1.63",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

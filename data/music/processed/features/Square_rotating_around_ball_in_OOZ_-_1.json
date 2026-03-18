@@ -1,8 +1,0 @@
-{
-  "doc_id": "Square_rotating_around_ball_in_OOZ_-_1",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

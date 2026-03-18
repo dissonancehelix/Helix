@@ -85,9 +85,47 @@ Helix separates **running analysis tools** from **storing knowledge**.
 
 Operators define analysis tasks such as ingesting datasets or analyzing tracks.
 
-Adapters translate the output of external tools into structured artifacts that Helix can store.
+Adapters translate the output of external tools into structured artifacts that Helix can store. All adapters follow a strict tier system based on availability:
+
+| Tier | Description | Adapters |
+|------|-------------|---------|
+| A | Static constants — always available, no build required | `nuked_opn2`, `nuked_opm`, `nuked_opl3`, `smps`, `gems` |
+| B | Compiled C libraries or binaries — requires build step | `libvgm`, `gme`, `vgmstream` |
+| C | Python symbolic analysis packages | `music21`, `pretty_midi` |
+| D | Python MIR / signal analysis packages | `librosa`, `essentia` |
+
+The substrate operates at the highest available tier. Missing Tier B libraries degrade gracefully to Tier A — the system never fails on missing optional dependencies.
 
 This separation ensures that external tools cannot directly modify the atlas.
+
+---
+
+# Language-Based Architecture
+
+Helix is structured as a hierarchical translation system where all data is treated as a language.
+
+### HSL (Helix Structural Language)
+HSL is the **root structural language** of Helix. It provides the base abstraction for representing structure, enabling translation between domains, and facilitating invariant discovery. HSL acts as the unifying layer across all substrates.
+
+### Substrates as Languages
+Every substrate in Helix is a **SubstrateLanguage** derived from HSL. A substrate describes how structure exists within a specific domain:
+*   **Music**: A temporal and expressive structural language.
+*   **Math**: A symbolic and formal structural language.
+*   **Control**: A state-transition and causal language.
+
+### Dialects as Representations
+Within a substrate language, different representations of the same underlying structure are defined as **Dialects**. For example, in the Music substrate:
+*   `chip_control`: Register writes and hardware instructions (e.g., VGM).
+*   `symbolic_music`: High-level musical notation (e.g., MIDI, music21).
+*   `perceptual_audio`: Rendered sound and spectral features (e.g., waveform).
+
+These are not independent silos; they are equivalent structural views expressed in different dialects.
+
+### Translation as Operation
+All processing in Helix is framed as **Translation between dialects**. Ingestion and analysis pipelines are translation chains that transform one representation into another without loss of structural meaning (e.g., `chip_control` → `symbolic_music` → `perceptual_audio`).
+
+### Atlas as Structural Memory
+The **atlas** is a graph of structures expressed across languages and dialects. It explicitly supports cross-dialect mapping, invariant detection across representations, and structural comparison independent of specific file formats.
 
 ---
 
@@ -101,19 +139,23 @@ Human Interface Layer → Operators → Adapters → Toolkits → Artifacts → 
 
 ## Data Layer (Helix Data Root)
 
-Helix enforces a unified root data layer at `helix/data/`. This separates raw and processed knowledge from the engine logic.
+Helix enforces a unified root data layer at `data/`. This separates raw and processed knowledge from the engine logic.
 
-*   `data/<domain>/source/`: Immutable raw knowledge (manuals, audio, code).
-*   `data/<domain>/processed/`: Structured, reusable outputs (parsed, features, structure).
+*   `data/<domain>/source/`: Raw inputs — chip specification PDFs, source code repositories, VGM files.
+*   `data/<domain>/processed/`: Pipeline-generated outputs (parsed, features, structure, atlas candidates). Never committed — rebuilt by the pipeline.
 *   `data/<domain>/metadata/`: Tags, annotations, and curated metadata.
+
+Source code repositories in `data/music/source/code/` serve as **substrate language references** — the canonical source material for chip emulators, sound drivers, and format converters used by the adapter layer.
 
 ## Execution Layer
 
-All runtime traces, logs, and temporary outputs are stored in `helix/execution/`.
+All runtime traces and probe outputs are stored in `execution/`.
 
-*   `execution/runs/`: Command history and results.
+*   `execution/runs/`: Probe run artifacts and experiment outputs.
 *   `execution/logs/`: Detailed trace logs.
 *   `execution/integrity/`: Tests and validation reports.
+
+Large execution outputs (archives, per-run data dumps) are excluded from version control via `.gitignore`.
 
 ---
 

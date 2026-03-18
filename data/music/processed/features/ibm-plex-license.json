@@ -1,8 +1,0 @@
-{
-  "doc_id": "ibm-plex-license",
-  "complexity_metrics": {
-    "degrees_of_freedom": 64,
-    "control_resolution": 8,
-    "temporal_dependency": 4
-  }
-}

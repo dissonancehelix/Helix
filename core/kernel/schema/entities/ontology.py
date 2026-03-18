@@ -42,18 +42,18 @@ ENTITY_RESERVED_TYPES: frozenset[str] = frozenset({
     "ResearchReport",      # high-level research output (falsification, mapping, etc.)
 })
 
-# Music analysis entity types: produced by the music operator pipeline
-# (INGEST_TRACK → ANALYZE_TRACK → STYLE_VECTOR → COMPILE_ATLAS)
-ENTITY_MUSIC_ANALYSIS_TYPES: frozenset[str] = frozenset({
-    "ControlSequence",    # hardware-level register-write log
-    "SymbolicScore",      # music-theory representation (notes, chords, intervals)
-    "SignalProfile",      # audio feature representation (spectral, rhythm, timbral)
-    "ArtistStyleVector",  # aggregated musical fingerprint for a composer
+# HSL structural entity types: produced by substrate translation pipelines
+# (e.g. INGEST_TRACK → ANALYZE_TRACK → STYLE_VECTOR → COMPILE_ATLAS)
+ENTITY_HSL_STRUCTURAL_TYPES: frozenset[str] = frozenset({
+    "ControlSequence",    # chip_control dialect artifact
+    "SymbolicScore",      # symbolic_music dialect artifact
+    "SignalProfile",      # perceptual_audio dialect artifact
+    "ArtistStyleVector",  # style_space invariant representation
 })
 
 # Full ontology: all recognized entity types
 ENTITY_ONTOLOGY: frozenset[str] = (
-    ENTITY_CORE_TYPES | ENTITY_RESERVED_TYPES | ENTITY_MUSIC_ANALYSIS_TYPES
+    ENTITY_CORE_TYPES | ENTITY_RESERVED_TYPES | ENTITY_HSL_STRUCTURAL_TYPES
 )
 
 

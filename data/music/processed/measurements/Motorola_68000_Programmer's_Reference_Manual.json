@@ -1,9 +1,0 @@
-{
-  "source": "chip_docs\\Motorola_68000_Programmer's_Reference_Manual.pdf",
-  "stage": "measurements",
-  "measurable_interpretation": "Determined via measurements analysis of Motorola_68000_Programmer's_Reference_Manual.pdf",
-  "metrics": {
-    "complexity": 0.5,
-    "structural_depth": 0.8
-  }
-}
