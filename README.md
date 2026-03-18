@@ -27,6 +27,10 @@ This philosophy guides the design of the system:
 
 Helix therefore acts both as an analysis environment and as a system for documenting discovery.
 
+**same invariant, different observability**
+
+Different representations of the same underlying system — chip register writes, symbolic notation, rendered audio — are not different objects. They are different observability layers on the same structure. Helix is designed to recover that structure regardless of which layers are available. The invariant is the target. The representation is the window.
+
 ---
 
 # Purpose

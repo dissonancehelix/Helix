@@ -312,6 +312,20 @@ music.controlsequence:8aa0534f_cs
 
 ---
 
+## Invariant Definition Constraints
+
+Invariants must be defined independent of any single dialect. Dialects are partial observations of the same underlying structure — a VGM register stream, a MIDI score, and a rendered audio file may all express the same compositional object through different observability windows. An invariant that can only be measured in one dialect is not a structural invariant; it is a format artifact.
+
+Helix models structure under partial observability, reconstructing invariants from available representations.
+
+Required properties for a valid invariant definition:
+- Measurable from at least one dialect (perceptual_audio is the minimum baseline)
+- Not invalidated by the absence of any single dialect
+- Confidence score must reflect observability depth of supporting evidence
+- Missing dialect fields are recorded as absent, not as zero or default
+
+---
+
 ## Invariant Lifecycle System
 
 Invariants are hypotheses describing recurring structural patterns (Decision Compression, Epistemic Irreversibility, etc.).
