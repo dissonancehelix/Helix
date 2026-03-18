@@ -334,6 +334,8 @@ Non-uniform weights may be applied externally by multiplying each axis differenc
 2. Comparison between embeddings with `confidence < 0.30` must be explicitly flagged — low-confidence embeddings produce unreliable distance values.
 3. Comparison does not require identical domains — axes are domain-agnostic — but differences in normalization reference may cause systematic bias.
 
+
+
 ---
 
 ## 8. Domain Extension

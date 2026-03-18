@@ -8,6 +8,9 @@ The system is designed to help both humans and reasoning systems understand how 
 
 Structure is invariant. Observation is partial. Alignment recovers truth.
 
+**Core Question:**
+Can invariant structure be reliably reconstructed from partially observable representations across domains?
+
 ---
 
 # Philosophy
@@ -28,6 +31,8 @@ This philosophy guides the design of the system:
 * knowledge should be stored as connected entities rather than isolated files
 
 Helix therefore acts both as an analysis environment and as a system for documenting discovery.
+
+Helix assumes that invariant structure exists across representations and is recoverable under partial observability. This assumption is treated as falsifiable and must be continuously tested through cross-dataset validation and counterexample discovery.
 
 **same invariant, different observability**
 
@@ -147,6 +152,13 @@ Different formats expose different amounts of structural information. Helix form
 
 The substrate operates at the highest available observability depth for each input.
 
+### Partial Observability Constraint
+*   The true system state is not directly accessible; all inputs are projections (dialects) that discard or distort information.
+*   Different projections may map to the same underlying structure, requiring cross-dialect alignment.
+*   Helix must operate without assuming full causal visibility; missing representations are expected, not failure cases.
+*   Structural inference is a reconstruction problem across multiple noisy projections.
+*   Invariants are treated as **candidate invariants** until validated across independent observability layers.
+
 ### Composer Identity as Invariant Structure
 Helix is not primarily classifying formats or chips. The deeper goal is identifying **persistent compositional identity** across representations — what survives when the format, hardware, and era change. A composer fingerprint is defined by structural habits, decision patterns, motif behavior, harmonic tendencies, and control idioms. This identity is representation-invariant and must be discoverable whether the source is a VGM register dump, a MIDI file, or a rendered audio recording.
 
@@ -213,7 +225,7 @@ Helix uses methods from **music information retrieval (MIR)** to measure structu
 * spectral characteristics
 * recurring motifs
 
-These measurements allow Helix to analyze how music is structured rather than relying only on metadata such as genre.
+These measurements allow Helix to analyze how music is structured rather than relying only on metadata such as genre. Composer identity is treated as a representation-invariant structural hypothesis that must be supported across multiple observability layers.
 
 ### Perceptual Reasoning Without Hearing
 Helix enables LLM reasoning about musical perception through structured representations — not direct audio. An LLM reasoning over Helix artifacts can access:
@@ -351,7 +363,7 @@ Every data ingestion must strictly follow the **Deterministic Structural Extract
 2.  **Decomposition**: Extract atomic components (operators, topologies, envelopes).
 3.  **Measurable Interpretation**: Use quantified metrics, never vague labels.
 4.  **6-Stage Pipeline**: Must produce Parsed, Features, Structure, Patterns, Measurements, and Atlas Candidates.
-5.  **Invariant Safety**: Only `invariant_candidates` are permitted; true invariants require cross-source validation.
+5.  **Invariant Safety**: Only `invariant_candidates` are permitted; true invariants require candidate validation across independent sources.
 
 ---
 

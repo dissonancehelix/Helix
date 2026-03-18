@@ -8,7 +8,7 @@
 
 ## What It Is
 
-CCS is a 6-axis structural embedding system. It maps any entity with measurable structural properties to a point in [0.0, 1.0]⁶.
+CCS is a 6-axis structural embedding system. It maps any entity with measurable structural properties to a point in [0.0, 1.0]⁶. CCS embeddings are not absolute descriptions of structure, but constrained estimates derived from observable features under defined conditions.
 
 The six axes:
 
@@ -21,7 +21,10 @@ The six axes:
 | `control_entropy` | Distribution entropy across pitch, dynamics, articulation |
 | `basin_permeability` | How gradual section transitions are |
 
-All values are in [0.0, 1.0]. All values are derived from observable features. No subjective assignment.
+All values are in [0.0, 1.0]. All values are derived from observable features. Embeddings are **model-dependent reconstructions**; results depend on:
+* available signals
+* normalization reference
+* domain adapter design
 
 ---
 
@@ -39,6 +42,13 @@ All values are in [0.0, 1.0]. All values are derived from observable features. N
 core/models/ccs/
 ├── README.md                    ← this file
 ├── SPEC.md                      ← full technical specification
+├── engine/                      
+│   └── calculator.py            ← core computation engine
+├── adapters/                    ← domain-specific mapping layers
+│   ├── spotify.py               ← Spotify feature mapping
+│   └── music/                   ← music domain signals & mappings
+│       ├── signals.md
+│       └── mappings.md
 ├── schema/
 │   └── ccs_schema.json          ← strict JSON Schema (draft-07)
 ├── examples/
