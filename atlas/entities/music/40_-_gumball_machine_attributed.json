@@ -1,9 +1,0 @@
-{
-    "entity_id": "40_-_gumball_machine",
-    "track_name": "40 - Gumball Machine",
-    "composer": "Sega Sound Team",
-    "attributed_to": "Tatsuyuki Maeda",
-    "attribution_confidence": 0.61,
-    "rationale": "High YM2612 algorithm complexity (0.61) matches Maeda signature.",
-    "_type": "music:track"
-}

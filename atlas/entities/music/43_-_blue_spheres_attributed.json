@@ -1,9 +1,0 @@
-{
-    "entity_id": "43_-_blue_spheres",
-    "track_name": "43 - Blue Spheres",
-    "composer": "Sega Sound Team",
-    "attributed_to": "Tatsuyuki Maeda",
-    "attribution_confidence": 0.5,
-    "rationale": "High YM2612 algorithm complexity (0.50) matches Maeda signature.",
-    "_type": "music:track"
-}

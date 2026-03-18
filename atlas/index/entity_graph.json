@@ -1,0 +1,1617 @@
+{
+  "nodes": [
+    {
+      "id": "music.track:gumball_machine",
+      "type": "TRACK",
+      "name": "Gumball Machine",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\40 - Gumball Machine.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:masaru_setsumaru",
+      "type": "COMPOSER",
+      "name": "Masaru Setsumaru",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:icecap_zone_act_2_beta",
+      "type": "TRACK",
+      "name": "IceCap Zone Act 2 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\50 - IceCap Zone Act 2 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:balloon_park",
+      "type": "TRACK",
+      "name": "Balloon Park",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\34 - Balloon Park.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:hydrocity_zone_act_2",
+      "type": "TRACK",
+      "name": "Hydrocity Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\04 - Hydrocity Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:flying_battery_zone_act_2",
+      "type": "TRACK",
+      "name": "Flying Battery Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\18 - Flying Battery Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:big_arms",
+      "type": "TRACK",
+      "name": "Big Arms",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\28 - Big Arms.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.sound_chip:ym2612",
+      "type": "SOUND_CHIP",
+      "name": "YM2612",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:boss_theme",
+      "type": "TRACK",
+      "name": "Boss Theme",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\27 - Boss Theme.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:the_doomsday_zone",
+      "type": "TRACK",
+      "name": "The Doomsday Zone",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\29 - The Doomsday Zone.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:carnival_night_zone_act_1",
+      "type": "TRACK",
+      "name": "Carnival Night Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\07 - Carnival Night Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:yoshiaki_kashima",
+      "type": "COMPOSER",
+      "name": "Yoshiaki Kashima",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:competition_menu_beta",
+      "type": "TRACK",
+      "name": "Competition Menu (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\56 - Competition Menu (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:sub_boss_s3",
+      "type": "TRACK",
+      "name": "Sub-Boss (S3)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\13 - Sub-Boss (S3).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:launch_base_zone_act_1_beta",
+      "type": "TRACK",
+      "name": "Launch Base Zone Act 1 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\51 - Launch Base Zone Act 1 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:chrome_gadget",
+      "type": "TRACK",
+      "name": "Chrome Gadget",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\35 - Chrome Gadget.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:blue_spheres",
+      "type": "TRACK",
+      "name": "Blue Spheres",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\43 - Blue Spheres.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.sound_chip:sn76489",
+      "type": "SOUND_CHIP",
+      "name": "SN76489",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:lava_reef_zone_act_2",
+      "type": "TRACK",
+      "name": "Lava Reef Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\22 - Lava Reef Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:death_egg_zone_act_1",
+      "type": "TRACK",
+      "name": "Death Egg Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\24 - Death Egg Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:sky_sanctuary_zone",
+      "type": "TRACK",
+      "name": "Sky Sanctuary Zone",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\23 - Sky Sanctuary Zone.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:icecap_zone_act_1",
+      "type": "TRACK",
+      "name": "IceCap Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\09 - IceCap Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:desert_palace",
+      "type": "TRACK",
+      "name": "Desert Palace",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\36 - Desert Palace.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:masanori_hikichi",
+      "type": "COMPOSER",
+      "name": "Masanori Hikichi",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:launch_base_zone_act_1",
+      "type": "TRACK",
+      "name": "Launch Base Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\11 - Launch Base Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:howard_drossin",
+      "type": "COMPOSER",
+      "name": "Howard Drossin",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:marble_garden_zone_act_1",
+      "type": "TRACK",
+      "name": "Marble Garden Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\05 - Marble Garden Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:masayuki_nagao",
+      "type": "COMPOSER",
+      "name": "Masayuki Nagao",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:flying_battery_zone_act_1",
+      "type": "TRACK",
+      "name": "Flying Battery Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\17 - Flying Battery Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:invincibility_s_k",
+      "type": "TRACK",
+      "name": "Invincibility (S&K)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\44 - Invincibility (S&K).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:azure_lake",
+      "type": "TRACK",
+      "name": "Azure Lake",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\33 - Azure Lake.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:angel_island_zone_act_2_beta",
+      "type": "TRACK",
+      "name": "Angel Island Zone Act 2 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\46 - Angel Island Zone Act 2 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:carnival_night_zone_act_2_beta",
+      "type": "TRACK",
+      "name": "Carnival Night Zone Act 2 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\48 - Carnival Night Zone Act 2 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:launch_base_zone_act_2_beta",
+      "type": "TRACK",
+      "name": "Launch Base Zone Act 2 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\52 - Launch Base Zone Act 2 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:magnetic_orbs",
+      "type": "TRACK",
+      "name": "Magnetic Orbs",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\41 - Magnetic Orbs.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:staff_roll_s_k",
+      "type": "TRACK",
+      "name": "Staff Roll (S&K)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\30 - Staff Roll (S&K).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:mushroom_hill_zone_act_2",
+      "type": "TRACK",
+      "name": "Mushroom Hill Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\16 - Mushroom Hill Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:competition_menu",
+      "type": "TRACK",
+      "name": "Competition Menu",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\32 - Competition Menu.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:knuckles_theme_s_k",
+      "type": "TRACK",
+      "name": "Knuckles' Theme (S&K)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\39 - Knuckles' Theme (S&K).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:angel_island_zone_act_1_beta",
+      "type": "TRACK",
+      "name": "Angel Island Zone Act 1 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\45 - Angel Island Zone Act 1 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:marble_garden_zone_act_2",
+      "type": "TRACK",
+      "name": "Marble Garden Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\06 - Marble Garden Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:jun_senoue",
+      "type": "COMPOSER",
+      "name": "Jun Senoue",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:staff_roll_beta",
+      "type": "TRACK",
+      "name": "Staff Roll (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\57 - Staff Roll (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:sky_sanctuary_zone_beta",
+      "type": "TRACK",
+      "name": "Sky Sanctuary Zone (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\53 - Sky Sanctuary Zone (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:mushroom_valley_zone_act_2_beta",
+      "type": "TRACK",
+      "name": "Mushroom Valley Zone Act 2 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\55 - Mushroom Valley Zone Act 2 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:launch_base_zone_act_2",
+      "type": "TRACK",
+      "name": "Launch Base Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\12 - Launch Base Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:sega_sound_team",
+      "type": "COMPOSER",
+      "name": "Sega Sound Team",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.game:sonic_3_knuckles",
+      "type": "GAME",
+      "name": "Sonic 3 & Knuckles",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:knuckles_theme_s3",
+      "type": "TRACK",
+      "name": "Knuckles' Theme (S3)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\38 - Knuckles' Theme (S3).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:slot_machine",
+      "type": "TRACK",
+      "name": "Slot Machine",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\42 - Slot Machine.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:staff_roll_s3",
+      "type": "TRACK",
+      "name": "Staff Roll (S3)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\14 - Staff Roll (S3).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:tatsuyuki_maeda",
+      "type": "COMPOSER",
+      "name": "Tatsuyuki Maeda",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:carnival_night_zone_act_1_beta",
+      "type": "TRACK",
+      "name": "Carnival Night Zone Act 1 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\47 - Carnival Night Zone Act 1 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:mushroom_hill_zone_act_1",
+      "type": "TRACK",
+      "name": "Mushroom Hill Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\15 - Mushroom Hill Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:sandopolis_zone_act_2",
+      "type": "TRACK",
+      "name": "Sandopolis Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\20 - Sandopolis Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:miyoko_takaoka",
+      "type": "COMPOSER",
+      "name": "Miyoko Takaoka",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:angel_island_zone_act_2",
+      "type": "TRACK",
+      "name": "Angel Island Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\02 - Angel Island Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:data_select",
+      "type": "TRACK",
+      "name": "Data Select",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\31 - Data Select.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:sandopolis_zone_act_1",
+      "type": "TRACK",
+      "name": "Sandopolis Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\19 - Sandopolis Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:sub_boss_s_k",
+      "type": "TRACK",
+      "name": "Sub-Boss (S&K)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\26 - Sub-Boss (S&K).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:icecap_zone_act_1_beta",
+      "type": "TRACK",
+      "name": "IceCap Zone Act 1 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\49 - IceCap Zone Act 1 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:carnival_night_zone_act_2",
+      "type": "TRACK",
+      "name": "Carnival Night Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\08 - Carnival Night Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:death_egg_zone_act_2",
+      "type": "TRACK",
+      "name": "Death Egg Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\25 - Death Egg Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:mushroom_valley_zone_act_1_beta",
+      "type": "TRACK",
+      "name": "Mushroom Valley Zone Act 1 (Beta)",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\54 - Mushroom Valley Zone Act 1 (Beta).vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:unused",
+      "type": "TRACK",
+      "name": "Unused",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\58 - Unused.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:hydrocity_zone_act_1",
+      "type": "TRACK",
+      "name": "Hydrocity Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\03 - Hydrocity Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:angel_island_zone_act_1",
+      "type": "TRACK",
+      "name": "Angel Island Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\01 - Angel Island Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:lava_reef_zone_act_1",
+      "type": "TRACK",
+      "name": "Lava Reef Zone Act 1",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\21 - Lava Reef Zone Act 1.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.composer:brad_buxer",
+      "type": "COMPOSER",
+      "name": "Brad Buxer",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "track_db",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:endless_mine",
+      "type": "TRACK",
+      "name": "Endless Mine",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\37 - Endless Mine.vgz",
+        "extraction_method": "library_scan"
+      }
+    },
+    {
+      "id": "music.track:icecap_zone_act_2",
+      "type": "TRACK",
+      "name": "IceCap Zone Act 2",
+      "metadata": {
+        "source": "music_substrate_pipeline",
+        "source_stage": "knowledge_graph_integration",
+        "source_artifact": "C:\\Users\\dissonance\\Music\\VGM\\S\\Sonic 3 & Knuckles\\10 - IceCap Zone Act 2.vgz",
+        "extraction_method": "library_scan"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "music.track:gumball_machine",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masaru_setsumaru",
+      "target": "music.track:staff_roll_s_k",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masaru_setsumaru",
+      "target": "music.track:data_select",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masaru_setsumaru",
+      "target": "music.track:invincibility_s_k",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:icecap_zone_act_2_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:balloon_park",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:hydrocity_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:flying_battery_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:big_arms",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:boss_theme",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:the_doomsday_zone",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:carnival_night_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:yoshiaki_kashima",
+      "target": "music.track:blue_spheres",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:competition_menu_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:sub_boss_s3",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:launch_base_zone_act_1_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:chrome_gadget",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:blue_spheres",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:lava_reef_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:death_egg_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:sky_sanctuary_zone",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:icecap_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:desert_palace",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masanori_hikichi",
+      "target": "music.track:marble_garden_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masanori_hikichi",
+      "target": "music.track:mushroom_hill_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masanori_hikichi",
+      "target": "music.track:mushroom_hill_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masanori_hikichi",
+      "target": "music.track:boss_theme",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:launch_base_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:howard_drossin",
+      "target": "music.track:knuckles_theme_s_k",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:marble_garden_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masayuki_nagao",
+      "target": "music.track:hydrocity_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masayuki_nagao",
+      "target": "music.track:lava_reef_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:masayuki_nagao",
+      "target": "music.track:carnival_night_zone_act_2_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:flying_battery_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:invincibility_s_k",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:azure_lake",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:angel_island_zone_act_2_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:carnival_night_zone_act_2_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:launch_base_zone_act_2_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:magnetic_orbs",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:staff_roll_s_k",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:mushroom_hill_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:competition_menu",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:knuckles_theme_s_k",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:angel_island_zone_act_1_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:marble_garden_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:jun_senoue",
+      "target": "music.track:balloon_park",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:jun_senoue",
+      "target": "music.track:gumball_machine",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:jun_senoue",
+      "target": "music.track:magnetic_orbs",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:jun_senoue",
+      "target": "music.track:slot_machine",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:staff_roll_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:sky_sanctuary_zone_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:mushroom_valley_zone_act_2_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:launch_base_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:angel_island_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:angel_island_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:hydrocity_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:flying_battery_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:flying_battery_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:sandopolis_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:sandopolis_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:lava_reef_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:sky_sanctuary_zone",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:death_egg_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:death_egg_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:sub_boss_s_k",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:big_arms",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:the_doomsday_zone",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:azure_lake",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:chrome_gadget",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:desert_palace",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:endless_mine",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:angel_island_zone_act_1_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:angel_island_zone_act_2_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:carnival_night_zone_act_1_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:icecap_zone_act_1_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:icecap_zone_act_2_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:launch_base_zone_act_1_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:launch_base_zone_act_2_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:sky_sanctuary_zone_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:mushroom_valley_zone_act_1_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:mushroom_valley_zone_act_2_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:competition_menu_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:sega_sound_team",
+      "target": "music.track:unused",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.game:sonic_3_knuckles",
+      "target": "music.sound_chip:ym2612",
+      "type": "USES_CHIP",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.game:sonic_3_knuckles",
+      "target": "music.sound_chip:sn76489",
+      "type": "USES_CHIP",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:knuckles_theme_s3",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:slot_machine",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:staff_roll_s3",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:tatsuyuki_maeda",
+      "target": "music.track:staff_roll_beta",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:carnival_night_zone_act_1_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:mushroom_hill_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:sandopolis_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:miyoko_takaoka",
+      "target": "music.track:marble_garden_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:angel_island_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:data_select",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:sandopolis_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:sub_boss_s_k",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:icecap_zone_act_1_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:carnival_night_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:death_egg_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:mushroom_valley_zone_act_1_beta",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:unused",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:hydrocity_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:angel_island_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:lava_reef_zone_act_1",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:carnival_night_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:carnival_night_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:icecap_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:icecap_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:launch_base_zone_act_1",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:launch_base_zone_act_2",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:sub_boss_s3",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:staff_roll_s3",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:competition_menu",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.composer:brad_buxer",
+      "target": "music.track:knuckles_theme_s3",
+      "type": "COMPOSED",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:endless_mine",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    },
+    {
+      "source": "music.track:icecap_zone_act_2",
+      "target": "music.game:sonic_3_knuckles",
+      "type": "APPEARS_IN",
+      "confidence": 1.0,
+      "notes": ""
+    }
+  ],
+  "_meta": {
+    "node_count": 71,
+    "edge_count": 118
+  }
+}

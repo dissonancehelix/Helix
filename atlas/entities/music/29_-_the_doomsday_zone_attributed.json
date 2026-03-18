@@ -1,9 +1,0 @@
-{
-    "entity_id": "29_-_the_doomsday_zone",
-    "track_name": "29 - The Doomsday Zone",
-    "composer": "Sega Sound Team",
-    "attributed_to": "Tatsuyuki Maeda",
-    "attribution_confidence": 0.54,
-    "rationale": "High YM2612 algorithm complexity (0.54) matches Maeda signature.",
-    "_type": "music:track"
-}

@@ -1,0 +1,91 @@
+{
+  "node_id": "knowledge/gems_driver",
+  "node_type": "technical_reference",
+  "title": "GEMS — Genesis Editor for Music and Sound Effects",
+  "version": "2.0",
+  "date": "1991-11-24",
+  "source": "GEMS/GEMS.DOC (Recreational Brainware, v2.0 documentation)",
+  "source_path": "C:/Users/dissonance/Desktop/temp/GEMS/GEMS.DOC",
+  "confidence": 1.0,
+  "platform": "Sega Mega Drive / Genesis",
+  "commissioned_by": "Sega of America",
+  "developer": "Recreational Brainware (Jonathan Miller, Burt Sloane)",
+  "overview": "GEMS is a MIDI-compatible multi-timbral voice module for the Genesis. It simulates up to 16 MIDI instruments (one per MIDI channel), each assignable to one of 128 patches in the GEMS patch bank. It was the primary sound driver for Sega of America published titles — analogous to the SMPS driver used by Sega of Japan.",
+  "hardware_voices": {
+    "fm_voices": 6,
+    "fm_special": {
+      "voice_3": "Channel 3 mode — assigns arbitrary frequencies to each of 4 operators; useful for drums. Voice allocator avoids this for normal FM patches.",
+      "voice_6": "DAC mode — digital sample playback at 5.2–10.4 kHz. Voice allocator avoids this for normal FM patches."
+    },
+    "psg_tone_voices": 3,
+    "psg_noise_voice": 1,
+    "psg_special": "PSG voice 3 can drive the PSG noise voice for frequency-swept noise (explosions etc.)"
+  },
+  "voice_allocation": "Dynamic — GEMS routes each note to an appropriate free hardware voice based on patch type. No manual channel assignment required. Priority system (0–127) resolves voice stealing; higher priority notes steal from lower. Typical: music channels 1–10, SFX 99–103, digital samples 110.",
+  "channel_model": {
+    "total_channels": 16,
+    "poly_mode": true,
+    "sustain": "Per-channel sustain mode (on = rotate through free voices, off = stay on one voice)",
+    "priority": "Per-channel priority, default 0. MIDI Controller #19."
+  },
+  "sequencer": {
+    "resolution": "1/24 beat (beat = quarter note; 1/24 = 1/64 note triplets)",
+    "tempo_range_bpm": "40–167 BPM",
+    "sfx_tempo": "150 BPM fixed timebase for sound effects",
+    "loop_depth": 4,
+    "mailboxes": "30 shared variables (0–127), writable from 68000 code or 'Store' opcodes",
+    "conditional_opcodes": [
+      "Label",
+      "Goto",
+      "If",
+      "Store"
+    ],
+    "channels_per_sequence_max": 16
+  },
+  "fm_patch_format": "4-operator FM synthesis per voice; patches stored in GEMS patch bank. Modulator envelopes (pitch modulation) stored separately in Modulator Bank.",
+  "pitch_modulation": {
+    "type": "Piecewise linear ramp curve over time",
+    "triggers": "MIDI Controller #68 (trigger/retrigger mode) + #80 (modulator select)",
+    "simultaneous_channels_max": 4
+  },
+  "digital_audio": {
+    "introduced": "v2.0",
+    "bit_depth": 8,
+    "sample_rate_hz": "5200–10400",
+    "playback_cpu": "Z80",
+    "note": "Z80 runs sample playback; 68000 stops Z80 to read MIDI data, causing quality/latency tradeoff in MIDI mode. Not an issue in-game."
+  },
+  "system_requirements": {
+    "host": "IBM-compatible PC, 640k RAM, 2MB HDD, parallel port, VGA, Logitech/Microsoft mouse",
+    "midi": "Roland MPU-401 compatible, IRQ7",
+    "genesis": "Sega Loader Board + RAM/ROM board with GEMS 2.0 firmware EPROMs",
+    "transfer": "25-pin printer cable"
+  },
+  "known_games": [
+    "Comix Zone",
+    "Sonic Spinball",
+    "Garfield: Caught in the Act",
+    "Sonic 3D Blast (SoA version)",
+    "various Sega of America titles"
+  ],
+  "known_bugs_v2_0": [
+    "No 'Are you sure?' for delete operations",
+    "Looped samples: final post-loop section never plays",
+    "File Open widget scroll bug; floppy without disk causes crash requiring retry",
+    "Graphics glitches in scroll bars (cosmetic)",
+    "No errors for malformed If/Goto/undefined patch references",
+    "Goto out of loop stack causes undefined behavior"
+  ],
+  "atlas_tags": [
+    "genesis",
+    "mega_drive",
+    "sound_driver",
+    "fm_synthesis",
+    "ym2612",
+    "sn76489",
+    "sega_of_america",
+    "midi",
+    "1991"
+  ],
+  "entity_id": "music.sound_driver:gems"
+}

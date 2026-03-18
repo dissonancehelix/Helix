@@ -1,9 +1,0 @@
-{
-    "entity_id": "07_-_spring_stadium_zone_act_1",
-    "track_name": "07 - Spring Stadium Zone Act 1",
-    "composer": "Sega Sound Team",
-    "attributed_to": "Tatsuyuki Maeda",
-    "attribution_confidence": 0.55,
-    "rationale": "High YM2612 algorithm complexity (0.55) matches Maeda signature.",
-    "_type": "music:track"
-}

@@ -1,9 +1,0 @@
-{
-    "entity_id": "19_-_special_stage",
-    "track_name": "19 - Special Stage",
-    "composer": "Sega Sound Team",
-    "attributed_to": "Tatsuyuki Maeda",
-    "attribution_confidence": 0.54,
-    "rationale": "High YM2612 algorithm complexity (0.54) matches Maeda signature.",
-    "_type": "music:track"
-}
