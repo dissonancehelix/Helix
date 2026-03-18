@@ -106,7 +106,7 @@ Helix handles tracks with multiple credited artists by treating them as latent m
 1. **Artist Parsing**: `INGEST_TRACK` parses multiple artists using the `;` delimiter.
 2. **Attribution Type**: Tracks are tagged as `solo`, `multi`, or `inferred`.
 3. **Contribution Structure**: `artist_contributions` stores a list of `{artist_id, confidence, source}`.
-4. **Style Vector Weighting**: `STYLE_VECTOR` (via `ANALYZE_TRACK`) weights contributions: `effective_weight = confidence * attribution_weight`. Weights: `solo` (1.0), `inferred` (0.5–1.0), `multi` (0.25).
+4. **Style Vector Weighting**: `ANALYZE_TRACK` (compute_style_vector stage) weights contributions: `effective_weight = confidence * attribution_weight`. Weights: `solo` (1.0), `inferred` (0.5–1.0), `multi` (0.25).
 5. **Attribution Inference**: `DISCOVER target:attribution track:<id>` compares track features against artist style vectors to predict authorship.
 6. **Refinement**: Verified inferences update `attribution_type` to `inferred` and refine contribution weights.
 
@@ -355,29 +355,26 @@ Helix operates as a self-correcting research system:
 
 ## Operator Registry
 
-12 registered operators. `RUN operator:UNKNOWN` raises `HSLValidationError` in all modes.
+9 registered operators. `RUN operator:UNKNOWN` raises `HSLValidationError` in all modes.
 
 ### Music Substrate Operators
 
 | Operator | Accepted Input Types | Output Schema | Pipeline Stages |
 |----------|---------------------|---------------|----------------|
-| `INGEST_TRACK` | Track, * | `{track_id, control_sequence, artifact_path, bridge_used, bridge_mode}` | validate_source → route_to_adapter → render_control_sequence → write_artifact |
-| `ANALYZE_TRACK` | Track, ControlSequence | `{track_id, symbolic_score, signal_profile, artifact_paths}` | load_control_sequence → symbolic_analysis → signal_analysis → nuked_opn2_topology → write_artifacts |
-| `STYLE_VECTOR` | Composer | `{composer_id, artist_style_vector, track_count, artifact_path}` | load_composer_tracks → compute_melodic → compute_harmonic → compute_rhythmic → compute_structural → compute_timbral → compute_motivic → aggregate_context → write |
-| `COMPILE_ATLAS` | Track, Composer, ControlSequence, SymbolicScore, SignalProfile, ArtistStyleVector, * | `{entities_compiled, entities_rejected, atlas_paths, substrate}` | discover_music_artifacts → normalize → semantic_validate → compile_to_substrate_dir → atlas_commit → update_registry |
+| `INGEST_TRACK` | Track, * | `{track_id, control_sequence, artifact_path}` | validate_source → route_to_adapter → translate_to_chip_control → write_artifact |
+| `ANALYZE_TRACK` | Track, ControlSequence, Composer | `{track_id, mir_features, motif_features, collapse_geometry, cause_effect_map, artist_style_vector}` | load_artifacts → translate_to_perceptual_audio → translate_to_symbolic_music → generate_collapse_geometry → generate_causal_map → compute_style_vector → write_research_artifacts |
+| `COMPILE_ATLAS` | * | `{entities_compiled, atlas_paths}` | discover_artifacts → normalize → semantic_validate → atlas_commit |
 
-### Core Operators
+### Research / Discovery Operators
 
 | Operator | Accepted Input Types | Output Schema | Pipeline Stages |
 |----------|---------------------|---------------|----------------|
-| `PROBE` | Invariant | `{probe_name, domain, signal, confidence, passed, run_id, artifact_dir}` | load_dataset → execute_probe → collect_signal → write_artifact → update_atlas |
-| `INGEST` | * | `{entities_created, entities_updated, artifact_path}` | validate_source → parse_records → normalize_entities → write_artifacts |
-| `LINK` | all entity types | `{source_id, relation, target_id, created}` | validate_source → validate_target → check_relationship_type → write_relationship |
-| `COMPILE` | * | `{entities_compiled, entities_rejected, atlas_paths}` | discover_artifacts → normalize → semantic_validate → compile_entries → atlas_commit → update_index |
-| `SCAN` | * | `{substrate, entities_found, artifact_path}` | enumerate_substrate → extract_entities → write_artifacts |
-| `ANALYZE` | Composer, Track, Game, Invariant, Experiment | `{signals, artifact_path}` | load_entity → extract_features → compute_signals → write_artifact |
-| `DISCOVER` | Invariant | `{candidate_commands, reasoning, log_path}` | load_atlas → analyze_gaps → generate_hil_candidates → log_session |
-| `MIGRATE` | * | `{entities_migrated, entities_failed, migration_log}` | detect_legacy → convert_to_canonical → compile_entity → mark_migration_metadata |
+| `DISCOVER` | Invariant, MathModel, * | `{candidate_commands, model_match_report, invariant_candidates}` | load_context → pattern_search → theory_search → generate_output |
+| `DISCOVER_INVARIANTS` | * | `{invariant_candidates, compression_score}` | extract_patterns → detect_compression → validate_consistency → align_with_math → write_candidate_artifact |
+| `FALSIFY_INVARIANT` | Invariant | `{falsification_report, confidence_score, dissonance_score}` | load_invariant → detect_deviations → calculate_scores → write_report |
+| `TOPOLOGY_MAP` | * | `{topology_mapping, alignment_score}` | extract_descriptors → compare_structural_behavior → write_mapping_artifact |
+| `MEASURE_KNOWLEDGE_GAIN` | * | `{knowledge_gain_report, dataset_status}` | measure_variance_shift → check_motif_expansion → check_invariant_shift → write_gain_report |
+| `QUERY` | * | `{matching_entities, entity_type}` | load_atlas_index → apply_filters → return_results |
 
 ---
 
@@ -392,7 +389,14 @@ Adapters are registered by their original names (e.g., `LibvgmAdapter`) but impl
 | `adapter_libvgm.py` | libvgm (ValleyBell) | VGM/VGZ emulation | `execute(payload)` |
 | `adapter_gme.py` | Game_Music_Emu | SPC, NSF, GBS, HES, KSS, AY | `execute(payload)` |
 | `adapter_vgmstream.py` | vgmstream CLI | Audio decoding & envelope | `execute(payload)` |
-| `adapter_nuked_opn2.py` | Nuked-OPN2 | FM Topology analysis | `execute(payload)` |
+| `adapter_nuked_opn2.py` | Nuked-OPN2 | YM2612 FM topology (Tier A) | `execute(payload)` |
+| `adapter_nuked_opm.py` | Nuked-OPM | YM2151 FM topology (Tier A) | `execute(payload)` |
+| `adapter_nuked_opl3.py` | Nuked-OPL3 | OPL3 FM topology (Tier A) | `execute(payload)` |
+| `adapter_nuked_opll.py` | Nuked-OPLL | YM2413 fixed-patch topology (Tier A) | `execute(payload)` |
+| `adapter_nuked_opl2.py` | Nuked-OPL2-Lite | YM3812 2-op FM topology (Tier A) | `execute(payload)` |
+| `adapter_nuked_psg.py` | Nuked-PSG | SN76489/YM7101 PSG channels (Tier A) | `execute(payload)` |
+| `adapter_smps.py` | SMPS | Sega SMPS driver constants (Tier A) | `execute(payload)` |
+| `adapter_gems.py` | GEMS | GEMS driver constants (Tier A) | `execute(payload)` |
 | `adapter_librosa.py` | librosa | Spectral/MIR features | `execute(payload)` |
 | `adapter_essentia.py` | Essentia | High-end MIR descriptors | `execute(payload)` |
 | `adapter_music21.py` | music21 | Symbolic/MusicXML analysis | `execute(payload)` |
@@ -444,7 +448,6 @@ No file may be written to `atlas/` except by the Atlas Compiler gate.
 ```
 # CORRECT
 RUN operator:COMPILE_ATLAS
-RUN operator:COMPILE
 
 # WRONG — direct write (blocked in runtime mode)
 with open("atlas/music/composers/foo.json", "w") as f: ...
@@ -530,12 +533,12 @@ RUN operator:ANALYZE_TRACK track:music.track:<id>
   → adapter_pretty_midi | adapter_music21    (symbolic analysis)
   → adapter_librosa | adapter_essentia       (signal analysis)
   → adapter_nuked_opn2                       (YM2612 brightness, if applicable)
-  → artifacts/music/<track_id>/symbolic_score.json
-  → artifacts/music/<track_id>/signal_profile.json
+  → artifacts/music/<track_id>/mir_features.json
+  → artifacts/music/<track_id>/motif_features.json
+  → artifacts/music/<track_id>/collapse_geometry.json
 
-RUN operator:STYLE_VECTOR composer:music.composer:<slug>
-  → StyleVectorComputer (substrates/music/style_vector/style_vector.py)
-  → 6 cognition feature computations + context metadata aggregation
+RUN operator:ANALYZE_TRACK composer:music.composer:<slug>
+  → compute_style_vector stage (ArtistStyleVector, included in ANALYZE_TRACK pipeline)
   → artifacts/music/<composer_id>/artist_style_vector.json
 
 RUN operator:COMPILE_ATLAS
@@ -612,16 +615,19 @@ echo "VERB target" | helix      # piped input
 ### Operator Execution
 
 ```
-RUN operator:PROBE invariant:games.invariant:decision_compression [lab:games]
 RUN operator:INGEST_TRACK track:music.track:<id>
 RUN operator:ANALYZE_TRACK track:music.track:<id>
-RUN operator:STYLE_VECTOR composer:music.composer:<slug>
+RUN operator:ANALYZE_TRACK composer:music.composer:<slug>
+RUN operator:DISCOVER_INVARIANTS
+RUN operator:FALSIFY_INVARIANT invariant:music.invariant:<name>
+RUN operator:TOPOLOGY_MAP
+RUN operator:MEASURE_KNOWLEDGE_GAIN
+RUN operator:QUERY type:Composer namespace:music
 RUN operator:COMPILE_ATLAS
-RUN operator:SCAN substrate:music
 RUN operator:UNDEFINED              → HSLValidationError (closed-world)
 
 OPERATOR list
-OPERATOR status operator:PROBE
+OPERATOR status operator:ANALYZE_TRACK
 ```
 
 ### Entity Management
@@ -773,7 +779,7 @@ To regenerate a complete Helix instance from scratch, implement in this order:
 | `core/semantics/property_registry/property_types.py` | All 50+ property specs |
 | `core/semantics/relationship_registry/relationship_types.py` | All 30+ relationship specs |
 | `core/semantics/validator.py` | SemanticValidator |
-| `core/operators/builtin_operators.py` | All 12 operator specs |
+| `core/operators/builtin_operators.py` | All 9 operator specs |
 | `core/operators/operator_registry.py` | Singleton registry, require() |
 | `core/adapters/__init__.py` | Adapter layer public API |
 | `core/compiler/atlas_compiler.py` | Atlas compilation pipeline |
@@ -786,9 +792,7 @@ To regenerate a complete Helix instance from scratch, implement in this order:
 | `substrates/music/measurement_synthesis/libvgm_bridge.py` | libvgm ctypes bridge |
 | `substrates/music/measurement_synthesis/gme_bridge.py` | gme + vgmstream bridge |
 | `substrates/music/domain_analysis/tool_bridge.py` | vgm2txt, gems2mid, Nuked-OPN2 |
-| `atlas/entities/registry.json` | Authoritative entity index |
-| `artifacts/music_audit_report.md` | Music subsystem audit (2026-03-17) |
-| `labs/legacy_experiments/AUDIT.md` | Legacy script classification |
+| `atlas/entities/registry.json` | Authoritative entity index (generated by COMPILE_ATLAS) |
 
 
 ---
@@ -844,7 +848,7 @@ Use:
 
 ## Knowledge Gain Scope Rule
 
-Applies only to ANALYZE, not INGEST.
+Applies only to `ANALYZE_TRACK`, not `INGEST_TRACK`.
 
 ## Operator Constraint Rule
 

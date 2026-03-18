@@ -66,7 +66,7 @@ def is_reserved_entity_type(type_str: str) -> bool:
 
 
 def is_music_analysis_entity_type(type_str: str) -> bool:
-    return type_str in ENTITY_MUSIC_ANALYSIS_TYPES
+    return type_str in ENTITY_HSL_STRUCTURAL_TYPES
 
 
 def is_known_entity_type(type_str: str) -> bool:

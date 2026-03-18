@@ -95,7 +95,7 @@ Adapters translate the output of external tools into structured artifacts that H
 
 | Tier | Description | Adapters |
 |------|-------------|---------|
-| A | Static constants — always available, no build required | `nuked_opn2`, `nuked_opm`, `nuked_opl3`, `smps`, `gems` |
+| A | Static constants — always available, no build required | `nuked_opn2`, `nuked_opm`, `nuked_opl3`, `nuked_opll`, `nuked_opl2`, `nuked_psg`, `smps`, `gems` |
 | B | Compiled C libraries or binaries — requires build step | `libvgm`, `gme`, `vgmstream` |
 | C | Python symbolic analysis packages | `music21`, `pretty_midi` |
 | D | Python MIR / signal analysis packages | `librosa`, `essentia` |

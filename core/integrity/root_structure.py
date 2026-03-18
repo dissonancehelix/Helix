@@ -34,6 +34,8 @@ ALLOWED_DIRS: frozenset[str] = frozenset({
     "applications",
     "datasets",
     "governance",
+    "data",
+    "execution",
 })
 
 ALLOWED_FILES: frozenset[str] = frozenset({
@@ -42,7 +44,7 @@ ALLOWED_FILES: frozenset[str] = frozenset({
     "SPEC.md",
     "ROADMAP.md",
     "README.md",
-    "HIL.md",
+    "HSL.md",
     "DISSONANCE.md",
     "helix",
     ".git",
