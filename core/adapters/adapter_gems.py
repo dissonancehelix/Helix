@@ -36,6 +36,9 @@ Input:
     gems_seq_path (str)  — path to GEMS sequence file
     output_midi_path (str | None)  — output MIDI path (optional)
 
+        "ccb"           — Z80 Channel Control Block (32-byte CCB field offsets + flag bits)
+        "z80_internals" — DAC FIFO (0x1F00–0x1FFF), command FIFO, PSG command FIFO
+
 Adapter rules:
     • Static constants are always Tier A (no compilation needed).
     • MIDI conversion (gems_to_midi) is Tier B — requires gems2mid compiled.
@@ -222,6 +225,128 @@ PITCH_MOD_NOTE = (
 )
 
 # ---------------------------------------------------------------------------
+# Z80 Channel Control Block — CCB (from Z80.ASM CCBTAG* / CCB* equ definitions)
+# ---------------------------------------------------------------------------
+# Each active GEMS voice is tracked by a 32-byte CCB in Z80 RAM.
+# IX register points to the current CCB during sequencer processing.
+# Field byte offsets within the CCB:
+
+CCB_BYTE_LENGTH = 32
+
+CCB_FIELD_OFFSETS: dict[str, dict] = {
+    # 3-byte sequence buffer base address (24-bit, bank-switched)
+    "CCBTAGL":   {"offset": 0,  "size": 1, "desc": "LSB of sequence buffer start address (tag)"},
+    "CCBTAGM":   {"offset": 1,  "size": 1, "desc": "MID of sequence buffer start address (tag)"},
+    "CCBTAGH":   {"offset": 2,  "size": 1, "desc": "MSB of sequence buffer start address (tag)"},
+    # 3-byte current read address (24-bit)
+    "CCBADDRL":  {"offset": 3,  "size": 1, "desc": "LSB of current sequence read pointer"},
+    "CCBADDRM":  {"offset": 4,  "size": 1, "desc": "MID of current sequence read pointer"},
+    "CCBADDRH":  {"offset": 5,  "size": 1, "desc": "MSB of current sequence read pointer"},
+    # Control flags (see CCB_FLAGS below)
+    "CCBFLAGS":  {"offset": 6,  "size": 1, "desc": "Channel state flags (see CCB_FLAGS)"},
+    # 2-byte 2's-complement subbeat timer (counts up; triggers event at overflow)
+    "CCBTIMERL": {"offset": 7,  "size": 1, "desc": "LSB of subbeat event countdown timer"},
+    "CCBTIMERH": {"offset": 8,  "size": 1, "desc": "MSB of subbeat event countdown timer"},
+    # 2-byte registered delay value (subbeats)
+    "CCBDELL":   {"offset": 9,  "size": 1, "desc": "LSB of registered subbeat delay"},
+    "CCBDELH":   {"offset": 10, "size": 1, "desc": "MSB of registered subbeat delay"},
+    # 2-byte registered duration value (subbeats)
+    "CCBDURL":   {"offset": 11, "size": 1, "desc": "LSB of registered subbeat duration (note length)"},
+    "CCBDURH":   {"offset": 12, "size": 1, "desc": "MSB of registered subbeat duration (note length)"},
+    # Patch / sequence identifiers
+    "CCBPNUM":   {"offset": 13, "size": 1, "desc": "Program (patch) number currently in use"},
+    "CCBSNUM":   {"offset": 14, "size": 1, "desc": "Sequence number this channel belongs to"},
+    "CCBVCHAN":  {"offset": 15, "size": 1, "desc": "MIDI channel number within sequence CCBSNUM"},
+    # 4-level loop stack — each entry is 3 bytes: (count, addr_lsb, addr_mid)
+    "CCBLOOP0":  {"offset": 16, "size": 3, "desc": "Loop stack level 0: [loop_count, start_lsb, start_mid]"},
+    "CCBLOOP1":  {"offset": 19, "size": 3, "desc": "Loop stack level 1: [loop_count, start_lsb, start_mid]"},
+    "CCBLOOP2":  {"offset": 22, "size": 3, "desc": "Loop stack level 2: [loop_count, start_lsb, start_mid]"},
+    "CCBLOOP3":  {"offset": 25, "size": 3, "desc": "Loop stack level 3: [loop_count, start_lsb, start_mid]"},
+    # Voice management
+    "CCBPRIO":   {"offset": 28, "size": 1, "desc": "Channel priority (0=lowest, 127=highest)"},
+    "CCBENV":    {"offset": 29, "size": 1, "desc": "Envelope number currently active"},
+    "CCBATN":    {"offset": 30, "size": 1, "desc": "Channel attenuation (0=loud, 127=silent)"},
+    # Byte 31 reserved / unused
+}
+
+# CCBFLAGS bitmasks (byte offset 6 in CCB)
+CCB_FLAGS: dict[str, dict] = {
+    "sustain":        {"bit": 7, "mask": 0x80, "desc": "Note sustain on — voice held after note-off"},
+    "env_retrigger":  {"bit": 6, "mask": 0x40, "desc": "Immediate envelope retrigger on patch change"},
+    "lock":           {"bit": 5, "mask": 0x20, "desc": "Channel locked — ignored by pause/resume/stop commands"},
+    "running":        {"bit": 4, "mask": 0x10, "desc": "Sequencer running (cleared by pause, set by resume/start)"},
+    "sfx_timebase":   {"bit": 3, "mask": 0x08, "desc": "SFX timebase — uses fixed 150 BPM instead of song tempo"},
+    # bit 2 unused
+    "muted":          {"bit": 1, "mask": 0x02, "desc": "Channel muted (note-offs fired, no note-ons)"},
+    "in_use":         {"bit": 0, "mask": 0x01, "desc": "CCB slot occupied — 0=free, 1=active"},
+}
+
+# ---------------------------------------------------------------------------
+# Z80 DAC FIFO (from Z80.ASM DACME / FILLDACFIFO routines)
+# ---------------------------------------------------------------------------
+# The YM2612 DAC channel (Ch6) is fed from a 256-byte ring buffer in Z80 RAM.
+# The 68000 fills 128-byte blocks; the Z80 DACME routine drains it sample-by-sample.
+
+DAC_FIFO_ADDRESS_START = 0x1F00   # Z80 RAM address of FIFO ring buffer
+DAC_FIFO_ADDRESS_END   = 0x1FFF
+DAC_FIFO_SIZE_BYTES    = 256      # full ring buffer size
+DAC_FIFO_BLOCK_BYTES   = 128      # 68000 transfers 128 bytes per fill call
+DAC_FIFO_CPU           = "68000"  # 68000 fills; Z80 drains
+DAC_FIFO_NOTE = (
+    "FILLDACFIFO copies the next 128-byte sample block from 68000 ROM/RAM "
+    "into the Z80 DACFIFO ring (0x1F00–0x1FFF). DACME drains one sample per "
+    "call; it is called 6–7 times per Z80 main loop iteration to maintain "
+    "continuous PCM output through YM2612 channel 6."
+)
+
+# Command FIFO (68000→Z80) lives at a separate address in Z80 RAM
+CMD_FIFO_ADDRESS = 0x1B40   # base address of command byte ring buffer
+
+# ---------------------------------------------------------------------------
+# Z80 PSG command FIFO structure (from Z80.ASM psg* comment table at top)
+# ---------------------------------------------------------------------------
+# GEMS maintains 4-channel PSG state in a Z80 RAM block starting at psgcom.
+# IY register points to the current PSG channel's entry during envelope processing.
+# Each field is a 4-element array (one byte per PSG channel), packed consecutively.
+
+PSG_COMMAND_FIFO_FIELDS: dict[str, dict] = {
+    "psgcom":  {
+        "offset": 0,  "channels": 4, "bytes_per_channel": 1,
+        "desc": "Command byte: 0=idle, 1=key_on, 2=key_off, 4=stop_sound",
+    },
+    "psglev":  {
+        "offset": 4,  "channels": 4, "bytes_per_channel": 1,
+        "desc": "Output level attenuation (4-bit, 0=loud, 0xF=silent); default 0xFF",
+    },
+    "psgatk":  {
+        "offset": 8,  "channels": 4, "bytes_per_channel": 1,
+        "desc": "PSG envelope attack rate",
+    },
+    "psgdec":  {
+        "offset": 12, "channels": 4, "bytes_per_channel": 1,
+        "desc": "PSG envelope decay rate",
+    },
+    "psgslv":  {
+        "offset": 16, "channels": 4, "bytes_per_channel": 1,
+        "desc": "PSG envelope sustain level attenuation",
+    },
+    "psgrrt":  {
+        "offset": 20, "channels": 4, "bytes_per_channel": 1,
+        "desc": "PSG envelope release rate",
+    },
+    "psgenv":  {
+        "offset": 24, "channels": 4, "bytes_per_channel": 1,
+        "desc": "Envelope phase: 0=off, 1=attack, 2=decay, 3=sustain, 4=release",
+    },
+    "psgdtl":  {
+        "offset": 28, "channels": 4, "bytes_per_channel": 1,
+        "desc": "Tone detail: lower 4 bits = frequency bits, upper bits = noise ctrl",
+    },
+}
+
+PSG_COMMAND_FIFO_TOTAL_BYTES = 32   # 8 fields × 4 channels = 32 bytes
+
+# ---------------------------------------------------------------------------
 # Known game usage (from GEMS.DOC + atlas entity)
 # ---------------------------------------------------------------------------
 
@@ -315,6 +440,26 @@ class Adapter:
                 "mailbox_note":                  MAILBOX_NOTE,
                 "pitch_mod_simultaneous_max":    PITCH_MOD_SIMULTANEOUS_MAX,
                 "pitch_mod_type":                PITCH_MOD_TYPE,
+            })
+
+        if what in ("ccb", "all"):
+            base.update({
+                "ccb_byte_length":    CCB_BYTE_LENGTH,
+                "ccb_field_offsets":  CCB_FIELD_OFFSETS,
+                "ccb_flags":          CCB_FLAGS,
+            })
+
+        if what in ("z80_internals", "all"):
+            base.update({
+                "dac_fifo_address_start":       DAC_FIFO_ADDRESS_START,
+                "dac_fifo_address_end":         DAC_FIFO_ADDRESS_END,
+                "dac_fifo_size_bytes":          DAC_FIFO_SIZE_BYTES,
+                "dac_fifo_block_bytes":         DAC_FIFO_BLOCK_BYTES,
+                "dac_fifo_cpu":                 DAC_FIFO_CPU,
+                "dac_fifo_note":                DAC_FIFO_NOTE,
+                "cmd_fifo_address":             CMD_FIFO_ADDRESS,
+                "psg_command_fifo_fields":      PSG_COMMAND_FIFO_FIELDS,
+                "psg_command_fifo_total_bytes": PSG_COMMAND_FIFO_TOTAL_BYTES,
             })
 
         return base

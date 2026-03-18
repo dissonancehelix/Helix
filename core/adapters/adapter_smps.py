@@ -164,6 +164,63 @@ FM_REGISTER_WRITE_ORDER: list[str] = [
 FM_PATCH_BYTE_LENGTH = 25   # 1 + 4×6 = 25 bytes per FM voice in SMPS voice table
 
 # ---------------------------------------------------------------------------
+# YM2612 F-Number scale table  (mdcnt11.asm fm_scale)
+# ---------------------------------------------------------------------------
+
+# 12-tone equal temperament F-Number values for one octave.
+# SMPS stores frequency as (block << 11 | f_number); this table gives the
+# f_number component for notes C through B at the reference octave.
+# Frequency formula: f_hz = (clock / 144) × (F_Number / 2^(21 - Block))
+# Source: mdcnt11.asm frq_c through frq_b constants
+FM_FREQUENCY_TABLE: dict[str, int] = {
+    "C":   606,   # 0x25E
+    "C#":  644,   # 0x284
+    "D":   683,   # 0x2AB
+    "D#":  723,   # 0x2D3
+    "E":   766,   # 0x2FE
+    "F":   813,   # 0x32D
+    "F#":  860,   # 0x35C
+    "G":   911,   # 0x38F
+    "G#":  965,   # 0x3C5
+    "A":   1023,  # 0x3FF
+    "A#":  542,   # 0x21E (stored halved; ×2 = 1084 = 0x43C)
+    "B":   574,   # 0x23E (stored halved; ×2 = 1148 = 0x47C)
+}
+# Note: A# and B are stored as half-values in the SMPS source (lsr #1 applied
+# before use). Multiply by 2 to get the actual F-Number register value.
+
+# ---------------------------------------------------------------------------
+# Channel allocation constants  (mdcnt11.asm song channel tables)
+# ---------------------------------------------------------------------------
+
+# Channel count constants from mdcnt11.asm symbol definitions
+FM_CHANNEL_COUNT     = 6   # fm_no: YM2612 channels available to song engine
+PSG_CHANNEL_COUNT    = 3   # psg_no: SN76489 tone channels (not noise)
+PCM_CHANNEL_COUNT    = 1   # pcm_no: rhythm/PCM channel
+SONG_CHANNEL_TOTAL   = 10  # song_no = fm_no + psg_no + pcm_no
+FM_SE_CHANNEL_COUNT  = 3   # fm_se_no: FM sound effect channels (ch 2, 4, 5)
+PSG_SE_CHANNEL_COUNT = 3   # psg_se_no: PSG sound effect channels
+
+# FM channel hardware IDs used in se_song_tb (channel work index → YM2612 channel)
+FM_CHANNEL_ID_TABLE: list[int] = [6, 0, 1, 2, 4, 5, 6]
+# Index 0 = rhythm (ch6), indices 1–3 = FM1–3 (OPN1), indices 4–5 = FM4–5 (OPN2)
+# ch6 duplicated at end for DAC overlap handling
+
+# PSG channel latch byte identifiers (se_song_tb PSG entries)
+PSG_CHANNEL_IDS: list[int] = [0x80, 0xA0, 0xC0]
+# 0x80 = Tone0, 0xA0 = Tone1, 0xC0 = Tone2; 0xE0 = Noise (special case)
+
+# Song channel assignment: song channels 1–6 are FM, 7–9 are PSG, 10 is PCM
+# Sound effects use: FM channels 2, 4, 5; PSG channels $80, $A0, $C0, $E0
+SONG_CHANNEL_TYPES: dict[str, dict] = {
+    "song_fm":   {"channels": [1, 2, 3, 4, 5, 6], "hw_channels": [1, 2, 3, 4, 5, 6]},
+    "song_psg":  {"channels": [7, 8, 9],           "hw_ids":      [0x80, 0xA0, 0xC0]},
+    "song_pcm":  {"channels": [10],                "hw_channel":  6},  # DAC via ch6
+    "se_fm":     {"channels": [2, 4, 5],           "hw_channels": [2, 4, 5]},
+    "se_psg":    {"channels": [7, 8, 9],           "hw_ids":      [0x80, 0xA0, 0xC0]},
+}
+
+# ---------------------------------------------------------------------------
 # PSG frequency scale table  (mdpsg11.asm psg_scale)
 # ---------------------------------------------------------------------------
 
