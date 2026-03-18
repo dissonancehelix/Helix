@@ -1,0 +1,85 @@
+{
+  "entity_id": "music.artist:tatsuyuki_maeda",
+  "ccs_version": "1.0.0",
+  "aggregation_method": "duration_weighted_mean",
+  "track_count": 12,
+  "ccs_embedding": {
+    "attractor_stability": 0.79,
+    "generative_constraint": 0.72,
+    "recurrence_depth": 0.60,
+    "structural_density": 0.68,
+    "control_entropy": 0.63,
+    "basin_permeability": 0.24
+  },
+  "evidence": {
+    "signals": [
+      {
+        "name": "attractor_stability_weighted_mean",
+        "value": 0.79,
+        "axis": "attractor_stability",
+        "unit": "ratio"
+      },
+      {
+        "name": "attractor_stability_std_dev",
+        "value": 0.08,
+        "axis": "attractor_stability",
+        "unit": "ratio"
+      },
+      {
+        "name": "generative_constraint_weighted_mean",
+        "value": 0.72,
+        "axis": "generative_constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "generative_constraint_std_dev",
+        "value": 0.07,
+        "axis": "generative_constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "recurrence_depth_weighted_mean",
+        "value": 0.60,
+        "axis": "recurrence_depth",
+        "unit": "ratio"
+      },
+      {
+        "name": "structural_density_weighted_mean",
+        "value": 0.68,
+        "axis": "structural_density",
+        "unit": "ratio"
+      },
+      {
+        "name": "control_entropy_weighted_mean",
+        "value": 0.63,
+        "axis": "control_entropy",
+        "unit": "ratio"
+      },
+      {
+        "name": "basin_permeability_weighted_mean",
+        "value": 0.24,
+        "axis": "basin_permeability",
+        "unit": "ratio"
+      },
+      {
+        "name": "track_count",
+        "value": 12,
+        "axis": "attractor_stability",
+        "unit": "count"
+      }
+    ],
+    "source_features": [
+      "entity_type: ARTIST aggregate",
+      "aggregation: duration-weighted mean of per-track CCS embeddings",
+      "source_tracks: Sonic 3D Blast JP/EU (Mega Drive, 1996) — primary composition credit",
+      "driver: Sega custom SMPS-derived driver (JP/EU version, not GEMS)",
+      "hardware: YM2612 FM + SN76489 PSG",
+      "style_descriptors: melodic, structured arcade style, diatonic-leaning with chromatic ornament",
+      "low_variance_axes: generative_constraint (0.07 std), basin_permeability (consistent hard cuts)"
+    ],
+    "notes": "Artist-level aggregate of 12 tracks attributed to Tatsuyuki Maeda. Low std_dev on generative_constraint (0.07) indicates a consistent compositional approach across the catalog. basin_permeability is consistently low (0.24) reflecting the SMPS-driver hard-section architecture used in the JP/EU Sonic 3D Blast driver (not GEMS). This aggregate will be updated when additional Maeda tracks are reparsed into the atlas."
+  },
+  "confidence": 0.62,
+  "computed_at": "2026-03-18T00:00:00Z",
+  "source_version": "analysis_v1"
+}

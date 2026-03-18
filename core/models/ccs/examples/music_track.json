@@ -1,0 +1,117 @@
+{
+  "_comment": "Example CCS embedding for a GEMS-driven Genesis track (Sonic 3D Blast style). Values derived from GEMS structural properties: strict loop architecture, MIDI-channel voice allocation, FM timbre diversity, hard sequence-cut transitions.",
+  "entity_id": "music.track:sonic_3d_blast_rusty_ruin_act1",
+  "ccs_version": "1.0.0",
+  "ccs_embedding": {
+    "attractor_stability": 0.82,
+    "generative_constraint": 0.65,
+    "recurrence_depth": 0.63,
+    "structural_density": 0.76,
+    "control_entropy": 0.71,
+    "basin_permeability": 0.27
+  },
+  "evidence": {
+    "signals": [
+      {
+        "name": "phrase_repetition_rate",
+        "value": 0.88,
+        "axis": "attractor_stability",
+        "unit": "ratio"
+      },
+      {
+        "name": "pattern_variance_normalized",
+        "value": 0.09,
+        "axis": "attractor_stability",
+        "unit": "ratio"
+      },
+      {
+        "name": "scale_adherence_ratio",
+        "value": 0.79,
+        "axis": "generative_constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "rhythmic_quantization_error",
+        "value": 0.11,
+        "axis": "generative_constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "harmonic_vocab_size_normalized",
+        "value": 0.31,
+        "axis": "generative_constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "detected_recurrence_levels",
+        "value": 2.5,
+        "axis": "recurrence_depth",
+        "unit": "levels_of_4"
+      },
+      {
+        "name": "note_density",
+        "value": 9.4,
+        "axis": "structural_density",
+        "unit": "events/second"
+      },
+      {
+        "name": "harmonic_rhythm_rate",
+        "value": 0.71,
+        "axis": "structural_density",
+        "unit": "chord_changes/bar_normalized"
+      },
+      {
+        "name": "timbre_change_rate",
+        "value": 0.58,
+        "axis": "structural_density",
+        "unit": "events/second_normalized"
+      },
+      {
+        "name": "pitch_class_entropy",
+        "value": 0.74,
+        "axis": "control_entropy",
+        "unit": "bits_normalized"
+      },
+      {
+        "name": "dynamic_entropy",
+        "value": 0.65,
+        "axis": "control_entropy",
+        "unit": "bits_normalized"
+      },
+      {
+        "name": "articulation_entropy",
+        "value": 0.73,
+        "axis": "control_entropy",
+        "unit": "bits_normalized"
+      },
+      {
+        "name": "mean_transition_sharpness",
+        "value": 0.19,
+        "axis": "basin_permeability",
+        "unit": "ratio"
+      },
+      {
+        "name": "shared_material_ratio",
+        "value": 0.42,
+        "axis": "basin_permeability",
+        "unit": "ratio"
+      }
+    ],
+    "source_features": [
+      "driver: GEMS v2.0 (Z80 sequencer)",
+      "hardware: YM2612 FM + SN76489 PSG",
+      "sequence_structure: 4-bar phrase, 16-bar loop, A-B-A-B form",
+      "fm_channels_used: 5 (ch6=DAC, ch3=percussion mode)",
+      "psg_channels_used: 2 (tone + noise)",
+      "detected_scale: Dorian mode (D)",
+      "tempo_bpm: 148",
+      "time_signature: 4/4",
+      "section_boundaries: hard GEMS sequence-cut transitions",
+      "loop_type: infinite, exact (SMPS-style within GEMS)"
+    ],
+    "notes": "recurrence_depth scored at 2.5/4: motif-level and phrase-level recurrence confirmed; section-level partially confirmed (A returns but varied); form-level not confirmed (no arch return). control_entropy values are mean of pitch/dynamic/articulation entropy ratios. basin_permeability is low because GEMS sequence cuts produce hard section boundaries with no crossfade mechanism at the Z80 level."
+  },
+  "confidence": 0.71,
+  "computed_at": "2026-03-18T00:00:00Z",
+  "source_version": "analysis_v1"
+}

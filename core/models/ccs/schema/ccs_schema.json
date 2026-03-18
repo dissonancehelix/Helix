@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "helix://schemas/ccs/1.0.0",
+  "title": "CCS Embedding",
+  "description": "Cognitive Coordinate System structural embedding. 6-axis characterization of an entity derived from observable features.",
+  "type": "object",
+  "required": ["entity_id", "ccs_version", "ccs_embedding", "evidence", "confidence"],
+  "additionalProperties": false,
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "description": "Unique identifier for the entity. Format is domain-defined (e.g., 'music.track:slug').",
+      "minLength": 1
+    },
+    "ccs_version": {
+      "type": "string",
+      "description": "Version of the CCS specification used to compute this embedding.",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "examples": ["1.0.0"]
+    },
+    "ccs_embedding": {
+      "type": "object",
+      "description": "The 6-axis structural embedding. All axes are required. All values in [0.0, 1.0].",
+      "required": [
+        "attractor_stability",
+        "generative_constraint",
+        "recurrence_depth",
+        "structural_density",
+        "control_entropy",
+        "basin_permeability"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "attractor_stability": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Degree to which structural patterns recur identically within the entity. 0=no repetition, 1=exact loop."
+        },
+        "generative_constraint": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Degree to which the event space is restricted by detectable compositional rules. 0=unconstrained, 1=maximally constrained."
+        },
+        "recurrence_depth": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Fraction of hierarchical recurrence levels detected (motif/phrase/section/form). 0=none, 1=all four levels."
+        },
+        "structural_density": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Rate of structural events per unit time, domain-normalized. 0=sparse, 1=maximally dense."
+        },
+        "control_entropy": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Normalized Shannon entropy of control signal distributions (pitch, dynamics, articulation). 0=uniform/constant, 1=maximally varied."
+        },
+        "basin_permeability": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "description": "Degree to which structural transitions between sections are gradual. 0=hard cuts only, 1=fully continuous."
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "description": "Observable features and named signals that produced this embedding. Required for all non-placeholder embeddings.",
+      "required": ["signals", "source_features", "notes"],
+      "additionalProperties": false,
+      "properties": {
+        "signals": {
+          "type": "array",
+          "description": "Named measurable signals used as axis inputs. Each signal traces to one axis.",
+          "minItems": 0,
+          "items": {
+            "type": "object",
+            "required": ["name", "value", "axis"],
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Signal name (must match a named observable in the SPEC for the relevant axis).",
+                "minLength": 1
+              },
+              "value": {
+                "type": ["number", "string", "boolean"],
+                "description": "Measured value of the signal."
+              },
+              "axis": {
+                "type": "string",
+                "description": "The CCS axis this signal contributes to.",
+                "enum": [
+                  "attractor_stability",
+                  "generative_constraint",
+                  "recurrence_depth",
+                  "structural_density",
+                  "control_entropy",
+                  "basin_permeability"
+                ]
+              },
+              "unit": {
+                "type": "string",
+                "description": "Optional unit of measurement (e.g., 'events/second', 'ratio', 'bits')."
+              }
+            }
+          }
+        },
+        "source_features": {
+          "type": "array",
+          "description": "Names or paths of source artifacts used (e.g., analysis file, VGM path, tag source).",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "notes": {
+          "type": "string",
+          "description": "Computation notes. Document data gaps, approximations, edge cases, or manual adjustments with justification."
+        }
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Data completeness score. Reflects how complete the input data was during embedding computation. See SPEC.md Section 4 for range definitions."
+    },
+    "computed_at": {
+      "type": "string",
+      "description": "ISO 8601 timestamp of embedding computation (optional, for provenance).",
+      "format": "date-time"
+    },
+    "source_version": {
+      "type": "string",
+      "description": "Optional version identifier of the source data or analysis pipeline that produced this embedding."
+    }
+  }
+}

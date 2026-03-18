@@ -1,0 +1,123 @@
+{
+  "_comment": "Example CCS embedding for a game soundtrack aggregate (Streets of Rage 2 / Bare Knuckle II, Yuzo Koshiro + Motohiro Kawashima). Aggregated across all 22 tracks. Represents the structural signature of the soundtrack as a whole, not a single track. Values are weighted means; weights reflect track duration.",
+  "entity_id": "game.soundtrack:streets_of_rage_2",
+  "ccs_version": "1.0.0",
+  "ccs_embedding": {
+    "attractor_stability": 0.73,
+    "generative_constraint": 0.38,
+    "recurrence_depth": 0.75,
+    "structural_density": 0.84,
+    "control_entropy": 0.81,
+    "basin_permeability": 0.43
+  },
+  "evidence": {
+    "signals": [
+      {
+        "name": "phrase_repetition_rate_mean",
+        "value": 0.81,
+        "axis": "attractor_stability",
+        "unit": "ratio"
+      },
+      {
+        "name": "pattern_variance_normalized_mean",
+        "value": 0.21,
+        "axis": "attractor_stability",
+        "unit": "ratio"
+      },
+      {
+        "name": "scale_adherence_ratio_mean",
+        "value": 0.52,
+        "axis": "generative_constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "rhythmic_quantization_error_mean",
+        "value": 0.28,
+        "axis": "generative_constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "harmonic_vocab_size_normalized_mean",
+        "value": 0.59,
+        "axis": "generative_constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "detected_recurrence_levels_mean",
+        "value": 3.0,
+        "axis": "recurrence_depth",
+        "unit": "levels_of_4"
+      },
+      {
+        "name": "note_density_mean",
+        "value": 12.1,
+        "axis": "structural_density",
+        "unit": "events/second"
+      },
+      {
+        "name": "harmonic_rhythm_rate_mean",
+        "value": 0.88,
+        "axis": "structural_density",
+        "unit": "chord_changes/bar_normalized"
+      },
+      {
+        "name": "timbre_change_rate_mean",
+        "value": 0.79,
+        "axis": "structural_density",
+        "unit": "events/second_normalized"
+      },
+      {
+        "name": "pitch_class_entropy_mean",
+        "value": 0.84,
+        "axis": "control_entropy",
+        "unit": "bits_normalized"
+      },
+      {
+        "name": "dynamic_entropy_mean",
+        "value": 0.77,
+        "axis": "control_entropy",
+        "unit": "bits_normalized"
+      },
+      {
+        "name": "articulation_entropy_mean",
+        "value": 0.82,
+        "axis": "control_entropy",
+        "unit": "bits_normalized"
+      },
+      {
+        "name": "mean_transition_sharpness",
+        "value": 0.39,
+        "axis": "basin_permeability",
+        "unit": "ratio"
+      },
+      {
+        "name": "shared_material_ratio_mean",
+        "value": 0.53,
+        "axis": "basin_permeability",
+        "unit": "ratio"
+      },
+      {
+        "name": "track_count",
+        "value": 22,
+        "axis": "attractor_stability",
+        "unit": "count"
+      }
+    ],
+    "source_features": [
+      "driver: Bare Knuckle / Streets of Rage custom Z80 sequencer",
+      "hardware: YM2612 FM + SN76489 PSG + DAC channel",
+      "composers: Yuzo Koshiro (primary), Motohiro Kawashima (co-composer)",
+      "genre_influences: house, techno, acid, rave",
+      "harmonic_vocabulary: jazz-influenced chord extensions, non-diatonic progressions",
+      "rhythmic_grid: 4/4 primary with polyrhythmic percussion layers",
+      "fm_patch_count_approximate: 40+",
+      "dac_usage: high (sampled percussion, bass slaps)",
+      "chromatic_deviation_rate: high (passing tones, blue notes, tritone substitution)",
+      "structural_form_examples: through-composed with recurring A-section, motivic development"
+    ],
+    "notes": "This is a soundtrack-level aggregate, not a single track. Values are duration-weighted means across all 22 tracks. generative_constraint is intentionally low: Koshiro's harmonic language is jazz-chromatic and does not conform to diatonic scale adherence. recurrence_depth is high (3/4): motif, phrase, and section recurrence all confirmed across the catalog; form-level return is partial. basin_permeability is moderate — the sequencer supports smoother section transitions than GEMS/SMPS, and Koshiro exploits this with bridging material between A and B sections."
+  },
+  "confidence": 0.64,
+  "computed_at": "2026-03-18T00:00:00Z",
+  "source_version": "analysis_v1"
+}
