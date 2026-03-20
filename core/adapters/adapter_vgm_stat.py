@@ -2,7 +2,7 @@
 adapter_vgm_stat.py — Helix adapter for vgm_stat (vgmtools)
 ============================================================
 Tier B: Requires compiled vgm_stat binary.
-Source reference: substrates/music/toolkits/vgmtools/vgm_stat.c
+Source reference: domains/music/toolkits/vgmtools/vgm_stat.c
 
 Purpose:
     Run vgm_stat on a VGM/VGZ file and parse its temporal statistics

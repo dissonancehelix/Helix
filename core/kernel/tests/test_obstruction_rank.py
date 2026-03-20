@@ -1,8 +1,9 @@
 import json
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACTS_DIR = ROOT / '07_artifacts/artifacts'
+ROOT = REPO_ROOT
+ARTIFACTS_DIR = ROOT / 'execution/artifacts'
 
 def test_obstruction_rank():
     with open(ARTIFACTS_DIR / 'obstruction/obstruction_spectrum.json', 'r') as f:

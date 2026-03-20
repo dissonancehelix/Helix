@@ -9,10 +9,10 @@ from pathlib import Path
 # Add repo root to sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 
-from substrates.music.master_pipeline import MasterPipeline
-from substrates.music.similarity.composer_similarity import ComposerProfiler
-from substrates.music.config import DB_PATH, FEATURE_VECTOR_VERSION, ARTIFACTS
-from substrates.music.db.track_db import TrackDB
+from domains.music.master_pipeline import MasterPipeline
+from domains.music.similarity.composer_similarity import ComposerProfiler
+from domains.music.config import DB_PATH, FEATURE_VECTOR_VERSION, ARTIFACTS
+from domains.music.db.track_db import TrackDB
 import json
 
 def run(limit: int = 0, **kwargs):

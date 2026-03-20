@@ -3,6 +3,7 @@ import json
 import numpy as np
 import pandas as pd
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.decomposition import TruncatedSVD
 from sklearn.ensemble import RandomForestClassifier
@@ -12,8 +13,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from engines.infra.io.persistence import load_domains, save_wrapped
 from engine.uncertainty_model import UncertaintyModel
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-OUT_DIR = ROOT / '07_artifacts/artifacts/grant_phase'
+ROOT = REPO_ROOT
+OUT_DIR = ROOT / 'execution/artifacts/grant_phase'
 DATA_DIR = ROOT / '04_labs/corpus/domains'
 
 # TARGET DOMAIN: ML Training Instability Prediction

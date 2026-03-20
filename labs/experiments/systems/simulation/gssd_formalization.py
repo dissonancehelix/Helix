@@ -5,7 +5,7 @@ from pathlib import Path
 from datetime import datetime
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-ART_ROOT = ROOT / '07_artifacts' / 'gssd'
+ART_ROOT = ROOT / 'execution/artifacts' / 'gssd'
 ART_ROOT.mkdir(parents=True, exist_ok=True)
 random.seed(42)
 

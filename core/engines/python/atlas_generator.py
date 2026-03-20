@@ -5,8 +5,8 @@ from pathlib import Path
 from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent.parent.parent
-ATLAS_DIR = ROOT / '06_atlas'
-ARTIFACTS_DIR = ROOT / '07_artifacts' / 'artifacts'
+ATLAS_DIR = ROOT / 'codex/atlas'
+ARTIFACTS_DIR = ROOT / 'execution/artifacts' / 'artifacts'
 FORGE_DIR = ROOT / '04_labs'
 WORKSPACE_DIR = ROOT / '04_labs'
 

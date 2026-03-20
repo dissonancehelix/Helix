@@ -1,6 +1,7 @@
 import os
 import numpy as np
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from sklearn.decomposition import PCA
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -12,8 +13,8 @@ from psc_impact_reporting import write_impact_artifacts
 
 SEED = 42
 np.random.seed(SEED)
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACT_DIR = ROOT / '07_artifacts/artifacts' / 'psc_behavioral_impact'
+ROOT = REPO_ROOT
+ARTIFACT_DIR = ROOT / 'execution/artifacts' / 'psc_behavioral_impact'
 
 def run_behavioral_impact_suite():
     iris_X, iris_y = load_iris(return_X_y=True)

@@ -7,7 +7,7 @@ that orchestrates data loading, splitting, feature selection, and
 evaluation result serialisation.
 
 Usage:
-    python -m substrates.music.benchmarks.music_lab_cfp_v1.runner [options]
+    python -m domains.music.benchmarks.music_lab_cfp_v1.runner [options]
 
 Options:
     --split    random|game_held_out   (default: random)
@@ -29,7 +29,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from substrates.music.config import (
+from domains.music.config import (
     DB_PATH, ARTIFACTS, FEATURE_VECTOR_VERSION, FEATURE_VECTOR_DIM,
 )
 
@@ -60,7 +60,7 @@ def load_dataset(
         {"track_ids": [...], "vectors": [[...], ...], "labels": [...],
          "metadata": [{title, composer, game, ...}, ...]}
     """
-    from substrates.music.db.track_db import TrackDB
+    from domains.music.db.track_db import TrackDB
 
     db = TrackDB(db_path)
     ids, mat = db.load_all_vectors(FEATURE_VECTOR_VERSION)
@@ -219,7 +219,7 @@ def _predict_centroid(centroids, vec, top_k=3):
 
 
 def _train_gaussian(train_vecs, train_labels):
-    from substrates.music.similarity.composer_similarity import ComposerProfiler
+    from domains.music.similarity.composer_similarity import ComposerProfiler
     p = ComposerProfiler()
     p.fit(train_vecs, train_labels)
     return p

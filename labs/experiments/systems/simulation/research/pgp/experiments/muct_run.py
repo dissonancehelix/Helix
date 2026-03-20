@@ -5,11 +5,12 @@ import math
 import statistics
 from collections import defaultdict, deque
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 import hashlib
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 RUN_ID = f"muct_{int(time.time())}"
-ARTIFACTS_DIR = ROOT / '07_artifacts' / 'pgp_muct' / RUN_ID
+ARTIFACTS_DIR = ROOT / 'execution/artifacts' / 'pgp_muct' / RUN_ID
 
 # -----------------------------------------------------------
 # PHASE 0 & INITIALIZATION

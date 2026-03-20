@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import hashlib
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.decomposition import TruncatedSVD, PCA
 from sklearn.preprocessing import StandardScaler
@@ -13,10 +14,10 @@ from scipy.spatial.distance import cdist
 from engines.infra.io.persistence import load_domains, save_wrapped
 from engine.facet_drift_monitor import FacetDriftMonitor
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-OUT_DIR = ROOT / '07_artifacts/artifacts/geometry_polyhedral'
+ROOT = REPO_ROOT
+OUT_DIR = ROOT / 'execution/artifacts/geometry_polyhedral'
 DATA_DIR = ROOT / '04_labs/corpus/domains'
-TRIAGE_FILE = ROOT / '07_artifacts/artifacts/manifold_safe/isolate_triage.json'
+TRIAGE_FILE = ROOT / 'execution/artifacts/manifold_safe/isolate_triage.json'
 
 def get_data():
     domain_items = load_domains(DATA_DIR, recursive=True)
@@ -188,7 +189,7 @@ from pathlib import Path
 class FacetRouter:
     def __init__(self, root_path):
         self.root = Path(root_path)
-        self.table_path = self.root / '07_artifacts/artifacts/geometry_polyhedral/facet_router.json'
+        self.table_path = self.root / 'execution/artifacts/geometry_polyhedral/facet_router.json'
         
     def get_route(self, domain_id):
         with open(self.table_path, 'r') as f:

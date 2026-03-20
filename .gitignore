@@ -33,13 +33,12 @@ Thumbs.db
 experiments/output/
 /05_applications/eft/
 
-# ── Data layer: processed outputs (all pipeline-generated, never committed) ──
-data/music/processed/
-data/language/processed/
-data/agents/processed/
-# Allow folder structure stubs (empty .gitkeep files are fine)
-!data/music/processed/**/.gitkeep
-!data/language/processed/**/.gitkeep
+# ── Dataset layer: processed outputs (all pipeline-generated, never committed) ──
+labs/datasets/music/processed/
+labs/datasets/language/processed/
+labs/datasets/agents/processed/
+!labs/datasets/music/processed/**/.gitkeep
+!labs/datasets/language/processed/**/.gitkeep
 
 # ── Execution layer: run artifacts and archives ──
 execution/runs/*/archive/
@@ -54,28 +53,27 @@ execution/runs/*/wikidata_*.json
 execution/logs/reports/*.json
 
 # ── Atlas: generated registries (rebuilt by COMPILE_ATLAS) ──
-atlas/entities/registry.json
-atlas/entities/entity_graph.json
-# Numbered per-run invariant artifacts (execution output, not structure)
-atlas/invariants/invariant_*_[0-9]*.json
+codex/atlas/entities/registry.json
+codex/atlas/entities/entity_graph.json
+codex/atlas/invariants/invariant_*_[0-9]*.json
 
 # ── Source code repos with their own git history ──
 # These are substrate language references stored as plain directories (not submodules)
-data/music/source/github/
-data/music/source/code/*/.git/
+codex/library/music/source/github/
+codex/library/music/source/code/*/.git/
 
 # ── Binary / rendered outputs ──
 *.nrg
 *.bin
 *.iso
-data/music/source/audio/
-data/music/source/midi/
+codex/library/music/source/audio/
+codex/library/music/source/midi/
 
 # ── Music Library: generated substrate (all pipeline-generated, never committed) ──
-core/library/music/album/
-core/library/music/artist/
-!core/library/music/album/**/*.gitkeep
-!core/library/music/artist/**/*.gitkeep
-!core/library/music/INGESTION.md
-!core/library/music/.compiler_manifest.json
-!core/library/music/.gitkeep
+codex/library/music/album/
+codex/library/music/artist/
+!codex/library/music/album/**/*.gitkeep
+!codex/library/music/artist/**/*.gitkeep
+!codex/library/music/INGESTION.md
+!codex/library/music/.compiler_manifest.json
+!codex/library/music/.gitkeep

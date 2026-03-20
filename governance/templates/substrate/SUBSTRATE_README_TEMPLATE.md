@@ -7,7 +7,7 @@ Author: {author}
 Date: {date}
 Document Type: Substrate Specification
 Subsystem: {name}
-Location: substrates/{name}/
+Location: domains/{name}/
 Purpose: [Define the purpose of this substrate]
 
 ------------------------------------------------------------
@@ -21,7 +21,7 @@ Purpose: [Define the purpose of this substrate]
 ------------------------------------------------------------
 The {name} substrate adheres to the standard 10-stage Helix pipeline architecture.
 
-substrates/{name}/
+domains/{name}/
 
 ├── README.md
 │   Substrate architecture specification

@@ -1,7 +1,7 @@
 """
 Probe: Oscillator Locking
 Status: Pending -- Phase 8 implementation target
-Atlas entry: atlas/invariants/oscillator_locking.md
+Atlas entry: codex/atlas/invariants/oscillator_locking.md
 """
 
 def run(substrate: str, **params):

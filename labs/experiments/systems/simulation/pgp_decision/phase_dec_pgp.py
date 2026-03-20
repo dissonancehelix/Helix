@@ -5,13 +5,14 @@ import math
 import statistics
 import sys
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 sys.path.insert(0, str(ROOT))
 from helix import write_artifact
 
 RUN_ID = f"dec_{int(time.time())}"
-out_dir = ROOT / '07_artifacts' / RUN_ID
+out_dir = ROOT / 'execution/artifacts' / RUN_ID
 
 # ----------------------------------------------------
 # 1. METRICS

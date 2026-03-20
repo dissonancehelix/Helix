@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
 WORKSPACES = ROOT / '04_labs'
-OUT_DIR = ROOT / '07_artifacts' / 'resilience_laws_v2'
+OUT_DIR = ROOT / 'execution/artifacts' / 'resilience_laws_v2'
 random.seed(42)
 
 def clone_if_not_exists(repo_url, name):

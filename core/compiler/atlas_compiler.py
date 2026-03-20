@@ -9,12 +9,12 @@ Converts validated artifacts into Atlas entities via the mandated pipeline:
     → atlas_commit(entity, substrate_path)
 
 CLOSED SYSTEM LAW:
-  No operator, substrate, or script may write to atlas/ directly.
+  No operator, substrate, or script may write to codex/atlas/ directly.
   All Atlas writes must pass through this compiler.
   Invalid entities are rejected before any filesystem write.
 
 Atlas organization (by substrate):
-  atlas/
+  codex/atlas/
     entities/registry.json   ← authoritative entity index
     music/
       composers/
@@ -46,13 +46,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from core.paths import ARTIFACTS_ROOT, ATLAS_ROOT, REPO_ROOT
+
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
 
-REPO_ROOT       = Path(__file__).resolve().parent.parent.parent
-ARTIFACTS_DIR   = REPO_ROOT / "artifacts"
-ATLAS_DIR       = REPO_ROOT / "atlas"
+ARTIFACTS_DIR   = ARTIFACTS_ROOT
+ATLAS_DIR       = ATLAS_ROOT
 INVARIANTS_DIR  = ATLAS_DIR / "invariants"
 EXPERIMENTS_DIR = ATLAS_DIR / "experiments"
 MODELS_DIR      = ATLAS_DIR / "models"
@@ -131,7 +132,7 @@ def atlas_commit(compiled: dict[str, Any]) -> Path:
     """
     Write a compiled entry to the Atlas filesystem.
 
-    This is the ONLY authorized path for writing to atlas/.
+    This is the ONLY authorized path for writing to codex/atlas/.
     Raises CompilationError if the entity fails validation or the
     runtime mode blocks direct writes.
     """
@@ -204,8 +205,8 @@ def _resolve_atlas_path(entity_dict: dict[str, Any]) -> Path:
     """
     Determine the output path for this entity in the Atlas filesystem.
 
-    Uses: atlas/{substrate}/{type_plural}/{slug}.json
-    Falls back to atlas/entities/{id_slug}.json for unknown substrates.
+    Uses: codex/atlas/{substrate}/{type_plural}/{slug}.json
+    Falls back to codex/atlas/entities/{id_slug}.json for unknown domains.
     """
     entity_id = entity_dict.get("id", "")
     namespace = entity_id.split(".")[0] if "." in entity_id else ""
@@ -216,7 +217,7 @@ def _resolve_atlas_path(entity_dict: dict[str, Any]) -> Path:
     base_dir = substrate_map.get(type_slug)
 
     if base_dir is None:
-        # Unknown substrate or type — fall back to atlas/entities/
+        # Unknown substrate or type — fall back to codex/atlas/entities/
         base_dir = ATLAS_DIR / "entities" / namespace / (type_slug + "s") if namespace else ATLAS_DIR / "entities"
 
     return base_dir / f"{slug}.json"
@@ -335,7 +336,7 @@ def discover_artifacts() -> list[dict]:
 
 
 def discover_atlas_json() -> list[dict]:
-    """Collect legacy atlas/*.json files for promotion."""
+    """Collect legacy codex/atlas/*.json files for promotion."""
     found = []
     for path in sorted(ATLAS_DIR.glob("*.json")):
         if path.name == "index.json":
@@ -579,7 +580,7 @@ def propose_links(obj: dict, registry: dict) -> list[str]:
                 continue
             eid = entry.get("id", "")
             if eid and eid.replace("_", " ") in name_lower:
-                proposals.append(f"atlas/{section}/{eid}.md")
+                proposals.append(f"codex/atlas/{section}/{eid}.md")
     return proposals
 
 
@@ -620,7 +621,7 @@ def write_index_md(sections: dict[str, list[str]]) -> None:
         "Raw data lives in `artifacts/`. Only validated knowledge lives here.",
         "All Atlas writes pass through the Atlas Compiler.",
         "",
-        "Registry: `atlas/entities/registry.json`",
+        "Registry: `codex/atlas/entities/registry.json`",
         "",
         "---",
         "",
@@ -748,12 +749,12 @@ def run(verbose: bool = True, overwrite: bool = False) -> dict[str, Any]:
         log("  No new candidates.")
 
     # 4. Regenerate index.md
-    log("\n[4/5] Regenerating atlas/index.md...")
+    log("\n[4/5] Regenerating codex/atlas/index.md...")
     sections = collect_sections()
     for label, entries in sections.items():
         log(f"  {label}: {len(entries)} entries")
     write_index_md(sections)
-    log("  WRITE: atlas/index.md")
+    log("  WRITE: codex/atlas/index.md")
 
     # 5. Validate compiled JSON entities via SemanticValidator
     log("\n[5/5] Validating compiled atlas entities...")
@@ -797,9 +798,9 @@ def run(verbose: bool = True, overwrite: bool = False) -> dict[str, Any]:
         from core.kernel.graph.storage.graph_visualizer import export_dot
         graph = build_graph()
         graph.save()
-        log(f"  WRITE: atlas/atlas_graph.json")
+        log(f"  WRITE: codex/atlas/atlas_graph.json")
         dot_path = export_dot(graph)
-        log(f"  WRITE: atlas/atlas_graph.dot")
+        log(f"  WRITE: codex/atlas/atlas_graph.dot")
         log(f"  {graph.summary()}")
         stats["graph"] = {"nodes": len(graph.nodes), "edges": len(graph.edges)}
     except ImportError as e:

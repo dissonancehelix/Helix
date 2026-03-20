@@ -3,9 +3,10 @@ import json
 import shutil
 import subprocess
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-STRESS_DIR = ROOT / '07_artifacts' / 'rrs' / 'stress'
+ROOT = REPO_ROOT
+STRESS_DIR = ROOT / 'execution/artifacts' / 'rrs' / 'stress'
 STRESS_DIR.mkdir(parents=True, exist_ok=True)
 
 FAKE_WORKSPACE = ROOT / '04_labs' / 'rrs_fake_repos'
@@ -43,7 +44,7 @@ def func_{i}():
     res = run_rrs(cheat_repo)
     
     # Check outputs in 06_artifacts/rrs/cheat_repo/
-    rrs_out = ROOT / '07_artifacts' / 'rrs' / 'cheat_repo'
+    rrs_out = ROOT / 'execution/artifacts' / 'rrs' / 'cheat_repo'
     cheat_detected = False
     if res.returncode != 0 and "MISSINGNESS EXCEEDS" in res.stdout:
         cheat_detected = True

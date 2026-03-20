@@ -5,8 +5,8 @@ import random
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-IN_DIR = ROOT / '07_artifacts' / 'resilience_universal'
-OUT_DIR = ROOT / '07_artifacts' / 'resilience_laws_v2'
+IN_DIR = ROOT / 'execution/artifacts' / 'resilience_universal'
+OUT_DIR = ROOT / 'execution/artifacts' / 'resilience_laws_v2'
 if not OUT_DIR.exists():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 random.seed(42)
@@ -149,7 +149,7 @@ def run_phase_A():
             },
             {
                 "claim": "Saturation function formally supersedes linear interaction for Cycle bounding.",
-                "path": "07_artifacts/resilience_laws_v2/adversarial_reclassification.md",
+                "path": "execution/artifacts/resilience_laws_v2/adversarial_reclassification.md",
                 "lines": "1-5",
                 "excerpt_hash": "a1c22d100c",
                 "supports": "DAMPING_REFINEMENT"

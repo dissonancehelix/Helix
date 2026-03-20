@@ -3,12 +3,13 @@ import json
 import numpy as np
 import pandas as pd
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from sklearn.decomposition import PCA, TruncatedSVD
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACTS_DIR = ROOT / '07_artifacts/artifacts'
+ROOT = REPO_ROOT
+ARTIFACTS_DIR = ROOT / 'execution/artifacts'
 OUT_JSON = ARTIFACTS_DIR / 'theorem_projection_stability_results.json'
 OUT_REPORT = ARTIFACTS_DIR / 'theorem_projection_stability_report.md'
 

@@ -4,9 +4,9 @@ import uuid
 import datetime
 from pathlib import Path
 from typing import List, Dict, Any, Optional
-from substrates.music.ingestion.adapters.foobar import FoobarAdapter
-from substrates.music.ingestion.adapters.spotify import SpotifyAdapter
-from substrates.music.ingestion.normalization.track_identity import TrackIdentity, SourceRecord
+from domains.music.ingestion.adapters.foobar import FoobarAdapter
+from domains.music.ingestion.adapters.spotify import SpotifyAdapter
+from domains.music.ingestion.normalization.track_identity import TrackIdentity, SourceRecord
 
 # Paths — resolved dynamically so the repo works from any location
 BASE_DIR = Path(__file__).resolve().parents[3]  # .../Helix/

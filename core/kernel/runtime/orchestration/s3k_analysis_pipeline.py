@@ -7,7 +7,7 @@ Layer 1 — Hardware Execution (chip stats, patch identity, register ground trut
 Layer 2 — Symbolic Music   (MIDI reconstruction → melodic/harmonic/arrangement)
 Layer 3 — MIR              (audio features where rendered audio exists; otherwise chip proxy)
 
-Composer attribution candidates (from atlas/knowledge/s3k_composer_attribution.json):
+Composer attribution candidates (from codex/atlas/knowledge/s3k_composer_attribution.json):
   Sega Sound Team:
     Masayuki Nagao      (Sonic 3 tracks: Hydrocity, Marble Garden, Carnival Night Act1, etc.)
     Tomonori Sawada     (various Sonic 3 tracks)
@@ -26,7 +26,7 @@ Output:
     └── analysis_report.md     ← human-readable research report
 
 Usage:
-    python -m substrates.music.pipelines.s3k_analysis_pipeline [--limit N] [--dry-run]
+    python -m domains.music.pipelines.s3k_analysis_pipeline [--limit N] [--dry-run]
 """
 
 from __future__ import annotations
@@ -44,7 +44,7 @@ _ROOT = Path(__file__).parent.parent.parent.parent
 if str(_ROOT) not in sys.path:
     sys.path.insert(0, str(_ROOT))
 
-from substrates.music.config import S3K_PATH, ARTIFACTS
+from domains.music.config import S3K_PATH, ARTIFACTS
 
 log = logging.getLogger(__name__)
 
@@ -58,7 +58,7 @@ TRACK_RESULTS  = ARTIFACTS_DIR / "track_results"
 
 # ---------------------------------------------------------------------------
 # Known S3K composer assignments (ground truth for training the profiler)
-# Source: atlas/knowledge/s3k_composer_attribution.json + Sonic Retro research
+# Source: codex/atlas/knowledge/s3k_composer_attribution.json + Sonic Retro research
 # ---------------------------------------------------------------------------
 
 S3K_KNOWN_COMPOSERS: dict[str, str] = {
@@ -119,8 +119,8 @@ def analyze_track(vgm_path: Path) -> dict[str, Any]:
 
     # --- Layer 1: parse + chip features ---
     try:
-        from substrates.music.vgm_parser import parse_vgm_file
-        from substrates.music.feature_extractor import extract as extract_features
+        from domains.music.vgm_parser import parse_vgm_file
+        from domains.music.feature_extractor import extract as extract_features
 
         track = parse_vgm_file(vgm_path)
         if track.error:
@@ -148,7 +148,7 @@ def analyze_track(vgm_path: Path) -> dict[str, Any]:
 
         # Operator brightness using Nuked-OPN2 carrier topology
         try:
-            from substrates.music.analysis.tool_bridge import operator_brightness, CARRIER_SLOTS
+            from domains.music.analysis.tool_bridge import operator_brightness, CARRIER_SLOTS
             # Use the most common algorithm in the track
             alg_dist = layer1.algorithm_dist
             dominant_alg = max(alg_dist, key=alg_dist.get) if alg_dist else 7
@@ -162,7 +162,7 @@ def analyze_track(vgm_path: Path) -> dict[str, Any]:
 
         # SMPS voice patch matching
         try:
-            from substrates.music.analysis.codec_reference import get_library, CODEC_VGM_YM2612
+            from domains.music.analysis.codec_reference import get_library, CODEC_VGM_YM2612
             lib = get_library()
             voice_lib = lib.get_voice_library(CODEC_VGM_YM2612)
             if voice_lib:
@@ -178,15 +178,15 @@ def analyze_track(vgm_path: Path) -> dict[str, Any]:
     # --- Layer 2: symbolic reconstruction + music analysis ---
     score = None  # kept in scope for ludomusicology layer below
     try:
-        from substrates.music.analysis.symbolic_music.vgm_note_reconstructor import reconstruct
-        from substrates.music.analysis.symbolic_music.melodic_analyzer import analyze as melodic_analyze
-        from substrates.music.analysis.symbolic_music.harmonic_analyzer import analyze as harmonic_analyze
-        from substrates.music.analysis.symbolic_music.arrangement_analyzer import analyze as arrangement_analyze
-        from substrates.music.analysis.theory_features.key_estimator import (
+        from domains.music.analysis.symbolic_music.vgm_note_reconstructor import reconstruct
+        from domains.music.analysis.symbolic_music.melodic_analyzer import analyze as melodic_analyze
+        from domains.music.analysis.symbolic_music.harmonic_analyzer import analyze as harmonic_analyze
+        from domains.music.analysis.symbolic_music.arrangement_analyzer import analyze as arrangement_analyze
+        from domains.music.analysis.theory_features.key_estimator import (
             estimate as key_estimate,
             pitch_histogram,
         )
-        from substrates.music.analysis.theory_features.rhythm_analyzer import analyze as rhythm_analyze
+        from domains.music.analysis.theory_features.rhythm_analyzer import analyze as rhythm_analyze
 
         score = reconstruct(track)
         result["layer2_reconstruction"] = score.reconstruction_stats
@@ -224,7 +224,7 @@ def analyze_track(vgm_path: Path) -> dict[str, Any]:
 
             # Symbolic toolchain: music21 / musif / symusic / musicntwrk
             try:
-                from substrates.music.analysis.symbolic_toolchain import from_score as symbolic_analyze
+                from domains.music.analysis.symbolic_toolchain import from_score as symbolic_analyze
                 sym = symbolic_analyze(score)
                 result["layer2_symbolic"] = sym.to_dict()
 
@@ -248,7 +248,7 @@ def analyze_track(vgm_path: Path) -> dict[str, Any]:
                 log.debug("symbolic toolchain error on %s: %s", vgm_path.name, sym_exc)
 
             # Composer fingerprint vector
-            from substrates.music.analysis.composer_fingerprint import build_vector
+            from domains.music.analysis.composer_fingerprint import build_vector
             fingerprint = build_vector(melodic, harmonic, arrangement, layer1)
             result["fingerprint"] = [round(x, 4) for x in fingerprint]
 
@@ -258,7 +258,7 @@ def analyze_track(vgm_path: Path) -> dict[str, Any]:
 
     # --- Layer 3: MIR (chip proxy since no rendered audio) ---
     try:
-        from substrates.music.analysis.audio_features.mir_extractor import extract as mir_extract
+        from domains.music.analysis.audio_features.mir_extractor import extract as mir_extract
         mir = mir_extract(vgm_path)
         if mir:
             result["layer3_mir"] = {k: round(v, 4) if isinstance(v, float) else v
@@ -269,9 +269,9 @@ def analyze_track(vgm_path: Path) -> dict[str, Any]:
     # --- Ludomusicology: loop + energy + gameplay role ---
     try:
         if score is not None and score.note_count > 0:
-            from substrates.music.analysis.ludomusicology.loop_detector import analyze_loop
-            from substrates.music.analysis.ludomusicology.energy_curve import analyze_energy
-            from substrates.music.analysis.ludomusicology.gameplay_role import classify
+            from domains.music.analysis.ludomusicology.loop_detector import analyze_loop
+            from domains.music.analysis.ludomusicology.energy_curve import analyze_energy
+            from domains.music.analysis.ludomusicology.gameplay_role import classify
 
             loop_result   = analyze_loop(score)
             energy_result = analyze_energy(score)
@@ -288,7 +288,7 @@ def analyze_track(vgm_path: Path) -> dict[str, Any]:
 
     # --- vgm2txt annotation (if compiled) ---
     try:
-        from substrates.music.analysis.tool_bridge import vgm2txt, available_tools
+        from domains.music.analysis.tool_bridge import vgm2txt, available_tools
         if available_tools().get("vgm2txt"):
             events = vgm2txt(vgm_path)
             result["vgm2txt_event_count"] = len(events)
@@ -313,7 +313,7 @@ def build_composer_profiles(
     track_results: list[dict[str, Any]],
 ) -> dict[str, Any]:
     """Build ComposerProfiler from results with known composer assignments."""
-    from substrates.music.analysis.composer_fingerprint import ComposerProfiler
+    from domains.music.analysis.composer_fingerprint import ComposerProfiler
 
     profiler = ComposerProfiler()
     unattributed: list[dict[str, Any]] = []
@@ -354,7 +354,7 @@ def cluster_tracks(
     Simple cosine similarity clustering of all tracks with fingerprints.
     Returns a list of cluster dicts sorted by intra-cluster cohesion.
     """
-    from substrates.music.analysis.composer_fingerprint import _cosine
+    from domains.music.analysis.composer_fingerprint import _cosine
 
     # Collect all fingerprints
     fingerprints = [
@@ -596,7 +596,7 @@ def run(limit: int | None = None, dry_run: bool = False) -> None:
     TRACK_RESULTS.mkdir(parents=True, exist_ok=True)
 
     # Check tool availability
-    from substrates.music.analysis.tool_bridge import available_tools
+    from domains.music.analysis.tool_bridge import available_tools
     tools = available_tools()
     log.info("  Tools available: %s", tools)
 
@@ -632,7 +632,7 @@ def run(limit: int | None = None, dry_run: bool = False) -> None:
     # --- Style space mapping (Layer 7: PCA/UMAP/t-SNE) ---
     style_space_dict: dict[str, Any] = {}
     try:
-        from substrates.music.analysis.style_space import compute as style_space_compute
+        from domains.music.analysis.style_space import compute as style_space_compute
         fp_tracks  = [(r["track_name"], r["fingerprint"]) for r in track_results if "fingerprint" in r]
         if len(fp_tracks) >= 3:
             ids, vecs = zip(*fp_tracks)
@@ -650,7 +650,7 @@ def run(limit: int | None = None, dry_run: bool = False) -> None:
     # --- Pattern discovery (Layer 8: HDBSCAN/k-means/network) ---
     pattern_dict: dict[str, Any] = {}
     try:
-        from substrates.music.analysis.pattern_discovery import discover as discover_patterns
+        from domains.music.analysis.pattern_discovery import discover as discover_patterns
         fp_tracks = [(r["track_name"], r["fingerprint"]) for r in track_results if "fingerprint" in r]
         if len(fp_tracks) >= 3:
             ids, vecs = zip(*fp_tracks)
@@ -682,7 +682,7 @@ def run(limit: int | None = None, dry_run: bool = False) -> None:
 
     # --- LLM interpretation (Layer 9) ---
     try:
-        from substrates.music.analysis.llm_interpreter import interpret_corpus, available as llm_available
+        from domains.music.analysis.llm_interpreter import interpret_corpus, available as llm_available
         if llm_available():
             log.info("Generating LLM corpus interpretation...")
             corpus_insight = interpret_corpus(
@@ -704,16 +704,16 @@ def run(limit: int | None = None, dry_run: bool = False) -> None:
 
     # --- Knowledge Graph: build + link + save ---
     try:
-        from substrates.music.knowledge.composer_graph import get_graph, reset_graph
-        from substrates.music.knowledge.linker import link_pipeline_output
-        from substrates.music.knowledge.composer_store import ComposerStore
+        from domains.music.knowledge.composer_graph import get_graph, reset_graph
+        from domains.music.knowledge.linker import link_pipeline_output
+        from domains.music.knowledge.composer_store import ComposerStore
 
         reset_graph()
         kg = get_graph(seed=True)   # seed with base S3K data
 
         # Ingest Sonic Retro HTML (adds per-track credits + full staff list)
         try:
-            from substrates.music.knowledge.sources.sonic_retro_ingester import ingest_s3k_default
+            from domains.music.knowledge.sources.sonic_retro_ingester import ingest_s3k_default
             sr_result = ingest_s3k_default(kg)
             log.info("KG: Sonic Retro ingest → %s", sr_result)
         except Exception as exc:
@@ -746,7 +746,7 @@ def run(limit: int | None = None, dry_run: bool = False) -> None:
 
         # VGMPF technical enrichment (always available, no network)
         try:
-            from substrates.music.knowledge.sources.vgmpf_ingester import (
+            from domains.music.knowledge.sources.vgmpf_ingester import (
                 enrich_all_composers, enrich_driver_node,
             )
             n_enriched = enrich_all_composers(list(kg._composers.values()))
@@ -766,7 +766,7 @@ def run(limit: int | None = None, dry_run: bool = False) -> None:
 
         # Reports
         try:
-            from substrates.music.knowledge.report_generator import generate_all as gen_reports
+            from domains.music.knowledge.report_generator import generate_all as gen_reports
             reports_dir = ARTIFACTS_DIR / "knowledge_reports"
             report_paths = gen_reports("sonic_3_and_knuckles", kg, vec_dict, reports_dir)
             log.info("KG: generated %d report files in %s",
@@ -776,7 +776,7 @@ def run(limit: int | None = None, dry_run: bool = False) -> None:
 
         # Visualizations (GEXF + DOT always; PNG if matplotlib available)
         try:
-            from substrates.music.knowledge.visualizer import render_all as viz_all
+            from domains.music.knowledge.visualizer import render_all as viz_all
             viz_dir = ARTIFACTS_DIR / "knowledge_viz"
             viz_results = viz_all(
                 "sonic_3_and_knuckles", kg, vec_dict, viz_dir,
@@ -789,7 +789,7 @@ def run(limit: int | None = None, dry_run: bool = False) -> None:
 
         # Style queries report
         try:
-            from substrates.music.knowledge.style_queries import StyleQueryEngine
+            from domains.music.knowledge.style_queries import StyleQueryEngine
             sq = StyleQueryEngine(kg, vec_dict)
             sq_out: dict[str, Any] = {}
             for c in kg.all_composers():

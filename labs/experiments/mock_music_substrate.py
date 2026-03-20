@@ -21,12 +21,12 @@ COMPOSERS = [
 ]
 
 def make_dirs():
-    (ROOT / "atlas/entities/music").mkdir(parents=True, exist_ok=True)
-    (ROOT / "atlas/signals").mkdir(parents=True, exist_ok=True)
+    (ROOT / "codex/atlas/entities/music").mkdir(parents=True, exist_ok=True)
+    (ROOT / "codex/atlas/signals").mkdir(parents=True, exist_ok=True)
     (ROOT / "artifacts/embeddings/music").mkdir(parents=True, exist_ok=True)
     (ROOT / "artifacts/reports").mkdir(parents=True, exist_ok=True)
-    (ROOT / "atlas/experiments").mkdir(parents=True, exist_ok=True)
-    (ROOT / "atlas/invariants").mkdir(parents=True, exist_ok=True)
+    (ROOT / "codex/atlas/experiments").mkdir(parents=True, exist_ok=True)
+    (ROOT / "codex/atlas/invariants").mkdir(parents=True, exist_ok=True)
 
 def generate_tracks():
     tracks = []
@@ -46,7 +46,7 @@ def generate_tracks():
 
 def generate_entities(tracks):
     for t in tracks:
-        path = ROOT / "atlas/entities/music" / f"{t['track_name']}.json"
+        path = ROOT / "codex/atlas/entities/music" / f"{t['track_name']}.json"
         with open(path, "w") as f:
             t["_type"] = "music:track" # Type required by Atlas logic? We add it.
             json.dump(t, f, indent=4)
@@ -55,7 +55,7 @@ def generate_signals(tracks):
     signals = ["tempo", "harmonic_density", "timbre_cluster", "operator_pattern", "motif_signature"]
     for t in tracks:
         for s in signals:
-            path = ROOT / "atlas/signals" / f"{t['track_name']}_{s}.json"
+            path = ROOT / "codex/atlas/signals" / f"{t['track_name']}_{s}.json"
             data = {"value": random.random(), "signal_type": s, "track": t['track_name']}
             with open(path, "w") as f:
                 json.dump(data, f, indent=4)
@@ -68,7 +68,7 @@ def generate_embeddings(tracks):
             json.dump(data, f, indent=4)
 
 def update_experiment_md():
-    path = ROOT / "atlas/experiments/composer_style_probe_sega_sound_team.md"
+    path = ROOT / "codex/atlas/experiments/composer_style_probe_sega_sound_team.md"
     content = f"""============================================================
 EXPERIMENT SPECIFICATION
 composer_style_probe_sega_sound_team
@@ -109,7 +109,7 @@ Found structural signatures overlapping Jun Senoue and Tatsuyuki Maeda.
         f.write(content)
 
 def update_invariant_md():
-    path = ROOT / "atlas/invariants/composer_style_signature.md"
+    path = ROOT / "codex/atlas/invariants/composer_style_signature.md"
     content = f"""============================================================
 INVARIANT SPECIFICATION
 composer_style_signature

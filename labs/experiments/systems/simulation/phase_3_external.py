@@ -3,11 +3,12 @@ import json
 import shutil
 import subprocess
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 import random
 import statistics
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-STRESS_DIR = ROOT / '07_artifacts' / 'rrs'
+ROOT = REPO_ROOT
+STRESS_DIR = ROOT / 'execution/artifacts' / 'rrs'
 STRESS_DIR.mkdir(parents=True, exist_ok=True)
 
 FAKE_WORKSPACE = ROOT / '04_labs' / 'external_graphs'
@@ -28,7 +29,7 @@ def run_rrs(repo_path):
     subprocess.run(cmd, capture_output=True, text=True)
 
 def get_latest_rrs_out(repo_name):
-    rrs_out_dir = ROOT / '07_artifacts' / 'rrs' / repo_name
+    rrs_out_dir = ROOT / 'execution/artifacts' / 'rrs' / repo_name
     if not rrs_out_dir.exists(): return None
     runs = [d for d in rrs_out_dir.iterdir() if d.is_dir()]
     if not runs: return None

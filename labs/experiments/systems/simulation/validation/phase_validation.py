@@ -5,13 +5,14 @@ import math
 import sys
 import re
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 sys.path.insert(0, str(ROOT))
 from helix import write_artifact
 
 RUN_ID = f"val_{int(time.time()*100)}"
-out_dir = ROOT / '07_artifacts' / 'findings_validation' / RUN_ID
+out_dir = ROOT / 'execution/artifacts' / 'findings_validation' / RUN_ID
 
 # --------------------------------------------------------------------------
 # 1. PARSE HELIX.md

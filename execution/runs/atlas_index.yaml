@@ -9,7 +9,7 @@
 invariants:
   - id: decision_compression
     status: verified
-    path: atlas/invariants/decision_compression.md
+    path: codex/atlas/invariants/decision_compression.md
     domains: [games, language, music]
     confidence: 1.0
     run_count: 7
@@ -18,7 +18,7 @@ invariants:
 
   - id: oscillator_locking
     status: verified
-    path: atlas/invariants/oscillator_locking.md
+    path: codex/atlas/invariants/oscillator_locking.md
     domains: [games, language, music]
     confidence: 0.991
     run_count: 3
@@ -27,7 +27,7 @@ invariants:
 
   - id: epistemic_irreversibility
     status: exploratory
-    path: atlas/invariants/epistemic_irreversibility.md
+    path: codex/atlas/invariants/epistemic_irreversibility.md
     domains: [language, cognition]
     confidence: null
     run_count: 0
@@ -36,7 +36,7 @@ invariants:
 
   - id: local_incompleteness
     status: exploratory
-    path: atlas/invariants/local_incompleteness.md
+    path: codex/atlas/invariants/local_incompleteness.md
     domains: [network, cellular_automata, language]
     confidence: null
     run_count: 0
@@ -45,7 +45,7 @@ invariants:
 
   - id: regime_transition
     status: exploratory
-    path: atlas/invariants/regime_transition.md
+    path: codex/atlas/invariants/regime_transition.md
     domains: [dynamical_systems, evolutionary, network]
     confidence: null
     run_count: 0
@@ -55,7 +55,7 @@ invariants:
 experiments:
   - id: decision_compression_sweep
     status: completed
-    path: atlas/experiments/decision_compression_sweep.md
+    path: codex/atlas/experiments/decision_compression_sweep.md
     linked_invariant: decision_compression
     substrate: [games, language, music]
     run_count: 7
@@ -64,14 +64,14 @@ experiments:
 models:
   - id: control_subspace_collapse
     status: candidate
-    path: atlas/models/control_subspace_collapse.md
+    path: codex/atlas/models/control_subspace_collapse.md
     explains: decision_compression
     formalized: false
 
 operators:
   - id: commitment_probe
     status: active
-    path: atlas/operators/commitment_probe.md
+    path: codex/atlas/operators/commitment_probe.md
     used_in: [decision_compression_sweep]
     reusable: true
 

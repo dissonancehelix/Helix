@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-Helix contains a comprehensive, well-stocked music analysis substrate. The physical toolkit coverage is strong: libvgm, vgmstream, Nuked-OPN2, Game_Music_Emu, Furnace, and Python libraries (librosa, music21, pretty_midi) are all present. An 18-stage Tier A–D analysis pipeline exists in `substrates/music/` and produces entity-compatible output.
+Helix contains a comprehensive, well-stocked music analysis substrate. The physical toolkit coverage is strong: libvgm, vgmstream, Nuked-OPN2, Game_Music_Emu, Furnace, and Python libraries (librosa, music21, pretty_midi) are all present. An 18-stage Tier A–D analysis pipeline exists in `domains/music/` and produces entity-compatible output.
 
 **The critical gap is architectural:** the substrate operates as a self-contained legacy orchestrator. It bypasses every HIL gate, writes directly to internal databases, and has no operator wiring whatsoever. Zero of the 8 registered operators are called from the music substrate.
 
@@ -81,13 +81,13 @@ anthropic       LLM interpretation (Claude API)
 
 | Adapter | Path | Wraps | Operator | Complete |
 |---------|------|-------|----------|----------|
-| FFmpegAdapter | `substrates/music/ingestion/adapters/ffmpeg.py` | ffprobe subprocess | None | Partial |
-| FoobarAdapter | `substrates/music/ingestion/adapters/foobar.py` | Foobar2000 DB | None | Partial |
-| SpotifyAdapter | `substrates/music/ingestion/adapters/spotify.py` | Spotify API | None | Partial |
-| libvgm_bridge | `substrates/music/measurement_synthesis/libvgm_bridge.py` | libvgm ctypes | None | Partial |
-| gme_bridge | `substrates/music/measurement_synthesis/gme_bridge.py` | game-music-emu ctypes | None | Partial |
-| chip_state_tracer | `substrates/music/measurement_synthesis/chip_state_tracer.py` | libvgm register trace | None | Partial |
-| vgm_to_midi_adapter | `substrates/music/domain_analysis/vgm_to_midi_adapter.py` | VGM → MIDI struct | None | Active |
+| FFmpegAdapter | `domains/music/ingestion/adapters/ffmpeg.py` | ffprobe subprocess | None | Partial |
+| FoobarAdapter | `domains/music/ingestion/adapters/foobar.py` | Foobar2000 DB | None | Partial |
+| SpotifyAdapter | `domains/music/ingestion/adapters/spotify.py` | Spotify API | None | Partial |
+| libvgm_bridge | `domains/music/measurement_synthesis/libvgm_bridge.py` | libvgm ctypes | None | Partial |
+| gme_bridge | `domains/music/measurement_synthesis/gme_bridge.py` | game-music-emu ctypes | None | Partial |
+| chip_state_tracer | `domains/music/measurement_synthesis/chip_state_tracer.py` | libvgm register trace | None | Partial |
+| vgm_to_midi_adapter | `domains/music/domain_analysis/vgm_to_midi_adapter.py` | VGM → MIDI struct | None | Active |
 
 ### Missing Adapters (required for operator integration)
 
@@ -136,7 +136,7 @@ All scripts are **archive candidates** — their logic should be absorbed into o
 
 ### Current Architecture
 
-`substrates/music/` runs an 18-stage self-contained orchestrator (`master_pipeline.py`) in four tiers:
+`domains/music/` runs an 18-stage self-contained orchestrator (`master_pipeline.py`) in four tiers:
 
 ```
 Tier A (Static Parse)   — VGM/SPC/NSF/SID structure, register extraction
@@ -302,7 +302,7 @@ These could alternatively be modes of the existing `ANALYZE` operator via a `mod
 None recommended for immediate deletion. The following are **archive candidates** once their logic is absorbed into operators:
 
 - All 16 scripts in `labs/legacy_experiments/` (listed in §4)
-- `substrates/music/` standalone analysis scripts (duplicated in legacy_experiments)
+- `domains/music/` standalone analysis scripts (duplicated in legacy_experiments)
 
 The following are **dead reference code** (no adapter, no operator, no build system integration):
 - `runtime/deps/helix_sources/` subdirectories (Furnace, libADLMIDI, MAME, SMPSPlay) — keep as reference, do not build

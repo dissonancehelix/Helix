@@ -4,9 +4,9 @@ import random
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-ART_RRS = ROOT / '07_artifacts' / 'rrs_track'
-ART_CONT = ROOT / '07_artifacts' / 'continuous_track'
-ART_DUAL = ROOT / '07_artifacts' / 'dual_track'
+ART_RRS = ROOT / 'execution/artifacts' / 'rrs_track'
+ART_CONT = ROOT / 'execution/artifacts' / 'continuous_track'
+ART_DUAL = ROOT / 'execution/artifacts' / 'dual_track'
 
 for d in [ART_RRS, ART_CONT, ART_DUAL]:
     d.mkdir(parents=True, exist_ok=True)

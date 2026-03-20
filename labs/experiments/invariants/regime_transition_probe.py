@@ -1,7 +1,7 @@
 """
 Probe: Regime Transition
 Status: Pending -- Phase 8 implementation target
-Atlas entry: atlas/invariants/regime_transition.md
+Atlas entry: codex/atlas/invariants/regime_transition.md
 """
 
 def run(substrate: str, **params):

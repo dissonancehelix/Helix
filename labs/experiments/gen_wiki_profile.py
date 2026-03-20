@@ -50,7 +50,7 @@ Last Updated: {datetime.now().strftime('%Y-%m-%d')}
 {chr(10).join([f"* {t} (Confidence: {c*100:.0f}%)" for t, c in sorted(attributed_tracks, key=lambda x: x[1], reverse=True)])}
 
 ## 5. REPOSITORY LINKS
-* [Atlas Graph Entry](file:///c:/Users/dissonance/Desktop/Helix/atlas/entities/composers.json)
+* [Atlas Graph Entry](file:///c:/Users/dissonance/Desktop/Helix/codex/atlas/entities/composers.json)
 * [Analysis Report](file:///c:/Users/dissonance/Desktop/Helix/artifacts/reports/maeda_vs_sst_chip.json)
 """
 

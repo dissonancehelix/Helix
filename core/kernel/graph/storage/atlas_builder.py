@@ -1,50 +1,32 @@
-"""
-Atlas Builder — 03_engines/atlas/atlas_builder.py
+"""Atlas Builder.
 
-Scan all probe run artifacts and generate Atlas invariant entries in 06_atlas/.
-
-Reads:  07_artifacts/probes/<probe_name>/<run_id>/probe_result.json
-        07_artifacts/probes/<probe_name>/<run_id>/run_manifest.json
-Writes: 06_atlas/<probe_name>.json
-        06_atlas/index.json
+Compile invariant summaries from probe artifacts into ``codex/atlas/invariants``.
+This module aggregates probe run outputs and relies on the centralized
+confidence scoring rules in ``core/governance/confidence_scoring.py``.
 """
 
 from __future__ import annotations
+
 import json
 from datetime import datetime, timezone
-from importlib import import_module
 from pathlib import Path
 from typing import Any
 
+from core.governance import confidence_scoring
+from core.paths import ARTIFACTS_ROOT, ATLAS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 
-
-# ---------------------------------------------------------------------------
-# Artifact scanning
-# ---------------------------------------------------------------------------
-
-def _load_json_safe(path: Path) -> dict | None:
+def _load_json_safe(path: Path) -> dict[str, Any] | None:
     try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        return json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return None
 
 
-def scan_probe_runs(
-    artifacts_root: str | Path,
-) -> dict[str, list[dict]]:
-    """
-    Scan all probe artifact directories and load probe_result.json files.
-
-    Returns:
-        dict mapping probe_name → list of enriched result dicts.
-    """
+def scan_probe_runs(artifacts_root: str | Path = ARTIFACTS_ROOT) -> dict[str, list[dict[str, Any]]]:
     artifacts_root = Path(artifacts_root)
     probes_dir = artifacts_root / "probes"
-    results: dict[str, list[dict]] = {}
-
+    results: dict[str, list[dict[str, Any]]] = {}
     if not probes_dir.exists():
         return results
 
@@ -53,7 +35,6 @@ def scan_probe_runs(
             continue
         probe_name = probe_dir.name
         results.setdefault(probe_name, [])
-
         for run_dir in sorted(probe_dir.iterdir()):
             if not run_dir.is_dir():
                 continue
@@ -67,106 +48,65 @@ def scan_probe_runs(
                 result.setdefault("probe_version", manifest.get("probe_version", "1.0.0"))
                 result.setdefault("probe_code_hash", manifest.get("probe_code_hash", ""))
             results[probe_name].append(result)
-
     return results
 
 
-# ---------------------------------------------------------------------------
-# Atlas entry builder
-# ---------------------------------------------------------------------------
-
-def build_atlas_entry(
-    probe_name: str,
-    run_results: list[dict],
-) -> dict[str, Any]:
-    """
-    Build a single Atlas invariant entry from a list of probe run results.
-    """
-    scoring = import_module("03_engines.atlas.confidence_scoring")
-    agg = scoring.aggregate_run_results(run_results)
-    confidence = scoring.score_confidence(
-        agg["observed_domains"], agg["pass_rate"], agg["mean_signal"]
+def build_atlas_entry(probe_name: str, run_results: list[dict[str, Any]]) -> dict[str, Any]:
+    agg = confidence_scoring.aggregate_run_results(run_results)
+    confidence = confidence_scoring.score_confidence(
+        agg["observed_domains"],
+        agg["pass_rate"],
+        agg["mean_signal"],
     )
 
-    supporting_runs = [
-        {
-            "run_id": r.get("run_id", "unknown"),
-            "domain": r.get("domain", r.get("lab_name", "unknown")),
-            "passed": r.get("passed", False),
-            "signal": float(r.get("signal", r.get("signal_strength", 0.0))),
-        }
-        for r in run_results
-    ]
-
-    # Probe version history
     versions_seen: list[str] = []
-    for r in run_results:
-        v = r.get("probe_version", "1.0.0")
-        if v and v not in versions_seen:
-            versions_seen.append(v)
-    latest_version = versions_seen[-1] if versions_seen else "1.0.0"
+    for result in run_results:
+        version = result.get("probe_version", "1.0.0")
+        if version and version not in versions_seen:
+            versions_seen.append(version)
 
     return {
         "invariant": probe_name,
         "confidence": confidence,
         "observed_in": agg["observed_domains"],
-        "supporting_runs": supporting_runs,
+        "supporting_runs": [
+            {
+                "run_id": r.get("run_id", "unknown"),
+                "domain": r.get("domain", r.get("lab_name", "unknown")),
+                "passed": r.get("passed", False),
+                "signal": float(r.get("signal", r.get("signal_strength", 0.0))),
+            }
+            for r in run_results
+        ],
         "pass_rate": agg["pass_rate"],
         "mean_signal": agg["mean_signal"],
         "run_count": agg["run_count"],
         "probe_versions_used": versions_seen,
-        "latest_probe_version": latest_version,
-        "last_updated": datetime.now(tz=timezone.utc).isoformat(),
+        "latest_probe_version": versions_seen[-1] if versions_seen else "1.0.0",
+        "last_updated": datetime.now(timezone.utc).isoformat(),
     }
 
-
-# ---------------------------------------------------------------------------
-# Top-level builder
-# ---------------------------------------------------------------------------
 
 def build_atlas(
     artifacts_root: str | Path | None = None,
     atlas_dir: str | Path | None = None,
     verbose: bool = True,
 ) -> dict[str, Path]:
-    """
-    Scan all probe artifacts and write Atlas entries to 06_atlas/.
-
-    Returns:
-        dict mapping probe_name → atlas file path written.
-    """
-    if artifacts_root is None:
-        artifacts_root = ROOT / "07_artifacts"
-    if atlas_dir is None:
-        atlas_dir = ROOT / "06_atlas"
-
-    artifacts_root = Path(artifacts_root)
-    atlas_dir = Path(atlas_dir)
+    artifacts_root = Path(artifacts_root or ARTIFACTS_ROOT)
+    atlas_dir = Path(atlas_dir or (ATLAS_ROOT / "invariants"))
     atlas_dir.mkdir(parents=True, exist_ok=True)
 
     all_runs = scan_probe_runs(artifacts_root)
     written: dict[str, Path] = {}
-    index_entries: list[dict] = []
+    index_entries: list[dict[str, Any]] = []
 
     for probe_name, run_results in sorted(all_runs.items()):
         if not run_results:
             continue
         entry = build_atlas_entry(probe_name, run_results)
         out_path = atlas_dir / f"{probe_name}.json"
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(entry, f, indent=2)
+        out_path.write_text(json.dumps(entry, indent=2), encoding="utf-8")
         written[probe_name] = out_path
-
-        if verbose:
-            domains = entry["observed_in"]
-            print(
-                f"[ATLAS_BUILDER] {probe_name}: "
-                f"confidence={entry['confidence']}, "
-                f"domains={domains}, "
-                f"runs={entry['run_count']}, "
-                f"pass_rate={entry['pass_rate']:.0%}"
-            )
-
         index_entries.append({
             "invariant": probe_name,
             "confidence": entry["confidence"],
@@ -175,19 +115,25 @@ def build_atlas(
             "pass_rate": entry["pass_rate"],
             "latest_probe_version": entry["latest_probe_version"],
         })
+        if verbose:
+            print(
+                f"[ATLAS_BUILDER] {probe_name}: confidence={entry['confidence']}, "
+                f"domains={entry['observed_in']}, runs={entry['run_count']}, "
+                f"pass_rate={entry['pass_rate']:.0%}"
+            )
 
     index_path = atlas_dir / "index.json"
-    with open(index_path, "w", encoding="utf-8") as f:
-        json.dump(
+    index_path.write_text(
+        json.dumps(
             {
-                "generated_at": datetime.now(tz=timezone.utc).isoformat(),
+                "generated_at": datetime.now(timezone.utc).isoformat(),
                 "invariants": index_entries,
             },
-            f,
             indent=2,
-        )
+        ),
+        encoding="utf-8",
+    )
 
     if verbose:
         print(f"[ATLAS_BUILDER] Atlas built: {len(written)} invariant(s) → {atlas_dir}")
-
     return written

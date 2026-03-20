@@ -124,8 +124,8 @@ helix ccs-validate <path_to_embedding.json>
 
 **Archive path convention**:
 ```
-atlas/embeddings/music/tracks/{slug}.json          ← current
-atlas/embeddings/music/tracks/{slug}.v{ts}.json    ← archived version
+codex/atlas/embeddings/music/tracks/{slug}.json          ← current
+codex/atlas/embeddings/music/tracks/{slug}.v{ts}.json    ← archived version
 ```
 
 ---

@@ -24,7 +24,7 @@ in influence distributions at commitment boundaries.
 
 ## Predictions
 
-Prior prediction: signal > 0.35 across all substrates.
+Prior prediction: signal > 0.35 across all domains.
 Result: all runs exceeded threshold (min 0.3938, max 0.4649).
 
 ---
@@ -39,15 +39,15 @@ be a falsifying data point.
 
 ## Evidence
 
-- `atlas/decision_compression.json`
-- Run IDs: see `atlas/invariants/decision_compression.md`
+- `codex/atlas/decision_compression.json`
+- Run IDs: see `codex/atlas/invariants/decision_compression.md`
 
 ---
 
 ## Linked Experiments
 
-- `atlas/invariants/decision_compression.md`
-- `atlas/models/control_subspace_collapse.md`
+- `codex/atlas/invariants/decision_compression.md`
+- `codex/atlas/models/control_subspace_collapse.md`
 
 ---
 

@@ -10,7 +10,7 @@ STRICT SEPARATION from AtlasGraph:
 Do NOT mix node types between these graphs.
 Both reside in core/graph but are independent systems.
 
-Storage: atlas/entities/entity_graph.json
+Storage: codex/atlas/entities/entity_graph.json
 """
 from __future__ import annotations
 
@@ -19,12 +19,12 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import TYPE_CHECKING, Any
 
+from core.paths import ATLAS_ROOT
+
 if TYPE_CHECKING:
     from core.kernel.schema.entities.registry import EntityRegistry
 
-_DEFAULT_GRAPH_PATH = (
-    Path(__file__).parent.parent.parent.parent.parent / "atlas" / "entities" / "entity_graph.json"
-)
+_DEFAULT_GRAPH_PATH = ATLAS_ROOT / "entities" / "entity_graph.json"
 
 # Entity node types — must not overlap with AtlasGraph NODE_TYPES
 ENTITY_NODE_TYPES: frozenset[str] = frozenset({
@@ -103,7 +103,7 @@ class EntityEdge:
 class EntityGraph:
     """
     In-memory entity relationship graph.
-    Backed by atlas/entities/entity_graph.json for persistence.
+    Backed by codex/atlas/entities/entity_graph.json for persistence.
 
     Separate from AtlasGraph — handles entity-domain relationships only.
     """

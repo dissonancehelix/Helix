@@ -4,7 +4,7 @@ import random
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent.parent
-ART_DOMAIN = ROOT / '07_artifacts' / 'srd_cross_domain'
+ART_DOMAIN = ROOT / 'execution/artifacts' / 'srd_cross_domain'
 ART_DOMAIN.mkdir(parents=True, exist_ok=True)
 random.seed(42)
 

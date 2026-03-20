@@ -4,7 +4,7 @@
 
 ## Status
 
-These files were moved from `atlas/experiments/` during Atlas housekeeping.
+These files were moved from `codex/atlas/experiments/` during Atlas housekeeping.
 They represent ad-hoc research scripts written before the Helix formal operator architecture.
 
 They must NOT be deleted automatically.
@@ -77,7 +77,7 @@ RUN operator:COMPILE_ATLAS
 
 Cross-era composer analysis is now available via:
 ```python
-from substrates.music.style_vector import CrossEraAnalyzer
+from domains.music.style_vector import CrossEraAnalyzer
 analyzer = CrossEraAnalyzer()
 result = analyzer.compare(vector_ym2612, vector_orchestral, composer_id="music.composer:motoi_sakuraba")
 ```

@@ -38,7 +38,7 @@ from core.hil.command_registry import VALID_VERBS, get_spec
 # ── Safety patterns rejected before tokenization ──────────────────────────────
 _BLOCKED_RAW: tuple[str, ...] = (
     "rm ", "rm\t", "mkfs", "dd ", "dd\t", "sudo ",
-    "DROP ", "DELETE FROM", "> /dev/",
+    "drop ", "delete from", "> /dev/",
     "chmod ", "chown ", "wget ", "curl ",
     "exec(", "__import__", "os.system", "subprocess",
     "eval(", "fork()", ">>",

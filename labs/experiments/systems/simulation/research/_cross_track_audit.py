@@ -1,11 +1,12 @@
 import json
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-CROSS_DIR = ROOT / '07_artifacts' / '_cross_track'
+ROOT = REPO_ROOT
+CROSS_DIR = ROOT / 'execution/artifacts' / '_cross_track'
 
 def verify_isolation():
-    artifacts = ROOT / '07_artifacts'
+    artifacts = ROOT / 'execution/artifacts'
     pgp = artifacts / 'pgp'
     atp = artifacts / 'atp'
     oig = artifacts / 'oig'

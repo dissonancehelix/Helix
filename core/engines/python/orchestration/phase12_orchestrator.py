@@ -3,9 +3,10 @@ import json
 import math
 import random
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from collections import Counter
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 PHASE12_DIR = ROOT / 'phase12'
 PHASE12_DIR.mkdir(parents=True, exist_ok=True)
 

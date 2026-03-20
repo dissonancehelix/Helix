@@ -5,7 +5,7 @@ import random
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-OUT_DIR = ROOT / '07_artifacts' / 'resilience_laws_v2'
+OUT_DIR = ROOT / 'execution/artifacts' / 'resilience_laws_v2'
 if not OUT_DIR.exists():
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 random.seed(42)

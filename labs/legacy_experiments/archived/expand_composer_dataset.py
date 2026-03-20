@@ -5,8 +5,8 @@ from pathlib import Path
 # Add repo root to sys.path
 sys.path.append(str(Path(__file__).parent.parent.parent))
 
-from substrates.music.master_pipeline import MasterPipeline
-from substrates.music.config import VGM_ROOT, LIBRARY_ROOT
+from domains.music.master_pipeline import MasterPipeline
+from domains.music.config import VGM_ROOT, LIBRARY_ROOT
 
 TARGET_COMPOSERS = {
     "jun senoue", "tatsuyuki maeda", "sachio ogawa", 
@@ -22,8 +22,8 @@ def run_expansion():
     pipeline.run()
     
     # 2. Identify target tracks from DB
-    from substrates.music.db.track_db import TrackDB
-    from substrates.music.config import DB_PATH
+    from domains.music.db.track_db import TrackDB
+    from domains.music.config import DB_PATH
     db = TrackDB(DB_PATH)
     all_tracks = db.get_tracks_by_tier(max_tier=1)
     targets = []

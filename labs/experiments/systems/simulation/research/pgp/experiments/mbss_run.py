@@ -4,10 +4,11 @@ import time
 import math
 import statistics
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 RUN_ID = f"mbss_{int(time.time())}"
-ARTIFACTS_DIR = ROOT / '07_artifacts' / 'pgp_mbss' / RUN_ID
+ARTIFACTS_DIR = ROOT / 'execution/artifacts' / 'pgp_mbss' / RUN_ID
 
 def setup():
     ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)

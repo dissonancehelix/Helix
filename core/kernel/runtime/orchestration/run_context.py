@@ -57,10 +57,10 @@ class RunContext:
         """
         Return the path for an individual entity file.
 
-        atlas/entities/{namespace}/{type}/{slug}.json
+        codex/atlas/entities/{namespace}/{type}/{slug}.json
 
         e.g. music.track:angel_island_zone_act_1
-          →  atlas/entities/music/track/angel_island_zone_act_1.json
+          →  codex/atlas/entities/music/track/angel_island_zone_act_1.json
         """
         # entity_id format: [namespace.]type:slug
         parts = entity_id.split(":", 1)
@@ -71,5 +71,5 @@ class RunContext:
         return self.atlas / "entities" / Path(*segments) / f"{slug}.json"
 
     def library_index_path(self) -> Path:
-        """atlas/music/library_index.json"""
+        """codex/atlas/music/library_index.json"""
         return self.atlas / "music" / "library_index.json"

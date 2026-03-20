@@ -6,6 +6,7 @@ import hashlib
 import time
 from datetime import datetime
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, MaxAbsScaler
 from sklearn.ensemble import RandomForestClassifier
@@ -17,8 +18,8 @@ from scipy.stats import ortho_group, spearmanr
 # --- CONFIGURATION (DETERMINISTIC) ---
 SEED = 42
 np.random.seed(SEED)
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACT_DIR = ROOT / '07_artifacts/artifacts' / 'psc_rbis'
+ROOT = REPO_ROOT
+ARTIFACT_DIR = ROOT / 'execution/artifacts' / 'psc_rbis'
 ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
 
 # --- PSC / BAS UTILS ---

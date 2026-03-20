@@ -5,7 +5,7 @@ import random
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-ARTIFACTS_DIR = ROOT / '07_artifacts'
+ARTIFACTS_DIR = ROOT / 'execution/artifacts'
 random.seed(42)
 
 def generate_domain_baseline(domain_name):

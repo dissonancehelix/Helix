@@ -2,8 +2,9 @@ import os
 import json
 import tarfile
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ARTIFACT_ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists()) / '07_artifacts'
+ARTIFACT_ROOT = REPO_ROOT / 'execution/artifacts'
 KEEP = {"latest", "best", "controls", "archive"}
 
 def compress_directory(src_dir, dest_file):

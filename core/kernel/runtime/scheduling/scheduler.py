@@ -182,7 +182,7 @@ class Scheduler:
             index_path = self.repo_root / "atlas" / "index.md"
             if index_path.exists():
                 return {"status": "ok", "index": index_path.read_text()}
-            return {"status": "error", "message": "atlas/index.md not found — run COMPILE atlas"}
+            return {"status": "error", "message": "codex/atlas/index.md not found — run COMPILE atlas"}
 
         if subcommand in ("lookup", "status", "verify"):
             # Resolve target to a markdown file

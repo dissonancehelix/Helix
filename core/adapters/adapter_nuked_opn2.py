@@ -2,7 +2,7 @@
 adapter_nuked_opn2.py — Helix adapter for Nuked-OPN2 (YM2612 reference)
 =========================================================================
 Wraps the Nuked-OPN2 constants used in:
-    substrates/music/domain_analysis/tool_bridge.py
+    domains/music/domain_analysis/tool_bridge.py
 
 Purpose:
     Provide YM2612 FM synthesis topology constants (carrier slot tables,

@@ -3,13 +3,14 @@ import random
 import time
 import sys
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 sys.path.insert(0, str(ROOT))
 from helix import write_artifact, compute_sha256
 
 RUN_ID = f"adp_{int(time.time()*100)}"
-out_dir = ROOT / '07_artifacts' / 'adp' / RUN_ID
+out_dir = ROOT / 'execution/artifacts' / 'adp' / RUN_ID
 
 def write_md(rel_path, content):
     abs_path = out_dir / rel_path

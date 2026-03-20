@@ -1,11 +1,12 @@
 import os
 import json
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from datetime import datetime
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-RRS_ARTIFACTS = ROOT / '07_artifacts' / 'rrs'
-META_DIR = ROOT / '07_artifacts' / '_meta'
+ROOT = REPO_ROOT
+RRS_ARTIFACTS = ROOT / 'execution/artifacts' / 'rrs'
+META_DIR = ROOT / 'execution/artifacts' / '_meta'
 META_DIR.mkdir(parents=True, exist_ok=True)
 
 LEDGER_PATH = META_DIR / 'curiosity_ledger.json'

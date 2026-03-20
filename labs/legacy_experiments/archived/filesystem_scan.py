@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 # Add repo root to sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
-from substrates.music.config import LIBRARY_ROOT, VGM_ROOT
+from domains.music.config import LIBRARY_ROOT, VGM_ROOT
 
 def run(path: str = None, **kwargs):
     # Support ~ for home dir if needed, but here we expect absolute or relative to repo

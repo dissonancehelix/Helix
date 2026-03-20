@@ -11,6 +11,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from core.paths import ATLAS_ROOT
 from core.kernel.schema.entities.registry import EntityRegistry
 from core.kernel.schema.entities.schema import Entity
 
@@ -21,9 +22,7 @@ class EntityNotFoundError(Exception):
         self.entity_id = entity_id
 
 
-_DEFAULT_REGISTRY_PATH = (
-    Path(__file__).parent.parent.parent / "atlas" / "entities" / "registry.json"
-)
+_DEFAULT_REGISTRY_PATH = ATLAS_ROOT / "entities" / "registry.json"
 
 
 class EntityResolver:
@@ -38,7 +37,7 @@ class EntityResolver:
 
     @classmethod
     def default(cls) -> "EntityResolver":
-        """Load registry from atlas/entities/registry.json."""
+        """Load registry from codex/atlas/entities/registry.json."""
         return cls(EntityRegistry.load(_DEFAULT_REGISTRY_PATH))
 
     # ── Query ─────────────────────────────────────────────────────────────────

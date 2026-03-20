@@ -6,10 +6,11 @@ import statistics
 import hashlib
 from collections import defaultdict
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 RUN_ID = f"ctrl_{int(time.time())}"
-ARTIFACTS_DIR = ROOT / '07_artifacts' / 'pgp_ctrl' / RUN_ID
+ARTIFACTS_DIR = ROOT / 'execution/artifacts' / 'pgp_ctrl' / RUN_ID
 
 # ----------------------------------------------------------------------
 # SETUP

@@ -4,11 +4,12 @@ import json
 import time
 import requests
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from collections import defaultdict
 
 # Setup directories
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-OUT_DIR = ROOT / "07_artifacts" / "cognitive_dataset"
+ROOT = REPO_ROOT
+OUT_DIR = ROOT / "execution/artifacts" / "cognitive_dataset"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 USERNAME = "Dissident93"

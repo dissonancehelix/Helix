@@ -23,9 +23,9 @@ from datetime import datetime, timezone
 ROOT = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(ROOT))
 
-from substrates.music.vgm_parser      import parse as vgm_parse
-from substrates.music.feature_extractor import extract
-from substrates.music.composer_attribution import attribute, COMPOSER_PROFILES
+from domains.music.vgm_parser      import parse as vgm_parse
+from domains.music.feature_extractor import extract
+from domains.music.composer_attribution import attribute, COMPOSER_PROFILES
 
 
 DEFAULT_LIBRARY = Path("C:/Users/dissonance/Music/VGM/S/Sonic 3 & Knuckles")

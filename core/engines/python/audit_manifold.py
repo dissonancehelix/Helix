@@ -3,6 +3,7 @@ import json
 import numpy as np
 import pandas as pd
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.decomposition import TruncatedSVD, PCA, KernelPCA
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
@@ -11,8 +12,8 @@ from sklearn.ensemble import RandomForestRegressor
 from scipy.spatial.distance import cdist
 from engines.infra.io.persistence import load_domains, save_wrapped
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-AUDIT_DIR = ROOT / '07_artifacts/artifacts/manifold_audit'
+ROOT = REPO_ROOT
+AUDIT_DIR = ROOT / 'execution/artifacts/manifold_audit'
 DATA_DIR = ROOT / '04_labs/corpus/domains'
 
 def get_data():

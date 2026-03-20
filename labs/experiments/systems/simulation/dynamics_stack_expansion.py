@@ -6,7 +6,7 @@ import statistics
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-ART_ROOT = ROOT / '07_artifacts' / 'operator_registry'
+ART_ROOT = ROOT / 'execution/artifacts' / 'operator_registry'
 ART_ROOT.mkdir(parents=True, exist_ok=True)
 random.seed(42)
 

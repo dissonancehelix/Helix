@@ -9,8 +9,8 @@ from pathlib import Path
 # Add repo root to sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 
-from substrates.music.config import COMPOSER_PROFILES_PATH, ARTIFACTS
-from substrates.music.similarity.composer_similarity import ComposerProfiler
+from domains.music.config import COMPOSER_PROFILES_PATH, ARTIFACTS
+from domains.music.similarity.composer_similarity import ComposerProfiler
 import networkx as nx
 
 def run(threshold: float = 0.8, **kwargs):

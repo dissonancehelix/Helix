@@ -22,7 +22,7 @@ def _run_check(root: Path, artifacts_root: Path) -> list[str]:
     # Check required layers exist
     required = [
         "00_kernel", "01_basis", "02_governance", "03_engines",
-        "04_labs", "05_applications", "06_atlas", "07_artifacts",
+        "04_labs", "05_applications", "codex/atlas", "execution/artifacts",
     ]
     for layer in required:
         if not (root / layer).exists():
@@ -34,7 +34,7 @@ def _run_check(root: Path, artifacts_root: Path) -> list[str]:
         "HELIX.md", "OPERATOR.md", "REBUILD_CHECKPOINT.md", "operator.json",
         "helix.py",
         "00_kernel", "01_basis", "02_governance", "03_engines",
-        "04_labs", "05_applications", "06_atlas", "07_artifacts",
+        "04_labs", "05_applications", "codex/atlas", "execution/artifacts",
         "docs", "__pycache__",
     }
     for item in root.iterdir():
@@ -55,7 +55,7 @@ def start_watchdog(
 
     Args:
         root:           Repo root path.
-        artifacts_root: Path to 07_artifacts/ for logging violations.
+        artifacts_root: Path to execution/artifacts/ for logging violations.
         background:     If True, return immediately (caller manages threading).
         poll_interval:  Seconds between checks.
     """

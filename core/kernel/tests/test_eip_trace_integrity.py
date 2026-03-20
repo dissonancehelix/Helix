@@ -1,10 +1,11 @@
 import os
 import re
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 DOCS_DIR = ROOT / 'docs'
-ART_DIR = ROOT / '07_artifacts/artifacts'
+ART_DIR = ROOT / 'execution/artifacts'
 
 def test_eip_docs_traces():
     eip_files = ['eip_report.md', 'eip_falsifiers.md']

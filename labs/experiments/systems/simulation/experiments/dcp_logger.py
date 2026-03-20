@@ -8,7 +8,7 @@ class DcpLogger:
     Structured row-based logging for Helix experiments.
     Inspired by Sbox/dcplab/DcpLogger.cs.
     """
-    def __init__(self, suite_name, artifact_dir="07_artifacts/artifacts"):
+    def __init__(self, suite_name, artifact_dir="execution/artifacts"):
         self.suite_name = suite_name
         self.out_dir = Path(artifact_dir) / suite_name
         self.out_dir.mkdir(parents=True, exist_ok=True)

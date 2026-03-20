@@ -2,7 +2,7 @@
 adapter_vgmstream.py — Helix adapter for vgmstream
 ====================================================
 Wraps the vgmstream CLI decoding path used as fallback inside:
-    substrates/music/measurement_synthesis/gme_bridge.py
+    domains/music/measurement_synthesis/gme_bridge.py
 
 Purpose:
     Decode broad game audio formats that neither libvgm nor gme handles
@@ -73,7 +73,7 @@ class Adapter:
         ext  = path.suffix.lower()
 
         try:
-            from substrates.music.measurement_synthesis.gme_bridge import GmeBridge
+            from domains.music.measurement_synthesis.gme_bridge import GmeBridge
             bridge = GmeBridge()
             events = bridge.render(path, sample_rate=sample_rate)
             mode   = "vgmstream"
@@ -116,7 +116,7 @@ class Adapter:
 
     def is_available(self) -> bool:
         try:
-            from substrates.music.measurement_synthesis.gme_bridge import GmeBridge
+            from domains.music.measurement_synthesis.gme_bridge import GmeBridge
             b = GmeBridge()
             return b.is_available()
         except ImportError:

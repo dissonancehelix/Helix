@@ -2,6 +2,7 @@ import os
 import numpy as np
 import pandas as pd
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from sklearn.decomposition import PCA
 
 from psc_data import generate_synthetic_embedding
@@ -11,8 +12,8 @@ from psc_reporting import write_artifacts
 
 SEED = 42
 np.random.seed(SEED)
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACT_DIR = ROOT / '07_artifacts/artifacts' / 'psc_embedding'
+ROOT = REPO_ROOT
+ARTIFACT_DIR = ROOT / 'execution/artifacts' / 'psc_embedding'
 
 def run_embedding_psc():
     script_name = "psc_embedding_suite.py"

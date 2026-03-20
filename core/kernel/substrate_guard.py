@@ -10,7 +10,7 @@ def check_substrate(strict_mode=False):
     Ensures that experimental layers (03_forge, 04_workspaces) 
     do not write back into the immutable substrate (00_core, 01_protocol, 02_runtime).
     """
-    artifacts_dir = ROOT / '07_artifacts' / 'artifacts'
+    artifacts_dir = ROOT / 'execution/artifacts' / 'artifacts'
     log_path = artifacts_dir / 'substrate_violation_log.json'
     
     immutable_dirs = ['00_kernel', '02_governance', '03_engines']

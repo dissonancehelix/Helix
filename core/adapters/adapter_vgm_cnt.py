@@ -2,7 +2,7 @@
 adapter_vgm_cnt.py — Helix adapter for vgm_cnt (vgmtools)
 ==========================================================
 Tier B: Requires compiled vgm_cnt binary.
-Source reference: substrates/music/toolkits/vgmtools/vgm_cnt.c
+Source reference: domains/music/toolkits/vgmtools/vgm_cnt.c
 
 Purpose:
     Run vgm_cnt on a VGM/VGZ file and parse its per-chip command

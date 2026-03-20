@@ -94,7 +94,7 @@ class Edge:
 class AtlasGraph:
     """
     In-memory Atlas Knowledge Graph.
-    Backed by atlas/atlas_graph.json for persistence.
+    Backed by codex/atlas/atlas_graph.json for persistence.
     """
 
     def __init__(self) -> None:

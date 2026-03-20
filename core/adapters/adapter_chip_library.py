@@ -9,7 +9,7 @@ Purpose:
     specifications, analysis notes, and invariant links.
 
 Output:
-    Structured dict of chip properties derived from core/library/audio/chips/*.json
+    Structured dict of chip properties derived from codex/library/audio/chips/*.json
 """
 from __future__ import annotations
 

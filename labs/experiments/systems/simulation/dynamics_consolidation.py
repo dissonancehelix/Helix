@@ -6,7 +6,7 @@ import statistics
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-ART_ROOT = ROOT / '07_artifacts' / 'dynamics_hardening'
+ART_ROOT = ROOT / 'execution/artifacts' / 'dynamics_hardening'
 random.seed(42)
 
 def generate_repo_stats():

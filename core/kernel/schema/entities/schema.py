@@ -52,7 +52,7 @@ PROVENANCE_KEYS = ("source", "source_stage", "source_artifact", "extraction_meth
 @dataclass
 class Entity:
     """
-    A Helix entity — a real-world or conceptual object referenced across substrates.
+    A Helix entity — a real-world or conceptual object referenced across domains.
 
     Fields (SPEC-02 + Semantics Layer):
       id            globally unique, format "namespace.type:slug"

@@ -28,9 +28,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from core.hil.ast_nodes import HILCommand
+from core.paths import ARTIFACTS_ROOT
 
-_REPO_ROOT = Path(__file__).parent.parent.parent
-_LOG_PATH  = _REPO_ROOT / "artifacts" / "hil_command_log.jsonl"
+_LOG_PATH = ARTIFACTS_ROOT / "hil_command_log.jsonl"
 
 _ROUTE_MAP: dict[str, str] = {
     "PROBE":     "core/integrity -> labs/invariants",
@@ -38,12 +38,12 @@ _ROUTE_MAP: dict[str, str] = {
     "SWEEP":     "engines/python/engine",
     "COMPILE":   "compiler/atlas_compiler",
     "INTEGRITY": "core/integrity/integrity_tests",
-    "ATLAS":     "atlas/",
+    "ATLAS":     "codex/atlas/",
     "GRAPH":     "core/graph/",
     "VALIDATE":  "core/validator/",
-    "TRACE":     "artifacts/",
+    "TRACE":     "execution/artifacts/",
     "OBSERVE":   "engines/python/engine",
-    "REPORT":    "artifacts/",
+    "REPORT":    "execution/artifacts/",
 }
 
 

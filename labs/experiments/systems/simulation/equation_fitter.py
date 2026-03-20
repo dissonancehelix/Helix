@@ -5,8 +5,8 @@ import random
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-IN_DIR = ROOT / '07_artifacts' / 'resilience_universal'
-OUT_DIR = ROOT / '07_artifacts' / 'structural_equations'
+IN_DIR = ROOT / 'execution/artifacts' / 'resilience_universal'
+OUT_DIR = ROOT / 'execution/artifacts' / 'structural_equations'
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 random.seed(42)
 

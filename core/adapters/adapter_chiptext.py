@@ -2,7 +2,7 @@
 adapter_chiptext.py — Helix adapter for chiptext.c static tables
 =================================================================
 Tier A: Pure Python — no compilation required.
-Source reference: substrates/music/toolkits/vgmtools/chiptext.c
+Source reference: domains/music/toolkits/vgmtools/chiptext.c
 
 Purpose:
     Expose chip-specific register maps, frequency tables, mode enumerations,

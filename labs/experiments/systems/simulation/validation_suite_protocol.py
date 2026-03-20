@@ -7,7 +7,7 @@ from pathlib import Path
 import re
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-ART_ROOT = ROOT / '07_artifacts' / 'validation_suite'
+ART_ROOT = ROOT / 'execution/artifacts' / 'validation_suite'
 ART_ROOT.mkdir(parents=True, exist_ok=True)
 random.seed(42)
 
@@ -112,7 +112,7 @@ def run_phase1(repos_data):
     return results
 
 def run_phase2(repos_data, phase1_results):
-    pool_dir = ROOT / '07_artifacts' / 'srd_replication' / '_pool'
+    pool_dir = ROOT / 'execution/artifacts' / 'srd_replication' / '_pool'
     pool_dir.mkdir(parents=True, exist_ok=True)
     
     trusted_runs = []

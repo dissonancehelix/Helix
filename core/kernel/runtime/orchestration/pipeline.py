@@ -6,11 +6,11 @@ Canonical 10-stage pipeline for the Helix Music Substrate.
 This is the authoritative entrypoint for all music substrate processing.
 
 ARCHITECTURE:
-  /substrates/music          — canonical Helix music substrate (SPEC-04)
-  /substrates/music/ingest/  — stages 1–2  (library scan, metadata normalisation)
-  /substrates/music/analysis/— stages 3–6  (chip, symbolic, MIR, musicology)
-  /substrates/music/models/  — stages 7–8  (feature fusion, style embedding)
-  /substrates/music/kg/      — stage  9    (knowledge graph integration)
+  /domains/music          — canonical Helix music substrate (SPEC-04)
+  /domains/music/ingest/  — stages 1–2  (library scan, metadata normalisation)
+  /domains/music/analysis/— stages 3–6  (chip, symbolic, MIR, musicology)
+  /domains/music/models/  — stages 7–8  (feature fusion, style embedding)
+  /domains/music/kg/      — stage  9    (knowledge graph integration)
   /labs/music_lab/           — legacy implementation delegated to for stages 1–2, 5, 7–8
 
 Pipeline stages (SPEC-04 canonical order):
@@ -34,7 +34,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from substrates.music.run_context import RunContext
+from domains.music.run_context import RunContext
 
 # ── Stage metadata ────────────────────────────────────────────────────────────
 
@@ -57,8 +57,8 @@ class MusicSubstratePipeline:
     Canonical Helix Music Substrate pipeline (SPEC-04).
 
     Stages 3, 4, 6, 9 are implemented directly via the modular
-    substrates/music/ components.  All other stages delegate to
-    substrates.music.master_pipeline.MasterPipeline.
+    domains/music/ components.  All other stages delegate to
+    domains.music.master_pipeline.MasterPipeline.
 
     Args:
         stages:            stage numbers to run (default: all 1–10)
@@ -140,31 +140,31 @@ class MusicSubstratePipeline:
 
     def _run_stage(self, stage_num: int) -> None:
         if stage_num == 1:
-            from substrates.music.ingest.library_scanner     import run
+            from domains.music.ingest.library_scanner     import run
             run(self); return
         if stage_num == 2:
-            from substrates.music.ingest.metadata_normalizer import run
+            from domains.music.ingest.metadata_normalizer import run
             run(self); return
         if stage_num == 3:
-            from substrates.music.analysis.chip import run
+            from domains.music.analysis.chip import run
             run(self); return
         if stage_num == 4:
-            from substrates.music.analysis.symbolic import run
+            from domains.music.analysis.symbolic import run
             run(self); return
         if stage_num == 5:
-            from substrates.music.analysis.mir import run
+            from domains.music.analysis.mir import run
             run(self); return
         if stage_num == 6:
-            from substrates.music.analysis.musicology import run
+            from domains.music.analysis.musicology import run
             run(self); return
         if stage_num == 7:
-            from substrates.music.models.feature_fusion import run
+            from domains.music.models.feature_fusion import run
             run(self); return
         if stage_num == 8:
-            from substrates.music.models.style_embedding import run
+            from domains.music.models.style_embedding import run
             run(self); return
         if stage_num == 9:
-            from substrates.music.kg.graph_integration import run
+            from domains.music.kg.graph_integration import run
             run(self); return
         if stage_num == 10:
             self._stage_llm_interpretation(); return
@@ -175,7 +175,7 @@ class MusicSubstratePipeline:
 
     def _get_legacy(self) -> Any:
         if self._legacy is None:
-            from substrates.music.master_pipeline import MasterPipeline
+            from domains.music.master_pipeline import MasterPipeline
             self._legacy = MasterPipeline(
                 stages=list(range(1, 19)),
                 limit=self.limit,
@@ -189,12 +189,12 @@ class MusicSubstratePipeline:
         return self._legacy
 
     def _delegate_to_legacy(self, legacy_stage_nums: list[int]) -> None:
-        from substrates.music.master_pipeline import STAGE_NAME as _LEGACY_STAGE_NAME
+        from domains.music.master_pipeline import STAGE_NAME as _LEGACY_STAGE_NAME
         mp = self._get_legacy()
         if mp._db is None and any(s > 1 for s in legacy_stage_nums):
             try:
-                from substrates.music.db.track_db import TrackDB
-                from substrates.music.config import DB_PATH
+                from domains.music.db.track_db import TrackDB
+                from domains.music.config import DB_PATH
                 mp._db = TrackDB(DB_PATH)
             except Exception as exc:
                 print(f"    Warning: could not init legacy DB: {exc}")
@@ -214,8 +214,8 @@ class MusicSubstratePipeline:
         mp = self._get_legacy()
         if mp._db is None:
             try:
-                from substrates.music.db.track_db import TrackDB
-                from substrates.music.config import DB_PATH
+                from domains.music.db.track_db import TrackDB
+                from domains.music.config import DB_PATH
                 mp._db = TrackDB(DB_PATH)
             except Exception:
                 return None
@@ -244,7 +244,7 @@ class MusicSubstratePipeline:
 
     def _stage_llm_interpretation(self) -> None:
         try:
-            from substrates.music.analysis import llm_interpreter
+            from domains.music.analysis import llm_interpreter
         except ImportError as exc:
             print(f"    LLM interpreter unavailable: {exc}")
             return

@@ -2,7 +2,7 @@
 adapter_gme.py — Helix adapter for Game_Music_Emu (gme)
 =========================================================
 Wraps the gme ctypes bridge at:
-    substrates/music/measurement_synthesis/gme_bridge.py
+    domains/music/measurement_synthesis/gme_bridge.py
 
 Purpose:
     Decode chip music formats not covered by libvgm:
@@ -93,7 +93,7 @@ class Adapter:
             )
 
         try:
-            from substrates.music.measurement_synthesis.gme_bridge import GmeBridge
+            from domains.music.measurement_synthesis.gme_bridge import GmeBridge
             bridge = GmeBridge()
             events = bridge.render(path, track=track, sample_rate=sample_rate)
             mode   = "gme" if bridge.is_available() else "vgmstream"
@@ -107,7 +107,7 @@ class Adapter:
 
     def is_available(self) -> bool:
         try:
-            from substrates.music.measurement_synthesis.gme_bridge import GmeBridge  # noqa
+            from domains.music.measurement_synthesis.gme_bridge import GmeBridge  # noqa
             return True
         except ImportError:
             return False

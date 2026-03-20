@@ -4,9 +4,10 @@ import itertools
 import math
 import time
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from collections import Counter, defaultdict
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 for d in ['audits', 'mappings', 'synthetic', 'tools']:
     (ROOT / d).mkdir(parents=True, exist_ok=True)
 

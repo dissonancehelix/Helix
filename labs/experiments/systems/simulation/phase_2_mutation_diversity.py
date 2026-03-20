@@ -2,10 +2,11 @@ import os
 import json
 import statistics
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 import math
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-RRS_DIR = ROOT / '07_artifacts' / 'rrs'
+ROOT = REPO_ROOT
+RRS_DIR = ROOT / 'execution/artifacts' / 'rrs'
 # Target 03_forge latest run to modify
 TARGET_REPO = '04_labs'
 

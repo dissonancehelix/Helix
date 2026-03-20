@@ -6,6 +6,7 @@ from engines.infra.hashing.integrity import compute_content_hash
 import statistics
 from collections import Counter, defaultdict
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
 try:
     import numpy as np
@@ -16,9 +17,9 @@ try:
 except ImportError:
     NUMPY_AVAILABLE = False
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 DOMAINS_DIR = ROOT / 'domains'
-REPORTS_DIR = ROOT / '07_artifacts/artifacts/reports'
+REPORTS_DIR = ROOT / 'execution/artifacts/reports'
 DOMAINS_ADDED_DIR = ROOT / 'domains_added'
 
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)

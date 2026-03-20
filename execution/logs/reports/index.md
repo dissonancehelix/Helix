@@ -5,7 +5,7 @@
 The Atlas is Helix's structured reasoning memory.
 Raw data lives in `artifacts/`. Only validated knowledge lives here.
 
-Registry: `atlas/atlas_index.yaml`
+Registry: `codex/atlas/atlas_index.yaml`
 
 ---
 

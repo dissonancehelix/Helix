@@ -2,7 +2,7 @@
 adapter_vgmfile.py — Helix adapter for VGM file format (VGMFile.h)
 ===================================================================
 Tier A: Pure Python — no compilation required.
-Source reference: substrates/music/toolkits/vgmtools/VGMFile.h
+Source reference: domains/music/toolkits/vgmtools/VGMFile.h
 
 Purpose:
     Parse VGM/VGZ binary headers and GD3 embedded tags.

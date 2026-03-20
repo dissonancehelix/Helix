@@ -2,8 +2,8 @@ import sys
 from pathlib import Path
 # Add repo root to sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
-from substrates.music.db.track_db import TrackDB
-from substrates.music.config import DB_PATH
+from domains.music.db.track_db import TrackDB
+from domains.music.config import DB_PATH
 
 def run(subcommand: str = "tracks", **params):
     db = TrackDB(DB_PATH)

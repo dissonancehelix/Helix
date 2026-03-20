@@ -311,7 +311,7 @@ class HILInterpreter:
                 return self._error(cmd, "SUBSTRATE run requires name:substrate_name")
             if name == "music":
                 try:
-                    from substrates.music.pipeline import MusicSubstratePipeline
+                    from domains.music.pipeline import MusicSubstratePipeline
                     stages_param  = cmd.params.get("stages")
                     stages        = [int(s) for s in str(stages_param).split(",") if s.strip().isdigit()] if stages_param else None
                     soundtrack    = cmd.params.get("soundtrack")

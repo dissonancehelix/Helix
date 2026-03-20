@@ -1,17 +1,17 @@
-"""
-Promotion Engine — 03_engines/governance_bridge/promotion_engine.py
+"""Promotion Engine.
 
-Run the 6-criterion Atlas promotion gate for a named invariant.
-Reads from 06_atlas/<invariant_name>.json, updates with promotion status.
+Run the six-criterion promotion gate for invariant entries stored under
+``codex/atlas/invariants``.
 """
 
 from __future__ import annotations
+
 import json
-from importlib import import_module
+from datetime import datetime, timezone
 from pathlib import Path
 
-
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+from core.kernel import promotion_gates
+from core.paths import ATLAS_ROOT
 
 
 def promote_invariant(
@@ -19,37 +19,13 @@ def promote_invariant(
     atlas_dir: str | Path | None = None,
     verbose: bool = True,
 ) -> dict:
-    """
-    Run promotion gate for a named invariant.
-
-    Args:
-        invariant_name: Name of the invariant (matches atlas filename).
-        atlas_dir:      Path to 06_atlas/ (default: ROOT/06_atlas).
-        verbose:        Print criterion results.
-
-    Returns:
-        dict with: passed (bool), invariant_name, criteria, atlas_path.
-
-    Raises:
-        FileNotFoundError: If atlas entry doesn't exist.
-    """
-    if atlas_dir is None:
-        atlas_dir = ROOT / "06_atlas"
-    atlas_dir = Path(atlas_dir)
-
+    atlas_dir = Path(atlas_dir or (ATLAS_ROOT / "invariants"))
     atlas_path = atlas_dir / f"{invariant_name}.json"
     if not atlas_path.exists():
-        raise FileNotFoundError(
-            f"Atlas entry not found: {atlas_path}. "
-            f"Run 'helix atlas-build' first."
-        )
+        raise FileNotFoundError(f"Atlas entry not found: {atlas_path}. Run 'helix atlas-build' first.")
 
-    with open(atlas_path, "r", encoding="utf-8") as f:
-        atlas_entry = json.load(f)
-
-    # Run promotion gates
-    gates = import_module("02_governance.promotion_gates")
-    gate_result = gates.evaluate_promotion(atlas_entry)
+    atlas_entry = json.loads(atlas_path.read_text(encoding="utf-8"))
+    gate_result = promotion_gates.evaluate_promotion(atlas_entry)
 
     if verbose:
         print(f"[PROMOTE] Evaluating '{invariant_name}':")
@@ -59,16 +35,9 @@ def promote_invariant(
         overall = "PROMOTED" if gate_result["passed"] else "BLOCKED"
         print(f"[PROMOTE] Result: {overall}")
 
-    # Write promotion status back to atlas entry
     atlas_entry["promotion_status"] = "PROMOTED" if gate_result["passed"] else "BLOCKED"
-    atlas_entry["last_promotion_check"] = import_module(
-        "03_engines.runtime.run_manifest"
-    ).datetime.now().isoformat() if False else __import__(
-        "datetime"
-    ).datetime.now(__import__("datetime").timezone.utc).isoformat()
-
-    with open(atlas_path, "w", encoding="utf-8") as f:
-        json.dump(atlas_entry, f, indent=2)
+    atlas_entry["last_promotion_check"] = datetime.now(timezone.utc).isoformat()
+    atlas_path.write_text(json.dumps(atlas_entry, indent=2), encoding="utf-8")
 
     return {
         "passed": gate_result["passed"],

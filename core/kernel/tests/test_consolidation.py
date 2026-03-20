@@ -1,9 +1,10 @@
 import json
 import os
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACT_DIR = ROOT / '07_artifacts/artifacts/measurement'
+ROOT = REPO_ROOT
+ARTIFACT_DIR = ROOT / 'execution/artifacts/measurement'
 
 def test_measurement_leaks():
     leak_report = ARTIFACT_DIR / 'leakage_report.json'

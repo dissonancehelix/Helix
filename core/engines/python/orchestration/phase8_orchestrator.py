@@ -3,9 +3,10 @@ import json
 import itertools
 import math
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from collections import Counter
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 PHASE8_DIR = ROOT / 'phase8'
 MAPPINGS_DIR = PHASE8_DIR / 'mappings'
 

@@ -9,7 +9,7 @@ from pathlib import Path
 # Add repo root to sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 
-from substrates.music.master_pipeline import MasterPipeline
+from domains.music.master_pipeline import MasterPipeline
 
 def run(limit: int = 0, **kwargs):
     print("--- Running music_chip_analysis experiment ---")

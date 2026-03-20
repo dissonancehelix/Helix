@@ -1,8 +1,9 @@
 import os
 import json
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 
 # Part 1 - Mutual Reducibility Test Matrix
 # O1: Energy Barrier Suppression (TST / Arrhenius)

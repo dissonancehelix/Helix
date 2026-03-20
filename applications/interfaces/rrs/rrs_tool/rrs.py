@@ -12,7 +12,7 @@ import datetime
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
 # Unify all RRS outputs to 06_artifacts/rrs/
-RRS_ARTIFACTS_DIR = ROOT / '07_artifacts' / 'rrs'
+RRS_ARTIFACTS_DIR = ROOT / 'execution/artifacts' / 'rrs'
 
 import hashlib
 
@@ -160,7 +160,7 @@ def create_twin_graph(nodes):
 
 def append_to_srd_pool(repo_name, results, confidence, null_control_pass):
     # We append to global pool ensuring we pass the status
-    pool_file = ROOT / '07_artifacts' / 'srd_replication' / '_pool' / 'srd_global_pool.json'
+    pool_file = ROOT / 'execution/artifacts' / 'srd_replication' / '_pool' / 'srd_global_pool.json'
     pool_file.parent.mkdir(parents=True, exist_ok=True)
     
     pool_data = []

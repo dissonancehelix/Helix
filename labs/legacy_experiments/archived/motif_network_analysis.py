@@ -9,7 +9,7 @@ from pathlib import Path
 # Add repo root to sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 
-from substrates.music.config import ARTIFACTS
+from domains.music.config import ARTIFACTS
 import json
 
 def run(soundtrack: str = None, **kwargs):

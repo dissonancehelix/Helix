@@ -1,7 +1,7 @@
 """
 Probe: Decision Compression
 Status: Pending -- Phase 8 implementation target
-Atlas entry: atlas/invariants/decision_compression.md
+Atlas entry: codex/atlas/invariants/decision_compression.md
 """
 
 def run(substrate: str, **params):

@@ -2,9 +2,10 @@ import json
 import os
 import numpy as np
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACT_DIR = ROOT / '07_artifacts/artifacts'
+ROOT = REPO_ROOT
+ARTIFACT_DIR = ROOT / 'execution/artifacts'
 DOCS_DIR = ROOT / 'docs'
 
 def report():
@@ -17,8 +18,10 @@ def report():
     triad = json.load(open(ARTIFACT_DIR / 'triad/triad_results.json')) if (ARTIFACT_DIR / 'triad/triad_results.json').exists() else {}
     periodic = json.load(open(ARTIFACT_DIR / 'structural_lab/structural_periodic_table.json')) if (ARTIFACT_DIR / 'structural_lab/structural_periodic_table.json').exists() else []
     phi = json.load(open(ARTIFACT_DIR / 'phi_artifact_scan.json')) if (ARTIFACT_DIR / 'phi_artifact_scan.json').exists() else []
-    validation_path = ROOT / '07_artifacts/artifacts/reports/extreme_validation_report.md'
+    validation_path = ROOT / 'execution/artifacts/reports/extreme_validation_report.md'
     validation_content = validation_path.read_text('utf-8') if validation_path.exists() else "PENDING"
+    effective_rank = validation_content.split('Effective Rank:')[1].splitlines()[0].strip() if 'Effective Rank:' in validation_content else "UNKNOWN"
+    fracture_density = validation_content.split('Fracture Density:')[1].splitlines()[0].strip() if 'Fracture Density:' in validation_content else "UNKNOWN"
 
     # Singular value
     sv_major = e_hist[-1].get('singular_values', [0])[0] if e_hist else 0
@@ -75,8 +78,8 @@ def report():
 
 ## HOSTILE VALIDATION (N=3490+)
 - **Global Verdict:** {"FALSIFIED" if "FALSIFIED" in validation_content else "STABLE"}
-- **Effective Rank:** {validation_content.split('Effective Rank:')[1].split('\n')[0].strip() if 'Effective Rank:' in validation_content else "UNKNOWN"}
-- **Fracture Density:** {validation_content.split('Fracture Density:')[1].split('\n')[0].strip() if 'Fracture Density:' in validation_content else "UNKNOWN"}
+- **Effective Rank:** {effective_rank}
+- **Fracture Density:** {fracture_density}
 
 ## STRATEGIC ALIGNMENT
 - **Roadmap:** [docs/roadmap.md](file:///c:/Users/dissonance/Desktop/Helix/docs/roadmap.md)

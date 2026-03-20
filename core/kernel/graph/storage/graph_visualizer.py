@@ -2,11 +2,11 @@
 Graph Visualizer — Helix Phase 10
 ===================================
 Exports the Atlas Knowledge Graph to Graphviz DOT format.
-Output: atlas/atlas_graph.dot
+Output: codex/atlas/atlas_graph.dot
 
 Render with:
-  dot -Tpng atlas/atlas_graph.dot -o atlas/atlas_graph.png
-  dot -Tsvg atlas/atlas_graph.dot -o atlas/atlas_graph.svg
+  dot -Tpng codex/atlas/atlas_graph.dot -o codex/atlas/atlas_graph.png
+  dot -Tsvg codex/atlas/atlas_graph.dot -o codex/atlas/atlas_graph.svg
 """
 
 from __future__ import annotations

@@ -33,7 +33,7 @@ TYPE_DIR_MAP = {
 
 # Regex to pull atlas entry references from markdown text
 ATLAS_REF_RE = re.compile(
-    r"atlas/(?:invariants|experiments|models|regimes|operators)/([\w]+)\.md",
+    r"codex/atlas/(?:invariants|experiments|models|regimes|operators)/([\w]+)\.md",
     re.IGNORECASE,
 )
 

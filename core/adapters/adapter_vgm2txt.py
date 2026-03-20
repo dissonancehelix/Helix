@@ -2,7 +2,7 @@
 adapter_vgm2txt.py — Helix adapter for vgm2txt (vgmtools)
 ==========================================================
 Tier B: Requires compiled vgm2txt binary.
-Source reference: substrates/music/toolkits/vgmtools/vgm2txt.c
+Source reference: domains/music/toolkits/vgmtools/vgm2txt.c
 
 Purpose:
     Run vgm2txt on a VGM/VGZ file and parse its text output into

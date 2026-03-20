@@ -2,7 +2,7 @@
 adapter_libvgm.py — Helix adapter for libvgm (ValleyBell/libvgm)
 =================================================================
 Wraps the libvgm ctypes bridge at:
-    substrates/music/measurement_synthesis/libvgm_bridge.py
+    domains/music/measurement_synthesis/libvgm_bridge.py
 
 Purpose:
     Render VGM/VGZ files through the libvgm emulator and extract
@@ -78,7 +78,7 @@ class Adapter:
         fmt  = path.suffix.lower().lstrip(".")
 
         try:
-            from substrates.music.measurement_synthesis.libvgm_bridge import (
+            from domains.music.measurement_synthesis.libvgm_bridge import (
                 LibvgmBridge,
             )
             bridge = LibvgmBridge()
@@ -94,7 +94,7 @@ class Adapter:
     def is_available(self) -> bool:
         """Return True if the underlying bridge is importable."""
         try:
-            from substrates.music.measurement_synthesis.libvgm_bridge import LibvgmBridge  # noqa
+            from domains.music.measurement_synthesis.libvgm_bridge import LibvgmBridge  # noqa
             return True
         except ImportError:
             return False

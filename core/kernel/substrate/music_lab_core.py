@@ -1,7 +1,7 @@
 from typing import List, Dict, Any
-from substrates.music.ingestion.adapters.spotify import SpotifyAdapter
-from substrates.music.ingestion.adapters.foobar import FoobarAdapter
-from substrates.music.ingestion.normalization.track_identity import TrackIdentity
+from domains.music.ingestion.adapters.spotify import SpotifyAdapter
+from domains.music.ingestion.adapters.foobar import FoobarAdapter
+from domains.music.ingestion.normalization.track_identity import TrackIdentity
 
 class MusicLab:
     def __init__(self, config: Dict[str, Any]):

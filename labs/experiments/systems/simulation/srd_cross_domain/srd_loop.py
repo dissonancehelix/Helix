@@ -6,7 +6,7 @@ import random
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent.parent
-ART_DOMAIN = ROOT / '07_artifacts' / 'srd_replication'
+ART_DOMAIN = ROOT / 'execution/artifacts' / 'srd_replication'
 POOL_DIR = ART_DOMAIN / '_pool'
 random.seed(42)
 

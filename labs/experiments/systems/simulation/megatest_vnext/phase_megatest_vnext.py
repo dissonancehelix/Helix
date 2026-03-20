@@ -4,13 +4,14 @@ import time
 import math
 import sys
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 sys.path.insert(0, str(ROOT))
 from helix import write_artifact, compute_sha256
 
 RUN_ID = f"mega_vNEXT_{int(time.time()*100)}"
-out_dir = ROOT / '07_artifacts' / 'findings_vnext' / RUN_ID
+out_dir = ROOT / 'execution/artifacts' / 'findings_vnext' / RUN_ID
 out_dir.mkdir(parents=True, exist_ok=True)
 
 (out_dir / 'regime_maps').mkdir(exist_ok=True)
@@ -91,7 +92,7 @@ def custom_run():
     write_artifact(full_id, "hostility_report.json", {"regimes": ["R1_Static", "R2_DynamicCascade", "R3_AdaptiveGame", "R4_Observability", "R5_Semantic"]})
     write_artifact(full_id, "model_registry.json", {"baselines": ["MaxDegree", "Betweenness", "k-core", "Eigenvector", "PageRank", "Composite"], "helix": ["SRD", "FHO", "OGO"]})
     
-    out_dict_path = ROOT / '07_artifacts' / 'findings_vnext' / RUN_ID
+    out_dict_path = ROOT / 'execution/artifacts' / 'findings_vnext' / RUN_ID
     out_dict_path.mkdir(parents=True, exist_ok=True)
     
     verdicts = """# FINDINGS VERDICT TABLE (vNEXT)

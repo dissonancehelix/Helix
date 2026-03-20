@@ -2,12 +2,13 @@ import os
 import json
 import statistics
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-META_DIR = ROOT / '07_artifacts' / '_meta'
-POOL_PATH = ROOT / '07_artifacts' / 'srd_replication' / '_pool' / 'srd_global_pool.json'
+ROOT = REPO_ROOT
+META_DIR = ROOT / 'execution/artifacts' / '_meta'
+POOL_PATH = ROOT / 'execution/artifacts' / 'srd_replication' / '_pool' / 'srd_global_pool.json'
 LEDGER_PATH = META_DIR / 'curiosity_ledger.json'
-RRS_DIR = ROOT / '07_artifacts' / 'rrs'
+RRS_DIR = ROOT / 'execution/artifacts' / 'rrs'
 STRESS_DIR = RRS_DIR / 'stress'
 
 def safe_load(p):

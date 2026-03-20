@@ -1,9 +1,10 @@
 import json
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 import sys
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACTS_DIR = ROOT / '07_artifacts/artifacts'
+ROOT = REPO_ROOT
+ARTIFACTS_DIR = ROOT / 'execution/artifacts'
 
 def test_eip_determinism():
     eip_file = ARTIFACTS_DIR / 'eip' / 'eip_overlay.json'

@@ -2,7 +2,7 @@
 adapter_nuked_opm.py — Helix adapter for Nuked-OPM (YM2151 reference)
 ======================================================================
 Wraps the Nuked-OPM constants from:
-    data/music/source/code/Nuked-OPM/opm.c
+    codex/library/music/source/code/Nuked-OPM/opm.c
 
 Purpose:
     Provide YM2151 FM synthesis topology constants (carrier slot tables,

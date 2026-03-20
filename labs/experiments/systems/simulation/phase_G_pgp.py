@@ -3,9 +3,10 @@ import random
 import statistics
 import math
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-PGP_DIR = ROOT / '07_artifacts' / 'pgp'
+ROOT = REPO_ROOT
+PGP_DIR = ROOT / 'execution/artifacts' / 'pgp'
 PGP_DIR.mkdir(parents=True, exist_ok=True)
 
 def spearman(x, y):

@@ -6,7 +6,7 @@ from sklearn.metrics import mutual_info_score
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent.parent
-ART_DIR = ROOT / '07_artifacts/artifacts'
+ART_DIR = ROOT / 'execution/artifacts'
 
 def save_wrapped(path, data):
     from engines.infra.io import persistence as m_io; from engines.infra.platform import environment as m_env

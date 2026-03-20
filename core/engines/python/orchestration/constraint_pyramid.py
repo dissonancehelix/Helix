@@ -1,12 +1,13 @@
 import json
 import numpy as np
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from sklearn.metrics import mutual_info_score, normalized_mutual_info_score
 from engines.infra.platform import claims_suite_utils as utils
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACT_FILE = ROOT / '07_artifacts/artifacts/constraint_dependency_matrix.json'
-REPORT_FILE = ROOT / '07_artifacts/artifacts/reports/layered_constraint_pyramid.md'
+ROOT = REPO_ROOT
+ARTIFACT_FILE = ROOT / 'execution/artifacts/constraint_dependency_matrix.json'
+REPORT_FILE = ROOT / 'execution/artifacts/reports/layered_constraint_pyramid.md'
 
 class ConstraintPyramid:
     def __init__(self):

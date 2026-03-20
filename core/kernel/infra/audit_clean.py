@@ -2,9 +2,10 @@ import os
 import shutil
 import re
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACTS_DIR = ROOT / "07_artifacts"
+ROOT = REPO_ROOT
+ARTIFACTS_DIR = ROOT / "execution/artifacts"
 FORGE_DIR = ROOT / "04_labs"
 DOCS_DIR = ROOT / "docs"
 
@@ -39,7 +40,7 @@ def phase_5_traceability():
         # If there are numbers but no manifest ref, we add HISTORICAL_RESULT
         # Let's just do a naive check if it mentions numbers but lacks "run_manifest.json"
         has_numbers = bool(re.search(r'\d+\.\d+', content))
-        has_ref = "run_manifest.json" in content or "07_artifacts" in content
+        has_ref = "run_manifest.json" in content or "execution/artifacts" in content
         if has_numbers and not has_ref and "HISTORICAL_RESULT" not in content:
             content = "## HISTORICAL_RESULT\n(Warning: Unverified Numeric Claims)\n\n" + content
             doc.write_text(content, 'utf-8')

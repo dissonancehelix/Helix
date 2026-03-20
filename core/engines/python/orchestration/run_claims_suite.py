@@ -3,13 +3,14 @@ import os
 import numpy as np
 import random
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 from sklearn.decomposition import TruncatedSVD
 from sklearn.metrics import mutual_info_score
 from engines.infra.platform import claims_suite_utils as utils
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 DOMAINS_DIR = ROOT / '04_labs/corpus/domains/domains'
-ARTIFACT_DIR = ROOT / '07_artifacts/artifacts/claims_suite'
+ARTIFACT_DIR = ROOT / 'execution/artifacts/claims_suite'
 DOCS_DIR = ROOT / 'docs/claims_suite'
 
 class ClaimsSuiteRunner:

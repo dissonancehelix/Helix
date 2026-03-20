@@ -2,9 +2,10 @@ import json
 import random
 import time
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
-ARTIFACTS_DIR = ROOT / '07_artifacts' / 'atp'
+ROOT = REPO_ROOT
+ARTIFACTS_DIR = ROOT / 'execution/artifacts' / 'atp'
 
 def generate_graph(n=40):
     g = {i: set() for i in range(n)}

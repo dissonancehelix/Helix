@@ -16,7 +16,7 @@ def analyze_eft():
     start_time = time.time()
     
     eft_dir = ROOT / '04_labs' / 'eft'
-    out_dir = ROOT / '07_artifacts' / 'eft_load_test'
+    out_dir = ROOT / 'execution/artifacts' / 'eft_load_test'
     out_dir.mkdir(parents=True, exist_ok=True)
     
     # --- PHASE 1: STATIC STRUCTURAL EXTRACTION ---
@@ -175,7 +175,7 @@ Actionable refactor targets exist in `risk_heatmap.json`.
     
     append_to_registry(
         domain="eft_load_test",
-        artifact_path="07_artifacts/artifacts/eft_load_test",
+        artifact_path="execution/artifacts/eft_load_test",
         pss=1.0 - fragility_delta,
         bas=1.0 - (fragility_delta * 1.5),
         csi=1.0,

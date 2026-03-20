@@ -16,7 +16,7 @@ HIL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler → Atl
 
 Substrates no longer write to Atlas directly.
 The `master_pipeline.py` standalone orchestrator has been converted to an
-internal module (`substrates/music/pipeline_core.py`) callable by operators only.
+internal module (`domains/music/pipeline_core.py`) callable by operators only.
 
 ---
 
@@ -59,12 +59,12 @@ internal module (`substrates/music/pipeline_core.py`) callable by operators only
 
 | Adapter | Location | Purpose | Status |
 |---------|----------|---------|--------|
-| `ffmpeg.py` | `substrates/music/ingestion/adapters/` | Audio format decoding (WAV export) | ACTIVE |
-| `foobar.py` | `substrates/music/ingestion/adapters/` | Foobar2000 v2 metadata | ACTIVE |
-| `metadb_sqlite.py` | `substrates/music/ingestion/adapters/` | Foobar SQLite parser | ACTIVE |
-| `spotify.py` | `substrates/music/ingestion/adapters/` | Spotify API integration | ACTIVE |
-| `vgmdb_ingester.py` | `substrates/music/atlas_integration/sources/` | VGMdb track metadata | ACTIVE |
-| `musicbrainz_ingester.py` | `substrates/music/atlas_integration/sources/` | MusicBrainz metadata | ACTIVE |
+| `ffmpeg.py` | `domains/music/ingestion/adapters/` | Audio format decoding (WAV export) | ACTIVE |
+| `foobar.py` | `domains/music/ingestion/adapters/` | Foobar2000 v2 metadata | ACTIVE |
+| `metadb_sqlite.py` | `domains/music/ingestion/adapters/` | Foobar SQLite parser | ACTIVE |
+| `spotify.py` | `domains/music/ingestion/adapters/` | Spotify API integration | ACTIVE |
+| `vgmdb_ingester.py` | `domains/music/atlas_integration/sources/` | VGMdb track metadata | ACTIVE |
+| `musicbrainz_ingester.py` | `domains/music/atlas_integration/sources/` | MusicBrainz metadata | ACTIVE |
 
 ---
 
@@ -77,7 +77,7 @@ All 12 registered operators verified:
 | `INGEST_TRACK` | Track, * | ControlSequence artifact | validate → route_adapter → render → write | ✅ |
 | `ANALYZE_TRACK` | Track, ControlSequence | SymbolicScore + SignalProfile artifacts | load → symbolic → signal → nuked_opn2 → write | ✅ |
 | `STYLE_VECTOR` | Composer | ArtistStyleVector artifact | load_tracks → 6 feature computations → context → write | ✅ |
-| `COMPILE_ATLAS` | Track, Composer, ControlSequence, SymbolicScore, SignalProfile, ArtistStyleVector | Atlas entries in atlas/music/ | discover → normalize → validate → compile → commit | ✅ |
+| `COMPILE_ATLAS` | Track, Composer, ControlSequence, SymbolicScore, SignalProfile, ArtistStyleVector | Atlas entries in codex/atlas/music/ | discover → normalize → validate → compile → commit | ✅ |
 | `PROBE` | Invariant | probe_result | load_dataset → execute → collect_signal → write | — |
 | `INGEST` | * | entity artifacts | validate → parse → normalize → write | — |
 | `LINK` | all entity types | relationship | validate_source → validate_target → check_type → write | — |
@@ -176,7 +176,7 @@ Do NOT clone automatically — mark for future consideration.
 | game-music-emu | Source at runtime/deps/game-music-emu/ | Compile libgme.so |
 
 To build: `RUN operator:SCAN substrate:music` will trigger build detection via
-`substrates/music/measurement_synthesis/build_extensions.py`.
+`domains/music/measurement_synthesis/build_extensions.py`.
 
 ---
 
@@ -264,7 +264,7 @@ Feature weights in cross-era similarity:
 
 | File | Purpose |
 |------|---------|
-| `substrates/music/pipeline_core.py` | Operator-callable pipeline (replaces standalone master_pipeline) |
+| `domains/music/pipeline_core.py` | Operator-callable pipeline (replaces standalone master_pipeline) |
 | `core/adapters/__init__.py` | Adapter layer package |
 | `core/adapters/adapter_libvgm.py` | libvgm VGM emulation adapter |
 | `core/adapters/adapter_gme.py` | Game_Music_Emu adapter |
@@ -274,12 +274,12 @@ Feature weights in cross-era similarity:
 | `core/adapters/adapter_essentia.py` | Essentia audio descriptor adapter |
 | `core/adapters/adapter_music21.py` | music21 symbolic score adapter |
 | `core/adapters/adapter_pretty_midi.py` | pretty_midi MIDI analysis adapter |
-| `substrates/music/style_vector/__init__.py` | Style vector package |
-| `substrates/music/style_vector/style_vector.py` | ArtistStyleVector computation |
-| `substrates/music/style_vector/cross_era.py` | Cross-era composer comparison |
+| `domains/music/style_vector/__init__.py` | Style vector package |
+| `domains/music/style_vector/style_vector.py` | ArtistStyleVector computation |
+| `domains/music/style_vector/cross_era.py` | Cross-era composer comparison |
 | `labs/legacy_experiments/AUDIT.md` | Legacy script classification |
-| `artifacts/tests/pandoc_observations/` | Moved from atlas/observations/ |
-| `labs/legacy_experiments/` | Moved from atlas/experiments/ |
+| `artifacts/tests/pandoc_observations/` | Moved from codex/atlas/observations/ |
+| `labs/legacy_experiments/` | Moved from codex/atlas/experiments/ |
 
 ## Files Modified This Pass
 

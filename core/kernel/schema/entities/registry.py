@@ -3,7 +3,7 @@ Entity Registry — Helix SPEC-02
 ================================
 Manages the unified Helix entity store.
 
-Storage: atlas/entities/registry.json
+Storage: codex/atlas/entities/registry.json
 Uniqueness: enforced by add() via upsert (last write wins for same id).
 Validation: delegates to Entity.validate() before storing.
 """
@@ -13,16 +13,15 @@ import json
 from pathlib import Path
 from typing import Any
 
+from core.paths import ATLAS_ROOT
 from core.kernel.schema.entities.schema import Entity
 
-_DEFAULT_REGISTRY_PATH = (
-    Path(__file__).parent.parent.parent.parent.parent / "atlas" / "entities" / "registry.json"
-)
+_DEFAULT_REGISTRY_PATH = ATLAS_ROOT / "entities" / "registry.json"
 
 
 class EntityRegistry:
     """
-    In-memory entity store backed by atlas/entities/registry.json.
+    In-memory entity store backed by codex/atlas/entities/registry.json.
 
     Uniqueness is enforced per entity id — add() behaves as upsert:
     a later add() for the same id overwrites the prior entry.

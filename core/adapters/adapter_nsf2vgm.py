@@ -2,7 +2,7 @@
 adapter_nsf2vgm.py — Helix adapter for nsf2vgm_batch
 ======================================================
 Tier A: Binary is pre-compiled and included in the repo.
-Binary: data/music/source/code/nsf2vgm/v1.0/nsf2vgm_batch.exe
+Binary: codex/library/music/source/code/nsf2vgm/v1.0/nsf2vgm_batch.exe
 
 Purpose:
     Convert NSF (NES Sound Format) files to VGM, one VGM file per track.
@@ -17,8 +17,8 @@ Chain:
     adapter_nsf2vgm.execute({"file_path": "game.nsf"})
         → returns {"vgm_paths": [...], "track_count": N, ...}
     For each vgm_path:
-        from substrates.music.parsing.vgm_parser import parse
-        from substrates.music.domain_analysis.symbolic_music.vgm_note_reconstructor import reconstruct
+        from domains.music.parsing.vgm_parser import parse
+        from domains.music.domain_analysis.symbolic_music.vgm_note_reconstructor import reconstruct
         score = reconstruct(parse(vgm_path))
 
 Input (payload dict):
@@ -191,7 +191,7 @@ SUPPORTED_EXTENSIONS: frozenset[str] = frozenset({".nsf"})
 class Adapter:
     """
     Tier A adapter: binary ships in repo at
-    data/music/source/code/nsf2vgm/v1.0/nsf2vgm_batch.exe
+    codex/library/music/source/code/nsf2vgm/v1.0/nsf2vgm_batch.exe
 
     Converts NSF → per-track VGM files, which the vgm_note_reconstructor
     pipeline can then process into SymbolicScore objects.

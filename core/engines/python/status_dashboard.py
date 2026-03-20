@@ -6,8 +6,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent.parent
 
 def print_status():
-    atlas_index = ROOT / '06_atlas' / 'index.json'
-    violation_log = ROOT / '07_artifacts' / 'artifacts' / 'substrate_violation_log.json'
+    atlas_index = ROOT / 'codex/atlas' / 'index.json'
+    violation_log = ROOT / 'execution/artifacts' / 'artifacts' / 'substrate_violation_log.json'
     
     total_experiments = 0
     mean_pss = 0.0

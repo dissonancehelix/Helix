@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
-ART_ROOT = ROOT / '07_artifacts' / 'validation_suite'
+ART_ROOT = ROOT / 'execution/artifacts' / 'validation_suite'
 
 def main():
     repos = ["requests", "express", "gin"]

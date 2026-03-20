@@ -1,8 +1,9 @@
 import os
 import ast
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 
 ALLOWED_ROOT_ENTITIES = {
     ".git",
@@ -19,8 +20,8 @@ ALLOWED_ROOT_ENTITIES = {
     "03_engines",
     "04_labs",
     "05_applications",
-    "06_atlas",
-    "07_artifacts",
+    "codex/atlas",
+    "execution/artifacts",
     "docs"
 }
 
@@ -51,7 +52,7 @@ def _check_write(node, filepath, area):
             path_str = arg0.s
             
         if isinstance(path_str, str):
-            if area == "module" and "07_artifacts" not in path_str and "stdout" not in path_str:
+            if area == "module" and "execution/artifacts" not in path_str and "stdout" not in path_str:
                 raise ArchitectureViolation(f"FLOW_VIOLATION: Module {filepath} attempting write outside of 06_artifacts to '{path_str}'")
             if area == "forge_experiment" and "04_labs" in path_str:
                 raise ArchitectureViolation(f"FLOW_VIOLATION: Forge experiment {filepath} attempting write to workspace '{path_str}'")

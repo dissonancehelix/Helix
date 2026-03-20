@@ -1,9 +1,10 @@
 import json
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 ENUM_PATH = ROOT / 'core/enums/eip_obstruction_enum.json'
-EIP_PATH = ROOT / '07_artifacts/artifacts/eip/eip_overlay.json'
+EIP_PATH = ROOT / 'execution/artifacts/eip/eip_overlay.json'
 
 def test_obstruction_vocab():
     with open(ENUM_PATH, 'r') as f:

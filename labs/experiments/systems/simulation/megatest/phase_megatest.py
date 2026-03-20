@@ -4,13 +4,14 @@ import time
 import math
 import sys
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 sys.path.insert(0, str(ROOT))
 from helix import write_artifact
 
 RUN_ID = f"mega_{int(time.time()*100)}"
-out_dir = ROOT / '07_artifacts' / 'findings_megatest' / RUN_ID
+out_dir = ROOT / 'execution/artifacts' / 'findings_megatest' / RUN_ID
 
 def run():
     # Phase 0: Freeze

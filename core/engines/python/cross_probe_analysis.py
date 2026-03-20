@@ -21,14 +21,14 @@ def load_all_probe_results(
     artifacts_root: str | Path | None = None,
 ) -> dict[str, list[dict]]:
     """
-    Scan 07_artifacts/probes/ and return {probe_name: [result_dicts]}.
+    Scan execution/artifacts/probes/ and return {probe_name: [result_dicts]}.
 
     Each result dict is the probe_result.json enriched with lab_name from
     the run_manifest.json when available.
     """
     _root = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
     if artifacts_root is None:
-        artifacts_root = _root / "07_artifacts"
+        artifacts_root = _root / "execution/artifacts"
     else:
         artifacts_root = Path(artifacts_root)
 
@@ -245,7 +245,7 @@ def run_cross_probe_analysis(
 
     Parameters
     ----------
-    artifacts_root  Path to 07_artifacts/ (default: auto-detect)
+    artifacts_root  Path to execution/artifacts/ (default: auto-detect)
     probe_filter    If set, analyse only these probe names
     lab_filter      If set, restrict to runs from this lab (domain)
     verbose         Print summary to stdout
@@ -258,7 +258,7 @@ def run_cross_probe_analysis(
     """
     _root = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
     if artifacts_root is None:
-        artifacts_root = _root / "07_artifacts"
+        artifacts_root = _root / "execution/artifacts"
 
     if verbose:
         print("[cross-probe-analysis] Loading probe results …")
@@ -348,7 +348,7 @@ def run_cross_probe_analysis(
                       f"({corr['interpretation']})")
         print(f"{'='*55}\n")
 
-    # Write report to 07_artifacts/
+    # Write report to execution/artifacts/
     artifacts_path = Path(artifacts_root)
     report_path = artifacts_path / "cross_probe_report.json"
     report_path.write_text(json.dumps(result, indent=2), encoding="utf-8")

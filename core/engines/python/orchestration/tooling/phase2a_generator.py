@@ -2,8 +2,9 @@ import os
 import json
 import itertools
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 DOMAINS_DIR = ROOT / 'domains'
 AUDITS_DIR = ROOT / 'audits'
 

@@ -88,5 +88,5 @@ Last Updated: 2026-03-17
 * 16 - Mushroom Hill Zone Act 2 (Confidence: 42%)
 
 ## 5. REPOSITORY LINKS
-* [Atlas Graph Entry](file:///c:/Users/dissonance/Desktop/Helix/atlas/entities/composers.json)
+* [Atlas Graph Entry](file:///c:/Users/dissonance/Desktop/Helix/codex/atlas/entities/composers.json)
 * [Analysis Report](file:///c:/Users/dissonance/Desktop/Helix/artifacts/reports/maeda_vs_sst_chip.json)

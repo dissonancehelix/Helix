@@ -2,9 +2,10 @@ import json
 import time
 import os
 from pathlib import Path
+from core.paths import REPO_ROOT, ATLAS_ROOT, ARTIFACTS_ROOT, LAB_DATASETS_ROOT, EXPERIMENTS_ROOT
 import sys
 
-ROOT = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
+ROOT = REPO_ROOT
 sys.path.insert(0, str(ROOT))
 from helix import write_artifact
 
@@ -13,7 +14,7 @@ ts = int(time.time() * 100)
 base_id = f"adp_memtimeobs_{ts}"
 full_id = f"adp_memtimeobs/{base_id}"
 
-out_dir = ROOT / "07_artifacts" / "adp_memtimeobs" / base_id
+out_dir = ROOT / "execution/artifacts" / "adp_memtimeobs" / base_id
 out_dir.mkdir(parents=True, exist_ok=True)
 
 def write_md(name, content):

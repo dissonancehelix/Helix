@@ -5,7 +5,7 @@ Main runner for the Helix Execution Verification System.
 
 Runs all probes and produces an IntegrityReport that is:
   1. Printed to stdout
-  2. Written to atlas/system_integrity/<run_id>.md
+  2. Written to codex/atlas/system_integrity/<run_id>.md
 
 If any probe fails, the pipeline halts and the run is flagged
 INVALID_ENVIRONMENT.
@@ -225,7 +225,7 @@ def run_all(
             ATLAS_INTEGRITY.mkdir(parents=True, exist_ok=True)
             out = ATLAS_INTEGRITY / f"{run_id}.md"
             out.write_text(report.to_md())
-            log(f"  Written: atlas/system_integrity/{run_id}.md")
+            log(f"  Written: codex/atlas/system_integrity/{run_id}.md")
         return report
 
     log("  [1/6] environment_probe...")
@@ -300,12 +300,12 @@ def run_all(
 
     log(f"\n  Overall: {status}")
 
-    # Write to atlas/system_integrity/
+    # Write to codex/atlas/system_integrity/
     if not no_atlas:
         ATLAS_INTEGRITY.mkdir(parents=True, exist_ok=True)
         out = ATLAS_INTEGRITY / f"{run_id}.md"
         out.write_text(report.to_md())
-        log(f"  Written: atlas/system_integrity/{run_id}.md")
+        log(f"  Written: codex/atlas/system_integrity/{run_id}.md")
 
     return report
 
@@ -335,7 +335,7 @@ if __name__ == "__main__":
     import argparse
     p = argparse.ArgumentParser(description="Helix Integrity Tests — Phase 9")
     p.add_argument("--quiet",    action="store_true", help="Suppress output")
-    p.add_argument("--no-atlas", action="store_true", help="Do not write to atlas/system_integrity/")
+    p.add_argument("--no-atlas", action="store_true", help="Do not write to codex/atlas/system_integrity/")
     args = p.parse_args()
     report = run_all(verbose=not args.quiet, no_atlas=args.no_atlas)
     print(report.summary())

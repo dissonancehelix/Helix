@@ -24,7 +24,7 @@ def execute_diff(artifacts_dir: Path, root_path: Path, old_ref: str, new_ref: st
 
     # Compare Risk Scores
     print("\n--- Risk Score Delta ---")
-    risk_path = "07_artifacts/artifacts/risk/risk_scores.json"
+    risk_path = "execution/artifacts/risk/risk_scores.json"
     old_risk = _fetch_git_json(old_ref, risk_path)
     new_risk = _fetch_git_json(new_ref, risk_path)
     

@@ -2,7 +2,7 @@
 adapter_vgm_system.py — Helix adapter for VGM platform/system taxonomy
 =======================================================================
 Tier A: Pure Python — no compilation required.
-Source reference: substrates/music/toolkits/vgmtools/vgm_tag.c (SYSTEM_NAMES table)
+Source reference: domains/music/toolkits/vgmtools/vgm_tag.c (SYSTEM_NAMES table)
 
 Purpose:
     Expose the complete gaming platform taxonomy from vgm_tag.c.

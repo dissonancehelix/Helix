@@ -9,7 +9,7 @@ import re
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent
 WORKSPACES = ROOT / '04_labs'
-OUT_DIR = ROOT / '07_artifacts' / 'resilience_replication'
+OUT_DIR = ROOT / 'execution/artifacts' / 'resilience_replication'
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 random.seed(42)
 

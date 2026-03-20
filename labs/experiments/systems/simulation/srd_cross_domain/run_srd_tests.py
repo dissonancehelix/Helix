@@ -4,8 +4,8 @@ import random
 from pathlib import Path
 
 ROOT = Path(os.path.abspath(__file__)).parent.parent.parent.parent
-ART_DOMAIN = ROOT / '07_artifacts' / 'srd_cross_domain'
-ART_ABST = ROOT / '07_artifacts' / 'srd_abstraction'
+ART_DOMAIN = ROOT / 'execution/artifacts' / 'srd_cross_domain'
+ART_ABST = ROOT / 'execution/artifacts' / 'srd_abstraction'
 random.seed(42)
 
 def generate_domain(name):

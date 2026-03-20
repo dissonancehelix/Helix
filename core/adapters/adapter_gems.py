@@ -2,10 +2,10 @@
 adapter_gems.py — Helix adapter for GEMS driver constants
 ==========================================================
 Source references:
-    data/music/source/code/GEMS/GEMS.DOC    — authoritative v2.0 documentation
-    data/music/source/code/GEMS/GEMS/GEMS.H — C API header (Recreational Brainware)
-    data/music/source/code/GEMS/GEMS/Z80.ASM — Z80 driver implementation
-    data/music/source/code/MidiConverters/gems2mid.c — GEMS→MIDI converter
+    codex/library/music/source/code/GEMS/GEMS.DOC    — authoritative v2.0 documentation
+    codex/library/music/source/code/GEMS/GEMS/GEMS.H — C API header (Recreational Brainware)
+    codex/library/music/source/code/GEMS/GEMS/Z80.ASM — Z80 driver implementation
+    codex/library/music/source/code/MidiConverters/gems2mid.c — GEMS→MIDI converter
 
 Purpose:
     Provide ALL structural constants from the Genesis Editor for Music and Sound
@@ -520,7 +520,7 @@ class Adapter:
             {"success": bool, "midi_path": str | None, "available": bool}
         """
         try:
-            from substrates.music.domain_analysis.tool_bridge import gems_to_midi
+            from domains.music.domain_analysis.tool_bridge import gems_to_midi
             result_path = gems_to_midi(gems_seq_path, output_midi_path)
             return {
                 "success":    result_path is not None,
@@ -544,7 +544,7 @@ class Adapter:
     def is_midi_conversion_available(self) -> bool:
         """Return True if gems2mid binary has been compiled."""
         try:
-            from substrates.music.domain_analysis.tool_bridge import available_tools
+            from domains.music.domain_analysis.tool_bridge import available_tools
             return available_tools().get("gems2mid", False)
         except ImportError:
             return False

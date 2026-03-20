@@ -42,21 +42,21 @@ should return signal > 0.35 if Decision Compression is a true invariant.
 ## Falsifiers
 
 Returns signal < 0.20 on a substrate that contains genuine irreversible
-commitment events under equivalent conditions to validated substrates.
+commitment events under equivalent conditions to validated domains.
 
 ---
 
 ## Evidence
 
-- Used in: `atlas/experiments/decision_compression_sweep.md`
+- Used in: `codex/atlas/experiments/decision_compression_sweep.md`
 - Results: 7/7 runs passed, signal range 0.39–0.46
 
 ---
 
 ## Linked Experiments
 
-- `atlas/invariants/decision_compression.md`
-- `atlas/experiments/decision_compression_sweep.md`
+- `codex/atlas/invariants/decision_compression.md`
+- `codex/atlas/experiments/decision_compression_sweep.md`
 
 ---
 

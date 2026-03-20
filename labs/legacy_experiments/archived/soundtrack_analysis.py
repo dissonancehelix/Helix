@@ -3,8 +3,8 @@ from pathlib import Path
 # Add repo root to sys.path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent.parent))
 
-from substrates.music.master_pipeline import MasterPipeline
-from substrates.music.config import LIBRARY_ROOT, ARTIFACTS
+from domains.music.master_pipeline import MasterPipeline
+from domains.music.config import LIBRARY_ROOT, ARTIFACTS
 import json
 
 def run(soundtrack: str = None, **kwargs):

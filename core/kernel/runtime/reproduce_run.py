@@ -30,7 +30,7 @@ EXACT_FIELDS: set[str] = {"passed", "probe_name", "domain"}
 # ---------------------------------------------------------------------------
 
 def _find_run_dir(run_id: str, artifacts_root: Path) -> Path | None:
-    """Scan 07_artifacts/probes/*/run_id for the original run directory."""
+    """Scan execution/artifacts/probes/*/run_id for the original run directory."""
     probes_root = artifacts_root / "probes"
     if not probes_root.exists():
         return None
@@ -136,11 +136,11 @@ def reproduce_run(
     Re-run a previous probe execution and compare outputs within tolerance.
 
     Steps:
-    1. Locate original run directory in 07_artifacts/probes/*/
+    1. Locate original run directory in execution/artifacts/probes/*/
     2. Load probe_result.json + run_manifest.json
     3. Re-run probe via probe_runner.run_probe(auto_rebuild_atlas=False)
     4. Compare field-by-field within TOLERANCES
-    5. Write reproduce_result.json to 07_artifacts/repro_checks/<run_id>/
+    5. Write reproduce_result.json to execution/artifacts/repro_checks/<run_id>/
     6. If mismatch: flag atlas entry with DEGRADED + record non_reproducible_runs
 
     Returns
@@ -155,12 +155,12 @@ def reproduce_run(
     _root = next(p for p in Path(__file__).resolve().parents if (p / 'helix.py').exists())
 
     if artifacts_root is None:
-        artifacts_root = _root / "07_artifacts"
+        artifacts_root = _root / "execution/artifacts"
     else:
         artifacts_root = _Path(artifacts_root)
 
     if atlas_dir is None:
-        atlas_dir = _root / "06_atlas"
+        atlas_dir = _root / "codex/atlas"
     else:
         atlas_dir = _Path(atlas_dir)
 

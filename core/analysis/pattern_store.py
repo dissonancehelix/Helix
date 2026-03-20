@@ -7,7 +7,7 @@ class PatternStore:
     Manages the storage and retrieval of discovered invariants in Atlas.
     """
     
-    INVARIANTS_DIR = Path("06_atlas/invariants") if os.path.exists("06_atlas") else Path("atlas/invariants")
+    INVARIANTS_DIR = Path("codex/codex/atlas/invariants") if os.path.exists("codex/atlas") else Path("codex/atlas/invariants")
 
     @classmethod
     def save_invariant(cls, name: str, data: dict):

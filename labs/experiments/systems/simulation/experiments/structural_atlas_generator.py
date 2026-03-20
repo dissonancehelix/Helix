@@ -12,7 +12,7 @@ This is a Tier 2 Practical Demonstration artifact.
 """
 
 class StructuralAtlas:
-    def __init__(self, out_dir="07_artifacts/artifacts/structural_atlas"):
+    def __init__(self, out_dir="execution/artifacts/structural_atlas"):
         self.out_dir = Path(out_dir)
         self.out_dir.mkdir(parents=True, exist_ok=True)
         self.domains = {}

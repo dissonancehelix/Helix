@@ -1,22 +1,16 @@
-"""
-Probe Registry — 03_engines/orchestrator/probe_registry.py
+"""Probe Registry.
 
-Discover and catalog probe instruments from 04_labs/probes/.
-
-Probes are Python scripts in 04_labs/probes/ that:
-  - Define a class inheriting from HelixProbe (from probe_interface.py)
-  - Implement a standalone __main__ block for subprocess execution
-  - Are named <probe_name>_probe.py or <probe_name>.py
-
-The registry maps probe names to script paths without importing the probes
-(import happens only at run time, inside the sandbox subprocess).
+Discover and catalog invariant probes from ``labs/experiments/invariants``.
+The registry maps canonical probe names to script paths without importing the
+modules up front.
 """
 
 from __future__ import annotations
-import importlib.util
-import sys
+
 from pathlib import Path
 from typing import NamedTuple
+
+from core.paths import EXPERIMENTS_ROOT
 
 
 class ProbeRecord(NamedTuple):
@@ -25,86 +19,57 @@ class ProbeRecord(NamedTuple):
     description: str = ""
 
 
+PROBES_ROOT = EXPERIMENTS_ROOT / "invariants"
+
+
 def _infer_probe_name(script_path: Path) -> str:
-    """
-    Derive a canonical probe name from a filename.
-
-    decision_compression_probe.py → decision_compression
-    phi_scan_probe.py             → phi_scan
-    my_probe.py                   → my (if ends with _probe, strip suffix)
-    other_script.py               → other_script
-    """
     stem = script_path.stem
-    if stem.endswith("_probe"):
-        return stem[: -len("_probe")]
-    return stem
+    return stem[: -len("_probe")] if stem.endswith("_probe") else stem
 
 
-def discover_probes(probes_dir: str | Path) -> dict[str, ProbeRecord]:
-    """
-    Scan a probes directory and return a registry of available probes.
-
-    Ignores __init__.py, probe_interface.py, and files starting with _.
-
-    Args:
-        probes_dir: Path to 04_labs/probes/
-
-    Returns:
-        dict mapping probe_name → ProbeRecord
-    """
+def discover_probes(probes_dir: str | Path = PROBES_ROOT) -> dict[str, ProbeRecord]:
     probes_dir = Path(probes_dir)
     registry: dict[str, ProbeRecord] = {}
-
     if not probes_dir.exists():
         return registry
 
-    SKIP = {"__init__", "probe_interface", "_example_stub"}
-
+    skip = {"__init__", "probe_interface", "_example_stub"}
     for script in sorted(probes_dir.glob("*.py")):
-        if script.stem in SKIP or script.stem.startswith("_"):
+        if script.stem in skip or script.stem.startswith("_"):
             continue
-
-        name = _infer_probe_name(script)
-        description = _read_probe_description(script)
-        registry[name] = ProbeRecord(
-            name=name,
+        registry[_infer_probe_name(script)] = ProbeRecord(
+            name=_infer_probe_name(script),
             script_path=script,
-            description=description,
+            description=_read_probe_description(script),
         )
-
     return registry
 
 
 def _read_probe_description(script_path: Path) -> str:
-    """
-    Extract a one-line description from a probe script's module docstring
-    without fully importing it. Reads only the first non-empty docstring line.
-    """
     try:
         src = script_path.read_text(encoding="utf-8", errors="ignore")
-        for quote in ('"""', "'''"):
-            idx = src.find(quote)
-            if idx != -1:
-                end = src.find(quote, idx + 3)
-                if end != -1:
-                    docstring = src[idx + 3 : end].strip()
-                    for line in docstring.splitlines():
-                        stripped = line.strip()
-                        if stripped:
-                            return stripped[:120]
     except OSError:
-        pass
+        return ""
+
+    for quote in ('"""', "'''"):
+        idx = src.find(quote)
+        if idx == -1:
+            continue
+        end = src.find(quote, idx + 3)
+        if end == -1:
+            continue
+        for line in src[idx + 3 : end].strip().splitlines():
+            stripped = line.strip()
+            if stripped:
+                return stripped[:120]
     return ""
 
 
-def get_probe(probe_name: str, probes_dir: str | Path) -> ProbeRecord | None:
-    """Look up a single probe by name."""
-    registry = discover_probes(probes_dir)
-    return registry.get(probe_name)
+def get_probe(probe_name: str, probes_dir: str | Path = PROBES_ROOT) -> ProbeRecord | None:
+    return discover_probes(probes_dir).get(probe_name)
 
 
-def list_probes(probes_dir: str | Path) -> None:
-    """Print a formatted list of available probes."""
+def list_probes(probes_dir: str | Path = PROBES_ROOT) -> None:
     registry = discover_probes(probes_dir)
     if not registry:
         print("[PROBE_REGISTRY] No probes found.")
