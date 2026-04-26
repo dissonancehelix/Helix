@@ -44,7 +44,7 @@ def main():
         run_falsifiers(verbose=not quiet)
         
     elif cmd == "verify":
-        script_path = ROOT / "apps" / "agent_harness" / "check_workspace.py"
+        script_path = ROOT / "helix" / "engine" / "agent_harness" / "check_workspace.py"
         os.execv(sys.executable, [sys.executable, str(script_path)] + sys.argv[2:])
         
     else:
