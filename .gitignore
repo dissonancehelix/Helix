@@ -48,3 +48,4 @@ node_modules/
 # -------------------------------------------------------------------
 # Ensure atlas is NEVER accidentally ignored by broad rules
 !helix/memory/atlas/
+.vscode/
