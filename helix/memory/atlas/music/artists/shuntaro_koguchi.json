@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shuntaro_koguchi",
+  "entity_type": "music.composer",
+  "label": "Shuntaro Koguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Trails / Kiseki",
+      "Trails in the Sky 1st Chapter",
+      "Ys X"
+    ],
+    "artist_keys": [
+      "Shuntaro Koguchi"
+    ],
+    "track_count": 81
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

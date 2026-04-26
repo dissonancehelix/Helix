@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:matt_creamer",
+  "entity_type": "music.composer",
+  "label": "Matt Creamer",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Monster Boy and the Cursed Kingdom"
+    ],
+    "artist_keys": [
+      "Matt Creamer"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:yuji_suzuki",
+  "entity_type": "music.composer",
+  "label": "Yuji Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Al Unser Jr.'s Turbo Racing",
+      "Boulder Dash",
+      "Dark Lord",
+      "Glory of Heracles II",
+      "Makai Hakkenden Shada",
+      "Robocop",
+      "Silent Debuggers",
+      "Tantei Jinguuji Saburou Toki no Sugiyuku Mama ni"
+    ],
+    "artist_keys": [
+      "Yuji Suzuki"
+    ],
+    "track_count": 101
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11589502",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

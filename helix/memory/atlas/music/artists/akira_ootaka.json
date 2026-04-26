@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:akira_ootaka",
+  "entity_type": "music.composer",
+  "label": "Akira Ootaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Doraemon 2",
+      "Doraemon 4",
+      "Dragon Slayer Gaiden"
+    ],
+    "artist_keys": [
+      "Akira Ootaka"
+    ],
+    "track_count": 77
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

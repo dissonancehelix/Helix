@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:maki_morrow",
+  "entity_type": "music.composer",
+  "label": "Maki Morrow",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Jurassic Park",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Maki Morrow"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

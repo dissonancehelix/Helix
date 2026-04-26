@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:karl_brueggemann",
+  "entity_type": "music.composer",
+  "label": "Karl Brueggemann",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "A Bit More Chips",
+      "Askr",
+      "Back in Orbit",
+      "Big Chipper",
+      "Bit by Bit",
+      "Chasing Destiny",
+      "Deep Water",
+      "Downforce",
+      "Dreams Aligned",
+      "Get Bit"
+    ],
+    "artist_keys": [
+      "Karl Brueggemann"
+    ],
+    "track_count": 518
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q125398799",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

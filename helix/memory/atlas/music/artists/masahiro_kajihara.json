@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:masahiro_kajihara",
+  "entity_type": "music.composer",
+  "label": "Masahiro Kajihara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "PC-88",
+      "PC-98",
+      "PC-9801",
+      "X68000"
+    ],
+    "franchises": [
+      "Grounseed",
+      "Hole Chaser",
+      "MCMLXC",
+      "Meikyuu Gakuensai",
+      "Mystery Case In Hi!school!! Synergy",
+      "Possessioner",
+      "Princess Maker",
+      "Princess Maker 2",
+      "Rouge",
+      "Rusty",
+      "SYNERGY MCMXCI",
+      "Totsugeki! Mix",
+      "Valis II"
+    ],
+    "artist_keys": [
+      "Masahiro Kajihara"
+    ],
+    "track_count": 163
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q122879455",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

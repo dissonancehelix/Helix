@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:satoshi_igarashi",
+  "entity_type": "music.composer",
+  "label": "Satoshi Igarashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bayonetta 2"
+    ],
+    "artist_keys": [
+      "Satoshi Igarashi"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

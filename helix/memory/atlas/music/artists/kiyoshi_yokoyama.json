@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:kiyoshi_yokoyama",
+  "entity_type": "music.composer",
+  "label": "Kiyoshi Yokoyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "64th Street",
+      "A.B. Cop",
+      "Chimera Beast",
+      "Hachoo!",
+      "Megumi Rescue",
+      "Racing Hero",
+      "The Astyanax",
+      "The Krion Conquest",
+      "XX Mission"
+    ],
+    "artist_keys": [
+      "Kiyoshi Yokoyama"
+    ],
+    "track_count": 92
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q56349589",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:noriyuki_iwadare",
+  "entity_type": "music.composer",
+  "label": "Noriyuki Iwadare",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Mega Drive",
+      "PC Engine",
+      "PlayStation",
+      "Super NES"
+    ],
+    "franchises": [
+      "Ace Attorney Investigations",
+      "Alien vs Predator",
+      "Blue Almanac",
+      "Cho Aniki Show II",
+      "Collaboration Album \"Message\"",
+      "Dark Chronicle Premium Arrange",
+      "Der Langrisser",
+      "Gambler Jiko Chuushinha",
+      "Gleylancer",
+      "Grandia"
+    ],
+    "artist_keys": [
+      "Noriyuki Iwadare"
+    ],
+    "track_count": 993
+  },
+  "external_ids": {
+    "vgmdb": "104",
+    "musicbrainz": "fdb625a6-3c32-4260-9e1e-0dd382c535fc",
+    "wikidata": "Q1069001",
+    "spotify": "",
+    "lastfm": "岩垂徳行",
+    "discogs": "461156",
+    "wikipedia": "https://en.wikipedia.org/wiki/Noriyuki_Iwadare"
+  }
+}

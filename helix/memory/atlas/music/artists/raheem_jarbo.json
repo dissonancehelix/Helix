@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:raheem_jarbo",
+  "entity_type": "music.composer",
+  "label": "Raheem Jarbo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mighty No. 9"
+    ],
+    "artist_keys": [
+      "Raheem Jarbo"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "3664",
+    "musicbrainz": "293aa84f-e308-418a-b202-7d9c88479f1e",
+    "wikidata": "Q7291909",
+    "spotify": "2mCmDragybleJXqTqsOk5I",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raheem_Jarbo"
+  }
+}

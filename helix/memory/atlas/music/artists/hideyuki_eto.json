@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:hideyuki_eto",
+  "entity_type": "music.composer",
+  "label": "Hideyuki Eto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Armored Core VI",
+      "International Superstar Soccer",
+      "International Superstar Soccer Deluxe"
+    ],
+    "artist_keys": [
+      "Hideyuki Eto"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "3446",
+    "musicbrainz": "92281875-875f-4528-b81e-fcc04b5d13d7",
+    "wikidata": "Q11626333",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

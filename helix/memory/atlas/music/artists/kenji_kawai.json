@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:kenji_kawai",
+  "entity_type": "music.composer",
+  "label": "Kenji Kawai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Folklore",
+      "Ghost in the Shell",
+      "Samsara Naga 1x2",
+      "Sansara Naga 2"
+    ],
+    "artist_keys": [
+      "Kenji Kawai"
+    ],
+    "track_count": 83
+  },
+  "external_ids": {
+    "vgmdb": "677",
+    "musicbrainz": "c50e52e1-01f4-494d-b1ef-376fe3581d90",
+    "wikidata": "Q443712",
+    "spotify": "",
+    "lastfm": "川井憲次",
+    "discogs": "142685",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kenji_Kawai"
+  }
+}

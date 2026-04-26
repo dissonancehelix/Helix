@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:the_iris_twins",
+  "entity_type": "music.composer",
+  "label": "The Iris Twins",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rune Factory Frontier"
+    ],
+    "artist_keys": [
+      "The Iris Twins"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

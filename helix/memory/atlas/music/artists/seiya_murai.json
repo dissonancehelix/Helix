@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:seiya_murai",
+  "entity_type": "music.composer",
+  "label": "Seiya Murai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Animaniacs",
+      "Tiny Toon Adventures",
+      "Tokimeki Memorial"
+    ],
+    "artist_keys": [
+      "Seiya Murai"
+    ],
+    "track_count": 132
+  },
+  "external_ids": {
+    "vgmdb": "1562",
+    "musicbrainz": "7835cbe8-c13a-4b18-ad87-7fe01d63de1b",
+    "wikidata": "Q11241249",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "592467"
+  }
+}

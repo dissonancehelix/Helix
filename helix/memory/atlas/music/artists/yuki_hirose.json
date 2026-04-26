@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yuki_hirose",
+  "entity_type": "music.composer",
+  "label": "Yuki Hirose",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kingdom Hearts III"
+    ],
+    "artist_keys": [
+      "Yuki Hirose"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "26897",
+    "musicbrainz": "6212bc03-508a-4f9f-9ecb-7e3d7770b317",
+    "wikidata": "Q20042582",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuuki_Hirose"
+  }
+}

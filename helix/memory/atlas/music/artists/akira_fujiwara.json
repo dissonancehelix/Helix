@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:akira_fujiwara",
+  "entity_type": "music.composer",
+  "label": "Akira Fujiwara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metroid Fusion"
+    ],
+    "artist_keys": [
+      "Akira Fujiwara"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q4701129",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akira_Fujiwara"
+  }
+}

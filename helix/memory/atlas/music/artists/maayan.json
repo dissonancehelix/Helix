@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:maayan",
+  "entity_type": "music.composer",
+  "label": "Maayan",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Busou Shinki Battle Masters Mk.2"
+    ],
+    "artist_keys": [
+      "Maayan"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q63453885",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

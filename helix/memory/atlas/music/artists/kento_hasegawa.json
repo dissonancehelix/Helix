@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kento_hasegawa",
+  "entity_type": "music.composer",
+  "label": "Kento Hasegawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Devil May Cry 3",
+      "Devil May Cry 4",
+      "Resident Evil Outbreak"
+    ],
+    "artist_keys": [
+      "Kento Hasegawa"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "1520",
+    "musicbrainz": "04c3374f-a2d4-42ed-8cf5-94dabf7e9752",
+    "wikidata": "Q11653837",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

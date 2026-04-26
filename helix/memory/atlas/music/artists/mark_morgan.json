@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mark_morgan",
+  "entity_type": "music.composer",
+  "label": "Mark Morgan",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Planescape"
+    ],
+    "artist_keys": [
+      "Mark Morgan"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "1446",
+    "musicbrainz": "fa0099dd-927d-49d7-8f96-45d4d95eea8e",
+    "wikidata": "Q4069109",
+    "spotify": "4HH8B4vTfVx3oB1ComeTwc",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mark_Morgan_(composer)"
+  }
+}

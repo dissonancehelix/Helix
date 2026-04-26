@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:maki_tanimoto",
+  "entity_type": "music.composer",
+  "label": "Maki Tanimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Cardangels",
+      "Lord Monarch"
+    ],
+    "artist_keys": [
+      "Maki Tanimoto"
+    ],
+    "track_count": 51
+  },
+  "external_ids": {
+    "vgmdb": "2159",
+    "musicbrainz": "d77f1bcf-c3a7-4eb2-b99c-8c755af33e7e",
+    "wikidata": "Q11632947",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

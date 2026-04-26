@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshitaka_azuma",
+  "entity_type": "music.composer",
+  "label": "Yoshitaka Azuma",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Panzer Dragoon"
+    ],
+    "artist_keys": [
+      "Yoshitaka Azuma"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "555",
+    "musicbrainz": "a20b1bef-f84d-40b2-a6e9-99119b49038b",
+    "wikidata": "Q11528141",
+    "spotify": "26kczmVfvKTGPaplvcrVao",
+    "lastfm": "東祥高"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:funky_seta",
+  "entity_type": "music.composer",
+  "label": "Funky Seta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Kounai Shasei"
+    ],
+    "artist_keys": [
+      "Funky Seta"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

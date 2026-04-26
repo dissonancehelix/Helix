@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:misao_senbongi",
+  "entity_type": "music.composer",
+  "label": "Misao Senbongi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Devil May Cry"
+    ],
+    "artist_keys": [
+      "Misao Senbongi"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q10330682",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

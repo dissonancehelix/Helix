@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshito_sekigawa",
+  "entity_type": "music.composer",
+  "label": "Yoshito Sekigawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Yoshito Sekigawa"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

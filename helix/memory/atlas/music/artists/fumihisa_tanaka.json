@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:fumihisa_tanaka",
+  "entity_type": "music.composer",
+  "label": "Fumihisa Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "KonoSuba",
+      "Pokémon Quest"
+    ],
+    "artist_keys": [
+      "Fumihisa Tanaka"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

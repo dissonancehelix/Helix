@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takanori_otsuka",
+  "entity_type": "music.composer",
+  "label": "Takanori Otsuka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Dancing Eyes",
+      "Soul Edge",
+      "Soulcalibur",
+      "Tenkomori Shooting"
+    ],
+    "artist_keys": [
+      "Takanori Otsuka"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:jesper_kyd",
+  "entity_type": "music.composer",
+  "label": "Jesper Kyd",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "AWS Pro Moves Soccer",
+      "Amok",
+      "Assassin's Creed",
+      "Assassin's Creed II",
+      "Borderlands",
+      "Darksiders II",
+      "Hitman",
+      "Hitman 2",
+      "Red Zone",
+      "Scorcher",
+      "Soulcalibur V",
+      "State of Decay",
+      "Sub",
+      "The Adventures of Batman and Robin",
+      "U.S.S. John Young"
+    ],
+    "artist_keys": [
+      "Jesper Kyd"
+    ],
+    "track_count": 289
+  },
+  "external_ids": {
+    "vgmdb": "1811",
+    "musicbrainz": "5156bb2c-45d7-4660-8234-4d84452c93e1",
+    "wikidata": "Q316449",
+    "spotify": "3m6alJyeKYSCZ8078ttfaH",
+    "lastfm": "Jesper+Kyd",
+    "discogs": "213456",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jesper_Kyd"
+  }
+}

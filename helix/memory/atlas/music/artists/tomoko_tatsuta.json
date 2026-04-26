@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:tomoko_tatsuta",
+  "entity_type": "music.composer",
+  "label": "Tomoko Tatsuta",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat 3",
+      "Klonoa",
+      "Seven",
+      "Venus & Braves"
+    ],
+    "artist_keys": [
+      "Tomoko Tatsuta"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

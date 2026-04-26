@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mito_unit",
+  "entity_type": "music.composer",
+  "label": "Mito Unit",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Kounai Shasei"
+    ],
+    "artist_keys": [
+      "Mito Unit"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

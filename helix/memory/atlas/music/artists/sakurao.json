@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:sakurao",
+  "entity_type": "music.composer",
+  "label": "Sakurao",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Super Football Champ"
+    ],
+    "artist_keys": [
+      "Sakurao"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11537974",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

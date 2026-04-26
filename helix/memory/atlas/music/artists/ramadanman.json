@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ramadanman",
+  "entity_type": "music.composer",
+  "label": "Ramadanman",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Moodswings / Response"
+    ],
+    "artist_keys": [
+      "Ramadanman"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "6857206a-c96e-4fc9-93b5-3b3c5c567e45",
+    "wikidata": "Q28967465",
+    "spotify": "",
+    "lastfm": "Pearson",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pearson_Sound"
+  }
+}

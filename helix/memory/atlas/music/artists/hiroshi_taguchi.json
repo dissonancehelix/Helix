@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hiroshi_taguchi",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Taguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Twin Eagle"
+    ],
+    "artist_keys": [
+      "Hiroshi Taguchi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q101344117",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

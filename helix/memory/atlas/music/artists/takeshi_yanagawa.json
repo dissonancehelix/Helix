@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:takeshi_yanagawa",
+  "entity_type": "music.composer",
+  "label": "Takeshi Yanagawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Arcalast",
+      "Culdcept",
+      "Etrian Mystery Dungeon",
+      "Group S Challenge",
+      "Jaseiken Necromancer",
+      "Katekyo Hitman Reborn! Battle Arena 2",
+      "Katekyo Hitman Reborn! Dream Hyper Battle!",
+      "Layton Brothers",
+      "Monster Boy and the Cursed Kingdom",
+      "Shenmue",
+      "The Law of Ueki",
+      "Time and Eternity"
+    ],
+    "artist_keys": [
+      "Takeshi Yanagawa"
+    ],
+    "track_count": 146
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

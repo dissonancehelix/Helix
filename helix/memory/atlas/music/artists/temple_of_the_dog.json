@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:temple_of_the_dog",
+  "entity_type": "music.composer",
+  "label": "Temple of the Dog",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Temple of the Dog"
+    ],
+    "artist_keys": [
+      "Temple of the Dog"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "e9571c17-817f-4d34-ae3f-0c7a96f822c1",
+    "wikidata": "Q845759",
+    "spotify": "0iHb0mCbqZTYeb4y9Pirrd",
+    "lastfm": "Temple+of+the+Dog",
+    "wikipedia": "https://en.wikipedia.org/wiki/Temple_of_the_Dog"
+  }
+}

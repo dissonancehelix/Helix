@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:marc_baril",
+  "entity_type": "music.composer",
+  "label": "Marc Baril",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Al Unser Jr.'s Road to the Top",
+      "Beavis and Butt",
+      "Power Piggs of the Dark Age",
+      "Speed Racer in My Most Dangerous Adventures"
+    ],
+    "artist_keys": [
+      "Marc Baril"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "6208",
+    "musicbrainz": "28d25ef2-3701-4d33-a6e7-2332368cb31e",
+    "wikidata": "Q6755378",
+    "spotify": "4QXf6hGJ480BDafVgsJbXX",
+    "lastfm": ""
+  }
+}

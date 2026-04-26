@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:herman_miller",
+  "entity_type": "music.composer",
+  "label": "Herman Miller",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Ultima VI"
+    ],
+    "artist_keys": [
+      "Herman Miller"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3785221",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Herman_Miller_(writer)"
+  }
+}

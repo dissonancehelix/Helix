@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:isaac_albniz",
+  "entity_type": "music.composer",
+  "label": "Isaac Albéniz",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tekken 7"
+    ],
+    "artist_keys": [
+      "Isaac Albéniz"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "0a46cf2a-61bd-447d-b8fd-a2b32eb20282",
+    "wikidata": "Q185812",
+    "spotify": "4sbcjbyksdT4dJ5Lh0SvZp",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Alb%C3%A9niz"
+  }
+}

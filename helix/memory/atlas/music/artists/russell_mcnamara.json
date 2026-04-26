@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:russell_mcnamara",
+  "entity_type": "music.composer",
+  "label": "Russell McNamara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kingdom Hearts HD 1.5 ReMIX"
+    ],
+    "artist_keys": [
+      "Russell McNamara"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

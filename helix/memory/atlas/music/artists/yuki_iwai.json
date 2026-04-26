@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:yuki_iwai",
+  "entity_type": "music.composer",
+  "label": "Yuki Iwai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aladdin",
+      "Final Fight 2",
+      "Gargoyle's Quest II",
+      "Marvel Super Heroes",
+      "Marvel Super Heroes Vs. Street Fighter",
+      "Mega Man 2",
+      "Mega Man X",
+      "Mega Man X2",
+      "Musashi",
+      "R",
+      "Spawn",
+      "Street Fighter Alpha 3",
+      "Super Gem Fighter",
+      "X"
+    ],
+    "artist_keys": [
+      "Yuki Iwai"
+    ],
+    "track_count": 202
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q30922132",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

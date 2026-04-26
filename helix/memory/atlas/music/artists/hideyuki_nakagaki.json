@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hideyuki_nakagaki",
+  "entity_type": "music.composer",
+  "label": "Hideyuki Nakagaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "OLIO2"
+    ],
+    "artist_keys": [
+      "Hideyuki Nakagaki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

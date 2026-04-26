@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:cia",
+  "entity_type": "music.composer",
+  "label": "C.I.A",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Otomedius Excellent"
+    ],
+    "artist_keys": [
+      "C.I.A"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q20671009",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

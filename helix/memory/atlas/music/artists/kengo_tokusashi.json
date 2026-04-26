@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kengo_tokusashi",
+  "entity_type": "music.composer",
+  "label": "Kengo Tokusashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake Intergrade",
+      "Final Fantasy XIII"
+    ],
+    "artist_keys": [
+      "Kengo Tokusashi"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

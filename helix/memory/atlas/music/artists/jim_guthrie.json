@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:jim_guthrie",
+  "entity_type": "music.composer",
+  "label": "Jim Guthrie",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sword & Sworcery LP"
+    ],
+    "artist_keys": [
+      "Jim Guthrie"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "12691",
+    "musicbrainz": "25869023-8509-4926-aefd-1f84c188cf3d",
+    "wikidata": "Q6195358",
+    "spotify": "4wEVY6Zz9STrspLNOmyz50",
+    "lastfm": "Jim+Guthrie",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jim_Guthrie_(singer-songwriter)"
+  }
+}

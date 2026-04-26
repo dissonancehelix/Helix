@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hideaki_takeshita",
+  "entity_type": "music.composer",
+  "label": "Hideaki Takeshita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Cosmic Psycho",
+      "Kimi Dake ni Ai o...",
+      "Lam",
+      "Nike"
+    ],
+    "artist_keys": [
+      "Hideaki Takeshita"
+    ],
+    "track_count": 67
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

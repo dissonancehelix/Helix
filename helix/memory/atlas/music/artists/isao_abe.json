@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:isao_abe",
+  "entity_type": "music.composer",
+  "label": "Isao Abe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II"
+    ],
+    "franchises": [
+      "Auto Modellista",
+      "Cadillacs and Dinosaurs",
+      "Dungeons & Dragons",
+      "Knights of the Round",
+      "Quiz & Dragons",
+      "Quiz Nanairo Dreams",
+      "Ring of Destruction",
+      "Slip Stream",
+      "Spawn",
+      "Star Gladiator Episode I",
+      "Street Fighter Alpha",
+      "Street Fighter Alpha 3",
+      "Street Fighter II",
+      "Super Gem Fighter",
+      "Super Puzzle Fighter II Turbo"
+    ],
+    "artist_keys": [
+      "Isao Abe"
+    ],
+    "track_count": 246
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q20311745",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Isao_Abe"
+  }
+}

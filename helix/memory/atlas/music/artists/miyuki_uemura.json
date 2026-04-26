@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:miyuki_uemura",
+  "entity_type": "music.composer",
+  "label": "Miyuki Uemura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Yoshi's Safari"
+    ],
+    "artist_keys": [
+      "Miyuki Uemura"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:naoto_tanaka",
+  "entity_type": "music.composer",
+  "label": "Naoto Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Anarchy Reigns",
+      "Apollo Justice",
+      "Bayonetta",
+      "Mega Man X5",
+      "Mega Man X6"
+    ],
+    "artist_keys": [
+      "Naoto Tanaka"
+    ],
+    "track_count": 74
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q89132458",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

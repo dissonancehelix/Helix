@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:david_clynick",
+  "entity_type": "music.composer",
+  "label": "David Clynick",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Perfect Dark"
+    ],
+    "artist_keys": [
+      "David Clynick"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:shizuo_aizawa",
+  "entity_type": "music.composer",
+  "label": "Shizuo Aizawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Air Inferno",
+      "Aqua Jack",
+      "Darius Twin",
+      "Rainbow Islands",
+      "Superman",
+      "Top Landing"
+    ],
+    "artist_keys": [
+      "Shizuo Aizawa"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:dan_hess",
+  "entity_type": "music.composer",
+  "label": "Dan Hess",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Pilotwings 64"
+    ],
+    "artist_keys": [
+      "Dan Hess"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "12497",
+    "musicbrainz": "2d9d6a66-7c15-43b8-bc2b-d02c587710b0",
+    "wikidata": "Q3701363",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

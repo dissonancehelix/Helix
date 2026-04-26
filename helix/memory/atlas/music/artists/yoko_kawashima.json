@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:yoko_kawashima",
+  "entity_type": "music.composer",
+  "label": "Yoko Kawashima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Mania Daiginjou",
+      "Derby Jockey",
+      "Derby Jockey 2",
+      "Hotdog Storm",
+      "J.League Fighting Soccer FC",
+      "J.League Live '95",
+      "J.League Winning Goal",
+      "Mickey's Great Adventure in Tokyo Disneyland",
+      "Oraga Land Shusai",
+      "Pachinko Tetsujin",
+      "Speed Racer",
+      "Tokyo Disneyland"
+    ],
+    "artist_keys": [
+      "Yoko Kawashima"
+    ],
+    "track_count": 116
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11478314",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:shogo_nomura",
+  "entity_type": "music.composer",
+  "label": "Shogo Nomura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Daemon X Machina",
+      "Endrays",
+      "Katamari Damacy Rolling Live",
+      "Once Upon a Katamari",
+      "Survival Quiz City",
+      "Tekken 8"
+    ],
+    "artist_keys": [
+      "Shogo Nomura"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q96102552",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

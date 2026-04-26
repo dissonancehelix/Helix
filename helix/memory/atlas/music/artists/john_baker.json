@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:john_baker",
+  "entity_type": "music.composer",
+  "label": "John Baker",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Kid Chameleon",
+      "Sega Channel",
+      "Slam City with Scottie Pippen",
+      "ToeJam & Earl",
+      "ToeJam & Earl in Panic on Funkotron"
+    ],
+    "artist_keys": [
+      "John Baker"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q108162359",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

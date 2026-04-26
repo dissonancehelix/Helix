@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masaya_shiranaga",
+  "entity_type": "music.composer",
+  "label": "Masaya Shiranaga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "V.G. II"
+    ],
+    "artist_keys": [
+      "Masaya Shiranaga"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

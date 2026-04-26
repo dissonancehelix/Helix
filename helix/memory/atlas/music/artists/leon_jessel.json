@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:leon_jessel",
+  "entity_type": "music.composer",
+  "label": "Leon Jessel",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX"
+    ],
+    "franchises": [
+      "Parodius"
+    ],
+    "artist_keys": [
+      "Leon Jessel"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "14098",
+    "musicbrainz": "cae10c3b-d89c-4fb6-a090-2635d73bd13c",
+    "wikidata": "Q571212",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leon_Jessel"
+  }
+}

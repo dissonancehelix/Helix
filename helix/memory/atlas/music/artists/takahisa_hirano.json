@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takahisa_hirano",
+  "entity_type": "music.composer",
+  "label": "Takahisa Hirano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Alice's Paint Adventure",
+      "Donald Duck"
+    ],
+    "artist_keys": [
+      "Takahisa Hirano"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

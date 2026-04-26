@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masahiro_koyama",
+  "entity_type": "music.composer",
+  "label": "Masahiro Koyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Blaze"
+    ],
+    "artist_keys": [
+      "Masahiro Koyama"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q133758659",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

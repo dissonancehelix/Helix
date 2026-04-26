@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:nirvana",
+  "entity_type": "music.composer",
+  "label": "Nirvana",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bleach",
+      "In Utero",
+      "Incesticide",
+      "MTV Unplugged In New York",
+      "Nevermind"
+    ],
+    "artist_keys": [
+      "Nirvana"
+    ],
+    "track_count": 89
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+    "wikidata": "Q11649",
+    "spotify": "6olE6TJLqED3rqDCT0FyPh",
+    "lastfm": "Nirvana",
+    "discogs": "125246",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nirvana_(band)"
+  }
+}

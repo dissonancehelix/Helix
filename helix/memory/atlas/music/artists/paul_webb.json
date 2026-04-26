@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:paul_webb",
+  "entity_type": "music.composer",
+  "label": "Paul Webb",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "WWF Royal Rumble"
+    ],
+    "artist_keys": [
+      "Paul Webb"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "bbae1d2b-4c8e-4124-9d61-82edb92040bb",
+    "wikidata": "Q2742983",
+    "spotify": "62NNHMoDbLSbR3THDaFNO7",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_Webb"
+  }
+}

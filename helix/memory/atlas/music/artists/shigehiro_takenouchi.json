@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shigehiro_takenouchi",
+  "entity_type": "music.composer",
+  "label": "Shigehiro Takenouchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "MSX2"
+    ],
+    "franchises": [
+      "Falsion",
+      "Metal Gear"
+    ],
+    "artist_keys": [
+      "Shigehiro Takenouchi"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

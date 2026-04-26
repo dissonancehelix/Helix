@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takayuki_iwabuchi",
+  "entity_type": "music.composer",
+  "label": "Takayuki Iwabuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Cratermaze"
+    ],
+    "artist_keys": [
+      "Takayuki Iwabuchi"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

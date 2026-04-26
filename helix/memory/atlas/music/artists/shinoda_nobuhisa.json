@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shinoda_nobuhisa",
+  "entity_type": "music.composer",
+  "label": "Shinoda Nobuhisa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Akazukin Cha Cha Cha",
+      "Silk Road 2"
+    ],
+    "artist_keys": [
+      "Shinoda Nobuhisa"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:sega",
+  "entity_type": "music.composer",
+  "label": "Sega",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Crackin' DJ"
+    ],
+    "artist_keys": [
+      "Sega"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "81780d5b-2314-4ce5-a826-57b2f66ba286",
+    "wikidata": "Q122741",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sega"
+  }
+}

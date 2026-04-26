@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:noriyuki_takahashi",
+  "entity_type": "music.composer",
+  "label": "Noriyuki Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Lagrange Point"
+    ],
+    "artist_keys": [
+      "Noriyuki Takahashi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q88182952",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

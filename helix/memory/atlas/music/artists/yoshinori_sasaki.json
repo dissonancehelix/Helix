@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:yoshinori_sasaki",
+  "entity_type": "music.composer",
+  "label": "Yoshinori Sasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "MSX",
+      "MSX2",
+      "NES",
+      "X68000"
+    ],
+    "franchises": [
+      "F",
+      "Hinotori",
+      "Penguin Adventure",
+      "Surprise Attack",
+      "The Lone Ranger",
+      "TwinBee"
+    ],
+    "artist_keys": [
+      "Yoshinori Sasaki"
+    ],
+    "track_count": 77
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q96187142",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

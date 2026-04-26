@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:noriyuki_shindou",
+  "entity_type": "music.composer",
+  "label": "Noriyuki Shindou",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Sion II"
+    ],
+    "artist_keys": [
+      "Noriyuki Shindou"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

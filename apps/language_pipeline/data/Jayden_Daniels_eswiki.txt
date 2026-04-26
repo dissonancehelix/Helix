@@ -1,0 +1,101 @@
+{{Ficha de deportista
+| nombre            = Jayden Daniels
+| imagen            = Jayden Daniels 2025.jpg
+| pie_de_imagen     = Daniels con los [[Washington Commanders]] en 2025.
+| deporte           = [[Fútbol americano]]
+| equipo_actual     = [[Washington Commanders]]
+| posición          = [[Quarterback]] (Mariscal de campo)
+| dorsal            = 5
+| fecha_nacimiento  = {{fecha|18|12|2000|edad}}
+| lugar_nacimiento  = [[Fontana (California)|Fontana]], [[California]], Estados Unidos
+| altura            = {{estatura|m=1.93}}
+| peso              = {{peso|kg=95}}
+| instituto         = [[Cajon High School|Cajon]] ([[San Bernardino (California)|San Bernardino]])
+| universidad       = [[Arizona State Sun Devils football|Arizona State]] (2019-2021)<br />[[LSU Tigers football|LSU]] (2022-2023)
+| draft             = 2.º puesto, [[Draft de la NFL de 2024|2024]] ([[Washington Commanders]])
+| debut             = 2024
+| premios           = 
+* [[Trofeo Heisman]] (2023)
+* [[Novato del Año de la NFL]] (2024)
+* [[Pro Bowl]] (2024)
+* [[Walter Camp Award]] (2023)
+* [[Davey O'Brien Award]] (2023)
+}}
+
+'''Jayden Daniels''' (Fontana, California, 18 de diciembre de 2000) es un mariscal de campo profesional de [[fútbol americano]] que juega para los [[Washington Commanders]] de la [[National Football League]] (NFL). Considerado un ''dual-threat quarterback'' debido a su capacidad combinada de pasador de bolsa y corredor elusivo, Daniels jugó tres temporadas de fútbol universitario con los [[Arizona State Sun Devils football|Arizona State Sun Devils]] antes de transferirse a los [[LSU Tigers football|LSU Tigers]]. En 2023, obtuvo el [[Trofeo Heisman]] tras liderar la [[NCAA Division I Football Bowl Subdivision|NCAA FBS]] en yardas totales y establecer el récord histórico de [[índice de audiencia de pasador]] en una sola temporada.
+
+Daniels fue seleccionado por los Commanders en la segunda posición global del [[Draft de la NFL de 2024]]. En su temporada de debut, estableció múltiples récords para novatos y lideró a Washington a sus mejores registros estadísticos desde 1991, siendo galardonado como el [[Novato del Año de la NFL]]. Es reconocido además por el pase de anotación tipo [[Hail Mary]] que ejecutó en los segundos finales contra los [[Chicago Bears]], jugada conocida como «[[Hail Maryland]]», que fue nombrada el Momento del Año de la NFL.
+
+== Biografía ==
+Daniels nació en Fontana, California, y se crio en la cercana localidad de San Bernardino.<ref name="WPTheOne">{{Cita noticia |apellidos=Fortier |nombre=Sam |fecha=6 de septiembre de 2024 |título=Is Jayden Daniels the one? |url=https://www.washingtonpost.com/sports/2024/09/06/jayden-daniels-commanders-qb/ |fechaacceso=6 de septiembre de 2024 |obra=[[The Washington Post]] |idioma=inglés }}</ref> Comenzó su formación deportiva a los cinco años, iniciándose en el [[fútbol bandera]] como esquineo y pasando al fútbol con contacto en la liga [[Pop Warner]] en 2008. Durante su etapa en el instituto, en la [[Cajon High School]], Daniels destacó por su versatilidad atlética, compitiendo también en [[atletismo]], [[baloncesto]] y [[fútbol asociación]].
+
+Durante su tercer año de preparatoria (''junior''), estableció un récord estatal con más de 6400 yardas totales, llevando a Cajon al campeonato de la Citrus Belt League.<ref name="Offers">{{Cita web |apellidos=Gardner |nombre=Michelle |fecha=13 de diciembre de 2018 |título=Jayden Daniels picks Sun Devils over offers from Alabama, Ohio State, Georgia and dozens of others |url=https://www.azcentral.com/story/sports/2018/12/13/qb-jayden-daniels-commits-asu-top-remaining-uncommitted-dual-threat-qb/2296226002/ |fechaacceso=5 de junio de 2024 |sitio-web=[[The Arizona Republic]] |idioma=inglés }}</ref> Al concluir su etapa escolar, acumuló récords de la CIF Southern Section con 210 pases de anotación y más de 17&nbsp;600 yardas totales. Clasificado como un prospecto de cuatro estrellas por los principales sitios de reclutamiento universitario, Daniels eligió jugar para la [[Universidad Estatal de Arizona]] (ASU) en diciembre de 2018.
+
+== Carrera universitaria ==
+=== Arizona State ===
+En 2019, Daniels se convirtió en el primer mariscal de campo novato de primer año en la historia de los Sun Devils en ser titular en la semana inaugural. Durante su primera campaña, destacó especialmente en la victoria ante los Oregon Ducks (clasificados n.º 6 en aquel momento), donde lanzó para 408 yardas y tres anotaciones.<ref name="OregonPOTW">{{Cita web |apellidos=Layman |nombre=Matt |fecha=25 de noviembre de 2019 |título=ASU's Jayden Daniels earns 2 Pac-12 honors after win over Oregon |url=https://arizonasports.com/story/2170666/asus-jayden-daniels-earns-2-pac-12-weekly-honors-after-win-over-oregon/ |fechaacceso=14 de noviembre de 2023 |sitio-web=Arizona Sports |idioma=inglés }}</ref>
+
+Tras una temporada 2020 reducida por la pandemia de [[COVID-19]], lideró la conferencia en porcentaje de pases completos (65,4 %) en 2021. Sin embargo, tras la salida de varios miembros del cuerpo técnico debido a investigaciones de la [[NCAA]], Daniels decidió ingresar al portal de transferencias en febrero de 2022 para buscar nuevas oportunidades competitivas.
+
+=== LSU ===
+Tras unirse a los [[LSU Tigers football|LSU Tigers]] en 2022, Daniels consolidó su estatus como uno de los jugadores más explosivos de la nación. En su primer año en Luisiana, fue nombrado el jugador más valioso del equipo tras registrar 28 anotaciones totales.<ref name="MVP2022">{{Cita web |fecha=12 de diciembre de 2022 |título=Daniels Named Football MVP at Annual Awards Show |url=https://lsusports.net/news/2022/12/12/daniels-named-football-mvp-at-annual-awards-show/ |fechaacceso=14 de abril de 2024 |sitio-web=LSU Sports |idioma=inglés }}</ref>
+
+Su temporada de 2023 alcanzó niveles históricos. Daniels se convirtió en el único jugador en los registros de la FBS en acumular más de 350 yardas por aire y 200 yardas terrestres en un solo encuentro (logrado ante Florida).<ref name="Florida">{{Cita web |fecha=12 de noviembre de 2023 |título=Jayden Daniels makes history with 606 yards, 5 TDs in LSU win |url=https://www.espn.com/college-football/story/_/id/38877135/jayden-daniels-makes-history-606-yards-5-tds-lsu-win |fechaacceso=20 de julio de 2024 |sitio-web=[[ESPN]] |idioma=inglés }}</ref> Culminó el año estableciendo el récord de la FBS con un índice de eficiencia de pasador de 208,0 y contabilizando 50 anotaciones totales (40 aéreas y 10 terrestres). Como resultado, recibió el [[Trofeo Heisman]], el [[Walter Camp Award]] y el [[Davey O'Brien Award]], consolidándose como el tercer ganador del Heisman en la historia de LSU.
+
+== Carrera profesional ==
+=== Washington Commanders ===
+==== Temporada 2024: Novato del Año ====
+Daniels fue seleccionado por los [[Washington Commanders]] en la segunda posición global del [[Draft de la NFL de 2024]].<ref>{{Cita web |apellidos=Keim |nombre=John |fecha=25 de abril de 2024 |título=Jayden Daniels to Commanders with No. 2 pick in NFL draft |url=https://www.espn.com/nfl/story/_/id/40025859/jayden-daniels-commanders-no-2-pick-nfl-draft |fechaacceso=26 de abril de 2024 |sitio-web=[[ESPN]] |idioma=inglés }}</ref> Firmó un contrato garantizado de 37,75 millones de dólares y fue nombrado titular indiscutible antes del inicio de la campaña regular.
+
+En apenas su tercer partido profesional, Daniels rompió el récord de la NFL para un novato al registrar un 91,3 % de pases completos ante los Cincinnati Bengals. Su impacto fue inmediato, logrando el premio al Novato Ofensivo del Mes en septiembre con una efectividad histórica del 82,1 %. El punto álgido de su temporada ocurrió en la semana 8; Daniels lanzó un pase desesperado de 52 yardas, conocido como «[[Hail Maryland]]», que Noah Brown capturó en la zona de anotación para vencer a los Chicago Bears. Dicha jugada fue reconocida oficialmente como el Momento del Año de la NFL.<ref name="HailMary">{{Cita web |fecha=27 de octubre de 2024 |título=Commanders beat Bears on Jayden Daniels' last-second Hail Mary |url=https://www.espn.com/nfl/story/_/id/42041213/commanders-beat-bears-jayden-daniels-last-second-hail-mary |fechaacceso=27 de octubre de 2024 |sitio-web=ESPN |idioma=inglés }}</ref>
+
+Bajo su liderazgo, los Commanders finalizaron con una marca de 12–5, su mejor récord desde 1991, y avanzaron hasta el [[Campeonato de la NFC]]. Daniels terminó la campaña con el mayor porcentaje de pases completos para un novato (69 %) y estableció el récord de yardas terrestres para un mariscal de campo en su primer año (891 yardas). Fue galardonado con el premio al [[Novato del Año de la NFL]] y seleccionado para el [[Pro Bowl]].
+
+==== Temporada 2025: Plaga de lesiones ====
+Su segundo año profesional se vio interrumpido por múltiples lesiones físicas. Tras una victoria inicial, Daniels sufrió un esguince de rodilla en la semana 2 y posteriormente una distensión en los isquiotibiales en la semana 7. En la semana 9, sufrió una luxación de codo izquierdo tras una captura recibida ante los Seattle Seahawks, lo que generó un intenso debate mediático sobre la gestión de su tiempo de juego por parte del cuerpo técnico.<ref>{{Cita web |apellidos=Aldridge |nombre=David |fecha=4 de noviembre de 2025 |título=Jayden Daniels' gruesome elbow injury wasn't bad luck — it was a preventable mistake |url=https://www.nytimes.com/athletic/6772024/2025/11/03/jayden-daniels-injury-elbow-commanders/ |fechaacceso=3 de noviembre de 2025 |sitio-web=The Athletic |idioma=inglés }}</ref> Finalmente, el equipo decidió descartarlo para el resto de la temporada en diciembre para priorizar su recuperación a largo plazo.
+
+== Perfil de jugador ==
+Daniels es descrito como un mariscal de campo elusivo que combina una visión de campo privilegiada con la velocidad de un velocista. Físicamente posee una estatura de 1,93 m y un peso de 95 kg, complexión considerada delgada para la posición, lo que ha generado discusiones sobre su durabilidad ante el contacto físico. Destaca también por su uso innovador de la [[realidad virtual]] en sus rutinas de entrenamiento, empleando tecnología de la empresa alemana Cognilize para simular formaciones defensivas antes de cada encuentro.
+
+== Vida privada ==
+Es hijo de Javon "Jay" Daniels y Regina Jackson; esta última ejerce también como su agente y gestora de negocios.<ref name="Family">{{Cita web |apellidos=Weaver |nombre=Emily |fecha=22 de enero de 2025 |título=All About Jayden Daniels' Parents, Javon Daniels and Regina Jackson |url=https://people.com/all-about-jayden-daniels-parents-8637544 |fechaacceso=30 de marzo de 2025 |sitio-web=[[People (magazine)|People]] |idioma=inglés }}</ref> Daniels posee ascendencia [[Japoneses|japonesa]] por línea materna a través de su bisabuela, un hecho que lo convirtió en el primer mariscal de campo titular en la NFL de ascendencia japonesa en casi un siglo. Se identifica como [[Cristianismo|cristiano]] y atribuye gran parte de su templanza en el campo a sus creencias religiosas particulares. En 2024, fue honrado con las llaves de la ciudad de San Bernardino, donde se instituyó una festividad local en su nombre.
+
+== Estadísticas ==
+{| class="wikitable" style="text-align:center;"
+|+ Estadísticas en temporada regular
+! rowspan="2"| Año
+! rowspan="2"| Equipo
+! colspan="3"| Juegos
+! colspan="10"| Pase
+! colspan="6"| Carrera
+|-
+! [[Partidos jugados|PJ]] !! [[Titular|Tit]] !! Récord !! Cmp !! Att !! % !! Yds !! Y/G !! Lng !! [[Touchdown|TD]] !! [[Intercepción|Int]] !! [[Sacks|Sck]] !! Rtg !! Car !! Yds !! Avg !! Y/G !! Lng !! TD
+|-
+! [[Temporada 2024 de la NFL|2024]] !! WAS
+| 17 || 17 || 12–5 || 331 || 480 || 69,0 || 3568 || 209,9 || 86 || 25 || 9 || 47 || 100,1 || 148 || 891 || 6,0 || 52,4 || 46 || 6
+|-
+! [[Temporada 2025 de la NFL|2025]] !! WAS
+| 7 || 7 || 2–5 || 114 || 188 || 60,6 || 1262 || 180,3 || 50 || 8 || 3 || 18 || 88,1 || 58 || 278 || 4,8 || 39,7 || 18 || 2
+|-
+! colspan="2" | Total
+! 24 || 24 || 14–10 || 445 || 668 || 66,6 || 4830 || 201,3 || 86 || 33 || 12 || 65 || 96,7 || 206 || 1169 || 5,7 || 48,7 || 46 || 8
+|}
+
+== Referencias ==
+{{Reflist}}
+
+== Enlaces externos ==
+* {{Heisman|jayden-daniels}}
+* [https://www.commanders.com/team/players-roster/jayden-daniels/ Perfil en Washington Commanders] (en inglés)
+
+{{DEFAULTSORT:Daniels, Jayden}}
+[[Categoría:Nacidos en 2000]]
+[[Categoría:Jugadores de fútbol americano de California]]
+[[Categoría:Estadounidenses de ascendencia japonesa]]
+[[Categoría:Ganadores del Trofeo Heisman]]
+[[Categoría:Jugadores de la NFL elegidos en el Draft]]
+[[Categoría:Quarterbacks de fútbol americano]]
+[[Categoría:Jugadores de los Washington Commanders]]
+[[Categoría:Personas de San Bernardino (California)]]
+[[Categoría:Jugadores de fútbol americano de los Arizona State Sun Devils]]
+[[Categoría:Jugadores de fútbol americano de los LSU Tigers]]

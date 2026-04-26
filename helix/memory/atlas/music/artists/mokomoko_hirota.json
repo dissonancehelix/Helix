@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mokomoko_hirota",
+  "entity_type": "music.composer",
+  "label": "MokoMoko Hirota",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Cyber Block Metal Orange"
+    ],
+    "artist_keys": [
+      "MokoMoko Hirota"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

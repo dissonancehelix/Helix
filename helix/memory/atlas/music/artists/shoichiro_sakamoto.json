@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:shoichiro_sakamoto",
+  "entity_type": "music.composer",
+  "label": "Shoichiro Sakamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "3D Dot Game Heroes",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Super Rare Trax",
+      "Impetuth",
+      "New Eitango Target 1900 DS"
+    ],
+    "artist_keys": [
+      "Shoichiro Sakamoto"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q18336963",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

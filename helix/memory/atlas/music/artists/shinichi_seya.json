@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:shinichi_seya",
+  "entity_type": "music.composer",
+  "label": "Shinichi Seya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy"
+    ],
+    "franchises": [
+      "Bay Route",
+      "Blaster Master Boy",
+      "Tough Turf"
+    ],
+    "artist_keys": [
+      "Shinichi Seya"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

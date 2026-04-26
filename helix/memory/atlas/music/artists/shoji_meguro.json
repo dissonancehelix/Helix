@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:shoji_meguro",
+  "entity_type": "music.composer",
+  "label": "Shoji Meguro",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Catherine",
+      "Devil Summoner",
+      "Maken Shao",
+      "Maken X",
+      "Metaphor",
+      "Persona",
+      "Persona; Shin Megami Tensei",
+      "Shin Megami Tensei",
+      "Trauma Center",
+      "Trauma Team"
+    ],
+    "artist_keys": [
+      "Shoji Meguro"
+    ],
+    "track_count": 988
+  },
+  "external_ids": {
+    "vgmdb": "983",
+    "musicbrainz": "1f456d75-4d69-4bf8-9c49-cb23d758b4a4",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shoji_Meguro",
+    "wikidata": "Q1082896",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "359317"
+  },
+  "biography": {
+    "short": "Longtime composer for Atlus, specifically the Shin Megami Tensei and Persona series.",
+    "career": "Atlus (1995–2021), Freelance (2021–)."
+  }
+}

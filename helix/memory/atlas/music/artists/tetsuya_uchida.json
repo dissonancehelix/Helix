@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:tetsuya_uchida",
+  "entity_type": "music.composer",
+  "label": "Tetsuya Uchida",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat",
+      "Beautiful Katamari",
+      "Kotoba no Puzzle",
+      "MotoGP 4",
+      "Tekken 5",
+      "Tekken 6",
+      "The Dog Island",
+      "We Ski & Snowboard"
+    ],
+    "artist_keys": [
+      "Tetsuya Uchida"
+    ],
+    "track_count": 51
+  },
+  "external_ids": {
+    "vgmdb": "4980",
+    "musicbrainz": "565be0b5-a1b0-4cf2-bc32-445f56499f0c",
+    "wikidata": "Q55536097",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:nobuhito_koise",
+  "entity_type": "music.composer",
+  "label": "Nobuhito Koise",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88",
+      "X68000"
+    ],
+    "franchises": [
+      "Emerald Dragon",
+      "Zavas"
+    ],
+    "artist_keys": [
+      "Nobuhito Koise"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "11387",
+    "musicbrainz": "bd3ebbfe-c08c-4187-ac52-cb7806c3a2a5",
+    "wikidata": "Q11492119",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

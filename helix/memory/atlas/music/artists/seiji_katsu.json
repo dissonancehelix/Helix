@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:seiji_katsu",
+  "entity_type": "music.composer",
+  "label": "Seiji Katsu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bouken Yuki Pluster World"
+    ],
+    "artist_keys": [
+      "Seiji Katsu"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "4546",
+    "musicbrainz": "9f71e969-b064-485e-982a-28ddbc7eaa6d",
+    "wikidata": "Q11400491",
+    "spotify": "04DShA4MM9YtzjaPcbjk5r",
+    "lastfm": "勝誠二"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:sounddrive",
+  "entity_type": "music.composer",
+  "label": "SoundDrive",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 5"
+    ],
+    "artist_keys": [
+      "SoundDrive"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q60180407",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

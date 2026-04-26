@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:saiko_miki",
+  "entity_type": "music.composer",
+  "label": "Saiko Miki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Ganbare Goemon",
+      "Jikkyou Oshaberi Parodius",
+      "Mystical Ninja",
+      "Pop'n TwinBee",
+      "Tiny Toon Adventures",
+      "TwinBee"
+    ],
+    "artist_keys": [
+      "Saiko Miki"
+    ],
+    "track_count": 210
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

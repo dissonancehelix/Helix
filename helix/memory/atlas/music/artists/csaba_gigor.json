@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:csaba_gigor",
+  "entity_type": "music.composer",
+  "label": "Csaba Gigor",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear"
+    ],
+    "franchises": [
+      "Ecco the Dolphin",
+      "Garfield"
+    ],
+    "artist_keys": [
+      "Csaba Gigor"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

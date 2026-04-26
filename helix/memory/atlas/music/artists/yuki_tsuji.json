@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yuki_tsuji",
+  "entity_type": "music.composer",
+  "label": "Yuki Tsuji",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Mario Odyssey"
+    ],
+    "artist_keys": [
+      "Yuki Tsuji"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q32064747",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuki_Tsuji"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:cimm",
+  "entity_type": "music.composer",
+  "label": "Cimm",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Innamind x System Volume 1"
+    ],
+    "artist_keys": [
+      "Cimm"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q7835",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crimea"
+  }
+}

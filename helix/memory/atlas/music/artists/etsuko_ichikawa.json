@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:etsuko_ichikawa",
+  "entity_type": "music.composer",
+  "label": "Etsuko Ichikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Fatal Frame",
+      "Infinite Space"
+    ],
+    "artist_keys": [
+      "Etsuko Ichikawa"
+    ],
+    "track_count": 197
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q75863248",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

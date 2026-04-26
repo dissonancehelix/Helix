@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:haruo_ohashi",
+  "entity_type": "music.composer",
+  "label": "Haruo Ohashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Gekisou Sentai Car Rangers",
+      "Gundam Wing",
+      "Mighty Morphin Power Rangers",
+      "Power Rangers Zeo",
+      "Wild Guns",
+      "Zen"
+    ],
+    "artist_keys": [
+      "Haruo Ohashi"
+    ],
+    "track_count": 72
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

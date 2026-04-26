@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:hiroshi_tamawari",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Tamawari",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ganbare Goemon",
+      "TwinBee RPG"
+    ],
+    "artist_keys": [
+      "Hiroshi Tamawari"
+    ],
+    "track_count": 103
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiroshi_nakajima",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Nakajima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Harvest Moon"
+    ],
+    "artist_keys": [
+      "Hiroshi Nakajima"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q903049",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroshi_Nakajima"
+  }
+}

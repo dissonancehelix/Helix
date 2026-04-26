@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:keiji_inai",
+  "entity_type": "music.composer",
+  "label": "Keiji Inai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Keiji Inai"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "6517",
+    "musicbrainz": "a22ffccf-44d1-4d7d-b4ef-2049935a118c",
+    "wikidata": "Q16215835",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Keiji_Inai"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shinya_okada",
+  "entity_type": "music.composer",
+  "label": "Shinya Okada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man X7",
+      "Mega Man X8"
+    ],
+    "artist_keys": [
+      "Shinya Okada"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90944429",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

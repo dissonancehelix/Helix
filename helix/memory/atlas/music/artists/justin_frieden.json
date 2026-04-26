@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:justin_frieden",
+  "entity_type": "music.composer",
+  "label": "Justin Frieden",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy",
+      "Final Fantasy XIV"
+    ],
+    "artist_keys": [
+      "Justin Frieden"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

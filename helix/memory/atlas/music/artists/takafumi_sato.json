@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takafumi_sato",
+  "entity_type": "music.composer",
+  "label": "Takafumi Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario Kart Arcade GP DX",
+      "Pokkén Tournament DX",
+      "Super Smash Bros. Ultimate",
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Takafumi Sato"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "13343",
+    "musicbrainz": "aa60a912-bb9d-4ffd-9d5a-9445f01f367f",
+    "wikidata": "Q126578879",
+    "spotify": "2zRTrV6LfLvMwf2FhYnMVQ",
+    "lastfm": ""
+  }
+}

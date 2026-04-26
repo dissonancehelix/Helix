@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:hideya_nagata",
+  "entity_type": "music.composer",
+  "label": "Hideya Nagata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X1",
+      "X68000"
+    ],
+    "franchises": [
+      "Bosconian",
+      "Magical Shot",
+      "Motos",
+      "SYNERGY MCMXCI",
+      "Sorcerian",
+      "Ys II"
+    ],
+    "artist_keys": [
+      "Hideya Nagata"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "362",
+    "musicbrainz": "6b10ee2a-35cb-4d49-a697-239477d380c1",
+    "wikidata": "Q11550284",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

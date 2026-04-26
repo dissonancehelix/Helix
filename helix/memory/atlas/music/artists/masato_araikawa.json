@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:masato_araikawa",
+  "entity_type": "music.composer",
+  "label": "Masato Araikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "F",
+      "Galaxy Fight",
+      "Waku Waku 7"
+    ],
+    "artist_keys": [
+      "Masato Araikawa"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

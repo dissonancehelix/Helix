@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:benjamin_briggs",
+  "entity_type": "music.composer",
+  "label": "Benjamin Briggs",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rainblocks"
+    ],
+    "artist_keys": [
+      "Benjamin Briggs"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q103038122",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

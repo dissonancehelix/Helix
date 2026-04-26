@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:mitsuhiro_arisaka",
+  "entity_type": "music.composer",
+  "label": "Mitsuhiro Arisaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DOS",
+      "PC-98"
+    ],
+    "franchises": [
+      "Adventure Tsukuru II",
+      "Ongaku Tsukuru",
+      "Shooting Tsukuru 98",
+      "Shooting Tsukuru V",
+      "Star Sweep"
+    ],
+    "artist_keys": [
+      "Mitsuhiro Arisaka"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

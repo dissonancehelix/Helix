@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:takamitsu_kajikawa",
+  "entity_type": "music.composer",
+  "label": "Takamitsu Kajikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Formation Soccer on J.League",
+      "Human Grand Prix III",
+      "Super Final Match Tennis",
+      "Super Formation Soccer 94"
+    ],
+    "artist_keys": [
+      "Takamitsu Kajikawa"
+    ],
+    "track_count": 86
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

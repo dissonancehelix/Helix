@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yas_anai",
+  "entity_type": "music.composer",
+  "label": "YAS ANAI",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Ongaku Tsukuru"
+    ],
+    "artist_keys": [
+      "YAS ANAI"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

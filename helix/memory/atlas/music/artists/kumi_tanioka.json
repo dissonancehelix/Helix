@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:kumi_tanioka",
+  "entity_type": "music.composer",
+  "label": "Kumi Tanioka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Blue Wing Blitz",
+      "Chocobo's Dungeon 2",
+      "Final Fantasy Crystal Chronicles",
+      "Final Fantasy XI",
+      "GeOnDan Super Rare Trax",
+      "Half",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "To Far Away Times"
+    ],
+    "artist_keys": [
+      "Kumi Tanioka"
+    ],
+    "track_count": 232
+  },
+  "external_ids": {
+    "vgmdb": "352",
+    "musicbrainz": "5c0653c1-2fae-4aa7-b534-4cd6935905cb",
+    "wikidata": "Q4451168",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "351080",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kumi_Tanioka"
+  }
+}

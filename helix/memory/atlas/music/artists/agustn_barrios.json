@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:agustn_barrios",
+  "entity_type": "music.composer",
+  "label": "Agustín Barrios",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tekken 7"
+    ],
+    "artist_keys": [
+      "Agustín Barrios"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "1368",
+    "musicbrainz": "bc1ce4cf-374e-4b0f-93d2-53871e681e6f",
+    "wikidata": "Q399102",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Agust%C3%ADn_Barrios"
+  }
+}

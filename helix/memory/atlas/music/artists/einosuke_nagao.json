@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:einosuke_nagao",
+  "entity_type": "music.composer",
+  "label": "Einosuke Nagao",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DOS",
+      "MSX2",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blaster Burn",
+      "Bucket Relay Champ",
+      "Comet Summoner",
+      "Kirby's Avalanche",
+      "Puyo Puyo",
+      "Super Aleste"
+    ],
+    "artist_keys": [
+      "Einosuke Nagao"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

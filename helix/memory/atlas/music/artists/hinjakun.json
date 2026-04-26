@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hinjakun",
+  "entity_type": "music.composer",
+  "label": "Hinjakun",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "SAR"
+    ],
+    "artist_keys": [
+      "Hinjakun"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

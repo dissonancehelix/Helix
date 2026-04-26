@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "inhabited_interiority/transfer_case",
+  "title": "TransferCase",
+  "description": "A scenario testing whether the self (S = C·P·O·B·K·N) is preserved, destroyed, branched, or only pattern-copied through a substrate or state transition. Transfer(X_t → Y_t+1) preserves S iff it preserves C, P, O, B, K, and N.",
+  "type": "object",
+  "required": ["id", "transfer_type", "description", "pattern_survives", "c_survives", "s_survives", "classification"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier."
+    },
+    "transfer_type": {
+      "type": "string",
+      "enum": [
+        "ordinary_biological_change",
+        "sleep_anesthesia",
+        "gradual_neural_replacement",
+        "destructive_teleportation",
+        "non_destructive_copy",
+        "mind_upload",
+        "reincarnation_claim",
+        "soul_claim",
+        "genetic_lineage",
+        "symbolic_legacy"
+      ],
+      "description": "Category of transfer being tested."
+    },
+    "description": {
+      "type": "string",
+      "description": "Specific scenario being evaluated."
+    },
+    "pattern_survives": {
+      "type": "boolean",
+      "description": "Does informational / functional / behavioral pattern survive? Pattern survival is necessary but not sufficient for self-continuity."
+    },
+    "c_survives": {
+      "oneOf": [{"type": "boolean"}, {"type": "null"}],
+      "description": "Does fielded appearance (C) survive? null = cannot be established with current tools."
+    },
+    "field_continuity_mechanism": {
+      "type": "string",
+      "description": "What mechanism, if any, would carry the phenomenal field across the transition? If none proposed, state 'none proposed.'"
+    },
+    "s_survives": {
+      "oneOf": [{"type": "boolean"}, {"type": "null"}],
+      "description": "Does the full self (S = C·P·O·B·K·N) survive? null = unresolvable."
+    },
+    "components_preserved": {
+      "type": "object",
+      "description": "Which S-components are preserved (true), lost (false), or unknown (null) after the transfer.",
+      "properties": {
+        "C": {"oneOf": [{"type": "boolean"}, {"type": "null"}]},
+        "P": {"oneOf": [{"type": "boolean"}, {"type": "null"}]},
+        "O": {"oneOf": [{"type": "boolean"}, {"type": "null"}]},
+        "B": {"oneOf": [{"type": "boolean"}, {"type": "null"}]},
+        "K": {"oneOf": [{"type": "boolean"}, {"type": "null"}]},
+        "N": {"oneOf": [{"type": "boolean"}, {"type": "null"}]}
+      },
+      "additionalProperties": false
+    },
+    "branching_occurs": {
+      "type": "boolean",
+      "description": "Does the transfer create more than one equal heir to the ownership-stream? If true, N collapses to 0."
+    },
+    "portable_carrier_required": {
+      "type": "string",
+      "description": "What would need to be true for this transfer to preserve S? Describes the hypothesized portable self-continuity carrier or states 'none proposed.'"
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "identity_preserving_transformation",
+        "field_suspension_resumable",
+        "possible_self_carrying",
+        "pattern_copy_field_break_risk",
+        "branching_descendants_only",
+        "symbolic_survival_only",
+        "unresolved"
+      ],
+      "description": "Classification verdict for this transfer scenario."
+    },
+    "revision_pressure": {
+      "type": "string",
+      "description": "What the theory must clarify or revise to handle this case."
+    },
+    "breaks_preserved": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Unresolved breaks this transfer case reveals."
+    },
+    "open_questions": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Questions this case raises that the theory cannot yet answer."
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

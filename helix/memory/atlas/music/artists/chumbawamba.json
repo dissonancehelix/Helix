@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:chumbawamba",
+  "entity_type": "music.composer",
+  "label": "Chumbawamba",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Chumbawamba"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "7b7b1e6f-e73e-41a0-9d72-8f0b30c6992d",
+    "wikidata": "Q1089523",
+    "spotify": "0TcYeHEK9sBtv7xPbKhzHz",
+    "lastfm": "Chumbawamba",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chumbawamba"
+  }
+}

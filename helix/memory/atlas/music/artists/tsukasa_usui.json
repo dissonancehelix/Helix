@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tsukasa_usui",
+  "entity_type": "music.composer",
+  "label": "Tsukasa Usui",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Donkey Kong Bananza",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Tsukasa Usui"
+    ],
+    "track_count": 163
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "6ef20892-40f7-44cb-a0b7-6823775157e7",
+    "wikidata": "Q123965323",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tamiya_terashima",
+  "entity_type": "music.composer",
+  "label": "Tamiya Terashima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Daisenryaku Expert WWII"
+    ],
+    "artist_keys": [
+      "Tamiya Terashima"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "705",
+    "musicbrainz": "bfa2db82-01e8-4dc9-a90c-13ba2ad3e925",
+    "wikidata": "Q4467318",
+    "spotify": "5GanIrznsC3Zhi94LHbZqW",
+    "lastfm": "寺嶋民哉"
+  }
+}

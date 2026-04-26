@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:major_wave",
+  "entity_type": "music.composer",
+  "label": "Major Wave",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Drift Spirits"
+    ],
+    "artist_keys": [
+      "Major Wave"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11232696",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

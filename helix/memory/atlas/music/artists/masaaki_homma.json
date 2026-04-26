@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masaaki_homma",
+  "entity_type": "music.composer",
+  "label": "Masaaki Homma",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Lunar"
+    ],
+    "artist_keys": [
+      "Masaaki Homma"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

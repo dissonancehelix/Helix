@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:kenichi_kamio",
+  "entity_type": "music.composer",
+  "label": "Kenichi Kamio",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Neo Geo",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Ah Eikou no Koshien",
+      "Andro Dunos",
+      "Bubble Bobble Part 2",
+      "Kamen Rider SD",
+      "Kawaii Pet Shop Monogatari 2",
+      "Kidou Senshi Gundam",
+      "Koukiatsu Boy",
+      "Neo Drift Out",
+      "Phalanx",
+      "Pro Yakyuu GG League '94",
+      "Puzzle de Pon!",
+      "SD Command Chronicles",
+      "SD Gundam",
+      "Shounin yo, Taishi o Idake!!",
+      "Sylvanian Families 4"
+    ],
+    "artist_keys": [
+      "Kenichi Kamio"
+    ],
+    "track_count": 272
+  },
+  "external_ids": {
+    "vgmdb": "687",
+    "musicbrainz": "b2fff7c7-5c62-4b6c-9f4c-4bd986134dd4",
+    "wikidata": "Q11589505",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

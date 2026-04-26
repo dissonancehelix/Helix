@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:jon_holland",
+  "entity_type": "music.composer",
+  "label": "Jon Holland",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Vectorman",
+      "Vectorman 2"
+    ],
+    "artist_keys": [
+      "Jon Holland"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q6270918",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jon_Holland"
+  }
+}

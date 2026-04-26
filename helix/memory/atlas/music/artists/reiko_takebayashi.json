@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:reiko_takebayashi",
+  "entity_type": "music.composer",
+  "label": "Reiko Takebayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X1"
+    ],
+    "franchises": [
+      "Sorcerian"
+    ],
+    "artist_keys": [
+      "Reiko Takebayashi"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

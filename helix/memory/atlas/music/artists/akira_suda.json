@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:akira_suda",
+  "entity_type": "music.composer",
+  "label": "Akira Suda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Blaster Master"
+    ],
+    "artist_keys": [
+      "Akira Suda"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q57007105",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

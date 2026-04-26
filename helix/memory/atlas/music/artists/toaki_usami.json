@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:toaki_usami",
+  "entity_type": "music.composer",
+  "label": "Toaki Usami",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Daemon X Machina"
+    ],
+    "artist_keys": [
+      "Toaki Usami"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

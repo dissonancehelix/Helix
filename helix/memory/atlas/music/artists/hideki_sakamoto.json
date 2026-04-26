@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:hideki_sakamoto",
+  "entity_type": "music.composer",
+  "label": "Hideki Sakamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Bakugan Battle Brawlers",
+      "Hime Kishi Monogatari",
+      "Houkago Shounen",
+      "Mario & Luigi",
+      "Pokémon Mystery Dungeon",
+      "Puku Puku Tennen Kairanban",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Time Travelers",
+      "Yakuza 2",
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Hideki Sakamoto"
+    ],
+    "track_count": 368
+  },
+  "external_ids": {
+    "vgmdb": "4064",
+    "musicbrainz": "e88def85-270b-4b08-af24-b259708d7ece",
+    "wikidata": "Q11425366",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1752970",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hideki_Sakamoto"
+  }
+}

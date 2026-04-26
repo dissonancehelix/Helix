@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:nobuyoshi_koshibe",
+  "entity_type": "music.composer",
+  "label": "Nobuyoshi Koshibe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Speed Racer"
+    ],
+    "artist_keys": [
+      "Nobuyoshi Koshibe"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "8738",
+    "musicbrainz": "21bab4dd-c3bf-40d8-881c-d3bc600a8d90",
+    "wikidata": "Q11636638",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

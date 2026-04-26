@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kenji_kaneko",
+  "entity_type": "music.composer",
+  "label": "Kenji Kaneko",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fairy Fencer F"
+    ],
+    "artist_keys": [
+      "Kenji Kaneko"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "1173",
+    "musicbrainz": "27fbb876-b8dd-417a-bee0-bcc5d5dcd732",
+    "wikidata": "Q11646786",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

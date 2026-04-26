@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kiichi_shimoyama",
+  "entity_type": "music.composer",
+  "label": "Kiichi Shimoyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "SYNERGY MCMXCI"
+    ],
+    "artist_keys": [
+      "Kiichi Shimoyama"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

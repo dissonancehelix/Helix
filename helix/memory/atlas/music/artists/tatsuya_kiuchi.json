@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:tatsuya_kiuchi",
+  "entity_type": "music.composer",
+  "label": "Tatsuya Kiuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Act",
+      "Bloody Wolf",
+      "Boogie Wings",
+      "Captain America and The Avengers",
+      "Chelnov",
+      "Crude Buster",
+      "Dark Seal",
+      "Dark Seal II",
+      "Data East's Hoops",
+      "Diet Go Go",
+      "Joe & Mac 2",
+      "Joe & Mac Returns",
+      "Magical Drop II",
+      "Magical Drop III",
+      "Midnight Resistance"
+    ],
+    "artist_keys": [
+      "Tatsuya Kiuchi"
+    ],
+    "track_count": 238
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

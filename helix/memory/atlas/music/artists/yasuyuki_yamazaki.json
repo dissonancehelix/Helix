@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yasuyuki_yamazaki",
+  "entity_type": "music.composer",
+  "label": "Yasuyuki Yamazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Granblue Fantasy Versus"
+    ],
+    "artist_keys": [
+      "Yasuyuki Yamazaki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "a29af78f-9df5-43d8-aaf1-d1d3be9b0270",
+    "wikidata": "Q40042445",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

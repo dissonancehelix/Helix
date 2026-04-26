@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:minako_adachi",
+  "entity_type": "music.composer",
+  "label": "Minako Adachi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "WonderSwan"
+    ],
+    "franchises": [
+      "Avalon Code",
+      "Pokémon Black & White",
+      "Pokémon Black 2 & White 2",
+      "Pokémon X & Y",
+      "Riviera",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Minako Adachi"
+    ],
+    "track_count": 224
+  },
+  "external_ids": {
+    "vgmdb": "2142",
+    "musicbrainz": "8ada0e6d-1fad-413f-9e63-97b62b20e43b",
+    "wikidata": "Q11637027",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2712332"
+  }
+}

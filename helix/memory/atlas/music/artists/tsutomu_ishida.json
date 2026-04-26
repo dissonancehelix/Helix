@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tsutomu_ishida",
+  "entity_type": "music.composer",
+  "label": "Tsutomu Ishida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Trip World"
+    ],
+    "artist_keys": [
+      "Tsutomu Ishida"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

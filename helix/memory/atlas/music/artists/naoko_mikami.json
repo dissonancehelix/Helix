@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:naoko_mikami",
+  "entity_type": "music.composer",
+  "label": "Naoko Mikami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Cardangels",
+      "G.T.R.",
+      "Kaizou Tyoujin Shubibinman Zero",
+      "T·O·U·R·S"
+    ],
+    "artist_keys": [
+      "Naoko Mikami"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q123407998",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

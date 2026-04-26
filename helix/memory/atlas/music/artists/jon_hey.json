@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:jon_hey",
+  "entity_type": "music.composer",
+  "label": "Jon Hey",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "NBA Hang Time",
+      "NBA Jam",
+      "Smash TV",
+      "Total Carnage"
+    ],
+    "artist_keys": [
+      "Jon Hey"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q16194112",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jon_Heyman"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:nittoku_inoue",
+  "entity_type": "music.composer",
+  "label": "Nittoku Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Nittoku Inoue"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "2117",
+    "musicbrainz": "a5458738-fd26-4e51-8c2a-39a48e5d5d28",
+    "wikidata": "Q11373030",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

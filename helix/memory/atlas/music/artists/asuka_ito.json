@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:asuka_ito",
+  "entity_type": "music.composer",
+  "label": "Asuka Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Asuka Ito"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11380171",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

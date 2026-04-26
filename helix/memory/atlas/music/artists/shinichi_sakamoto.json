@@ -1,0 +1,45 @@
+{
+  "entity_id": "music.composer:shinichi_sakamoto",
+  "entity_type": "music.composer",
+  "label": "Shinichi Sakamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Master System",
+      "Mega Drive",
+      "PC Engine",
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Aoi Blink",
+      "Appare! Gateball",
+      "Argus",
+      "Aurail",
+      "Dragon's Curse",
+      "Jaws",
+      "Jikuu Senki Mu",
+      "Majin Eiyuuden Wataru Gaiden",
+      "Panic Bomber",
+      "Power Eleven",
+      "Psychic 5",
+      "Raiden",
+      "Valtric",
+      "Wonder Boy III",
+      "Wonder Boy in Monster Land"
+    ],
+    "artist_keys": [
+      "Shinichi Sakamoto"
+    ],
+    "track_count": 198
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3959525",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shin-ichi_Sakamoto"
+  }
+}

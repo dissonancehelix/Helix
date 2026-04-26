@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mimura_kazunari",
+  "entity_type": "music.composer",
+  "label": "Mimura Kazunari",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "GP"
+    ],
+    "artist_keys": [
+      "Mimura Kazunari"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

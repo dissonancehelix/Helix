@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:andrew_aversa",
+  "entity_type": "music.composer",
+  "label": "Andrew Aversa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soulcalibur V"
+    ],
+    "artist_keys": [
+      "Andrew Aversa"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "52649",
+    "musicbrainz": "91d6dddd-c14a-4058-9625-ad4904310fac",
+    "wikidata": "Q8072729",
+    "spotify": "0CGpNBihXlpMsjwHjVKNIO",
+    "lastfm": "Zircon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zircon_(composer)"
+  }
+}

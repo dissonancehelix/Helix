@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:momosuke",
+  "entity_type": "music.composer",
+  "label": "Momosuke",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Square Resort"
+    ],
+    "artist_keys": [
+      "Momosuke"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q131143167",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

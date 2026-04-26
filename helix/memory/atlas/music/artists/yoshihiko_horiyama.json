@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshihiko_horiyama",
+  "entity_type": "music.composer",
+  "label": "Yoshihiko Horiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Demon's Crest"
+    ],
+    "artist_keys": [
+      "Yoshihiko Horiyama"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

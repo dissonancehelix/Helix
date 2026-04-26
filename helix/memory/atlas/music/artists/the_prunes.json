@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:the_prunes",
+  "entity_type": "music.composer",
+  "label": "The Prunes",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio Future"
+    ],
+    "artist_keys": [
+      "The Prunes"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

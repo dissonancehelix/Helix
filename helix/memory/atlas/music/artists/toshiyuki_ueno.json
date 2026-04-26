@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:toshiyuki_ueno",
+  "entity_type": "music.composer",
+  "label": "Toshiyuki Ueno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Hokkaido Rensa Satsujin",
+      "Mario's Super Picross",
+      "Pokémon Picross",
+      "Tamori No Picross"
+    ],
+    "artist_keys": [
+      "Toshiyuki Ueno"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

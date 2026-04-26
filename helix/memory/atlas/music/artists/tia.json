@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:tia",
+  "entity_type": "music.composer",
+  "label": "TIA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "OLIO2"
+    ],
+    "artist_keys": [
+      "TIA"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "22037",
+    "musicbrainz": "592a189f-6659-4310-9508-46367b4ccc7d",
+    "wikidata": "Q1065644",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/TiA"
+  }
+}

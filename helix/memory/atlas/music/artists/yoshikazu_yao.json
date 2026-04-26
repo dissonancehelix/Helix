@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshikazu_yao",
+  "entity_type": "music.composer",
+  "label": "Yoshikazu Yao",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Dear Boys"
+    ],
+    "artist_keys": [
+      "Yoshikazu Yao"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yasuko",
+  "entity_type": "music.composer",
+  "label": "Yasuko",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Dynamite Headdy"
+    ],
+    "artist_keys": [
+      "Yasuko"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q8050015",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yasuko"
+  }
+}

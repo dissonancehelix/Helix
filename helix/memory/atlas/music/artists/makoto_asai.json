@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:makoto_asai",
+  "entity_type": "music.composer",
+  "label": "Makoto Asai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man X7",
+      "Phantasy Star Online Episode I & II Premium Arrange",
+      "The King of Fighters 2002"
+    ],
+    "artist_keys": [
+      "Makoto Asai"
+    ],
+    "track_count": 56
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q88576355",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

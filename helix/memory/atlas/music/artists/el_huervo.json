@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:el_huervo",
+  "entity_type": "music.composer",
+  "label": "El Huervo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hotline Miami"
+    ],
+    "artist_keys": [
+      "El Huervo"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

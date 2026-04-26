@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:michael_giacchino",
+  "entity_type": "music.composer",
+  "label": "Michael Giacchino",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Gargoyles",
+      "Maui Mallard",
+      "Mickey Mania"
+    ],
+    "artist_keys": [
+      "Michael Giacchino"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "406",
+    "musicbrainz": "150e14bd-915d-4574-b574-f77dd7ea72ad",
+    "wikidata": "Q155124",
+    "spotify": "4kLvhMAuCloLxoP1aVM7Lr",
+    "lastfm": "Michael+Giacchino",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Giacchino"
+  }
+}

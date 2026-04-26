@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:daisuke_kikuta",
+  "entity_type": "music.composer",
+  "label": "Daisuke Kikuta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Suikoden Tierkreis"
+    ],
+    "artist_keys": [
+      "Daisuke Kikuta"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "130",
+    "musicbrainz": "d3c5bd23-5113-46c0-9eb6-b84c157df3ee",
+    "wikidata": "Q8980243",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

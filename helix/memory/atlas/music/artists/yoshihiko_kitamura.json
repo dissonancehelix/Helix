@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:yoshihiko_kitamura",
+  "entity_type": "music.composer",
+  "label": "Yoshihiko Kitamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "Neo Geo Pocket Color"
+    ],
+    "franchises": [
+      "Alpha Mission II",
+      "Art of Fighting",
+      "Art of Fighting 2",
+      "Eight Man",
+      "Fatal Fury 3",
+      "King of the Monsters 2",
+      "Kizuna Encounter",
+      "SNK vs. Capcom",
+      "Samurai Shodown IV",
+      "Savage Reign",
+      "Super Sidekicks",
+      "Super Sidekicks 2",
+      "Super Smash Bros. Brawl",
+      "The King of Fighters '97",
+      "The Last Blade 2"
+    ],
+    "artist_keys": [
+      "Yoshihiko Kitamura"
+    ],
+    "track_count": 210
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

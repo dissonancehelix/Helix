@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yoshinori_nakamura",
+  "entity_type": "music.composer",
+  "label": "Yoshinori Nakamura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake",
+      "Final Fantasy VII Remake Intergrade"
+    ],
+    "artist_keys": [
+      "Yoshinori Nakamura"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90571506",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

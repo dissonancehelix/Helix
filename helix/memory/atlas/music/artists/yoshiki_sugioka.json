@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshiki_sugioka",
+  "entity_type": "music.composer",
+  "label": "Yoshiki Sugioka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ghost in the Shell"
+    ],
+    "artist_keys": [
+      "Yoshiki Sugioka"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

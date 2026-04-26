@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akira_hirokami",
+  "entity_type": "music.composer",
+  "label": "Akira Hirokami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Super Space Fortress Macross II"
+    ],
+    "artist_keys": [
+      "Akira Hirokami"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

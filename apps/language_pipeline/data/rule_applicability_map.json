@@ -1,0 +1,119 @@
+{
+  "video_game_article": [
+    {
+      "policy": "MOS:VG",
+      "priority": 1,
+      "reason": "Primary MOS for VG articles"
+    },
+    {
+      "policy": "MOS",
+      "priority": 2,
+      "reason": "General style fallback"
+    },
+    {
+      "policy": "WP:GNG",
+      "priority": 3,
+      "reason": "Notability if topic is borderline"
+    }
+  ],
+  "nfl_biography": [
+    {
+      "policy": "WP:NFL",
+      "priority": 1,
+      "reason": "Domain notability + style"
+    },
+    {
+      "policy": "MOS:Biography",
+      "priority": 2,
+      "reason": "Biography formatting"
+    },
+    {
+      "policy": "WP:BLP",
+      "priority": 2,
+      "reason": "Living person protection"
+    },
+    {
+      "policy": "MOS",
+      "priority": 3,
+      "reason": "General style fallback"
+    }
+  ],
+  "living_person_biography": [
+    {
+      "policy": "WP:BLP",
+      "priority": 1,
+      "reason": "Living person protection — supersedes other editorial considerations"
+    },
+    {
+      "policy": "MOS:Biography",
+      "priority": 2,
+      "reason": "Biography formatting"
+    },
+    {
+      "policy": "MOS",
+      "priority": 3,
+      "reason": "General style fallback"
+    },
+    {
+      "policy": "WP:GNG",
+      "priority": 3,
+      "reason": "Notability if subject is borderline"
+    }
+  ],
+  "article_naming_or_style": [
+    {
+      "policy": "MOS",
+      "priority": 1,
+      "reason": "Main style authority"
+    },
+    {
+      "policy": "MOS:VG",
+      "priority": 2,
+      "reason": "If VG context"
+    },
+    {
+      "policy": "MOS:Biography",
+      "priority": 2,
+      "reason": "If biography context"
+    }
+  ],
+  "notability_or_significance": [
+    {
+      "policy": "WP:GNG",
+      "priority": 1,
+      "reason": "Primary notability guideline"
+    },
+    {
+      "policy": "WP:NFL",
+      "priority": 2,
+      "reason": "Domain-specific notability for NFL"
+    },
+    {
+      "policy": "WP:VG",
+      "priority": 2,
+      "reason": "Domain-specific notability for games"
+    }
+  ],
+  "template_editing": [
+    {
+      "policy": "MOS",
+      "priority": 1,
+      "reason": "Formatting conventions"
+    },
+    {
+      "policy": "WP:BLP",
+      "priority": 1,
+      "reason": "If template used in BLP articles"
+    },
+    {
+      "policy": "MOS:VG",
+      "priority": 2,
+      "reason": "If VG infobox/navbox"
+    },
+    {
+      "policy": "WP:NFL",
+      "priority": 2,
+      "reason": "If NFL infobox/stats template"
+    }
+  ]
+}

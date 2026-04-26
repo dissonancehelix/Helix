@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroaki_iwatani",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Iwatani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX"
+    ],
+    "franchises": [
+      "Seed of Dragon"
+    ],
+    "artist_keys": [
+      "Hiroaki Iwatani"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:katsuyuki_inose",
+  "entity_type": "music.composer",
+  "label": "Katsuyuki Inose",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Quiz Marugoto The World",
+      "Somer Assault"
+    ],
+    "artist_keys": [
+      "Katsuyuki Inose"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

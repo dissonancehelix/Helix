@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:panda",
+  "entity_type": "music.composer",
+  "label": "Panda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Heart Heat Girls"
+    ],
+    "artist_keys": [
+      "Panda"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q116026039",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

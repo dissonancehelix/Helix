@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:tsuyoshi_sekito",
+  "entity_type": "music.composer",
+  "label": "Tsuyoshi Sekito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "MSX2",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Before Meteor",
+      "Brave Fencer Musashi",
+      "Chocobo's Dungeon 2",
+      "Double Dribble",
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake",
+      "Final Fantasy VII Remake Intergrade",
+      "Final Fantasy XIV",
+      "GeOnDan Super Rare Trax",
+      "Hanjuku Hero 4",
+      "Kingdom Hearts 3D",
+      "Kingdom Hearts Birth by Sleep",
+      "Kingdom Hearts III",
+      "Kingdom Hearts Union χ",
+      "Lethal Enforcers II"
+    ],
+    "artist_keys": [
+      "Tsuyoshi Sekito"
+    ],
+    "track_count": 324
+  },
+  "external_ids": {
+    "vgmdb": "224",
+    "musicbrainz": "72db70a1-f34b-48b9-9829-67785e0cc19f",
+    "wikidata": "Q2636036",
+    "spotify": "6rBMzrrnX5xEfFnNEqKmmk",
+    "lastfm": "",
+    "discogs": "228641",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsuyoshi_Sekito"
+  }
+}

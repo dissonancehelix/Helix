@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:michael_masser",
+  "entity_type": "music.composer",
+  "label": "Michael Masser",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Michael Masser"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "62625f0a-2727-4155-a97f-e82b6ae30f46",
+    "wikidata": "Q1367289",
+    "spotify": "1tSvvqyxCY30xnBaCzGtnl",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Masser"
+  }
+}

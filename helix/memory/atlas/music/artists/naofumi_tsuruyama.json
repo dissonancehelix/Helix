@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:naofumi_tsuruyama",
+  "entity_type": "music.composer",
+  "label": "Naofumi Tsuruyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Groove Adventure Rave"
+    ],
+    "artist_keys": [
+      "Naofumi Tsuruyama"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

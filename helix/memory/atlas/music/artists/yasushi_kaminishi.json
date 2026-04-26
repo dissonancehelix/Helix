@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yasushi_kaminishi",
+  "entity_type": "music.composer",
+  "label": "Yasushi Kaminishi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II"
+    ],
+    "franchises": [
+      "Mars Matrix"
+    ],
+    "artist_keys": [
+      "Yasushi Kaminishi"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "3761",
+    "musicbrainz": "00716b4f-2afb-497f-bbc0-d961dc2f8fec",
+    "wikidata": "Q11360107",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

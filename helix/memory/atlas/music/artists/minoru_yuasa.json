@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:minoru_yuasa",
+  "entity_type": "music.composer",
+  "label": "Minoru Yuasa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Death Bringer",
+      "Traysia"
+    ],
+    "artist_keys": [
+      "Minoru Yuasa"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

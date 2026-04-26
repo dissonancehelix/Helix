@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:chima",
+  "entity_type": "music.composer",
+  "label": "Chima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Irina"
+    ],
+    "artist_keys": [
+      "Chima"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "50bb4489-b134-45bf-8cc5-7163abc3639f",
+    "wikidata": "Q1073062",
+    "spotify": "6QWl1IZfOJCldAZUkQvM3z",
+    "lastfm": "Chima",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chima_(singer)"
+  }
+}

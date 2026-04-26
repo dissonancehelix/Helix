@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:jason_whitely",
+  "entity_type": "music.composer",
+  "label": "Jason Whitely",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Risky Woods"
+    ],
+    "artist_keys": [
+      "Jason Whitely"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

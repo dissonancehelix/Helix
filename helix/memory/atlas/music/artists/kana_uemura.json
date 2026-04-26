@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kana_uemura",
+  "entity_type": "music.composer",
+  "label": "Kana Uemura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of the World"
+    ],
+    "artist_keys": [
+      "Kana Uemura"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "2879",
+    "musicbrainz": "f443a6b3-25d9-4e25-9e27-763dc13a3af2",
+    "wikidata": "Q1187795",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kana_Uemura"
+  }
+}

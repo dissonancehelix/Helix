@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:masakatsu_maekawa",
+  "entity_type": "music.composer",
+  "label": "Masakatsu Maekawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Final Soldier",
+      "Jackie Chan's Action Kung Fu",
+      "Super Smash Bros. for Wii U",
+      "Timeball",
+      "Yo! Noid"
+    ],
+    "artist_keys": [
+      "Masakatsu Maekawa"
+    ],
+    "track_count": 49
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

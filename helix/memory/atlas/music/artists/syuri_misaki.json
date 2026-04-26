@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:syuri_misaki",
+  "entity_type": "music.composer",
+  "label": "Syuri Misaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Daemon X Machina",
+      "Soulcalibur VI",
+      "Survival Quiz City"
+    ],
+    "artist_keys": [
+      "Syuri Misaki"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

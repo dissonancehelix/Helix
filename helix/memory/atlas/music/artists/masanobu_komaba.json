@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:masanobu_komaba",
+  "entity_type": "music.composer",
+  "label": "Masanobu Komaba",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Masanobu Komaba"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

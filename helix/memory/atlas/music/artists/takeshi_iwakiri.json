@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takeshi_iwakiri",
+  "entity_type": "music.composer",
+  "label": "Takeshi Iwakiri",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Takeshi Iwakiri"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

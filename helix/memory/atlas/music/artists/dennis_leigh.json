@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:dennis_leigh",
+  "entity_type": "music.composer",
+  "label": "Dennis Leigh",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Speedball 2"
+    ],
+    "artist_keys": [
+      "Dennis Leigh"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

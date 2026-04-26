@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:david_wise",
+  "entity_type": "music.composer",
+  "label": "David Wise",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "NES",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battletoads",
+      "Battletoads & Double Dragon",
+      "Battletoads in Battlemaniacs",
+      "Championship Pro",
+      "Diddy Kong Racing",
+      "Donkey Kong Country",
+      "Donkey Kong Country 2",
+      "Donkey Kong Country 3",
+      "R.C. Pro",
+      "Snake Rattle 'n' Roll",
+      "Solar Jetman",
+      "Super Smash Bros. Brawl",
+      "Tamarin",
+      "WWF Superstars",
+      "WWF WrestleMania"
+    ],
+    "artist_keys": [
+      "David Wise"
+    ],
+    "track_count": 264
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "6bd711f7-563e-4a13-96bb-6916fdc9b1e9",
+    "wikidata": "Q4355419",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/David_Wise_(writer)"
+  }
+}

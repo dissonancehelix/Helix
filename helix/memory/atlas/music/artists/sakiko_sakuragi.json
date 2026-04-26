@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:sakiko_sakuragi",
+  "entity_type": "music.composer",
+  "label": "Sakiko Sakuragi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Remake"
+    ],
+    "artist_keys": [
+      "Sakiko Sakuragi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q109364832",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

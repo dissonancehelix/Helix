@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:masatomo_miyamoto",
+  "entity_type": "music.composer",
+  "label": "Masatomo Miyamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2",
+      "NES"
+    ],
+    "franchises": [
+      "Aleste",
+      "Aleste 2",
+      "Blaster Burn",
+      "Xevious",
+      "Zanac A.I.",
+      "Zanac EX"
+    ],
+    "artist_keys": [
+      "Masatomo Miyamoto"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

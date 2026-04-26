@@ -1,0 +1,114 @@
+[
+  {
+    "id": "sov_base",
+    "family": "sov_order",
+    "label": "subject_object_verb",
+    "text": "राम किताब पढ़ता है।"
+  },
+  {
+    "id": "sov_variant",
+    "family": "sov_order",
+    "label": "object_fronted",
+    "transform": "front_object_topic",
+    "edge_from": "sov_base",
+    "text": "किताब राम पढ़ता है।"
+  },
+  {
+    "id": "ergative_base",
+    "family": "ergative_split",
+    "label": "present_nominative",
+    "text": "राम खाना खाता है।"
+  },
+  {
+    "id": "ergative_variant",
+    "family": "ergative_split",
+    "label": "past_ergative_ne",
+    "transform": "add_ergative_ne",
+    "edge_from": "ergative_base",
+    "text": "राम ने खाना खाया।"
+  },
+  {
+    "id": "ko_base",
+    "family": "ko_object_marking",
+    "label": "bare_object",
+    "text": "मैं किताब पढ़ता हूँ।"
+  },
+  {
+    "id": "ko_variant",
+    "family": "ko_object_marking",
+    "label": "specific_ko_marked",
+    "transform": "add_ko_marking",
+    "edge_from": "ko_base",
+    "text": "मैं उस किताब को पढ़ता हूँ।"
+  },
+  {
+    "id": "negation_base",
+    "family": "nahi_negation",
+    "label": "affirmative",
+    "text": "वह आता है।"
+  },
+  {
+    "id": "negation_variant",
+    "family": "nahi_negation",
+    "label": "nahi_negation",
+    "transform": "add_nahi",
+    "edge_from": "negation_base",
+    "text": "वह नहीं आता।"
+  },
+  {
+    "id": "gender_base",
+    "family": "gender_agreement",
+    "label": "masculine",
+    "text": "लड़का थका हुआ है।"
+  },
+  {
+    "id": "gender_variant",
+    "family": "gender_agreement",
+    "label": "feminine",
+    "transform": "shift_gender",
+    "edge_from": "gender_base",
+    "text": "लड़की थकी हुई है।"
+  },
+  {
+    "id": "aspect_base",
+    "family": "raha_progressive",
+    "label": "simple_present",
+    "text": "वह खाना बनाती है।"
+  },
+  {
+    "id": "aspect_variant",
+    "family": "raha_progressive",
+    "label": "progressive_raha",
+    "transform": "add_raha_progressive",
+    "edge_from": "aspect_base",
+    "text": "वह खाना बना रही है।"
+  },
+  {
+    "id": "question_base",
+    "family": "kya_question",
+    "label": "declarative",
+    "text": "तुम छात्र हो।"
+  },
+  {
+    "id": "question_variant",
+    "family": "kya_question",
+    "label": "kya_yes_no_question",
+    "transform": "add_kya_front",
+    "edge_from": "question_base",
+    "text": "क्या तुम छात्र हो?"
+  },
+  {
+    "id": "postposition_base",
+    "family": "postposition_usage",
+    "label": "bare_noun",
+    "text": "वह घर गया।"
+  },
+  {
+    "id": "postposition_variant",
+    "family": "postposition_usage",
+    "label": "postpositional_phrase",
+    "transform": "add_postposition",
+    "edge_from": "postposition_base",
+    "text": "वह घर के अंदर गया।"
+  }
+]

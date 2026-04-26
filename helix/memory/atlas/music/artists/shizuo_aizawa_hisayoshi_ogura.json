@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shizuo_aizawa_hisayoshi_ogura",
+  "entity_type": "music.composer",
+  "label": "Shizuo Aizawa, Hisayoshi Ogura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Rainbow Islands Extra"
+    ],
+    "artist_keys": [
+      "Shizuo Aizawa, Hisayoshi Ogura"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

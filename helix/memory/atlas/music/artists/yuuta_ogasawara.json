@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yuuta_ogasawara",
+  "entity_type": "music.composer",
+  "label": "Yuuta Ogasawara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kirby Star Allies",
+      "Kirby and the Forgotten Land",
+      "Kirby's Dream Buffet"
+    ],
+    "artist_keys": [
+      "Yuuta Ogasawara"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

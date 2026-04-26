@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:tomotsune_maeno",
+  "entity_type": "music.composer",
+  "label": "Tomotsune Maeno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Battle Ace",
+      "Neutopia",
+      "Neutopia II",
+      "Sengoku Mahjong",
+      "Spin Pair"
+    ],
+    "artist_keys": [
+      "Tomotsune Maeno"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "4498",
+    "musicbrainz": "419e96b9-2772-447a-aa88-788a62fb6a74",
+    "wikidata": "Q11397849",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:elaine_ditton",
+  "entity_type": "music.composer",
+  "label": "Elaine Ditton",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Domino Man"
+    ],
+    "artist_keys": [
+      "Elaine Ditton"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

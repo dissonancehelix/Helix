@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:masako_oogami",
+  "entity_type": "music.composer",
+  "label": "Masako Oogami",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Seven",
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Masako Oogami"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

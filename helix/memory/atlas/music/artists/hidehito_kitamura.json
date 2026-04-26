@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hidehito_kitamura",
+  "entity_type": "music.composer",
+  "label": "Hidehito Kitamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Battle Shark",
+      "Champion Wrestler"
+    ],
+    "artist_keys": [
+      "Hidehito Kitamura"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

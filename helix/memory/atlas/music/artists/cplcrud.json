@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:cplcrud",
+  "entity_type": "music.composer",
+  "label": "CplCrud",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katawa Shoujo"
+    ],
+    "artist_keys": [
+      "CplCrud"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "316bf199-c9cd-4f98-b7da-3ac4b23036ba",
+    "wikidata": "Q66571727",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

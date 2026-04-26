@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:takuya_yasuda",
+  "entity_type": "music.composer",
+  "label": "Takuya Yasuda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Phantasy Star Portable 2",
+      "Tales of the World"
+    ],
+    "artist_keys": [
+      "Takuya Yasuda"
+    ],
+    "track_count": 110
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

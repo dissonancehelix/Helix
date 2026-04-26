@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-03-31T16:35:03+00:00",
+  "patterns_discovered": {
+    "generic_title_collision": {
+      "risk": "CRITICAL",
+      "example": "Selection, Best of, Disk 1",
+      "impact": "Causes Tier A auto-acceptance on common terms across unrelated games.",
+      "mitigation": "Implemented Blacklist and demoted to Tier B (Review Required)."
+    },
+    "curated_subset_overreach": {
+      "risk": "HIGH",
+      "example": "3 tracks matching a 50-track album",
+      "impact": "Weak identity confirmation for partial folders.",
+      "mitigation": "Increased Tier A overlap threshold to 80%."
+    },
+    "folder_name_false_authority": {
+      "risk": "HIGH",
+      "example": "Disk 1, CD 1",
+      "impact": "Folder names that are numbered but lack the release name.",
+      "mitigation": "Explicitly flagged as Review Only category."
+    },
+    "contradiction_gate_failure": {
+      "risk": "CRITICAL",
+      "mitigation": "Hard-block in Tiering logic (Always Tier D)."
+    }
+  }
+}

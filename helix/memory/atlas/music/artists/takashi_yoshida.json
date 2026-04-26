@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takashi_yoshida",
+  "entity_type": "music.composer",
+  "label": "Takashi Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "Castlevania",
+      "Suikoden III"
+    ],
+    "artist_keys": [
+      "Takashi Yoshida"
+    ],
+    "track_count": 54
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11609980",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

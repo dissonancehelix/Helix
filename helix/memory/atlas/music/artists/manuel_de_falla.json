@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:manuel_de_falla",
+  "entity_type": "music.composer",
+  "label": "Manuel de Falla",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tekken 7"
+    ],
+    "artist_keys": [
+      "Manuel de Falla"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "17268036-f51c-427c-a8a2-241fac69d39f",
+    "wikidata": "Q193283",
+    "spotify": "5BcbyYRgvvhfVGmCJSjHlT",
+    "lastfm": "Manuel+de+Falla",
+    "wikipedia": "https://en.wikipedia.org/wiki/Manuel_de_Falla"
+  }
+}

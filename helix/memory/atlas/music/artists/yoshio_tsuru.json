@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:yoshio_tsuru",
+  "entity_type": "music.composer",
+  "label": "Yoshio Tsuru",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Crystal Beans",
+      "Yakuza 3",
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Yoshio Tsuru"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "1529",
+    "musicbrainz": "",
+    "wikidata": "Q98208654",
+    "spotify": "",
+    "lastfm": "Yoshio+Tsuru"
+  }
+}

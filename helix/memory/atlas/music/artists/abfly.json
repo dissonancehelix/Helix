@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:abfly",
+  "entity_type": "music.composer",
+  "label": "ab:fly",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gensomaden Saiyuki"
+    ],
+    "artist_keys": [
+      "ab:fly"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

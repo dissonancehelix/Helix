@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kouichi_sato",
+  "entity_type": "music.composer",
+  "label": "Kouichi Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Dome",
+      "Märchen Veil"
+    ],
+    "artist_keys": [
+      "Kouichi Sato"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "7f451f74-cf57-40ba-b8da-aeffe4b721fc",
+    "wikidata": "Q748582",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/K%C5%8Dichi_Sat%C5%8D_(actor)"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:mari_yamaguchi",
+  "entity_type": "music.composer",
+  "label": "Mari Yamaguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Breath of Fire",
+      "Final Fight 2",
+      "Mega Man",
+      "Mega Man 10",
+      "Mega Man 5",
+      "Super Ghouls 'n Ghosts",
+      "Super Smash Bros. for Wii U",
+      "The Great Circus Mystery",
+      "The Magical Quest 3",
+      "The Magical Quest Starring Mickey Mouse"
+    ],
+    "artist_keys": [
+      "Mari Yamaguchi"
+    ],
+    "track_count": 97
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:tn",
+  "entity_type": "music.composer",
+  "label": "T.N",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Ochin ni Toshi Puzzle Tonjan!?"
+    ],
+    "artist_keys": [
+      "T.N"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q20196322",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cisca_Wijmenga"
+  }
+}

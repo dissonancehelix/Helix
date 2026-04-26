@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:katsunari_kitajima",
+  "entity_type": "music.composer",
+  "label": "Katsunari Kitajima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Final Fight 3",
+      "Grand Striker",
+      "Marvel Super Heroes",
+      "SD Gundam Power Formation Puzzle"
+    ],
+    "artist_keys": [
+      "Katsunari Kitajima"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

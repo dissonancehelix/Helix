@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yusuke_komori",
+  "entity_type": "music.composer",
+  "label": "Yusuke Komori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Infinite Space",
+      "No More Heroes 2"
+    ],
+    "artist_keys": [
+      "Yusuke Komori"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q106480664",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

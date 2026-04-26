@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yuuki_yonezawa",
+  "entity_type": "music.composer",
+  "label": "Yuuki Yonezawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Eschatos"
+    ],
+    "artist_keys": [
+      "Yuuki Yonezawa"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

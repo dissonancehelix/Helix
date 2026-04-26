@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takafumi_nishimura",
+  "entity_type": "music.composer",
+  "label": "Takafumi Nishimura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "NieR",
+      "Super Monkey Ball"
+    ],
+    "artist_keys": [
+      "Takafumi Nishimura"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q116772103",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

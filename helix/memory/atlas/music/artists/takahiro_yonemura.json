@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:takahiro_yonemura",
+  "entity_type": "music.composer",
+  "label": "Takahiro Yonemura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98",
+      "PC-9801",
+      "X68000"
+    ],
+    "franchises": [
+      "Briganty",
+      "Farland Story",
+      "Goice",
+      "Gravity Response",
+      "Harlem Blade",
+      "Jinn",
+      "Martial Age",
+      "Mystery Case In Hi!school!! Synergy",
+      "SYNERGY MCMXCI",
+      "Steam",
+      "V.G.",
+      "V.G. II"
+    ],
+    "artist_keys": [
+      "Takahiro Yonemura"
+    ],
+    "track_count": 199
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11604235",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

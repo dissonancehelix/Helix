@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:nobuyuki_shioda",
+  "entity_type": "music.composer",
+  "label": "Nobuyuki Shioda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blocken",
+      "Burai Fighter Deluxe",
+      "Hebereke no Popoon",
+      "Kick Master",
+      "Kira Kira Star Night",
+      "Low G Man",
+      "Summer Carnival '92",
+      "UFO Kamen Yakisoban",
+      "Ultra Toukon Densetsu"
+    ],
+    "artist_keys": [
+      "Nobuyuki Shioda"
+    ],
+    "track_count": 80
+  },
+  "external_ids": {
+    "vgmdb": "44855",
+    "musicbrainz": "db2331c9-466e-45e8-9855-b2314a535dcf",
+    "wikidata": "Q11428816",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

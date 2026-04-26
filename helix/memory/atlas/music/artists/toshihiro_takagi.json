@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:toshihiro_takagi",
+  "entity_type": "music.composer",
+  "label": "Toshihiro Takagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Metajo"
+    ],
+    "artist_keys": [
+      "Toshihiro Takagi"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q53764762",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

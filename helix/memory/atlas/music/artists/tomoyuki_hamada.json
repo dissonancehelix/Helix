@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:tomoyuki_hamada",
+  "entity_type": "music.composer",
+  "label": "Tomoyuki Hamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Chou Mahou Tairiku Wozz",
+      "Coron Land",
+      "Dark Half",
+      "Doraemon 3",
+      "Gambler Jiko Chuushinha 2",
+      "Gegege no Kitaro",
+      "Pro Striker Final Stage",
+      "SD Gundam GX",
+      "SD Gundam X",
+      "SWAT Kats",
+      "Shin Megami Tensei",
+      "Shounin yo, Taishi o Idake!!",
+      "Super Bikkuriman",
+      "Super Widget",
+      "Tetris Battle Gaiden"
+    ],
+    "artist_keys": [
+      "Tomoyuki Hamada"
+    ],
+    "track_count": 354
+  },
+  "external_ids": {
+    "vgmdb": "37124",
+    "musicbrainz": "c22655be-cd52-484d-9303-fed584ea660e",
+    "wikidata": "Q11566218",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

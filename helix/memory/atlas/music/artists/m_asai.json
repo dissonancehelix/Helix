@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:m_asai",
+  "entity_type": "music.composer",
+  "label": "M. Asai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Tricky Kick"
+    ],
+    "artist_keys": [
+      "M. Asai"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q138602172",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

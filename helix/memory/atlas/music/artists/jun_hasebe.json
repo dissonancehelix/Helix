@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:jun_hasebe",
+  "entity_type": "music.composer",
+  "label": "Jun Hasebe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC Engine",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Cosmic Fantasy",
+      "Cosmic Fantasy Stories",
+      "Faerie Dust Story",
+      "Last Alert",
+      "Valis III"
+    ],
+    "artist_keys": [
+      "Jun Hasebe"
+    ],
+    "track_count": 62
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

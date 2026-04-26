@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:tee_lopes",
+  "entity_type": "music.composer",
+  "label": "Tee Lopes",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Berserk Boy",
+      "Metal Slug Tactics",
+      "Mighty Fight Federation",
+      "Monster Boy and the Cursed Kingdom",
+      "Penny's Big Breakaway",
+      "Rock 'n' Sonic the Hedgehog",
+      "Shinobi",
+      "Sonic Racing",
+      "Sonic Superstars",
+      "Sonic the Hedgehog",
+      "Team Sonic Racing",
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Tee Lopes"
+    ],
+    "track_count": 244
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "49ebf82b-96ab-42b9-bfd6-95f1528fe025",
+    "wikidata": "Q107422101",
+    "spotify": "5ZOKvzD4GQ7Yg2CS4CVbRb",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tee_Lopes"
+  }
+}

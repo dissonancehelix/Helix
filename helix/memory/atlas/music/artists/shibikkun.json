@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shibikkun",
+  "entity_type": "music.composer",
+  "label": "Shibikkun",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Bases Loaded 3"
+    ],
+    "artist_keys": [
+      "Shibikkun"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

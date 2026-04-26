@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:hiroshige_tonomura",
+  "entity_type": "music.composer",
+  "label": "Hiroshige Tonomura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES"
+    ],
+    "franchises": [
+      "Destiny of an Emperor",
+      "Dino Rex",
+      "DuckTales",
+      "Hit the Ice",
+      "Pro Yakyuu? Satsujin Jiken!",
+      "Quiz H.Q."
+    ],
+    "artist_keys": [
+      "Hiroshige Tonomura"
+    ],
+    "track_count": 58
+  },
+  "external_ids": {
+    "vgmdb": "8070",
+    "musicbrainz": "",
+    "wikidata": "Q17583705",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

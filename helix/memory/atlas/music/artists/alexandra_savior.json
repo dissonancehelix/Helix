@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:alexandra_savior",
+  "entity_type": "music.composer",
+  "label": "Alexandra Savior",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Belladonna of Sadness",
+      "Beneath the Lilypad",
+      "The Archer"
+    ],
+    "artist_keys": [
+      "Alexandra Savior"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "0a8cf03f-a01a-4774-8c01-bd031389c99e",
+    "wikidata": "Q24851869",
+    "spotify": "2qqZbV6smvvtohQOUgZqKa",
+    "lastfm": "Alexandra+Savior",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexandra_Savior"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:edvard_grieg",
+  "entity_type": "music.composer",
+  "label": "Edvard Grieg",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX"
+    ],
+    "franchises": [
+      "Parodius"
+    ],
+    "artist_keys": [
+      "Edvard Grieg"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "6263",
+    "musicbrainz": "013c8e5b-d72a-4cd3-8dee-6c64d6125823",
+    "wikidata": "Q80621",
+    "spotify": "5ihY290YPGc3aY2xTyx7Gy",
+    "lastfm": "Edvard+Grieg",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edvard_Grieg"
+  }
+}

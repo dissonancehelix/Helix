@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:akihito_suita",
+  "entity_type": "music.composer",
+  "label": "Akihito Suita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Kidou Senshi V Gundam",
+      "Super Bases Loaded 3"
+    ],
+    "artist_keys": [
+      "Akihito Suita"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

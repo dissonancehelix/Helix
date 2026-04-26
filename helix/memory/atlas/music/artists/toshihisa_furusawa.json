@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toshihisa_furusawa",
+  "entity_type": "music.composer",
+  "label": "Toshihisa Furusawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Yu"
+    ],
+    "artist_keys": [
+      "Toshihisa Furusawa"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

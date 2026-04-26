@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:henry_mancini",
+  "entity_type": "music.composer",
+  "label": "Henry Mancini",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bayonetta 2"
+    ],
+    "artist_keys": [
+      "Henry Mancini"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "14097",
+    "musicbrainz": "83e71a21-caf7-4e48-8ff7-6512d51e88a3",
+    "wikidata": "Q185928",
+    "spotify": "2EExdpjU4SK3xnJHO5paJf",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Henry_Mancini"
+  }
+}

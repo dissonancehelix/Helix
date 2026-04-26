@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:nobuo_uematsu",
+  "entity_type": "music.composer",
+  "label": "Nobuo Uematsu",
+  "aliases": [
+    "植松 伸夫"
+  ],
+  "library": {
+    "platforms": [
+      "NES",
+      "Super NES",
+      "PlayStation",
+      "PlayStation 2",
+      "Xbox 360",
+      "PC"
+    ],
+    "franchises": [
+      "Final Fantasy",
+      "Blue Dragon",
+      "Lost Odyssey",
+      "Chrono Trigger",
+      "The Last Story"
+    ],
+    "artist_keys": [
+      "Nobuo Uematsu",
+      "植松 伸夫"
+    ]
+  },
+  "external_ids": {
+    "vgmdb": "77",
+    "musicbrainz": "92bb085a-2924-4479-b627-181a1835d2f5",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nobuo_Uematsu",
+    "wikidata": "Q312327",
+    "spotify": "3V79CTgRnsDdJSTqKitROv",
+    "lastfm": "植松伸夫",
+    "discogs": "169898"
+  },
+  "biography": {
+    "short": "World-renowned composer for the Final Fantasy series and video game pioneer.",
+    "career": "Square (1986–2004), Smile Please (Founding 2004–)."
+  }
+}

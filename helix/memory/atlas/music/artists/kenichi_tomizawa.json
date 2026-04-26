@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kenichi_tomizawa",
+  "entity_type": "music.composer",
+  "label": "Kenichi Tomizawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Mega Man Soccer"
+    ],
+    "artist_keys": [
+      "Kenichi Tomizawa"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

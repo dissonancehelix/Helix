@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:sho_okada",
+  "entity_type": "music.composer",
+  "label": "Sho Okada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Daemon X Machina",
+      "Endrays",
+      "Katamari Damacy Rolling Live",
+      "Once Upon a Katamari",
+      "Survival Quiz City",
+      "Tekken 8"
+    ],
+    "artist_keys": [
+      "Sho Okada"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q87974298",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

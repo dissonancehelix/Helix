@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:chinatsu_kuzuu",
+  "entity_type": "music.composer",
+  "label": "Chinatsu Kuzuu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ten Plants 2"
+    ],
+    "artist_keys": [
+      "Chinatsu Kuzuu"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "409",
+    "musicbrainz": "9f894ca0-351c-473f-bac8-bd0dafecd870",
+    "wikidata": "Q11620968",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

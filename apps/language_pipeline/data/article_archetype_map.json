@@ -1,0 +1,34 @@
+{
+  "New Commanders Stadium": [
+    "infrastructure_article",
+    "project_article",
+    "athlete_biography_nfl"
+  ],
+  "Chase Young": [
+    "athlete_biography_nfl"
+  ],
+  "Dota 2": [
+    "video_game_article",
+    "infrastructure_article"
+  ],
+  "Jayden Daniels": [
+    "athlete_biography_nfl"
+  ],
+  "Josh Harris (businessman)": [
+    "executive_biography",
+    "athlete_biography_nfl",
+    "hybrid_nfl_person"
+  ],
+  "Adam Peters": [
+    "executive_biography",
+    "nfl_front_office",
+    "athlete_biography_nfl",
+    "hybrid_nfl_person"
+  ],
+  "Brandon Sosna": [
+    "executive_biography",
+    "nfl_front_office",
+    "athlete_biography_nfl",
+    "hybrid_nfl_person"
+  ]
+}

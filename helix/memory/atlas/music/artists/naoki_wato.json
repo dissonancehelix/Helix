@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:naoki_wato",
+  "entity_type": "music.composer",
+  "label": "Naoki Wato",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hell Night"
+    ],
+    "artist_keys": [
+      "Naoki Wato"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

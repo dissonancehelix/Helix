@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yuya_ogawa",
+  "entity_type": "music.composer",
+  "label": "Yuya Ogawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "From the Abyss"
+    ],
+    "artist_keys": [
+      "Yuya Ogawa"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q88470848",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

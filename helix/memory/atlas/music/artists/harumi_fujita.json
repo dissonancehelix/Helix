@@ -1,0 +1,46 @@
+{
+  "entity_id": "music.composer:harumi_fujita",
+  "entity_type": "music.composer",
+  "label": "Harumi Fujita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "MSX2",
+      "NES",
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "1943 Kai",
+      "Bionic Commando",
+      "Blazing Star",
+      "Chip 'n Dale Rescue Rangers",
+      "Final Fight",
+      "Fuuun Gokuu Ninden",
+      "Gargoyle's Quest",
+      "Hell Night",
+      "Higemaru Makaijima",
+      "Ide Yousuke Meijin no Jissen",
+      "Magical Tetris Challenge",
+      "Mahjong Gakuen",
+      "Makai Island",
+      "Mega Man 3",
+      "Panic in Nakayoshi World"
+    ],
+    "artist_keys": [
+      "Harumi Fujita"
+    ],
+    "track_count": 389
+  },
+  "external_ids": {
+    "vgmdb": "1455",
+    "musicbrainz": "5d20ec30-fb1c-43c1-91d1-acebcf3ff79a",
+    "wikidata": "Q15054318",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4425273",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harumi_Fujita"
+  }
+}

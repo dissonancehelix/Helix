@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroo_yamaguchi",
+  "entity_type": "music.composer",
+  "label": "Hiroo Yamaguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of Graces"
+    ],
+    "artist_keys": [
+      "Hiroo Yamaguchi"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "8119",
+    "musicbrainz": "24fd71ed-309e-4e0b-8b5f-38d05e953ab4",
+    "wikidata": "Q11466772",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

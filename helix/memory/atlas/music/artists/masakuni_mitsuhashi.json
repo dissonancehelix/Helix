@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masakuni_mitsuhashi",
+  "entity_type": "music.composer",
+  "label": "Masakuni Mitsuhashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Cuby Panic",
+      "Fire Hawk",
+      "Zeliard"
+    ],
+    "artist_keys": [
+      "Masakuni Mitsuhashi"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

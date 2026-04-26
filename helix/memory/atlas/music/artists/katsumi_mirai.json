@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:katsumi_mirai",
+  "entity_type": "music.composer",
+  "label": "Katsumi Mirai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Marble Cooking"
+    ],
+    "artist_keys": [
+      "Katsumi Mirai"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

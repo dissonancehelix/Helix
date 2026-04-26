@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hajime_sou",
+  "entity_type": "music.composer",
+  "label": "Hajime Sou",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Half"
+    ],
+    "artist_keys": [
+      "Hajime Sou"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11452009",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

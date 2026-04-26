@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:andy_armer",
+  "entity_type": "music.composer",
+  "label": "Andy Armer",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Dragon's Revenge",
+      "Ecco",
+      "Ecco Jr.",
+      "Eternal Champions",
+      "NCAA Football",
+      "NFL '95",
+      "NFL '98",
+      "Nightmare Circus",
+      "Super RBI Baseball"
+    ],
+    "artist_keys": [
+      "Andy Armer"
+    ],
+    "track_count": 98
+  },
+  "external_ids": {
+    "vgmdb": "17348",
+    "musicbrainz": "",
+    "wikidata": "Q98211315",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "201151"
+  }
+}

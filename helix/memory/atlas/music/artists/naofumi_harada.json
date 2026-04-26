@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:naofumi_harada",
+  "entity_type": "music.composer",
+  "label": "Naofumi Harada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bayonetta 2",
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Naofumi Harada"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

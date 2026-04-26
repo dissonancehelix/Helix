@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:tsunku",
+  "entity_type": "music.composer",
+  "label": "Tsunku",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Inazuma Eleven"
+    ],
+    "artist_keys": [
+      "Tsunku"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "7586",
+    "musicbrainz": "93a430d5-7be0-43d4-8ace-afebd8b0b661",
+    "wikidata": "Q1155641",
+    "spotify": "",
+    "lastfm": "つんく♂",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsunku"
+  }
+}

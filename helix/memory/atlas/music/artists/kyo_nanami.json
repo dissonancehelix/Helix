@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kyo_nanami",
+  "entity_type": "music.composer",
+  "label": "Kyo Nanami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Super Sidekicks 3"
+    ],
+    "artist_keys": [
+      "Kyo Nanami"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

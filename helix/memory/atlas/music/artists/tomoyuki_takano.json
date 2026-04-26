@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomoyuki_takano",
+  "entity_type": "music.composer",
+  "label": "Tomoyuki Takano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Formation Soccer on J.League"
+    ],
+    "artist_keys": [
+      "Tomoyuki Takano"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

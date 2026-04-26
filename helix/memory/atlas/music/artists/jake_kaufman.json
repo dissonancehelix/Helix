@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:jake_kaufman",
+  "entity_type": "music.composer",
+  "label": "Jake Kaufman",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy"
+    ],
+    "franchises": [
+      "Adventure Time",
+      "Adventures of Pip",
+      "Atlantis",
+      "Batman",
+      "Bloodrayne",
+      "Boot Hill Heroes",
+      "Cat Girl Without Salad",
+      "Contra 4",
+      "David Beckham Soccer",
+      "Despicable Me"
+    ],
+    "artist_keys": [
+      "Jake Kaufman"
+    ],
+    "track_count": 985
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "1a054dd8-c5fa-40b6-9397-61c26b0185d4",
+    "wikidata": "Q4217652",
+    "spotify": "5RTA06B6cts3a6I7iMqKGu",
+    "lastfm": "Jake+Kaufman",
+    "discogs": "43089"
+  }
+}

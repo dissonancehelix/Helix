@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yasushi_kawasaki",
+  "entity_type": "music.composer",
+  "label": "Yasushi Kawasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Hany on the Road"
+    ],
+    "artist_keys": [
+      "Yasushi Kawasaki"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q111812499",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hironao_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Hironao Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Bomberman World",
+      "Kabuki Ittouryoudan",
+      "Mario Party 2"
+    ],
+    "artist_keys": [
+      "Hironao Yamamoto"
+    ],
+    "track_count": 82
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:osamu_narita",
+  "entity_type": "music.composer",
+  "label": "Osamu Narita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ys IV"
+    ],
+    "artist_keys": [
+      "Osamu Narita"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

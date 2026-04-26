@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:kimitaka_matsumae",
+  "entity_type": "music.composer",
+  "label": "Kimitaka Matsumae",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Down Load 2",
+      "G.O.D",
+      "Harvest Moon",
+      "Katamari Forever",
+      "Las Vegas Dream",
+      "Othello World"
+    ],
+    "artist_keys": [
+      "Kimitaka Matsumae"
+    ],
+    "track_count": 114
+  },
+  "external_ids": {
+    "vgmdb": "251",
+    "musicbrainz": "c79d539f-4799-4a63-a7b8-be95f86b21e1",
+    "wikidata": "Q11529298",
+    "spotify": "55vZVogHiLo9rmcQ7taOiE",
+    "lastfm": "松前公高",
+    "discogs": "206375"
+  }
+}

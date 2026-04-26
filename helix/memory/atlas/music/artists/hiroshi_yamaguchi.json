@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:hiroshi_yamaguchi",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Yamaguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Anarchy Reigns",
+      "Bayonetta",
+      "Bayonetta 2",
+      "Okami",
+      "Sol Cresta",
+      "Super Smash Bros. Ultimate",
+      "The Wonderful 101"
+    ],
+    "artist_keys": [
+      "Hiroshi Yamaguchi"
+    ],
+    "track_count": 105
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q113989651",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

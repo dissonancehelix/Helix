@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:led_zeppelin",
+  "entity_type": "music.composer",
+  "label": "Led Zeppelin",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Coda",
+      "Houses of the Holy",
+      "In Through the Out Door",
+      "Led Zeppelin",
+      "Led Zeppelin II",
+      "Led Zeppelin III",
+      "Led Zeppelin IV",
+      "Physical Graffiti",
+      "Presence"
+    ],
+    "artist_keys": [
+      "Led Zeppelin"
+    ],
+    "track_count": 81
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "678d88b2-87b0-403b-b63d-5da7465aecc3",
+    "wikidata": "Q2331",
+    "spotify": "36QJpDe2go2KgaRleHCDTp",
+    "lastfm": "Led+Zeppelin",
+    "discogs": "34278"
+  }
+}

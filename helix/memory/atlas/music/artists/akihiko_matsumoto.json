@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akihiko_matsumoto",
+  "entity_type": "music.composer",
+  "label": "Akihiko Matsumoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Resident Evil Outbreak"
+    ],
+    "artist_keys": [
+      "Akihiko Matsumoto"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "4857",
+    "musicbrainz": "34daaa61-25da-4ab5-bc3b-e20cea659f16",
+    "wikidata": "Q11531119",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:chongue",
+  "entity_type": "music.composer",
+  "label": "Chongue",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "ABC Monday Night Football"
+    ],
+    "artist_keys": [
+      "Chongue"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q32648644",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mijk_van_dijk",
+  "entity_type": "music.composer",
+  "label": "Mijk van Dijk",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ridge Racer V"
+    ],
+    "artist_keys": [
+      "Mijk van Dijk"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "3067",
+    "musicbrainz": "4853b4f9-bcd6-4663-86bd-36d1270c6a3b",
+    "wikidata": "Q96982",
+    "spotify": "3tgmbgqiGB7vB5RyqpZt0J",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mijk_van_Dijk"
+  }
+}

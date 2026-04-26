@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:hiromi_shibano",
+  "entity_type": "music.composer",
+  "label": "Hiromi Shibano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Mega Drive",
+      "NES"
+    ],
+    "franchises": [
+      "Famista '91",
+      "Famista '93",
+      "Fushigi no Umi no Nadia",
+      "Klonoa",
+      "Klonoa 2",
+      "Mr. Driller",
+      "Mr. Driller Ace",
+      "Pac",
+      "Uchuu Daisakusen Chocovader"
+    ],
+    "artist_keys": [
+      "Hiromi Shibano"
+    ],
+    "track_count": 145
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

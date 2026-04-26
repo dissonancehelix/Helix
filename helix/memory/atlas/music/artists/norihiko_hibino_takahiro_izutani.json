@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:norihiko_hibino_takahiro_izutani",
+  "entity_type": "music.composer",
+  "label": "Norihiko Hibino, Takahiro Izutani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 2"
+    ],
+    "artist_keys": [
+      "Norihiko Hibino, Takahiro Izutani"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

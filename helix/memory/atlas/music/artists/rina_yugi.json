@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:rina_yugi",
+  "entity_type": "music.composer",
+  "label": "Rina Yugi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Solomon Program"
+    ],
+    "artist_keys": [
+      "Rina Yugi"
+    ],
+    "track_count": 55
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

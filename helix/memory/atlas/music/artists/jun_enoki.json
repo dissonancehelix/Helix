@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:jun_enoki",
+  "entity_type": "music.composer",
+  "label": "Jun Enoki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "A.S.P. Air Strike Patrol",
+      "Araiguma Rascal",
+      "Date Kimiko no Virtual Tennis",
+      "Hebereke no Oishii Puzzle wa Irimasekna",
+      "Ranma ½",
+      "Silva Saga II"
+    ],
+    "artist_keys": [
+      "Jun Enoki"
+    ],
+    "track_count": 89
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

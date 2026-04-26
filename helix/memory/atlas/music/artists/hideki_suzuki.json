@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:hideki_suzuki",
+  "entity_type": "music.composer",
+  "label": "Hideki Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Genocide",
+      "Lagoon"
+    ],
+    "artist_keys": [
+      "Hideki Suzuki"
+    ],
+    "track_count": 65
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11649139",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hideki_Suzuki"
+  }
+}

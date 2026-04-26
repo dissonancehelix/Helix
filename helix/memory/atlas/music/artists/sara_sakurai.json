@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:sara_sakurai",
+  "entity_type": "music.composer",
+  "label": "Sara Sakurai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario Party"
+    ],
+    "artist_keys": [
+      "Sara Sakurai"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

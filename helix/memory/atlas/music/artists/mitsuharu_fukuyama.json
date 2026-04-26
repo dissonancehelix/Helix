@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:mitsuharu_fukuyama",
+  "entity_type": "music.composer",
+  "label": "Mitsuharu Fukuyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bayonetta",
+      "Crackin' DJ",
+      "Dengeki Bunko",
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Mario; Sonic the Hedgehog",
+      "Phantasy Star Online 2 Episode 2",
+      "Phantasy Star Online 2 Episode 3",
+      "Phantasy Star Online 2 Episode 4",
+      "Phantasy Star Online 2 Episode 5",
+      "Phantasy Star Online 2 Episode 6",
+      "Phantasy Star Online 2 New Genesis",
+      "Sega Rally 2006",
+      "Sonic Superstars",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Mitsuharu Fukuyama"
+    ],
+    "track_count": 366
+  },
+  "external_ids": {
+    "vgmdb": "826",
+    "musicbrainz": "",
+    "wikidata": "Q124378546",
+    "spotify": "6gpE5h2EeSVEgIPIGeKb0u",
+    "lastfm": "Mitsuharu+Fukuyama",
+    "discogs": "667759"
+  }
+}

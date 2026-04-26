@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:shotaro_seo",
+  "entity_type": "music.composer",
+  "label": "Shotaro Seo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Foamstars",
+      "NieR Re[in]carnation",
+      "Once Upon a Katamari",
+      "SINoALICE",
+      "Soul Hackers 2",
+      "Towatsugai",
+      "Voice of Cards"
+    ],
+    "artist_keys": [
+      "Shotaro Seo"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "16967",
+    "musicbrainz": "c7f97318-1233-4d7b-b25e-7785b0ad8065",
+    "wikidata": "Q56702832",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

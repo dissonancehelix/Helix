@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kenichi_fujii",
+  "entity_type": "music.composer",
+  "label": "Kenichi Fujii",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Shougi"
+    ],
+    "artist_keys": [
+      "Kenichi Fujii"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q89798038",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

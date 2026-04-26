@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:aiobahn_81",
+  "entity_type": "music.composer",
+  "label": "Aiobahn +81",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Racing"
+    ],
+    "artist_keys": [
+      "Aiobahn +81"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "85188b12-0c2a-4879-a98d-fa0f6efb4e89",
+    "wikidata": "Q28555305",
+    "spotify": "3AMFQZ3Tt549kShRG2IBYT",
+    "lastfm": "Aiobahn"
+  }
+}

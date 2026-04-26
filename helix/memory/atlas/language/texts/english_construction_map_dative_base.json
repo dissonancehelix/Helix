@@ -1,0 +1,339 @@
+{
+  "id": "language.text:english_construction_map_dative_base",
+  "type": "Text",
+  "entity_id": "language.text:english_construction_map_dative_base",
+  "entity_type": "Text",
+  "name": "Prepositional Dative",
+  "label": "dative_base",
+  "description": "English text fixture 'dative_base' in corpus 'english_construction_map', compiled with parser trace and construction metadata.",
+  "source": "language_pipeline",
+  "created_at": "2026-03-23T00:49:46.918809+00:00",
+  "language": "english",
+  "text": "I gave the book to Ana.",
+  "family": "dative_shift",
+  "transform": null,
+  "embedding": {
+    "complexity": 0.0,
+    "structure": 0.1667,
+    "repetition": 0.0,
+    "density": 0.1667,
+    "expression": 0.0,
+    "variation": 1.0,
+    "confidence": 0.35,
+    "domain": "language",
+    "source_vector": "language_structural_vector",
+    "projection_schema": "language_v1"
+  },
+  "summary": {
+    "record_id": "dative_base",
+    "family": "dative_shift",
+    "construction_role": "base",
+    "sentence_type": "declarative",
+    "token_count": 6
+  },
+  "substrate": {
+    "domain": "language",
+    "language": "english",
+    "block": "substrate",
+    "schema_version": "language_substrate_v1",
+    "possibility_space": 0.9727,
+    "constraint": 0.1121,
+    "attractor_stability": 0.9666,
+    "basin_permeability": 0.782,
+    "recurrence_depth": 0.0625,
+    "source": "construction_space_fixture",
+    "evidence": {
+      "signals": [
+        {
+          "name": "lexical_variation",
+          "value": 0.9807,
+          "axis": "possibility_space"
+        },
+        {
+          "name": "frame_stability_inverse",
+          "value": 0.9375,
+          "axis": "possibility_space"
+        },
+        {
+          "name": "inflectional_load",
+          "value": 0.0506,
+          "axis": "constraint"
+        },
+        {
+          "name": "function_word_scaffolding",
+          "value": 0.2232,
+          "axis": "constraint"
+        },
+        {
+          "name": "clause_subordination",
+          "value": 0.0625,
+          "axis": "constraint"
+        },
+        {
+          "name": "mean_attractor_cohesion_inverse",
+          "value": 0.9666,
+          "axis": "attractor_stability"
+        },
+        {
+          "name": "mean_edge_distance_inverse",
+          "value": 0.782,
+          "axis": "basin_permeability"
+        },
+        {
+          "name": "top_frame_recurrence",
+          "value": 0.0625,
+          "axis": "recurrence_depth"
+        }
+      ],
+      "source_features": [
+        "construction_families: 8",
+        "transform_edges: 8",
+        "top_attractors: determiner_density, dative_shift, aux_negation"
+      ],
+      "notes": "Substrate axes are derived from centroid signals plus construction-family geometry."
+    },
+    "notes": "Heuristic grammar substrate profile derived from construction-space families, structural vector centroid, and attractor cohesion."
+  },
+  "dcp": {
+    "block": "dcp",
+    "schema_version": "language_text_dcp_v1",
+    "event_role": "pre_transform_source",
+    "event_id": "english_english_construction_map_dative_shift_08",
+    "family": "dative_shift",
+    "transform": null,
+    "qualification": "FULL",
+    "collapse_morphology": "CIRCULAR",
+    "collapse": 0.1317,
+    "post_narrowing": 0.6796,
+    "confidence": 0.3765
+  },
+  "corpus": {
+    "block": "corpus",
+    "schema_version": "language_text_corpus_link_v1",
+    "corpus_id": "language.corpus:english_construction_map",
+    "family": "dative_shift",
+    "family_size": 2,
+    "construction_role": "base",
+    "transform": null
+  },
+  "structure": {
+    "block": "structure",
+    "schema_version": "language_text_structure_v1",
+    "parser_backend": "heuristic_surface_parser",
+    "parser_trace_schema": "language_parser_trace_v1",
+    "sentence_type": "declarative",
+    "negation_present": false,
+    "pro_drop_likely": false,
+    "frame_anchor": "i gave the",
+    "axis_values": {
+      "inflectional_load": 0.0,
+      "subject_explicitness": 1.0,
+      "clause_subordination": 0.0,
+      "function_word_scaffolding": 0.3334,
+      "tense_aspect_marking": 0.0,
+      "mood_polarity": 0.0,
+      "frame_stability": 0.0,
+      "lexical_variation": 1.0
+    },
+    "dependency_proxy": {
+      "root_index": 1,
+      "root_token": "gave",
+      "subject_span": [
+        0
+      ],
+      "subject_tokens": [
+        "i"
+      ],
+      "complementizer_tokens": [],
+      "pre_root_tokens": [
+        "i"
+      ],
+      "post_root_tokens": [
+        "the",
+        "book",
+        "to",
+        "ana"
+      ]
+    }
+  },
+  "semantic": {
+    "block": "semantic",
+    "schema_version": "language_text_semantic_v1",
+    "family": "dative_shift",
+    "label": "prepositional_dative",
+    "construction_role": "base",
+    "transform": null,
+    "translation_reference_score": 0.8586,
+    "register_reference_accuracy": 0.6667,
+    "probe_reference": {
+      "agent_id": "english.english_construction_map",
+      "source_domain": "language",
+      "constraint_profile": {
+        "class": "internal",
+        "intensity": 0.1365,
+        "notes": "Language fixtures treat grammar and construction rules as internal constraint."
+      },
+      "possibility_breadth": 0.9359,
+      "tension_estimate": 0.1461,
+      "collapse_detected": true,
+      "collapse_morphology": "TRANSFORMATIVE",
+      "post_collapse_class": "TRANSFORMATIVE",
+      "confidence": 0.4322,
+      "notes": "Language DCP probe derived from construction-family transforms.",
+      "schema_version": "dcp_probe_v1"
+    }
+  },
+  "evidence": {
+    "signals": [
+      {
+        "name": "trace_confidence",
+        "value": 0.3375,
+        "block": "structure"
+      },
+      {
+        "name": "embedding_confidence",
+        "value": 0.35,
+        "block": "embedding"
+      }
+    ],
+    "source_features": [
+      "record_id: dative_base",
+      "family: dative_shift",
+      "construction_role: base"
+    ],
+    "sources": [
+      "english_construction_map",
+      "dative_base"
+    ],
+    "artifacts": [
+      "C:\\Users\\dissonance\\Desktop\\Helix\\artifacts\\language\\english_english_construction_map_20260323_004946"
+    ],
+    "notes": "Sentence-level text entity emitted from the canonical language substrate pipeline."
+  },
+  "Substrate Capability Vector": {
+    "complexity": 0.0,
+    "structure": 0.1667,
+    "repetition": 0.0,
+    "density": 0.1667,
+    "expression": 0.0,
+    "variation": 1.0
+  },
+  "metadata": {
+    "source": "language_pipeline",
+    "source_stage": "sentence_compile",
+    "source_artifact": "C:\\Users\\dissonance\\Desktop\\Helix\\artifacts\\language\\english_english_construction_map_20260323_004946",
+    "extraction_method": "heuristic_surface_parser",
+    "corpus": "english_construction_map",
+    "record_id": "dative_base",
+    "parser_trace": {
+      "record_id": "dative_base",
+      "language": "english",
+      "backend": "heuristic_surface_parser",
+      "schema_version": "language_parser_trace_v1",
+      "family": "dative_shift",
+      "label": "prepositional_dative",
+      "transform": null,
+      "edge_from": null,
+      "construction_role": "base",
+      "text": "I gave the book to Ana.",
+      "tokens": [
+        "i",
+        "gave",
+        "the",
+        "book",
+        "to",
+        "ana"
+      ],
+      "token_count": 6,
+      "sentence_type": "declarative",
+      "negation_present": false,
+      "pro_drop_likely": false,
+      "frame_anchor": "i gave the",
+      "axis_values": {
+        "inflectional_load": 0.0,
+        "subject_explicitness": 1.0,
+        "clause_subordination": 0.0,
+        "function_word_scaffolding": 0.3334,
+        "tense_aspect_marking": 0.0,
+        "mood_polarity": 0.0,
+        "frame_stability": 0.0,
+        "lexical_variation": 1.0
+      },
+      "function_word_dist": {
+        "articles": {
+          "count": 1,
+          "rate": 0.1667
+        },
+        "prepositions": {
+          "count": 1,
+          "rate": 0.1667
+        },
+        "coordinators": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "subordinators": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "negations": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "question_words": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "subject_pronouns": {
+          "count": 1,
+          "rate": 0.1667
+        }
+      },
+      "clause_profile": {
+        "subordinate": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "coordinate": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "sub_to_coord": 0.0
+      },
+      "dependency_proxy": {
+        "root_index": 1,
+        "root_token": "gave",
+        "subject_span": [
+          0
+        ],
+        "subject_tokens": [
+          "i"
+        ],
+        "complementizer_tokens": [],
+        "pre_root_tokens": [
+          "i"
+        ],
+        "post_root_tokens": [
+          "the",
+          "book",
+          "to",
+          "ana"
+        ]
+      },
+      "confidence": 0.3375,
+      "notes": "Surface-parser trace derived from token order, function-word distribution, and record-local structural vector."
+    },
+    "corpus_entity_id": "language.corpus:english_construction_map",
+    "compiled_at": "2026-03-23T00:49:46.918864+00:00",
+    "compiled_by": "atlas_compiler",
+    "compiler_version": "2.0.0"
+  },
+  "relationships": [
+    {
+      "relation": "PART_OF",
+      "target_id": "language.corpus:english_construction_map",
+      "confidence": 1.0
+    }
+  ],
+  "external_ids": {}
+}

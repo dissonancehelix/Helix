@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:adam_gilmore",
+  "entity_type": "music.composer",
+  "label": "Adam Gilmore",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Demon Blue"
+    ],
+    "artist_keys": [
+      "Adam Gilmore"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q119858399",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

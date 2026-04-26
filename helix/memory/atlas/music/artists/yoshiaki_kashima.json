@@ -1,0 +1,75 @@
+{
+  "entity_id": "music.composer:yoshiaki_kashima",
+  "entity_type": "COMPOSER",
+  "label": "Yoshiaki Kashima",
+  "aliases": [],
+  "description": "Sega Sound Team; programmer/composer; Blue Spheres confirmed",
+  "affiliations": [
+    {
+      "org": "music.soundteam:sega_sound_team",
+      "role": "programmer_composer"
+    }
+  ],
+  "library": {
+    "artist_keys": [
+      "masafumi ogata / sachio ogawa / yoshiaki kashima / junko shiratsu / yayoi wachi / haruyo oguro",
+      "yoshiaki kashima"
+    ],
+    "track_count": 72,
+    "hw_seq_count": 18,
+    "audio_count": 54,
+    "platform_counts": {
+      "vgm_vgz": 18
+    },
+    "hw_seq_track_ids": [
+      "music.track.mercs.01_mission_1",
+      "music.track.mercs.02_mission_2",
+      "music.track.mercs.03_shop",
+      "music.track.mercs.04_mission_3",
+      "music.track.mercs.05_mission_4",
+      "music.track.mercs.06_mission_5",
+      "music.track.mercs.07_boss_2",
+      "music.track.mercs.08_mission_6",
+      "music.track.mercs.09_mission_7",
+      "music.track.mercs.10_mission_8",
+      "music.track.mercs.11_final_mission",
+      "music.track.mercs.12_staff_roll",
+      "music.track.segasonic_bros.07_level_40_49_90_99",
+      "music.track.sonic_3_knuckles.43_blue_spheres",
+      "music.track.the_pro_yakyuu_91.01_runner_on_first_base_player",
+      "music.track.the_pro_yakyuu_91.02_runner_on_second_base_player",
+      "music.track.the_pro_yakyuu_91.03_runner_on_first_base_cpu",
+      "music.track.the_pro_yakyuu_91.04_runner_on_second_base_cpu"
+    ]
+  },
+  "style_signature": {
+    "groove_score": 0.571593,
+    "bass_rhythmic_regularity": 0.294598,
+    "melody_bass_independence": 0.268221,
+    "motif_recurrence": 0.153195,
+    "pitch_entropy": 3.098091,
+    "rhythmic_entropy": 1.937765,
+    "pulse_coherence": 0.038048,
+    "off_beat_ratio": 0.961952,
+    "chromatic_intrusion_rate": 0.242513,
+    "interval_roughness": 0.205149,
+    "harmonic_tension_score": 0.331072,
+    "sustained_ratio": 0.15236,
+    "register_separation": 32.673458,
+    "tempo_bpm": 215.252525,
+    "pre_seam_density_spike": 2.499549,
+    "seam_sharpness": 1.46912,
+    "emergence_index": -0.059188,
+    "disappearance_index": -0.069391,
+    "prevalence_of_tritones": 0.0,
+    "vertical_dissonance": 0.0,
+    "scale_mode": "Dorian",
+    "fm_unique_patches": null,
+    "fm_timbre_reuse_ratio": null,
+    "note_density": 18.076899,
+    "avg_phrase_length": 24.76738,
+    "phrase_regularity": 0.072543,
+    "calibration_track_count": 18,
+    "source": "applications/labs/artifacts/analysis/s3k_composer_fingerprints.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:yu_shimoda",
+  "entity_type": "music.composer",
+  "label": "Yu Shimoda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "Imported Game Music",
+      "Mega Man 10",
+      "Mega Man 9",
+      "Rakugaki Kingdom",
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Yu Shimoda"
+    ],
+    "track_count": 51
+  },
+  "external_ids": {
+    "vgmdb": "2336",
+    "musicbrainz": "13ca61fa-cdf2-4533-b7a5-3c12e4627e34",
+    "wikidata": "Q11361213",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

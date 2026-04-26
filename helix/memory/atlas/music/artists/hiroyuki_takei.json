@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hiroyuki_takei",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Takei",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Ironclad",
+      "Quiz King of Fighters",
+      "The Irritating Maze"
+    ],
+    "artist_keys": [
+      "Hiroyuki Takei"
+    ],
+    "track_count": 50
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q534001",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroyuki_Takei"
+  }
+}

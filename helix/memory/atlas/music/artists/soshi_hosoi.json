@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:soshi_hosoi",
+  "entity_type": "music.composer",
+  "label": "Soshi Hosoi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Aero Fighters 2",
+      "Aero Fighters 3",
+      "F",
+      "Lethal Crash Race"
+    ],
+    "artist_keys": [
+      "Soshi Hosoi"
+    ],
+    "track_count": 70
+  },
+  "external_ids": {
+    "vgmdb": "76",
+    "musicbrainz": "19894ff5-5a9a-4efb-82ab-c6dd15845807",
+    "wikidata": "Q11605800",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

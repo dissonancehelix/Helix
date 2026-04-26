@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:masahiro_ikariko",
+  "entity_type": "music.composer",
+  "label": "Masahiro Ikariko",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "MSX",
+      "MSX2",
+      "Mega Drive",
+      "PC-88",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Gradius II",
+      "Jikkyou Powerful Pro Yakyuu '94",
+      "King's Valley II",
+      "Metal Gear 2",
+      "Nemesis 3",
+      "Pop'n TwinBee",
+      "SD Snatcher",
+      "Salamander 2",
+      "Snatcher",
+      "Sparkster",
+      "Teenage Mutant Ninja Turtles",
+      "The Adventures of Batman and Robin",
+      "Tsuyoshi Shikkari Shinasai"
+    ],
+    "artist_keys": [
+      "Masahiro Ikariko"
+    ],
+    "track_count": 204
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

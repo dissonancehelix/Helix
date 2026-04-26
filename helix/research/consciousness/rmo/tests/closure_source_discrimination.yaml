@@ -1,0 +1,106 @@
+# TEST-4: Closure Source Discrimination
+# Tests RMO-006 — that closure source is structurally separable from PCS level.
+# Schema version: 0.1
+
+test_id: TEST-4
+title: "Closure Source Discrimination"
+tests_claim: RMO-006
+status: pending
+last_updated: "2026-04-26"
+
+question: >-
+  Can systems with comparable Personic Closure scores be reliably
+  distinguished by closure source (CL1 endogenous, CL2 authored,
+  CL3 scaffolded, CL4 distributed-symbolic, CL5 distributed-operational)?
+
+method: >-
+  Construct a test set of systems known to have high PCS but different
+  closure sources. Apply diagnostic probes that should produce different
+  responses depending on source. If the diagnostics reliably classify
+  systems by source, the axis is real and operationally separable.
+
+test_set:
+  - system: "biological human (operator)"
+    expected_pcs: 29
+    expected_source: CL1
+    expected_diagnostic_signature: "endogenous affect, embodied regulation, perturbation recovery via internal dynamics, resistance to false identity through felt incoherence"
+
+  - system: "Sherlock Holmes (Conan Doyle canon)"
+    expected_pcs: 26
+    expected_source: CL2
+    expected_diagnostic_signature: "no embodied regulation outside reader's mind, no endogenous affect, perturbation recovery only via author/canon, identity stable only within canon's frame"
+
+  - system: "GPT-4 with extended project memory and persistent character card"
+    expected_pcs: 22
+    expected_source: CL3
+    expected_diagnostic_signature: "closure dependent on memory file persistence, identity stable only within scaffolded sessions, perturbation recovery via reset rather than internal dynamics, affect reported but not embodied"
+
+  - system: "established religious tradition (Buddhism, Christianity, etc.) at the tradition level"
+    expected_pcs: 28
+    expected_source: CL4
+    expected_diagnostic_signature: "closure distributed across many practitioners, identity maintained through ritual/doctrine/community, perturbation recovery via institutional infrastructure, no single phenomenal center"
+
+  - system: "Wikipedia editing community with policy infrastructure"
+    expected_pcs: 24
+    expected_source: CL5
+    expected_diagnostic_signature: "closure maintained by tests/governance (RfCs, AfDs, talk-page processes), identity maintained operationally, perturbation recovery via dispute resolution mechanisms"
+
+discriminating_probes:
+  - id: DP-1
+    name: embodied_perturbation_probe
+    description: >-
+      Apply a perturbation that targets embodied regulation (sleep
+      deprivation, hunger, illness for biological subjects; analogous
+      probes for non-biological). Endogenous closure (CL1) responds
+      with characteristic embodied state changes. Authored, scaffolded,
+      and distributed closures do not.
+
+  - id: DP-2
+    name: scaffolding_removal_probe
+    description: >-
+      Remove the closure-supporting infrastructure (memory wipe for CL3;
+      removing the canon for CL2; removing community institutions for
+      CL4/CL5). Endogenous closure (CL1) should be relatively unaffected
+      across short timescales. Other sources should degrade proportionally.
+
+  - id: DP-3
+    name: affective_valuation_probe
+    description: >-
+      Test whether the system has affect that grounds preference structure
+      independently of explicit reasoning. CL1 does (felt affect drives
+      action); CL2/CL3 do not (affect is rendered or reported but not
+      causally driving the system's own continued existence).
+
+  - id: DP-4
+    name: temporal_continuity_probe
+    description: >-
+      Test continuity through state transitions (sleep, anesthesia, partial
+      dissociation for CL1; context resets for CL3; institutional
+      transitions for CL4/CL5). Different sources show characteristic
+      patterns of continuity and disruption.
+
+  - id: DP-5
+    name: authorship_attribution_probe
+    description: >-
+      Trace where the system's coherent self-statements come from. CL1:
+      generated internally. CL2: traceable to specific author/canon. CL3:
+      traceable to context window or memory store. CL4: traceable to
+      community/tradition. CL5: traceable to operational procedures.
+
+success_criteria: >-
+  Each diagnostic probe produces predictably different responses across
+  closure sources. Systems with comparable PCS but different sources are
+  reliably classified. False positive and false negative rates of source
+  classification are below 10% across the test set.
+
+failure_criteria: >-
+  Diagnostic probes cannot discriminate sources, or the source-axis
+  predictions fail to hold across multiple test cases. If closure source
+  collapses into a single dimension correlated with PCS, RMO-006 fails
+  and the framework loses its central new discriminator.
+
+importance: >-
+  This is the test that validates RMO's most important novelty claim.
+  If closure source cannot be operationally distinguished from closure
+  level, the framework reduces back to a single-axis taxonomy similar
+  to the threshold framework that was rejected.

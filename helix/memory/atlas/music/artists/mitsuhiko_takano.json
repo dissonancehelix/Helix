@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:mitsuhiko_takano",
+  "entity_type": "music.composer",
+  "label": "Mitsuhiko Takano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Super NES"
+    ],
+    "franchises": [
+      "Mega Man Star Force",
+      "Mega Man Xtreme 2",
+      "Resident Evil Outbreak",
+      "Tetris 2",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Mitsuhiko Takano"
+    ],
+    "track_count": 79
+  },
+  "external_ids": {
+    "vgmdb": "1521",
+    "musicbrainz": "b69f6ca3-cf78-4eee-bcf6-e6a90814fbc9",
+    "wikidata": "Q11673010",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1175383"
+  }
+}

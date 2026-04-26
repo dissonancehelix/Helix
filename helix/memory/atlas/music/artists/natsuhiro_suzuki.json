@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:natsuhiro_suzuki",
+  "entity_type": "music.composer",
+  "label": "Natsuhiro Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Guardian Heroes"
+    ],
+    "artist_keys": [
+      "Natsuhiro Suzuki"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

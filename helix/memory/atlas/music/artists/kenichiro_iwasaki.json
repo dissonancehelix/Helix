@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kenichiro_iwasaki",
+  "entity_type": "music.composer",
+  "label": "Kenichiro Iwasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Puzzle Bobble DS"
+    ],
+    "artist_keys": [
+      "Kenichiro Iwasaki"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

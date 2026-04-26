@@ -1,0 +1,17 @@
+
+{
+  "entity_id": "music.composer:koji_kondo",
+  "entity_type": "music.composer",
+  "label": "Koji Kondo",
+  "aliases": [
+    "近藤 浩治",
+    "Kōji Kondō"
+  ],
+  "external_ids": {
+    "wikidata": "Q2406",
+    "vgmdb": "113",
+    "spotify": "4S989Sdt79245",
+    "musicbrainz": "e944b025-a7b2-4d57-b2e3-2e0e01479d52",
+    "wikipedia": "https://en.wikipedia.org/wiki/Koji_Kondo"
+  }
+}

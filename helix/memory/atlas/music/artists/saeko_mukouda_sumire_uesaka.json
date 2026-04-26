@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:saeko_mukouda_sumire_uesaka",
+  "entity_type": "music.composer",
+  "label": "Saeko Mukouda (Sumire Uesaka)",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza"
+    ],
+    "artist_keys": [
+      "Saeko Mukouda (Sumire Uesaka)"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

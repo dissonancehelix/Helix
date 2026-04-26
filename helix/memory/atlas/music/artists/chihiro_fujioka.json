@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:chihiro_fujioka",
+  "entity_type": "music.composer",
+  "label": "Chihiro Fujioka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "MSX2",
+      "PC-88"
+    ],
+    "franchises": [
+      "Battle Gorilla",
+      "Burai",
+      "Final Fantasy Legend III"
+    ],
+    "artist_keys": [
+      "Chihiro Fujioka"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "355",
+    "musicbrainz": "675e71d5-7c4c-4680-885d-1ecaa6aa769e",
+    "wikidata": "Q3674582",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chihiro_Fujioka"
+  }
+}

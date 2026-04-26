@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:daikaijyu_manabun",
+  "entity_type": "music.composer",
+  "label": "Daikaijyu Manabun",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bullfight"
+    ],
+    "artist_keys": [
+      "Daikaijyu Manabun"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

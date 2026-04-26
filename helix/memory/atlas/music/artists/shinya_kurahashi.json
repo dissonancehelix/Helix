@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shinya_kurahashi",
+  "entity_type": "music.composer",
+  "label": "Shinya Kurahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Zen"
+    ],
+    "artist_keys": [
+      "Shinya Kurahashi"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

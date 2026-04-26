@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:deniz_akbulut",
+  "entity_type": "music.composer",
+  "label": "Deniz Akbulut",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "CrossCode"
+    ],
+    "artist_keys": [
+      "Deniz Akbulut"
+    ],
+    "track_count": 78
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q108843967",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

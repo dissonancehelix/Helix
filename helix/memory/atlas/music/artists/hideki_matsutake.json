@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hideki_matsutake",
+  "entity_type": "music.composer",
+  "label": "Hideki Matsutake",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Silhouette Mirage"
+    ],
+    "artist_keys": [
+      "Hideki Matsutake"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "3032",
+    "musicbrainz": "c9e71458-93f9-43a9-960e-b16b17b2241d",
+    "wikidata": "Q1617352",
+    "spotify": "09Bje908BxQgm1haTuljC6",
+    "lastfm": "松武秀樹",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hideki_Matsutake"
+  }
+}

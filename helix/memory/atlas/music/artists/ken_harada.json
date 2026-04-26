@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ken_harada",
+  "entity_type": "music.composer",
+  "label": "Ken Harada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter IV"
+    ],
+    "artist_keys": [
+      "Ken Harada"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "17938",
+    "musicbrainz": "fc57940c-93c2-45fe-8545-057be35bda85",
+    "wikidata": "Q11409843",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

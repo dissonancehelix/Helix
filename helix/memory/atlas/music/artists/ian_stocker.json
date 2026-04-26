@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ian_stocker",
+  "entity_type": "music.composer",
+  "label": "Ian Stocker",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Adventure Time"
+    ],
+    "artist_keys": [
+      "Ian Stocker"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takayuki_mimura",
+  "entity_type": "music.composer",
+  "label": "Takayuki Mimura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Gamma Planet"
+    ],
+    "artist_keys": [
+      "Takayuki Mimura"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

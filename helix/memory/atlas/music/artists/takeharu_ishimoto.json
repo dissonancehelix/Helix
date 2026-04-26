@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:takeharu_ishimoto",
+  "entity_type": "music.composer",
+  "label": "Takeharu Ishimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy Type",
+      "Fullmetal Alchemist",
+      "Kingdom Hearts 3D",
+      "Kingdom Hearts Birth by Sleep",
+      "Kingdom Hearts III",
+      "The World Ends with You"
+    ],
+    "artist_keys": [
+      "Takeharu Ishimoto"
+    ],
+    "track_count": 123
+  },
+  "external_ids": {
+    "vgmdb": "776",
+    "musicbrainz": "0e54f9fd-7011-4c77-86f0-59021c5ffddf",
+    "wikidata": "Q2626374",
+    "spotify": "04LEJd8eE8sDCre2pUpoW9",
+    "lastfm": "Takeharu+Ishimoto",
+    "discogs": "487811",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takeharu_Ishimoto"
+  }
+}

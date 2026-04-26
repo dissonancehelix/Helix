@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:haruhisa_tanaka",
+  "entity_type": "music.composer",
+  "label": "Haruhisa Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Kira Kira Star Night"
+    ],
+    "artist_keys": [
+      "Haruhisa Tanaka"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:daisuke_matsuoka",
+  "entity_type": "music.composer",
+  "label": "Daisuke Matsuoka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Donkey Kong Bananza",
+      "Donkey Kong Country Returns",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Daisuke Matsuoka"
+    ],
+    "track_count": 130
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3700919",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tachi_hiyama",
+  "entity_type": "music.composer",
+  "label": "tachi hiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "tachi hiyama"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

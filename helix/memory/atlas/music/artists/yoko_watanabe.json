@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yoko_watanabe",
+  "entity_type": "music.composer",
+  "label": "Yoko Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Soccer 2"
+    ],
+    "artist_keys": [
+      "Yoko Watanabe"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q273433",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoko_Watanabe"
+  }
+}

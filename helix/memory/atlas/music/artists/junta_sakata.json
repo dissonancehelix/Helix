@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:junta_sakata",
+  "entity_type": "music.composer",
+  "label": "Junta Sakata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Doomsday Warrior",
+      "Super Valis IV",
+      "Valis IV"
+    ],
+    "artist_keys": [
+      "Junta Sakata"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

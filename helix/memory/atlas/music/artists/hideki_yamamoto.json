@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:hideki_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Hideki Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Aggressors of Dark Kombat",
+      "Magician Lord",
+      "Ninja Combat",
+      "Over Top",
+      "Thrash Rally",
+      "World Heroes",
+      "World Heroes 2",
+      "World Heroes 2 Jet",
+      "World Heroes Perfect"
+    ],
+    "artist_keys": [
+      "Hideki Yamamoto"
+    ],
+    "track_count": 112
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q91519930",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

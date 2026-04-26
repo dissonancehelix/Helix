@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hideyuki_shimono",
+  "entity_type": "music.composer",
+  "label": "Hideyuki Shimono",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Fire Storm",
+      "Genocide 2"
+    ],
+    "artist_keys": [
+      "Hideyuki Shimono"
+    ],
+    "track_count": 56
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

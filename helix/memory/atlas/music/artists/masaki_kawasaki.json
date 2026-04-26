@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:masaki_kawasaki",
+  "entity_type": "music.composer",
+  "label": "Masaki Kawasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Caravan Stories"
+    ],
+    "artist_keys": [
+      "Masaki Kawasaki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

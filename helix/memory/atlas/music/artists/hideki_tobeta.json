@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:hideki_tobeta",
+  "entity_type": "music.composer",
+  "label": "Hideki Tobeta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PlayStation"
+    ],
+    "franchises": [
+      "Alpine Racer 3",
+      "Community POM",
+      "Katamari Damacy",
+      "Katamari Forever",
+      "Kotoba no Puzzle",
+      "Me & My Katamari",
+      "We Love Katamari"
+    ],
+    "artist_keys": [
+      "Hideki Tobeta"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

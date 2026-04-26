@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kentaro_ishizaka",
+  "entity_type": "music.composer",
+  "label": "Kentaro Ishizaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Kentaro Ishizaka"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:66_boys",
+  "entity_type": "music.composer",
+  "label": "66 Boys",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid 3"
+    ],
+    "artist_keys": [
+      "66 Boys"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

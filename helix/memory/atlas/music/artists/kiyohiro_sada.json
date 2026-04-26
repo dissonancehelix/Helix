@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:kiyohiro_sada",
+  "entity_type": "music.composer",
+  "label": "Kiyohiro Sada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bio Miracle Bokutte Upa",
+      "Exciting Soccer",
+      "Final Mission",
+      "King Kong 2",
+      "Kouryu no Mimi",
+      "Meikyuu Jiin Dababa",
+      "Risa's Fairy Tale",
+      "S.C.A.T.",
+      "Stinger",
+      "The Adventures of Bayou Billy",
+      "The Maze of Galious",
+      "Top Gun"
+    ],
+    "artist_keys": [
+      "Kiyohiro Sada"
+    ],
+    "track_count": 100
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

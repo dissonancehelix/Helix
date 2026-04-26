@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshikata_hirota",
+  "entity_type": "music.composer",
+  "label": "Yoshikata Hirota",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "DK"
+    ],
+    "artist_keys": [
+      "Yoshikata Hirota"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hal_canon",
+  "entity_type": "music.composer",
+  "label": "Hal Canon",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Gauntlet",
+      "Marble Madness",
+      "Xybots"
+    ],
+    "artist_keys": [
+      "Hal Canon"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

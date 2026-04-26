@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yasuyuki_suzuki",
+  "entity_type": "music.composer",
+  "label": "Yasuyuki Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Monster Kingdom",
+      "Soldam"
+    ],
+    "artist_keys": [
+      "Yasuyuki Suzuki"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "40b52900-0160-433d-9484-9dd49808fd2a",
+    "wikidata": "Q12010955",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

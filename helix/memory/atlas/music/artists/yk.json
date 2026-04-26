@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yk",
+  "entity_type": "music.composer",
+  "label": "Y.K",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Ochin ni Toshi Puzzle Tonjan!?"
+    ],
+    "artist_keys": [
+      "Y.K"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1185713",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Y%C5%ABgen_gaisha"
+  }
+}

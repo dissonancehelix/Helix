@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:cdric_menendez",
+  "entity_type": "music.composer",
+  "label": "Cédric Menendez",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Edge of Eternity"
+    ],
+    "artist_keys": [
+      "Cédric Menendez"
+    ],
+    "track_count": 68
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

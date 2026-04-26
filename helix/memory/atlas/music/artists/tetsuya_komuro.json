@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tetsuya_komuro",
+  "entity_type": "music.composer",
+  "label": "Tetsuya Komuro",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Tetsuya Komuro"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

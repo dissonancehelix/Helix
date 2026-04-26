@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:franz_liszt",
+  "entity_type": "music.composer",
+  "label": "Franz Liszt",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX"
+    ],
+    "franchises": [
+      "Parodius"
+    ],
+    "artist_keys": [
+      "Franz Liszt"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "7146",
+    "musicbrainz": "2cd475bb-1abd-40c4-9904-6d4b691c752c",
+    "wikidata": "Q41309",
+    "spotify": "1385hLNbrnbCJGokfH2ac2",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Franz_Liszt"
+  }
+}

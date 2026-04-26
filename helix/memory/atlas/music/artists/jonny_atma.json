@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:jonny_atma",
+  "entity_type": "music.composer",
+  "label": "Jonny Atma",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Jonny Atma"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

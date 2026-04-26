@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:yasuaki_iwata",
+  "entity_type": "music.composer",
+  "label": "Yasuaki Iwata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Animal Crossing",
+      "Arms",
+      "Mario Kart 8",
+      "Super Mario 3D World",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Yasuaki Iwata"
+    ],
+    "track_count": 209
+  },
+  "external_ids": {
+    "vgmdb": "16186",
+    "musicbrainz": "e1ecd002-1ed6-4b6c-ac01-aa271827dcd2",
+    "wikidata": "Q90154191",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

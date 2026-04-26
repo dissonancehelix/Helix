@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:usako",
+  "entity_type": "music.composer",
+  "label": "Usako",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo Pocket Color"
+    ],
+    "franchises": [
+      "King of Fighters R"
+    ],
+    "artist_keys": [
+      "Usako"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q757015",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sailor_Moon_(character)"
+  }
+}

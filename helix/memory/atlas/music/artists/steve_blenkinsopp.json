@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:steve_blenkinsopp",
+  "entity_type": "music.composer",
+  "label": "Steve Blenkinsopp",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Mr. Tuff",
+      "RollerCoaster Tycoon"
+    ],
+    "artist_keys": [
+      "Steve Blenkinsopp"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:matsuko_mawatari",
+  "entity_type": "music.composer",
+  "label": "Matsuko Mawatari",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "YuYu Hakusho"
+    ],
+    "artist_keys": [
+      "Matsuko Mawatari"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "4574",
+    "musicbrainz": "255d0a52-ed64-4568-a67e-1b7ff6ab98d0",
+    "wikidata": "Q3273184",
+    "spotify": "4uXVncHzrGNwBaQHOWLGG5",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Matsuko_Mawatari"
+  }
+}

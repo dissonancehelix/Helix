@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shaft",
+  "entity_type": "music.composer",
+  "label": "Shaft",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Shaft"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "067d6b9e-0760-4a3d-9a6f-de59839cd330",
+    "wikidata": "Q1204821",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shaft_(company)"
+  }
+}

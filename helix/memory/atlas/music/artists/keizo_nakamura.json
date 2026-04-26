@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:keizo_nakamura",
+  "entity_type": "music.composer",
+  "label": "Keizo Nakamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Akumajo Dracula",
+      "Castlevania",
+      "Surprise Attack"
+    ],
+    "artist_keys": [
+      "Keizo Nakamura"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:atsuko_asahi",
+  "entity_type": "music.composer",
+  "label": "Atsuko Asahi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Animal Crossing",
+      "Arms",
+      "Mario Kart 8",
+      "Pikmin 3",
+      "Steel Diver",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Atsuko Asahi"
+    ],
+    "track_count": 329
+  },
+  "external_ids": {
+    "vgmdb": "14984",
+    "musicbrainz": "8fe9d28d-4a92-4c14-978c-a2912d3992f3",
+    "wikidata": "Q20038444",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:katsunori_yoshino",
+  "entity_type": "music.composer",
+  "label": "Katsunori Yoshino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Azure Striker Gunvolt",
+      "Mighty Gunvolt",
+      "Mighty No. 9"
+    ],
+    "artist_keys": [
+      "Katsunori Yoshino"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

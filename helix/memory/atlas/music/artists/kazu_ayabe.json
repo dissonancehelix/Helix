@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kazu_ayabe",
+  "entity_type": "music.composer",
+  "label": "Kazu Ayabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Ochin ni Toshi Puzzle Tonjan!?"
+    ],
+    "artist_keys": [
+      "Kazu Ayabe"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:izuho_yoshitani",
+  "entity_type": "music.composer",
+  "label": "Izuho Yoshitani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2",
+      "PC-9801",
+      "X68000"
+    ],
+    "franchises": [
+      "Cosmic Psycho",
+      "Mesuneko Hishoshitsu",
+      "Night Slave"
+    ],
+    "artist_keys": [
+      "Izuho Yoshitani"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

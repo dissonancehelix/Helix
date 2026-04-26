@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:onitama",
+  "entity_type": "music.composer",
+  "label": "ONITAMA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "MCMLXC",
+      "SYNERGY MCMXCI"
+    ],
+    "artist_keys": [
+      "ONITAMA"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q56457416",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Onitama"
+  }
+}

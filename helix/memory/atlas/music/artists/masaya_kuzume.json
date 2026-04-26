@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masaya_kuzume",
+  "entity_type": "music.composer",
+  "label": "Masaya Kuzume",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Panel de Pon"
+    ],
+    "artist_keys": [
+      "Masaya Kuzume"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

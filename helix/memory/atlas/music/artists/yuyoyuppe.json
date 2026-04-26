@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yuyoyuppe",
+  "entity_type": "music.composer",
+  "label": "Yuyoyuppe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "God Eater 2",
+      "Yakuza 0"
+    ],
+    "artist_keys": [
+      "Yuyoyuppe"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "9357",
+    "musicbrainz": "fc65606d-5ec2-4492-8c48-e914a787f9da",
+    "wikidata": "Q24868155",
+    "spotify": "43SpPuptZj45KCN2EHWHDW",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuyoyuppe"
+  }
+}

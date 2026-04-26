@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:hitomi_komatsu",
+  "entity_type": "music.composer",
+  "label": "Hitomi Komatsu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Act",
+      "Bloody Wolf",
+      "Hippodrome",
+      "Psycho",
+      "RoboCop",
+      "Wonder Planet"
+    ],
+    "artist_keys": [
+      "Hitomi Komatsu"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q93147506",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

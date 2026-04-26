@@ -1,0 +1,101 @@
+{
+    "domain": "language",
+    "language": "french",
+    "system_description": "French disambiguation under phonological ambiguity. Unlike Spanish, many French verb forms are homophonous in speech (je mange / tu manges / il mange sound identical). This creates more residual ambiguity that must be resolved by subject pronouns (obligatory) and written morphology. Clitic ordering (je le lui donne) is strict and pre-resolves object roles. Ne...pas bipartite negation requires both particles — an incomplete negation is a parse failure signal.",
+    "agents": [
+        {
+            "id": "rule_subject_pronoun",
+            "role": "dominant_rule",
+            "influence_weight": 0.7381,
+            "ud_signal_type": "agreement"
+        },
+        {
+            "id": "rule_clitic_order",
+            "role": "dominant_rule",
+            "influence_weight": 0.1366,
+            "ud_signal_type": "word_order"
+        },
+        {
+            "id": "rule_ne_pas_frame",
+            "role": "secondary_rule",
+            "influence_weight": 0.0253,
+            "ud_signal_type": "case"
+        },
+        {
+            "id": "rule_pragmatic",
+            "role": "edge_case",
+            "influence_weight": 0.1,
+            "ud_signal_type": "pragmatic"
+        }
+    ],
+    "decision_rounds": [
+        {
+            "round": 1,
+            "weights": [
+                0.77,
+                0.12,
+                0.02,
+                0.09
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 2,
+            "weights": [
+                0.74,
+                0.14,
+                0.04,
+                0.08
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 3,
+            "weights": [
+                0.76,
+                0.12,
+                0.01,
+                0.11
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 4,
+            "weights": [
+                0.74,
+                0.13,
+                0.03,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 5,
+            "weights": [
+                0.74,
+                0.14,
+                0.04,
+                0.08
+            ],
+            "outcome": "parse_A"
+        }
+    ],
+    "expected_k_eff_range": [
+        1.48,
+        2.0
+    ],
+    "notes": "French has higher k_eff than Spanish despite similar grammar because many written contrasts are phonologically neutralized (homophonous verb forms). The subject pronoun is obligatory (no pro-drop), so it carries more disambiguation weight than in Spanish. More effective alternatives survive into later parse stages — the DCP signal is real but fires later.",
+    "source": "ud_treebank",
+    "ud_diagnostics": {
+        "sentences_analyzed": 500,
+        "case_density": 0.1803,
+        "agreement_density": 0.8371,
+        "order_rigidity": 0.9674,
+        "order_signal": 1.0,
+        "morphological_richness": 1.5296,
+        "compression_density": 1.5075,
+        "dominant_rule": "agreement",
+        "ud_k_eff": 1.742,
+        "treebank": "UD_French-GSD"
+    }
+}

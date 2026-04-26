@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:toru_minegishi",
+  "entity_type": "music.composer",
+  "label": "Toru Minegishi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Animal Crossing",
+      "Pokémon Stadium",
+      "Splatoon",
+      "Splatoon 2",
+      "Splatoon 3",
+      "Steel Diver",
+      "Super Mario 3D World",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. for Wii U",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Toru Minegishi"
+    ],
+    "track_count": 560
+  },
+  "external_ids": {
+    "vgmdb": "698",
+    "musicbrainz": "56c56d7e-8df1-4d32-a703-b6a1e914c638",
+    "wikidata": "Q4346784",
+    "spotify": "",
+    "lastfm": "峰岸透",
+    "discogs": "2734149",
+    "wikipedia": "https://en.wikipedia.org/wiki/Toru_Minegishi"
+  }
+}

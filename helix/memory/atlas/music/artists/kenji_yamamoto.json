@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:kenji_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Kenji Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "Super NES",
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Famicom Tantei Club II",
+      "Famicom Wars",
+      "Galactic Pinball",
+      "Hajimari no Mori",
+      "Metroid",
+      "Metroid Prime",
+      "Mike Tyson's Punch",
+      "Super Dragon Ball Z",
+      "Super Metroid",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. for Wii U",
+      "Wii Channels"
+    ],
+    "artist_keys": [
+      "Kenji Yamamoto"
+    ],
+    "track_count": 197
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q95599768",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

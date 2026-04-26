@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yoko_ogawa",
+  "entity_type": "music.composer",
+  "label": "Yoko Ogawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Magical Speed"
+    ],
+    "artist_keys": [
+      "Yoko Ogawa"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "adf191c1-6972-4597-9618-8fe086b97bee",
+    "wikidata": "Q449473",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Y%C5%8Dko_Ogawa"
+  }
+}

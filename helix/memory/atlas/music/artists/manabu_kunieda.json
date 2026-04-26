@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:manabu_kunieda",
+  "entity_type": "music.composer",
+  "label": "Manabu Kunieda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Doukyusei",
+      "Doukyusei 2",
+      "Dragon Knight II",
+      "FOXY 2",
+      "Kakyusei",
+      "Knights of Xentar"
+    ],
+    "artist_keys": [
+      "Manabu Kunieda"
+    ],
+    "track_count": 257
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hiroki_kamata",
+  "entity_type": "music.composer",
+  "label": "Hiroki Kamata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Grandslam"
+    ],
+    "artist_keys": [
+      "Hiroki Kamata"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11651079",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

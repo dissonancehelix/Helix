@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:lil_yachty",
+  "entity_type": "music.composer",
+  "label": "Lil Yachty",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bad Cameo"
+    ],
+    "artist_keys": [
+      "Lil Yachty"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q28403738",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lil_Yachty_discography"
+  }
+}

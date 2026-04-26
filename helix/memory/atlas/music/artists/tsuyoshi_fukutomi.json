@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tsuyoshi_fukutomi",
+  "entity_type": "music.composer",
+  "label": "Tsuyoshi Fukutomi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Dragon Knight 4"
+    ],
+    "artist_keys": [
+      "Tsuyoshi Fukutomi"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kota_hoshino",
+  "entity_type": "music.composer",
+  "label": "Kota Hoshino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Armored Core",
+      "Armored Core VI",
+      "GeOnDan Rare Tracks Ver. 1.0"
+    ],
+    "artist_keys": [
+      "Kota Hoshino"
+    ],
+    "track_count": 73
+  },
+  "external_ids": {
+    "vgmdb": "3031",
+    "musicbrainz": "cf60e489-ec5a-4c46-84ce-60dbd61b1092",
+    "wikidata": "Q6433798",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kota_Hoshino"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:guitar_vader",
+  "entity_type": "music.composer",
+  "label": "Guitar Vader",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio Future"
+    ],
+    "artist_keys": [
+      "Guitar Vader"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "1198",
+    "musicbrainz": "142ec5db-16ab-49f5-9f1f-8784889a0675",
+    "wikidata": "Q5616814",
+    "spotify": "",
+    "lastfm": "Guitar+Vader",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guitar_Vader"
+  }
+}

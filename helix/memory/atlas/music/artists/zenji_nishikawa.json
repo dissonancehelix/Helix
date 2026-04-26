@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:zenji_nishikawa",
+  "entity_type": "music.composer",
+  "label": "Zenji Nishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Sion",
+      "Sion II"
+    ],
+    "artist_keys": [
+      "Zenji Nishikawa"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

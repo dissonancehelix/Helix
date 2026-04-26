@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:shinji_hosoe",
+  "entity_type": "music.composer",
+  "label": "Shinji Hosoe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Nintendo 64",
+      "PC-98",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "3D Dot Game Heroes",
+      "404 Game Re",
+      "Assault",
+      "Collaboration Album \"Message\"",
+      "Custom Robo",
+      "Custom Robo V2",
+      "Cyber Commando",
+      "Cyber Cycles",
+      "Cyber Sled",
+      "Dark Chronicle Premium Arrange"
+    ],
+    "artist_keys": [
+      "Shinji Hosoe"
+    ],
+    "track_count": 809
+  },
+  "external_ids": {
+    "vgmdb": "36219",
+    "musicbrainz": "270d14a8-46fe-4cdb-ba1f-8ba2a698ae53",
+    "wikidata": "Q2740962",
+    "spotify": "0V7DFCGIyZzxdULoEiyDTb",
+    "lastfm": "細江慎治",
+    "discogs": "980321",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shinji_Hosoe"
+  }
+}

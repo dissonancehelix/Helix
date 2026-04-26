@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:you",
+  "entity_type": "music.composer",
+  "label": "YOU",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "MCMLXC"
+    ],
+    "artist_keys": [
+      "YOU"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

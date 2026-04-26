@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shigekazu_kamaki",
+  "entity_type": "music.composer",
+  "label": "Shigekazu Kamaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "Super NES"
+    ],
+    "franchises": [
+      "Chikyuu Kaihou Gun ZAS",
+      "Sword World SFC"
+    ],
+    "artist_keys": [
+      "Shigekazu Kamaki"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

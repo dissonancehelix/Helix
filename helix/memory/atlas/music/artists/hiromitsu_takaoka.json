@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hiromitsu_takaoka",
+  "entity_type": "music.composer",
+  "label": "Hiromitsu Takaoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "1941",
+      "Chiki Chiki Boys",
+      "Final Fight",
+      "Mega Twins",
+      "Super Pang"
+    ],
+    "artist_keys": [
+      "Hiromitsu Takaoka"
+    ],
+    "track_count": 88
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

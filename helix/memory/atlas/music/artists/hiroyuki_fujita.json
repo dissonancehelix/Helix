@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroyuki_fujita",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Fujita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soulcalibur IV"
+    ],
+    "artist_keys": [
+      "Hiroyuki Fujita"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q133622277",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroki_mizukami",
+  "entity_type": "music.composer",
+  "label": "Hiroki Mizukami",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Growlanser VI"
+    ],
+    "artist_keys": [
+      "Hiroki Mizukami"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90438583",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

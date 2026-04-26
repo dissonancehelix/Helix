@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:zenzo",
+  "entity_type": "music.composer",
+  "label": "Zenzo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear"
+    ],
+    "franchises": [
+      "Phantasy Star Gaiden"
+    ],
+    "artist_keys": [
+      "Zenzo"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q8069266",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zenz%C5%8D"
+  }
+}

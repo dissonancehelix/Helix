@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:zenta_tsuchihashi",
+  "entity_type": "music.composer",
+  "label": "Zenta Tsuchihashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Yakuza",
+      "Yakuza 0",
+      "Yakuza 5",
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "Zenta Tsuchihashi"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

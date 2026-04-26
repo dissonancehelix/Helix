@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:bananapple",
+  "entity_type": "music.composer",
+  "label": "Bananapple",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Knights of Xentar"
+    ],
+    "artist_keys": [
+      "Bananapple"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

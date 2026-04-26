@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shiro_hamaguchi",
+  "entity_type": "music.composer",
+  "label": "Shiro Hamaguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy X",
+      "Fithos Lusec Wecos Vinosec"
+    ],
+    "artist_keys": [
+      "Shiro Hamaguchi"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "125",
+    "musicbrainz": "1a851e93-ef32-4569-927b-ccd39608ea34",
+    "wikidata": "Q2604425",
+    "spotify": "",
+    "lastfm": "%E6%B5%9C%E5%8F%A3%E5%8F%B2%E9%83%8E",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shir%C5%8D_Hamaguchi"
+  }
+}

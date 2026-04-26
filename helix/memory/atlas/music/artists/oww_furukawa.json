@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:oww_furukawa",
+  "entity_type": "music.composer",
+  "label": "Oww Furukawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Minnesota Fats"
+    ],
+    "artist_keys": [
+      "Oww Furukawa"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

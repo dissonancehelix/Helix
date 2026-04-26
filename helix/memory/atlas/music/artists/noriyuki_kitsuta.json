@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:noriyuki_kitsuta",
+  "entity_type": "music.composer",
+  "label": "Noriyuki Kitsuta",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Chee"
+    ],
+    "artist_keys": [
+      "Noriyuki Kitsuta"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

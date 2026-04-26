@@ -1,0 +1,19 @@
+{
+  "genre_surface_policy": {
+    "version": "1.0",
+    "mappings": {
+      "VGM": ["Video Game Music", "Chiptune", "8-bit", "16-bit", "Game Soundtrack", "VGM"],
+      "Electronic": ["Techno", "House", "Trance", "Dubstep", "Ambient", "IDM", "Drum and Bass", "DnB", "Synthwave", "Future Bass"],
+      "Rock": ["Alternative Rock", "Indie Rock", "Progressive Rock", "Grunge", "Punk", "Psychedelic Rock", "Post-Rock"],
+      "Metal": ["Heavy Metal", "Power Metal", "Death Metal", "Black Metal", "Thrash Metal", "Nu-Metal", "Progressive Metal", "Doom Metal"],
+      "Jazz": ["Contemporary Jazz", "Fusion", "Bebop", "Cool Jazz", "Acid Jazz", "Swing"],
+      "Pop": ["Indie Pop", "Art Pop", "Electropop", "Dream Pop", "J-Pop", "K-Pop"],
+      "Hip-Hop": ["Rap", "Trap", "Boombap", "Lo-fi Hip-Hop"],
+      "Folk": ["Acoustic", "Folk Rock", "Indie Folk", "Americana"],
+      "Classical": ["Symphonic", "Chamber", "Piano Solo", "Opera"],
+      "World": ["Latin", "African", "Celtic", "Bossa Nova"]
+    },
+    "default": "Other",
+    "priority": ["VGM", "Metal", "Jazz", "Electronic", "Rock", "Pop", "Hip-Hop", "Folk", "Classical", "World"]
+  }
+}

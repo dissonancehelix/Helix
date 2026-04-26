@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:todd_porter",
+  "entity_type": "music.composer",
+  "label": "Todd Porter",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Ultima VI"
+    ],
+    "artist_keys": [
+      "Todd Porter"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "1819487a-994a-4a5a-9cc4-8fe3c3652bca",
+    "wikidata": "Q14481273",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

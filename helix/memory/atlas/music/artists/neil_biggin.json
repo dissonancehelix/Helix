@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:neil_biggin",
+  "entity_type": "music.composer",
+  "label": "Neil Biggin",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Full Throttle Racing",
+      "Newman",
+      "Top Gear 3000"
+    ],
+    "artist_keys": [
+      "Neil Biggin"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

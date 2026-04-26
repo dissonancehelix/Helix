@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:marcin_przybyowicz",
+  "entity_type": "music.composer",
+  "label": "Marcin Przybyłowicz",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cyberpunk 2077",
+      "The Witcher 2",
+      "The Witcher 3"
+    ],
+    "artist_keys": [
+      "Marcin Przybyłowicz"
+    ],
+    "track_count": 81
+  },
+  "external_ids": {
+    "vgmdb": "12632",
+    "musicbrainz": "9ce4f0c8-8ce4-461a-ba1e-10460d2399a2",
+    "wikidata": "Q19005369",
+    "spotify": "07vycW8ICLf5hKb22PFWXw",
+    "lastfm": "Marcin+Przybyłowicz",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marcin_Przyby%C5%82owicz"
+  }
+}

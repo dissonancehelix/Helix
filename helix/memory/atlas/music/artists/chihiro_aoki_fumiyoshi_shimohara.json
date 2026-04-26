@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:chihiro_aoki_fumiyoshi_shimohara",
+  "entity_type": "music.composer",
+  "label": "Chihiro Aoki, Fumiyoshi Shimohara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "Chihiro Aoki, Fumiyoshi Shimohara"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

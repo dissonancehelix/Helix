@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:satoko_miyawaki",
+  "entity_type": "music.composer",
+  "label": "Satoko Miyawaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES"
+    ],
+    "franchises": [
+      "Fantastic Journey",
+      "Gaiapolis",
+      "Hexion",
+      "Tiny Toon Adventures",
+      "Wai Wai World 2",
+      "Xexex"
+    ],
+    "artist_keys": [
+      "Satoko Miyawaki"
+    ],
+    "track_count": 86
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

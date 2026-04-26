@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akihiko_seto",
+  "entity_type": "music.composer",
+  "label": "Akihiko Seto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Seibu Cup Soccer"
+    ],
+    "artist_keys": [
+      "Akihiko Seto"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

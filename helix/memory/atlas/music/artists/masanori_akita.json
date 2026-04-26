@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masanori_akita",
+  "entity_type": "music.composer",
+  "label": "Masanori Akita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake"
+    ],
+    "artist_keys": [
+      "Masanori Akita"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "1615",
+    "musicbrainz": "f23b6e86-6c4f-4dd5-bd07-fd28113b6495",
+    "wikidata": "Q30926820",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

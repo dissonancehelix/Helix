@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:imami_pon",
+  "entity_type": "music.composer",
+  "label": "Imami Pon",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear"
+    ],
+    "franchises": [
+      "GG Aleste II"
+    ],
+    "artist_keys": [
+      "Imami Pon"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

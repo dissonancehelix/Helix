@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:toshio_okamoto",
+  "entity_type": "music.composer",
+  "label": "Toshio Okamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Mega Man Soccer"
+    ],
+    "artist_keys": [
+      "Toshio Okamoto"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11364315",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

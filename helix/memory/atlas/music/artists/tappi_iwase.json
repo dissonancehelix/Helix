@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:tappi_iwase",
+  "entity_type": "music.composer",
+  "label": "Tappi Iwase",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Contra III",
+      "Ganbare Goemon",
+      "Metal Gear Solid",
+      "Metal Gear Solid 2",
+      "Mouryou Senki Madara 2",
+      "Poly",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Tappi Iwase"
+    ],
+    "track_count": 105
+  },
+  "external_ids": {
+    "vgmdb": "36244",
+    "musicbrainz": "95bc0fc4-81d6-4174-8f53-ec066cc64be4",
+    "wikidata": "Q4196957",
+    "spotify": "4PUV1PXT1eWxNirGOVi6ja",
+    "lastfm": "岩瀬立飛",
+    "discogs": "407413",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tappi_Iwase"
+  }
+}

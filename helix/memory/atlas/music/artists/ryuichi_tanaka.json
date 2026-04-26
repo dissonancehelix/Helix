@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryuichi_tanaka",
+  "entity_type": "music.composer",
+  "label": "Ryuichi Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tekken 5"
+    ],
+    "artist_keys": [
+      "Ryuichi Tanaka"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q105475677",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

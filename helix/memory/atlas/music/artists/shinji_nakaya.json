@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shinji_nakaya",
+  "entity_type": "music.composer",
+  "label": "Shinji Nakaya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Adventure Island 2"
+    ],
+    "artist_keys": [
+      "Shinji Nakaya"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:sergie_mantis",
+  "entity_type": "music.composer",
+  "label": "Sergie Mantis",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid 3"
+    ],
+    "artist_keys": [
+      "Sergie Mantis"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:kazuhiro_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Kazuhiro Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Dopamix",
+      "Ginga Force",
+      "KonoSuba",
+      "Natsuki Chronicles",
+      "New Eitango Target 1900 DS",
+      "Tekken 3D"
+    ],
+    "artist_keys": [
+      "Kazuhiro Kobayashi"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90776013",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

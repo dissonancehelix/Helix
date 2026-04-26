@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:hideki_okugawa",
+  "entity_type": "music.composer",
+  "label": "Hideki Okugawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II",
+      "DS"
+    ],
+    "franchises": [
+      "Alien vs. Predator",
+      "Apollo Justice",
+      "Capcom Sports Club",
+      "Dungeons & Dragons",
+      "Mega Man",
+      "Mega Man 2",
+      "Street Fighter Alpha 3",
+      "Street Fighter III",
+      "X"
+    ],
+    "artist_keys": [
+      "Hideki Okugawa"
+    ],
+    "track_count": 112
+  },
+  "external_ids": {
+    "vgmdb": "1508",
+    "musicbrainz": "de72c1ea-8e2c-4c8a-b44f-a43f68e8a646",
+    "wikidata": "Q11445958",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1700614"
+  }
+}

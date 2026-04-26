@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:lars_norpchen",
+  "entity_type": "music.composer",
+  "label": "Lars Norpchen",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Stormlord"
+    ],
+    "artist_keys": [
+      "Lars Norpchen"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

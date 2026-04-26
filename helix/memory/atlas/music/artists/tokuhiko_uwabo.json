@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:tokuhiko_uwabo",
+  "entity_type": "music.composer",
+  "label": "Tokuhiko Uwabo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Master System",
+      "Mega Drive",
+      "SG-1000"
+    ],
+    "franchises": [
+      "Alex Kidd in Miracle World",
+      "Arnold Palmer Tournament Golf",
+      "Ayrton Senna's Super Monaco GP II",
+      "Columns",
+      "Columns II",
+      "Fantasy Zone II DX",
+      "Great Volleyball",
+      "Phantasy Star",
+      "Phantasy Star II",
+      "Poseidon Wars 3",
+      "Satellite 7",
+      "Sorcerian",
+      "Space Harrier II",
+      "Spy vs Spy",
+      "Sukeban Deka II"
+    ],
+    "artist_keys": [
+      "Tokuhiko Uwabo"
+    ],
+    "track_count": 173
+  },
+  "external_ids": {
+    "vgmdb": "1463",
+    "musicbrainz": "c0b1dfe2-12a7-4c05-828b-51f8a403b79c",
+    "wikidata": "Q3178956",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "6069942"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:kosuke_soeda",
+  "entity_type": "music.composer",
+  "label": "Kosuke Soeda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "ISS Pro Evolution",
+      "International Superstar Soccer Pro '98"
+    ],
+    "artist_keys": [
+      "Kosuke Soeda"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tatsuhiko_kasuga",
+  "entity_type": "music.composer",
+  "label": "Tatsuhiko Kasuga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Kira Kira Star Night"
+    ],
+    "artist_keys": [
+      "Tatsuhiko Kasuga"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

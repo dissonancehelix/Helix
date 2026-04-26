@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroshi_watanabe",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "WWF SmackDown! 2"
+    ],
+    "artist_keys": [
+      "Hiroshi Watanabe"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "2836",
+    "musicbrainz": "d9f4c157-f201-4dbf-8a44-b11de86cdd4e",
+    "wikidata": "Q1620289",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

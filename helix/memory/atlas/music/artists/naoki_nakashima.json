@@ -1,0 +1,17 @@
+{
+  "entity_id": "music.composer:naoki_nakashima",
+  "entity_type": "music.composer",
+  "label": "Naoki Nakashima",
+  "library": {
+    "track_count": 21,
+    "artist_keys": [
+      "Naoki Nakashima"
+    ]
+  },
+  "external_ids": {
+    "wikidata": "",
+    "vgmdb": "",
+    "musicbrainz": "",
+    "spotify": ""
+  }
+}

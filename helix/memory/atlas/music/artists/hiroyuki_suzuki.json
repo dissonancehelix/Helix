@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hiroyuki_suzuki",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Araiguma Rascal"
+    ],
+    "artist_keys": [
+      "Hiroyuki Suzuki"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q87775340",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:claude_debussy",
+  "entity_type": "music.composer",
+  "label": "Claude Debussy",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Danganronpa V3",
+      "The Evil Within"
+    ],
+    "artist_keys": [
+      "Claude Debussy"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "3070",
+    "musicbrainz": "be50643c-0377-4968-b48c-47e06b2e2a3b",
+    "wikidata": "Q4700",
+    "spotify": "1Uff91EOsvd99rtAupatMP",
+    "lastfm": "Claude+Debussy",
+    "wikipedia": "https://en.wikipedia.org/wiki/Claude_Debussy"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:nathan_mccree",
+  "entity_type": "music.composer",
+  "label": "Nathan McCree",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Astérix and the Great Rescue",
+      "Astérix and the Power of the Gods",
+      "Bubba 'n' Stix",
+      "Skeleton Krew"
+    ],
+    "artist_keys": [
+      "Nathan McCree"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "6501785c-b9dc-4687-981c-4679fc7b818f",
+    "wikidata": "Q6969236",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nathan_McCree"
+  }
+}

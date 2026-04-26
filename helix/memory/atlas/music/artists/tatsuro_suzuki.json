@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:tatsuro_suzuki",
+  "entity_type": "music.composer",
+  "label": "Tatsuro Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II"
+    ],
+    "franchises": [
+      "19XX",
+      "Marvel Super Heroes",
+      "Mega Man 2",
+      "Street Fighter Alpha 2",
+      "Super Puzzle Fighter II Turbo"
+    ],
+    "artist_keys": [
+      "Tatsuro Suzuki"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11649318",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

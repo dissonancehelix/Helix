@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:chamy_ishi",
+  "entity_type": "music.composer",
+  "label": "Chamy Ishi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X"
+    ],
+    "franchises": [
+      "Devil May Cry 4",
+      "Sengoku Basara 4",
+      "Tempo"
+    ],
+    "artist_keys": [
+      "Chamy Ishi"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "43124",
+    "musicbrainz": "",
+    "wikidata": "Q131472725",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

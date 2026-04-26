@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:minamo_takahashi",
+  "entity_type": "music.composer",
+  "label": "Minamo Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Dancing Eyes",
+      "Noby Noby Boy",
+      "Tekken 3",
+      "We Ski",
+      "We Ski & Snowboard"
+    ],
+    "artist_keys": [
+      "Minamo Takahashi"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

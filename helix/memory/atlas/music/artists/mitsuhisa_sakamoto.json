@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mitsuhisa_sakamoto",
+  "entity_type": "music.composer",
+  "label": "Mitsuhisa Sakamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Mitsuhisa Sakamoto"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "c547b420-e2f8-451d-acf8-2a98ba72f20d",
+    "wikidata": "Q11425220",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

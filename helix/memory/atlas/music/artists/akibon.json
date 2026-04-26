@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akibon",
+  "entity_type": "music.composer",
+  "label": "Akibon",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Super Sidekicks 2"
+    ],
+    "artist_keys": [
+      "Akibon"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

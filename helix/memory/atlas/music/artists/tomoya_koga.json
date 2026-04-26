@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:tomoya_koga",
+  "entity_type": "music.composer",
+  "label": "Tomoya Koga",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Propeller Arena",
+      "Shining Force Cross Raid"
+    ],
+    "artist_keys": [
+      "Tomoya Koga"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

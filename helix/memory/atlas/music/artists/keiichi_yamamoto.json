@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:keiichi_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Keiichi Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Cyber City Oedo 808",
+      "Mamono Hunter Yohko"
+    ],
+    "artist_keys": [
+      "Keiichi Yamamoto"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11468962",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Keiichi_Yamamoto"
+  }
+}

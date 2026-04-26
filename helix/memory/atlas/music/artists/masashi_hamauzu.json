@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:masashi_hamauzu",
+  "entity_type": "music.composer",
+  "label": "Masashi Hamauzu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Chocobo's Dungeon",
+      "Chunithm",
+      "Dirge of Cerberus",
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake",
+      "Final Fantasy VII Remake Intergrade",
+      "Final Fantasy X",
+      "Final Fantasy X HD Remaster",
+      "Final Fantasy XIII",
+      "Final Fantasy XIV"
+    ],
+    "artist_keys": [
+      "Masashi Hamauzu"
+    ],
+    "track_count": 766
+  },
+  "external_ids": {
+    "vgmdb": "145",
+    "musicbrainz": "deff82b2-f269-47fc-b0bc-383a5c911acb",
+    "wikidata": "Q719149",
+    "spotify": "4xwBjyd53uiyfyUOkrpcvt",
+    "lastfm": "",
+    "discogs": "229084",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masashi_Hamauzu"
+  }
+}

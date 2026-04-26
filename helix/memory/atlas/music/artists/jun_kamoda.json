@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:jun_kamoda",
+  "entity_type": "music.composer",
+  "label": "Jun Kamoda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "We Love Katamari"
+    ],
+    "artist_keys": [
+      "Jun Kamoda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8947ce78-ef55-461a-a3a3-bfcdc4358fd3",
+    "wikidata": "Q11267575",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

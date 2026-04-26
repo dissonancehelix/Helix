@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:wataru_hokoyama",
+  "entity_type": "music.composer",
+  "label": "Wataru Hokoyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soul Sacrifice",
+      "Soul Sacrifice Delta"
+    ],
+    "artist_keys": [
+      "Wataru Hokoyama"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "4924",
+    "musicbrainz": "cf57fd53-8683-4ace-9fd2-55e33686d84a",
+    "wikidata": "Q7973009",
+    "spotify": "6UZmaOjwzTSWYflEx9LFX6",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wataru_Hokoyama"
+  }
+}

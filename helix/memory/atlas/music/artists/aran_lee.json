@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:aran_lee",
+  "entity_type": "music.composer",
+  "label": "Aran Lee",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Victory Road"
+    ],
+    "artist_keys": [
+      "Aran Lee"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

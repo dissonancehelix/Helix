@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:kenichi_matsubara",
+  "entity_type": "music.composer",
+  "label": "Kenichi Matsubara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Famicom Disk System",
+      "NES",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Castlevania II",
+      "Contra Force",
+      "Crisis Force",
+      "Gradius II",
+      "Haunted Castle",
+      "Lightning Fighters",
+      "Penguin Adventure",
+      "The Lone Ranger",
+      "Tsuyoshi Shikkari Shinasai",
+      "TwinBee",
+      "Wai Wai World 2"
+    ],
+    "artist_keys": [
+      "Kenichi Matsubara"
+    ],
+    "track_count": 184
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

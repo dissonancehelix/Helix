@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hally",
+  "entity_type": "music.composer",
+  "label": "hally",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Blaster Master Zero",
+      "Soundshock"
+    ],
+    "artist_keys": [
+      "hally"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q16276212",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hally"
+  }
+}

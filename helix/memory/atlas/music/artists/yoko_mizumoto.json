@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoko_mizumoto",
+  "entity_type": "music.composer",
+  "label": "Yoko Mizumoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II"
+    ],
+    "franchises": [
+      "Puzz Loop 2"
+    ],
+    "artist_keys": [
+      "Yoko Mizumoto"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

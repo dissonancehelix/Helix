@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:sean_bialo",
+  "entity_type": "music.composer",
+  "label": "Sean Bialo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Penny's Big Breakaway"
+    ],
+    "artist_keys": [
+      "Sean Bialo"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q92156854",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

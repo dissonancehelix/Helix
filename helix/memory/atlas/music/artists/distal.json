@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:distal",
+  "entity_type": "music.composer",
+  "label": "Distal",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Something Wrong With Daisy"
+    ],
+    "artist_keys": [
+      "Distal"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2764039",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

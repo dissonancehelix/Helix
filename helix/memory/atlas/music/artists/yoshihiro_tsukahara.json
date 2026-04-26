@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshihiro_tsukahara",
+  "entity_type": "music.composer",
+  "label": "Yoshihiro Tsukahara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario Party 8"
+    ],
+    "artist_keys": [
+      "Yoshihiro Tsukahara"
+    ],
+    "track_count": 59
+  },
+  "external_ids": {
+    "vgmdb": "8393",
+    "musicbrainz": "4dafd2c9-af4f-4417-b3c3-86ac260b0015",
+    "wikidata": "Q11428422",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

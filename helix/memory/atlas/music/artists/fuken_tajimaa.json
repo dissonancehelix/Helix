@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:fuken_tajimaa",
+  "entity_type": "music.composer",
+  "label": "Fuken Tajimaa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Pac"
+    ],
+    "artist_keys": [
+      "Fuken Tajimaa"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

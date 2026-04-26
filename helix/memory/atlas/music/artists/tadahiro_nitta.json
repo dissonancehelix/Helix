@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:tadahiro_nitta",
+  "entity_type": "music.composer",
+  "label": "Tadahiro Nitta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX",
+      "MSX2",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Dragon Half",
+      "Fray",
+      "Illusion City",
+      "The Tower of Gazzel",
+      "Xak",
+      "Xak II"
+    ],
+    "artist_keys": [
+      "Tadahiro Nitta"
+    ],
+    "track_count": 172
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "838ee5b8-cb0b-4842-82d1-4b095059cdc7",
+    "wikidata": "Q11503723",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1367177"
+  }
+}

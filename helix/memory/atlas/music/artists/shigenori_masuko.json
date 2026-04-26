@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:shigenori_masuko",
+  "entity_type": "music.composer",
+  "label": "Shigenori Masuko",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Airgrave",
+      "Battle Mania Daiginjou",
+      "Derby Jockey",
+      "Derby Jockey 2",
+      "Doraemon Memories",
+      "Galaxy Angel",
+      "Hansha de Spark",
+      "Hotdog Storm",
+      "J.League Live '95",
+      "J.League Winning Goal",
+      "Kenshuui Tendou Dokuta",
+      "LifeSigns",
+      "Love Hina Advance",
+      "Mickey's Great Adventure in Tokyo Disneyland",
+      "Pachinko Tetsujin"
+    ],
+    "artist_keys": [
+      "Shigenori Masuko"
+    ],
+    "track_count": 331
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:tsukushi_sasaki",
+  "entity_type": "music.composer",
+  "label": "Tsukushi Sasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bassin's Black Bass",
+      "Otoboke Ninja Colosseum",
+      "Schmeiser Robo",
+      "Shin SD Sengokuden",
+      "Zen"
+    ],
+    "artist_keys": [
+      "Tsukushi Sasaki"
+    ],
+    "track_count": 69
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

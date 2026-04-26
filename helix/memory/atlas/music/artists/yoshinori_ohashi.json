@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshinori_ohashi",
+  "entity_type": "music.composer",
+  "label": "Yoshinori Ohashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Dino Rex"
+    ],
+    "artist_keys": [
+      "Yoshinori Ohashi"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

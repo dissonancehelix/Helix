@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:go_sato",
+  "entity_type": "music.composer",
+  "label": "Go Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "E Jong High School",
+      "GeOnDan Super Rare Trax",
+      "Imported Game Music"
+    ],
+    "artist_keys": [
+      "Go Sato"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11383752",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

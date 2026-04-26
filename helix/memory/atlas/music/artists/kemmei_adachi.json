@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kemmei_adachi",
+  "entity_type": "music.composer",
+  "label": "Kemmei Adachi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Kemmei Adachi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

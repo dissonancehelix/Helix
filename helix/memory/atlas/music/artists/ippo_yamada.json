@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:ippo_yamada",
+  "entity_type": "music.composer",
+  "label": "Ippo Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "PlayStation"
+    ],
+    "franchises": [
+      "Azure Striker Gunvolt",
+      "Azure Striker Gunvolt 3",
+      "Blaster Master Zero",
+      "Blaster Master Zero 2",
+      "Blaster Master Zero 3",
+      "Bloodstained",
+      "Crayon Shin",
+      "GeOnDan Super Rare Trax",
+      "Mega Man 10",
+      "Mega Man 9",
+      "Mega Man ZX",
+      "Mega Man ZX Advent",
+      "Mega Man Zero",
+      "Mega Man Zero 2",
+      "Mega Man Zero 3"
+    ],
+    "artist_keys": [
+      "Ippo Yamada"
+    ],
+    "track_count": 284
+  },
+  "external_ids": {
+    "vgmdb": "761",
+    "musicbrainz": "ca76d82b-85e3-4f2e-b98d-16319d15a1bb",
+    "wikidata": "Q6065377",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1640586",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ippo_Yamada"
+  }
+}

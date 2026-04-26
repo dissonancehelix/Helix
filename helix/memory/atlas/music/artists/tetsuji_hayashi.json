@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:tetsuji_hayashi",
+  "entity_type": "music.composer",
+  "label": "Tetsuji Hayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Haunted Junction"
+    ],
+    "artist_keys": [
+      "Tetsuji Hayashi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "3671",
+    "musicbrainz": "ea5630af-6e55-4271-ba3a-a5b236e61ccb",
+    "wikidata": "Q11532899",
+    "spotify": "0g3HxLqCm3M64azxAAWJb2",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tetsuji_Hayashi"
+  }
+}

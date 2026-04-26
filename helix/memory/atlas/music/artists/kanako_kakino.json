@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:kanako_kakino",
+  "entity_type": "music.composer",
+  "label": "Kanako Kakino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat",
+      "Ace Combat 3",
+      "Ace Combat 7",
+      "Dai",
+      "Klonoa",
+      "Klonoa 2",
+      "Klonoa Beach Volleyball",
+      "Klonoa Heroes"
+    ],
+    "artist_keys": [
+      "Kanako Kakino"
+    ],
+    "track_count": 53
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

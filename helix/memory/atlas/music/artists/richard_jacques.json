@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:richard_jacques",
+  "entity_type": "music.composer",
+  "label": "Richard Jacques",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X"
+    ],
+    "franchises": [
+      "Darxide",
+      "Daytona USA",
+      "Headhunter",
+      "James Bond 007",
+      "Jet Set Radio",
+      "Jet Set Radio Future",
+      "Metropolis Street Racer",
+      "Pursuit Force",
+      "Samba de Amigo",
+      "Sega Rally 2006",
+      "Sonic the Hedgehog",
+      "Super Smash Bros. Brawl",
+      "Team Sonic Racing"
+    ],
+    "artist_keys": [
+      "Richard Jacques"
+    ],
+    "track_count": 251
+  },
+  "external_ids": {
+    "vgmdb": "1199",
+    "musicbrainz": "c365d5ee-72a7-41ef-994c-d6acba131192",
+    "wikidata": "Q2121109",
+    "spotify": "66SWQBUB6cJGBegelsW2sd",
+    "lastfm": "",
+    "discogs": "65657",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Jacques"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:marc_farly",
+  "entity_type": "music.composer",
+  "label": "Marc Farly",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "PGA Tour 96"
+    ],
+    "artist_keys": [
+      "Marc Farly"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

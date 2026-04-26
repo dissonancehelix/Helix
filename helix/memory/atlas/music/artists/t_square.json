@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:t_square",
+  "entity_type": "music.composer",
+  "label": "T-SQUARE",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "F"
+    ],
+    "artist_keys": [
+      "T-SQUARE"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

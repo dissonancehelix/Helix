@@ -1,0 +1,114 @@
+[
+  {
+    "id": "subject_drop_base",
+    "family": "subject_drop",
+    "label": "explicit_subject",
+    "text": "Eu falo com minha irmã todos os dias."
+  },
+  {
+    "id": "subject_drop_variant",
+    "family": "subject_drop",
+    "label": "dropped_subject",
+    "transform": "drop_subject",
+    "edge_from": "subject_drop_base",
+    "text": "Falo com minha irmã todos os dias."
+  },
+  {
+    "id": "negation_base",
+    "family": "nao_negation",
+    "label": "affirmative",
+    "text": "Ela vem amanhã."
+  },
+  {
+    "id": "negation_variant",
+    "family": "nao_negation",
+    "label": "negative",
+    "transform": "add_nao",
+    "edge_from": "negation_base",
+    "text": "Ela não vem amanhã."
+  },
+  {
+    "id": "question_base",
+    "family": "question_intonation",
+    "label": "declarative",
+    "text": "Você estuda na biblioteca."
+  },
+  {
+    "id": "question_variant",
+    "family": "question_intonation",
+    "label": "interrogative",
+    "transform": "add_question_mark",
+    "edge_from": "question_base",
+    "text": "Você estuda na biblioteca?"
+  },
+  {
+    "id": "subordination_base",
+    "family": "que_subordination",
+    "label": "simple_clause",
+    "text": "Acho essa história."
+  },
+  {
+    "id": "subordination_variant",
+    "family": "que_subordination",
+    "label": "embedded_que",
+    "transform": "add_que_complement",
+    "edge_from": "subordination_base",
+    "text": "Acho que ele chega cedo."
+  },
+  {
+    "id": "personal_inf_base",
+    "family": "personal_infinitive",
+    "label": "finite_subjunctive",
+    "text": "É importante que eles saibam a verdade."
+  },
+  {
+    "id": "personal_inf_variant",
+    "family": "personal_infinitive",
+    "label": "personal_infinitive",
+    "transform": "use_personal_infinitive",
+    "edge_from": "personal_inf_base",
+    "text": "É importante eles saberem a verdade."
+  },
+  {
+    "id": "future_subj_base",
+    "family": "future_subjunctive",
+    "label": "present_condition",
+    "text": "Se você chegar cedo, avise-me."
+  },
+  {
+    "id": "future_subj_variant",
+    "family": "future_subjunctive",
+    "label": "future_subjunctive_clause",
+    "transform": "use_future_subjunctive",
+    "edge_from": "future_subj_base",
+    "text": "Quando você chegar, vamos jantar."
+  },
+  {
+    "id": "aspect_base",
+    "family": "aspect_tense",
+    "label": "present",
+    "text": "Maria cozinha o jantar."
+  },
+  {
+    "id": "aspect_variant",
+    "family": "aspect_tense",
+    "label": "preterite",
+    "transform": "shift_to_preterite",
+    "edge_from": "aspect_base",
+    "text": "Maria cozinhou o jantar."
+  },
+  {
+    "id": "clitic_base",
+    "family": "clitic_placement",
+    "label": "enclisis",
+    "text": "Deram-me o livro."
+  },
+  {
+    "id": "clitic_variant",
+    "family": "clitic_placement",
+    "label": "proclisis",
+    "transform": "shift_clitic_position",
+    "edge_from": "clitic_base",
+    "text": "Não me deram o livro."
+  }
+]

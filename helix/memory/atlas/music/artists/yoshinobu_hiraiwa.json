@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yoshinobu_hiraiwa",
+  "entity_type": "music.composer",
+  "label": "Yoshinobu Hiraiwa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Ranger",
+      "Span of Dream"
+    ],
+    "artist_keys": [
+      "Yoshinobu Hiraiwa"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

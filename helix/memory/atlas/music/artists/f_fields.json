@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:f_fields",
+  "entity_type": "music.composer",
+  "label": "F-Fields",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio"
+    ],
+    "artist_keys": [
+      "F-Fields"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

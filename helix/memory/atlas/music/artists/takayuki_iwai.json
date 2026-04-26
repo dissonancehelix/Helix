@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:takayuki_iwai",
+  "entity_type": "music.composer",
+  "label": "Takayuki Iwai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II"
+    ],
+    "franchises": [
+      "Armored Warriors",
+      "Cyberbots",
+      "Darkstalkers",
+      "Dungeons & Dragons",
+      "Marvel Super Heroes",
+      "Musashi",
+      "Night Warriors",
+      "Spawn",
+      "Star Gladiator 2",
+      "Street Fighter Alpha 3",
+      "Super Puzzle Fighter II Turbo",
+      "Vampire Savior",
+      "X"
+    ],
+    "artist_keys": [
+      "Takayuki Iwai"
+    ],
+    "track_count": 255
+  },
+  "external_ids": {
+    "vgmdb": "1510",
+    "musicbrainz": "3caee6bf-444f-4fb9-9329-c749154228ea",
+    "wikidata": "Q24870579",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

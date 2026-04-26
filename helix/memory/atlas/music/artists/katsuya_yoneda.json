@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:katsuya_yoneda",
+  "entity_type": "music.composer",
+  "label": "Katsuya Yoneda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Cyvern",
+      "Gals Panic 3"
+    ],
+    "artist_keys": [
+      "Katsuya Yoneda"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

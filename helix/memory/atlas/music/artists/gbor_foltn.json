@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:gbor_foltn",
+  "entity_type": "music.composer",
+  "label": "Gábor Foltán",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Ecco Jr.",
+      "Ecco the Dolphin",
+      "Garfield",
+      "The Magic School Bus"
+    ],
+    "artist_keys": [
+      "Gábor Foltán"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

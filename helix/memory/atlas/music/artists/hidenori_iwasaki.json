@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:hidenori_iwasaki",
+  "entity_type": "music.composer",
+  "label": "Hidenori Iwasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bloodmasque",
+      "Demons' Score",
+      "Final Fantasy Crystal Chronicles",
+      "Front Mission 4",
+      "Racing Lagoon",
+      "Stranger of Paradise"
+    ],
+    "artist_keys": [
+      "Hidenori Iwasaki"
+    ],
+    "track_count": 122
+  },
+  "external_ids": {
+    "vgmdb": "611",
+    "musicbrainz": "f5c96d87-83d2-41f1-87b6-a23d28df754b",
+    "wikidata": "Q5752529",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1077904"
+  }
+}

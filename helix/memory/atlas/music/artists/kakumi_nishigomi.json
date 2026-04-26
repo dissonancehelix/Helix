@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kakumi_nishigomi",
+  "entity_type": "music.composer",
+  "label": "Kakumi Nishigomi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Kakumi Nishigomi"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "4981",
+    "musicbrainz": "",
+    "wikidata": "Q27917319",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

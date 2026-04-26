@@ -1,0 +1,7 @@
+{
+  "adapter": "RuntimeAdapter v1.0",
+  "endpoint": "http://localhost:8880",
+  "is_live": false,
+  "playback_state": "offline",
+  "active_playlist": null
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:shigeki_sako",
+  "entity_type": "music.composer",
+  "label": "Shigeki Sako",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "OutRun 2019",
+      "Tecmo World Cup"
+    ],
+    "artist_keys": [
+      "Shigeki Sako"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "6979",
+    "musicbrainz": "0367254c-fc21-4a5c-9553-0aee49b6d7d2",
+    "wikidata": "Q75765456",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

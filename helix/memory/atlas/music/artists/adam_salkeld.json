@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:adam_salkeld",
+  "entity_type": "music.composer",
+  "label": "Adam Salkeld",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X"
+    ],
+    "franchises": [
+      "Darxide"
+    ],
+    "artist_keys": [
+      "Adam Salkeld"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

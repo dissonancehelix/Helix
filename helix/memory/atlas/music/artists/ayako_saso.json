@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:ayako_saso",
+  "entity_type": "music.composer",
+  "label": "Ayako Saso",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "3D Dot Game Heroes",
+      "Bakuretsu Quiz Ma",
+      "Boxy Boy",
+      "Custom Robo",
+      "Custom Robo GX",
+      "Custom Robo V2",
+      "Cyber Cycles",
+      "Dirt Dash",
+      "Endless Ocean",
+      "Endless Ocean Luminous",
+      "Escape Goat",
+      "Fighting Layer",
+      "Final Fantasy Tactics A2",
+      "Final Fantasy Tactics Advance",
+      "Folklore"
+    ],
+    "artist_keys": [
+      "Ayako Saso"
+    ],
+    "track_count": 434
+  },
+  "external_ids": {
+    "vgmdb": "298",
+    "musicbrainz": "d6672b30-87d7-4af9-88ec-bd517f83087d",
+    "wikidata": "Q2874857",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1967381"
+  }
+}

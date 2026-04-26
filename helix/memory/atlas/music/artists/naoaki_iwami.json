@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:naoaki_iwami",
+  "entity_type": "music.composer",
+  "label": "Naoaki Iwami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II"
+    ],
+    "franchises": [
+      "Cyberbots",
+      "Street Fighter Alpha"
+    ],
+    "artist_keys": [
+      "Naoaki Iwami"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

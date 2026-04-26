@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:nayuta_tamura",
+  "entity_type": "music.composer",
+  "label": "Nayuta Tamura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth"
+    ],
+    "artist_keys": [
+      "Nayuta Tamura"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

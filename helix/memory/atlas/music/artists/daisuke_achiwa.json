@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:daisuke_achiwa",
+  "entity_type": "music.composer",
+  "label": "Daisuke Achiwa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Atelier Annie"
+    ],
+    "artist_keys": [
+      "Daisuke Achiwa"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "199",
+    "musicbrainz": "fe577eb1-1a87-470f-9095-74b66d6f1ee2",
+    "wikidata": "Q62085305",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

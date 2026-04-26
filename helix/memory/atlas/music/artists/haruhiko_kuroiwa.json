@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:haruhiko_kuroiwa",
+  "entity_type": "music.composer",
+  "label": "Haruhiko Kuroiwa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Samurai Shodown V"
+    ],
+    "artist_keys": [
+      "Haruhiko Kuroiwa"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q137212675",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

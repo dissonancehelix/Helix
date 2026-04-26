@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:hiroto_sasaki",
+  "entity_type": "music.composer",
+  "label": "Hiroto Sasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Akiba's Trip",
+      "Beautiful Katamari",
+      "Criminal Girls",
+      "Cyber Commando",
+      "Dancing Eyes",
+      "Dirt Dash",
+      "Galaga Arrangement",
+      "Mach Breakers",
+      "Prop Cycle",
+      "T·O·U·R·S",
+      "Xevious 3D/G"
+    ],
+    "artist_keys": [
+      "Hiroto Sasaki"
+    ],
+    "track_count": 74
+  },
+  "external_ids": {
+    "vgmdb": "974",
+    "musicbrainz": "103acac3-ef13-4ca2-b629-832b808cc8a8",
+    "wikidata": "Q11382181",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tenpei_satou",
+  "entity_type": "music.composer",
+  "label": "Tenpei Satou",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Imperium"
+    ],
+    "artist_keys": [
+      "Tenpei Satou"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

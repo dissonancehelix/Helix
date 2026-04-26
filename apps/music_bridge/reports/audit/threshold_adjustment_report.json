@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-03-31T16:35:15+00:00",
+  "adjustments": [
+    {
+      "rule": "TIER_A: Generic Title Blacklist",
+      "change": "Block auto-acceptance for generic titles (Best of, Selection, Disk 1).",
+      "impact": "Demoted 'Selection' haz-match from Tier A to Tier B."
+    },
+    {
+      "rule": "TIER_A: Track Overlap Minimum",
+      "change": "Increased from 60% to 80%.",
+      "impact": "Demoted 'Final Fantasy VII (Selected)' haz-match from Tier A to Tier B."
+    },
+    {
+      "rule": "TIER_D: Contradiction Hard-Gate",
+      "change": "Explicitly block all non-D tiers if contradictions.any() is True.",
+      "impact": "Rejected 'Chrono Trigger' (Zelda mismatch) correctly."
+    },
+    {
+      "rule": "Materialization Gate: Folder Recovery",
+      "change": "Category 'folder_recovery' is now REVIEW_ONLY always.",
+      "impact": "Prevents 'Disk 1' (Random) from ever auto-materializing."
+    }
+  ]
+}

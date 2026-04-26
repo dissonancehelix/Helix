@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naoshi_kunisawa",
+  "entity_type": "music.composer",
+  "label": "Naoshi Kunisawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X"
+    ],
+    "franchises": [
+      "Zaxxon's Motherbase 2000"
+    ],
+    "artist_keys": [
+      "Naoshi Kunisawa"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

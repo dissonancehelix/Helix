@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:nikolai_rimsky_korsakov",
+  "entity_type": "music.composer",
+  "label": "Nikolai Rimsky-Korsakov",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX"
+    ],
+    "franchises": [
+      "Parodius"
+    ],
+    "artist_keys": [
+      "Nikolai Rimsky-Korsakov"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "54695",
+    "musicbrainz": "4cfe7051-f649-4d07-83b3-7a732abe7249",
+    "wikidata": "Q93227",
+    "spotify": "2kXJ68O899XvWOBdpzlXgs",
+    "lastfm": "Николай+Андреевич+Римский-Корсаков",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nikolai_Rimsky-Korsakov"
+  }
+}

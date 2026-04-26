@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryou_kinugasa",
+  "entity_type": "music.composer",
+  "label": "Ryou Kinugasa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Harvest Moon"
+    ],
+    "artist_keys": [
+      "Ryou Kinugasa"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

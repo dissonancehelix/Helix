@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:george_kano",
+  "entity_type": "music.composer",
+  "label": "George Kano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Remake Intergrade"
+    ],
+    "artist_keys": [
+      "George Kano"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q94948751",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yoshihiko_koezuka",
+  "entity_type": "music.composer",
+  "label": "Yoshihiko Koezuka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Monster Maulers",
+      "Tokimeki Memorial Taisen Puzzle"
+    ],
+    "artist_keys": [
+      "Yoshihiko Koezuka"
+    ],
+    "track_count": 49
+  },
+  "external_ids": {
+    "vgmdb": "39674",
+    "musicbrainz": "f02ea27f-dce8-465c-822b-8bc2e61ca072",
+    "wikidata": "Q10855330",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

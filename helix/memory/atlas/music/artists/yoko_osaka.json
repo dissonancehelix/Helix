@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:yoko_osaka",
+  "entity_type": "music.composer",
+  "label": "Yoko Osaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Alpha Mission",
+      "Alpha Mission II",
+      "Eight Man",
+      "NAM",
+      "P.O.W.",
+      "Prehistoric Isle in 1930",
+      "Super Sidekicks",
+      "TNK III",
+      "Top Hunter"
+    ],
+    "artist_keys": [
+      "Yoko Osaka"
+    ],
+    "track_count": 99
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

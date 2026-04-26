@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:thomas_wohni",
+  "entity_type": "music.composer",
+  "label": "Thomas Wohni",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Romeo × Juliet"
+    ],
+    "artist_keys": [
+      "Thomas Wohni"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

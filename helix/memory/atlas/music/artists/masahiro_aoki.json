@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:masahiro_aoki",
+  "entity_type": "music.composer",
+  "label": "Masahiro Aoki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bloodstained",
+      "Mighty No. 9",
+      "Sengoku Basara 4",
+      "Street Fighter V"
+    ],
+    "artist_keys": [
+      "Masahiro Aoki"
+    ],
+    "track_count": 59
+  },
+  "external_ids": {
+    "vgmdb": "7225",
+    "musicbrainz": "255a8702-1331-4b45-8456-75760d639e71",
+    "wikidata": "Q55521703",
+    "spotify": "2OGeK7XBy4ObBkOjc1k5j5",
+    "lastfm": ""
+  }
+}

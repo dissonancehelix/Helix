@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:tatsuya_nishimura",
+  "entity_type": "music.composer",
+  "label": "Tatsuya Nishimura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Breath of Fire",
+      "Eye of the Beholder",
+      "Final Fight 2",
+      "Super Buster Bros.",
+      "The Magical Quest 3",
+      "The Magical Quest Starring Mickey Mouse"
+    ],
+    "artist_keys": [
+      "Tatsuya Nishimura"
+    ],
+    "track_count": 72
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q75208289",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

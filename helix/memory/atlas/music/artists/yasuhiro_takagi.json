@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:yasuhiro_takagi",
+  "entity_type": "music.composer",
+  "label": "Yasuhiro Takagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "404 Game Re",
+      "Sword of Vermilion",
+      "Turbo OutRun",
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Yasuhiro Takagi"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11670051",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

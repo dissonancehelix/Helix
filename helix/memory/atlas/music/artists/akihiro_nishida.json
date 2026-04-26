@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:akihiro_nishida",
+  "entity_type": "music.composer",
+  "label": "Akihiro Nishida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Asura Buster",
+      "Gyakuten!! Puzzle Bancho"
+    ],
+    "artist_keys": [
+      "Akihiro Nishida"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

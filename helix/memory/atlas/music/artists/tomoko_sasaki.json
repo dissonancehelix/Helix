@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:tomoko_sasaki",
+  "entity_type": "music.composer",
+  "label": "Tomoko Sasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Deathsmiles II",
+      "NiGHTS",
+      "NiGHTS into Dreams",
+      "OLIO",
+      "OLIO2",
+      "Ristar",
+      "Roommania #203",
+      "Samba de Amigo",
+      "Super Galdelic Hour",
+      "Super Smash Bros. Brawl",
+      "World of Illusion"
+    ],
+    "artist_keys": [
+      "Tomoko Sasaki"
+    ],
+    "track_count": 139
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q7820169",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tomoko_Sasaki"
+  }
+}

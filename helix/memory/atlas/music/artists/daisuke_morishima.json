@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:daisuke_morishima",
+  "entity_type": "music.composer",
+  "label": "Daisuke Morishima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "1943 Kai",
+      "Air Zonk",
+      "Coryoon",
+      "Kaze Kiri",
+      "Summer Carnival '92",
+      "Super Real Mahjong PII & PIII",
+      "Super Real Mahjong PIV",
+      "W"
+    ],
+    "artist_keys": [
+      "Daisuke Morishima"
+    ],
+    "track_count": 108
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

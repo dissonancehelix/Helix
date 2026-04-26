@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:aya_imaizumi",
+  "entity_type": "music.composer",
+  "label": "Aya Imaizumi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Megaton Musashi",
+      "Y School Heroes"
+    ],
+    "artist_keys": [
+      "Aya Imaizumi"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

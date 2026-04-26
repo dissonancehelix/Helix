@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mad_season",
+  "entity_type": "music.composer",
+  "label": "Mad Season",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Above"
+    ],
+    "artist_keys": [
+      "Mad Season"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "bfd085b8-0bbf-46b3-8ab9-193bca5c85e7",
+    "wikidata": "Q376283",
+    "spotify": "0T7JQxpy1Li93vLNirbv0Z",
+    "lastfm": "Mad+Season",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mad_Season_(band)"
+  }
+}

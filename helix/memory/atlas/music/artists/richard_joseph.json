@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:richard_joseph",
+  "entity_type": "music.composer",
+  "label": "Richard Joseph",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Daughter of Serpents",
+      "James Pond",
+      "James Pond 3",
+      "James Pond II",
+      "The Aquatic Games"
+    ],
+    "artist_keys": [
+      "Richard Joseph"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q107650660",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "entity_id": "music.composer:naofumi_hataya",
+  "entity_type": "music.composer",
+  "label": "Naofumi Hataya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X",
+      "Arcade",
+      "Game Gear",
+      "Master System",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Astro Boy",
+      "Blazer Drive",
+      "Blinx",
+      "Burning Rangers",
+      "Chou Kyuukai Miracle Nine",
+      "Dengeki Bunko",
+      "Feel the Magic",
+      "Golden Axe II",
+      "Golden Axe III",
+      "Kiss Shot",
+      "Let's Tap",
+      "Mario; Sonic the Hedgehog",
+      "NiGHTS",
+      "NiGHTS into Dreams",
+      "Nikkan Sports Pro Yakyuu VAN"
+    ],
+    "artist_keys": [
+      "Naofumi Hataya"
+    ],
+    "track_count": 459
+  },
+  "external_ids": {
+    "vgmdb": "449",
+    "musicbrainz": "c77a7890-dc0e-4c5d-a7b4-96baa462c251",
+    "wikidata": "Q6964522",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "316699",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naofumi_Hataya"
+  }
+}

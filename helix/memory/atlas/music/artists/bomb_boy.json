@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:bomb_boy",
+  "entity_type": "music.composer",
+  "label": "Bomb Boy",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock",
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "Bomb Boy"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

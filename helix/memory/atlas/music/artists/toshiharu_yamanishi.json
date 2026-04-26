@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:toshiharu_yamanishi",
+  "entity_type": "music.composer",
+  "label": "Toshiharu Yamanishi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Dragon's Fury",
+      "Elemental Master",
+      "Falcata",
+      "Thunder Force AC",
+      "Thunder Force III",
+      "Thunder Force IV"
+    ],
+    "artist_keys": [
+      "Toshiharu Yamanishi"
+    ],
+    "track_count": 94
+  },
+  "external_ids": {
+    "vgmdb": "1004",
+    "musicbrainz": "48d59577-3008-4a11-adac-6ac9b96ea6ac",
+    "wikidata": "Q11470902",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

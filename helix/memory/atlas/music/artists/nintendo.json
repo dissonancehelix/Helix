@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:nintendo",
+  "entity_type": "music.composer",
+  "label": "Nintendo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Nintendo"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3070866",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nintendo_eShop"
+  }
+}

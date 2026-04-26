@@ -1,0 +1,103 @@
+{
+  "entity_id": "music.composer:jun_senoue",
+  "entity_type": "COMPOSER",
+  "label": "Jun Senoue",
+  "aliases": [],
+  "description": "Sega Sound Team; composer on S3K bonus stages, later Sonic Adventure series",
+  "affiliations": [
+    {
+      "org": "music.soundteam:sega_sound_team",
+      "role": "composer"
+    }
+  ],
+  "library": {
+    "artist_keys": [
+      "jun senoue",
+      "jun senoue / fumie kumatani",
+      "jun senoue / masahiro ito",
+      "jun senoue / naofumi hataya",
+      "jun senoue / richard jacques",
+      "jun senoue / yutaka minobe",
+      "kenichi tokoi / teruhiko nakagawa / mitsuharu fukuyama / tomoya ohtani / naofumi hataya / hidekuni horita / tadashi kinukawa / jun senoue / yutaka minobe / hiroyuki anazawa",
+      "naofumi hataya / jun senoue",
+      "tadashi kinukawa / hideaki kobayashi / naofumi hataya / chihiro aoki / yutaka minobe / ken inaoka / jun senoue / mitsuharu fukuyama / yuri fukuda",
+      "tomoya ohtani / jun senoue",
+      "toriena / jun senoue",
+      "tyler smyth / jun senoue",
+      "zardonic, jun senoue"
+    ],
+    "track_count": 925,
+    "hw_seq_count": 26,
+    "audio_count": 899,
+    "platform_counts": {
+      "vgm_vgz": 26
+    },
+    "hw_seq_track_ids": [
+      "music.track.dark_wizard.16_credits",
+      "music.track.metal_head.04_finale",
+      "music.track.metal_head.05_medallion",
+      "music.track.metal_head.07_stage_1_boss",
+      "music.track.metal_head.08_stage_2_1",
+      "music.track.metal_head.10_stage_3",
+      "music.track.metal_head.14_stage_5_boss",
+      "music.track.metal_head.15_stage_6_1",
+      "music.track.metal_head.16_stage_6_2",
+      "music.track.metal_head.17_final_boss",
+      "music.track.sonic_3_knuckles.34_balloon_park",
+      "music.track.sonic_3_knuckles.40_gumball_machine",
+      "music.track.sonic_3_knuckles.41_magnetic_orbs",
+      "music.track.sonic_3_knuckles.42_slot_machine",
+      "music.track.sonic_3d_blast.01_menu",
+      "music.track.sonic_3d_blast.02_invincibility",
+      "music.track.sonic_3d_blast.03_green_grove_zone_act_1",
+      "music.track.sonic_3d_blast.04_green_grove_zone_act_2",
+      "music.track.sonic_3d_blast.07_spring_stadium_zone_act_1",
+      "music.track.sonic_3d_blast.08_spring_stadium_zone_act_2",
+      "music.track.sonic_3d_blast.15_panic_puppet_zone_act_1",
+      "music.track.sonic_3d_blast.18_special_stage",
+      "music.track.sonic_3d_blast.19_special_stage_2",
+      "music.track.sonic_3d_blast.21_robotnik_2",
+      "music.track.sonic_3d_blast.22_robotnik_3",
+      "music.track.sonic_3d_blast.23_ending"
+    ]
+  },
+  "style_signature": {
+    "groove_score": 0.506478,
+    "bass_rhythmic_regularity": 0.178908,
+    "melody_bass_independence": 0.552277,
+    "motif_recurrence": 0.064646,
+    "pitch_entropy": 3.18443,
+    "rhythmic_entropy": 1.840394,
+    "pulse_coherence": 0.039803,
+    "off_beat_ratio": 0.960197,
+    "chromatic_intrusion_rate": 0.232132,
+    "interval_roughness": 0.184148,
+    "harmonic_tension_score": 0.3051,
+    "sustained_ratio": 0.141734,
+    "register_separation": 31.11499,
+    "tempo_bpm": 182.843081,
+    "pre_seam_density_spike": 3.331286,
+    "seam_sharpness": 0.371441,
+    "emergence_index": -0.319704,
+    "disappearance_index": 0.040251,
+    "prevalence_of_tritones": 0.0,
+    "vertical_dissonance": 0.0,
+    "scale_mode": "Dorian",
+    "fm_unique_patches": null,
+    "fm_timbre_reuse_ratio": null,
+    "note_density": 14.824425,
+    "avg_phrase_length": 16.327647,
+    "phrase_regularity": 0.157587,
+    "calibration_track_count": 25,
+    "source": "applications/labs/artifacts/analysis/s3k_composer_fingerprints.json"
+  },
+  "external_ids": {
+    "wikidata": "Q2669787",
+    "spotify": "04jFPnV89o5zz9qix9wAVZ",
+    "musicbrainz": "25c72ce8-dd13-4892-a27a-afe198a59faa",
+    "lastfm": "",
+    "discogs": "237530",
+    "vgmdb": "375",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jun_Senoue"
+  }
+}

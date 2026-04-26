@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yuichi_takamine",
+  "entity_type": "music.composer",
+  "label": "Yuichi Takamine",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Yuichi Takamine"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

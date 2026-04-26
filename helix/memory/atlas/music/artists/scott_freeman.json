@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:scott_freeman",
+  "entity_type": "music.composer",
+  "label": "Scott Freeman",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "WWF Raw"
+    ],
+    "artist_keys": [
+      "Scott Freeman"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q7436366",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scott_Freeman_(voice_actor)"
+  }
+}

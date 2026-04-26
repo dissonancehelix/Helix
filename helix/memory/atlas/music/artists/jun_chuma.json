@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:jun_chuma",
+  "entity_type": "music.composer",
+  "label": "Jun Chuma",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Crisis Force",
+      "F"
+    ],
+    "artist_keys": [
+      "Jun Chuma"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

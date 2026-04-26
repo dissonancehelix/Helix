@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:toshio_kajino",
+  "entity_type": "music.composer",
+  "label": "Toshio Kajino",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II"
+    ],
+    "franchises": [
+      "Mega Man Xtreme",
+      "Mega Man Xtreme 2",
+      "Ring of Destruction",
+      "Saturday Night Slam Masters"
+    ],
+    "artist_keys": [
+      "Toshio Kajino"
+    ],
+    "track_count": 87
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

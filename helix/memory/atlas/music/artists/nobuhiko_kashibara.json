@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:nobuhiko_kashibara",
+  "entity_type": "music.composer",
+  "label": "Nobuhiko Kashibara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Super Space Fortress Macross II"
+    ],
+    "artist_keys": [
+      "Nobuhiko Kashibara"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

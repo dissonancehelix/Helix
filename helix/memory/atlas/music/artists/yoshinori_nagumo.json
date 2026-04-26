@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yoshinori_nagumo",
+  "entity_type": "music.composer",
+  "label": "Yoshinori Nagumo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Dangerous Seed"
+    ],
+    "artist_keys": [
+      "Yoshinori Nagumo"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11408750",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

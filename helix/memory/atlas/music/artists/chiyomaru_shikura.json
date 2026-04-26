@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:chiyomaru_shikura",
+  "entity_type": "music.composer",
+  "label": "Chiyomaru Shikura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blazing Tornado",
+      "Grand Striker 2",
+      "Remember 11",
+      "Super Fire Pro Wrestling X",
+      "Taekwon",
+      "Waku Waku Ski Wonder Shoot"
+    ],
+    "artist_keys": [
+      "Chiyomaru Shikura"
+    ],
+    "track_count": 88
+  },
+  "external_ids": {
+    "vgmdb": "396",
+    "musicbrainz": "ccb6e0b5-36f3-4c19-b897-42813cb0a5fa",
+    "wikidata": "Q9036726",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1320577",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chiyomaru_Shikura"
+  }
+}

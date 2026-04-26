@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiromitsu_watanabe",
+  "entity_type": "music.composer",
+  "label": "Hiromitsu Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Power Eleven"
+    ],
+    "artist_keys": [
+      "Hiromitsu Watanabe"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

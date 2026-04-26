@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:makoto_suehiro",
+  "entity_type": "music.composer",
+  "label": "Makoto Suehiro",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The King of Fighters XIII"
+    ],
+    "artist_keys": [
+      "Makoto Suehiro"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "28281",
+    "musicbrainz": "",
+    "wikidata": "Q11519719",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:live",
+  "entity_type": "music.composer",
+  "label": "Live",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Throwing Copper"
+    ],
+    "artist_keys": [
+      "Live"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q24826",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Liverpool"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:deco",
+  "entity_type": "music.composer",
+  "label": "Deco",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo Pocket Color"
+    ],
+    "franchises": [
+      "SNK vs. Capcom"
+    ],
+    "artist_keys": [
+      "Deco"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q659634",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Deco"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:akihiro_namba",
+  "entity_type": "music.composer",
+  "label": "Akihiro Namba",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "God Eater 2"
+    ],
+    "artist_keys": [
+      "Akihiro Namba"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

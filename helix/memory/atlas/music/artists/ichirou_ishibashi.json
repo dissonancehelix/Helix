@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ichirou_ishibashi",
+  "entity_type": "music.composer",
+  "label": "Ichirou Ishibashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Magical Pop'n"
+    ],
+    "artist_keys": [
+      "Ichirou Ishibashi"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

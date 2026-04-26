@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:masaharu_iwata",
+  "entity_type": "music.composer",
+  "label": "Masaharu Iwata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Game Boy Advance",
+      "Mega Drive",
+      "PC Engine",
+      "PC-88",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Aa Yakyuu Jinsei Itchokusen",
+      "America Oudan Ultra Quiz",
+      "Armed Police Batrider",
+      "Barbatus no Majo",
+      "Baroque",
+      "Baseball Stars II",
+      "Battle B",
+      "Battle Stadium D.O.N",
+      "Bleach",
+      "Bloody Roar"
+    ],
+    "artist_keys": [
+      "Masaharu Iwata"
+    ],
+    "track_count": 1218
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "45300cc2-40eb-4a7e-9776-f52fd806557c",
+    "wikidata": "Q3297109",
+    "spotify": "44WcmZasHi1s8IIRP9l8b3",
+    "lastfm": "",
+    "discogs": "216872"
+  }
+}

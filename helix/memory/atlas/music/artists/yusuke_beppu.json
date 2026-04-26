@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:yusuke_beppu",
+  "entity_type": "music.composer",
+  "label": "Yusuke Beppu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Galaxy Angel",
+      "Kenshuui Tendou Dokuta",
+      "LifeSigns",
+      "Love Hina Advance",
+      "Mega Man Battle Chip Challenge",
+      "Sister Princess Re Pure",
+      "Star Hearts"
+    ],
+    "artist_keys": [
+      "Yusuke Beppu"
+    ],
+    "track_count": 181
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

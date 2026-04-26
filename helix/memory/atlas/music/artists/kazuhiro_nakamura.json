@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:kazuhiro_nakamura",
+  "entity_type": "music.composer",
+  "label": "Kazuhiro Nakamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS"
+    ],
+    "franchises": [
+      "Ace Combat",
+      "Air Combat 22",
+      "Alpine Racer 2",
+      "Alpine Racer 3",
+      "Dancing Eyes",
+      "Death by Degrees",
+      "Klonoa Beach Volleyball",
+      "Klonoa Heroes",
+      "Noby Noby Boy",
+      "Prop Cycle",
+      "Tales of Innocence",
+      "Tales of the World",
+      "Tekken 5",
+      "Tekken 6",
+      "Time Crisis II"
+    ],
+    "artist_keys": [
+      "Kazuhiro Nakamura"
+    ],
+    "track_count": 193
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q48047267",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

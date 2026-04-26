@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:howard_drossin",
+  "entity_type": "music.composer",
+  "label": "Howard Drossin",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Afro Samurai",
+      "Alien Front Online",
+      "Comix Zone",
+      "Die Hard Arcade",
+      "Dynamite Cop",
+      "Manx TT SuperBike",
+      "Segapede",
+      "Sonic 3 & Knuckles",
+      "Sonic the Hedgehog",
+      "Splatterhouse",
+      "The Ooze",
+      "Vigilante 8"
+    ],
+    "artist_keys": [
+      "Howard Drossin"
+    ],
+    "track_count": 185
+  },
+  "external_ids": {
+    "vgmdb": "1384",
+    "musicbrainz": "a911ed3e-fa5d-4c42-b6cc-1950d3e9aeea",
+    "wikidata": "Q4119204",
+    "spotify": "",
+    "lastfm": "Howard+Drossin",
+    "discogs": "1383615",
+    "wikipedia": "https://en.wikipedia.org/wiki/Howard_Drossin"
+  }
+}

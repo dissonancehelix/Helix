@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:ryoji_yoshitomi",
+  "entity_type": "music.composer",
+  "label": "Ryoji Yoshitomi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "Super NES",
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "F",
+      "Game Boy Wars",
+      "Mario Clash",
+      "Mario Paint",
+      "Metroid II",
+      "Super Smash Bros. Brawl",
+      "Wario Land",
+      "Wario Land 4"
+    ],
+    "artist_keys": [
+      "Ryoji Yoshitomi"
+    ],
+    "track_count": 133
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

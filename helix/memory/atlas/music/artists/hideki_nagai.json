@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hideki_nagai",
+  "entity_type": "music.composer",
+  "label": "Hideki Nagai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Quiz King of Fighters"
+    ],
+    "artist_keys": [
+      "Hideki Nagai"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1440147",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hideki_Nagai"
+  }
+}

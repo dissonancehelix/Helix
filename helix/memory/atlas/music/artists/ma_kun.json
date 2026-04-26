@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ma_kun",
+  "entity_type": "music.composer",
+  "label": "Ma-kun",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Zatch Bell! Mamodo Fury"
+    ],
+    "artist_keys": [
+      "Ma-kun"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q45547404",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

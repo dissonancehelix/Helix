@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:tsutomu_ogura",
+  "entity_type": "music.composer",
+  "label": "Tsutomu Ogura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "MSX2",
+      "NES"
+    ],
+    "franchises": [
+      "F",
+      "G.I. Joe",
+      "International Superstar Soccer 2000",
+      "Racin' Force",
+      "Snake's Revenge",
+      "The Adventures of Bayou Billy"
+    ],
+    "artist_keys": [
+      "Tsutomu Ogura"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114833458",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

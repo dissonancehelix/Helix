@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:rikei_hirashima",
+  "entity_type": "music.composer",
+  "label": "Rikei Hirashima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PC-98"
+    ],
+    "franchises": [
+      "Air Assault",
+      "Farland Story",
+      "Kisou Shinden Gen"
+    ],
+    "artist_keys": [
+      "Rikei Hirashima"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

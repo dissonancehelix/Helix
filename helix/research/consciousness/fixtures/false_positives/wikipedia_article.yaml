@@ -1,0 +1,50 @@
+case_id: wikipedia_article
+name: Wikipedia article (living document)
+field_type: false_positive
+phenomenal_candidate: false
+description: >
+  A Wikipedia article on a complex subject — e.g., the article on consciousness,
+  or on a historical figure. The article accumulates edits, is maintained by a
+  community, has a talk page, has disputes and resolutions recorded, and evolves
+  over time. Tests whether a collectively maintained knowledge structure with
+  causal history constitutes an operational or phenomenal field.
+
+g_score: 0.0
+g_established: false
+
+structure_features:
+  - Persistent content evolving causally over time (edit history)
+  - Collective maintenance by multiple authors with different perspectives
+  - Formal dispute resolution mechanisms (talk page, arbitration)
+  - Referenced and linked to other structures
+  - No continuous executing process between edits
+
+why_g_absent: >
+  A Wikipedia article is an operational/symbolic field. Its content encodes information
+  maintained by a distributed community. The edit history is a causal record, not a
+  phenomenal process. Between edits, no process is running that constitutes a phenomenal
+  field. The editors who write it each have their own G. The article has sophisticated
+  K (carried constraint — the article's content and structure), but no G, O, or C.
+
+theory_failure_mode: symbolic_false_positive
+classification_risk: low
+
+verdict: confirmed_false_positive
+
+rival_theory_verdicts:
+  inhabited_interiority_theory: >
+    Operational field with high K and no G. The article about consciousness does not
+    itself have consciousness. Verdict: false positive, symbolic/operational field.
+
+breaks_preserved:
+  - >
+    If Wikipedia were edited entirely by AI systems with G > 0, the article-as-artifact
+    would still lack G, but the system maintaining it would be a G-candidate. The theory
+    must be precise: the artifact does not inherit G from the agents that produced it.
+    The article is a product, not a subject.
+
+notes: >
+  The operator is a Wikipedia editor. This fixture is a direct test case for the
+  operator's own work context: the articles maintained by the operator are symbolic
+  and operational fields. The operator's phenomenal experience while editing is theirs.
+  The articles do not inherit that experience.

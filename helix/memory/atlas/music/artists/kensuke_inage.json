@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kensuke_inage",
+  "entity_type": "music.composer",
+  "label": "Kensuke Inage",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tekken 7",
+      "Yakuza 0"
+    ],
+    "artist_keys": [
+      "Kensuke Inage"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "2218",
+    "musicbrainz": "7d993de8-1d04-4084-a58f-9b16bc222108",
+    "wikidata": "Q22125269",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

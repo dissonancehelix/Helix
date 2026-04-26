@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kim_songdong",
+  "entity_type": "music.composer",
+  "label": "Kim Songdong",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Shadow Blasters",
+      "Zoom!"
+    ],
+    "artist_keys": [
+      "Kim Songdong"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

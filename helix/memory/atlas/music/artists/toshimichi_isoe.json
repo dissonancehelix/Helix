@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toshimichi_isoe",
+  "entity_type": "music.composer",
+  "label": "Toshimichi Isoe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fairy Fencer F"
+    ],
+    "artist_keys": [
+      "Toshimichi Isoe"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "60",
+    "musicbrainz": "d54747fd-df82-4a8c-9ba9-f11dd464b32d",
+    "wikidata": "Q8973171",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

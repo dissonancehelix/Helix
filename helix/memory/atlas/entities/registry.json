@@ -1,0 +1,293 @@
+{
+  "_meta": {
+    "entity_count": 11
+  },
+  "entities": [
+    {
+      "id": "music.composer:tatsuyuki_maeda",
+      "type": "Composer",
+      "name": "Tatsuyuki Maeda",
+      "label": "Tatsuyuki Maeda",
+      "description": "Sega Sound Team composer; primary Sonic 3D Blast composer",
+      "metadata": {
+        "aliases": [
+          "Johnny Maeda",
+          "Ryunosuke"
+        ],
+        "hw_seq_count": 50,
+        "platform_counts": {
+          "vgm_vgz": 50
+        },
+        "scale_mode": "Phrygian",
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/artists/tatsuyuki_maeda.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": [
+        {
+          "relation": "MEMBER_OF",
+          "target_id": "music.soundteam:sega_sound_team",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "id": "music.composer:sachio_ogawa",
+      "type": "Composer",
+      "name": "Sachio Ogawa",
+      "label": "Sachio Ogawa",
+      "description": "Sega composer; early Mega Drive and Master System era",
+      "metadata": {
+        "aliases": [],
+        "hw_seq_count": 84,
+        "platform_counts": {
+          "vgm_vgz": 84
+        },
+        "scale_mode": "Dorian",
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/artists/sachio_ogawa.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": [
+        {
+          "relation": "MEMBER_OF",
+          "target_id": "music.soundteam:sega_sound_team",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "id": "music.composer:tomonori_sawada",
+      "type": "Composer",
+      "name": "Tomonori Sawada",
+      "label": "Tomonori Sawada",
+      "description": "Sega composer; collaborated with Sachio Ogawa",
+      "metadata": {
+        "aliases": [],
+        "hw_seq_count": 24,
+        "platform_counts": {
+          "vgm_vgz": 24
+        },
+        "scale_mode": "Phrygian",
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/artists/tomonori_sawada.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": [
+        {
+          "relation": "MEMBER_OF",
+          "target_id": "music.soundteam:sega_sound_team",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "id": "music.composer:masaru_setsumaru",
+      "type": "Composer",
+      "name": "Masaru Setsumaru",
+      "label": "Masaru Setsumaru",
+      "description": "Sega Sound Team; programmer/arranger on Sonic 3 & Knuckles",
+      "metadata": {
+        "aliases": [],
+        "hw_seq_count": 47,
+        "platform_counts": {
+          "vgm_vgz": 47
+        },
+        "scale_mode": "Phrygian",
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/artists/masaru_setsumaru.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": [
+        {
+          "relation": "MEMBER_OF",
+          "target_id": "music.soundteam:sega_sound_team",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "id": "music.composer:jun_senoue",
+      "type": "Composer",
+      "name": "Jun Senoue",
+      "label": "Jun Senoue",
+      "description": "Sega Sound Team; composer on S3K bonus stages, later Sonic Adventure series",
+      "metadata": {
+        "aliases": [],
+        "hw_seq_count": 26,
+        "platform_counts": {
+          "vgm_vgz": 26
+        },
+        "scale_mode": "Dorian",
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/artists/jun_senoue.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": [
+        {
+          "relation": "MEMBER_OF",
+          "target_id": "music.soundteam:sega_sound_team",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "id": "music.composer:masayuki_nagao",
+      "type": "Composer",
+      "name": "Masayuki Nagao",
+      "label": "Masayuki Nagao",
+      "description": "Sega Sound Team; produced/arranged half of S3K, composer on Sonic Game Gear titles",
+      "metadata": {
+        "aliases": [
+          "N.GEE"
+        ],
+        "hw_seq_count": 67,
+        "platform_counts": {
+          "vgm_vgz": 67
+        },
+        "scale_mode": "Mixolydian",
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/artists/masayuki_nagao.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": [
+        {
+          "relation": "MEMBER_OF",
+          "target_id": "music.soundteam:sega_sound_team",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "id": "music.composer:yoshiaki_kashima",
+      "type": "Composer",
+      "name": "Yoshiaki Kashima",
+      "label": "Yoshiaki Kashima",
+      "description": "Sega Sound Team; programmer/composer; Blue Spheres confirmed",
+      "metadata": {
+        "aliases": [],
+        "hw_seq_count": 18,
+        "platform_counts": {
+          "vgm_vgz": 18
+        },
+        "scale_mode": "Dorian",
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/artists/yoshiaki_kashima.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": [
+        {
+          "relation": "MEMBER_OF",
+          "target_id": "music.soundteam:sega_sound_team",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "id": "music.composer:masanori_hikichi",
+      "type": "Composer",
+      "name": "Masanori Hikichi",
+      "label": "Masanori Hikichi",
+      "description": "Cube Corp composer; sequenced S3K SMPS data; composed Gley Lancer, Terranigma",
+      "metadata": {
+        "aliases": [],
+        "hw_seq_count": 149,
+        "platform_counts": {
+          "spc": 121,
+          "vgm_vgz": 28
+        },
+        "scale_mode": "Dorian",
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/artists/masanori_hikichi.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": [
+        {
+          "relation": "MEMBER_OF",
+          "target_id": "music.soundteam:cube_corp",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "id": "music.composer:miyoko_takaoka",
+      "type": "Composer",
+      "name": "Miyoko Takaoka",
+      "label": "Miyoko Takaoka",
+      "description": "Cube Corp composer; confirmed Marble Garden Zone; Terranigma, America Oudan Ultra Quiz",
+      "metadata": {
+        "aliases": [
+          "Takaoka"
+        ],
+        "hw_seq_count": 194,
+        "platform_counts": {
+          "spc": 175,
+          "vgm_vgz": 19
+        },
+        "scale_mode": "Phrygian",
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/artists/miyoko_takaoka.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": [
+        {
+          "relation": "MEMBER_OF",
+          "target_id": "music.soundteam:cube_corp",
+          "confidence": 1.0
+        }
+      ]
+    },
+    {
+      "id": "music.soundteam:sega_sound_team",
+      "type": "SoundTeam",
+      "name": "Sega Sound Team",
+      "label": "Sega Sound Team",
+      "description": "Sega internal music division; Mega Drive / Game Gear era",
+      "metadata": {
+        "hw_seq_count": 0,
+        "platform_counts": {},
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/soundteams/sega_sound_team.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": []
+    },
+    {
+      "id": "music.soundteam:cube_corp",
+      "type": "SoundTeam",
+      "name": "Cube Corp",
+      "label": "Cube Corp",
+      "description": "External contractor for Sega; composed and sequenced Sonic 3 & Knuckles tracks",
+      "metadata": {
+        "hw_seq_count": 0,
+        "platform_counts": {},
+        "source": "build_composer_entities.py",
+        "source_stage": "entity_build",
+        "source_artifact": "codex/atlas/music/soundteams/cube_corp.json",
+        "extraction_method": "field_index_query"
+      },
+      "external_ids": {},
+      "relationships": []
+    }
+  ]
+}

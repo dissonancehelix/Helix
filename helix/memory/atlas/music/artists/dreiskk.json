@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:dreiskk",
+  "entity_type": "music.composer",
+  "label": "dreiskk",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "State of Decay"
+    ],
+    "artist_keys": [
+      "dreiskk"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

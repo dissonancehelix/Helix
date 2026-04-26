@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:tool",
+  "entity_type": "music.composer",
+  "label": "Tool",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "10,000 Days",
+      "Fear Inoculum",
+      "Lateralus",
+      "Opiate",
+      "Salival",
+      "Undertow",
+      "Ænima"
+    ],
+    "artist_keys": [
+      "Tool"
+    ],
+    "track_count": 73
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "66fc5bf8-daa4-4241-b378-9bc9077939d2",
+    "wikidata": "Q184827",
+    "spotify": "2yEwvVSSSUkcLeSTNyHKh8",
+    "lastfm": "Tool",
+    "discogs": "87016"
+  }
+}

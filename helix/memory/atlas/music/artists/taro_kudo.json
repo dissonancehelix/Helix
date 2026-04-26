@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:taro_kudo",
+  "entity_type": "music.composer",
+  "label": "Taro Kudo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Axelay",
+      "Super Castlevania IV"
+    ],
+    "artist_keys": [
+      "Taro Kudo"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "325",
+    "musicbrainz": "5fed8210-460d-430e-90de-74c74f2f2086",
+    "wikidata": "Q3981153",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taro_Kudo"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:denji_sano",
+  "entity_type": "music.composer",
+  "label": "Denji Sano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Drakengard 3"
+    ],
+    "artist_keys": [
+      "Denji Sano"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

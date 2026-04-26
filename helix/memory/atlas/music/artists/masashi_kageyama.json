@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:masashi_kageyama",
+  "entity_type": "music.composer",
+  "label": "Masashi Kageyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Benkei Gaiden",
+      "Deae Tonosama Appare Ichiban",
+      "Gimmick!",
+      "Purumui Purumui",
+      "Robot Construction R.C."
+    ],
+    "artist_keys": [
+      "Masashi Kageyama"
+    ],
+    "track_count": 114
+  },
+  "external_ids": {
+    "vgmdb": "1084",
+    "musicbrainz": "",
+    "wikidata": "Q82121970",
+    "spotify": "2aftvN1FqETmu0k1g1TJ68",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

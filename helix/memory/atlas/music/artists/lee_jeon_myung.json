@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:lee_jeon_myung",
+  "entity_type": "music.composer",
+  "label": "Lee Jeon Myung",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid"
+    ],
+    "artist_keys": [
+      "Lee Jeon Myung"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

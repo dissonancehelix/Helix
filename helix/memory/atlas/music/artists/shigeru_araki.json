@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:shigeru_araki",
+  "entity_type": "music.composer",
+  "label": "Shigeru Araki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Ganbare Goemon",
+      "Goemon's Great Adventure",
+      "Mystical Ninja"
+    ],
+    "artist_keys": [
+      "Shigeru Araki"
+    ],
+    "track_count": 190
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11618744",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

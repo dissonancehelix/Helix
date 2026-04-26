@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:bill_hendrickson",
+  "entity_type": "music.composer",
+  "label": "Bill Hendrickson",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PlayStation"
+    ],
+    "franchises": [
+      "Blazing Dragons",
+      "Solar Eclipse"
+    ],
+    "artist_keys": [
+      "Bill Hendrickson"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

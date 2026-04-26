@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:seiji_yamanaka",
+  "entity_type": "music.composer",
+  "label": "Seiji Yamanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "BurgerTime Deluxe",
+      "Congo's Caper",
+      "Joe & Mac",
+      "Little Magic",
+      "Metal Max 2",
+      "Tantei Jinguuji Saburou Toki no Sugiyuku Mama ni"
+    ],
+    "artist_keys": [
+      "Seiji Yamanaka"
+    ],
+    "track_count": 106
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

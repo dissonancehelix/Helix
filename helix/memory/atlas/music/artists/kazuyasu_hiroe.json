@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kazuyasu_hiroe",
+  "entity_type": "music.composer",
+  "label": "Kazuyasu Hiroe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Aretha",
+      "Aretha II",
+      "Rejoice!"
+    ],
+    "artist_keys": [
+      "Kazuyasu Hiroe"
+    ],
+    "track_count": 132
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

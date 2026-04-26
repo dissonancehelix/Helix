@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiroyuki_mizuno",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Mizuno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Ano, Subarashii o Mou Ichido",
+      "Sora no Fudousan"
+    ],
+    "artist_keys": [
+      "Hiroyuki Mizuno"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q121775385",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

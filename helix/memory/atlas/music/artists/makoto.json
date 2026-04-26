@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:makoto",
+  "entity_type": "music.composer",
+  "label": "MAKOTO",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "MAKOTO"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q6739910",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Makoto_(wrestler)"
+  }
+}

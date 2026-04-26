@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masakazu_yuasa",
+  "entity_type": "music.composer",
+  "label": "Masakazu Yuasa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Iron Tank"
+    ],
+    "artist_keys": [
+      "Masakazu Yuasa"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

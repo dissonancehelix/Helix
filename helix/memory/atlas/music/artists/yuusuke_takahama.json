@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yuusuke_takahama",
+  "entity_type": "music.composer",
+  "label": "Yuusuke Takahama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Kick Master"
+    ],
+    "artist_keys": [
+      "Yuusuke Takahama"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

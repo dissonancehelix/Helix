@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kiyomi_kataoka",
+  "entity_type": "music.composer",
+  "label": "Kiyomi Kataoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Downtown Nekketsu Baseball Monogatari",
+      "Voltage Fighter Gowcaizer"
+    ],
+    "artist_keys": [
+      "Kiyomi Kataoka"
+    ],
+    "track_count": 49
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

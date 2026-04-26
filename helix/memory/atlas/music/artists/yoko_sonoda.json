@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:yoko_sonoda",
+  "entity_type": "music.composer",
+  "label": "Yoko Sonoda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Alisia Dragoon",
+      "Dead Moon",
+      "Gambler Jiko Chuushinha",
+      "Gambler Jiko Chuushinha 2",
+      "Silpheed",
+      "Tenka Fubu"
+    ],
+    "artist_keys": [
+      "Yoko Sonoda"
+    ],
+    "track_count": 93
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

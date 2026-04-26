@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:zoe",
+  "entity_type": "music.composer",
+  "label": "ZOE",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "The King of Fighters",
+      "The King of Fighters '97",
+      "The King of Fighters '99",
+      "The King of Fighters 2000",
+      "The Last Blade 2"
+    ],
+    "artist_keys": [
+      "ZOE"
+    ],
+    "track_count": 178
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q168233",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zoe_(name)"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shigemasa_matsuo",
+  "entity_type": "music.composer",
+  "label": "Shigemasa Matsuo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES"
+    ],
+    "franchises": [
+      "Gang Busters",
+      "Konami Wai Wai World"
+    ],
+    "artist_keys": [
+      "Shigemasa Matsuo"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

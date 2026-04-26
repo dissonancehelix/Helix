@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:kazuko_umino",
+  "entity_type": "music.composer",
+  "label": "Kazuko Umino",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bubble Buster",
+      "Bust",
+      "Liquid Kids",
+      "PuLiRuLa",
+      "Puzzle Bobble",
+      "Quiz H.Q.",
+      "Soccer America",
+      "Solitary Fighter",
+      "Super Space Invaders '91",
+      "The Jetsons",
+      "Thunder Fox"
+    ],
+    "artist_keys": [
+      "Kazuko Umino"
+    ],
+    "track_count": 96
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

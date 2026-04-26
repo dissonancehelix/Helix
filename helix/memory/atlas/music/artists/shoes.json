@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shoes",
+  "entity_type": "music.composer",
+  "label": "Shoes",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Let's Tap"
+    ],
+    "artist_keys": [
+      "Shoes"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q22676",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shoe"
+  }
+}

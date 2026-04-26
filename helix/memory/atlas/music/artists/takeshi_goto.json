@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takeshi_goto",
+  "entity_type": "music.composer",
+  "label": "Takeshi Goto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Takeshi Goto"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102430459",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

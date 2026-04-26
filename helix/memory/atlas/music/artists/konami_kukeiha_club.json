@@ -1,0 +1,47 @@
+{
+  "entity_id": "music.composer:konami_kukeiha_club",
+  "entity_type": "music.composer",
+  "label": "Konami Kukeiha Club",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Famicom Disk System",
+      "Game Boy",
+      "MSX",
+      "MSX2",
+      "NES",
+      "PC-88"
+    ],
+    "franchises": [
+      "'88 Games",
+      "Ago Board",
+      "Ai Senshi Nicol",
+      "Antarctic Adventure",
+      "Athletic Land",
+      "Battlantis",
+      "Black Panther",
+      "Buttobi Striker",
+      "Cabbage Patch Kids",
+      "Clash Pennant Race 2",
+      "Combat School",
+      "Dam Dam Boy",
+      "Dragoon Might",
+      "Escape Kids",
+      "Fuusen Pentai"
+    ],
+    "artist_keys": [
+      "Konami Kukeiha Club"
+    ],
+    "track_count": 253
+  },
+  "external_ids": {
+    "vgmdb": "161",
+    "musicbrainz": "0fcb6831-ff9a-47ff-a509-45f267aa8c21",
+    "wikidata": "Q15055758",
+    "spotify": "7IwncjtMeSf9P7VxZuWXRM",
+    "lastfm": "コナミ矩形波倶楽部",
+    "discogs": "229050",
+    "wikipedia": "https://en.wikipedia.org/wiki/Konami_Kukeiha_Club"
+  }
+}

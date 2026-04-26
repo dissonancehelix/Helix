@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kiyoshi_okabe",
+  "entity_type": "music.composer",
+  "label": "Kiyoshi Okabe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gambler Jiko Chuushinha"
+    ],
+    "artist_keys": [
+      "Kiyoshi Okabe"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kenichi_kuroda",
+  "entity_type": "music.composer",
+  "label": "Kenichi Kuroda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy XIV"
+    ],
+    "artist_keys": [
+      "Kenichi Kuroda"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q87760721",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tarou_fukada",
+  "entity_type": "music.composer",
+  "label": "Tarou Fukada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man Legends"
+    ],
+    "artist_keys": [
+      "Tarou Fukada"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

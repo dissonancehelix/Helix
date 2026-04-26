@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tomoko_sasaki_naofumi_hataya",
+  "entity_type": "music.composer",
+  "label": "Tomoko Sasaki, Naofumi Hataya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Tomoko Sasaki, Naofumi Hataya"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

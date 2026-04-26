@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:yoshitaka_suzuki",
+  "entity_type": "music.composer",
+  "label": "Yoshitaka Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat",
+      "Bayonetta",
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake",
+      "Final Fantasy VII Remake Intergrade",
+      "Final Fantasy XIII",
+      "Final Fantasy XIV",
+      "Final Fantasy XV",
+      "Justice Monsters Five",
+      "Kingdom Hearts III",
+      "Metal Gear Solid 4",
+      "Otomedius Excellent",
+      "Stranger of Paradise"
+    ],
+    "artist_keys": [
+      "Yoshitaka Suzuki"
+    ],
+    "track_count": 123
+  },
+  "external_ids": {
+    "vgmdb": "4007",
+    "musicbrainz": "",
+    "wikidata": "Q78941498",
+    "spotify": "7deF5okxPdwvOkzbtLg0xh",
+    "lastfm": "鈴木克崇",
+    "discogs": ""
+  }
+}

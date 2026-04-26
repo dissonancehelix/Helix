@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:chi_ka",
+  "entity_type": "music.composer",
+  "label": "CHI-KA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rune Factory"
+    ],
+    "artist_keys": [
+      "CHI-KA"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102170776",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

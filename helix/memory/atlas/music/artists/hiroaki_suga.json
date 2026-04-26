@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hiroaki_suga",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Suga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System"
+    ],
+    "franchises": [
+      "Gall Force"
+    ],
+    "artist_keys": [
+      "Hiroaki Suga"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "5692",
+    "musicbrainz": "",
+    "wikidata": "Q137900954",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

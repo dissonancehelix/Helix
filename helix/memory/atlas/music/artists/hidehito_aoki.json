@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:hidehito_aoki",
+  "entity_type": "music.composer",
+  "label": "Hidehito Aoki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Jantei Monogatari 2",
+      "Majin Tensei",
+      "Majin Tensei II",
+      "Persona; Shin Megami Tensei",
+      "Quiz Marugoto The World",
+      "Seijuu Maden",
+      "Somer Assault",
+      "Wacky Races",
+      "Wing Force"
+    ],
+    "artist_keys": [
+      "Hidehito Aoki"
+    ],
+    "track_count": 147
+  },
+  "external_ids": {
+    "vgmdb": "718",
+    "musicbrainz": "f7f4f2ba-d49f-4901-baad-94f9fd7689ab",
+    "wikidata": "Q11661809",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "5203384"
+  }
+}

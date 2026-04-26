@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:hiroyuki_iwatsuki",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Iwatsuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Chaos World",
+      "Choujin Sentai Jetman",
+      "Gekisou Sentai Car Rangers",
+      "Gundam Wing",
+      "Half",
+      "Kaizoku Sentai Gokaiger",
+      "Kamen Rider",
+      "Kamen Rider Battle",
+      "Mighty Morphin Power Rangers",
+      "Mitsume ga Tooru",
+      "Ninja Gaiden Shadow",
+      "Pocky & Rocky",
+      "Pocky & Rocky 2",
+      "Pocky & Rocky Reshrined",
+      "Power Rangers Zeo"
+    ],
+    "artist_keys": [
+      "Hiroyuki Iwatsuki"
+    ],
+    "track_count": 267
+  },
+  "external_ids": {
+    "vgmdb": "1083",
+    "musicbrainz": "7d1090ef-a4b7-4d23-9bfb-82368e266647",
+    "wikidata": "Q4196983",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2193935",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroyuki_Iwatsuki"
+  }
+}

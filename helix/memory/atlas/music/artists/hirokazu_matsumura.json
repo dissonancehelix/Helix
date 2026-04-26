@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hirokazu_matsumura",
+  "entity_type": "music.composer",
+  "label": "Hirokazu Matsumura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dinosaur Resurrection",
+      "Monarch Monarch",
+      "The Legend of Heroes V"
+    ],
+    "artist_keys": [
+      "Hirokazu Matsumura"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

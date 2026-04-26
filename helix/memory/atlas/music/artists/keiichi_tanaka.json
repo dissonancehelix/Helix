@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:keiichi_tanaka",
+  "entity_type": "music.composer",
+  "label": "Keiichi Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Half"
+    ],
+    "artist_keys": [
+      "Keiichi Tanaka"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11575427",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

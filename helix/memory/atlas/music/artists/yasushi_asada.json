@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:yasushi_asada",
+  "entity_type": "music.composer",
+  "label": "Yasushi Asada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "AI",
+      "Bakugan Battle Brawlers",
+      "Granblue Fantasy Versus",
+      "IGPX",
+      "Super Smash Bros. Ultimate",
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Yasushi Asada"
+    ],
+    "track_count": 69
+  },
+  "external_ids": {
+    "vgmdb": "2872",
+    "musicbrainz": "7735616c-3d11-465c-a535-efac450cfbfd",
+    "wikidata": "Q16875252",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yasushi_Asada"
+  }
+}

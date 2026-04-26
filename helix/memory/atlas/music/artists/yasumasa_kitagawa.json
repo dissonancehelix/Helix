@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:yasumasa_kitagawa",
+  "entity_type": "music.composer",
+  "label": "Yasumasa Kitagawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Ganbare Goemon",
+      "Goemon's Great Adventure",
+      "Mystical Ninja",
+      "Professor Layton vs. Ace Attorney",
+      "Street Fighter 6"
+    ],
+    "artist_keys": [
+      "Yasumasa Kitagawa"
+    ],
+    "track_count": 224
+  },
+  "external_ids": {
+    "vgmdb": "1548",
+    "musicbrainz": "458772b6-a9d1-4fca-a375-6a44ac4d5629",
+    "wikidata": "Q11401587",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4348415"
+  }
+}

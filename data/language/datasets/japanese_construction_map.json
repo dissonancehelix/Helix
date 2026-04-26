@@ -1,0 +1,115 @@
+[
+  {
+    "id": "sov_base",
+    "family": "sov_order",
+    "label": "subject_object_verb",
+    "text": "私 は 本 を 読む。",
+    "note": "Space-tokenized for heuristic compatibility"
+  },
+  {
+    "id": "sov_variant",
+    "family": "sov_order",
+    "label": "object_fronted",
+    "transform": "front_object",
+    "edge_from": "sov_base",
+    "text": "本 は 私 が 読む。"
+  },
+  {
+    "id": "wa_ga_base",
+    "family": "wa_ga_distinction",
+    "label": "topic_wa",
+    "text": "象 は 鼻 が 長い。"
+  },
+  {
+    "id": "wa_ga_variant",
+    "family": "wa_ga_distinction",
+    "label": "subject_ga",
+    "transform": "shift_to_ga_subject",
+    "edge_from": "wa_ga_base",
+    "text": "誰 が 来た の か。"
+  },
+  {
+    "id": "te_iru_base",
+    "family": "te_iru_aspect",
+    "label": "simple_past",
+    "text": "彼 は 本 を 読んだ。"
+  },
+  {
+    "id": "te_iru_variant",
+    "family": "te_iru_aspect",
+    "label": "progressive_te_iru",
+    "transform": "add_te_iru",
+    "edge_from": "te_iru_base",
+    "text": "彼 は 本 を 読んで いる。"
+  },
+  {
+    "id": "negation_base",
+    "family": "verb_negation",
+    "label": "affirmative",
+    "text": "彼女 は 来る。"
+  },
+  {
+    "id": "negation_variant",
+    "family": "verb_negation",
+    "label": "negative_nai",
+    "transform": "add_nai_negation",
+    "edge_from": "negation_base",
+    "text": "彼女 は 来ない。"
+  },
+  {
+    "id": "null_arg_base",
+    "family": "null_argument",
+    "label": "explicit_subject_object",
+    "text": "私 は 彼 に 本 を 渡した。"
+  },
+  {
+    "id": "null_arg_variant",
+    "family": "null_argument",
+    "label": "dropped_arguments",
+    "transform": "drop_contextual_arguments",
+    "edge_from": "null_arg_base",
+    "text": "渡した。"
+  },
+  {
+    "id": "question_base",
+    "family": "ka_question_particle",
+    "label": "declarative",
+    "text": "あなた は 学生 だ。"
+  },
+  {
+    "id": "question_variant",
+    "family": "ka_question_particle",
+    "label": "question_ka",
+    "transform": "add_ka_particle",
+    "edge_from": "question_base",
+    "text": "あなた は 学生 です か？"
+  },
+  {
+    "id": "honorific_base",
+    "family": "honorific_register",
+    "label": "plain_form",
+    "text": "明日 来る。"
+  },
+  {
+    "id": "honorific_variant",
+    "family": "honorific_register",
+    "label": "polite_masu_form",
+    "transform": "shift_to_polite",
+    "edge_from": "honorific_base",
+    "text": "明日 来ます。"
+  },
+  {
+    "id": "conditional_base",
+    "family": "conditional_tara",
+    "label": "simple_sequence",
+    "text": "雨 が 止む。 出かける。"
+  },
+  {
+    "id": "conditional_variant",
+    "family": "conditional_tara",
+    "label": "tara_conditional",
+    "transform": "add_tara_conditional",
+    "edge_from": "conditional_base",
+    "text": "雨 が 止んだら、出かける。"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:tetsukazu_nakanishi",
+  "entity_type": "music.composer",
+  "label": "Tetsukazu Nakanishi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Ace Combat",
+      "Ace Combat 04",
+      "Ace Combat 2",
+      "Ace Combat 3",
+      "Ace Combat 5",
+      "Ace Combat 6",
+      "Ace Combat 7",
+      "Ace Combat Infinity",
+      "Ace Combat Zero",
+      "Ganbare Ginkun",
+      "Klonoa",
+      "Klonoa Heroes",
+      "Kotoba no Puzzle",
+      "MCMLXC",
+      "MotoGP 4"
+    ],
+    "artist_keys": [
+      "Tetsukazu Nakanishi"
+    ],
+    "track_count": 243
+  },
+  "external_ids": {
+    "vgmdb": "1361",
+    "musicbrainz": "5de122b6-d207-4fe5-8b0a-8ea31fb328d7",
+    "wikidata": "Q11367031",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "668181"
+  }
+}

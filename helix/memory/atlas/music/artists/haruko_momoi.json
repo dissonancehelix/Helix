@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:haruko_momoi",
+  "entity_type": "music.composer",
+  "label": "Haruko Momoi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Akiba's Trip"
+    ],
+    "artist_keys": [
+      "Haruko Momoi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "860",
+    "musicbrainz": "1a2fcf20-f3b4-4a6a-a604-60f384459f37",
+    "wikidata": "Q264989",
+    "spotify": "2QEql0795irlepNvWlZUb9",
+    "lastfm": "桃井はるこ",
+    "wikipedia": "https://en.wikipedia.org/wiki/Haruko_Momoi"
+  }
+}

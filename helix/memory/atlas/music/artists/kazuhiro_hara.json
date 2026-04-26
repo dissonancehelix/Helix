@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kazuhiro_hara",
+  "entity_type": "music.composer",
+  "label": "Kazuhiro Hara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Final Fantasy X",
+      "Sands of Destruction",
+      "Super Space Fortress Macross II"
+    ],
+    "artist_keys": [
+      "Kazuhiro Hara"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "1789",
+    "musicbrainz": "3600b384-2972-4173-8553-f2baccc8e1b5",
+    "wikidata": "Q11409360",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

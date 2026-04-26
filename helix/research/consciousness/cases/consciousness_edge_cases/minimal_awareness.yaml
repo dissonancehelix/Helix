@@ -1,0 +1,65 @@
+case_id: minimal_awareness
+name: Minimal phenomenal awareness (nondual / dreamless reports)
+field_type: phenomenal_field
+phenomenal_candidate: true
+description: >
+  Minimal or contentless awareness reported by some subjects during dreamless sleep,
+  meditation, or boundary states. Not narrative, not differentiated, not self-referential —
+  but reportedly 'something rather than nothing.' The hardest case for the theory's D
+  (differentiation) term. Source: Josipovic & Miskovic 2020; Gamma & Metzinger 2021.
+
+components:
+  G: 0.3
+  U: 0.4
+  D: 0.05
+  T: 0.3
+  F: 0.3
+
+g_status: g_contested
+classification: minimal_phenomenal_candidate
+
+evidence:
+  G: >
+    0.3: subjects report 'something rather than nothing' — a bare presence without content.
+    This is either minimal G or confabulation. Cannot resolve with current tools. Scored
+    at 0.3 to mark genuine contestation rather than definite absence.
+  U: >
+    0.4: if content is minimal, unity may be present as a bare unified field without
+    distinguishable parts. But a field with no parts to unify is poorly described as
+    unified in the standard sense.
+  D: >
+    0.05: this is the critical challenge. Minimal awareness may have near-zero
+    differentiation — a pure open field with no qualitative distinctions. If D = 0,
+    C collapses under the formula. The score of 0.05 preserves the case as a candidate
+    rather than ruling it out, because the existence of any D at all in bare awareness
+    is contested rather than established as zero.
+  T: >
+    0.3: even minimal awareness has some temporal structure — the meditator is aware
+    across a specious present. But T is substantially reduced compared to waking.
+  F: >
+    0.3: if states are present in minimal awareness, they may have field inclusion.
+    But the field may be nearly empty.
+
+revision_pressure: >
+  Minimal awareness is the most acute test for the D term. If D = 0 in genuine
+  minimal awareness, then C = 0 under the formula — but subjects report experience.
+  Either the formula has a threshold problem (D close to zero still supports some C)
+  or the subjects are confabulating the minimal awareness report, or the minimal
+  awareness is not phenomenal in the sense the theory means.
+  The theory cannot resolve this without a threshold model.
+
+breaks_preserved:
+  - >
+    The formula C = G·U·D·T·F predicts C ≈ 0 when D ≈ 0. If minimal awareness is
+    genuinely phenomenal with D ≈ 0, the multiplicative formula is wrong for this regime.
+    A model where C can be non-trivial with very low D would require either
+    (a) a different formula, or (b) a threshold floor where C doesn't collapse below D.
+    This break is unresolved and must not be patched by inflating the D score.
+
+notes: >
+  The MPE (Minimal Phenomenal Experience) questionnaire (Gamma & Metzinger 2021)
+  is the primary empirical tool here. The question of whether dreamless sleep involves
+  any phenomenal awareness is the sharpest empirical version of this problem.
+  The no-report paradigm (Tsuchiya et al. 2015) is relevant: subjects can be conscious
+  without being able or disposed to report, which means minimal awareness cases
+  may be systematically undercounted in behavioral paradigms.

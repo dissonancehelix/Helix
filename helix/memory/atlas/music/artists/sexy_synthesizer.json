@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:sexy_synthesizer",
+  "entity_type": "music.composer",
+  "label": "SEXY-SYNTHESIZER",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Chunithm",
+      "Katamari Forever",
+      "Touch My Katamari"
+    ],
+    "artist_keys": [
+      "SEXY-SYNTHESIZER"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

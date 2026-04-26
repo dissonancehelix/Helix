@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:mitsuto_suzuki",
+  "entity_type": "music.composer",
+  "label": "Mitsuto Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake",
+      "Final Fantasy VII Remake Intergrade",
+      "Final Fantasy XIII",
+      "Kidou Senshi V Gundam",
+      "Lightning Returns",
+      "Mobius Final Fantasy",
+      "Rokudenashi Blues",
+      "Super Bombliss",
+      "The 3rd Birthday",
+      "The Irregular at Magic High School",
+      "Zone of the Enders"
+    ],
+    "artist_keys": [
+      "Mitsuto Suzuki"
+    ],
+    "track_count": 317
+  },
+  "external_ids": {
+    "vgmdb": "777",
+    "musicbrainz": "0a0e9b09-3eec-4c66-9153-a2964d888ee6",
+    "wikidata": "Q11648601",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "166324",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mitsuto_Suzuki"
+  }
+}

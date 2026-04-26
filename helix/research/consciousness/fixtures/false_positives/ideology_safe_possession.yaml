@@ -1,0 +1,48 @@
+case_id: ideology_safe_possession
+name: Political ideology as safe possession field
+field_type: false_positive
+phenomenal_candidate: false
+description: >
+  A political ideology — liberalism, conservatism, socialism — as a persistent
+  structured system of values, commitments, and behavioral dispositions carried
+  by individuals and collectives. Tests whether a "safe possession" — a set of
+  constraints carried through time by individuals — constitutes a phenomenal field
+  or self-continuity case.
+
+g_score: 0.0
+g_established: false
+
+structure_features:
+  - Stable value and commitment structure carried across time (K)
+  - Shapes perception, action, and identity
+  - Can be transmitted between individuals
+  - Generates behavioral coherence and in-group recognition
+  - Subject to gradual revision or sudden conversion
+
+why_g_absent: >
+  An ideology is a carried constraint, not a subject. Its K-value is real — it
+  constrains and shapes the behavior of those who hold it. But K is a component
+  of self-continuity (S), not of consciousness (C). The ideology does not have G.
+  The individuals carrying the ideology each have their own G. The ideology itself
+  is a structural pattern, not a phenomenal field. This is the "safe possession"
+  false positive: something that carries K without having G, O, or any self-continuity.
+
+theory_failure_mode: symbolic_false_positive
+classification_risk: low
+
+verdict: confirmed_false_positive
+
+rival_theory_verdicts:
+  inhabited_interiority_theory: >
+    K is present; G is absent. This is precisely the distinction the theory draws
+    between pattern continuity and phenomenal continuity. Verdict: false positive,
+    symbolic field only.
+
+breaks_preserved:
+  - >
+    When an ideology becomes so deeply integrated into a person's self-structure that
+    they describe their ideology as "who I am," the theory must be precise: the ideology
+    is a carried constraint (K) of the person's self-continuity, not an independent
+    subject. The person retains G; the ideology does not gain G by deep integration.
+    This precision is required to prevent the false positive classification of deeply
+    integrated cultural patterns as phenomenal candidates.

@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:ichiro_shimakura",
+  "entity_type": "music.composer",
+  "label": "Ichiro Shimakura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Bomberman Land Touch!",
+      "Mario Party 3",
+      "Mario Party 4",
+      "Pokémon Card GB",
+      "Pokémon Card GB2",
+      "Star Soldier"
+    ],
+    "artist_keys": [
+      "Ichiro Shimakura"
+    ],
+    "track_count": 200
+  },
+  "external_ids": {
+    "vgmdb": "1921",
+    "musicbrainz": "",
+    "wikidata": "Q16977203",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

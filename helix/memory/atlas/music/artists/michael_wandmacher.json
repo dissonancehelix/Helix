@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:michael_wandmacher",
+  "entity_type": "music.composer",
+  "label": "Michael Wandmacher",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bloodborne"
+    ],
+    "artist_keys": [
+      "Michael Wandmacher"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "16222",
+    "musicbrainz": "591c54cc-dfc7-43ed-84a6-1caaa4e9a8cf",
+    "wikidata": "Q25418628",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Wandmacher"
+  }
+}

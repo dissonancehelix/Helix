@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:nobuyuki_akena",
+  "entity_type": "music.composer",
+  "label": "Nobuyuki Akena",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Biker Mice From Mars",
+      "Ganbare Goemon 2",
+      "Ganbare Goemon 3",
+      "Goemon's Great Adventure",
+      "Jikkyou Oshaberi Parodius",
+      "Jikkyou Powerful Pro Yakyuu 6",
+      "Pop'n TwinBee"
+    ],
+    "artist_keys": [
+      "Nobuyuki Akena"
+    ],
+    "track_count": 273
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

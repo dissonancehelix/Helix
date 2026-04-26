@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yui_isshiki",
+  "entity_type": "music.composer",
+  "label": "Yui Isshiki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dengeki Bunko",
+      "Half"
+    ],
+    "artist_keys": [
+      "Yui Isshiki"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "4004",
+    "musicbrainz": "051d9373-92fd-40a1-b481-6be02375d71d",
+    "wikidata": "Q9097639",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

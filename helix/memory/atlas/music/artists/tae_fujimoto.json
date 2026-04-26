@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tae_fujimoto",
+  "entity_type": "music.composer",
+  "label": "Tae Fujimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sin Chronicle",
+      "Sonic Racing",
+      "Super Monkey Ball Banana Rumble"
+    ],
+    "artist_keys": [
+      "Tae Fujimoto"
+    ],
+    "track_count": 102
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

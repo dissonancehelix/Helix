@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:matsunobu_tsukamoto",
+  "entity_type": "music.composer",
+  "label": "Matsunobu Tsukamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2"
+    ],
+    "franchises": [
+      "Blaster Burn"
+    ],
+    "artist_keys": [
+      "Matsunobu Tsukamoto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

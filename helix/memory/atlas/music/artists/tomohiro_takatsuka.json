@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomohiro_takatsuka",
+  "entity_type": "music.composer",
+  "label": "Tomohiro Takatsuka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Pia Carrot e Youkoso!!"
+    ],
+    "artist_keys": [
+      "Tomohiro Takatsuka"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

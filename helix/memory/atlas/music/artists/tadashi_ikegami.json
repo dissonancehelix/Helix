@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:tadashi_ikegami",
+  "entity_type": "music.composer",
+  "label": "Tadashi Ikegami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "Super NES"
+    ],
+    "franchises": [
+      "Common Sense Training",
+      "Itoi Shigesato no Bass Tsuri No. 1",
+      "Kirby",
+      "Kirby Air Ride",
+      "Kirby's Dream Land 2",
+      "Kirby's Pinball Land",
+      "Super Kirby Clash",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. Melee"
+    ],
+    "artist_keys": [
+      "Tadashi Ikegami"
+    ],
+    "track_count": 76
+  },
+  "external_ids": {
+    "vgmdb": "1392",
+    "musicbrainz": "d38256e1-492a-43ee-b0ca-bcb1d458e5ae",
+    "wikidata": "Q11551470",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:iroha_sasaki",
+  "entity_type": "music.composer",
+  "label": "Iroha (Sasaki)",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "☆ 24EFFECTS ☆"
+    ],
+    "artist_keys": [
+      "Iroha (Sasaki)"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

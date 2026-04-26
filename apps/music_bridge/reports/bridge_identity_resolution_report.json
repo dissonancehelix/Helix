@@ -1,0 +1,15 @@
+{
+  "resolver": "IdentityResolver v1.0",
+  "strategies": [
+    "exact_uri",
+    "path_variance",
+    "alias_graph",
+    "fuzzy_filename"
+  ],
+  "alias_graph_size": 2,
+  "current_resolution": {
+    "track": null,
+    "resolved": false,
+    "context": null
+  }
+}

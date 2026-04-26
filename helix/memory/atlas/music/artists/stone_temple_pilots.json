@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:stone_temple_pilots",
+  "entity_type": "music.composer",
+  "label": "Stone Temple Pilots",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Core",
+      "Thank You"
+    ],
+    "artist_keys": [
+      "Stone Temple Pilots"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8c32bb01-58a3-453b-8050-8c0620edb0e5",
+    "wikidata": "Q329270",
+    "spotify": "2UazAtjfzqBF0Nho2awK4z",
+    "lastfm": "Stone+Temple+Pilots",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stone_Temple_Pilots"
+  }
+}

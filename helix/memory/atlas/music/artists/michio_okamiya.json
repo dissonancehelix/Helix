@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:michio_okamiya",
+  "entity_type": "music.composer",
+  "label": "Michio Okamiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fairy Fencer F",
+      "UnchainBlades EXXIV"
+    ],
+    "artist_keys": [
+      "Michio Okamiya"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "784",
+    "musicbrainz": "7a08bb82-6d6d-4c71-8281-de4f51647f74",
+    "wikidata": "Q11472027",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

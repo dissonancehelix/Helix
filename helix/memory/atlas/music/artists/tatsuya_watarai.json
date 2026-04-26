@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:tatsuya_watarai",
+  "entity_type": "music.composer",
+  "label": "Tatsuya Watarai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Farland Story",
+      "Farland Story Denki",
+      "Steam",
+      "V.G.",
+      "V.G. II"
+    ],
+    "artist_keys": [
+      "Tatsuya Watarai"
+    ],
+    "track_count": 78
+  },
+  "external_ids": {
+    "vgmdb": "5775",
+    "musicbrainz": "dc3fdfc4-067e-4776-9721-dd848856d806",
+    "wikidata": "Q11486131",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

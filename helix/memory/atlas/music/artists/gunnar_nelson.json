@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:gunnar_nelson",
+  "entity_type": "music.composer",
+  "label": "Gunnar Nelson",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Team Sonic Racing"
+    ],
+    "artist_keys": [
+      "Gunnar Nelson"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "12545",
+    "musicbrainz": "6051ec98-4a50-4993-8799-1e0eb6071ca7",
+    "wikidata": "Q5619088",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gunnar_Nelson_(musician)"
+  }
+}

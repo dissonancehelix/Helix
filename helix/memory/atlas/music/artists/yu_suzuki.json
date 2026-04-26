@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yu_suzuki",
+  "entity_type": "music.composer",
+  "label": "Yu Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Space Harrier"
+    ],
+    "artist_keys": [
+      "Yu Suzuki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "36004",
+    "musicbrainz": "0cfb19ea-8571-4e55-8d9a-0ba73817b801",
+    "wikidata": "Q282263",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yu_Suzuki"
+  }
+}

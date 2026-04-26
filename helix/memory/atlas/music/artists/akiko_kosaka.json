@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:akiko_kosaka",
+  "entity_type": "music.composer",
+  "label": "Akiko Kosaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Laplace no Ma"
+    ],
+    "artist_keys": [
+      "Akiko Kosaka"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "4592",
+    "musicbrainz": "e39e4880-204a-4c64-a263-13a21a124206",
+    "wikidata": "Q11459418",
+    "spotify": "5yYT4nuXXDdy1tJdyK3f9K",
+    "lastfm": "小坂明子"
+  }
+}

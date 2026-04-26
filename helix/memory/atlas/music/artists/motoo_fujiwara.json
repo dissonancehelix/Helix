@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:motoo_fujiwara",
+  "entity_type": "music.composer",
+  "label": "Motoo Fujiwara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of the Abyss"
+    ],
+    "artist_keys": [
+      "Motoo Fujiwara"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "96ad1414-9e4c-432f-9531-7498d31ad149",
+    "wikidata": "Q11288228",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

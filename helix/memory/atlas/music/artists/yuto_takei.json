@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yuto_takei",
+  "entity_type": "music.composer",
+  "label": "Yuto Takei",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Yuto Takei"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90470659",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

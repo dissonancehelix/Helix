@@ -1,0 +1,18 @@
+{
+  "global_precision": 0.2,
+  "tier_precision": {
+    "TIER_B": 0.0,
+    "TIER_A": 0.3333333333333333
+  },
+  "category_precision": {
+    "curated_subset": 0.0,
+    "release": 0.3333333333333333,
+    "folder_recovery": 0.0
+  },
+  "patterns": {
+    "generic_title_collision": 1,
+    "contradiction_gate_failure": 1,
+    "curated_subset_overreach": 1,
+    "folder_name_false_authority": 1
+  }
+}

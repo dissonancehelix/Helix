@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shuichi_kobori",
+  "entity_type": "music.composer",
+  "label": "Shuichi Kobori",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Boktai",
+      "Metal Gear Solid 3",
+      "Metal Gear Solid 4",
+      "The Evil Within",
+      "Zone of the Enders"
+    ],
+    "artist_keys": [
+      "Shuichi Kobori"
+    ],
+    "track_count": 92
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

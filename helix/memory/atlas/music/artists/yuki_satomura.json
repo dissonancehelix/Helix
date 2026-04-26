@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yuki_satomura",
+  "entity_type": "music.composer",
+  "label": "Yuki Satomura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Goof Troop"
+    ],
+    "artist_keys": [
+      "Yuki Satomura"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

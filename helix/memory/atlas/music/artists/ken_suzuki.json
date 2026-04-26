@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:ken_suzuki",
+  "entity_type": "music.composer",
+  "label": "Ken Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Blue Almanac",
+      "Mystery Case In Hi!school!! Synergy"
+    ],
+    "artist_keys": [
+      "Ken Suzuki"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q55008575",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

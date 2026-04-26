@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kota_kato",
+  "entity_type": "music.composer",
+  "label": "Kota Kato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Kamaitachi no Yoru"
+    ],
+    "artist_keys": [
+      "Kota Kato"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

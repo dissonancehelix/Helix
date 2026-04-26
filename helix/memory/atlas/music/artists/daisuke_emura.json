@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:daisuke_emura",
+  "entity_type": "music.composer",
+  "label": "Daisuke Emura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Sword World SFC 2"
+    ],
+    "artist_keys": [
+      "Daisuke Emura"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

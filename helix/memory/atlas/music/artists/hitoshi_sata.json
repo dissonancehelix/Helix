@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hitoshi_sata",
+  "entity_type": "music.composer",
+  "label": "Hitoshi Sata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Harmful Park"
+    ],
+    "artist_keys": [
+      "Hitoshi Sata"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q43427067",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

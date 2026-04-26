@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:saori_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Saori Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Master System",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Deep Duck Trouble",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Super Rare Trax",
+      "Inspector Gadget",
+      "Panzer Dragoon Orta",
+      "Panzer Dragoon Saga",
+      "Shadowgate 64",
+      "Sonic the Hedgehog",
+      "Super Monkey Ball",
+      "Sylvan Tale"
+    ],
+    "artist_keys": [
+      "Saori Kobayashi"
+    ],
+    "track_count": 158
+  },
+  "external_ids": {
+    "vgmdb": "552",
+    "musicbrainz": "eb77ae74-5fa6-41dc-b3dd-47fac1ddad5e",
+    "wikidata": "Q3950173",
+    "spotify": "4AtRsu2uKEBLIOfdKSvHVd",
+    "lastfm": "Saori+Kobayashi",
+    "discogs": "943977",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saori_Kobayashi"
+  }
+}

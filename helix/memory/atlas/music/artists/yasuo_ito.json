@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:yasuo_ito",
+  "entity_type": "music.composer",
+  "label": "Yasuo Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "FM Towns",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "If",
+      "Mahjong Fantasia",
+      "Mahjong Fantasia II",
+      "Pitapat"
+    ],
+    "artist_keys": [
+      "Yasuo Ito"
+    ],
+    "track_count": 70
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q21652463",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

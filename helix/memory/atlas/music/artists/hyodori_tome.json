@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hyodori_tome",
+  "entity_type": "music.composer",
+  "label": "Hyodori Tome",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Pepenga Pengo"
+    ],
+    "artist_keys": [
+      "Hyodori Tome"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

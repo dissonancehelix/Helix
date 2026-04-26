@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:shinji_tamura",
+  "entity_type": "music.composer",
+  "label": "Shinji Tamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Ace wo Nerae!",
+      "Annet Futatabi",
+      "Cosmic Fantasy 4",
+      "Cybernetic Empire",
+      "Dark Kingdom",
+      "Devastator",
+      "Hiouden SFC",
+      "Parlor Parlor",
+      "Parlor Parlor 2",
+      "Parlor Parlor 4"
+    ],
+    "artist_keys": [
+      "Shinji Tamura"
+    ],
+    "track_count": 560
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q59703838",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

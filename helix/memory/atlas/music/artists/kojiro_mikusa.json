@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:kojiro_mikusa",
+  "entity_type": "music.composer",
+  "label": "Kojiro Mikusa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Master System",
+      "Pico",
+      "Super NES"
+    ],
+    "franchises": [
+      "Coca Cola Kid",
+      "Code of Joker",
+      "Go Go Ackman 2",
+      "Go Go Ackman 3",
+      "Kaitou Saint Tail",
+      "Mezase Pro Yakyuu",
+      "Sonic the Hedgehog",
+      "Tails Adventure",
+      "The Lost World",
+      "Virtua Fighter Animation"
+    ],
+    "artist_keys": [
+      "Kojiro Mikusa"
+    ],
+    "track_count": 163
+  },
+  "external_ids": {
+    "vgmdb": "10500",
+    "musicbrainz": "",
+    "wikidata": "Q17136379",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:mitsuhiro_yoshida",
+  "entity_type": "music.composer",
+  "label": "Mitsuhiro Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Butasan"
+    ],
+    "artist_keys": [
+      "Mitsuhiro Yoshida"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17222354",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

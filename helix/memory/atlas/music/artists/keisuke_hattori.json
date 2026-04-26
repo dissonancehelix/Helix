@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:keisuke_hattori",
+  "entity_type": "music.composer",
+  "label": "Keisuke Hattori",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 0"
+    ],
+    "artist_keys": [
+      "Keisuke Hattori"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "13181a38-ab7f-4e00-9496-1b6c2eb756c9",
+    "wikidata": "Q11192003",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

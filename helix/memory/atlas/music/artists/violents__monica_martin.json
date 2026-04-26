@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:violents__monica_martin",
+  "entity_type": "music.composer",
+  "label": "Violents & Monica Martin",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Awake and Pretty Much Sober"
+    ],
+    "artist_keys": [
+      "Violents & Monica Martin"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

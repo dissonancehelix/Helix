@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomoko_miyagi",
+  "entity_type": "music.composer",
+  "label": "Tomoko Miyagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Bloody Roar"
+    ],
+    "artist_keys": [
+      "Tomoko Miyagi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

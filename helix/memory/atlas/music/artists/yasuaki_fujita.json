@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:yasuaki_fujita",
+  "entity_type": "music.composer",
+  "label": "Yasuaki Fujita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Breath of Fire",
+      "Darkwing Duck",
+      "Final Fight",
+      "Final Fight 2",
+      "Mega Man",
+      "Mega Man 10",
+      "Mega Man 3",
+      "Metal Slug",
+      "Super Smash Bros. for Wii U",
+      "Tarot Mystery",
+      "Tenchi wo Kurau II",
+      "The Little Mermaid",
+      "The Shinri Game",
+      "Who Framed Roger Rabbit"
+    ],
+    "artist_keys": [
+      "Yasuaki Fujita"
+    ],
+    "track_count": 147
+  },
+  "external_ids": {
+    "vgmdb": "8162",
+    "musicbrainz": "fb4077f6-1433-4202-b262-2e4ecd973d46",
+    "wikidata": "Q4997386",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1815436",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yasuaki_Fujita"
+  }
+}

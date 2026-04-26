@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:chiho_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Chiho Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Super Monkey Ball",
+      "Super Monkey Ball 3D"
+    ],
+    "artist_keys": [
+      "Chiho Kobayashi"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q130437613",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

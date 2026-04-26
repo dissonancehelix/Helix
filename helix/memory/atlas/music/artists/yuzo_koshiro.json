@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:yuzo_koshiro",
+  "entity_type": "music.composer",
+  "label": "Yuzo Koshiro",
+  "aliases": [
+    "古代 祐三"
+  ],
+  "library": {
+    "platforms": [
+      "PC-88",
+      "Genesis",
+      "Game Gear",
+      "Super NES",
+      "Sega Saturn",
+      "Dreamcast",
+      "DS",
+      "3DS",
+      "Switch"
+    ],
+    "franchises": [
+      "Ys",
+      "Streets of Rage",
+      "ActRaiser",
+      "Shinobi",
+      "Etrian Odyssey",
+      "7th Dragon"
+    ],
+    "artist_keys": [
+      "Yuzo Koshiro",
+      "古代 祐三"
+    ]
+  },
+  "external_ids": {
+    "vgmdb": "79",
+    "musicbrainz": "6231d683-1b9a-4c9f-8646-c22e0388d77a",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuzo_Koshiro"
+  },
+  "biography": {
+    "short": "Pioneer of FM synthesis and composer for Streets of Rage and Ys series.",
+    "career": "Ancient (Founding 1990–)."
+  }
+}

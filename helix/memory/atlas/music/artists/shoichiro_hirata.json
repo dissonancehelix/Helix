@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shoichiro_hirata",
+  "entity_type": "music.composer",
+  "label": "Shoichiro Hirata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Shoichiro Hirata"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "1560",
+    "musicbrainz": "ee0f5f85-1b42-40e0-a694-3bb4fb3df74f",
+    "wikidata": "Q11483362",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

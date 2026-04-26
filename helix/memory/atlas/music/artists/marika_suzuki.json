@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:marika_suzuki",
+  "entity_type": "music.composer",
+  "label": "Marika Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Mega Man 11",
+      "Mega Man Star Force 2",
+      "Rockman EXE"
+    ],
+    "artist_keys": [
+      "Marika Suzuki"
+    ],
+    "track_count": 56
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11648444",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

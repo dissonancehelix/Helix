@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:keiichi_okabe_shotaro_seo",
+  "entity_type": "music.composer",
+  "label": "Keiichi Okabe, Shotaro Seo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "NieR Re[in]carnation"
+    ],
+    "artist_keys": [
+      "Keiichi Okabe, Shotaro Seo"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

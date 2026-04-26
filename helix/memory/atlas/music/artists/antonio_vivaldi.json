@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:antonio_vivaldi",
+  "entity_type": "music.composer",
+  "label": "Antonio Vivaldi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario; Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Antonio Vivaldi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "48848",
+    "musicbrainz": "ad79836d-9849-44df-8789-180bbc823f3c",
+    "wikidata": "Q1340",
+    "spotify": "2QOIawHpSlOwXDvSqQ9YJR",
+    "lastfm": "Antonio+Vivaldi",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antonio_Vivaldi"
+  }
+}

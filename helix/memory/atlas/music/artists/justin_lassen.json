@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:justin_lassen",
+  "entity_type": "music.composer",
+  "label": "Justin Lassen",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Otomedius Excellent"
+    ],
+    "artist_keys": [
+      "Justin Lassen"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "14909",
+    "musicbrainz": "29e87af3-7638-4a33-9ac6-ab817e485378",
+    "wikidata": "Q6317804",
+    "spotify": "2QIMj8wXrNaj16eSSt4U5q",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Justin_Lassen"
+  }
+}

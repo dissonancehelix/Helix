@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:soundgarden",
+  "entity_type": "music.composer",
+  "label": "Soundgarden",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Badmotorfinger",
+      "Down on the Upside",
+      "King Animal",
+      "Louder Than Love",
+      "Screaming Life",
+      "Superunknown",
+      "Ultramega OK"
+    ],
+    "artist_keys": [
+      "Soundgarden"
+    ],
+    "track_count": 110
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "153c9281-268f-4cf3-8938-f5a4593e5df4",
+    "wikidata": "Q174817",
+    "spotify": "5xUf6j4upBrXZPg6AI4MRK",
+    "lastfm": "Soundgarden",
+    "discogs": "105731",
+    "wikipedia": "https://en.wikipedia.org/wiki/Soundgarden"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:tomohiro_endo",
+  "entity_type": "music.composer",
+  "label": "Tomohiro Endo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Hakunetsu Pro Baseball '93",
+      "Majyuuou",
+      "Pikiinya!",
+      "Power of the Hired",
+      "Ys IV"
+    ],
+    "artist_keys": [
+      "Tomohiro Endo"
+    ],
+    "track_count": 94
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

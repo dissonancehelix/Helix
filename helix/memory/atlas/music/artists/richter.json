@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:richter",
+  "entity_type": "music.composer",
+  "label": "Richter",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "DanMachi Battle Chronicle",
+      "Digicalized",
+      "Mahjong Soul",
+      "Progress Orders",
+      "The Eminence in Shadow",
+      "Unicorn Overlord",
+      "Unicorn Overlord 16",
+      "Valiant Force 2"
+    ],
+    "artist_keys": [
+      "Richter"
+    ],
+    "track_count": 293
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2798180",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richter_(surname)"
+  }
+}

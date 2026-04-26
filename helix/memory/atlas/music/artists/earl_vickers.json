@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:earl_vickers",
+  "entity_type": "music.composer",
+  "label": "Earl Vickers",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Awesome Possum Kicks Dr. Machino's Butt!",
+      "Dragon's Revenge",
+      "Gauntlet",
+      "Xybots"
+    ],
+    "artist_keys": [
+      "Earl Vickers"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

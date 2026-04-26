@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:sylvain_hellio",
+  "entity_type": "music.composer",
+  "label": "Sylvain Hellio",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Windjammers 2"
+    ],
+    "artist_keys": [
+      "Sylvain Hellio"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

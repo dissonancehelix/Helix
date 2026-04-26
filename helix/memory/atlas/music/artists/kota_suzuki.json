@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kota_suzuki",
+  "entity_type": "music.composer",
+  "label": "Kota Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Devil May Cry 4"
+    ],
+    "artist_keys": [
+      "Kota Suzuki"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "6c3a52e8-64fe-4330-b6f1-0f53e0582bee",
+    "wikidata": "Q125625028",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

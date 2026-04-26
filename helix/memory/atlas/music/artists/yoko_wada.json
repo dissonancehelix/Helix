@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:yoko_wada",
+  "entity_type": "music.composer",
+  "label": "Yoko Wada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "MSX2",
+      "Master System",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Buster Fight",
+      "Dynamite Duke",
+      "Fantasy Zone Gear",
+      "Master of Darkness",
+      "Slam Dunk",
+      "Youma Kourin"
+    ],
+    "artist_keys": [
+      "Yoko Wada"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q125294601",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshio_nagashima",
+  "entity_type": "music.composer",
+  "label": "Yoshio Nagashima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gomola Speed"
+    ],
+    "artist_keys": [
+      "Yoshio Nagashima"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "46878",
+    "musicbrainz": "",
+    "wikidata": "Q11550049",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

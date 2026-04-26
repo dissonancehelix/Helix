@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:momo",
+  "entity_type": "music.composer",
+  "label": "momo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Dog Island"
+    ],
+    "artist_keys": [
+      "momo"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "9da186a2-8c5f-42dc-ab45-291319121422",
+    "wikidata": "Q23779926",
+    "spotify": "201LkKsQx7d0xFVRWOV4gQ",
+    "lastfm": "모모",
+    "wikipedia": "https://en.wikipedia.org/wiki/Momo_Hirai"
+  }
+}

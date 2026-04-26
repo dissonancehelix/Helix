@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:kazuhito_shimizu",
+  "entity_type": "music.composer",
+  "label": "Kazuhito Shimizu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "OLIO3",
+      "StarHorse 4"
+    ],
+    "artist_keys": [
+      "Kazuhito Shimizu"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

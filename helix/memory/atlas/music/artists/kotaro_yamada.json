@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kotaro_yamada",
+  "entity_type": "music.composer",
+  "label": "Kotaro Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Blaster Master Zero"
+    ],
+    "artist_keys": [
+      "Kotaro Yamada"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q112526644",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

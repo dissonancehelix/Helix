@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:paul_haslinger",
+  "entity_type": "music.composer",
+  "label": "Paul Haslinger",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Future Primitive"
+    ],
+    "artist_keys": [
+      "Paul Haslinger"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "19008",
+    "musicbrainz": "4c03129a-8d3f-464c-90a8-418ed6bfcd00",
+    "wikidata": "Q78957",
+    "spotify": "5d9PdhcsOsXj0GIM857nvE",
+    "lastfm": "Paul+Haslingery",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_Haslinger"
+  }
+}

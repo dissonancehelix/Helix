@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:the_champs",
+  "entity_type": "music.composer",
+  "label": "The Champs",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "The Champs"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

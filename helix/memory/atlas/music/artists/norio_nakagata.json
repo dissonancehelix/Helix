@@ -1,0 +1,45 @@
+{
+  "entity_id": "music.composer:norio_nakagata",
+  "entity_type": "music.composer",
+  "label": "Norio Nakagata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "NES",
+      "PC Engine",
+      "PC-88",
+      "X68000"
+    ],
+    "franchises": [
+      "Babel no Tou",
+      "Bakutotsu Kijuutei",
+      "Beraboh Man",
+      "Burai Fighter",
+      "Burai Fighter Deluxe",
+      "Genpei Toumaden",
+      "Great Wall",
+      "Heiankyo Alien",
+      "Low G Man",
+      "Mirai Ninja",
+      "Motos",
+      "Pro Yakyuu Family Stadium '89",
+      "R.B.I. Baseball",
+      "Samurai",
+      "Scorpius"
+    ],
+    "artist_keys": [
+      "Norio Nakagata"
+    ],
+    "track_count": 134
+  },
+  "external_ids": {
+    "vgmdb": "1590",
+    "musicbrainz": "4de594c1-5359-4c2b-b194-19b2a5773d7b",
+    "wikidata": "Q11366558",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "3253888"
+  }
+}

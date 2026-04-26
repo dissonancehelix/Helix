@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:majora_philharmonic_sound_orchestra",
+  "entity_type": "music.composer",
+  "label": "Majora Philharmonic Sound Orchestra",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Majora Philharmonic Sound Orchestra"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

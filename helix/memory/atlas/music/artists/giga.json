@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:giga",
+  "entity_type": "music.composer",
+  "label": "Giga",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Racing"
+    ],
+    "artist_keys": [
+      "Giga"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "fc7a99ac-32f0-4e2a-a2eb-03670470003d",
+    "wikidata": "Q126005594",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Giga_(musician)"
+  }
+}

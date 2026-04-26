@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:mihoko_ando",
+  "entity_type": "music.composer",
+  "label": "Mihoko Ando",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Boogie Wings",
+      "Dark Seal II",
+      "Diet Go Go",
+      "Fighter's History",
+      "Glory of Heracles IV",
+      "Karnov's Revenge",
+      "Spin Master",
+      "Tumble Pop"
+    ],
+    "artist_keys": [
+      "Mihoko Ando"
+    ],
+    "track_count": 136
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

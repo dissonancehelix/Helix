@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:yasumasa_yamada",
+  "entity_type": "music.composer",
+  "label": "Yasumasa Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Art of Fighting",
+      "Art of Fighting 2",
+      "Art of Fighting 3",
+      "Burning Fight",
+      "Half",
+      "Picross 3D",
+      "Robo Army",
+      "SNK vs. Capcom",
+      "Samurai Shodown II",
+      "Samurai Shodown IV",
+      "Soccer Brawl",
+      "The King of Fighters '96",
+      "The King of Fighters '97"
+    ],
+    "artist_keys": [
+      "Yasumasa Yamada"
+    ],
+    "track_count": 216
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

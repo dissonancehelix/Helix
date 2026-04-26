@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toshikazu_kadono",
+  "entity_type": "music.composer",
+  "label": "Toshikazu Kadono",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Akiba's Trip"
+    ],
+    "artist_keys": [
+      "Toshikazu Kadono"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "12934",
+    "musicbrainz": "39a8d551-4593-40b0-b3dd-beadbf4932c1",
+    "wikidata": "Q20039452",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

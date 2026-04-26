@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tsutomu_ohkuma",
+  "entity_type": "music.composer",
+  "label": "Tsutomu Ohkuma",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Jissen Pachinko Hisshouhou"
+    ],
+    "artist_keys": [
+      "Tsutomu Ohkuma"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:akira_nishizaki",
+  "entity_type": "music.composer",
+  "label": "Akira Nishizaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tekken 2"
+    ],
+    "artist_keys": [
+      "Akira Nishizaki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

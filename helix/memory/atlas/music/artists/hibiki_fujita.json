@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hibiki_fujita",
+  "entity_type": "music.composer",
+  "label": "Hibiki Fujita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Endrays"
+    ],
+    "artist_keys": [
+      "Hibiki Fujita"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

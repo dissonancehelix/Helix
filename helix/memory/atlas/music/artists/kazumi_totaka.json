@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:kazumi_totaka",
+  "entity_type": "music.composer",
+  "label": "Kazumi Totaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "Nintendo 64",
+      "Super NES",
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Animal Crossing",
+      "F",
+      "Kaeru no Tame ni Kane wa Naru",
+      "Kenkou Ouen Recipe 1000",
+      "Mario Paint",
+      "Nintendo Channel",
+      "Super Mario Land 2",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Kazumi Totaka"
+    ],
+    "track_count": 611
+  },
+  "external_ids": {
+    "vgmdb": "690",
+    "musicbrainz": "92465dcb-b0c4-4401-bbd8-634693165b81",
+    "wikidata": "Q1371555",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "278251",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kazumi_Totaka"
+  }
+}

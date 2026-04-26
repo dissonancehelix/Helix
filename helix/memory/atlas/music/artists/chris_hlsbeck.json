@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:chris_hlsbeck",
+  "entity_type": "music.composer",
+  "label": "Chris Hülsbeck",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Jim Power",
+      "Mega Turrican",
+      "The Great Giana Sisters"
+    ],
+    "artist_keys": [
+      "Chris Hülsbeck"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "1164",
+    "musicbrainz": "6a4ee4c8-eaed-48ef-84c2-34ee655e2312",
+    "wikidata": "Q64712",
+    "spotify": "6DlzKo9HtbAZb5ZBknDZot",
+    "lastfm": "Chris+Hülsbeck",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chris_Huelsbeck"
+  }
+}

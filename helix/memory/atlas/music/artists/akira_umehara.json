@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akira_umehara",
+  "entity_type": "music.composer",
+  "label": "Akira Umehara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Star Luster"
+    ],
+    "artist_keys": [
+      "Akira Umehara"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

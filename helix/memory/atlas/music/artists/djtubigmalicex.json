@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:djtubigmalicex",
+  "entity_type": "music.composer",
+  "label": "dj.tuBIG/MaliceX",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "dj.tuBIG/MaliceX"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

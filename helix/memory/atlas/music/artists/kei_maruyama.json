@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kei_maruyama",
+  "entity_type": "music.composer",
+  "label": "Kei Maruyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Battle Golfer Yui",
+      "Mahjong Cop Ryuu"
+    ],
+    "artist_keys": [
+      "Kei Maruyama"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "33579",
+    "musicbrainz": "",
+    "wikidata": "Q69634950",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

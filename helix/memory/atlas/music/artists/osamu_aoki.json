@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:osamu_aoki",
+  "entity_type": "music.composer",
+  "label": "Osamu Aoki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Osamu Aoki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q39039719",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

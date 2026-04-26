@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:toshiko_tasaki",
+  "entity_type": "music.composer",
+  "label": "Toshiko Tasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Mega Drive",
+      "NES",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Action Pachio",
+      "Adventure Tsukuru 98",
+      "Akiba's Trip",
+      "Cadash",
+      "Devil Summoner",
+      "Dun",
+      "Dungeon RPG Tsukuru DanDan Dungeon",
+      "Heaven's Gate",
+      "Magical Hat no Buttobi Turbo! Daibouken",
+      "Persona; Shin Megami Tensei",
+      "Saint Sword",
+      "Shin Megami Tensei",
+      "Shooting Tsukuru 98",
+      "The Mafat Conspiracy",
+      "Touch Detective"
+    ],
+    "artist_keys": [
+      "Toshiko Tasaki"
+    ],
+    "track_count": 340
+  },
+  "external_ids": {
+    "vgmdb": "12559",
+    "musicbrainz": "a4215d04-0df3-4f1b-a7a2-0e3fe2fd78da",
+    "wikidata": "Q18817775",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "359315"
+  }
+}

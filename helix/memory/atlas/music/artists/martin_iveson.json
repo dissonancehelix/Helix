@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:martin_iveson",
+  "entity_type": "music.composer",
+  "label": "Martin Iveson",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Chuck Rock II"
+    ],
+    "artist_keys": [
+      "Martin Iveson"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "3076",
+    "musicbrainz": "db739044-9d17-4ebf-afcc-99613a47ab4e",
+    "wikidata": "Q6775767",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

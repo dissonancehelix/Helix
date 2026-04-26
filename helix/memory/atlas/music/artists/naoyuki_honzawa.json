@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naoyuki_honzawa",
+  "entity_type": "music.composer",
+  "label": "Naoyuki Honzawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake",
+      "Final Fantasy VII Remake Intergrade"
+    ],
+    "artist_keys": [
+      "Naoyuki Honzawa"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

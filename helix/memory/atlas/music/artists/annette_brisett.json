@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:annette_brisett",
+  "entity_type": "music.composer",
+  "label": "Annette Brisett",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Blue Remains"
+    ],
+    "artist_keys": [
+      "Annette Brisett"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

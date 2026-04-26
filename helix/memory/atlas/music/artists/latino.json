@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:latino",
+  "entity_type": "music.composer",
+  "label": "Latino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Latino"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q18345375",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Latin_music"
+  }
+}

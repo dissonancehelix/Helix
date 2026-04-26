@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:seiichi_sakurai",
+  "entity_type": "music.composer",
+  "label": "Seiichi Sakurai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Blazer",
+      "Cosmo Gangs",
+      "Pistol Daimyo no Bouken",
+      "Pretty Soldier Sailor Moon"
+    ],
+    "artist_keys": [
+      "Seiichi Sakurai"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "11938",
+    "musicbrainz": "005964c2-e92e-4367-a93c-392bd374feb7",
+    "wikidata": "Q11537892",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

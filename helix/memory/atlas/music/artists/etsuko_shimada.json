@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:etsuko_shimada",
+  "entity_type": "music.composer",
+  "label": "Etsuko Shimada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Samba de Amigo",
+      "Super Monkey Ball Banana Rumble"
+    ],
+    "artist_keys": [
+      "Etsuko Shimada"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "entity_id": "music.composer:katsuhiro_hayashi",
+  "entity_type": "music.composer",
+  "label": "Katsuhiro Hayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Gear",
+      "Master System",
+      "PC Engine",
+      "PlayStation",
+      "PlayStation 2",
+      "SC-3000",
+      "SG-1000",
+      "Super NES"
+    ],
+    "franchises": [
+      "Astérix and the Secret Mission",
+      "Battle Racers",
+      "Chaos Seed",
+      "DeviceReign",
+      "Dodge Danpei",
+      "Eternal Melody",
+      "Final Lap Twin",
+      "Fune Tarou",
+      "Gain Ground",
+      "Galaxy Force II",
+      "George Foreman's KO Boxing",
+      "Girl's Garden",
+      "Heavyweight Champ",
+      "High School! Kimengumi",
+      "Hokuto no Ken"
+    ],
+    "artist_keys": [
+      "Katsuhiro Hayashi"
+    ],
+    "track_count": 464
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q89368188",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

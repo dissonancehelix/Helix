@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:jun_fukuda",
+  "entity_type": "music.composer",
+  "label": "Jun Fukuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Contact",
+      "Earth Defense Force 3",
+      "Earth Defense Force 4",
+      "Earth Defense Force 5",
+      "Earth Defense Force 6",
+      "GeOnDan Super Rare Trax",
+      "God Hand",
+      "Infinite Space",
+      "Michigan",
+      "No More Heroes",
+      "No More Heroes 2",
+      "Rain Code",
+      "Resident Evil",
+      "Samurai Champloo",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Jun Fukuda"
+    ],
+    "track_count": 249
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q112659652",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

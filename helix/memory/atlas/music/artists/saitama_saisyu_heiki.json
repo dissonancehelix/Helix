@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:saitama_saisyu_heiki",
+  "entity_type": "music.composer",
+  "label": "Saitama Saisyu Heiki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gain Ground (Sega Ages 2500)"
+    ],
+    "artist_keys": [
+      "Saitama Saisyu Heiki"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "459",
+    "musicbrainz": "c867c931-350b-4d49-9af3-64805b9285e5",
+    "wikidata": "Q11426524",
+    "spotify": "6kv8jNSlUDuUcthzbn9xJy",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hiroshi_takeyasu",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Takeyasu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "NES"
+    ],
+    "franchises": [
+      "Crackout",
+      "Monster in my Pocket",
+      "Tiny Toon Adventures 2"
+    ],
+    "artist_keys": [
+      "Hiroshi Takeyasu"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "39238",
+    "musicbrainz": "c85f4ff4-785a-466e-97fd-79ca37b321ce",
+    "wikidata": "Q11599061",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

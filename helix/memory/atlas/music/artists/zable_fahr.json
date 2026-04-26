@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:zable_fahr",
+  "entity_type": "music.composer",
+  "label": "Zable Fahr",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Pier Solar and the Great Architects"
+    ],
+    "artist_keys": [
+      "Zable Fahr"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

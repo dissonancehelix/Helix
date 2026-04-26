@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masaki_mori",
+  "entity_type": "music.composer",
+  "label": "Masaki Mori",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Masaki Mori"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "bb40c00c-6203-408d-8403-d120db159995",
+    "wikidata": "Q30924630",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

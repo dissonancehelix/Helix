@@ -1,0 +1,15 @@
+{
+    "domain": "games",
+    "system_description": "Five-player coordination game. Players synchronise turn timing to achieve cooperative phase lock under strong coupling.",
+    "oscillators": [
+        {"id": "player_1", "initial_phase": 0.0,  "natural_frequency": 1.0},
+        {"id": "player_2", "initial_phase": 0.5,  "natural_frequency": 1.1},
+        {"id": "player_3", "initial_phase": 1.0,  "natural_frequency": 0.9},
+        {"id": "player_4", "initial_phase": 1.5,  "natural_frequency": 1.05},
+        {"id": "player_5", "initial_phase": 2.0,  "natural_frequency": 0.95}
+    ],
+    "coupling_strength": 2.0,
+    "n_steps": 800,
+    "dt": 0.01,
+    "notes": "K=2.0 above critical K_c for 5 oscillators — expects R > 0.95"
+}

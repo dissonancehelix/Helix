@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:naoya_kamisaka",
+  "entity_type": "music.composer",
+  "label": "Naoya Kamisaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man X5"
+    ],
+    "artist_keys": [
+      "Naoya Kamisaka"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

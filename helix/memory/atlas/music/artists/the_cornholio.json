@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:the_cornholio",
+  "entity_type": "music.composer",
+  "label": "The Cornholio",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "OLIO3"
+    ],
+    "artist_keys": [
+      "The Cornholio"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

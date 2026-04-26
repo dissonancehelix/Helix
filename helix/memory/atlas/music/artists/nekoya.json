@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:nekoya",
+  "entity_type": "music.composer",
+  "label": "NEKOYA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mystery Case In Hi!school!! Synergy"
+    ],
+    "artist_keys": [
+      "NEKOYA"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11254928",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

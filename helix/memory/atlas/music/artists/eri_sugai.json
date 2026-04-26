@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:eri_sugai",
+  "entity_type": "music.composer",
+  "label": "Eri Sugai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Lady Stalker"
+    ],
+    "artist_keys": [
+      "Eri Sugai"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "443",
+    "musicbrainz": "50724fa4-d8cb-4992-b98b-0e018399baf0",
+    "wikidata": "Q5385912",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eri_Sugai"
+  }
+}

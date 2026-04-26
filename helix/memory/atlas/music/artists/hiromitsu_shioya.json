@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiromitsu_shioya",
+  "entity_type": "music.composer",
+  "label": "Hiromitsu Shioya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Fighting Masters"
+    ],
+    "artist_keys": [
+      "Hiromitsu Shioya"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

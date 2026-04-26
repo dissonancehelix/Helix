@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:paul_wilkinson",
+  "entity_type": "music.composer",
+  "label": "Paul Wilkinson",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Al Unser Jr.'s Road to the Top",
+      "Beavis and Butt",
+      "Bebe's Kids",
+      "Brett Hull Hockey",
+      "Brett Hull Hockey '95",
+      "Cannondale Cup",
+      "Speed Racer in My Most Dangerous Adventures"
+    ],
+    "artist_keys": [
+      "Paul Wilkinson"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q107003149",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

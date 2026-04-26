@@ -1,0 +1,14 @@
+[
+  {"id": "conv_01", "register": "conversational", "text": "Hei, jos tulet myöhemmin, pidän sinulle paikan."},
+  {"id": "conv_02", "register": "conversational", "text": "En tiedä mitä teet, mutta soita minulle kun lähdet."},
+  {"id": "conv_03", "register": "conversational", "text": "Kuule, tulen myöhässä, joten aloita ilman minua."},
+  {"id": "conv_04", "register": "conversational", "text": "Menetkö torille vai jäättekö tänne?"},
+  {"id": "formal_01", "register": "formal", "text": "Kiitämme teitä mielenkiinnosta ja olemme käytettävissänne lisäkysymyksiä varten."},
+  {"id": "formal_02", "register": "formal", "text": "Hakemus arvioidaan ilmoituksessa vahvistettujen kriteerien mukaisesti."},
+  {"id": "formal_03", "register": "formal", "text": "Tiedotamme, että menettely tulee voimaan ensi maanantaista alkaen."},
+  {"id": "formal_04", "register": "formal", "text": "Poikkeamatilanteessa asiaankuuluvat asiakirjat on toimitettava kirjallisesti."},
+  {"id": "narrative_01", "register": "narrative", "text": "Sade satoi kylään koirien nukkuessa torin laidalla."},
+  {"id": "narrative_02", "register": "narrative", "text": "Kun hän avasi oven, hän näki valon tärisevän tyhjässä käytävässä."},
+  {"id": "narrative_03", "register": "narrative", "text": "Juna lähti aamunkoitteessa ja jätti laakson valkoiset talot taakseen."},
+  {"id": "narrative_04", "register": "narrative", "text": "Vaikka kukaan ei puhunut, kaikki ymmärsivät yön muuttavan kaiken."}
+]

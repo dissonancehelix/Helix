@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mitsutoshi_kodama",
+  "entity_type": "music.composer",
+  "label": "Mitsutoshi Kodama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Harvest Moon DS"
+    ],
+    "artist_keys": [
+      "Mitsutoshi Kodama"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:bart_howard",
+  "entity_type": "music.composer",
+  "label": "Bart Howard",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bayonetta"
+    ],
+    "artist_keys": [
+      "Bart Howard"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "8376",
+    "musicbrainz": "1febab34-36bb-499c-a370-10080d3079f2",
+    "wikidata": "Q809196",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bart_Howard"
+  }
+}

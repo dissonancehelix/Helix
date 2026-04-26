@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:miyuki_takagi",
+  "entity_type": "music.composer",
+  "label": "Miyuki Takagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Cyber City Oedo 808",
+      "L",
+      "Ranma ½"
+    ],
+    "artist_keys": [
+      "Miyuki Takagi"
+    ],
+    "track_count": 54
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q118696947",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

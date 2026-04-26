@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:neil_voss",
+  "entity_type": "music.composer",
+  "label": "Neil Voss",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Racing Gears Advance",
+      "Tetrisphere",
+      "The New Tetris"
+    ],
+    "artist_keys": [
+      "Neil Voss"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "54467",
+    "musicbrainz": "4e2262ae-1841-4728-b2ac-9f96da20d918",
+    "wikidata": "Q6988456",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Neil_Voss"
+  }
+}

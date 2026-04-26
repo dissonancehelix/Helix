@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:erina_niwa",
+  "entity_type": "music.composer",
+  "label": "Erina Niwa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bayonetta",
+      "Vanquish"
+    ],
+    "artist_keys": [
+      "Erina Niwa"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

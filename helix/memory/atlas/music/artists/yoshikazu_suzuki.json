@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yoshikazu_suzuki",
+  "entity_type": "music.composer",
+  "label": "Yoshikazu Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Zavas"
+    ],
+    "artist_keys": [
+      "Yoshikazu Suzuki"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q59449626",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:masaaki_iwasaki",
+  "entity_type": "music.composer",
+  "label": "Masaaki Iwasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "NES",
+      "Neo Geo",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Al Unser Jr.'s Turbo Racing",
+      "Atomic Runner",
+      "Cobra Command",
+      "Dashin' Desperadoes",
+      "Ghostlop",
+      "Glory of Heracles",
+      "Glory of Heracles II",
+      "Glory of Heracles IV",
+      "High Seas Havoc",
+      "Little Magic",
+      "Magical Drop II",
+      "Magical Drop III",
+      "Makai Hakkenden Shada",
+      "Minnesota Fats",
+      "Robocop"
+    ],
+    "artist_keys": [
+      "Masaaki Iwasaki"
+    ],
+    "track_count": 307
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

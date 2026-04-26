@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:masaru_nakajima",
+  "entity_type": "music.composer",
+  "label": "Masaru Nakajima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "PC-98"
+    ],
+    "franchises": [
+      "Brandish 2",
+      "Brandish 3",
+      "Monarch Monarch",
+      "Revival Xanadu",
+      "The Legend of Heroes III",
+      "The Legend of Heroes IV",
+      "The Legend of Heroes V",
+      "The Legend of Xanadu",
+      "The Legend of Xanadu II",
+      "Vantage Master",
+      "Ys IV"
+    ],
+    "artist_keys": [
+      "Masaru Nakajima"
+    ],
+    "track_count": 98
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

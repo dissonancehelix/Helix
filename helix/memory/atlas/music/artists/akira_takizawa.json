@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:akira_takizawa",
+  "entity_type": "music.composer",
+  "label": "Akira Takizawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Anarchy Reigns",
+      "The Wonderful 101"
+    ],
+    "artist_keys": [
+      "Akira Takizawa"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q133585948",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

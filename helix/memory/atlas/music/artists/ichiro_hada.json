@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:ichiro_hada",
+  "entity_type": "music.composer",
+  "label": "Ichiro Hada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Dino Land"
+    ],
+    "artist_keys": [
+      "Ichiro Hada"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f8e7638c-1152-4979-a5da-f7917841bb83",
+    "wikidata": "Q84801749",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

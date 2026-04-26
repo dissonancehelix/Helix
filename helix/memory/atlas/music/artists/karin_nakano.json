@@ -1,0 +1,17 @@
+{
+  "entity_id": "music.composer:karin_nakano",
+  "entity_type": "music.composer",
+  "label": "Karin Nakano",
+  "library": {
+    "track_count": 21,
+    "artist_keys": [
+      "Karin Nakano"
+    ]
+  },
+  "external_ids": {
+    "wikidata": "",
+    "vgmdb": "",
+    "musicbrainz": "",
+    "spotify": ""
+  }
+}

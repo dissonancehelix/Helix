@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takaaki_nakagawa",
+  "entity_type": "music.composer",
+  "label": "Takaaki Nakagawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Stranger of Paradise"
+    ],
+    "artist_keys": [
+      "Takaaki Nakagawa"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102364835",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

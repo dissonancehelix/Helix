@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:toshiharu_okajima",
+  "entity_type": "music.composer",
+  "label": "Toshiharu Okajima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Falcom Boss Zanmai",
+      "Falcom Field Zanmai",
+      "Trails / Kiseki",
+      "Ys",
+      "Ys Zanmai"
+    ],
+    "artist_keys": [
+      "Toshiharu Okajima"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

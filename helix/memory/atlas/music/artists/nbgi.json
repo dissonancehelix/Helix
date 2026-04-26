@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:nbgi",
+  "entity_type": "music.composer",
+  "label": "NBGI",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ridge Racer 7"
+    ],
+    "artist_keys": [
+      "NBGI"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1194689",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bandai_Namco_Entertainment"
+  }
+}

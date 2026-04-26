@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshiya_terayama",
+  "entity_type": "music.composer",
+  "label": "Yoshiya Terayama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter 6"
+    ],
+    "artist_keys": [
+      "Yoshiya Terayama"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

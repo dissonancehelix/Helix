@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hidetoshi_sato",
+  "entity_type": "music.composer",
+  "label": "Hidetoshi Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Vanny Knights"
+    ],
+    "artist_keys": [
+      "Hidetoshi Sato"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "3406",
+    "musicbrainz": "f12498a6-cc9e-4e2b-ad3e-95d95af3ac87",
+    "wikidata": "Q11384407",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

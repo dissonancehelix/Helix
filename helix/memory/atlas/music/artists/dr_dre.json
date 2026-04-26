@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:dr_dre",
+  "entity_type": "music.composer",
+  "label": "Dr. Dre",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "2001",
+      "Compton",
+      "The Chronic",
+      "The Contract"
+    ],
+    "artist_keys": [
+      "Dr. Dre"
+    ],
+    "track_count": 62
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "5f6ab597-f57a-40da-be9e-adad48708203",
+    "wikidata": "Q6078",
+    "spotify": "6DPYiyq5kWVQS4RGwxzPC7",
+    "lastfm": "Dr.+Dre",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dr._Dre"
+  }
+}

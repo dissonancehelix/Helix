@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kota_nakashima",
+  "entity_type": "music.composer",
+  "label": "Kota Nakashima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of the World"
+    ],
+    "artist_keys": [
+      "Kota Nakashima"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takeshi_hama",
+  "entity_type": "music.composer",
+  "label": "Takeshi Hama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Mario 3D Land",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Takeshi Hama"
+    ],
+    "track_count": 72
+  },
+  "external_ids": {
+    "vgmdb": "40932",
+    "musicbrainz": "3182dded-146d-4304-ae41-f5234609554e",
+    "wikidata": "Q20042323",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

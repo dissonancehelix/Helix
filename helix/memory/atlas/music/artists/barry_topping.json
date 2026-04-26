@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:barry_topping",
+  "entity_type": "music.composer",
+  "label": "Barry Topping",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Paradise Killer"
+    ],
+    "artist_keys": [
+      "Barry Topping"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q112469879",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

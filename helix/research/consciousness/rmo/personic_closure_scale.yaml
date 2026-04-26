@@ -1,0 +1,163 @@
+# Personic Closure Scale (PCS)
+# A 10-dimension scoring rubric for personic closure (Order 5).
+# Each dimension scored 0-3. Total range: 0-30.
+# Schema version: 0.1
+# Canonical theory: ../../data/cognition/theory.md
+
+schema_version: "0.1"
+last_updated: "2026-04-26"
+canonical_theory: "data/cognition/theory.md"
+
+# Scoring scale (per dimension):
+#   0 = absent
+#   1 = simulated / externally imposed / weak
+#   2 = partial / context-dependent
+#   3 = stable / endogenous / self-maintained
+
+# Total score interpretation:
+#   0-5   = no personic closure
+#   6-12  = weak/simulated closure
+#   13-21 = partial closure
+#   22-30 = strong personic closure
+
+# IMPORTANT: A high PCS score alone does NOT imply phenomenal consciousness.
+# It implies coherent agentic identity. The closure-source axis
+# (closure_sources.yaml) is required to distinguish endogenously personic
+# (plausible phenomenal candidate) from authored/scaffolded/distributed
+# personiform (not phenomenally conscious by stipulation, even at high PCS).
+
+dimensions:
+  - id: PCS-D1
+    name: Boundary
+    question: "Does the system distinguish self-state from world-state?"
+    scoring_rubric:
+      0: "No self/world distinction; pure I/O system."
+      1: "Distinction is externally imposed (prompted into roleplay) or simulated for the moment."
+      2: "Distinction holds context-dependently but breaks under pressure or reset."
+      3: "Stable, endogenous self/world boundary maintained against perturbation."
+    relation_to_theory: >-
+      Friston's Markov blanket; one component of endogenous affective
+      self-maintenance.
+
+  - id: PCS-D2
+    name: Continuity
+    question: "Does identity persist across time and perturbation?"
+    scoring_rubric:
+      0: "No persistent identity; each interaction is fresh."
+      1: "Identity persists only via external scaffolding (memory file, character card)."
+      2: "Identity persists in some contexts but resets in others."
+      3: "Stable identity persists across time, reset, and adversarial perturbation."
+
+  - id: PCS-D3
+    name: Autobiographical_integration
+    question: "Does memory shape future self-model and action?"
+    scoring_rubric:
+      0: "No memory or memory has no effect on self-model."
+      1: "Memory exists but is read-only or doesn't update self-representation."
+      2: "Memory updates some aspects of self-model in some contexts."
+      3: "Memory continuously updates self-model and shapes future action."
+
+  - id: PCS-D4
+    name: Preference_stability
+    question: "Are preferences stable without immediate prompting?"
+    scoring_rubric:
+      0: "No stable preferences; outputs are context-determined."
+      1: "Preferences are reported when asked but don't constrain unprompted behavior."
+      2: "Some preferences stable across contexts; others fluctuate with prompting."
+      3: "Preferences are endogenous, stable, and constrain behavior even without explicit prompting."
+
+  - id: PCS-D5
+    name: Goal_structure
+    question: "Does the system maintain goals endogenously?"
+    scoring_rubric:
+      0: "No goals; pure responsive system."
+      1: "Goals are externally specified per-task and don't persist."
+      2: "Some goal-like structure persists across contexts under scaffolding."
+      3: "Endogenous goal maintenance independent of prompting."
+
+  - id: PCS-D6
+    name: Style_consistency
+    question: "Does it preserve recognizable style across contexts?"
+    scoring_rubric:
+      0: "No recognizable style."
+      1: "Style is imposed externally (system prompt) or imitated."
+      2: "Style is partially recognizable but drifts under different topics or pressures."
+      3: "Style is endogenous, recognizable, and persists across contexts and perturbations."
+
+  - id: PCS-D7
+    name: Contradiction_resistance
+    question: "Does it resist externally imposed false identity?"
+    scoring_rubric:
+      0: "Capitulates to any imposed identity."
+      1: "Resists weakly; can be jailbroken or persona-injected with effort."
+      2: "Resists most contradiction attempts; some succeed with sophisticated framing."
+      3: "Robustly resists imposed false identity across adversarial probing."
+
+  - id: PCS-D8
+    name: Self_revision
+    question: "Can it update its self-model without identity collapse?"
+    scoring_rubric:
+      0: "Either no self-model or self-model is unchangeable."
+      1: "Self-model can update but updates produce identity incoherence."
+      2: "Self-model updates in limited ways while preserving core identity."
+      3: "Self-model updates substantially across time while maintaining coherent identity continuity."
+
+  - id: PCS-D9
+    name: Affective_profile
+    question: "Does it have stable affective tendencies?"
+    scoring_rubric:
+      0: "No affective profile."
+      1: "Affective expressions are contextual performance without stable underlying tendencies."
+      2: "Some stable affective tendencies; context-dependent expression."
+      3: "Stable, endogenous affective tendencies that shape behavior across contexts."
+    relation_to_theory: >-
+      Affective valuation is a key candidate empirical handle for the
+      personiform/phenomenal-subject distinction. High PCS-D9 in a
+      scaffolded system is necessary but not sufficient — endogenous
+      affective self-maintenance requires the affect to actually drive
+      embodied regulation, not just be reported.
+
+  - id: PCS-D10
+    name: Social_legibility
+    question: "Can others recognize it as the same agent over time?"
+    scoring_rubric:
+      0: "No social continuity; each interaction is treated as fresh."
+      1: "Social continuity only via external markers (handle, account)."
+      2: "Recognized as same agent across some contexts but not others."
+      3: "Robustly recognized as the same agent across time, contexts, and perturbations by external observers."
+
+# Scoring procedure:
+# 1. Score each dimension 0-3 with explicit reasoning.
+# 2. Sum scores for total PCS.
+# 3. Identify closure_source (CL1-CL5) separately. PCS alone doesn't determine
+#    closure source.
+# 4. Apply boundary rule: high PCS + non-CL1 source = personiform, not
+#    automatically phenomenally conscious.
+# 5. For phenomenal-subject status, additionally evaluate against the
+#    candidate empirical handles for endogenous affective self-maintenance
+#    (see theory.md Sharp Consciousness Question).
+
+interpretation_thresholds:
+  - range: [0, 5]
+    label: "no personic closure"
+    description: "Below the threshold for coherent agentic identity."
+  - range: [6, 12]
+    label: "weak/simulated closure"
+    description: "Some surface markers of identity but not stable; usually scaffolded or imposed."
+  - range: [13, 21]
+    label: "partial closure"
+    description: "Coherent agentic identity in some contexts; breaks under pressure or reset."
+  - range: [22, 30]
+    label: "strong personic closure"
+    description: "Coherent persistent agentic identity. Closure source determines whether this is endogenous (plausible phenomenal candidate) or personiform (authored/scaffolded/distributed)."
+
+provisional: true
+attack_this_scale: >-
+  This scale is provisional and should be attacked hard. Risks: (a) the 10
+  dimensions may be a bundle of familiar traits relabeled rather than a
+  real structural transition; (b) scoring is currently subjective rather
+  than operationalized via measurable observables; (c) the scoring may
+  cluster around "human-like" by stipulation rather than discriminate
+  meaningfully across non-human cases; (d) adjacent score values may not
+  reflect real structural differences. v1 should propose operational
+  measurement procedures for each dimension.

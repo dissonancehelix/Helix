@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:masahiro_yuge",
+  "entity_type": "music.composer",
+  "label": "Masahiro Yuge",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "X68000"
+    ],
+    "franchises": [
+      "Fire Shark",
+      "Flying Shark",
+      "Grind Stormer",
+      "Guardian",
+      "Knuckle Bash",
+      "Slap Fight",
+      "Truxton",
+      "Truxton II",
+      "Twin Cobra",
+      "Zero Wing"
+    ],
+    "artist_keys": [
+      "Masahiro Yuge"
+    ],
+    "track_count": 62
+  },
+  "external_ids": {
+    "vgmdb": "1748",
+    "musicbrainz": "9ead1120-6e19-4f83-a9a6-321dca1114bb",
+    "wikidata": "Q128588669",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

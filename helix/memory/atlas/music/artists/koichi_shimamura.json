@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:koichi_shimamura",
+  "entity_type": "music.composer",
+  "label": "Koichi Shimamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Doraemon",
+      "Sorcerer's Kingdom"
+    ],
+    "artist_keys": [
+      "Koichi Shimamura"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q23946798",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

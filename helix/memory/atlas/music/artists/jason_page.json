@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:jason_page",
+  "entity_type": "music.composer",
+  "label": "Jason Page",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Waterworld"
+    ],
+    "artist_keys": [
+      "Jason Page"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q125459105",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

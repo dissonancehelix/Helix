@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:tsuyoshi_tanaka",
+  "entity_type": "music.composer",
+  "label": "Tsuyoshi Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aretha",
+      "Aretha II",
+      "Harvest Moon",
+      "Harvest Moon 64",
+      "Harvest Moon GB",
+      "Metal Angel 2",
+      "Song Master"
+    ],
+    "artist_keys": [
+      "Tsuyoshi Tanaka"
+    ],
+    "track_count": 174
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q41703613",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsuyoshi_Tanaka"
+  }
+}

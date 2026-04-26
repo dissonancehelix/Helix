@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:yoshiyuki_ito",
+  "entity_type": "music.composer",
+  "label": "Yoshiyuki Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Gemfire",
+      "Wizap!"
+    ],
+    "artist_keys": [
+      "Yoshiyuki Ito"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q119457192",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

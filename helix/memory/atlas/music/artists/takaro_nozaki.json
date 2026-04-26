@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takaro_nozaki",
+  "entity_type": "music.composer",
+  "label": "Takaro Nozaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Gigandes",
+      "Silent Dragon"
+    ],
+    "artist_keys": [
+      "Takaro Nozaki"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "infobox_inventory": {},
+  "navbox_inventory": {
+    "Navboxes": [
+      "Chase Young",
+      "Jayden Daniels",
+      "Josh Harris (businessman)"
+    ]
+  },
+  "common_templates": {
+    "Short description": [
+      "New Commanders Stadium",
+      "Chase Young",
+      "Dota 2",
+      "Jayden Daniels",
+      "Josh Harris (businessman)",
+      "Adam Peters",
+      "Brandon Sosna"
+    ],
+    "Use American English": [
+      "New Commanders Stadium",
+      "Chase Young",
+      "Dota 2",
+      "Jayden Daniels",
+      "Josh Harris (businessman)"
+    ],
+    "Use mdy dates": [
+      "New Commanders Stadium",
+      "Chase Young",
+      "Dota 2",
+      "Jayden Daniels",
+      "Josh Harris (businessman)",
+      "Adam Peters",
+      "Brandon Sosna"
+    ],
+    "ubl": [
+      "New Commanders Stadium",
+      "Josh Harris (businessman)",
+      "Adam Peters"
+    ],
+    "nowrap": [
+      "New Commanders Stadium",
+      "Chase Young",
+      "Jayden Daniels",
+      "Adam Peters"
+    ],
+    "hlist": [
+      "New Commanders Stadium",
+      "Josh Harris (businessman)",
+      "Adam Peters"
+    ],
+    "US$": [
+      "New Commanders Stadium",
+      "Josh Harris (businessman)"
+    ],
+    "nbsp": [
+      "New Commanders Stadium",
+      "Josh Harris (businessman)"
+    ],
+    "circa": [
+      "New Commanders Stadium",
+      "Brandon Sosna"
+    ],
+    "good article": [
+      "Chase Young",
+      "Jayden Daniels",
+      "Josh Harris (businessman)"
+    ],
+    "birth date and age": [
+      "Chase Young",
+      "Josh Harris (businessman)",
+      "Adam Peters"
+    ],
+    "NFL Year": [
+      "Chase Young",
+      "Jayden Daniels",
+      "Adam Peters",
+      "Brandon Sosna"
+    ],
+    "Cite web": [
+      "Chase Young",
+      "Jayden Daniels",
+      "Josh Harris (businessman)"
+    ],
+    "Cite news": [
+      "Chase Young",
+      "Jayden Daniels",
+      "Josh Harris (businessman)"
+    ],
+    "efn": [
+      "Chase Young",
+      "Dota 2",
+      "Jayden Daniels"
+    ],
+    "USD": [
+      "Chase Young",
+      "Dota 2"
+    ],
+    "cite web": [
+      "Dota 2",
+      "Jayden Daniels",
+      "Josh Harris (businessman)",
+      "Adam Peters",
+      "Brandon Sosna"
+    ],
+    "Distinguish": [
+      "Jayden Daniels",
+      "Adam Peters"
+    ],
+    "cite journal": [
+      "Adam Peters",
+      "Brandon Sosna"
+    ],
+    "Reflist": [
+      "Adam Peters",
+      "Brandon Sosna"
+    ]
+  },
+  "priority_ingest_queue": [
+    {
+      "template": "Navboxes",
+      "seen_in": 3,
+      "articles": [
+        "Chase Young",
+        "Jayden Daniels",
+        "Josh Harris (businessman)"
+      ]
+    }
+  ],
+  "template_families_implied": [
+    "general",
+    "person",
+    "vg"
+  ],
+  "fragile_area_notes": [
+    "NFL player infoboxes: |teams= format, |number= multi-value, birth_date template",
+    "VG infoboxes: |image= no prefix, |released= use {{Video game release}}, |platforms= use {{unbulleted list}}",
+    "Biography templates: {{birth date and age}}, {{death date and age}} — must be nested correctly"
+  ]
+}

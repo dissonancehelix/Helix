@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:danny_baranowsky",
+  "entity_type": "music.composer",
+  "label": "Danny Baranowsky",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Blush",
+      "Cadence of Hyrule",
+      "Crypt of the Necrodancer",
+      "Das Cube Soundtrack",
+      "Desktop Dungeons",
+      "Gravity Hook",
+      "Gravity Hook HD",
+      "The Binding of Isaac"
+    ],
+    "artist_keys": [
+      "Danny Baranowsky"
+    ],
+    "track_count": 216
+  },
+  "external_ids": {
+    "vgmdb": "1040",
+    "musicbrainz": "9878be28-66b3-47f9-a019-baf1b32876ff",
+    "wikidata": "Q5220115",
+    "spotify": "2CivYlBeDSjMj9Azw9cIHB",
+    "lastfm": "Danny+Baranowsky",
+    "discogs": "1405838",
+    "wikipedia": "https://en.wikipedia.org/wiki/Danny_Baranowsky"
+  }
+}

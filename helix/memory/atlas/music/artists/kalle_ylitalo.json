@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kalle_ylitalo",
+  "entity_type": "music.composer",
+  "label": "Kalle Ylitalo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Oceanhorn"
+    ],
+    "artist_keys": [
+      "Kalle Ylitalo"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q16991442",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yasutoshi_ishida",
+  "entity_type": "music.composer",
+  "label": "Yasutoshi Ishida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Rabbit Punch"
+    ],
+    "artist_keys": [
+      "Yasutoshi Ishida"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

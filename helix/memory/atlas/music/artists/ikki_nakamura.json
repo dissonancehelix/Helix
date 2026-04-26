@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ikki_nakamura",
+  "entity_type": "music.composer",
+  "label": "Ikki Nakamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Emerald Dragon"
+    ],
+    "artist_keys": [
+      "Ikki Nakamura"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

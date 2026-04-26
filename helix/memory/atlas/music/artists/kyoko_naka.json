@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:kyoko_naka",
+  "entity_type": "music.composer",
+  "label": "Kyoko Naka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "GeOnDan Super Rare Trax",
+      "The King of Fighters",
+      "The King of Fighters '97",
+      "The Last Blade 2"
+    ],
+    "artist_keys": [
+      "Kyoko Naka"
+    ],
+    "track_count": 135
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q534338",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kyoko_Nakayama"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:david_watson",
+  "entity_type": "music.composer",
+  "label": "David Watson",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Ultima VI"
+    ],
+    "artist_keys": [
+      "David Watson"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1177104",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/David_Watson_(footballer,_born_1946)"
+  }
+}

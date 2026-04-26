@@ -1,0 +1,101 @@
+{
+    "domain": "language",
+    "language": "japanese",
+    "system_description": "Japanese case particle disambiguation. Postpositional case particles (が ga subject, を wo object, に ni indirect object/direction/time, で de location/means, から kara source, まで made goal) unambiguously mark argument roles regardless of word order. Topic marker は wa can replace が ga or を wo, triggering topic-comment reanalysis. The は/が distinction is the primary ambiguity site: は wa marks topic (what the sentence is about), が ga marks exhaustive focus subject (who specifically). This distinction is resolved by information structure, not syntax.",
+    "agents": [
+        {
+            "id": "rule_case_particle",
+            "role": "dominant_rule",
+            "influence_weight": 0.5888,
+            "ud_signal_type": "word_order"
+        },
+        {
+            "id": "rule_verb_morphology",
+            "role": "dominant_rule",
+            "influence_weight": 0.2251,
+            "ud_signal_type": "case"
+        },
+        {
+            "id": "rule_topic_focus",
+            "role": "secondary_rule",
+            "influence_weight": 0.0861,
+            "ud_signal_type": "agreement"
+        },
+        {
+            "id": "rule_pragmatic",
+            "role": "edge_case",
+            "influence_weight": 0.1,
+            "ud_signal_type": "pragmatic"
+        }
+    ],
+    "decision_rounds": [
+        {
+            "round": 1,
+            "weights": [
+                0.61,
+                0.21,
+                0.08,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 2,
+            "weights": [
+                0.59,
+                0.23,
+                0.1,
+                0.08
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 3,
+            "weights": [
+                0.61,
+                0.21,
+                0.08,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 4,
+            "weights": [
+                0.58,
+                0.22,
+                0.09,
+                0.11
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 5,
+            "weights": [
+                0.59,
+                0.23,
+                0.1,
+                0.08
+            ],
+            "outcome": "parse_A"
+        }
+    ],
+    "expected_k_eff_range": [
+        2.05,
+        2.77
+    ],
+    "notes": "Japanese case particles are post-nominal and immediately follow each argument, compressing role ambiguity as each phrase is parsed. The dominant rule weight (0.56) is high because particles are unambiguous for core grammatical roles. The は/が distinction is the genuine ambiguity site and the most linguistically interesting DCP falsifier: both can mark subjects, but the compression event (which one fires) signals information structure.",
+    "source": "ud_treebank",
+    "ud_diagnostics": {
+        "sentences_analyzed": 500,
+        "case_density": 0.2138,
+        "agreement_density": 0.0,
+        "order_rigidity": 1.0,
+        "order_signal": 1.0,
+        "morphological_richness": 0.0042,
+        "compression_density": 0.7207,
+        "dominant_rule": "word_order",
+        "ud_k_eff": 2.411,
+        "treebank": "UD_Japanese-GSD"
+    }
+}

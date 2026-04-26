@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yuzo_takahashi",
+  "entity_type": "music.composer",
+  "label": "Yuzo Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Chocobo Tales"
+    ],
+    "artist_keys": [
+      "Yuzo Takahashi"
+    ],
+    "track_count": 48
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11671704",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

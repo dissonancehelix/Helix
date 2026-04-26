@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takaki_horigome",
+  "entity_type": "music.composer",
+  "label": "Takaki Horigome",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Klonoa",
+      "Pac"
+    ],
+    "artist_keys": [
+      "Takaki Horigome"
+    ],
+    "track_count": 39
+  },
+  "external_ids": {
+    "vgmdb": "2015",
+    "musicbrainz": "cdf68a29-e227-4672-90b7-aceeb9b53310",
+    "wikidata": "Q11427810",
+    "spotify": "7i3cIU0Izid4SRBfpe7YAh",
+    "lastfm": "堀込高樹"
+  }
+}

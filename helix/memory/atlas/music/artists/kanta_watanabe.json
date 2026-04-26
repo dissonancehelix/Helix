@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kanta_watanabe",
+  "entity_type": "music.composer",
+  "label": "Kanta Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "PC-98"
+    ],
+    "franchises": [
+      "Monster Pro Wrestling",
+      "Photo Genic"
+    ],
+    "artist_keys": [
+      "Kanta Watanabe"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q54867534",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

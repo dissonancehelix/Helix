@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:koji_yamada",
+  "entity_type": "music.composer",
+  "label": "Koji Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Daisenryaku Expert WWII",
+      "Digimon World DS",
+      "Dynamite Headdy"
+    ],
+    "artist_keys": [
+      "Koji Yamada"
+    ],
+    "track_count": 48
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q59437352",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

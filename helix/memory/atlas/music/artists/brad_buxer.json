@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:brad_buxer",
+  "entity_type": "music.composer",
+  "label": "Brad Buxer",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Sonic 3 & Knuckles"
+    ],
+    "artist_keys": [
+      "Brad Buxer"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "d686f794-7fc3-48f4-b381-ea1f979b6e1a",
+    "wikidata": "Q2923386",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brad_Buxer"
+  }
+}

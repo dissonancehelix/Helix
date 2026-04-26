@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:yuri_misumi",
+  "entity_type": "music.composer",
+  "label": "Yuri Misumi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ace Driver",
+      "Armadillo Racing",
+      "Beautiful Katamari",
+      "Cyber Cycles",
+      "Dancing Eyes",
+      "Dirt Dash",
+      "Katamari Damacy",
+      "Katamari Forever",
+      "Mario Kart Arcade GP",
+      "Me & My Katamari",
+      "Once Upon a Katamari",
+      "Rally",
+      "Taiko no Tatsujin",
+      "We Love Katamari"
+    ],
+    "artist_keys": [
+      "Yuri Misumi"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "36612",
+    "musicbrainz": "3eddea11-68c7-4955-90be-358e5ec7f61e",
+    "wikidata": "Q11357230",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

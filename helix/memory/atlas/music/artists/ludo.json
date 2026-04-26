@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ludo",
+  "entity_type": "music.composer",
+  "label": "LUDO",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Otomedius Excellent"
+    ],
+    "artist_keys": [
+      "LUDO"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2055870",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ludo_(given_name)"
+  }
+}

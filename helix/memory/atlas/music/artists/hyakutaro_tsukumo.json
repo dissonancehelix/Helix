@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hyakutaro_tsukumo",
+  "entity_type": "music.composer",
+  "label": "Hyakutaro Tsukumo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Hyper Duel",
+      "Thunder Force V"
+    ],
+    "artist_keys": [
+      "Hyakutaro Tsukumo"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "1005",
+    "musicbrainz": "d9e8ab44-4933-42df-b28e-8619fa0297f2",
+    "wikidata": "Q11370056",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:shigeru_fukutake",
+  "entity_type": "music.composer",
+  "label": "Shigeru Fukutake",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "X68000"
+    ],
+    "franchises": [
+      "Castlevania",
+      "Rock'n Rage",
+      "TwinBee"
+    ],
+    "artist_keys": [
+      "Shigeru Fukutake"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

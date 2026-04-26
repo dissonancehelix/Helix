@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:david_delia",
+  "entity_type": "music.composer",
+  "label": "David Delia",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Bonkers",
+      "Dinosaurs for Hire",
+      "Home Alone 2",
+      "TaleSpin"
+    ],
+    "artist_keys": [
+      "David Delia"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:syun_nishigaki",
+  "entity_type": "music.composer",
+  "label": "Syun Nishigaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II"
+    ],
+    "franchises": [
+      "19XX",
+      "Cadillacs and Dinosaurs",
+      "Eco Fighters",
+      "Mega Man 2",
+      "Quiz Tonosama no Yabou 2",
+      "Resident Evil 2",
+      "Ring of Destruction",
+      "Saturday Night Slam Masters",
+      "Street Fighter Alpha",
+      "Street Fighter Alpha 2",
+      "Street Fighter II",
+      "Super Puzzle Fighter II Turbo",
+      "X"
+    ],
+    "artist_keys": [
+      "Syun Nishigaki"
+    ],
+    "track_count": 178
+  },
+  "external_ids": {
+    "vgmdb": "331",
+    "musicbrainz": "0ce80a16-f99f-4ef9-bff5-8aa6224a84af",
+    "wikidata": "Q10371272",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4727785"
+  }
+}

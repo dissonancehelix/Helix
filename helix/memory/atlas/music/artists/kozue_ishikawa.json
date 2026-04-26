@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:kozue_ishikawa",
+  "entity_type": "music.composer",
+  "label": "Kozue Ishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "Super NES"
+    ],
+    "franchises": [
+      "Hajimari no Mori",
+      "Star Fox 2",
+      "The Legend of Zelda",
+      "Wario Land",
+      "Wario Land 2",
+      "Wario Land 3"
+    ],
+    "artist_keys": [
+      "Kozue Ishikawa"
+    ],
+    "track_count": 190
+  },
+  "external_ids": {
+    "vgmdb": "636",
+    "musicbrainz": "dd51ea7f-626b-4fb2-ac87-2ff499a4f7a6",
+    "wikidata": "Q11585628",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "5243561"
+  }
+}

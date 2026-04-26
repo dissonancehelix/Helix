@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:hideki_asanaka",
+  "entity_type": "music.composer",
+  "label": "Hideki Asanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Half",
+      "Real Bout Fatal Fury Special",
+      "Samurai Shodown IV",
+      "The King of Fighters",
+      "The King of Fighters '96",
+      "The King of Fighters '97",
+      "The King of Fighters '98",
+      "The King of Fighters '99",
+      "The King of Fighters 2000",
+      "The King of Fighters 2002"
+    ],
+    "artist_keys": [
+      "Hideki Asanaka"
+    ],
+    "track_count": 180
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

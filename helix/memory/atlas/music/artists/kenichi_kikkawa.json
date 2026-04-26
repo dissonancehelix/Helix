@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kenichi_kikkawa",
+  "entity_type": "music.composer",
+  "label": "Kenichi Kikkawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Trauma Center"
+    ],
+    "artist_keys": [
+      "Kenichi Kikkawa"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

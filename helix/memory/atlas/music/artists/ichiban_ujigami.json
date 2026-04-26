@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ichiban_ujigami",
+  "entity_type": "music.composer",
+  "label": "Ichiban Ujigami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Kabuki Rocks"
+    ],
+    "artist_keys": [
+      "Ichiban Ujigami"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

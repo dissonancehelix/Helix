@@ -1,0 +1,45 @@
+{
+  "entity_id": "music.composer:miki_higashino",
+  "entity_type": "music.composer",
+  "label": "Miki Higashino",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "NES",
+      "PC-88",
+      "Super NES"
+    ],
+    "franchises": [
+      "10,000 Bullets",
+      "Double Dribble",
+      "Ganbare Goemon",
+      "GeOnDan Super Rare Trax",
+      "Gradius",
+      "Gradius II",
+      "Gradius III",
+      "Mouryou Senki Madara 2",
+      "Premier Soccer",
+      "Salamander",
+      "Salamander 2",
+      "Suikoden II",
+      "Suikoden IV",
+      "Surprise Attack",
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Miki Higashino"
+    ],
+    "track_count": 327
+  },
+  "external_ids": {
+    "vgmdb": "191",
+    "musicbrainz": "ae6aadf3-9d14-46e1-be89-1a2c3a6cfd3c",
+    "wikidata": "Q3313728",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "923166",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miki_Higashino"
+  }
+}

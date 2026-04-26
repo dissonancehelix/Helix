@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:d",
+  "entity_type": "music.composer",
+  "label": "D",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Phantasy Star Online"
+    ],
+    "artist_keys": [
+      "D"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q14870298",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

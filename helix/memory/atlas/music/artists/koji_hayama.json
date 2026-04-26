@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:koji_hayama",
+  "entity_type": "music.composer",
+  "label": "Koji Hayama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Ape Escape 2",
+      "Front Mission 3",
+      "Mega Man ZX Advent",
+      "Street Fighter Tribute Album",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. for Wii U",
+      "Ten Plants 2"
+    ],
+    "artist_keys": [
+      "Koji Hayama"
+    ],
+    "track_count": 81
+  },
+  "external_ids": {
+    "vgmdb": "44333",
+    "musicbrainz": "e9c13686-4285-41cf-94ee-0e09842ee109",
+    "wikidata": "Q11620745",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "374415"
+  }
+}

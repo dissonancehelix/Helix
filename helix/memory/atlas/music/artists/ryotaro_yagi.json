@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ryotaro_yagi",
+  "entity_type": "music.composer",
+  "label": "Ryotaro Yagi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Ryotaro Yagi"
+    ],
+    "track_count": 86
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

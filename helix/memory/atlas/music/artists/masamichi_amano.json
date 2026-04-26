@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:masamichi_amano",
+  "entity_type": "music.composer",
+  "label": "Masamichi Amano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Quest 64"
+    ],
+    "artist_keys": [
+      "Masamichi Amano"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "260",
+    "musicbrainz": "e4d28ff6-9235-4c42-8e3a-e20d2534b843",
+    "wikidata": "Q1354443",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masamichi_Amano"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:chinatsu_okayasu",
+  "entity_type": "music.composer",
+  "label": "Chinatsu Okayasu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Captain Tsubasa 5",
+      "Ganbare Ginkun",
+      "Tecmo World Cup '94"
+    ],
+    "artist_keys": [
+      "Chinatsu Okayasu"
+    ],
+    "track_count": 79
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

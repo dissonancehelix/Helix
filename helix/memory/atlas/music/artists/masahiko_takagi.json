@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masahiko_takagi",
+  "entity_type": "music.composer",
+  "label": "Masahiko Takagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Raimais"
+    ],
+    "artist_keys": [
+      "Masahiko Takagi"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114428174",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

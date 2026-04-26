@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mike_morasky",
+  "entity_type": "music.composer",
+  "label": "Mike Morasky",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Portal"
+    ],
+    "artist_keys": [
+      "Mike Morasky"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "6176",
+    "musicbrainz": "2b948e66-5269-4311-a89d-3f1126960f9b",
+    "wikidata": "Q6848094",
+    "spotify": "7d58WZ8qQHy2Sm5p52V2NP",
+    "lastfm": "Mike+Morasky",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mike_Morasky"
+  }
+}

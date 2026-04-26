@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:sun_araw",
+  "entity_type": "music.composer",
+  "label": "Sun Araw",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hotline Miami"
+    ],
+    "artist_keys": [
+      "Sun Araw"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "521c4601-9145-41d4-8275-6644eca4fab2",
+    "wikidata": "Q7638191",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sun_Araw"
+  }
+}

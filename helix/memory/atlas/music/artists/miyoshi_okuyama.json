@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:miyoshi_okuyama",
+  "entity_type": "music.composer",
+  "label": "Miyoshi Okuyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Samurai",
+      "Wagan Land"
+    ],
+    "artist_keys": [
+      "Miyoshi Okuyama"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

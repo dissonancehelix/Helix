@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:engines",
+  "entity_type": "music.composer",
+  "label": "Engines",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Half"
+    ],
+    "artist_keys": [
+      "Engines"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q135021856",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

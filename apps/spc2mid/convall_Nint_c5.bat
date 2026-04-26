@@ -1,0 +1,1 @@
+@for %%a in (*.spc) do SNESNint "%%a" c 5

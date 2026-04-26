@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:takeshi_miura",
+  "entity_type": "music.composer",
+  "label": "Takeshi Miura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Alice's Paint Adventure",
+      "Code of Joker",
+      "Donald Duck"
+    ],
+    "artist_keys": [
+      "Takeshi Miura"
+    ],
+    "track_count": 67
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "d738a28e-c560-4357-9ace-80463856cd16",
+    "wikidata": "Q24705173",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:haruyoshi_tomita",
+  "entity_type": "music.composer",
+  "label": "Haruyoshi Tomita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Monkey Ball",
+      "Super Monkey Ball 2"
+    ],
+    "artist_keys": [
+      "Haruyoshi Tomita"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "1491",
+    "musicbrainz": "c33918c3-53a7-4eac-81ce-fd91c21133e1",
+    "wikidata": "Q128214528",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

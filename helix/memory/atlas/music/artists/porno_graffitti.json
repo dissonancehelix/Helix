@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:porno_graffitti",
+  "entity_type": "music.composer",
+  "label": "Porno Graffitti",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bleach"
+    ],
+    "artist_keys": [
+      "Porno Graffitti"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "12481",
+    "musicbrainz": "95de09ab-3142-4798-9c70-c2e8e1d7374d",
+    "wikidata": "Q1156513",
+    "spotify": "5jQa0f5MIMPEK7udL7UpI6",
+    "lastfm": "ポルノグラフィティ",
+    "wikipedia": "https://en.wikipedia.org/wiki/Porno_Graffitti"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:kouji_murata",
+  "entity_type": "music.composer",
+  "label": "Kouji Murata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "Game Boy",
+      "NES"
+    ],
+    "franchises": [
+      "Bio Miracle Bokutte Upa",
+      "Ganbare Goemon",
+      "Mega Man World III",
+      "Mega Man World IV",
+      "Mega Man World V",
+      "Risa's Fairy Tale",
+      "Top Gun"
+    ],
+    "artist_keys": [
+      "Kouji Murata"
+    ],
+    "track_count": 94
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q106478538",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

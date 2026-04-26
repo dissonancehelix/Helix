@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:kazuhiro_senoo",
+  "entity_type": "music.composer",
+  "label": "Kazuhiro Senoo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy"
+    ],
+    "franchises": [
+      "Fantastic Journey",
+      "Magical TwinBee",
+      "Spawn",
+      "Tokimeki Memorial Taisen Puzzle"
+    ],
+    "artist_keys": [
+      "Kazuhiro Senoo"
+    ],
+    "track_count": 96
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q20033149",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

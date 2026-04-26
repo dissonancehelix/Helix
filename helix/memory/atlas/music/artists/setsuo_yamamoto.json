@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:setsuo_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Setsuo Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aladdin",
+      "Final Fight 2",
+      "Jojo's Bizarre Adventure",
+      "Mega Man",
+      "Mega Man 2",
+      "Mega Man X",
+      "Mighty Final Fight",
+      "Quiz Nanairo Dreams",
+      "Rival Schools",
+      "Street Fighter Alpha",
+      "Street Fighter Alpha 2",
+      "Strider 2",
+      "Super Gem Fighter",
+      "Super Puzzle Fighter II Turbo",
+      "X"
+    ],
+    "artist_keys": [
+      "Setsuo Yamamoto"
+    ],
+    "track_count": 224
+  },
+  "external_ids": {
+    "vgmdb": "1357",
+    "musicbrainz": "f28145f1-d5de-4aa6-aace-8aa4d3e2cf58",
+    "wikidata": "Q16676536",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4194355"
+  }
+}

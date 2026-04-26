@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:rei_harakami",
+  "entity_type": "music.composer",
+  "label": "Rei Harakami",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Forever"
+    ],
+    "artist_keys": [
+      "Rei Harakami"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "11490",
+    "musicbrainz": "6b77d8ef-c405-4846-9d5f-2b93e6533101",
+    "wikidata": "Q5359149",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rei_Harakami"
+  }
+}

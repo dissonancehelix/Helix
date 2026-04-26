@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:shinichiro_sato",
+  "entity_type": "music.composer",
+  "label": "Shinichiro Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Devil May Cry 4",
+      "Neo Nectaris",
+      "Nostalgia",
+      "Onimusha"
+    ],
+    "artist_keys": [
+      "Shinichiro Sato"
+    ],
+    "track_count": 94
+  },
+  "external_ids": {
+    "vgmdb": "11867",
+    "musicbrainz": "97d998e9-fb47-4885-a2d0-c7e65547887f",
+    "wikidata": "Q137126740",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "321730",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shinichiro_Sato"
+  }
+}

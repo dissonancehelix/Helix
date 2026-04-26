@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:kohei_tanaka",
+  "entity_type": "music.composer",
+  "label": "Kohei Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "Super NES"
+    ],
+    "franchises": [
+      "Alundra",
+      "Alundra 2",
+      "Bounty Sword",
+      "Demons' Score",
+      "Dragon Force II",
+      "Gate Keepers",
+      "Just Breed",
+      "Lennus II",
+      "Resonance of Fate",
+      "Sakura Taisen GB2",
+      "Tengai Makyo Zero",
+      "The Granstream Saga"
+    ],
+    "artist_keys": [
+      "Kohei Tanaka"
+    ],
+    "track_count": 306
+  },
+  "external_ids": {
+    "vgmdb": "322",
+    "musicbrainz": "7805e018-4db0-46f9-96a6-8607995c26a8",
+    "wikidata": "Q2562073",
+    "spotify": "74ov6NjGYL0LHHyDD2Dy2b",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kohei_Tanaka_(composer)"
+  }
+}

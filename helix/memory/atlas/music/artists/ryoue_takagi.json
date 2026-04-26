@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryoue_takagi",
+  "entity_type": "music.composer",
+  "label": "Ryoue Takagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Harvest Moon DS"
+    ],
+    "artist_keys": [
+      "Ryoue Takagi"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

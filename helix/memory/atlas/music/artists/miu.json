@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:miu",
+  "entity_type": "music.composer",
+  "label": "MIU",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "MCMLXC",
+      "Mystery Case In Hi!school!! Synergy",
+      "SYNERGY MCMXCI"
+    ],
+    "artist_keys": [
+      "MIU"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ayumu_kashizaki",
+  "entity_type": "music.composer",
+  "label": "Ayumu Kashizaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Ayumu Kashizaki"
+    ],
+    "track_count": 50
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masaya_hashimoto",
+  "entity_type": "music.composer",
+  "label": "Masaya Hashimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ys II"
+    ],
+    "artist_keys": [
+      "Masaya Hashimoto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11543962",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

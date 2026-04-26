@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:konomi_itoh",
+  "entity_type": "music.composer",
+  "label": "Konomi Itoh",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Grand Striker"
+    ],
+    "artist_keys": [
+      "Konomi Itoh"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yasushi_takeda",
+  "entity_type": "music.composer",
+  "label": "Yasushi Takeda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Cattle Mutilation"
+    ],
+    "artist_keys": [
+      "Yasushi Takeda"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q103372426",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

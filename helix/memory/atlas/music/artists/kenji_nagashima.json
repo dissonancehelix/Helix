@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kenji_nagashima",
+  "entity_type": "music.composer",
+  "label": "Kenji Nagashima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Custom Robo Arena"
+    ],
+    "artist_keys": [
+      "Kenji Nagashima"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

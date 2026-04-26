@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:yoshie_arakawa",
+  "entity_type": "music.composer",
+  "label": "Yoshie Arakawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS"
+    ],
+    "franchises": [
+      "Cosmo Gang the Puzzle",
+      "Cosmo Gang the Video",
+      "Dancing Eyes",
+      "Dig Dug Arrangement",
+      "Emeraldia",
+      "Exvania",
+      "Flash Focus",
+      "Gynotai",
+      "Mario Kart Arcade GP",
+      "Prop Cycle",
+      "Rally",
+      "Rapid River",
+      "Star Fox",
+      "Super Smash Bros. Brawl",
+      "Tekken"
+    ],
+    "artist_keys": [
+      "Yoshie Arakawa"
+    ],
+    "track_count": 172
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

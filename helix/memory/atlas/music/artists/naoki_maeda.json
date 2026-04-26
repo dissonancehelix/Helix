@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:naoki_maeda",
+  "entity_type": "music.composer",
+  "label": "Naoki Maeda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Magical TwinBee",
+      "Salamander 2"
+    ],
+    "artist_keys": [
+      "Naoki Maeda"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "39347",
+    "musicbrainz": "0718f830-594d-4ed8-ad2a-cbcb11e5db3d",
+    "wikidata": "Q2045315",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naoki_Maeda_(composer)"
+  }
+}

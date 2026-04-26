@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:kazuki_muraoka",
+  "entity_type": "music.composer",
+  "label": "Kazuki Muraoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blades of Steel",
+      "Boktai",
+      "Contra",
+      "Gradius III",
+      "Metal Gear",
+      "Metal Gear Solid",
+      "Parodius DA!",
+      "Rock'n Rage",
+      "Super Contra",
+      "Super Smash Bros. Brawl",
+      "Top Gun"
+    ],
+    "artist_keys": [
+      "Kazuki Muraoka"
+    ],
+    "track_count": 180
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

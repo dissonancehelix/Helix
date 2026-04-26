@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:nas",
+  "entity_type": "music.composer",
+  "label": "Nas",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Illmatic"
+    ],
+    "artist_keys": [
+      "Nas"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q270794",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/National_Academy_of_Sciences"
+  }
+}

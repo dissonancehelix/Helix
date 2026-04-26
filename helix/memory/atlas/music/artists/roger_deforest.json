@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:roger_deforest",
+  "entity_type": "music.composer",
+  "label": "Roger Deforest",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Spiritual Warfare"
+    ],
+    "artist_keys": [
+      "Roger Deforest"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

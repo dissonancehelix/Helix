@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:m_shindo",
+  "entity_type": "music.composer",
+  "label": "M. Shindo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Tiny Toon Adventures"
+    ],
+    "artist_keys": [
+      "M. Shindo"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

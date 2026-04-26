@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:afra",
+  "entity_type": "music.composer",
+  "label": "AFRA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Forever"
+    ],
+    "artist_keys": [
+      "AFRA"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q598081",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

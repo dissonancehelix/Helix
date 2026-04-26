@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:robert_lopez",
+  "entity_type": "music.composer",
+  "label": "Robert Lopez",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kingdom Hearts III"
+    ],
+    "artist_keys": [
+      "Robert Lopez"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "22146",
+    "musicbrainz": "f2093a7e-2d1d-4a23-aead-37415cf28448",
+    "wikidata": "Q3435778",
+    "spotify": "3zUCHzvbTmCOZoY750yHPB",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Lopez"
+  }
+}

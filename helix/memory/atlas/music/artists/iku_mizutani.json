@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:iku_mizutani",
+  "entity_type": "music.composer",
+  "label": "Iku Mizutani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Famicom Disk System",
+      "Game Boy",
+      "MSX2",
+      "NES",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Action Man",
+      "Amazing Penguin",
+      "Casper",
+      "Chaos World",
+      "Croc 2",
+      "Curling DS",
+      "Digital Figure Iina",
+      "Don Doko Don 2",
+      "Dragon Dance",
+      "Dragon Fighter"
+    ],
+    "artist_keys": [
+      "Iku Mizutani"
+    ],
+    "track_count": 585
+  },
+  "external_ids": {
+    "vgmdb": "53184",
+    "musicbrainz": "",
+    "wikidata": "Q4292829",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

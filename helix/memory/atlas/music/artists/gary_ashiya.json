@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:gary_ashiya",
+  "entity_type": "music.composer",
+  "label": "Gary Ashiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Harvest Moon"
+    ],
+    "artist_keys": [
+      "Gary Ashiya"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "4825",
+    "musicbrainz": "b4f0c9b3-086c-42f1-849f-3e993e885c9a",
+    "wikidata": "Q11301486",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

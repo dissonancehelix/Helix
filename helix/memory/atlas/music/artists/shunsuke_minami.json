@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shunsuke_minami",
+  "entity_type": "music.composer",
+  "label": "Shunsuke Minami",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Yakuza 5",
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "Shunsuke Minami"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "10649",
+    "musicbrainz": "e38f24fa-015c-493f-8794-9ced386a7f18",
+    "wikidata": "Q11407484",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:takami_asano",
+  "entity_type": "music.composer",
+  "label": "Takami Asano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Chase H.Q.",
+      "Special Criminal Investigation",
+      "Superman"
+    ],
+    "artist_keys": [
+      "Takami Asano"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "2380",
+    "musicbrainz": "80abcf63-40be-409c-ae14-1606f1c0cf96",
+    "wikidata": "Q11557347",
+    "spotify": "1AATkvQyO5QdUjnr6R2e3W",
+    "lastfm": "浅野孝已"
+  }
+}

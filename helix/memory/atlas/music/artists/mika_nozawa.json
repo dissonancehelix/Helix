@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mika_nozawa",
+  "entity_type": "music.composer",
+  "label": "Mika Nozawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Nostradamus"
+    ],
+    "artist_keys": [
+      "Mika Nozawa"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:miyuki_homareda",
+  "entity_type": "music.composer",
+  "label": "Miyuki Homareda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Harvest Moon"
+    ],
+    "artist_keys": [
+      "Miyuki Homareda"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

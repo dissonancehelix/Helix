@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:hideto_maeda",
+  "entity_type": "music.composer",
+  "label": "Hideto Maeda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Formation Soccer on J.League",
+      "Super Formation Soccer II",
+      "Tadaima Yuusha Boshuuchuu",
+      "Tadaima Yuusha Boshuuchuu Okawari",
+      "Taekwon",
+      "The Firemen"
+    ],
+    "artist_keys": [
+      "Hideto Maeda"
+    ],
+    "track_count": 96
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

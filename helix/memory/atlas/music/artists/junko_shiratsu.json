@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:junko_shiratsu",
+  "entity_type": "music.composer",
+  "label": "Junko Shiratsu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Formula One World Championship",
+      "Hundred Swords",
+      "Onimusha",
+      "Panzer Dragoon Zwei",
+      "Sega Rally 2006",
+      "Sonic the Hedgehog",
+      "The Hybrid Front"
+    ],
+    "artist_keys": [
+      "Junko Shiratsu"
+    ],
+    "track_count": 72
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

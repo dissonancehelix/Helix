@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:noriyuka_iwadare",
+  "entity_type": "music.composer",
+  "label": "Noriyuka Iwadare",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dark Chronicle Premium Arrange"
+    ],
+    "artist_keys": [
+      "Noriyuka Iwadare"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

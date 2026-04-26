@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:georges_bizet",
+  "entity_type": "music.composer",
+  "label": "Georges Bizet",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX"
+    ],
+    "franchises": [
+      "Parodius"
+    ],
+    "artist_keys": [
+      "Georges Bizet"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "6484",
+    "musicbrainz": "9bd20e6a-b41d-4983-a5b6-c0ff849fa235",
+    "wikidata": "Q56158",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georges_Bizet"
+  }
+}

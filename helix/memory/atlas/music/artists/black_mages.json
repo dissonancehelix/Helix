@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:black_mages",
+  "entity_type": "music.composer",
+  "label": "Black Mages",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dark Chronicle Premium Arrange"
+    ],
+    "artist_keys": [
+      "Black Mages"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

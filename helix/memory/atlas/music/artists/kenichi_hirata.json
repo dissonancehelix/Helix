@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:kenichi_hirata",
+  "entity_type": "music.composer",
+  "label": "Kenichi Hirata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Cotton",
+      "Cotton 2",
+      "Guardian Force",
+      "Hebereke no Popoon",
+      "Keeper",
+      "Märchen Adventure Cotton 100%",
+      "Oishii Puzzle Ha Irimasenka",
+      "Panorama Cotton",
+      "RPG Maker"
+    ],
+    "artist_keys": [
+      "Kenichi Hirata"
+    ],
+    "track_count": 163
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

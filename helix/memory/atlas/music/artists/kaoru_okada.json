@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kaoru_okada",
+  "entity_type": "music.composer",
+  "label": "Kaoru Okada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Castlevania Legends",
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Kaoru Okada"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11473694",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

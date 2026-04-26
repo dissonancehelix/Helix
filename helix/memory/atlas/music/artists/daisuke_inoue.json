@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:daisuke_inoue",
+  "entity_type": "music.composer",
+  "label": "Daisuke Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Power Golf",
+      "Sadakichi Seven"
+    ],
+    "artist_keys": [
+      "Daisuke Inoue"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "48661",
+    "musicbrainz": "31f392ff-aacf-480b-b96e-c5b795d707bc",
+    "wikidata": "Q11372937",
+    "spotify": "3kyDvSFMl3B0U59KuJUB5g",
+    "lastfm": "井上大輔",
+    "wikipedia": "https://en.wikipedia.org/wiki/Daisuke_Inoue_(singer)"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shinya_tanaka",
+  "entity_type": "music.composer",
+  "label": "Shinya Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Earth Defense Force 3",
+      "The Alchemist Code"
+    ],
+    "artist_keys": [
+      "Shinya Tanaka"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q61140680",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

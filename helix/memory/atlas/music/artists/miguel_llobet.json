@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:miguel_llobet",
+  "entity_type": "music.composer",
+  "label": "Miguel Llobet",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tekken 7"
+    ],
+    "artist_keys": [
+      "Miguel Llobet"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "a155809f-b74a-466e-aad5-afa74065dba6",
+    "wikidata": "Q635449",
+    "spotify": "0Ag2rHCb9q0jmQ6Jaj1GUT",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miguel_Llobet"
+  }
+}

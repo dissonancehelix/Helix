@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:katsuhisa_ishikawa",
+  "entity_type": "music.composer",
+  "label": "Katsuhisa Ishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Arkanoid"
+    ],
+    "artist_keys": [
+      "Katsuhisa Ishikawa"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q22123396",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:yuka_tsujiyoko",
+  "entity_type": "music.composer",
+  "label": "Yuka Tsujiyoko",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Clash",
+      "Fire Emblem",
+      "Fire Emblem Gaiden",
+      "Metal Combat",
+      "Panel de Pon",
+      "Paper Mario",
+      "Sin Chronicle",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Yuka Tsujiyoko"
+    ],
+    "track_count": 677
+  },
+  "external_ids": {
+    "vgmdb": "394",
+    "musicbrainz": "307aaa31-07c9-4a70-9c06-a7b589d7abb6",
+    "wikidata": "Q4412350",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4839122",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuka_Tsujiyoko"
+  }
+}

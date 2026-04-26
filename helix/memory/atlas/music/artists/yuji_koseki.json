@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yuji_koseki",
+  "entity_type": "music.composer",
+  "label": "Yuji Koseki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Great Sluggers '94"
+    ],
+    "artist_keys": [
+      "Yuji Koseki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "25074",
+    "musicbrainz": "fa048f1b-ef64-45b7-a17c-d546fcbe14a2",
+    "wikidata": "Q3574303",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Y%C5%ABji_Koseki"
+  }
+}

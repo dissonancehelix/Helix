@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hir",
+  "entity_type": "music.composer",
+  "label": "HIR",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "MCMLXC",
+      "SYNERGY MCMXCI"
+    ],
+    "artist_keys": [
+      "HIR"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ec48797a-12eb-4c77-9504-026d6a997114",
+    "wikidata": "Q200798",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroshige"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masahiko_osaka",
+  "entity_type": "music.composer",
+  "label": "Masahiko Osaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Touch My Katamari"
+    ],
+    "artist_keys": [
+      "Masahiko Osaka"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "12365",
+    "musicbrainz": "d496e4af-b7a7-491b-acf9-1cb281bb84e1",
+    "wikidata": "Q11433708",
+    "spotify": "7usYYQe2sNzATDd3AHQIGm",
+    "lastfm": "大坂昌彦"
+  }
+}

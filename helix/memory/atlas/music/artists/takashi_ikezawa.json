@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takashi_ikezawa",
+  "entity_type": "music.composer",
+  "label": "Takashi Ikezawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Noby Noby Boy"
+    ],
+    "artist_keys": [
+      "Takashi Ikezawa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takanori_nakaigawa",
+  "entity_type": "music.composer",
+  "label": "Takanori Nakaigawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Seasons of Sakura"
+    ],
+    "artist_keys": [
+      "Takanori Nakaigawa"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

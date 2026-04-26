@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yasuhiko_manno",
+  "entity_type": "music.composer",
+  "label": "Yasuhiko Manno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2",
+      "NES"
+    ],
+    "franchises": [
+      "Contra Force",
+      "Crisis Force",
+      "King's Valley II"
+    ],
+    "artist_keys": [
+      "Yasuhiko Manno"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

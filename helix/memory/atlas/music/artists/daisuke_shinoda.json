@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:daisuke_shinoda",
+  "entity_type": "music.composer",
+  "label": "Daisuke Shinoda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Wild Hearts"
+    ],
+    "artist_keys": [
+      "Daisuke Shinoda"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

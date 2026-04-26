@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takeshi_kuramochi",
+  "entity_type": "music.composer",
+  "label": "Takeshi Kuramochi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Takeshi Kuramochi"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q30925078",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

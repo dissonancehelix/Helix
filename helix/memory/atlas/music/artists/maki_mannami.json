@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:maki_mannami",
+  "entity_type": "music.composer",
+  "label": "Maki Mannami",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Maki Mannami"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

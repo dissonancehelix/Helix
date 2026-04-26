@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:ryo_takeshita",
+  "entity_type": "music.composer",
+  "label": "Ryo Takeshita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tokyo Xanadu",
+      "Trails / Kiseki",
+      "Ys Origin",
+      "Ys Seven",
+      "Zwei"
+    ],
+    "artist_keys": [
+      "Ryo Takeshita"
+    ],
+    "track_count": 63
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:gackt_camui",
+  "entity_type": "music.composer",
+  "label": "Gackt Camui",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dirge of Cerberus"
+    ],
+    "artist_keys": [
+      "Gackt Camui"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "346",
+    "musicbrainz": "e7a8e086-16df-44a7-91e4-640986bcff72",
+    "wikidata": "Q44606",
+    "spotify": "0MebO9MFNvedjUBsPGo0YN",
+    "lastfm": "GACKT",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gackt"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:satoshi_yamada",
+  "entity_type": "music.composer",
+  "label": "Satoshi Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Half"
+    ],
+    "artist_keys": [
+      "Satoshi Yamada"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100765985",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

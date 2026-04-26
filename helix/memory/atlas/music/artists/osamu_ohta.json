@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:osamu_ohta",
+  "entity_type": "music.composer",
+  "label": "Osamu Ohta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Daisenpuu",
+      "Knuckle Bash",
+      "Pipi & Bibi's",
+      "Rally Bike",
+      "Snow Bros",
+      "Snow Bros 2",
+      "Twin Hawk",
+      "Wardner"
+    ],
+    "artist_keys": [
+      "Osamu Ohta"
+    ],
+    "track_count": 59
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

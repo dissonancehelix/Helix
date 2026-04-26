@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naruto",
+  "entity_type": "music.composer",
+  "label": "naruto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "naruto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q61740767",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

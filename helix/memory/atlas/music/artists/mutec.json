@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:mutec",
+  "entity_type": "music.composer",
+  "label": "Mutec",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Hebereke no Popoon"
+    ],
+    "artist_keys": [
+      "Mutec"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q60221738",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

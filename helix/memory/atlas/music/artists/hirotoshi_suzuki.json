@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hirotoshi_suzuki",
+  "entity_type": "music.composer",
+  "label": "Hirotoshi Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "The Legendary Axe II"
+    ],
+    "artist_keys": [
+      "Hirotoshi Suzuki"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:vince_mai",
+  "entity_type": "music.composer",
+  "label": "Vince Mai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "NBA Live 96"
+    ],
+    "artist_keys": [
+      "Vince Mai"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

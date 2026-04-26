@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:eriko_sakurai",
+  "entity_type": "music.composer",
+  "label": "Eriko Sakurai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Pac",
+      "Super Smash Bros. for Wii U",
+      "Taiko no Tatsujin",
+      "Touch My Katamari",
+      "Xevious 30th Anniversary Tribute"
+    ],
+    "artist_keys": [
+      "Eriko Sakurai"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q121652212",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

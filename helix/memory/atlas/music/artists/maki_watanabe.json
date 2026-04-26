@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:maki_watanabe",
+  "entity_type": "music.composer",
+  "label": "Maki Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Doraemon"
+    ],
+    "artist_keys": [
+      "Maki Watanabe"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

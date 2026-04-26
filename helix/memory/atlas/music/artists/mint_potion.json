@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:mint_potion",
+  "entity_type": "music.composer",
+  "label": "Mint Potion",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Shovel Knight"
+    ],
+    "artist_keys": [
+      "Mint Potion"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

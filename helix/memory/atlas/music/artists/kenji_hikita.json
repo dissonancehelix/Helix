@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kenji_hikita",
+  "entity_type": "music.composer",
+  "label": "Kenji Hikita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mikagura Shoujo Tanteidan"
+    ],
+    "artist_keys": [
+      "Kenji Hikita"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

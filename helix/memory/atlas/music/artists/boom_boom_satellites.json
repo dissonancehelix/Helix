@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:boom_boom_satellites",
+  "entity_type": "music.composer",
+  "label": "Boom Boom Satellites",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ridge Racer V"
+    ],
+    "artist_keys": [
+      "Boom Boom Satellites"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "11953",
+    "musicbrainz": "f9114439-1662-4415-b761-05a4170c9579",
+    "wikidata": "Q748179",
+    "spotify": "0vCGPbugjEi38T41ZHny1o",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boom_Boom_Satellites"
+  }
+}

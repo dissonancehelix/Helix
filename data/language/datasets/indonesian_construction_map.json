@@ -1,0 +1,114 @@
+[
+  {
+    "id": "active_base",
+    "family": "me_di_voice",
+    "label": "active_me_prefix",
+    "text": "Saya membaca buku itu."
+  },
+  {
+    "id": "active_variant",
+    "family": "me_di_voice",
+    "label": "passive_di_prefix",
+    "transform": "shift_to_passive",
+    "edge_from": "active_base",
+    "text": "Buku itu dibaca oleh saya."
+  },
+  {
+    "id": "negation_base",
+    "family": "tidak_bukan_negation",
+    "label": "affirmative_verb",
+    "text": "Dia datang besok."
+  },
+  {
+    "id": "negation_variant",
+    "family": "tidak_bukan_negation",
+    "label": "tidak_verbal_negation",
+    "transform": "add_tidak",
+    "edge_from": "negation_base",
+    "text": "Dia tidak datang besok."
+  },
+  {
+    "id": "tense_base",
+    "family": "no_tense_time_adverb",
+    "label": "bare_verb_present",
+    "text": "Saya makan nasi."
+  },
+  {
+    "id": "tense_variant",
+    "family": "no_tense_time_adverb",
+    "label": "past_via_adverb",
+    "transform": "add_time_adverb",
+    "edge_from": "tense_base",
+    "text": "Kemarin saya makan nasi."
+  },
+  {
+    "id": "reduplication_base",
+    "family": "reduplication_plural",
+    "label": "singular_noun",
+    "text": "Ada buku di meja."
+  },
+  {
+    "id": "reduplication_variant",
+    "family": "reduplication_plural",
+    "label": "reduplicated_plural",
+    "transform": "reduplicate_noun",
+    "edge_from": "reduplication_base",
+    "text": "Ada buku-buku di meja."
+  },
+  {
+    "id": "question_base",
+    "family": "apakah_question",
+    "label": "declarative",
+    "text": "Kamu mahasiswa."
+  },
+  {
+    "id": "question_variant",
+    "family": "apakah_question",
+    "label": "apakah_yes_no_question",
+    "transform": "add_apakah",
+    "edge_from": "question_base",
+    "text": "Apakah kamu mahasiswa?"
+  },
+  {
+    "id": "focus_base",
+    "family": "topic_fronting",
+    "label": "svo_canonical",
+    "text": "Saya suka buku ini."
+  },
+  {
+    "id": "focus_variant",
+    "family": "topic_fronting",
+    "label": "topic_fronted",
+    "transform": "front_topic",
+    "edge_from": "focus_base",
+    "text": "Buku ini saya suka."
+  },
+  {
+    "id": "aspect_base",
+    "family": "aspect_sudah_sedang",
+    "label": "bare_verb",
+    "text": "Dia pergi ke pasar."
+  },
+  {
+    "id": "aspect_variant",
+    "family": "aspect_sudah_sedang",
+    "label": "completed_sudah",
+    "transform": "add_sudah",
+    "edge_from": "aspect_base",
+    "text": "Dia sudah pergi ke pasar."
+  },
+  {
+    "id": "possession_base",
+    "family": "nya_possession",
+    "label": "separate_pronoun",
+    "text": "Ini buku dia."
+  },
+  {
+    "id": "possession_variant",
+    "family": "nya_possession",
+    "label": "nya_suffix",
+    "transform": "add_nya_suffix",
+    "edge_from": "possession_base",
+    "text": "Ini bukunya."
+  }
+]

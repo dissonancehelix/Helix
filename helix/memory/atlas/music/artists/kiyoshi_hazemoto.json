@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kiyoshi_hazemoto",
+  "entity_type": "music.composer",
+  "label": "Kiyoshi Hazemoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kirby Fighters 2",
+      "Kirby's Return to Dream Land",
+      "Super Kirby Clash"
+    ],
+    "artist_keys": [
+      "Kiyoshi Hazemoto"
+    ],
+    "track_count": 116
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:yuriko_keino",
+  "entity_type": "music.composer",
+  "label": "Yuriko Keino",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Kira Kira Star Night",
+      "Pac",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Yuriko Keino"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "742",
+    "musicbrainz": "170660a4-890f-49c5-90ee-0f11287af557",
+    "wikidata": "Q11495180",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

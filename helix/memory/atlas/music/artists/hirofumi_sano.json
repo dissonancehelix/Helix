@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hirofumi_sano",
+  "entity_type": "music.composer",
+  "label": "Hirofumi Sano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gradius Galaxies"
+    ],
+    "artist_keys": [
+      "Hirofumi Sano"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

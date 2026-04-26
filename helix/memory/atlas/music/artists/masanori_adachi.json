@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:masanori_adachi",
+  "entity_type": "music.composer",
+  "label": "Masanori Adachi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Famicom Disk System",
+      "MSX2",
+      "Mega Drive",
+      "PC-88",
+      "Super NES"
+    ],
+    "franchises": [
+      "Contra III",
+      "Endnesia",
+      "Freshly Picked",
+      "Green Beret",
+      "Metal Gear",
+      "Rocket Knight Adventures",
+      "Snatcher",
+      "Super Castlevania IV"
+    ],
+    "artist_keys": [
+      "Masanori Adachi"
+    ],
+    "track_count": 197
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q38322622",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

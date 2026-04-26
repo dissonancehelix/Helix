@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kuniko_sakurai",
+  "entity_type": "music.composer",
+  "label": "Kuniko Sakurai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Dome"
+    ],
+    "artist_keys": [
+      "Kuniko Sakurai"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q53764861",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

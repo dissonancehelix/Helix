@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:eirik_suhrke",
+  "entity_type": "music.composer",
+  "label": "Eirik Suhrke",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Adventure Time",
+      "Hotline Miami"
+    ],
+    "artist_keys": [
+      "Eirik Suhrke"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "2169",
+    "musicbrainz": "",
+    "wikidata": "Q123071946",
+    "spotify": "44ShdIQTBAqvSMPHozwK5J",
+    "lastfm": "Eirik+Suhrke",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eirik_Suhrke"
+  }
+}

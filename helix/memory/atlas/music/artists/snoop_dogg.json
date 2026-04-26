@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:snoop_dogg",
+  "entity_type": "music.composer",
+  "label": "Snoop Dogg",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Doggystyle"
+    ],
+    "artist_keys": [
+      "Snoop Dogg"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q745923",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Snoop_Dogg_discography"
+  }
+}

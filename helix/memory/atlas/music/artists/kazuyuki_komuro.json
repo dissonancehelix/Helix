@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kazuyuki_komuro",
+  "entity_type": "music.composer",
+  "label": "Kazuyuki Komuro",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Great Sluggers '94"
+    ],
+    "artist_keys": [
+      "Kazuyuki Komuro"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

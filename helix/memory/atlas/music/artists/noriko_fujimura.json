@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:noriko_fujimura",
+  "entity_type": "music.composer",
+  "label": "Noriko Fujimura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hachiemon"
+    ],
+    "artist_keys": [
+      "Noriko Fujimura"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

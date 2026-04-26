@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tsuyoshi_matsushima",
+  "entity_type": "music.composer",
+  "label": "Tsuyoshi Matsushima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Puyo Puyo Tsuu"
+    ],
+    "artist_keys": [
+      "Tsuyoshi Matsushima"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

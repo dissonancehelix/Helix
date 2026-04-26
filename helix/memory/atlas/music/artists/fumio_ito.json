@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:fumio_ito",
+  "entity_type": "music.composer",
+  "label": "Fumio Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "404 Game Re",
+      "Aero Elite",
+      "Border Break",
+      "OutRun 2",
+      "Shining Force Cross Raid",
+      "Virtua Fighter 3"
+    ],
+    "artist_keys": [
+      "Fumio Ito"
+    ],
+    "track_count": 59
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1985334",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fumio_Ito"
+  }
+}

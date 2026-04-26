@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kamo",
+  "entity_type": "music.composer",
+  "label": "KAMO",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Surging Aura"
+    ],
+    "artist_keys": [
+      "KAMO"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q857293",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kamo,_Niigata"
+  }
+}

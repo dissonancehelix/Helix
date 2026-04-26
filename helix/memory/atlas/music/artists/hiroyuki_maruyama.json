@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroyuki_maruyama",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Maruyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Monkey Ball"
+    ],
+    "artist_keys": [
+      "Hiroyuki Maruyama"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q57695642",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:jesahm",
+  "entity_type": "music.composer",
+  "label": "Jesahm",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat",
+      "Dai",
+      "New Pokémon Snap",
+      "Super Smash Bros. for Wii U",
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Jesahm"
+    ],
+    "track_count": 49
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

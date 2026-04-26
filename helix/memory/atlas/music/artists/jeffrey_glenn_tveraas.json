@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:jeffrey_glenn_tveraas",
+  "entity_type": "music.composer",
+  "label": "Jeffrey Glenn Tveraas",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Bonkers"
+    ],
+    "artist_keys": [
+      "Jeffrey Glenn Tveraas"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

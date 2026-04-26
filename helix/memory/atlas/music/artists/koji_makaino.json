@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:koji_makaino",
+  "entity_type": "music.composer",
+  "label": "Koji Makaino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Star Ocean EX"
+    ],
+    "artist_keys": [
+      "Koji Makaino"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "3403",
+    "musicbrainz": "6ce34cf0-e7c5-43d5-a354-659194b94048",
+    "wikidata": "Q3817846",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/K%C5%8Dji_Makaino"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:sora",
+  "entity_type": "music.composer",
+  "label": "SORA",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Tokimeki Memorial Taisen Puzzle"
+    ],
+    "artist_keys": [
+      "SORA"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "e8e6a052-53a4-48d3-9e37-fc90e108ff26",
+    "wikidata": "Q1317078",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sora_Ltd."
+  }
+}

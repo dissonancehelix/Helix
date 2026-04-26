@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:nis",
+  "entity_type": "music.composer",
+  "label": "NIS",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Tetris Plus"
+    ],
+    "artist_keys": [
+      "NIS"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1279721",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naftna_Industrija_Srbije"
+  }
+}

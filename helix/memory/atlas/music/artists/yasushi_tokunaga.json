@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yasushi_tokunaga",
+  "entity_type": "music.composer",
+  "label": "Yasushi Tokunaga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Yoshi's Safari"
+    ],
+    "artist_keys": [
+      "Yasushi Tokunaga"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

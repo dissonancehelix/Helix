@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:koichi_hiroki",
+  "entity_type": "music.composer",
+  "label": "Koichi Hiroki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Resident Evil"
+    ],
+    "artist_keys": [
+      "Koichi Hiroki"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "e76d955b-4804-4359-bf31-96aa75d9f690",
+    "wikidata": "Q42743757",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

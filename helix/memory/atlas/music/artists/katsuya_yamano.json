@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:katsuya_yamano",
+  "entity_type": "music.composer",
+  "label": "Katsuya Yamano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Teleroboxer"
+    ],
+    "artist_keys": [
+      "Katsuya Yamano"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

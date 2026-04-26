@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kojiro_nakajima",
+  "entity_type": "music.composer",
+  "label": "Kojiro Nakajima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Kamaitachi no Yoru"
+    ],
+    "artist_keys": [
+      "Kojiro Nakajima"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

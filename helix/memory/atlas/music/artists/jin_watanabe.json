@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:jin_watanabe",
+  "entity_type": "music.composer",
+  "label": "Jin Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Battle Lode Runner",
+      "Bloody Roar 2",
+      "Ghoul Panic",
+      "Golgo 13",
+      "Monster World IV",
+      "Riot City"
+    ],
+    "artist_keys": [
+      "Jin Watanabe"
+    ],
+    "track_count": 85
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11562043",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jin_Watanabe_(architect)"
+  }
+}

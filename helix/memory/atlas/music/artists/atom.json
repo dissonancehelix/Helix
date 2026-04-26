@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:atom",
+  "entity_type": "music.composer",
+  "label": "atom™",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Forever"
+    ],
+    "artist_keys": [
+      "atom™"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "44270",
+    "musicbrainz": "7fdb9cac-8814-4713-a710-8cd1bdd2ad29",
+    "wikidata": "Q65843",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Uwe_Schmidt"
+  }
+}

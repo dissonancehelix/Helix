@@ -1,0 +1,45 @@
+{
+  "entity_id": "music.composer:michiru_yamane",
+  "entity_type": "music.composer",
+  "label": "Michiru Yamane",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Famicom Disk System",
+      "Game Boy",
+      "Game Boy Advance",
+      "MSX",
+      "MSX2",
+      "Mega Drive",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "9 Years of Shadows",
+      "Arcalast",
+      "Astérix",
+      "Bloodstained",
+      "Castlevania",
+      "Code of Joker",
+      "Contra",
+      "Detana!! TwinBee",
+      "Elebits",
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Michiru Yamane"
+    ],
+    "track_count": 854
+  },
+  "external_ids": {
+    "vgmdb": "334",
+    "musicbrainz": "17dbd4b4-6e92-4027-a64f-659258f4e775",
+    "wikidata": "Q2698275",
+    "spotify": "6yHzqH70UbRHmoTOcEBmRz",
+    "lastfm": "山根ミチル",
+    "discogs": "293444",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michiru_Yamane"
+  }
+}

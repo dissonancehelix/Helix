@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:hip_tanaka",
+  "entity_type": "music.composer",
+  "label": "Hip Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "Game Boy",
+      "NES",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Balloon Fight",
+      "Balloon Kid",
+      "Barker Bill's Trick Shooting",
+      "Dr. Mario",
+      "Dr. Mario 64",
+      "Duck Hunt",
+      "EarthBound",
+      "Famicom Wars",
+      "Game Boy Camera",
+      "Gumshoe",
+      "Gyromite",
+      "Hello Kitty World",
+      "Kid Icarus",
+      "Knight Move",
+      "Mario Paint"
+    ],
+    "artist_keys": [
+      "Hip Tanaka"
+    ],
+    "track_count": 405
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

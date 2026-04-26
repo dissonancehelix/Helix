@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:jean_baudlot",
+  "entity_type": "music.composer",
+  "label": "Jean Baudlot",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Flashback"
+    ],
+    "artist_keys": [
+      "Jean Baudlot"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "9423",
+    "musicbrainz": "e6574341-541f-4a47-9ee4-0ddd26bcba9d",
+    "wikidata": "Q1246627",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jean_Baudlot"
+  }
+}

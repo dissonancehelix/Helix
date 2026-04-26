@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yuji_nomi_manabu_saito",
+  "entity_type": "music.composer",
+  "label": "Yuji Nomi, Manabu Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Xenon 2"
+    ],
+    "artist_keys": [
+      "Yuji Nomi, Manabu Saito"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

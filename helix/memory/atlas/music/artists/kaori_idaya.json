@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kaori_idaya",
+  "entity_type": "music.composer",
+  "label": "Kaori Idaya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Zugan 2"
+    ],
+    "artist_keys": [
+      "Kaori Idaya"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masato_ohashi",
+  "entity_type": "music.composer",
+  "label": "Masato Ohashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Masato Ohashi"
+    ],
+    "track_count": 152
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q88695141",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

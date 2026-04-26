@@ -1,0 +1,47 @@
+{
+  "entity_id": "music.composer:junko_ozawa",
+  "entity_type": "music.composer",
+  "label": "Junko Ozawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "NES",
+      "PC Engine",
+      "PC-88",
+      "Super NES",
+      "X1"
+    ],
+    "franchises": [
+      "Famista '89",
+      "Famista '90",
+      "Famista '91",
+      "Klonoa",
+      "Klonoa Heroes",
+      "Mr. Driller Ace",
+      "Noby Noby Boy",
+      "Pac",
+      "Pro Yakyuu Family Stadium '89",
+      "Rolling Thunder",
+      "Sky Kid Deluxe",
+      "Super Smash Bros. for Wii U",
+      "Super World Stadium '92",
+      "Tales of Vesperia",
+      "The Blue Crystal Rod"
+    ],
+    "artist_keys": [
+      "Junko Ozawa"
+    ],
+    "track_count": 144
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11462739",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Junko_Ozawa"
+  }
+}

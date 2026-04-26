@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:takeshi_yasuda",
+  "entity_type": "music.composer",
+  "label": "Takeshi Yasuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Curse of the Azure Bonds",
+      "Pools of Darkness",
+      "Secret of the Silver Blades"
+    ],
+    "artist_keys": [
+      "Takeshi Yasuda"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q9128087",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:silas_lee",
+  "entity_type": "music.composer",
+  "label": "Silas Lee",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bouken Yuki Pluster World"
+    ],
+    "artist_keys": [
+      "Silas Lee"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2285671",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Silas_Lee"
+  }
+}

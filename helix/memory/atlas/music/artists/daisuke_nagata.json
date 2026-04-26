@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:daisuke_nagata",
+  "entity_type": "music.composer",
+  "label": "Daisuke Nagata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Karous"
+    ],
+    "artist_keys": [
+      "Daisuke Nagata"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "1920",
+    "musicbrainz": "61c34262-803d-471c-8517-1581658e28a3",
+    "wikidata": "Q117612959",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

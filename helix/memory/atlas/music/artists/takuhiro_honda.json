@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takuhiro_honda",
+  "entity_type": "music.composer",
+  "label": "Takuhiro Honda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Nintendo Switch Sports"
+    ],
+    "artist_keys": [
+      "Takuhiro Honda"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

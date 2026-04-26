@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:junpei_mishima",
+  "entity_type": "music.composer",
+  "label": "Junpei Mishima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "404 Game Re",
+      "Like a Dragon",
+      "Like a Dragon Gaiden"
+    ],
+    "artist_keys": [
+      "Junpei Mishima"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

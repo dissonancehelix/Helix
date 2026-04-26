@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomisiro",
+  "entity_type": "music.composer",
+  "label": "TOMISIRO",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Remake Intergrade"
+    ],
+    "artist_keys": [
+      "TOMISIRO"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "12340",
+    "musicbrainz": "",
+    "wikidata": "Q20128261",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

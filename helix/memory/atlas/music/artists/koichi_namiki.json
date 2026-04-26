@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:koichi_namiki",
+  "entity_type": "music.composer",
+  "label": "Koichi Namiki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PlayStation 2"
+    ],
+    "franchises": [
+      "Galaxy Force II",
+      "Kaerazu no Mori",
+      "Laser Ghost",
+      "Last Survivor",
+      "Rail Chase",
+      "Real Robot Regiment",
+      "Super Hang",
+      "Super Monaco GP",
+      "Thunder Blade",
+      "Virtual Open Tennis"
+    ],
+    "artist_keys": [
+      "Koichi Namiki"
+    ],
+    "track_count": 75
+  },
+  "external_ids": {
+    "vgmdb": "157",
+    "musicbrainz": "9fe9bc27-5ff1-4f27-9e15-9988b5c81426",
+    "wikidata": "Q11362716",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

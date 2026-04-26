@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mikiya_katakura",
+  "entity_type": "music.composer",
+  "label": "Mikiya Katakura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Irina"
+    ],
+    "artist_keys": [
+      "Mikiya Katakura"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "6950",
+    "musicbrainz": "b8e8d499-9a21-4359-a5f9-ccdcacd62646",
+    "wikidata": "Q3313742",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:naoto_ishida",
+  "entity_type": "music.composer",
+  "label": "Naoto Ishida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "BS Saterawalker 2",
+      "F",
+      "Satellaview BS",
+      "SatesupuDX 4",
+      "Super Scope 6"
+    ],
+    "artist_keys": [
+      "Naoto Ishida"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

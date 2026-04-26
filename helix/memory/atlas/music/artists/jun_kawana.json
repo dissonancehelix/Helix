@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:jun_kawana",
+  "entity_type": "music.composer",
+  "label": "Jun Kawana",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Prajator"
+    ],
+    "artist_keys": [
+      "Jun Kawana"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q111112907",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

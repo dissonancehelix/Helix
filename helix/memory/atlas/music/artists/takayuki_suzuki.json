@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:takayuki_suzuki",
+  "entity_type": "music.composer",
+  "label": "Takayuki Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Date Kimiko no Virtual Tennis",
+      "Twin Eagle"
+    ],
+    "artist_keys": [
+      "Takayuki Suzuki"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q125220038",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:paul_mudra",
+  "entity_type": "music.composer",
+  "label": "Paul Mudra",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Dune",
+      "Dungeons & Dragons",
+      "Eye of the Beholder",
+      "Young Merlin"
+    ],
+    "artist_keys": [
+      "Paul Mudra"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q94523348",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

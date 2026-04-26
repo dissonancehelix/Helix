@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shota_nakama",
+  "entity_type": "music.composer",
+  "label": "Shota Nakama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy XV"
+    ],
+    "artist_keys": [
+      "Shota Nakama"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q97168116",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

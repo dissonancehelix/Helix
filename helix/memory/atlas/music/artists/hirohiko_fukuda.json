@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hirohiko_fukuda",
+  "entity_type": "music.composer",
+  "label": "Hirohiko Fukuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "SmartBall"
+    ],
+    "artist_keys": [
+      "Hirohiko Fukuda"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

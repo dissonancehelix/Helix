@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:mariko",
+  "entity_type": "music.composer",
+  "label": "Mariko",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "Neo Geo Pocket Color"
+    ],
+    "franchises": [
+      "Art of Fighting 2",
+      "Eight Man",
+      "Fatal Fury 3",
+      "King of Fighters R",
+      "Samurai Shodown III",
+      "Savage Reign"
+    ],
+    "artist_keys": [
+      "Mariko"
+    ],
+    "track_count": 76
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q113852905",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

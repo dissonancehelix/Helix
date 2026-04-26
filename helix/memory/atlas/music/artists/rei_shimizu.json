@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:rei_shimizu",
+  "entity_type": "music.composer",
+  "label": "Rei Shimizu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX",
+      "WWF SmackDown! 2"
+    ],
+    "artist_keys": [
+      "Rei Shimizu"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

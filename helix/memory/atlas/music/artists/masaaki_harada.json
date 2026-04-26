@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:masaaki_harada",
+  "entity_type": "music.composer",
+  "label": "Masaaki Harada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "NES"
+    ],
+    "franchises": [
+      "Circus Caper",
+      "Moeru! Oniisan",
+      "Tama & Friends"
+    ],
+    "artist_keys": [
+      "Masaaki Harada"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:hirokazu_koshio",
+  "entity_type": "music.composer",
+  "label": "Hirokazu Koshio",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Demons' Score",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Imported Game Music"
+    ],
+    "artist_keys": [
+      "Hirokazu Koshio"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "1664",
+    "musicbrainz": "b9c21606-fb28-400d-b974-bb061592e9da",
+    "wikidata": "Q11459559",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

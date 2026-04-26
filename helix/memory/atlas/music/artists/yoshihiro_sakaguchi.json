@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yoshihiro_sakaguchi",
+  "entity_type": "music.composer",
+  "label": "Yoshihiro Sakaguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Street Fighter"
+    ],
+    "artist_keys": [
+      "Yoshihiro Sakaguchi"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "188",
+    "musicbrainz": "29ee2463-b612-4a35-b394-bd6100eeab4d",
+    "wikidata": "Q2407142",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

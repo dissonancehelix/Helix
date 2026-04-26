@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:tetsuya_shibata",
+  "entity_type": "music.composer",
+  "label": "Tetsuya Shibata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II"
+    ],
+    "franchises": [
+      "Auto Modellista",
+      "Devil May Cry 2",
+      "Devil May Cry 3",
+      "Devil May Cry 4",
+      "Final Fantasy XV",
+      "Half",
+      "Justice Monsters Five",
+      "Marvel vs. Capcom 2",
+      "Otomedius Excellent",
+      "Resident Evil Outbreak",
+      "Star Gladiator 2",
+      "Street Fighter Alpha 3",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Tetsuya Shibata"
+    ],
+    "track_count": 246
+  },
+  "external_ids": {
+    "vgmdb": "1511",
+    "musicbrainz": "abaeaba7-59b7-4b61-9382-f9798e4fa963",
+    "wikidata": "Q7706955",
+    "spotify": "",
+    "lastfm": "Tetsuya+Shibata",
+    "discogs": "781076",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tetsuya_Shibata"
+  }
+}

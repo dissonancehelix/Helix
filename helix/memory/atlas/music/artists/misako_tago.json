@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:misako_tago",
+  "entity_type": "music.composer",
+  "label": "Misako Tago",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Guardian Force"
+    ],
+    "artist_keys": [
+      "Misako Tago"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

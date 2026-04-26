@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:shiho_fujii",
+  "entity_type": "music.composer",
+  "label": "Shiho Fujii",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Animal Crossing",
+      "Mario",
+      "Mario Kart 8",
+      "New Super Mario Bros. Wii",
+      "Ring Fit Adventure",
+      "Splatoon",
+      "Splatoon 2",
+      "Splatoon 3",
+      "Super Mario Bros. Wonder",
+      "Super Mario Odyssey",
+      "The Legend of Zelda",
+      "Wii Fit"
+    ],
+    "artist_keys": [
+      "Shiho Fujii"
+    ],
+    "track_count": 403
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11622784",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

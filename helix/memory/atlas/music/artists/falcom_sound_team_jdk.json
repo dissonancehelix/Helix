@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:falcom_sound_team_jdk",
+  "entity_type": "music.composer",
+  "label": "Falcom Sound Team jdk",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ys X"
+    ],
+    "artist_keys": [
+      "Falcom Sound Team jdk"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "293",
+    "musicbrainz": "c999f4ef-8733-46f8-ae3a-d5628c260ea8",
+    "wikidata": "Q10847144",
+    "spotify": "5WFofzgRxpVNkpwg9XRSdg",
+    "lastfm": "Falcom+Sound+Team+jdk"
+  }
+}

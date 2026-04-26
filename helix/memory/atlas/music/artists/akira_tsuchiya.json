@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:akira_tsuchiya",
+  "entity_type": "music.composer",
+  "label": "Akira Tsuchiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Alchemist Marie & Elie",
+      "Atelier Judie",
+      "Atelier Lilie",
+      "Atelier Marie, Elie & Anis"
+    ],
+    "artist_keys": [
+      "Akira Tsuchiya"
+    ],
+    "track_count": 83
+  },
+  "external_ids": {
+    "vgmdb": "200",
+    "musicbrainz": "e44014e6-617b-4554-878d-737de10fef0f",
+    "wikidata": "Q11423288",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

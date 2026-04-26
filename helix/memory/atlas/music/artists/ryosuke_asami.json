@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ryosuke_asami",
+  "entity_type": "music.composer",
+  "label": "Ryosuke Asami",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario Party 9"
+    ],
+    "artist_keys": [
+      "Ryosuke Asami"
+    ],
+    "track_count": 106
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

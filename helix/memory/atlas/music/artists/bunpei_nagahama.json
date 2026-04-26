@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:bunpei_nagahama",
+  "entity_type": "music.composer",
+  "label": "Bunpei Nagahama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Kira Kira Star Night"
+    ],
+    "artist_keys": [
+      "Bunpei Nagahama"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

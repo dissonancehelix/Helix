@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:nobuyuki_ohnogi",
+  "entity_type": "music.composer",
+  "label": "Nobuyuki Ohnogi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Libble Rabble",
+      "Noby Noby Boy",
+      "Super Smash Bros. for Wii U",
+      "Tales of Vesperia",
+      "The Quest of Ki"
+    ],
+    "artist_keys": [
+      "Nobuyuki Ohnogi"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "276",
+    "musicbrainz": "a79a186e-675d-432f-aec8-b128f982c3a3",
+    "wikidata": "Q11439635",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryota_musha",
+  "entity_type": "music.composer",
+  "label": "Ryota Musha",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Low G Man"
+    ],
+    "artist_keys": [
+      "Ryota Musha"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

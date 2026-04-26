@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yorimasa_hisatake",
+  "entity_type": "music.composer",
+  "label": "Yorimasa Hisatake",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Lost Judgment"
+    ],
+    "artist_keys": [
+      "Yorimasa Hisatake"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "22057",
+    "musicbrainz": "000ffe0e-1a61-479c-a512-99c6c5c2293b",
+    "wikidata": "Q11369458",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

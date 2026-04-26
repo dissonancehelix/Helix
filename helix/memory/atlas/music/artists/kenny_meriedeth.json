@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kenny_meriedeth",
+  "entity_type": "music.composer",
+  "label": "Kenny Meriedeth",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mighty Fight Federation"
+    ],
+    "artist_keys": [
+      "Kenny Meriedeth"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

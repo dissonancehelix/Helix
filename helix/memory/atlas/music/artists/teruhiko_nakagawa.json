@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:teruhiko_nakagawa",
+  "entity_type": "music.composer",
+  "label": "Teruhiko Nakagawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X"
+    ],
+    "franchises": [
+      "Astro Boy",
+      "Atsumare! Guru Guru Onsen",
+      "Baseball Advance",
+      "Dengeki Bunko",
+      "GunValkyrie",
+      "Guru Guru Onsen 2",
+      "Hundred Swords",
+      "Mario; Sonic the Hedgehog",
+      "Metal Head",
+      "NiGHTS",
+      "Nightshade",
+      "Panzer Dragoon Zwei",
+      "Shinobi",
+      "Sonic the Hedgehog",
+      "Stellar Assault"
+    ],
+    "artist_keys": [
+      "Teruhiko Nakagawa"
+    ],
+    "track_count": 293
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

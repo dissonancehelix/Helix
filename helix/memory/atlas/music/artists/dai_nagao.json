@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:dai_nagao",
+  "entity_type": "music.composer",
+  "label": "Dai Nagao",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of Legendia"
+    ],
+    "artist_keys": [
+      "Dai Nagao"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "389",
+    "musicbrainz": "48a40da5-2afa-40ab-bdec-7432d4b7f7dd",
+    "wikidata": "Q2232431",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

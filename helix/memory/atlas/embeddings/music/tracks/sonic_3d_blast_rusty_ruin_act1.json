@@ -1,0 +1,115 @@
+{
+  "entity_id": "music.track:sonic_3d_blast_rusty_ruin_act1",
+  "substrate_version": "2.0.0",
+  "substrate": {
+    "possibility_space": 0.71,
+    "constraint": 0.65,
+    "attractor_stability": 0.82,
+    "basin_permeability": 0.27,
+    "recurrence_depth": 0.63
+  },
+  "evidence": {
+    "signals": [
+      {
+        "name": "phrase_repetition_rate",
+        "value": 0.88,
+        "axis": "attractor_stability",
+        "unit": "ratio"
+      },
+      {
+        "name": "pattern_variance_normalized",
+        "value": 0.09,
+        "axis": "attractor_stability",
+        "unit": "ratio"
+      },
+      {
+        "name": "scale_adherence_ratio",
+        "value": 0.79,
+        "axis": "constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "rhythmic_quantization_error",
+        "value": 0.11,
+        "axis": "constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "harmonic_vocab_size_normalized",
+        "value": 0.31,
+        "axis": "constraint",
+        "unit": "ratio"
+      },
+      {
+        "name": "detected_recurrence_levels",
+        "value": 2.5,
+        "axis": "recurrence_depth",
+        "unit": "levels_of_4"
+      },
+      {
+        "name": "note_density",
+        "value": 9.4,
+        "axis": "possibility_space",
+        "unit": "events/second"
+      },
+      {
+        "name": "harmonic_rhythm_rate",
+        "value": 0.71,
+        "axis": "possibility_space",
+        "unit": "chord_changes/bar_normalized"
+      },
+      {
+        "name": "timbre_change_rate",
+        "value": 0.58,
+        "axis": "possibility_space",
+        "unit": "events/second_normalized"
+      },
+      {
+        "name": "pitch_class_entropy",
+        "value": 0.74,
+        "axis": "possibility_space",
+        "unit": "bits_normalized"
+      },
+      {
+        "name": "dynamic_entropy",
+        "value": 0.65,
+        "axis": "constraint",
+        "unit": "bits_normalized"
+      },
+      {
+        "name": "articulation_entropy",
+        "value": 0.73,
+        "axis": "constraint",
+        "unit": "bits_normalized"
+      },
+      {
+        "name": "mean_transition_sharpness",
+        "value": 0.19,
+        "axis": "basin_permeability",
+        "unit": "ratio"
+      },
+      {
+        "name": "shared_material_ratio",
+        "value": 0.42,
+        "axis": "basin_permeability",
+        "unit": "ratio"
+      }
+    ],
+    "source_features": [
+      "driver: GEMS v2.0 (Z80 sequencer)",
+      "hardware: YM2612 FM + SN76489 PSG + DAC",
+      "game: Sonic 3D Blast (Sega of America, Genesis, 1996)",
+      "sequence_structure: 4-bar phrase, 16-bar loop, A-B-A-B form",
+      "fm_channels_used: 5 (ch6=DAC, ch3=percussion mode)",
+      "detected_scale: Dorian mode (D root)",
+      "tempo_bpm: 148",
+      "time_signature: 4/4",
+      "section_boundaries: hard GEMS sequence-cut transitions",
+      "loop_type: infinite exact loop"
+    ],
+    "notes": "recurrence_depth at 2.5/4: motif and phrase recurrence confirmed, section-level partial (A returns varied), form-level not confirmed. basin_permeability is low (0.27) due to GEMS Z80 sequencer hard-cut transitions — no crossfade mechanism exists at the hardware/driver level."
+  },
+  "confidence": 0.71,
+  "computed_at": "2026-03-18T00:00:00Z",
+  "source_version": "analysis_v2"
+}

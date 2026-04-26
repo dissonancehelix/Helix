@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:seiichi_takamoto",
+  "entity_type": "music.composer",
+  "label": "Seiichi Takamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Comet Summoner"
+    ],
+    "artist_keys": [
+      "Seiichi Takamoto"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

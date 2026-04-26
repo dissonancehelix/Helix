@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tousyu_furukawa",
+  "entity_type": "music.composer",
+  "label": "Tousyu Furukawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Aquarium"
+    ],
+    "artist_keys": [
+      "Tousyu Furukawa"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

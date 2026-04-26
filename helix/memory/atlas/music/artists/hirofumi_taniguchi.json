@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:hirofumi_taniguchi",
+  "entity_type": "music.composer",
+  "label": "Hirofumi Taniguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Captain Rainbow",
+      "Chibi",
+      "Contra",
+      "Endnesia",
+      "Giftpia",
+      "Mouryou Senki Madara 2"
+    ],
+    "artist_keys": [
+      "Hirofumi Taniguchi"
+    ],
+    "track_count": 317
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q61057751",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

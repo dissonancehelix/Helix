@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:katsumi_tanaka",
+  "entity_type": "music.composer",
+  "label": "Katsumi Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Aleste",
+      "Ten Plants 2"
+    ],
+    "artist_keys": [
+      "Katsumi Tanaka"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "410",
+    "musicbrainz": "bd1c4c7c-1f51-4304-a63b-c0daa5e83a09",
+    "wikidata": "Q11575352",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

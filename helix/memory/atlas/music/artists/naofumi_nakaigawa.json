@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naofumi_nakaigawa",
+  "entity_type": "music.composer",
+  "label": "Naofumi Nakaigawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Three Sisters' Story"
+    ],
+    "artist_keys": [
+      "Naofumi Nakaigawa"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

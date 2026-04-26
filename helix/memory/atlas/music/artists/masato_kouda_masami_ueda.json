@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:masato_kouda_masami_ueda",
+  "entity_type": "music.composer",
+  "label": "Masato Kouda, Masami Ueda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Devil May Cry"
+    ],
+    "artist_keys": [
+      "Masato Kouda, Masami Ueda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

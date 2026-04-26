@@ -1,0 +1,64 @@
+{
+  "total": 4,
+  "templates": [
+    {
+      "name": "Adam Peters",
+      "full_title": "Template:Adam Peters",
+      "description": "",
+      "params": [],
+      "dependencies": [],
+      "has_source": false,
+      "has_doc": false,
+      "has_templatedata": true,
+      "fetch_error": null
+    },
+    {
+      "name": "Jayden Daniels",
+      "full_title": "Template:Jayden Daniels",
+      "description": "",
+      "params": [],
+      "dependencies": [],
+      "has_source": false,
+      "has_doc": false,
+      "has_templatedata": true,
+      "fetch_error": null
+    },
+    {
+      "name": "Washington Commanders staff",
+      "full_title": "Template:Washington Commanders staff",
+      "description": "A navigational box that can be placed at the bottom of articles.",
+      "params": [
+        {
+          "name": "state",
+          "aliases": [],
+          "description": "The initial visibility of the navbox",
+          "type": "string",
+          "required": false,
+          "suggested": true,
+          "default": null
+        }
+      ],
+      "dependencies": [
+        "Gridiron primary style",
+        "navbar-header",
+        "tl",
+        "navbox documentation"
+      ],
+      "has_source": true,
+      "has_doc": false,
+      "has_templatedata": true,
+      "fetch_error": null
+    },
+    {
+      "name": "Template:Washington Commanders roster",
+      "full_title": "Template:Template:Washington Commanders roster",
+      "description": "",
+      "params": [],
+      "dependencies": [],
+      "has_source": false,
+      "has_doc": false,
+      "has_templatedata": false,
+      "fetch_error": "'list' object has no attribute 'items'"
+    }
+  ]
+}

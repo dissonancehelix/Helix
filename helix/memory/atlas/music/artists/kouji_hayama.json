@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kouji_hayama",
+  "entity_type": "music.composer",
+  "label": "Kouji Hayama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Moto Roader",
+      "Moto Roader II"
+    ],
+    "artist_keys": [
+      "Kouji Hayama"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "44333",
+    "musicbrainz": "e9c13686-4285-41cf-94ee-0e09842ee109",
+    "wikidata": "Q11620745",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

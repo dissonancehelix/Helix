@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hans_zimmer",
+  "entity_type": "music.composer",
+  "label": "Hans Zimmer",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Lion King"
+    ],
+    "artist_keys": [
+      "Hans Zimmer"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "8766",
+    "musicbrainz": "e6de1f3b-6484-491c-88dd-6d619f142abc",
+    "wikidata": "Q76364",
+    "spotify": "0YC192cP3KPCRWx8zr8MfZ",
+    "lastfm": "Hans+Zimmer",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hans_Zimmer"
+  }
+}

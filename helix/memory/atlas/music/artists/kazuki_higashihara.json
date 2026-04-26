@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:kazuki_higashihara",
+  "entity_type": "music.composer",
+  "label": "Kazuki Higashihara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "13 Sentinels",
+      "A.N.N.E",
+      "Caravan Stories",
+      "Grand Kingdom",
+      "Luminous Arc Infinity",
+      "Memories of the Blue",
+      "Odin Sphere",
+      "Project Babel",
+      "Record of Lodoss War Online",
+      "Zodiac"
+    ],
+    "artist_keys": [
+      "Kazuki Higashihara"
+    ],
+    "track_count": 204
+  },
+  "external_ids": {
+    "vgmdb": "16036",
+    "musicbrainz": "",
+    "wikidata": "Q101209860",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "5852923"
+  }
+}

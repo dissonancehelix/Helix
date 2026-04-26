@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tony_bernetich",
+  "entity_type": "music.composer",
+  "label": "Tony Bernetich",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Earthworm Jim",
+      "Earthworm Jim 2",
+      "Madden NFL '96"
+    ],
+    "artist_keys": [
+      "Tony Bernetich"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

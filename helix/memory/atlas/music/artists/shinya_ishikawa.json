@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:shinya_ishikawa",
+  "entity_type": "music.composer",
+  "label": "Shinya Ishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "DR² Night Janki",
+      "Filsnown",
+      "Kizuato",
+      "Shizuku",
+      "V.G. II"
+    ],
+    "artist_keys": [
+      "Shinya Ishikawa"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11585849",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shinya_Ishikawa"
+  }
+}

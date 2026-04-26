@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:moot_booxle",
+  "entity_type": "music.composer",
+  "label": "Moot Booxle",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "Moot Booxle"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

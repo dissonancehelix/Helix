@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:takayasu_sodeoka",
+  "entity_type": "music.composer",
+  "label": "Takayasu Sodeoka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bayonetta",
+      "Bayonetta 2"
+    ],
+    "artist_keys": [
+      "Takayasu Sodeoka"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

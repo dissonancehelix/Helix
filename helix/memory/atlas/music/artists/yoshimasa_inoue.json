@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshimasa_inoue",
+  "entity_type": "music.composer",
+  "label": "Yoshimasa Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Formula One World Championship"
+    ],
+    "artist_keys": [
+      "Yoshimasa Inoue"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

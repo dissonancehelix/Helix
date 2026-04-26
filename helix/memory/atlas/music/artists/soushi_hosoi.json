@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:soushi_hosoi",
+  "entity_type": "music.composer",
+  "label": "Soushi Hosoi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "From TV Animation Slam Dunk",
+      "Power Spikes II"
+    ],
+    "artist_keys": [
+      "Soushi Hosoi"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "76",
+    "musicbrainz": "19894ff5-5a9a-4efb-82ab-c6dd15845807",
+    "wikidata": "Q11605800",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

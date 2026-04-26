@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:peter_chapman",
+  "entity_type": "music.composer",
+  "label": "Peter Chapman",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Guacamelee!"
+    ],
+    "artist_keys": [
+      "Peter Chapman"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "13ba5938-00d2-4c06-b3a9-72e0425c1c04",
+    "wikidata": "Q30158700",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coins_(composer)"
+  }
+}

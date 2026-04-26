@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shoya_sunakawa",
+  "entity_type": "music.composer",
+  "label": "Shoya Sunakawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy XIV",
+      "Megaton Musashi"
+    ],
+    "artist_keys": [
+      "Shoya Sunakawa"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

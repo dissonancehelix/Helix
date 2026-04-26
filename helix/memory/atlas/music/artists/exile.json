@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:exile",
+  "entity_type": "music.composer",
+  "label": "EXILE",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter IV"
+    ],
+    "artist_keys": [
+      "EXILE"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q451510",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Exile_(1988_video_game)"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:nobuko_toda__norihiko_hibino",
+  "entity_type": "music.composer",
+  "label": "Nobuko Toda & Norihiko Hibino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid 3"
+    ],
+    "artist_keys": [
+      "Nobuko Toda & Norihiko Hibino"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yusuke_kudo",
+  "entity_type": "music.composer",
+  "label": "Yusuke Kudo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat 7",
+      "Daemon X Machina",
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Yusuke Kudo"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

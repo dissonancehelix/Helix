@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:brian_schmidt",
+  "entity_type": "music.composer",
+  "label": "Brian Schmidt",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bill Walsh College Football",
+      "Crüe Ball",
+      "Desert Strike",
+      "Harley's Humongous Adventure",
+      "Jungle Strike",
+      "Madden NFL '94",
+      "Madden NFL '95",
+      "Madden NFL '97",
+      "Mechwarrior 3050",
+      "Mutant League Football",
+      "NBA Live '97",
+      "NHL All",
+      "Nickelodeon GUTS",
+      "Spider",
+      "Toughman Contest"
+    ],
+    "artist_keys": [
+      "Brian Schmidt"
+    ],
+    "track_count": 146
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q201452",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brian_Schmidt"
+  }
+}

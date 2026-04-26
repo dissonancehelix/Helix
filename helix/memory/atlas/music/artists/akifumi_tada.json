@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:akifumi_tada",
+  "entity_type": "music.composer",
+  "label": "Akifumi Tada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Bomberman 64"
+    ],
+    "artist_keys": [
+      "Akifumi Tada"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "1000",
+    "musicbrainz": "3f59c15d-55c9-488f-afef-d2ad6d78c849",
+    "wikidata": "Q4700900",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akifumi_Tada"
+  }
+}

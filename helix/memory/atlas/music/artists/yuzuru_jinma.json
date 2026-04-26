@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yuzuru_jinma",
+  "entity_type": "music.composer",
+  "label": "Yuzuru Jinma",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Superstars",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Yuzuru Jinma"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "28516",
+    "musicbrainz": "e06a6eb7-42d4-4e13-8071-550cfbf834dd",
+    "wikidata": "Q30926217",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

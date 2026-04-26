@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:shusaku_uchiyama",
+  "entity_type": "music.composer",
+  "label": "Shusaku Uchiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Devil May Cry 4",
+      "Mega Man 10",
+      "Mega Man 8",
+      "Resident Evil",
+      "Resident Evil 2",
+      "Resident Evil 3"
+    ],
+    "artist_keys": [
+      "Shusaku Uchiyama"
+    ],
+    "track_count": 113
+  },
+  "external_ids": {
+    "vgmdb": "330",
+    "musicbrainz": "3cffb2bd-44e2-40ab-a122-b77b90e12552",
+    "wikidata": "Q10371279",
+    "spotify": "",
+    "lastfm": "Shusaku+Uchiyama",
+    "discogs": "1174719"
+  }
+}

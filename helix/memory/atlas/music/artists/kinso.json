@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kinso",
+  "entity_type": "music.composer",
+  "label": "Kinso",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hell Night"
+    ],
+    "artist_keys": [
+      "Kinso"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11980709",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

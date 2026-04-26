@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:takeshi_abo",
+  "entity_type": "music.composer",
+  "label": "Takeshi Abo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Dreamcast",
+      "PC-98"
+    ],
+    "franchises": [
+      "Boku to Bokura no Natsu",
+      "Can Can Bunny Premiere",
+      "Can Can Bunny Premiere 2",
+      "Close to",
+      "Criminal Girls",
+      "Erde",
+      "Infinity Cure",
+      "Iris",
+      "King's Bounty",
+      "L no Kisetsu 2"
+    ],
+    "artist_keys": [
+      "Takeshi Abo"
+    ],
+    "track_count": 581
+  },
+  "external_ids": {
+    "vgmdb": "44067",
+    "musicbrainz": "c96413df-f4cb-4231-bfa0-8e70c25742ef",
+    "wikidata": "Q1055081",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4573022",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takeshi_Abo"
+  }
+}

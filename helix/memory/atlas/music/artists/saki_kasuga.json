@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:saki_kasuga",
+  "entity_type": "music.composer",
+  "label": "Saki Kasuga",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Saki Kasuga"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

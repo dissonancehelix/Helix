@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:tomomi_otani",
+  "entity_type": "music.composer",
+  "label": "Tomomi Otani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "MSX2",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Herzog",
+      "Herzog Zwei",
+      "Thunder Force AC",
+      "Thunder Force II",
+      "Thunder Force III",
+      "Thunder Force IV",
+      "Thunder Force V"
+    ],
+    "artist_keys": [
+      "Tomomi Otani"
+    ],
+    "track_count": 55
+  },
+  "external_ids": {
+    "vgmdb": "1534",
+    "musicbrainz": "14178e46-0e31-417a-b02a-583bc6a9547a",
+    "wikidata": "Q11439097",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

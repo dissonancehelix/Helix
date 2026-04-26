@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:kazumi_mitome",
+  "entity_type": "music.composer",
+  "label": "Kazumi Mitome",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Inazuma Eleven",
+      "Sands of Destruction",
+      "Sonic the Hedgehog",
+      "Tantei Kibukawa Ryousuke Jikentan"
+    ],
+    "artist_keys": [
+      "Kazumi Mitome"
+    ],
+    "track_count": 95
+  },
+  "external_ids": {
+    "vgmdb": "272",
+    "musicbrainz": "34c59ee9-655c-42fa-9499-45aa7c358eb4",
+    "wikidata": "Q11356795",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2329312"
+  }
+}

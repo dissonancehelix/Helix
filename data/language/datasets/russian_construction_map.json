@@ -1,0 +1,114 @@
+[
+  {
+    "id": "case_nom_acc_base",
+    "family": "case_marking",
+    "label": "nominative_subject",
+    "text": "Студент читает книгу."
+  },
+  {
+    "id": "case_nom_acc_variant",
+    "family": "case_marking",
+    "label": "dative_recipient",
+    "transform": "add_dative_recipient",
+    "edge_from": "case_nom_acc_base",
+    "text": "Студент даёт книгу другу."
+  },
+  {
+    "id": "aspect_base",
+    "family": "verbal_aspect",
+    "label": "imperfective_ongoing",
+    "text": "Она писала письмо."
+  },
+  {
+    "id": "aspect_variant",
+    "family": "verbal_aspect",
+    "label": "perfective_completed",
+    "transform": "shift_to_perfective",
+    "edge_from": "aspect_base",
+    "text": "Она написала письмо."
+  },
+  {
+    "id": "null_copula_base",
+    "family": "null_copula",
+    "label": "past_tense_copula",
+    "text": "Он был врачом."
+  },
+  {
+    "id": "null_copula_variant",
+    "family": "null_copula",
+    "label": "present_zero_copula",
+    "transform": "drop_present_copula",
+    "edge_from": "null_copula_base",
+    "text": "Он врач."
+  },
+  {
+    "id": "negation_base",
+    "family": "ne_negation",
+    "label": "affirmative",
+    "text": "Я вижу книгу."
+  },
+  {
+    "id": "negation_variant",
+    "family": "ne_negation",
+    "label": "negation_genitive",
+    "transform": "negate_trigger_genitive",
+    "edge_from": "negation_base",
+    "text": "Я не вижу книги."
+  },
+  {
+    "id": "pro_drop_base",
+    "family": "pro_drop",
+    "label": "explicit_subject",
+    "text": "Я иду домой."
+  },
+  {
+    "id": "pro_drop_variant",
+    "family": "pro_drop",
+    "label": "dropped_subject",
+    "transform": "drop_subject",
+    "edge_from": "pro_drop_base",
+    "text": "Иду домой."
+  },
+  {
+    "id": "past_gender_base",
+    "family": "past_gender_agreement",
+    "label": "masculine_past",
+    "text": "Он пришёл поздно."
+  },
+  {
+    "id": "past_gender_variant",
+    "family": "past_gender_agreement",
+    "label": "feminine_past",
+    "transform": "shift_gender",
+    "edge_from": "past_gender_base",
+    "text": "Она пришла поздно."
+  },
+  {
+    "id": "prep_case_base",
+    "family": "preposition_case_selection",
+    "label": "locative_v",
+    "text": "Книга лежит на столе."
+  },
+  {
+    "id": "prep_case_variant",
+    "family": "preposition_case_selection",
+    "label": "directional_accusative",
+    "transform": "shift_to_directional",
+    "edge_from": "prep_case_base",
+    "text": "Я положил книгу на стол."
+  },
+  {
+    "id": "short_adj_base",
+    "family": "short_adjective",
+    "label": "long_attributive",
+    "text": "Умный человек всегда учится."
+  },
+  {
+    "id": "short_adj_variant",
+    "family": "short_adjective",
+    "label": "short_predicative",
+    "transform": "use_short_adjective",
+    "edge_from": "short_adj_base",
+    "text": "Этот человек умён."
+  }
+]

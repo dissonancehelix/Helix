@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:mgmt",
+  "entity_type": "music.composer",
+  "label": "MGMT",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "11•11•11",
+      "Climbing to New Lows",
+      "Congratulations",
+      "In the Afternoon",
+      "Little Dark Age",
+      "Loss of Life",
+      "MGMT",
+      "Oracular Spectacular",
+      "Time to Pretend",
+      "We (Don't) Care"
+    ],
+    "artist_keys": [
+      "MGMT"
+    ],
+    "track_count": 83
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "c485632c-b784-4ee9-8ea1-c5fb365681fc",
+    "wikidata": "Q391969",
+    "spotify": "0SwO7SWeDHJijQ3XNS7xEE",
+    "lastfm": "MGMT",
+    "discogs": "985480"
+  }
+}

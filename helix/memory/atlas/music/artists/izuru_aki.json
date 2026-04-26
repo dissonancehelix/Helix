@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:izuru_aki",
+  "entity_type": "music.composer",
+  "label": "Izuru Aki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Metal Sight"
+    ],
+    "artist_keys": [
+      "Izuru Aki"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:makiko_itoh",
+  "entity_type": "music.composer",
+  "label": "Makiko Itoh",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Bubblegum Crash"
+    ],
+    "artist_keys": [
+      "Makiko Itoh"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q130815756",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

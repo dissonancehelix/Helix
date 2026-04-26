@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:doug_brandon",
+  "entity_type": "music.composer",
+  "label": "Doug Brandon",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Awesome Possum Kicks Dr. Machino's Butt!"
+    ],
+    "artist_keys": [
+      "Doug Brandon"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q108414995",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Doug_Brandon"
+  }
+}

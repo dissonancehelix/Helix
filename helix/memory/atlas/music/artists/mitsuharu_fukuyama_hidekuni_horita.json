@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:mitsuharu_fukuyama_hidekuni_horita",
+  "entity_type": "music.composer",
+  "label": "Mitsuharu Fukuyama, Hidekuni Horita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Phantasy Star Online 2 New Genesis"
+    ],
+    "artist_keys": [
+      "Mitsuharu Fukuyama, Hidekuni Horita"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

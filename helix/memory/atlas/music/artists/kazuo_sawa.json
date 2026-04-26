@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:kazuo_sawa",
+  "entity_type": "music.composer",
+  "label": "Kazuo Sawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "NES",
+      "PC Engine",
+      "PC-88",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Blaze",
+      "Burning Point",
+      "Mazin Saga",
+      "Nekketsu Koukou Dodgeball Bu",
+      "River City Ransom",
+      "Tetris Plus",
+      "The Game Paradise!"
+    ],
+    "artist_keys": [
+      "Kazuo Sawa"
+    ],
+    "track_count": 104
+  },
+  "external_ids": {
+    "vgmdb": "624",
+    "musicbrainz": "28303558-c40b-4d6d-9987-099c8304b898",
+    "wikidata": "Q11565849",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4184960",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kazuo_Sawa"
+  }
+}

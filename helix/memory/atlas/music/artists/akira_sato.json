@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:akira_sato",
+  "entity_type": "music.composer",
+  "label": "Akira Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "NES",
+      "PC Engine",
+      "PC-88",
+      "PC-98"
+    ],
+    "franchises": [
+      "Dead of the Brain 2",
+      "Dynamite Duke",
+      "Fail Gate",
+      "Illumina!",
+      "Marine Philt",
+      "Raiden",
+      "Raiden Trad",
+      "Super Smash Bros. Brawl",
+      "Tottemo E Jong",
+      "Yoshi's Cookie"
+    ],
+    "artist_keys": [
+      "Akira Sato"
+    ],
+    "track_count": 99
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q9067667",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

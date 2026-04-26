@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:seiichi_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Seiichi Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Puzzle & Dragons X"
+    ],
+    "artist_keys": [
+      "Seiichi Yamamoto"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "34612",
+    "musicbrainz": "d35596ac-7786-4f50-abb5-cc4fb501ccb7",
+    "wikidata": "Q3545466",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seiichi_Yamamoto"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:yuichi_sakakura",
+  "entity_type": "music.composer",
+  "label": "Yuichi Sakakura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Famicom Disk System",
+      "Mega Drive",
+      "NES"
+    ],
+    "franchises": [
+      "Ganbare Goemon Gaiden 2",
+      "Gyruss",
+      "Lethal Enforcers II",
+      "Teenage Mutant Ninja Turtles III",
+      "Top Gun",
+      "Versus Net Soccer",
+      "Wai Wai World 2",
+      "Zen"
+    ],
+    "artist_keys": [
+      "Yuichi Sakakura"
+    ],
+    "track_count": 149
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

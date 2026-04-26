@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hieda",
+  "entity_type": "music.composer",
+  "label": "HIEDA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Drift Spirits"
+    ],
+    "artist_keys": [
+      "HIEDA"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q27178062",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

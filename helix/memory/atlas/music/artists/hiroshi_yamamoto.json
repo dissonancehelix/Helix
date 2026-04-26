@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiroshi_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Aquales",
+      "Naious"
+    ],
+    "artist_keys": [
+      "Hiroshi Yamamoto"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11469186",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

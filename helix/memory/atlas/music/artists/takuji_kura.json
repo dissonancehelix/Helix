@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takuji_kura",
+  "entity_type": "music.composer",
+  "label": "Takuji Kura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Takuji Kura"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11386867",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:team_c2h5oh",
+  "entity_type": "music.composer",
+  "label": "Team C2H5OH",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "King of the Monsters 2"
+    ],
+    "artist_keys": [
+      "Team C2H5OH"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

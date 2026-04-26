@@ -1,0 +1,47 @@
+{
+  "entity_id": "music.composer:tsukasa_masuko",
+  "entity_type": "music.composer",
+  "label": "Tsukasa Masuko",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Game Boy",
+      "Mega Drive",
+      "NES",
+      "PC Engine",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Akumajo Dracula Tribute Vol.1",
+      "Blazeon",
+      "Bomb Jack",
+      "Bonk's Revenge",
+      "CrossFire",
+      "Crystal Beans",
+      "Devil Summoner",
+      "Digital Devil Story",
+      "Dungeon Explorer",
+      "Giten Megami Tensei",
+      "Jammes",
+      "Jantei Monogatari",
+      "Jantei Monogatari 2",
+      "Kabuki Rocks",
+      "Kwirk"
+    ],
+    "artist_keys": [
+      "Tsukasa Masuko"
+    ],
+    "track_count": 430
+  },
+  "external_ids": {
+    "vgmdb": "982",
+    "musicbrainz": "ff3c73e4-234e-41ba-8000-6948a2d0fd6d",
+    "wikidata": "Q11429166",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2680041"
+  }
+}

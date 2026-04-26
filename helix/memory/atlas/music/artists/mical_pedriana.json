@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mical_pedriana",
+  "entity_type": "music.composer",
+  "label": "Mical Pedriana",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Earthworm Jim"
+    ],
+    "artist_keys": [
+      "Mical Pedriana"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

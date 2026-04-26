@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:kohta_takahashi",
+  "entity_type": "music.composer",
+  "label": "Kohta Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat",
+      "Ace Combat 2",
+      "Ace Combat 7",
+      "Ace Combat Infinity",
+      "FM Sound Module Maniax",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Klonoa",
+      "Klonoa 2",
+      "R4",
+      "Ridge Racer 6",
+      "Ridge Racer V",
+      "Ridge Racers",
+      "Ridge Racers 2"
+    ],
+    "artist_keys": [
+      "Kohta Takahashi"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q96066188",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

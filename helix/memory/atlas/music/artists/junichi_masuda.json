@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:junichi_masuda",
+  "entity_type": "music.composer",
+  "label": "Junichi Masuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "Mega Drive",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bushi Seiryuden",
+      "Magical Taruruuto",
+      "Mario & Wario",
+      "Mendel Palace",
+      "Pokémon Black & White",
+      "Pokémon Black 2 & White 2",
+      "Pokémon Crystal",
+      "Pokémon Diamond & Pearl",
+      "Pokémon FireRed & LeafGreen",
+      "Pokémon Gold & Silver"
+    ],
+    "artist_keys": [
+      "Junichi Masuda"
+    ],
+    "track_count": 662
+  },
+  "external_ids": {
+    "vgmdb": "691",
+    "musicbrainz": "af5499e0-8a48-4a53-bedd-3c4c67e688b6",
+    "wikidata": "Q1190425",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2709323",
+    "wikipedia": "https://en.wikipedia.org/wiki/Junichi_Masuda"
+  }
+}

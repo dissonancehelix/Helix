@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroji_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Hiroji Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "King of the Monsters 2"
+    ],
+    "artist_keys": [
+      "Hiroji Kobayashi"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

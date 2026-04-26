@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:hiroyuki",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Hippodrome",
+      "RoboCop"
+    ],
+    "artist_keys": [
+      "Hiroyuki"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "25078",
+    "musicbrainz": "cb191900-8ad8-46b9-b021-a093ee2b2f9b",
+    "wikidata": "Q2603945",
+    "spotify": "2EWXgN0xWOnbqJOxa9pWNO",
+    "lastfm": "澤野弘之",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroyuki_Sawano"
+  }
+}

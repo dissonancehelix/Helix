@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:joker",
+  "entity_type": "music.composer",
+  "label": "Joker",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "So Fine"
+    ],
+    "artist_keys": [
+      "Joker"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q42759035",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joker_(2019_film)"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:groundislava",
+  "entity_type": "music.composer",
+  "label": "Groundislava",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Streets of Rage 4"
+    ],
+    "artist_keys": [
+      "Groundislava"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "2de5c744-20e7-4a4a-a5a0-f42ac8af229f",
+    "wikidata": "Q19880118",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Groundislava"
+  }
+}

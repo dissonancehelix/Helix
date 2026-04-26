@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kulor",
+  "entity_type": "music.composer",
+  "label": "Kulor",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock",
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "Kulor"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q5852094",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kulor"
+  }
+}

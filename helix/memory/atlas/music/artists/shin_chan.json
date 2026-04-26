@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:shin_chan",
+  "entity_type": "music.composer",
+  "label": "Shin Chan",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Akumajo Dracula"
+    ],
+    "artist_keys": [
+      "Shin Chan"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q105598478",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shin-chan:_Me_and_the_Professor_on_Summer_Vacation"
+  }
+}

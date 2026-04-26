@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:hiroshi_iizuka",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Iizuka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Getsumen no Anubis",
+      "Majyuuou",
+      "Pikiinya!"
+    ],
+    "artist_keys": [
+      "Hiroshi Iizuka"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q21340250",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:anton_corazza",
+  "entity_type": "music.composer",
+  "label": "Anton Corazza",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Berserk Boy",
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Anton Corazza"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

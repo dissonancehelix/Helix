@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:seiji_toda",
+  "entity_type": "music.composer",
+  "label": "Seiji Toda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Pool of Radiance"
+    ],
+    "artist_keys": [
+      "Seiji Toda"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "360",
+    "musicbrainz": "50fdbce9-4f58-42f7-8476-d862004b7e44",
+    "wikidata": "Q11496557",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

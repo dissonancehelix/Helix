@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:yoshimi_kudo",
+  "entity_type": "music.composer",
+  "label": "Yoshimi Kudo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "13 Sentinels",
+      "A.N.N.E",
+      "Adult Romance Novel",
+      "Astria Ascending",
+      "Bleach",
+      "Busou Shinki Battle Masters",
+      "Busou Shinki Battle Masters Mk.2",
+      "Caladrius",
+      "Caravan Stories",
+      "Criminal Girls"
+    ],
+    "artist_keys": [
+      "Yoshimi Kudo"
+    ],
+    "track_count": 1024
+  },
+  "external_ids": {
+    "vgmdb": "1824",
+    "musicbrainz": "00bb3e89-6113-4413-8958-af3c7024a64d",
+    "wikidata": "Q56349675",
+    "spotify": "",
+    "lastfm": "%E5%B7%A5%E8%97%A4%E5%90%89%E4%B8%89",
+    "discogs": "4840690"
+  }
+}

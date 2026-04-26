@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:tatsuya_sato",
+  "entity_type": "music.composer",
+  "label": "Tatsuya Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "GT Racing",
+      "Hisshou 777 Fighter III",
+      "Imperium",
+      "Magna Braban",
+      "Pachinko Maruhi Hisshouhou",
+      "Pachinko Renchan Tengoku"
+    ],
+    "artist_keys": [
+      "Tatsuya Sato"
+    ],
+    "track_count": 73
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11384506",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

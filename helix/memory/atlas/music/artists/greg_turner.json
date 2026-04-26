@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:greg_turner",
+  "entity_type": "music.composer",
+  "label": "Greg Turner",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "AAAHH!!! Real Monsters",
+      "Big Sky Trooper"
+    ],
+    "artist_keys": [
+      "Greg Turner"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q5606370",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Greg_Turner"
+  }
+}

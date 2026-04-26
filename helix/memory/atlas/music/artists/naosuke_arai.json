@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:naosuke_arai",
+  "entity_type": "music.composer",
+  "label": "Naosuke Arai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Dragon's Fury",
+      "Herzog",
+      "Herzog Zwei"
+    ],
+    "artist_keys": [
+      "Naosuke Arai"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

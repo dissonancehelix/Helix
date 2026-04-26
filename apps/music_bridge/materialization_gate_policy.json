@@ -1,0 +1,25 @@
+{
+  "mode": "Phase 12.5 Audit Controlled",
+  "gate_policy": {
+    "release": "SAFE_IF_TIER_A",
+    "artist": "SAFE_IF_TIER_A",
+    "curated_subset": "SAFE_IF_TIER_A_AND_OVERLAP_80",
+    "folder_recovery": "REVIEW_ONLY"
+  },
+  "audit_basis": {
+    "global_precision": 0.2,
+    "tier_precision": {
+      "TIER_D": 0.0,
+      "TIER_A": 1.0,
+      "TIER_B": 0.0
+    },
+    "category_precision": {
+      "release": 0.25,
+      "folder_recovery": 0.0
+    },
+    "patterns": {
+      "folder_name_false_authority": 1,
+      "generic_title_collision": 1
+    }
+  }
+}

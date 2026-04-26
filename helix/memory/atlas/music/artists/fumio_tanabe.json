@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:fumio_tanabe",
+  "entity_type": "music.composer",
+  "label": "Fumio Tanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Battle Arena Toshinden 2",
+      "Choro Q3"
+    ],
+    "artist_keys": [
+      "Fumio Tanabe"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

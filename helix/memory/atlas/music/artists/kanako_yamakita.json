@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kanako_yamakita",
+  "entity_type": "music.composer",
+  "label": "Kanako Yamakita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Grand Striker"
+    ],
+    "artist_keys": [
+      "Kanako Yamakita"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

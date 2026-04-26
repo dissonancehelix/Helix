@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiroaki_goto",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Goto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Pac",
+      "Star Luster"
+    ],
+    "artist_keys": [
+      "Hiroaki Goto"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90121558",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

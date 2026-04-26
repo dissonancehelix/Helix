@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yansan",
+  "entity_type": "music.composer",
+  "label": "Yansan",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Gradius"
+    ],
+    "artist_keys": [
+      "Yansan"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q45438969",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

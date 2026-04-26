@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:james_hannigan",
+  "entity_type": "music.composer",
+  "label": "James Hannigan",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Cutthroat Island"
+    ],
+    "artist_keys": [
+      "James Hannigan"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "5681",
+    "musicbrainz": "a2980ce8-a039-4455-aa32-1e978e07686e",
+    "wikidata": "Q5115828",
+    "spotify": "6kfhASNYuazU444iSF4iuI",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/James_Hannigan"
+  }
+}

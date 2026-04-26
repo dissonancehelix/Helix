@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:ken_arnold",
+  "entity_type": "music.composer",
+  "label": "Ken Arnold",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Ultima III",
+      "Ultima IV",
+      "Ultima V",
+      "Ultima VI"
+    ],
+    "artist_keys": [
+      "Ken Arnold"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q59151503",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

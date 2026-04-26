@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tyler_smyth",
+  "entity_type": "music.composer",
+  "label": "Tyler Smyth",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Team Sonic Racing"
+    ],
+    "artist_keys": [
+      "Tyler Smyth"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

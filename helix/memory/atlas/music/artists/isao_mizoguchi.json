@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:isao_mizoguchi",
+  "entity_type": "music.composer",
+  "label": "Isao Mizoguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blue Almanac",
+      "Cho Aniki",
+      "Der Langrisser",
+      "Gleylancer",
+      "Head Buster",
+      "Human Sports Festival",
+      "Langrisser",
+      "Langrisser II",
+      "Maten no Soumetsu",
+      "Steel Empire"
+    ],
+    "artist_keys": [
+      "Isao Mizoguchi"
+    ],
+    "track_count": 96
+  },
+  "external_ids": {
+    "vgmdb": "3243",
+    "musicbrainz": "",
+    "wikidata": "Q11564440",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yko_motoshuku",
+  "entity_type": "music.composer",
+  "label": "Yōko Motoshuku",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Doraemon"
+    ],
+    "artist_keys": [
+      "Yōko Motoshuku"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

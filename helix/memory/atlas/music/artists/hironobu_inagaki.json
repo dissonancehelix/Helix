@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:hironobu_inagaki",
+  "entity_type": "music.composer",
+  "label": "Hironobu Inagaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy Advance",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Kirby & the Amazing Mirror",
+      "Super Sidekicks 2",
+      "Super Smash Bros. Brawl",
+      "The King of Fighters",
+      "The King of Fighters '95",
+      "The King of Fighters '96",
+      "The Last Blade"
+    ],
+    "artist_keys": [
+      "Hironobu Inagaki"
+    ],
+    "track_count": 175
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

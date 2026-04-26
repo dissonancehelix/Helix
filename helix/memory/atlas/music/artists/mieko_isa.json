@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:mieko_isa",
+  "entity_type": "music.composer",
+  "label": "Mieko Isa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Shining Force Cross Raid"
+    ],
+    "artist_keys": [
+      "Mieko Isa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

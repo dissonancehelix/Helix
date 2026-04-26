@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takumi_sato",
+  "entity_type": "music.composer",
+  "label": "Takumi Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Azure Striker Gunvolt 3",
+      "Blaster Master Zero 2",
+      "Blaster Master Zero 3",
+      "Bloodstained"
+    ],
+    "artist_keys": [
+      "Takumi Sato"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11644576",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

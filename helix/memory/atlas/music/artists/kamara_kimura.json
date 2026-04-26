@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kamara_kimura",
+  "entity_type": "music.composer",
+  "label": "Kamara Kimura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The World God Only Knows"
+    ],
+    "artist_keys": [
+      "Kamara Kimura"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

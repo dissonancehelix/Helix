@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tomoaki_hirono",
+  "entity_type": "music.composer",
+  "label": "Tomoaki Hirono",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Suikoden Tierkreis"
+    ],
+    "artist_keys": [
+      "Tomoaki Hirono"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "7762",
+    "musicbrainz": "c8db1e52-508b-437b-acfd-64e5e14c9c31",
+    "wikidata": "Q11485756",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

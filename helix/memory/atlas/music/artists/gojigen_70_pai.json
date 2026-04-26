@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:gojigen_70_pai",
+  "entity_type": "music.composer",
+  "label": "Gojigen 70 Pai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "3 Count Bout"
+    ],
+    "artist_keys": [
+      "Gojigen 70 Pai"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

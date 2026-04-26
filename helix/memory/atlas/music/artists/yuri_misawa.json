@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yuri_misawa",
+  "entity_type": "music.composer",
+  "label": "Yuri Misawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Me & My Katamari"
+    ],
+    "artist_keys": [
+      "Yuri Misawa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

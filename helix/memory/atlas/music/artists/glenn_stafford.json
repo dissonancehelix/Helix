@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:glenn_stafford",
+  "entity_type": "music.composer",
+  "label": "Glenn Stafford",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X"
+    ],
+    "franchises": [
+      "Blackthorne"
+    ],
+    "artist_keys": [
+      "Glenn Stafford"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "184",
+    "musicbrainz": "2465d7da-7da3-42ea-8440-e701775d856b",
+    "wikidata": "Q117264952",
+    "spotify": "",
+    "lastfm": "Glenn+Stafford"
+  }
+}

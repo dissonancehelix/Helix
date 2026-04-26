@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:hirofumi_matsuoka",
+  "entity_type": "music.composer",
+  "label": "Hirofumi Matsuoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Brandish 2",
+      "Monarch Monarch",
+      "Popful Mail",
+      "Revival Xanadu",
+      "The Legend of Heroes III",
+      "The Legend of Xanadu"
+    ],
+    "artist_keys": [
+      "Hirofumi Matsuoka"
+    ],
+    "track_count": 55
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11530025",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

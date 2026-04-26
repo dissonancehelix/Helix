@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:azusa_hara",
+  "entity_type": "music.composer",
+  "label": "Azusa Hara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Act",
+      "Bad Dudes vs. Dragonninja",
+      "Bloody Wolf",
+      "Chelnov",
+      "Cobra",
+      "Crude Buster",
+      "Gondomania",
+      "Heavy Barrel",
+      "Hippodrome",
+      "Karnov",
+      "Last Mission",
+      "Psycho",
+      "Sly Spy",
+      "Trio the Punch",
+      "Wonder Planet"
+    ],
+    "artist_keys": [
+      "Azusa Hara"
+    ],
+    "track_count": 92
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114327967",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

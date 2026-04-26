@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:junichi_ueda",
+  "entity_type": "music.composer",
+  "label": "Junichi Ueda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "X68000"
+    ],
+    "franchises": [
+      "SYNERGY MCMXCI",
+      "Shikinjoh",
+      "Shougi no Hoshi"
+    ],
+    "artist_keys": [
+      "Junichi Ueda"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q111747673",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

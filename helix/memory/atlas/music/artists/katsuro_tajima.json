@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:katsuro_tajima",
+  "entity_type": "music.composer",
+  "label": "Katsuro Tajima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Ace Combat 04",
+      "Chibi Maruko",
+      "Daemon X Machina",
+      "Finest Hour",
+      "Great Greed",
+      "Klonoa 2",
+      "Klonoa Heroes",
+      "Mario Kart Arcade GP DX",
+      "Me & My Katamari",
+      "Megapanel",
+      "Summer Lesson",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Taiko no Tatsujin",
+      "Tank! Tank! Tank!"
+    ],
+    "artist_keys": [
+      "Katsuro Tajima"
+    ],
+    "track_count": 199
+  },
+  "external_ids": {
+    "vgmdb": "1362",
+    "musicbrainz": "de3c33e1-5391-43d3-aaaa-61fffe5dcbb9",
+    "wikidata": "Q11576622",
+    "spotify": "",
+    "lastfm": "田島勝朗",
+    "discogs": "1624259"
+  }
+}

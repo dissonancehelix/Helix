@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:namco_sounds",
+  "entity_type": "music.composer",
+  "label": "Namco Sounds",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Alpine Racer 3",
+      "Mario Kart Arcade GP DX",
+      "Super World Stadium '95"
+    ],
+    "artist_keys": [
+      "Namco Sounds"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q138303340",
+    "spotify": "79TdUM8JBfntiLVLJVTS98",
+    "lastfm": ""
+  }
+}

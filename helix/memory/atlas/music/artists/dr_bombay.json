@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:dr_bombay",
+  "entity_type": "music.composer",
+  "label": "Dr. Bombay",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Dr. Bombay"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "d3e6df00-edf4-4d43-84c5-0ed0c2d3dba1",
+    "wikidata": "Q1344704",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jonny_Jakobsen"
+  }
+}

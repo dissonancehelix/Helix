@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:fabrice_visserot",
+  "entity_type": "music.composer",
+  "label": "Fabrice Visserot",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Flashback"
+    ],
+    "artist_keys": [
+      "Fabrice Visserot"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q118743735",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

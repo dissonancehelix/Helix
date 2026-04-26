@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:lorne_balfe",
+  "entity_type": "music.composer",
+  "label": "Lorne Balfe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Assassin's Creed"
+    ],
+    "artist_keys": [
+      "Lorne Balfe"
+    ],
+    "track_count": 50
+  },
+  "external_ids": {
+    "vgmdb": "11850",
+    "musicbrainz": "0529a9e0-befb-4d9f-b6f9-1ccd7c83053e",
+    "wikidata": "Q608628",
+    "spotify": "6dU7gPN2BhEPfO5QHLt7es",
+    "lastfm": "Lorne+Balfe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lorne_Balfe"
+  }
+}

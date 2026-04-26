@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:yukio_nakajima",
+  "entity_type": "music.composer",
+  "label": "Yukio Nakajima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy Advance",
+      "Super NES"
+    ],
+    "franchises": [
+      "CIMA",
+      "Chaos Seed",
+      "Energy Breaker",
+      "Hat Trick Hero 2",
+      "Rakugaki Kingdom",
+      "Shining Force Neo"
+    ],
+    "artist_keys": [
+      "Yukio Nakajima"
+    ],
+    "track_count": 179
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

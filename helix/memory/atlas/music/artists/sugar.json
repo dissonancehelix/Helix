@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:sugar",
+  "entity_type": "music.composer",
+  "label": "SUGAR",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Can Can Bunny Superior"
+    ],
+    "artist_keys": [
+      "SUGAR"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q23118",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/LSD"
+  }
+}

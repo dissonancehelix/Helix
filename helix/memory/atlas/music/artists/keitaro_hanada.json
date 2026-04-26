@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:keitaro_hanada",
+  "entity_type": "music.composer",
+  "label": "Keitaro Hanada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "404 Game Re",
+      "Dragon Ball Z V.R.V.S.",
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Lost Judgment",
+      "Sonic the Hedgehog",
+      "StarHorse 4",
+      "Yakuza"
+    ],
+    "artist_keys": [
+      "Keitaro Hanada"
+    ],
+    "track_count": 72
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

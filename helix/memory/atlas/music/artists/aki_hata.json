@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:aki_hata",
+  "entity_type": "music.composer",
+  "label": "Aki Hata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Akumajo Dracula Tribute Vol.1",
+      "Bakuretsu Muteki Bangai",
+      "Bangai",
+      "Bishoujo Senshi Sailor Moon",
+      "Dynamite Headdy",
+      "Futakoi",
+      "Kachiuma Yosou Keiba Kizoku",
+      "Kaerazu no Mori",
+      "Lagrange Point",
+      "Light Crusader",
+      "McDonald's Treasure Land Adventure",
+      "Mouryou Senki Madara 2",
+      "Ranma ½",
+      "Rocket Knight Adventures",
+      "Ten Plants 2"
+    ],
+    "artist_keys": [
+      "Aki Hata"
+    ],
+    "track_count": 149
+  },
+  "external_ids": {
+    "vgmdb": "413",
+    "musicbrainz": "e73a7bda-c66a-4346-a74f-436c4a07b627",
+    "wikidata": "Q909015",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1564085",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aki_Hata"
+  }
+}

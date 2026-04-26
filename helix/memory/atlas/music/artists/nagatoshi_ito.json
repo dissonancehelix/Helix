@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:nagatoshi_ito",
+  "entity_type": "music.composer",
+  "label": "Nagatoshi Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Space Squash"
+    ],
+    "artist_keys": [
+      "Nagatoshi Ito"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

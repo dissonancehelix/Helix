@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:lagitagida",
+  "entity_type": "music.composer",
+  "label": "LAGITAGIDA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Synchronica"
+    ],
+    "artist_keys": [
+      "LAGITAGIDA"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "663f24a0-bfb4-4c46-b423-9e792c863aaf",
+    "wikidata": "Q17218463",
+    "spotify": "",
+    "lastfm": "LAGITAGIDA"
+  }
+}

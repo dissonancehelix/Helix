@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:jeff_van_dyck",
+  "entity_type": "music.composer",
+  "label": "Jeff van Dyck",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Coach K College Basketball",
+      "FIFA International Soccer",
+      "FIFA Soccer 95",
+      "Skitchin'"
+    ],
+    "artist_keys": [
+      "Jeff van Dyck"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "4045",
+    "musicbrainz": "26a61deb-71b9-4253-9f1e-548fa358e5a9",
+    "wikidata": "Q1686373",
+    "spotify": "36t7yveMZw33p454gl9k9c",
+    "lastfm": "Jeff+van+Dyck",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jeff_van_Dyck"
+  }
+}

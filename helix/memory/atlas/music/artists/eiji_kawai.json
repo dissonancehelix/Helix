@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:eiji_kawai",
+  "entity_type": "music.composer",
+  "label": "Eiji Kawai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Eiji Kawai"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "5486",
+    "musicbrainz": "4eccfebd-1331-4910-9dba-0ff2fd396599",
+    "wikidata": "Q16770224",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

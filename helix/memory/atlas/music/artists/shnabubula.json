@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:shnabubula",
+  "entity_type": "music.composer",
+  "label": "Shnabubula",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "Shnabubula"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

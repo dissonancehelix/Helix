@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:takeshi_saito",
+  "entity_type": "music.composer",
+  "label": "Takeshi Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Chou Mahou Tairiku Wozz",
+      "Thunder Pro Wrestling Retsuden"
+    ],
+    "artist_keys": [
+      "Takeshi Saito"
+    ],
+    "track_count": 51
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100392417",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

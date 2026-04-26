@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:eri_arakawa",
+  "entity_type": "music.composer",
+  "label": "Eri Arakawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Atelier Lise"
+    ],
+    "artist_keys": [
+      "Eri Arakawa"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

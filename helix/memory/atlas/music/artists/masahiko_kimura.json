@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:masahiko_kimura",
+  "entity_type": "music.composer",
+  "label": "Masahiko Kimura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Castlevania",
+      "Suikoden III",
+      "Suikoden IV",
+      "The Adventures of Batman and Robin"
+    ],
+    "artist_keys": [
+      "Masahiko Kimura"
+    ],
+    "track_count": 188
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q40742453",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

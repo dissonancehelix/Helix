@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:chisaki_shimazu",
+  "entity_type": "music.composer",
+  "label": "Chisaki Shimazu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Mario Bros. Wonder"
+    ],
+    "artist_keys": [
+      "Chisaki Shimazu"
+    ],
+    "track_count": 68
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

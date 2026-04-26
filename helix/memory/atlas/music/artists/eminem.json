@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:eminem",
+  "entity_type": "music.composer",
+  "label": "Eminem",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Marshall Mathers LP",
+      "The Slim Shady LP"
+    ],
+    "artist_keys": [
+      "Eminem"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1337755",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eminem_discography"
+  }
+}

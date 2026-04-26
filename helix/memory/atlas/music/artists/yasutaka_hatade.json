@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yasutaka_hatade",
+  "entity_type": "music.composer",
+  "label": "Yasutaka Hatade",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sengoku Basara 4"
+    ],
+    "artist_keys": [
+      "Yasutaka Hatade"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

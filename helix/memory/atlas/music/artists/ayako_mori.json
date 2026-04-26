@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:ayako_mori",
+  "entity_type": "music.composer",
+  "label": "Ayako Mori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "1942",
+      "Ghosts 'n Goblins",
+      "Gun.Smoke",
+      "Pirate Ship Higemaru",
+      "Side Arms Hyper Dyne",
+      "Son Son",
+      "Trojan",
+      "Vulgus"
+    ],
+    "artist_keys": [
+      "Ayako Mori"
+    ],
+    "track_count": 61
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2379776",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ayako_Moriya"
+  }
+}

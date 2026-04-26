@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:tetsuji_ohtani",
+  "entity_type": "music.composer",
+  "label": "Tetsuji Ohtani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Formation Soccer on J.League",
+      "Super Fire Pro Wrestling",
+      "Super Formation Soccer"
+    ],
+    "artist_keys": [
+      "Tetsuji Ohtani"
+    ],
+    "track_count": 46
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

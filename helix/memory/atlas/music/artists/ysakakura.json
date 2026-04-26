@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ysakakura",
+  "entity_type": "music.composer",
+  "label": "Y.Sakakura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Explosive Breaker"
+    ],
+    "artist_keys": [
+      "Y.Sakakura"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

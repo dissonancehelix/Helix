@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:satoshi_oike",
+  "entity_type": "music.composer",
+  "label": "Satoshi Oike",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "404 Game Re",
+      "Like a Dragon Gaiden",
+      "Sonic Superstars",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Satoshi Oike"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

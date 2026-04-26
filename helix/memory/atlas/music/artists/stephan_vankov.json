@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:stephan_vankov",
+  "entity_type": "music.composer",
+  "label": "Stephan Vankov",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Spyro Reignited Trilogy"
+    ],
+    "artist_keys": [
+      "Stephan Vankov"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yuichi_tsuchiya",
+  "entity_type": "music.composer",
+  "label": "Yuichi Tsuchiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Remake"
+    ],
+    "artist_keys": [
+      "Yuichi Tsuchiya"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "1616",
+    "musicbrainz": "17aefd04-c03e-4920-aa34-882a25c757c3",
+    "wikidata": "Q30922323",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

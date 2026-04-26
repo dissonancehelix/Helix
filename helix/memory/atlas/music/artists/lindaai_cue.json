@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:lindaai_cue",
+  "entity_type": "music.composer",
+  "label": "LindaAI-CUE",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Abnormal Check",
+      "Ace Combat",
+      "Cyber Commando",
+      "Daemon X Machina",
+      "Dancing Eyes",
+      "New Pokémon Snap",
+      "Pac",
+      "Ridge Racer 3D",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Taiko no Tatsujin",
+      "Tank! Tank! Tank!",
+      "Tokyo Wars",
+      "X",
+      "Xevious 30th Anniversary Tribute"
+    ],
+    "artist_keys": [
+      "LindaAI-CUE"
+    ],
+    "track_count": 123
+  },
+  "external_ids": {
+    "vgmdb": "973",
+    "musicbrainz": "49f65886-3ad9-47cf-9ca8-ac2a07f307f9",
+    "wikidata": "Q11585737",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

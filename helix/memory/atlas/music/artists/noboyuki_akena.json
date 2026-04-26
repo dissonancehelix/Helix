@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:noboyuki_akena",
+  "entity_type": "music.composer",
+  "label": "Noboyuki Akena",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Noboyuki Akena"
+    ],
+    "track_count": 50
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:chris_jojo",
+  "entity_type": "music.composer",
+  "label": "Chris Jojo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Cutthroat Island",
+      "Foreman For Real",
+      "Ken Griffey Jr. Baseball",
+      "Spider",
+      "Tin Star"
+    ],
+    "artist_keys": [
+      "Chris Jojo"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

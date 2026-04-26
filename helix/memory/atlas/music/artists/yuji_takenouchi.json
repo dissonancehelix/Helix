@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yuji_takenouchi",
+  "entity_type": "music.composer",
+  "label": "Yuji Takenouchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2"
+    ],
+    "franchises": [
+      "Space Manbow"
+    ],
+    "artist_keys": [
+      "Yuji Takenouchi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "41617",
+    "musicbrainz": "87e4e25d-14ca-468e-9803-b3da849c6567",
+    "wikidata": "Q11598640",
+    "spotify": "",
+    "lastfm": "%E7%AB%B9%E3%83%8E%E5%86%85%E8%A3%95%E6%B2%BB",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuji_Takenouchi"
+  }
+}

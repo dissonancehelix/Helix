@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:etsuo_ishii",
+  "entity_type": "music.composer",
+  "label": "Etsuo Ishii",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Marvel Land",
+      "Mirai Ninja",
+      "MotoGP 4",
+      "Prop Cycle"
+    ],
+    "artist_keys": [
+      "Etsuo Ishii"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

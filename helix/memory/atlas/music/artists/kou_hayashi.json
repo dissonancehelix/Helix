@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:kou_hayashi",
+  "entity_type": "music.composer",
+  "label": "Kou Hayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Chaos Field",
+      "Karous"
+    ],
+    "artist_keys": [
+      "Kou Hayashi"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

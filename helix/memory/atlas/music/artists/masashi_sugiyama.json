@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masashi_sugiyama",
+  "entity_type": "music.composer",
+  "label": "Masashi Sugiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Me & My Katamari"
+    ],
+    "artist_keys": [
+      "Masashi Sugiyama"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "12175",
+    "musicbrainz": "48d33219-1ec3-4ac2-8ea8-9719f7e0822f",
+    "wikidata": "Q11521880",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

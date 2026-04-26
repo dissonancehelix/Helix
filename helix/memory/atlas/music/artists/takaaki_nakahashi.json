@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takaaki_nakahashi",
+  "entity_type": "music.composer",
+  "label": "Takaaki Nakahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Half"
+    ],
+    "artist_keys": [
+      "Takaaki Nakahashi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "34169",
+    "musicbrainz": "e8a22c34-f2c8-4972-a396-c00f7e9c0522",
+    "wikidata": "Q17227084",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

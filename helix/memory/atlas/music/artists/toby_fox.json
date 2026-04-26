@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:toby_fox",
+  "entity_type": "music.composer",
+  "label": "Toby Fox",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Toby Fox"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

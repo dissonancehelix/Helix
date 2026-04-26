@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:chelmico",
+  "entity_type": "music.composer",
+  "label": "chelmico",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Once Upon a Katamari"
+    ],
+    "artist_keys": [
+      "chelmico"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "33030",
+    "musicbrainz": "c418660c-d115-46a4-a899-010d4f886518",
+    "wikidata": "Q30926771",
+    "spotify": "6sAONleCsmAyP87OHsVAPV",
+    "lastfm": "chelmico",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chelmico"
+  }
+}

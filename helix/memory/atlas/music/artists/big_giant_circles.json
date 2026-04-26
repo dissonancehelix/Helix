@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:big_giant_circles",
+  "entity_type": "music.composer",
+  "label": "Big Giant Circles",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Binding of Isaac"
+    ],
+    "artist_keys": [
+      "Big Giant Circles"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "52654",
+    "musicbrainz": "0cbc392b-7e7e-4ec4-887c-2a8abf8ad82e",
+    "wikidata": "Q16826862",
+    "spotify": "6xgUHoQfcHv3MuB9I9z6RO",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Big_Giant_Circles"
+  }
+}

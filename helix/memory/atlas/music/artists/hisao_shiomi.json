@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hisao_shiomi",
+  "entity_type": "music.composer",
+  "label": "Hisao Shiomi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Blandia"
+    ],
+    "artist_keys": [
+      "Hisao Shiomi"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

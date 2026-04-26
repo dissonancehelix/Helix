@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:motoaki_takenouchi",
+  "entity_type": "music.composer",
+  "label": "Motoaki Takenouchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aguri Suzuki F",
+      "Air Combat II",
+      "Cho Aniki Show II",
+      "G.T.R.",
+      "Gamera",
+      "Granhistoria",
+      "Great Wall",
+      "Gungriffon",
+      "Jewel Master",
+      "LandStalker",
+      "SD Gundam",
+      "Shining Force CD",
+      "Shining Force Gaiden",
+      "Shining Force II",
+      "Shining Wisdom"
+    ],
+    "artist_keys": [
+      "Motoaki Takenouchi"
+    ],
+    "track_count": 295
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8a666253-29cc-49ab-baf7-935c6073ff03",
+    "wikidata": "Q3325232",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1126769",
+    "wikipedia": "https://en.wikipedia.org/wiki/Motoaki_Takenouchi"
+  }
+}

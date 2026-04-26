@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kevin_penkin",
+  "entity_type": "music.composer",
+  "label": "Kevin Penkin",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sin Chronicle"
+    ],
+    "artist_keys": [
+      "Kevin Penkin"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "12725",
+    "musicbrainz": "9b30447a-eaa8-4e0b-b464-cc12005d3b5d",
+    "wikidata": "Q40042291",
+    "spotify": "4S33gEeiCjwfD1FJKfMT3Y",
+    "lastfm": "Kevin+Penkin",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kevin_Penkin"
+  }
+}

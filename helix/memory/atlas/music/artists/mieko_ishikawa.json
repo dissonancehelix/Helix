@@ -1,0 +1,46 @@
+{
+  "entity_id": "music.composer:mieko_ishikawa",
+  "entity_type": "music.composer",
+  "label": "Mieko Ishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX",
+      "PC Engine",
+      "PC-88",
+      "PC-98",
+      "Super NES",
+      "X1",
+      "X68000"
+    ],
+    "franchises": [
+      "Brandish",
+      "Brandish 2",
+      "Dinosaur",
+      "Dragon Slayer",
+      "Dragon Slayer II",
+      "Dragon Slayer IV",
+      "Popful Mail",
+      "Pyramid Sorcerian",
+      "Sengoku Sorcerian",
+      "Sorcerian",
+      "Star Trader",
+      "The Legend of Heroes III",
+      "The Legend of Xanadu",
+      "Ys I",
+      "Ys II"
+    ],
+    "artist_keys": [
+      "Mieko Ishikawa"
+    ],
+    "track_count": 240
+  },
+  "external_ids": {
+    "vgmdb": "700",
+    "musicbrainz": "7a75e857-3d26-44d4-90f9-398996e475d1",
+    "wikidata": "Q3312768",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1756619"
+  }
+}

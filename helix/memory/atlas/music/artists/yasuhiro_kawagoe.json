@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yasuhiro_kawagoe",
+  "entity_type": "music.composer",
+  "label": "Yasuhiro Kawagoe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Super Rare Trax",
+      "Pokémon Mystery Dungeon"
+    ],
+    "artist_keys": [
+      "Yasuhiro Kawagoe"
+    ],
+    "track_count": 109
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q50640852",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kenichi_hashimoto",
+  "entity_type": "music.composer",
+  "label": "Kenichi Hashimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Buster"
+    ],
+    "artist_keys": [
+      "Kenichi Hashimoto"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1825542",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kenichi_Hashimoto"
+  }
+}

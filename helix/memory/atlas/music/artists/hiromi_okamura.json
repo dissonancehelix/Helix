@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiromi_okamura",
+  "entity_type": "music.composer",
+  "label": "Hiromi Okamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2"
+    ],
+    "franchises": [
+      "Testament"
+    ],
+    "artist_keys": [
+      "Hiromi Okamura"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

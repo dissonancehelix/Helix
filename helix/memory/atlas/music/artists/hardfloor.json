@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hardfloor",
+  "entity_type": "music.composer",
+  "label": "Hardfloor",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Forever"
+    ],
+    "artist_keys": [
+      "Hardfloor"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "49c5cce4-aaa6-4600-a9a2-2b045fb6a87b",
+    "wikidata": "Q819299",
+    "spotify": "6z9JhbmcTrVKITp9ah4mJk",
+    "lastfm": "Hardfloor",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hardfloor"
+  }
+}

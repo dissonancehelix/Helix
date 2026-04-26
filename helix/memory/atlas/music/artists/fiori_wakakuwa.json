@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:fiori_wakakuwa",
+  "entity_type": "music.composer",
+  "label": "Fiori Wakakuwa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Inindo",
+      "Super Mahjong Taikai"
+    ],
+    "artist_keys": [
+      "Fiori Wakakuwa"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

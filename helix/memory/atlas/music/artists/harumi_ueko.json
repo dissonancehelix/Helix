@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:harumi_ueko",
+  "entity_type": "music.composer",
+  "label": "Harumi Ueko",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "MSX2",
+      "NES",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Batman Returns",
+      "Code of Joker",
+      "Cosmic Wars",
+      "Gradius III",
+      "Gyruss",
+      "International Superstar Soccer",
+      "International Superstar Soccer 64",
+      "International Superstar Soccer Deluxe",
+      "Jikkyou Powerful Pro Yakyuu 2",
+      "Moai Kun",
+      "Pop'n TwinBee",
+      "SD Snatcher",
+      "Teenage Mutant Ninja Turtles IV",
+      "The Adventures of Batman and Robin",
+      "The Legend of the Mystical Ninja"
+    ],
+    "artist_keys": [
+      "Harumi Ueko"
+    ],
+    "track_count": 290
+  },
+  "external_ids": {
+    "vgmdb": "45944",
+    "musicbrainz": "685f99af-2762-4c11-b3a1-9648e2c96274",
+    "wikidata": "Q11263311",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "671509"
+  }
+}

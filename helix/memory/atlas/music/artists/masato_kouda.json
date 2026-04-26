@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:masato_kouda",
+  "entity_type": "music.composer",
+  "label": "Masato Kouda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Cyberbots",
+      "Devil May Cry",
+      "Devil May Cry 2",
+      "Dungeons & Dragons",
+      "Magical Tetris Challenge",
+      "Marvel vs. Capcom",
+      "Mega Man 2",
+      "Otomedius Excellent",
+      "Quiz Nanairo Dreams",
+      "Resident Evil Outbreak",
+      "Sin Chronicle",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "The Wonderful 101"
+    ],
+    "artist_keys": [
+      "Masato Kouda"
+    ],
+    "track_count": 193
+  },
+  "external_ids": {
+    "vgmdb": "618",
+    "musicbrainz": "0bcd2a74-cf0b-4956-84ee-c9cdb1010cad",
+    "wikidata": "Q11577958",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2800601"
+  }
+}

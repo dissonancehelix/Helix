@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:hisashi_matsushita",
+  "entity_type": "music.composer",
+  "label": "Hisashi Matsushita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "1943 Kai",
+      "Air Zonk",
+      "Coryoon",
+      "Holy Umbrella",
+      "Honkaku Mahjong",
+      "Super Naxat Open",
+      "The Twisted Tales of Spike McFang",
+      "Top Anglers",
+      "W",
+      "Wizardry III+IV",
+      "Zatch Bell! Mamodo Fury"
+    ],
+    "artist_keys": [
+      "Hisashi Matsushita"
+    ],
+    "track_count": 194
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

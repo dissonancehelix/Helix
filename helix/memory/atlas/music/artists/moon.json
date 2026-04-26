@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:moon",
+  "entity_type": "music.composer",
+  "label": "M|O|O|N",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hotline Miami"
+    ],
+    "artist_keys": [
+      "M|O|O|N"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

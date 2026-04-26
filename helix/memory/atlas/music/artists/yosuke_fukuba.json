@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yosuke_fukuba",
+  "entity_type": "music.composer",
+  "label": "Yosuke Fukuba",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth"
+    ],
+    "artist_keys": [
+      "Yosuke Fukuba"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

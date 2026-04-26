@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kayo_fujitani",
+  "entity_type": "music.composer",
+  "label": "Kayo Fujitani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "The Adventures of Batman and Robin"
+    ],
+    "artist_keys": [
+      "Kayo Fujitani"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yusuke_homma",
+  "entity_type": "music.composer",
+  "label": "Yusuke Homma",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "YuYu Hakusho"
+    ],
+    "artist_keys": [
+      "Yusuke Homma"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

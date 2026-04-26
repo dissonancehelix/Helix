@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yohino_aoki",
+  "entity_type": "music.composer",
+  "label": "Yohino Aoki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Justice Monsters Five"
+    ],
+    "artist_keys": [
+      "Yohino Aoki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

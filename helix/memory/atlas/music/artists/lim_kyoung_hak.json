@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:lim_kyoung_hak",
+  "entity_type": "music.composer",
+  "label": "Lim Kyoung-Hak",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Flying Tiger"
+    ],
+    "artist_keys": [
+      "Lim Kyoung-Hak"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

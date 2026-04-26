@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:ryo_yamazaki",
+  "entity_type": "music.composer",
+  "label": "Ryo Yamazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Before Meteor",
+      "Demons' Score",
+      "Final Fantasy X HD Remaster",
+      "Stranger of Paradise",
+      "World of Final Fantasy"
+    ],
+    "artist_keys": [
+      "Ryo Yamazaki"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "533",
+    "musicbrainz": "a890bd0a-f4c3-4a49-8fe4-217b82466306",
+    "wikidata": "Q2178390",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

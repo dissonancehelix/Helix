@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:keiichi_suzuki",
+  "entity_type": "music.composer",
+  "label": "Keiichi Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "EarthBound",
+      "Mother",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Keiichi Suzuki"
+    ],
+    "track_count": 55
+  },
+  "external_ids": {
+    "vgmdb": "364",
+    "musicbrainz": "67b19c85-8b85-460b-99f6-c78d3f921e88",
+    "wikidata": "Q924491",
+    "spotify": "6qz1QFUOn2Pfc3P5nm9x1G",
+    "lastfm": "鈴木慶一",
+    "wikipedia": "https://en.wikipedia.org/wiki/Keiichi_Suzuki"
+  }
+}

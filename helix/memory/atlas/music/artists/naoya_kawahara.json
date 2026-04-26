@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naoya_kawahara",
+  "entity_type": "music.composer",
+  "label": "Naoya Kawahara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "DesperadO"
+    ],
+    "artist_keys": [
+      "Naoya Kawahara"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

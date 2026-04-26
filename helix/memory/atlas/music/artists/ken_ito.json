@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ken_ito",
+  "entity_type": "music.composer",
+  "label": "Ken Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy XIV"
+    ],
+    "artist_keys": [
+      "Ken Ito"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "9313",
+    "musicbrainz": "d141ccb4-e642-49fc-a3f2-a976347dde50",
+    "wikidata": "Q22124951",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

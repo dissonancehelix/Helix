@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:sotaro_tojima",
+  "entity_type": "music.composer",
+  "label": "Sotaro Tojima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "Castlevania"
+    ],
+    "artist_keys": [
+      "Sotaro Tojima"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "440",
+    "musicbrainz": "d51f0c08-e5df-47cc-b914-d7127c28efc2",
+    "wikidata": "Q3965192",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

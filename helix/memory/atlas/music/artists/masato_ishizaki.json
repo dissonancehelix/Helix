@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:masato_ishizaki",
+  "entity_type": "music.composer",
+  "label": "Masato Ishizaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Kung",
+      "R",
+      "Vigilante"
+    ],
+    "artist_keys": [
+      "Masato Ishizaki"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90501172",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

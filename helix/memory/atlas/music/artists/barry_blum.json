@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:barry_blum",
+  "entity_type": "music.composer",
+  "label": "Barry Blum",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "BattleTanx",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Barry Blum"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q77203523",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

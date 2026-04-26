@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:shigeki_hayashi",
+  "entity_type": "music.composer",
+  "label": "Shigeki Hayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Knights in the Nightmare",
+      "The Alchemist Code"
+    ],
+    "artist_keys": [
+      "Shigeki Hayashi"
+    ],
+    "track_count": 80
+  },
+  "external_ids": {
+    "vgmdb": "15110",
+    "musicbrainz": "d27079b6-2424-4f23-8617-0a2a500e283f",
+    "wikidata": "Q137780686",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

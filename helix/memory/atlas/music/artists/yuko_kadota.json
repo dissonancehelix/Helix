@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yuko_kadota",
+  "entity_type": "music.composer",
+  "label": "Yuko Kadota",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II"
+    ],
+    "franchises": [
+      "Marvel Super Heroes Vs. Street Fighter"
+    ],
+    "artist_keys": [
+      "Yuko Kadota"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

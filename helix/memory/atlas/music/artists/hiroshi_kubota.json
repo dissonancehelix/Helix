@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hiroshi_kubota",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Kubota",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Advanced Daisenryaku",
+      "Kiss Shot",
+      "Michael Jackson's Moonwalker",
+      "Sorcerian"
+    ],
+    "artist_keys": [
+      "Hiroshi Kubota"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q112076909",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

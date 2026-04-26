@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:banvox",
+  "entity_type": "music.composer",
+  "label": "Banvox",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Banvox"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "21465",
+    "musicbrainz": "619431df-7efd-4db0-a476-3b451098e14d",
+    "wikidata": "Q22128524",
+    "spotify": "1o2aYT0R8jCzs5q1rEA0gY",
+    "lastfm": ""
+  }
+}

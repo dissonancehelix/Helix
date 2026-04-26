@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:akihiko_narita",
+  "entity_type": "music.composer",
+  "label": "Akihiko Narita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Devil May Cry 4"
+    ],
+    "artist_keys": [
+      "Akihiko Narita"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "6013",
+    "musicbrainz": "0533014d-028e-4a6c-a984-3d329aa875c2",
+    "wikidata": "Q4700913",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akihiko_Narita"
+  }
+}

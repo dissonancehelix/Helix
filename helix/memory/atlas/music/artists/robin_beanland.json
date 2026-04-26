@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:robin_beanland",
+  "entity_type": "music.composer",
+  "label": "Robin Beanland",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Donkey Kong Country",
+      "GoldenEye 007",
+      "Jet Force Gemini",
+      "Killer Instinct"
+    ],
+    "artist_keys": [
+      "Robin Beanland"
+    ],
+    "track_count": 63
+  },
+  "external_ids": {
+    "vgmdb": "505",
+    "musicbrainz": "57f3b8e9-714f-4332-9031-253a6db08def",
+    "wikidata": "Q7352246",
+    "spotify": "0ZtY1R7FAQFKaqGZ5TffbK",
+    "lastfm": "Robin+Beanland",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robin_Beanland"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ennio_morricone",
+  "entity_type": "music.composer",
+  "label": "Ennio Morricone",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid 4"
+    ],
+    "artist_keys": [
+      "Ennio Morricone"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "10070",
+    "musicbrainz": "a16e47f5-aa54-47fe-87e4-bb8af91a9fdd",
+    "wikidata": "Q23848",
+    "spotify": "1nIUhcKHnK6iyumRyoV68C",
+    "lastfm": "Ennio+Morricone",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ennio_Morricone"
+  }
+}

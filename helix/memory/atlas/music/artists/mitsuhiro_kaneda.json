@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:mitsuhiro_kaneda",
+  "entity_type": "music.composer",
+  "label": "Mitsuhiro Kaneda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "100 Classic Books",
+      "13 Sentinels",
+      "A.N.N.E",
+      "Adult Romance Novel",
+      "Akumajo Dracula Tribute Vol.1",
+      "Arcadia Saga",
+      "Astria Ascending",
+      "Battle B",
+      "Battle Stadium D.O.N",
+      "Bleach"
+    ],
+    "artist_keys": [
+      "Mitsuhiro Kaneda"
+    ],
+    "track_count": 1396
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102287790",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

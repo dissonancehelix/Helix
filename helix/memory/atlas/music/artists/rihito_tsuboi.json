@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:rihito_tsuboi",
+  "entity_type": "music.composer",
+  "label": "Rihito Tsuboi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Excycle",
+      "Katamari Damacy Rolling Live"
+    ],
+    "artist_keys": [
+      "Rihito Tsuboi"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

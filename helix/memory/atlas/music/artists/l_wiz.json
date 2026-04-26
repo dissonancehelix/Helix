@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:l_wiz",
+  "entity_type": "music.composer",
+  "label": "L-Wiz",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Our Sound 2"
+    ],
+    "artist_keys": [
+      "L-Wiz"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

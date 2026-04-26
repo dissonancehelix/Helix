@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:junko_yamada",
+  "entity_type": "music.composer",
+  "label": "Junko Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Cuarto"
+    ],
+    "artist_keys": [
+      "Junko Yamada"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q106464769",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:usako_x",
+  "entity_type": "music.composer",
+  "label": "USAKO-X",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The King of Fighters '99",
+      "The King of Fighters 2000"
+    ],
+    "artist_keys": [
+      "USAKO-X"
+    ],
+    "track_count": 46
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

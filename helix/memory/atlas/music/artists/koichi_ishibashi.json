@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:koichi_ishibashi",
+  "entity_type": "music.composer",
+  "label": "Koichi Ishibashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Kaite Tsukutte Asoberu Dezaemon",
+      "Pro Mahjong Kiwame III"
+    ],
+    "artist_keys": [
+      "Koichi Ishibashi"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kazunori_hasegawa",
+  "entity_type": "music.composer",
+  "label": "Kazunori Hasegawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC-88"
+    ],
+    "franchises": [
+      "Rune Worth",
+      "Undead Line"
+    ],
+    "artist_keys": [
+      "Kazunori Hasegawa"
+    ],
+    "track_count": 50
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114356814",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

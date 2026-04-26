@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yuriko_mukoujima",
+  "entity_type": "music.composer",
+  "label": "Yuriko Mukoujima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Folklore"
+    ],
+    "artist_keys": [
+      "Yuriko Mukoujima"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

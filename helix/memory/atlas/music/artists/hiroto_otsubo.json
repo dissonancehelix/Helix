@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hiroto_otsubo",
+  "entity_type": "music.composer",
+  "label": "Hiroto Otsubo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Babel",
+      "Lady Phantom",
+      "Legion"
+    ],
+    "artist_keys": [
+      "Hiroto Otsubo"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

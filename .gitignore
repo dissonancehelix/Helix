@@ -1,0 +1,50 @@
+# -------------------------------------------------------------------
+# Helix Boundary Enforcement: Ignored Data & Bloat
+# -------------------------------------------------------------------
+
+# Raw Data & Corpora
+data/raw/
+data/music/library/
+data/music/phase6/
+apps/trails/corpus/
+apps/trails/retrieval/index/
+
+# Generated Pipeline & Local DBs
+apps/music_pipeline/data/
+
+# External Toolkits
+apps/music_toolkits/
+
+# Heavy Files & Binaries (Global)
+*.parquet
+*.csv
+*.tsv
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+*.mp3
+*.flac
+*.wav
+*.spc
+*.vgz
+*.vgm
+*.exe
+*.dll
+
+# OS & Python Tooling
+.DS_Store
+Thumbs.db
+.pytest_cache/
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+node_modules/
+
+# -------------------------------------------------------------------
+# Exceptions (Load-Bearing Structure)
+# -------------------------------------------------------------------
+# Ensure atlas is NEVER accidentally ignored by broad rules
+!helix/memory/atlas/

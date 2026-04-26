@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:hiro",
+  "entity_type": "music.composer",
+  "label": "Hiro",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Master System",
+      "Mega Drive",
+      "SG-1000"
+    ],
+    "franchises": [
+      "404 Game Re",
+      "Action Fighter",
+      "After Burner II",
+      "Air Rescue",
+      "Alex Kidd",
+      "Bayonetta",
+      "Championship Lode Runner",
+      "Crackin' DJ",
+      "Dragon Ball Z V.R.V.S.",
+      "Dragon Wang",
+      "Dynamite Düx",
+      "Enduro Racer",
+      "Fantasy Zone",
+      "Fantasy Zone II DX",
+      "GP Rider"
+    ],
+    "artist_keys": [
+      "Hiro"
+    ],
+    "track_count": 278
+  },
+  "external_ids": {
+    "vgmdb": "38790",
+    "musicbrainz": "5cde54ba-59d2-4c4f-adb8-1a093c2ba0af",
+    "wikidata": "Q3136362",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "171336",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroshi_Kawaguchi_(composer)"
+  }
+}

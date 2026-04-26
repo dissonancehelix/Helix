@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:eri_kawai",
+  "entity_type": "music.composer",
+  "label": "Eri Kawai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza",
+      "Yakuza 2"
+    ],
+    "artist_keys": [
+      "Eri Kawai"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "1323",
+    "musicbrainz": "69a5f935-8175-4f80-bbfa-744f017ef27c",
+    "wikidata": "Q287000",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eri_Kawai"
+  }
+}

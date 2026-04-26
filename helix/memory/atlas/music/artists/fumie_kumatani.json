@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:fumie_kumatani",
+  "entity_type": "music.composer",
+  "label": "Fumie Kumatani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Astro Boy",
+      "Atsumare! Guru Guru Onsen",
+      "Burning Rangers",
+      "Mario; Sonic the Hedgehog",
+      "Neon Genesis Evangelion",
+      "NiGHTS",
+      "NiGHTS into Dreams",
+      "Nightshade",
+      "OLIO3",
+      "Phantasy Star 0",
+      "Phantasy Star Online",
+      "Phantasy Star Online Episode I & II",
+      "Phantasy Star Online Episode III",
+      "Phantasy Star Portable",
+      "Phantasy Star Universe"
+    ],
+    "artist_keys": [
+      "Fumie Kumatani"
+    ],
+    "track_count": 240
+  },
+  "external_ids": {
+    "vgmdb": "256",
+    "musicbrainz": "14b9c7f5-2c35-41ef-b389-764b0452b027",
+    "wikidata": "Q125740210",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "237528"
+  }
+}

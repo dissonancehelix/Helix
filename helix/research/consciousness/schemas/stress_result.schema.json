@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "inhabited_interiority/stress_result",
+  "title": "StressResult",
+  "description": "The output of running one of the six falsification tests against a fixture. If the test breaks the theory, the break is preserved here and must not be patched with prose.",
+  "type": "object",
+  "required": ["test_name", "fixture_id", "verdict", "revision_pressure"],
+  "properties": {
+    "test_name": {
+      "type": "string",
+      "enum": [
+        "temporal_deletion_test",
+        "boundary_perturbation_test",
+        "network_partition_test",
+        "false_positive_field_test",
+        "carried_constraint_test",
+        "geometry_topology_test"
+      ],
+      "description": "Which of the six tests produced this result."
+    },
+    "fixture_id": {
+      "type": "string",
+      "description": "ID of the fixture being tested."
+    },
+    "fixture_type": {
+      "type": "string",
+      "enum": ["field_case", "continuity_case", "false_positive", "transfer_case"],
+      "description": "Schema type of the fixture."
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "theory_survives",
+        "theory_breaks",
+        "unresolved",
+        "claim_demoted",
+        "revision_required"
+      ],
+      "description": "Outcome. theory_breaks = the test falsified or significantly pressured the claim for this fixture. Must be preserved. Do not patch with prose."
+    },
+    "severity": {
+      "type": "string",
+      "enum": ["low", "medium", "high", "critical"],
+      "description": "How much pressure this result places on the theory. critical = theory cannot survive this case without revision."
+    },
+    "what_was_tested": {
+      "type": "string",
+      "description": "Exactly what claim or component of the theory was stress-tested in this run."
+    },
+    "result_detail": {
+      "type": "string",
+      "description": "What happened during the test. Precise, structural description. Not narrative defense of the theory."
+    },
+    "revision_pressure": {
+      "type": "string",
+      "description": "What the theory must clarify or revise based on this result."
+    },
+    "breaks_preserved": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Specific breaks, tensions, or contradictions this test produced. Each is a structural statement, not a rhetorical hedge."
+    },
+    "surviving_claims": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Claims that survived this test for this fixture."
+    },
+    "demoted_claims": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Claims that were demoted or weakened by this test."
+    },
+    "next_test_recommended": {
+      "type": "string",
+      "description": "What follow-up test or fixture would best resolve the remaining unresolved tension."
+    },
+    "run_timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp of when this stress test was run."
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:satoshi_kadokura",
+  "entity_type": "music.composer",
+  "label": "Satoshi Kadokura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Famicom Jump II",
+      "Metal Max",
+      "Metal Max Returns",
+      "Pikiinya!"
+    ],
+    "artist_keys": [
+      "Satoshi Kadokura"
+    ],
+    "track_count": 84
+  },
+  "external_ids": {
+    "vgmdb": "561",
+    "musicbrainz": "ef9148c0-89ab-4797-b899-07773ac20fc3",
+    "wikidata": "Q8977012",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "605651",
+    "wikipedia": "https://en.wikipedia.org/wiki/Satoshi_Kadokura"
+  }
+}

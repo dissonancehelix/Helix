@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:akiyoshi_saito",
+  "entity_type": "music.composer",
+  "label": "Akiyoshi Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Kaite Tsukutte Asoberu Dezaemon",
+      "Pro Mahjong Kiwame II",
+      "Pro Mahjong Kiwame III"
+    ],
+    "artist_keys": [
+      "Akiyoshi Saito"
+    ],
+    "track_count": 69
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

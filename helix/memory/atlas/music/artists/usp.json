@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:usp",
+  "entity_type": "music.composer",
+  "label": "USP",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "R"
+    ],
+    "artist_keys": [
+      "USP"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

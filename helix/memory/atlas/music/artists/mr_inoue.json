@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mr_inoue",
+  "entity_type": "music.composer",
+  "label": "Mr. Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Mystic Warriors"
+    ],
+    "artist_keys": [
+      "Mr. Inoue"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

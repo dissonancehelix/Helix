@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kenichi_kunishima",
+  "entity_type": "music.composer",
+  "label": "Kenichi Kunishima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Sega CD"
+    ],
+    "franchises": [
+      "Yumimi Mix"
+    ],
+    "artist_keys": [
+      "Kenichi Kunishima"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

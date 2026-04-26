@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tsubasa_waga",
+  "entity_type": "music.composer",
+  "label": "Tsubasa Waga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Custom Robo Arena"
+    ],
+    "artist_keys": [
+      "Tsubasa Waga"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

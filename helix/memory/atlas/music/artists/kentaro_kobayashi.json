@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:kentaro_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Kentaro Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Crackin' DJ",
+      "Sega Rally 2006",
+      "Virtua Cop"
+    ],
+    "artist_keys": [
+      "Kentaro Kobayashi"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "16bbdfbc-ca97-4463-a73d-ee311d5bc56a",
+    "wikidata": "Q3545203",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kentar%C5%8D_Kobayashi"
+  }
+}

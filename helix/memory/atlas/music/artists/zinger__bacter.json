@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:zinger__bacter",
+  "entity_type": "music.composer",
+  "label": "zinger & bacter",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock",
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "zinger & bacter"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

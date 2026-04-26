@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:matt_bianco",
+  "entity_type": "music.composer",
+  "label": "Matt Bianco",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Matt Bianco"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "781435a6-5c6c-4a21-871f-facdb9e60a44",
+    "wikidata": "Q1758107",
+    "spotify": "1WQky50vkzSvSCUl0ejWqb",
+    "lastfm": "Matt+Bianco",
+    "wikipedia": "https://en.wikipedia.org/wiki/Matt_Bianco"
+  }
+}

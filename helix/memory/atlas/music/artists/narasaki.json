@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:narasaki",
+  "entity_type": "music.composer",
+  "label": "NARASAKI",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "NARASAKI"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "71a707de-a665-4ad5-917b-7735e73c465d",
+    "wikidata": "Q11234420",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

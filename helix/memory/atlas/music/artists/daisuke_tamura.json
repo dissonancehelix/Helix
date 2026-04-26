@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:daisuke_tamura",
+  "entity_type": "music.composer",
+  "label": "Daisuke Tamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Arabian Nights",
+      "Battle Soccer 2",
+      "Kidou Butoden G",
+      "Traverse"
+    ],
+    "artist_keys": [
+      "Daisuke Tamura"
+    ],
+    "track_count": 146
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q86004053",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

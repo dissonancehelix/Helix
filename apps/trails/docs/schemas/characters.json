@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Character Entity",
+  "type": "object",
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "description": "Stable canonical ID (e.g., char:estelle_bright)"
+    },
+    "display_name": {
+      "type": "string",
+      "description": "Official English localization name"
+    },
+    "japanese_name": {
+      "type": "string",
+      "description": "Original Japanese writing (Kanji/Kana)"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Titles, nicknames, alternate romanizations"
+    },
+    "affiliations": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Array of faction/organization IDs (e.g., faction:bracer_guild)"
+    },
+    "first_appearance": {
+      "type": "string",
+      "description": "Game ID of their first appearance (e.g., game:fc)"
+    },
+    "notes": {
+      "type": "string",
+      "description": "High-level summary or relevant details"
+    }
+  },
+  "required": ["entity_id", "display_name"]
+}

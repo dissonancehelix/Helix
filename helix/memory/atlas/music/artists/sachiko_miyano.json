@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:sachiko_miyano",
+  "entity_type": "music.composer",
+  "label": "Sachiko Miyano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kingdom Hearts III",
+      "To Far Away Times"
+    ],
+    "artist_keys": [
+      "Sachiko Miyano"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "5645",
+    "musicbrainz": "d814abd6-3691-4d86-84c3-3cdf00d447e1",
+    "wikidata": "Q60990365",
+    "spotify": "",
+    "lastfm": "Sachiko"
+  }
+}

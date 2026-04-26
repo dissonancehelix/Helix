@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yone",
+  "entity_type": "music.composer",
+  "label": "Yone",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo Pocket Color"
+    ],
+    "franchises": [
+      "King of Fighters R"
+    ],
+    "artist_keys": [
+      "Yone"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f6a4bbc3-19ac-45ac-bbd2-28735cc36308",
+    "wikidata": "Q467337",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsukioka_Yoshitoshi"
+  }
+}

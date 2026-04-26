@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:mariko_nanba",
+  "entity_type": "music.composer",
+  "label": "Mariko Nanba",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X",
+      "DS"
+    ],
+    "franchises": [
+      "Astro Boy",
+      "Billy Hatcher and the Giant Egg",
+      "Blinx",
+      "Brain Assist",
+      "Feel the Magic",
+      "Panzer Dragoon Saga",
+      "Planet Ring",
+      "Rhythm Thief & the Emperor's Treasure",
+      "Roommania #203",
+      "Shadow the Hedgehog",
+      "Sonic Rush Adventure",
+      "Sonic the Hedgehog",
+      "Space Channel 5 Part 2",
+      "Super Galdelic Hour",
+      "Super Monkey Ball"
+    ],
+    "artist_keys": [
+      "Mariko Nanba"
+    ],
+    "track_count": 177
+  },
+  "external_ids": {
+    "vgmdb": "557",
+    "musicbrainz": "3761103e-5a72-42e6-8588-cb8cae8969e8",
+    "wikidata": "Q6763443",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1426401",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mariko_Nanba"
+  }
+}

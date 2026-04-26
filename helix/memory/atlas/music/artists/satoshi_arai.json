@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:satoshi_arai",
+  "entity_type": "music.composer",
+  "label": "Satoshi Arai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Brandish 3",
+      "The Legend of Xanadu II",
+      "Vantage Master",
+      "Ys V"
+    ],
+    "artist_keys": [
+      "Satoshi Arai"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11501266",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

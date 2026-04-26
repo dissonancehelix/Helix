@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tsutomu_watanabe",
+  "entity_type": "music.composer",
+  "label": "Tsutomu Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Yu"
+    ],
+    "artist_keys": [
+      "Tsutomu Watanabe"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11562106",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

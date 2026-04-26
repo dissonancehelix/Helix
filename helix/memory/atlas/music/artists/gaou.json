@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:gaou",
+  "entity_type": "music.composer",
+  "label": "Gaou",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Madou Monogatari 1"
+    ],
+    "artist_keys": [
+      "Gaou"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q64868400",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

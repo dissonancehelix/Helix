@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:naoto_yagishita",
+  "entity_type": "music.composer",
+  "label": "Naoto Yagishita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Extermination",
+      "Rastan",
+      "Super Chase H.Q."
+    ],
+    "artist_keys": [
+      "Naoto Yagishita"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

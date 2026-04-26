@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:nobuhide_isayama",
+  "entity_type": "music.composer",
+  "label": "Nobuhide Isayama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat 2",
+      "Ace Combat 7",
+      "Ace Combat Infinity"
+    ],
+    "artist_keys": [
+      "Nobuhide Isayama"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:the_black_mages",
+  "entity_type": "music.composer",
+  "label": "The Black Mages",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Darkness and Starlight",
+      "The Black Mages",
+      "The Skies Above"
+    ],
+    "artist_keys": [
+      "The Black Mages"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "783",
+    "musicbrainz": "b6e98026-6cc9-4c4d-93d6-ba39970a9239",
+    "wikidata": "Q426079",
+    "spotify": "",
+    "lastfm": "The+Black+Mages",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Black_Mages"
+  }
+}

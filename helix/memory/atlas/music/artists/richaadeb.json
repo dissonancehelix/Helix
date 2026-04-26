@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:richaadeb",
+  "entity_type": "music.composer",
+  "label": "RichaadEB",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "RichaadEB"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

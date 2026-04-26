@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:chikako_kamatani",
+  "entity_type": "music.composer",
+  "label": "Chikako Kamatani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Master System",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Alex Kidd in the Enchanted Castle",
+      "Aztec Adventure",
+      "California Games",
+      "Fantasy Zone II",
+      "Golden Axe Warrior",
+      "Mystic Defender",
+      "OutRun 3D",
+      "Pinobee",
+      "Pyramid Magic",
+      "Pyramid Magic II",
+      "Pyramid Magic III",
+      "Quiz Syukudai wo Wasuremashita",
+      "Super League '91",
+      "Tensai Bakabon"
+    ],
+    "artist_keys": [
+      "Chikako Kamatani"
+    ],
+    "track_count": 108
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

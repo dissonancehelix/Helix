@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:takayuki_ishikawa",
+  "entity_type": "music.composer",
+  "label": "Takayuki Ishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Alpine Racer",
+      "Alpine Racer 3",
+      "Alpine Surfer",
+      "Dancing Eyes",
+      "G.T.R.",
+      "Great Sluggers",
+      "Great Sluggers '94",
+      "Mappy Arrangement",
+      "Pac",
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Takayuki Ishikawa"
+    ],
+    "track_count": 68
+  },
+  "external_ids": {
+    "vgmdb": "39600",
+    "musicbrainz": "9b18c032-e7ff-47ef-bbee-0c869cbec927",
+    "wikidata": "Q11266264",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

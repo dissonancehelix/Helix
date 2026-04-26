@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:takahito_eguchi",
+  "entity_type": "music.composer",
+  "label": "Takahito Eguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy X",
+      "Racing Lagoon",
+      "Rhythm Thief & the Emperor's Treasure",
+      "Rhythm Thief & the Paris Caper",
+      "Sonic the Hedgehog",
+      "The Bouncer"
+    ],
+    "artist_keys": [
+      "Takahito Eguchi"
+    ],
+    "track_count": 212
+  },
+  "external_ids": {
+    "vgmdb": "797",
+    "musicbrainz": "25e6c568-7a0a-4086-9dfa-d2ec0673461a",
+    "wikidata": "Q3367935",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "169878",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takahito_Eguchi"
+  }
+}

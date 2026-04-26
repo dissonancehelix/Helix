@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:green_jell",
+  "entity_type": "music.composer",
+  "label": "Green Jellÿ",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Spider"
+    ],
+    "artist_keys": [
+      "Green Jellÿ"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "2686",
+    "musicbrainz": "f291ffa8-891c-46ae-ba5e-fd3c53db56f0",
+    "wikidata": "Q1478949",
+    "spotify": "6dyxkRwYuTw6ezj1tjC2rY",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Green_Jell%C3%BF"
+  }
+}

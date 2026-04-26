@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:bellini",
+  "entity_type": "music.composer",
+  "label": "Bellini",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Bellini"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "6f5bfd20-84cc-4879-8a40-05631ad576c7",
+    "wikidata": "Q170209",
+    "spotify": "6AphpMkKDU4I3Z6XaGu1UV",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vincenzo_Bellini"
+  }
+}

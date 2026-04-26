@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:david_scheffler",
+  "entity_type": "music.composer",
+  "label": "David Scheffler",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Pico"
+    ],
+    "franchises": [
+      "Tails and the Music Maker"
+    ],
+    "artist_keys": [
+      "David Scheffler"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q133093062",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

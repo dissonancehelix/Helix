@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:ted_allen",
+  "entity_type": "music.composer",
+  "label": "Ted Allen",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Pink Goes to Hollywood"
+    ],
+    "artist_keys": [
+      "Ted Allen"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q124418904",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ted_Allen_(wrestler)"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takashi_nakajima",
+  "entity_type": "music.composer",
+  "label": "Takashi Nakajima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Shougi"
+    ],
+    "artist_keys": [
+      "Takashi Nakajima"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "a70451ee-5ef4-4946-b0af-c6a0016c5c2e",
+    "wikidata": "Q11364461",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:yuka_watanabe",
+  "entity_type": "music.composer",
+  "label": "Yuka Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Blue's Journey",
+      "Castlevania",
+      "Crossed Swords",
+      "Gang Wars",
+      "Magician Lord",
+      "Ninja Commando",
+      "Ninja Master's",
+      "Sky Adventure",
+      "Sky Soldiers",
+      "Twinkle Star Sprites",
+      "World Heroes",
+      "World Heroes 2",
+      "World Heroes 2 Jet",
+      "World Heroes Perfect"
+    ],
+    "artist_keys": [
+      "Yuka Watanabe"
+    ],
+    "track_count": 175
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "045b1d10-a95d-404b-8234-877d4aab474f",
+    "wikidata": "Q11562422",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

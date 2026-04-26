@@ -1,0 +1,44 @@
+{
+  "policy_name": "Helix Music Writeback Preparation Policy (Phase 1)",
+  "version": "1.0",
+  "status": "Authoritative Read-First Policy",
+  "writeback_gate_status": "LOCKED",
+  "targeted_fields": {
+    "writeable_foobar_tags": {
+      "platform": "Helix verified chip identification",
+      "sound_chip": "Helix hardware register trace outcome",
+      "composer": "Helix style attribution engine results (curated only)",
+      "loved": "Helix taste vector projection fallback",
+      "note": "Helix analysis summary / DCP confidence markers"
+    },
+    "internal_helix_only": [
+      "dcp_possibility_space",
+      "lfsr_noise_entropy",
+      "music_style_vector",
+      "helix_embedding_coordinates"
+    ],
+    "authoritative_foobar_owned": [
+      "title",
+      "artist",
+      "album",
+      "year",
+      "genre"
+    ]
+  },
+  "playcount_import_strategy": {
+    "staging_area": "codex/staging/music/playcounts/",
+    "key_format": "normalized_file_uri",
+    "collision_resolution": "sum_values_from_different_sources",
+    "authoritative_source": "foobar2000_metadb_BE36C585"
+  },
+  "refresh_workflows": {
+    "active_track": "trigger on manual metadata refresh request ($manual_helix_sync)",
+    "active_playlist": "Helix-requested playlist-wide metadata push (Stage 14)",
+    "bulk_library": "scheduled deep sync (NOT in current scope)"
+  },
+  "safety_mechanisms": {
+    "backup_required": true,
+    "transactional_commits": "external-tags.db edits only (never metadb.sqlite)",
+    "user_approval_required": "manual confirmation of all bulk tag edits"
+  }
+}

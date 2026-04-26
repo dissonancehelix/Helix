@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ayane_hamauzu",
+  "entity_type": "music.composer",
+  "label": "Ayane Hamauzu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Alliance Alive"
+    ],
+    "artist_keys": [
+      "Ayane Hamauzu"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

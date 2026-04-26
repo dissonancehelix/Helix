@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:rom_di_prisco",
+  "entity_type": "music.composer",
+  "label": "Rom Di Prisco",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Guacamelee!"
+    ],
+    "artist_keys": [
+      "Rom Di Prisco"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "1851",
+    "musicbrainz": "31c76e9b-27e7-4b03-bb73-45bf12893800",
+    "wikidata": "Q253336",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rom_Di_Prisco"
+  }
+}

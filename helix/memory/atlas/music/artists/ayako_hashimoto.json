@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:ayako_hashimoto",
+  "entity_type": "music.composer",
+  "label": "Ayako Hashimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Xexex"
+    ],
+    "artist_keys": [
+      "Ayako Hashimoto"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q88967471",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

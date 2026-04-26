@@ -1,0 +1,244 @@
+{
+  "entities": [
+    {
+      "entity_type": "artist",
+      "canonical": "Hirofumi Murasaki",
+      "aliases": [],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Jun Senoue",
+      "aliases": [
+        "tyler smyth / jun senoue",
+        "jun senoue / masahiro ito",
+        "tomoya ohtani / jun senoue",
+        "toriena / jun senoue",
+        "jun senoue / yutaka minobe",
+        "naofumi hataya / jun senoue",
+        "kenichi tokoi / teruhiko nakagawa / mitsuharu fukuyama / tomoya ohtani / naofumi hataya / hidekuni horita / tadashi kinukawa / jun senoue / yutaka minobe / hiroyuki anazawa",
+        "jun senoue / naofumi hataya",
+        "zardonic, jun senoue",
+        "jun senoue / fumie kumatani",
+        "tadashi kinukawa / hideaki kobayashi / naofumi hataya / chihiro aoki / yutaka minobe / ken inaoka / jun senoue / mitsuharu fukuyama / yuri fukuda",
+        "jun senoue",
+        "jun senoue / richard jacques"
+      ],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Masanori Hikichi",
+      "aliases": [
+        "yoshiaki kubotera\u0000masanori hikichi\u0000miyoko takaoka\u0000naoyuki ito\u0000tomohiro endo",
+        "hiroshi fujioka\u0000masanori hikichi",
+        "masanori hikichi\u0000noriyuki iwadare\u0000yoshiaki kubotera\u0000isao mizoguchi",
+        "hiroo tengenji\u0000yoshiaki kubotera\u0000masanori hikichi\u0000tomohiro endoh",
+        "masanori hikichi\u0000masayuki nagao",
+        "takako ochiai / masanori hikichi",
+        "hiroo tengenji\u0000yoshiaki kubotera\u0000hiroshi fujioka\u0000masanori hikichi\u0000tomohiro endo",
+        "miyoko takaoka\u0000toshio murai\u0000masanori hikichi\u0000t's music",
+        "masanori hikichi",
+        "masanori hikichi / hiroshi fujioka / yoshiaki kubotera / isao mizoguchi",
+        "miyoko takaoka\u0000masanori hikichi"
+      ],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Masaru Setsumaru",
+      "aliases": [
+        "masaru setsumaru"
+      ],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Masayuki Nagao",
+      "aliases": [
+        "masanori hikichi\u0000masayuki nagao",
+        "masayuki nagao",
+        "N.GEE",
+        "morihiko akiyama\u0000hirofumi murasaki\u0000masayuki nagao"
+      ],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Miyoko Takaoka",
+      "aliases": [
+        "yoshiaki kubotera\u0000masanori hikichi\u0000miyoko takaoka\u0000naoyuki ito\u0000tomohiro endo",
+        "Takaoka",
+        "miyoko takaoka\u0000chikaki iizuka\u0000kiyomi kataoka\u0000reiko uehara",
+        "miyoko takaoka\u0000toshio murai\u0000masanori hikichi\u0000t's music",
+        "miyoko takaoka",
+        "miyoko takaoka\u0000masanori hikichi"
+      ],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Morihiko Akiyama",
+      "aliases": [],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Sachio Ogawa",
+      "aliases": [
+        "sachio ogawa / tomoya koga",
+        "keisuke tsukahara / sachio ogawa / izuho numata / yoshimi hishida / shouko ogawa",
+        "keisuke tsukahara\u0000sachio ogawa\u0000izuho numata\u0000yoshimi hishida\u0000shouko ogawa",
+        "masafumi ogata / sachio ogawa / yoshiaki kashima / junko shiratsu / yayoi wachi / haruyo oguro",
+        "sachio ogawa\u0000tomonori sawada",
+        "sachio ogawa"
+      ],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Tatsuyuki Maeda",
+      "aliases": [
+        "Johnny Maeda",
+        "Ryunosuke",
+        "tatsuyuki maeda"
+      ],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Tomonori Sawada",
+      "aliases": [
+        "tomoko sasaki / mariko nanba / tomoya ohtani / hideaki kobayashi / fumie kumatani / tomonori sawada",
+        "tomonori sawada",
+        "sachio ogawa\u0000tomonori sawada",
+        "tomonori sawada / keiichi sugiyama",
+        "kenichi tokoi / tomoya ohtani / mitsuharu fukuyama / satoshi okamura / dé dé mouse / jimanica / chroma / tomonori sawada",
+        "tomonori sawada\u0000keisuke tsukahara\u0000izuho numata"
+      ],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Yoshiaki Kashima",
+      "aliases": [
+        "masafumi ogata / sachio ogawa / yoshiaki kashima / junko shiratsu / yayoi wachi / haruyo oguro",
+        "yoshiaki kashima"
+      ],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Cube Corp",
+      "aliases": [],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "artist",
+      "canonical": "Sega Sound Team",
+      "aliases": [],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": null,
+      "spotify_id": null
+    },
+    {
+      "entity_type": "release",
+      "canonical": "Sonic the Hedgehog 3",
+      "aliases": [],
+      "japanese": null,
+      "romaji": null,
+      "english": null,
+      "musicbrainz_id": null,
+      "wikidata_id": null,
+      "vgmdb_id": "VGM-0001",
+      "spotify_id": null
+    }
+  ],
+  "crosswalks": [
+    {
+      "helix_id": "Sonic the Hedgehog 3",
+      "entity_type": "release",
+      "canonical_name": "Sonic the Hedgehog 3",
+      "service": "VGMdb",
+      "external_id": "VGM-0001",
+      "confidence": 0.98,
+      "verified": true
+    }
+  ]
+}

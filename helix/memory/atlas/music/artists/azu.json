@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:azu",
+  "entity_type": "music.composer",
+  "label": "AZU",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Otomedius Excellent"
+    ],
+    "artist_keys": [
+      "AZU"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1785501",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Azure_(heraldry)"
+  }
+}

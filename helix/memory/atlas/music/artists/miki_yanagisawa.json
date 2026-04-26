@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:miki_yanagisawa",
+  "entity_type": "music.composer",
+  "label": "Miki Yanagisawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Contra III"
+    ],
+    "artist_keys": [
+      "Miki Yanagisawa"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

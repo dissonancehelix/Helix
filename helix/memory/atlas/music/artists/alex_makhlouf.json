@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:alex_makhlouf",
+  "entity_type": "music.composer",
+  "label": "Alex Makhlouf",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Alex Makhlouf"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

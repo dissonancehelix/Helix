@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:masaki_izutani",
+  "entity_type": "music.composer",
+  "label": "Masaki Izutani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Battle K",
+      "Captain Commando",
+      "Dragon Blaze",
+      "Gunbird",
+      "Gunbird 2",
+      "Saturday Night Slam Masters",
+      "Sol Divide",
+      "Space Bomber",
+      "Strikers 1945",
+      "Strikers 1945 II",
+      "Strikers 1945 III",
+      "Strikers 1945 Plus",
+      "Tengai",
+      "The Fallen Angels",
+      "Three Wonders"
+    ],
+    "artist_keys": [
+      "Masaki Izutani"
+    ],
+    "track_count": 266
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

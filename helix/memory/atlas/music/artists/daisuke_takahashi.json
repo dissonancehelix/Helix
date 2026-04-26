@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:daisuke_takahashi",
+  "entity_type": "music.composer",
+  "label": "Daisuke Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "PC-88",
+      "PC-98"
+    ],
+    "franchises": [
+      "Desert Dragoon",
+      "Dragon Egg!",
+      "Final Crisis",
+      "Grounseed",
+      "MCMLXC",
+      "Mystery Case In Hi!school!! Synergy",
+      "Princess Quest",
+      "SYNERGY MCMXCI"
+    ],
+    "artist_keys": [
+      "Daisuke Takahashi"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q349685",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Daisuke_Takahashi"
+  }
+}

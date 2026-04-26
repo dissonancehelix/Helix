@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:god",
+  "entity_type": "music.composer",
+  "label": "GOD",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "MCMLXC",
+      "Ojousama Club",
+      "SYNERGY MCMXCI"
+    ],
+    "artist_keys": [
+      "GOD"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q178885",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Deity"
+  }
+}

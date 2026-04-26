@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hiroyuki_yanada",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Yanada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES",
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Jack Bros.",
+      "Last Bible III",
+      "Naname de Magic!",
+      "Oh My God!"
+    ],
+    "artist_keys": [
+      "Hiroyuki Yanada"
+    ],
+    "track_count": 90
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:masataka_kitaura",
+  "entity_type": "music.composer",
+  "label": "Masataka Kitaura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Farland Story",
+      "Hell Night",
+      "Kisou Shinden Gen"
+    ],
+    "artist_keys": [
+      "Masataka Kitaura"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8a20f76d-5558-429a-965a-eac529872ed0",
+    "wikidata": "Q11402384",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

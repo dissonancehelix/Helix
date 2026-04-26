@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:misako_takagi",
+  "entity_type": "music.composer",
+  "label": "Misako Takagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Barbatus no Majo"
+    ],
+    "artist_keys": [
+      "Misako Takagi"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

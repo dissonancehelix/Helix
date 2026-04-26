@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:takeaki_kunimoto",
+  "entity_type": "music.composer",
+  "label": "Takeaki Kunimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Break In",
+      "Challenger",
+      "J. J. & Jeff",
+      "Kira Kira Star Night",
+      "Mickey Mousecapade",
+      "Robo Warrior",
+      "Star Soldier",
+      "Starship Hector",
+      "Super Star Soldier",
+      "Victory Run",
+      "Yuuyuu Jinsei"
+    ],
+    "artist_keys": [
+      "Takeaki Kunimoto"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "1723",
+    "musicbrainz": "0284aa44-acb7-4c84-918c-60d4f1df2860",
+    "wikidata": "Q11420959",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takeaki_Kunimoto"
+  }
+}

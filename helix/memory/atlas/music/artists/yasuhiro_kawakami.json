@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:yasuhiro_kawakami",
+  "entity_type": "music.composer",
+  "label": "Yasuhiro Kawakami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Ace Attacker",
+      "Chocobo's Dungeon 2",
+      "Crack Down",
+      "Excite League",
+      "Final Fantasy",
+      "Racing Damashii",
+      "Scramble Spirits",
+      "Shinobi",
+      "Super R",
+      "Tetris",
+      "Tobal No. 1"
+    ],
+    "artist_keys": [
+      "Yasuhiro Kawakami"
+    ],
+    "track_count": 76
+  },
+  "external_ids": {
+    "vgmdb": "36343",
+    "musicbrainz": "",
+    "wikidata": "Q8049979",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

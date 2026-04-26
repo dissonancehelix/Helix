@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:saki_fujita",
+  "entity_type": "music.composer",
+  "label": "Saki Fujita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Muramasa Rebirth"
+    ],
+    "artist_keys": [
+      "Saki Fujita"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "7552",
+    "musicbrainz": "889929dc-0329-40a3-98fd-f324ec91fc38",
+    "wikidata": "Q1066065",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saki_Fujita"
+  }
+}

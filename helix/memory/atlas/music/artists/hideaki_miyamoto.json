@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hideaki_miyamoto",
+  "entity_type": "music.composer",
+  "label": "Hideaki Miyamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Burning Rival",
+      "Hard Dunk",
+      "Virtua Fighter 4",
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Hideaki Miyamoto"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100492594",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

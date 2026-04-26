@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:motohiro_kawashima",
+  "entity_type": "music.composer",
+  "label": "Motohiro Kawashima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Master System",
+      "PC-98"
+    ],
+    "franchises": [
+      "Advanced Dungeons & Dragons",
+      "Amazing Island",
+      "Batman Returns",
+      "Fox Junction",
+      "Group S Challenge",
+      "Katekyo Hitman Reborn! Battle Arena 2",
+      "Katekyo Hitman Reborn! Dream Hyper Battle!",
+      "Manji",
+      "Shinobi II",
+      "Streets of Rage 2",
+      "Streets of Rage 3",
+      "Streets of Rage 4",
+      "The Law of Ueki",
+      "Vatlva",
+      "Zork I"
+    ],
+    "artist_keys": [
+      "Motohiro Kawashima"
+    ],
+    "track_count": 127
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "e9049d0b-a7e0-44ab-9bc8-3e29e5b78dda",
+    "wikidata": "Q21932431",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Motohiro_Kawashima"
+  }
+}

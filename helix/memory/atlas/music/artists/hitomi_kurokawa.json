@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:hitomi_kurokawa",
+  "entity_type": "music.composer",
+  "label": "Hitomi Kurokawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bayonetta 2",
+      "The Wonderful 101"
+    ],
+    "artist_keys": [
+      "Hitomi Kurokawa"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

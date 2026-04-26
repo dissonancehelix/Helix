@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shunsuke_kida",
+  "entity_type": "music.composer",
+  "label": "Shunsuke Kida",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Demon's Souls"
+    ],
+    "artist_keys": [
+      "Shunsuke Kida"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "6756",
+    "musicbrainz": "bf46a099-7aed-4822-a50a-21a107d04e1e",
+    "wikidata": "Q17210656",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:chiaki_ito",
+  "entity_type": "music.composer",
+  "label": "Chiaki Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Barbatus no Majo"
+    ],
+    "artist_keys": [
+      "Chiaki Ito"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "1b5ab1b2-6f51-4770-ae31-9506d0364db2",
+    "wikidata": "Q8345290",
+    "spotify": "0muLFXCuJkwVq8JBMmiips",
+    "lastfm": "伊藤千晃",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chiaki_Ito"
+  }
+}

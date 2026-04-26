@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:jbg_ongakuin",
+  "entity_type": "music.composer",
+  "label": "JBG Ongakuin",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "JBG Ongakuin"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

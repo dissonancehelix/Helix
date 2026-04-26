@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:guiro",
+  "entity_type": "music.composer",
+  "label": "GUIRO",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Forever"
+    ],
+    "artist_keys": [
+      "GUIRO"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2237198",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/G%C3%BCiro"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:ludwig_van_beethoven",
+  "entity_type": "music.composer",
+  "label": "Ludwig van Beethoven",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX"
+    ],
+    "franchises": [
+      "Parodius",
+      "Resident Evil"
+    ],
+    "artist_keys": [
+      "Ludwig van Beethoven"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "1663",
+    "musicbrainz": "1f9df192-a621-4f54-8850-2c5373b7eac9",
+    "wikidata": "Q255",
+    "spotify": "2wOqMjp9TyABvtHdOSOTUS",
+    "lastfm": "Ludwig+van+Beethoven",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+  }
+}

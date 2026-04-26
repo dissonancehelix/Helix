@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:kei_morioka",
+  "entity_type": "music.composer",
+  "label": "Kei Morioka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX",
+      "WWF SmackDown! 2"
+    ],
+    "artist_keys": [
+      "Kei Morioka"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

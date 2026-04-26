@@ -1,0 +1,60 @@
+case_id: psychedelic_ego_dissolution
+name: Psychedelic ego dissolution
+field_type: phenomenal_field
+phenomenal_candidate: true
+description: >
+  High-dose psychedelic experience with dissolution of self-boundaries, sense of merger
+  with environment, and loss of ordinary self-structure. G may remain high or increase
+  while O, B, and N collapse. Key test of the C/S dissociation.
+
+components:
+  G: 1.0
+  U: 0.7
+  D: 0.8
+  T: 0.6
+  F: 0.9
+
+g_status: g_established
+classification: phenomenal_candidate
+
+evidence:
+  G: >
+    1.0: ego dissolution is phenomenally intense. Subjects report heightened awareness,
+    vivid experience, and strong givenness — often described as 'more real than real.'
+    G is not lost in dissolution; the loss is in the self-structure layered on top of G.
+  U: >
+    0.7: unity is altered but not absent. The boundary between self and world dissolves,
+    which may increase the felt scope of the field (merger with environment) while reducing
+    the coherence of the self-structured part.
+  D: >
+    0.8: psychedelic experience is typically hyperdiverse — complex visual phenomena,
+    synesthesia, multiplex emotional states. D remains high.
+  T: >
+    0.6: temporal thickness is altered — time may seem to expand, contract, or lose
+    ordinary structure. The specious present remains but is restructured.
+  F: >
+    0.9: field inclusion appears maximal in dissolution states — everything seems
+    included, nothing excluded. This may paradoxically increase F while dissolving the
+    self that normally structures the field.
+
+revision_pressure: >
+  Ego dissolution empirically dissociates C and S. G is high; C is moderate-high;
+  but S is severely disrupted (B → low, O → low, N → indeterminate). The theory
+  predicts this dissociation and handles it correctly. But: if G is high and O
+  is near-zero, what is the givenness given to? The usual answer is 'the self' —
+  but dissolution challenges this. The theory needs a formulation of G that is
+  independent of O without being vacuous.
+
+breaks_preserved:
+  - >
+    Ego dissolution raises the question of whether G requires a subject (an owned perspective)
+    to be given to, or whether G can be pure givenness without a recipient self.
+    If G requires O > 0, then G cannot be 1.0 when O ≈ 0. If G is independent of O,
+    the theory needs to specify what G is given to in dissolution.
+    This is unresolved and cannot be patched by lowering G.
+
+notes: >
+  The nondual awareness traditions describe dissolution states as involving heightened
+  awareness without a localizable self. This is consistent with G high and O low.
+  Whether these traditions are describing G > 0 with O ≈ 0 or something that the theory's
+  schema cannot capture is an open question.

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takayuki_fujii",
+  "entity_type": "music.composer",
+  "label": "Takayuki Fujii",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ganbare Goemon",
+      "Poy Poy"
+    ],
+    "artist_keys": [
+      "Takayuki Fujii"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q92181608",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

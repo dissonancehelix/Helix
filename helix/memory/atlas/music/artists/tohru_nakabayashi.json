@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:tohru_nakabayashi",
+  "entity_type": "music.composer",
+  "label": "Tohru Nakabayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "SG-1000"
+    ],
+    "franchises": [
+      "Action Fighter",
+      "Alien Syndrome",
+      "Altered Beast",
+      "Arabian Fight",
+      "Bloxeed",
+      "Body Slam",
+      "Bullet",
+      "Choplifter",
+      "Doki Doki Penguin Land",
+      "Dunk Shot",
+      "Excite League",
+      "Flash Point",
+      "Girl's Garden",
+      "Golden Axe",
+      "Hyper Marbles"
+    ],
+    "artist_keys": [
+      "Tohru Nakabayashi"
+    ],
+    "track_count": 129
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

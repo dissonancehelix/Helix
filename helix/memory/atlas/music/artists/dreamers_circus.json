@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:dreamers_circus",
+  "entity_type": "music.composer",
+  "label": "Dreamer's Circus",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Chrono Cross"
+    ],
+    "artist_keys": [
+      "Dreamer's Circus"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

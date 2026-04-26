@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:harry_gregson_williams",
+  "entity_type": "music.composer",
+  "label": "Harry Gregson-Williams",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid 2",
+      "Metal Gear Solid 3",
+      "Metal Gear Solid 4",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Harry Gregson-Williams"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "1791",
+    "musicbrainz": "8974da95-e631-45aa-8fd7-aa0c2795f997",
+    "wikidata": "Q314623",
+    "spotify": "1BxqJ6pOCi8mkSjCbFYjpW",
+    "lastfm": "Harry+Gregson-Williams",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harry_Gregson-Williams"
+  }
+}

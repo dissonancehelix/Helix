@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hijiri_anze",
+  "entity_type": "music.composer",
+  "label": "Hijiri Anze",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Collaboration Album \"Message\""
+    ],
+    "artist_keys": [
+      "Hijiri Anze"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "45663",
+    "musicbrainz": "f15b64ab-3f6c-47e0-92eb-0021b15613b0",
+    "wikidata": "Q5760256",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

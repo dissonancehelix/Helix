@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:saori_utsumi",
+  "entity_type": "music.composer",
+  "label": "Saori Utsumi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man Xtreme",
+      "Resident Evil 3"
+    ],
+    "artist_keys": [
+      "Saori Utsumi"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

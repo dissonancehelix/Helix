@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:ganja_white_night",
+  "entity_type": "music.composer",
+  "label": "Ganja White Night",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Addiction",
+      "Bark Mode",
+      "Dark Wobble",
+      "Dear Weed Man",
+      "Ease Your Mind",
+      "Ex Echo",
+      "Flava",
+      "Ganja Tape",
+      "Ganja White Night",
+      "Headband",
+      "Hybrid Distillery",
+      "In the Garden",
+      "Jungle Juice",
+      "Lost in the Sauce",
+      "Mask Off"
+    ],
+    "artist_keys": [
+      "Ganja White Night"
+    ],
+    "track_count": 161
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "014abfeb-cdfe-46dc-90fb-e192473ce252",
+    "wikidata": "Q115631633",
+    "spotify": "1a6oIpEh4DGgaqgWg5xwd3",
+    "lastfm": "Ganja+White+Night",
+    "discogs": "1176863",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ganja_White_Night"
+  }
+}

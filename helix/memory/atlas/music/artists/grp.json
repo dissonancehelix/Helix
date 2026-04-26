@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:grp",
+  "entity_type": "music.composer",
+  "label": "Grp",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter 6"
+    ],
+    "artist_keys": [
+      "Grp"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q106478394",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:minae_fujii",
+  "entity_type": "music.composer",
+  "label": "Minae Fujii",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Breath of Fire",
+      "DuckTales 2",
+      "Mega Man 10",
+      "Mega Man 4",
+      "Super Buster Bros.",
+      "Super Smash Bros. for Wii U",
+      "TaleSpin"
+    ],
+    "artist_keys": [
+      "Minae Fujii"
+    ],
+    "track_count": 71
+  },
+  "external_ids": {
+    "vgmdb": "1351",
+    "musicbrainz": "a33b2ac3-a8f0-4b57-baa2-b62a2afe3bcb",
+    "wikidata": "Q56562315",
+    "spotify": "",
+    "lastfm": "Minae+Ojalin+Fujii"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:azusa_kato",
+  "entity_type": "music.composer",
+  "label": "Azusa Kato",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sengoku Basara 4",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Azusa Kato"
+    ],
+    "track_count": 91
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q109597153",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:blue123",
+  "entity_type": "music.composer",
+  "label": "Blue123",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katawa Shoujo"
+    ],
+    "artist_keys": [
+      "Blue123"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "9452bddf-f343-4ae1-827d-d8217bcfe136",
+    "wikidata": "Q66572713",
+    "spotify": "",
+    "lastfm": "Blue123"
+  }
+}

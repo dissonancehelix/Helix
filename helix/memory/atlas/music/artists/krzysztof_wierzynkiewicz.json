@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:krzysztof_wierzynkiewicz",
+  "entity_type": "music.composer",
+  "label": "Krzysztof Wierzynkiewicz",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Witcher 2"
+    ],
+    "artist_keys": [
+      "Krzysztof Wierzynkiewicz"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "12596",
+    "musicbrainz": "3d73d29e-e665-4d24-bbfd-a71c880a09a0",
+    "wikidata": "Q4105894",
+    "spotify": "",
+    "lastfm": "Krzysztof+Wierzynkiewicz"
+  }
+}

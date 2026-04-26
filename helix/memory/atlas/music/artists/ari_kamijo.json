@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ari_kamijo",
+  "entity_type": "music.composer",
+  "label": "Ari Kamijo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Sega CD"
+    ],
+    "franchises": [
+      "Yumimi Mix"
+    ],
+    "artist_keys": [
+      "Ari Kamijo"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

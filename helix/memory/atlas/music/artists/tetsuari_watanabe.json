@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:tetsuari_watanabe",
+  "entity_type": "music.composer",
+  "label": "Tetsuari Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Family Tennis Advance",
+      "Fullmetal Alchemist",
+      "Hachiemon",
+      "Negima!? Chou Mahora Taisen Chuu",
+      "Nicktoons"
+    ],
+    "artist_keys": [
+      "Tetsuari Watanabe"
+    ],
+    "track_count": 121
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

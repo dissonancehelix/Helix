@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masayoshi_yamazaki",
+  "entity_type": "music.composer",
+  "label": "Masayoshi Yamazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Romancing SaGa"
+    ],
+    "artist_keys": [
+      "Masayoshi Yamazaki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "6553",
+    "musicbrainz": "9c98108e-ee2b-4d99-a54c-279e5f32b25b",
+    "wikidata": "Q1074694",
+    "spotify": "6gvedX0HcRQYMD5IhY8KKt",
+    "lastfm": "山崎まさよし",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masayoshi_Yamazaki"
+  }
+}

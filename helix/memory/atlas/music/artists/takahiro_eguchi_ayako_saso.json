@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takahiro_eguchi_ayako_saso",
+  "entity_type": "music.composer",
+  "label": "Takahiro Eguchi, Ayako Saso",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Mario Bros. 35"
+    ],
+    "artist_keys": [
+      "Takahiro Eguchi, Ayako Saso"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

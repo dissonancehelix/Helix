@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:dreams_come_true",
+  "entity_type": "music.composer",
+  "label": "Dreams Come True",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Love Goes On...",
+      "Magic",
+      "Million Kisses",
+      "Monkey Girl Odyssey",
+      "Seventh of July Sunny Day",
+      "The Love Rocks",
+      "The Swinging Star",
+      "Wonder 3"
+    ],
+    "artist_keys": [
+      "Dreams Come True"
+    ],
+    "track_count": 92
+  },
+  "external_ids": {
+    "vgmdb": "5248",
+    "musicbrainz": "f984ebbf-8534-4163-9cb8-295c91535446",
+    "wikidata": "Q1195268",
+    "spotify": "2mJOGcLR3aCHkM1uAF93or",
+    "lastfm": "DREAMS+COME+TRUE",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dreams_Come_True_(band)"
+  }
+}

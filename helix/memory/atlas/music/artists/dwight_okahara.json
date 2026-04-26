@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:dwight_okahara",
+  "entity_type": "music.composer",
+  "label": "Dwight Okahara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Dune",
+      "Dungeons & Dragons",
+      "Young Merlin"
+    ],
+    "artist_keys": [
+      "Dwight Okahara"
+    ],
+    "track_count": 59
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

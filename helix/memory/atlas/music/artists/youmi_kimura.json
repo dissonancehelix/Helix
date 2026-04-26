@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:youmi_kimura",
+  "entity_type": "music.composer",
+  "label": "Youmi Kimura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Spirited Away"
+    ],
+    "artist_keys": [
+      "Youmi Kimura"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

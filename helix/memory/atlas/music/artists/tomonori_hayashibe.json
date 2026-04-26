@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:tomonori_hayashibe",
+  "entity_type": "music.composer",
+  "label": "Tomonori Hayashibe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Car Battler Joe",
+      "Synchronica"
+    ],
+    "artist_keys": [
+      "Tomonori Hayashibe"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

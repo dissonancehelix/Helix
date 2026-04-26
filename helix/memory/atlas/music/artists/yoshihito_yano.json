@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:yoshihito_yano",
+  "entity_type": "music.composer",
+  "label": "Yoshihito Yano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Alpine Racer 2",
+      "Alpine Racer 3",
+      "Aqua Rush",
+      "Beautiful Katamari",
+      "Breakdown",
+      "Katamari Damacy",
+      "Katamari Damacy Rolling Live",
+      "Katamari Forever",
+      "Kotoba no Puzzle",
+      "Me & My Katamari",
+      "Muscle March",
+      "Noby Noby Boy",
+      "Once Upon a Katamari",
+      "Panda",
+      "Soulcalibur"
+    ],
+    "artist_keys": [
+      "Yoshihito Yano"
+    ],
+    "track_count": 299
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

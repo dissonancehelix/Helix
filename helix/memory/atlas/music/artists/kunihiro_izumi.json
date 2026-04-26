@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kunihiro_izumi",
+  "entity_type": "music.composer",
+  "label": "Kunihiro Izumi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fairy Fencer F"
+    ],
+    "artist_keys": [
+      "Kunihiro Izumi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

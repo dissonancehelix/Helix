@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:maiko_hattori",
+  "entity_type": "music.composer",
+  "label": "Maiko Hattori",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dinosaur Resurrection",
+      "Trails / Kiseki",
+      "VM Japan",
+      "Xanadu Next",
+      "Ys VI",
+      "Zwei"
+    ],
+    "artist_keys": [
+      "Maiko Hattori"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

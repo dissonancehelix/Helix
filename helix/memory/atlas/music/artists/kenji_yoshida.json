@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:kenji_yoshida",
+  "entity_type": "music.composer",
+  "label": "Kenji Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Armed F",
+      "Booby Kids",
+      "Cosmo Police Galivan",
+      "Cratermaze",
+      "Gionbana",
+      "Kozure Ookami",
+      "Sol Cresta",
+      "Terra Cresta"
+    ],
+    "artist_keys": [
+      "Kenji Yoshida"
+    ],
+    "track_count": 67
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q6389391",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kenji_Yoshida"
+  }
+}

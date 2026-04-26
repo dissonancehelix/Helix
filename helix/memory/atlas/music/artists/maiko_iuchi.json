@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:maiko_iuchi",
+  "entity_type": "music.composer",
+  "label": "Maiko Iuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Half"
+    ],
+    "artist_keys": [
+      "Maiko Iuchi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "978",
+    "musicbrainz": "fa75f9fa-103c-4073-b8e0-d995040ac5cf",
+    "wikidata": "Q9101768",
+    "spotify": "",
+    "lastfm": "井内舞子",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maiko_Iuchi"
+  }
+}

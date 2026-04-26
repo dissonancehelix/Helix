@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:pudding_takano",
+  "entity_type": "music.composer",
+  "label": "Pudding Takano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Grand Striker 2"
+    ],
+    "artist_keys": [
+      "Pudding Takano"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

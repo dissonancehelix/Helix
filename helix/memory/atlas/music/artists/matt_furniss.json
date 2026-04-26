@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:matt_furniss",
+  "entity_type": "music.composer",
+  "label": "Matt Furniss",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "Game Gear",
+      "Master System",
+      "Mega Drive",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Alien³",
+      "Arabian Nights",
+      "Badlands",
+      "Bill's Tomato Game",
+      "Boogerman",
+      "Botics",
+      "Bram Stoker's Dracula",
+      "Castle Master",
+      "Chuck Rock",
+      "Corporation"
+    ],
+    "artist_keys": [
+      "Matt Furniss"
+    ],
+    "track_count": 511
+  },
+  "external_ids": {
+    "vgmdb": "7608",
+    "musicbrainz": "13abbad9-3a9a-4e71-a7c4-596d3f6c65ee",
+    "wikidata": "Q6788679",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

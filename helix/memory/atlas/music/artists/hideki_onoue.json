@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hideki_onoue",
+  "entity_type": "music.composer",
+  "label": "Hideki Onoue",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Hideki Onoue"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

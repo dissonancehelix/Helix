@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:eddy",
+  "entity_type": "music.composer",
+  "label": "Eddy",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2"
+    ],
+    "franchises": [
+      "Aleste 2"
+    ],
+    "artist_keys": [
+      "Eddy"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "5cd668b6-0d20-4d1f-a84b-8bbb0fc51148",
+    "wikidata": "Q3047356",
+    "spotify": "4KBk9hwqFYtGS3DlZJiCsQ",
+    "lastfm": "Eddy+Mitchell",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eddy_Mitchell"
+  }
+}

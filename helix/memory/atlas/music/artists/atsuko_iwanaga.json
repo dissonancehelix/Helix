@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:atsuko_iwanaga",
+  "entity_type": "music.composer",
+  "label": "Atsuko Iwanaga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Gururin",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Atsuko Iwanaga"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

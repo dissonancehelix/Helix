@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:ryo_yoshinaga",
+  "entity_type": "music.composer",
+  "label": "Ryo Yoshinaga",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Azure Striker Gunvolt 3",
+      "Blaster Master Zero 2",
+      "Blaster Master Zero 3",
+      "Bloodstained"
+    ],
+    "artist_keys": [
+      "Ryo Yoshinaga"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q93222231",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

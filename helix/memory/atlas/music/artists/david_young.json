@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:david_young",
+  "entity_type": "music.composer",
+  "label": "David Young",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic CD"
+    ],
+    "artist_keys": [
+      "David Young"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "2bbb187f-3825-4b58-9ce4-b72f60174c96",
+    "wikidata": "Q11774421",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/David_Young_(guitarist)"
+  }
+}

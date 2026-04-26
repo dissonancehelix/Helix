@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:bad_brains",
+  "entity_type": "music.composer",
+  "label": "Bad Brains",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bad Brains",
+      "Build A Nation",
+      "Quickness",
+      "Rock For Light"
+    ],
+    "artist_keys": [
+      "Bad Brains"
+    ],
+    "track_count": 61
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "e919b253-da5b-4aae-a444-6a368376a2d6",
+    "wikidata": "Q798671",
+    "spotify": "1oVj9JmPUPg4SQ2uerV2xc",
+    "lastfm": "Bad+Brains",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bad_Brains"
+  }
+}

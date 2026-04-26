@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:shunsuke_tsuchiya",
+  "entity_type": "music.composer",
+  "label": "Shunsuke Tsuchiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Another Eden",
+      "Arc Rise Fantasia",
+      "Delicious in Dungeon",
+      "DoDoDo! Dragon",
+      "Even If Tempest",
+      "Luminous Arc 2",
+      "Oninaki",
+      "Revolve8",
+      "Sands of Destruction",
+      "Stella Glow"
+    ],
+    "artist_keys": [
+      "Shunsuke Tsuchiya"
+    ],
+    "track_count": 205
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

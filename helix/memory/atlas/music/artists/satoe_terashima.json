@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:satoe_terashima",
+  "entity_type": "music.composer",
+  "label": "Satoe Terashima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Famicom Disk System",
+      "MSX2",
+      "NES"
+    ],
+    "franchises": [
+      "Castlevania",
+      "Castlevania II",
+      "Galactic Warriors",
+      "Green Beret",
+      "King Kong 2",
+      "Meikyuu Jiin Dababa",
+      "Rock'n Rage",
+      "The Goonies",
+      "The Goonies II",
+      "Vampire Killer"
+    ],
+    "artist_keys": [
+      "Satoe Terashima"
+    ],
+    "track_count": 65
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8ebd220f-cb76-49b1-9ce9-997788ab1d20",
+    "wikidata": "Q111142498",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

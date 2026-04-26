@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:shinji_enomoto",
+  "entity_type": "music.composer",
+  "label": "Shinji Enomoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "ISS Pro Evolution",
+      "International Superstar Soccer Pro '98"
+    ],
+    "artist_keys": [
+      "Shinji Enomoto"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

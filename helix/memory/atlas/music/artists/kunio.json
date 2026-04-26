@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kunio",
+  "entity_type": "music.composer",
+  "label": "Kunio",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Kira Kira Star Night"
+    ],
+    "artist_keys": [
+      "Kunio"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q106403748",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

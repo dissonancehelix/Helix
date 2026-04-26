@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:ryo_watanabe",
+  "entity_type": "music.composer",
+  "label": "Ryo Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat",
+      "Ace Combat 7",
+      "Beautiful Katamari",
+      "God Eater 2",
+      "Katamari Damacy Rolling Live",
+      "Mario Kart Arcade GP DX",
+      "No More Heroes 2",
+      "Noby Noby Boy",
+      "Pac",
+      "Ridge Racer 3D",
+      "Ridge Racer Vita",
+      "Super Smash Bros. for Wii U",
+      "Taiko no Tatsujin",
+      "Tekken Tag Tournament 2",
+      "Xevious 30th Anniversary Tribute"
+    ],
+    "artist_keys": [
+      "Ryo Watanabe"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17217764",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ryo_Watanabe_(infielder)"
+  }
+}

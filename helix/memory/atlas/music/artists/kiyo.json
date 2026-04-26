@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kiyo",
+  "entity_type": "music.composer",
+  "label": "Kiyo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza",
+      "Yakuza 0",
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "Kiyo"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "223dedcf-22fa-4213-90a6-3edfbff890fc",
+    "wikidata": "Q1141827",
+    "spotify": "4ga8lGWWzgmXpWf9wRFmRR",
+    "lastfm": "氷川きよし",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kiyoshi_Hikawa"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:dean_morrell",
+  "entity_type": "music.composer",
+  "label": "Dean Morrell",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "The Simpsons",
+      "WWF Royal Rumble",
+      "WWF Super WrestleMania"
+    ],
+    "artist_keys": [
+      "Dean Morrell"
+    ],
+    "track_count": 27
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q96308204",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

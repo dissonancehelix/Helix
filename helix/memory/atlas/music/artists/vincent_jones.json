@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:vincent_jones",
+  "entity_type": "music.composer",
+  "label": "Vincent Jones",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sea of Stars"
+    ],
+    "artist_keys": [
+      "Vincent Jones"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "234664cb-cd59-4951-8906-ede838e0eb04",
+    "wikidata": "Q16244104",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vincent_Jones_(musician)"
+  }
+}

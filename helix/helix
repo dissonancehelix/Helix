@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# helix — Helix Interface Language CLI wrapper
+#
+# Usage:
+#   ./helix "RUN experiment:epistemic_irreversibility engine:python"
+#   ./helix "PROBE invariant:decision_compression"
+#   ./helix "COMPILE atlas"
+#
+# All experiment execution must go through this wrapper.
+# Direct Python invocation of labs/ scripts is not supported.
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+VENV_ROOT="$REPO_ROOT/runtime/venv"
+
+# Activate venv if present — try Scripts/ (MSYS2/Windows) then bin/ (Unix)
+if [ -f "$VENV_ROOT/Scripts/activate" ]; then
+    source "$VENV_ROOT/Scripts/activate"
+elif [ -f "$VENV_ROOT/bin/activate" ]; then
+    source "$VENV_ROOT/bin/activate"
+fi
+
+# Prefer python3, fall back to python
+PYTHON="python3"
+if ! command -v python3 &>/dev/null; then
+    PYTHON="python"
+fi
+
+exec "$PYTHON" "$REPO_ROOT/engine/run/router.py" "$@"

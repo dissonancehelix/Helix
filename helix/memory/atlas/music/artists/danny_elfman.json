@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:danny_elfman",
+  "entity_type": "music.composer",
+  "label": "Danny Elfman",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Nightmare Before Christmas"
+    ],
+    "artist_keys": [
+      "Danny Elfman"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "3017",
+    "musicbrainz": "5b24fbab-c58f-4c37-a59d-ab232e2d98c4",
+    "wikidata": "Q193338",
+    "spotify": "5qBZETtyzfYnXOobDXbmcD",
+    "lastfm": "Danny+Elfman",
+    "wikipedia": "https://en.wikipedia.org/wiki/Danny_Elfman"
+  }
+}

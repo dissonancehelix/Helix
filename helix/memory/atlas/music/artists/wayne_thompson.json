@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:wayne_thompson",
+  "entity_type": "music.composer",
+  "label": "Wayne Thompson",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Silent Hill"
+    ],
+    "artist_keys": [
+      "Wayne Thompson"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

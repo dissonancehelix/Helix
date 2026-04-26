@@ -1,0 +1,50 @@
+{
+  "projection_policy": {
+    "version": "1.0",
+    "target_db": "external-tags.db",
+    "whitelisted_fields": [
+      {
+        "helix_field": "metadata.platform",
+        "fb2k_field": "PLATFORM",
+        "description": "Canonical system/platform (e.g. Sega Genesis, PlayStation)."
+      },
+      {
+        "helix_field": "metadata.sound_chip",
+        "fb2k_field": "SOUND_CHIP",
+        "description": "Primary hardware chip used for synthesis (e.g. YM2612, Roland SC-88)."
+      },
+      {
+        "helix_field": "metadata.genre",
+        "fb2k_field": "GENRE",
+        "description": "Normalized surface-level genres (VGM, Jazz, Folk)."
+      },
+      {
+        "helix_field": "attribution.composition_credit.artist_ids",
+        "fb2k_field": "COMPOSER",
+        "description": "Slugified identities of the primary composers."
+      },
+      {
+        "helix_field": "attribution.featuring_artists",
+        "fb2k_field": "FEATURING",
+        "description": "Multi-value list of featuring/guest artists."
+      },
+      {
+        "helix_field": "semantic.structural_tags",
+        "fb2k_field": "X-HELIX-STRUCTURE",
+        "description": "Taste architecture tags for filtering (groove_engine, etc.)."
+      },
+      {
+        "helix_field": "signal.local_playcount",
+        "fb2k_field": "X-HELIX-LOCAL-PLAYCOUNT",
+        "description": "Historical playcount from 2003-Present."
+      }
+    ],
+    "blacklisted_fields": [
+      "LIFETIME_SIGNAL_SCORE",
+      "ACTIVE_ROTATION_SCORE",
+      "HISTORICAL_CONFIDENCE",
+      "TIMELINE_COMPLETENESS"
+    ],
+    "write_mode": "overwrite_authoritative"
+  }
+}

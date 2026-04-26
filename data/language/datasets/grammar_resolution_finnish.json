@@ -1,0 +1,101 @@
+{
+    "domain": "language",
+    "language": "finnish",
+    "system_description": "Finnish case-driven disambiguation. 15 grammatical cases encode spatial, possessive, and argument relations with near-zero ambiguity. The partitive/accusative distinction (partial vs. complete object) is the primary resolution site: the aspect of the action determines which object case is licensed. Dominant rule is case selection; secondary rule is aspectual completion.",
+    "agents": [
+        {
+            "id": "rule_case_selection",
+            "role": "dominant_rule",
+            "influence_weight": 0.7992,
+            "ud_signal_type": "case"
+        },
+        {
+            "id": "rule_aspect_completion",
+            "role": "dominant_rule",
+            "influence_weight": 0.0905,
+            "ud_signal_type": "agreement"
+        },
+        {
+            "id": "rule_verb_agreement",
+            "role": "secondary_rule",
+            "influence_weight": 0.0103,
+            "ud_signal_type": "word_order"
+        },
+        {
+            "id": "rule_pragmatic",
+            "role": "edge_case",
+            "influence_weight": 0.1,
+            "ud_signal_type": "pragmatic"
+        }
+    ],
+    "decision_rounds": [
+        {
+            "round": 1,
+            "weights": [
+                0.83,
+                0.07,
+                0.0,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 2,
+            "weights": [
+                0.8,
+                0.1,
+                0.03,
+                0.07
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 3,
+            "weights": [
+                0.82,
+                0.07,
+                0.0,
+                0.11
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 4,
+            "weights": [
+                0.8,
+                0.08,
+                0.02,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 5,
+            "weights": [
+                0.8,
+                0.1,
+                0.02,
+                0.08
+            ],
+            "outcome": "parse_A"
+        }
+    ],
+    "expected_k_eff_range": [
+        1.29,
+        1.75
+    ],
+    "notes": "Finnish has the sharpest case-driven compression in this suite. The 15-case system leaves almost no ambiguity for argument roles. K_eff should be lower than Turkish, reflecting even stronger single-rule dominance. The partitive/accusative contrast is the main falsifier site — completeness of action IS the constraint signal.",
+    "source": "ud_treebank",
+    "ud_diagnostics": {
+        "sentences_analyzed": 500,
+        "case_density": 0.7201,
+        "agreement_density": 0.8854,
+        "order_rigidity": 0.8245,
+        "order_signal": 0.7212,
+        "morphological_richness": 2.3659,
+        "compression_density": 2.2539,
+        "dominant_rule": "case",
+        "ud_k_eff": 1.522,
+        "treebank": "UD_Finnish-TDT"
+    }
+}

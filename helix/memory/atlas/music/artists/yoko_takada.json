@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yoko_takada",
+  "entity_type": "music.composer",
+  "label": "Yoko Takada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Kouryu no Mimi",
+      "Treasure Hunter G"
+    ],
+    "artist_keys": [
+      "Yoko Takada"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q89701438",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

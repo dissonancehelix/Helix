@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:saori_yoshida",
+  "entity_type": "music.composer",
+  "label": "Saori Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Lost Judgment",
+      "Super Monkey Ball Banana Mania",
+      "Super Monkey Ball Banana Rumble",
+      "Yakuza",
+      "Yakuza 0",
+      "Yakuza 5",
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "Saori Yoshida"
+    ],
+    "track_count": 50
+  },
+  "external_ids": {
+    "vgmdb": "15319",
+    "musicbrainz": "fed4cd8c-a51c-4a59-9806-1758d1f940f4",
+    "wikidata": "Q128214485",
+    "spotify": "57wo2Em3UktCMqpCRK5pFv",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:piotr_musial",
+  "entity_type": "music.composer",
+  "label": "Piotr Musial",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Witcher 3"
+    ],
+    "artist_keys": [
+      "Piotr Musial"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "14559",
+    "musicbrainz": "8bcb4a54-2cf7-467e-9f04-dc7d9750c645",
+    "wikidata": "Q11817853",
+    "spotify": "4IVoqcr2G4cE9tH7crHsfE",
+    "lastfm": ""
+  }
+}

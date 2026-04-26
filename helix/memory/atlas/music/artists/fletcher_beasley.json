@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:fletcher_beasley",
+  "entity_type": "music.composer",
+  "label": "Fletcher Beasley",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Doom Troopers",
+      "Spider",
+      "X"
+    ],
+    "artist_keys": [
+      "Fletcher Beasley"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q5458762",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryo_sonoda",
+  "entity_type": "music.composer",
+  "label": "Ryo Sonoda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Ryo Sonoda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "19861",
+    "musicbrainz": "f8de1f29-fe4b-4259-ada3-c711af45d870",
+    "wikidata": "Q11422847",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:eri_yasuda",
+  "entity_type": "music.composer",
+  "label": "Eri Yasuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Harvest Moon"
+    ],
+    "artist_keys": [
+      "Eri Yasuda"
+    ],
+    "track_count": 84
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q22120684",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

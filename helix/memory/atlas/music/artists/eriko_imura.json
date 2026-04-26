@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:eriko_imura",
+  "entity_type": "music.composer",
+  "label": "Eriko Imura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "90 Minutes",
+      "Klonoa",
+      "Klonoa 2",
+      "Klonoa Heroes",
+      "Wagan Paradise"
+    ],
+    "artist_keys": [
+      "Eriko Imura"
+    ],
+    "track_count": 79
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

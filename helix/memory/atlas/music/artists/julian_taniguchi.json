@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:julian_taniguchi",
+  "entity_type": "music.composer",
+  "label": "Julian Taniguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Monkey Ball Banana Mania"
+    ],
+    "artist_keys": [
+      "Julian Taniguchi"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

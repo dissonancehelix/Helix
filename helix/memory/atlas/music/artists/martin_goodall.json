@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:martin_goodall",
+  "entity_type": "music.composer",
+  "label": "Martin Goodall",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Cutthroat Island"
+    ],
+    "artist_keys": [
+      "Martin Goodall"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

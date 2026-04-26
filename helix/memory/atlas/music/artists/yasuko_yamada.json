@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:yasuko_yamada",
+  "entity_type": "music.composer",
+  "label": "Yasuko Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Ace Attorney Investigations",
+      "Ah Eikou no Koshien",
+      "Battle Shark",
+      "Bubble Bobble",
+      "Bubble Bobble Revolution",
+      "Crayon Shin",
+      "Don Doko Don",
+      "Ganryu",
+      "NewZealand Story Revolution",
+      "Puzzle Bobble",
+      "Rainbow Islands Revolution",
+      "Space Invaders Revolution",
+      "The NewZealand Story",
+      "Violence Fight"
+    ],
+    "artist_keys": [
+      "Yasuko Yamada"
+    ],
+    "track_count": 178
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11470483",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

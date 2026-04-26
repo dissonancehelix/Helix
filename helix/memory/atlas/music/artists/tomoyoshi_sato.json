@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:tomoyoshi_sato",
+  "entity_type": "music.composer",
+  "label": "Tomoyoshi Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Boogie Wings",
+      "Captain America and The Avengers",
+      "Dark Seal II",
+      "Diet Go Go",
+      "Night Slashers",
+      "RoboCop 2",
+      "Scooby Doo 2",
+      "Spin Master",
+      "The Fairly OddParents!",
+      "Tumble Pop"
+    ],
+    "artist_keys": [
+      "Tomoyoshi Sato"
+    ],
+    "track_count": 158
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

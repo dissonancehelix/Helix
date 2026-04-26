@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:nobuyoshi_suzuki",
+  "entity_type": "music.composer",
+  "label": "Nobuyoshi Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bloodborne",
+      "Dark Souls III"
+    ],
+    "artist_keys": [
+      "Nobuyoshi Suzuki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11648546",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

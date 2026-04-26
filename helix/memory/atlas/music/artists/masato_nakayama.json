@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masato_nakayama",
+  "entity_type": "music.composer",
+  "label": "Masato Nakayama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Suikoden Tierkreis"
+    ],
+    "artist_keys": [
+      "Masato Nakayama"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "1977",
+    "musicbrainz": "e5c905e3-e32e-4671-b0cb-edb936f49cd2",
+    "wikidata": "Q9099466",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

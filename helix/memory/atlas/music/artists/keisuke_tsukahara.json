@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:keisuke_tsukahara",
+  "entity_type": "music.composer",
+  "label": "Keisuke Tsukahara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Gear",
+      "Master System",
+      "Mega Drive",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Alien Storm",
+      "Ax Battler",
+      "Bahamut Senki",
+      "Bloxeed",
+      "Cyborg Hunter",
+      "Dark Wizard",
+      "Doki Doki Penguin Land MD",
+      "F1 Super Lap",
+      "Land of Illusion",
+      "OutRun 2",
+      "Pyramid Magic III",
+      "Reggie Jackson Baseball",
+      "Shadow Dancer",
+      "Shining Force Cross Raid",
+      "Super League '91"
+    ],
+    "artist_keys": [
+      "Keisuke Tsukahara"
+    ],
+    "track_count": 137
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

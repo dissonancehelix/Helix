@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:chroma",
+  "entity_type": "music.composer",
+  "label": "Chroma",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario; Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Chroma"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q122899940",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

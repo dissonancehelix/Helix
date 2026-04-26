@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:kouta_nakashima",
+  "entity_type": "music.composer",
+  "label": "Kouta Nakashima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Phantasy Star Portable 2",
+      "Tales of the World"
+    ],
+    "artist_keys": [
+      "Kouta Nakashima"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

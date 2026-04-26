@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:john_lawrence",
+  "entity_type": "music.composer",
+  "label": "John Lawrence",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PlayStation"
+    ],
+    "franchises": [
+      "Blazing Dragons",
+      "Solar Eclipse"
+    ],
+    "artist_keys": [
+      "John Lawrence"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q108545248",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

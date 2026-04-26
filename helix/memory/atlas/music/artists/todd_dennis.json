@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:todd_dennis",
+  "entity_type": "music.composer",
+  "label": "Todd Dennis",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Todd Dennis"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q113288552",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

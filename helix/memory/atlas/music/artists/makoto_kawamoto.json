@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:makoto_kawamoto",
+  "entity_type": "music.composer",
+  "label": "Makoto Kawamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Lagrange Point"
+    ],
+    "artist_keys": [
+      "Makoto Kawamoto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "19253",
+    "musicbrainz": "9498d766-accf-4c26-8143-5baf0ac90ce2",
+    "wikidata": "Q854666",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Makoto_Kawamoto"
+  }
+}

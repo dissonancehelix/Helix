@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:ryuji_iuchi",
+  "entity_type": "music.composer",
+  "label": "Ryuji Iuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fox Junction",
+      "Shenmue",
+      "Super Monkey Ball",
+      "Super Monkey Ball 2"
+    ],
+    "artist_keys": [
+      "Ryuji Iuchi"
+    ],
+    "track_count": 50
+  },
+  "external_ids": {
+    "vgmdb": "402",
+    "musicbrainz": "0ac3bcf1-4ec4-4ce1-9a4b-a33b3f27ddcf",
+    "wikidata": "Q11373333",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ichiro_atsuno",
+  "entity_type": "music.composer",
+  "label": "Ichiro Atsuno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Formation Soccer 96"
+    ],
+    "artist_keys": [
+      "Ichiro Atsuno"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:sydon_inoue",
+  "entity_type": "music.composer",
+  "label": "Sydon Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2"
+    ],
+    "franchises": [
+      "Aleste 2",
+      "Blaster Burn"
+    ],
+    "artist_keys": [
+      "Sydon Inoue"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

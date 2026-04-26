@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akihiro_akamatsu_sachiko_oita",
+  "entity_type": "music.composer",
+  "label": "Akihiro Akamatsu, Sachiko Oita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Terra Cresta II"
+    ],
+    "artist_keys": [
+      "Akihiro Akamatsu, Sachiko Oita"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

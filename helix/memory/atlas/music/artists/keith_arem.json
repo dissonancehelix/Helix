@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:keith_arem",
+  "entity_type": "music.composer",
+  "label": "Keith Arem",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "BattleTech",
+      "Earthworm Jim"
+    ],
+    "artist_keys": [
+      "Keith Arem"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q115272146",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

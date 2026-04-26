@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hideyuki_ueno",
+  "entity_type": "music.composer",
+  "label": "Hideyuki Ueno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Rezon"
+    ],
+    "artist_keys": [
+      "Hideyuki Ueno"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

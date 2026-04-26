@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:comoesta_higashitotsuka",
+  "entity_type": "music.composer",
+  "label": "Comoesta Higashitotsuka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Comet Summoner"
+    ],
+    "artist_keys": [
+      "Comoesta Higashitotsuka"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

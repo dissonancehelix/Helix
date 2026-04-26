@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:shinobu_nagata",
+  "entity_type": "music.composer",
+  "label": "Shinobu Nagata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Animal Crossing",
+      "Mario Kart",
+      "Mario Kart DS",
+      "Super Mario Sunshine",
+      "Super Smash Bros. Brawl",
+      "Wii Play"
+    ],
+    "artist_keys": [
+      "Shinobu Nagata"
+    ],
+    "track_count": 191
+  },
+  "external_ids": {
+    "vgmdb": "1121",
+    "musicbrainz": "8805e662-fe6d-405a-a514-76012f06b717",
+    "wikidata": "Q11575166",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "7756647"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kow_otani",
+  "entity_type": "music.composer",
+  "label": "Kow Otani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Macross Digital Mission VF",
+      "Philosoma",
+      "Shadow of the Colossus"
+    ],
+    "artist_keys": [
+      "Kow Otani"
+    ],
+    "track_count": 77
+  },
+  "external_ids": {
+    "vgmdb": "1625",
+    "musicbrainz": "615e497a-340d-4efd-b191-73a22c280784",
+    "wikidata": "Q2578353",
+    "spotify": "3jHg6aSmg2nTtNaagQHnMv",
+    "lastfm": "大谷幸",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kow_Otani"
+  }
+}

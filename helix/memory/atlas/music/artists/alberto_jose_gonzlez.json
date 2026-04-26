@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:alberto_jose_gonzlez",
+  "entity_type": "music.composer",
+  "label": "Alberto Jose González",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Astérix",
+      "Astérix & Obelix",
+      "Astérix GB",
+      "Baby Felix",
+      "Bomb Jack",
+      "Cool Ball",
+      "Die Maus",
+      "Droopy's Tennis Open",
+      "Hostages",
+      "Hugo 2",
+      "Inspector Gadget Racing",
+      "Looney Tunes",
+      "Lucky Luke",
+      "Magic Johnson's Basketball",
+      "Marvin Strikes Back"
+    ],
+    "artist_keys": [
+      "Alberto Jose González"
+    ],
+    "track_count": 319
+  },
+  "external_ids": {
+    "vgmdb": "15680",
+    "musicbrainz": "3ef98fc9-c138-41a4-8655-a9161868421b",
+    "wikidata": "Q4143076",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alberto_Jos%C3%A9_Gonz%C3%A1lez"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:katsuhiko_suzuki",
+  "entity_type": "music.composer",
+  "label": "Katsuhiko Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "NES"
+    ],
+    "franchises": [
+      "Dynamite Headdy",
+      "Guardian Heroes",
+      "McDonald's Treasure Land Adventure",
+      "Mouryou Senki Madara",
+      "Rollergames",
+      "Silhouette Mirage",
+      "TwinBee 3",
+      "YuYu Hakusho",
+      "Yume Penguin Monogatari"
+    ],
+    "artist_keys": [
+      "Katsuhiko Suzuki"
+    ],
+    "track_count": 146
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q52609803",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

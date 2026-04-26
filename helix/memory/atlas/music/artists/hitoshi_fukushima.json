@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hitoshi_fukushima",
+  "entity_type": "music.composer",
+  "label": "Hitoshi Fukushima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Mario's Tennis"
+    ],
+    "artist_keys": [
+      "Hitoshi Fukushima"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

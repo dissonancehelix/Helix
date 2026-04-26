@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:minehiko_tanaka",
+  "entity_type": "music.composer",
+  "label": "Minehiko Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hell Night"
+    ],
+    "artist_keys": [
+      "Minehiko Tanaka"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

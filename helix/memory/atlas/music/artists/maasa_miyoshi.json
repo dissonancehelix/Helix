@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:maasa_miyoshi",
+  "entity_type": "music.composer",
+  "label": "Maasa Miyoshi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "1",
+      "Ring Fit Adventure",
+      "Super Smash Bros. Ultimate",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Maasa Miyoshi"
+    ],
+    "track_count": 182
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "6f240cf1-8a28-4519-ab8c-21ef4b687d33",
+    "wikidata": "Q123965298",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

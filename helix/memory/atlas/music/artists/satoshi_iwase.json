@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:satoshi_iwase",
+  "entity_type": "music.composer",
+  "label": "Satoshi Iwase",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Danganronpa",
+      "Danganronpa 2",
+      "Rain Code"
+    ],
+    "artist_keys": [
+      "Satoshi Iwase"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q123405366",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:oliver_good",
+  "entity_type": "music.composer",
+  "label": "Oliver Good",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Foamstars",
+      "Once Upon a Katamari",
+      "Protocol",
+      "Soul Hackers 2",
+      "Voice of Cards"
+    ],
+    "artist_keys": [
+      "Oliver Good"
+    ],
+    "track_count": 51
+  },
+  "external_ids": {
+    "vgmdb": "31677",
+    "musicbrainz": "b229e32d-aa73-4f12-89f1-c9f37c592157",
+    "wikidata": "Q112614321",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

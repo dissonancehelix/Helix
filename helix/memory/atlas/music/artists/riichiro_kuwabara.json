@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:riichiro_kuwabara",
+  "entity_type": "music.composer",
+  "label": "Riichiro Kuwabara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax"
+    ],
+    "artist_keys": [
+      "Riichiro Kuwabara"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q121355103",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

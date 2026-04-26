@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:yoshio_furukawa",
+  "entity_type": "music.composer",
+  "label": "Yoshio Furukawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Cyber Block Metal Orange",
+      "Magical Block Carat",
+      "Teen",
+      "Verytex"
+    ],
+    "artist_keys": [
+      "Yoshio Furukawa"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q924622",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoshio_Furukawa"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:taku_yabuki",
+  "entity_type": "music.composer",
+  "label": "Taku Yabuki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Taku Yabuki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

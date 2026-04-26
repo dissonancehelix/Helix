@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:kendrick_lamar",
+  "entity_type": "music.composer",
+  "label": "Kendrick Lamar",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Damn",
+      "GNX",
+      "Mr. Morale & the Big Steppers",
+      "To Pimp a Butterfly",
+      "good kid, m.A.A.d city",
+      "untitled unmastered."
+    ],
+    "artist_keys": [
+      "Kendrick Lamar"
+    ],
+    "track_count": 85
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q6389032",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "3062364",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kendrick_Lamar_discography"
+  }
+}

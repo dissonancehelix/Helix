@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:beautiful_hummingbird",
+  "entity_type": "music.composer",
+  "label": "Beautiful Hummingbird",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Forever"
+    ],
+    "artist_keys": [
+      "Beautiful Hummingbird"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "44257",
+    "musicbrainz": "6e41d1bc-629a-4fc6-b9e9-baec81672e26",
+    "wikidata": "Q11330951",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

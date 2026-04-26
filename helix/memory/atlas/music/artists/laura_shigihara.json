@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:laura_shigihara",
+  "entity_type": "music.composer",
+  "label": "Laura Shigihara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "To Far Away Times"
+    ],
+    "artist_keys": [
+      "Laura Shigihara"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "9331",
+    "musicbrainz": "e6be9a18-87fe-47c4-9c46-e6e92b88878c",
+    "wikidata": "Q512791",
+    "spotify": "2RnGA202UcoKq6KjzQCbNR",
+    "lastfm": "Laura+Shigihara",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laura_Shigihara"
+  }
+}

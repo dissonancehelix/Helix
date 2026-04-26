@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:hiroaki_sano",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Sano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "FM Towns",
+      "PC-98",
+      "PC-9801"
+    ],
+    "franchises": [
+      "Blaster Master Zero",
+      "Blaster Master Zero 2",
+      "Blaster Master Zero 3",
+      "Bloodstained",
+      "Bunretsu Shugo Shin Twinkle Star",
+      "Knights of Xentar",
+      "Marine Rouge",
+      "Mime",
+      "Mirage 2",
+      "Miwaku no Chousho",
+      "Possessioner"
+    ],
+    "artist_keys": [
+      "Hiroaki Sano"
+    ],
+    "track_count": 200
+  },
+  "external_ids": {
+    "vgmdb": "102",
+    "musicbrainz": "7d39fcc3-9136-4cc6-bc3e-f2399f7597b1",
+    "wikidata": "Q3136241",
+    "spotify": "3DTT8LRCg1ebGch5AAw3VT",
+    "lastfm": "",
+    "discogs": "4741871"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:taku_iwasaki",
+  "entity_type": "music.composer",
+  "label": "Taku Iwasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aerobiz Supersonic",
+      "Cho Aniki",
+      "L",
+      "Ranma ½"
+    ],
+    "artist_keys": [
+      "Taku Iwasaki"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "39",
+    "musicbrainz": "3917e398-5c87-453d-b676-96a0dfc996ff",
+    "wikidata": "Q1341491",
+    "spotify": "4E0I7rDFoLnOLb76hcdJ0v",
+    "lastfm": "岩崎琢",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taku_Iwasaki"
+  }
+}

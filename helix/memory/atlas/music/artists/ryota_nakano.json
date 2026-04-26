@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ryota_nakano",
+  "entity_type": "music.composer",
+  "label": "Ryota Nakano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Star Ocean"
+    ],
+    "artist_keys": [
+      "Ryota Nakano"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q111952729",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ryota_Nakano_(kickboxer)"
+  }
+}

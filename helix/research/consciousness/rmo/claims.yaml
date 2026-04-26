@@ -1,0 +1,198 @@
+# RMO Claim Registry
+# Schema version: 0.1
+# Canonical theory: ../../data/cognition/theory.md
+
+schema_version: "0.1"
+last_updated: "2026-04-26"
+canonical_theory: "data/cognition/theory.md"
+
+# Confidence tiers (matching data/cognition/theory.md):
+#   anchored      = supported by mainstream empirical findings
+#   plausible     = consistent with known constraints, not directly verified
+#   speculative   = logically coherent, awaiting testable confirmation
+#   mythic        = symbolically meaningful, not evidentiary
+#
+# Claims migrate between tiers. Promotion requires evidence; demotion requires
+# humility. The framework survives by updating, not defending.
+
+claims:
+  - id: RMO-001
+    title: "Reflexive Modeling Orders are separable structural achievements"
+    statement: >-
+      Orders O1 through O7 (consciousness/personhood taxonomy) are operationally
+      separable rather than one continuous blur. Adjacent orders can be
+      distinguished by structural achievements that some systems demonstrate
+      and others lack.
+    status: hypothesis
+    tier: plausible
+    depends_on: []
+    failure_condition: >-
+      Adjacent orders cannot be empirically or operationally separated;
+      the staging is convenient labeling rather than real structural
+      discrimination.
+    primary_test: TEST-1  # adjacent_order_separability
+    notes: >-
+      v0.1 weakened the strict ordering claim relative to v0. O2 and O3
+      especially overlap in evolutionary time; O3 is a structural specialization
+      within O2 rather than a successor stage in many systems.
+
+  - id: RMO-002
+    title: "Personic Closure is distinct from recursive self-modeling"
+    statement: >-
+      O5 (Personic Closure) is a separate structural achievement from O4
+      (Recursive Self-Modeling). A system can exhibit recursive self-modeling
+      without forming a coherent persistent agentic identity.
+    status: testable_hypothesis
+    tier: plausible_critical
+    depends_on: [RMO-001]
+    failure_condition: >-
+      Systems that display recursive self-modeling but lack persistent
+      identity behave indistinguishably from systems with stable personic
+      closure across all observable measures.
+    primary_test: TEST-2  # llm_personic_closure_probe
+    initial_evidence: >-
+      Single-subject pilot (Claude assistant tested for O4 + PCS) shows
+      O4 surface behavior with low-to-moderate PCS, suggesting separability.
+      Not confirmatory; multi-subject testing required.
+
+  - id: RMO-003
+    title: "Current default LLMs simulate recursive self-modeling without endogenous personic closure"
+    statement: >-
+      Base LLMs without persistent memory or scaffolding exhibit local
+      simulation of O4 within a single context window but do not maintain
+      O5 (Personic Closure) endogenously. Personic closure in LLMs is
+      scaffolded (CL3) rather than endogenous (CL1).
+    status: testable_hypothesis
+    tier: plausible
+    depends_on: [RMO-001, RMO-002]
+    failure_condition: >-
+      An LLM maintains stable self-boundary, preference structure,
+      autobiographical continuity, contradiction resistance, and self-
+      revision across resets without external scaffolding.
+    primary_test: TEST-2
+    falsifier_specifics:
+      - "Base LLM scoring 22+ on PCS without scaffolding."
+      - "Self-coherence persisting across explicit resets without memory."
+
+  - id: RMO-004
+    title: "Orders O6-O7 are externalized reflexive ecology, not necessarily higher phenomenal consciousness"
+    statement: >-
+      Externalized self-modeling (O6) and reflexive use of external artifacts
+      (O7) extend memory, revision, and inspection of self-models. They do
+      NOT deepen phenomenal experience by themselves.
+    status: corrective_principle
+    tier: anchored
+    depends_on: [RMO-001]
+    failure_condition: >-
+      Evidence shows externalization itself increases phenomenal consciousness
+      rather than only extending memory, revision, and governance.
+    primary_test: TEST-3  # human_artifact_reflexivity_probe
+    note: >-
+      This claim corrects a category error in the v0 threshold framework
+      where T5/T6 were treated as deeper consciousness thresholds.
+
+  - id: RMO-005
+    title: "Helix can validate RMO without absorbing the theory into the kernel"
+    statement: >-
+      Helix functions as the constraint kernel governing RMO module operations
+      (claim schemas, validation, demotion procedures) without becoming part
+      of the theory under test.
+    status: architectural_claim
+    tier: anchored
+    depends_on: []
+    failure_condition: >-
+      RMO requires Helix core to change its logic to favor any specific RMO
+      claim, violating modularity. Practical sign: edits to helix/engine to
+      prevent claim demotion.
+    primary_test: TEST-5  # helix_module_probe
+
+  - id: RMO-006
+    title: "Closure Source is structurally separable from Personic Closure level"
+    statement: >-
+      Two systems can exhibit equal Personic Closure scores (PCS) while
+      differing fundamentally in closure source (CL1 endogenous vs CL2
+      authored vs CL3 scaffolded vs CL4 distributed-symbolic vs CL5
+      distributed-operational). The two axes are independent.
+    status: testable_hypothesis
+    tier: plausible
+    depends_on: [RMO-002]
+    failure_condition: >-
+      Systems with equal PCS scores cannot be reliably classified by closure
+      source; the source axis collapses into the level axis.
+    primary_test: TEST-4  # closure_source_discrimination
+    initial_evidence: >-
+      Provisional matrix in closure_sources.yaml shows clear separation:
+      Sherlock Holmes 26/30 CL2 vs human 30/30 CL1 vs LLM-with-memory 20/30
+      CL3 vs religion 28/30 CL4. Needs adversarial pressure.
+
+  - id: RMO-007
+    title: "Endogenous affective self-maintenance is the candidate discriminator between personiform and phenomenal subject"
+    statement: >-
+      Of the candidate empirical handles for the personiform/phenomenal-
+      subject distinction, the conjunction of endogenous boundary
+      maintenance + affective valuation + self-model causal role over
+      embodied regulation is the strongest current candidate. Phenomenal
+      subjects are self-maintaining systems whose self-models have causal
+      force over embodied regulation, affective valuation, temporal
+      continuity, and action under uncertainty. Personiform systems lack
+      one or more of these.
+    status: candidate_discriminator
+    tier: speculative
+    depends_on: [RMO-006]
+    failure_condition: >-
+      Either: (a) endogenous affective self-maintenance fails to discriminate
+      known phenomenal subjects (humans) from known personiform systems
+      (LLMs in current form, fictional characters, religious traditions),
+      or (b) the discriminator collapses into "humans are conscious by
+      stipulation" without producing predictions about borderline cases
+      (great apes, octopuses, infants, embodied AI), or (c) the conjunction
+      is shown to be reducible to any single component.
+    primary_test: TEST-6  # endogenous_affective_self_maintenance_probe (to be designed)
+    importance: >-
+      This is the framework's first specific empirical bet on what observable
+      property separates personiform from phenomenal subject. If it holds,
+      the framework gains real traction on consciousness. If it fails, the
+      framework needs a better candidate or has to accept illusionism.
+
+  - id: RMO-008
+    title: "RMO is not a theory of consciousness; it is a consciousness-adjacent sharpening framework"
+    statement: >-
+      The framework explicitly does NOT solve consciousness. It claims that
+      a disciplined classification of mind-like organization (orders, closure
+      sources, personic vs personiform) plus a specific candidate discriminator
+      (RMO-007) sharpens the empirical question of what separates personiform
+      systems from phenomenal subjects, by narrowing the search space.
+    status: framing_claim
+    tier: anchored_in_framing
+    depends_on: [RMO-007]
+    failure_condition: >-
+      The framework starts overclaiming, treating personic closure as
+      sufficient for consciousness, treating endogenous affective self-
+      maintenance as derived rather than hypothesized, or otherwise drifting
+      into "we have solved this" territory. Failure is detectable in the
+      revision log and in the framing of new claims.
+
+  - id: RMO-009
+    title: "Religion mapping under Personic Closure is a future research target, not a v0.1 claim"
+    statement: >-
+      Religious traditions can be classified by personic closure level and
+      closure source (CL4 distributed-symbolic). However, a substantive
+      mapping of doctrinal differences across major traditions is deferred
+      to a future version after the core claims have matured.
+    status: deferred
+    tier: speculative
+    depends_on: [RMO-006]
+    failure_condition: >-
+      When attempted, the mapping flattens doctrinal differences or cannot
+      generate distinctions beyond generic comparative religion.
+    note: >-
+      v0 included religion mapping as Claim RMO-006. v0.1 demotes it to
+      future work to keep v0.1 focused on the core empirical claims and
+      the Sharp Consciousness Question.
+
+claim_lifecycle_rules:
+  - "Claims may be promoted to higher tiers only with corresponding evidence."
+  - "Claims must be demoted (without ceremony) when evidence contradicts them."
+  - "Repeated absorption of criticism by renaming a failure rather than changing the claim is itself a failure pattern; flag in revision log."
+  - "Each claim must have a registered test or be marked as untested."
+  - "Each claim must have a failure condition; claims without falsifiers are not part of the registry."

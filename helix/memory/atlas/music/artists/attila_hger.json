@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:attila_hger",
+  "entity_type": "music.composer",
+  "label": "Attila Héger",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Star Trek"
+    ],
+    "artist_keys": [
+      "Attila Héger"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

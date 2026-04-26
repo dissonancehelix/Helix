@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yukihiro_takahashi",
+  "entity_type": "music.composer",
+  "label": "Yukihiro Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "The Journey Home"
+    ],
+    "artist_keys": [
+      "Yukihiro Takahashi"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "1642",
+    "musicbrainz": "e1410ddc-9745-4b5d-814d-77eb0cdfa6ad",
+    "wikidata": "Q1750532",
+    "spotify": "5Rv28BOArteQRhL8YUYgD5",
+    "lastfm": "高橋幸宏",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yukihiro_Takahashi"
+  }
+}

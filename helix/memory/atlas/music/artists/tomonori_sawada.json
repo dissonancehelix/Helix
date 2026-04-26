@@ -1,0 +1,92 @@
+{
+  "entity_id": "music.composer:tomonori_sawada",
+  "entity_type": "COMPOSER",
+  "label": "Tomonori Sawada",
+  "aliases": [],
+  "description": "Sega composer; collaborated with Sachio Ogawa",
+  "affiliations": [
+    {
+      "org": "music.soundteam:sega_sound_team",
+      "role": "composer"
+    }
+  ],
+  "library": {
+    "artist_keys": [
+      "kenichi tokoi / tomoya ohtani / mitsuharu fukuyama / satoshi okamura / dé dé mouse / jimanica / chroma / tomonori sawada",
+      "sachio ogawa\u0000tomonori sawada",
+      "tomoko sasaki / mariko nanba / tomoya ohtani / hideaki kobayashi / fumie kumatani / tomonori sawada",
+      "tomonori sawada",
+      "tomonori sawada\u0000keisuke tsukahara\u0000izuho numata",
+      "tomonori sawada / keiichi sugiyama"
+    ],
+    "track_count": 218,
+    "hw_seq_count": 24,
+    "audio_count": 194,
+    "platform_counts": {
+      "vgm_vgz": 24
+    },
+    "hw_seq_track_ids": [
+      "music.track.golden_axe_iii.04_boss_odd_stage",
+      "music.track.golden_axe_iii.11_the_scorching_sand",
+      "music.track.j_league_pro_striker.01_opening_theme",
+      "music.track.j_league_pro_striker.02_match_setup",
+      "music.track.j_league_pro_striker.03_ending_theme",
+      "music.track.j_league_pro_striker.04_title_theme_returning",
+      "music.track.land_of_illusion.01_intro",
+      "music.track.land_of_illusion.02_map",
+      "music.track.land_of_illusion.03_story",
+      "music.track.land_of_illusion.04_forest",
+      "music.track.land_of_illusion.05_lake_and_flower_field",
+      "music.track.land_of_illusion.06_castle",
+      "music.track.land_of_illusion.07_boss",
+      "music.track.land_of_illusion.08_castle_ruins",
+      "music.track.land_of_illusion.09_tiny_cavern",
+      "music.track.land_of_illusion.10_toy_workshop",
+      "music.track.land_of_illusion.11_desert",
+      "music.track.land_of_illusion.12_map_over_clouds",
+      "music.track.land_of_illusion.14_island",
+      "music.track.land_of_illusion.15_phantoms_castle",
+      "music.track.land_of_illusion.16_final_boss",
+      "music.track.land_of_illusion.17_ending",
+      "music.track.land_of_illusion.18_continue",
+      "music.track.sonic_the_hedgehog_2.10_crystal_egg_zone"
+    ]
+  },
+  "style_signature": {
+    "groove_score": 0.601361,
+    "bass_rhythmic_regularity": 0.360598,
+    "melody_bass_independence": 0.336926,
+    "motif_recurrence": 0.088134,
+    "pitch_entropy": 3.159285,
+    "rhythmic_entropy": 2.243893,
+    "pulse_coherence": 0.101507,
+    "off_beat_ratio": 0.898493,
+    "chromatic_intrusion_rate": 0.321785,
+    "interval_roughness": 0.276693,
+    "harmonic_tension_score": 0.39444,
+    "sustained_ratio": 0.197443,
+    "register_separation": 29.853369,
+    "tempo_bpm": 225.059524,
+    "pre_seam_density_spike": 15.929629,
+    "seam_sharpness": 14.19782,
+    "emergence_index": -0.168776,
+    "disappearance_index": -0.266677,
+    "prevalence_of_tritones": 0.0,
+    "vertical_dissonance": 0.0,
+    "scale_mode": "Phrygian",
+    "fm_unique_patches": null,
+    "fm_timbre_reuse_ratio": null,
+    "note_density": 10.446344,
+    "avg_phrase_length": 21.229528,
+    "phrase_regularity": 0.120886,
+    "calibration_track_count": 24,
+    "source": "applications/labs/artifacts/analysis/s3k_composer_fingerprints.json"
+  },
+  "external_ids": {
+    "wikidata": "Q104500945",
+    "spotify": "",
+    "musicbrainz": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yuri_hiranuma",
+  "entity_type": "music.composer",
+  "label": "Yuri Hiranuma",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Phantasy Star Online Episode I & II Premium Arrange"
+    ],
+    "artist_keys": [
+      "Yuri Hiranuma"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

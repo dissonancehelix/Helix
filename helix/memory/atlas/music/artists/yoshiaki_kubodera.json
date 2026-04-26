@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshiaki_kubodera",
+  "entity_type": "music.composer",
+  "label": "Yoshiaki Kubodera",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Hakunetsu Pro Baseball '93"
+    ],
+    "artist_keys": [
+      "Yoshiaki Kubodera"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

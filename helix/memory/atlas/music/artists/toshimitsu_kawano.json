@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toshimitsu_kawano",
+  "entity_type": "music.composer",
+  "label": "Toshimitsu Kawano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Slimyer"
+    ],
+    "artist_keys": [
+      "Toshimitsu Kawano"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

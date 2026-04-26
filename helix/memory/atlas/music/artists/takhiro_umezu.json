@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takhiro_umezu",
+  "entity_type": "music.composer",
+  "label": "Takhiro Umezu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Beast Wrestler"
+    ],
+    "artist_keys": [
+      "Takhiro Umezu"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

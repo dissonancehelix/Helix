@@ -1,0 +1,47 @@
+{
+  "entity_id": "music.composer:atsuhiro_motoyama",
+  "entity_type": "music.composer",
+  "label": "Atsuhiro Motoyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II",
+      "DS",
+      "Game Boy",
+      "Game Boy Advance",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "After Burst",
+      "Armed Police Batrider",
+      "Bloody Roar",
+      "Cyber City Oedo 808",
+      "Digital Champ",
+      "Dimahoo",
+      "Eyeshield 21",
+      "Ganbare! Golf Boys",
+      "Kuru Kuru Kururin",
+      "Kururin Squash!",
+      "L",
+      "Might and Magic",
+      "Psychosis",
+      "Ranma ½",
+      "Serpent"
+    ],
+    "artist_keys": [
+      "Atsuhiro Motoyama"
+    ],
+    "track_count": 213
+  },
+  "external_ids": {
+    "vgmdb": "1887",
+    "musicbrainz": "754c5790-f558-4aaf-a6ba-e7550e32cc29",
+    "wikidata": "Q4817759",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atsuhiro_Motoyama"
+  }
+}

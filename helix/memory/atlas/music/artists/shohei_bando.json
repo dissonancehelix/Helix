@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shohei_bando",
+  "entity_type": "music.composer",
+  "label": "Shohei Bando",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Bomberman Land Touch!",
+      "Mario Party 2"
+    ],
+    "artist_keys": [
+      "Shohei Bando"
+    ],
+    "track_count": 99
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

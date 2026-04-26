@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kaname_ohara",
+  "entity_type": "music.composer",
+  "label": "Kaname Ohara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Vantage Master"
+    ],
+    "artist_keys": [
+      "Kaname Ohara"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

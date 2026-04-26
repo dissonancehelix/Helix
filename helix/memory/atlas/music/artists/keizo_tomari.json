@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:keizo_tomari",
+  "entity_type": "music.composer",
+  "label": "Keizo Tomari",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "FM Towns"
+    ],
+    "franchises": [
+      "Mirage 2"
+    ],
+    "artist_keys": [
+      "Keizo Tomari"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

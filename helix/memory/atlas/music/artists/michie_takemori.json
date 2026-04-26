@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:michie_takemori",
+  "entity_type": "music.composer",
+  "label": "Michie Takemori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Bay Route"
+    ],
+    "artist_keys": [
+      "Michie Takemori"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

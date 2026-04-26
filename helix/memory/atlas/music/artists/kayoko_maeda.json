@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:kayoko_maeda",
+  "entity_type": "music.composer",
+  "label": "Kayoko Maeda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "L",
+      "Ranma ½"
+    ],
+    "artist_keys": [
+      "Kayoko Maeda"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

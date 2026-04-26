@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:daisuke_ishiwatari",
+  "entity_type": "music.composer",
+  "label": "Daisuke Ishiwatari",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "BlazBlue",
+      "Blazblue",
+      "Guilty Gear Dust Strikers",
+      "Guilty Gear Xrd",
+      "Hard Corps"
+    ],
+    "artist_keys": [
+      "Daisuke Ishiwatari"
+    ],
+    "track_count": 145
+  },
+  "external_ids": {
+    "vgmdb": "1566",
+    "musicbrainz": "faeb2565-6ef4-4b4c-a4ab-f5505fed75f8",
+    "wikidata": "Q429678",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1727415",
+    "wikipedia": "https://en.wikipedia.org/wiki/Daisuke_Ishiwatari"
+  }
+}

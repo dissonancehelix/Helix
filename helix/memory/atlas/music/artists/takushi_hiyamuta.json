@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:takushi_hiyamuta",
+  "entity_type": "music.composer",
+  "label": "Takushi Hiyamuta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo",
+      "Neo Geo Pocket Color",
+      "Super NES"
+    ],
+    "franchises": [
+      "Air Duel",
+      "Blade Master",
+      "Cosmic Cop",
+      "Half",
+      "King of Fighters R",
+      "Lightning Swords",
+      "Metal Slug",
+      "Metal Slug 2",
+      "Metal Slug 3",
+      "Metal Slug X",
+      "Neo Turf Masters",
+      "Risky Challenge",
+      "Super R"
+    ],
+    "artist_keys": [
+      "Takushi Hiyamuta"
+    ],
+    "track_count": 156
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

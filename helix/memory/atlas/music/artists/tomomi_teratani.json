@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:tomomi_teratani",
+  "entity_type": "music.composer",
+  "label": "Tomomi Teratani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Akumajo Dracula Tribute Vol.1",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax"
+    ],
+    "artist_keys": [
+      "Tomomi Teratani"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "82",
+    "musicbrainz": "70b53472-09dd-4f51-8a1e-b1b6dab0b2ff",
+    "wikidata": "Q11230991",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

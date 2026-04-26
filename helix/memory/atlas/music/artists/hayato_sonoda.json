@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:hayato_sonoda",
+  "entity_type": "music.composer",
+  "label": "Hayato Sonoda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gurumin",
+      "Monarch Monarch",
+      "The Legend of Heroes V",
+      "Tokyo Xanadu",
+      "Trails / Kiseki",
+      "Trails in the Sky 1st Chapter",
+      "VM Japan",
+      "Vantage Master",
+      "Xanadu Next",
+      "Ys"
+    ],
+    "artist_keys": [
+      "Hayato Sonoda"
+    ],
+    "track_count": 543
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q48763784",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

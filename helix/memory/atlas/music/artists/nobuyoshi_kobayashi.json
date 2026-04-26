@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:nobuyoshi_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Nobuyoshi Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Daemon X Machina",
+      "Endrays",
+      "Goonect"
+    ],
+    "artist_keys": [
+      "Nobuyoshi Kobayashi"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

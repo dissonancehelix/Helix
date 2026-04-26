@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tetsuya_furumoto",
+  "entity_type": "music.composer",
+  "label": "Tetsuya Furumoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Hakunetsu Pro Baseball '93"
+    ],
+    "artist_keys": [
+      "Tetsuya Furumoto"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

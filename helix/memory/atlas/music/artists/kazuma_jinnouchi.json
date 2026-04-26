@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kazuma_jinnouchi",
+  "entity_type": "music.composer",
+  "label": "Kazuma Jinnouchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid 4"
+    ],
+    "artist_keys": [
+      "Kazuma Jinnouchi"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "4006",
+    "musicbrainz": "c9c59c75-f51b-4e38-bc15-b3a036f4d0ad",
+    "wikidata": "Q21155204",
+    "spotify": "2UM9kTNJPoOHuN4yeDT54i",
+    "lastfm": ""
+  }
+}

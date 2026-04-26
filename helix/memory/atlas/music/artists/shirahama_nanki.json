@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shirahama_nanki",
+  "entity_type": "music.composer",
+  "label": "Shirahama Nanki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Mad Paradox"
+    ],
+    "artist_keys": [
+      "Shirahama Nanki"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

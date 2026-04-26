@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shiriko_dama",
+  "entity_type": "music.composer",
+  "label": "Shiriko Dama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Master System"
+    ],
+    "franchises": [
+      "The Cyber Shinobi"
+    ],
+    "artist_keys": [
+      "Shiriko Dama"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

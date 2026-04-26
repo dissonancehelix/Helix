@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yu_yoshida",
+  "entity_type": "music.composer",
+  "label": "Yu Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Dual Orb II"
+    ],
+    "artist_keys": [
+      "Yu Yoshida"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q43425963",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

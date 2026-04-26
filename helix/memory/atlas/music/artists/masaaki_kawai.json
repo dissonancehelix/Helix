@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:masaaki_kawai",
+  "entity_type": "music.composer",
+  "label": "Masaaki Kawai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Dinosaur",
+      "Dragon Slayer",
+      "Ys III"
+    ],
+    "artist_keys": [
+      "Masaaki Kawai"
+    ],
+    "track_count": 27
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q87386011",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

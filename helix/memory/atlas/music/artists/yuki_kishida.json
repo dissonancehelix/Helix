@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yuki_kishida",
+  "entity_type": "music.composer",
+  "label": "Yuki Kishida",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kingdom Hearts III"
+    ],
+    "artist_keys": [
+      "Yuki Kishida"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "16011",
+    "musicbrainz": "e6fc3695-b510-4439-a0c7-a2c56166e413",
+    "wikidata": "Q22128444",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

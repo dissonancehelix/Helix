@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:takenobu_mitsuyoshi",
+  "entity_type": "music.composer",
+  "label": "Takenobu Mitsuyoshi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Chunithm",
+      "Crackin' DJ",
+      "Daytona USA",
+      "GP Rider",
+      "Great Wall",
+      "Like a Dragon",
+      "Mystery Case In Hi!school!! Synergy",
+      "OLIO2",
+      "OutRunners",
+      "R360 G",
+      "Samba de Amigo",
+      "Sega Rally 2006",
+      "Sega Rally Championship",
+      "Shenmue",
+      "Sin Chronicle"
+    ],
+    "artist_keys": [
+      "Takenobu Mitsuyoshi"
+    ],
+    "track_count": 136
+  },
+  "external_ids": {
+    "vgmdb": "156",
+    "musicbrainz": "d519fa75-adcc-4f50-a406-f99fd94f8d82",
+    "wikidata": "Q3178490",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "343889",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takenobu_Mitsuyoshi"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takako_ochiai",
+  "entity_type": "music.composer",
+  "label": "Takako Ochiai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Granstream Saga"
+    ],
+    "artist_keys": [
+      "Takako Ochiai"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masataka_matsutoya",
+  "entity_type": "music.composer",
+  "label": "Masataka Matsutoya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Professor Layton and the Miracle Mask"
+    ],
+    "artist_keys": [
+      "Masataka Matsutoya"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "12555",
+    "musicbrainz": "9c6c2291-d61e-4bf8-85d6-af396c0e814a",
+    "wikidata": "Q841531",
+    "spotify": "431kFpgq1jq0Ap5sAi5uX5",
+    "lastfm": "松任谷正隆",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masataka_Matsutoya"
+  }
+}

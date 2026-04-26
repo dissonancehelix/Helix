@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshiaki_ogiwara",
+  "entity_type": "music.composer",
+  "label": "Yoshiaki Ogiwara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Ongaku Tsukuru"
+    ],
+    "artist_keys": [
+      "Yoshiaki Ogiwara"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

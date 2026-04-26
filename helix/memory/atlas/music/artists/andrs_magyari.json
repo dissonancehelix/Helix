@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:andrs_magyari",
+  "entity_type": "music.composer",
+  "label": "András Magyari",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "NES"
+    ],
+    "franchises": [
+      "California Games",
+      "Cyborg Justice",
+      "Ecco",
+      "Ecco the Dolphin",
+      "Richard Scarry's Busytown",
+      "Star Trek",
+      "Tiny Toon Adventures"
+    ],
+    "artist_keys": [
+      "András Magyari"
+    ],
+    "track_count": 62
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q115760799",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

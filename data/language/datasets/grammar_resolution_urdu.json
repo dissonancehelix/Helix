@@ -1,0 +1,101 @@
+{
+    "domain": "language",
+    "language": "urdu",
+    "system_description": "Urdu SOV with ergative split — near-identical grammar to Hindi. Urdu and Hindi share the same grammatical structure, differing primarily in script (Nastaliq vs Devanagari) and vocabulary (Perso-Arabic vs Sanskrit roots). The same postposition system marks case (ne ergative, ko dative/accusative, se ablative/instrumental, mein locative, par locative), and the same perfective ergativity applies. Verb agreement follows the same split-ergative pattern. Any difference in k_eff from Hindi should be attributable to treebank annotation choices, not grammar.",
+    "agents": [
+        {
+            "id": "rule_case_postposition",
+            "role": "dominant_rule",
+            "influence_weight": 0.8128,
+            "ud_signal_type": "case"
+        },
+        {
+            "id": "rule_agreement",
+            "role": "dominant_rule",
+            "influence_weight": 0.0794,
+            "ud_signal_type": "agreement"
+        },
+        {
+            "id": "rule_word_order",
+            "role": "secondary_rule",
+            "influence_weight": 0.0078,
+            "ud_signal_type": "word_order"
+        },
+        {
+            "id": "rule_pragmatic",
+            "role": "edge_case",
+            "influence_weight": 0.1,
+            "ud_signal_type": "pragmatic"
+        }
+    ],
+    "decision_rounds": [
+        {
+            "round": 1,
+            "weights": [
+                0.85,
+                0.06,
+                0.0,
+                0.09
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 2,
+            "weights": [
+                0.81,
+                0.09,
+                0.02,
+                0.08
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 3,
+            "weights": [
+                0.83,
+                0.06,
+                0.0,
+                0.11
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 4,
+            "weights": [
+                0.81,
+                0.07,
+                0.01,
+                0.11
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 5,
+            "weights": [
+                0.81,
+                0.08,
+                0.02,
+                0.09
+            ],
+            "outcome": "parse_A"
+        }
+    ],
+    "expected_k_eff_range": [
+        1.26,
+        1.7
+    ],
+    "notes": "PRE-REGISTERED prediction: k_eff within ±0.3 of Hindi's calibrated result. Urdu grammar is nearly identical to Hindi — the UD treebank may annotate the same constructions differently (Urdu uses more Arabic-origin words which might affect POS tagging). Pre-registration falsifier: if Urdu k_eff differs from Hindi k_eff by more than ±0.5, it indicates annotation divergence rather than linguistic divergence.",
+    "source": "ud_treebank",
+    "ud_diagnostics": {
+        "sentences_analyzed": 500,
+        "case_density": 0.9594,
+        "agreement_density": 0.7522,
+        "order_rigidity": 0.9916,
+        "order_signal": 1.0,
+        "morphological_richness": 2.8205,
+        "compression_density": 2.5912,
+        "dominant_rule": "case",
+        "ud_k_eff": 1.477,
+        "treebank": "UD_Urdu-UDTB"
+    }
+}

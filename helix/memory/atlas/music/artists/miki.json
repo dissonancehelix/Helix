@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:miki",
+  "entity_type": "music.composer",
+  "label": "Miki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "The Ultimate 11"
+    ],
+    "artist_keys": [
+      "Miki"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ca6ada40-4d20-43d2-9144-f12ba7d2bed0",
+    "wikidata": "Q60727325",
+    "spotify": "2hahtdJusGYC77DKod4qfB",
+    "lastfm": "Miki",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miki_N%C3%BA%C3%B1ez"
+  }
+}

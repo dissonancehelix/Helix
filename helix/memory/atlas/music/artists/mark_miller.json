@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:mark_miller",
+  "entity_type": "music.composer",
+  "label": "Mark Miller",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Action 52",
+      "Andre Agassi Tennis",
+      "Awesome Possum Kicks Dr. Machino's Butt!",
+      "Ballz",
+      "Chakan",
+      "Kid Chameleon",
+      "Krusty's Super Fun House",
+      "Pink Goes to Hollywood",
+      "Road Runner's Death Valley Rally",
+      "RoboCop versus The Terminator",
+      "Rocko's Modern Life",
+      "Scooby",
+      "The Jungle Book",
+      "Virtual Pinball",
+      "WWF Super WrestleMania"
+    ],
+    "artist_keys": [
+      "Mark Miller"
+    ],
+    "track_count": 169
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q6768885",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mark_Miller_(actor)"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masaki_kurokawa",
+  "entity_type": "music.composer",
+  "label": "Masaki Kurokawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kartia",
+      "Persona",
+      "Persona; Shin Megami Tensei",
+      "Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Masaki Kurokawa"
+    ],
+    "track_count": 112
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

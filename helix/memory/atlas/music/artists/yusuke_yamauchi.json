@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:yusuke_yamauchi",
+  "entity_type": "music.composer",
+  "label": "Yusuke Yamauchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat 7",
+      "Daemon X Machina",
+      "Once Upon a Katamari",
+      "Super Smash Bros. Ultimate",
+      "Survival Quiz City",
+      "Tekken 8"
+    ],
+    "artist_keys": [
+      "Yusuke Yamauchi"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q57007049",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

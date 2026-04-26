@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:naoki_itamura",
+  "entity_type": "music.composer",
+  "label": "Naoki Itamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PC Engine"
+    ],
+    "franchises": [
+      "F",
+      "Mahjong Daiyogen",
+      "Mahjong Fun Club",
+      "Mahjong Natsu Monogatari",
+      "Rabbit Punch Special",
+      "Super Volleyball",
+      "Tail to Nose",
+      "Wai Wai Mahjong"
+    ],
+    "artist_keys": [
+      "Naoki Itamura"
+    ],
+    "track_count": 75
+  },
+  "external_ids": {
+    "vgmdb": "1109",
+    "musicbrainz": "2edab136-a067-434d-8b61-dda36a62fd6c",
+    "wikidata": "Q6964549",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

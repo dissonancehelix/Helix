@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yoshitatsu_sakai",
+  "entity_type": "music.composer",
+  "label": "Yoshitatsu Sakai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Air Gallet",
+      "Batsugun"
+    ],
+    "artist_keys": [
+      "Yoshitatsu Sakai"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

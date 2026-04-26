@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:brian_coburn",
+  "entity_type": "music.composer",
+  "label": "Brian Coburn",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Cyborg Justice",
+      "Ecco the Dolphin",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Brian Coburn"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q4963393",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brian_Coburn_(actor)"
+  }
+}

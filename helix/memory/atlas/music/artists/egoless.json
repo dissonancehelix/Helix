@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:egoless",
+  "entity_type": "music.composer",
+  "label": "Egoless",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Belly of the Beast / Dub Liberation"
+    ],
+    "artist_keys": [
+      "Egoless"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3406948",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Egoless_programming"
+  }
+}

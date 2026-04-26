@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:shuichi_mizohata",
+  "entity_type": "music.composer",
+  "label": "Shuichi Mizohata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man X7"
+    ],
+    "artist_keys": [
+      "Shuichi Mizohata"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

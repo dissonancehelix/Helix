@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:nobuhiro_makino",
+  "entity_type": "music.composer",
+  "label": "Nobuhiro Makino",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Kounai Shasei"
+    ],
+    "artist_keys": [
+      "Nobuhiro Makino"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "2897",
+    "musicbrainz": "b13a1821-4f3c-4205-bcac-80a49611cd25",
+    "wikidata": "Q11570528",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takashi_onodera",
+  "entity_type": "music.composer",
+  "label": "Takashi Onodera",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Armored Core VI"
+    ],
+    "artist_keys": [
+      "Takashi Onodera"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q80171322",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

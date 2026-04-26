@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryan_beveridge",
+  "entity_type": "music.composer",
+  "label": "Ryan Beveridge",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Spyro"
+    ],
+    "artist_keys": [
+      "Ryan Beveridge"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q119040675",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

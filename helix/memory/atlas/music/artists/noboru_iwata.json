@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:noboru_iwata",
+  "entity_type": "music.composer",
+  "label": "Noboru Iwata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Getsumen no Anubis"
+    ],
+    "artist_keys": [
+      "Noboru Iwata"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114321357",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

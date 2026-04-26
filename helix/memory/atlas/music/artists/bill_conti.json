@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:bill_conti",
+  "entity_type": "music.composer",
+  "label": "Bill Conti",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Bill Conti"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "18540",
+    "musicbrainz": "631e2d6a-16ac-4c49-89ac-987dc81e60e9",
+    "wikidata": "Q367084",
+    "spotify": "272ygo5fv9cYsiCLcV0HV2",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bill_Conti"
+  }
+}

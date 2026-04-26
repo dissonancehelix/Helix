@@ -1,0 +1,52 @@
+[
+  {
+    "candidate_local_id": "Sonic the Hedgehog 3",
+    "candidate_external_id": "VGM-0001",
+    "tier": "TIER_A",
+    "category": "release",
+    "status": "correct",
+    "failure_pattern": null,
+    "notes": "",
+    "timestamp": "2026-03-31T16:34:24.537691+00:00"
+  },
+  {
+    "candidate_local_id": "Selection",
+    "candidate_external_id": "VGM-9999",
+    "tier": "TIER_A",
+    "category": "release",
+    "status": "incorrect",
+    "failure_pattern": "generic_title_collision",
+    "notes": "Title alone carries no authority for generic terms.",
+    "timestamp": "2026-03-31T16:34:24.537704+00:00"
+  },
+  {
+    "candidate_local_id": "Final Fantasy VII (Selected)",
+    "candidate_external_id": "VGM-FF7-FULL",
+    "tier": "TIER_B",
+    "category": "curated_subset",
+    "status": "ambiguous",
+    "failure_pattern": "curated_subset_overreach",
+    "notes": "Insufficient track overlap (< 20%) to confirm identity.",
+    "timestamp": "2026-03-31T16:34:24.537709+00:00"
+  },
+  {
+    "candidate_local_id": "Disk 1",
+    "candidate_external_id": "VGM-DISK1-RANDOM",
+    "tier": "TIER_B",
+    "category": "folder_recovery",
+    "status": "incorrect",
+    "failure_pattern": "folder_name_false_authority",
+    "notes": "Folder-based recovery was too broad for generic numbering.",
+    "timestamp": "2026-03-31T16:34:24.537713+00:00"
+  },
+  {
+    "candidate_local_id": "Chrono Trigger",
+    "candidate_external_id": "VGM-ZELDA-OOT",
+    "tier": "TIER_A",
+    "category": "release",
+    "status": "incorrect",
+    "failure_pattern": "contradiction_gate_failure",
+    "notes": "Contradiction gate was explicitly triggered but TIER_A was assigned.",
+    "timestamp": "2026-03-31T16:34:24.537717+00:00"
+  }
+]

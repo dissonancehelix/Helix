@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shuntaro_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Shuntaro Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Shuntaro Kobayashi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "7010",
+    "musicbrainz": "249020a5-1c66-4c89-bd7c-72ca07fce467",
+    "wikidata": "Q20040105",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

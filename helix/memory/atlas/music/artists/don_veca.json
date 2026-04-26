@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:don_veca",
+  "entity_type": "music.composer",
+  "label": "Don Veca",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Road Rash 3",
+      "Road Rash II",
+      "Urban Strike"
+    ],
+    "artist_keys": [
+      "Don Veca"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

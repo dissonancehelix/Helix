@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:yuka_kitamura",
+  "entity_type": "music.composer",
+  "label": "Yuka Kitamura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Armored Core",
+      "Bloodborne",
+      "Dark Souls II",
+      "Dark Souls III",
+      "Déraciné",
+      "Elden Ring",
+      "Elden Ring Nightreign",
+      "Sekiro"
+    ],
+    "artist_keys": [
+      "Yuka Kitamura"
+    ],
+    "track_count": 117
+  },
+  "external_ids": {
+    "vgmdb": "14012",
+    "musicbrainz": "4a057608-1669-4e1c-8c5c-21c9fbce0d36",
+    "wikidata": "Q108801209",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

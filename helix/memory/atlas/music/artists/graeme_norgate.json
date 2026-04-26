@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:graeme_norgate",
+  "entity_type": "music.composer",
+  "label": "Graeme Norgate",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blast Corps",
+      "GoldenEye 007",
+      "Jet Force Gemini",
+      "Killer Instinct",
+      "Perfect Dark",
+      "Tamarin"
+    ],
+    "artist_keys": [
+      "Graeme Norgate"
+    ],
+    "track_count": 118
+  },
+  "external_ids": {
+    "vgmdb": "2743",
+    "musicbrainz": "ad5c5999-900c-46c7-a76e-d51aa97ab6f0",
+    "wikidata": "Q5592358",
+    "spotify": "07YEcf8th1fAAGFeUMgqRx",
+    "lastfm": "",
+    "discogs": "225773",
+    "wikipedia": "https://en.wikipedia.org/wiki/Graeme_Norgate"
+  }
+}

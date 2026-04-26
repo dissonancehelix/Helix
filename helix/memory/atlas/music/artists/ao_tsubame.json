@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ao_tsubame",
+  "entity_type": "music.composer",
+  "label": "Ao Tsubame",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Daemon X Machina",
+      "Survival Quiz City",
+      "Tekken 8"
+    ],
+    "artist_keys": [
+      "Ao Tsubame"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

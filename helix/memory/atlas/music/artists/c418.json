@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:c418",
+  "entity_type": "music.composer",
+  "label": "C418",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Binding of Isaac"
+    ],
+    "artist_keys": [
+      "C418"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "10292",
+    "musicbrainz": "1db73bf2-2e08-4f7c-88de-cf4020800294",
+    "wikidata": "Q1847436",
+    "spotify": "4uFZsG1vXrPcvnZ4iSQyrx",
+    "lastfm": "C418",
+    "wikipedia": "https://en.wikipedia.org/wiki/C418"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:koji_nakagawa",
+  "entity_type": "music.composer",
+  "label": "Koji Nakagawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Ace Combat 3",
+      "Alpine Racer 3",
+      "Mario Kart Arcade GP",
+      "R",
+      "R4",
+      "Ridge Racer 6",
+      "Ridge Racers",
+      "Ridge Racers 2",
+      "Taiko no Tatsujin",
+      "Techno Drive",
+      "YuYu Hakusho"
+    ],
+    "artist_keys": [
+      "Koji Nakagawa"
+    ],
+    "track_count": 65
+  },
+  "external_ids": {
+    "vgmdb": "975",
+    "musicbrainz": "4a315fc1-aa0a-43ea-abb7-9602d8bd540b",
+    "wikidata": "Q11364891",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

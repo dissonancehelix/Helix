@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:masami_ueda",
+  "entity_type": "music.composer",
+  "label": "Masami Ueda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bayonetta",
+      "Bayonetta 2",
+      "Devil May Cry",
+      "Devil May Cry 4",
+      "GeOnDan Super Rare Trax",
+      "Okami",
+      "Resident Evil",
+      "Resident Evil 2",
+      "Resident Evil 3",
+      "Super Smash Bros. Ultimate",
+      "Trick'N Snowboarder"
+    ],
+    "artist_keys": [
+      "Masami Ueda"
+    ],
+    "track_count": 219
+  },
+  "external_ids": {
+    "vgmdb": "11",
+    "musicbrainz": "8773fd17-09a7-412b-87fa-a99c93ee7f6a",
+    "wikidata": "Q3131538",
+    "spotify": "",
+    "lastfm": "Masami+Ueda",
+    "discogs": "170092"
+  }
+}

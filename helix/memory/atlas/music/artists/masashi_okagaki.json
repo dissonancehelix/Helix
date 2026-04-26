@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masashi_okagaki",
+  "entity_type": "music.composer",
+  "label": "Masashi Okagaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ys"
+    ],
+    "artist_keys": [
+      "Masashi Okagaki"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q121077965",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

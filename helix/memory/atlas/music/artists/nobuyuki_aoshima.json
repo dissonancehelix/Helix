@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:nobuyuki_aoshima",
+  "entity_type": "music.composer",
+  "label": "Nobuyuki Aoshima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "PC-88",
+      "X68000"
+    ],
+    "franchises": [
+      "Alisia Dragoon",
+      "Atomic Robo Kid",
+      "Bullfight",
+      "Faria",
+      "Fire Hawk",
+      "Gambler Jiko Chuushinha",
+      "Gambler Jiko Chuushinha 2",
+      "Gekitou 36 Janshi",
+      "Gomola Speed",
+      "Harakiri",
+      "Janou Touryuumon",
+      "Mashou Denki",
+      "Ninja",
+      "Omega Fighter",
+      "Tenka Fubu"
+    ],
+    "artist_keys": [
+      "Nobuyuki Aoshima"
+    ],
+    "track_count": 207
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

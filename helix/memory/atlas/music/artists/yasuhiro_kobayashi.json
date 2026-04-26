@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yasuhiro_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Yasuhiro Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Suikoden IV"
+    ],
+    "artist_keys": [
+      "Yasuhiro Kobayashi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

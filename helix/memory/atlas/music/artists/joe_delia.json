@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:joe_delia",
+  "entity_type": "music.composer",
+  "label": "Joe Delia",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Eternal Champions"
+    ],
+    "artist_keys": [
+      "Joe Delia"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "49620",
+    "musicbrainz": "7918123a-9537-4485-98f9-c795ce761ae7",
+    "wikidata": "Q3180045",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joe_Delia"
+  }
+}

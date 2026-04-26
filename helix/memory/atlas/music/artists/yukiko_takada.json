@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yukiko_takada",
+  "entity_type": "music.composer",
+  "label": "Yukiko Takada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy XIV"
+    ],
+    "artist_keys": [
+      "Yukiko Takada"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q109512293",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

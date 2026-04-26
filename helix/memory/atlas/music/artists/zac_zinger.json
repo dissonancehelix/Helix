@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:zac_zinger",
+  "entity_type": "music.composer",
+  "label": "Zac Zinger",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter V"
+    ],
+    "artist_keys": [
+      "Zac Zinger"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q136718959",
+    "spotify": "6nVreZX9f5zkyfsuQ3Qo3J",
+    "lastfm": ""
+  }
+}

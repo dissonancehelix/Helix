@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:shotaro_sasaki",
+  "entity_type": "music.composer",
+  "label": "Shotaro Sasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES"
+    ],
+    "franchises": [
+      "Castle of Dragon",
+      "Daioh",
+      "Dezaemon",
+      "Strike Gunner S.T.G",
+      "Sword Master"
+    ],
+    "artist_keys": [
+      "Shotaro Sasaki"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q88707349",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

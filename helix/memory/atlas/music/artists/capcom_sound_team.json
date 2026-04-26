@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:capcom_sound_team",
+  "entity_type": "music.composer",
+  "label": "Capcom Sound Team",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II"
+    ],
+    "franchises": [
+      "Ganbare! Marine Kun",
+      "Jyangokushi",
+      "Magical Pumpkin",
+      "Mahjong Gakuen",
+      "Pokonyan! Balloon"
+    ],
+    "artist_keys": [
+      "Capcom Sound Team"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f217f62b-953b-4091-91b1-50c5275f473e",
+    "wikidata": "Q107803424",
+    "spotify": "3w1Q754jb31h5CXQCcnLNL",
+    "lastfm": "Capcom+Sound+Team"
+  }
+}

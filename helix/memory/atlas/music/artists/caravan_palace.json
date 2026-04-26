@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:caravan_palace",
+  "entity_type": "music.composer",
+  "label": "Caravan Palace",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "<|° °|>",
+      "Caravan Palace",
+      "Chronologic",
+      "Gangbusters Melody Club",
+      "Panic"
+    ],
+    "artist_keys": [
+      "Caravan Palace"
+    ],
+    "track_count": 65
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "72eabb1a-4d2c-4de6-90f2-671b2cada42b",
+    "wikidata": "Q1035442",
+    "spotify": "37J1PlAkhRK7yrZUtqaUpQ",
+    "lastfm": "Caravan+Palace",
+    "wikipedia": "https://en.wikipedia.org/wiki/Caravan_Palace"
+  }
+}

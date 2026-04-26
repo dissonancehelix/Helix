@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:jeff_marsh",
+  "entity_type": "music.composer",
+  "label": "Jeff Marsh",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Eternal Champions"
+    ],
+    "artist_keys": [
+      "Jeff Marsh"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "0f34ade0-6d8f-4b96-944e-b08441e6f87d",
+    "wikidata": "Q290744",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jeff_%22Swampy%22_Marsh"
+  }
+}

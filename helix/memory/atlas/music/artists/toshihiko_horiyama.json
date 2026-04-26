@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:toshihiko_horiyama",
+  "entity_type": "music.composer",
+  "label": "Toshihiko Horiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Super NES"
+    ],
+    "franchises": [
+      "Apollo Justice",
+      "Demon's Crest",
+      "Mega Man",
+      "Mega Man & Bass",
+      "Mega Man 7",
+      "Mega Man Battle Network 4",
+      "Mega Man X",
+      "Mega Man X4",
+      "Rockman EXE 4.5 Real Operation"
+    ],
+    "artist_keys": [
+      "Toshihiko Horiyama"
+    ],
+    "track_count": 184
+  },
+  "external_ids": {
+    "vgmdb": "1358",
+    "musicbrainz": "a20a5a14-1cf9-4f45-8b93-5d0dc6cd15c3",
+    "wikidata": "Q3995899",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4429491"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:wataru_ishibashi",
+  "entity_type": "music.composer",
+  "label": "Wataru Ishibashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gurumin",
+      "Mirai no Energy",
+      "Super Dragon Ball Z",
+      "Taiko no Tatsujin",
+      "The Legend of Heroes V",
+      "Trails / Kiseki",
+      "Trois Blur of Dawn",
+      "VM Japan",
+      "Xanadu Next",
+      "Ys VI",
+      "Zwei"
+    ],
+    "artist_keys": [
+      "Wataru Ishibashi"
+    ],
+    "track_count": 134
+  },
+  "external_ids": {
+    "vgmdb": "2152",
+    "musicbrainz": "2894a2d6-3abe-44ba-b882-eb08a9cc845f",
+    "wikidata": "Q24844790",
+    "spotify": "57R0xy6yBLpnEe1uQgBNp5",
+    "lastfm": "石橋渡",
+    "discogs": "8271243"
+  }
+}

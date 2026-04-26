@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:jeroen_tel",
+  "entity_type": "music.composer",
+  "label": "Jeroen Tel",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Master System",
+      "Mega Drive",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Alien³",
+      "Lethal Weapon 3",
+      "NBA Hang Time",
+      "Overlord",
+      "The A",
+      "The Flash",
+      "Winter Gold FX"
+    ],
+    "artist_keys": [
+      "Jeroen Tel"
+    ],
+    "track_count": 54
+  },
+  "external_ids": {
+    "vgmdb": "1955",
+    "musicbrainz": "baccaa2d-40f9-49a5-9e9a-0ff27a4617c1",
+    "wikidata": "Q2565713",
+    "spotify": "",
+    "lastfm": "Jeroen+Tel",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jeroen_Tel"
+  }
+}

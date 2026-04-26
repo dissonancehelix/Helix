@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiroaki_takahashi",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Touki Denshou"
+    ],
+    "artist_keys": [
+      "Hiroaki Takahashi"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q526437",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takahashi_Sh%C5%8Dtei"
+  }
+}

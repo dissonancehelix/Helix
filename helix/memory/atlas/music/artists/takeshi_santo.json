@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takeshi_santo",
+  "entity_type": "music.composer",
+  "label": "Takeshi Santo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2"
+    ],
+    "franchises": [
+      "Aleste"
+    ],
+    "artist_keys": [
+      "Takeshi Santo"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomoaki_takanohashi",
+  "entity_type": "music.composer",
+  "label": "Tomoaki Takanohashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Pipi & Bibi's"
+    ],
+    "artist_keys": [
+      "Tomoaki Takanohashi"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

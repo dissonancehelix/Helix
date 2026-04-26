@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:misaki_asada",
+  "entity_type": "music.composer",
+  "label": "Misaki Asada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yoshi's Woolly World"
+    ],
+    "artist_keys": [
+      "Misaki Asada"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

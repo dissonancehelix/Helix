@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:the_sound_room",
+  "entity_type": "music.composer",
+  "label": "The Sound Room",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter 6"
+    ],
+    "artist_keys": [
+      "The Sound Room"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

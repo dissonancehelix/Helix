@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:morikazu_aoki",
+  "entity_type": "music.composer",
+  "label": "Morikazu Aoki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Pokémon Black & White",
+      "Pokémon Crystal",
+      "Pokémon Diamond & Pearl",
+      "Pokémon HeartGold & SoulSilver",
+      "Pokémon Ruby & Sapphire",
+      "Pokémon X & Y"
+    ],
+    "artist_keys": [
+      "Morikazu Aoki"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

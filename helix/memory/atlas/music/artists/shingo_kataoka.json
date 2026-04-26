@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shingo_kataoka",
+  "entity_type": "music.composer",
+  "label": "Shingo Kataoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Harvest Moon",
+      "World of Final Fantasy"
+    ],
+    "artist_keys": [
+      "Shingo Kataoka"
+    ],
+    "track_count": 68
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

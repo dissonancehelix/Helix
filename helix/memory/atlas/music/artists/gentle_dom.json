@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:gentle_dom",
+  "entity_type": "music.composer",
+  "label": "Gentle Dom",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fante Se EP"
+    ],
+    "artist_keys": [
+      "Gentle Dom"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "fca7984f-9541-4720-b035-36012012c16d",
+    "wikidata": "Q101025975",
+    "spotify": "7pCyWyDRP3yk3MJ7mYFmvc",
+    "lastfm": ""
+  }
+}

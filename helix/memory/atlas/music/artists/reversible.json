@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:reversible",
+  "entity_type": "music.composer",
+  "label": "Re:versible",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Busou Shinki Battle Masters Mk.2"
+    ],
+    "artist_keys": [
+      "Re:versible"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

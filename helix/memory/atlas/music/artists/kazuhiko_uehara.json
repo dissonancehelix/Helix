@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:kazuhiko_uehara",
+  "entity_type": "music.composer",
+  "label": "Kazuhiko Uehara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX",
+      "MSX2",
+      "NES",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Batman Returns",
+      "Deadly Arts",
+      "F",
+      "Ganbare Goemon 2",
+      "Ganbare Goemon 3",
+      "Ganbare Goemon 4",
+      "Gradius III",
+      "Jikkyou Oshaberi Parodius",
+      "Jikkyou Powerful Pro Yakyuu 6",
+      "King's Valley II"
+    ],
+    "artist_keys": [
+      "Kazuhiko Uehara"
+    ],
+    "track_count": 561
+  },
+  "external_ids": {
+    "vgmdb": "1073",
+    "musicbrainz": "acba9aee-dc21-4466-bbd3-d563ff9bba8a",
+    "wikidata": "Q11358573",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

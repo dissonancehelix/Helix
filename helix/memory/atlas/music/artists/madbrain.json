@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:madbrain",
+  "entity_type": "music.composer",
+  "label": "Madbrain",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock"
+    ],
+    "artist_keys": [
+      "Madbrain"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tjd",
+  "entity_type": "music.composer",
+  "label": "TJD",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Group S Challenge"
+    ],
+    "artist_keys": [
+      "TJD"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q56955579",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

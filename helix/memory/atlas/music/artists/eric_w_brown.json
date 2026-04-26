@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:eric_w_brown",
+  "entity_type": "music.composer",
+  "label": "Eric W. Brown",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sea of Stars"
+    ],
+    "artist_keys": [
+      "Eric W. Brown"
+    ],
+    "track_count": 178
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "3b9af6d4-44f2-403e-beaf-39807086e54a",
+    "wikidata": "Q5387685",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "945001"
+  }
+}

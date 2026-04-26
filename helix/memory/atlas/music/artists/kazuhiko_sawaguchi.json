@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:kazuhiko_sawaguchi",
+  "entity_type": "music.composer",
+  "label": "Kazuhiko Sawaguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Kabuki Ittouryoudan",
+      "Mario Party 2",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Kazuhiko Sawaguchi"
+    ],
+    "track_count": 63
+  },
+  "external_ids": {
+    "vgmdb": "43465",
+    "musicbrainz": "9d417780-7f36-4a98-887a-ea6bd7cad992",
+    "wikidata": "Q24248874",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

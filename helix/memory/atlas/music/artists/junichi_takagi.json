@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:junichi_takagi",
+  "entity_type": "music.composer",
+  "label": "Junichi Takagi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soulcalibur II"
+    ],
+    "artist_keys": [
+      "Junichi Takagi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q87342743",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

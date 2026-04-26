@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takayuki_hirose",
+  "entity_type": "music.composer",
+  "label": "Takayuki Hirose",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Deathsmiles"
+    ],
+    "artist_keys": [
+      "Takayuki Hirose"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

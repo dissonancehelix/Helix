@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kaori_ohkoshi",
+  "entity_type": "music.composer",
+  "label": "Kaori Ohkoshi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Everblue 2",
+      "Final Fantasy Tactics A2",
+      "Final Fantasy Tactics Advance"
+    ],
+    "artist_keys": [
+      "Kaori Ohkoshi"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "810",
+    "musicbrainz": "",
+    "wikidata": "Q21567414",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

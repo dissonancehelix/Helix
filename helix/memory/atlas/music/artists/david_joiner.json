@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:david_joiner",
+  "entity_type": "music.composer",
+  "label": "David Joiner",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "The Faery Tale Adventure"
+    ],
+    "artist_keys": [
+      "David Joiner"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q56613261",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Lamb"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:pt_adamczyk",
+  "entity_type": "music.composer",
+  "label": "P.T. Adamczyk",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cyberpunk 2077"
+    ],
+    "artist_keys": [
+      "P.T. Adamczyk"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "bc1285ea-31c8-4f50-847e-b66244a142b3",
+    "wikidata": "Q106926243",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

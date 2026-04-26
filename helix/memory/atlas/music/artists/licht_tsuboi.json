@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:licht_tsuboi",
+  "entity_type": "music.composer",
+  "label": "Licht Tsuboi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Once Upon a Katamari"
+    ],
+    "artist_keys": [
+      "Licht Tsuboi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

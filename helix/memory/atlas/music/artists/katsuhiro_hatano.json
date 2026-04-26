@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:katsuhiro_hatano",
+  "entity_type": "music.composer",
+  "label": "Katsuhiro Hatano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Ardy Lightfoot",
+      "Fleet Commander",
+      "Saisoku Densetsu Racer X"
+    ],
+    "artist_keys": [
+      "Katsuhiro Hatano"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:noboru_yamane",
+  "entity_type": "music.composer",
+  "label": "Noboru Yamane",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Denjin Makai"
+    ],
+    "artist_keys": [
+      "Noboru Yamane"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

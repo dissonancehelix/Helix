@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:sasakureuk",
+  "entity_type": "music.composer",
+  "label": "sasakure.UK",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "7th Dragon 2020"
+    ],
+    "artist_keys": [
+      "sasakure.UK"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "2654",
+    "musicbrainz": "a2c9ccdc-bf05-4ffb-8201-57f81322852e",
+    "wikidata": "Q575502",
+    "spotify": "6nqR1MdjPNXu5KSdeqJBI1",
+    "lastfm": "sasakure.UK"
+  }
+}

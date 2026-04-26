@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:fumio_miyashita",
+  "entity_type": "music.composer",
+  "label": "Fumio Miyashita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2",
+      "NES"
+    ],
+    "franchises": [
+      "Hi no Tori Hououhen",
+      "Hinotori"
+    ],
+    "artist_keys": [
+      "Fumio Miyashita"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "31566",
+    "musicbrainz": "565ede5e-4c52-4645-b6a3-1d748dd23059",
+    "wikidata": "Q11453175",
+    "spotify": "3dstgYavMQuvR0GZB5HnTA",
+    "lastfm": ""
+  }
+}

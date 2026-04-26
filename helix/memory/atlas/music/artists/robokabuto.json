@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:robokabuto",
+  "entity_type": "music.composer",
+  "label": "Robokabuto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Kira Kira Star Night"
+    ],
+    "artist_keys": [
+      "Robokabuto"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

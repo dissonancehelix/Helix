@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:pearl_jam",
+  "entity_type": "music.composer",
+  "label": "Pearl Jam",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Backspacer",
+      "Binaural",
+      "Merkin Ball",
+      "No Code",
+      "Pearl Jam",
+      "Riot Act",
+      "Ten",
+      "Vitalogy",
+      "Vs.",
+      "Yield"
+    ],
+    "artist_keys": [
+      "Pearl Jam"
+    ],
+    "track_count": 128
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "83b9cbe7-9857-49e2-ab8e-b57b01038103",
+    "wikidata": "Q142701",
+    "spotify": "1w5Kfo2jwwIPruYS2UWh56",
+    "lastfm": "Pearl+Jam",
+    "discogs": "175395",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pearl_Jam"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:hiroki_hashimoto",
+  "entity_type": "music.composer",
+  "label": "Hiroki Hashimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Daemon X Machina",
+      "New Pokémon Snap",
+      "Pac",
+      "Pokkén Tournament DX",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Hiroki Hashimoto"
+    ],
+    "track_count": 90
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102130300",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

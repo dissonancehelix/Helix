@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ken_nakagawa",
+  "entity_type": "music.composer",
+  "label": "Ken Nakagawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Collaboration Album \"Message\""
+    ],
+    "artist_keys": [
+      "Ken Nakagawa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "0c13ceb2-241b-4f8d-8e72-fdae9e421c1f",
+    "wikidata": "Q62018818",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

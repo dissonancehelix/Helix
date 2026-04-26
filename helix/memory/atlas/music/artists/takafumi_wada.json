@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:takafumi_wada",
+  "entity_type": "music.composer",
+  "label": "Takafumi Wada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II"
+    ],
+    "franchises": [
+      "GeOnDan Super Rare Trax",
+      "Puzz Loop 2"
+    ],
+    "artist_keys": [
+      "Takafumi Wada"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "1666",
+    "musicbrainz": "d2fec39e-25c5-4b3e-9419-7f6c243b2f74",
+    "wikidata": "Q11418136",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takafumi_Wada"
+  }
+}

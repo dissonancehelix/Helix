@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:masahiko_hagio",
+  "entity_type": "music.composer",
+  "label": "Masahiko Hagio",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "No More Heroes 2"
+    ],
+    "artist_keys": [
+      "Masahiko Hagio"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:masahiro_andoh",
+  "entity_type": "music.composer",
+  "label": "Masahiro Andoh",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Arc the Lad",
+      "Arc the Lad II",
+      "Gran Turismo",
+      "Gran Turismo 2",
+      "Gran Turismo 3",
+      "Gran Turismo 4",
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Masahiro Andoh"
+    ],
+    "track_count": 111
+  },
+  "external_ids": {
+    "vgmdb": "1350",
+    "musicbrainz": "f2fc3e51-8a1e-435d-9867-e6fcb41f8f9c",
+    "wikidata": "Q6782364",
+    "spotify": "6xtyUsBaczwDv7QlYm9mV4",
+    "lastfm": "安藤正容",
+    "discogs": "1887667",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masahiro_Andoh"
+  }
+}

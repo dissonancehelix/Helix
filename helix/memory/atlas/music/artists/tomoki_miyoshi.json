@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomoki_miyoshi",
+  "entity_type": "music.composer",
+  "label": "Tomoki Miyoshi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soulcalibur V"
+    ],
+    "artist_keys": [
+      "Tomoki Miyoshi"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q136116327",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

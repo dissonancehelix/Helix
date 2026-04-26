@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akira_miyagawa",
+  "entity_type": "music.composer",
+  "label": "Akira Miyagawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kirby Air Ride"
+    ],
+    "artist_keys": [
+      "Akira Miyagawa"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "990",
+    "musicbrainz": "150c85b3-ce4e-418f-9419-7955682a3720",
+    "wikidata": "Q2106334",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

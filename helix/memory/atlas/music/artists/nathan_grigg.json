@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:nathan_grigg",
+  "entity_type": "music.composer",
+  "label": "Nathan Grigg",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Sylvester & Tweety in Cagey Capers"
+    ],
+    "artist_keys": [
+      "Nathan Grigg"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102410009",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

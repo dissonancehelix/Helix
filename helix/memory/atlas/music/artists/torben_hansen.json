@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:torben_hansen",
+  "entity_type": "music.composer",
+  "label": "Torben Hansen",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock"
+    ],
+    "artist_keys": [
+      "Torben Hansen"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

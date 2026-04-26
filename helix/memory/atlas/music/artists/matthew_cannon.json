@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:matthew_cannon",
+  "entity_type": "music.composer",
+  "label": "Matthew Cannon",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Ken Griffey Jr. Baseball",
+      "Tin Star"
+    ],
+    "artist_keys": [
+      "Matthew Cannon"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q56518157",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:makihiko_araki",
+  "entity_type": "music.composer",
+  "label": "Makihiko Araki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Makihiko Araki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "3294",
+    "musicbrainz": "b0a12a26-df15-4d5e-924e-76f95d69ef10",
+    "wikidata": "Q11618723",
+    "spotify": "3uFBBqu4cROYn0l4hPvJbo",
+    "lastfm": "荒木真樹彦"
+  }
+}

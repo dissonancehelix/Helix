@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hiromitsu_maeba",
+  "entity_type": "music.composer",
+  "label": "Hiromitsu Maeba",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sengoku Basara 4"
+    ],
+    "artist_keys": [
+      "Hiromitsu Maeba"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

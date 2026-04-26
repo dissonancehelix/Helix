@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:toshiya_yamanaka",
+  "entity_type": "music.composer",
+  "label": "Toshiya Yamanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64",
+      "PC-88",
+      "PC-98"
+    ],
+    "franchises": [
+      "Bakuretsu Muteki Bangai",
+      "Bangai",
+      "Star Cruiser",
+      "Star Cruiser II",
+      "Tsumi to Batsu",
+      "Youjuu Kikouhei WerDragon"
+    ],
+    "artist_keys": [
+      "Toshiya Yamanaka"
+    ],
+    "track_count": 121
+  },
+  "external_ids": {
+    "vgmdb": "1071",
+    "musicbrainz": "3048e395-3bec-443f-b8ec-803b763d3da5",
+    "wikidata": "Q11466141",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "5295671"
+  }
+}

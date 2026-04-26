@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:vangelis",
+  "entity_type": "music.composer",
+  "label": "Vangelis",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Blade Runner"
+    ],
+    "artist_keys": [
+      "Vangelis"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "13232",
+    "musicbrainz": "57fca0e2-f9ad-4ae6-af9d-6a6f50cbcd5f",
+    "wikidata": "Q153172",
+    "spotify": "4P70aqttdpJ9vuYFDmf7f6",
+    "lastfm": "Vangelis",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vangelis"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:takuto_kitsuta",
+  "entity_type": "music.composer",
+  "label": "Takuto Kitsuta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS"
+    ],
+    "franchises": [
+      "Avengers in Galactic Storm",
+      "PokéPark 2",
+      "Pokémon Ranger",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. Melee"
+    ],
+    "artist_keys": [
+      "Takuto Kitsuta"
+    ],
+    "track_count": 172
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

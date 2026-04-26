@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kumio_yudate",
+  "entity_type": "music.composer",
+  "label": "Kumio Yudate",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Wonder Momo"
+    ],
+    "artist_keys": [
+      "Kumio Yudate"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yayoi_ono",
+  "entity_type": "music.composer",
+  "label": "Yayoi Ono",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rogue Galaxy"
+    ],
+    "artist_keys": [
+      "Yayoi Ono"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:david_fenn",
+  "entity_type": "music.composer",
+  "label": "David Fenn",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Titan Souls"
+    ],
+    "artist_keys": [
+      "David Fenn"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q134395365",
+    "spotify": "6DqoR5Q50A9bY4wbkfdMwa",
+    "lastfm": ""
+  }
+}

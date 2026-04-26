@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takashi_honda",
+  "entity_type": "music.composer",
+  "label": "Takashi Honda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "World of Final Fantasy"
+    ],
+    "artist_keys": [
+      "Takashi Honda"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102354812",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

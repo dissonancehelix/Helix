@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:shinpei_yamashita",
+  "entity_type": "music.composer",
+  "label": "Shinpei Yamashita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario; Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Shinpei Yamashita"
+    ],
+    "track_count": 78
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

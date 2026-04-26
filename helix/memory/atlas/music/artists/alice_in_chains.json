@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:alice_in_chains",
+  "entity_type": "music.composer",
+  "label": "Alice in Chains",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Alice in Chains",
+      "Black Gives Way to Blue",
+      "Dirt",
+      "Facelift",
+      "Jar of Flies",
+      "Music Bank",
+      "Rainier Fog",
+      "Sap",
+      "The Devil Put Dinosaurs Here"
+    ],
+    "artist_keys": [
+      "Alice in Chains"
+    ],
+    "track_count": 92
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "4bd95eea-b9f6-4d70-a36c-cfea77431553",
+    "wikidata": "Q484255",
+    "spotify": "64tNsm6TnZe2zpcMVMOoHL",
+    "lastfm": "Alice+in+Chains",
+    "discogs": "251846",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alice_in_Chains"
+  }
+}

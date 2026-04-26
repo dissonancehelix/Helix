@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:bbrights",
+  "entity_type": "music.composer",
+  "label": "B.B.Rights",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio"
+    ],
+    "artist_keys": [
+      "B.B.Rights"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

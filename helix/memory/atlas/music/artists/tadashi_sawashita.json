@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:tadashi_sawashita",
+  "entity_type": "music.composer",
+  "label": "Tadashi Sawashita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Fiend Hunter",
+      "Flash Hiders",
+      "Lagrange Point"
+    ],
+    "artist_keys": [
+      "Tadashi Sawashita"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

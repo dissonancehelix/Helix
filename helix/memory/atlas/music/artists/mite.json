@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mite",
+  "entity_type": "music.composer",
+  "label": "Mite",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Something Wrong With Daisy"
+    ],
+    "artist_keys": [
+      "Mite"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q136908350",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

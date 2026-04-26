@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mintjam",
+  "entity_type": "music.composer",
+  "label": "Mintjam",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Code of Joker"
+    ],
+    "artist_keys": [
+      "Mintjam"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8018f53b-d117-4f25-b9e5-f447dc26ef8b",
+    "wikidata": "Q11989591",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/MintJam"
+  }
+}

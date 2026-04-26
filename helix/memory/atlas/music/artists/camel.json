@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:camel",
+  "entity_type": "music.composer",
+  "label": "Camel",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Barbatus no Majo"
+    ],
+    "artist_keys": [
+      "Camel"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q7375",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Camel"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:tomoko_morita",
+  "entity_type": "music.composer",
+  "label": "Tomoko Morita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "CIMA",
+      "Lord of Magna",
+      "Lufia",
+      "Record of Lodoss War",
+      "Rengoku II",
+      "Rune Factory",
+      "Rune Factory 2",
+      "Rune Factory 3",
+      "Rune Factory 4",
+      "Rune Factory 5"
+    ],
+    "artist_keys": [
+      "Tomoko Morita"
+    ],
+    "track_count": 606
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q138604698",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

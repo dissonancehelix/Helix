@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:sunsoft",
+  "entity_type": "music.composer",
+  "label": "Sunsoft",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "City Hunter",
+      "Kanshaku Tamanage Kantarou no Tokaido Gojusan Tsugi",
+      "Route 16 Turbo",
+      "Super Arabian"
+    ],
+    "artist_keys": [
+      "Sunsoft"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q127601113",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sun_Corporation"
+  }
+}

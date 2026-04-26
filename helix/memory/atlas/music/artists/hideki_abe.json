@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:hideki_abe",
+  "entity_type": "music.composer",
+  "label": "Hideki Abe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Atsumare! Guru Guru Onsen",
+      "Onimusha",
+      "Puyo Pop",
+      "Puyo Pop Fever",
+      "Puyo Puyo Fever 2",
+      "Puyo Puyo! 15th Anniversary"
+    ],
+    "artist_keys": [
+      "Hideki Abe"
+    ],
+    "track_count": 139
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q67235976",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:hironori_tanaka",
+  "entity_type": "music.composer",
+  "label": "Hironori Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blazing Tornado",
+      "Fire Pro Wrestling",
+      "Formation Soccer on J.League",
+      "Grand Striker",
+      "Super Fire Pro Wrestling",
+      "Super Formation Soccer",
+      "Super Formation Soccer 94",
+      "Super Formation Soccer II",
+      "The Firemen"
+    ],
+    "artist_keys": [
+      "Hironori Tanaka"
+    ],
+    "track_count": 170
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q99633736",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

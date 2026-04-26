@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:gong",
+  "entity_type": "music.composer",
+  "label": "GONG",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mystery Case In Hi!school!! Synergy"
+    ],
+    "artist_keys": [
+      "GONG"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q985509",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gong_(surname)"
+  }
+}

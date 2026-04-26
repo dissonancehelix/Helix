@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:miwa",
+  "entity_type": "music.composer",
+  "label": "Miwa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo Pocket Color"
+    ],
+    "franchises": [
+      "SNK vs. Capcom",
+      "The King of Fighters '96"
+    ],
+    "artist_keys": [
+      "Miwa"
+    ],
+    "track_count": 55
+  },
+  "external_ids": {
+    "vgmdb": "17674",
+    "musicbrainz": "a83e47fb-d486-4c15-9919-ed8351cc395c",
+    "wikidata": "Q306665",
+    "spotify": "3R3WEsfL1WC1zLiz3XG9K5",
+    "lastfm": "miwa",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miwa_(singer)"
+  }
+}

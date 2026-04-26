@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hiroshi_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "X68000"
+    ],
+    "franchises": [
+      "Akumajo Dracula",
+      "Contra",
+      "Rocket Knight Adventures"
+    ],
+    "artist_keys": [
+      "Hiroshi Kobayashi"
+    ],
+    "track_count": 49
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100653165",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

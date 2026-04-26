@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:kaori_takazoe",
+  "entity_type": "music.composer",
+  "label": "Kaori Takazoe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Clock Tower",
+      "Formation Soccer on J.League",
+      "Gradius Galaxies",
+      "Taekwon",
+      "Waku Waku Ski Wonder Shoot"
+    ],
+    "artist_keys": [
+      "Kaori Takazoe"
+    ],
+    "track_count": 56
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:rika_shigeno",
+  "entity_type": "music.composer",
+  "label": "Rika Shigeno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Captain Tsubasa 3",
+      "Final Star Force",
+      "Ninja Gaiden III",
+      "Radia Senki",
+      "Tecmo World Cup '94"
+    ],
+    "artist_keys": [
+      "Rika Shigeno"
+    ],
+    "track_count": 102
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

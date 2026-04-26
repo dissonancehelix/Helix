@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:kennosuke_suemura",
+  "entity_type": "music.composer",
+  "label": "Kennosuke Suemura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Dragon Ball Z",
+      "Far East of Eden",
+      "Great Battle V",
+      "Money Puzzle Exchanger",
+      "Rumble Roses XX",
+      "Samurai Shodown V",
+      "Shadowgate 64",
+      "Super Bonk",
+      "Super Wagyan Land 2",
+      "The Flintstones",
+      "Thunderbirds",
+      "Voltage Fighter Gowcaizer"
+    ],
+    "artist_keys": [
+      "Kennosuke Suemura"
+    ],
+    "track_count": 225
+  },
+  "external_ids": {
+    "vgmdb": "1747",
+    "musicbrainz": "7c8538a0-e57a-4d7a-8b3f-e820a2ab47f5",
+    "wikidata": "Q11519736",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "6369270"
+  }
+}

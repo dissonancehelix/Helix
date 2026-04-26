@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:tsukasa_tawada",
+  "entity_type": "music.composer",
+  "label": "Tsukasa Tawada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Cadillac",
+      "Dungeon Master",
+      "E.D.F.",
+      "Fortified Zone",
+      "Ihatovo Monogatari",
+      "Kick Off",
+      "Maniac Mansion",
+      "Ninja Kazan",
+      "Rod Land",
+      "Ten Plants"
+    ],
+    "artist_keys": [
+      "Tsukasa Tawada"
+    ],
+    "track_count": 84
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "e5f9c837-a580-48b2-b25a-756f8ab333b0",
+    "wikidata": "Q11430643",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsukasa_Tawada"
+  }
+}

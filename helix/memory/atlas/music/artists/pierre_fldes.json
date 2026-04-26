@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:pierre_fldes",
+  "entity_type": "music.composer",
+  "label": "Pierre Földes",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hitman",
+      "Hitman 2"
+    ],
+    "artist_keys": [
+      "Pierre Földes"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q117190979",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

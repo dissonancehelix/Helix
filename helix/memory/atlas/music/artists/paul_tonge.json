@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:paul_tonge",
+  "entity_type": "music.composer",
+  "label": "Paul Tonge",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Barbie Vacation Adventure",
+      "Foreman For Real",
+      "The Tick",
+      "Tinhead"
+    ],
+    "artist_keys": [
+      "Paul Tonge"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "7c07a725-db5a-446b-89e3-5eb1f39f1951",
+    "wikidata": "Q15446298",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

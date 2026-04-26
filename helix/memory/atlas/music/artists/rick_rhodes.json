@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:rick_rhodes",
+  "entity_type": "music.composer",
+  "label": "Rick Rhodes",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Tecmo Super Baseball"
+    ],
+    "artist_keys": [
+      "Rick Rhodes"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ce07a247-68e0-47c2-8fba-067ed0181ae3",
+    "wikidata": "Q7331675",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rick_Rhodes"
+  }
+}

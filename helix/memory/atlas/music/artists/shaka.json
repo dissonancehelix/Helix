@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:shaka",
+  "entity_type": "music.composer",
+  "label": "Shaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Curse",
+      "Junction"
+    ],
+    "artist_keys": [
+      "Shaka"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "50bb66d4-63d1-4483-afbc-dc8993d76cbd",
+    "wikidata": "Q195380",
+    "spotify": "0VJIBKdqJygrupAxpSTk7q",
+    "lastfm": "Shaka+Ponk",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shaka_Ponk"
+  }
+}

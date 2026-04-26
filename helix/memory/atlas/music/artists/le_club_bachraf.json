@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:le_club_bachraf",
+  "entity_type": "music.composer",
+  "label": "Le Club Bachraf",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Le Club Bachraf"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

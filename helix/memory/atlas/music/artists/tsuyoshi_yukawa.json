@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tsuyoshi_yukawa",
+  "entity_type": "music.composer",
+  "label": "Tsuyoshi Yukawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bakugan Battle Brawlers"
+    ],
+    "artist_keys": [
+      "Tsuyoshi Yukawa"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

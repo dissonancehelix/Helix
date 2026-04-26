@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:shoji_tomi",
+  "entity_type": "music.composer",
+  "label": "Shoji Tomi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Vertical Force"
+    ],
+    "artist_keys": [
+      "Shoji Tomi"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q126820115",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shoji_Tomihisa"
+  }
+}

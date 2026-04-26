@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:t_pistonzkmc",
+  "entity_type": "music.composer",
+  "label": "T-Pistonz+KMC",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Inazuma Eleven",
+      "Inazuma Eleven GO",
+      "Inazuma Eleven GO vs Danball Senki W"
+    ],
+    "artist_keys": [
+      "T-Pistonz+KMC"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "12920",
+    "musicbrainz": "141afdfa-f583-4ed8-a330-6986051b8903",
+    "wikidata": "Q1186014",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/T-Pistonz%2BKMC"
+  }
+}

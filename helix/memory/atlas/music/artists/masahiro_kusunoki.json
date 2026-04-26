@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:masahiro_kusunoki",
+  "entity_type": "music.composer",
+  "label": "Masahiro Kusunoki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "ESP Ra.De.",
+      "Guwange"
+    ],
+    "artist_keys": [
+      "Masahiro Kusunoki"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q20039742",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

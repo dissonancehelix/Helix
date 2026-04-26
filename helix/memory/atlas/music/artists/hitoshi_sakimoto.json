@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:hitoshi_sakimoto",
+  "entity_type": "music.composer",
+  "label": "Hitoshi Sakimoto",
+  "aliases": [
+    "崎元 仁"
+  ],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Genesis",
+      "Super NES",
+      "PlayStation",
+      "PlayStation 2",
+      "Wii",
+      "Switch",
+      "PC"
+    ],
+    "franchises": [
+      "Final Fantasy Tactics",
+      "Final Fantasy XII",
+      "Valkyria Chronicles",
+      "Ogre Battle",
+      "Tactics Ogre",
+      "Muramasa"
+    ],
+    "artist_keys": [
+      "Hitoshi Sakimoto",
+      "崎元 仁"
+    ]
+  },
+  "external_ids": {
+    "vgmdb": "112",
+    "musicbrainz": "f64f2604-0c2d-4589-9136-1e663a8a3a9a",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hitoshi_Sakimoto"
+  },
+  "biography": {
+    "short": "Japanese video game composer known for his work on the Final Fantasy Tactics series and Final Fantasy XII.",
+    "career": "Basiscape (Founding 2002–)."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:melvins",
+  "entity_type": "music.composer",
+  "label": "Melvins",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bullhead",
+      "Gluey Porch Treatments",
+      "Houdini",
+      "Lysol",
+      "Ozma",
+      "Prick",
+      "Stoner Witch",
+      "The Bulls & the Bees",
+      "The Devil You Knew, the Devil You Know"
+    ],
+    "artist_keys": [
+      "Melvins"
+    ],
+    "track_count": 94
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "9ccfbc94-a4f4-42f7-b6f5-d903ab77cccb",
+    "wikidata": "Q385618",
+    "spotify": "6aVjo0xHSiuW5hkasoYSR3",
+    "lastfm": "Melvins",
+    "discogs": "87652",
+    "wikipedia": "https://en.wikipedia.org/wiki/Melvins"
+  }
+}

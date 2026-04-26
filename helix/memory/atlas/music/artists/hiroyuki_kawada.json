@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:hiroyuki_kawada",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Kawada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Ace Driver",
+      "Air Combat",
+      "Air Combat 22",
+      "Chibi Maruko",
+      "Dancing Eyes",
+      "Galaga '88",
+      "Great Wall",
+      "Mario Kart Arcade GP DX",
+      "Noby Noby Boy",
+      "Pac",
+      "Shadowland",
+      "Solvalou",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Technicbeat"
+    ],
+    "artist_keys": [
+      "Hiroyuki Kawada"
+    ],
+    "track_count": 98
+  },
+  "external_ids": {
+    "vgmdb": "1591",
+    "musicbrainz": "9aacd2c7-7ba2-4561-8d65-9eff27b70806",
+    "wikidata": "Q11478997",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "506920"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:mahito_yokota",
+  "entity_type": "music.composer",
+  "label": "Mahito Yokota",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Captain Toad",
+      "Donkey Kong Jungle Beat",
+      "Mario",
+      "Super Mario 3D Land",
+      "Super Mario 3D World",
+      "Super Mario Galaxy",
+      "Super Mario Galaxy 2",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. for Wii U",
+      "The Legend of Zelda",
+      "Wii Music"
+    ],
+    "artist_keys": [
+      "Mahito Yokota"
+    ],
+    "track_count": 403
+  },
+  "external_ids": {
+    "vgmdb": "38605",
+    "musicbrainz": "cbb23a93-1506-4864-9143-8aebc63277fe",
+    "wikidata": "Q506255",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1625261",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mahito_Yokota"
+  }
+}

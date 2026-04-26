@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:satoshi_bandoh",
+  "entity_type": "music.composer",
+  "label": "Satoshi Bandoh",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Satoshi Bandoh"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "5111",
+    "musicbrainz": "f9d90e17-5a90-4ed9-a681-e985fb77b0f6",
+    "wikidata": "Q5977865",
+    "spotify": "7Ci4ttkLj1PiiyVcUgNPs0",
+    "lastfm": "坂東慧"
+  }
+}

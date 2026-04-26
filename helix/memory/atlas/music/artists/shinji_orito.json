@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:shinji_orito",
+  "entity_type": "music.composer",
+  "label": "Shinji Orito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "DR² Night Janki",
+      "Filsnown",
+      "Shizuku"
+    ],
+    "artist_keys": [
+      "Shinji Orito"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "47377",
+    "musicbrainz": "8adb8b52-8147-4fb2-ac64-034f4abd0f83",
+    "wikidata": "Q1069343",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shinji_Orito"
+  }
+}

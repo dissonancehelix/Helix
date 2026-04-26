@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:will_brueggemann",
+  "entity_type": "music.composer",
+  "label": "Will Brueggemann",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Askr",
+      "Child of the Chozo",
+      "In Days of Old",
+      "Nyanroo",
+      "Occultus",
+      "Of Cosmic Proportions",
+      "Pocket Defender",
+      "Soaring Through the Stars",
+      "Unstable Scientific"
+    ],
+    "artist_keys": [
+      "Will Brueggemann"
+    ],
+    "track_count": 122
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

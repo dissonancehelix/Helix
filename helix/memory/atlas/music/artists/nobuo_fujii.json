@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:nobuo_fujii",
+  "entity_type": "music.composer",
+  "label": "Nobuo Fujii",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Tadaima Yuusha Boshuuchuu",
+      "Tadaima Yuusha Boshuuchuu Okawari"
+    ],
+    "artist_keys": [
+      "Nobuo Fujii"
+    ],
+    "track_count": 39
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q99693694",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

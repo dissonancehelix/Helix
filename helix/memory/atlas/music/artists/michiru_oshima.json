@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:michiru_oshima",
+  "entity_type": "music.composer",
+  "label": "Michiru Oshima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Aoki Okami to Shiroki Mejika",
+      "Genghis Khan II",
+      "Legaia 2",
+      "Legend of Legaia",
+      "Taikou Risshiden"
+    ],
+    "artist_keys": [
+      "Michiru Oshima"
+    ],
+    "track_count": 150
+  },
+  "external_ids": {
+    "vgmdb": "300",
+    "musicbrainz": "e6fae4d5-2a94-433d-b046-e34d7d136429",
+    "wikidata": "Q2745564",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "352676",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michiru_%C5%8Cshima"
+  }
+}

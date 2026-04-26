@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:yukiharu_urita",
+  "entity_type": "music.composer",
+  "label": "Yukiharu Urita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX",
+      "MSX2",
+      "Nintendo 64",
+      "PC-98"
+    ],
+    "franchises": [
+      "Illusion City",
+      "Puzzle Bobble 64",
+      "The Tower of Gazzel",
+      "Xak III"
+    ],
+    "artist_keys": [
+      "Yukiharu Urita"
+    ],
+    "track_count": 85
+  },
+  "external_ids": {
+    "vgmdb": "1646",
+    "musicbrainz": "254e300b-7982-4214-8393-698b81270dbf",
+    "wikidata": "Q11574163",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "5206163"
+  }
+}

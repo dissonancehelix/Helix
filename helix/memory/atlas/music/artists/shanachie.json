@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shanachie",
+  "entity_type": "music.composer",
+  "label": "Shanachie",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Odin Sphere"
+    ],
+    "artist_keys": [
+      "Shanachie"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1503081",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shanachie_Records"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:noriko_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Noriko Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Wedding Peach"
+    ],
+    "artist_keys": [
+      "Noriko Yamamoto"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q110830960",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

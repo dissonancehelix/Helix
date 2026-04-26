@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shunichi_shigematsu",
+  "entity_type": "music.composer",
+  "label": "Shunichi Shigematsu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Tadaima Yuusha Boshuuchuu",
+      "Tadaima Yuusha Boshuuchuu Okawari"
+    ],
+    "artist_keys": [
+      "Shunichi Shigematsu"
+    ],
+    "track_count": 39
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

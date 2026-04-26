@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:akira_ueda",
+  "entity_type": "music.composer",
+  "label": "Akira Ueda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Imported Game Music"
+    ],
+    "artist_keys": [
+      "Akira Ueda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "15971",
+    "musicbrainz": "637ade7b-3c02-4a3e-bb28-1c8e30f5a2b4",
+    "wikidata": "Q4701197",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akira_Ueda"
+  }
+}

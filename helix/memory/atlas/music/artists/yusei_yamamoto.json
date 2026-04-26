@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yusei_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Yusei Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Energy Breaker"
+    ],
+    "artist_keys": [
+      "Yusei Yamamoto"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

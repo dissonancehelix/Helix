@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:hiroshi_endo",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Endo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Battlecry",
+      "Shougi"
+    ],
+    "artist_keys": [
+      "Hiroshi Endo"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q50265500",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:ruzarin_kashiwagi",
+  "entity_type": "music.composer",
+  "label": "Ruzarin Kashiwagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "ChoRenSha 68K",
+      "GeOnDan Super Rare Trax"
+    ],
+    "artist_keys": [
+      "Ruzarin Kashiwagi"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "52728",
+    "musicbrainz": "3a729e80-99b0-4782-8ddd-96bfc26520cc",
+    "wikidata": "Q23927047",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

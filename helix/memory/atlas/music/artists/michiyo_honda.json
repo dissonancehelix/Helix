@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:michiyo_honda",
+  "entity_type": "music.composer",
+  "label": "Michiyo Honda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy XIII"
+    ],
+    "artist_keys": [
+      "Michiyo Honda"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "60b87dcd-2782-47ab-993f-37b67c50ad20",
+    "wikidata": "Q22130401",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

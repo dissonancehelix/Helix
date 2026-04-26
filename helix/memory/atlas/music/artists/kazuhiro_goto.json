@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kazuhiro_goto",
+  "entity_type": "music.composer",
+  "label": "Kazuhiro Goto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "No More Heroes 2"
+    ],
+    "artist_keys": [
+      "Kazuhiro Goto"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q93020269",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

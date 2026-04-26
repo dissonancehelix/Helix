@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shigekiyo_okuda",
+  "entity_type": "music.composer",
+  "label": "Shigekiyo Okuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Tecmo World Soccer '96",
+      "Tecmo's Deception"
+    ],
+    "artist_keys": [
+      "Shigekiyo Okuda"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mile_waldteufel",
+  "entity_type": "music.composer",
+  "label": "Émile Waldteufel",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario; Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Émile Waldteufel"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "6881",
+    "musicbrainz": "d3d25e43-a453-4caf-a382-a75732ec02a6",
+    "wikidata": "Q286616",
+    "spotify": "7qdNQ64kU4miOYyt6OUch0",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/%C3%89mile_Waldteufel"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:louis_g",
+  "entity_type": "music.composer",
+  "label": "Louis G",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock",
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "Louis G"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3262017",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Gauffier"
+  }
+}

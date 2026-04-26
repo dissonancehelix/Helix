@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:yuki_ushimaru",
+  "entity_type": "music.composer",
+  "label": "Yuki Ushimaru",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Dragon Knight II",
+      "FOXY 2"
+    ],
+    "artist_keys": [
+      "Yuki Ushimaru"
+    ],
+    "track_count": 82
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90781165",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

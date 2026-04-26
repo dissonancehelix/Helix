@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:junko_karashima",
+  "entity_type": "music.composer",
+  "label": "Junko Karashima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Junko Karashima"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "3280",
+    "musicbrainz": "767c86d6-cdcc-4d08-a104-318a06e05e03",
+    "wikidata": "Q10953601",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

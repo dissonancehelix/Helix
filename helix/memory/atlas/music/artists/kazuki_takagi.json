@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kazuki_takagi",
+  "entity_type": "music.composer",
+  "label": "Kazuki Takagi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Border Break",
+      "Like a Dragon",
+      "Shining Force Cross Raid"
+    ],
+    "artist_keys": [
+      "Kazuki Takagi"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "10117",
+    "musicbrainz": "",
+    "wikidata": "Q128214540",
+    "spotify": "2fCO2OhxNqAEXSEaTUqmnq",
+    "lastfm": ""
+  }
+}

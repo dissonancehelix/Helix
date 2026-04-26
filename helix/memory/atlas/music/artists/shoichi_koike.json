@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:shoichi_koike",
+  "entity_type": "music.composer",
+  "label": "Shoichi Koike",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "WWF SmackDown! 2"
+    ],
+    "artist_keys": [
+      "Shoichi Koike"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

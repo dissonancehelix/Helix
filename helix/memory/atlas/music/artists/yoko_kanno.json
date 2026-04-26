@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:yoko_kanno",
+  "entity_type": "music.composer",
+  "label": "Yoko Kanno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "FM Towns",
+      "Mega Drive",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Daikoukai Jidai II",
+      "Nobunaga no Yabou",
+      "Nobunaga's Ambition",
+      "Super Sangokushi",
+      "Taikou Risshiden",
+      "Uncharted Waters"
+    ],
+    "artist_keys": [
+      "Yoko Kanno"
+    ],
+    "track_count": 163
+  },
+  "external_ids": {
+    "vgmdb": "54017",
+    "musicbrainz": "5ffb73c0-b739-4231-ba22-f8d361be1d45",
+    "wikidata": "Q224981",
+    "spotify": "0lbYsAt8JNKNjttbncKg8i",
+    "lastfm": "菅野よう子",
+    "discogs": "245252",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoko_Kanno"
+  }
+}

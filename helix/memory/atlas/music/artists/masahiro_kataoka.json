@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masahiro_kataoka",
+  "entity_type": "music.composer",
+  "label": "Masahiro Kataoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Shikinjoh"
+    ],
+    "artist_keys": [
+      "Masahiro Kataoka"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11569787",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

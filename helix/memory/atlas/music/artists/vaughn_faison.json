@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:vaughn_faison",
+  "entity_type": "music.composer",
+  "label": "Vaughn Faison",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter 6"
+    ],
+    "artist_keys": [
+      "Vaughn Faison"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

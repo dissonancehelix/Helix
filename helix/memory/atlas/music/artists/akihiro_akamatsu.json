@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:akihiro_akamatsu",
+  "entity_type": "music.composer",
+  "label": "Akihiro Akamatsu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Adventure Island 2",
+      "Terra Cresta II"
+    ],
+    "artist_keys": [
+      "Akihiro Akamatsu"
+    ],
+    "track_count": 49
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

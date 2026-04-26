@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masasuke_kusanagi",
+  "entity_type": "music.composer",
+  "label": "Masasuke Kusanagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "War"
+    ],
+    "artist_keys": [
+      "Masasuke Kusanagi"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

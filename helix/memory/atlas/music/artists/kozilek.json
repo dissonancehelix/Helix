@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kozilek",
+  "entity_type": "music.composer",
+  "label": "Kozilek",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gun Godz"
+    ],
+    "artist_keys": [
+      "Kozilek"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

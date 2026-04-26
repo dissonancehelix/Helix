@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akihi_motoyama",
+  "entity_type": "music.composer",
+  "label": "Akihi Motoyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Choro Q3"
+    ],
+    "artist_keys": [
+      "Akihi Motoyama"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "4642",
+    "musicbrainz": "18287ec3-bddc-4d82-ae12-fb3c909e0d1d",
+    "wikidata": "Q30935082",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

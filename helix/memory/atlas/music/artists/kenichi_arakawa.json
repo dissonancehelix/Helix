@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:kenichi_arakawa",
+  "entity_type": "music.composer",
+  "label": "Kenichi Arakawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "FM Towns",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Animahjong V3",
+      "Animahjong X",
+      "Grounseed",
+      "Jewel BEM Hunter Lime",
+      "Jewel Bem Hunter Lime Dai",
+      "MCMLXC",
+      "Mystery Case In Hi!school!! Synergy",
+      "Nihon Pro Mahjong Kishikai Kanshuu",
+      "Rusty",
+      "SYNERGY MCMXCI",
+      "Totsugeki! Mix",
+      "Viper"
+    ],
+    "artist_keys": [
+      "Kenichi Arakawa"
+    ],
+    "track_count": 165
+  },
+  "external_ids": {
+    "vgmdb": "3258",
+    "musicbrainz": "f8757fa5-4d66-48ac-980e-d799b762c1d1",
+    "wikidata": "Q11618568",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "5225173"
+  }
+}

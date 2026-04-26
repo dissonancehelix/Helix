@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:lszl_fazekas",
+  "entity_type": "music.composer",
+  "label": "László Fazekas",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Ecco Jr.",
+      "Garfield",
+      "The Magic School Bus"
+    ],
+    "artist_keys": [
+      "László Fazekas"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q918435",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Fazekas"
+  }
+}

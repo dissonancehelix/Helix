@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tatsuo_nishizono",
+  "entity_type": "music.composer",
+  "label": "Tatsuo Nishizono",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Zatch Bell! Mamodo Fury"
+    ],
+    "artist_keys": [
+      "Tatsuo Nishizono"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

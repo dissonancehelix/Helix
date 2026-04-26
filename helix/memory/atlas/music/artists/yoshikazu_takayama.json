@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshikazu_takayama",
+  "entity_type": "music.composer",
+  "label": "Yoshikazu Takayama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Elden Ring Nightreign"
+    ],
+    "artist_keys": [
+      "Yoshikazu Takayama"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

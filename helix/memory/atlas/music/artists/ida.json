@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:ida",
+  "entity_type": "music.composer",
+  "label": "Ida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Super Dodge Ball"
+    ],
+    "artist_keys": [
+      "Ida"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q644599",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ida_(given_name)"
+  }
+}

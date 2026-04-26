@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:brian_min",
+  "entity_type": "music.composer",
+  "label": "Brian Min",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "BattleTanx"
+    ],
+    "artist_keys": [
+      "Brian Min"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q133634568",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

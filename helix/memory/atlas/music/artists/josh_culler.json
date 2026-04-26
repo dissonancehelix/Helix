@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:josh_culler",
+  "entity_type": "music.composer",
+  "label": "Josh Culler",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Underrail"
+    ],
+    "artist_keys": [
+      "Josh Culler"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

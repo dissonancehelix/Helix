@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hayata_takeda",
+  "entity_type": "music.composer",
+  "label": "Hayata Takeda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "World of Final Fantasy"
+    ],
+    "artist_keys": [
+      "Hayata Takeda"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

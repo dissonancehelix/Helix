@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:teruo_konishi",
+  "entity_type": "music.composer",
+  "label": "Teruo Konishi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cho Aniki Show II",
+      "Mega Man X7",
+      "The King of Fighters 2002"
+    ],
+    "artist_keys": [
+      "Teruo Konishi"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q21015370",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

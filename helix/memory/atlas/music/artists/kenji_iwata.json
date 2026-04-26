@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kenji_iwata",
+  "entity_type": "music.composer",
+  "label": "Kenji Iwata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Various Daylife"
+    ],
+    "artist_keys": [
+      "Kenji Iwata"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

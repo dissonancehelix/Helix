@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kazuo_nii",
+  "entity_type": "music.composer",
+  "label": "Kazuo Nii",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Sugoi Hebereke"
+    ],
+    "artist_keys": [
+      "Kazuo Nii"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q6381660",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kazuo_Niibori"
+  }
+}

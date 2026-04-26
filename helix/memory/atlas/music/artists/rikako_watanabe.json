@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:rikako_watanabe",
+  "entity_type": "music.composer",
+  "label": "Rikako Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "13 Sentinels",
+      "A.N.N.E",
+      "Astria Ascending",
+      "Caravan Stories",
+      "GrimGrimoire",
+      "GrimGrimoire OnceMore",
+      "Mirage in the Flower",
+      "Miss Kobayashi's Dragon Maid",
+      "Mist Train Girls",
+      "Project Babel",
+      "Shining Beyond",
+      "Tales of Demons and Gods",
+      "Unicorn Overlord"
+    ],
+    "artist_keys": [
+      "Rikako Watanabe"
+    ],
+    "track_count": 281
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ead33dda-c418-42eb-9e95-11cff6d11895",
+    "wikidata": "Q2152971",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

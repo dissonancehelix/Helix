@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kiyomi_tanaka",
+  "entity_type": "music.composer",
+  "label": "Kiyomi Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Monster Rancher Advance 2",
+      "Monster Rancher Battle Card GB",
+      "Monster Rancher Explorer",
+      "Speed Racer",
+      "Tokyo Disneyland",
+      "Tomato Adventure"
+    ],
+    "artist_keys": [
+      "Kiyomi Tanaka"
+    ],
+    "track_count": 108
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

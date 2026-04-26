@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:jaelyn_nisperos",
+  "entity_type": "music.composer",
+  "label": "Jaelyn Nisperos",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "3D OutRun",
+      "Ahoge Chanbara",
+      "Sega Vintage Collection"
+    ],
+    "artist_keys": [
+      "Jaelyn Nisperos"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "49703",
+    "musicbrainz": "f7ebd534-760a-46c4-b8b4-c6d34b0e02d6",
+    "wikidata": "Q67655123",
+    "spotify": "3nHvFiNo6nYIDY6Hb0ZDD6",
+    "lastfm": "chibi-tech"
+  }
+}

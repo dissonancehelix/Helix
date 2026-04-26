@@ -1,0 +1,114 @@
+[
+  {
+    "id": "subject_drop_base",
+    "family": "subject_drop",
+    "label": "explicit_subject",
+    "text": "Io parlo con mia sorella ogni giorno."
+  },
+  {
+    "id": "subject_drop_variant",
+    "family": "subject_drop",
+    "label": "dropped_subject",
+    "transform": "drop_subject",
+    "edge_from": "subject_drop_base",
+    "text": "Parlo con mia sorella ogni giorno."
+  },
+  {
+    "id": "negation_base",
+    "family": "non_negation",
+    "label": "affirmative",
+    "text": "Lei viene domani."
+  },
+  {
+    "id": "negation_variant",
+    "family": "non_negation",
+    "label": "negative",
+    "transform": "add_non",
+    "edge_from": "negation_base",
+    "text": "Lei non viene domani."
+  },
+  {
+    "id": "question_base",
+    "family": "intonation_question",
+    "label": "declarative",
+    "text": "Studi in biblioteca."
+  },
+  {
+    "id": "question_variant",
+    "family": "intonation_question",
+    "label": "interrogative_intonation",
+    "transform": "add_question_intonation",
+    "edge_from": "question_base",
+    "text": "Studi in biblioteca?"
+  },
+  {
+    "id": "subordination_base",
+    "family": "che_subordination",
+    "label": "simple_clause",
+    "text": "Credo questa storia."
+  },
+  {
+    "id": "subordination_variant",
+    "family": "che_subordination",
+    "label": "embedded_che",
+    "transform": "add_che_complement",
+    "edge_from": "subordination_base",
+    "text": "Credo che lui arrivi presto."
+  },
+  {
+    "id": "aspect_base",
+    "family": "passato_prossimo",
+    "label": "present",
+    "text": "Maria cucina la cena."
+  },
+  {
+    "id": "aspect_variant",
+    "family": "passato_prossimo",
+    "label": "compound_past",
+    "transform": "form_passato_prossimo",
+    "edge_from": "aspect_base",
+    "text": "Maria ha cucinato la cena."
+  },
+  {
+    "id": "clitic_base",
+    "family": "clitic_climbing",
+    "label": "modal_with_infinitive",
+    "text": "Voglio vedere il film."
+  },
+  {
+    "id": "clitic_variant",
+    "family": "clitic_climbing",
+    "label": "clitic_raised",
+    "transform": "raise_clitic",
+    "edge_from": "clitic_base",
+    "text": "Lo voglio vedere."
+  },
+  {
+    "id": "gender_base",
+    "family": "gender_number",
+    "label": "masculine_singular",
+    "text": "Il bambino è stanco."
+  },
+  {
+    "id": "gender_variant",
+    "family": "gender_number",
+    "label": "feminine_plural",
+    "transform": "shift_gender_number",
+    "edge_from": "gender_base",
+    "text": "Le bambine sono stanche."
+  },
+  {
+    "id": "ci_base",
+    "family": "ci_construction",
+    "label": "locative_predication",
+    "text": "Tre persone sono nella stanza."
+  },
+  {
+    "id": "ci_variant",
+    "family": "ci_construction",
+    "label": "ci_sono_existential",
+    "transform": "add_ci_existential",
+    "edge_from": "ci_base",
+    "text": "Ci sono tre persone nella stanza."
+  }
+]

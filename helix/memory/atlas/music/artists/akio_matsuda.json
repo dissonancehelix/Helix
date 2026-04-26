@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:akio_matsuda",
+  "entity_type": "music.composer",
+  "label": "Akio Matsuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Sega CD"
+    ],
+    "franchises": [
+      "Yumimi Mix"
+    ],
+    "artist_keys": [
+      "Akio Matsuda"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90428515",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

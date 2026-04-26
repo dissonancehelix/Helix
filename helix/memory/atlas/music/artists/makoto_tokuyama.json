@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:makoto_tokuyama",
+  "entity_type": "music.composer",
+  "label": "Makoto Tokuyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Racing"
+    ],
+    "artist_keys": [
+      "Makoto Tokuyama"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

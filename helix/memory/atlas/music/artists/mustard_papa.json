@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mustard_papa",
+  "entity_type": "music.composer",
+  "label": "Mustard Papa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Rapid Hero"
+    ],
+    "artist_keys": [
+      "Mustard Papa"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

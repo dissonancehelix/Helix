@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tecchan_k",
+  "entity_type": "music.composer",
+  "label": "Tecchan K.",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Ochin ni Toshi Puzzle Tonjan!?"
+    ],
+    "artist_keys": [
+      "Tecchan K."
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

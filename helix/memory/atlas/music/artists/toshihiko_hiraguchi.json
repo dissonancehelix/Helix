@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:toshihiko_hiraguchi",
+  "entity_type": "music.composer",
+  "label": "Toshihiko Hiraguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The King of Fighters XIII"
+    ],
+    "artist_keys": [
+      "Toshihiko Hiraguchi"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

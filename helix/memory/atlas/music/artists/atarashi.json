@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:atarashi",
+  "entity_type": "music.composer",
+  "label": "Atarashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Madou Monogatari 1"
+    ],
+    "artist_keys": [
+      "Atarashi"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "12a43a61-e31a-4cac-92a6-c95ce9cdfe3c",
+    "wikidata": "Q30937273",
+    "spotify": "4OfU76YhPU04wlmbVFFgTJ",
+    "lastfm": "新しい学校のリーダーズ",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atarashii_Gakko!"
+  }
+}

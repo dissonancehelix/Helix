@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yasuhiro_taguchi",
+  "entity_type": "music.composer",
+  "label": "Yasuhiro Taguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "FOXY 2"
+    ],
+    "artist_keys": [
+      "Yasuhiro Taguchi"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3571977",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

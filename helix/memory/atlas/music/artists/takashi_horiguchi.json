@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takashi_horiguchi",
+  "entity_type": "music.composer",
+  "label": "Takashi Horiguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Master System",
+      "Super NES"
+    ],
+    "franchises": [
+      "Arabian Nights",
+      "Master of Darkness"
+    ],
+    "artist_keys": [
+      "Takashi Horiguchi"
+    ],
+    "track_count": 39
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

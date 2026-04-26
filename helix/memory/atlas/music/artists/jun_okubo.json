@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:jun_okubo",
+  "entity_type": "music.composer",
+  "label": "Jun Okubo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Justice Monsters Five"
+    ],
+    "artist_keys": [
+      "Jun Okubo"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

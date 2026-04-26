@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:steve_collett",
+  "entity_type": "music.composer",
+  "label": "Steve Collett",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "The Incredible Hulk"
+    ],
+    "artist_keys": [
+      "Steve Collett"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q61951529",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Steve_Collett"
+  }
+}

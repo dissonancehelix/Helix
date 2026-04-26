@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:tomoya_ohtani",
+  "entity_type": "music.composer",
+  "label": "Tomoya Ohtani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "404 Game Re",
+      "Billy Hatcher and the Giant Egg",
+      "ChuChu Rocket!",
+      "Dengeki Bunko",
+      "Feel the Magic",
+      "Mario; Sonic the Hedgehog",
+      "NiGHTS",
+      "Phantasy Star Online 2 Episode 6",
+      "Rhythm Thief & the Emperor's Treasure",
+      "Rhythm Thief & the Paris Caper"
+    ],
+    "artist_keys": [
+      "Tomoya Ohtani"
+    ],
+    "track_count": 652
+  },
+  "external_ids": {
+    "vgmdb": "655",
+    "musicbrainz": "ddf9f271-ada4-425a-86ac-7c0a7f06af4f",
+    "wikidata": "Q16204298",
+    "spotify": "",
+    "lastfm": "大谷智哉",
+    "discogs": "1118248",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tomoya_Ohtani"
+  }
+}

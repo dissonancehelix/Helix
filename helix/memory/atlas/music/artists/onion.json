@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:onion",
+  "entity_type": "music.composer",
+  "label": "ONION",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mystery Case In Hi!school!! Synergy"
+    ],
+    "artist_keys": [
+      "ONION"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q23485",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Onion"
+  }
+}

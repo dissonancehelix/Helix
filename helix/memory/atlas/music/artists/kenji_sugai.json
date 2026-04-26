@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kenji_sugai",
+  "entity_type": "music.composer",
+  "label": "Kenji Sugai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Gururin",
+      "Kawa no Nushi Tsuri 2",
+      "Ozumou Damashii",
+      "Tsuri Taro"
+    ],
+    "artist_keys": [
+      "Kenji Sugai"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

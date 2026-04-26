@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:naoyuki_sato",
+  "entity_type": "music.composer",
+  "label": "Naoyuki Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Busou Shinki Battle Masters",
+      "Elebits",
+      "Otomedius Excellent"
+    ],
+    "artist_keys": [
+      "Naoyuki Sato"
+    ],
+    "track_count": 73
+  },
+  "external_ids": {
+    "vgmdb": "1547",
+    "musicbrainz": "b9c9ad73-26f1-4270-a8fa-b72077140fb8",
+    "wikidata": "Q11248781",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

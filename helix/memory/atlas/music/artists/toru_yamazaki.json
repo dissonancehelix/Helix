@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toru_yamazaki",
+  "entity_type": "music.composer",
+  "label": "Toru Yamazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Inazuma Eleven"
+    ],
+    "artist_keys": [
+      "Toru Yamazaki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q98961295",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

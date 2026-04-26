@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:gametal",
+  "entity_type": "music.composer",
+  "label": "GaMetal",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Berserk Boy"
+    ],
+    "artist_keys": [
+      "GaMetal"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

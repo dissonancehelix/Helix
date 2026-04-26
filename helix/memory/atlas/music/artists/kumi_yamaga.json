@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kumi_yamaga",
+  "entity_type": "music.composer",
+  "label": "Kumi Yamaga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "1943",
+      "1943 Kai"
+    ],
+    "artist_keys": [
+      "Kumi Yamaga"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

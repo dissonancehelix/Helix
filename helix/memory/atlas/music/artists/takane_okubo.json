@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:takane_okubo",
+  "entity_type": "music.composer",
+  "label": "Takane Okubo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bakutotsu Kijuutei",
+      "Bakutou Dodgers",
+      "GP",
+      "Ginga Sengoku Gunyuuden Rai",
+      "Indy Car Challenge",
+      "Marvel Super Heroes",
+      "Milandra",
+      "SD Gundam Power Formation Puzzle",
+      "SimAnt",
+      "SimEarth",
+      "Super Pachinko",
+      "Wakataka Oozumou",
+      "Wrecking Crew '98",
+      "Zombie Nation"
+    ],
+    "artist_keys": [
+      "Takane Okubo"
+    ],
+    "track_count": 200
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q128045309",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takane_%C5%8Ckubo"
+  }
+}

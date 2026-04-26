@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:akio_dobashi",
+  "entity_type": "music.composer",
+  "label": "Akio Dobashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Lagrange Point"
+    ],
+    "artist_keys": [
+      "Akio Dobashi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "7706",
+    "musicbrainz": "f39c21fc-ff13-4b29-9ca0-a0efa14674d2",
+    "wikidata": "Q11423708",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

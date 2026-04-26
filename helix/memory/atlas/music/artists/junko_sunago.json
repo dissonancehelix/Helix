@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:junko_sunago",
+  "entity_type": "music.composer",
+  "label": "Junko Sunago",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "International Superstar Soccer 2000"
+    ],
+    "artist_keys": [
+      "Junko Sunago"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

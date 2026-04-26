@@ -1,0 +1,115 @@
+manifest_schema: manifest_schema_v1
+scope: docs
+version: "1.0"
+
+# Docs tree manifest.
+# Machine-readable definition of what is allowed and required in docs/.
+# Validator: core/governance/validation/structure_validator.py
+# Authority: docs/governance/AUTHORITY.md
+
+# --- Root rules ---
+root:
+  path: docs/
+  allowed_root_files:
+    - README.md
+    - manifest.yaml
+  forbidden_loose_files: true   # any .md not in allowed_root_files is a violation
+  required_files:
+    - README.md
+    - manifest.yaml
+
+# --- Required subtrees ---
+subtrees:
+  - name: architecture
+    path: docs/architecture/
+    doc_class: system_architecture
+    required_files: []  # no individual file required — subtree required to exist
+    allowed_extensions: [.md]
+    known_files:
+      - ARCHITECTURE.md
+      - PIPELINE.md
+      - SPEC.md
+      - ENTITY_SCHEMA.md
+      - OPERATOR_SPEC.md
+      - HSL.md
+
+  - name: governance
+    path: docs/governance/
+    doc_class: governance_authority
+    required_files: []
+    allowed_extensions: [.md]
+    known_files:
+      - GOVERNANCE.md
+      - AUTHORITY.md
+      - snapshot_export.md
+
+  - name: invariants
+    path: docs/invariants/
+    doc_class: invariant_documentation
+    required_files:
+      - INVARIANTS.md
+    allowed_extensions: [.md]
+    known_files:
+      - INVARIANTS.md
+      - decision_compression_principle.md
+    note: >
+      Each named invariant family should have a doc here.
+      INVARIANTS.md is the required index.
+
+  - name: research
+    path: docs/research/
+    doc_class: research_working_note
+    required_files: []
+    allowed_extensions: [.md]
+    known_files:
+      - dcp_trajectory_open_questions.md
+      - cross_domain_formalism.md
+      - gwt_consciousness_probe_findings.md
+      - analysis_phases.md
+      - ud_preregistration.md
+      - composer_attribution_spec.md
+      - s3k.md
+      - genesis_vgm_remaster_spatial_engine_project_doc.md
+    note: >
+      Working notes only. Not specifications. Explicitly provisional.
+      Files here are expected to be updated frequently.
+
+  - name: profiles
+    path: docs/profiles/
+    doc_class: operator_profile
+    required_files: []
+    allowed_extensions: [.md]
+    known_files:
+      - DISSONANCE.md
+    note: >
+      Cognitive and operator profiles used as Helix research substrate.
+
+# --- Ownership rules ---
+ownership:
+  domain_docs_location: domains/<domain>/     # NOT in docs/
+  application_docs_location: applications/<app>/  # NOT in docs/
+  core_subsystem_docs: stays_with_subsystem   # e.g. core/enforcement/ENFORCEMENT.md
+  experiment_artifacts: applications/labs/
+  data: codex/
+
+# --- Doc class definitions ---
+doc_classes:
+  system_architecture:
+    description: Stable system-wide architectural reference docs
+    stability: stable
+
+  governance_authority:
+    description: Authority rules, promotion gate, validation definitions
+    stability: stable
+
+  invariant_documentation:
+    description: Named invariant family documentation
+    stability: evolving
+
+  research_working_note:
+    description: Exploratory working notes — explicitly provisional
+    stability: volatile
+
+  operator_profile:
+    description: Cognitive or research profiles used as Helix substrate
+    stability: stable

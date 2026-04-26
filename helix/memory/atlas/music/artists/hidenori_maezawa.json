@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:hidenori_maezawa",
+  "entity_type": "music.composer",
+  "label": "Hidenori Maezawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Famicom Disk System",
+      "NES"
+    ],
+    "franchises": [
+      "Castlevania III",
+      "Cosmic Wars",
+      "Crackout",
+      "Detana!! TwinBee",
+      "Getsu Fuuma Den",
+      "Gradius II",
+      "Granblue Fantasy Versus",
+      "Hi no Tori Hououhen",
+      "Risa's Fairy Tale",
+      "Super Contra",
+      "Surprise Attack",
+      "The Adventures of Bayou Billy",
+      "The Goonies II",
+      "The Maze of Galious",
+      "Top Gun"
+    ],
+    "artist_keys": [
+      "Hidenori Maezawa"
+    ],
+    "track_count": 148
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

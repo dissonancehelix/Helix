@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:zardonic",
+  "entity_type": "music.composer",
+  "label": "Zardonic",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Racing"
+    ],
+    "artist_keys": [
+      "Zardonic"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ceb7e4b3-87f3-4ed6-9556-59b2a495c68b",
+    "wikidata": "Q820995",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zardonic"
+  }
+}

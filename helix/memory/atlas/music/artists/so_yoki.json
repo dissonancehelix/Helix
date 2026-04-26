@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:so_yoki",
+  "entity_type": "music.composer",
+  "label": "So Yoki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 2"
+    ],
+    "artist_keys": [
+      "So Yoki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

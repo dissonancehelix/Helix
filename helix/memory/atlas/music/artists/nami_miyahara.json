@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:nami_miyahara",
+  "entity_type": "music.composer",
+  "label": "Nami Miyahara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Inazuma Eleven"
+    ],
+    "artist_keys": [
+      "Nami Miyahara"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "10058",
+    "musicbrainz": "109fd297-3ec8-4b35-b69d-ed2e3ccfdb4a",
+    "wikidata": "Q1070519",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nami_Miyahara"
+  }
+}

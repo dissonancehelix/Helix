@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:eveline_fischer",
+  "entity_type": "music.composer",
+  "label": "Eveline Fischer",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Donkey Kong Country",
+      "Donkey Kong Country 3",
+      "Ken Griffey Jr.'s Winning Run"
+    ],
+    "artist_keys": [
+      "Eveline Fischer"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "506",
+    "musicbrainz": "b2eee763-579a-40af-bc7b-a5feac3c8c74",
+    "wikidata": "Q5416250",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eveline_Fischer"
+  }
+}

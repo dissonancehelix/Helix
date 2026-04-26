@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:jeremy_soule",
+  "entity_type": "music.composer",
+  "label": "Jeremy Soule",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Guild Wars 2",
+      "Harry Potter and the Chamber of Secrets",
+      "Harry Potter and the Goblet of Fire",
+      "Harry Potter and the Prisoner of Azkaban",
+      "Harry Potter and the Sorcerer's Stone",
+      "Icewind Dale",
+      "Otomedius Excellent",
+      "Secret of Evermore",
+      "The Elder Scrolls III",
+      "The Elder Scrolls IV",
+      "The Elder Scrolls V",
+      "zOMG!"
+    ],
+    "artist_keys": [
+      "Jeremy Soule"
+    ],
+    "track_count": 400
+  },
+  "external_ids": {
+    "vgmdb": "431",
+    "musicbrainz": "f413369d-d72f-46b9-8744-2d09344a9c6a",
+    "wikidata": "Q466213",
+    "spotify": "77yY2QmM6bYvjJ3y5L2R0v",
+    "lastfm": "Jeremy+Soule",
+    "discogs": "779522",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jeremy_Soule"
+  }
+}

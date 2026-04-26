@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yutaka_akiyama",
+  "entity_type": "music.composer",
+  "label": "Yutaka Akiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Monkey Ball 3D"
+    ],
+    "artist_keys": [
+      "Yutaka Akiyama"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q89414820",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:perez_prado",
+  "entity_type": "music.composer",
+  "label": "Perez Prado",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Perez Prado"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "9b97150f-f131-4339-921e-8e5d8425f737",
+    "wikidata": "Q154809",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/P%C3%A9rez_Prado"
+  }
+}

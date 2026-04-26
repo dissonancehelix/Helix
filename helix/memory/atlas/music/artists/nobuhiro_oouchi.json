@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:nobuhiro_oouchi",
+  "entity_type": "music.composer",
+  "label": "Nobuhiro Oouchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II"
+    ],
+    "franchises": [
+      "Saturday Night Slam Masters",
+      "Slip Stream"
+    ],
+    "artist_keys": [
+      "Nobuhiro Oouchi"
+    ],
+    "track_count": 27
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

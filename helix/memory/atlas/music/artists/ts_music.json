@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:ts_music",
+  "entity_type": "music.composer",
+  "label": "T's Music",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Dahna",
+      "Flicky",
+      "Monster Maker III",
+      "Paddle Fighter",
+      "Quiz Marugoto The World 2",
+      "Wani Wani World"
+    ],
+    "artist_keys": [
+      "T's Music"
+    ],
+    "track_count": 63
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q54150260",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:lab_4",
+  "entity_type": "music.composer",
+  "label": "LAB-4",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Auto Modellista"
+    ],
+    "artist_keys": [
+      "LAB-4"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "32ff0254-5c1f-425c-910a-ff62ff888ca2",
+    "wikidata": "Q6466637",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lab_4"
+  }
+}

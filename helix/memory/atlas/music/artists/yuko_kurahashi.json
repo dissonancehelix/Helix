@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:yuko_kurahashi",
+  "entity_type": "music.composer",
+  "label": "Yuko Kurahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "MSX2",
+      "NES"
+    ],
+    "franchises": [
+      "Bio Miracle Bokutte Upa",
+      "God Medicine",
+      "Gradius",
+      "Metal Gear 2",
+      "SD Snatcher",
+      "Space Manbow",
+      "Teenage Mutant Ninja Turtles II"
+    ],
+    "artist_keys": [
+      "Yuko Kurahashi"
+    ],
+    "track_count": 107
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q133747524",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

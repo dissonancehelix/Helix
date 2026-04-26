@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:sea_power",
+  "entity_type": "music.composer",
+  "label": "Sea Power",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Disco Elysium"
+    ],
+    "artist_keys": [
+      "Sea Power"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "46432",
+    "musicbrainz": "8830afec-83b3-4213-aad0-f6377f1d73ac",
+    "wikidata": "Q920131",
+    "spotify": "5zhn89Em2jWUUWdpcLO3YL",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sea_Power"
+  }
+}

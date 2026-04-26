@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:taihei_sato",
+  "entity_type": "music.composer",
+  "label": "Taihei Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Crackin' DJ",
+      "Minnesota Fats",
+      "Phantasy Star Portable",
+      "Phantasy Star Universe",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Taihei Sato"
+    ],
+    "track_count": 53
+  },
+  "external_ids": {
+    "vgmdb": "3235",
+    "musicbrainz": "265548fc-bd79-42b9-8428-1319d4ed44b8",
+    "wikidata": "Q113628102",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

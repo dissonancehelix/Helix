@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:marshall_parker",
+  "entity_type": "music.composer",
+  "label": "Marshall Parker",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Choplifter 3",
+      "Mechwarrior",
+      "Radical Rex",
+      "Shadowrun",
+      "Super High Impact",
+      "Super International Cricket",
+      "Super Solitaire",
+      "Tom and Jerry",
+      "True Lies",
+      "WCW SuperBrawl Wrestling"
+    ],
+    "artist_keys": [
+      "Marshall Parker"
+    ],
+    "track_count": 72
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q16018240",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marshall_Parker"
+  }
+}

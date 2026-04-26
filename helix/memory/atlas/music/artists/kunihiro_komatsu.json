@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kunihiro_komatsu",
+  "entity_type": "music.composer",
+  "label": "Kunihiro Komatsu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Gegege no Kitaro"
+    ],
+    "artist_keys": [
+      "Kunihiro Komatsu"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

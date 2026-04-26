@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kanaya_oki",
+  "entity_type": "music.composer",
+  "label": "Kanaya Oki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Damacy Rolling Live",
+      "Once Upon a Katamari",
+      "Survival Quiz City"
+    ],
+    "artist_keys": [
+      "Kanaya Oki"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

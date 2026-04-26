@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:naoya_shimokawa",
+  "entity_type": "music.composer",
+  "label": "Naoya Shimokawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "DR² Night Janki",
+      "Farland Story",
+      "Filsnown",
+      "Kizuato",
+      "Shizuku",
+      "V.G.",
+      "V.G. II"
+    ],
+    "artist_keys": [
+      "Naoya Shimokawa"
+    ],
+    "track_count": 67
+  },
+  "external_ids": {
+    "vgmdb": "28",
+    "musicbrainz": "65456e1f-741f-4ba6-9f59-70bb06af4ad7",
+    "wikidata": "Q11254517",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

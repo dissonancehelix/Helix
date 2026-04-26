@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:norihiro_akasaka",
+  "entity_type": "music.composer",
+  "label": "Norihiro Akasaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "D"
+    ],
+    "artist_keys": [
+      "Norihiro Akasaka"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

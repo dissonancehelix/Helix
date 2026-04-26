@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:snk_sound_team",
+  "entity_type": "music.composer",
+  "label": "SNK Sound Team",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Athena",
+      "Metal Slug Attack",
+      "Metal Slug Defense"
+    ],
+    "artist_keys": [
+      "SNK Sound Team"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "1076",
+    "musicbrainz": "3c4aaf27-5917-4960-bc13-b22982338665",
+    "wikidata": "Q11501085",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

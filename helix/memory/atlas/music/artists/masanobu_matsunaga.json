@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masanobu_matsunaga",
+  "entity_type": "music.composer",
+  "label": "Masanobu Matsunaga",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario Kart"
+    ],
+    "artist_keys": [
+      "Masanobu Matsunaga"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "34305",
+    "musicbrainz": "5080c5c9-7656-4559-81c4-235da0f9f862",
+    "wikidata": "Q11531575",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:ryuji_sasai",
+  "entity_type": "music.composer",
+  "label": "Ryuji Sasai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Final Fantasy",
+      "Final Fantasy Legend III",
+      "Rudra no Hihou",
+      "Sword World SFC",
+      "Tobal No. 1",
+      "Xak",
+      "Xak II"
+    ],
+    "artist_keys": [
+      "Ryuji Sasai"
+    ],
+    "track_count": 182
+  },
+  "external_ids": {
+    "vgmdb": "354",
+    "musicbrainz": "ec9393ac-d079-44e9-bf0f-cc6841189d10",
+    "wikidata": "Q2978517",
+    "spotify": "",
+    "lastfm": "笹井隆司",
+    "discogs": "460985",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ryuji_Sasai"
+  }
+}

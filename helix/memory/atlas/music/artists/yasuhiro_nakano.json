@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yasuhiro_nakano",
+  "entity_type": "music.composer",
+  "label": "Yasuhiro Nakano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Battle Arena Toshinden 2"
+    ],
+    "artist_keys": [
+      "Yasuhiro Nakano"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11367643",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

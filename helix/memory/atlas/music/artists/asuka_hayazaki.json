@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:asuka_hayazaki",
+  "entity_type": "music.composer",
+  "label": "Asuka Hayazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Animal Crossing",
+      "Mario",
+      "Mario Kart 8",
+      "Mario Kart Wii",
+      "New Super Mario Bros.",
+      "New Super Mario Bros. Wii",
+      "Nintendogs + Cats",
+      "Pikmin 3",
+      "Pikmin 4",
+      "Ring Fit Adventure"
+    ],
+    "artist_keys": [
+      "Asuka Hayazaki"
+    ],
+    "track_count": 697
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

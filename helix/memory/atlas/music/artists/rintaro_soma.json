@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:rintaro_soma",
+  "entity_type": "music.composer",
+  "label": "Rintaro Soma",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "404 Game Re",
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Sonic Superstars",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Rintaro Soma"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

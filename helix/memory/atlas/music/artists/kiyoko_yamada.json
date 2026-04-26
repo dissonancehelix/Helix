@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kiyoko_yamada",
+  "entity_type": "music.composer",
+  "label": "Kiyoko Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II",
+      "PC-98"
+    ],
+    "franchises": [
+      "Cadillacs and Dinosaurs",
+      "Martial Age",
+      "SYNERGY MCMXCI",
+      "Saturday Night Slam Masters"
+    ],
+    "artist_keys": [
+      "Kiyoko Yamada"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:morihiro_iwamoto",
+  "entity_type": "music.composer",
+  "label": "Morihiro Iwamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Bomberman DS",
+      "The Legendary Starfy"
+    ],
+    "artist_keys": [
+      "Morihiro Iwamoto"
+    ],
+    "track_count": 91
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

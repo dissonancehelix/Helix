@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:atsushi_kondo",
+  "entity_type": "music.composer",
+  "label": "Atsushi Kondo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Atsushi Kondo"
+    ],
+    "track_count": 50
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "576d68f3-f2d5-43fd-932f-3e5054d1cfd2",
+    "wikidata": "Q11228109",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

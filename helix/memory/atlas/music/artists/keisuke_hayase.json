@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:keisuke_hayase",
+  "entity_type": "music.composer",
+  "label": "Keisuke Hayase",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "CrossCode"
+    ],
+    "artist_keys": [
+      "Keisuke Hayase"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

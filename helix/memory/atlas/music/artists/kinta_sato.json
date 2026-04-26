@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kinta_sato",
+  "entity_type": "music.composer",
+  "label": "Kinta Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Pokémon Ranger"
+    ],
+    "artist_keys": [
+      "Kinta Sato"
+    ],
+    "track_count": 97
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

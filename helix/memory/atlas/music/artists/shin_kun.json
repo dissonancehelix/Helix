@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:shin_kun",
+  "entity_type": "music.composer",
+  "label": "Shin-Kun",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2"
+    ],
+    "franchises": [
+      "Aleste",
+      "Xevious"
+    ],
+    "artist_keys": [
+      "Shin-Kun"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q133673257",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shin-Kun_Peng"
+  }
+}

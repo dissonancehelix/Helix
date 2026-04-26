@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:jun_funahashi",
+  "entity_type": "music.composer",
+  "label": "Jun Funahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "Game Boy",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Batman Returns",
+      "Castlevania III",
+      "Crackout",
+      "Ganbare Goemon 3",
+      "Mission",
+      "Racer Mini Yonku",
+      "Spawn",
+      "Teenage Mutant Ninja Turtles",
+      "The Adventures of Batman and Robin",
+      "The Adventures of Bayou Billy",
+      "Tiny Toon Adventures"
+    ],
+    "artist_keys": [
+      "Jun Funahashi"
+    ],
+    "track_count": 214
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

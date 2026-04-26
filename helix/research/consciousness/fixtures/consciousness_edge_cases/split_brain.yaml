@@ -1,0 +1,73 @@
+case_id: split_brain
+name: Split-brain (corpus callosotomy)
+field_type: phenomenal_field
+phenomenal_candidate: true
+description: >
+  Surgical severing of the corpus callosum produces two hemispheres with independent
+  behavioral outputs. Left hemisphere controls speech; right hemisphere can act
+  independently on stimuli shown to the left visual field. Subjects report single,
+  unified selfhood. Key test of the U (unity) and F (field inclusion) terms, and of
+  whether phenomenal consciousness requires cross-hemispheric integration.
+
+components:
+  G: 0.9
+  U: 0.5
+  D: 0.8
+  T: 0.9
+  F: 0.6
+
+g_status: g_established
+classification: phenomenal_candidate
+
+evidence:
+  G: >
+    0.9: split-brain patients report unified conscious experience. The verbal left
+    hemisphere's reports indicate phenomenal experience. Reduction from 1.0 is for the
+    uncertainty about the right hemisphere's independent experiential status.
+  U: >
+    0.5: this is the critical case. Unity is massively disrupted at the neural integration
+    level. Two cortical systems operate independently. Yet subjects report a single unified
+    self. Either (a) unity is maintained through brainstem/subcortical channels that bypass
+    the callosum, (b) subjects confabulate unified experience, or (c) the phenomenal field
+    is more robust to structural disintegration than the theory's U term implies.
+    Scored at 0.5 to mark the genuine ambiguity.
+  D: >
+    0.8: differentiation is intact within each hemisphere. The global D score reflects
+    the intact differentiation of whichever hemisphere is generating the verbal report.
+  T: >
+    0.9: temporal thickness appears intact. Not disrupted by callosotomy.
+  F: >
+    0.6: field inclusion is the central problem. If two independent processing streams
+    run without cross-hemispheric integration, what is the scope of the phenomenal field?
+    Does F reflect one stream? Both? The F score is reduced to mark the ambiguity of
+    field scope in a partitioned cortex.
+
+revision_pressure: >
+  Split-brain is the hardest test for U. The theory's U term is underspecified here:
+  if neural integration is what U tracks, then U should collapse dramatically in
+  split-brain patients. But patients report unified selfhood. The theory has two options:
+  (a) patients confabulate unity (the left hemisphere interpreter model — Gazzaniga 1995),
+  or (b) unity is more substrate-independent than the U term currently captures.
+  If (a), the theory predicts U ≈ 0 in the actual phenomenal field, not the verbal report.
+  If (b), the U term needs a revised specification.
+
+breaks_preserved:
+  - >
+    Split-brain patients verbally report unified conscious experience, but experimental
+    testing reveals that the right hemisphere has independent knowledge and independent
+    behavioral preferences the left hemisphere does not have access to. The theory cannot
+    resolve whether U should be scored from (a) the verbal report, (b) the neural
+    architecture, or (c) some other criterion. This scoring ambiguity is unresolved.
+  - >
+    The right hemisphere of a split-brain patient may constitute an independent subject
+    with G > 0. If so, the split-brain case is not "one phenomenal field with disrupted U"
+    but "two phenomenal fields in one body." This would require the case to generate two
+    separate C scores. The current fixture does not resolve this and scores as if there is
+    one field with disrupted U.
+
+notes: >
+  Gazzaniga, Bogen & Sperry 1965 established the experimental paradigm. Gazzaniga 1995
+  proposed the "left hemisphere interpreter" model — the verbal self confabulates unity.
+  Unified field theorists (e.g., Bayne 2010) argue that phenomenal unity is preserved
+  through subcortical connections. The theory must take a position on which account it
+  supports or acknowledge that split-brain is a genuinely unresolved case for U.

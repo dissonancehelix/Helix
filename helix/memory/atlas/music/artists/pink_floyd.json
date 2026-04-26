@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:pink_floyd",
+  "entity_type": "music.composer",
+  "label": "Pink Floyd",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Dark Side of the Moon",
+      "The Wall",
+      "Wish You Were Here"
+    ],
+    "artist_keys": [
+      "Pink Floyd"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "83d91898-7763-47d7-b03b-b92132375c47",
+    "wikidata": "Q2306",
+    "spotify": "0k17h0D3J5VfsdmQ1iZtE9",
+    "lastfm": "Pink+Floyd",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pink_Floyd"
+  }
+}

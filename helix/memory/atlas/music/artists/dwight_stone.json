@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:dwight_stone",
+  "entity_type": "music.composer",
+  "label": "Dwight Stone",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Bonkers"
+    ],
+    "artist_keys": [
+      "Dwight Stone"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q128805410",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

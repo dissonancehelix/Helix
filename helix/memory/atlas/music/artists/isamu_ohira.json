@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:isamu_ohira",
+  "entity_type": "music.composer",
+  "label": "Isamu Ohira",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo",
+      "Gran Turismo 2",
+      "Gran Turismo 3",
+      "Gran Turismo 4"
+    ],
+    "artist_keys": [
+      "Isamu Ohira"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

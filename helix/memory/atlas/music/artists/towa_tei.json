@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:towa_tei",
+  "entity_type": "music.composer",
+  "label": "Towa Tei",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Towa Tei"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

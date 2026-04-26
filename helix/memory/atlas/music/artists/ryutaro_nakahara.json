@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ryutaro_nakahara",
+  "entity_type": "music.composer",
+  "label": "Ryutaro Nakahara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Rare Tracks Ver. 2.0"
+    ],
+    "artist_keys": [
+      "Ryutaro Nakahara"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "2639",
+    "musicbrainz": "7220e86e-8d0f-4724-af2c-0a412a6fbd22",
+    "wikidata": "Q864452",
+    "spotify": "4gDlrL7n3hUaweCjBwVSzj",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ryutaro_Nakahara"
+  }
+}

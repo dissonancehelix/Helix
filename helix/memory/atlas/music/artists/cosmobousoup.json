@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:cosmobousoup",
+  "entity_type": "music.composer",
+  "label": "cosMo@BousouP",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "cosMo@BousouP"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

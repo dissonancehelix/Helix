@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:will_davis",
+  "entity_type": "music.composer",
+  "label": "Will Davis",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Santa Claus Junior"
+    ],
+    "artist_keys": [
+      "Will Davis"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q123524041",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Will_Davis_(Virginia_politician)"
+  }
+}

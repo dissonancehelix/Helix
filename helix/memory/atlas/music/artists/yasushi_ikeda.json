@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yasushi_ikeda",
+  "entity_type": "music.composer",
+  "label": "Yasushi Ikeda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Slip Stream"
+    ],
+    "artist_keys": [
+      "Yasushi Ikeda"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

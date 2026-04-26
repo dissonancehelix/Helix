@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:toshikazu_tanaka",
+  "entity_type": "music.composer",
+  "label": "Toshikazu Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Neo Geo",
+      "Neo Geo Pocket Color"
+    ],
+    "franchises": [
+      "Alpha Mission II",
+      "Chopper I",
+      "Dark Arms",
+      "Fatal Fury",
+      "Gaia Crusaders",
+      "Groove on Fight",
+      "Ikari III",
+      "Iron Tank",
+      "KOF",
+      "King of the Monsters"
+    ],
+    "artist_keys": [
+      "Toshikazu Tanaka"
+    ],
+    "track_count": 509
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q57572140",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

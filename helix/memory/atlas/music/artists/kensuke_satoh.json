@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kensuke_satoh",
+  "entity_type": "music.composer",
+  "label": "Kensuke Satoh",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Strikers 1945 III"
+    ],
+    "artist_keys": [
+      "Kensuke Satoh"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

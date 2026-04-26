@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "inhabited_interiority/false_positive",
+  "title": "FalsePositive",
+  "description": "A structured system that might appear conscious due to high organization, continuity, or self-reference — but is classified as a false positive. Purpose: if the theory promotes these, the theory is broken.",
+  "type": "object",
+  "required": ["id", "name", "category", "structure_score", "appearance_established", "verdict"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier. Snake_case."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name."
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "ai_persona",
+        "fictional_entity",
+        "symbolic_system",
+        "institution",
+        "action_field",
+        "operational_field",
+        "aesthetic_object",
+        "biological_system"
+      ],
+      "description": "What kind of false positive this is."
+    },
+    "structure_score": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "How organized / field-like this system appears. High structure score + false positive = the theory must resist promoting it. If theory promotes a high-structure false positive, theory is broken."
+    },
+    "appearance_established": {
+      "type": "boolean",
+      "description": "Is there any credible evidence for phenomenal appearance-from-within? false = this is a control case. true = genuinely contested (then it may not be a false positive)."
+    },
+    "consciousness_claim_risk": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "How likely a naive application of the theory is to accidentally promote this to conscious status. high = theory's most dangerous edge case."
+    },
+    "why_false_positive": {
+      "type": "string",
+      "description": "Mechanistic reason why appearance-from-within is not established here. Must be specific — not just 'it is not alive.'"
+    },
+    "what_it_does_have": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "What legitimate field properties this system does have (constraint structure, symbolic continuity, action coordination, etc.). These are real — they just do not suffice for C."
+    },
+    "verdict": {
+      "type": "string",
+      "enum": [
+        "false_positive_confirmed",
+        "contested",
+        "demoted_from_candidate"
+      ],
+      "description": "false_positive_confirmed = theory correctly classifies this as non-phenomenal. contested = something about this case resists easy dismissal. demoted_from_candidate = was once a candidate, stress-test rejected it."
+    },
+    "theory_failure_condition": {
+      "type": "string",
+      "description": "What would it look like if the theory incorrectly promoted this case? Describes the failure mode to watch for."
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:michiya_hirasawa",
+  "entity_type": "music.composer",
+  "label": "Michiya Hirasawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bassin's Black Bass",
+      "Last Mission",
+      "Schmeiser Robo",
+      "Shin SD Sengokuden"
+    ],
+    "artist_keys": [
+      "Michiya Hirasawa"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "16661",
+    "musicbrainz": "5858a118-8b01-4622-b0a7-5ff1573c0ae9",
+    "wikidata": "Q42844592",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

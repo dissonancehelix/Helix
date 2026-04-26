@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:chris_senn",
+  "entity_type": "music.composer",
+  "label": "Chris Senn",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Chris Senn"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q5108025",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

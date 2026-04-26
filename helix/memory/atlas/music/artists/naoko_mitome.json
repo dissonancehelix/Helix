@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naoko_mitome",
+  "entity_type": "music.composer",
+  "label": "Naoko Mitome",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Naoko Mitome"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "16195",
+    "musicbrainz": "603c7fd0-e8a2-44a2-991d-2d27c1ee4d62",
+    "wikidata": "Q92450825",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

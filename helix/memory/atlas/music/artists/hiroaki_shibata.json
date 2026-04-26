@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hiroaki_shibata",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Shibata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Getsumen no Anubis"
+    ],
+    "artist_keys": [
+      "Hiroaki Shibata"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11534790",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

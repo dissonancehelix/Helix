@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:satoshi_murata",
+  "entity_type": "music.composer",
+  "label": "Satoshi Murata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "YuYu Hakusho"
+    ],
+    "artist_keys": [
+      "Satoshi Murata"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q92685726",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

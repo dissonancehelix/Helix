@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:akihiro_juichiya",
+  "entity_type": "music.composer",
+  "label": "Akihiro Juichiya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ganbare Goemon",
+      "Magical TwinBee",
+      "Versus Net Soccer"
+    ],
+    "artist_keys": [
+      "Akihiro Juichiya"
+    ],
+    "track_count": 58
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

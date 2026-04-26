@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:aruaru_nakayama",
+  "entity_type": "music.composer",
+  "label": "Aruaru Nakayama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Battle Golfer Yui",
+      "Mahjong Cop Ryuu"
+    ],
+    "artist_keys": [
+      "Aruaru Nakayama"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takeo_kurashina",
+  "entity_type": "music.composer",
+  "label": "Takeo Kurashina",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Vasteel 2"
+    ],
+    "artist_keys": [
+      "Takeo Kurashina"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

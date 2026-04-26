@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:rodney_greenblat",
+  "entity_type": "music.composer",
+  "label": "Rodney Greenblat",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "PaRappa the Rapper"
+    ],
+    "artist_keys": [
+      "Rodney Greenblat"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "df3b29db-64fa-4c90-945e-2e0acebfd830",
+    "wikidata": "Q7356932",
+    "spotify": "4suPEvNZr3QMHEngTxqHCm",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rodney_Alan_Greenblat"
+  }
+}

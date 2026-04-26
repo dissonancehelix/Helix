@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:yasufumi_fukuda",
+  "entity_type": "music.composer",
+  "label": "Yasufumi Fukuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX",
+      "MSX2"
+    ],
+    "franchises": [
+      "Ichido wa Yonde Okitai Nihon Bungaku 100",
+      "Illusion City",
+      "Mario; Sonic the Hedgehog",
+      "Riglord Saga 2",
+      "Sonic the Hedgehog",
+      "Super Smash Bros. Brawl",
+      "The King of Fighters 2002",
+      "The Tower of Gazzel"
+    ],
+    "artist_keys": [
+      "Yasufumi Fukuda"
+    ],
+    "track_count": 203
+  },
+  "external_ids": {
+    "vgmdb": "2149",
+    "musicbrainz": "7eb85419-95e4-437b-a4d9-d10ba771e5bb",
+    "wikidata": "Q11594150",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1134124"
+  }
+}

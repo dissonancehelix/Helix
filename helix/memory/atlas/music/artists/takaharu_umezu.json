@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takaharu_umezu",
+  "entity_type": "music.composer",
+  "label": "Takaharu Umezu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "High Grenadier",
+      "Legion"
+    ],
+    "artist_keys": [
+      "Takaharu Umezu"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

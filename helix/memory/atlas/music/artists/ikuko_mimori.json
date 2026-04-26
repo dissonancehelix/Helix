@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:ikuko_mimori",
+  "entity_type": "music.composer",
+  "label": "Ikuko Mimori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Pokémon Snap",
+      "R"
+    ],
+    "artist_keys": [
+      "Ikuko Mimori"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "7950",
+    "musicbrainz": "",
+    "wikidata": "Q124424327",
+    "spotify": "",
+    "lastfm": "Ikuko+Mimori"
+  }
+}

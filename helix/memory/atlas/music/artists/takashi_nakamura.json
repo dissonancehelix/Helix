@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takashi_nakamura",
+  "entity_type": "music.composer",
+  "label": "Takashi Nakamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Hatris"
+    ],
+    "artist_keys": [
+      "Takashi Nakamura"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102370689",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

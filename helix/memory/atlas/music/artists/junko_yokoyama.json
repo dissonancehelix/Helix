@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:junko_yokoyama",
+  "entity_type": "music.composer",
+  "label": "Junko Yokoyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Ginga Eiyuu Densetsu"
+    ],
+    "artist_keys": [
+      "Junko Yokoyama"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "c758b384-e99a-4285-ace3-c4d54cf0c59f",
+    "wikidata": "Q11542598",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

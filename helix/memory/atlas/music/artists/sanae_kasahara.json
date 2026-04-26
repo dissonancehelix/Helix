@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:sanae_kasahara",
+  "entity_type": "music.composer",
+  "label": "Sanae Kasahara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Cho Aniki"
+    ],
+    "artist_keys": [
+      "Sanae Kasahara"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "1556",
+    "musicbrainz": "cc0eccc4-dbb6-4985-9fa4-c305b014e5c8",
+    "wikidata": "Q125268074",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

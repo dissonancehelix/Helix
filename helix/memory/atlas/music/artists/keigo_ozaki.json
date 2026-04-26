@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:keigo_ozaki",
+  "entity_type": "music.composer",
+  "label": "Keigo Ozaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Puzzle & Dragons X",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Keigo Ozaki"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

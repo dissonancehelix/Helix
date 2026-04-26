@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mari_yoshida",
+  "entity_type": "music.composer",
+  "label": "Mari Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 0"
+    ],
+    "artist_keys": [
+      "Mari Yoshida"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "658ac118-feaf-47d3-a870-1001f51295d9",
+    "wikidata": "Q11414019",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:phil_morris",
+  "entity_type": "music.composer",
+  "label": "Phil Morris",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Lemmings 3D"
+    ],
+    "artist_keys": [
+      "Phil Morris"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1371134",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Phil_Morris_(actor)"
+  }
+}

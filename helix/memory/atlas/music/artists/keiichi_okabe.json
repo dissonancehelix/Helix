@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:keiichi_okabe",
+  "entity_type": "music.composer",
+  "label": "Keiichi Okabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ace Driver",
+      "Air Combat 22",
+      "Alpine Racer 3",
+      "Alpine Surfer",
+      "Aqua Jet",
+      "Beautiful Katamari",
+      "Dai",
+      "Dancing Eyes",
+      "Demons' Score",
+      "Dig Dug Arrangement",
+      "Drakengard 3",
+      "FM Sound Module Maniax",
+      "Final Fantasy XV",
+      "Granblue Fantasy Versus",
+      "NieR"
+    ],
+    "artist_keys": [
+      "Keiichi Okabe"
+    ],
+    "track_count": 206
+  },
+  "external_ids": {
+    "vgmdb": "44306",
+    "musicbrainz": "d82df34a-a1ff-45fa-ac50-c0b7454b201e",
+    "wikidata": "Q11473822",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "412155",
+    "wikipedia": "https://en.wikipedia.org/wiki/Keiichi_Okabe"
+  }
+}

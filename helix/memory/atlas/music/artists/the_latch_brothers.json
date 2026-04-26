@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:the_latch_brothers",
+  "entity_type": "music.composer",
+  "label": "The Latch Brothers",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio Future"
+    ],
+    "artist_keys": [
+      "The Latch Brothers"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "9ca025c8-721e-40e3-93b8-f614fa9ccb02",
+    "wikidata": "Q7746267",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Latch_Brothers"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {"id": "conv_01", "register": "conversational", "text": "Hoy, kung darating ka mamaya, mag-iingat ako ng upuan para sa iyo."},
+  {"id": "conv_02", "register": "conversational", "text": "Hindi ko alam ang ginagawa mo, pero tawagan mo ako pagkalabas mo."},
+  {"id": "conv_03", "register": "conversational", "text": "Uy, malalate ako, magsimula ka na lang nang wala ako."},
+  {"id": "conv_04", "register": "conversational", "text": "Pupunta ka ba sa palengke o nandito ka na lang?"},
+  {"id": "formal_01", "register": "formal", "text": "Nagpapasalamat kami sa inyong pansin at nandito kami para sa anumang karagdagang katanungan."},
+  {"id": "formal_02", "register": "formal", "text": "Ang kahilingan ay susuriin ayon sa mga pamantayang itinakda sa anunsyo."},
+  {"id": "formal_03", "register": "formal", "text": "Ipinaalam namin na ang pamamaraan ay magkakabisa simula sa susunod na Lunes."},
+  {"id": "formal_04", "register": "formal", "text": "Sa kaganapan ng insidente, ang kaugnay na dokumentasyon ay dapat isumite sa nakasulat na anyo."},
+  {"id": "narrative_01", "register": "narrative", "text": "Umuulan sa nayon habang natutulog ang mga aso malapit sa plaza."},
+  {"id": "narrative_02", "register": "narrative", "text": "Nang buksan niya ang pinto, nakita niya ang ilaw na nanginginig sa walang taong pasilyo."},
+  {"id": "narrative_03", "register": "narrative", "text": "Umalis ang tren sa madaling araw at iniwan ang mga puting bahay sa lambak."},
+  {"id": "narrative_04", "register": "narrative", "text": "Kahit walang nagsalita, naunawaan ng lahat na magbabago ng lahat ang gabing iyon."}
+]

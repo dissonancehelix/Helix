@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takayuki_sasaki",
+  "entity_type": "music.composer",
+  "label": "Takayuki Sasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Galaxy Fight"
+    ],
+    "artist_keys": [
+      "Takayuki Sasaki"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3473771",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sasaki_Takayuki"
+  }
+}

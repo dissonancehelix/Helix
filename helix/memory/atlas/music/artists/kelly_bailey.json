@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kelly_bailey",
+  "entity_type": "music.composer",
+  "label": "Kelly Bailey",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Half"
+    ],
+    "artist_keys": [
+      "Kelly Bailey"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "1821",
+    "musicbrainz": "4c8a43b8-1944-4f39-8046-ffa7e76db2af",
+    "wikidata": "Q3194883",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kelly_Bailey_(composer)"
+  }
+}

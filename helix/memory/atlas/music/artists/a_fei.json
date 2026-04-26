@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:a_fei",
+  "entity_type": "music.composer",
+  "label": "a-fei",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 5"
+    ],
+    "artist_keys": [
+      "a-fei"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q104794661",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

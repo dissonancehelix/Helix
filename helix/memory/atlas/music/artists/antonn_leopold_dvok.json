@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:antonn_leopold_dvok",
+  "entity_type": "music.composer",
+  "label": "Antonín Leopold Dvořák",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX"
+    ],
+    "franchises": [
+      "Parodius"
+    ],
+    "artist_keys": [
+      "Antonín Leopold Dvořák"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "3147",
+    "musicbrainz": "819eaeb2-8dd8-48a5-ad07-0bcd137985ef",
+    "wikidata": "Q7298",
+    "spotify": "6n7nd5iceYpXVwcx8VPpxF",
+    "lastfm": "Antonín+Dvořák",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k"
+  }
+}

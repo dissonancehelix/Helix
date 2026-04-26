@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:chris_braymen",
+  "entity_type": "music.composer",
+  "label": "Chris Braymen",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "WWF Raw"
+    ],
+    "artist_keys": [
+      "Chris Braymen"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:gabor_kis",
+  "entity_type": "music.composer",
+  "label": "Gabor Kis",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Star Trek"
+    ],
+    "artist_keys": [
+      "Gabor Kis"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1504483",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mutsumi_ishimura",
+  "entity_type": "music.composer",
+  "label": "Mutsumi Ishimura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Choro Q3"
+    ],
+    "artist_keys": [
+      "Mutsumi Ishimura"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "9582",
+    "musicbrainz": "19726f06-89af-4173-ba0f-e4696cdd39f9",
+    "wikidata": "Q30935281",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

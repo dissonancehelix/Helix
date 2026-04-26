@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:autechre",
+  "entity_type": "music.composer",
+  "label": "Autechre",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Untitled"
+    ],
+    "artist_keys": [
+      "Autechre"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "410c9baf-5469-44f6-9852-826524b80c61",
+    "wikidata": "Q247237",
+    "spotify": "6WH1V41LwGDGmlPUhSZLHO",
+    "lastfm": "Autechre",
+    "wikipedia": "https://en.wikipedia.org/wiki/Autechre"
+  }
+}

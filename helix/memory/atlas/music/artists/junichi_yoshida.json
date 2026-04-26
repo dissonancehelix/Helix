@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:junichi_yoshida",
+  "entity_type": "music.composer",
+  "label": "Junichi Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Criminal Girls",
+      "Time Hollow"
+    ],
+    "artist_keys": [
+      "Junichi Yoshida"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q59563715",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

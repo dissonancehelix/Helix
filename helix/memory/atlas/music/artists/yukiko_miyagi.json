@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yukiko_miyagi",
+  "entity_type": "music.composer",
+  "label": "Yukiko Miyagi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat 7",
+      "Daemon X Machina",
+      "Survival Quiz City"
+    ],
+    "artist_keys": [
+      "Yukiko Miyagi"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

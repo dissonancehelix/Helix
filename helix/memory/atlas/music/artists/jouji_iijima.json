@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:jouji_iijima",
+  "entity_type": "music.composer",
+  "label": "Jouji Iijima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Virtual Open Tennis",
+      "Zero 4 Champ RR"
+    ],
+    "artist_keys": [
+      "Jouji Iijima"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

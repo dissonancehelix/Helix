@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yasuhiro_ichihashi",
+  "entity_type": "music.composer",
+  "label": "Yasuhiro Ichihashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Castlevania",
+      "Ganbare Goemon"
+    ],
+    "artist_keys": [
+      "Yasuhiro Ichihashi"
+    ],
+    "track_count": 100
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

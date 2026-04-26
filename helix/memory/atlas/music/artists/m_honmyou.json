@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:m_honmyou",
+  "entity_type": "music.composer",
+  "label": "M. Honmyou",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "King of the Monsters 2"
+    ],
+    "artist_keys": [
+      "M. Honmyou"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

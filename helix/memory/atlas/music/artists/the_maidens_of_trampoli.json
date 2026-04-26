@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:the_maidens_of_trampoli",
+  "entity_type": "music.composer",
+  "label": "The Maidens of Trampoli",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rune Factory Frontier"
+    ],
+    "artist_keys": [
+      "The Maidens of Trampoli"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

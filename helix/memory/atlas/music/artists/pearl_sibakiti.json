@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:pearl_sibakiti",
+  "entity_type": "music.composer",
+  "label": "Pearl Sibakiti",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Art of Fighting 3",
+      "Super Sidekicks 3",
+      "The King of Fighters '94",
+      "The King of Fighters '95"
+    ],
+    "artist_keys": [
+      "Pearl Sibakiti"
+    ],
+    "track_count": 39
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

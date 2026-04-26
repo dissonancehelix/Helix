@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:makita_sports",
+  "entity_type": "music.composer",
+  "label": "Makita Sports",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Makita Sports"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "49981",
+    "musicbrainz": "916a7f83-95f6-401a-aea9-abdbcdc9d101",
+    "wikidata": "Q11339946",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

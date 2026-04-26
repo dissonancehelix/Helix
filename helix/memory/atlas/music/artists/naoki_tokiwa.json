@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naoki_tokiwa",
+  "entity_type": "music.composer",
+  "label": "Naoki Tokiwa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Naoki Tokiwa"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

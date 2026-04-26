@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:shinji_tasaka",
+  "entity_type": "music.composer",
+  "label": "Shinji Tasaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "Mega Drive",
+      "NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Cave Noire",
+      "Ganbare Goemon",
+      "Gang Busters",
+      "Gradius II",
+      "Tiny Toon Adventures"
+    ],
+    "artist_keys": [
+      "Shinji Tasaka"
+    ],
+    "track_count": 90
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:jonathan_coulton",
+  "entity_type": "music.composer",
+  "label": "Jonathan Coulton",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Portal"
+    ],
+    "artist_keys": [
+      "Jonathan Coulton"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "5403",
+    "musicbrainz": "d8df7087-06d5-4545-9024-831bb8558ad1",
+    "wikidata": "Q611179",
+    "spotify": "292sg99iIOc93zcd30r4Oz",
+    "lastfm": "Jonathan+Coulton",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jonathan_Coulton"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:kenta_nagata",
+  "entity_type": "music.composer",
+  "label": "Kenta Nagata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "1080° Snowboarding",
+      "Big Brain Academy",
+      "Link's Crossbow Training",
+      "Mario",
+      "Mario Kart",
+      "Mario Kart 64",
+      "Mario Kart 7",
+      "Mario Kart 8",
+      "Mario Kart Tour",
+      "New Super Mario Bros. 2",
+      "New Super Mario Bros. Wii",
+      "Pikmin 4",
+      "Pokémon Stadium",
+      "Super Mario Run",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Kenta Nagata"
+    ],
+    "track_count": 419
+  },
+  "external_ids": {
+    "vgmdb": "432",
+    "musicbrainz": "24aa7340-bc54-424b-a6d2-92cc1cfcbcd2",
+    "wikidata": "Q604312",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1263875"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:tappy",
+  "entity_type": "music.composer",
+  "label": "TAPPY",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Battlecry"
+    ],
+    "artist_keys": [
+      "TAPPY"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "36244",
+    "musicbrainz": "95bc0fc4-81d6-4174-8f53-ec066cc64be4",
+    "wikidata": "Q4196957",
+    "spotify": "4PUV1PXT1eWxNirGOVi6ja",
+    "lastfm": "岩瀬立飛",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tappi_Iwase"
+  }
+}

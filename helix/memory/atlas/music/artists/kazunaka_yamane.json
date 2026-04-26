@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kazunaka_yamane",
+  "entity_type": "music.composer",
+  "label": "Kazunaka Yamane",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Double Dragon",
+      "Double Dragon II",
+      "Shadow Force"
+    ],
+    "artist_keys": [
+      "Kazunaka Yamane"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

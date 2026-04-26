@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hiroki_morishita",
+  "entity_type": "music.composer",
+  "label": "Hiroki Morishita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fire Emblem",
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Hiroki Morishita"
+    ],
+    "track_count": 58
+  },
+  "external_ids": {
+    "vgmdb": "16193",
+    "musicbrainz": "7eefee0b-118a-4a7e-80c0-947116f504f7",
+    "wikidata": "Q11539190",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

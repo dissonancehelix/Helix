@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:dolphin",
+  "entity_type": "music.composer",
+  "label": "Dolphin",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Borench",
+      "Columns II",
+      "E",
+      "Flash Point",
+      "Gain Ground"
+    ],
+    "artist_keys": [
+      "Dolphin"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1236429",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dolphin_(emulator)"
+  }
+}

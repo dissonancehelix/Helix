@@ -1,0 +1,287 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "helix://core/kernel/schema/umo_schema",
+  "title": "Unified Musical Object (UMO)",
+  "description": "Canonical per-track artifact schema for Helix. Defined by the HIL Protocol (core/hil/PROTOCOL.md). Principle: same invariant, different observability. All dialect views are optional except where required by partial observability rules; top-level structural fields are required.",
+  "type": "object",
+  "required": ["entity_id", "representations", "alignment_map", "conflicts", "invariants", "identity"],
+  "additionalProperties": false,
+  "properties": {
+
+    "entity_id": {
+      "type": "string",
+      "pattern": "^music\\.track:[a-z0-9_\\-]+$",
+      "description": "Canonical Helix entity ID for this track. Format: music.track:<slug>. Slug is lowercase alphanumeric with underscores and hyphens."
+    },
+
+    "representations": {
+      "type": "object",
+      "required": ["causal", "symbolic", "perceptual", "metadata"],
+      "additionalProperties": false,
+      "description": "The four observability layers of the UMO. Each is an independent partial view of the same underlying musical object. No layer is ground truth.",
+      "properties": {
+
+        "causal": {
+          "type": "object",
+          "description": "Chip/VGM register-level representation. Produced by Nuked adapters. Models time evolution of operator topology, routing, envelopes, and channel state. May be absent if no causal source is available. Extensible: additional dialect-specific fields are permitted.",
+          "additionalProperties": true,
+          "properties": {
+            "operator_topology": {
+              "type": "object",
+              "description": "Per-channel operator routing derived from algorithm register. Maps channel ID to operator roles (modulator/carrier) and connection graph.",
+              "additionalProperties": true
+            },
+            "carrier_slots": {
+              "type": "array",
+              "description": "Operator slot indices that output to DAC per algorithm. Derived from Nuked adapter carrier_slots tables.",
+              "items": { "type": "integer", "minimum": 0, "maximum": 3 }
+            },
+            "modulator_behavior": {
+              "type": "object",
+              "description": "Per-modulator parameters: MULT, DT1, TL, AR, DR, D1L, D2R, RR as time sequences.",
+              "additionalProperties": true
+            },
+            "feedback_profile": {
+              "type": "object",
+              "description": "Feedback register values per channel over time. High feedback = nonlinear self-excitation = spectral brightness.",
+              "additionalProperties": true
+            },
+            "envelope_shapes": {
+              "type": "object",
+              "description": "ADSR envelope parameter sequences per operator per channel. Encodes temporal shaping decisions.",
+              "additionalProperties": true
+            },
+            "channel_usage": {
+              "type": "object",
+              "description": "Active channel timeline: which channels are keyed on/off, at what times, with what patches.",
+              "additionalProperties": true
+            },
+            "temporal_trajectories": {
+              "type": "array",
+              "description": "Ordered sequence of register-change events. Each entry is a timestamped state delta, not a static snapshot.",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "t": { "type": "number", "description": "Timestamp in seconds" },
+                  "chip": { "type": "string" },
+                  "channel": { "type": "integer" },
+                  "register": { "type": "integer" },
+                  "value": { "type": "integer" },
+                  "parameter": { "type": "string" },
+                  "delta": { "type": "object", "additionalProperties": true }
+                },
+                "additionalProperties": true
+              }
+            }
+          }
+        },
+
+        "symbolic": {
+          "type": "object",
+          "description": "Symbolic/musicological representation. Derived from MIDI or audio pitch tracking. Lossy projection — treat as hypothesis, not truth. May be absent if no MIDI or pitch-trackable source is available. Extensible: additional dialect-specific fields are permitted.",
+          "additionalProperties": true,
+          "properties": {
+            "melody": {
+              "type": "object",
+              "description": "Melodic content: pitch sequences, intervals, contour. Derived from dominant voice or pitch tracking.",
+              "additionalProperties": true
+            },
+            "harmony": {
+              "type": "object",
+              "description": "Harmonic content: chord sequences, key estimation, harmonic rhythm.",
+              "additionalProperties": true
+            },
+            "rhythm": {
+              "type": "object",
+              "description": "Rhythmic content: tempo, meter, onset patterns, rhythmic density.",
+              "additionalProperties": true
+            },
+            "voice_structure": {
+              "type": "object",
+              "description": "Polyphonic voice layout: number of voices, voice-leading relationships, parallel motion.",
+              "additionalProperties": true
+            }
+          }
+        },
+
+        "perceptual": {
+          "type": "object",
+          "description": "Perceptual/audio feature representation. Extracted from rendered waveform or audio source. Minimum baseline — always computable when audio is available. Extensible: additional dialect-specific fields are permitted.",
+          "additionalProperties": true,
+          "properties": {
+            "timbre_descriptors": {
+              "type": "object",
+              "description": "MFCC vectors, spectral shape descriptors, zero-crossing rate, and other timbral summaries.",
+              "additionalProperties": true
+            },
+            "spectral_profile": {
+              "type": "object",
+              "description": "Spectral centroid, bandwidth, rolloff, and flux over time.",
+              "additionalProperties": true
+            },
+            "brightness": {
+              "type": "number",
+              "minimum": 0.0,
+              "maximum": 1.0,
+              "description": "Normalized spectral brightness: 0 = dark/low-frequency dominant, 1 = bright/high-frequency dominant."
+            },
+            "roughness": {
+              "type": "number",
+              "minimum": 0.0,
+              "maximum": 1.0,
+              "description": "Perceived roughness / dissonance estimate. Related to beating between partials."
+            },
+            "attack_character": {
+              "type": "object",
+              "description": "Attack transient features: rise time, peak sharpness, transient density per unit time.",
+              "additionalProperties": true
+            },
+            "polyphony_estimate": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Estimated number of simultaneous voices. Real-valued to allow fractional confidence."
+            }
+          }
+        },
+
+        "metadata": {
+          "type": "object",
+          "required": ["recorded", "normalized"],
+          "additionalProperties": false,
+          "description": "Declared metadata layer. Not ground truth. recorded = raw tag values; normalized = normalized/coerced values for indexing. Never merged with inferred structure.",
+          "properties": {
+
+            "recorded": {
+              "type": "object",
+              "description": "Raw values parsed from .vgz.tag or equivalent foobar2000-dialect tag file. All fields optional. Missing fields represent absence, not failure. Incorrect values must be preserved exactly as declared.",
+              "additionalProperties": false,
+              "properties": {
+                "title":        { "type": "string" },
+                "artist":       { "type": "string" },
+                "album":        { "type": "string" },
+                "date":         { "type": "string", "description": "Raw date string from tag. Not parsed to date type." },
+                "genre":        { "type": "string" },
+                "featuring":    { "type": ["string", "array"], "items": { "type": "string" }, "description": "Featured artist(s). String when single value from tag; array when multiple. Normalization to array occurs in metadata.normalized." },
+                "album_artist": { "type": "string" },
+                "sound_team":   { "type": ["string", "array"], "items": { "type": "string" }, "description": "Sound team member(s). String when single value from tag; array when multiple. Normalization to array occurs in metadata.normalized." },
+                "franchise":    { "type": "string" },
+                "track_number": { "type": "integer", "minimum": 1 },
+                "total_tracks": { "type": "integer", "minimum": 1 },
+                "disc_number":  { "type": "integer", "minimum": 1 },
+                "total_discs":  { "type": "integer", "minimum": 1 },
+                "comment":      { "type": "string" },
+                "platform":     { "type": "string", "description": "Hardware platform (e.g. Mega Drive, SNES, PS1)." },
+                "sound_chip":   { "type": ["string", "array"], "items": { "type": "string" }, "description": "Sound chip(s) declared in tag. String when single value from tag; array when multiple. Informs analysis expectations but does not replace analysis." }
+              }
+            },
+
+            "normalized": {
+              "type": "object",
+              "description": "Normalized/indexed form of recorded metadata. May include slug forms, resolved entity IDs, or coerced types. May be empty.",
+              "additionalProperties": true
+            }
+
+          }
+        }
+      }
+    },
+
+    "alignment_map": {
+      "type": "array",
+      "description": "Explicit cross-layer alignment entries. Required (may be empty). All invariants must pass through alignment_map. Entries must respect temporal consistency — do not align frame-level causal events with full-track symbolic summaries.",
+      "items": {
+        "type": "object",
+        "required": ["temporal_scope", "granularity", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "causal":                { "type": "string", "description": "Causal-layer feature or pattern being aligned. Optional — omit when causal data is unavailable; do not fabricate." },
+          "perceptual":            { "type": "string", "description": "Perceptual-layer feature being aligned. Optional — omit when perceptual data is unavailable; do not fabricate." },
+          "symbolic":              { "type": "string", "description": "Symbolic-layer feature being aligned. Optional — omit when symbolic data is unavailable; do not fabricate." },
+          "temporal_scope":        { "type": "string", "description": "Time range this alignment covers. E.g. '0.0-4.2s', 'verse_1', 'full_track'." },
+          "granularity":           { "type": "string", "enum": ["frame", "phrase", "section"], "description": "Temporal granularity of this alignment entry." },
+          "confidence":            { "type": "number", "minimum": 0.0, "maximum": 1.0, "description": "Overall alignment confidence." },
+          "causal_confidence":     { "type": "number", "minimum": 0.0, "maximum": 1.0, "description": "Confidence in the causal observation underlying this alignment." },
+          "perceptual_confidence": { "type": "number", "minimum": 0.0, "maximum": 1.0, "description": "Confidence in the perceptual observation underlying this alignment." },
+          "symbolic_confidence":   { "type": "number", "minimum": 0.0, "maximum": 1.0, "description": "Confidence in the symbolic observation underlying this alignment." }
+        }
+      }
+    },
+
+    "conflicts": {
+      "type": "array",
+      "description": "Cross-layer disagreements. Required (may be empty). Conflicts are first-class data — never discard. May indicate transcription error, perceptual ambiguity, or structural tension. DO NOT RESOLVE automatically.",
+      "items": {
+        "type": "object",
+        "required": ["type", "temporal_scope", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "type":           { "type": "string", "description": "Conflict classification. E.g. 'causal_symbolic_mismatch', 'metadata_inferred_disagreement', 'perceptual_ambiguity'." },
+          "temporal_scope": { "type": "string", "description": "Time range where conflict occurs." },
+          "confidence":     { "type": "number", "minimum": 0.0, "maximum": 1.0, "description": "Confidence that a genuine conflict exists (vs. measurement noise)." },
+          "causal":         { "type": "object", "additionalProperties": true, "description": "Causal-layer value at conflict." },
+          "perceptual":     { "type": "object", "additionalProperties": true, "description": "Perceptual-layer value at conflict." },
+          "symbolic":       { "type": "object", "additionalProperties": true, "description": "Symbolic-layer value at conflict." },
+          "metadata":       { "type": "object", "additionalProperties": true, "description": "Metadata value at conflict." }
+        }
+      }
+    },
+
+    "invariants": {
+      "type": "array",
+      "description": "Patterns that survive across representations. Required (may be empty). STRICT: reject format-specific artifacts and single-layer patterns. NOTE: the ≥2 dialect evidence requirement is a protocol rule enforced during extraction, not a structural schema constraint — a single-dialect evidence object must still be rejected by the extracting agent per STEP 6.",
+      "items": {
+        "type": "object",
+        "required": ["name", "evidence", "evidence_dialects", "confidence"],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Invariant name. Short, descriptive. E.g. 'dual_carrier_layering', 'fast_decay_staccato', 'high_feedback_brightness'."
+          },
+          "evidence": {
+            "type": "object",
+            "description": "Evidence per dialect. Protocol requires ≥2 dialects to be populated for an invariant to be valid. Schema allows partial population but extraction agent must enforce the ≥2 rule.",
+            "additionalProperties": false,
+            "properties": {
+              "causal":     { "type": "object", "additionalProperties": true },
+              "symbolic":   { "type": "object", "additionalProperties": true },
+              "perceptual": { "type": "object", "additionalProperties": true }
+            }
+          },
+          "evidence_dialects": {
+            "type": "array",
+            "items": { "type": "string", "enum": ["causal", "symbolic", "perceptual"] },
+            "minItems": 2,
+            "description": "Dialects that contributed evidence for this invariant. Must contain ≥2 entries — complements the evidence object and makes the multi-dialect requirement structurally enforceable."
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0.0,
+            "maximum": 1.0,
+            "description": "Confidence this pattern is a representation-invariant structure and not a format artifact."
+          }
+        }
+      }
+    },
+
+    "identity": {
+      "type": "object",
+      "required": ["inferred_profile", "evidence_tracks"],
+      "additionalProperties": false,
+      "description": "Composer identity model inferred from this track. Identity is a stable pattern of decisions across representations — not format, chip, or instrument.",
+      "properties": {
+        "inferred_profile": {
+          "type": "object",
+          "description": "Representation-invariant structural summary of composer/artist identity. Encodes stable decision patterns across all available dialects — topology preferences, feedback tendencies, envelope behavior, channel allocation strategy, temporal modulation patterns. Not tied to any single format or chip.",
+          "additionalProperties": true
+        },
+        "evidence_tracks": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of entity_ids (music.track:<slug> format) used to derive this identity profile. Empty array for single-track analysis; populated when identity is inferred across multiple works."
+        }
+      }
+    }
+
+  }
+}

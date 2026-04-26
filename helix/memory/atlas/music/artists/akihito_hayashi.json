@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akihito_hayashi",
+  "entity_type": "music.composer",
+  "label": "Akihito Hayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Battle Unit Zeoth"
+    ],
+    "artist_keys": [
+      "Akihito Hayashi"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

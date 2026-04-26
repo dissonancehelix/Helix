@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hideyuki_suzuki",
+  "entity_type": "music.composer",
+  "label": "Hideyuki Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Tecmo World Soccer '96",
+      "Tecmo's Deception"
+    ],
+    "artist_keys": [
+      "Hideyuki Suzuki"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q52038997",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

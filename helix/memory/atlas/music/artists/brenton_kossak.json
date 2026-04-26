@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:brenton_kossak",
+  "entity_type": "music.composer",
+  "label": "Brenton Kossak",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Skullgirls"
+    ],
+    "artist_keys": [
+      "Brenton Kossak"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q130367981",
+    "spotify": "4WHz4UyDWpMlKM3iJvfkk5",
+    "lastfm": ""
+  }
+}

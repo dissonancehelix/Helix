@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:manami_kiyota",
+  "entity_type": "music.composer",
+  "label": "Manami Kiyota",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Super Rare Trax",
+      "PokéPark Wii",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Xenoblade Chronicles",
+      "Xenoblade Chronicles 2",
+      "Xenoblade Chronicles 3"
+    ],
+    "artist_keys": [
+      "Manami Kiyota"
+    ],
+    "track_count": 152
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kazuhiko_naruse",
+  "entity_type": "music.composer",
+  "label": "Kazuhiko Naruse",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2"
+    ],
+    "franchises": [
+      "Shining Crystal"
+    ],
+    "artist_keys": [
+      "Kazuhiko Naruse"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q125636769",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

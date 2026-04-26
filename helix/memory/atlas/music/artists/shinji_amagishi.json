@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shinji_amagishi",
+  "entity_type": "music.composer",
+  "label": "Shinji Amagishi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "NES"
+    ],
+    "franchises": [
+      "Dragon Ball Z",
+      "Toxic Crusaders"
+    ],
+    "artist_keys": [
+      "Shinji Amagishi"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

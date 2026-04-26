@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:revo",
+  "entity_type": "music.composer",
+  "label": "Revo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bravely Default"
+    ],
+    "artist_keys": [
+      "Revo"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q134964739",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

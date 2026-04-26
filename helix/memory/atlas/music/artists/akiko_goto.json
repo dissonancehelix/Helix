@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:akiko_goto",
+  "entity_type": "music.composer",
+  "label": "Akiko Goto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Treasure Hunter G"
+    ],
+    "artist_keys": [
+      "Akiko Goto"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17158099",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

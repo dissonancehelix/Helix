@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:chico",
+  "entity_type": "music.composer",
+  "label": "CHiCO",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Xenoblade Chronicles 3"
+    ],
+    "artist_keys": [
+      "CHiCO"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "3a5d1cc7-627e-48ea-aba3-fdd20d782c33",
+    "wikidata": "Q333632",
+    "spotify": "6tOsSffQQIXmK8TqsDck8t",
+    "lastfm": "Chico+Buarque",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chico_Buarque"
+  }
+}

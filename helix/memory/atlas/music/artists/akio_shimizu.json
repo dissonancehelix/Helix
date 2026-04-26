@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akio_shimizu",
+  "entity_type": "music.composer",
+  "label": "Akio Shimizu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of Symphonia"
+    ],
+    "artist_keys": [
+      "Akio Shimizu"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "4393",
+    "musicbrainz": "71c33705-b10b-4967-b45b-4d283413da2d",
+    "wikidata": "Q11560989",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

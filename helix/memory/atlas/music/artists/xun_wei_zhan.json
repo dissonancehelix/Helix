@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:xun_wei_zhan",
+  "entity_type": "music.composer",
+  "label": "Xun Wei Zhan",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Xun Wei Zhan"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yukiko_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Yukiko Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Yukiko Yamamoto"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114535248",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

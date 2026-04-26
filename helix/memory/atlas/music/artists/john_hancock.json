@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:john_hancock",
+  "entity_type": "music.composer",
+  "label": "John Hancock",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "World Cup USA 94"
+    ],
+    "artist_keys": [
+      "John Hancock"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "26d5c9bc-c099-42af-bb76-86f21a8212a6",
+    "wikidata": "Q1361200",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Lee_Hancock"
+  }
+}

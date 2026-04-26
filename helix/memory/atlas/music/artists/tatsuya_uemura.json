@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:tatsuya_uemura",
+  "entity_type": "music.composer",
+  "label": "Tatsuya Uemura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "X68000"
+    ],
+    "franchises": [
+      "Dogyuun",
+      "Flying Shark",
+      "Guardian",
+      "Hellfire",
+      "Tiger",
+      "Twin Cobra",
+      "Zero Wing"
+    ],
+    "artist_keys": [
+      "Tatsuya Uemura"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "1643",
+    "musicbrainz": "af02173c-df3e-4fc2-aa96-175fcc5310a8",
+    "wikidata": "Q3516109",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tatsuya_Uemura"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tadashi_okada",
+  "entity_type": "music.composer",
+  "label": "Tadashi Okada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "From the Abyss"
+    ],
+    "artist_keys": [
+      "Tadashi Okada"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q132432430",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

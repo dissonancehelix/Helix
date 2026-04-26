@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takamichi_yashiki",
+  "entity_type": "music.composer",
+  "label": "Takamichi Yashiki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Demons' Score"
+    ],
+    "artist_keys": [
+      "Takamichi Yashiki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "32000",
+    "musicbrainz": "",
+    "wikidata": "Q17220802",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

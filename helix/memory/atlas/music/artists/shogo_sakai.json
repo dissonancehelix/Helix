@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:shogo_sakai",
+  "entity_type": "music.composer",
+  "label": "Shogo Sakai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Mega Drive",
+      "NES",
+      "Neo Geo",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Al Unser Jr.'s Turbo Racing",
+      "Avengers in Galactic Storm",
+      "Boulder Dash",
+      "Cobra Command",
+      "Dark Lord",
+      "Donald Land",
+      "Glory of Heracles II",
+      "Glory of Heracles III",
+      "Glory of Heracles IV",
+      "Karnov's Revenge"
+    ],
+    "artist_keys": [
+      "Shogo Sakai"
+    ],
+    "track_count": 863
+  },
+  "external_ids": {
+    "vgmdb": "989",
+    "musicbrainz": "6fb6806f-0e0a-4b8b-ac47-e5ae288e6603",
+    "wikidata": "Q11644229",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "5220036"
+  }
+}

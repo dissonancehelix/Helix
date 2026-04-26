@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shinchan",
+  "entity_type": "music.composer",
+  "label": "Shinchan",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Kounai Shasei"
+    ],
+    "artist_keys": [
+      "Shinchan"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17487317",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

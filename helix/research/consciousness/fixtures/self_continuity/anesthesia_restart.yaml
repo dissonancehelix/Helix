@@ -1,0 +1,74 @@
+case_id: anesthesia_restart
+description: >
+  General anesthesia (e.g., propofol) — complete suppression of reportable consciousness
+  for the duration of surgery, followed by revival. Phenomenal gap is more complete and
+  medically induced than sleep. Tests whether R can carry self-continuity across a
+  deeper and externally imposed suspension.
+transformation_type: state_suspension
+substrate_relation: same_substrate_suspended
+
+scores:
+  C_fielding: 0.0  # propofol reliably eliminates reportable consciousness
+  P_perspective: 1.0   # resumes same perspective post-anesthesia in ordinary cases
+  O_ownership: 1.0
+  B_boundary: 0.95
+  K_carried_constraint: 1.0
+  N_non_branching: 1.0
+  R_restart_continuity: 0.85  # slightly lower than sleep: external agents involved in suspension/resumption; but same biological substrate
+
+field_status: field_suspended_resumable
+ownership_status: ownership_continuous
+branching_status: no_branching
+carried_constraint_status: constraint_carried
+restart_status: restart_via_same_process
+
+evidence:
+  C_fielding: >
+    Propofol reliably produces unresponsiveness with no reportable experience. C = 0.0 is
+    the standard clinical and research assumption. The caveat (as always) is the A-verification
+    gap: absence of report ≠ guaranteed absence of appearance. But the theory uses C = 0.0 here
+    as the working assumption, not a claim of proof.
+  P_perspective: >
+    Post-anesthesia, the same perspective resumes. Patients typically experience no sense of
+    time having passed and immediately resume their prior self-location.
+  O_ownership: >
+    Ownership resumes intact in normal post-anesthesia recovery.
+  B_boundary: >
+    No boundary disruption in routine anesthesia.
+  K_carried_constraint: >
+    All prior K (memories, skills, personality, habits) is preserved. Anesthesia does not alter K.
+  N_non_branching: >
+    No branching. Same organism, same substrate, one waking person.
+  R_restart_continuity: >
+    0.85 rather than 1.0: the resumption is medically managed and involves reversal agents.
+    The biological substrate remains causally continuous throughout, but the resumption is
+    not self-initiated in the way that natural sleep awakening is. Whether this distinction
+    matters for R is an open question.
+
+expected_classification: suspended_self_restart_candidate
+
+revision_pressure: >
+  Anesthesia pushes the R term harder than sleep. C = 0.0 (by best working assumption)
+  rather than null. The suspended-state formula must explain how S is preserved when
+  C is genuinely absent for the duration. The answer in current theory: R carries the
+  continuity claim via same-causal-process resumption, not via field continuity.
+  But this means the theory is allowing a gap in C without self-destruction — which
+  requires the R mechanism to be doing genuine philosophical work, not just labeling the gap.
+
+breaks_preserved:
+  - >
+    If C = 0.0 during anesthesia, the standard formula S = C·P·O·B·K·N gives S = 0
+    during the gap. The theory claims self-continuity is preserved. These cannot both be
+    true under the standard formula. The suspended-state formula S_suspended = P·O·B·K·N·R
+    is introduced precisely to handle this — but this is a formula revision, not a proof.
+    The revision pressure is unresolved.
+  - >
+    The R term does not yet have a fully specified threshold. R = 0.85 here is a judgment,
+    not a computed value. The theory needs a formal account of what constitutes a valid
+    causal resumption.
+
+notes: >
+  Anesthesia awareness (cases where patients are awake but paralyzed during surgery) is
+  the most disturbing edge case: it would mean C > 0 during a procedure where the patient
+  cannot report or signal. This is the locked-in syndrome / anesthesia awareness intersection.
+  The R term does not resolve this — it only applies to suspension cases where C ≈ 0.

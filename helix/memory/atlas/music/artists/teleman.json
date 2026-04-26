@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:teleman",
+  "entity_type": "music.composer",
+  "label": "Teleman",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Breakfast",
+      "Brilliant Sanity",
+      "Family of Aliens",
+      "Fünf",
+      "Good Time/Hard Time",
+      "Sweet Morning"
+    ],
+    "artist_keys": [
+      "Teleman"
+    ],
+    "track_count": 56
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8f831f50-e409-47c3-8598-71a61bc8cfb3",
+    "wikidata": "Q75854",
+    "spotify": "2fg5h5pzleqI4RjFopWroj",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georg_Philipp_Telemann"
+  }
+}

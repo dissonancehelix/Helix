@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:atsushi_shirakawa",
+  "entity_type": "music.composer",
+  "label": "Atsushi Shirakawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Brandish",
+      "Brandish 2",
+      "Dragon Slayer",
+      "Monarch Monarch",
+      "Popful Mail",
+      "The Legend of Heroes III",
+      "The Legend of Heroes IV",
+      "The Legend of Heroes V",
+      "The Legend of Xanadu",
+      "The Legend of Xanadu II",
+      "The World God Only Knows",
+      "VM Japan",
+      "Vantage Master",
+      "Ys IV",
+      "Ys V"
+    ],
+    "artist_keys": [
+      "Atsushi Shirakawa"
+    ],
+    "track_count": 217
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11579732",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

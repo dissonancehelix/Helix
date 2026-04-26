@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:keiji_sakata",
+  "entity_type": "music.composer",
+  "label": "Keiji Sakata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "New Adventure Island"
+    ],
+    "artist_keys": [
+      "Keiji Sakata"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

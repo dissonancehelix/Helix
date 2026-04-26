@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:syunsuke_takizawa",
+  "entity_type": "music.composer",
+  "label": "Syunsuke Takizawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Guilty Gear Xrd"
+    ],
+    "artist_keys": [
+      "Syunsuke Takizawa"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

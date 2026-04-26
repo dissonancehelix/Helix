@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:coconuts",
+  "entity_type": "music.composer",
+  "label": "Coconuts",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hotline Miami"
+    ],
+    "artist_keys": [
+      "Coconuts"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q5139870",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

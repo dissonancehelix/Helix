@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yusuke_sakai",
+  "entity_type": "music.composer",
+  "label": "Yusuke Sakai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Azure Striker Gunvolt 3",
+      "Blaster Master Zero 3",
+      "Bloodstained"
+    ],
+    "artist_keys": [
+      "Yusuke Sakai"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q122984157",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

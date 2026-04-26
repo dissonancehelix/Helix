@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toshiyuki_kakuta",
+  "entity_type": "music.composer",
+  "label": "Toshiyuki Kakuta",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Zone of the Enders"
+    ],
+    "artist_keys": [
+      "Toshiyuki Kakuta"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "2781",
+    "musicbrainz": "1f2ef6b8-9a2d-4aa7-b5a8-d6b9e8049ae5",
+    "wikidata": "Q10855064",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

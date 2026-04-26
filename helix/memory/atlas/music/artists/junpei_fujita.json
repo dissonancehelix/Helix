@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:junpei_fujita",
+  "entity_type": "music.composer",
+  "label": "Junpei Fujita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Suikoden Tierkreis"
+    ],
+    "artist_keys": [
+      "Junpei Fujita"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "110",
+    "musicbrainz": "a9fa95f2-5a15-42a2-960f-368937c98247",
+    "wikidata": "Q6137039",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Junpei_Fujita"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ken_inaoka",
+  "entity_type": "music.composer",
+  "label": "Ken Inaoka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario; Sonic the Hedgehog",
+      "Synchronica",
+      "Touch My Katamari"
+    ],
+    "artist_keys": [
+      "Ken Inaoka"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

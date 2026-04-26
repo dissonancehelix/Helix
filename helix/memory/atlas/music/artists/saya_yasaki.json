@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:saya_yasaki",
+  "entity_type": "music.composer",
+  "label": "Saya Yasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy",
+      "Final Fantasy XIV"
+    ],
+    "artist_keys": [
+      "Saya Yasaki"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

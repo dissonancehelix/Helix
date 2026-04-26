@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:the_qemists",
+  "entity_type": "music.composer",
+  "label": "The Qemists",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog",
+      "Team Sonic Racing"
+    ],
+    "artist_keys": [
+      "The Qemists"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "32557",
+    "musicbrainz": "eae38719-96b6-4aa5-8303-5bb08f953c86",
+    "wikidata": "Q2067701",
+    "spotify": "2McLd7klWE4UjkPLqqMwLv",
+    "lastfm": "The+Qemists",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Qemists"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:felix_mendelssohn",
+  "entity_type": "music.composer",
+  "label": "Felix Mendelssohn",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Felix Mendelssohn"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "4324",
+    "musicbrainz": "0e85eb79-1c05-44ba-827c-7b259a3d941a",
+    "wikidata": "Q46096",
+    "spotify": "6MF58APd3YV72Ln2eVg710",
+    "lastfm": "Felix+Mendelssohn",
+    "wikipedia": "https://en.wikipedia.org/wiki/Felix_Mendelssohn"
+  }
+}

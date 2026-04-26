@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:hideki_naganuma",
+  "entity_type": "music.composer",
+  "label": "Hideki Naganuma",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Atsumare! Guru Guru Onsen",
+      "Jet Set Radio",
+      "Jet Set Radio Future",
+      "Ollie King",
+      "Samba de Amigo",
+      "Sega Rally 2 Championship",
+      "Sega Rally 2006",
+      "Sonic the Hedgehog",
+      "Super Monkey Ball",
+      "Super Monkey Ball 3D",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Hideki Naganuma"
+    ],
+    "track_count": 121
+  },
+  "external_ids": {
+    "vgmdb": "45926",
+    "musicbrainz": "24164692-3223-48bf-9cea-2a76b5afce94",
+    "wikidata": "Q4311482",
+    "spotify": "3ULvi5IjU8vjBJW3e8EPLz",
+    "lastfm": "",
+    "discogs": "65653",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hideki_Naganuma"
+  }
+}

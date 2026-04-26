@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kikiyama",
+  "entity_type": "music.composer",
+  "label": "Kikiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yume Nikki"
+    ],
+    "artist_keys": [
+      "Kikiyama"
+    ],
+    "track_count": 55
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

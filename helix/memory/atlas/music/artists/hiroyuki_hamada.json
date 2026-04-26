@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hiroyuki_hamada",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Hamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X"
+    ],
+    "franchises": [
+      "Tempo"
+    ],
+    "artist_keys": [
+      "Hiroyuki Hamada"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q22125973",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

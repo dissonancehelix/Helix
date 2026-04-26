@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hirotaka_kumagawa",
+  "entity_type": "music.composer",
+  "label": "Hirotaka Kumagawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 0"
+    ],
+    "artist_keys": [
+      "Hirotaka Kumagawa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "3290a8c2-a4f1-4301-a7c1-af05d12bad7e",
+    "wikidata": "Q55455333",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:asuka_sakai",
+  "entity_type": "music.composer",
+  "label": "Asuka Sakai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Alpine Racer 3",
+      "Katamari Damacy",
+      "Klonoa 2",
+      "Kotoba no Puzzle",
+      "Me & My Katamari",
+      "Once Upon a Katamari",
+      "R4",
+      "Ridge Racer 6",
+      "Ridge Racers",
+      "Soulcalibur II",
+      "Super World Stadium '98",
+      "We Love Katamari",
+      "Yuyushiki"
+    ],
+    "artist_keys": [
+      "Asuka Sakai"
+    ],
+    "track_count": 83
+  },
+  "external_ids": {
+    "vgmdb": "38287",
+    "musicbrainz": "f5ebbe69-3076-4395-9f9b-16c7c64eaea4",
+    "wikidata": "Q11429001",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

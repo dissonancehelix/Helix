@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:hiroto_kanno",
+  "entity_type": "music.composer",
+  "label": "Hiroto Kanno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Master System",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Battle Mania",
+      "Decap Attack",
+      "Psy",
+      "Psycho Fox",
+      "Vegas Connection",
+      "World Beach Volley"
+    ],
+    "artist_keys": [
+      "Hiroto Kanno"
+    ],
+    "track_count": 55
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

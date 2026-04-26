@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:alexander_hinds",
+  "entity_type": "music.composer",
+  "label": "Alexander Hinds",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Rings of Power"
+    ],
+    "artist_keys": [
+      "Alexander Hinds"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:junya_nakano",
+  "entity_type": "music.composer",
+  "label": "Junya Nakano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Another Mind",
+      "Astérix",
+      "Final Fantasy X",
+      "Final Fantasy X HD Remaster",
+      "Five a Side Soccer",
+      "Front Mission",
+      "Fullmetal Alchemist",
+      "Golfing Greats 2",
+      "Hexion",
+      "Martial Champion",
+      "Musashi",
+      "Mystic Warriors",
+      "Polygonet Commanders",
+      "Threads of Fate",
+      "Tobal No. 1"
+    ],
+    "artist_keys": [
+      "Junya Nakano"
+    ],
+    "track_count": 273
+  },
+  "external_ids": {
+    "vgmdb": "147",
+    "musicbrainz": "00d4876a-cb9f-45aa-81ed-7673ad81f3df",
+    "wikidata": "Q2664232",
+    "spotify": "6MmPy3kU5brlgFNlQP5ACa",
+    "lastfm": "",
+    "discogs": "169888",
+    "wikipedia": "https://en.wikipedia.org/wiki/Junya_Nakano"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:steve_henifin",
+  "entity_type": "music.composer",
+  "label": "Steve Henifin",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gex"
+    ],
+    "artist_keys": [
+      "Steve Henifin"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

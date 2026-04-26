@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masato_tsurumaki",
+  "entity_type": "music.composer",
+  "label": "Masato Tsurumaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "The Cockpit X68000 Special"
+    ],
+    "artist_keys": [
+      "Masato Tsurumaki"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

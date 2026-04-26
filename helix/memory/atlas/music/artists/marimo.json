@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:marimo",
+  "entity_type": "music.composer",
+  "label": "Marimo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "The King of Fighters '97",
+      "The King of Fighters '98",
+      "The King of Fighters '99",
+      "The King of Fighters 2000"
+    ],
+    "artist_keys": [
+      "Marimo"
+    ],
+    "track_count": 103
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q149096",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marimo"
+  }
+}

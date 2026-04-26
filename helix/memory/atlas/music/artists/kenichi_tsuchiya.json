@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:kenichi_tsuchiya",
+  "entity_type": "music.composer",
+  "label": "Kenichi Tsuchiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Catherine",
+      "GeOnDan Super Rare Trax",
+      "Growlanser VI",
+      "Heaven's Gate",
+      "Kartia",
+      "Metaphor",
+      "Persona",
+      "Persona; Shin Megami Tensei",
+      "Shin Megami Tensei",
+      "Tokyo Mono Hara Shi",
+      "Trauma Center"
+    ],
+    "artist_keys": [
+      "Kenichi Tsuchiya"
+    ],
+    "track_count": 225
+  },
+  "external_ids": {
+    "vgmdb": "719",
+    "musicbrainz": "292f533f-b2c0-424c-b9be-547a19aa8a37",
+    "wikidata": "Q17161335",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "359316"
+  }
+}

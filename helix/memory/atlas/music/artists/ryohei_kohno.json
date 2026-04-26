@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:ryohei_kohno",
+  "entity_type": "music.composer",
+  "label": "Ryohei Kohno",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "StarHorse 4",
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Ryohei Kohno"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

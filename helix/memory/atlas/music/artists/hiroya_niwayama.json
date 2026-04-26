@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:hiroya_niwayama",
+  "entity_type": "music.composer",
+  "label": "Hiroya Niwayama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Fastest 1",
+      "Super Fire Pro Wrestling",
+      "Super Formation Soccer",
+      "Vasteel 2"
+    ],
+    "artist_keys": [
+      "Hiroya Niwayama"
+    ],
+    "track_count": 61
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masahiro_ito",
+  "entity_type": "music.composer",
+  "label": "Masahiro Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "In the Hunt"
+    ],
+    "artist_keys": [
+      "Masahiro Ito"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "6169",
+    "musicbrainz": "",
+    "wikidata": "Q3297123",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masahiro_Ito"
+  }
+}

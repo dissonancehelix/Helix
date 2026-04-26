@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hirotaka_kurita",
+  "entity_type": "music.composer",
+  "label": "Hirotaka Kurita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Ganbare Goemon",
+      "Goemon's Great Adventure"
+    ],
+    "artist_keys": [
+      "Hirotaka Kurita"
+    ],
+    "track_count": 125
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:tomomitsu_kaneko",
+  "entity_type": "music.composer",
+  "label": "Tomomitsu Kaneko",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Me & My Katamari",
+      "MotoGP 4"
+    ],
+    "artist_keys": [
+      "Tomomitsu Kaneko"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

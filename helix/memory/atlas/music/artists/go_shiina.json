@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:go_shiina",
+  "entity_type": "music.composer",
+  "label": "Go Shiina",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ace Combat",
+      "Ace Combat 3",
+      "Ace Combat 7",
+      "Ace Combat Infinity",
+      "Code Vein",
+      "God Eater 2",
+      "God Eater 3",
+      "Harvestella",
+      "Klonoa 2",
+      "Mr. Driller",
+      "Mr. Driller 2",
+      "Mr. Driller G",
+      "Sin Chronicle",
+      "Super World Stadium '98",
+      "Tales of Legendia"
+    ],
+    "artist_keys": [
+      "Go Shiina"
+    ],
+    "track_count": 437
+  },
+  "external_ids": {
+    "vgmdb": "47235",
+    "musicbrainz": "f708f203-8c33-4e89-8460-9631c11fe2b8",
+    "wikidata": "Q5574911",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1012682",
+    "wikipedia": "https://en.wikipedia.org/wiki/Go_Shiina"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:takeshi_muramatsu",
+  "entity_type": "music.composer",
+  "label": "Takeshi Muramatsu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Aggressors of Dark Kombat",
+      "Ninja Master's",
+      "Twinkle Star Sprites",
+      "World Heroes Perfect"
+    ],
+    "artist_keys": [
+      "Takeshi Muramatsu"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11523286",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hal",
+  "entity_type": "music.composer",
+  "label": "HAL",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kirby's Dream Buffet"
+    ],
+    "artist_keys": [
+      "HAL"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1570085",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hal_(given_name)"
+  }
+}

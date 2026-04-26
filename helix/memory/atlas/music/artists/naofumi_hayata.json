@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:naofumi_hayata",
+  "entity_type": "music.composer",
+  "label": "Naofumi Hayata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rhythm Thief & the Emperor's Treasure"
+    ],
+    "artist_keys": [
+      "Naofumi Hayata"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

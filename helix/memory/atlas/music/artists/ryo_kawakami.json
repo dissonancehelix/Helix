@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:ryo_kawakami",
+  "entity_type": "music.composer",
+  "label": "Ryo Kawakami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Azure Striker Gunvolt",
+      "Azure Striker Gunvolt 3",
+      "Blaster Master Zero",
+      "Blaster Master Zero 3",
+      "Bloodstained",
+      "Mega Man 10",
+      "Mega Man 9",
+      "Mega Man ZX",
+      "Mega Man ZX Advent",
+      "Mighty Gunvolt"
+    ],
+    "artist_keys": [
+      "Ryo Kawakami"
+    ],
+    "track_count": 93
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "a0125cb4-04f1-4ae0-b787-0fa041e2ba6f",
+    "wikidata": "Q11477496",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

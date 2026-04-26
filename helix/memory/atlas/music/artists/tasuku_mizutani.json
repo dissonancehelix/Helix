@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tasuku_mizutani",
+  "entity_type": "music.composer",
+  "label": "Tasuku Mizutani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The King of Fighters XIII"
+    ],
+    "artist_keys": [
+      "Tasuku Mizutani"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

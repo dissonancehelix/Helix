@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:marten_joustra",
+  "entity_type": "music.composer",
+  "label": "Marten Joustra",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "A Bug's Life",
+      "Crash Bandicoot",
+      "Finding Nemo",
+      "Formula 1 97",
+      "Mickey Mania",
+      "Muppet RaceMania",
+      "Peter Pan",
+      "Rascal",
+      "Toy Story",
+      "Toy Story 2"
+    ],
+    "artist_keys": [
+      "Marten Joustra"
+    ],
+    "track_count": 193
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q19011770",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

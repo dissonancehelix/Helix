@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:love_sound_system",
+  "entity_type": "music.composer",
+  "label": "Love Sound System",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Love Sound System"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

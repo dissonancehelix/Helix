@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takahito_uenishi",
+  "entity_type": "music.composer",
+  "label": "Takahito Uenishi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Jikkyou Oshaberi Parodius"
+    ],
+    "artist_keys": [
+      "Takahito Uenishi"
+    ],
+    "track_count": 39
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

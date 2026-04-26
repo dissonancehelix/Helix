@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kazuyuki_sekiguchi",
+  "entity_type": "music.composer",
+  "label": "Kazuyuki Sekiguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Momotarou Dentetsu DX"
+    ],
+    "artist_keys": [
+      "Kazuyuki Sekiguchi"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "741",
+    "musicbrainz": "127c08fc-f134-4e95-a982-79ffb87e54da",
+    "wikidata": "Q4263433",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kazuyuki_Sekiguchi"
+  }
+}

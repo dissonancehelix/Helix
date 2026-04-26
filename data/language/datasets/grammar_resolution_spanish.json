@@ -1,0 +1,101 @@
+{
+    "domain": "language",
+    "language": "spanish",
+    "system_description": "Spanish morphological disambiguation. Verb endings encode person, number, and tense simultaneously (hablo/hablas/habla/hablamos distinguish subject without a pronoun). Clitic doubling (Le di el libro a Ana / Le lo di) encodes both recipient and object before the full NP appears. Pro-drop means the verb morphology is the sole subject cue when the pronoun is dropped — compression happens inside the verb form.",
+    "agents": [
+        {
+            "id": "rule_verb_agreement",
+            "role": "dominant_rule",
+            "influence_weight": 0.7258,
+            "ud_signal_type": "agreement"
+        },
+        {
+            "id": "rule_clitic_doubling",
+            "role": "dominant_rule",
+            "influence_weight": 0.1452,
+            "ud_signal_type": "case"
+        },
+        {
+            "id": "rule_word_order",
+            "role": "secondary_rule",
+            "influence_weight": 0.029,
+            "ud_signal_type": "word_order"
+        },
+        {
+            "id": "rule_pragmatic",
+            "role": "edge_case",
+            "influence_weight": 0.1,
+            "ud_signal_type": "pragmatic"
+        }
+    ],
+    "decision_rounds": [
+        {
+            "round": 1,
+            "weights": [
+                0.76,
+                0.13,
+                0.02,
+                0.09
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 2,
+            "weights": [
+                0.72,
+                0.15,
+                0.04,
+                0.09
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 3,
+            "weights": [
+                0.75,
+                0.13,
+                0.02,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 4,
+            "weights": [
+                0.72,
+                0.14,
+                0.04,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 5,
+            "weights": [
+                0.73,
+                0.15,
+                0.04,
+                0.08
+            ],
+            "outcome": "parse_A"
+        }
+    ],
+    "expected_k_eff_range": [
+        1.52,
+        2.06
+    ],
+    "notes": "Spanish sits between Turkish/Finnish (case-heavy) and English/French (analytic). Verb morphology is the primary compression site — 6-form paradigm encodes person/number. Clitic doubling pre-compresses object arguments. Pro-drop is the DCP event: the dropped subject is recoverable from the verb form alone.",
+    "source": "ud_treebank",
+    "ud_diagnostics": {
+        "sentences_analyzed": 500,
+        "case_density": 0.2032,
+        "agreement_density": 0.8098,
+        "order_rigidity": 0.8343,
+        "order_signal": 0.7428,
+        "morphological_richness": 1.762,
+        "compression_density": 1.4117,
+        "dominant_rule": "agreement",
+        "ud_k_eff": 1.79,
+        "treebank": "UD_Spanish-GSD"
+    }
+}

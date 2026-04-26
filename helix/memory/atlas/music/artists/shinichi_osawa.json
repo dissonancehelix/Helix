@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shinichi_osawa",
+  "entity_type": "music.composer",
+  "label": "Shinichi Osawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Shinichi Osawa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "16257",
+    "musicbrainz": "3b6abeff-85bc-4415-b1f6-928b22c2ca34",
+    "wikidata": "Q922821",
+    "spotify": "4d2zOuYJHBPJTpVblHEKJb",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shinichi_Osawa"
+  }
+}

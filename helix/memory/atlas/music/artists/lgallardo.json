@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:lgallardo",
+  "entity_type": "music.composer",
+  "label": "L.Gallardo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Anata wo Yurusanai"
+    ],
+    "artist_keys": [
+      "L.Gallardo"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

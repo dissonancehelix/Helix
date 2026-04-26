@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yuki_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Yuki Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "StarHorse 4"
+    ],
+    "artist_keys": [
+      "Yuki Kobayashi"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2011421",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuki_Kobayashi_(footballer,_born_1988)"
+  }
+}

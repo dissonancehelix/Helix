@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:naoyoshi_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Naoyoshi Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "From the Abyss"
+    ],
+    "artist_keys": [
+      "Naoyoshi Yamamoto"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11469245",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:akito_z",
+  "entity_type": "music.composer",
+  "label": "Akito-Z",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Monkey Ball"
+    ],
+    "artist_keys": [
+      "Akito-Z"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

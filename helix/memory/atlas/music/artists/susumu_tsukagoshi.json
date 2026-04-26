@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:susumu_tsukagoshi",
+  "entity_type": "music.composer",
+  "label": "Susumu Tsukagoshi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "StarHorse 4"
+    ],
+    "artist_keys": [
+      "Susumu Tsukagoshi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

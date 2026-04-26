@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:chikaki_iizuka",
+  "entity_type": "music.composer",
+  "label": "Chikaki Iizuka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Downtown Nekketsu Baseball Monogatari",
+      "Voltage Fighter Gowcaizer"
+    ],
+    "artist_keys": [
+      "Chikaki Iizuka"
+    ],
+    "track_count": 49
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

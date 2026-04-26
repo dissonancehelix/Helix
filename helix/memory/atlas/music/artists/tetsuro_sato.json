@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:tetsuro_sato",
+  "entity_type": "music.composer",
+  "label": "Tetsuro Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Chunithm",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Super Rare Trax",
+      "Nihon Pro Mahjong Kishikai Kanshuu"
+    ],
+    "artist_keys": [
+      "Tetsuro Sato"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ce4071d6-92ab-4cde-ad66-6fc8b453bd00",
+    "wikidata": "Q17221133",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

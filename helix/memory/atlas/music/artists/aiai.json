@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:aiai",
+  "entity_type": "music.composer",
+  "label": "Aiai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "R"
+    ],
+    "artist_keys": [
+      "Aiai"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f38bb673-b82c-4cc9-ac14-3f5323fe252f",
+    "wikidata": "Q11486420",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aika_Hirota"
+  }
+}

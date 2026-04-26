@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:chiharu_sugiyama",
+  "entity_type": "music.composer",
+  "label": "Chiharu Sugiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mikagura Shoujo Tanteidan"
+    ],
+    "artist_keys": [
+      "Chiharu Sugiyama"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

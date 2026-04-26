@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:takahiro_unisuga",
+  "entity_type": "music.composer",
+  "label": "Takahiro Unisuga",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tokyo Xanadu",
+      "Trails / Kiseki",
+      "Xanadu Next",
+      "Ys",
+      "Ys IX",
+      "Ys Origin",
+      "Ys Seven",
+      "Ys VIII",
+      "Ys X",
+      "Zwei"
+    ],
+    "artist_keys": [
+      "Takahiro Unisuga"
+    ],
+    "track_count": 216
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

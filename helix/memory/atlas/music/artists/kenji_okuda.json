@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:kenji_okuda",
+  "entity_type": "music.composer",
+  "label": "Kenji Okuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Mahjong Daiyogen",
+      "Mahjong Fun Club",
+      "Mahjong Natsu Monogatari",
+      "Rabbit Punch",
+      "Super Volleyball",
+      "Wai Wai Mahjong"
+    ],
+    "artist_keys": [
+      "Kenji Okuda"
+    ],
+    "track_count": 58
+  },
+  "external_ids": {
+    "vgmdb": "23525",
+    "musicbrainz": "",
+    "wikidata": "Q11445996",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

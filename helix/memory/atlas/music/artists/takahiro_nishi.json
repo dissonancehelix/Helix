@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takahiro_nishi",
+  "entity_type": "music.composer",
+  "label": "Takahiro Nishi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kid Icarus",
+      "Super Smash Bros. Brawl",
+      "Tenka Fubu"
+    ],
+    "artist_keys": [
+      "Takahiro Nishi"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f127cb2b-6df1-41fb-8c14-d458d4652552",
+    "wikidata": "Q1041260",
+    "spotify": "763Hsj0XyK6r7H9RyTBeEg",
+    "lastfm": "Nissy",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takahiro_Nishijima"
+  }
+}

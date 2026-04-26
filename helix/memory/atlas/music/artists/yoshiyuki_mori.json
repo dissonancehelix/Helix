@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:yoshiyuki_mori",
+  "entity_type": "music.composer",
+  "label": "Yoshiyuki Mori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Nangoku Syonen Papuwa Kun",
+      "Violinist of Hameln"
+    ],
+    "artist_keys": [
+      "Yoshiyuki Mori"
+    ],
+    "track_count": 72
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2411213",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoshiyuki_Morishita"
+  }
+}

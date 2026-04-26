@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:michael_bartlow",
+  "entity_type": "music.composer",
+  "label": "Michael Bartlow",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "B.O.B.",
+      "Blockout",
+      "General Chaos",
+      "John Madden Football '92",
+      "Road Rash",
+      "Starflight",
+      "The Immortal"
+    ],
+    "artist_keys": [
+      "Michael Bartlow"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

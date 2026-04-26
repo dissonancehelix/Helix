@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:back_on",
+  "entity_type": "music.composer",
+  "label": "BACK-ON",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of the World"
+    ],
+    "artist_keys": [
+      "BACK-ON"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "10202",
+    "musicbrainz": "12d75989-f4c5-49c0-9785-91df3d160648",
+    "wikidata": "Q2635754",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Back-On"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:hiroshi_miyazaki",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Miyazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Captain Tsubasa 4",
+      "Captain Tsubasa 5",
+      "Final Star Force",
+      "Tecmo World Cup '90",
+      "Tecmo World Cup '94",
+      "Tecmo World Wrestling"
+    ],
+    "artist_keys": [
+      "Hiroshi Miyazaki"
+    ],
+    "track_count": 152
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q123704328",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:toki_takeda",
+  "entity_type": "music.composer",
+  "label": "Toki Takeda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Caravan Stories",
+      "DanMachi Battle Chronicle",
+      "Mahjong Soul",
+      "Progress Orders",
+      "The Eminence in Shadow",
+      "Unicorn Overlord",
+      "Unicorn Overlord 16",
+      "Valiant Force 2"
+    ],
+    "artist_keys": [
+      "Toki Takeda"
+    ],
+    "track_count": 223
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

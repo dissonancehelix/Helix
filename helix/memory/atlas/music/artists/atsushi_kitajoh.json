@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:atsushi_kitajoh",
+  "entity_type": "music.composer",
+  "label": "Atsushi Kitajoh",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Catherine",
+      "Growlanser VI",
+      "Metaphor",
+      "Persona",
+      "Persona; Shin Megami Tensei",
+      "Shin Megami Tensei",
+      "Tokyo Mono Hara Shi",
+      "Trauma Center",
+      "Trauma Team"
+    ],
+    "artist_keys": [
+      "Atsushi Kitajoh"
+    ],
+    "track_count": 453
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

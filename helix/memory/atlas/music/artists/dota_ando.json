@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:dota_ando",
+  "entity_type": "music.composer",
+  "label": "Dota Ando",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "NES",
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Bubble Bobble",
+      "Bubble Bobble Revolution",
+      "Flying Hero",
+      "Innsmouth no Yakata",
+      "NewZealand Story Revolution",
+      "Rainbow Islands Revolution",
+      "Space Invaders Revolution",
+      "Ultimate Basketball"
+    ],
+    "artist_keys": [
+      "Dota Ando"
+    ],
+    "track_count": 117
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

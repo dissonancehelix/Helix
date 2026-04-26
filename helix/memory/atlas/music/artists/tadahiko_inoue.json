@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:tadahiko_inoue",
+  "entity_type": "music.composer",
+  "label": "Tadahiko Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Master System",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Alex Kidd in Shinobi World",
+      "Mega Anser",
+      "MegaMind",
+      "OLIO",
+      "OLIO2",
+      "Sega Game Toshokan"
+    ],
+    "artist_keys": [
+      "Tadahiko Inoue"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

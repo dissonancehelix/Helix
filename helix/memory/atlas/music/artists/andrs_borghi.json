@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:andrs_borghi",
+  "entity_type": "music.composer",
+  "label": "Andrés Borghi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Black Heart"
+    ],
+    "artist_keys": [
+      "Andrés Borghi"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q5401729",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

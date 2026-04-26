@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:tatsuya_watanabe",
+  "entity_type": "music.composer",
+  "label": "Tatsuya Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Aero Blasters",
+      "Air Buster",
+      "Bonk's Adventure",
+      "DJ Boy",
+      "Explosive Breaker",
+      "Gals Panic 3",
+      "Heavy Unit",
+      "Ka",
+      "Kabuki",
+      "Kageki",
+      "The Kung"
+    ],
+    "artist_keys": [
+      "Tatsuya Watanabe"
+    ],
+    "track_count": 119
+  },
+  "external_ids": {
+    "vgmdb": "3608",
+    "musicbrainz": "d41a3ec6-5a18-4e53-8760-19be59f71252",
+    "wikidata": "Q11562747",
+    "spotify": "6i1XT9lnbGCquHat7gbCoo",
+    "lastfm": "渡部チェル",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tatsuya_Watanabe"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tetsuma_yoshida",
+  "entity_type": "music.composer",
+  "label": "Tetsuma Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2"
+    ],
+    "franchises": [
+      "Active RPG Construction Tool"
+    ],
+    "artist_keys": [
+      "Tetsuma Yoshida"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

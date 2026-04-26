@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:shigeru_tomita",
+  "entity_type": "music.composer",
+  "label": "Shigeru Tomita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC-88",
+      "PC-8801"
+    ],
+    "franchises": [
+      "Hydlide 3",
+      "Rune Worth",
+      "Super Hydlide"
+    ],
+    "artist_keys": [
+      "Shigeru Tomita"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

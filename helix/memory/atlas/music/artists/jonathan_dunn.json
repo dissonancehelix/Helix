@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:jonathan_dunn",
+  "entity_type": "music.composer",
+  "label": "Jonathan Dunn",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "The Addams Family"
+    ],
+    "artist_keys": [
+      "Jonathan Dunn"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q98784967",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

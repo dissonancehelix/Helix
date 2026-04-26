@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:rose__dick_boy",
+  "entity_type": "music.composer",
+  "label": "Rose & Dick Boy!!!",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Rolling Thunder 3"
+    ],
+    "artist_keys": [
+      "Rose & Dick Boy!!!"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

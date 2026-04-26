@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:machine_head",
+  "entity_type": "music.composer",
+  "label": "MACHINE HEAD",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "No More Heroes 2"
+    ],
+    "artist_keys": [
+      "MACHINE HEAD"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "22a1f4d7-81ff-4216-ac06-3387da6bc118",
+    "wikidata": "Q319458",
+    "spotify": "0lVlNsuGaOr9vMHCZIAKMt",
+    "lastfm": "Machine+Head",
+    "wikipedia": "https://en.wikipedia.org/wiki/Machine_Head_(band)"
+  }
+}

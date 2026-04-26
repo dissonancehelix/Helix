@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:vincent_diamante",
+  "entity_type": "music.composer",
+  "label": "Vincent Diamante",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Skullgirls"
+    ],
+    "artist_keys": [
+      "Vincent Diamante"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "5980",
+    "musicbrainz": "cc80f839-9e49-4d17-b05d-f8db3f5ffbf1",
+    "wikidata": "Q11901630",
+    "spotify": "33FyliUEEegVPPrsOaLsn4",
+    "lastfm": ""
+  }
+}

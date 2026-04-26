@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:chicken_mob",
+  "entity_type": "music.composer",
+  "label": "Chicken Mob",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man Zero 2"
+    ],
+    "artist_keys": [
+      "Chicken Mob"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114353557",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

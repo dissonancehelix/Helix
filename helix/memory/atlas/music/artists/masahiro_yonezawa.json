@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:masahiro_yonezawa",
+  "entity_type": "music.composer",
+  "label": "Masahiro Yonezawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Formation Soccer on J.League",
+      "Grand Striker"
+    ],
+    "artist_keys": [
+      "Masahiro Yonezawa"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "4094",
+    "musicbrainz": "",
+    "wikidata": "Q11604310",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:aoi_takeda",
+  "entity_type": "music.composer",
+  "label": "Aoi Takeda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Blaster Master Zero",
+      "Bloodstained"
+    ],
+    "artist_keys": [
+      "Aoi Takeda"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

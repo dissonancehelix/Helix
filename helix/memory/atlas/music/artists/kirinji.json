@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kirinji",
+  "entity_type": "music.composer",
+  "label": "KIRINJI",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Forever"
+    ],
+    "artist_keys": [
+      "KIRINJI"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "10525",
+    "musicbrainz": "6348af47-dbd0-4935-b1ae-9fe23c88daef",
+    "wikidata": "Q1041645",
+    "spotify": "0O1UtbTe4ca7HabaiMhYZ7",
+    "lastfm": "キリンジ",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kirinji_(band)"
+  }
+}

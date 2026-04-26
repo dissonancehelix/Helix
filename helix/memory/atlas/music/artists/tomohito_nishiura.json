@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:tomohito_nishiura",
+  "entity_type": "music.composer",
+  "label": "Tomohito Nishiura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dark Cloud",
+      "Dark Cloud 2",
+      "Layton Mystery Detective Agency",
+      "Layton's Mystery Journey",
+      "Megaton Musashi",
+      "Professor Layton and the Azran Legacy",
+      "Professor Layton and the Curious Village",
+      "Professor Layton and the Diabolical Box",
+      "Professor Layton and the Eternal Diva",
+      "Professor Layton and the Last Specter"
+    ],
+    "artist_keys": [
+      "Tomohito Nishiura"
+    ],
+    "track_count": 540
+  },
+  "external_ids": {
+    "vgmdb": "779",
+    "musicbrainz": "47a321f0-ec9d-4050-96c1-cc9381178c66",
+    "wikidata": "Q2473223",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1631070",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tomohito_Nishiura"
+  }
+}

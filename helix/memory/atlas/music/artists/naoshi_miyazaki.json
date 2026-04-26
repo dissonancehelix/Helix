@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:naoshi_miyazaki",
+  "entity_type": "music.composer",
+  "label": "Naoshi Miyazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Great Sluggers '94"
+    ],
+    "artist_keys": [
+      "Naoshi Miyazaki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "44932",
+    "musicbrainz": "3763d14b-e8ba-4487-93b0-77f63a5d7752",
+    "wikidata": "Q11454255",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

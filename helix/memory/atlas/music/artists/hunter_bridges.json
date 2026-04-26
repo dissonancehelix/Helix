@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:hunter_bridges",
+  "entity_type": "music.composer",
+  "label": "Hunter Bridges",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Berserk Boy",
+      "Penny's Big Breakaway"
+    ],
+    "artist_keys": [
+      "Hunter Bridges"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

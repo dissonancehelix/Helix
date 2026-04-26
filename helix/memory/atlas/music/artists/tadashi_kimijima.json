@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tadashi_kimijima",
+  "entity_type": "music.composer",
+  "label": "Tadashi Kimijima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Bubble Bobble"
+    ],
+    "artist_keys": [
+      "Tadashi Kimijima"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

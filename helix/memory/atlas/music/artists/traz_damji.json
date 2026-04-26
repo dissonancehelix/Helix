@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:traz_damji",
+  "entity_type": "music.composer",
+  "label": "Traz Damji",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "NBA Live 95",
+      "NBA Live 96"
+    ],
+    "artist_keys": [
+      "Traz Damji"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

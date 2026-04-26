@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:lko",
+  "entity_type": "music.composer",
+  "label": "L?K?O",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Crackin' DJ"
+    ],
+    "artist_keys": [
+      "L?K?O"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

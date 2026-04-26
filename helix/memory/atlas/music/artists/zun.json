@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:zun",
+  "entity_type": "music.composer",
+  "label": "ZUN",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Touhou Fuumaroku ~ The Story of Eastern Wonderland",
+      "Touhou Kaikidan",
+      "Touhou Reiiden ~ Highly Responsive to Prayers",
+      "Touhou Yumejikuu"
+    ],
+    "artist_keys": [
+      "ZUN"
+    ],
+    "track_count": 72
+  },
+  "external_ids": {
+    "vgmdb": "1",
+    "musicbrainz": "b8155f6d-7852-4486-97d9-1b7fdda3fa08",
+    "wikidata": "Q9088630",
+    "spotify": "7u6Gx54gVoqectnH929a5C",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/ZUN_(video_game_developer)"
+  }
+}

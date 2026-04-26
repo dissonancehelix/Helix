@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:dj_babu",
+  "entity_type": "music.composer",
+  "label": "DJ Babu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Anarchy Reigns"
+    ],
+    "artist_keys": [
+      "DJ Babu"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "92caf313-a918-472d-9feb-50ac01e910d0",
+    "wikidata": "Q325684",
+    "spotify": "7LSCBbEAuCqQqE0MGszyKl",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/DJ_Babu"
+  }
+}

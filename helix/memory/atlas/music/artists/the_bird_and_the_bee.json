@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:the_bird_and_the_bee",
+  "entity_type": "music.composer",
+  "label": "The Bird and the Bee",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Please Clap Your Hands",
+      "Ray Guns Are Not Just the Future",
+      "Recreational Love",
+      "The Bird and the Bee"
+    ],
+    "artist_keys": [
+      "The Bird and the Bee"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "d08b66b4-8950-439f-bd8e-2dd78dbd7a5f",
+    "wikidata": "Q113391",
+    "spotify": "",
+    "lastfm": "The+Bird+and+the+Bee",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Bird_and_the_Bee"
+  }
+}

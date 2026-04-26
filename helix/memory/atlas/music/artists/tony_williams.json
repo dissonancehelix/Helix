@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:tony_williams",
+  "entity_type": "music.composer",
+  "label": "Tony Williams",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blaster Master 2",
+      "Dirt Racer",
+      "Man Overboard!",
+      "The Tick"
+    ],
+    "artist_keys": [
+      "Tony Williams"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "fa64a252-4d62-42d7-b7f2-9a3f6bee109e",
+    "wikidata": "Q2442928",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tony_Williams_(singer)"
+  }
+}

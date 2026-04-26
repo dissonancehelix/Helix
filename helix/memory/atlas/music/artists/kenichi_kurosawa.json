@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kenichi_kurosawa",
+  "entity_type": "music.composer",
+  "label": "Kenichi Kurosawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gensomaden Saiyuki"
+    ],
+    "artist_keys": [
+      "Kenichi Kurosawa"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "11839",
+    "musicbrainz": "2aeed0d8-fb25-436e-8e12-23171d6b4cba",
+    "wikidata": "Q11678405",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kenichi_Kurosawa"
+  }
+}

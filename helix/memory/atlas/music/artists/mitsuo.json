@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:mitsuo",
+  "entity_type": "music.composer",
+  "label": "Mitsuo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "Neo Geo Pocket Color"
+    ],
+    "franchises": [
+      "Fatal Fury 3",
+      "Kizuna Encounter",
+      "SNK vs. Capcom",
+      "Samurai Shodown III",
+      "Samurai Shodown IV"
+    ],
+    "artist_keys": [
+      "Mitsuo"
+    ],
+    "track_count": 90
+  },
+  "external_ids": {
+    "vgmdb": "7586",
+    "musicbrainz": "93a430d5-7be0-43d4-8ace-afebd8b0b661",
+    "wikidata": "Q1155641",
+    "spotify": "",
+    "lastfm": "つんく♂",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsunku"
+  }
+}

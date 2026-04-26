@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:miki_takahashi",
+  "entity_type": "music.composer",
+  "label": "Miki Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Atelier Judie"
+    ],
+    "artist_keys": [
+      "Miki Takahashi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q138604758",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:sachiko_yakata",
+  "entity_type": "music.composer",
+  "label": "Sachiko Yakata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Tiny Toon Adventures 2"
+    ],
+    "artist_keys": [
+      "Sachiko Yakata"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

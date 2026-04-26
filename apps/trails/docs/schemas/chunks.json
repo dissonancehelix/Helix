@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Content Chunk",
+  "type": "object",
+  "properties": {
+    "chunk_id": {
+      "type": "string"
+    },
+    "source_doc_id": {
+      "type": "string",
+      "description": "Reference to the source document making this claim"
+    },
+    "text": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["en", "ja"]
+    },
+    "linked_entities": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Extracted or assigned entity IDs from this text"
+    },
+    "spoiler_metadata": {
+      "type": "object",
+      "properties": {
+        "arc": { "type": "string" },
+        "game": { "type": "string" },
+        "chapter": { "type": "string" }
+      }
+    }
+  },
+  "required": ["chunk_id", "source_doc_id", "text"]
+}

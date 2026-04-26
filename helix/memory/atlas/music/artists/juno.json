@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:juno",
+  "entity_type": "music.composer",
+  "label": "Juno",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katawa Shoujo"
+    ],
+    "artist_keys": [
+      "Juno"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q125046",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Juno_(mythology)"
+  }
+}

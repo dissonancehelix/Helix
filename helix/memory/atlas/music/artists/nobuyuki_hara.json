@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:nobuyuki_hara",
+  "entity_type": "music.composer",
+  "label": "Nobuyuki Hara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Batman",
+      "Dual Orb II",
+      "Pieces"
+    ],
+    "artist_keys": [
+      "Nobuyuki Hara"
+    ],
+    "track_count": 48
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11409836",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

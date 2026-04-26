@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:darren_mitchell",
+  "entity_type": "music.composer",
+  "label": "Darren Mitchell",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "College Slam Basketball"
+    ],
+    "artist_keys": [
+      "Darren Mitchell"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100885323",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

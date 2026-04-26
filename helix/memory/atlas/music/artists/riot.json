@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:riot",
+  "entity_type": "music.composer",
+  "label": "RIOT",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Racing"
+    ],
+    "artist_keys": [
+      "RIOT"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ca04e657-2ffc-4949-9150-cb43d9f231e2",
+    "wikidata": "Q1408267",
+    "spotify": "6TCoYcCpctMOSuqKSjF72W",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Riot_V"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "operator": "templates/operator_template.py",
+    "adapter": "templates/adapter_template.py",
+    "toolkit_bridge": "templates/toolkit_bridge_template.py",
+    "artifact_schema": "templates/artifact_schema.json",
+    "atlas_entity": "templates/atlas_entity_schema.json",
+    "hil_command": "templates/hil_command_template.yaml",
+    "substrate_module": "templates/substrate_structure.md"
+}

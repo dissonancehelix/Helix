@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:nanpei_misawa",
+  "entity_type": "music.composer",
+  "label": "Nanpei Misawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Fever SOS"
+    ],
+    "artist_keys": [
+      "Nanpei Misawa"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

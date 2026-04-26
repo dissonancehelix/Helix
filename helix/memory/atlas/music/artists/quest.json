@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:quest",
+  "entity_type": "music.composer",
+  "label": "Quest",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Belly of the Beast / Dub Liberation",
+      "Hard Food",
+      "Last Days / The Unknown",
+      "Moodswings / Response",
+      "Real Love",
+      "Smooth Skin / Wind Tunnel",
+      "Stand / Eden",
+      "The Inner Verse",
+      "The Seafront / Deep Inside",
+      "Vampires",
+      "Visitors / Dubfoot"
+    ],
+    "artist_keys": [
+      "Quest"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3414877",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Quest_(video_games)"
+  }
+}

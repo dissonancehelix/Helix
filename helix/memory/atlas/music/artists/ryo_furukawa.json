@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:ryo_furukawa",
+  "entity_type": "music.composer",
+  "label": "Ryo Furukawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII",
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake Intergrade",
+      "Justice Monsters Five"
+    ],
+    "artist_keys": [
+      "Ryo Furukawa"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q116791936",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

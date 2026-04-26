@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:83key",
+  "entity_type": "music.composer",
+  "label": "83Key",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Lost Judgment",
+      "Yakuza",
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "83Key"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8b69fea9-fe19-46be-af7e-dfcd783525c8",
+    "wikidata": "Q11584088",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

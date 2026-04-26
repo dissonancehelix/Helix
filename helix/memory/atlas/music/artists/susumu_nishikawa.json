@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:susumu_nishikawa",
+  "entity_type": "music.composer",
+  "label": "Susumu Nishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Shining Force EXA"
+    ],
+    "artist_keys": [
+      "Susumu Nishikawa"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "3030",
+    "musicbrainz": "e8a7b479-6a1d-4747-9765-25ef95c17097",
+    "wikidata": "Q59295771",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

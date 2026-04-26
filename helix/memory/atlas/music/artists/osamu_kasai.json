@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:osamu_kasai",
+  "entity_type": "music.composer",
+  "label": "Osamu Kasai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Circus Caper",
+      "Ginga Eiyuu Densetsu",
+      "Moeru! Oniisan",
+      "Tama & Friends"
+    ],
+    "artist_keys": [
+      "Osamu Kasai"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11621002",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:atsushi_horiguchi",
+  "entity_type": "music.composer",
+  "label": "Atsushi Horiguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cybernetic Empire"
+    ],
+    "artist_keys": [
+      "Atsushi Horiguchi"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

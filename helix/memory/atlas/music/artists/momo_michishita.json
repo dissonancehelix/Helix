@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:momo_michishita",
+  "entity_type": "music.composer",
+  "label": "Momo Michishita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "OLIO2"
+    ],
+    "artist_keys": [
+      "Momo Michishita"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

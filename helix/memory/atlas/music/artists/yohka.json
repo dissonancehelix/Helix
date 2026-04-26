@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yohka",
+  "entity_type": "music.composer",
+  "label": "YOHKA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Arcadia no Aoki Miko"
+    ],
+    "artist_keys": [
+      "YOHKA"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q18818379",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naomasa_Yokawa"
+  }
+}

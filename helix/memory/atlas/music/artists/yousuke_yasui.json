@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:yousuke_yasui",
+  "entity_type": "music.composer",
+  "label": "Yousuke Yasui",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Akumajo Dracula Tribute Vol.1",
+      "Custom Robo V2",
+      "Dopamix",
+      "Eschatos",
+      "Everblue 2",
+      "GeOnDan Super Rare Trax",
+      "Ginga Force",
+      "Kekkaishi",
+      "Mega Man Network Transmission",
+      "Natsuki Chronicles",
+      "New Eitango Target 1900 DS",
+      "One Piece",
+      "Prodigy Racing",
+      "Simple DS Series Vol. 28",
+      "Super Dragon Ball Z"
+    ],
+    "artist_keys": [
+      "Yousuke Yasui"
+    ],
+    "track_count": 183
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

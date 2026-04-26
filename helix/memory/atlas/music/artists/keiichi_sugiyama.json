@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:keiichi_sugiyama",
+  "entity_type": "music.composer",
+  "label": "Keiichi Sugiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Blinx",
+      "Blinx 2",
+      "Mario; Sonic the Hedgehog",
+      "Nightshade",
+      "Planet Ring",
+      "Sonic the Hedgehog",
+      "Super Galdelic Hour",
+      "Super Monkey Ball 3D"
+    ],
+    "artist_keys": [
+      "Keiichi Sugiyama"
+    ],
+    "track_count": 159
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3194681",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

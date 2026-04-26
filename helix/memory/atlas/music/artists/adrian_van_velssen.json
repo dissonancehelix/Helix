@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:adrian_van_velssen",
+  "entity_type": "music.composer",
+  "label": "Adrian van Velssen",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Eternal Champions"
+    ],
+    "artist_keys": [
+      "Adrian van Velssen"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

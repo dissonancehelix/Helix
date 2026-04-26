@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takaaki_oda",
+  "entity_type": "music.composer",
+  "label": "Takaaki Oda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Star Saber"
+    ],
+    "artist_keys": [
+      "Takaaki Oda"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

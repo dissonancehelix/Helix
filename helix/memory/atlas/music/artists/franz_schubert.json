@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:franz_schubert",
+  "entity_type": "music.composer",
+  "label": "Franz Schubert",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario; Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Franz Schubert"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "3151",
+    "musicbrainz": "f91e3a88-24ee-4563-8963-fab73d2765ed",
+    "wikidata": "Q7312",
+    "spotify": "2p0UyoPfYfI76PCStuXfOP",
+    "lastfm": "Franz+Schubert",
+    "wikipedia": "https://en.wikipedia.org/wiki/Franz_Schubert"
+  }
+}

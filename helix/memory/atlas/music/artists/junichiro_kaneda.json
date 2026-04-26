@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:junichiro_kaneda",
+  "entity_type": "music.composer",
+  "label": "Junichiro Kaneda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES"
+    ],
+    "franchises": [
+      "Thunder Cross",
+      "Zen"
+    ],
+    "artist_keys": [
+      "Junichiro Kaneda"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

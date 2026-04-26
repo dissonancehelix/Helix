@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:tsukasa_saitoh",
+  "entity_type": "music.composer",
+  "label": "Tsukasa Saitoh",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Armored Core VI",
+      "Bloodborne",
+      "Dark Souls III",
+      "Déraciné",
+      "Elden Ring",
+      "King's Field IV"
+    ],
+    "artist_keys": [
+      "Tsukasa Saitoh"
+    ],
+    "track_count": 48
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

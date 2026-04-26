@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yutaka_iraha",
+  "entity_type": "music.composer",
+  "label": "Yutaka Iraha",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Yutaka Iraha"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

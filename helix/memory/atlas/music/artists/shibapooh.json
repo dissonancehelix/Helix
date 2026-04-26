@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shibapooh",
+  "entity_type": "music.composer",
+  "label": "SHIBAPOOH",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Top Hunter"
+    ],
+    "artist_keys": [
+      "SHIBAPOOH"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

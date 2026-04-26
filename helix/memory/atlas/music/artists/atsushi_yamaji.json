@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:atsushi_yamaji",
+  "entity_type": "music.composer",
+  "label": "Atsushi Yamaji",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Cyber City Oedo 808",
+      "L",
+      "Yakuza 5"
+    ],
+    "artist_keys": [
+      "Atsushi Yamaji"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "4314",
+    "musicbrainz": "a195cf3f-17b2-4268-90c4-da19fff08023",
+    "wikidata": "Q11470967",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

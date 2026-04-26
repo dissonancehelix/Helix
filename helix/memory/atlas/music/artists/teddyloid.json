@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:teddyloid",
+  "entity_type": "music.composer",
+  "label": "TeddyLoid",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "TeddyLoid"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "15453",
+    "musicbrainz": "e53069c1-2b09-4c1b-98f0-e87b36f628a5",
+    "wikidata": "Q11250568",
+    "spotify": "3GfNJrDTZY7voXPDx8gH9I",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/TeddyLoid"
+  }
+}

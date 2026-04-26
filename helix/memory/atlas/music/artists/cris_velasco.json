@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:cris_velasco",
+  "entity_type": "music.composer",
+  "label": "Cris Velasco",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bloodborne",
+      "Soulcalibur V"
+    ],
+    "artist_keys": [
+      "Cris Velasco"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "1268",
+    "musicbrainz": "6157c246-7697-43a7-bd4b-d53e7d113793",
+    "wikidata": "Q5185888",
+    "spotify": "3ExS5kseS21zbrmzxfU42G",
+    "lastfm": "Neal+Acree,+Cris+Velasco,+Starcraft+&+Blizzard+Entertainment",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cris_Velasco"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:koichi_seiyama",
+  "entity_type": "music.composer",
+  "label": "Koichi Seiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Guilty Gear XX"
+    ],
+    "artist_keys": [
+      "Koichi Seiyama"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:mitchell_stein",
+  "entity_type": "music.composer",
+  "label": "Mitchell Stein",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Clay Fighter"
+    ],
+    "artist_keys": [
+      "Mitchell Stein"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114414642",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiroyuki_misawa",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Misawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Magical Date EX"
+    ],
+    "artist_keys": [
+      "Hiroyuki Misawa"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q56073457",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroyuki_Misawa"
+  }
+}

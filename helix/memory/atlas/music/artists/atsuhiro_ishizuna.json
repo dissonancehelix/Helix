@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:atsuhiro_ishizuna",
+  "entity_type": "music.composer",
+  "label": "Atsuhiro Ishizuna",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Bloodstained",
+      "Pokémon Mystery Dungeon"
+    ],
+    "artist_keys": [
+      "Atsuhiro Ishizuna"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

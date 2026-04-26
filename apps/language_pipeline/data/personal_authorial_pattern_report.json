@@ -1,0 +1,117 @@
+[
+  {
+    "id": "lead_compression_style",
+    "name": "Lead compression style",
+    "description": "Dominant style across gold corpus: 'moderate'. Distribution: {'moderate': 3, 'dense': 3, 'sparse': 1}.",
+    "evidence_articles": [
+      "New Commanders Stadium",
+      "Chase Young",
+      "Adam Peters"
+    ],
+    "operator_tendency": "moderate"
+  },
+  {
+    "id": "chronology_sequencing",
+    "name": "Chronology sequencing habit",
+    "description": "Dominant chronology type: 'mixed'. Distribution: {'mixed': 6, 'topical': 1}.",
+    "evidence_articles": [
+      "New Commanders Stadium",
+      "Chase Young",
+      "Jayden Daniels",
+      "Josh Harris (businessman)",
+      "Adam Peters",
+      "Brandon Sosna"
+    ],
+    "operator_tendency": "mixed"
+  },
+  {
+    "id": "infobox_integration",
+    "name": "Infobox integration",
+    "description": "0/7 gold articles have infoboxes. All NFL biography and VG articles expected to have infoboxes.",
+    "evidence_articles": [],
+    "infobox_types_seen": []
+  },
+  {
+    "id": "statistics_table_usage",
+    "name": "Statistics table usage",
+    "description": "3/7 gold articles contain statistics tables. Expected for NFL player biographies.",
+    "evidence_articles": [
+      "Chase Young",
+      "Jayden Daniels",
+      "Josh Harris (businessman)"
+    ],
+    "archetype_association": "athlete_biography_nfl"
+  },
+  {
+    "id": "source_density_profile",
+    "name": "Source density profile",
+    "description": "Distribution: {'medium': 7}. High-density articles suggest thoroughness.",
+    "evidence_articles": [
+      "New Commanders Stadium (medium)",
+      "Chase Young (medium)",
+      "Dota 2 (medium)",
+      "Jayden Daniels (medium)",
+      "Josh Harris (businessman) (medium)",
+      "Adam Peters (medium)",
+      "Brandon Sosna (medium)"
+    ],
+    "operator_tendency": "medium"
+  },
+  {
+    "id": "section_depth_athlete_biography_nfl",
+    "name": "Section depth norm — athlete_biography_nfl",
+    "description": "Average H2 section count for athlete_biography_nfl: 10.0. Typical sections: ['History', '=Financing=', 'Design', '=Mixed-use development=', 'References']",
+    "evidence_articles": [
+      "New Commanders Stadium",
+      "Chase Young",
+      "Jayden Daniels",
+      "Josh Harris (businessman)",
+      "Adam Peters",
+      "Brandon Sosna"
+    ],
+    "avg_section_count": 10.0
+  },
+  {
+    "id": "section_depth_executive_biography",
+    "name": "Section depth norm — executive_biography",
+    "description": "Average H2 section count for executive_biography: 7.3. Typical sections: ['Early life', 'Career', '=Private equity and finance=', '=Sports ownership=', '==Management style and initiatives==']",
+    "evidence_articles": [
+      "Josh Harris (businessman)",
+      "Adam Peters",
+      "Brandon Sosna"
+    ],
+    "avg_section_count": 7.3
+  },
+  {
+    "id": "section_depth_video_game_article",
+    "name": "Section depth norm — video_game_article",
+    "description": "Average H2 section count for video_game_article: 11.0. Typical sections: ['Gameplay', 'Development', \"= ''Dota 2 Reborn'' =\", 'Release', 'Esports']",
+    "evidence_articles": [
+      "Dota 2"
+    ],
+    "avg_section_count": 11.0
+  },
+  {
+    "id": "section_depth_infrastructure_article",
+    "name": "Section depth norm — infrastructure_article",
+    "description": "Average H2 section count for infrastructure_article: 8.5. Typical sections: ['History', '=Financing=', 'Design', '=Mixed-use development=', 'References']",
+    "evidence_articles": [
+      "New Commanders Stadium",
+      "Dota 2"
+    ],
+    "avg_section_count": 8.5
+  },
+  {
+    "id": "blp_citation_density",
+    "name": "BLP citation density",
+    "description": "Average ref count for BLP articles: 106. High citation density consistent with WP:BLP compliance.",
+    "evidence_articles": [
+      "Chase Young",
+      "Jayden Daniels",
+      "Josh Harris (businessman)",
+      "Adam Peters",
+      "Brandon Sosna"
+    ],
+    "avg_ref_count": 105.8
+  }
+]

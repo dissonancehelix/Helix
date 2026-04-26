@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:reel_big_fish",
+  "entity_type": "music.composer",
+  "label": "Reel Big Fish",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Reel Big Fish"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "5e5480be-eded-44ad-9c45-f6136ec2f5db",
+    "wikidata": "Q665979",
+    "spotify": "3bXhZFreBJF4QDUUiMmtZW",
+    "lastfm": "Reel+Big+Fish",
+    "wikipedia": "https://en.wikipedia.org/wiki/Reel_Big_Fish"
+  }
+}

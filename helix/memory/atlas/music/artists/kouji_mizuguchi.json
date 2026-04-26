@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kouji_mizuguchi",
+  "entity_type": "music.composer",
+  "label": "Kouji Mizuguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Bomberman Land Touch!"
+    ],
+    "artist_keys": [
+      "Kouji Mizuguchi"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

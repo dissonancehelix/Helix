@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:circuit_freq",
+  "entity_type": "music.composer",
+  "label": "Circuit Freq",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Circuit Freq"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

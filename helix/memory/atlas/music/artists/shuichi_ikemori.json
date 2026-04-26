@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shuichi_ikemori",
+  "entity_type": "music.composer",
+  "label": "Shuichi Ikemori",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of Hearts"
+    ],
+    "artist_keys": [
+      "Shuichi Ikemori"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "5431",
+    "musicbrainz": "54ead6a5-7d97-48db-963d-15e960e9a763",
+    "wikidata": "Q9302021",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

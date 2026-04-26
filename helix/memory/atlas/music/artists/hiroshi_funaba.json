@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroshi_funaba",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Funaba",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Cratermaze"
+    ],
+    "artist_keys": [
+      "Hiroshi Funaba"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

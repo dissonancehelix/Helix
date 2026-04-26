@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:eiko_kaneda",
+  "entity_type": "music.composer",
+  "label": "Eiko Kaneda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "King of the Monsters 2",
+      "Kishin Douji Zenki 2",
+      "Miracle Girls",
+      "Splatterhouse 2",
+      "Splatterhouse 3",
+      "Super Zugan 2"
+    ],
+    "artist_keys": [
+      "Eiko Kaneda"
+    ],
+    "track_count": 118
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

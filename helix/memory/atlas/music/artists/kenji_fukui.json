@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kenji_fukui",
+  "entity_type": "music.composer",
+  "label": "Kenji Fukui",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "The Lone Ranger"
+    ],
+    "artist_keys": [
+      "Kenji Fukui"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90452321",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tomoyo_nishimoto",
+  "entity_type": "music.composer",
+  "label": "Tomoyo Nishimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "WWF SmackDown! 2"
+    ],
+    "artist_keys": [
+      "Tomoyo Nishimoto"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

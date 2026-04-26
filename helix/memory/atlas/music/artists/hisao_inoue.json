@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:hisao_inoue",
+  "entity_type": "music.composer",
+  "label": "Hisao Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC Engine",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Babel",
+      "Cosmic Fantasy",
+      "Cosmic Fantasy Stories",
+      "Faerie Dust Story",
+      "Last Alert",
+      "Super Albatross",
+      "Valis III"
+    ],
+    "artist_keys": [
+      "Hisao Inoue"
+    ],
+    "track_count": 92
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q105704040",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

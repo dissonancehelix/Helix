@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:ryuichi_yabuki",
+  "entity_type": "music.composer",
+  "label": "Ryuichi Yabuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "DonPachi",
+      "Puzzle Uo Poko",
+      "Snow Bros 2"
+    ],
+    "artist_keys": [
+      "Ryuichi Yabuki"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

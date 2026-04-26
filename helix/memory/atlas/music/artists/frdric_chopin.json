@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:frdric_chopin",
+  "entity_type": "music.composer",
+  "label": "Frédéric Chopin",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX"
+    ],
+    "franchises": [
+      "Eternal Sonata",
+      "Hanjuku Hero VS 3D",
+      "Mario; Sonic the Hedgehog",
+      "Parodius"
+    ],
+    "artist_keys": [
+      "Frédéric Chopin"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "52767",
+    "musicbrainz": "09ff1fe8-d61c-4b98-bb82-18487c74d7b7",
+    "wikidata": "Q1268",
+    "spotify": "7y97mc3bZRFXzT2szRM4L4",
+    "lastfm": "Frédéric+Chopin",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin"
+  }
+}

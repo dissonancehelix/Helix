@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:yumi_satake",
+  "entity_type": "music.composer",
+  "label": "Yumi Satake",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "Game Boy Advance",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Angel Collection 2",
+      "Ao Zora to Nakama Tachi",
+      "Asuncia",
+      "Chikyuu Kaihou Gun ZAS",
+      "Fossil League",
+      "Hamsterz Life",
+      "Harukanaru Augusta 3",
+      "Imagine",
+      "Miracle! Panzou",
+      "Ochaken no Bouken",
+      "Ochaken no Yume Bouken",
+      "Petz",
+      "Sword World SFC",
+      "True Golf Classics",
+      "Virtual Hydlide"
+    ],
+    "artist_keys": [
+      "Yumi Satake"
+    ],
+    "track_count": 327
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

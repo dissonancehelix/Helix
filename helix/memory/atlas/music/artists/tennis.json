@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:tennis",
+  "entity_type": "music.composer",
+  "label": "Tennis",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cape Dory",
+      "Face Down in the Garden",
+      "Pollen",
+      "Ritual in Repeat",
+      "Swimmer",
+      "We Can Die Happy",
+      "Young & Old",
+      "Yours Conditionally"
+    ],
+    "artist_keys": [
+      "Tennis"
+    ],
+    "track_count": 79
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2700588",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tennis_(1984_video_game)"
+  }
+}

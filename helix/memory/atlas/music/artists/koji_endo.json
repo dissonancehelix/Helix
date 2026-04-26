@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:koji_endo",
+  "entity_type": "music.composer",
+  "label": "Koji Endo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "King's Field",
+      "King's Field II",
+      "King's Field III"
+    ],
+    "artist_keys": [
+      "Koji Endo"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "10311",
+    "musicbrainz": "de78bdca-f127-46f4-a7a6-abe33917ce34",
+    "wikidata": "Q2947344",
+    "spotify": "",
+    "lastfm": "Koji+Endo"
+  }
+}

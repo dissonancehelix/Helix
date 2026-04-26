@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:xl_middleton",
+  "entity_type": "music.composer",
+  "label": "XL Middleton",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Streets of Rage 4"
+    ],
+    "artist_keys": [
+      "XL Middleton"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

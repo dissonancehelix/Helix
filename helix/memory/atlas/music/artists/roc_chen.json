@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:roc_chen",
+  "entity_type": "music.composer",
+  "label": "Roc Chen",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Otomedius Excellent"
+    ],
+    "artist_keys": [
+      "Roc Chen"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "14411",
+    "musicbrainz": "2b0a7822-3e3e-44cb-ab1b-b26088dd767a",
+    "wikidata": "Q18384253",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roc_Chen"
+  }
+}

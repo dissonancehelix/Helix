@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:eric_ahl",
+  "entity_type": "music.composer",
+  "label": "Eric Ahl",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "Eric Ahl"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11017562",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

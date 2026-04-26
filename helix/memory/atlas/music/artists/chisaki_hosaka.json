@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:chisaki_hosaka",
+  "entity_type": "music.composer",
+  "label": "Chisaki Hosaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Chisaki Hosaka"
+    ],
+    "track_count": 87
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

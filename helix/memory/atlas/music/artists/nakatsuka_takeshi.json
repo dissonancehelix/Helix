@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:nakatsuka_takeshi",
+  "entity_type": "music.composer",
+  "label": "Nakatsuka Takeshi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rune Factory Frontier"
+    ],
+    "artist_keys": [
+      "Nakatsuka Takeshi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

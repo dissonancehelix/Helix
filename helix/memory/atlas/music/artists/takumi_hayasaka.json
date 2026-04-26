@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takumi_hayasaka",
+  "entity_type": "music.composer",
+  "label": "Takumi Hayasaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dopamix"
+    ],
+    "artist_keys": [
+      "Takumi Hayasaka"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

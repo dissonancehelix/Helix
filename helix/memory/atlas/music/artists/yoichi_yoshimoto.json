@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoichi_yoshimoto",
+  "entity_type": "music.composer",
+  "label": "Yoichi Yoshimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Brave Fencer Musashi"
+    ],
+    "artist_keys": [
+      "Yoichi Yoshimoto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:de_de_mouse",
+  "entity_type": "music.composer",
+  "label": "DE DE MOUSE",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "DE DE MOUSE"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "7303",
+    "musicbrainz": "e8e26255-dd90-4745-b9e0-64c1b937684e",
+    "wikidata": "Q11195778",
+    "spotify": "1mZtAFuxFAgqmTCqfKLWoj",
+    "lastfm": "DE+DE+MOUSE"
+  }
+}

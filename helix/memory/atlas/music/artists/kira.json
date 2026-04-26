@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kira",
+  "entity_type": "music.composer",
+  "label": "Kira",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo Pocket Color"
+    ],
+    "franchises": [
+      "SNK vs. Capcom"
+    ],
+    "artist_keys": [
+      "Kira"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f599953f-cd97-429f-8611-f2d447e34d69",
+    "wikidata": "Q64783174",
+    "spotify": "384MAG8fZLUBFQoO2KgDVG",
+    "lastfm": ""
+  }
+}

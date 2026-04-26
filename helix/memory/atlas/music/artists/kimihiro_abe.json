@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:kimihiro_abe",
+  "entity_type": "music.composer",
+  "label": "Kimihiro Abe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "100 Classic Books",
+      "Adult Romance Novel",
+      "Arcadia Saga",
+      "Battle B",
+      "Battle Stadium D.O.N",
+      "Bleach",
+      "Busou Shinki Battle Masters Mk.2",
+      "Coded Soul",
+      "Criminal Girls",
+      "Crimson Shroud"
+    ],
+    "artist_keys": [
+      "Kimihiro Abe"
+    ],
+    "track_count": 652
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q84714456",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

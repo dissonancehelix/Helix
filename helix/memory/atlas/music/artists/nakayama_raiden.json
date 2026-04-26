@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:nakayama_raiden",
+  "entity_type": "music.composer",
+  "label": "Nakayama Raiden",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Technicbeat"
+    ],
+    "artist_keys": [
+      "Nakayama Raiden"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

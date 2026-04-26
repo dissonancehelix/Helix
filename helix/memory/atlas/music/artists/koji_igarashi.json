@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:koji_igarashi",
+  "entity_type": "music.composer",
+  "label": "Koji Igarashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Koji Igarashi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "56e03b05-691d-4bb3-ac17-cda49919c40d",
+    "wikidata": "Q2713547",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Koji_Igarashi"
+  }
+}

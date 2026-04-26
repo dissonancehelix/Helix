@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:martin_stig_andersen",
+  "entity_type": "music.composer",
+  "label": "Martin Stig Andersen",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "LIMBO"
+    ],
+    "artist_keys": [
+      "Martin Stig Andersen"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "29279",
+    "musicbrainz": "3e2d137e-23e7-4f1e-ae8b-643009a41b96",
+    "wikidata": "Q26711847",
+    "spotify": "3P5BX46nHeJprcr04amwkV",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Stig_Andersen"
+  }
+}

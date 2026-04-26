@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:overcoat",
+  "entity_type": "music.composer",
+  "label": "OverCoat",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katawa Shoujo"
+    ],
+    "artist_keys": [
+      "OverCoat"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "3447",
+    "musicbrainz": "d34c0c6c-1a45-431d-87fc-7ee345fb4dfb",
+    "wikidata": "Q66619469",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

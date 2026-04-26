@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:tommy_tallarico",
+  "entity_type": "music.composer",
+  "label": "Tommy Tallarico",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Batman",
+      "Cool Spot",
+      "Disney's Aladdin",
+      "Global Gladiators",
+      "Jim Lee's Wild C.A.T.S.",
+      "Spot Goes to Hollywood",
+      "Super Caesar's Palace",
+      "Super Slap Shot",
+      "The Jungle Book"
+    ],
+    "artist_keys": [
+      "Tommy Tallarico"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "502",
+    "musicbrainz": "1e5edf26-5a54-4e6d-a4a6-328242a49162",
+    "wikidata": "Q2467615",
+    "spotify": "1gxG8dxYpWw4KpYkH3TFgq",
+    "lastfm": "Tommy+Tallarico",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tommy_Tallarico"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:suguru_yamaguchi",
+  "entity_type": "music.composer",
+  "label": "Suguru Yamaguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Down Load 2",
+      "Harvest Moon"
+    ],
+    "artist_keys": [
+      "Suguru Yamaguchi"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "3689",
+    "musicbrainz": "498b1f18-40ea-491c-b852-372363dcd56a",
+    "wikidata": "Q11466659",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

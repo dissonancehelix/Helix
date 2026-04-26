@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomoko_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Tomoko Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Shadow Hearts"
+    ],
+    "artist_keys": [
+      "Tomoko Kobayashi"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q104692713",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

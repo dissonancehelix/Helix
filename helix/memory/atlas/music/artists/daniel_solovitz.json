@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:daniel_solovitz",
+  "entity_type": "music.composer",
+  "label": "Daniel Solovitz",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter 6"
+    ],
+    "artist_keys": [
+      "Daniel Solovitz"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yoko_mizuta",
+  "entity_type": "music.composer",
+  "label": "Yoko Mizuta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Dragon Ball Z"
+    ],
+    "artist_keys": [
+      "Yoko Mizuta"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q87636425",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

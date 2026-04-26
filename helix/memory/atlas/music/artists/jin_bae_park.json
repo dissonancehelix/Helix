@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:jin_bae_park",
+  "entity_type": "music.composer",
+  "label": "Jin-Bae Park",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ridge Racer 7"
+    ],
+    "artist_keys": [
+      "Jin-Bae Park"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

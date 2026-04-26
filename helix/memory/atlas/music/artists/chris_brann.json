@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:chris_brann",
+  "entity_type": "music.composer",
+  "label": "Chris Brann",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Synchronica"
+    ],
+    "artist_keys": [
+      "Chris Brann"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f4c22ea4-a21f-43e4-8271-731defce1476",
+    "wikidata": "Q2964664",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chris_Brann"
+  }
+}

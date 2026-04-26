@@ -1,0 +1,62 @@
+[
+  {
+    "id": "conv_01",
+    "register": "conversational",
+    "text": "Oye, si vienes luego, te guardo un sitio."
+  },
+  {
+    "id": "conv_02",
+    "register": "conversational",
+    "text": "No se que haces, pero llamame cuando salgas."
+  },
+  {
+    "id": "conv_03",
+    "register": "conversational",
+    "text": "Mira, yo llego tarde, asi que empieza sin mi."
+  },
+  {
+    "id": "conv_04",
+    "register": "conversational",
+    "text": "¿Vas al mercado o prefieres quedarte aqui?"
+  },
+  {
+    "id": "formal_01",
+    "register": "formal",
+    "text": "Agradecemos su atencion y quedamos a disposicion para cualquier consulta adicional."
+  },
+  {
+    "id": "formal_02",
+    "register": "formal",
+    "text": "La solicitud sera evaluada conforme a los criterios establecidos en la convocatoria."
+  },
+  {
+    "id": "formal_03",
+    "register": "formal",
+    "text": "Se informa que el procedimiento entrara en vigor a partir del proximo lunes."
+  },
+  {
+    "id": "formal_04",
+    "register": "formal",
+    "text": "En caso de incidencia, debera remitirse la documentacion correspondiente por escrito."
+  },
+  {
+    "id": "narrative_01",
+    "register": "narrative",
+    "text": "La lluvia cayo sobre el pueblo mientras los perros dormian junto a la plaza."
+  },
+  {
+    "id": "narrative_02",
+    "register": "narrative",
+    "text": "Cuando abrio la puerta, vio la luz temblar en el pasillo vacio."
+  },
+  {
+    "id": "narrative_03",
+    "register": "narrative",
+    "text": "El tren partio al amanecer y dejo atras las casas blancas del valle."
+  },
+  {
+    "id": "narrative_04",
+    "register": "narrative",
+    "text": "Aunque nadie hablo, todos entendieron que la noche iba a cambiarlo todo."
+  }
+]

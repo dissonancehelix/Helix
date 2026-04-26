@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:michio_fujisawa",
+  "entity_type": "music.composer",
+  "label": "Michio Fujisawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Miracle Ropit's Adventure in 2100"
+    ],
+    "artist_keys": [
+      "Michio Fujisawa"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11624574",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:little_blue_box",
+  "entity_type": "music.composer",
+  "label": "Little Blue boX",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Inazuma Eleven GO vs Danball Senki W"
+    ],
+    "artist_keys": [
+      "Little Blue boX"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "19580",
+    "musicbrainz": "0d84df60-2bd2-43b3-81b6-9846ab93a22d",
+    "wikidata": "Q11164267",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

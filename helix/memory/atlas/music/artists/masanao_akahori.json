@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:masanao_akahori",
+  "entity_type": "music.composer",
+  "label": "Masanao Akahori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Brain Lord",
+      "Cybernator",
+      "F1 ROC",
+      "F1 ROC II",
+      "Final Stretch",
+      "Nekketsu Tairiku Burning Heroes",
+      "Nosferatu",
+      "Ranma ½",
+      "Silva Saga II",
+      "Wally wo Sagase!"
+    ],
+    "artist_keys": [
+      "Masanao Akahori"
+    ],
+    "track_count": 156
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

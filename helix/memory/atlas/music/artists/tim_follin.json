@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:tim_follin",
+  "entity_type": "music.composer",
+  "label": "Tim Follin",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "NES",
+      "Super NES",
+      "ZX Spectrum"
+    ],
+    "franchises": [
+      "Batman Forever",
+      "Equinox",
+      "Firearm",
+      "Gauntlet III",
+      "Indiana Jones and the Last Crusade",
+      "L.E.D. Storm",
+      "Magic Johnson's Fast Break",
+      "Missile",
+      "Moto",
+      "Pictionary",
+      "Plok!",
+      "Rock n' Roll Racing",
+      "Silver Surfer",
+      "Sky Shark",
+      "Solar Invasion"
+    ],
+    "artist_keys": [
+      "Tim Follin"
+    ],
+    "track_count": 118
+  },
+  "external_ids": {
+    "vgmdb": "1301",
+    "musicbrainz": "bc709fb2-d4a9-4c93-89c4-e136792d6b40",
+    "wikidata": "Q3063482",
+    "spotify": "",
+    "lastfm": "Tim+Follin",
+    "discogs": "512218",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tim_Follin"
+  }
+}

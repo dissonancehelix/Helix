@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shigerou_yoshida",
+  "entity_type": "music.composer",
+  "label": "Shigerou Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "PokéPark 2",
+      "PokéPark Wii",
+      "Pokémon Ranger"
+    ],
+    "artist_keys": [
+      "Shigerou Yoshida"
+    ],
+    "track_count": 178
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:justin_mullins",
+  "entity_type": "music.composer",
+  "label": "Justin Mullins",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Borderlands"
+    ],
+    "artist_keys": [
+      "Justin Mullins"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q137892807",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

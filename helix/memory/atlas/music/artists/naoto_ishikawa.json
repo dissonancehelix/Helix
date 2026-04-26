@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:naoto_ishikawa",
+  "entity_type": "music.composer",
+  "label": "Naoto Ishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-9801",
+      "X68000"
+    ],
+    "franchises": [
+      "AMS II",
+      "B",
+      "Battle Submarine 9",
+      "Cy",
+      "Partial Axiom",
+      "Power Slave"
+    ],
+    "artist_keys": [
+      "Naoto Ishikawa"
+    ],
+    "track_count": 115
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q56536558",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

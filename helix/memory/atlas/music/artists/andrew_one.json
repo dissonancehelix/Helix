@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:andrew_one",
+  "entity_type": "music.composer",
+  "label": "Andrew One",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Berserk Boy"
+    ],
+    "artist_keys": [
+      "Andrew One"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q104758588",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:dan_forden",
+  "entity_type": "music.composer",
+  "label": "Dan Forden",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Mortal Kombat",
+      "Pigskin 621 A.D."
+    ],
+    "artist_keys": [
+      "Dan Forden"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "e38140f8-7cb0-401d-9fa1-1a8153a02361",
+    "wikidata": "Q5797899",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dan_Forden"
+  }
+}

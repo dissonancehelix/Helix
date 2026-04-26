@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:hiroaki_yoshida",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Act",
+      "Backfire!",
+      "Bad Dudes vs. Dragonninja",
+      "Bloody Wolf",
+      "Chelnov",
+      "Crude Buster",
+      "Dark Seal",
+      "Data East's Stadium Hero '96",
+      "Desert Assault",
+      "Fighter's History",
+      "Ghostlop",
+      "Heavy Barrel",
+      "Hippodrome",
+      "Hyper Handball Heavy Smash",
+      "Joe & Mac"
+    ],
+    "artist_keys": [
+      "Hiroaki Yoshida"
+    ],
+    "track_count": 313
+  },
+  "external_ids": {
+    "vgmdb": "1571",
+    "musicbrainz": "7a40e96f-a0b0-4529-a5a5-01771b19f58c",
+    "wikidata": "Q3136242",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

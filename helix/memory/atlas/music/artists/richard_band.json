@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:richard_band",
+  "entity_type": "music.composer",
+  "label": "Richard Band",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Casper",
+      "Planescape"
+    ],
+    "artist_keys": [
+      "Richard Band"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "23b194ef-b756-4a02-803b-bb89fd010f4a",
+    "wikidata": "Q2314663",
+    "spotify": "0TXK10MEUmsJGH4lMosMiT",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Band"
+  }
+}

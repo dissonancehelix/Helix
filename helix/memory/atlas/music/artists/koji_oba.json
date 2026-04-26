@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:koji_oba",
+  "entity_type": "music.composer",
+  "label": "Koji Oba",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Star Ocean"
+    ],
+    "artist_keys": [
+      "Koji Oba"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "2a73cff2-6d21-4f4e-8bd7-67d585fab544",
+    "wikidata": "Q60987780",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

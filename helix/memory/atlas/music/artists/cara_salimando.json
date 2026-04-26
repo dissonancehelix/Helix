@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:cara_salimando",
+  "entity_type": "music.composer",
+  "label": "Cara Salimando",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cat Girl Without Salad"
+    ],
+    "artist_keys": [
+      "Cara Salimando"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "10a40a4c-eda2-4d2d-919f-c24293610acc",
+    "wikidata": "Q63379116",
+    "spotify": "3x4KGKJgPLDPzLnx30KONv",
+    "lastfm": ""
+  }
+}

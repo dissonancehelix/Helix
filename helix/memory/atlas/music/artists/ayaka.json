@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ayaka",
+  "entity_type": "music.composer",
+  "label": "ayaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of Arise"
+    ],
+    "artist_keys": [
+      "ayaka"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "1684",
+    "musicbrainz": "a3396621-f15d-49d2-8ac5-5fe574204375",
+    "wikidata": "Q239348",
+    "spotify": "22FsmLO3ZyvgWBy5QbfcQi",
+    "lastfm": "絢香",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ayaka"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kimitaka_kogo",
+  "entity_type": "music.composer",
+  "label": "Kimitaka Kogo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Trails in the Sky FC & SC Super Arrange"
+    ],
+    "artist_keys": [
+      "Kimitaka Kogo"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q55540537",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

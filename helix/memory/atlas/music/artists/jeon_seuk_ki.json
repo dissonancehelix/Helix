@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:jeon_seuk_ki",
+  "entity_type": "music.composer",
+  "label": "Jeon Seuk Ki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Master's Fury"
+    ],
+    "artist_keys": [
+      "Jeon Seuk Ki"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

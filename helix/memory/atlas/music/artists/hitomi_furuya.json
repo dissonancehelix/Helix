@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hitomi_furuya",
+  "entity_type": "music.composer",
+  "label": "Hitomi Furuya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Hitomi Furuya"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "971280a6-c66d-40bc-9f77-c2fe726a41d7",
+    "wikidata": "Q306631",
+    "spotify": "5rdloWitZKhrtedmOBdhG8",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hitomi_(singer)"
+  }
+}

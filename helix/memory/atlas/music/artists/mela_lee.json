@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mela_lee",
+  "entity_type": "music.composer",
+  "label": "Mela Lee",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rune Factory Frontier"
+    ],
+    "artist_keys": [
+      "Mela Lee"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "7e5605ec-afca-47c6-995f-dda021dfe843",
+    "wikidata": "Q750146",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mela_Lee"
+  }
+}

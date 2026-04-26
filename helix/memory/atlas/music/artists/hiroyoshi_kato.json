@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroyoshi_kato",
+  "entity_type": "music.composer",
+  "label": "Hiroyoshi Kato",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 3"
+    ],
+    "artist_keys": [
+      "Hiroyoshi Kato"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "c9ec089b-2286-44e6-ba54-4d79073fbca1",
+    "wikidata": "Q11399379",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:cube",
+  "entity_type": "music.composer",
+  "label": "Cube",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Habu Meijin no Omoshiro Shougi",
+      "Insector X",
+      "Kishin Douji Zenki",
+      "Kousoku Shikou Shougi Ou",
+      "Light Fantasy II",
+      "Super Hanafuda",
+      "Super Yakyuu Dou"
+    ],
+    "artist_keys": [
+      "Cube"
+    ],
+    "track_count": 90
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q111640895",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

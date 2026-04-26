@@ -1,0 +1,101 @@
+{
+    "domain": "language",
+    "language": "english",
+    "system_description": "English disambiguation under morphological poverty. English has almost no case marking (only pronoun case: he/him, she/her) and minimal verb agreement (only 3rd person singular -s). Disambiguation relies primarily on strict SVO word order — violation of SVO without auxiliary marking leaves argument roles unresolved. The auxiliary system (do-support for negation and questions, modal verbs, passivization with be) adds a secondary disambiguation layer. When word order and auxiliaries both fail, prosody and pragmatics must resolve.",
+    "agents": [
+        {
+            "id": "rule_word_order",
+            "role": "dominant_rule",
+            "influence_weight": 0.6814,
+            "ud_signal_type": "agreement"
+        },
+        {
+            "id": "rule_auxiliary",
+            "role": "dominant_rule",
+            "influence_weight": 0.1741,
+            "ud_signal_type": "word_order"
+        },
+        {
+            "id": "rule_pragmatic",
+            "role": "secondary_rule",
+            "influence_weight": 0.0445,
+            "ud_signal_type": "case"
+        },
+        {
+            "id": "rule_morphology",
+            "role": "edge_case",
+            "influence_weight": 0.1,
+            "ud_signal_type": "pragmatic"
+        }
+    ],
+    "decision_rounds": [
+        {
+            "round": 1,
+            "weights": [
+                0.71,
+                0.16,
+                0.04,
+                0.09
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 2,
+            "weights": [
+                0.68,
+                0.18,
+                0.06,
+                0.08
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 3,
+            "weights": [
+                0.7,
+                0.16,
+                0.03,
+                0.11
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 4,
+            "weights": [
+                0.68,
+                0.17,
+                0.05,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 5,
+            "weights": [
+                0.68,
+                0.18,
+                0.06,
+                0.08
+            ],
+            "outcome": "parse_A"
+        }
+    ],
+    "expected_k_eff_range": [
+        1.68,
+        2.27
+    ],
+    "notes": "English has the highest k_eff of the European languages in this suite — morphological poverty means more alternatives survive into later parse stages. The DCP event fires later and relies more heavily on clause-level context. Falsifier: garden-path sentences (The horse raced past the barn fell) demonstrate what happens when word order alone fails and no morphological backup exists.",
+    "source": "ud_treebank",
+    "ud_diagnostics": {
+        "sentences_analyzed": 500,
+        "case_density": 0.1934,
+        "agreement_density": 0.4414,
+        "order_rigidity": 0.9614,
+        "order_signal": 1.0,
+        "morphological_richness": 1.3469,
+        "compression_density": 1.1314,
+        "dominant_rule": "agreement",
+        "ud_k_eff": 1.974,
+        "treebank": "UD_English-EWT"
+    }
+}

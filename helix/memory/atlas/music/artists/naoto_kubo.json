@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:naoto_kubo",
+  "entity_type": "music.composer",
+  "label": "Naoto Kubo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Donkey Kong Bananza",
+      "Super Mario Maker",
+      "Super Mario Odyssey",
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Naoto Kubo"
+    ],
+    "track_count": 179
+  },
+  "external_ids": {
+    "vgmdb": "16790",
+    "musicbrainz": "",
+    "wikidata": "Q42894024",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

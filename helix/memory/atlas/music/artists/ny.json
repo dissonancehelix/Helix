@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:ny",
+  "entity_type": "music.composer",
+  "label": "N.Y",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Rough Racer"
+    ],
+    "artist_keys": [
+      "N.Y"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8e7f5842-de5e-4eab-8d5f-0a55c84f4cb1",
+    "wikidata": "Q1347312",
+    "spotify": "0AqfGv5Nifg1klh0iH4Nqs",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marley_Marl"
+  }
+}

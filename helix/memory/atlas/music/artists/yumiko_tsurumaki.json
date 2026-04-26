@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yumiko_tsurumaki",
+  "entity_type": "music.composer",
+  "label": "Yumiko Tsurumaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "The Cockpit X68000 Special"
+    ],
+    "artist_keys": [
+      "Yumiko Tsurumaki"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

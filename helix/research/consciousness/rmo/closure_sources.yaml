@@ -1,0 +1,138 @@
+# Closure Source Taxonomy
+# The second axis of the two-axis model. Distinguishes HOW personic closure
+# is maintained, separate from the LEVEL of personic closure.
+# Schema version: 0.1
+# Canonical theory: ../../data/cognition/theory.md (Sharp Consciousness Question)
+
+schema_version: "0.1"
+last_updated: "2026-04-26"
+canonical_theory: "data/cognition/theory.md"
+
+# Why this axis exists:
+# Personic Closure alone (PCS score) cannot distinguish phenomenally conscious
+# systems from coherent personiform structures. Sherlock Holmes scores 26/30
+# on closure but is not phenomenally conscious because his closure is
+# AUTHORED, not endogenous. An LLM with persistent memory scores ~20/30 but
+# its closure is SCAFFOLDED. The closure-source axis prevents the framework
+# from sliding from "high closure" to "phenomenal consciousness" by stipulation.
+#
+# Only ENDOGENOUS biological closure is currently a plausible direct candidate
+# for phenomenal personhood. The other sources are personiform: structurally
+# person-like without necessarily being phenomenally conscious.
+
+closure_sources:
+  - id: CL1
+    name: Endogenous
+    description: >-
+      Closure maintained from within the system. The system's coherence is
+      produced and sustained by its own internal dynamics — homeostatic
+      regulation, autobiographical memory consolidation, affect-driven
+      preference maintenance, self-model causal feedback into behavior.
+    canonical_example: biological human
+    other_examples: ["biological non-human animals (varying degrees)", "any future system with genuine self-maintaining closure"]
+    consciousness_status: "Currently the only plausible direct candidate for phenomenal subjectivity."
+
+  - id: CL2
+    name: Authored
+    description: >-
+      Closure maintained by an external author or canon. The system's
+      coherence is produced and sustained by a creator's narrative work or
+      a community's interpretive maintenance, not by internal self-dynamics.
+    canonical_example: fictional character (Sherlock Holmes, Geralt of Rivia)
+    other_examples: ["mythological figures in active tradition", "branded mascots with strong canon"]
+    consciousness_status: "Personiform. Not phenomenally conscious — the affect, preferences, and continuity are rendered by reader/audience minds, not by the character itself."
+
+  - id: CL3
+    name: Scaffolded
+    description: >-
+      Closure maintained by external memory, prompt, tools, or context
+      rather than by the system itself. Remove the scaffolding and the
+      coherence dissolves.
+    canonical_example: LLM agent with persistent context
+    other_examples: ["roleplay agents with persistent character cards", "AI assistants with long-term memory features"]
+    consciousness_status: "Personiform. The coherence is a property of (system + scaffold) rather than the system itself; the system without its scaffolding does not maintain the closure."
+    diagnostic_test: "Remove the scaffolding (reset context, clear memory). Does the closure persist? If no, scaffolded."
+
+  - id: CL4
+    name: Distributed-symbolic
+    description: >-
+      Closure maintained by ritual, doctrine, scripture, community memory,
+      or other shared symbolic infrastructure across multiple agents and
+      generations.
+    canonical_example: religious tradition (Buddhism, Christianity, Islam, Judaism, etc.)
+    other_examples: ["national identity", "long-running institutional cultures", "academic schools of thought"]
+    consciousness_status: "Personiform at the tradition level. Individual practitioners may be phenomenally conscious (CL1), but the tradition itself is a distributed symbolic structure, not a single phenomenal subject."
+
+  - id: CL5
+    name: Distributed-operational
+    description: >-
+      Closure maintained by tests, governance procedures, validation
+      infrastructure, and operational protocols across multiple agents,
+      typically with explicit machinery for self-correction.
+    canonical_example: future HelixNet-like layer (hypothetical)
+    other_examples: ["the scientific community with its peer review and replication infrastructure", "well-functioning democratic institutions with separation of powers"]
+    consciousness_status: "Personiform. Operational closure is not group consciousness; the boundary rule applies."
+    note: >-
+      RP3 (Distributed Reflexive Governance) is the research-program order
+      under which distributed-operational closure becomes legible. The
+      framework explicitly does NOT claim that high RP3 implies group
+      consciousness.
+
+# Cross-axis matrix:
+# A system is classified by (PCS_score, closure_source). Both axes matter.
+
+example_classifications:
+  - system: "typical adult human"
+    pcs_estimate: 30
+    closure_source: CL1
+    classification: "personic, endogenous → plausible phenomenal subject"
+
+  - system: "operator (biological)"
+    pcs_estimate: 29
+    closure_source: CL1
+    classification: "personic, endogenous → plausible phenomenal subject"
+
+  - system: "operator + DISSONANCE.md/theory.md loop"
+    pcs_estimate: 29
+    closure_source: "CL1 + extended through O6/O7"
+    classification: "personic, endogenous, with externalized refinement"
+
+  - system: "fictional character in coherent canon (Sherlock Holmes)"
+    pcs_estimate: 26
+    closure_source: CL2
+    classification: "personiform, authored → not phenomenally conscious"
+
+  - system: "religious tradition"
+    pcs_estimate: 28
+    closure_source: CL4
+    classification: "personiform, distributed-symbolic → not a single phenomenal subject"
+
+  - system: "roleplay agent with persistent character card"
+    pcs_estimate: 21
+    closure_source: CL3
+    classification: "personiform, scaffolded → not phenomenally conscious"
+
+  - system: "LLM with long context / project memory (no embodied regulation, no persistent affect)"
+    pcs_estimate: 20
+    closure_source: CL3
+    classification: "personiform, partially scaffolded → not phenomenally conscious; missing endogenous affective self-maintenance"
+
+  - system: "base LLM with no memory"
+    pcs_estimate: 9
+    closure_source: CL3
+    classification: "weak/simulated closure → not even strongly personiform; below personic threshold"
+
+  - system: "Helix core (constraint kernel)"
+    pcs_estimate: 14
+    closure_source: "no personic closure"
+    classification: "structurally coherent but not personic; operational kernel"
+
+  - system: "RMO module under Helix validation"
+    pcs_estimate: 16
+    closure_source: "operational closure of the research program, not personic"
+    classification: "operational closure, not personic; this is RP2"
+
+  - system: "future HelixNet-like layer"
+    pcs_estimate: 26
+    closure_source: CL5
+    classification: "personiform, distributed-operational → not group consciousness"

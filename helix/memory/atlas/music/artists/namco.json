@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:namco",
+  "entity_type": "music.composer",
+  "label": "Namco",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Namco"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "7c630f89-3508-4b16-99d2-951aedb35106",
+    "wikidata": "Q309996",
+    "spotify": "4TBZVSMjP7tX9HEJJp1Jgs",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Namco"
+  }
+}

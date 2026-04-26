@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mother_love_bone",
+  "entity_type": "music.composer",
+  "label": "Mother Love Bone",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Apple"
+    ],
+    "artist_keys": [
+      "Mother Love Bone"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "a5585acd-9b65-49a7-a63b-3cc4ee18846e",
+    "wikidata": "Q1053623",
+    "spotify": "61Z1hOTDK2mynmQsTiRBur",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother_Love_Bone"
+  }
+}

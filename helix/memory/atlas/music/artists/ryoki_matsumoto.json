@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryoki_matsumoto",
+  "entity_type": "music.composer",
+  "label": "Ryoki Matsumoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Professor Layton and the Diabolical Box"
+    ],
+    "artist_keys": [
+      "Ryoki Matsumoto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "549",
+    "musicbrainz": "c9dd05a5-6ba4-4e49-88e0-5dbbb637715e",
+    "wikidata": "Q11531279",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

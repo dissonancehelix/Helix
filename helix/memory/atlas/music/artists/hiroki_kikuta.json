@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:hiroki_kikuta",
+  "entity_type": "music.composer",
+  "label": "Hiroki Kikuta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Demons' Score",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Rakugaki Kingdom",
+      "Rise of Mana",
+      "Secret of Mana",
+      "Sin Chronicle",
+      "Soulcalibur V",
+      "Teravit",
+      "Trials of Mana"
+    ],
+    "artist_keys": [
+      "Hiroki Kikuta"
+    ],
+    "track_count": 129
+  },
+  "external_ids": {
+    "vgmdb": "140",
+    "musicbrainz": "0b7713fc-0794-4324-a9fc-7316f9f54f40",
+    "wikidata": "Q2588785",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "212736",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroki_Kikuta"
+  }
+}

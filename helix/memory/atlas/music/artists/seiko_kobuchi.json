@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:seiko_kobuchi",
+  "entity_type": "music.composer",
+  "label": "Seiko Kobuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Mega Man X7"
+    ],
+    "artist_keys": [
+      "Seiko Kobuchi"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "2977",
+    "musicbrainz": "58808612-552c-495b-958a-a603d9dda454",
+    "wikidata": "Q11462668",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

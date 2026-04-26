@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:ken_kojima",
+  "entity_type": "music.composer",
+  "label": "Ken Kojima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES",
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Cu",
+      "Red Alarm",
+      "T&E Virtual Golf"
+    ],
+    "artist_keys": [
+      "Ken Kojima"
+    ],
+    "track_count": 73
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q65263341",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

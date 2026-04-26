@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shinya_outouge",
+  "entity_type": "music.composer",
+  "label": "Shinya Outouge",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Mario Party 7",
+      "Mario Party DS"
+    ],
+    "artist_keys": [
+      "Shinya Outouge"
+    ],
+    "track_count": 113
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:hideaki_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Hideaki Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Astro Boy",
+      "Atsumare! Guru Guru Onsen",
+      "Dengeki Bunko",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "Idola",
+      "Imported Game Music",
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Mario; Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Hideaki Kobayashi"
+    ],
+    "track_count": 717
+  },
+  "external_ids": {
+    "vgmdb": "255",
+    "musicbrainz": "03812475-a3d2-42d3-b81f-b92367d5c3b6",
+    "wikidata": "Q5752243",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hideaki_Kobayashi_(composer)"
+  }
+}

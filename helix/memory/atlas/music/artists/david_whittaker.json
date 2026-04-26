@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:david_whittaker",
+  "entity_type": "music.composer",
+  "label": "David Whittaker",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "ZX Spectrum"
+    ],
+    "franchises": [
+      "Bubble Dizzy",
+      "Fantasy World Dizzy",
+      "Magicland Dizzy",
+      "PGA Tour 96",
+      "Spellbound Dizzy"
+    ],
+    "artist_keys": [
+      "David Whittaker"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "1308",
+    "musicbrainz": "e8b799e2-4658-4fec-ab86-c4988bf35d64",
+    "wikidata": "Q3019000",
+    "spotify": "",
+    "lastfm": "David+Whittaker",
+    "wikipedia": "https://en.wikipedia.org/wiki/David_Whittaker_(video_game_composer)"
+  }
+}

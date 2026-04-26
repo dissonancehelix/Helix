@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:akiko_hashimoto",
+  "entity_type": "music.composer",
+  "label": "Akiko Hashimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Ardy Lightfoot",
+      "Daisenryaku Expert WWII",
+      "Spindizzy Worlds",
+      "Virtua Fighter 2"
+    ],
+    "artist_keys": [
+      "Akiko Hashimoto"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "34937",
+    "musicbrainz": "694ba29c-5b5f-46ae-ba19-0ad3b3c5b24f",
+    "wikidata": "Q843742",
+    "spotify": "5sTHmuw3Y849jP69itJe8D",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aki_Yashiro"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:taro_iwashiro",
+  "entity_type": "music.composer",
+  "label": "Taro Iwashiro",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Breath of Fire IV"
+    ],
+    "artist_keys": [
+      "Taro Iwashiro"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

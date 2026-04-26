@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiro_takahashi",
+  "entity_type": "music.composer",
+  "label": "Hiro Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "YuYu Hakusho"
+    ],
+    "artist_keys": [
+      "Hiro Takahashi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "3260",
+    "musicbrainz": "f1154997-db90-46db-b017-cc7ef8986f0c",
+    "wikidata": "Q3273168",
+    "spotify": "6t8SRQ3JL9AuvhNxlyYjfR",
+    "lastfm": "高橋ひろ",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiro_Takahashi"
+  }
+}

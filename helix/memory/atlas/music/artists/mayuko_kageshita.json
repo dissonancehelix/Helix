@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mayuko_kageshita",
+  "entity_type": "music.composer",
+  "label": "Mayuko Kageshita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Crazy Cross",
+      "Sexy Parodius"
+    ],
+    "artist_keys": [
+      "Mayuko Kageshita"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

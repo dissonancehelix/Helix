@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:fnr",
+  "entity_type": "music.composer",
+  "label": "F.N.R",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Anata wo Yurusanai"
+    ],
+    "artist_keys": [
+      "F.N.R"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q5862189",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

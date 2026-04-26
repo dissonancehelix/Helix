@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "inhabited_interiority/consciousness_result",
+  "title": "ConsciousnessResult",
+  "description": "Output of the field classifier for a single field case fixture. Documents computed C-score, classification, G-status, and preserved breaks. G / givenness is the primitive residue — this result does not claim to detect G directly.",
+  "type": "object",
+  "required": ["case_id", "classification", "c_score", "g_status", "components_computed", "breaks_preserved"],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "description": "ID of the fixture being classified."
+    },
+    "c_score": {
+      "description": "Computed C = G·U·D·T·F. null if any required component is null. 0.0 if any is 0.",
+      "oneOf": [{"type": "number", "minimum": 0.0, "maximum": 1.0}, {"type": "null"}]
+    },
+    "c_score_status": {
+      "type": "string",
+      "enum": ["computed", "collapsed_to_zero", "unresolvable", "no_components"],
+      "description": "How the C score was produced."
+    },
+    "g_status": {
+      "type": "string",
+      "enum": [
+        "g_established",
+        "g_absent",
+        "g_contested",
+        "g_unresolvable",
+        "g_not_evaluated"
+      ],
+      "description": "Status of G (givenness). The harness cannot detect G directly. g_contested = case is genuinely contested in the literature. g_unresolvable = cannot classify with any available tool."
+    },
+    "classification": {
+      "type": "string",
+      "enum": [
+        "phenomenal_candidate",
+        "minimal_phenomenal_candidate",
+        "non_phenomenal",
+        "false_positive",
+        "demoted",
+        "unresolved"
+      ],
+      "description": "Classification verdict."
+    },
+    "components_computed": {
+      "type": "object",
+      "description": "Component scores as used in computation. G is used if present; A (legacy) is used if G is absent.",
+      "properties": {
+        "G": {"oneOf": [{"type": "number"}, {"type": "null"}]},
+        "U": {"oneOf": [{"type": "number"}, {"type": "null"}]},
+        "D": {"oneOf": [{"type": "number"}, {"type": "null"}]},
+        "T": {"oneOf": [{"type": "number"}, {"type": "null"}]},
+        "F": {"oneOf": [{"type": "number"}, {"type": "null"}]}
+      },
+      "additionalProperties": false
+    },
+    "collapsed_components": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Which components collapsed to 0.0, causing C to collapse."
+    },
+    "null_components": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Which components are null, making C unresolvable."
+    },
+    "false_positive_risk": {
+      "type": "string",
+      "enum": ["none", "low", "medium", "high", "critical"],
+      "description": "Risk that the theory incorrectly promotes this case. critical = G > 0 assigned to a non-phenomenal case."
+    },
+    "revision_pressure": {
+      "type": "string",
+      "description": "What this result puts pressure on in the theory."
+    },
+    "breaks_preserved": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Theory breaks from this classification. Must not be patched."
+    },
+    "run_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

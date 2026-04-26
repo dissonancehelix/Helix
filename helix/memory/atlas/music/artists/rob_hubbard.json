@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:rob_hubbard",
+  "entity_type": "music.composer",
+  "label": "Rob Hubbard",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "Mega Drive",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "688 Attack Sub",
+      "Action Biker",
+      "Budokan",
+      "Bulls vs. Blazers and the NBA Playoffs",
+      "Desert Strike",
+      "John Madden Football",
+      "John Madden Football '93",
+      "Jordan vs. Bird",
+      "Kings of the Beach",
+      "PGA Tour 96",
+      "PGA Tour Golf",
+      "Populous",
+      "Road Rash",
+      "Road Rash II",
+      "Sanxion"
+    ],
+    "artist_keys": [
+      "Rob Hubbard"
+    ],
+    "track_count": 73
+  },
+  "external_ids": {
+    "vgmdb": "1297",
+    "musicbrainz": "dff554f2-1da0-46d5-81ad-e6382e3ac444",
+    "wikidata": "Q599443",
+    "spotify": "7srcRwewWzownnksojMCBd",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rob_Hubbard"
+  }
+}

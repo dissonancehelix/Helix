@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:satoshi_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Satoshi Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Blast Off",
+      "Märchen Maze"
+    ],
+    "artist_keys": [
+      "Satoshi Kobayashi"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q87734927",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

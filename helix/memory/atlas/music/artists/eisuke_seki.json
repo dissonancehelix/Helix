@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:eisuke_seki",
+  "entity_type": "music.composer",
+  "label": "Eisuke Seki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Growlanser VI"
+    ],
+    "artist_keys": [
+      "Eisuke Seki"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

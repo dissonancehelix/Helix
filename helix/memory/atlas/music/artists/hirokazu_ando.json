@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:hirokazu_ando",
+  "entity_type": "music.composer",
+  "label": "Hirokazu Ando",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "NES",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Arcana",
+      "Common Sense Training",
+      "Dedede's Drum Dash Deluxe",
+      "Hyper Zone",
+      "Kirby",
+      "Kirby 64",
+      "Kirby Air Ride",
+      "Kirby Fighters 2",
+      "Kirby Fighters Deluxe",
+      "Kirby Star Allies"
+    ],
+    "artist_keys": [
+      "Hirokazu Ando"
+    ],
+    "track_count": 706
+  },
+  "external_ids": {
+    "vgmdb": "475",
+    "musicbrainz": "976b7045-339e-4148-bf9c-1ce1d30651ee",
+    "wikidata": "Q4065340",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4037041",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hirokazu_Ando"
+  }
+}

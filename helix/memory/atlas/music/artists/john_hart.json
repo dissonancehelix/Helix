@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:john_hart",
+  "entity_type": "music.composer",
+  "label": "John Hart",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Eternal Champions"
+    ],
+    "artist_keys": [
+      "John Hart"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1367952",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Hart_(New_Jersey_politician)"
+  }
+}

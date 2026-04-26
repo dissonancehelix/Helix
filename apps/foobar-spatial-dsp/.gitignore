@@ -1,0 +1,32 @@
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.opendb
+*.pch
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.aps
+
+# Build Output
+x64/
+Release/
+Debug/
+dist/
+dist_new/
+artifacts/
+temp/
+
+# IDE
+.vs/
+.claude/
+
+# Local configuration
+LOCAL_NOTES.md

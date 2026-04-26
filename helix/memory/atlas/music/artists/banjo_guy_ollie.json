@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:banjo_guy_ollie",
+  "entity_type": "music.composer",
+  "label": "Banjo Guy Ollie",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Monster Boy and the Cursed Kingdom"
+    ],
+    "artist_keys": [
+      "Banjo Guy Ollie"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

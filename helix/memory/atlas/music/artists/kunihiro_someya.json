@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kunihiro_someya",
+  "entity_type": "music.composer",
+  "label": "Kunihiro Someya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "38 Man Kilo no Kokuu",
+      "Ginga Eiyuu Densetsu"
+    ],
+    "artist_keys": [
+      "Kunihiro Someya"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

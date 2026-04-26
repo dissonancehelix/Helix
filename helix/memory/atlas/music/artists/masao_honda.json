@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masao_honda",
+  "entity_type": "music.composer",
+  "label": "Masao Honda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Masao Honda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11222727",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

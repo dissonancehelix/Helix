@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yam",
+  "entity_type": "music.composer",
+  "label": "Yam",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Let's Tap"
+    ],
+    "artist_keys": [
+      "Yam"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q7386141",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ren_(surname)"
+  }
+}

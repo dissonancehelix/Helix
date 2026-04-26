@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:wall5",
+  "entity_type": "music.composer",
+  "label": "Wall5",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Team Sonic Racing"
+    ],
+    "artist_keys": [
+      "Wall5"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

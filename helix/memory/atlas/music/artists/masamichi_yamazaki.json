@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:masamichi_yamazaki",
+  "entity_type": "music.composer",
+  "label": "Masamichi Yamazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Chachamaru Boukenki 3",
+      "Chachamaru Panic",
+      "Fire Pro Wrestling",
+      "Human Grand Prix II",
+      "Super Fire Pro Wrestling",
+      "Super Formation Soccer",
+      "Super Formation Soccer 94",
+      "Super Formation Soccer 96",
+      "Super Formation Soccer II"
+    ],
+    "artist_keys": [
+      "Masamichi Yamazaki"
+    ],
+    "track_count": 156
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

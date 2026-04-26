@@ -1,0 +1,511 @@
+[
+  {
+    "appid": "298180",
+    "name": "The Desolate Hope",
+    "score": 0.055325,
+    "review_ratio": 0.92,
+    "total_reviews": 1639,
+    "genre": "Action, Adventure, Indie, RPG",
+    "developer": "Scott Cawthon",
+    "price": "0",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack"
+    ]
+  },
+  {
+    "appid": "253920",
+    "name": "Gorky 17",
+    "score": 0.045326,
+    "review_ratio": 0.797,
+    "total_reviews": 2027,
+    "genre": "RPG, Strategy",
+    "developer": "Metropolis Software",
+    "price": "399",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Atmospheric",
+      "Strategy",
+      "Sci-fi"
+    ]
+  },
+  {
+    "appid": "570770",
+    "name": "\u53e4\u5251\u5947\u8c2d\u4e8c(GuJian2)",
+    "score": 0.044806,
+    "review_ratio": 0.774,
+    "total_reviews": 2836,
+    "genre": "RPG",
+    "developer": "\u4e0a\u6d77\u70db\u9f99\u4fe1\u606f\u79d1\u6280\u6709\u9650\u516c\u53f8, Aurogon Shanghai",
+    "price": "1599",
+    "matching_tags": [
+      "RPG",
+      "Story Rich",
+      "Great Soundtrack",
+      "Martial Arts"
+    ]
+  },
+  {
+    "appid": "319830",
+    "name": "AX:EL - Air XenoDawn",
+    "score": 0.042916,
+    "review_ratio": 0.754,
+    "total_reviews": 1192,
+    "genre": "Action, Indie, Simulation",
+    "developer": "Alex Piola",
+    "price": "0",
+    "matching_tags": [
+      "Action",
+      "Indie",
+      "Simulation",
+      "Sci-fi",
+      "Free to Play"
+    ]
+  },
+  {
+    "appid": "351940",
+    "name": "The Descendant",
+    "score": 0.041217,
+    "review_ratio": 0.886,
+    "total_reviews": 7123,
+    "genre": "Adventure, Casual, Indie",
+    "developer": "Gaming Corps AB",
+    "price": "1499",
+    "matching_tags": [
+      "Adventure",
+      "Story Rich",
+      "Indie",
+      "Atmospheric",
+      "Choices Matter"
+    ]
+  },
+  {
+    "appid": "253940",
+    "name": "Septerra Core",
+    "score": 0.039301,
+    "review_ratio": 0.755,
+    "total_reviews": 1182,
+    "genre": "RPG",
+    "developer": "",
+    "price": "799",
+    "matching_tags": [
+      "RPG",
+      "Adventure",
+      "Story Rich",
+      "JRPG",
+      "Anime"
+    ]
+  },
+  {
+    "appid": "570780",
+    "name": "\u53e4\u5251\u5947\u8c2d(GuJian)",
+    "score": 0.038309,
+    "review_ratio": 0.803,
+    "total_reviews": 5375,
+    "genre": "RPG",
+    "developer": "\u4e0a\u6d77\u70db\u9f99\u4fe1\u606f\u79d1\u6280\u6709\u9650\u516c\u53f8, Aurogon Shanghai",
+    "price": "1199",
+    "matching_tags": [
+      "RPG",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack",
+      "Turn-Based"
+    ]
+  },
+  {
+    "appid": "270570",
+    "name": "Reversion - The Escape (1st Chapter)",
+    "score": 0.037847,
+    "review_ratio": 0.776,
+    "total_reviews": 1542,
+    "genre": "Adventure, Casual, Indie",
+    "developer": "3f Interactive",
+    "price": "99",
+    "matching_tags": [
+      "Adventure",
+      "Indie",
+      "Puzzle",
+      "Sci-fi",
+      "Mystery"
+    ]
+  },
+  {
+    "appid": "2420",
+    "name": "The Ship: Single Player",
+    "score": 0.037076,
+    "review_ratio": 0.712,
+    "total_reviews": 933,
+    "genre": "Action, Indie, RPG",
+    "developer": "Outerlight Ltd.",
+    "price": "999",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Indie",
+      "First-Person",
+      "Stealth"
+    ]
+  },
+  {
+    "appid": "12770",
+    "name": "Rise of the Argonauts",
+    "score": 0.032815,
+    "review_ratio": 0.723,
+    "total_reviews": 793,
+    "genre": "RPG",
+    "developer": "Liquid Entertainment",
+    "price": "0",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Fantasy"
+    ]
+  },
+  {
+    "appid": "924980",
+    "name": "Trials of Mana",
+    "score": 0.031789,
+    "review_ratio": 0.918,
+    "total_reviews": 5450,
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "price": "4999",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack"
+    ]
+  },
+  {
+    "appid": "216910",
+    "name": "Of Orcs And Men",
+    "score": 0.030776,
+    "review_ratio": 0.74,
+    "total_reviews": 1992,
+    "genre": "Action, RPG",
+    "developer": "Cyanide Studio, Spiders",
+    "price": "1499",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack"
+    ]
+  },
+  {
+    "appid": "1930",
+    "name": "Two Worlds Epic Edition",
+    "score": 0.030082,
+    "review_ratio": 0.766,
+    "total_reviews": 5594,
+    "genre": "RPG",
+    "developer": "Reality Pump Studios",
+    "price": "1499",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Open World"
+    ]
+  },
+  {
+    "appid": "431710",
+    "name": "Space Pilgrim Episode II: Epsilon Indi",
+    "score": 0.030068,
+    "review_ratio": 0.874,
+    "total_reviews": 549,
+    "genre": "Adventure, Indie",
+    "developer": "Pilgrim Adventures, GrabTheGames Studios",
+    "price": "199",
+    "matching_tags": [
+      "RPG",
+      "Adventure",
+      "Story Rich",
+      "Indie",
+      "JRPG"
+    ]
+  },
+  {
+    "appid": "882790",
+    "name": "Fate Seeker",
+    "score": 0.030054,
+    "review_ratio": 0.908,
+    "total_reviews": 13268,
+    "genre": "RPG",
+    "developer": "JSL Entertainment",
+    "price": "2109",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Action RPG",
+      "Puzzle"
+    ]
+  },
+  {
+    "appid": "15700",
+    "name": "Oddworld: Abe's Oddysee",
+    "score": 0.029743,
+    "review_ratio": 0.853,
+    "total_reviews": 4355,
+    "genre": "Adventure",
+    "developer": "Oddworld Inhabitants",
+    "price": "89",
+    "matching_tags": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Fantasy",
+      "Atmospheric"
+    ]
+  },
+  {
+    "appid": "384570",
+    "name": "Zanzarah: The Hidden Portal",
+    "score": 0.02925,
+    "review_ratio": 0.72,
+    "total_reviews": 1068,
+    "genre": "Action, Adventure, RPG",
+    "developer": "Funatics Software",
+    "price": "799",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Great Soundtrack",
+      "Fantasy"
+    ]
+  },
+  {
+    "appid": "1026680",
+    "name": "FINAL FANTASY VIII - REMASTERED",
+    "score": 0.028168,
+    "review_ratio": 0.731,
+    "total_reviews": 4602,
+    "genre": "Adventure, RPG",
+    "developer": "Square Enix",
+    "price": "1999",
+    "matching_tags": [
+      "RPG",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack",
+      "Open World"
+    ]
+  },
+  {
+    "appid": "1096900",
+    "name": "RPG Maker MZ",
+    "score": 0.027952,
+    "review_ratio": 0.85,
+    "total_reviews": 1882,
+    "genre": "RPG, Design & Illustration, Education, Web Publishing, Game Development",
+    "developer": "Gotcha Gotcha Games, KADOKAWA, Yoji Ojima",
+    "price": "3599",
+    "matching_tags": [
+      "RPG",
+      "Story Rich",
+      "JRPG",
+      "Anime",
+      "Fantasy"
+    ]
+  },
+  {
+    "appid": "776960",
+    "name": "Mouse (Sneaking)",
+    "score": 0.027653,
+    "review_ratio": 0.814,
+    "total_reviews": 1145,
+    "genre": "Action, Adventure, Casual, Indie",
+    "developer": "Easy game",
+    "price": "99",
+    "matching_tags": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Horror",
+      "Casual"
+    ]
+  },
+  {
+    "appid": "391260",
+    "name": "Labyronia RPG",
+    "score": 0.027591,
+    "review_ratio": 0.74,
+    "total_reviews": 1275,
+    "genre": "Action, Adventure, Indie, RPG",
+    "developer": "Labyrinthine",
+    "price": "55",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Indie"
+    ]
+  },
+  {
+    "appid": "39540",
+    "name": "SpellForce - Platinum Edition",
+    "score": 0.027394,
+    "review_ratio": 0.879,
+    "total_reviews": 2656,
+    "genre": "Action, RPG",
+    "developer": "Phenomic",
+    "price": "999",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack"
+    ]
+  },
+  {
+    "appid": "208730",
+    "name": "Game of Thrones",
+    "score": 0.027377,
+    "review_ratio": 0.724,
+    "total_reviews": 2321,
+    "genre": "Action, RPG",
+    "developer": "Cyanide Studios",
+    "price": "1499",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Open World"
+    ]
+  },
+  {
+    "appid": "738540",
+    "name": "Tales of Vesperia: Definitive Edition",
+    "score": 0.026902,
+    "review_ratio": 0.813,
+    "total_reviews": 4513,
+    "genre": "RPG",
+    "developer": "QLOC, BANDAI NAMCO Studios Inc.",
+    "price": "4999",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack"
+    ]
+  },
+  {
+    "appid": "851850",
+    "name": "DRAGON BALL Z: KAKAROT",
+    "score": 0.026877,
+    "review_ratio": 0.932,
+    "total_reviews": 54680,
+    "genre": "Action, RPG",
+    "developer": "CyberConnect2 Co. Ltd.",
+    "price": "1999",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack"
+    ]
+  },
+  {
+    "appid": "1222800",
+    "name": "VALKYRIE CONNECT",
+    "score": 0.026603,
+    "review_ratio": 0.745,
+    "total_reviews": 1089,
+    "genre": "Adventure, RPG, Free To Play",
+    "developer": "Ateam Entertainment Inc.",
+    "price": "0",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "JRPG",
+      "Anime"
+    ]
+  },
+  {
+    "appid": "204030",
+    "name": "Fable - The Lost Chapters",
+    "score": 0.026544,
+    "review_ratio": 0.924,
+    "total_reviews": 7738,
+    "genre": "Action, Adventure, RPG",
+    "developer": "Lionhead Studios",
+    "price": "999",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack"
+    ]
+  },
+  {
+    "appid": "21670",
+    "name": "Bionic Commando",
+    "score": 0.02654,
+    "review_ratio": 0.725,
+    "total_reviews": 1703,
+    "genre": "Action, Adventure",
+    "developer": "Capcom",
+    "price": "999",
+    "matching_tags": [
+      "Action",
+      "Adventure",
+      "Great Soundtrack",
+      "Open World",
+      "Third Person"
+    ]
+  },
+  {
+    "appid": "283880",
+    "name": "Heroine's Quest: The Herald of Ragnarok",
+    "score": 0.026533,
+    "review_ratio": 0.876,
+    "total_reviews": 1363,
+    "genre": "Adventure, Indie, RPG, Free To Play",
+    "developer": "Crystal Shard",
+    "price": "0",
+    "matching_tags": [
+      "RPG",
+      "Adventure",
+      "Story Rich",
+      "Indie",
+      "Fantasy"
+    ]
+  },
+  {
+    "appid": "345350",
+    "name": "LIGHTNING RETURNS: FINAL FANTASY XIII",
+    "score": 0.026441,
+    "review_ratio": 0.792,
+    "total_reviews": 4427,
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "price": "1999",
+    "matching_tags": [
+      "RPG",
+      "Action",
+      "Adventure",
+      "Story Rich",
+      "Great Soundtrack"
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:masatomo_komakine",
+  "entity_type": "music.composer",
+  "label": "Masatomo Komakine",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "No More Heroes 2"
+    ],
+    "artist_keys": [
+      "Masatomo Komakine"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

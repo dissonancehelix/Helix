@@ -1,0 +1,46 @@
+{
+  "entity_id": "music.composer:allister_brimble",
+  "entity_type": "music.composer",
+  "label": "Allister Brimble",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "Game Boy",
+      "Mega Drive",
+      "Nintendo 64",
+      "Super NES",
+      "ZX Spectrum"
+    ],
+    "franchises": [
+      "Big Nose Freaks Out",
+      "Body Blows",
+      "Bubble and Squeak",
+      "Cannon Fodder",
+      "Chicken Run",
+      "Chris Sawyer's Locomotion",
+      "Colin McRae Rally",
+      "Desert Speedtrap",
+      "Dizzy Down the Rapids",
+      "Dragon",
+      "Driver 2",
+      "Glover",
+      "Pinocchio",
+      "RollerCoaster Tycoon",
+      "Santa Claus Junior"
+    ],
+    "artist_keys": [
+      "Allister Brimble"
+    ],
+    "track_count": 292
+  },
+  "external_ids": {
+    "vgmdb": "1312",
+    "musicbrainz": "b67babbc-b126-4e6f-996d-d1b6162e16b1",
+    "wikidata": "Q2838355",
+    "spotify": "1RIfJT4RbjP3hLpERryzQ0",
+    "lastfm": "",
+    "discogs": "521385",
+    "wikipedia": "https://en.wikipedia.org/wiki/Allister_Brimble"
+  }
+}

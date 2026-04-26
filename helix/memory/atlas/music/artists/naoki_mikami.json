@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:naoki_mikami",
+  "entity_type": "music.composer",
+  "label": "Naoki Mikami",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cho Aniki Show II"
+    ],
+    "artist_keys": [
+      "Naoki Mikami"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

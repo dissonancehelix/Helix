@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:utada_hikaru",
+  "entity_type": "music.composer",
+  "label": "Utada Hikaru",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kingdom Hearts HD 2.5 ReMIX"
+    ],
+    "artist_keys": [
+      "Utada Hikaru"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "1742",
+    "musicbrainz": "b539e453-c4fe-47e3-8a07-8517eac74429",
+    "wikidata": "Q234598",
+    "spotify": "7lbSsjYACZHn1MSDXPxNF2",
+    "lastfm": "宇多田ヒカル",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hikaru_Utada"
+  }
+}

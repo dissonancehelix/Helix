@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:toshio_iwai",
+  "entity_type": "music.composer",
+  "label": "Toshio Iwai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Toshio Iwai"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

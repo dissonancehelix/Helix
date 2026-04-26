@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:keiki_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Keiki Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat",
+      "Ace Combat 04",
+      "Ace Combat 5",
+      "Ace Combat 6",
+      "Ace Combat 7",
+      "Ace Combat Infinity",
+      "Ace Combat Zero",
+      "Dai",
+      "Disney Magical World",
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake",
+      "Monster Boy and the Cursed Kingdom",
+      "R",
+      "Ridge Racer 6",
+      "Ridge Racer 7"
+    ],
+    "artist_keys": [
+      "Keiki Kobayashi"
+    ],
+    "track_count": 354
+  },
+  "external_ids": {
+    "vgmdb": "1360",
+    "musicbrainz": "1a9fa260-4f97-43d7-8c0f-33314193d4ce",
+    "wikidata": "Q11461489",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "668177"
+  }
+}

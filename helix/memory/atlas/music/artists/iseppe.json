@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:iseppe",
+  "entity_type": "music.composer",
+  "label": "ISEPPE",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Luminous Arc 2"
+    ],
+    "artist_keys": [
+      "ISEPPE"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

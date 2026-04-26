@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:yasuhiko_fukuda",
+  "entity_type": "music.composer",
+  "label": "Yasuhiko Fukuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bomberman GB",
+      "Bomberman GB 2",
+      "Bomberman GB 3",
+      "Down Load",
+      "Emerald Dragon",
+      "Super Bomberman 2",
+      "Super Bomberman 5"
+    ],
+    "artist_keys": [
+      "Yasuhiko Fukuda"
+    ],
+    "track_count": 111
+  },
+  "external_ids": {
+    "vgmdb": "3119",
+    "musicbrainz": "da0ae57d-daed-4731-8e0a-4769df542e72",
+    "wikidata": "Q8049968",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1461363",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yasuhiko_Fukuda"
+  }
+}

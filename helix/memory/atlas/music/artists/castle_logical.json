@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:castle_logical",
+  "entity_type": "music.composer",
+  "label": "Castle Logical",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio"
+    ],
+    "artist_keys": [
+      "Castle Logical"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

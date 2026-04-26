@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:ayako_nishigaki",
+  "entity_type": "music.composer",
+  "label": "Ayako Nishigaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES"
+    ],
+    "franchises": [
+      "Astérix",
+      "Bio Miracle Bokutte Upa",
+      "Zen"
+    ],
+    "artist_keys": [
+      "Ayako Nishigaki"
+    ],
+    "track_count": 39
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

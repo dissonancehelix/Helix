@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:mayuko_okamura",
+  "entity_type": "music.composer",
+  "label": "Mayuko Okamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES"
+    ],
+    "franchises": [
+      "Captain Tsubasa II",
+      "Ninja Gaiden II",
+      "Tecmo Knight",
+      "Tecmo World Wrestling"
+    ],
+    "artist_keys": [
+      "Mayuko Okamura"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

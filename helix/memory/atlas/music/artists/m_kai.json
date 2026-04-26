@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:m_kai",
+  "entity_type": "music.composer",
+  "label": "M-KAI",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Eschatos"
+    ],
+    "artist_keys": [
+      "M-KAI"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q96210439",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

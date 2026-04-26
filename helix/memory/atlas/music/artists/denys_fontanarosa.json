@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:denys_fontanarosa",
+  "entity_type": "music.composer",
+  "label": "Denys Fontanarosa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Astria Ascending",
+      "DanMachi Battle Chronicle",
+      "Progress Orders",
+      "Unicorn Overlord",
+      "Unicorn Overlord 16"
+    ],
+    "artist_keys": [
+      "Denys Fontanarosa"
+    ],
+    "track_count": 117
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

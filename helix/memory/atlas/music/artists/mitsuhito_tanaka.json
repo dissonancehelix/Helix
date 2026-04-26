@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:mitsuhito_tanaka",
+  "entity_type": "music.composer",
+  "label": "Mitsuhito Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Flying Hero",
+      "Melfand Stories",
+      "Onizuka Katsuya Super Virtual Boxing",
+      "Raiga",
+      "Riot",
+      "Solid Runner",
+      "Super Koukou Yakyuu",
+      "TKO Super Championship Boxing",
+      "Tecmo World Wrestling",
+      "Treasure Hunter G",
+      "Youkai Buster"
+    ],
+    "artist_keys": [
+      "Mitsuhito Tanaka"
+    ],
+    "track_count": 188
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:jasper_byrne",
+  "entity_type": "music.composer",
+  "label": "Jasper Byrne",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hotline Miami"
+    ],
+    "artist_keys": [
+      "Jasper Byrne"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q34365390",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

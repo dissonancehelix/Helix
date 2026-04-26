@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kohei_wada",
+  "entity_type": "music.composer",
+  "label": "Kohei Wada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Trails in the Sky FC & SC Super Arrange"
+    ],
+    "artist_keys": [
+      "Kohei Wada"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q125223994",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

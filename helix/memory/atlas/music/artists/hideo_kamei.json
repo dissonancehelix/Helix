@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hideo_kamei",
+  "entity_type": "music.composer",
+  "label": "Hideo Kamei",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Battle Golfer Yui",
+      "Mahjong Cop Ryuu"
+    ],
+    "artist_keys": [
+      "Hideo Kamei"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11370767",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

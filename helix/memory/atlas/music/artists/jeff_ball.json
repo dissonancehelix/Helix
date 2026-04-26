@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:jeff_ball",
+  "entity_type": "music.composer",
+  "label": "Jeff Ball",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Shovel Knight"
+    ],
+    "artist_keys": [
+      "Jeff Ball"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11309319",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jeff_Ball_(baseball)"
+  }
+}

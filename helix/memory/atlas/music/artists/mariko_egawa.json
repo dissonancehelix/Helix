@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:mariko_egawa",
+  "entity_type": "music.composer",
+  "label": "Mariko Egawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Astérix",
+      "Metamorphic Force",
+      "Run and Gun"
+    ],
+    "artist_keys": [
+      "Mariko Egawa"
+    ],
+    "track_count": 69
+  },
+  "external_ids": {
+    "vgmdb": "9939",
+    "musicbrainz": "4c2841b2-ad91-46c6-bb8a-ca38c6d67ce1",
+    "wikidata": "Q129358309",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

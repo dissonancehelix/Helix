@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:e_z_rollers",
+  "entity_type": "music.composer",
+  "label": "E-Z Rollers",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Grand Theft Auto 2"
+    ],
+    "artist_keys": [
+      "E-Z Rollers"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "3dc658d0-0d75-48d0-8f3f-851ec757f17b",
+    "wikidata": "Q976196",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/E-Z_Rollers"
+  }
+}

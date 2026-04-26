@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:yoshiyuki_hagiwara",
+  "entity_type": "music.composer",
+  "label": "Yoshiyuki Hagiwara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "NES"
+    ],
+    "franchises": [
+      "Batman",
+      "Cave Noire",
+      "Ganbare Goemon",
+      "Gradius",
+      "Mission",
+      "Tiny Toon Adventures"
+    ],
+    "artist_keys": [
+      "Yoshiyuki Hagiwara"
+    ],
+    "track_count": 107
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q93247914",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

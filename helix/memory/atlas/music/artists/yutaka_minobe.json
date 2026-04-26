@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:yutaka_minobe",
+  "entity_type": "music.composer",
+  "label": "Yutaka Minobe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Astro Boy",
+      "Atsumare! Guru Guru Onsen",
+      "Mario; Sonic the Hedgehog",
+      "Nightshade",
+      "Onimusha",
+      "Panzer Dragoon Orta",
+      "Rhythm Thief & the Emperor's Treasure",
+      "Rule of Rose",
+      "Shadow the Hedgehog",
+      "Shinobi",
+      "Skies of Arcadia",
+      "Sonic the Hedgehog",
+      "Swords of Destiny",
+      "Yoshi's Island DS"
+    ],
+    "artist_keys": [
+      "Yutaka Minobe"
+    ],
+    "track_count": 382
+  },
+  "external_ids": {
+    "vgmdb": "553",
+    "musicbrainz": "764e4dbd-ecd9-4e3d-bd27-5ce0a0dca331",
+    "wikidata": "Q3573294",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "943976"
+  }
+}

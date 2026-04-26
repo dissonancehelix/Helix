@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshihito_yano_hideki_tobeta",
+  "entity_type": "music.composer",
+  "label": "Yoshihito Yano, Hideki Tobeta",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soulcalibur"
+    ],
+    "artist_keys": [
+      "Yoshihito Yano, Hideki Tobeta"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kenjiro_matsuo",
+  "entity_type": "music.composer",
+  "label": "Kenjiro Matsuo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Trace Memory"
+    ],
+    "artist_keys": [
+      "Kenjiro Matsuo"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "c4c4c66b-0640-47b0-b8a1-96403b89927a",
+    "wikidata": "Q11529702",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

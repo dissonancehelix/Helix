@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:shigemitsu_goto",
+  "entity_type": "music.composer",
+  "label": "Shigemitsu Goto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "EX Monopoly",
+      "Gradius Galaxies",
+      "Super Bases Loaded 3",
+      "Super Tetris 3",
+      "TV Animation Slam Dunk",
+      "TV Animation Slam Dunk 2",
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Shigemitsu Goto"
+    ],
+    "track_count": 110
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "cccb986e-6629-4d9a-9db2-6be6fd99371b",
+    "wikidata": "Q106478484",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:casey_lee_williams",
+  "entity_type": "music.composer",
+  "label": "Casey Lee Williams",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Casey Lee Williams"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ad14ba63-6622-4d2a-8666-141391cebbdc",
+    "wikidata": "Q116975648",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casey_Lee_Williams"
+  }
+}

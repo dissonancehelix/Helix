@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroyuki_togo",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Togo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid"
+    ],
+    "artist_keys": [
+      "Hiroyuki Togo"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "2777",
+    "musicbrainz": "f08f2070-4ab6-45b3-9c32-2eab1cdad455",
+    "wikidata": "Q11624058",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

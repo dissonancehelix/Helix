@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:barbara_kessler",
+  "entity_type": "music.composer",
+  "label": "Barbara Kessler",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rogue Galaxy"
+    ],
+    "artist_keys": [
+      "Barbara Kessler"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "780",
+    "musicbrainz": "626e6742-8e36-4f1e-aca7-88b64ea4dde6",
+    "wikidata": "Q4859053",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Barbara_Kessler"
+  }
+}

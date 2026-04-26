@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tomoyuki_nakazawa",
+  "entity_type": "music.composer",
+  "label": "Tomoyuki Nakazawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dengeki Bunko"
+    ],
+    "artist_keys": [
+      "Tomoyuki Nakazawa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

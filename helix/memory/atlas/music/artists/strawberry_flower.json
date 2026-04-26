@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:strawberry_flower",
+  "entity_type": "music.composer",
+  "label": "Strawberry Flower",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Strawberry Flower"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tomokazu_yamada",
+  "entity_type": "music.composer",
+  "label": "Tomokazu Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The World God Only Knows"
+    ],
+    "artist_keys": [
+      "Tomokazu Yamada"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:naoki_ishida",
+  "entity_type": "music.composer",
+  "label": "Naoki Ishida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "DR² Night Janki"
+    ],
+    "artist_keys": [
+      "Naoki Ishida"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q136358447",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

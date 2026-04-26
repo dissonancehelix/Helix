@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shunsuke_tsuri",
+  "entity_type": "music.composer",
+  "label": "Shunsuke Tsuri",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Star Ocean"
+    ],
+    "artist_keys": [
+      "Shunsuke Tsuri"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "11647",
+    "musicbrainz": "dd14cd59-9bab-42a5-8701-65c51ec65b10",
+    "wikidata": "Q17161415",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:kenichiro_fukui",
+  "entity_type": "music.composer",
+  "label": "Kenichiro Fukui",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "G.I. Joe",
+      "Kingdom Hearts III",
+      "Lethal Enforcers",
+      "Otomedius Excellent",
+      "Quiz Gakumon No Susume",
+      "Racin' Force",
+      "Violent Storm"
+    ],
+    "artist_keys": [
+      "Kenichiro Fukui"
+    ],
+    "track_count": 84
+  },
+  "external_ids": {
+    "vgmdb": "294",
+    "musicbrainz": "ba74239a-4bff-4a49-9631-95c225ebf875",
+    "wikidata": "Q6389274",
+    "spotify": "4n1RINP114UBmkvvbTrWU5",
+    "lastfm": "%E7%A6%8F%E4%BA%95%E5%81%A5%E4%B8%80%E9%83%8E",
+    "discogs": "228640",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kenichiro_Fukui"
+  }
+}

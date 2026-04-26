@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:dai_haraguchi",
+  "entity_type": "music.composer",
+  "label": "Dai Haraguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Series"
+    ],
+    "franchises": [
+      "The Stories of Girls Who Couldn't Be Magicians"
+    ],
+    "artist_keys": [
+      "Dai Haraguchi"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q132659877",
+    "spotify": "1XeezIr9xmy9gn0VQriwBu",
+    "lastfm": ""
+  }
+}

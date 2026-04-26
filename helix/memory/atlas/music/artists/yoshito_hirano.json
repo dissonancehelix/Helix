@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:yoshito_hirano",
+  "entity_type": "music.composer",
+  "label": "Yoshito Hirano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Advance Wars 2",
+      "Paper Mario"
+    ],
+    "artist_keys": [
+      "Yoshito Hirano"
+    ],
+    "track_count": 153
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

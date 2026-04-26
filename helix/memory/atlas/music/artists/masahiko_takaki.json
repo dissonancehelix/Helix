@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:masahiko_takaki",
+  "entity_type": "music.composer",
+  "label": "Masahiko Takaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "X68000"
+    ],
+    "franchises": [
+      "Ah Eikou no Koshien",
+      "Continental Circus",
+      "Full Throttle",
+      "Kuri Kinton",
+      "Night Striker",
+      "Rastan",
+      "Superman",
+      "Violence Fight",
+      "Warrior Blade",
+      "World Grand Prix"
+    ],
+    "artist_keys": [
+      "Masahiko Takaki"
+    ],
+    "track_count": 84
+  },
+  "external_ids": {
+    "vgmdb": "1576",
+    "musicbrainz": "9a749817-b1d7-4cb7-a479-c17cba2e1e88",
+    "wikidata": "Q11670095",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

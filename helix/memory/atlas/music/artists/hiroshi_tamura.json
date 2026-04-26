@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hiroshi_tamura",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Tamura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of Graces",
+      "Tales of Hearts"
+    ],
+    "artist_keys": [
+      "Hiroshi Tamura"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q104576137",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

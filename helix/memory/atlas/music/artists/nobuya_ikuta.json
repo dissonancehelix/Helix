@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:nobuya_ikuta",
+  "entity_type": "music.composer",
+  "label": "Nobuya Ikuta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Super Smash Bros. Brawl",
+      "Yoshi's Cookie"
+    ],
+    "artist_keys": [
+      "Nobuya Ikuta"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takahide_ayuzawa",
+  "entity_type": "music.composer",
+  "label": "Takahide Ayuzawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Otomedius Excellent"
+    ],
+    "artist_keys": [
+      "Takahide Ayuzawa"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

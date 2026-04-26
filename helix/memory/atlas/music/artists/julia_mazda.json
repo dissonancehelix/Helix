@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:julia_mazda",
+  "entity_type": "music.composer",
+  "label": "Julia Mazda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cyber Bi"
+    ],
+    "artist_keys": [
+      "Julia Mazda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "14399",
+    "musicbrainz": "c4f59724-0862-4e2c-a7f8-2b97c434653d",
+    "wikidata": "Q3189056",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

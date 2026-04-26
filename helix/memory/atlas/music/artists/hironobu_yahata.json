@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hironobu_yahata",
+  "entity_type": "music.composer",
+  "label": "Hironobu Yahata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Mario Party 7",
+      "Mario Party DS"
+    ],
+    "artist_keys": [
+      "Hironobu Yahata"
+    ],
+    "track_count": 113
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

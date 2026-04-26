@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:chihiro_aoki",
+  "entity_type": "music.composer",
+  "label": "Chihiro Aoki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Lost Judgment",
+      "Mario; Sonic the Hedgehog",
+      "Phantasy Star Online 2 Episode 2",
+      "StarHorse 4",
+      "Super Monkey Ball",
+      "Yakuza",
+      "Yakuza 4",
+      "Yakuza 5",
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "Chihiro Aoki"
+    ],
+    "track_count": 104
+  },
+  "external_ids": {
+    "vgmdb": "6110",
+    "musicbrainz": "20f880ea-0184-41c7-a681-22fc6d2008e9",
+    "wikidata": "Q129184247",
+    "spotify": "5cE3xgShUof2jaIatnTjlW",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hidehiko_enomoto",
+  "entity_type": "music.composer",
+  "label": "Hidehiko Enomoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Youchien Senki Madara"
+    ],
+    "artist_keys": [
+      "Hidehiko Enomoto"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "1840",
+    "musicbrainz": "804bd3ee-eee5-4ab7-814c-65cb4a1f0e34",
+    "wikidata": "Q11541845",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

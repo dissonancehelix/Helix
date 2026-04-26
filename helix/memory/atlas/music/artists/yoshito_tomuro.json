@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshito_tomuro",
+  "entity_type": "music.composer",
+  "label": "Yoshito Tomuro",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Pac"
+    ],
+    "artist_keys": [
+      "Yoshito Tomuro"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

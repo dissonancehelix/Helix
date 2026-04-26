@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:tomoyuki_tanaka",
+  "entity_type": "music.composer",
+  "label": "Tomoyuki Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Yakuza"
+    ],
+    "artist_keys": [
+      "Tomoyuki Tanaka"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q652228",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tomoyuki_Tanaka"
+  }
+}

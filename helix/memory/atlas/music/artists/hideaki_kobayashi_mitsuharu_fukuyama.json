@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hideaki_kobayashi_mitsuharu_fukuyama",
+  "entity_type": "music.composer",
+  "label": "Hideaki Kobayashi, Mitsuharu Fukuyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Phantasy Star Online 2 Episode 3"
+    ],
+    "artist_keys": [
+      "Hideaki Kobayashi, Mitsuharu Fukuyama"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

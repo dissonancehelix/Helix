@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:sora_ltdbandai_namco_games",
+  "entity_type": "music.composer",
+  "label": "Sora Ltd./Bandai Namco Games",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Sora Ltd./Bandai Namco Games"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:leopaldon",
+  "entity_type": "music.composer",
+  "label": "LEOPALDON",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Forever"
+    ],
+    "artist_keys": [
+      "LEOPALDON"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "9099",
+    "musicbrainz": "f4a271a3-de39-40d7-b2f8-229a7c4f01ed",
+    "wikidata": "Q11228932",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

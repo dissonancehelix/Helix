@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:misako_saito",
+  "entity_type": "music.composer",
+  "label": "Misako Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Dead of the Brain 2"
+    ],
+    "artist_keys": [
+      "Misako Saito"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

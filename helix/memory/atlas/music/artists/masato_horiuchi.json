@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:masato_horiuchi",
+  "entity_type": "music.composer",
+  "label": "Masato Horiuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Garou",
+      "Metal Slug 3",
+      "The King of Fighters '99"
+    ],
+    "artist_keys": [
+      "Masato Horiuchi"
+    ],
+    "track_count": 55
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17219737",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

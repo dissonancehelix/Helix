@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:chamy_ishikawa",
+  "entity_type": "music.composer",
+  "label": "Chamy Ishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Yoshi's Island DS"
+    ],
+    "artist_keys": [
+      "Chamy Ishikawa"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

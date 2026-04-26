@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:brian_shaw",
+  "entity_type": "music.composer",
+  "label": "Brian Shaw",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "NBA Live 95"
+    ],
+    "artist_keys": [
+      "Brian Shaw"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3644503",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brian_Shaw_(strongman)"
+  }
+}

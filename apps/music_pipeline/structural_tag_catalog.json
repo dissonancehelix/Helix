@@ -1,0 +1,124 @@
+{
+  "taxonomy": {
+    "groove_engine": {
+      "description": "Fused bass + percussion as one continuity-bearing locomotion unit. Propulsion spine.",
+      "anchors": ["Silkie", "Ganja White Night", "Tool", "Mick Gordon", "Yuzo Koshiro"],
+      "evidence": {
+        "features": {
+          "pulse_coherence": [0.8, 1.0],
+          "bass_continuity": [0.7, 1.0]
+        },
+        "genres": ["Dubstep", "Bass Music", "Funk", "Groove Metal"]
+      }
+    },
+    "floating_upper_motion": {
+      "description": "Elevated or suspended layers (synth haze, hovering vocals) held above a grounded base.",
+      "anchors": ["James Blake", "Yasunori Mitsuda", "Tennis", "Monica Martin", "Chrono Cross"],
+      "evidence": {
+        "features": {
+          "upper_pitch_mean": [70, 127],
+          "rhythmic_entropy": [0, 0.4],
+          "spectral_spread": "high"
+        }
+      }
+    },
+    "coherent_variation": {
+      "description": "Stable authored identity with internal mutation. Recognizable fingerprint with range.",
+      "anchors": ["MGMT", "Kendrick Lamar", "Nobuo Uematsu", "Yoko Shimomura", "Vampire Weekend"],
+      "evidence": {
+        "features": {
+          "fingerprint_stability": [0.6, 1.0],
+          "structural_mutation_rate": "moderate"
+        }
+      }
+    },
+    "crooked_coherence": {
+      "description": "Systems that lean sideways or feel haunted/psychedelic while remaining structurally intact.",
+      "anchors": ["Alexandra Savior", "James Blake", "MGMT", "Decap Attack", "Sega Genesis FM"],
+      "evidence": {
+        "features": {
+          "off_beat_ratio": [0.4, 1.0],
+          "dissonance_density": [0.2, 0.5]
+        },
+        "platforms": ["Sega Genesis"],
+        "chips": ["YM2612"]
+      }
+    },
+    "threshold_attraction": {
+      "description": "Structures at the edge of legibility—half-emerged, half-dissolved, or phasing near a boundary.",
+      "anchors": ["Chrono Cross", "James Blake", "Ambient VGM"],
+      "evidence": {
+        "features": {
+          "emergence_rate": "variable",
+          "boundary_proximity": "high"
+        }
+      }
+    },
+    "return_passage_salience": {
+      "description": "Attraction to the structural event of a loop return and the distinct passage before it.",
+      "evidence": {
+        "tags": ["LOOP_START", "LOOP_END"],
+        "features": {
+          "has_distinct_return_passage": true
+        }
+      }
+    },
+    "coherent_abrasion": {
+      "description": "Grain, pressure, and strain (distortion, dark harmonies) without structural loss.",
+      "anchors": ["Alice in Chains", "Soundgarden", "Tool", "Mick Gordon"],
+      "evidence": {
+        "features": {
+          "interval_roughness": [0.5, 1.0],
+          "energy": [0.7, 1.0]
+        }
+      }
+    },
+    "elegant_sweetness": {
+      "description": "Beauty softened by restraint, melancholy, or wistful tension. Just sad enough.",
+      "anchors": ["Tennis", "Monica Martin", "Alexandra Savior", "Beach House", "FFIX"],
+      "evidence": {
+        "features": {
+          "valence": [0.5, 0.75],
+          "dissonance_density": [0, 0.15],
+          "melodic_contour": "graceful"
+        }
+      }
+    },
+    "bright_authored_pop": {
+      "description": "Clean, melodic pop that breathes internally and possesses witty/symbolic structure.",
+      "anchors": ["Vampire Weekend", "Teleman", "MGMT"],
+      "evidence": {
+        "features": {
+          "valence": [0.7, 1.0],
+          "instrumentalness": [0, 0.3]
+        },
+        "genres": ["Indie Pop", "Art Pop"]
+      }
+    },
+    "timbral_lucidity_flute": {
+      "description": "Airy, suspended, and light-bearing timbres.",
+      "evidence": {
+        "features": {
+          "dominant_instrument": "flute",
+          "upper_pitch_mean": [65, 95]
+        }
+      }
+    },
+    "timbral_precision_oboe": {
+      "description": "Reedy, plaintive, sharp, and emotionally piercing timbres.",
+      "evidence": {
+        "features": {
+          "dominant_instrument": "oboe"
+        }
+      }
+    },
+    "timbral_melancholy_bassoon": {
+      "description": "Woody, grounded, and expressively heavy/melancholy timbres.",
+      "evidence": {
+        "features": {
+          "dominant_instrument": "bassoon"
+        }
+      }
+    }
+  }
+}

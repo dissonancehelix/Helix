@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:hiroyuki_naka",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Naka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blazing Tornado",
+      "Dragon's Earth",
+      "Septentrion",
+      "Taekwon",
+      "The Firemen"
+    ],
+    "artist_keys": [
+      "Hiroyuki Naka"
+    ],
+    "track_count": 61
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11365989",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroyuki_Nakamura"
+  }
+}

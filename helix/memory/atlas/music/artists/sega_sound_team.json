@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:sega_sound_team",
+  "entity_type": "music.composer",
+  "label": "Sega Sound Team",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Code of Joker",
+      "Fantasy Zone",
+      "Ryu Kyu",
+      "Sonic 3 & Knuckles",
+      "Sonic the Hedgehog",
+      "Space Channel 5",
+      "Super Monkey Ball",
+      "Yakuza 0",
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Sega Sound Team"
+    ],
+    "track_count": 92
+  },
+  "external_ids": {
+    "vgmdb": "123",
+    "musicbrainz": "428e2401-2afc-4a4c-8607-cbe551e950f4",
+    "wikidata": "Q858402",
+    "spotify": "4ShgdWtm52xvEr8uYmT0V6",
+    "lastfm": "",
+    "discogs": "2606475",
+    "wikipedia": "https://en.wikipedia.org/wiki/S.S.T._Band"
+  }
+}

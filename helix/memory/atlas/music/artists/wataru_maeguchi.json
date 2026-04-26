@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:wataru_maeguchi",
+  "entity_type": "music.composer",
+  "label": "Wataru Maeguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The World God Only Knows"
+    ],
+    "artist_keys": [
+      "Wataru Maeguchi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

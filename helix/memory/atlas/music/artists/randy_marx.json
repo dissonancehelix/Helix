@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:randy_marx",
+  "entity_type": "music.composer",
+  "label": "Randy Marx",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter 6"
+    ],
+    "artist_keys": [
+      "Randy Marx"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

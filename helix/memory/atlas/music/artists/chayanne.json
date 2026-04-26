@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:chayanne",
+  "entity_type": "music.composer",
+  "label": "Chayanne",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Chayanne"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "327e24c0-95b4-4754-b509-108dc7f8abfa",
+    "wikidata": "Q449908",
+    "spotify": "1JbemQ1fPt2YmSLjAFhPBv",
+    "lastfm": "Chayanne",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chayanne"
+  }
+}

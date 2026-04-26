@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tad",
+  "entity_type": "music.composer",
+  "label": "Tad",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "8",
+      "Infrared Riding Hood",
+      "Inhaler"
+    ],
+    "artist_keys": [
+      "Tad"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "d3ffff4e-9c49-41eb-816f-d0a598db32cd",
+    "wikidata": "Q113961442",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:atsushi_fujio",
+  "entity_type": "music.composer",
+  "label": "Atsushi Fujio",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "NES"
+    ],
+    "franchises": [
+      "Bio Miracle Bokutte Upa",
+      "Double Dribble",
+      "Exciting Basket",
+      "Exciting Soccer",
+      "Falsion",
+      "Gyruss",
+      "Jackal",
+      "Konami Wai Wai World",
+      "Mouryou Senki Madara",
+      "Risa's Fairy Tale",
+      "Rollergames",
+      "The Maze of Galious",
+      "TwinBee 3",
+      "Yume Penguin Monogatari"
+    ],
+    "artist_keys": [
+      "Atsushi Fujio"
+    ],
+    "track_count": 146
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q91659347",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

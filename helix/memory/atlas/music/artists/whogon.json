@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:whogon",
+  "entity_type": "music.composer",
+  "label": "Whogon",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Anata wo Yurusanai"
+    ],
+    "artist_keys": [
+      "Whogon"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

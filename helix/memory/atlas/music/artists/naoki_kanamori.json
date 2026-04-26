@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:naoki_kanamori",
+  "entity_type": "music.composer",
+  "label": "Naoki Kanamori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "FM Towns",
+      "PC-98"
+    ],
+    "franchises": [
+      "Dengeki Nurse",
+      "Marine Philt"
+    ],
+    "artist_keys": [
+      "Naoki Kanamori"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

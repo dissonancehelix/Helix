@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:minoru_aoki",
+  "entity_type": "music.composer",
+  "label": "Minoru Aoki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Advanced Daisenryaku",
+      "Bonanza Bros.",
+      "Dynamic Country Club",
+      "Line of Fire",
+      "Pyramid Magic II",
+      "Robot Battler",
+      "Rough Racer",
+      "Teddy Boy Blues"
+    ],
+    "artist_keys": [
+      "Minoru Aoki"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11661815",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

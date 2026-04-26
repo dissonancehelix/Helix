@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:hajime_wakai",
+  "entity_type": "music.composer",
+  "label": "Hajime Wakai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "F",
+      "New Super Mario Bros.",
+      "Nintendogs",
+      "Pikmin",
+      "Pikmin 3",
+      "Pokémon Stadium",
+      "Star Fox 64",
+      "Star Fox Command",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. for Wii U",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Hajime Wakai"
+    ],
+    "track_count": 429
+  },
+  "external_ids": {
+    "vgmdb": "692",
+    "musicbrainz": "1d60f591-29ef-4a47-a27e-228081a30f2b",
+    "wikidata": "Q932187",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "161591"
+  }
+}

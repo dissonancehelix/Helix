@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tulio_adriano",
+  "entity_type": "music.composer",
+  "label": "Tulio Adriano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Pier Solar and the Great Architects"
+    ],
+    "artist_keys": [
+      "Tulio Adriano"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

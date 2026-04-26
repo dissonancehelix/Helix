@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:nozomi_toki",
+  "entity_type": "music.composer",
+  "label": "Nozomi Toki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth"
+    ],
+    "artist_keys": [
+      "Nozomi Toki"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

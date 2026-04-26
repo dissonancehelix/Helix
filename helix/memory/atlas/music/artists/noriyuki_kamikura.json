@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:noriyuki_kamikura",
+  "entity_type": "music.composer",
+  "label": "Noriyuki Kamikura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "100 Classic Books",
+      "Adult Romance Novel",
+      "Bleach",
+      "Busou Shinki Battle Masters",
+      "Busou Shinki Battle Masters Mk.2",
+      "Coded Soul",
+      "Criminal Girls",
+      "Deathsmiles II",
+      "Deltora Quest",
+      "Digimon World Data Squad"
+    ],
+    "artist_keys": [
+      "Noriyuki Kamikura"
+    ],
+    "track_count": 591
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

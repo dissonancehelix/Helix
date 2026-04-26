@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hidetoshi_fukumori",
+  "entity_type": "music.composer",
+  "label": "Hidetoshi Fukumori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ashura Blaster",
+      "Drift Out",
+      "Gun & Frontier"
+    ],
+    "artist_keys": [
+      "Hidetoshi Fukumori"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

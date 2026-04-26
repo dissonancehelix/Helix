@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shota_tani",
+  "entity_type": "music.composer",
+  "label": "Shota Tani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Shota Tani"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "15772",
+    "musicbrainz": "17763354-3866-4d51-8f3f-60ec38554451",
+    "wikidata": "Q52376834",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

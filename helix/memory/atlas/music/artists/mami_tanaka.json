@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:mami_tanaka",
+  "entity_type": "music.composer",
+  "label": "Mami Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Sorcerer's Kingdom"
+    ],
+    "artist_keys": [
+      "Mami Tanaka"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q91398415",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

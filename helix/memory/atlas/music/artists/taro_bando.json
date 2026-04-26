@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:taro_bando",
+  "entity_type": "music.composer",
+  "label": "Taro Bando",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "F",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Taro Bando"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11425420",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

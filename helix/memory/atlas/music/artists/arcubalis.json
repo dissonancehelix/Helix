@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:arcubalis",
+  "entity_type": "music.composer",
+  "label": "Arcubalis",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Shovel Knight"
+    ],
+    "artist_keys": [
+      "Arcubalis"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2859613",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

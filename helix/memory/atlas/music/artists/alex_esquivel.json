@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:alex_esquivel",
+  "entity_type": "music.composer",
+  "label": "Alex Esquivel",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ultionus"
+    ],
+    "artist_keys": [
+      "Alex Esquivel"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

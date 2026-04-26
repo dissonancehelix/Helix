@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:junichi_saito",
+  "entity_type": "music.composer",
+  "label": "Junichi Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Dynamic Stadium"
+    ],
+    "artist_keys": [
+      "Junichi Saito"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q89378452",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

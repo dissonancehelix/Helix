@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:papa",
+  "entity_type": "music.composer",
+  "label": "Papa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Super Space Fortress Macross"
+    ],
+    "artist_keys": [
+      "Papa"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q16931948",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Papa_(surname)"
+  }
+}

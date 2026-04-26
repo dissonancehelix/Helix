@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kyohei_noma",
+  "entity_type": "music.composer",
+  "label": "Kyohei Noma",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Marginal Points"
+    ],
+    "artist_keys": [
+      "Kyohei Noma"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

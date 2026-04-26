@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:osamu_murata",
+  "entity_type": "music.composer",
+  "label": "Osamu Murata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Shenmue"
+    ],
+    "artist_keys": [
+      "Osamu Murata"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17217758",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:sayako_doi",
+  "entity_type": "music.composer",
+  "label": "Sayako Doi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Splatoon 3",
+      "Super Mario Bros. Wonder"
+    ],
+    "artist_keys": [
+      "Sayako Doi"
+    ],
+    "track_count": 85
+  },
+  "external_ids": {
+    "vgmdb": "34345",
+    "musicbrainz": "",
+    "wikidata": "Q90264879",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:masanobu_tsukamoto",
+  "entity_type": "music.composer",
+  "label": "Masanobu Tsukamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "MSX2",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aleste Gaiden",
+      "Blaster Burn",
+      "Disc Station",
+      "Jaki Crush",
+      "Madou Monogatari 1",
+      "Puyo Puyo",
+      "Puyo Puyo Tsuu",
+      "Rude Breaker"
+    ],
+    "artist_keys": [
+      "Masanobu Tsukamoto"
+    ],
+    "track_count": 79
+  },
+  "external_ids": {
+    "vgmdb": "3328",
+    "musicbrainz": "",
+    "wikidata": "Q78266388",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:tadashi_kinukawa",
+  "entity_type": "music.composer",
+  "label": "Tadashi Kinukawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dengeki Bunko",
+      "Like a Dragon",
+      "Mario; Sonic the Hedgehog",
+      "Phantasy Star 0",
+      "Phantasy Star Online 2 Episode 1",
+      "Phantasy Star Online 2 Episode 2",
+      "Phantasy Star Online 2 Episode 3",
+      "Phantasy Star Online 2 Episode 4"
+    ],
+    "artist_keys": [
+      "Tadashi Kinukawa"
+    ],
+    "track_count": 203
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

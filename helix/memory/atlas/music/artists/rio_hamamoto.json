@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:rio_hamamoto",
+  "entity_type": "music.composer",
+  "label": "Rio Hamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat",
+      "Ace Combat Infinity",
+      "Beautiful Katamari",
+      "Daemon X Machina",
+      "Dai",
+      "Endrays",
+      "MotoGP 4",
+      "Pac",
+      "Pokkén Tournament DX",
+      "Ridge Racer 3D",
+      "Ridge Racer 6",
+      "Ridge Racer 7",
+      "Ridge Racer Unbounded",
+      "Ridge Racer Vita",
+      "Soulcalibur II"
+    ],
+    "artist_keys": [
+      "Rio Hamamoto"
+    ],
+    "track_count": 295
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

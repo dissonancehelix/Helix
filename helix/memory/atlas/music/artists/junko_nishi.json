@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:junko_nishi",
+  "entity_type": "music.composer",
+  "label": "Junko Nishi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Me & My Katamari"
+    ],
+    "artist_keys": [
+      "Junko Nishi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q110830709",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

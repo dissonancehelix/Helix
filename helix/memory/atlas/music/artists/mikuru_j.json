@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:mikuru_j",
+  "entity_type": "music.composer",
+  "label": "Mikuru J",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Super Rare Trax"
+    ],
+    "artist_keys": [
+      "Mikuru J"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

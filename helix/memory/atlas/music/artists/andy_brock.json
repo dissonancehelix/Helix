@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:andy_brock",
+  "entity_type": "music.composer",
+  "label": "Andy Brock",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Bugs Bunny in Double Trouble"
+    ],
+    "artist_keys": [
+      "Andy Brock"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q4760467",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andy_Brockbank"
+  }
+}

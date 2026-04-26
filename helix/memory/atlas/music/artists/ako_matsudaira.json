@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:ako_matsudaira",
+  "entity_type": "music.composer",
+  "label": "Ako Matsudaira",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Fushigi no Yume no Alice",
+      "Hany in the Sky",
+      "Hany on the Road",
+      "Nostradamus"
+    ],
+    "artist_keys": [
+      "Ako Matsudaira"
+    ],
+    "track_count": 62
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

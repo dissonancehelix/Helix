@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:moon_child",
+  "entity_type": "music.composer",
+  "label": "MOON CHILD",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "OLIO"
+    ],
+    "artist_keys": [
+      "MOON CHILD"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q59202338",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

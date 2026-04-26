@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:haruyo_oguro",
+  "entity_type": "music.composer",
+  "label": "Haruyo Oguro",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "16t",
+      "Ayrton Senna's Super Monaco GP II",
+      "Formula One World Championship",
+      "Golden Axe III",
+      "World of Illusion"
+    ],
+    "artist_keys": [
+      "Haruyo Oguro"
+    ],
+    "track_count": 51
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

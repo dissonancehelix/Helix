@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masaru_takahashi",
+  "entity_type": "music.composer",
+  "label": "Masaru Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Cratermaze"
+    ],
+    "artist_keys": [
+      "Masaru Takahashi"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100989915",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

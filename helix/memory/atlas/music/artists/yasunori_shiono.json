@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:yasunori_shiono",
+  "entity_type": "music.composer",
+  "label": "Yasunori Shiono",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "Game Boy Advance",
+      "NES",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Arcus II",
+      "CIMA",
+      "Chaos Seed",
+      "D",
+      "Energy Breaker",
+      "Gaudi",
+      "Lufia",
+      "Lufia II",
+      "Miracle Ropit's Adventure in 2100",
+      "Ryu"
+    ],
+    "artist_keys": [
+      "Yasunori Shiono"
+    ],
+    "track_count": 331
+  },
+  "external_ids": {
+    "vgmdb": "313",
+    "musicbrainz": "297b468b-b500-4ee9-8e74-d25170f5d5cf",
+    "wikidata": "Q11428810",
+    "spotify": "",
+    "lastfm": "Yasunori+Shiono",
+    "discogs": "5477361"
+  }
+}

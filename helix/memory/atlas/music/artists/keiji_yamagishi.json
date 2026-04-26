@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:keiji_yamagishi",
+  "entity_type": "music.composer",
+  "label": "Keiji Yamagishi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Adventure Time",
+      "Captain Tsubasa II",
+      "Final Star Force",
+      "Ninja Gaiden",
+      "Ninja Gaiden II",
+      "Ninja Gaiden III",
+      "Onimusha Tactics",
+      "Radia Senki",
+      "Streets of Rage 4",
+      "Tecmo Baseball",
+      "Tecmo Bowl",
+      "Tecmo Cup Soccer Game",
+      "Tecmo Super Bowl",
+      "Tecmo World Wrestling",
+      "Tsuppari Oozumou"
+    ],
+    "artist_keys": [
+      "Keiji Yamagishi"
+    ],
+    "track_count": 203
+  },
+  "external_ids": {
+    "vgmdb": "3688",
+    "musicbrainz": "7fd663f1-90c4-4305-845d-25162354830d",
+    "wikidata": "Q47093022",
+    "spotify": "5Idezb5b5glpJo9jo6PKSE",
+    "lastfm": "",
+    "discogs": "1819176",
+    "wikipedia": "https://en.wikipedia.org/wiki/Keiji_Yamagishi"
+  }
+}

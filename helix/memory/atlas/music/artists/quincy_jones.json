@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:quincy_jones",
+  "entity_type": "music.composer",
+  "label": "Quincy Jones",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Quincy Jones"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "21371",
+    "musicbrainz": "5803c81e-739a-4057-9a5c-cf84e55db630",
+    "wikidata": "Q193645",
+    "spotify": "3rxIQc9kWT6Ueg4BhnOwRK",
+    "lastfm": "Quincy+Jones",
+    "wikipedia": "https://en.wikipedia.org/wiki/Quincy_Jones"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:noriko_ishida",
+  "entity_type": "music.composer",
+  "label": "Noriko Ishida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Harvest Moon",
+      "Harvest Moon DS"
+    ],
+    "artist_keys": [
+      "Noriko Ishida"
+    ],
+    "track_count": 90
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17193014",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

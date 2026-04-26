@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:sizlla_okamura",
+  "entity_type": "music.composer",
+  "label": "Sizlla Okamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Blaze",
+      "Dynamic Stadium",
+      "Jissen Pachinko Hisshouhou",
+      "Ketsui",
+      "Ochin ni Toshi Puzzle Tonjan!?",
+      "P",
+      "Saint Dragon",
+      "Viewpoint"
+    ],
+    "artist_keys": [
+      "Sizlla Okamura"
+    ],
+    "track_count": 77
+  },
+  "external_ids": {
+    "vgmdb": "4000",
+    "musicbrainz": "",
+    "wikidata": "Q98209174",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

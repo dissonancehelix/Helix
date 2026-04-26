@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:jon_everist",
+  "entity_type": "music.composer",
+  "label": "Jon Everist",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Shadowrun"
+    ],
+    "artist_keys": [
+      "Jon Everist"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "16691",
+    "musicbrainz": "",
+    "wikidata": "Q19560445",
+    "spotify": "4DqJvNq10EAyXLdTIFoMK2",
+    "lastfm": "Jon+Everist",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jon_Everist"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:john_carehag",
+  "entity_type": "music.composer",
+  "label": "John Carehag",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Combat Cars"
+    ],
+    "artist_keys": [
+      "John Carehag"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

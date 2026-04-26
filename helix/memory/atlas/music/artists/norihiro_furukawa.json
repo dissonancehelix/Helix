@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:norihiro_furukawa",
+  "entity_type": "music.composer",
+  "label": "Norihiro Furukawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "3D Dot Game Heroes",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Magical Date EX",
+      "Puzzle Bobble 2",
+      "Super Space Invaders '91",
+      "The Flintstones",
+      "Unicorn Overlord 16"
+    ],
+    "artist_keys": [
+      "Norihiro Furukawa"
+    ],
+    "track_count": 72
+  },
+  "external_ids": {
+    "vgmdb": "715",
+    "musicbrainz": "394c47fb-2ec2-4b28-bddb-b0f8efcb6fd9",
+    "wikidata": "Q24067076",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

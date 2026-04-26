@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:michihiko_shichi",
+  "entity_type": "music.composer",
+  "label": "Michihiko Shichi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Nage Libre"
+    ],
+    "artist_keys": [
+      "Michihiko Shichi"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

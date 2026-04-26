@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takako_ono",
+  "entity_type": "music.composer",
+  "label": "Takako Ono",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Wakataka Oozumou"
+    ],
+    "artist_keys": [
+      "Takako Ono"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q112173721",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

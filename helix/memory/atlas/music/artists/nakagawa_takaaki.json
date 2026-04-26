@@ -1,0 +1,17 @@
+{
+  "entity_id": "music.composer:nakagawa_takaaki",
+  "entity_type": "music.composer",
+  "label": "Nakagawa Takaaki",
+  "library": {
+    "track_count": 1,
+    "artist_keys": [
+      "Nakagawa Takaaki"
+    ]
+  },
+  "external_ids": {
+    "wikidata": "",
+    "vgmdb": "",
+    "musicbrainz": "",
+    "spotify": ""
+  }
+}

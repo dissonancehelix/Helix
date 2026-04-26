@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:napalm_hiromitsu",
+  "entity_type": "music.composer",
+  "label": "Napalm Hiromitsu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Aurail"
+    ],
+    "artist_keys": [
+      "Napalm Hiromitsu"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

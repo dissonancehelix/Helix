@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yuji_ohno",
+  "entity_type": "music.composer",
+  "label": "Yuji Ohno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Operation Europe"
+    ],
+    "artist_keys": [
+      "Yuji Ohno"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "886",
+    "musicbrainz": "49b6b461-0e97-4e96-8e5f-b77192ea7762",
+    "wikidata": "Q1442609",
+    "spotify": "7xIfi0ePXzLGlYO5lFjnvu",
+    "lastfm": "Yuji+Ohno",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuji_Ohno"
+  }
+}

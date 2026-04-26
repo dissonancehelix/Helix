@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:yoh_ohyama",
+  "entity_type": "music.composer",
+  "label": "Yoh Ohyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dragon Star Varnir",
+      "Fairy Fencer F"
+    ],
+    "artist_keys": [
+      "Yoh Ohyama"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

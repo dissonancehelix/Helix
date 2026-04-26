@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:taku_inoue",
+  "entity_type": "music.composer",
+  "label": "Taku Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Go Vacation",
+      "God Eater 2",
+      "Mario Kart Arcade GP DX",
+      "Noby Noby Boy",
+      "Once Upon a Katamari",
+      "Pac",
+      "Pokkén Tournament DX",
+      "Ridge Racer 3D",
+      "Ridge Racer Vita",
+      "Summer Lesson",
+      "Super Smash Bros. for Wii U",
+      "Synchronica",
+      "Tekken 7",
+      "Tekken Revolution",
+      "Tekken Tag Tournament 2"
+    ],
+    "artist_keys": [
+      "Taku Inoue"
+    ],
+    "track_count": 146
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q43491583",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

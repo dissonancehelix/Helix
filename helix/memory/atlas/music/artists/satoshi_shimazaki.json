@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:satoshi_shimazaki",
+  "entity_type": "music.composer",
+  "label": "Satoshi Shimazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Bucket Relay Champ"
+    ],
+    "artist_keys": [
+      "Satoshi Shimazaki"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

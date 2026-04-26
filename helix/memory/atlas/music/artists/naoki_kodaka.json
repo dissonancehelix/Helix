@@ -1,0 +1,45 @@
+{
+  "entity_id": "music.composer:naoki_kodaka",
+  "entity_type": "music.composer",
+  "label": "Naoki Kodaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "Mega Drive",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Albert Odyssey",
+      "Albert Odyssey 2",
+      "Atlantis no Nazo",
+      "Batman",
+      "Blaster Master",
+      "Fester's Quest",
+      "Freedom Force",
+      "Gremlins 2",
+      "Journey to Silius",
+      "Madoola no Tsubasa",
+      "Nantettatte!! Baseball",
+      "Nazoler Land",
+      "Pettan Pyu",
+      "Shi",
+      "Sugoi Hebereke"
+    ],
+    "artist_keys": [
+      "Naoki Kodaka"
+    ],
+    "track_count": 302
+  },
+  "external_ids": {
+    "vgmdb": "309",
+    "musicbrainz": "c5fca188-d7d6-4499-951f-7c8d378eb5bf",
+    "wikidata": "Q3210443",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "5865435",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naoki_Kodaka"
+  }
+}

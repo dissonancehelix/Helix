@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:shinichi_itakura",
+  "entity_type": "music.composer",
+  "label": "Shinichi Itakura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man Zero 4"
+    ],
+    "artist_keys": [
+      "Shinichi Itakura"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

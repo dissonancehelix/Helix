@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:craig_conner",
+  "entity_type": "music.composer",
+  "label": "Craig Conner",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Grand Theft Auto 2",
+      "Grand Theft Auto III",
+      "Manhunt"
+    ],
+    "artist_keys": [
+      "Craig Conner"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q123377590",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

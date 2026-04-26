@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hideki_kasai",
+  "entity_type": "music.composer",
+  "label": "Hideki Kasai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "ISS Pro Evolution",
+      "International Superstar Soccer Pro '98"
+    ],
+    "artist_keys": [
+      "Hideki Kasai"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3135254",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

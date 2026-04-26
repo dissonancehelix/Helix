@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:shinya_chikamori",
+  "entity_type": "music.composer",
+  "label": "Shinya Chikamori",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "WWF SmackDown! 2"
+    ],
+    "artist_keys": [
+      "Shinya Chikamori"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

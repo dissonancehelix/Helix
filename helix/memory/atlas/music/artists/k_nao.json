@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:k_nao",
+  "entity_type": "music.composer",
+  "label": "K-Nao",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "K-Nao"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q138292097",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

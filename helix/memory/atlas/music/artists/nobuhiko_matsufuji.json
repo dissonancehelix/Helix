@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:nobuhiko_matsufuji",
+  "entity_type": "music.composer",
+  "label": "Nobuhiko Matsufuji",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "International Superstar Soccer Pro '98"
+    ],
+    "artist_keys": [
+      "Nobuhiko Matsufuji"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

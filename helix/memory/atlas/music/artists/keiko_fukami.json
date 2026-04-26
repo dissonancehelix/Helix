@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:keiko_fukami",
+  "entity_type": "music.composer",
+  "label": "Keiko Fukami",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Suikoden II",
+      "Suikoden III"
+    ],
+    "artist_keys": [
+      "Keiko Fukami"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

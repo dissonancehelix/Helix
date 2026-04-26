@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:motoki_matsuoka",
+  "entity_type": "music.composer",
+  "label": "Motoki Matsuoka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fox Junction"
+    ],
+    "artist_keys": [
+      "Motoki Matsuoka"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "5565",
+    "musicbrainz": "4e5ce2dd-bd9b-43dc-a2b5-0be4ecfacea7",
+    "wikidata": "Q11529959",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

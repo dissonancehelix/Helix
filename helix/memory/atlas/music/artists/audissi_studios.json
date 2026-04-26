@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:audissi_studios",
+  "entity_type": "music.composer",
+  "label": "Audissi Studios",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog",
+      "Team Sonic Racing"
+    ],
+    "artist_keys": [
+      "Audissi Studios"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

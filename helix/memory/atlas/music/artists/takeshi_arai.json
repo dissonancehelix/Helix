@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takeshi_arai",
+  "entity_type": "music.composer",
+  "label": "Takeshi Arai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Layton Brothers",
+      "Otomedius Excellent",
+      "Tales of Symphonia"
+    ],
+    "artist_keys": [
+      "Takeshi Arai"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17191879",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

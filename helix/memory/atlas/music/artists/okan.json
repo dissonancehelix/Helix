@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:okan",
+  "entity_type": "music.composer",
+  "label": "Okan",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Garou"
+    ],
+    "artist_keys": [
+      "Okan"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q20000731",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

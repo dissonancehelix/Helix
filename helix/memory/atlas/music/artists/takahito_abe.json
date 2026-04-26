@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takahito_abe",
+  "entity_type": "music.composer",
+  "label": "Takahito Abe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Romancia",
+      "Sorcerian"
+    ],
+    "artist_keys": [
+      "Takahito Abe"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "1686",
+    "musicbrainz": "ab8f1ba1-68fd-4662-be1d-5f4c815a8361",
+    "wikidata": "Q11657971",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

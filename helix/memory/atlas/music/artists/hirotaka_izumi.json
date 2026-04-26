@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hirotaka_izumi",
+  "entity_type": "music.composer",
+  "label": "Hirotaka Izumi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Arc the Lad"
+    ],
+    "artist_keys": [
+      "Hirotaka Izumi"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "4589",
+    "musicbrainz": "ce53241a-4383-44c6-9d79-ab2b812313b0",
+    "wikidata": "Q11266693",
+    "spotify": "3k3Ks7T1shSdFxMRnHUTAO",
+    "lastfm": "和泉宏隆",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hirotaka_Izumi"
+  }
+}

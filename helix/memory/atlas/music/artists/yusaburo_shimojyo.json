@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yusaburo_shimojyo",
+  "entity_type": "music.composer",
+  "label": "Yusaburo Shimojyo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "True Golf Classics"
+    ],
+    "artist_keys": [
+      "Yusaburo Shimojyo"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

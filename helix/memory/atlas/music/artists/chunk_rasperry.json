@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:chunk_rasperry",
+  "entity_type": "music.composer",
+  "label": "Chunk Rasperry",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid 3"
+    ],
+    "artist_keys": [
+      "Chunk Rasperry"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

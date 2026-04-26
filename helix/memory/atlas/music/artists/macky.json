@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:macky",
+  "entity_type": "music.composer",
+  "label": "Macky",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Fatal Fury 3"
+    ],
+    "artist_keys": [
+      "Macky"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q104908906",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

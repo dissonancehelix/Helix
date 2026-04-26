@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:daiki_kasho",
+  "entity_type": "music.composer",
+  "label": "Daiki Kasho",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 3",
+      "Gran Turismo 4",
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Daiki Kasho"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "2351",
+    "musicbrainz": "97df6361-d396-485b-b8e4-6fa9762bd35e",
+    "wikidata": "Q5209171",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Daiki_Kasho"
+  }
+}

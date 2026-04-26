@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:devin_hurd",
+  "entity_type": "music.composer",
+  "label": "Devin Hurd",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Demolition Man",
+      "Izzy's Quest for the Olympic Rings"
+    ],
+    "artist_keys": [
+      "Devin Hurd"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

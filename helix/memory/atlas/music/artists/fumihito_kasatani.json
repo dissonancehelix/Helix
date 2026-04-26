@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:fumihito_kasatani",
+  "entity_type": "music.composer",
+  "label": "Fumihito Kasatani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "PC-88",
+      "Sega CD",
+      "X68000"
+    ],
+    "franchises": [
+      "Alisia Dragoon",
+      "Atomic Robo Kid",
+      "Bullfight",
+      "Faria",
+      "Fire Hawk",
+      "Gambler Jiko Chuushinha",
+      "Gambler Jiko Chuushinha 2",
+      "Gekitou 36 Janshi",
+      "Gomola Speed",
+      "Harakiri",
+      "Janou Touryuumon",
+      "Mashou Denki",
+      "Ninja",
+      "Omega Fighter",
+      "Silpheed"
+    ],
+    "artist_keys": [
+      "Fumihito Kasatani"
+    ],
+    "track_count": 225
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

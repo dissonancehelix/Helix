@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tetsuya_nakano",
+  "entity_type": "music.composer",
+  "label": "Tetsuya Nakano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Star Cruiser II"
+    ],
+    "artist_keys": [
+      "Tetsuya Nakano"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

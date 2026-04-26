@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yui_makino",
+  "entity_type": "music.composer",
+  "label": "Yui Makino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Arc Rise Fantasia"
+    ],
+    "artist_keys": [
+      "Yui Makino"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "7517",
+    "musicbrainz": "1a83b2c2-a848-496a-8220-3f22d0fb47db",
+    "wikidata": "Q1372615",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yui_Makino"
+  }
+}

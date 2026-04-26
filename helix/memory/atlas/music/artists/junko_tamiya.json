@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:junko_tamiya",
+  "entity_type": "music.composer",
+  "label": "Junko Tamiya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "X68000"
+    ],
+    "franchises": [
+      "1943 Kai",
+      "Code Name",
+      "Final Fight",
+      "Gun.Smoke",
+      "Little Nemo",
+      "Strider",
+      "Strider Hiryu",
+      "Tiger Road"
+    ],
+    "artist_keys": [
+      "Junko Tamiya"
+    ],
+    "track_count": 73
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "entity_id": "music.composer:yasuhisa_watanabe",
+  "entity_type": "music.composer",
+  "label": "Yasuhisa Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "Mega Drive",
+      "NES",
+      "Nintendo 64",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Cattle Mutilation",
+      "Custom Robo",
+      "Custom Robo V2",
+      "FM Sound Module Maniax",
+      "Football Champ",
+      "Ginga Force",
+      "Growl",
+      "Kira Kira Star Night",
+      "Kuri Kinton",
+      "Master of Weapon",
+      "Maze of Flott",
+      "Metal Black",
+      "Puzznic",
+      "Street Fighter EX3",
+      "Street Fighter Tribute Album"
+    ],
+    "artist_keys": [
+      "Yasuhisa Watanabe"
+    ],
+    "track_count": 175
+  },
+  "external_ids": {
+    "vgmdb": "53659",
+    "musicbrainz": "8adb8907-3414-456b-8836-6d9f2086ce5c",
+    "wikidata": "Q3571982",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "6154416"
+  }
+}

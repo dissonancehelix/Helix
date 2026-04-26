@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiroshi_taniguchi",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Taniguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Dragon's Earth",
+      "Septentrion"
+    ],
+    "artist_keys": [
+      "Hiroshi Taniguchi"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q40578009",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hirohiko_takayama",
+  "entity_type": "music.composer",
+  "label": "Hirohiko Takayama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Bonk's Revenge",
+      "Happily Ever After",
+      "Megumi Rescue",
+      "SD Gundam Sangokushi Rainbow Tairiku Senki"
+    ],
+    "artist_keys": [
+      "Hirohiko Takayama"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

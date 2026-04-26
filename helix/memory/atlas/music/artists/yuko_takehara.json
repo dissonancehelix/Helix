@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:yuko_takehara",
+  "entity_type": "music.composer",
+  "label": "Yuko Takehara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aladdin",
+      "Breath of Fire II",
+      "Final Fight 2",
+      "Jojo's Bizarre Adventure",
+      "Marvel vs. Capcom",
+      "Mega Man",
+      "Mega Man 10",
+      "Mega Man 2",
+      "Mega Man 6",
+      "Mega Man 7",
+      "Mega Man X",
+      "Mighty Final Fight",
+      "Star Gladiator Episode I",
+      "Street Fighter Alpha",
+      "Super Puzzle Fighter II Turbo"
+    ],
+    "artist_keys": [
+      "Yuko Takehara"
+    ],
+    "track_count": 226
+  },
+  "external_ids": {
+    "vgmdb": "1355",
+    "musicbrainz": "7a463c32-b9b3-4143-8c4c-96590473dad0",
+    "wikidata": "Q11599040",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4412978"
+  }
+}

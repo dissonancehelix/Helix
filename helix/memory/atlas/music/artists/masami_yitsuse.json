@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:masami_yitsuse",
+  "entity_type": "music.composer",
+  "label": "Masami Yitsuse",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X",
+      "Mega Drive",
+      "X68000"
+    ],
+    "franchises": [
+      "Can Can Bunny Superior",
+      "Dyna Brothers",
+      "Dyna Brothers 2",
+      "Game no Kandzume Otokuyou",
+      "Strawberry Daisenryaku NOVU",
+      "Zaxxon's Motherbase 2000"
+    ],
+    "artist_keys": [
+      "Masami Yitsuse"
+    ],
+    "track_count": 74
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:torine",
+  "entity_type": "music.composer",
+  "label": "Torine",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Damacy Rolling Live",
+      "Mario Kart Arcade GP DX",
+      "Pokkén Tournament DX",
+      "Summer Lesson",
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Torine"
+    ],
+    "track_count": 49
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3532302",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Torine"
+  }
+}

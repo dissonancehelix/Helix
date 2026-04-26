@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:osamu_sato",
+  "entity_type": "music.composer",
+  "label": "Osamu Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "All Things Must Be Equal",
+      "Collected Ambient Grooves 1993",
+      "Equal",
+      "Grateful in All Things",
+      "LSD Revamped",
+      "Lucy in the Sky with Dynamites",
+      "Multiple Personality",
+      "Transformed Collection",
+      "Transmigration"
+    ],
+    "artist_keys": [
+      "Osamu Sato"
+    ],
+    "track_count": 104
+  },
+  "external_ids": {
+    "vgmdb": "11808",
+    "musicbrainz": "aeb63be8-0c22-49f2-b016-fe12e4c21328",
+    "wikidata": "Q11384247",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "577265",
+    "wikipedia": "https://en.wikipedia.org/wiki/Osamu_Sato"
+  }
+}

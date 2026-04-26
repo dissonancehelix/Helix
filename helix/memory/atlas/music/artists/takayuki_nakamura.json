@@ -1,0 +1,45 @@
+{
+  "entity_id": "music.composer:takayuki_nakamura",
+  "entity_type": "music.composer",
+  "label": "Takayuki Nakamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X",
+      "Arcade",
+      "DS",
+      "Master System",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Astérix",
+      "Columns II",
+      "Custom Robo Arena",
+      "Dick Tracy",
+      "E",
+      "Ehrgeiz",
+      "F1 Exhaust Note",
+      "Imported Game Music",
+      "Kengo 3",
+      "OutRunners",
+      "Ten Plants 2",
+      "The King of Fighters EX",
+      "Virtua Fighter",
+      "Virtua Fighter 2",
+      "Virtua Fighter 3"
+    ],
+    "artist_keys": [
+      "Takayuki Nakamura"
+    ],
+    "track_count": 180
+  },
+  "external_ids": {
+    "vgmdb": "1543",
+    "musicbrainz": "fd519fa6-d361-49ca-b053-f80156853d50",
+    "wikidata": "Q929814",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "206443",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takayuki_Nakamura"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:marina",
+  "entity_type": "music.composer",
+  "label": "Marina",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Dead of the Brain"
+    ],
+    "artist_keys": [
+      "Marina"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "7f3d82ee-3817-4367-9eec-f33a312247a1",
+    "wikidata": "Q234174",
+    "spotify": "6CwfuxIqcltXDGjfZsMd9A",
+    "lastfm": "Marina+&+the+Diamonds",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marina_Diamandis"
+  }
+}

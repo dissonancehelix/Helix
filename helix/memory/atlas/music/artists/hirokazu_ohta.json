@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hirokazu_ohta",
+  "entity_type": "music.composer",
+  "label": "Hirokazu Ohta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Mirai Ninja"
+    ],
+    "artist_keys": [
+      "Hirokazu Ohta"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90186978",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

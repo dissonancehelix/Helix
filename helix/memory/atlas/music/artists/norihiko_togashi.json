@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:norihiko_togashi",
+  "entity_type": "music.composer",
+  "label": "Norihiko Togashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo",
+      "PlayStation 2",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blast Off",
+      "Disney's Bonkers",
+      "Great Battle II",
+      "Great Battle III",
+      "Great Battle IV",
+      "Great Battle V",
+      "Magical Taruruto Kun",
+      "Mega Man Soccer",
+      "Money Puzzle Exchanger",
+      "Real Robot Regiment",
+      "Super Wagan Land",
+      "Ultraman"
+    ],
+    "artist_keys": [
+      "Norihiko Togashi"
+    ],
+    "track_count": 215
+  },
+  "external_ids": {
+    "vgmdb": "320",
+    "musicbrainz": "4274968f-d675-4f78-a05c-dd59a99579ec",
+    "wikidata": "Q11457008",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

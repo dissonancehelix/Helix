@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:keisuke_oku",
+  "entity_type": "music.composer",
+  "label": "Keisuke Oku",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Pokémon Ranger"
+    ],
+    "artist_keys": [
+      "Keisuke Oku"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q116963575",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

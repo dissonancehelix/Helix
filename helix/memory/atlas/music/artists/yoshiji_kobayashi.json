@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshiji_kobayashi",
+  "entity_type": "music.composer",
+  "label": "Yoshiji Kobayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 0"
+    ],
+    "artist_keys": [
+      "Yoshiji Kobayashi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

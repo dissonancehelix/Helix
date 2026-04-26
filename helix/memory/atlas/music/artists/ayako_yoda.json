@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ayako_yoda",
+  "entity_type": "music.composer",
+  "label": "Ayako Yoda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Robotrek"
+    ],
+    "artist_keys": [
+      "Ayako Yoda"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

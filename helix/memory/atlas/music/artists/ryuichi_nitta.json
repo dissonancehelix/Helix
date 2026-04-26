@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:ryuichi_nitta",
+  "entity_type": "music.composer",
+  "label": "Ryuichi Nitta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Pinball",
+      "Captain Tsubasa 3",
+      "Fire 'n Ice",
+      "Go Go Ackman",
+      "Kyattou Ninden Teyande",
+      "Ninja Gaiden",
+      "Ninja Gaiden II",
+      "Onimusha Tactics",
+      "Shadow Warriors",
+      "Tecmo Super Bowl",
+      "Tecmo World Cup '90",
+      "Tecmo World Cup Soccer",
+      "Verne World"
+    ],
+    "artist_keys": [
+      "Ryuichi Nitta"
+    ],
+    "track_count": 215
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

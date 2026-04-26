@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:masahiro_teramoto",
+  "entity_type": "music.composer",
+  "label": "Masahiro Teramoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Cyber Core",
+      "Tricky Kick"
+    ],
+    "artist_keys": [
+      "Masahiro Teramoto"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q133596017",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

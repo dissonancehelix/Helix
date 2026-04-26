@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kimio_itoyama",
+  "entity_type": "music.composer",
+  "label": "Kimio Itoyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Anata wo Yurusanai"
+    ],
+    "artist_keys": [
+      "Kimio Itoyama"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

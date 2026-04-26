@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:aya_tanaka",
+  "entity_type": "music.composer",
+  "label": "Aya Tanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Mario Party 5",
+      "Tengai Makyo Zero"
+    ],
+    "artist_keys": [
+      "Aya Tanaka"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "98c59cef-d97d-4563-8c66-00a87835c79b",
+    "wikidata": "Q11575235",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

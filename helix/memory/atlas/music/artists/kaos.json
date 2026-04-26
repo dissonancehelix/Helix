@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kaos",
+  "entity_type": "music.composer",
+  "label": "kaos",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Comet Summoner"
+    ],
+    "artist_keys": [
+      "kaos"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q122384220",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

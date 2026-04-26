@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:delic_30",
+  "entity_type": "music.composer",
+  "label": "Delic 30",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Racing Lagoon"
+    ],
+    "artist_keys": [
+      "Delic 30"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

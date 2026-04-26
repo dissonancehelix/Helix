@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:takahiro_izutani",
+  "entity_type": "music.composer",
+  "label": "Takahiro Izutani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat",
+      "Bayonetta",
+      "Bayonetta 2",
+      "Imported Game Music",
+      "Metal Gear Solid 4",
+      "Otomedius Excellent",
+      "Three Movements"
+    ],
+    "artist_keys": [
+      "Takahiro Izutani"
+    ],
+    "track_count": 90
+  },
+  "external_ids": {
+    "vgmdb": "4008",
+    "musicbrainz": "ccd0bbd2-a9d4-4245-9ec5-8a491a5b504a",
+    "wikidata": "Q7677056",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "198491",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takahiro_Izutani"
+  }
+}

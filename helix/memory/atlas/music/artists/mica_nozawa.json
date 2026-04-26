@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:mica_nozawa",
+  "entity_type": "music.composer",
+  "label": "Mica Nozawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mushihimesama Bug Panic"
+    ],
+    "artist_keys": [
+      "Mica Nozawa"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

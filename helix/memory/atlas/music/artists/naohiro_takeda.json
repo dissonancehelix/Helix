@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:naohiro_takeda",
+  "entity_type": "music.composer",
+  "label": "Naohiro Takeda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Caravan Stories"
+    ],
+    "artist_keys": [
+      "Naohiro Takeda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

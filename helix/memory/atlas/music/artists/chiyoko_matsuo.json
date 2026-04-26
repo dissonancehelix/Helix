@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:chiyoko_matsuo",
+  "entity_type": "music.composer",
+  "label": "Chiyoko Matsuo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Otogirisou"
+    ],
+    "artist_keys": [
+      "Chiyoko Matsuo"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

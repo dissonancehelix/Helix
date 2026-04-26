@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:animagedon",
+  "entity_type": "music.composer",
+  "label": "ANIMAGEDON",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cho Aniki Show II"
+    ],
+    "artist_keys": [
+      "ANIMAGEDON"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

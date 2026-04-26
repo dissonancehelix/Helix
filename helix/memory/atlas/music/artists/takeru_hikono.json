@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takeru_hikono",
+  "entity_type": "music.composer",
+  "label": "Takeru Hikono",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "The Quest of Ki"
+    ],
+    "artist_keys": [
+      "Takeru Hikono"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

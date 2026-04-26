@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ikuko_ebata",
+  "entity_type": "music.composer",
+  "label": "Ikuko Ebata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fairy Fencer F",
+      "MCMLXC"
+    ],
+    "artist_keys": [
+      "Ikuko Ebata"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "726",
+    "musicbrainz": "010c9bf4-d444-4d5b-8a57-f6ed1dcdf681",
+    "wikidata": "Q11550940",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

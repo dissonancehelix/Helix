@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshihiro_suda",
+  "entity_type": "music.composer",
+  "label": "Yoshihiro Suda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The World God Only Knows II"
+    ],
+    "artist_keys": [
+      "Yoshihiro Suda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

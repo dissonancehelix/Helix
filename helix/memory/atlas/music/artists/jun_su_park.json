@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:jun_su_park",
+  "entity_type": "music.composer",
+  "label": "Jun-Su Park",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Lime Odyssey"
+    ],
+    "artist_keys": [
+      "Jun-Su Park"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

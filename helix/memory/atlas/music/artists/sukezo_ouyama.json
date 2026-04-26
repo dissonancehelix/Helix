@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:sukezo_ouyama",
+  "entity_type": "music.composer",
+  "label": "Sukezo Ouyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "TV Animation Slam Dunk",
+      "TV Animation Slam Dunk 2"
+    ],
+    "artist_keys": [
+      "Sukezo Ouyama"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiroyuki_saegusa",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Saegusa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Aquales",
+      "Etoile Princesse",
+      "Geograph Seal",
+      "Naious"
+    ],
+    "artist_keys": [
+      "Hiroyuki Saegusa"
+    ],
+    "track_count": 81
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

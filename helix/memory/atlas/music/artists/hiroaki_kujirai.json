@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hiroaki_kujirai",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Kujirai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Aggressors of Dark Kombat",
+      "Ninja Master's"
+    ],
+    "artist_keys": [
+      "Hiroaki Kujirai"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

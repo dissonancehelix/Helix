@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kazunori_onuki",
+  "entity_type": "music.composer",
+  "label": "Kazunori Onuki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Busou Shinki Battle Masters Mk.2"
+    ],
+    "artist_keys": [
+      "Kazunori Onuki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

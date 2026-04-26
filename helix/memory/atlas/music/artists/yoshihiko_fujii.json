@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshihiko_fujii",
+  "entity_type": "music.composer",
+  "label": "Yoshihiko Fujii",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "SYNERGY MCMXCI"
+    ],
+    "artist_keys": [
+      "Yoshihiko Fujii"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

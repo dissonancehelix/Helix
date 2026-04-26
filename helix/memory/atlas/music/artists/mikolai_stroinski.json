@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mikolai_stroinski",
+  "entity_type": "music.composer",
+  "label": "Mikolai Stroinski",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Witcher 3"
+    ],
+    "artist_keys": [
+      "Mikolai Stroinski"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "16092",
+    "musicbrainz": "fd93eb90-1611-4d11-9fc0-5bf6ae9023d4",
+    "wikidata": "Q19005837",
+    "spotify": "6lGCmXtqSxze8o2KEfYD6D",
+    "lastfm": "Mikolai+Stroinski",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mikolai_Stroinski"
+  }
+}

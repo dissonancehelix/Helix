@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:rick_fox",
+  "entity_type": "music.composer",
+  "label": "Rick Fox",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aero the Acro",
+      "Might and Magic II",
+      "NFL Quarterback Club",
+      "The Pirates of Dark Water",
+      "Zero the Kamikaze Squirrel"
+    ],
+    "artist_keys": [
+      "Rick Fox"
+    ],
+    "track_count": 96
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q124650690",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rick_Fox_(politician)"
+  }
+}

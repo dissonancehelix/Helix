@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:kenji_yamazaki",
+  "entity_type": "music.composer",
+  "label": "Kenji Yamazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "Game Gear",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Appleseed",
+      "Caliber .50",
+      "Dear Boys",
+      "Hyokkori Hyoutan Jima",
+      "Logos Panic",
+      "Mega Man World II",
+      "Phantasy Star Adventure",
+      "Super Drift Out",
+      "Super Gussun Oyoyo",
+      "Super Gussun Oyoyo 2",
+      "Super Pachinko Taisen",
+      "The Shinri Game 2"
+    ],
+    "artist_keys": [
+      "Kenji Yamazaki"
+    ],
+    "track_count": 149
+  },
+  "external_ids": {
+    "vgmdb": "4778",
+    "musicbrainz": "c8ff645f-490e-453d-985c-802e4957ffb6",
+    "wikidata": "Q16196347",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

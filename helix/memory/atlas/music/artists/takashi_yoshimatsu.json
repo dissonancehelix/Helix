@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takashi_yoshimatsu",
+  "entity_type": "music.composer",
+  "label": "Takashi Yoshimatsu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Astro Boy"
+    ],
+    "artist_keys": [
+      "Takashi Yoshimatsu"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "13297",
+    "musicbrainz": "cb84841a-da83-489c-8da1-07415f53ab96",
+    "wikidata": "Q1368689",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takashi_Yoshimatsu"
+  }
+}

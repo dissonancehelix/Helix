@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:masaki_kase",
+  "entity_type": "music.composer",
+  "label": "Masaki Kase",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Blaze",
+      "Fighting Masters",
+      "Shock Troopers",
+      "The Krion Conquest",
+      "Viewpoint"
+    ],
+    "artist_keys": [
+      "Masaki Kase"
+    ],
+    "track_count": 76
+  },
+  "external_ids": {
+    "vgmdb": "6754",
+    "musicbrainz": "",
+    "wikidata": "Q98209987",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

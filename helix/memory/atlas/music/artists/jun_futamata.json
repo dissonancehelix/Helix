@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:jun_futamata",
+  "entity_type": "music.composer",
+  "label": "Jun Futamata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth"
+    ],
+    "artist_keys": [
+      "Jun Futamata"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hajime_uchida",
+  "entity_type": "music.composer",
+  "label": "Hajime Uchida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Rushing Beat Ran",
+      "Rushing Beat Shura"
+    ],
+    "artist_keys": [
+      "Hajime Uchida"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90175948",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

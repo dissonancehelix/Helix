@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:trent_reznor",
+  "entity_type": "music.composer",
+  "label": "Trent Reznor",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Quake"
+    ],
+    "artist_keys": [
+      "Trent Reznor"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "15145",
+    "musicbrainz": "bc880664-6751-4998-984d-ebdbff15d229",
+    "wikidata": "Q282722",
+    "spotify": "0hRijdwO8UsJMudc3476ma",
+    "lastfm": "Trent+Reznor",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trent_Reznor"
+  }
+}

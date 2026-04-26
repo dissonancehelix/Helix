@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:masashi_kuno",
+  "entity_type": "music.composer",
+  "label": "Masashi Kuno",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Stranger of Paradise"
+    ],
+    "artist_keys": [
+      "Masashi Kuno"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

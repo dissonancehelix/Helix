@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:haruko_torii",
+  "entity_type": "music.composer",
+  "label": "Haruko Torii",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Nintendo Switch Sports"
+    ],
+    "artist_keys": [
+      "Haruko Torii"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

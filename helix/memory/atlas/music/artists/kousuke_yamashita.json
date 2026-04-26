@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kousuke_yamashita",
+  "entity_type": "music.composer",
+  "label": "Kousuke Yamashita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Kousuke Yamashita"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "335",
+    "musicbrainz": "a709a5bd-700b-4b2a-8152-b5476e933369",
+    "wikidata": "Q3180085",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kosuke_Yamashita"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hiroo_tengenji",
+  "entity_type": "music.composer",
+  "label": "Hiroo Tengenji",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Hakunetsu Pro Baseball '93",
+      "Pikiinya!",
+      "Power of the Hired",
+      "Sgt. Saunder's Combat"
+    ],
+    "artist_keys": [
+      "Hiroo Tengenji"
+    ],
+    "track_count": 54
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

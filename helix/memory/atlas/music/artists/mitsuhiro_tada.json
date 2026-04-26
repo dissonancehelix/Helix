@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mitsuhiro_tada",
+  "entity_type": "music.composer",
+  "label": "Mitsuhiro Tada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dan Doh!!"
+    ],
+    "artist_keys": [
+      "Mitsuhiro Tada"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q106648260",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

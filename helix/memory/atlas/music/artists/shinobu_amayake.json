@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:shinobu_amayake",
+  "entity_type": "music.composer",
+  "label": "Shinobu Amayake",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Super NES"
+    ],
+    "franchises": [
+      "Once Upon a Katamari",
+      "Pokémon Ranger",
+      "Stunt Race FX",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Shinobu Amayake"
+    ],
+    "track_count": 67
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

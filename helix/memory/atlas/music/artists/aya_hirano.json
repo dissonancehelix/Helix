@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:aya_hirano",
+  "entity_type": "music.composer",
+  "label": "Aya Hirano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sigma Harmonics"
+    ],
+    "artist_keys": [
+      "Aya Hirano"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "3022",
+    "musicbrainz": "dfe0486a-d8f7-449a-a1ce-192803b3b537",
+    "wikidata": "Q237405",
+    "spotify": "3i2cfgYBlN8krGOtCqEYHj",
+    "lastfm": "平野綾",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aya_Hirano"
+  }
+}

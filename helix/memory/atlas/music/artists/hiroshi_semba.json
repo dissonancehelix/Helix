@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroshi_semba",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Semba",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Fighting Run"
+    ],
+    "artist_keys": [
+      "Hiroshi Semba"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

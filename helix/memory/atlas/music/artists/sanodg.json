@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:sanodg",
+  "entity_type": "music.composer",
+  "label": "sanodg",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Akumajo Dracula Tribute Vol.1",
+      "Collaboration Album \"Message\"",
+      "Criminal Girls",
+      "Cyber Cycles",
+      "Dancing Eyes",
+      "Dirt Dash",
+      "Dunk Mania",
+      "FM Sound Module Maniax",
+      "G.T.R.",
+      "Galaxian³",
+      "Ghost in the Shell",
+      "Mach Breakers",
+      "Persona; Shin Megami Tensei",
+      "Phantasy Star Online Episode I & II Premium Arrange",
+      "Prop Cycle"
+    ],
+    "artist_keys": [
+      "sanodg"
+    ],
+    "track_count": 156
+  },
+  "external_ids": {
+    "vgmdb": "36233",
+    "musicbrainz": "6d115454-955f-477c-8b16-a49a21105cc5",
+    "wikidata": "Q6138851",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "547399",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nobuyoshi_Sano"
+  }
+}

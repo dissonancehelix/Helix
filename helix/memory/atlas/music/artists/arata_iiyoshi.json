@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:arata_iiyoshi",
+  "entity_type": "music.composer",
+  "label": "Arata Iiyoshi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Pokémon Mystery Dungeon",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Arata Iiyoshi"
+    ],
+    "track_count": 174
+  },
+  "external_ids": {
+    "vgmdb": "57517",
+    "musicbrainz": "18027304-0fb9-4044-975b-43c9355acc23",
+    "wikidata": "Q11666134",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arata_Iiyoshi"
+  }
+}

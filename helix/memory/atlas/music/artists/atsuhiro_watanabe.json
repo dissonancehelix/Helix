@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:atsuhiro_watanabe",
+  "entity_type": "music.composer",
+  "label": "Atsuhiro Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 5"
+    ],
+    "artist_keys": [
+      "Atsuhiro Watanabe"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

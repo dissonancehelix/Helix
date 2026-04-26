@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:tomoyuki_kawamura",
+  "entity_type": "music.composer",
+  "label": "Tomoyuki Kawamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Dark Edge",
+      "Golden Axe",
+      "Wing War"
+    ],
+    "artist_keys": [
+      "Tomoyuki Kawamura"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "2996",
+    "musicbrainz": "33198363-0c33-440f-9af4-0e7f1e1b9825",
+    "wikidata": "Q24876469",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

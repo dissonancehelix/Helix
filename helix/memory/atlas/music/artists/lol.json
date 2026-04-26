@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:lol",
+  "entity_type": "music.composer",
+  "label": "lol",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      ".flow"
+    ],
+    "artist_keys": [
+      "lol"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q223341",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/League_of_Legends"
+  }
+}

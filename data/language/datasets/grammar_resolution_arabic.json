@@ -1,0 +1,101 @@
+{
+    "domain": "language",
+    "language": "arabic",
+    "system_description": "Arabic VSO disambiguation via verb agreement + case. Verbs agree with subject in person, number, and gender — in VSO order, the verb fires first and pre-compresses the subject space before the subject NP appears. Case marking (nominative -u, accusative -a, genitive -i) provides backup, but short vowels encoding case are typically omitted in written Arabic, reducing morphological disambiguation in practice. The definite article al- and iḍāfa (construct state) provide additional structural signals. Verb-initial order means disambiguation begins before all arguments are parsed.",
+    "agents": [
+        {
+            "id": "rule_verb_agreement",
+            "role": "dominant_rule",
+            "influence_weight": 0.8055,
+            "ud_signal_type": "case"
+        },
+        {
+            "id": "rule_case_marking",
+            "role": "dominant_rule",
+            "influence_weight": 0.0854,
+            "ud_signal_type": "agreement"
+        },
+        {
+            "id": "rule_word_order",
+            "role": "secondary_rule",
+            "influence_weight": 0.0091,
+            "ud_signal_type": "word_order"
+        },
+        {
+            "id": "rule_pragmatic",
+            "role": "edge_case",
+            "influence_weight": 0.1,
+            "ud_signal_type": "pragmatic"
+        }
+    ],
+    "decision_rounds": [
+        {
+            "round": 1,
+            "weights": [
+                0.84,
+                0.07,
+                0.0,
+                0.09
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 2,
+            "weights": [
+                0.8,
+                0.09,
+                0.02,
+                0.09
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 3,
+            "weights": [
+                0.83,
+                0.07,
+                0.0,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 4,
+            "weights": [
+                0.81,
+                0.08,
+                0.02,
+                0.09
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 5,
+            "weights": [
+                0.81,
+                0.09,
+                0.02,
+                0.08
+            ],
+            "outcome": "parse_A"
+        }
+    ],
+    "expected_k_eff_range": [
+        1.28,
+        1.73
+    ],
+    "notes": "Arabic has an interesting DCP timing property: VSO order means the verb fires first and pre-compresses the subject space. In practice, case marking weight is reduced because short vowels are often omitted in written text. The dominant rule (verb agreement) fires earliest in the parse. Falsifier: does VSO actually produce earlier DCP events than SVO languages?",
+    "source": "ud_treebank",
+    "ud_diagnostics": {
+        "sentences_analyzed": 500,
+        "case_density": 0.9304,
+        "agreement_density": 0.9382,
+        "order_rigidity": 0.5701,
+        "order_signal": 0.1559,
+        "morphological_richness": 2.2533,
+        "compression_density": 2.3961,
+        "dominant_rule": "case",
+        "ud_k_eff": 1.501,
+        "treebank": "UD_Arabic-PADT"
+    }
+}

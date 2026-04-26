@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomokatsu_hagiuda",
+  "entity_type": "music.composer",
+  "label": "Tomokatsu Hagiuda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tokyo Xanadu",
+      "Trails / Kiseki",
+      "Ys"
+    ],
+    "artist_keys": [
+      "Tomokatsu Hagiuda"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

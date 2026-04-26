@@ -1,0 +1,20 @@
+{
+  "id": "boundary-PERSISTENCE_TYPE_MISMATCH",
+  "definition": "Crosses formal boundary defined by PERSISTENCE_TYPE_MISMATCH",
+  "formal_signature": "Morphism singularity",
+  "operator_condition": "Non-invertible transformation",
+  "observable_signature": [],
+  "domains_where_observed": [
+    "quantum_error_correction",
+    "nakamoto_consensus",
+    "lotka_volterra",
+    "constitutional_law",
+    "language_grammar",
+    "supply_chain",
+    "tokamak_plasma",
+    "adaptive_immunity",
+    "protein_folding"
+  ],
+  "counterdomains": [],
+  "status": "CAPTURE"
+}

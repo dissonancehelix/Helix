@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:koichi_sugiyama",
+  "entity_type": "music.composer",
+  "label": "Koichi Sugiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "PC-88",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "4.6 Billion Year Story",
+      "Akagawa Jirou no Yuurei Ressha",
+      "Angelus",
+      "Animal Land",
+      "Backgammon",
+      "Dragon Quest",
+      "Dragon Quest Heroes",
+      "Dragon Quest II",
+      "Dragon Quest III",
+      "Dragon Quest IV"
+    ],
+    "artist_keys": [
+      "Koichi Sugiyama"
+    ],
+    "track_count": 1012
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "eada10cf-eba9-4a8c-afc5-cc8999ee15a2",
+    "wikidata": "Q1192498",
+    "spotify": "0JuWnarwRTjiTfY5zOuOfH",
+    "lastfm": "すぎやまこういち",
+    "discogs": "1019636"
+  }
+}

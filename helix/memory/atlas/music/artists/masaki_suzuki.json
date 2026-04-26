@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:masaki_suzuki",
+  "entity_type": "music.composer",
+  "label": "Masaki Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Mega Man ZX",
+      "Mega Man ZX Advent",
+      "Mega Man Zero 2",
+      "Mega Man Zero 3",
+      "Mega Man Zero 4"
+    ],
+    "artist_keys": [
+      "Masaki Suzuki"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "524",
+    "musicbrainz": "f76c0e17-ae62-439e-b44f-7f598f616b04",
+    "wikidata": "Q11648472",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

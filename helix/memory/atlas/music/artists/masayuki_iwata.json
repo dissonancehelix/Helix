@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:masayuki_iwata",
+  "entity_type": "music.composer",
+  "label": "Masayuki Iwata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Galaxy Fight",
+      "Trip World"
+    ],
+    "artist_keys": [
+      "Masayuki Iwata"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "8120",
+    "musicbrainz": "690fe682-31f6-4cfc-a32f-08318d4bf24a",
+    "wikidata": "Q11475545",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

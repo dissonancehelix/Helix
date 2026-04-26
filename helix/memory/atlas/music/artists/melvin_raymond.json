@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:melvin_raymond",
+  "entity_type": "music.composer",
+  "label": "Melvin Raymond",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mighty No. 9"
+    ],
+    "artist_keys": [
+      "Melvin Raymond"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q112511801",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

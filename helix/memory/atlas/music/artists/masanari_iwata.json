@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masanari_iwata",
+  "entity_type": "music.composer",
+  "label": "Masanari Iwata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "International Superstar Soccer 2000",
+      "Jikkyou Oshaberi Parodius",
+      "The Adventures of Batman and Robin"
+    ],
+    "artist_keys": [
+      "Masanari Iwata"
+    ],
+    "track_count": 69
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

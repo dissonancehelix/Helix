@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kaketamatai",
+  "entity_type": "music.composer",
+  "label": "Kaketamatai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The World God Only Knows II"
+    ],
+    "artist_keys": [
+      "Kaketamatai"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

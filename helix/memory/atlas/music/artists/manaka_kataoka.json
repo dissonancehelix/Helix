@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:manaka_kataoka",
+  "entity_type": "music.composer",
+  "label": "Manaka Kataoka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Animal Crossing",
+      "Super Smash Bros. for Wii U",
+      "The Legend of Zelda",
+      "Wii Fit"
+    ],
+    "artist_keys": [
+      "Manaka Kataoka"
+    ],
+    "track_count": 536
+  },
+  "external_ids": {
+    "vgmdb": "16194",
+    "musicbrainz": "bc52ccf7-5d55-4ad9-bc61-fba10d8b8513",
+    "wikidata": "Q90154001",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

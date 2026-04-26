@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yumi_takahashi",
+  "entity_type": "music.composer",
+  "label": "Yumi Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Animal Crossing",
+      "Splatoon 3",
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Yumi Takahashi"
+    ],
+    "track_count": 61
+  },
+  "external_ids": {
+    "vgmdb": "34343",
+    "musicbrainz": "",
+    "wikidata": "Q90266642",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

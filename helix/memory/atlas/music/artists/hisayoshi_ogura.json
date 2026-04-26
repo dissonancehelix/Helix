@@ -1,0 +1,45 @@
+{
+  "entity_id": "music.composer:hisayoshi_ogura",
+  "entity_type": "music.composer",
+  "label": "Hisayoshi Ogura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "Mega Drive",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Arkanoid",
+      "Ben Bero Beh",
+      "Darius",
+      "Darius Gaiden",
+      "Darius II",
+      "Darius Plus",
+      "Darius Twin",
+      "Extermination",
+      "Football Champ",
+      "Gotta Protectors",
+      "Halley's Comet",
+      "KiKi KaiKai",
+      "Nastar",
+      "Plump Pop",
+      "Rastan Saga II"
+    ],
+    "artist_keys": [
+      "Hisayoshi Ogura"
+    ],
+    "track_count": 147
+  },
+  "external_ids": {
+    "vgmdb": "1574",
+    "musicbrainz": "401099b9-b72a-4673-b093-27838b620114",
+    "wikidata": "Q5772487",
+    "spotify": "",
+    "lastfm": "%E5%B0%8F%E5%80%89+%E4%B9%85%E4%BD%B3",
+    "discogs": "5700149",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hisayoshi_Ogura"
+  }
+}

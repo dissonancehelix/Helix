@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:ace",
+  "entity_type": "music.composer",
+  "label": "ACE",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Bomberman 64",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Xenoblade Chronicles",
+      "Xenoblade Chronicles 2",
+      "Xenoblade Chronicles 3"
+    ],
+    "artist_keys": [
+      "ACE"
+    ],
+    "track_count": 85
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1823",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aceh"
+  }
+}

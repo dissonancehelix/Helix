@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yuki_matsumura",
+  "entity_type": "music.composer",
+  "label": "Yuki Matsumura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hyrule Warriors",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Yuki Matsumura"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "4fc1eb98-9b32-48df-9b6d-dec2e1d5969c",
+    "wikidata": "Q11531463",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yu-ki_Matsumura"
+  }
+}

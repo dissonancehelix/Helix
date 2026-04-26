@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:dong",
+  "entity_type": "music.composer",
+  "label": "Dong",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock"
+    ],
+    "artist_keys": [
+      "Dong"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1241260",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/%C3%98rsted_(company)"
+  }
+}

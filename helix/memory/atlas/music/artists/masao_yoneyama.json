@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masao_yoneyama",
+  "entity_type": "music.composer",
+  "label": "Masao Yoneyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Great Sluggers '94"
+    ],
+    "artist_keys": [
+      "Masao Yoneyama"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "26981",
+    "musicbrainz": "0f1f8cc8-c4b7-4c1e-925d-1e9a1f9418f2",
+    "wikidata": "Q11604157",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

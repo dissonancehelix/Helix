@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hikaru_tanimoto",
+  "entity_type": "music.composer",
+  "label": "Hikaru Tanimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Hikaru Tanimoto"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "7372",
+    "musicbrainz": "bfdf7a26-6346-494c-bb43-eedf4f2e6b18",
+    "wikidata": "Q11632938",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

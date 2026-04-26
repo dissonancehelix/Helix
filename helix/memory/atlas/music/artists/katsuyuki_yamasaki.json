@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:katsuyuki_yamasaki",
+  "entity_type": "music.composer",
+  "label": "Katsuyuki Yamasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rogue Galaxy"
+    ],
+    "artist_keys": [
+      "Katsuyuki Yamasaki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

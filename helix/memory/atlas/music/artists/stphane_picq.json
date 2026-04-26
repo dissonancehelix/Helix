@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:stphane_picq",
+  "entity_type": "music.composer",
+  "label": "Stéphane Picq",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Dune",
+      "MegaRace"
+    ],
+    "artist_keys": [
+      "Stéphane Picq"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "312",
+    "musicbrainz": "604866bf-8fbd-481a-81fb-f4ac2e5e897e",
+    "wikidata": "Q2360386",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/St%C3%A9phane_Picq"
+  }
+}

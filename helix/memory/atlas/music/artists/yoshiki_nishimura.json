@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:yoshiki_nishimura",
+  "entity_type": "music.composer",
+  "label": "Yoshiki Nishimura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Kore ga Pro Yakyuu '89",
+      "Kore ga Pro Yakyuu '90",
+      "Marvel Land",
+      "Super Play Action Football",
+      "Super Tennis",
+      "Yoshi's Safari"
+    ],
+    "artist_keys": [
+      "Yoshiki Nishimura"
+    ],
+    "track_count": 53
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17211564",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

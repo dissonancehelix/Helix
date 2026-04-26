@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:setsuo_sakamoto",
+  "entity_type": "music.composer",
+  "label": "Setsuo Sakamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario Kart Arcade GP DX",
+      "Tank! Tank! Tank!"
+    ],
+    "artist_keys": [
+      "Setsuo Sakamoto"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:tenteko",
+  "entity_type": "music.composer",
+  "label": "Tenteko",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88",
+      "PC-98"
+    ],
+    "franchises": [
+      "Cattle Mutilation",
+      "MCMLXC",
+      "Ojousama Club",
+      "SYNERGY MCMXCI"
+    ],
+    "artist_keys": [
+      "Tenteko"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

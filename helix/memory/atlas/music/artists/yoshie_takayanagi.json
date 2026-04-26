@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:yoshie_takayanagi",
+  "entity_type": "music.composer",
+  "label": "Yoshie Takayanagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "500GP",
+      "Pistol Daimyo no Bouken",
+      "Prop Cycle",
+      "Steel Gunner",
+      "Super World Stadium '92",
+      "Tekken",
+      "Tekken 2"
+    ],
+    "artist_keys": [
+      "Yoshie Takayanagi"
+    ],
+    "track_count": 48
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

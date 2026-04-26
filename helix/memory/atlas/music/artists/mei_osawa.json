@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mei_osawa",
+  "entity_type": "music.composer",
+  "label": "Mei Osawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Damacy Rolling Live",
+      "Once Upon a Katamari",
+      "Survival Quiz City"
+    ],
+    "artist_keys": [
+      "Mei Osawa"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

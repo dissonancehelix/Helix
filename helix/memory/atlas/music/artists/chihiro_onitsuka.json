@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:chihiro_onitsuka",
+  "entity_type": "music.composer",
+  "label": "Chihiro Onitsuka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Breath of Fire V",
+      "Drakengard 3"
+    ],
+    "artist_keys": [
+      "Chihiro Onitsuka"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "2136",
+    "musicbrainz": "e7dc32a7-4bdf-428e-bcd5-b2c3c1ccf0a1",
+    "wikidata": "Q435525",
+    "spotify": "4NXiJRheKGsTycUmPwtwSP",
+    "lastfm": "鬼束ちひろ",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chihiro_Onitsuka"
+  }
+}

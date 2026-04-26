@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:nao_tokisawa",
+  "entity_type": "music.composer",
+  "label": "Nao Tokisawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Granblue Fantasy Versus"
+    ],
+    "artist_keys": [
+      "Nao Tokisawa"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "8992",
+    "musicbrainz": "689c1fd3-cfef-452e-b6ac-00016693b937",
+    "wikidata": "Q61057315",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

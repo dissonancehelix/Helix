@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:noriko_matsueda",
+  "entity_type": "music.composer",
+  "label": "Noriko Matsueda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Bahamut Lagoon",
+      "Chrono Trigger",
+      "Final Fantasy X",
+      "Front Mission",
+      "Front Mission 2",
+      "Racing Lagoon",
+      "The Bouncer",
+      "Tobal No. 1"
+    ],
+    "artist_keys": [
+      "Noriko Matsueda"
+    ],
+    "track_count": 218
+  },
+  "external_ids": {
+    "vgmdb": "225",
+    "musicbrainz": "53d04451-2c65-4480-9bb9-f4090249e715",
+    "wikidata": "Q2702747",
+    "spotify": "",
+    "lastfm": "松枝賀子",
+    "discogs": "229094",
+    "wikipedia": "https://en.wikipedia.org/wiki/Noriko_Matsueda"
+  }
+}

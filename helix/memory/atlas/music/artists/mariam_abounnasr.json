@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:mariam_abounnasr",
+  "entity_type": "music.composer",
+  "label": "Mariam Abounnasr",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Another Eden",
+      "Chrono Cross",
+      "Oninaki",
+      "Revolve8",
+      "Xenoblade Chronicles 3"
+    ],
+    "artist_keys": [
+      "Mariam Abounnasr"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

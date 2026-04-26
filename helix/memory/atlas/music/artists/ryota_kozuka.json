@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:ryota_kozuka",
+  "entity_type": "music.composer",
+  "label": "Ryota Kozuka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Devil Summoner",
+      "Persona",
+      "Persona; Shin Megami Tensei",
+      "Shin Megami Tensei",
+      "Shin Megami Tensei V",
+      "Trauma Team"
+    ],
+    "artist_keys": [
+      "Ryota Kozuka"
+    ],
+    "track_count": 411
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q135010588",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

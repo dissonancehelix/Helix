@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:matthew_simmonds",
+  "entity_type": "music.composer",
+  "label": "Matthew Simmonds",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Dizzy"
+    ],
+    "artist_keys": [
+      "Matthew Simmonds"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "7612",
+    "musicbrainz": "1ec85a17-da93-4ab9-b767-a0404cecd654",
+    "wikidata": "Q19559892",
+    "spotify": "4qfHhjq0qWIeaMKjwUvbrq",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/4mat"
+  }
+}

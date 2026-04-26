@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tiido_priimgi",
+  "entity_type": "music.composer",
+  "label": "Tiido Priimägi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Pier Solar and the Great Architects"
+    ],
+    "artist_keys": [
+      "Tiido Priimägi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kaoru_yasuda",
+  "entity_type": "music.composer",
+  "label": "Kaoru Yasuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Gals Panic 3",
+      "The Kung"
+    ],
+    "artist_keys": [
+      "Kaoru Yasuda"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q104641783",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

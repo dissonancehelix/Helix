@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:makito_nomiya",
+  "entity_type": "music.composer",
+  "label": "Makito Nomiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Alien Front Online",
+      "Shining Force Cross Raid"
+    ],
+    "artist_keys": [
+      "Makito Nomiya"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

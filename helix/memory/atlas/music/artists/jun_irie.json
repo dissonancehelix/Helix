@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:jun_irie",
+  "entity_type": "music.composer",
+  "label": "Jun Irie",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Silhouette Mirage"
+    ],
+    "artist_keys": [
+      "Jun Irie"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "668",
+    "musicbrainz": "",
+    "wikidata": "Q16264330",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

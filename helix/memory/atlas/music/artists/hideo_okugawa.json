@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hideo_okugawa",
+  "entity_type": "music.composer",
+  "label": "Hideo Okugawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II"
+    ],
+    "franchises": [
+      "Darkstalkers",
+      "Night Warriors"
+    ],
+    "artist_keys": [
+      "Hideo Okugawa"
+    ],
+    "track_count": 71
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

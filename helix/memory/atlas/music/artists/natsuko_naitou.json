@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:natsuko_naitou",
+  "entity_type": "music.composer",
+  "label": "Natsuko Naitou",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Deathsmiles",
+      "Deathsmiles II"
+    ],
+    "artist_keys": [
+      "Natsuko Naitou"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

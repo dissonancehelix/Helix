@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:shinpei_nakayama",
+  "entity_type": "music.composer",
+  "label": "Shinpei Nakayama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Great Sluggers '94"
+    ],
+    "artist_keys": [
+      "Shinpei Nakayama"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "11167",
+    "musicbrainz": "5c5f74f6-4d28-4ce0-9a12-fae660aa578e",
+    "wikidata": "Q764161",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shinpei_Nakayama"
+  }
+}

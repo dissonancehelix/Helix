@@ -1,0 +1,101 @@
+{
+    "domain": "language",
+    "language": "turkish",
+    "system_description": "Turkish morphological disambiguation. Case suffixes (-i/-yi accusative, -e/-ye dative, -de/-da locative, -den/-dan ablative) unambiguously encode argument roles. The dominant rule is case suffix reading; word order provides secondary confirmation. Agglutinative stacking means the resolution happens within the word form itself.",
+    "agents": [
+        {
+            "id": "rule_case_suffix",
+            "role": "dominant_rule",
+            "influence_weight": 0.7953,
+            "ud_signal_type": "case"
+        },
+        {
+            "id": "rule_verb_agreement",
+            "role": "dominant_rule",
+            "influence_weight": 0.0936,
+            "ud_signal_type": "agreement"
+        },
+        {
+            "id": "rule_word_order",
+            "role": "secondary_rule",
+            "influence_weight": 0.011,
+            "ud_signal_type": "word_order"
+        },
+        {
+            "id": "rule_pragmatic",
+            "role": "edge_case",
+            "influence_weight": 0.1,
+            "ud_signal_type": "pragmatic"
+        }
+    ],
+    "decision_rounds": [
+        {
+            "round": 1,
+            "weights": [
+                0.83,
+                0.08,
+                0.0,
+                0.09
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 2,
+            "weights": [
+                0.79,
+                0.1,
+                0.03,
+                0.08
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 3,
+            "weights": [
+                0.82,
+                0.08,
+                0.0,
+                0.1
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 4,
+            "weights": [
+                0.79,
+                0.08,
+                0.02,
+                0.11
+            ],
+            "outcome": "parse_A"
+        },
+        {
+            "round": 5,
+            "weights": [
+                0.8,
+                0.1,
+                0.02,
+                0.08
+            ],
+            "outcome": "parse_A"
+        }
+    ],
+    "expected_k_eff_range": [
+        1.3,
+        1.77
+    ],
+    "notes": "Case morphology compresses argument-role ambiguity more sharply than Spanish/English. Single dominant rule (case suffix) accounts for >55% of resolution weight. K_eff lower than Romance languages — the constraint fires harder and earlier.",
+    "source": "ud_treebank",
+    "ud_diagnostics": {
+        "sentences_analyzed": 500,
+        "case_density": 0.6758,
+        "agreement_density": 0.7664,
+        "order_rigidity": 0.9612,
+        "order_signal": 1.0,
+        "morphological_richness": 2.5707,
+        "compression_density": 2.1802,
+        "dominant_rule": "case",
+        "ud_k_eff": 1.535,
+        "treebank": "UD_Turkish-BOUN"
+    }
+}

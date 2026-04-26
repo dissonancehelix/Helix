@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:rush",
+  "entity_type": "music.composer",
+  "label": "Rush",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "2112",
+      "Gold",
+      "Moving Pictures"
+    ],
+    "artist_keys": [
+      "Rush"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "534ee493-bfac-4575-a44a-0ae41e2c3fe4",
+    "wikidata": "Q203871",
+    "spotify": "2Hkut4rAAyrQxRdof7FVJq",
+    "lastfm": "Rush",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rush_(band)"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:saga_kazami",
+  "entity_type": "music.composer",
+  "label": "Saga Kazami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Laplace no Ma"
+    ],
+    "artist_keys": [
+      "Saga Kazami"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "7110",
+    "musicbrainz": "afb18237-dbcd-4864-b577-22b3acf958ad",
+    "wikidata": "Q11665519",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:scapegoat_wax",
+  "entity_type": "music.composer",
+  "label": "Scapegoat Wax",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio Future"
+    ],
+    "artist_keys": [
+      "Scapegoat Wax"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "540e9359-4360-4694-95fc-ba42be67bf03",
+    "wikidata": "Q7430122",
+    "spotify": "",
+    "lastfm": "Scapegoat+Wax",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scapegoat_Wax"
+  }
+}

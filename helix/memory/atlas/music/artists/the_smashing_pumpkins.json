@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:the_smashing_pumpkins",
+  "entity_type": "music.composer",
+  "label": "The Smashing Pumpkins",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mellon Collie and the Infinite Sadness",
+      "Siamese Dream"
+    ],
+    "artist_keys": [
+      "The Smashing Pumpkins"
+    ],
+    "track_count": 41
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ba0d6274-db14-4ef5-b28d-657ebde1a396",
+    "wikidata": "Q184217",
+    "spotify": "40Yq4vzPs9VNUrIBG5Jr2i",
+    "lastfm": "The+Smashing+Pumpkins",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Smashing_Pumpkins"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:masahito_nakano",
+  "entity_type": "music.composer",
+  "label": "Masahito Nakano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Shijou Saikyou League Serie A",
+      "Umihara Kawase"
+    ],
+    "artist_keys": [
+      "Masahito Nakano"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q83553366",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:los_del_mar",
+  "entity_type": "music.composer",
+  "label": "Los Del Mar",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Los Del Mar"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "4ef7039f-26bc-48db-bf4b-f857aa41bc33",
+    "wikidata": "Q6683395",
+    "spotify": "3W9geOv9EsI71zPr8b78BW",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Los_del_Mar"
+  }
+}

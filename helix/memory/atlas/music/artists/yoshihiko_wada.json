@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yoshihiko_wada",
+  "entity_type": "music.composer",
+  "label": "Yoshihiko Wada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Slug 3",
+      "Metal Slug X"
+    ],
+    "artist_keys": [
+      "Yoshihiko Wada"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q8056050",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoshihiko_Wada"
+  }
+}

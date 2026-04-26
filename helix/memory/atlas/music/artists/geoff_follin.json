@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:geoff_follin",
+  "entity_type": "music.composer",
+  "label": "Geoff Follin",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "Super NES",
+      "ZX Spectrum"
+    ],
+    "franchises": [
+      "Altered Space",
+      "Batman Forever",
+      "Equinox",
+      "Gauntlet III",
+      "Indiana Jones and the Last Crusade",
+      "Plok!",
+      "Spider",
+      "Super Off Road",
+      "Terminator 2",
+      "The Incredible Crash Dummies",
+      "Thomas the Tank Engine",
+      "Tom & Jerry",
+      "Treasure Master",
+      "Wolverine"
+    ],
+    "artist_keys": [
+      "Geoff Follin"
+    ],
+    "track_count": 93
+  },
+  "external_ids": {
+    "vgmdb": "2741",
+    "musicbrainz": "f4467150-ac4a-4491-8ee8-df40cadc9065",
+    "wikidata": "Q5735425",
+    "spotify": "",
+    "lastfm": "Geoff+Follin",
+    "discogs": "2627602"
+  }
+}

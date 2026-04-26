@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:minako_hamano",
+  "entity_type": "music.composer",
+  "label": "Minako Hamano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Super NES"
+    ],
+    "franchises": [
+      "Brain Age",
+      "Donkey Kong Country Returns",
+      "Mario Kart",
+      "Metroid",
+      "Metroid Fusion",
+      "Pokémon Puzzle Challenge",
+      "Snoopy Concert",
+      "Super Metroid",
+      "Super Smash Bros. Brawl",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Minako Hamano"
+    ],
+    "track_count": 240
+  },
+  "external_ids": {
+    "vgmdb": "635",
+    "musicbrainz": "f2b31119-c8ba-400b-b402-2a2c7d4452e8",
+    "wikidata": "Q11566264",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1479677"
+  }
+}

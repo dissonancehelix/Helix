@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomohiro_endoh",
+  "entity_type": "music.composer",
+  "label": "Tomohiro Endoh",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Sgt. Saunder's Combat"
+    ],
+    "artist_keys": [
+      "Tomohiro Endoh"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

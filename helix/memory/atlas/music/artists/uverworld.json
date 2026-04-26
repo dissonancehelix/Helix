@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:uverworld",
+  "entity_type": "music.composer",
+  "label": "UVERworld",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bleach"
+    ],
+    "artist_keys": [
+      "UVERworld"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

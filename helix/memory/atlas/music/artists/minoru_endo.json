@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:minoru_endo",
+  "entity_type": "music.composer",
+  "label": "Minoru Endo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Vertical Force"
+    ],
+    "artist_keys": [
+      "Minoru Endo"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "63de9bf3-eeb1-44b4-b2f3-56a742ac8d29",
+    "wikidata": "Q7582610",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

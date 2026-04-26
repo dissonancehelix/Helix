@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:yusuke_kato",
+  "entity_type": "music.composer",
+  "label": "Yusuke Kato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Ganbare Goemon",
+      "Goemon's Great Adventure",
+      "Mystical Ninja"
+    ],
+    "artist_keys": [
+      "Yusuke Kato"
+    ],
+    "track_count": 190
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q60394309",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

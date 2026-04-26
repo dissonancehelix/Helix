@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:seiji_momoi",
+  "entity_type": "music.composer",
+  "label": "Seiji Momoi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "NES",
+      "Pico",
+      "Super NES"
+    ],
+    "franchises": [
+      "Arkanoid",
+      "Congo's Caper",
+      "Daikaijuu Deburas",
+      "Dark Lord",
+      "Glory of Heracles III",
+      "Glory of Heracles IV",
+      "Joe & Mac",
+      "Minnesota Fats",
+      "Pepe's Puzzles",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Seiji Momoi"
+    ],
+    "track_count": 165
+  },
+  "external_ids": {
+    "vgmdb": "4417",
+    "musicbrainz": "4b594cc2-f07c-4f0b-ace8-a49aace6c9ef",
+    "wikidata": "Q11536963",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

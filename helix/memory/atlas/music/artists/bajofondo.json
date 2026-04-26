@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:bajofondo",
+  "entity_type": "music.composer",
+  "label": "Bajofondo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mar Dulce"
+    ],
+    "artist_keys": [
+      "Bajofondo"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "c78a5d46-c631-41bc-8772-439002e3d3aa",
+    "wikidata": "Q804177",
+    "spotify": "4Wk0MW9d5uu6WbAgRCuH4O",
+    "lastfm": "Bajofondo",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bajofondo"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-03-31T16:04:32Z",
+  "metadata_plane": {
+    "available": true,
+    "path": "C:\\Users\\dissonance\\AppData\\Roaming\\foobar2000-v2\\external-tags.db",
+    "track_count": 122857
+  },
+  "runtime_plane": {
+    "live": false,
+    "playback_state": "offline",
+    "error": "Authentication required"
+  },
+  "identity_resolver": {
+    "alias_count": 2,
+    "active": false
+  }
+}

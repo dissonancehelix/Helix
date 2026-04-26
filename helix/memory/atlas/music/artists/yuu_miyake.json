@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:yuu_miyake",
+  "entity_type": "music.composer",
+  "label": "Yuu Miyake",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Beautiful Katamari",
+      "FM Sound Module Maniax",
+      "GeOnDan Super Rare Trax",
+      "Imported Game Music",
+      "Katamari Damacy",
+      "Katamari Damacy Rolling Live",
+      "Katamari Forever",
+      "Me & My Katamari",
+      "Noby Noby Boy",
+      "Once Upon a Katamari",
+      "Persona; Shin Megami Tensei",
+      "R",
+      "Ridge Racer 6",
+      "Ridge Racer 7",
+      "Ridge Racer V"
+    ],
+    "artist_keys": [
+      "Yuu Miyake"
+    ],
+    "track_count": 106
+  },
+  "external_ids": {
+    "vgmdb": "1564",
+    "musicbrainz": "2170549c-9fd0-498c-80f8-16891f8d2b08",
+    "wikidata": "Q3574299",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2777058",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuu_Miyake"
+  }
+}

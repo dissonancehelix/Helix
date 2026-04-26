@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:taku_yoshioka",
+  "entity_type": "music.composer",
+  "label": "Taku Yoshioka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "No More Heroes 2"
+    ],
+    "artist_keys": [
+      "Taku Yoshioka"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "9074",
+    "musicbrainz": "3ffcd5f5-9820-4217-b1f3-41d0a806f00b",
+    "wikidata": "Q11412781",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

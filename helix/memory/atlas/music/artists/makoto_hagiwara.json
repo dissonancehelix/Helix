@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:makoto_hagiwara",
+  "entity_type": "music.composer",
+  "label": "Makoto Hagiwara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Trace Memory"
+    ],
+    "artist_keys": [
+      "Makoto Hagiwara"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11620371",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

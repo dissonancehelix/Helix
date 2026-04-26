@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kazushi_tsurukubo",
+  "entity_type": "music.composer",
+  "label": "Kazushi Tsurukubo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Nihon Pro Mahjong Kishikai Kanshuu"
+    ],
+    "artist_keys": [
+      "Kazushi Tsurukubo"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

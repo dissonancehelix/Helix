@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shin_nakajima",
+  "entity_type": "music.composer",
+  "label": "Shin Nakajima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Hamsterz Life",
+      "Imagine"
+    ],
+    "artist_keys": [
+      "Shin Nakajima"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

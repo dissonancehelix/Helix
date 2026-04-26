@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroshi_tuda",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Tuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Operation Wolf 3"
+    ],
+    "artist_keys": [
+      "Hiroshi Tuda"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

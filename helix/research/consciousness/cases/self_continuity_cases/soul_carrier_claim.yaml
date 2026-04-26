@@ -1,0 +1,79 @@
+case_id: soul_carrier_claim
+description: >
+  Soul theory as a portable self-continuity carrier: an immaterial substance (soul)
+  is proposed to carry C, P, O, B, K, N across biological death. Evaluated as a
+  self-continuity claim, not dismissed a priori. The theory requires the soul to specify
+  a mechanism, not just name itself as the carrier.
+transformation_type: claimed_metaphysical_transfer
+substrate_relation: substrate_unknown  # soul is hypothetically substrate-independent
+
+scores:
+  C_fielding: null   # if the soul carries C, it could be preserved; mechanism unspecified
+  P_perspective: null
+  O_ownership: null
+  B_boundary: null
+  K_carried_constraint: null
+  N_non_branching: 1.0  # soul theories typically claim singular non-branching survival
+  R_restart_continuity: null  # not a suspension case; full transition
+
+field_status: field_unknown
+ownership_status: ownership_unknown
+branching_status: no_branching  # most soul theories claim non-branching continuation
+carried_constraint_status: constraint_unknown
+restart_status: null
+
+evidence:
+  C_fielding: >
+    Null: if the soul is a genuine carrier for phenomenal appearance (C), then C would
+    be preserved across biological death. But no mechanism has been specified for how
+    a non-physical substance implements or carries phenomenal appearance.
+    The claim is not dismissed — it is classified as requiring a mechanism.
+  P_perspective: >
+    Null: same dependency as C. If the soul carries C, it may carry P as well.
+    If the soul is a point-of-view itself, P may be trivially preserved.
+    But the mechanistic account is absent.
+  O_ownership: >
+    Null: ownership-as-mineness requires a field to be the 'mine' of.
+    If the soul carries the field, O may be preserved. Unspecified.
+  B_boundary: >
+    Null: soul theories vary on whether the self-boundary persists after death
+    (some posit expansion, dissolution, or transformation of boundary post-mortem).
+  K_carried_constraint: >
+    Null: most soul theories do not explicitly address K (carried behavioral and
+    dispositional constraint). Some traditions claim full memory continuity;
+    others claim no continuity. Unspecified as a general claim.
+  N_non_branching: >
+    1.0: most mainstream soul theories (monotheist traditions, some Hindu schools)
+    claim each soul is numerically singular and non-branching. N = 1.0 is the
+    most consistent assignment here.
+  R_restart_continuity: >
+    Not applicable.
+
+expected_classification: unproven_portable_carrier
+
+revision_pressure: >
+  The theory's treatment of soul claims is not dismissal — it is sharpened demand.
+  A soul theory that specifies:
+  - how C is implemented or carried in a non-physical medium
+  - how P and O attach to the soul without a biological substrate
+  - how K-constraints are stored and causally operative in the soul
+  - how N = 1 is maintained (no fission of souls)
+  would satisfy the theory's requirements for a portable carrier.
+  No existing mainstream soul theory provides all of these.
+  The classification is unproven_portable_carrier, not impossible.
+
+breaks_preserved:
+  - >
+    The theory cannot falsify soul claims because souls are typically defined as
+    empirically inaccessible. This places soul claims in the unfalsifiable category —
+    which is not the same as false. The theory is honest about this:
+    it cannot evaluate what it cannot access. The appropriate response is to demand
+    a mechanism and mark the claim as unproven pending that mechanism.
+
+notes: >
+  N = 1.0 is the soul theory's strongest component relative to the formula.
+  Monotheist soul theories typically make this claim explicitly and consistently.
+  This is interesting: soul theories may satisfy N better than they satisfy C, P, O, B, K.
+  A soul that is singular and non-branching but does not carry phenomenal appearance
+  would satisfy N but not C — and would therefore not preserve self-continuity
+  under the theory's formula.

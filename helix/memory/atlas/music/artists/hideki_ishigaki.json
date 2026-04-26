@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hideki_ishigaki",
+  "entity_type": "music.composer",
+  "label": "Hideki Ishigaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Hideki Ishigaki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

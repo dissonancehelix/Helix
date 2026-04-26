@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:jameson_sutton",
+  "entity_type": "music.composer",
+  "label": "Jameson Sutton",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Penny's Big Breakaway"
+    ],
+    "artist_keys": [
+      "Jameson Sutton"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

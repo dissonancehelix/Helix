@@ -1,0 +1,27 @@
+{
+  "name": "Washington Commanders staff",
+  "full_title": "Template:Washington Commanders staff",
+  "description": "A navigational box that can be placed at the bottom of articles.",
+  "params": [
+    {
+      "name": "state",
+      "aliases": [],
+      "description": "The initial visibility of the navbox",
+      "type": "string",
+      "required": false,
+      "suggested": true,
+      "default": null
+    }
+  ],
+  "dependencies": [
+    "Gridiron primary style",
+    "navbar-header",
+    "tl",
+    "navbox documentation"
+  ],
+  "has_source": true,
+  "has_doc": false,
+  "has_templatedata": true,
+  "fetch_error": null,
+  "source_wikitext": "{| class=\"toccolours\" style=\"text-align: left;\"\n|+ colspan=\"7\" style=\"{{Gridiron primary style|Washington Commanders|border=2}};\"|{{navbar-header|'''Washington Commanders staff'''|Washington Commanders staff|fontcolor=white}}\n|-\n| colspan=7 style=\"text-align:right;\" |\n|-\n| style=\"vertical-align:top;\" |\n| style=\"font-size: 95%;vertical-align:top;\" |\n; Front office\n* Managing partner – [[Josh Harris (businessman)|Josh Harris]]\n* Limited partners – [[Mitchell Rales]], [[Magic Johnson]], [[Mark Ein]]\n* [[General manager (American football)|General manager]] – [[Adam Peters]]\n* Assistant general manager – [[Lance Newmark]]\n* Senior vice president of football operations – [[Brandon Sosna]]\n* Senior advisor to the general manager – [[Doug Williams (quarterback)|Doug Williams]]\n* President – [[Mark Clouse]]\n* Vice president of football administration – Rob Rogers\n* Director of player personnel – [[David Blackburn (American football)|David Blackburn]]\n* Personnel executive – [[Scott Fitterer]]\n* Director of pro scouting – Chris White\n* Scouts – [[Dwaune Jones]], [[Paul Skansi]]\n* Special advisor – [[Bob Myers]]\n\n;Head coach\n* [[List of Washington Commanders head coaches|Head coach]] – [[Dan Quinn (American football)|Dan Quinn]]\n\n;Offensive coaches\n* [[Offensive coordinator]] – [[David Blough]]\n* Offensive pass game coordinator – [[David Raih]]\n* Quarterbacks – [[D. J. Williams (American football coach)|D. J. Williams]]\n* Assistant quarterbacks – [[Danny Etling]]\n* Running backs – [[Anthony Lynn]]\n* Assistant running backs – [[Jesse Madden]]\n* Wide receivers – [[Bobby Engram]]\n* Assistant wide receivers/returners – [[Andre Coleman]]\n* Tight ends – [[Ben Steele]]\n* Offensive line – [[Darnell Stapleton]]\n* Assistant offensive line – [[Shane Toub]]\n* Offensive assistant – [[Wes Welker]]\n* Offensive quality control – Brian Stoldt\n\n|width=\"35\"|&nbsp;\n| style=\"vertical-align:top;\" |\n| style=\"font-size: 95%;vertical-align:top;\" |\n;Defensive coaches\n* [[Defensive coordinator]] – [[Daronte Jones]]\n* Defensive line/run game coordinator – [[Eric Henderson]]\n* Assistant defensive line – [[Darryl Tapp]]\n* Linebackers – [[Ken Norton Jr.]]\n* Outside linebackers – [[John Pagano]]\n* Assistant linebackers – George Banko\n* Defensive backs/cornerbacks – [[William Gay (cornerback)|William Gay]]\n* Defensive backs/safeties – [[Tommy Donatell]]\n* Defensive quality control – Luke Johnson\n\n;Special teams coaches\n* [[Special teams coordinator]] – [[Larry Izzo]]\n* Assistant special teams – [[Brian Schneider (American football)|Brian Schneider]], John Glenn\n\n;Support staff and coaches\n* Senior vice president of football initiatives – [[Dave Gardi]]\n* Senior director of team support and advancement – [[Dylan Thompson]]\n* Director of player performance – Brett Nenaber\n* Director of football R&D – Doug Drewry\n* Head strength and conditioning – Chad Englehart\n* Head athletic trainer – Al Bellamy\n* Coaching chief of staff – Sarah Hogan\n\n→ <span class=\"plainlinks\">[https://www.commanders.com/team/coaches-roster/ Coaching staff]</span><br>\n→ <span class=\"plainlinks\">[https://www.commanders.com/team/front-office-roster/ Front office]</span><br>\n→ [[Wikipedia:WikiProject National Football League/List of current NFL staffs|More NFL staffs]]\n|}<noinclude>\n\n==See also==\n*{{tl|Washington Commanders roster}}\n[[Category:NFL staff templates]]\n[[Category:Washington Commanders templates|staff]]\n{{navbox documentation}}\n</noinclude>"
+}

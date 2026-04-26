@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hitomi_shimizu",
+  "entity_type": "music.composer",
+  "label": "Hitomi Shimizu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Harvest Moon"
+    ],
+    "artist_keys": [
+      "Hitomi Shimizu"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "4824",
+    "musicbrainz": "92293de2-73af-4266-9b9c-85f929c84882",
+    "wikidata": "Q5872254",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hitomi_Shimizu"
+  }
+}

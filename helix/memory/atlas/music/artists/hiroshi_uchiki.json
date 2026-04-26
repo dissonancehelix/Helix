@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroshi_uchiki",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Uchiki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Tecmo Cup Soccer Game"
+    ],
+    "artist_keys": [
+      "Hiroshi Uchiki"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

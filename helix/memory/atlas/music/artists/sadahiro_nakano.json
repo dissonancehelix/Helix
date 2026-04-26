@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:sadahiro_nakano",
+  "entity_type": "music.composer",
+  "label": "Sadahiro Nakano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Sadahiro Nakano"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "3274",
+    "musicbrainz": "56ff57ab-0bd8-4f85-aa15-f52e3e2f90b9",
+    "wikidata": "Q11367557",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

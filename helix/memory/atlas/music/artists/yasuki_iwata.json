@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yasuki_iwata",
+  "entity_type": "music.composer",
+  "label": "Yasuki Iwata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Yasuki Iwata"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:soyo_oka",
+  "entity_type": "music.composer",
+  "label": "Soyo Oka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Bugs",
+      "Famicom Grand Prix II",
+      "Gakkou no Kaidan",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Pilotwings",
+      "SimCity",
+      "Super Mario All",
+      "Super Mario Kart",
+      "Vs. Excitebike",
+      "Yuyuki"
+    ],
+    "artist_keys": [
+      "Soyo Oka"
+    ],
+    "track_count": 134
+  },
+  "external_ids": {
+    "vgmdb": "500",
+    "musicbrainz": "ad09d336-0797-4731-a981-633630e082f1",
+    "wikidata": "Q3492509",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "336830"
+  }
+}

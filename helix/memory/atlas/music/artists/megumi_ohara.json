@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:megumi_ohara",
+  "entity_type": "music.composer",
+  "label": "Megumi Ohara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kirby Battle Royale",
+      "Kirby and the Rainbow Curse",
+      "Kirby's Dream Buffet"
+    ],
+    "artist_keys": [
+      "Megumi Ohara"
+    ],
+    "track_count": 140
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "c732681e-14b9-4e47-9719-a2515572a46c",
+    "wikidata": "Q9124812",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Megumi_%C5%8Chara"
+  }
+}

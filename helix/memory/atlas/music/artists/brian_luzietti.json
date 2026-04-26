@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:brian_luzietti",
+  "entity_type": "music.composer",
+  "label": "Brian Luzietti",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Clay Fighter"
+    ],
+    "artist_keys": [
+      "Brian Luzietti"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q96252756",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:shinya_sakamoto",
+  "entity_type": "music.composer",
+  "label": "Shinya Sakamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "NES"
+    ],
+    "franchises": [
+      "Circus Charlie",
+      "Falsion",
+      "Green Beret",
+      "Jackal",
+      "King Kong 2",
+      "Konami Wai Wai World",
+      "Meikyuu Jiin Dababa",
+      "Risa's Fairy Tale",
+      "Stinger",
+      "The Maze of Galious"
+    ],
+    "artist_keys": [
+      "Shinya Sakamoto"
+    ],
+    "track_count": 95
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

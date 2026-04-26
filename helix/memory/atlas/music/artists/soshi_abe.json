@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:soshi_abe",
+  "entity_type": "music.composer",
+  "label": "Soshi Abe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Pikmin 4",
+      "Super Smash Bros. Ultimate",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Soshi Abe"
+    ],
+    "track_count": 108
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

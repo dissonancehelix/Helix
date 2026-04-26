@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:gota_masuoka",
+  "entity_type": "music.composer",
+  "label": "Gota Masuoka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Gota Masuoka"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:toshiyuki_sudo",
+  "entity_type": "music.composer",
+  "label": "Toshiyuki Sudo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "NES Remix Pack",
+      "Splatoon 3",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. for Wii U",
+      "Wii Channels"
+    ],
+    "artist_keys": [
+      "Toshiyuki Sudo"
+    ],
+    "track_count": 52
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "78f4b114-00dd-4aa9-8f03-93a7ba96243f",
+    "wikidata": "Q22130204",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

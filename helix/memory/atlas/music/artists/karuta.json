@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:karuta",
+  "entity_type": "music.composer",
+  "label": "karuta",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Monkey Ball",
+      "Super Monkey Ball 3D"
+    ],
+    "artist_keys": [
+      "karuta"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1616724",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karuta"
+  }
+}

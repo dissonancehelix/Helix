@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:akira_inoue",
+  "entity_type": "music.composer",
+  "label": "Akira Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Blandia",
+      "Gigandes"
+    ],
+    "artist_keys": [
+      "Akira Inoue"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "10445",
+    "musicbrainz": "16fdaffd-81af-4a9d-a6d6-a8938d4d4ebe",
+    "wikidata": "Q11373263",
+    "spotify": "2mt2D1ra41kPxlQpbCkfY0",
+    "lastfm": "井上鑑",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akira_Inoue_(musician)"
+  }
+}

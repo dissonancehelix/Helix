@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:hyd_lunch",
+  "entity_type": "music.composer",
+  "label": "Hyd Lunch",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Lost Judgment",
+      "Yakuza",
+      "Yakuza 0",
+      "Yakuza 5",
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "Hyd Lunch"
+    ],
+    "track_count": 65
+  },
+  "external_ids": {
+    "vgmdb": "10120",
+    "musicbrainz": "d082a1a6-7a9e-43ae-898e-ec9b24ee8308",
+    "wikidata": "Q124119659",
+    "spotify": "0skgD66nfXZVj5NSNEMQKz",
+    "lastfm": ""
+  }
+}

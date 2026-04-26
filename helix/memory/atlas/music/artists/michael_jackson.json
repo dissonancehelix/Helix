@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:michael_jackson",
+  "entity_type": "music.composer",
+  "label": "Michael Jackson",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bad",
+      "Dangerous",
+      "HIStory",
+      "Off the Wall",
+      "Thriller"
+    ],
+    "artist_keys": [
+      "Michael Jackson"
+    ],
+    "track_count": 90
+  },
+  "external_ids": {
+    "vgmdb": "7312",
+    "musicbrainz": "f27ec8db-af05-4f36-916e-3d57f91ecf5e",
+    "wikidata": "Q2831",
+    "spotify": "3fMbdgg4jU18AjLCKBhRSm",
+    "lastfm": "Michael+Jackson",
+    "discogs": "15885",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Jackson"
+  }
+}

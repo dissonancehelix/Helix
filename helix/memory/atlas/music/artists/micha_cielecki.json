@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:micha_cielecki",
+  "entity_type": "music.composer",
+  "label": "Michał Cielecki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Witcher 2"
+    ],
+    "artist_keys": [
+      "Michał Cielecki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

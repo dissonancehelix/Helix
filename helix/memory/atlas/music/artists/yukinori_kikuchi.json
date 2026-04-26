@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:yukinori_kikuchi",
+  "entity_type": "music.composer",
+  "label": "Yukinori Kikuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II"
+    ],
+    "franchises": [
+      "13 Sentinels",
+      "A.N.N.E",
+      "Cho Aniki Show II",
+      "GrimGrimoire OnceMore",
+      "Mist Train Girls",
+      "Progear",
+      "Project Babel",
+      "Shining Beyond"
+    ],
+    "artist_keys": [
+      "Yukinori Kikuchi"
+    ],
+    "track_count": 92
+  },
+  "external_ids": {
+    "vgmdb": "1208",
+    "musicbrainz": "d9ebb826-fe6f-48e0-8b6f-dd111f8bde72",
+    "wikidata": "Q56349682",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:yukie_sugawara",
+  "entity_type": "music.composer",
+  "label": "Yukie Sugawara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Formation Soccer on J.League",
+      "Human Grand Prix IV",
+      "Super Formation Soccer 94",
+      "Super Formation Soccer 95"
+    ],
+    "artist_keys": [
+      "Yukie Sugawara"
+    ],
+    "track_count": 97
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q128460946",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

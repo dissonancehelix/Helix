@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:satoshi_ise",
+  "entity_type": "music.composer",
+  "label": "Satoshi Ise",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Devil May Cry 2"
+    ],
+    "artist_keys": [
+      "Satoshi Ise"
+    ],
+    "track_count": 46
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

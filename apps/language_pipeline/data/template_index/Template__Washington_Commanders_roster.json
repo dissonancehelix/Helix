@@ -1,0 +1,11 @@
+{
+  "name": "Template:Washington Commanders roster",
+  "full_title": "Template:Template:Washington Commanders roster",
+  "description": "",
+  "params": [],
+  "dependencies": [],
+  "has_source": false,
+  "has_doc": false,
+  "has_templatedata": false,
+  "fetch_error": "'list' object has no attribute 'items'"
+}

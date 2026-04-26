@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:donald_griffin",
+  "entity_type": "music.composer",
+  "label": "Donald Griffin",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Cool Spot",
+      "Disney's Aladdin",
+      "The Jungle Book"
+    ],
+    "artist_keys": [
+      "Donald Griffin"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q105641669",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

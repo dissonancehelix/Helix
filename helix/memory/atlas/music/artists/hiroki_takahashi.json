@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hiroki_takahashi",
+  "entity_type": "music.composer",
+  "label": "Hiroki Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Forever"
+    ],
+    "artist_keys": [
+      "Hiroki Takahashi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "12789",
+    "musicbrainz": "db43ede9-28d4-431e-84d4-736e4b6faaa0",
+    "wikidata": "Q933509",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroki_Takahashi"
+  }
+}

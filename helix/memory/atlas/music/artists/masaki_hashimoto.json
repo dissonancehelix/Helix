@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:masaki_hashimoto",
+  "entity_type": "music.composer",
+  "label": "Masaki Hashimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Final Match Tennis",
+      "The Adventures of Gilligan's Island"
+    ],
+    "artist_keys": [
+      "Masaki Hashimoto"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q132462091",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

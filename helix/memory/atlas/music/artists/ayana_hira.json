@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ayana_hira",
+  "entity_type": "music.composer",
+  "label": "Ayana Hira",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Ayana Hira"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mao_hamamoto",
+  "entity_type": "music.composer",
+  "label": "Mao Hamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Corpse Party"
+    ],
+    "artist_keys": [
+      "Mao Hamamoto"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

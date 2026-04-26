@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ryo_takahashi",
+  "entity_type": "music.composer",
+  "label": "Ryo Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy XIV"
+    ],
+    "artist_keys": [
+      "Ryo Takahashi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "14673",
+    "musicbrainz": "7dfc452c-ce6c-4320-8365-b2177c95df07",
+    "wikidata": "Q28690575",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ryo_Takahashi_(musician)"
+  }
+}

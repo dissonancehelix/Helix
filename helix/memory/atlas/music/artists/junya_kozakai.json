@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:junya_kozakai",
+  "entity_type": "music.composer",
+  "label": "Junya Kozakai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Hany on the Road"
+    ],
+    "artist_keys": [
+      "Junya Kozakai"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

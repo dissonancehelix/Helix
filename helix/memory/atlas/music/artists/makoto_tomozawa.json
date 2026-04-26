@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:makoto_tomozawa",
+  "entity_type": "music.composer",
+  "label": "Makoto Tomozawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Mega Man",
+      "Mega Man 10",
+      "Mega Man 7",
+      "Mega Man Legends",
+      "Mega Man Legends 2",
+      "Mega Man X",
+      "Mega Man Zero 3",
+      "Resident Evil"
+    ],
+    "artist_keys": [
+      "Makoto Tomozawa"
+    ],
+    "track_count": 140
+  },
+  "external_ids": {
+    "vgmdb": "769",
+    "musicbrainz": "35c6fc69-f0a8-4230-8aeb-66d589525327",
+    "wikidata": "Q126089684",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1175368"
+  }
+}

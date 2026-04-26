@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:taroma_koshida",
+  "entity_type": "music.composer",
+  "label": "Taroma Koshida",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Taroma Koshida"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hitoshi_nishimura",
+  "entity_type": "music.composer",
+  "label": "Hitoshi Nishimura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Kaite Tsukutte Asoberu Dezaemon"
+    ],
+    "artist_keys": [
+      "Hitoshi Nishimura"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q91105664",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

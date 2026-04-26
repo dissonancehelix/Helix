@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kyle_murdock",
+  "entity_type": "music.composer",
+  "label": "Kyle Murdock",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mighty No. 9"
+    ],
+    "artist_keys": [
+      "Kyle Murdock"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q88227528",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

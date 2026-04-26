@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:guido",
+  "entity_type": "music.composer",
+  "label": "Guido",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Chrono Trigger"
+    ],
+    "artist_keys": [
+      "Guido"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q639762",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guido"
+  }
+}

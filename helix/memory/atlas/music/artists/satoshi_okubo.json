@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:satoshi_okubo",
+  "entity_type": "music.composer",
+  "label": "Satoshi Okubo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Hotel Dusk",
+      "Mario Party",
+      "Sengoku Basara 4"
+    ],
+    "artist_keys": [
+      "Satoshi Okubo"
+    ],
+    "track_count": 95
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q104634232",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

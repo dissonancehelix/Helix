@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masanori_oouchi",
+  "entity_type": "music.composer",
+  "label": "Masanori Oouchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Rocket Knight Adventures",
+      "Tiny Toon Adventures"
+    ],
+    "artist_keys": [
+      "Masanori Oouchi"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

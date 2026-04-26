@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mega_ran",
+  "entity_type": "music.composer",
+  "label": "Mega Ran",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Mega Ran"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "3664",
+    "musicbrainz": "293aa84f-e308-418a-b202-7d9c88479f1e",
+    "wikidata": "Q7291909",
+    "spotify": "2mCmDragybleJXqTqsOk5I",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raheem_Jarbo"
+  }
+}

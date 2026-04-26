@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:toshio_shimizu",
+  "entity_type": "music.composer",
+  "label": "Toshio Shimizu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Art of Fighting",
+      "Fatal Fury 2",
+      "Fatal Fury 3",
+      "King of the Monsters 2",
+      "Last Resort",
+      "Real Bout Fatal Fury Special",
+      "Sengoku",
+      "The King of Fighters '96",
+      "The King of Fighters '97",
+      "The King of Fighters '99"
+    ],
+    "artist_keys": [
+      "Toshio Shimizu"
+    ],
+    "track_count": 191
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q81334407",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

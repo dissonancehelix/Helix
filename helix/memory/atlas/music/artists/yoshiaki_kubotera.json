@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:yoshiaki_kubotera",
+  "entity_type": "music.composer",
+  "label": "Yoshiaki Kubotera",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Blue Almanac",
+      "Getsumen no Anubis",
+      "Gleylancer",
+      "Human Sports Festival",
+      "Lunar",
+      "Power of the Hired",
+      "Sgt. Saunder's Combat",
+      "Steel Empire",
+      "Ys III",
+      "Ys IV"
+    ],
+    "artist_keys": [
+      "Yoshiaki Kubotera"
+    ],
+    "track_count": 186
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

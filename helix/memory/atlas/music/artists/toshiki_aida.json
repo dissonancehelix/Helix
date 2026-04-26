@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:toshiki_aida",
+  "entity_type": "music.composer",
+  "label": "Toshiki Aida",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario Party 9"
+    ],
+    "artist_keys": [
+      "Toshiki Aida"
+    ],
+    "track_count": 106
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

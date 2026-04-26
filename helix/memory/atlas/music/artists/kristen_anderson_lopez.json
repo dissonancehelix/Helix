@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kristen_anderson_lopez",
+  "entity_type": "music.composer",
+  "label": "Kristen Anderson-Lopez",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kingdom Hearts III"
+    ],
+    "artist_keys": [
+      "Kristen Anderson-Lopez"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "22145",
+    "musicbrainz": "38f2e3b1-cc8d-43d1-b840-929247eeecac",
+    "wikidata": "Q6437747",
+    "spotify": "3CneYb5exy4KOtvCCrozDD",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kristen_Anderson-Lopez"
+  }
+}

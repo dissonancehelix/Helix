@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yuki_oike",
+  "entity_type": "music.composer",
+  "label": "Yuki Oike",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Yuki Oike"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

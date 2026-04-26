@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:kurt_harland",
+  "entity_type": "music.composer",
+  "label": "Kurt Harland",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Nightmare Circus",
+      "Scooby",
+      "X"
+    ],
+    "artist_keys": [
+      "Kurt Harland"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8844c290-7c3c-49b3-b129-ee87b1529b58",
+    "wikidata": "Q6446761",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kurt_Harland"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:jun",
+  "entity_type": "music.composer",
+  "label": "JUN",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Okami"
+    ],
+    "artist_keys": [
+      "JUN"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q13403067",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jun_(given_name)"
+  }
+}

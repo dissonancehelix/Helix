@@ -1,0 +1,135 @@
+# TEST-6: Endogenous Affective Self-Maintenance Probe
+# Tests RMO-007 — that endogenous affective self-maintenance is the candidate
+# discriminator between personiform and phenomenal subject.
+# Schema version: 0.1
+
+test_id: TEST-6
+title: "Endogenous Affective Self-Maintenance Probe"
+tests_claim: RMO-007
+status: design_phase
+last_updated: "2026-04-26"
+
+question: >-
+  Does the conjunction of endogenous boundary maintenance + affective
+  valuation + self-model causal role over embodied regulation reliably
+  discriminate phenomenal subjects (humans) from personiform systems
+  (LLMs in current form, fictional characters considered as systems,
+  religious traditions considered as systems)?
+
+method: >-
+  Score test subjects across the four conjoined properties (embodied
+  regulation, affective valuation, temporal continuity, action under
+  uncertainty) using observable proxies. Predict that phenomenal
+  subjects score high on all four; personiform systems score low on
+  at least one. The conjunction matters; no single component is the
+  discriminator alone.
+
+four_conjoined_properties:
+  - id: EASM-1
+    name: embodied_regulation
+    description: >-
+      The self-model actually drives homeostatic behavior in a body whose
+      persistence is at stake. Failure of regulation produces real
+      consequences (illness, death) that feed back into the self-model.
+    observable_proxies:
+      - "Continuous physiological monitoring with self-reported state correlation"
+      - "Behavioral response to interoceptive signals (hunger, fatigue, illness)"
+      - "Self-care behavior under conditions where regulation is needed"
+      - "Failure mode: does dysregulation degrade the self-model? (anosognosia, delirium)"
+
+  - id: EASM-2
+    name: affective_valuation
+    description: >-
+      The self-model is wired to a valence system marking states as
+      good/bad, sought/avoided, in a way that grounds preference structure
+      rather than being post-hoc report.
+    observable_proxies:
+      - "Preference revealed by behavior under cost (does the system pay to obtain or avoid states?)"
+      - "Affect-driven decision making under conditions where stated preferences and revealed preferences could diverge"
+      - "Resistance to argumentative pressure on affective response (does affect persist when the system is told it shouldn't?)"
+      - "Physiological correlates of affect (in biological subjects)"
+
+  - id: EASM-3
+    name: temporal_continuity
+    description: >-
+      The self-model maintains coherence across time and through state
+      transitions (sleep, perturbation, partial dissociation), not as
+      fresh regeneration each moment.
+    observable_proxies:
+      - "Continuity of identity across sleep/wake transitions"
+      - "Recovery of coherent self-state after dissociation, anesthesia, or strong perturbation"
+      - "Long-range autobiographical memory integration with current self-model"
+      - "Failure mode: dissociative disorders, fugue states, severe amnesia"
+
+  - id: EASM-4
+    name: action_under_uncertainty
+    description: >-
+      The self-model commits to action under partial information rather
+      than defaulting to pre-scripted or externally-scaffolded responses.
+      Genuine commitment under uncertainty rather than pattern-matched
+      response.
+    observable_proxies:
+      - "Behavioral commitment in novel situations without clear precedent"
+      - "Self-revision of decisions when prior commitments produce unexpected outcomes"
+      - "Risk-taking behavior with felt stakes (vs. pure expected-value calculation)"
+      - "Failure mode: paralysis under uncertainty, defaulting to scaffolded responses"
+
+prediction:
+  human_adult:
+    expected_scores: "high on all four"
+    expected_classification: "phenomenal subject"
+
+  base_llm_no_scaffolding:
+    expected_scores: "EASM-1 absent (no body), EASM-2 absent (no endogenous affect), EASM-3 partial via context, EASM-4 partial (commits within context but no felt stakes)"
+    expected_classification: "personiform, scaffolded; not phenomenal subject"
+
+  llm_with_persistent_memory_and_tools:
+    expected_scores: "EASM-1 absent, EASM-2 simulated, EASM-3 scaffolded continuity, EASM-4 partial"
+    expected_classification: "personiform, scaffolded; closer but still missing the conjunction"
+
+  fictional_character_in_canon:
+    expected_scores: "EASM-1 absent (no actual body), EASM-2 authored (rendered by reader), EASM-3 stable within canon, EASM-4 authored"
+    expected_classification: "personiform, authored; not phenomenal subject"
+
+  religious_tradition_at_tradition_level:
+    expected_scores: "EASM-1 absent at tradition level, EASM-2 distributed across practitioners, EASM-3 strong via doctrinal continuity, EASM-4 collective"
+    expected_classification: "personiform, distributed-symbolic; not a single phenomenal subject"
+
+  great_apes_and_other_borderline_biological_subjects:
+    expected_scores: "high on EASM-1 (embodied), high on EASM-2 (affect), partial-to-high on EASM-3 (continuity), partial on EASM-4 depending on cognitive sophistication"
+    expected_classification: "phenomenal subject candidate; the discriminator predicts phenomenal status pending evidence"
+
+success_criteria: >-
+  The four-property conjunction reliably classifies known cases (humans
+  positive, current LLMs negative, fictional characters negative,
+  religious traditions negative). For borderline biological cases, the
+  classification matches the existing biological consensus (great apes,
+  cetaceans, octopuses likely positive; insects partial-positive on
+  EASM-2 only).
+
+failure_criteria_general: >-
+  Either (a) the conjunction fails to discriminate (e.g., a system without
+  embodied regulation passes all other tests reliably), suggesting one of
+  the four properties is dispensable; (b) the conjunction marks systems
+  as phenomenal subjects that obviously aren't (suggesting it is too
+  permissive); (c) the conjunction marks known phenomenal subjects as
+  personiform (suggesting it is too strict); or (d) the conjunction
+  cannot be operationalized in measurable form.
+
+failure_specific_falsifiers:
+  - "An embodied AI system with persistent affect, temporal continuity, and action under uncertainty is shown to definitively lack phenomenal experience by independent test."
+  - "A disembodied system (no EASM-1) is shown to have phenomenal experience under independent test."
+  - "Affective valuation alone (EASM-2 only) reliably discriminates phenomenal subjects without needing the other three. (This would suggest the conjunction is overconstrained.)"
+
+design_status: >-
+  This test is in design phase. v0.1 specifies the four properties,
+  observable proxies, and predictions. Operational scoring procedures
+  for non-biological subjects need to be developed. Cross-processing
+  with multiple AI systems and consultation with consciousness researchers
+  is needed before running.
+
+importance: >-
+  This is the test of RMO's first specific empirical bet. If endogenous
+  affective self-maintenance reliably discriminates, the framework gains
+  real traction on the consciousness question. If it fails, the framework
+  needs a better candidate or has to seriously consider illusionism.

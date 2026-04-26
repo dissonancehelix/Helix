@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yellow_magic_orchestra",
+  "entity_type": "music.composer",
+  "label": "Yellow Magic Orchestra",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "BGM",
+      "Solid State Survivor",
+      "Yellow Magic Orchestra"
+    ],
+    "artist_keys": [
+      "Yellow Magic Orchestra"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "4337",
+    "musicbrainz": "ac5af671-1df0-4312-8b7b-e61992ecc883",
+    "wikidata": "Q854590",
+    "spotify": "4a57NWQ2gDab8cSx2yDONf",
+    "lastfm": "Yellow+Magic+Orchestra",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yellow_Magic_Orchestra"
+  }
+}

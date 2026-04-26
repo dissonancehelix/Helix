@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:norichika_sato",
+  "entity_type": "music.composer",
+  "label": "Norichika Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Guilty Gear Xrd"
+    ],
+    "artist_keys": [
+      "Norichika Sato"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

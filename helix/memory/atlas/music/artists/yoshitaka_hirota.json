@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:yoshitaka_hirota",
+  "entity_type": "music.composer",
+  "label": "Yoshitaka Hirota",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Neo Geo Pocket Color",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Akumajo Dracula Tribute Vol.1",
+      "Anata Dake no Private Lesson DS de Hajimeru",
+      "Bomberman 64",
+      "Collaboration Album \"Message\"",
+      "Dive Alert",
+      "Egglia",
+      "Faselei!",
+      "Glory of Heracles DS",
+      "Half",
+      "Hana Saku DS Gardening Life",
+      "Maji de Manabu",
+      "Otomedius Excellent",
+      "Rogue Galaxy Premium Arrange",
+      "Shadow Hearts",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Yoshitaka Hirota"
+    ],
+    "track_count": 355
+  },
+  "external_ids": {
+    "vgmdb": "167",
+    "musicbrainz": "65ea2ae3-f03f-4a29-89d1-5e42e2190e5f",
+    "wikidata": "Q8056282",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "230762",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoshitaka_Hirota"
+  }
+}

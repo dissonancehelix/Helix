@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:koji_sakurai",
+  "entity_type": "music.composer",
+  "label": "Koji Sakurai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Koji Sakurai"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q137925519",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:metallica",
+  "entity_type": "music.composer",
+  "label": "Metallica",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "...And Justice For All",
+      "Master of Puppets"
+    ],
+    "artist_keys": [
+      "Metallica"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
+    "wikidata": "Q15920",
+    "spotify": "2ye2Wgw4gimLv2eAKyk1NB",
+    "lastfm": "Metallica",
+    "wikipedia": "https://en.wikipedia.org/wiki/Metallica"
+  }
+}

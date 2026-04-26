@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kokia",
+  "entity_type": "music.composer",
+  "label": "KOKIA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Arcadia no Aoki Miko",
+      "Rise of Mana"
+    ],
+    "artist_keys": [
+      "KOKIA"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "4844",
+    "musicbrainz": "9e090eeb-8e2b-441c-b892-5dad97b67fee",
+    "wikidata": "Q285832",
+    "spotify": "0gUsuVOGa73jzUAJ0WEJgo",
+    "lastfm": "KOKIA",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kokia_(singer)"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kazuhiro_kiyokawa",
+  "entity_type": "music.composer",
+  "label": "Kazuhiro Kiyokawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Wonder Boy in Monster Land"
+    ],
+    "artist_keys": [
+      "Kazuhiro Kiyokawa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

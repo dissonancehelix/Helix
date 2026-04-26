@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hideaki_kuroda",
+  "entity_type": "music.composer",
+  "label": "Hideaki Kuroda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Rakugaki Kingdom"
+    ],
+    "artist_keys": [
+      "Hideaki Kuroda"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

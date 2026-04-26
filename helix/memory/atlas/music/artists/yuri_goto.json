@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yuri_goto",
+  "entity_type": "music.composer",
+  "label": "Yuri Goto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Donkey Kong Bananza",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Yuri Goto"
+    ],
+    "track_count": 188
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q65267478",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

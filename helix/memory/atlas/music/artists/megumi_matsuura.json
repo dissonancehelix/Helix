@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:megumi_matsuura",
+  "entity_type": "music.composer",
+  "label": "Megumi Matsuura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Football Fury",
+      "Nike",
+      "Viewpoint"
+    ],
+    "artist_keys": [
+      "Megumi Matsuura"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1405314",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

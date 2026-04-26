@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:junnosuke_usui",
+  "entity_type": "music.composer",
+  "label": "Junnosuke Usui",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth"
+    ],
+    "artist_keys": [
+      "Junnosuke Usui"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

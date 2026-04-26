@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kenichi_maeyamada",
+  "entity_type": "music.composer",
+  "label": "Kenichi Maeyamada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Demons' Score"
+    ],
+    "artist_keys": [
+      "Kenichi Maeyamada"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "8713",
+    "musicbrainz": "12c53567-8caf-488f-9917-36afb9fde024",
+    "wikidata": "Q1035807",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kenichi_Maeyamada"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:satomi_kawasaki",
+  "entity_type": "music.composer",
+  "label": "Satomi Kawasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The World God Only Knows II"
+    ],
+    "artist_keys": [
+      "Satomi Kawasaki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "10821",
+    "musicbrainz": "52d6a8da-86db-429f-927b-564d7625dde5",
+    "wikidata": "Q18458094",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomoko_sano",
+  "entity_type": "music.composer",
+  "label": "Tomoko Sano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Castlevania"
+    ],
+    "artist_keys": [
+      "Tomoko Sano"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:paul_alexander",
+  "entity_type": "music.composer",
+  "label": "Paul Alexander",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Rise of the Golden Idol"
+    ],
+    "artist_keys": [
+      "Paul Alexander"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q19871910",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_Alexander_(artist)"
+  }
+}

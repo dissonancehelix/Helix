@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:david_punshon",
+  "entity_type": "music.composer",
+  "label": "David Punshon",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Chris Sawyer's Locomotion"
+    ],
+    "artist_keys": [
+      "David Punshon"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ichiro_takagi",
+  "entity_type": "music.composer",
+  "label": "Ichiro Takagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Moon Patrol"
+    ],
+    "artist_keys": [
+      "Ichiro Takagi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

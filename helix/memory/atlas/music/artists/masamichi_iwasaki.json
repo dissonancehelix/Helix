@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:masamichi_iwasaki",
+  "entity_type": "music.composer",
+  "label": "Masamichi Iwasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "PC-98"
+    ],
+    "franchises": [
+      "Shooting Tsukuru 98",
+      "Shooting Tsukuru V"
+    ],
+    "artist_keys": [
+      "Masamichi Iwasaki"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q89678158",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

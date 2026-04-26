@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tetsuro_kikuchi",
+  "entity_type": "music.composer",
+  "label": "Tetsuro Kikuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Saint Dragon"
+    ],
+    "artist_keys": [
+      "Tetsuro Kikuchi"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

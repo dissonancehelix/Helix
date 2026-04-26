@@ -1,0 +1,14 @@
+[
+  {"id": "conv_01", "register": "conversational", "text": "Hé, si tu viens plus tard, je te garde une place."},
+  {"id": "conv_02", "register": "conversational", "text": "Je sais pas ce que tu fais, mais appelle-moi quand tu sors."},
+  {"id": "conv_03", "register": "conversational", "text": "Écoute, j'arrive tard, alors commence sans moi."},
+  {"id": "conv_04", "register": "conversational", "text": "Tu vas au marché ou tu préfères rester là?"},
+  {"id": "formal_01", "register": "formal", "text": "Nous vous remercions de votre attention et restons à votre disposition pour toute question."},
+  {"id": "formal_02", "register": "formal", "text": "La demande sera évaluée conformément aux critères établis dans l'appel à candidatures."},
+  {"id": "formal_03", "register": "formal", "text": "Il est porté à votre connaissance que la procédure entrera en vigueur à compter du lundi prochain."},
+  {"id": "formal_04", "register": "formal", "text": "En cas d'incident, les documents correspondants devront être transmis par écrit."},
+  {"id": "narrative_01", "register": "narrative", "text": "La pluie tombait sur le village pendant que les chiens dormaient près de la place."},
+  {"id": "narrative_02", "register": "narrative", "text": "Quand il ouvrit la porte, il vit la lumière trembler dans le couloir vide."},
+  {"id": "narrative_03", "register": "narrative", "text": "Le train était parti à l'aube et avait laissé derrière lui les maisons blanches de la vallée."},
+  {"id": "narrative_04", "register": "narrative", "text": "Bien que personne n'ait parlé, tous comprirent que la nuit allait tout changer."}
+]

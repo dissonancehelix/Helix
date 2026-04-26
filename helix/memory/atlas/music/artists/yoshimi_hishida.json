@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshimi_hishida",
+  "entity_type": "music.composer",
+  "label": "Yoshimi Hishida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Sega CD"
+    ],
+    "franchises": [
+      "Dark Wizard"
+    ],
+    "artist_keys": [
+      "Yoshimi Hishida"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:satoko_minami",
+  "entity_type": "music.composer",
+  "label": "Satoko Minami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "The Lone Ranger"
+    ],
+    "artist_keys": [
+      "Satoko Minami"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

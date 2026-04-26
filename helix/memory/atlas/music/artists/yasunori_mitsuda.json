@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:yasunori_mitsuda",
+  "entity_type": "music.composer",
+  "label": "Yasunori Mitsuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "10,000 Bullets",
+      "Another Eden",
+      "Arc Rise Fantasia",
+      "Armodyne",
+      "Black Butler",
+      "Bomberman 64",
+      "Chrono Cross",
+      "Chrono Trigger",
+      "Chunithm",
+      "Creid"
+    ],
+    "artist_keys": [
+      "Yasunori Mitsuda"
+    ],
+    "track_count": 1440
+  },
+  "external_ids": {
+    "vgmdb": "146",
+    "musicbrainz": "118bf512-9ce9-42a5-95e0-10359bb3e3ea",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yasunori_Mitsuda",
+    "wikidata": "Q369806",
+    "spotify": "7cGkvEcOOYVtNdfkf3s1tK",
+    "lastfm": "光田康典",
+    "discogs": "212743"
+  },
+  "biography": {
+    "short": "Acclaimed composer for Chrono Trigger, Xenogears, and Chrono Cross.",
+    "career": "Square (1992–1998), Procyon Studio (Founding 2001–)."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:nozomi_nakahashi",
+  "entity_type": "music.composer",
+  "label": "Nozomi Nakahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Blade Buster",
+      "Super Star Soldier"
+    ],
+    "artist_keys": [
+      "Nozomi Nakahashi"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

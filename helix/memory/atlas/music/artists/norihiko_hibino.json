@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:norihiko_hibino",
+  "entity_type": "music.composer",
+  "label": "Norihiko Hibino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "9 Years of Shadows",
+      "Ace Combat",
+      "Bayonetta",
+      "Bayonetta 2",
+      "Boktai",
+      "Collaboration Album \"Message\"",
+      "Metal Gear",
+      "Metal Gear Solid 2",
+      "Metal Gear Solid 3",
+      "Metal Gear Solid 4",
+      "Otomedius Excellent",
+      "Persona; Shin Megami Tensei",
+      "Rogue Galaxy Premium Arrange",
+      "Rumble Roses XX",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Norihiko Hibino"
+    ],
+    "track_count": 340
+  },
+  "external_ids": {
+    "vgmdb": "252",
+    "musicbrainz": "fceb79b8-0518-4d5a-a166-1fcade1cb622",
+    "wikidata": "Q2493539",
+    "spotify": "",
+    "lastfm": "日比野則彦",
+    "discogs": "234496",
+    "wikipedia": "https://en.wikipedia.org/wiki/Norihiko_Hibino"
+  }
+}

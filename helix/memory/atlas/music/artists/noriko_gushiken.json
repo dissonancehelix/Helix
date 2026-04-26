@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:noriko_gushiken",
+  "entity_type": "music.composer",
+  "label": "Noriko Gushiken",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Rock'n Rage"
+    ],
+    "artist_keys": [
+      "Noriko Gushiken"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

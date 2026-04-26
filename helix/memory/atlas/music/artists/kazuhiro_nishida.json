@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:kazuhiro_nishida",
+  "entity_type": "music.composer",
+  "label": "Kazuhiro Nishida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Alpha Mission II",
+      "Fatal Fury",
+      "Guerrilla War",
+      "Iron Tank",
+      "King of the Monsters",
+      "P.O.W.",
+      "Psycho Soldier",
+      "Robo Army",
+      "The King of Fighters '96"
+    ],
+    "artist_keys": [
+      "Kazuhiro Nishida"
+    ],
+    "track_count": 76
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q40537605",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

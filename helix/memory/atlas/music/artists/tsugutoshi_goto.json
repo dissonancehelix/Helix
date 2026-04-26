@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:tsugutoshi_goto",
+  "entity_type": "music.composer",
+  "label": "Tsugutoshi Goto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Great Sluggers '94",
+      "Pro Mahjong Kiwame",
+      "Pro Mahjong Kiwame II",
+      "Pro Mahjong Kiwame III",
+      "Ultima",
+      "Yakouchuu"
+    ],
+    "artist_keys": [
+      "Tsugutoshi Goto"
+    ],
+    "track_count": 75
+  },
+  "external_ids": {
+    "vgmdb": "2960",
+    "musicbrainz": "0a7ad492-fb7f-4c91-9783-ccaba0167cf2",
+    "wikidata": "Q11488527",
+    "spotify": "2ow0ZBGPMqqthUauyJhmM4",
+    "lastfm": "後藤次利",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsugutoshi_Got%C5%8D"
+  }
+}

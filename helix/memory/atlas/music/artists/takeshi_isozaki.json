@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takeshi_isozaki",
+  "entity_type": "music.composer",
+  "label": "Takeshi Isozaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sega Rally 2006",
+      "Sonic the Hedgehog",
+      "Yakuza 5"
+    ],
+    "artist_keys": [
+      "Takeshi Isozaki"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "12336",
+    "musicbrainz": "36d06f31-b512-4ecc-ad71-67b3f47dc77c",
+    "wikidata": "Q18459197",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

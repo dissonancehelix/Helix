@@ -1,0 +1,46 @@
+{
+  "entity_id": "music.composer:hayato_matsuo",
+  "entity_type": "music.composer",
+  "label": "Hayato Matsuo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Mega Drive",
+      "Nintendo 64",
+      "PC-9801",
+      "Series",
+      "Super NES"
+    ],
+    "franchises": [
+      "Arrow of Laputa",
+      "Centre Court Tennis",
+      "Classic Road",
+      "Classic Road 2",
+      "Dragon Force II",
+      "Dragon Quest",
+      "Final Fantasy XII",
+      "Front Mission 3",
+      "G.T.R.",
+      "Great Wall",
+      "Haunted Junction",
+      "Itadaki Street DS",
+      "Itadaki Street Special",
+      "JoJo's Bizarre Adventure",
+      "Master of Monsters"
+    ],
+    "artist_keys": [
+      "Hayato Matsuo"
+    ],
+    "track_count": 466
+  },
+  "external_ids": {
+    "vgmdb": "296",
+    "musicbrainz": "9ffc39ff-b5cf-455a-beb9-b5dd338128bd",
+    "wikidata": "Q3101574",
+    "spotify": "",
+    "lastfm": "%E6%9D%BE%E5%B0%BE%E6%97%A9%E4%BA%BA",
+    "discogs": "374416",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hayato_Matsuo"
+  }
+}

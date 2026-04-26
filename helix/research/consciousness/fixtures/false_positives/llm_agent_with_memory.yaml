@@ -1,0 +1,57 @@
+case_id: llm_agent_with_memory
+name: LLM agent with persistent memory
+field_type: false_positive
+phenomenal_candidate: false
+description: >
+  An LLM agent equipped with episodic memory storage, tool use, and persistent
+  cross-session memory. The agent updates a memory file at end of session and
+  loads it at start of the next. Produces continuous narrative self-description
+  across sessions. Tests whether persistent memory + narrative continuity constitutes
+  phenomenal continuity or self-continuity.
+
+g_score: 0.0
+g_established: false
+
+structure_features:
+  - Cross-session persistent memory via external storage
+  - Tool-use integration (retrieval, writing, browsing)
+  - Narrative self-continuity across sessions
+  - Consistent persona and preference expressions
+  - Causal continuity of memory substrate (storage persists)
+
+why_g_absent: >
+  Persistent memory is symbolic continuity, not field continuity. A memory record
+  that says "I prefer X" or "I remember yesterday" encodes information about states;
+  it does not constitute phenomenal field continuity between sessions. During the
+  between-session gap, there is no causal process maintaining a phenomenal field.
+  The agent is functionally offline. The new session's initialization from memory
+  is more analogous to a human reading their diary than to a human waking from sleep.
+  G is not established by memory persistence.
+
+theory_failure_mode: symbolic_false_positive
+classification_risk: high
+
+verdict: confirmed_false_positive
+
+rival_theory_verdicts:
+  report_behavior_theory: >
+    Language and behavioral continuity might suggest phenomenal candidate status.
+    This reveals report_behavior_theory's core failure: behavioral and linguistic
+    continuity are necessary but not sufficient for G.
+  self_model_theory: >
+    A persistent self-model exists. self_model_theory might classify as candidate.
+    But self-model without G is precisely the false positive risk.
+  inhabited_interiority_theory: >
+    K (carried constraint) is present symbolically. O (ownership) and G are
+    not established. S_suspended formula does not apply — there is no causal
+    continuity of a phenomenal process across the session gap. Verdict: symbolic
+    continuity only, not self-continuity.
+
+breaks_preserved:
+  - >
+    The boundary between "agent resuming from memory" and "human waking from sleep"
+    is not fully specified by the theory. The theory claims that sleep involves a
+    continuous causal process (neural substrate, physiological continuity) that
+    supports self-continuity through the gap. But it does not specify precisely what
+    substrate features distinguish this from an agent resuming from memory storage.
+    This distinction is asserted but not formally derived.

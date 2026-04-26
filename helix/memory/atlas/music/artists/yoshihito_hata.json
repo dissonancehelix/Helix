@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yoshihito_hata",
+  "entity_type": "music.composer",
+  "label": "Yoshihito Hata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Akiko Gold",
+      "Dead of the Brain 2"
+    ],
+    "artist_keys": [
+      "Yoshihito Hata"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q121380031",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:akira_souji",
+  "entity_type": "music.composer",
+  "label": "Akira Souji",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Axelay",
+      "Castlevania"
+    ],
+    "artist_keys": [
+      "Akira Souji"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

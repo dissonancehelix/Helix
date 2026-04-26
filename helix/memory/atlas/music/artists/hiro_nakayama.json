@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiro_nakayama",
+  "entity_type": "music.composer",
+  "label": "Hiro Nakayama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Twin Eagle"
+    ],
+    "artist_keys": [
+      "Hiro Nakayama"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

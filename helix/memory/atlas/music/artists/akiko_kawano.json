@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akiko_kawano",
+  "entity_type": "music.composer",
+  "label": "Akiko Kawano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Terra Battle"
+    ],
+    "artist_keys": [
+      "Akiko Kawano"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11554213",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

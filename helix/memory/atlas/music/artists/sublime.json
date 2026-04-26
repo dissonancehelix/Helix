@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:sublime",
+  "entity_type": "music.composer",
+  "label": "Sublime",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "40 Oz. to Freedom",
+      "Sublime"
+    ],
+    "artist_keys": [
+      "Sublime"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "95f5b748-d370-47fe-85bd-0af2dc450bc0",
+    "wikidata": "Q591691",
+    "spotify": "0EdvGhlC1FkGItLOWQzG4J",
+    "lastfm": "Sublime",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sublime_(band)"
+  }
+}

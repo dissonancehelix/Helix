@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:mike_patton",
+  "entity_type": "music.composer",
+  "label": "Mike Patton",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Mike Patton"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "6e891631-d99c-4768-8bc2-5e5feb42881c",
+    "wikidata": "Q316878",
+    "spotify": "",
+    "lastfm": "Mike+Patton",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mike_Patton"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kaori_ohshima",
+  "entity_type": "music.composer",
+  "label": "Kaori Ohshima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Getsumen no Anubis"
+    ],
+    "artist_keys": [
+      "Kaori Ohshima"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

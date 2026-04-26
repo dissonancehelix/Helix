@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:gipsy_kings",
+  "entity_type": "music.composer",
+  "label": "Gipsy Kings",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Gipsy Kings"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "14676",
+    "musicbrainz": "44a7f7d5-79df-4f44-8f5e-02dfc0626904",
+    "wikidata": "Q40586",
+    "spotify": "3jc496ljiyrS3ECrD7QiqL",
+    "lastfm": "Gipsy+Kings",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gipsy_Kings"
+  }
+}

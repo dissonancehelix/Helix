@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:paul_leonard_morgan",
+  "entity_type": "music.composer",
+  "label": "Paul Leonard-Morgan",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Cyberpunk 2077"
+    ],
+    "artist_keys": [
+      "Paul Leonard-Morgan"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "35855",
+    "musicbrainz": "6dff0382-de9d-4695-b221-5eac7b3c5ef5",
+    "wikidata": "Q682026",
+    "spotify": "0360rTDeUjEyBXaz2Ki00a",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_Leonard-Morgan"
+  }
+}

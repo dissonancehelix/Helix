@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:swindle",
+  "entity_type": "music.composer",
+  "label": "Swindle",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fabriclive 75",
+      "Unlimited"
+    ],
+    "artist_keys": [
+      "Swindle"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1790526",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Swindle_(2002_film)"
+  }
+}

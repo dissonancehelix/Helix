@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:vampire_weekend",
+  "entity_type": "music.composer",
+  "label": "Vampire Weekend",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Contra",
+      "Father of the Bride",
+      "Modern Vampires of the City",
+      "Only God Was Above Us",
+      "Vampire Weekend"
+    ],
+    "artist_keys": [
+      "Vampire Weekend"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "af37c51c-0790-4a29-b995-456f98a6b8c9",
+    "wikidata": "Q816452",
+    "spotify": "5BvJzeQpmsdsFp4HGUYUEx",
+    "lastfm": "Vampire+Weekend",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vampire_Weekend"
+  }
+}

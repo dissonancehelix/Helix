@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:primus",
+  "entity_type": "music.composer",
+  "label": "Primus",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Animals Should Not Try to Act Like People",
+      "Antipop",
+      "Brown Album",
+      "Conspiranoid",
+      "Frizzle Fry",
+      "Green Naugahyde",
+      "Pork Soda",
+      "Primus & the Chocolate Factory",
+      "Sailing the Seas of Cheese",
+      "Suck on This",
+      "Tales from the Punchbowl",
+      "The Desaturating Seven"
+    ],
+    "artist_keys": [
+      "Primus"
+    ],
+    "track_count": 131
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "84dc4f23-c0b8-4fe1-bbca-a3993ddc8fc2",
+    "wikidata": "Q741836",
+    "spotify": "64mPnRMMeudAet0E62ypkx",
+    "lastfm": "Primus",
+    "discogs": "251594",
+    "wikipedia": "https://en.wikipedia.org/wiki/Primus_(band)"
+  }
+}

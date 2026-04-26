@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hideki_takahagi",
+  "entity_type": "music.composer",
+  "label": "Hideki Takahagi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Psychic Force",
+      "The Jetsons"
+    ],
+    "artist_keys": [
+      "Hideki Takahagi"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mitsuteru_furukawa",
+  "entity_type": "music.composer",
+  "label": "Mitsuteru Furukawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Spin Master"
+    ],
+    "artist_keys": [
+      "Mitsuteru Furukawa"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

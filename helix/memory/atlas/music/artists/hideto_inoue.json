@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hideto_inoue",
+  "entity_type": "music.composer",
+  "label": "Hideto Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Jikkyou Powerful Pro Yakyuu '94",
+      "Tiny Toon Adventures"
+    ],
+    "artist_keys": [
+      "Hideto Inoue"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3299395",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hideto_Inoue"
+  }
+}

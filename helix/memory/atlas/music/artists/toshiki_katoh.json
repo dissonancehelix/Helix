@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:toshiki_katoh",
+  "entity_type": "music.composer",
+  "label": "Toshiki Katoh",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fairy Fencer F"
+    ],
+    "artist_keys": [
+      "Toshiki Katoh"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

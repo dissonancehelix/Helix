@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:shigenori_kamiya",
+  "entity_type": "music.composer",
+  "label": "Shigenori Kamiya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Master System",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Castle of Illusion",
+      "Legend of Illusion",
+      "Quack Shot"
+    ],
+    "artist_keys": [
+      "Shigenori Kamiya"
+    ],
+    "track_count": 54
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

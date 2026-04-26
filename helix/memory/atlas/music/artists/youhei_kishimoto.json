@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:youhei_kishimoto",
+  "entity_type": "music.composer",
+  "label": "Youhei Kishimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Violent Storm"
+    ],
+    "artist_keys": [
+      "Youhei Kishimoto"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

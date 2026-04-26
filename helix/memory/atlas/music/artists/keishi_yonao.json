@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:keishi_yonao",
+  "entity_type": "music.composer",
+  "label": "Keishi Yonao",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "FM Towns",
+      "MSX2",
+      "Mega Drive",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Asuka 120% Burning Fest.",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Hydefos",
+      "If",
+      "Mad Stalker",
+      "Mahjong Fantasia",
+      "Mahjong Fantasia II",
+      "Mahjong Fantasia III",
+      "Metal Sight",
+      "Neural Gear",
+      "Pitapat",
+      "Soundshock",
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "Keishi Yonao"
+    ],
+    "track_count": 162
+  },
+  "external_ids": {
+    "vgmdb": "39695",
+    "musicbrainz": "af48cadc-7f5e-4d90-91f6-a5e604494ce5",
+    "wikidata": "Q11346103",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2424084"
+  }
+}

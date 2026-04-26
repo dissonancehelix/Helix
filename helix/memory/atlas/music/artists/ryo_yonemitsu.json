@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryo_yonemitsu",
+  "entity_type": "music.composer",
+  "label": "Ryo Yonemitsu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Eschatos"
+    ],
+    "artist_keys": [
+      "Ryo Yonemitsu"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "708",
+    "musicbrainz": "70f0768c-656e-438b-bafe-0317e25e13bf",
+    "wikidata": "Q11604008",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

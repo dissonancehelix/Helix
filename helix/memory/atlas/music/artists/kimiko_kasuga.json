@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kimiko_kasuga",
+  "entity_type": "music.composer",
+  "label": "Kimiko Kasuga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Aggressors of Dark Kombat"
+    ],
+    "artist_keys": [
+      "Kimiko Kasuga"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

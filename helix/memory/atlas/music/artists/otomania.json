@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:otomania",
+  "entity_type": "music.composer",
+  "label": "Otomania",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Half"
+    ],
+    "artist_keys": [
+      "Otomania"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "a0bbe858-f041-4e2a-9e2a-93e8a8a8c932",
+    "wikidata": "Q11238018",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

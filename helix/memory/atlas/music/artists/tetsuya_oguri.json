@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:tetsuya_oguri",
+  "entity_type": "music.composer",
+  "label": "Tetsuya Oguri",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Mahjong Daiyogen",
+      "Mahjong Fun Club",
+      "Mahjong Natsu Monogatari"
+    ],
+    "artist_keys": [
+      "Tetsuya Oguri"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11462014",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ichiro_nemoto",
+  "entity_type": "music.composer",
+  "label": "Ichiro Nemoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Arabian Nights"
+    ],
+    "artist_keys": [
+      "Ichiro Nemoto"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

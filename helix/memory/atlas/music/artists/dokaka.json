@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:dokaka",
+  "entity_type": "music.composer",
+  "label": "DOKAKA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Me & My Katamari"
+    ],
+    "artist_keys": [
+      "DOKAKA"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "10524",
+    "musicbrainz": "146ada07-7286-48ac-be4c-a2589cbffbac",
+    "wikidata": "Q3033820",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

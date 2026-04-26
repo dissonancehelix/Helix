@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masashi_harada",
+  "entity_type": "music.composer",
+  "label": "Masashi Harada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Magical Shot"
+    ],
+    "artist_keys": [
+      "Masashi Harada"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q15406006",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

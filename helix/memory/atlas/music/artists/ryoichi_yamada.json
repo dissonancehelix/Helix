@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:ryoichi_yamada",
+  "entity_type": "music.composer",
+  "label": "Ryoichi Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "MagMax"
+    ],
+    "artist_keys": [
+      "Ryoichi Yamada"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q7464489",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

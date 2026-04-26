@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:naoyuki_ito",
+  "entity_type": "music.composer",
+  "label": "Naoyuki Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Ys IV"
+    ],
+    "artist_keys": [
+      "Naoyuki Ito"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q6964768",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naoyuki_It%C5%8D"
+  }
+}

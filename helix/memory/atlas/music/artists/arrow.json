@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:arrow",
+  "entity_type": "music.composer",
+  "label": "Arrow",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Arrow"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17378988",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

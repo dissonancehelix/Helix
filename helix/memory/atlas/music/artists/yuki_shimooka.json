@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yuki_shimooka",
+  "entity_type": "music.composer",
+  "label": "Yuki Shimooka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kirby Fighters 2",
+      "Kirby and the Forgotten Land",
+      "Kirby's Dream Buffet",
+      "Kirby's Return to Dream Land"
+    ],
+    "artist_keys": [
+      "Yuki Shimooka"
+    ],
+    "track_count": 102
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

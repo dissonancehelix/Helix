@@ -1,0 +1,14 @@
+{
+  "entity_id": "music.soundteam:sega_sound_team",
+  "entity_type": "SOUNDTEAM",
+  "label": "Sega Sound Team",
+  "aliases": [],
+  "description": "Sega internal music division; Mega Drive / Game Gear era",
+  "library": {
+    "sound_team_keys": [],
+    "track_count": 0,
+    "hw_seq_count": 0,
+    "platform_counts": {},
+    "hw_seq_track_ids": []
+  }
+}

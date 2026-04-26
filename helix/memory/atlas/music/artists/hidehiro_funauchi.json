@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hidehiro_funauchi",
+  "entity_type": "music.composer",
+  "label": "Hidehiro Funauchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "NES"
+    ],
+    "franchises": [
+      "Castlevania",
+      "Castlevania II",
+      "Operation C",
+      "Tiny Toon Adventures",
+      "TwinBee 3"
+    ],
+    "artist_keys": [
+      "Hidehiro Funauchi"
+    ],
+    "track_count": 62
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

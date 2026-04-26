@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:miki_fujimoto",
+  "entity_type": "music.composer",
+  "label": "Miki Fujimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Remake"
+    ],
+    "artist_keys": [
+      "Miki Fujimoto"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "1f06f758-2010-4eaa-bd4d-c7950a6c807d",
+    "wikidata": "Q1142789",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miki_Fujimoto"
+  }
+}

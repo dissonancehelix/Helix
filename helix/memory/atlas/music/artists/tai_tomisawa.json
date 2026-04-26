@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tai_tomisawa",
+  "entity_type": "music.composer",
+  "label": "Tai Tomisawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Elden Ring",
+      "Elden Ring Nightreign",
+      "Final Fantasy XV"
+    ],
+    "artist_keys": [
+      "Tai Tomisawa"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

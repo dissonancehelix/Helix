@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:william_kage",
+  "entity_type": "music.composer",
+  "label": "William Kage",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fragrant Story"
+    ],
+    "artist_keys": [
+      "William Kage"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

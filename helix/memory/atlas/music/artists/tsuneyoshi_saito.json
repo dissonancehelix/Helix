@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:tsuneyoshi_saito",
+  "entity_type": "music.composer",
+  "label": "Tsuneyoshi Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Professor Layton and the Eternal Diva"
+    ],
+    "artist_keys": [
+      "Tsuneyoshi Saito"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "643",
+    "musicbrainz": "cec089e9-261a-4524-86f0-d8b410a2500d",
+    "wikidata": "Q11500280",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tsuneyoshi_Saito"
+  }
+}

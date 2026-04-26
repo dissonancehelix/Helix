@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:kenichi_tokoi",
+  "entity_type": "music.composer",
+  "label": "Kenichi Tokoi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Daytona USA",
+      "Dengeki Bunko",
+      "Idola",
+      "Like a Dragon",
+      "Mario; Sonic the Hedgehog",
+      "Phantasy Star Online",
+      "Phantasy Star Online 2 Episode 1",
+      "Phantasy Star Online 2 Episode 3",
+      "Phantasy Star Online 2 New Genesis",
+      "Phantasy Star Online Episode III",
+      "Phantasy Star Portable",
+      "Phantasy Star Portable 2",
+      "Phantasy Star Universe",
+      "Samba de Amigo",
+      "Shadow the Hedgehog"
+    ],
+    "artist_keys": [
+      "Kenichi Tokoi"
+    ],
+    "track_count": 471
+  },
+  "external_ids": {
+    "vgmdb": "257",
+    "musicbrainz": "eeb57db2-3cf3-4d72-bf92-a44d1fd19874",
+    "wikidata": "Q4459598",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "237531"
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {"id": "conv_01", "register": "conversational", "text": "ねえ、後 で 来る なら 席 を 取っておく よ。"},
+  {"id": "conv_02", "register": "conversational", "text": "何 してる か 知らない けど、出る とき 電話 して。"},
+  {"id": "conv_03", "register": "conversational", "text": "ちょっと、遅く なる から 先 に 始めて。"},
+  {"id": "conv_04", "register": "conversational", "text": "市場 に 行く の、それとも ここ に いる？"},
+  {"id": "formal_01", "register": "formal", "text": "ご 注目 いただき 誠に ありがとう ございます。ご 不明 な 点 が ございましたら お気軽 に ご 連絡 ください。"},
+  {"id": "formal_02", "register": "formal", "text": "申請 は 公募 要項 に 定める 基準 に 従い 審査 いたします。"},
+  {"id": "formal_03", "register": "formal", "text": "手続き は 来週 月曜日 より 施行 される こと を お知らせ いたします。"},
+  {"id": "formal_04", "register": "formal", "text": "問題 が 発生 した 場合 は 書面 にて ご 提出 ください。"},
+  {"id": "narrative_01", "register": "narrative", "text": "犬 たち が 広場 の そば で 眠る 中、村 に 雨 が 降った。"},
+  {"id": "narrative_02", "register": "narrative", "text": "ドア を 開けた とき、空 の 廊下 で 光 が 揺れて いた。"},
+  {"id": "narrative_03", "register": "narrative", "text": "列車 は 夜明け に 出発 し、谷 の 白い 家々 を 後 に した。"},
+  {"id": "narrative_04", "register": "narrative", "text": "誰 も 話さなかった が、その 夜 が すべて を 変える と 皆 わかって いた。"}
+]

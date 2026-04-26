@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:kazuya_fujishima",
+  "entity_type": "music.composer",
+  "label": "Kazuya Fujishima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "OLIO",
+      "OLIO3"
+    ],
+    "artist_keys": [
+      "Kazuya Fujishima"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

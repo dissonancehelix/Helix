@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ritchie_valens",
+  "entity_type": "music.composer",
+  "label": "Ritchie Valens",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Ritchie Valens"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "5222714d-21ee-4061-87f7-c749f1586790",
+    "wikidata": "Q309725",
+    "spotify": "",
+    "lastfm": "Ritchie+Valens",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ritchie_Valens"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masaru_tajima",
+  "entity_type": "music.composer",
+  "label": "Masaru Tajima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Donkey Kong Country Returns",
+      "Galactic Pinball"
+    ],
+    "artist_keys": [
+      "Masaru Tajima"
+    ],
+    "track_count": 46
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

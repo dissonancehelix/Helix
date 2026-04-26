@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:masaaki_uno",
+  "entity_type": "music.composer",
+  "label": "Masaaki Uno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "PC-8801",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Arcus",
+      "Arcus II",
+      "D",
+      "FZ Senki Axis",
+      "Granada",
+      "Mid",
+      "Ryu",
+      "Yaksa",
+      "Zan",
+      "Zan Gear"
+    ],
+    "artist_keys": [
+      "Masaaki Uno"
+    ],
+    "track_count": 154
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

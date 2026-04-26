@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takashi_jinno",
+  "entity_type": "music.composer",
+  "label": "Takashi Jinno",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Half"
+    ],
+    "artist_keys": [
+      "Takashi Jinno"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "4b976997-8ba2-4cbf-a97d-e3b0b9c21809",
+    "wikidata": "Q11590990",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

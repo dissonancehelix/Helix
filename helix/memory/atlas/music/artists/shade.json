@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:shade",
+  "entity_type": "music.composer",
+  "label": "Shade",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rakugaki Kingdom"
+    ],
+    "artist_keys": [
+      "Shade"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q7460261",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shade_(video_game)"
+  }
+}

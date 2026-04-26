@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:scattle",
+  "entity_type": "music.composer",
+  "label": "Scattle",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hotline Miami",
+      "Streets of Rage 4"
+    ],
+    "artist_keys": [
+      "Scattle"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

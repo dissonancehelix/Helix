@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:mina_hatazoe",
+  "entity_type": "music.composer",
+  "label": "Mina Hatazoe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Azure Striker Gunvolt",
+      "Mighty Gunvolt"
+    ],
+    "artist_keys": [
+      "Mina Hatazoe"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

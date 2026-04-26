@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:paul_gadbois",
+  "entity_type": "music.composer",
+  "label": "Paul Gadbois",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Bonkers",
+      "Dinosaurs for Hire",
+      "Greendog",
+      "Home Alone 2",
+      "TaleSpin"
+    ],
+    "artist_keys": [
+      "Paul Gadbois"
+    ],
+    "track_count": 48
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

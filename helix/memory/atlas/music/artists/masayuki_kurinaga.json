@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masayuki_kurinaga",
+  "entity_type": "music.composer",
+  "label": "Masayuki Kurinaga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "UWC"
+    ],
+    "artist_keys": [
+      "Masayuki Kurinaga"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

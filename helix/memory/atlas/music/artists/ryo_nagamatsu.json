@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:ryo_nagamatsu",
+  "entity_type": "music.composer",
+  "label": "Ryo Nagamatsu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Big Brain Academy",
+      "Mario",
+      "Mario Kart 8",
+      "Mario Kart Tour",
+      "Mario Kart Wii",
+      "New Super Mario Bros. Wii",
+      "Nintendo Land",
+      "Splatoon 2",
+      "Splatoon 3",
+      "Super Mario Galaxy 2"
+    ],
+    "artist_keys": [
+      "Ryo Nagamatsu"
+    ],
+    "track_count": 514
+  },
+  "external_ids": {
+    "vgmdb": "7962",
+    "musicbrainz": "5ec114e3-a462-4e90-bc7f-839cb1fa3068",
+    "wikidata": "Q11550112",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4239692",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ry%C5%8D_Nagamatsu"
+  }
+}

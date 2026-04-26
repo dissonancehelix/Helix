@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:uru",
+  "entity_type": "music.composer",
+  "label": "URU",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "MCMLXC"
+    ],
+    "artist_keys": [
+      "URU"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hiroyuki_anazawa",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Anazawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario; Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Hiroyuki Anazawa"
+    ],
+    "track_count": 44
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

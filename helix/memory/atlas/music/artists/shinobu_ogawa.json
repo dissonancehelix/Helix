@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:shinobu_ogawa",
+  "entity_type": "music.composer",
+  "label": "Shinobu Ogawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC Engine",
+      "Sega CD",
+      "X68000"
+    ],
+    "franchises": [
+      "Beast Wrestler",
+      "Death Bringer",
+      "Gaiares",
+      "Legion",
+      "Tenshi no Uta",
+      "Valis",
+      "Valis II"
+    ],
+    "artist_keys": [
+      "Shinobu Ogawa"
+    ],
+    "track_count": 102
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

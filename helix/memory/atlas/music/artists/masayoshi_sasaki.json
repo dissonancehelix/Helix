@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masayoshi_sasaki",
+  "entity_type": "music.composer",
+  "label": "Masayoshi Sasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Masayoshi Sasaki"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11382297",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:takayuki_aihara",
+  "entity_type": "music.composer",
+  "label": "Takayuki Aihara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS"
+    ],
+    "franchises": [
+      "Children of Mana",
+      "Cyber Cycles",
+      "Dirt Dash",
+      "Escape Goat",
+      "FM Sound Module Maniax",
+      "Fighter & Attacker",
+      "Fighting Layer",
+      "G.T.R.",
+      "Great Sluggers",
+      "Great Sluggers '94",
+      "Great Wall",
+      "Knuckle Heads",
+      "Phantasy Star Online Episode I & II Premium Arrange",
+      "Rave Racer",
+      "Ridge Racer 2"
+    ],
+    "artist_keys": [
+      "Takayuki Aihara"
+    ],
+    "track_count": 127
+  },
+  "external_ids": {
+    "vgmdb": "299",
+    "musicbrainz": "6bdc2ed1-e1d7-4d96-9966-2399ec596ce3",
+    "wikidata": "Q11581936",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "487886"
+  }
+}

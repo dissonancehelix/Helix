@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:das_mrtal",
+  "entity_type": "music.composer",
+  "label": "Das Mörtal",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Streets of Rage 4"
+    ],
+    "artist_keys": [
+      "Das Mörtal"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

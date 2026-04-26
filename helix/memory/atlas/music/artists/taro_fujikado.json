@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:taro_fujikado",
+  "entity_type": "music.composer",
+  "label": "Taro Fujikado",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0"
+    ],
+    "artist_keys": [
+      "Taro Fujikado"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "7667",
+    "musicbrainz": "3670b34f-ef38-45c4-948c-6948307d3686",
+    "wikidata": "Q11625044",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

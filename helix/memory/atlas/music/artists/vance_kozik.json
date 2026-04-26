@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:vance_kozik",
+  "entity_type": "music.composer",
+  "label": "Vance Kozik",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Exodus"
+    ],
+    "artist_keys": [
+      "Vance Kozik"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "domain": "music",
+    "system_description": "Four rhythmic voices modelled as coupled oscillators. Strong coupling K=2.5 drives rapid phase synchronisation.",
+    "oscillators": [
+        {"id": "kick_drum", "initial_phase": 0.0,  "natural_frequency": 1.0},
+        {"id": "snare",     "initial_phase": 0.8,  "natural_frequency": 1.0},
+        {"id": "hi_hat",    "initial_phase": 1.6,  "natural_frequency": 2.0},
+        {"id": "bass_line", "initial_phase": 2.4,  "natural_frequency": 0.5}
+    ],
+    "coupling_strength": 2.5,
+    "n_steps": 800,
+    "dt": 0.01,
+    "notes": "K=2.5 with heterogeneous frequencies — expects R > 0.95 due to strong coupling"
+}

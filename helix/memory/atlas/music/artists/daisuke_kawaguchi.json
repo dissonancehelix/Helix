@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:daisuke_kawaguchi",
+  "entity_type": "music.composer",
+  "label": "Daisuke Kawaguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Valkyria Chronicles"
+    ],
+    "artist_keys": [
+      "Daisuke Kawaguchi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "24813",
+    "musicbrainz": "a073f47f-fae6-4e4f-a2c8-0098785a858d",
+    "wikidata": "Q11477956",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

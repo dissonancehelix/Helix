@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:manabu_saito",
+  "entity_type": "music.composer",
+  "label": "Manabu Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX2",
+      "PC-88",
+      "Super NES",
+      "X1",
+      "X68000"
+    ],
+    "franchises": [
+      "38 Man Kilo no Kokuu",
+      "Chatty",
+      "Dome",
+      "Euphory",
+      "Evolution",
+      "Providence",
+      "SmartBall",
+      "Valna",
+      "Yami no Ketsuzoku",
+      "Yuurei"
+    ],
+    "artist_keys": [
+      "Manabu Saito"
+    ],
+    "track_count": 194
+  },
+  "external_ids": {
+    "vgmdb": "3519",
+    "musicbrainz": "",
+    "wikidata": "Q1091962",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Manabu_Sait%C5%8D"
+  }
+}

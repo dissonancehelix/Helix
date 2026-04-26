@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:silkie",
+  "entity_type": "music.composer",
+  "label": "Silkie",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "BRR001",
+      "BRR001 Mixes",
+      "Bird in the Sky",
+      "City Limits Volume 1",
+      "City Limits Volume 1.2",
+      "City Limits Volume 1.4",
+      "City Limits Volume 1.6",
+      "City Limits Volume 2",
+      "Don't DJ for Free",
+      "Don't Play Games",
+      "Drunken Master / Why Not",
+      "Fabriclive 75",
+      "Favela / French Knickers",
+      "Fractals",
+      "Genesis / Dam 4"
+    ],
+    "artist_keys": [
+      "Silkie"
+    ],
+    "track_count": 162
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q494252",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Silkie"
+  }
+}

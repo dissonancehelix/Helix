@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yuichi_kanatani",
+  "entity_type": "music.composer",
+  "label": "Yuichi Kanatani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Yuichi Kanatani"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

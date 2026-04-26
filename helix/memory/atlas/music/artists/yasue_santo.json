@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yasue_santo",
+  "entity_type": "music.composer",
+  "label": "Yasue Santo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Last Battalion"
+    ],
+    "artist_keys": [
+      "Yasue Santo"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:akira_yamaoka",
+  "entity_type": "music.composer",
+  "label": "Akira Yamaoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Black Knight Sword",
+      "Contra",
+      "ESPN MLS GameNight",
+      "Ganbare Goemon",
+      "ISS Pro Evolution",
+      "International Superstar Soccer Pro",
+      "International Superstar Soccer Pro '98",
+      "Killer Is Dead",
+      "Persona; Shin Megami Tensei",
+      "Poy Poy 2"
+    ],
+    "artist_keys": [
+      "Akira Yamaoka"
+    ],
+    "track_count": 616
+  },
+  "external_ids": {
+    "vgmdb": "39559",
+    "musicbrainz": "23a32153-7314-4359-a5cd-9e584fe83504",
+    "wikidata": "Q315850",
+    "spotify": "6f7UIM59MQy6y0bJmQcRNe",
+    "lastfm": "Akira+Yamaoka",
+    "discogs": "98460",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akira_Yamaoka"
+  }
+}

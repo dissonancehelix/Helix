@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hiromu_akaba",
+  "entity_type": "music.composer",
+  "label": "Hiromu Akaba",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Hiromu Akaba"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

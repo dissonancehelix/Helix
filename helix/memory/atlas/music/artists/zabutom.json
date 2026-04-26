@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:zabutom",
+  "entity_type": "music.composer",
+  "label": "zabutom",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock"
+    ],
+    "artist_keys": [
+      "zabutom"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

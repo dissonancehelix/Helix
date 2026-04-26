@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masatoshi_hashimoto",
+  "entity_type": "music.composer",
+  "label": "Masatoshi Hashimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Libble Rabble"
+    ],
+    "artist_keys": [
+      "Masatoshi Hashimoto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q125294890",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

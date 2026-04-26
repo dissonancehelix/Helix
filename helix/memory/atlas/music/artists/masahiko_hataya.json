@@ -1,0 +1,37 @@
+{
+  "entity_id": "music.composer:masahiko_hataya",
+  "entity_type": "music.composer",
+  "label": "Masahiko Hataya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "3 Count Bout",
+      "Art of Fighting",
+      "Art of Fighting 3",
+      "Fatal Fury 3",
+      "Ghost Pilots",
+      "Mutation Nation",
+      "Prehistoric Isle 2",
+      "SNK vs. Capcom",
+      "Samurai Shodown",
+      "Shock Troopers",
+      "The Irritating Maze",
+      "The King of Fighters '94",
+      "The King of Fighters '95",
+      "The King of Fighters '96",
+      "The King of Fighters 2001"
+    ],
+    "artist_keys": [
+      "Masahiko Hataya"
+    ],
+    "track_count": 246
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

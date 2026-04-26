@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:kazuhiko_nagai",
+  "entity_type": "music.composer",
+  "label": "Kazuhiko Nagai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Master System",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Cyborg Hunter",
+      "Ghostbusters",
+      "Holosseum",
+      "Hoshi wo Sagashite...",
+      "Maze Hunter 3",
+      "Mystic Defender",
+      "Pyramid Magic III",
+      "Quiz Syukudai wo Wasuremashita",
+      "Rad Mobile",
+      "Rambo III",
+      "Spider"
+    ],
+    "artist_keys": [
+      "Kazuhiko Nagai"
+    ],
+    "track_count": 82
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

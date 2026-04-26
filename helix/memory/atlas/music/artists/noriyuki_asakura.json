@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:noriyuki_asakura",
+  "entity_type": "music.composer",
+  "label": "Noriyuki Asakura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rune Factory",
+      "Sekiro"
+    ],
+    "artist_keys": [
+      "Noriyuki Asakura"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "2022",
+    "musicbrainz": "6bd5a27a-7278-4ec3-8846-1ae2d43297e6",
+    "wikidata": "Q2470862",
+    "spotify": "",
+    "lastfm": "Noriyuki+Asakura",
+    "wikipedia": "https://en.wikipedia.org/wiki/Noriyuki_Asakura"
+  }
+}

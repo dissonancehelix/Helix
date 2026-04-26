@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:yukihiro_jindo",
+  "entity_type": "music.composer",
+  "label": "Yukihiro Jindo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Brandish",
+      "Falcom Boss Zanmai",
+      "Falcom Field Zanmai",
+      "Gurumin",
+      "Soulcalibur VI",
+      "Tokyo Xanadu",
+      "Trails / Kiseki",
+      "Trails in the Sky 1st Chapter",
+      "Trails in the Sky FC & SC Super Arrange",
+      "Vantage Master Portable",
+      "Xanadu Next",
+      "Ys",
+      "Ys I & II Chronicles",
+      "Ys IX",
+      "Ys Origin"
+    ],
+    "artist_keys": [
+      "Yukihiro Jindo"
+    ],
+    "track_count": 449
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

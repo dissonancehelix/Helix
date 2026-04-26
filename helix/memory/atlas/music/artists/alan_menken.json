@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:alan_menken",
+  "entity_type": "music.composer",
+  "label": "Alan Menken",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Aladdin",
+      "Beauty and the Beast",
+      "Hercules",
+      "The Hunchback of Notre Dame",
+      "The Little Mermaid"
+    ],
+    "artist_keys": [
+      "Alan Menken"
+    ],
+    "track_count": 95
+  },
+  "external_ids": {
+    "vgmdb": "51140",
+    "musicbrainz": "817c68f4-e110-4529-82fa-aec902e9768f",
+    "wikidata": "Q317272",
+    "spotify": "5sy77gt4bfsLcSQ8GIe4ZZ",
+    "lastfm": "",
+    "discogs": "546819",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alan_Menken"
+  }
+}

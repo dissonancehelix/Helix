@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takashi_niigaki",
+  "entity_type": "music.composer",
+  "label": "Takashi Niigaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Onimusha",
+      "Resident Evil"
+    ],
+    "artist_keys": [
+      "Takashi Niigaki"
+    ],
+    "track_count": 78
+  },
+  "external_ids": {
+    "vgmdb": "28827",
+    "musicbrainz": "88096c68-93a4-4819-9e1b-7d6e8c207f3c",
+    "wikidata": "Q15711659",
+    "spotify": "47nR4sQ6HcwB9mdDhIMdYk",
+    "lastfm": "",
+    "discogs": "1490930",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takashi_Niigaki"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:rbu",
+  "entity_type": "music.composer",
+  "label": "R.B.U.",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "R.B.U."
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

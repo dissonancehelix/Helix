@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:brian_tyler",
+  "entity_type": "music.composer",
+  "label": "Brian Tyler",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Assassin's Creed IV"
+    ],
+    "artist_keys": [
+      "Brian Tyler"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "11992",
+    "musicbrainz": "23d89243-79c9-4afc-8db5-fce27e7ba78d",
+    "wikidata": "Q251144",
+    "spotify": "109FvbnDVNag1UcJDVpFlr",
+    "lastfm": "Brian+Tyler",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brian_Tyler"
+  }
+}

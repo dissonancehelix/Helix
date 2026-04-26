@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toshiki_konishi",
+  "entity_type": "music.composer",
+  "label": "Toshiki Konishi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metaphor",
+      "Persona; Shin Megami Tensei",
+      "Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Toshiki Konishi"
+    ],
+    "track_count": 316
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

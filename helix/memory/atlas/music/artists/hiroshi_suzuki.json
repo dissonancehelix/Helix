@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:hiroshi_suzuki",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Storm",
+      "Hatris",
+      "Super Fire Pro Wrestling"
+    ],
+    "artist_keys": [
+      "Hiroshi Suzuki"
+    ],
+    "track_count": 48
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100689932",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:tomohiko_kira",
+  "entity_type": "music.composer",
+  "label": "Tomohiko Kira",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Bomberman 64",
+      "To Far Away Times"
+    ],
+    "artist_keys": [
+      "Tomohiko Kira"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "3701",
+    "musicbrainz": "fc8c5efe-1bc7-4e6b-991e-afaf11006c74",
+    "wikidata": "Q3531385",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tomohiko_Kira"
+  }
+}

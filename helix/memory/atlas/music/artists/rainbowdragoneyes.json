@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:rainbowdragoneyes",
+  "entity_type": "music.composer",
+  "label": "Rainbowdragoneyes",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Messenger"
+    ],
+    "artist_keys": [
+      "Rainbowdragoneyes"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

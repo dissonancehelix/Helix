@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:camellia",
+  "entity_type": "music.composer",
+  "label": "Camellia",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Racing"
+    ],
+    "artist_keys": [
+      "Camellia"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q212815",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Camellia"
+  }
+}

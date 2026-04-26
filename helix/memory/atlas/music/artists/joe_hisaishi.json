@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:joe_hisaishi",
+  "entity_type": "music.composer",
+  "label": "Joe Hisaishi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ni no Kuni",
+      "Ni no Kuni II",
+      "Spirited Away"
+    ],
+    "artist_keys": [
+      "Joe Hisaishi"
+    ],
+    "track_count": 82
+  },
+  "external_ids": {
+    "vgmdb": "752",
+    "musicbrainz": "44c64a30-1d58-49c5-b314-6e02fba49526",
+    "wikidata": "Q275900",
+    "spotify": "7nzSoJISlVJsn7O0yTeMOB",
+    "lastfm": "",
+    "discogs": "221662",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joe_Hisaishi"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:stewart_copeland",
+  "entity_type": "music.composer",
+  "label": "Stewart Copeland",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Spyro",
+      "Spyro 2",
+      "Spyro Reignited Trilogy",
+      "Spyro the Dragon"
+    ],
+    "artist_keys": [
+      "Stewart Copeland"
+    ],
+    "track_count": 146
+  },
+  "external_ids": {
+    "vgmdb": "5209",
+    "musicbrainz": "d74b89d4-ae61-4508-a890-9343c617673a",
+    "wikidata": "Q315711",
+    "spotify": "4XVxeuUkJRiCYJYdqRpwab",
+    "lastfm": "Stewart+Copeland",
+    "discogs": "126442",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stewart_Copeland"
+  }
+}

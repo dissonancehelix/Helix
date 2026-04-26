@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:yuji_masubuchi",
+  "entity_type": "music.composer",
+  "label": "Yuji Masubuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Beautiful Katamari",
+      "Katamari Damacy Rolling Live",
+      "Klonoa 2",
+      "Klonoa Heroes",
+      "Once Upon a Katamari",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Taiko no Tatsujin",
+      "Xevious 30th Anniversary Tribute"
+    ],
+    "artist_keys": [
+      "Yuji Masubuchi"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q63848650",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

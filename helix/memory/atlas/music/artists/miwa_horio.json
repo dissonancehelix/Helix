@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:miwa_horio",
+  "entity_type": "music.composer",
+  "label": "Miwa Horio",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Odin Sphere"
+    ],
+    "artist_keys": [
+      "Miwa Horio"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

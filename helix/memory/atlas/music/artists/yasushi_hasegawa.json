@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yasushi_hasegawa",
+  "entity_type": "music.composer",
+  "label": "Yasushi Hasegawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "WWF SmackDown! 2"
+    ],
+    "artist_keys": [
+      "Yasushi Hasegawa"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q89540298",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

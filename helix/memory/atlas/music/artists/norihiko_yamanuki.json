@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:norihiko_yamanuki",
+  "entity_type": "music.composer",
+  "label": "Norihiko Yamanuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Madou King Granzort",
+      "The 7th Saga"
+    ],
+    "artist_keys": [
+      "Norihiko Yamanuki"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

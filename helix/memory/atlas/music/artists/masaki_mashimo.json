@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:masaki_mashimo",
+  "entity_type": "music.composer",
+  "label": "Masaki Mashimo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Busou Shinki Battle Masters Mk.2"
+    ],
+    "artist_keys": [
+      "Masaki Mashimo"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:quasi",
+  "entity_type": "music.composer",
+  "label": "Quasi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "American Gong",
+      "Field Studies"
+    ],
+    "artist_keys": [
+      "Quasi"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "3df29542-402a-49a5-ae1f-82f936184b3b",
+    "wikidata": "Q7269434",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Quasi_(band)"
+  }
+}

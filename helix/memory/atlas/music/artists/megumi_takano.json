@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:megumi_takano",
+  "entity_type": "music.composer",
+  "label": "Megumi Takano",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Border Break",
+      "Shining Force Cross Raid"
+    ],
+    "artist_keys": [
+      "Megumi Takano"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

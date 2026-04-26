@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:as",
+  "entity_type": "music.composer",
+  "label": "A.S",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Puzz Loop"
+    ],
+    "artist_keys": [
+      "A.S"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q77872838",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

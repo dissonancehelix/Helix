@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:blaine_mcgurty",
+  "entity_type": "music.composer",
+  "label": "Blaine McGurty",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Skullgirls"
+    ],
+    "artist_keys": [
+      "Blaine McGurty"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "5328",
+    "musicbrainz": "",
+    "wikidata": "Q130367928",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

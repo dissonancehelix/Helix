@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yasuko_yamada_naoto_yagishita",
+  "entity_type": "music.composer",
+  "label": "Yasuko Yamada, Naoto Yagishita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "The Flintstones"
+    ],
+    "artist_keys": [
+      "Yasuko Yamada, Naoto Yagishita"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

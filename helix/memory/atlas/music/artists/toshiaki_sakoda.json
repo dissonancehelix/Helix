@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:toshiaki_sakoda",
+  "entity_type": "music.composer",
+  "label": "Toshiaki Sakoda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Gear",
+      "MSX2",
+      "Mega Drive",
+      "PC Engine",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aleste 2",
+      "Aleste Gaiden",
+      "Alien Crush",
+      "Blaster Burn",
+      "Dragon's Fury",
+      "GG Aleste",
+      "Gun",
+      "M.U.S.H.A.",
+      "Madou Monogatari 1",
+      "Puyo Puyo",
+      "Puyo Puyo Tsuu",
+      "Solid Runner",
+      "Treasure Hunter G"
+    ],
+    "artist_keys": [
+      "Toshiaki Sakoda"
+    ],
+    "track_count": 153
+  },
+  "external_ids": {
+    "vgmdb": "672",
+    "musicbrainz": "fef51ce1-2e05-45af-8acd-cb9c6ca8efe8",
+    "wikidata": "Q63994297",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1640958"
+  }
+}

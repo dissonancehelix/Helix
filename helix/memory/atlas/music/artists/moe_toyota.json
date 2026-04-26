@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:moe_toyota",
+  "entity_type": "music.composer",
+  "label": "Moe Toyota",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Caravan Stories"
+    ],
+    "artist_keys": [
+      "Moe Toyota"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "16175",
+    "musicbrainz": "1da584f5-101f-4e30-ab5a-3c1639e04b45",
+    "wikidata": "Q17223309",
+    "spotify": "",
+    "lastfm": "豊田萌絵",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moe_Toyota"
+  }
+}

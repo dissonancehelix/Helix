@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:takao_ohshima",
+  "entity_type": "music.composer",
+  "label": "Takao Ohshima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Over Top",
+      "Twinkle Star Sprites",
+      "World Heroes Perfect"
+    ],
+    "artist_keys": [
+      "Takao Ohshima"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100454381",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

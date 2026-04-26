@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:peter_mcconnell",
+  "entity_type": "music.composer",
+  "label": "Peter McConnell",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Psychonauts"
+    ],
+    "artist_keys": [
+      "Peter McConnell"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "678",
+    "musicbrainz": "57524a46-e044-48cf-86e5-5e4487a9e2df",
+    "wikidata": "Q1707671",
+    "spotify": "5ApmkOetrtFUZCEQJqjejK",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peter_McConnell"
+  }
+}

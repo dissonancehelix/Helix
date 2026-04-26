@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:junichi_nakatsuru",
+  "entity_type": "music.composer",
+  "label": "Junichi Nakatsuru",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat 5",
+      "Ace Combat 6",
+      "Ace Combat 7",
+      "Ace Combat Infinity",
+      "Ace Combat Zero",
+      "Daemon X Machina",
+      "Mario Kart Arcade GP DX",
+      "New Pokémon Snap",
+      "Once Upon a Katamari",
+      "Ridge Racer 6",
+      "Ridge Racer 7",
+      "Ridge Racers",
+      "Ridge Racers 2",
+      "Soulcalibur",
+      "Soulcalibur II"
+    ],
+    "artist_keys": [
+      "Junichi Nakatsuru"
+    ],
+    "track_count": 329
+  },
+  "external_ids": {
+    "vgmdb": "895",
+    "musicbrainz": "0104d7b0-0eb3-4a69-9176-bad90de7605a",
+    "wikidata": "Q6313061",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "668179",
+    "wikipedia": "https://en.wikipedia.org/wiki/Junichi_Nakatsuru"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:asshii",
+  "entity_type": "music.composer",
+  "label": "Asshii",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Dragon Ball Z"
+    ],
+    "artist_keys": [
+      "Asshii"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

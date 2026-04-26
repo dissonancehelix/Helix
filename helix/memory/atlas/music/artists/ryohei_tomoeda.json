@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ryohei_tomoeda",
+  "entity_type": "music.composer",
+  "label": "Ryohei Tomoeda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hell Night"
+    ],
+    "artist_keys": [
+      "Ryohei Tomoeda"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

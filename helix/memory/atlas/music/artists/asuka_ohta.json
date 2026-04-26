@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:asuka_ohta",
+  "entity_type": "music.composer",
+  "label": "Asuka Ohta",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Asuka Ohta"
+    ],
+    "track_count": 71
+  },
+  "external_ids": {
+    "vgmdb": "806",
+    "musicbrainz": "291911fc-8dbf-43fa-8113-f6e079f79f11",
+    "wikidata": "Q3269801",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

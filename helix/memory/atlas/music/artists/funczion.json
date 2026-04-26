@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:funczion",
+  "entity_type": "music.composer",
+  "label": "Funczion",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yume Miru Kusuri"
+    ],
+    "artist_keys": [
+      "Funczion"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

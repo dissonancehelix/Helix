@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:brian_johnston",
+  "entity_type": "music.composer",
+  "label": "Brian Johnston",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Lemmings"
+    ],
+    "artist_keys": [
+      "Brian Johnston"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q122654361",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

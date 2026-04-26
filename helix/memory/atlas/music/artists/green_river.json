@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:green_river",
+  "entity_type": "music.composer",
+  "label": "Green River",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Come on Down",
+      "Rehab Doll/Dry As a Bone"
+    ],
+    "artist_keys": [
+      "Green River"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "78f56916-fe11-4110-8f10-d553ddf8de7b",
+    "wikidata": "Q1127431",
+    "spotify": "1XIIxzmo6BNRR4QkImSdsX",
+    "lastfm": "Green+River",
+    "wikipedia": "https://en.wikipedia.org/wiki/Green_River_(band)"
+  }
+}

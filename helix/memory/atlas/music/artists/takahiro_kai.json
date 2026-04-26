@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:takahiro_kai",
+  "entity_type": "music.composer",
+  "label": "Takahiro Kai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "404 Game Re",
+      "Like a Dragon Gaiden",
+      "Lost Judgment",
+      "Sonic Racing",
+      "Sonic Superstars",
+      "Yakuza 3",
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Takahiro Kai"
+    ],
+    "track_count": 81
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11577927",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

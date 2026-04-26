@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:kyle_misko",
+  "entity_type": "music.composer",
+  "label": "Kyle Misko",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Case of the Golden Idol",
+      "The Rise of the Golden Idol"
+    ],
+    "artist_keys": [
+      "Kyle Misko"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

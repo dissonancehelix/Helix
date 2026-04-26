@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:monaca",
+  "entity_type": "music.composer",
+  "label": "Monaca",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "NieR Re[in]carnation"
+    ],
+    "artist_keys": [
+      "Monaca"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "b525062f-fea6-4a2f-946c-7eddb8d2ed06",
+    "wikidata": "Q11231876",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

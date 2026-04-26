@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:coda",
+  "entity_type": "music.composer",
+  "label": "coda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "coda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q122373106",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

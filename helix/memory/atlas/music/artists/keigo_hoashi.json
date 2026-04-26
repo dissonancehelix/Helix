@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:keigo_hoashi",
+  "entity_type": "music.composer",
+  "label": "Keigo Hoashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Drakengard 3",
+      "Foamstars",
+      "Katamari Forever",
+      "NieR",
+      "Noby Noby Boy",
+      "SINoALICE",
+      "Soul Hackers 2",
+      "Taiko no Tatsujin",
+      "Tekken 6",
+      "Tekken Tag Tournament 2"
+    ],
+    "artist_keys": [
+      "Keigo Hoashi"
+    ],
+    "track_count": 78
+  },
+  "external_ids": {
+    "vgmdb": "7147",
+    "musicbrainz": "33c8eca1-7d27-46b5-a854-ca984e033971",
+    "wikidata": "Q11480884",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2011738"
+  }
+}

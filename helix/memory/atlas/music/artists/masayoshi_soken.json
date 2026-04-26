@@ -1,0 +1,31 @@
+{
+  "entity_id": "music.composer:masayoshi_soken",
+  "entity_type": "music.composer",
+  "label": "Masayoshi Soken",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Before Meteor",
+      "Final Fantasy",
+      "Final Fantasy XIV",
+      "Mario Hoops 3",
+      "Nanashi no Game"
+    ],
+    "artist_keys": [
+      "Masayoshi Soken"
+    ],
+    "track_count": 493
+  },
+  "external_ids": {
+    "vgmdb": "670",
+    "musicbrainz": "5c9a43b6-bc1c-46b4-9976-ded9367523c7",
+    "wikidata": "Q4354511",
+    "spotify": "6NtwaHZLhTUvERKFbFqu8S",
+    "lastfm": "祖堅正慶",
+    "discogs": "4031409",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masayoshi_Soken"
+  }
+}

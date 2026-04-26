@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kayako_maeda",
+  "entity_type": "music.composer",
+  "label": "Kayako Maeda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Master System"
+    ],
+    "franchises": [
+      "Legend of Illusion"
+    ],
+    "artist_keys": [
+      "Kayako Maeda"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

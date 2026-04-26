@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:zhenglong_zhang",
+  "entity_type": "music.composer",
+  "label": "Zhenglong Zhang",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Beggar Prince"
+    ],
+    "artist_keys": [
+      "Zhenglong Zhang"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q89521490",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shinji_ushiroda",
+  "entity_type": "music.composer",
+  "label": "Shinji Ushiroda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Donkey Kong Country Returns",
+      "Ring Fit Adventure",
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Shinji Ushiroda"
+    ],
+    "track_count": 81
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

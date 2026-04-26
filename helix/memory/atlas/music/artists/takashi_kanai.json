@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takashi_kanai",
+  "entity_type": "music.composer",
+  "label": "Takashi Kanai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Tecmo World Soccer '96",
+      "Tecmo's Deception"
+    ],
+    "artist_keys": [
+      "Takashi Kanai"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q59693395",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

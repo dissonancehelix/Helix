@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:the_eagles",
+  "entity_type": "music.composer",
+  "label": "The Eagles",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Very Best Of"
+    ],
+    "artist_keys": [
+      "The Eagles"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f46bd570-5768-462e-b84c-c7c993bbf47e",
+    "wikidata": "Q189635",
+    "spotify": "0ECwFtbIWEVNwjlrfc6xoL",
+    "lastfm": "Eagles",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eagles_(band)"
+  }
+}

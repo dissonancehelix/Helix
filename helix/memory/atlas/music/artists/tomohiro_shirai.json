@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomohiro_shirai",
+  "entity_type": "music.composer",
+  "label": "Tomohiro Shirai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "No More Heroes 2"
+    ],
+    "artist_keys": [
+      "Tomohiro Shirai"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q73292309",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

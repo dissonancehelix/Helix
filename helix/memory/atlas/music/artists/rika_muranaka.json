@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:rika_muranaka",
+  "entity_type": "music.composer",
+  "label": "Rika Muranaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Castlevania",
+      "Metal Gear Solid",
+      "Metal Gear Solid 2",
+      "Metal Gear Solid 3"
+    ],
+    "artist_keys": [
+      "Rika Muranaka"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "1781",
+    "musicbrainz": "8af53446-9f87-42d9-bdf3-d5d1ccf27d77",
+    "wikidata": "Q3935794",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rika_Muranaka"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:peter_neff",
+  "entity_type": "music.composer",
+  "label": "Peter Neff",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Spyro"
+    ],
+    "artist_keys": [
+      "Peter Neff"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q596352",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pieter_Neefs_the_Elder"
+  }
+}

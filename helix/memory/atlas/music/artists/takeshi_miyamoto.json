@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takeshi_miyamoto",
+  "entity_type": "music.composer",
+  "label": "Takeshi Miyamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mushihimesama Bug Panic"
+    ],
+    "artist_keys": [
+      "Takeshi Miyamoto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

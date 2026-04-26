@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:daisuke_kawai",
+  "entity_type": "music.composer",
+  "label": "Daisuke Kawai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Daisuke Kawai"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "5665b8c1-d7d9-4882-809f-d646b03db138",
+    "wikidata": "Q11228018",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/KM-Markit"
+  }
+}

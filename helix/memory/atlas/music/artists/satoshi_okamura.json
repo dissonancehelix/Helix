@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:satoshi_okamura",
+  "entity_type": "music.composer",
+  "label": "Satoshi Okamura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Lost Judgment",
+      "Mario; Sonic the Hedgehog",
+      "Sonic Racing",
+      "Super Monkey Ball Banana Mania"
+    ],
+    "artist_keys": [
+      "Satoshi Okamura"
+    ],
+    "track_count": 94
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11473326",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

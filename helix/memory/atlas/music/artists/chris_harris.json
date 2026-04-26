@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:chris_harris",
+  "entity_type": "music.composer",
+  "label": "Chris Harris",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter 6"
+    ],
+    "artist_keys": [
+      "Chris Harris"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q120758776",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chris_Harris_(musician)"
+  }
+}

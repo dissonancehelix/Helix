@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kaori_komuro",
+  "entity_type": "music.composer",
+  "label": "Kaori Komuro",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Nostalgia",
+      "Suikoden Tierkreis"
+    ],
+    "artist_keys": [
+      "Kaori Komuro"
+    ],
+    "track_count": 97
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:seiichi_ohnuki",
+  "entity_type": "music.composer",
+  "label": "Seiichi Ohnuki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Seiichi Ohnuki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

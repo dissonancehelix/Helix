@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:kenji_ito",
+  "entity_type": "music.composer",
+  "label": "Kenji Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "PlayStation",
+      "Super NES"
+    ],
+    "franchises": [
+      "Children of Mana",
+      "Chocobo Racing",
+      "Chocobo's Dungeon 2",
+      "Chunithm",
+      "Collaboration Album \"Message\"",
+      "Dark Chronicle Premium Arrange",
+      "Demons' Score",
+      "FM Sound Module Maniax",
+      "Final Fantasy Adventure",
+      "Final Fantasy Legend II"
+    ],
+    "artist_keys": [
+      "Kenji Ito"
+    ],
+    "track_count": 634
+  },
+  "external_ids": {
+    "vgmdb": "138",
+    "musicbrainz": "38b566b6-d675-442d-a5b5-0cdd8216dcaa",
+    "wikidata": "Q2655800",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "484787",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kenji_Ito"
+  }
+}

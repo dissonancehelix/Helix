@@ -1,0 +1,124 @@
+[
+  {
+    "id": "chess_position",
+    "name": "Chess — legal option-space / position identity",
+    "description": "A chess position as a field: the arrangement of pieces defines a constraint field of legal moves and strategic option-space. The position itself as a field structure.",
+    "field_type": "constraint_field",
+    "phenomenal_candidate": false,
+    "components": {
+      "A": 0.0,
+      "U": 0.9,
+      "D": 0.9,
+      "T": 0.6,
+      "F": 0.0
+    },
+    "c_score": 0.0,
+    "verdict": "false_positive_confirmed",
+    "revision_pressure": "Chess positions have extremely high internal unity (U) — all pieces are mutually defining, not independently existing. D is maximal — the position space is vast. K is the entire previous game (each position is the accumulated result of all prior moves). But A = 0. F = 0. The position does not inhabit itself.",
+    "breaks_preserved": [],
+    "source_anchors": [],
+    "notes": "The player's phenomenal experience of the position (seeing threats, plan-building, beauty of a combination) is the phenomenal field. The position is the constraint field."
+  },
+  {
+    "id": "magic_zones",
+    "name": "Magic: The Gathering — zones, stack, hidden/public state",
+    "description": "A Magic game as a field: zones (hand, library, graveyard, exile, stack, battlefield), state-based actions, hidden/public information asymmetry, and the stack as a last-in-first-out constraint structure.",
+    "field_type": "constraint_field",
+    "phenomenal_candidate": false,
+    "components": {
+      "A": 0.0,
+      "U": 0.7,
+      "D": 0.9,
+      "T": 0.8,
+      "F": 0.0
+    },
+    "c_score": 0.0,
+    "verdict": "false_positive_confirmed",
+    "revision_pressure": "Magic has the most complex zone/state structure of any card game. The graveyard is K in its most visible form — past cards played remain as active constraints on future play (death triggers, flashback, graveyard hate). The stack is a perfect temporal-thickness analogy: it has retention (what went on the stack) and protention (what will resolve). But A = 0.",
+    "breaks_preserved": [
+      "The Magic graveyard is functionally isomorphic to the theory's K (carried constraint). This analogy is illuminating — but it must not be used to infer that K alone produces consciousness. The Magic game has maximal K and zero A."
+    ],
+    "source_anchors": [],
+    "notes": "The stack as a formal model of temporal thickness with retention/protention structure is worth developing as a teaching analogy."
+  },
+  {
+    "id": "go_territory",
+    "name": "Go — territory, influence, life/death",
+    "description": "A Go game as a field: territory control, influence, the life/death of groups, and the ko rule as a constraint on temporal repetition.",
+    "field_type": "constraint_field",
+    "phenomenal_candidate": false,
+    "components": {
+      "A": 0.0,
+      "U": 0.8,
+      "D": 0.9,
+      "T": 0.7,
+      "F": 0.0
+    },
+    "c_score": 0.0,
+    "verdict": "false_positive_confirmed",
+    "revision_pressure": "Go's life/death criterion is about whether a group can maintain its existence within the field. This structurally parallels the viability field concept. But viability ≠ phenomenal fielding. A group of stones has viability or not; it does not inhabit anything.",
+    "breaks_preserved": [],
+    "source_anchors": [],
+    "notes": "Ko rule is interesting: it explicitly prohibits temporal repetition (no returning to a prior board state). This is a formal N (non-branching / non-repeating continuity) rule."
+  },
+  {
+    "id": "poker_hidden_state",
+    "name": "Poker — hidden state and opponent modeling",
+    "description": "A poker hand as a field: each player has hidden information (hole cards), shared information (community cards), and opponent modeling is the core cognitive demand.",
+    "field_type": "action_field",
+    "phenomenal_candidate": false,
+    "components": {
+      "A": 0.0,
+      "U": 0.5,
+      "D": 0.8,
+      "T": 0.7,
+      "F": 0.0
+    },
+    "c_score": 0.0,
+    "verdict": "false_positive_confirmed",
+    "revision_pressure": "Poker tests partial observability as a field property. The hidden state structure means the game field is not fully observable from any single agent's position. This is an interesting test for F (field inclusion): does partial observability constrain F? In phenomenal consciousness, F includes states that are phenomenally present — not just accessible. Poker's hidden cards are excluded from the opponent's field.",
+    "breaks_preserved": [],
+    "source_anchors": [],
+    "notes": "The opponent-modeling demand generates genuine phenomenal engagement in players — theory of mind applied under risk."
+  },
+  {
+    "id": "dominion_deck",
+    "name": "Dominion — deck-self as accumulated choices",
+    "description": "In Dominion, the player's deck is constructed over the game through purchase decisions. The deck is the accumulated product of all prior choices — it is K made visible.",
+    "field_type": "operational_field",
+    "phenomenal_candidate": false,
+    "components": {
+      "A": 0.0,
+      "U": 0.5,
+      "D": 0.8,
+      "T": 0.7,
+      "F": 0.0
+    },
+    "c_score": 0.0,
+    "verdict": "false_positive_confirmed",
+    "revision_pressure": "The Dominion deck is the purest game analog to the theory's K (carried constraint through time). Every card purchase is a decision that modifies the deck and persists as a constraint on future draws. The deck 'remembers' every decision. But the deck is an operational field — it does not inhabit itself.",
+    "breaks_preserved": [],
+    "source_anchors": [],
+    "notes": "This is the best deckbuilder analog to K. The deck-as-accumulated-self is a compelling analogy but must be kept strictly operational."
+  },
+  {
+    "id": "pandemic_cooperative",
+    "name": "Pandemic — cooperative viability field",
+    "description": "Pandemic as a cooperative viability field: all players are working together to maintain the viability of the global field (disease containment). The field collapses if the viability threshold is breached.",
+    "field_type": "viability_field",
+    "phenomenal_candidate": false,
+    "components": {
+      "A": 0.0,
+      "U": 0.8,
+      "D": 0.8,
+      "T": 0.7,
+      "F": 0.0
+    },
+    "c_score": 0.0,
+    "verdict": "false_positive_confirmed",
+    "revision_pressure": "Pandemic's game field is a pure viability field — it either maintains the conditions for agent action (disease contained) or collapses (outbreak chain). U is high because all agents are cooperating within a single shared constraint field. But A = 0. Viability is not phenomenal.",
+    "breaks_preserved": [],
+    "source_anchors": [],
+    "notes": "Good test case for the viability_field type. The field's survival is operationally well-defined but phenomenally empty."
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:yukio_kaneoka",
+  "entity_type": "music.composer",
+  "label": "Yukio Kaneoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Donkey Kong Jr.",
+      "Mike Tyson's Punch",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Yukio Kaneoka"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "1342",
+    "musicbrainz": "b669e085-5b6f-4299-8c86-3239ca489333",
+    "wikidata": "Q10394762",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

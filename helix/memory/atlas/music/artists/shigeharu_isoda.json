@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:shigeharu_isoda",
+  "entity_type": "music.composer",
+  "label": "Shigeharu Isoda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ooparts",
+      "Space Channel 5 Part 2",
+      "The King of Fighters EX"
+    ],
+    "artist_keys": [
+      "Shigeharu Isoda"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

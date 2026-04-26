@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:satoru_kosaki",
+  "entity_type": "music.composer",
+  "label": "Satoru Kosaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Aqua Rush",
+      "Kotoba no Puzzle",
+      "Once Upon a Katamari",
+      "Protocol",
+      "R",
+      "Tekken 4",
+      "Tekken 5",
+      "Tekken 6",
+      "Tekken Tag Tournament 2"
+    ],
+    "artist_keys": [
+      "Satoru Kosaki"
+    ],
+    "track_count": 71
+  },
+  "external_ids": {
+    "vgmdb": "47440",
+    "musicbrainz": "22f5832e-c2bd-4fc3-8e09-98e96d6a236f",
+    "wikidata": "Q1067951",
+    "spotify": "1IdRNuzZylVdtc9oA3wZTk",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Satoru_K%C5%8Dsaki"
+  }
+}

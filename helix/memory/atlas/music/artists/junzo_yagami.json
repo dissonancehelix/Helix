@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:junzo_yagami",
+  "entity_type": "music.composer",
+  "label": "Junzo Yagami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Criminal Girls",
+      "Lunar",
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Junzo Yagami"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

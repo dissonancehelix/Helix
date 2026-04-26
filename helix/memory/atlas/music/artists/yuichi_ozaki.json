@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:yuichi_ozaki",
+  "entity_type": "music.composer",
+  "label": "Yuichi Ozaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "BS Saterawalker 2",
+      "Heisei Shin Onigashima",
+      "Marvelous",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Yuichi Ozaki"
+    ],
+    "track_count": 84
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q116960621",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

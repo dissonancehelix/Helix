@@ -1,0 +1,44 @@
+case_id: ordinary_life_change
+description: >
+  Ordinary biological change over time — cell replacement, neural plasticity, learning,
+  memory formation, personality development, aging. The anchor case for self-continuity.
+  If the theory cannot preserve self-continuity here, it is broken at the foundation.
+transformation_type: biological_change
+substrate_relation: same_substrate_continuous
+
+scores:
+  C_fielding: 1.0
+  P_perspective: 1.0
+  O_ownership: 1.0
+  B_boundary: 0.95
+  K_carried_constraint: 1.0
+  N_non_branching: 1.0
+  R_restart_continuity: null  # not applicable — no suspension
+
+field_status: field_continuous
+ownership_status: ownership_continuous
+branching_status: no_branching
+carried_constraint_status: constraint_carried
+restart_status: null  # not a suspension case
+
+evidence:
+  C_fielding: "Continuous phenomenal experience throughout waking life. No gap."
+  P_perspective: "Stable point-of-view. Spatial and temporal perspective remains anchored to the same organism."
+  O_ownership: "Experiences are given as mine throughout. No ownership disruption in ordinary change."
+  B_boundary: "0.95 rather than 1.0 because illness, fatigue, social pressure, and identity development can blur boundary temporarily. Not a collapse."
+  K_carried_constraint: "Habits, skills, trauma, language, and dispositional history all actively constrain current and future states. K is maximally operative."
+  N_non_branching: "No branching event. One organism, one ownership-stream."
+  R_restart_continuity: "Not applicable."
+
+expected_classification: self_continuity_preserved
+
+revision_pressure: >
+  This is the anchor case. The theory must classify it as self_continuity_preserved.
+  If it cannot, the formula collapses at the foundation before it can be applied anywhere else.
+
+breaks_preserved: []
+
+notes: >
+  B = 0.95 rather than 1.0 marks that ordinary selfhood is not perfectly bounded — illness,
+  depersonalization episodes, grief, and major life transitions can temporarily blur the boundary
+  without collapsing self-continuity. This is the realistic baseline.

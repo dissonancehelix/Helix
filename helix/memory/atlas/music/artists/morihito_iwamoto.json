@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:morihito_iwamoto",
+  "entity_type": "music.composer",
+  "label": "Morihito Iwamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Mario's Tennis"
+    ],
+    "artist_keys": [
+      "Morihito Iwamoto"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

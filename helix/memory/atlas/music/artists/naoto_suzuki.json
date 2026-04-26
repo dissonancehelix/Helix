@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naoto_suzuki",
+  "entity_type": "music.composer",
+  "label": "Naoto Suzuki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Sword of Etheria"
+    ],
+    "artist_keys": [
+      "Naoto Suzuki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11649093",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:satoshi_fujishima",
+  "entity_type": "music.composer",
+  "label": "Satoshi Fujishima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "MSX",
+      "MSX2",
+      "SG-1000"
+    ],
+    "franchises": [
+      "Blaster Burn",
+      "Gulkave"
+    ],
+    "artist_keys": [
+      "Satoshi Fujishima"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

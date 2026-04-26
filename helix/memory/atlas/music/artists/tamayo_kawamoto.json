@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:tamayo_kawamoto",
+  "entity_type": "music.composer",
+  "label": "Tamayo Kawamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "1943 Kai",
+      "Avengers",
+      "Black Tiger",
+      "Buster Bros.",
+      "Commando",
+      "Exed Exes",
+      "Forgotten Worlds",
+      "Gensou Tairiku Auleria",
+      "Ghouls 'n Ghosts",
+      "Last Duel",
+      "Legendary Wings",
+      "Marusa no Onna",
+      "Pirate Ship Higemaru",
+      "Quiz H.Q.",
+      "Racing Beat"
+    ],
+    "artist_keys": [
+      "Tamayo Kawamoto"
+    ],
+    "track_count": 174
+  },
+  "external_ids": {
+    "vgmdb": "254",
+    "musicbrainz": "13dc95d9-104d-46de-892a-932dd3a4145f",
+    "wikidata": "Q11553867",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "498792",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tamayo_Kawamoto"
+  }
+}

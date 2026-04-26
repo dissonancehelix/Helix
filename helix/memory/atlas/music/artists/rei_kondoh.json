@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:rei_kondoh",
+  "entity_type": "music.composer",
+  "label": "Rei Kondoh",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Bayonetta",
+      "Bayonetta 2",
+      "Devil May Cry 4",
+      "Fire Emblem",
+      "Inazuma Eleven GO vs Danball Senki W",
+      "Mario Party",
+      "Ni no Kuni",
+      "Nostalgia",
+      "Okami",
+      "Okamiden",
+      "Resident Evil",
+      "Sengoku Basara 4",
+      "Sin Chronicle",
+      "The Wonderful 101"
+    ],
+    "artist_keys": [
+      "Rei Kondoh"
+    ],
+    "track_count": 382
+  },
+  "external_ids": {
+    "vgmdb": "13",
+    "musicbrainz": "bed05c87-d46b-40e7-a930-c49d4f13ee84",
+    "wikidata": "Q11638786",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "3201226"
+  }
+}

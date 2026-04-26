@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masahiko_yoshimura",
+  "entity_type": "music.composer",
+  "label": "Masahiko Yoshimura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Fire Hawk",
+      "Shining Force",
+      "Shining in the Darkness"
+    ],
+    "artist_keys": [
+      "Masahiko Yoshimura"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

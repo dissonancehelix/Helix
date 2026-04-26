@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:patrik",
+  "entity_type": "music.composer",
+  "label": "Patrik",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tekken 7"
+    ],
+    "artist_keys": [
+      "Patrik"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "eb63065c-d34e-4e8c-8f51-bf8616ff6ed8",
+    "wikidata": "Q3499149",
+    "spotify": "79XSzUC0yAPPoxiuss55qC",
+    "lastfm": "Patrik+Isaksson",
+    "wikipedia": "https://en.wikipedia.org/wiki/Patrik_Isaksson_(singer)"
+  }
+}

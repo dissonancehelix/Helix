@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:azusa_chiba",
+  "entity_type": "music.composer",
+  "label": "Azusa Chiba",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "13 Sentinels",
+      "A.N.N.E",
+      "Adult Romance Novel",
+      "Arcadia Saga",
+      "Astria Ascending",
+      "Bleach",
+      "Caladrius",
+      "Caravan Stories",
+      "Criminal Girls",
+      "Crimson Shroud"
+    ],
+    "artist_keys": [
+      "Azusa Chiba"
+    ],
+    "track_count": 769
+  },
+  "external_ids": {
+    "vgmdb": "1827",
+    "musicbrainz": "93f4ac82-3017-4c83-8dfd-d1813e37903f",
+    "wikidata": "Q135887248",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

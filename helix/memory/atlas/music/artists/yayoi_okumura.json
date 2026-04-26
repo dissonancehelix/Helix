@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yayoi_okumura",
+  "entity_type": "music.composer",
+  "label": "Yayoi Okumura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Formation Soccer 94",
+      "Tadaima Yuusha Boshuuchuu",
+      "Tadaima Yuusha Boshuuchuu Okawari"
+    ],
+    "artist_keys": [
+      "Yayoi Okumura"
+    ],
+    "track_count": 87
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

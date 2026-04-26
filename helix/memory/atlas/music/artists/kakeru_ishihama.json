@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kakeru_ishihama",
+  "entity_type": "music.composer",
+  "label": "Kakeru Ishihama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Drakengard 3",
+      "NieR",
+      "Noby Noby Boy",
+      "Once Upon a Katamari",
+      "Tekken 6"
+    ],
+    "artist_keys": [
+      "Kakeru Ishihama"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "7261",
+    "musicbrainz": "a56f84d8-9820-4428-91c1-5086061b962e",
+    "wikidata": "Q11586840",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

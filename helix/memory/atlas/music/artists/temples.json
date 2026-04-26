@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:temples",
+  "entity_type": "music.composer",
+  "label": "Temples",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "B",
+      "Exotico",
+      "Hot Motion",
+      "Other Structures",
+      "Paraphernalia",
+      "Sun Structures",
+      "Volcano"
+    ],
+    "artist_keys": [
+      "Temples"
+    ],
+    "track_count": 58
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "1916fc94-bf9c-4ba2-90b0-22ebb5444d57",
+    "wikidata": "Q14832136",
+    "spotify": "4ogwGU9VPWrnVBs1GEwZVV",
+    "lastfm": "Temples",
+    "wikipedia": "https://en.wikipedia.org/wiki/Temples_(band)"
+  }
+}

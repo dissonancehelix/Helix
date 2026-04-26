@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:darren_korb",
+  "entity_type": "music.composer",
+  "label": "Darren Korb",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bastion",
+      "Hades",
+      "Hades II",
+      "Pyre",
+      "Transistor"
+    ],
+    "artist_keys": [
+      "Darren Korb"
+    ],
+    "track_count": 151
+  },
+  "external_ids": {
+    "vgmdb": "11600",
+    "musicbrainz": "a7e3c900-1c91-444c-9fce-77d230e5791b",
+    "wikidata": "Q13423548",
+    "spotify": "0ZMWrgLff357yxLyEU77a1",
+    "lastfm": "",
+    "discogs": "2430899",
+    "wikipedia": "https://en.wikipedia.org/wiki/Darren_Korb"
+  }
+}

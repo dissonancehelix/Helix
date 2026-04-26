@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:seiichi_tokunaga",
+  "entity_type": "music.composer",
+  "label": "Seiichi Tokunaga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Chou Mahou Tairiku Wozz"
+    ],
+    "artist_keys": [
+      "Seiichi Tokunaga"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

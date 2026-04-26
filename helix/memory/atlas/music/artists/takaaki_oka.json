@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takaaki_oka",
+  "entity_type": "music.composer",
+  "label": "Takaaki Oka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Bound High!"
+    ],
+    "artist_keys": [
+      "Takaaki Oka"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q55219513",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

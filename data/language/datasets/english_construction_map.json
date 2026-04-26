@@ -1,0 +1,114 @@
+[
+  {
+    "id": "subject_requirement_base",
+    "family": "subject_requirement",
+    "label": "finite_clause",
+    "text": "I speak with my sister every day."
+  },
+  {
+    "id": "subject_requirement_variant",
+    "family": "subject_requirement",
+    "label": "imperative_projection",
+    "transform": "drop_subject",
+    "edge_from": "subject_requirement_base",
+    "text": "Speak with my sister every day."
+  },
+  {
+    "id": "negation_base",
+    "family": "aux_negation",
+    "label": "affirmative",
+    "text": "She comes tomorrow."
+  },
+  {
+    "id": "negation_variant",
+    "family": "aux_negation",
+    "label": "negative",
+    "transform": "add_do_support",
+    "edge_from": "negation_base",
+    "text": "She does not come tomorrow."
+  },
+  {
+    "id": "question_base",
+    "family": "question_inversion",
+    "label": "declarative",
+    "text": "You study in the library."
+  },
+  {
+    "id": "question_variant",
+    "family": "question_inversion",
+    "label": "interrogative",
+    "transform": "invert_auxiliary",
+    "edge_from": "question_base",
+    "text": "Do you study in the library?"
+  },
+  {
+    "id": "subordination_base",
+    "family": "subordination",
+    "label": "with_complementizer",
+    "text": "I think that he arrives early."
+  },
+  {
+    "id": "subordination_variant",
+    "family": "subordination",
+    "label": "without_complementizer",
+    "transform": "drop_that",
+    "edge_from": "subordination_base",
+    "text": "I think he arrives early."
+  },
+  {
+    "id": "aspect_base",
+    "family": "aspect",
+    "label": "simple_present",
+    "text": "The children play in the park."
+  },
+  {
+    "id": "aspect_variant",
+    "family": "aspect",
+    "label": "progressive",
+    "transform": "add_progressive",
+    "edge_from": "aspect_base",
+    "text": "The children are playing in the park."
+  },
+  {
+    "id": "tense_base",
+    "family": "tense_shift",
+    "label": "present",
+    "text": "Maria cooks dinner."
+  },
+  {
+    "id": "tense_variant",
+    "family": "tense_shift",
+    "label": "past",
+    "transform": "shift_tense",
+    "edge_from": "tense_base",
+    "text": "Maria cooked dinner."
+  },
+  {
+    "id": "determiner_base",
+    "family": "determiner_density",
+    "label": "bare_object",
+    "text": "I bought bread for dinner."
+  },
+  {
+    "id": "determiner_variant",
+    "family": "determiner_density",
+    "label": "marked_object",
+    "transform": "add_determiner",
+    "edge_from": "determiner_base",
+    "text": "I bought the bread for dinner."
+  },
+  {
+    "id": "dative_base",
+    "family": "dative_shift",
+    "label": "prepositional_dative",
+    "text": "I gave the book to Ana."
+  },
+  {
+    "id": "dative_variant",
+    "family": "dative_shift",
+    "label": "double_object",
+    "transform": "shift_dative",
+    "edge_from": "dative_base",
+    "text": "I gave Ana the book."
+  }
+]

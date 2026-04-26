@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:nobuyuki_shiod",
+  "entity_type": "music.composer",
+  "label": "Nobuyuki Shiod",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Grand Prix"
+    ],
+    "artist_keys": [
+      "Nobuyuki Shiod"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "44855",
+    "musicbrainz": "db2331c9-466e-45e8-9855-b2314a535dcf",
+    "wikidata": "Q11428816",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

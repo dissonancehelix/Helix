@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:minako_matsuhira",
+  "entity_type": "music.composer",
+  "label": "Minako Matsuhira",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "Super NES"
+    ],
+    "franchises": [
+      "God Medicine",
+      "Sparkster",
+      "Tiny Toon Adventures"
+    ],
+    "artist_keys": [
+      "Minako Matsuhira"
+    ],
+    "track_count": 56
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:takeshi_yoshida",
+  "entity_type": "music.composer",
+  "label": "Takeshi Yoshida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Dragon's Fury",
+      "Thunder Force AC",
+      "Thunder Force IV"
+    ],
+    "artist_keys": [
+      "Takeshi Yoshida"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q48529626",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

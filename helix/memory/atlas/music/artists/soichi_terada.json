@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:soichi_terada",
+  "entity_type": "music.composer",
+  "label": "Soichi Terada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ape Escape",
+      "Ape Escape 3",
+      "Fantavision",
+      "Space Fisherman"
+    ],
+    "artist_keys": [
+      "Soichi Terada"
+    ],
+    "track_count": 247
+  },
+  "external_ids": {
+    "vgmdb": "2137",
+    "musicbrainz": "fabc9908-3a4a-4c79-86bd-1f7e4506b0d8",
+    "wikidata": "Q11457972",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "223013",
+    "wikipedia": "https://en.wikipedia.org/wiki/Soichi_Terada"
+  }
+}

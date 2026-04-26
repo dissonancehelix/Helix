@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masashi_watanabe",
+  "entity_type": "music.composer",
+  "label": "Masashi Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Boktai"
+    ],
+    "artist_keys": [
+      "Masashi Watanabe"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q2072697",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masashi_Watanabe"
+  }
+}

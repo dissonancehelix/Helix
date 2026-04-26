@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kevin_quinn",
+  "entity_type": "music.composer",
+  "label": "Kevin Quinn",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "NBA Hang Time"
+    ],
+    "artist_keys": [
+      "Kevin Quinn"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "6efeb15e-02b7-46ae-80d5-94080ff8cbf9",
+    "wikidata": "Q21622434",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kevin_Quinn_(actor)"
+  }
+}

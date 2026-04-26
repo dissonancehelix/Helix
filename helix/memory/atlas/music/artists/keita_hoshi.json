@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:keita_hoshi",
+  "entity_type": "music.composer",
+  "label": "Keita Hoshi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "NES",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aldynes",
+      "Blade Buster",
+      "Bomberman Land Touch!",
+      "Cratermaze",
+      "Neutopia II",
+      "Super Bomberman 3",
+      "Super Star Soldier"
+    ],
+    "artist_keys": [
+      "Keita Hoshi"
+    ],
+    "track_count": 97
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

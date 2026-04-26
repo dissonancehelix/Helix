@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:naoyuki_kimura",
+  "entity_type": "music.composer",
+  "label": "Naoyuki Kimura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Fire Storm",
+      "Genocide 2"
+    ],
+    "artist_keys": [
+      "Naoyuki Kimura"
+    ],
+    "track_count": 56
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11519019",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

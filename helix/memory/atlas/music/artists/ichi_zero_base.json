@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ichi_zero_base",
+  "entity_type": "music.composer",
+  "label": "ICHI-ZERO base",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Noby Noby Boy"
+    ],
+    "artist_keys": [
+      "ICHI-ZERO base"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

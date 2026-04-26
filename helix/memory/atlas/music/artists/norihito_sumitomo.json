@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:norihito_sumitomo",
+  "entity_type": "music.composer",
+  "label": "Norihito Sumitomo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Norihito Sumitomo"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "794",
+    "musicbrainz": "c0de8f42-c890-4f4c-beff-d873cfed6607",
+    "wikidata": "Q11381777",
+    "spotify": "3QWZXzL4WLeTO2TYLEJLZJ",
+    "lastfm": "Norihito+Sumitomo"
+  }
+}

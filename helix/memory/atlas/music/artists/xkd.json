@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:xkd",
+  "entity_type": "music.composer",
+  "label": "XKD",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Ojousama Club"
+    ],
+    "artist_keys": [
+      "XKD"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q24725999",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

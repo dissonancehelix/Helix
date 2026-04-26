@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:keita_inoue",
+  "entity_type": "music.composer",
+  "label": "Keita Inoue",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Foamstars",
+      "Once Upon a Katamari",
+      "Protocol",
+      "Soul Hackers 2"
+    ],
+    "artist_keys": [
+      "Keita Inoue"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "31679",
+    "musicbrainz": "bfc9faae-7ff0-4474-9d48-cffe25ee6cab",
+    "wikidata": "Q112625318",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

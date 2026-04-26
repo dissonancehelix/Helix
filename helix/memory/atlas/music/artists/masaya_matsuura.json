@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:masaya_matsuura",
+  "entity_type": "music.composer",
+  "label": "Masaya Matsuura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Blaze",
+      "PaRappa the Rapper"
+    ],
+    "artist_keys": [
+      "Masaya Matsuura"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "1891",
+    "musicbrainz": "77dac361-f948-4699-a4c9-7baa57f270dc",
+    "wikidata": "Q2737054",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masaya_Matsuura"
+  }
+}

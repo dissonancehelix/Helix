@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:mitsuo_singa",
+  "entity_type": "music.composer",
+  "label": "Mitsuo Singa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tokyo Xanadu",
+      "Trails / Kiseki",
+      "Trails in the Sky 1st Chapter",
+      "Ys",
+      "Ys IX",
+      "Ys VIII",
+      "Ys X"
+    ],
+    "artist_keys": [
+      "Mitsuo Singa"
+    ],
+    "track_count": 216
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

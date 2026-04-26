@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:norio_hanzawa",
+  "entity_type": "music.composer",
+  "label": "Norio Hanzawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "Mega Drive",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Advance Guardian Heroes",
+      "Alien Soldier",
+      "Astro Boy",
+      "Bangai",
+      "Bleach",
+      "Bucky O'Hare",
+      "Castlevania",
+      "Dynamite Headdy",
+      "Gaist Crusher",
+      "Gaist Crusher God"
+    ],
+    "artist_keys": [
+      "Norio Hanzawa"
+    ],
+    "track_count": 527
+  },
+  "external_ids": {
+    "vgmdb": "43796",
+    "musicbrainz": "8463b9da-f3ea-4661-be11-e46dcd38fd9c",
+    "wikidata": "Q120499110",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "653146"
+  }
+}

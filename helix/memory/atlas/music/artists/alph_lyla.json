@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:alph_lyla",
+  "entity_type": "music.composer",
+  "label": "Alph Lyla",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Game Music Festival ~Super Live '92~"
+    ],
+    "artist_keys": [
+      "Alph Lyla"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "765d384a-099b-4085-9500-e81d4c8daa94",
+    "wikidata": "Q4734865",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alph_Lyla"
+  }
+}

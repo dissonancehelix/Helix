@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:katsunori_ujiie",
+  "entity_type": "music.composer",
+  "label": "Katsunori Ujiie",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Hakunetsu Pro Baseball '93"
+    ],
+    "artist_keys": [
+      "Katsunori Ujiie"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

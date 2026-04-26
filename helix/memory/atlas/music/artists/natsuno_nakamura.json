@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:natsuno_nakamura",
+  "entity_type": "music.composer",
+  "label": "Natsuno Nakamura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Trails / Kiseki",
+      "Ys IX"
+    ],
+    "artist_keys": [
+      "Natsuno Nakamura"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

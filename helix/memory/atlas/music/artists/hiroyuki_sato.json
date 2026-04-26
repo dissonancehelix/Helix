@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hiroyuki_sato",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Azure Striker Gunvolt 3",
+      "Blaster Master Zero 2",
+      "Blaster Master Zero 3"
+    ],
+    "artist_keys": [
+      "Hiroyuki Sato"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "4ce3a03a-3426-4bad-b4c8-c51e875453ec",
+    "wikidata": "Q11383926",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

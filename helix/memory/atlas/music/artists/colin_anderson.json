@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:colin_anderson",
+  "entity_type": "music.composer",
+  "label": "Colin Anderson",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Uniracers"
+    ],
+    "artist_keys": [
+      "Colin Anderson"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3682627",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Colin_Anderson_(footballer)"
+  }
+}

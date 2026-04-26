@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:mr_o",
+  "entity_type": "music.composer",
+  "label": "Mr. O",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ikari Warriors"
+    ],
+    "artist_keys": [
+      "Mr. O"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "a4a3048f-3968-4848-9f53-94e3d4f88b53",
+    "wikidata": "Q453691",
+    "spotify": "0b9ukmbg0MO5eMlorcgOwz",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Quentin_Dupieux"
+  }
+}

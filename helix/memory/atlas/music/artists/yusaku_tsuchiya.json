@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yusaku_tsuchiya",
+  "entity_type": "music.composer",
+  "label": "Yusaku Tsuchiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Yusaku Tsuchiya"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "7371",
+    "musicbrainz": "eff397c5-1554-41bd-8ff1-6cc1418d03f1",
+    "wikidata": "Q17215892",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

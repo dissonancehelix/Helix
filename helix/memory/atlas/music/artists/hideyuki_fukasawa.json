@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hideyuki_fukasawa",
+  "entity_type": "music.composer",
+  "label": "Hideyuki Fukasawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Imported Game Music",
+      "Marvel vs. Capcom 3",
+      "Street Fighter IV",
+      "Street Fighter V"
+    ],
+    "artist_keys": [
+      "Hideyuki Fukasawa"
+    ],
+    "track_count": 168
+  },
+  "external_ids": {
+    "vgmdb": "893",
+    "musicbrainz": "84c2a1ee-f797-4760-a0d2-b20f608911a6",
+    "wikidata": "Q10760311",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "566324",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hideyuki_Fukasawa"
+  }
+}

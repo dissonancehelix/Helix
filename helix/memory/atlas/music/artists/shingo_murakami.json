@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:shingo_murakami",
+  "entity_type": "music.composer",
+  "label": "Shingo Murakami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Babel",
+      "Cosmic Fantasy Stories",
+      "Lady Phantom",
+      "Last Alert",
+      "Valis III",
+      "Valis IV"
+    ],
+    "artist_keys": [
+      "Shingo Murakami"
+    ],
+    "track_count": 56
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "49f915bc-87d1-405d-a5e4-9f43afac91ae",
+    "wikidata": "Q1187642",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shingo_Murakami"
+  }
+}

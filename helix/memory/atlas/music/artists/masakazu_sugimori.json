@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:masakazu_sugimori",
+  "entity_type": "music.composer",
+  "label": "Masakazu Sugimori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Ghost Trick",
+      "Otomedius Excellent",
+      "Phoenix Wright",
+      "Professor Layton vs. Ace Attorney",
+      "Vanquish"
+    ],
+    "artist_keys": [
+      "Masakazu Sugimori"
+    ],
+    "track_count": 83
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q123107554",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

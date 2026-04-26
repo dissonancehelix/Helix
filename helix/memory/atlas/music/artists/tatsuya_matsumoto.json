@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tatsuya_matsumoto",
+  "entity_type": "music.composer",
+  "label": "Tatsuya Matsumoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Eliminate Down"
+    ],
+    "artist_keys": [
+      "Tatsuya Matsumoto"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11531328",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

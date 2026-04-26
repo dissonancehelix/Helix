@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:adam_skorupa",
+  "entity_type": "music.composer",
+  "label": "Adam Skorupa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Witcher",
+      "The Witcher 2"
+    ],
+    "artist_keys": [
+      "Adam Skorupa"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "2965",
+    "musicbrainz": "15959905-a235-4701-9991-79921bc2851e",
+    "wikidata": "Q4422401",
+    "spotify": "3wlYEOHZHxMKPAyoGC1BFz",
+    "lastfm": "Adam+Skorupa"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:motoi_sakuraba",
+  "entity_type": "music.composer",
+  "label": "Motoi Sakuraba",
+  "aliases": [
+    "桜庭 統"
+  ],
+  "library": {
+    "platforms": [
+      "Genesis",
+      "Super NES",
+      "PlayStation",
+      "PlayStation 2",
+      "Xbox 360",
+      "Xbox One",
+      "Switch",
+      "PC"
+    ],
+    "franchises": [
+      "Tales of",
+      "Star Ocean",
+      "Golden Sun",
+      "Dark Souls",
+      "Valkyrie Profile",
+      "Mario Tennis",
+      "Mario Golf"
+    ],
+    "artist_keys": [
+      "Motoi Sakuraba",
+      "桜庭 統"
+    ]
+  },
+  "external_ids": {
+    "vgmdb": "86",
+    "musicbrainz": "27e289c8-d1ba-4475-810a-3a79d500438c",
+    "wikipedia": "https://en.wikipedia.org/wiki/Motoi_Sakuraba"
+  },
+  "biography": {
+    "short": "Prolific composer for the Tales and Star Ocean series, known for progressive rock style.",
+    "career": "Wolf Team (1989–), Freelance (present)."
+  }
+}

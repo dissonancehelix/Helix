@@ -1,0 +1,491 @@
+[
+  {
+    "title": "New Commanders Stadium",
+    "pageid": 79827386,
+    "revid": 1345608568,
+    "timestamp": "2026-03-27T01:44:02Z",
+    "archetype_tags": [
+      "infrastructure_article",
+      "project_article",
+      "athlete_biography_nfl"
+    ],
+    "blp_sensitive": false,
+    "lead_paragraph_count": 1,
+    "lead_first_sentence": "| address = 2400  location = [[Washington, D.C., U.S.",
+    "sections": [
+      "History",
+      "=Financing=",
+      "Design",
+      "=Mixed-use development=",
+      "References",
+      "External links"
+    ],
+    "section_count": 6,
+    "subsection_count": 2,
+    "infobox_names": [],
+    "navbox_names": [],
+    "other_templates": [
+      "Short description",
+      "Use American English",
+      "Use mdy dates",
+      "start date and age",
+      "Coord",
+      "Convert",
+      "ubl",
+      "WMATA link logo",
+      "WMATA icon",
+      "bus icon",
+      "nowrap",
+      "hlist",
+      "US$",
+      "nbsp",
+      "circa"
+    ],
+    "has_stats_table": false,
+    "has_awards_section": false,
+    "has_chronology_section": true,
+    "has_references_section": true,
+    "table_count": 0,
+    "ref_count": 51,
+    "image_count": 3,
+    "chronology_type": "mixed",
+    "lead_compression": "moderate",
+    "source_density": "medium",
+    "template_families": [
+      "general"
+    ],
+    "policy_priority": [
+      "WP:NFL",
+      "MOS"
+    ],
+    "authorial_notes": [],
+    "fetch_error": null
+  },
+  {
+    "title": "Chase Young",
+    "pageid": 60728221,
+    "revid": 1346038158,
+    "timestamp": "2026-03-29T15:56:39Z",
+    "archetype_tags": [
+      "athlete_biography_nfl"
+    ],
+    "blp_sensitive": true,
+    "lead_paragraph_count": 2,
+    "lead_first_sentence": "| birth_place  = [[Upper Marlboro, Maryland, U.S.",
+    "sections": [
+      "Early life",
+      "College career",
+      "Professional career",
+      "=Washington Commanders=",
+      "==2020==",
+      "==2021==",
+      "==2022–2023==",
+      "=San Francisco 49ers=",
+      "=New Orleans Saints=",
+      "NFL career statistics",
+      "=Regular season=",
+      "=Postseason=",
+      "Personal life",
+      "References",
+      "External links"
+    ],
+    "section_count": 15,
+    "subsection_count": 8,
+    "infobox_names": [],
+    "navbox_names": [
+      "Navboxes"
+    ],
+    "other_templates": [
+      "Short description",
+      "Other people",
+      "good article",
+      "Use American English",
+      "Use mdy dates",
+      "birth date and age",
+      "nowrap",
+      "NFL Year",
+      "Cite web",
+      "Cite news",
+      "Cite magazine",
+      "abbr",
+      "efn",
+      "USD",
+      "Cite tweet"
+    ],
+    "has_stats_table": true,
+    "has_awards_section": false,
+    "has_chronology_section": true,
+    "has_references_section": true,
+    "table_count": 5,
+    "ref_count": 124,
+    "image_count": 3,
+    "chronology_type": "mixed",
+    "lead_compression": "moderate",
+    "source_density": "medium",
+    "template_families": [
+      "person"
+    ],
+    "policy_priority": [
+      "WP:NFL",
+      "WP:BLP",
+      "MOS:Biography",
+      "MOS"
+    ],
+    "authorial_notes": [
+      "Statistics tables present — consistent with NFL biography MOS expectations.",
+      "Multiple tables (5) — article relies on tabular data presentation."
+    ],
+    "fetch_error": null
+  },
+  {
+    "title": "Dota 2",
+    "pageid": 29177750,
+    "revid": 1346441943,
+    "timestamp": "2026-03-31T21:17:07Z",
+    "archetype_tags": [
+      "video_game_article",
+      "infrastructure_article"
+    ],
+    "blp_sensitive": false,
+    "lead_paragraph_count": 4,
+    "lead_first_sentence": "| alt       = Three characters, one masked, one in gladiator armor, and one riding a cat-like mount, are shown with a tower in the background and the game's logo in the foreground.",
+    "sections": [
+      "Gameplay",
+      "Development",
+      "= ''Dota 2 Reborn'' =",
+      "Release",
+      "Esports",
+      "Reception",
+      "= Awards =",
+      "Legacy",
+      "Notes",
+      "References",
+      "External links"
+    ],
+    "section_count": 11,
+    "subsection_count": 2,
+    "infobox_names": [],
+    "navbox_names": [],
+    "other_templates": [
+      "Short description",
+      "Good article",
+      "pp-extended",
+      "Use American English",
+      "Use mdy dates",
+      "Unbulleted list",
+      "efn",
+      "USD",
+      "see also",
+      "cite web",
+      "cite AV media",
+      "cite magazine",
+      "cite podcast",
+      "Proper name",
+      "cite video game"
+    ],
+    "has_stats_table": false,
+    "has_awards_section": true,
+    "has_chronology_section": false,
+    "has_references_section": true,
+    "table_count": 0,
+    "ref_count": 378,
+    "image_count": 7,
+    "chronology_type": "topical",
+    "lead_compression": "dense",
+    "source_density": "medium",
+    "template_families": [
+      "vg"
+    ],
+    "policy_priority": [
+      "MOS:VG",
+      "WP:GNG",
+      "MOS"
+    ],
+    "authorial_notes": [
+      "Dense lead — operator favors front-loaded identity establishment.",
+      "Topical sequencing — structure organized by subject domain, not time.",
+      "Awards/accolades section present — commonly uses {{div col}} or wikitable."
+    ],
+    "fetch_error": null
+  },
+  {
+    "title": "Jayden Daniels",
+    "pageid": 61639754,
+    "revid": 1347988504,
+    "timestamp": "2026-04-10T00:54:41Z",
+    "archetype_tags": [
+      "athlete_biography_nfl"
+    ],
+    "blp_sensitive": true,
+    "lead_paragraph_count": 2,
+    "lead_first_sentence": "* [[NFL Offensive Rookie of the Year (2024)<!-- Formatted this way to avoid infobox clutter and AP favoritism.",
+    "sections": [
+      "Early life",
+      "College career",
+      "= Arizona State =",
+      "= LSU =",
+      "Professional career",
+      "= 2024 season =",
+      "= 2025 season =",
+      "Player profile",
+      "Career highlights and achievements",
+      "=NFL statistics=",
+      "=College statistics=",
+      "=Awards and honors=",
+      "=Records=",
+      "Personal life",
+      "Notes",
+      "References",
+      "External links"
+    ],
+    "section_count": 17,
+    "subsection_count": 8,
+    "infobox_names": [],
+    "navbox_names": [
+      "Navboxes"
+    ],
+    "other_templates": [
+      "Short description",
+      "Distinguish",
+      "good article",
+      "Use American English",
+      "Use mdy dates",
+      "Birth date and age",
+      "nowrap",
+      "NFL Year",
+      "efn",
+      "Cite news",
+      "Cite web",
+      "cite web",
+      "convert",
+      "College Athlete Recruit Start",
+      "See also"
+    ],
+    "has_stats_table": true,
+    "has_awards_section": true,
+    "has_chronology_section": true,
+    "has_references_section": true,
+    "table_count": 3,
+    "ref_count": 207,
+    "image_count": 7,
+    "chronology_type": "mixed",
+    "lead_compression": "dense",
+    "source_density": "medium",
+    "template_families": [
+      "person"
+    ],
+    "policy_priority": [
+      "WP:NFL",
+      "WP:BLP",
+      "MOS:Biography",
+      "MOS"
+    ],
+    "authorial_notes": [
+      "Dense lead — operator favors front-loaded identity establishment.",
+      "Statistics tables present — consistent with NFL biography MOS expectations.",
+      "Awards/accolades section present — commonly uses {{div col}} or wikitable."
+    ],
+    "fetch_error": null
+  },
+  {
+    "title": "Josh Harris (businessman)",
+    "pageid": 36512626,
+    "revid": 1346421773,
+    "timestamp": "2026-03-31T19:09:18Z",
+    "archetype_tags": [
+      "executive_biography",
+      "athlete_biography_nfl",
+      "hybrid_nfl_person"
+    ],
+    "blp_sensitive": true,
+    "lead_paragraph_count": 2,
+    "lead_first_sentence": "| alt                = Photo of a man smiling while wearing a baseball cap and red jacket.",
+    "sections": [
+      "Early life",
+      "Career",
+      "=Private equity and finance=",
+      "=Sports ownership=",
+      "==Management style and initiatives==",
+      "Personal life",
+      "=Philanthropy=",
+      "References",
+      "External links"
+    ],
+    "section_count": 9,
+    "subsection_count": 4,
+    "infobox_names": [],
+    "navbox_names": [
+      "Navboxes"
+    ],
+    "other_templates": [
+      "Short description",
+      "good article",
+      "Use American English",
+      "Use mdy dates",
+      "birth date and age",
+      "ubl",
+      "hlist",
+      "marriage",
+      "US$",
+      "nbsp",
+      "as of",
+      "cite web",
+      "cite news",
+      "Cite web",
+      "Cite news"
+    ],
+    "has_stats_table": true,
+    "has_awards_section": false,
+    "has_chronology_section": true,
+    "has_references_section": true,
+    "table_count": 1,
+    "ref_count": 144,
+    "image_count": 7,
+    "chronology_type": "mixed",
+    "lead_compression": "dense",
+    "source_density": "medium",
+    "template_families": [
+      "person"
+    ],
+    "policy_priority": [
+      "MOS:Biography",
+      "WP:BLP",
+      "WP:GNG",
+      "MOS"
+    ],
+    "authorial_notes": [
+      "Dense lead — operator favors front-loaded identity establishment.",
+      "Statistics tables present — consistent with NFL biography MOS expectations."
+    ],
+    "fetch_error": null
+  },
+  {
+    "title": "Adam Peters",
+    "pageid": 75755920,
+    "revid": 1346451256,
+    "timestamp": "2026-03-31T22:21:50Z",
+    "archetype_tags": [
+      "executive_biography",
+      "nfl_front_office",
+      "athlete_biography_nfl",
+      "hybrid_nfl_person"
+    ],
+    "blp_sensitive": true,
+    "lead_paragraph_count": 1,
+    "lead_first_sentence": "| alt                 = Photo of a man speaking to a microphone at a press conference.",
+    "sections": [
+      "Early life",
+      "Career",
+      "=Early scouting and executive roles=",
+      "=San Francisco 49ers=",
+      "=Washington Commanders=",
+      "Personal life",
+      "References",
+      "External links"
+    ],
+    "section_count": 8,
+    "subsection_count": 3,
+    "infobox_names": [],
+    "navbox_names": [],
+    "other_templates": [
+      "Short description",
+      "Distinguish",
+      "Use mdy dates",
+      "birth date and age",
+      "nowrap",
+      "ubl",
+      "hlist",
+      "NFL Year",
+      "cite web",
+      "cite journal",
+      "Win-loss record",
+      "Notelist",
+      "Reflist",
+      "Commons",
+      "Washington Commanders"
+    ],
+    "has_stats_table": false,
+    "has_awards_section": false,
+    "has_chronology_section": true,
+    "has_references_section": true,
+    "table_count": 0,
+    "ref_count": 31,
+    "image_count": 1,
+    "chronology_type": "mixed",
+    "lead_compression": "moderate",
+    "source_density": "medium",
+    "template_families": [
+      "person"
+    ],
+    "policy_priority": [
+      "WP:NFL",
+      "WP:BLP",
+      "MOS:Biography",
+      "MOS"
+    ],
+    "authorial_notes": [],
+    "fetch_error": null
+  },
+  {
+    "title": "Brandon Sosna",
+    "pageid": 77368724,
+    "revid": 1346451574,
+    "timestamp": "2026-03-31T22:24:35Z",
+    "archetype_tags": [
+      "executive_biography",
+      "nfl_front_office",
+      "athlete_biography_nfl",
+      "hybrid_nfl_person"
+    ],
+    "blp_sensitive": true,
+    "lead_paragraph_count": 0,
+    "lead_first_sentence": "| birth_place         = [[Cincinnati, Ohio, U.S.",
+    "sections": [
+      "Early life",
+      "Career",
+      "Personal life",
+      "References",
+      "External links"
+    ],
+    "section_count": 5,
+    "subsection_count": 0,
+    "infobox_names": [],
+    "navbox_names": [],
+    "other_templates": [
+      "Short description",
+      "Use mdy dates",
+      "birth based on age as of date",
+      "NFL Year",
+      "circa",
+      "cite web",
+      "cite journal",
+      "Reflist",
+      "Commonscat",
+      "Portal bar",
+      "DEFAULTSORT:Sosna, Brandon"
+    ],
+    "has_stats_table": false,
+    "has_awards_section": false,
+    "has_chronology_section": true,
+    "has_references_section": true,
+    "table_count": 0,
+    "ref_count": 23,
+    "image_count": 0,
+    "chronology_type": "mixed",
+    "lead_compression": "sparse",
+    "source_density": "medium",
+    "template_families": [
+      "person"
+    ],
+    "policy_priority": [
+      "WP:NFL",
+      "WP:BLP",
+      "MOS:Biography",
+      "MOS"
+    ],
+    "authorial_notes": [
+      "Sparse lead — may reflect stub state or minimal coverage article."
+    ],
+    "fetch_error": null
+  }
+]

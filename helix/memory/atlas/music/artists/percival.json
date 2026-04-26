@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:percival",
+  "entity_type": "music.composer",
+  "label": "Percival",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Witcher 3"
+    ],
+    "artist_keys": [
+      "Percival"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1297468",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

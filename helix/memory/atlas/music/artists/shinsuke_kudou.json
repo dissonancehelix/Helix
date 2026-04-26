@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:shinsuke_kudou",
+  "entity_type": "music.composer",
+  "label": "Shinsuke Kudou",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "Hamsterz Life",
+      "Imagine",
+      "Ochaken no Bouken"
+    ],
+    "artist_keys": [
+      "Shinsuke Kudou"
+    ],
+    "track_count": 70
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

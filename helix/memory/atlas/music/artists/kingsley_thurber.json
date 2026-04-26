@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kingsley_thurber",
+  "entity_type": "music.composer",
+  "label": "Kingsley Thurber",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "WWF Raw",
+      "WWF Royal Rumble"
+    ],
+    "artist_keys": [
+      "Kingsley Thurber"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

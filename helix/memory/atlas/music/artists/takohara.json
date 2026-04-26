@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takohara",
+  "entity_type": "music.composer",
+  "label": "Tak.OHARA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dai"
+    ],
+    "artist_keys": [
+      "Tak.OHARA"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

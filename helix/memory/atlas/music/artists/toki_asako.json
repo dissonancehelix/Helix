@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:toki_asako",
+  "entity_type": "music.composer",
+  "label": "Toki Asako",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ranhansha Girl"
+    ],
+    "artist_keys": [
+      "Toki Asako"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "12364",
+    "musicbrainz": "0412cd16-5507-4474-86e2-3c94dd1428f2",
+    "wikidata": "Q851738",
+    "spotify": "4VIGlACQnSacU0b1HTLA7y",
+    "lastfm": "土岐麻子",
+    "wikipedia": "https://en.wikipedia.org/wiki/Asako_Toki"
+  }
+}

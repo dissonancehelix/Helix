@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hayashi_sho",
+  "entity_type": "music.composer",
+  "label": "Hayashi Sho",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ninja Baseball Bat Man"
+    ],
+    "artist_keys": [
+      "Hayashi Sho"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q27966300",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

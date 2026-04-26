@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroaki_hayama",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Hayama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Star Ocean EX"
+    ],
+    "artist_keys": [
+      "Hiroaki Hayama"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "6394",
+    "musicbrainz": "d016d5a3-7b6d-49e3-a780-8534a291fe88",
+    "wikidata": "Q11284424",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

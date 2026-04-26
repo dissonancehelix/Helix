@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:kazunori_hideya",
+  "entity_type": "music.composer",
+  "label": "Kazunori Hideya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Fire Mustang",
+      "P",
+      "Rapid Hero",
+      "Saboten Bombers",
+      "Super Space Fortress Macross",
+      "Super Space Fortress Macross II",
+      "Task Force Harrier",
+      "Task Force Harrier EX",
+      "Thunder Dragon",
+      "USAAF Mustang"
+    ],
+    "artist_keys": [
+      "Kazunori Hideya"
+    ],
+    "track_count": 95
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

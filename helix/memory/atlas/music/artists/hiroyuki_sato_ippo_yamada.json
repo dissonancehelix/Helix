@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hiroyuki_sato_ippo_yamada",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Sato, Ippo Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bloodstained"
+    ],
+    "artist_keys": [
+      "Hiroyuki Sato, Ippo Yamada"
+    ],
+    "track_count": 26
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

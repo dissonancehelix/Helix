@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:katsuhisa_ishida",
+  "entity_type": "music.composer",
+  "label": "Katsuhisa Ishida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Silva Saga II"
+    ],
+    "artist_keys": [
+      "Katsuhisa Ishida"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

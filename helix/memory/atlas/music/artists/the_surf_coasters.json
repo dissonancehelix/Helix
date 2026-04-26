@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:the_surf_coasters",
+  "entity_type": "music.composer",
+  "label": "The Surf Coasters",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Musashi"
+    ],
+    "artist_keys": [
+      "The Surf Coasters"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

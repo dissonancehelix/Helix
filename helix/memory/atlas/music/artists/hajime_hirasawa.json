@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hajime_hirasawa",
+  "entity_type": "music.composer",
+  "label": "Hajime Hirasawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Star Fox",
+      "Time Twist"
+    ],
+    "artist_keys": [
+      "Hajime Hirasawa"
+    ],
+    "track_count": 62
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102321404",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

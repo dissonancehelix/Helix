@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ryo_shirasawa",
+  "entity_type": "music.composer",
+  "label": "Ryo Shirasawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "World of Final Fantasy"
+    ],
+    "artist_keys": [
+      "Ryo Shirasawa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

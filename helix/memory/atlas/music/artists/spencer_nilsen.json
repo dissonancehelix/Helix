@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:spencer_nilsen",
+  "entity_type": "music.composer",
+  "label": "Spencer Nilsen",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Ecco",
+      "Ecco the Dolphin",
+      "Ecco the Dolphin CD",
+      "Sonic CD",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Spencer Nilsen"
+    ],
+    "track_count": 63
+  },
+  "external_ids": {
+    "vgmdb": "1468",
+    "musicbrainz": "844b702c-75bb-43ec-af88-c252a7f8bfd1",
+    "wikidata": "Q4118577",
+    "spotify": "2a7ZgGA5rlpUaVl3cpGgvG",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spencer_Nilsen"
+  }
+}

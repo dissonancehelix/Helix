@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:naoshi_mizuta",
+  "entity_type": "music.composer",
+  "label": "Naoshi Mizuta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II",
+      "DS",
+      "Super NES"
+    ],
+    "franchises": [
+      "Arcadia no Aoki Miko",
+      "Before Meteor",
+      "Blood of Bahamut",
+      "Deadman's Cross",
+      "Demons' Score",
+      "Final Fantasy",
+      "Final Fantasy Dimensions",
+      "Final Fantasy Dimensions II",
+      "Final Fantasy XI",
+      "Final Fantasy XIII"
+    ],
+    "artist_keys": [
+      "Naoshi Mizuta"
+    ],
+    "track_count": 540
+  },
+  "external_ids": {
+    "vgmdb": "610",
+    "musicbrainz": "44e5c9b8-252e-40be-8034-7104f9b0ea62",
+    "wikidata": "Q4292828",
+    "spotify": "7EcpyneWBtxsJ9dyYrFrZe",
+    "lastfm": "%E6%B0%B4%E7%94%B0%E7%9B%B4%E5%BF%97",
+    "discogs": "170073",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naoshi_Mizuta"
+  }
+}

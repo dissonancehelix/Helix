@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yuna_sasara",
+  "entity_type": "music.composer",
+  "label": "Yuna Sasara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "☆ 24EFFECTS ☆"
+    ],
+    "artist_keys": [
+      "Yuna Sasara"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

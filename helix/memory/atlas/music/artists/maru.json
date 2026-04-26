@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:maru",
+  "entity_type": "music.composer",
+  "label": "MARU",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "No More Heroes 2"
+    ],
+    "artist_keys": [
+      "MARU"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "b9e9a6d8-2d05-44a1-89c0-75e459078b6e",
+    "wikidata": "Q405444",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maruyama_%C5%8Ckyo"
+  }
+}

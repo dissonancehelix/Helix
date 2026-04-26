@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:soichiro_harada",
+  "entity_type": "music.composer",
+  "label": "Soichiro Harada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Aoi Blink"
+    ],
+    "artist_keys": [
+      "Soichiro Harada"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q69635059",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

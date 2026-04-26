@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:sawako_natori",
+  "entity_type": "music.composer",
+  "label": "Sawako Natori",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Klonoa"
+    ],
+    "artist_keys": [
+      "Sawako Natori"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "4806",
+    "musicbrainz": "6f1b7d05-ec01-487e-b689-533ae3c423c9",
+    "wikidata": "Q11414754",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

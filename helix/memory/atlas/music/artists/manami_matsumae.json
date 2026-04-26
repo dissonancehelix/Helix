@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:manami_matsumae",
+  "entity_type": "music.composer",
+  "label": "Manami Matsumae",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "1943 Kai",
+      "Adventures of Lolo",
+      "Another Bible",
+      "Batman",
+      "Best Play Pro Yakyuu",
+      "Carrier Air Wing",
+      "Daffy Duck",
+      "Derby Stallion '96",
+      "Derby Stallion Advance",
+      "Derby Stallion III",
+      "Dragon Quest Swords",
+      "Dynasty Wars",
+      "F",
+      "Final Fight",
+      "Flat Kingdom"
+    ],
+    "artist_keys": [
+      "Manami Matsumae"
+    ],
+    "track_count": 444
+  },
+  "external_ids": {
+    "vgmdb": "46216",
+    "musicbrainz": "6fdc3b26-0eec-42c6-9f55-977c76ac4dfb",
+    "wikidata": "Q6746873",
+    "spotify": "2HJhExHDzQpRCD89IGf3DI",
+    "lastfm": "",
+    "discogs": "1700609",
+    "wikipedia": "https://en.wikipedia.org/wiki/Manami_Matsumae"
+  }
+}

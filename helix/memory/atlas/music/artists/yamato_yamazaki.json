@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yamato_yamazaki",
+  "entity_type": "music.composer",
+  "label": "Yamato Yamazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Noby Noby Boy"
+    ],
+    "artist_keys": [
+      "Yamato Yamazaki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

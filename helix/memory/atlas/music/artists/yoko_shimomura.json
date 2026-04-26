@@ -1,0 +1,50 @@
+{
+  "entity_id": "music.composer:yoko_shimomura",
+  "entity_type": "music.composer",
+  "label": "Yoko Shimomura",
+  "aliases": [
+    "下村 陽子"
+  ],
+  "biography": {
+    "short": "Prominent Japanese video game music composer and pianist.",
+    "career": "Capcom (1988–1993), Square (1993–2002), Freelance (2003–present).",
+    "birth_year": 1967
+  },
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES",
+      "Game Boy Advance",
+      "PlayStation",
+      "PlayStation 2",
+      "DS",
+      "3DS",
+      "PlayStation 4",
+      "Switch"
+    ],
+    "franchises": [
+      "Street Fighter II",
+      "Final Fight",
+      "Live A Live",
+      "Super Mario RPG",
+      "Legend of Mana",
+      "Kingdom Hearts",
+      "Mario & Luigi",
+      "Xenoblade Chronicles",
+      "Final Fantasy XV"
+    ],
+    "artist_keys": [
+      "Yoko Shimomura"
+    ],
+    "track_count": 1633
+  },
+  "external_ids": {
+    "vgmdb": "139",
+    "musicbrainz": "b3933fd6-fba9-44b1-992a-1e8128324ca1",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoko_Shimomura",
+    "wikidata": "Q1073854",
+    "spotify": "2uDsUIyCIqk9wKj17I8WAH",
+    "lastfm": "下村陽子",
+    "discogs": "230032"
+  }
+}

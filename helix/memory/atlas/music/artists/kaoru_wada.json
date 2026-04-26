@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kaoru_wada",
+  "entity_type": "music.composer",
+  "label": "Kaoru Wada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kingdom Hearts HD 1.5 ReMIX",
+      "Kingdom Hearts HD 2.5 ReMIX",
+      "Kingdom Hearts III",
+      "Seima Densetsu 3x3 Eyes"
+    ],
+    "artist_keys": [
+      "Kaoru Wada"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "1743",
+    "musicbrainz": "9df481a9-04b5-4dd7-ae85-39a6bebd9f60",
+    "wikidata": "Q707593",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kaoru_Wada"
+  }
+}

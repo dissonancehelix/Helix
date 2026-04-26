@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:simon_stlenhag",
+  "entity_type": "music.composer",
+  "label": "Simon Stålenhag",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock",
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "Simon Stålenhag"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "14600",
+    "musicbrainz": "90a33eeb-87d6-4b85-9899-de0207faa243",
+    "wikidata": "Q16945517",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Simon_St%C3%A5lenhag"
+  }
+}

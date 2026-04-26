@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yoshifumi_iwata",
+  "entity_type": "music.composer",
+  "label": "Yoshifumi Iwata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Lunar"
+    ],
+    "artist_keys": [
+      "Yoshifumi Iwata"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11475528",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

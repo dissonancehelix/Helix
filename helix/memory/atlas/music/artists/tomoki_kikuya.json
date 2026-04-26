@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tomoki_kikuya",
+  "entity_type": "music.composer",
+  "label": "Tomoki Kikuya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon"
+    ],
+    "artist_keys": [
+      "Tomoki Kikuya"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

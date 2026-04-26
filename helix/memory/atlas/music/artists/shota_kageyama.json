@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:shota_kageyama",
+  "entity_type": "music.composer",
+  "label": "Shota Kageyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Chunithm",
+      "Pokkén Tournament DX",
+      "Pokémon Black & White",
+      "Pokémon Black 2 & White 2",
+      "Pokémon HeartGold & SoulSilver",
+      "Pokémon X & Y",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "The Black Knight and the White Demon King"
+    ],
+    "artist_keys": [
+      "Shota Kageyama"
+    ],
+    "track_count": 227
+  },
+  "external_ids": {
+    "vgmdb": "274",
+    "musicbrainz": "696e32fa-3b02-4ce9-b5b3-41b91a6f1a00",
+    "wikidata": "Q11514653",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

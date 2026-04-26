@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tomohiro_nakatsuchi",
+  "entity_type": "music.composer",
+  "label": "Tomohiro Nakatsuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Danganronpa Another Episode"
+    ],
+    "artist_keys": [
+      "Tomohiro Nakatsuchi"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

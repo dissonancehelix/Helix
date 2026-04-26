@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:ryusuke_fujioka",
+  "entity_type": "music.composer",
+  "label": "Ryusuke Fujioka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bloodstained"
+    ],
+    "artist_keys": [
+      "Ryusuke Fujioka"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

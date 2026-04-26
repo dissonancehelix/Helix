@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yu_kageyama",
+  "entity_type": "music.composer",
+  "label": "Yu Kageyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Caravan Stories"
+    ],
+    "artist_keys": [
+      "Yu Kageyama"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:suddi_raval",
+  "entity_type": "music.composer",
+  "label": "Suddi Raval",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Foreman For Real",
+      "Spider",
+      "Tin Star"
+    ],
+    "artist_keys": [
+      "Suddi Raval"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

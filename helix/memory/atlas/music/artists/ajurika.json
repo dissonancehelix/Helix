@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:ajurika",
+  "entity_type": "music.composer",
+  "label": "Ajurika",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Aqua Rush",
+      "Beautiful Katamari",
+      "Drakengard 3",
+      "Katamari Damacy",
+      "Katamari Forever",
+      "Kotoba no Puzzle",
+      "Mario Kart Arcade GP DX",
+      "Me & My Katamari",
+      "MotoGP 4",
+      "Muscle March",
+      "Once Upon a Katamari",
+      "Pac",
+      "R",
+      "Ridge Racer 6",
+      "Ridge Racer 7"
+    ],
+    "artist_keys": [
+      "Ajurika"
+    ],
+    "track_count": 192
+  },
+  "external_ids": {
+    "vgmdb": "1978",
+    "musicbrainz": "3f540d27-bac2-42a1-be42-691a7337ec00",
+    "wikidata": "Q11642030",
+    "spotify": "",
+    "lastfm": "%E9%81%A0%E5%B1%B1%E6%98%8E%E5%AD%9D",
+    "discogs": "2777055"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:yasushi_wada",
+  "entity_type": "music.composer",
+  "label": "Yasushi Wada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Bonk's Adventure",
+      "Explosive Breaker"
+    ],
+    "artist_keys": [
+      "Yasushi Wada"
+    ],
+    "track_count": 27
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1394237",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wada_Nei"
+  }
+}

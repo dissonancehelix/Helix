@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:sam_powell",
+  "entity_type": "music.composer",
+  "label": "Sam Powell",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Jurassic Park",
+      "Ren & Stimpy",
+      "Shadowrun",
+      "Spider"
+    ],
+    "artist_keys": [
+      "Sam Powell"
+    ],
+    "track_count": 53
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q110292517",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sam_Powell_(footballer)"
+  }
+}

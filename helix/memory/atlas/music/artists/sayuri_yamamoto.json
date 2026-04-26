@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:sayuri_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Sayuri Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Snowboard Kids 2"
+    ],
+    "artist_keys": [
+      "Sayuri Yamamoto"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90723596",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

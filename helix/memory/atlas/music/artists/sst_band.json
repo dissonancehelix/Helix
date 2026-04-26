@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:sst_band",
+  "entity_type": "music.composer",
+  "label": "S.S.T. Band",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Game Music Festival ~Super Live '92~",
+      "S.S.T. Band Live!"
+    ],
+    "artist_keys": [
+      "S.S.T. Band"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "123",
+    "musicbrainz": "428e2401-2afc-4a4c-8607-cbe551e950f4",
+    "wikidata": "Q858402",
+    "spotify": "4ShgdWtm52xvEr8uYmT0V6",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/S.S.T._Band"
+  }
+}

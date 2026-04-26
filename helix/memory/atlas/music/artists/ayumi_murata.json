@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ayumi_murata",
+  "entity_type": "music.composer",
+  "label": "Ayumi Murata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "L no Kisetsu 2"
+    ],
+    "artist_keys": [
+      "Ayumi Murata"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "686",
+    "musicbrainz": "b1d1e28b-3f41-49e1-9a11-08feb86239f2",
+    "wikidata": "Q4831822",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ayumi_Murata"
+  }
+}

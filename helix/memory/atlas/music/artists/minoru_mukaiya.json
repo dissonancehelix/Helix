@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:minoru_mukaiya",
+  "entity_type": "music.composer",
+  "label": "Minoru Mukaiya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Romance of the Three Kingdoms II",
+      "Romance of the Three Kingdoms III"
+    ],
+    "artist_keys": [
+      "Minoru Mukaiya"
+    ],
+    "track_count": 34
+  },
+  "external_ids": {
+    "vgmdb": "627",
+    "musicbrainz": "2265efef-1415-486b-a519-f6b3a37a7659",
+    "wikidata": "Q356739",
+    "spotify": "3cws2i3eaDod9ySMskk2RE",
+    "lastfm": "Minoru+Mukaiya",
+    "wikipedia": "https://en.wikipedia.org/wiki/Minoru_Mukaiya"
+  }
+}

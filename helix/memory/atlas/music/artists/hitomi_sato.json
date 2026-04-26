@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:hitomi_sato",
+  "entity_type": "music.composer",
+  "label": "Hitomi Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Pokémon Black & White",
+      "Pokémon Black 2 & White 2",
+      "Pokémon Diamond & Pearl",
+      "Pokémon HeartGold & SoulSilver",
+      "Pokémon Platinum",
+      "Pokémon X & Y"
+    ],
+    "artist_keys": [
+      "Hitomi Sato"
+    ],
+    "track_count": 207
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11383633",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hitomi_Sato_(actress)"
+  }
+}

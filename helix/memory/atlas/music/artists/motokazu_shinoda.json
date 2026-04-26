@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:motokazu_shinoda",
+  "entity_type": "music.composer",
+  "label": "Motokazu Shinoda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Crusader of Centy"
+    ],
+    "artist_keys": [
+      "Motokazu Shinoda"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "5182",
+    "musicbrainz": "eece89d2-b9d8-424c-ac5a-e7772e0c169f",
+    "wikidata": "Q11603792",
+    "spotify": "",
+    "lastfm": "篠田元一",
+    "wikipedia": "https://en.wikipedia.org/wiki/Motokazu_Shinoda"
+  }
+}

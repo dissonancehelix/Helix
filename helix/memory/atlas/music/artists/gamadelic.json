@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:gamadelic",
+  "entity_type": "music.composer",
+  "label": "Gamadelic",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Birdie Try",
+      "BreakThru",
+      "Captain Silver",
+      "Darwin 4078",
+      "Game Music Festival ~Super Live '92~",
+      "Meikyuu Hunter G",
+      "Side Pocket",
+      "Side Pocket 3",
+      "Stadium Hero",
+      "The Real Ghostbusters"
+    ],
+    "artist_keys": [
+      "Gamadelic"
+    ],
+    "track_count": 84
+  },
+  "external_ids": {
+    "vgmdb": "1572",
+    "musicbrainz": "993d3cee-4918-46c9-abee-98687675bf31",
+    "wikidata": "Q5519545",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4882750",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gamadelic"
+  }
+}

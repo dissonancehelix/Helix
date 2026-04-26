@@ -1,0 +1,46 @@
+{
+  "entity_id": "music.composer:yusuke_takahama",
+  "entity_type": "music.composer",
+  "label": "Yusuke Takahama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Mega Drive",
+      "NES",
+      "PC Engine",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Battle Grand Prix",
+      "Boulder Dash",
+      "DS Uranai Seikatsu",
+      "Dark Lord",
+      "Doraemon",
+      "F1 Grand Prix",
+      "F1 Super License",
+      "Glory of Heracles II",
+      "Joe & Mac",
+      "Kakutou Ryouri Densetsu Bistro Recipe",
+      "Kikou Keisatsu Metal Jack",
+      "Little Magic",
+      "Makai Hakkenden Shada",
+      "Nage Libre",
+      "Scorpius"
+    ],
+    "artist_keys": [
+      "Yusuke Takahama"
+    ],
+    "track_count": 498
+  },
+  "external_ids": {
+    "vgmdb": "2993",
+    "musicbrainz": "3d2b3652-7852-47cd-890c-055525e7f1e1",
+    "wikidata": "Q11671901",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

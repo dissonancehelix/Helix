@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tenno",
+  "entity_type": "music.composer",
+  "label": "Tenno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Chelnov"
+    ],
+    "artist_keys": [
+      "Tenno"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q126696816",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

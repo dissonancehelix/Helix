@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:raekwon",
+  "entity_type": "music.composer",
+  "label": "Raekwon",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Raekwon"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "4e954b02-fae2-4bd7-9547-e055a6ac0527",
+    "wikidata": "Q320167",
+    "spotify": "2yQf6b8hxahZaT5dHlWaB1",
+    "lastfm": "Raekwon",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raekwon"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:greg_weber",
+  "entity_type": "music.composer",
+  "label": "Greg Weber",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gex"
+    ],
+    "artist_keys": [
+      "Greg Weber"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100950632",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

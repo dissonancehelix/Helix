@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takahiro_wakuta",
+  "entity_type": "music.composer",
+  "label": "Takahiro Wakuta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES",
+      "PC Engine"
+    ],
+    "franchises": [
+      "Final Match Tennis",
+      "The Adventures of Gilligan's Island"
+    ],
+    "artist_keys": [
+      "Takahiro Wakuta"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

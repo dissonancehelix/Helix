@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:satomi_terui",
+  "entity_type": "music.composer",
+  "label": "Satomi Terui",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario Kart 7",
+      "Mario Kart 8"
+    ],
+    "artist_keys": [
+      "Satomi Terui"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

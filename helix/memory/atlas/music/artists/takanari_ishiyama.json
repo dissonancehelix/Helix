@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takanari_ishiyama",
+  "entity_type": "music.composer",
+  "label": "Takanari Ishiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Metal Gear Solid",
+      "Tantei Kibukawa Ryousuke Jikentan"
+    ],
+    "artist_keys": [
+      "Takanari Ishiyama"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "4452",
+    "musicbrainz": "4a5d910f-078b-4201-9902-4f6b5af2d930",
+    "wikidata": "Q11585547",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

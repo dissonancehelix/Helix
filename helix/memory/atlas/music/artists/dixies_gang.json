@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:dixies_gang",
+  "entity_type": "music.composer",
+  "label": "Dixie's Gang",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Dixie's Gang"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

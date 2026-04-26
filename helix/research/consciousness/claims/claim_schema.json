@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ClaimRecord",
+  "description": "A single falsifiable claim in the Inhabited Interiority research program",
+  "type": "object",
+  "required": ["claim_id", "title", "text", "status", "confidence", "evidence_level", "last_updated"],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "description": "Unique identifier, e.g. II-C001",
+      "pattern": "^II-[A-Z0-9]+-[0-9]+$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Short label for the claim"
+    },
+    "text": {
+      "type": "string",
+      "description": "Full statement of the claim"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["candidate", "weakened", "broken", "unresolved", "promoted_for_testing_only"],
+      "description": "Current claim status per HARDNESS_PROTOCOL.md"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "description": "Subjective confidence score. 0=no confidence, 1=maximum confidence. Not a probability."
+    },
+    "evidence_level": {
+      "type": "string",
+      "enum": ["conceptual", "analogical", "empirical_proxy", "clinical", "computational", "speculative"],
+      "description": "Strongest evidence level currently supporting the claim"
+    },
+    "supporting_cases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Case IDs where this claim classifies correctly"
+    },
+    "hostile_cases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Case IDs where this claim fails or is stressed"
+    },
+    "rival_theories": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Rival theories that compete with or challenge this claim"
+    },
+    "failure_modes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "overclassification",
+          "underclassification",
+          "branching_failure",
+          "symbolic_false_positive",
+          "report_confound",
+          "field_intelligence_confound",
+          "continuity_gap",
+          "primitive_residue",
+          "scope_creep",
+          "unfalsifiable_absorption"
+        ]
+      },
+      "description": "Failure modes that have been observed or are at risk"
+    },
+    "breaks_preserved": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Documented breaks that cannot be resolved without claim revision"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of last status revision"
+    },
+    "revision_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["date", "from_status", "to_status", "reason"],
+        "properties": {
+          "date": { "type": "string", "format": "date" },
+          "from_status": { "type": "string" },
+          "to_status": { "type": "string" },
+          "reason": { "type": "string" }
+        }
+      }
+    }
+  }
+}

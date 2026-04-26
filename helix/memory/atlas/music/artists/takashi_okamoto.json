@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takashi_okamoto",
+  "entity_type": "music.composer",
+  "label": "Takashi Okamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Summon Night Granthesis"
+    ],
+    "artist_keys": [
+      "Takashi Okamoto"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q87413118",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

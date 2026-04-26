@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ayumu_ito",
+  "entity_type": "music.composer",
+  "label": "Ayumu Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "PokéPark 2"
+    ],
+    "artist_keys": [
+      "Ayumu Ito"
+    ],
+    "track_count": 65
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90260305",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

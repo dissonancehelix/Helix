@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:katsuki_maeda",
+  "entity_type": "music.composer",
+  "label": "Katsuki Maeda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Magical TwinBee"
+    ],
+    "artist_keys": [
+      "Katsuki Maeda"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "3867",
+    "musicbrainz": "822681b5-37f4-404f-bcf3-44b04eefea84",
+    "wikidata": "Q11397411",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toriena",
+  "entity_type": "music.composer",
+  "label": "TORIENA",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Racing"
+    ],
+    "artist_keys": [
+      "TORIENA"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "32401",
+    "musicbrainz": "44b091e9-4715-4962-bc82-44b32964d726",
+    "wikidata": "Q22122889",
+    "spotify": "569Tg9s0Rv7EpI7zufTs2i",
+    "lastfm": "TORIENA"
+  }
+}

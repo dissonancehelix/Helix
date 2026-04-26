@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:hideki_kanazashi",
+  "entity_type": "music.composer",
+  "label": "Hideki Kanazashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "MSX"
+    ],
+    "franchises": [
+      "Eggerland Mystery 2",
+      "Famicom Grand Prix II",
+      "Gall Force",
+      "Mach Rider"
+    ],
+    "artist_keys": [
+      "Hideki Kanazashi"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:mr_bungle",
+  "entity_type": "music.composer",
+  "label": "Mr. Bungle",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "California",
+      "Disco Volante",
+      "Mr. Bungle"
+    ],
+    "artist_keys": [
+      "Mr. Bungle"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "277e21a9-2d64-452d-96c4-2d23a7af5891",
+    "wikidata": "Q1147061",
+    "spotify": "2zq0uqN9Wq12tqrQQt1ozw",
+    "lastfm": "Mr.+Bungle",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mr._Bungle"
+  }
+}

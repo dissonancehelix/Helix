@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:seigen_tokuzawa",
+  "entity_type": "music.composer",
+  "label": "Seigen Tokuzawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gran Turismo 5"
+    ],
+    "artist_keys": [
+      "Seigen Tokuzawa"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "27501",
+    "musicbrainz": "654694e7-158f-4380-b2e4-31629e5f7ff2",
+    "wikidata": "Q38275936",
+    "spotify": "5gemsSuKIOTWdBQDf3XtDW",
+    "lastfm": "徳澤青弦"
+  }
+}

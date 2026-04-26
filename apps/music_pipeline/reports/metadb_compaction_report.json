@@ -1,0 +1,10 @@
+{
+  "original_path": "C:\\Users\\dissonance\\AppData\\Roaming\\foobar2000-v2\\metadb.sqlite",
+  "original_size_mb": 353.39453125,
+  "compacted_path": "C:\\Users\\dissonance\\AppData\\Roaming\\foobar2000-v2\\metadb_compacted.sqlite",
+  "status": "success_ready_for_swap",
+  "compacted_size_mb": 353.38671875,
+  "savings_mb": 0.0078125,
+  "integrity_check": "ok",
+  "instructions": "The compacted database is ready. To complete the swap safely:\n1. Close foobar2000 entirely.\n2. Rename or move original: C:\\Users\\dissonance\\AppData\\Roaming\\foobar2000-v2\\metadb.sqlite\n3. Rename compacted to original name: C:\\Users\\dissonance\\AppData\\Roaming\\foobar2000-v2\\metadb_compacted.sqlite -> metadb.sqlite\n4. Restart foobar2000 and verify functionality."
+}

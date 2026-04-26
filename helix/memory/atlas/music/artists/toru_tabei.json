@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:toru_tabei",
+  "entity_type": "music.composer",
+  "label": "Toru Tabei",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Alliance Alive"
+    ],
+    "artist_keys": [
+      "Toru Tabei"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

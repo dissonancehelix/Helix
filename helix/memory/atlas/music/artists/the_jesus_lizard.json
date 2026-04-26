@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:the_jesus_lizard",
+  "entity_type": "music.composer",
+  "label": "The Jesus Lizard",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Goat"
+    ],
+    "artist_keys": [
+      "The Jesus Lizard"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

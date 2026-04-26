@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:hiroshi_okubo",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Okubo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ace Combat",
+      "Ace Combat 04",
+      "Ace Combat 2",
+      "Ace Combat 3",
+      "Ace Combat 5",
+      "Ace Combat 6",
+      "Ace Combat 7",
+      "Ace Combat Infinity",
+      "Ace Combat Zero",
+      "Dai",
+      "FM Sound Module Maniax",
+      "J.League Soccer Prime Goal EX",
+      "Klonoa",
+      "Kotoba no Puzzle",
+      "Mario Kart Arcade GP DX"
+    ],
+    "artist_keys": [
+      "Hiroshi Okubo"
+    ],
+    "track_count": 159
+  },
+  "external_ids": {
+    "vgmdb": "37074",
+    "musicbrainz": "41d3a5ee-f479-44fb-959b-e517ef2aa00e",
+    "wikidata": "Q5771024",
+    "spotify": "1CXtHADk7NmTjiPMHmuxre",
+    "lastfm": "",
+    "discogs": "668184",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroshi_Okubo"
+  }
+}

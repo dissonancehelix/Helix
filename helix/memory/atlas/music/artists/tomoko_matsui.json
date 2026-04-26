@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tomoko_matsui",
+  "entity_type": "music.composer",
+  "label": "Tomoko Matsui",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Treasure Hunter G"
+    ],
+    "artist_keys": [
+      "Tomoko Matsui"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q91516760",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

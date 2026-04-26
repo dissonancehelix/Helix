@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mark_james",
+  "entity_type": "music.composer",
+  "label": "Mark James",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Silent Hill"
+    ],
+    "artist_keys": [
+      "Mark James"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q117743546",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

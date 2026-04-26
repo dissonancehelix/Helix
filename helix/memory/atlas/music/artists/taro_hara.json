@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:taro_hara",
+  "entity_type": "music.composer",
+  "label": "Taro Hara",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Bonk 3"
+    ],
+    "artist_keys": [
+      "Taro Hara"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q47515664",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

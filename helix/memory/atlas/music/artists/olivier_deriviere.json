@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:olivier_deriviere",
+  "entity_type": "music.composer",
+  "label": "Olivier Deriviere",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Streets of Rage 4"
+    ],
+    "artist_keys": [
+      "Olivier Deriviere"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "5456",
+    "musicbrainz": "885d2001-2d0d-4a80-8d8e-8ed49d270f1a",
+    "wikidata": "Q7088143",
+    "spotify": "2CXwRGFTYdcEAI44NT7qDR",
+    "lastfm": "Olivier+Derivière",
+    "wikipedia": "https://en.wikipedia.org/wiki/Olivier_Deriviere"
+  }
+}

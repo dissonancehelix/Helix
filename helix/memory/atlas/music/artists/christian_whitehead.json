@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:christian_whitehead",
+  "entity_type": "music.composer",
+  "label": "Christian Whitehead",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Penny's Big Breakaway"
+    ],
+    "artist_keys": [
+      "Christian Whitehead"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ba6bf144-01f8-4df0-97d6-bb43671e13e7",
+    "wikidata": "Q26702733",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christian_Whitehead"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:hiroaki_shimizu",
+  "entity_type": "music.composer",
+  "label": "Hiroaki Shimizu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Aggressors of Dark Kombat",
+      "Magician Lord",
+      "Ninja Combat",
+      "Ninja Master's",
+      "Sky Soldiers",
+      "Thrash Rally",
+      "World Heroes",
+      "World Heroes 2",
+      "World Heroes 2 Jet",
+      "World Heroes Perfect"
+    ],
+    "artist_keys": [
+      "Hiroaki Shimizu"
+    ],
+    "track_count": 96
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q92667729",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:youichi_iwasaki",
+  "entity_type": "music.composer",
+  "label": "Youichi Iwasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Ekudorado",
+      "Get!",
+      "Merry Go Round",
+      "Visitte"
+    ],
+    "artist_keys": [
+      "Youichi Iwasaki"
+    ],
+    "track_count": 51
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q20038832",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroshi_mitsuoka",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Mitsuoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "Castlevania"
+    ],
+    "artist_keys": [
+      "Hiroshi Mitsuoka"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:borislav_slavov",
+  "entity_type": "music.composer",
+  "label": "Borislav Slavov",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Baldur's Gate 3",
+      "Divinity"
+    ],
+    "artist_keys": [
+      "Borislav Slavov"
+    ],
+    "track_count": 85
+  },
+  "external_ids": {
+    "vgmdb": "10393",
+    "musicbrainz": "ec62bda5-4563-4db4-bdb7-9ab6bde8f29b",
+    "wikidata": "Q4422978",
+    "spotify": "",
+    "lastfm": "Borislav+Slavov",
+    "discogs": "2231404",
+    "wikipedia": "https://en.wikipedia.org/wiki/Borislav_Slavov"
+  }
+}

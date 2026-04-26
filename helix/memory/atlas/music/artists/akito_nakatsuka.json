@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:akito_nakatsuka",
+  "entity_type": "music.composer",
+  "label": "Akito Nakatsuka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Famicom Disk System",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "BS Goods Press 3",
+      "BS Saterawalker 2",
+      "Bdash 2 Gatsu Gou",
+      "Brain Age",
+      "Cheap de Gorgeous Vol.1",
+      "Clu Clu Land",
+      "Columbus no Tamagoyaki",
+      "Dan Dan Belt Conveyor Milk no Maki",
+      "Family Computer Golf",
+      "Furoito no Chousenjou",
+      "Gal Kan Bazooka Dai",
+      "Goods Press Gatsu Gou 7",
+      "Heisei Shin Onigashima",
+      "Ice Climber",
+      "Mike Tyson's Punch"
+    ],
+    "artist_keys": [
+      "Akito Nakatsuka"
+    ],
+    "track_count": 187
+  },
+  "external_ids": {
+    "vgmdb": "504",
+    "musicbrainz": "3b287468-9552-469a-9a7e-3f7cd9df6cce",
+    "wikidata": "Q8192624",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1040041",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akito_Nakatsuka"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yasuhiko_takashiba",
+  "entity_type": "music.composer",
+  "label": "Yasuhiko Takashiba",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "11e Rallye Big Run",
+      "Rushing Beat"
+    ],
+    "artist_keys": [
+      "Yasuhiko Takashiba"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

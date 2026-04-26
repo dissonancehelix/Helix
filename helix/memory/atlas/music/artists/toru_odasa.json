@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toru_odasa",
+  "entity_type": "music.composer",
+  "label": "Toru Odasa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Mega Man World"
+    ],
+    "artist_keys": [
+      "Toru Odasa"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

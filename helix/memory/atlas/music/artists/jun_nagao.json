@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:jun_nagao",
+  "entity_type": "music.composer",
+  "label": "Jun Nagao",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Romance of the Three Kingdoms IV"
+    ],
+    "artist_keys": [
+      "Jun Nagao"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "2345",
+    "musicbrainz": "5946c7ab-6731-42b5-87c6-bee9804a081c",
+    "wikidata": "Q2758545",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jun_Nagao"
+  }
+}

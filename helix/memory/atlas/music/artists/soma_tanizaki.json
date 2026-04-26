@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:soma_tanizaki",
+  "entity_type": "music.composer",
+  "label": "Soma Tanizaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Elden Ring",
+      "Elden Ring Nightreign"
+    ],
+    "artist_keys": [
+      "Soma Tanizaki"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

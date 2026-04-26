@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:atsuyoshi_isemura",
+  "entity_type": "music.composer",
+  "label": "Atsuyoshi Isemura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy Advance",
+      "PC-98",
+      "Super NES"
+    ],
+    "franchises": [
+      "Arm Champs II",
+      "F",
+      "Farland Story",
+      "Kirby & the Amazing Mirror",
+      "Kisou Shinden Gen",
+      "Rushing Beat",
+      "Rushing Beat Ran",
+      "Rushing Beat Shura",
+      "Soldam",
+      "V.G. II"
+    ],
+    "artist_keys": [
+      "Atsuyoshi Isemura"
+    ],
+    "track_count": 129
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

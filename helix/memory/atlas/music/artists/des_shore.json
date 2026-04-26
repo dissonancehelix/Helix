@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:des_shore",
+  "entity_type": "music.composer",
+  "label": "Des Shore",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Borderlands"
+    ],
+    "artist_keys": [
+      "Des Shore"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

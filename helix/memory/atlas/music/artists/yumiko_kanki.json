@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:yumiko_kanki",
+  "entity_type": "music.composer",
+  "label": "Yumiko Kanki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "F",
+      "Special Tee Shot",
+      "Star Fox 2",
+      "Tetris & Dr. Mario"
+    ],
+    "artist_keys": [
+      "Yumiko Kanki"
+    ],
+    "track_count": 73
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

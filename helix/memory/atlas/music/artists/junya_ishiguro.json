@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:junya_ishiguro",
+  "entity_type": "music.composer",
+  "label": "Junya Ishiguro",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Wild Hearts"
+    ],
+    "artist_keys": [
+      "Junya Ishiguro"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

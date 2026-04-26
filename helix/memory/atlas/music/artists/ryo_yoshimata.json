@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryo_yoshimata",
+  "entity_type": "music.composer",
+  "label": "Ryo Yoshimata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Ryo Yoshimata"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "10644",
+    "musicbrainz": "4812f84c-6eda-4c9d-9e89-5a2a984c58a4",
+    "wikidata": "Q1257356",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:galapagos",
+  "entity_type": "music.composer",
+  "label": "Galapagos",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Advanced Daisenryaku"
+    ],
+    "artist_keys": [
+      "Galapagos"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q16981582",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Galapagos_(video_game)"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hidenobu_otsuki",
+  "entity_type": "music.composer",
+  "label": "Hidenobu Otsuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Bomberman 64",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Hidenobu Otsuki"
+    ],
+    "track_count": 94
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:bobby_prince",
+  "entity_type": "music.composer",
+  "label": "Bobby Prince",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS"
+    ],
+    "franchises": [
+      "Catacomb 3",
+      "Commander Keen in Aliens Ate My Babysitter!",
+      "Commander Keen in Goodbye, Galaxy! Episode IV",
+      "Commander Keen in Goodbye, Galaxy! Episode V",
+      "Doom",
+      "Doom II",
+      "Duke Nukem II",
+      "Major Stryker",
+      "Spear of Destiny",
+      "Wolfenstein 3"
+    ],
+    "artist_keys": [
+      "Bobby Prince"
+    ],
+    "track_count": 163
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100905033",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:aka_ishibashi",
+  "entity_type": "music.composer",
+  "label": "Aka Ishibashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Pro Mahjong Kiwame II",
+      "Pro Mahjong Kiwame III"
+    ],
+    "artist_keys": [
+      "Aka Ishibashi"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

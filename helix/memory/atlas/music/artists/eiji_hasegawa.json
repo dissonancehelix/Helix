@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:eiji_hasegawa",
+  "entity_type": "music.composer",
+  "label": "Eiji Hasegawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Doraemon"
+    ],
+    "artist_keys": [
+      "Eiji Hasegawa"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

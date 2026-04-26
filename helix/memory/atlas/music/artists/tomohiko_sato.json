@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:tomohiko_sato",
+  "entity_type": "music.composer",
+  "label": "Tomohiko Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Snowboard Kids 2"
+    ],
+    "artist_keys": [
+      "Tomohiko Sato"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q60138895",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

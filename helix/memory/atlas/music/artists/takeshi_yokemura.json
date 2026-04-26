@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takeshi_yokemura",
+  "entity_type": "music.composer",
+  "label": "Takeshi Yokemura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Kira Kira Star Night",
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Takeshi Yokemura"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

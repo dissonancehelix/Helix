@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:akie_ooba",
+  "entity_type": "music.composer",
+  "label": "Akie Ooba",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Gynoug"
+    ],
+    "artist_keys": [
+      "Akie Ooba"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

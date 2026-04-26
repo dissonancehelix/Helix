@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:fumi_oto",
+  "entity_type": "music.composer",
+  "label": "Fumi Oto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man Legends 2"
+    ],
+    "artist_keys": [
+      "Fumi Oto"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "979",
+    "musicbrainz": "6a31d8ea-e2cb-42f2-a10e-af5fe3d9ec78",
+    "wikidata": "Q11438759",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

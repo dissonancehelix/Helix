@@ -1,0 +1,66 @@
+case_id: absence_seizure
+name: Absence seizure (petit mal)
+field_type: phenomenal_field
+phenomenal_candidate: false
+description: >
+  Brief generalized spike-and-wave discharge producing behavioral arrest, unresponsiveness,
+  and amnesia for the episode. Subjects resume normal activity immediately afterward with
+  no memory of the interval. Key test: G may be absent despite normal EEG baseline
+  immediately before and after. A transient collapse and recovery of the phenomenal field.
+
+components:
+  G: 0.05
+  U: 0.1
+  D: 0.05
+  T: 0.0
+  F: 0.05
+
+g_status: g_absent
+classification: non_phenomenal
+
+evidence:
+  G: >
+    0.05: subjects have no reportable experience during the seizure interval. No memory
+    of the period is recovered. No retrospective report of any phenomenal state. Scored
+    at 0.05 (not 0.0) because the hard G=0 claim faces the same verification gap as
+    propofol: absence of report ≠ proven G=0. But the evidence strongly supports G ≈ 0.
+  U: >
+    0.1: spike-and-wave discharge disrupts thalamocortical coordination globally.
+    Residual neural activity continues but lacks the integrative structure associated
+    with phenomenal unity.
+  D: >
+    0.05: EEG differentiation collapses into generalized synchronous discharge —
+    the opposite of the diverse, complex patterns associated with phenomenal states.
+    PCI-equivalent measures would be expected to be very low.
+  T: >
+    0.0: subjects report no passage of time during the episode. The specious present
+    collapses. This is one of the clearest T=0 cases outside general anesthesia.
+  F: >
+    0.05: no field inclusion. Processing continues (the body does not lose homeostatic
+    function) but without phenomenal field inclusion.
+
+revision_pressure: >
+  Absence seizures are a clean test case but raise a question the theory must address:
+  what is the mechanism of G-collapse? The theory says G = 0 when the field fails to
+  be given from within. But the mechanism of the givenness collapse during spike-and-wave
+  discharge is unspecified. Is it the synchrony itself that breaks givenness? The loss
+  of thalamocortical differentiation? The theory borrows from IIT (differentiation) and
+  recurrent processing theory here without specifying how these mechanisms relate to G.
+
+breaks_preserved:
+  - >
+    Absence seizures typically last 5–30 seconds and produce complete amnesia with no
+    reported experience. But some complex partial seizures produce automatisms — purposive
+    behavioral sequences — with no later memory. It is unclear whether G = 0 during
+    automatisms or whether G > 0 without memory formation. The theory cannot distinguish
+    G=0+no_memory from G>0+no_memory_formation. This is the same verification gap as
+    propofol, and it recurs here.
+
+notes: >
+  Holmes 1927 provided early clinical description. Penfield & Jasper 1954 established
+  the thalamocortical origin. Consciousness neuroscience uses absence seizures as a
+  model system for G-collapse with rapid recovery (unlike anesthesia). The theory
+  correctly predicts G=0 here and G=1.0 (or near) immediately after recovery — but the
+  mechanism of the transition is unspecified. Spike-and-wave discharge disrupting the
+  thalamocortical loop is the candidate mechanism; the theory must specify whether this
+  is causal to G-collapse or merely correlated.

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:sa_yin_jeong",
+  "entity_type": "music.composer",
+  "label": "Sa-Yin Jeong",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Lime Odyssey"
+    ],
+    "artist_keys": [
+      "Sa-Yin Jeong"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

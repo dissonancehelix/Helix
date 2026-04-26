@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hikaru_utada",
+  "entity_type": "music.composer",
+  "label": "Hikaru Utada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Kingdom Hearts",
+      "Kingdom Hearts 0.2 Birth by Sleep",
+      "Kingdom Hearts HD 1.5 ReMIX",
+      "Kingdom Hearts II",
+      "Kingdom Hearts III"
+    ],
+    "artist_keys": [
+      "Hikaru Utada"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "1742",
+    "musicbrainz": "b539e453-c4fe-47e3-8a07-8517eac74429",
+    "wikidata": "Q234598",
+    "spotify": "7lbSsjYACZHn1MSDXPxNF2",
+    "lastfm": "宇多田ヒカル",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hikaru_Utada"
+  }
+}

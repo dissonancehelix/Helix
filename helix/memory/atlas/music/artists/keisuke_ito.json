@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:keisuke_ito",
+  "entity_type": "music.composer",
+  "label": "Keisuke Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "AI",
+      "Bloodstained",
+      "Pokémon Mystery Dungeon",
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Keisuke Ito"
+    ],
+    "track_count": 389
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q705243",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Keisuke_Ito_(botanist)"
+  }
+}

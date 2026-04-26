@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:hiroshi_fujioka",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Fujioka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Battle Master",
+      "Blue Almanac",
+      "Getsumen no Anubis",
+      "Growlanser II",
+      "Head Buster",
+      "Human Sports Festival",
+      "Langrisser",
+      "Power of the Hired"
+    ],
+    "artist_keys": [
+      "Hiroshi Fujioka"
+    ],
+    "track_count": 91
+  },
+  "external_ids": {
+    "vgmdb": "2817",
+    "musicbrainz": "1ece894b-ba68-4507-86ca-a6207be5e1a0",
+    "wikidata": "Q11623893",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroshi_Fujioka"
+  }
+}

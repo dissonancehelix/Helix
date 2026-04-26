@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:shotaro_shima",
+  "entity_type": "music.composer",
+  "label": "Shotaro Shima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII",
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake",
+      "Final Fantasy VII Remake Intergrade",
+      "Kingdom Hearts III"
+    ],
+    "artist_keys": [
+      "Shotaro Shima"
+    ],
+    "track_count": 89
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q10371213",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

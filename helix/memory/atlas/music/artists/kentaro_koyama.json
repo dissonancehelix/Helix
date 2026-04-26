@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kentaro_koyama",
+  "entity_type": "music.composer",
+  "label": "Kentaro Koyama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Alien³",
+      "Yakuza 3"
+    ],
+    "artist_keys": [
+      "Kentaro Koyama"
+    ],
+    "track_count": 27
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:tomoya_tomita",
+  "entity_type": "music.composer",
+  "label": "Tomoya Tomita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "MSX2",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Animaniacs",
+      "Contra Force",
+      "F",
+      "Ganbare Goemon",
+      "Ganbare Goemon 2",
+      "Ganbare Goemon 3",
+      "Ganbare Goemon 4",
+      "International Superstar Soccer Deluxe",
+      "Jikkyou Oshaberi Parodius",
+      "Kirby's Epic Yarn"
+    ],
+    "artist_keys": [
+      "Tomoya Tomita"
+    ],
+    "track_count": 584
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

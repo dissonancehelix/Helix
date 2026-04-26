@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:andi_mcginty",
+  "entity_type": "music.composer",
+  "label": "Andi McGinty",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Hurricanes"
+    ],
+    "artist_keys": [
+      "Andi McGinty"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

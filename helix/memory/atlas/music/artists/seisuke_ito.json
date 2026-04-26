@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:seisuke_ito",
+  "entity_type": "music.composer",
+  "label": "Seisuke Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Blazing Star"
+    ],
+    "artist_keys": [
+      "Seisuke Ito"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshikatsu_sakai",
+  "entity_type": "music.composer",
+  "label": "Yoshikatsu Sakai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Shikinjoh"
+    ],
+    "artist_keys": [
+      "Yoshikatsu Sakai"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

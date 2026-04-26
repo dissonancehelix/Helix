@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:q_jirou",
+  "entity_type": "music.composer",
+  "label": "Q Jirou",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Garou",
+      "Metal Slug 3"
+    ],
+    "artist_keys": [
+      "Q Jirou"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

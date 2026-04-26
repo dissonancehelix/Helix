@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hiroshi_tsukamoto",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Tsukamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Hebereke no Oishii Puzzle wa Irimasekna",
+      "Hebereke no Popoon"
+    ],
+    "artist_keys": [
+      "Hiroshi Tsukamoto"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11428495",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroshi_Tsukamoto"
+  }
+}

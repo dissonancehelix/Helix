@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yasuhito_saito",
+  "entity_type": "music.composer",
+  "label": "Yasuhito Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rayxanber III"
+    ],
+    "artist_keys": [
+      "Yasuhito Saito"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

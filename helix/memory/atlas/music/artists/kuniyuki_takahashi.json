@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kuniyuki_takahashi",
+  "entity_type": "music.composer",
+  "label": "Kuniyuki Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Drakengard 3",
+      "Foamstars",
+      "NieR",
+      "NieR Re[in]carnation",
+      "Soul Hackers 2"
+    ],
+    "artist_keys": [
+      "Kuniyuki Takahashi"
+    ],
+    "track_count": 36
+  },
+  "external_ids": {
+    "vgmdb": "14598",
+    "musicbrainz": "d4894600-615d-4a39-87d5-58813f243cc7",
+    "wikidata": "Q17160560",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masanori_osaki",
+  "entity_type": "music.composer",
+  "label": "Masanori Osaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Trails / Kiseki",
+      "Ys Seven",
+      "Zwei"
+    ],
+    "artist_keys": [
+      "Masanori Osaki"
+    ],
+    "track_count": 46
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "5224aff7-39e6-432a-bbca-8f517d17a6bf",
+    "wikidata": "Q11438298",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

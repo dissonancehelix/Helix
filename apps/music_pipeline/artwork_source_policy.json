@@ -1,0 +1,64 @@
+{
+  "policy_name": "Helix Canonical Visual Policy v1.1",
+  "preferences": {
+    "dimensions": {
+      "min_width": 500,
+      "target_width": 1000,
+      "max_width": 2000,
+      "square_tolerance": 0.05
+    },
+    "selection_order": [
+      "digital_key_visual_clean",
+      "digital_box_art_clean",
+      "soundtrack_cover_digital",
+      "scanned_box_art_clean",
+      "local_fallback"
+    ],
+    "digital_preference": true,
+    "naming_convention": "cover.jpg"
+  },
+  "source_class_mapping": {
+    "vgm_original": {
+      "primary": "ign",
+      "fallback": "vgmdb",
+      "style": "digital_box_art"
+    },
+    "vgm_soundtrack": {
+      "primary": "vgmdb",
+      "fallback": "ign",
+      "style": "soundtrack_cover"
+    },
+    "non_vgm": {
+      "primary": "apple_music",
+      "secondary": "spotify",
+      "style": "digital_native"
+    }
+  },
+  "source_ranking": {
+    "ign": {
+      "priority": 1,
+      "trust": 0.98,
+      "description": "High-quality digital game covers / key visuals (Square cropped)."
+    },
+    "vgmdb": {
+      "priority": 2,
+      "trust": 0.95,
+      "description": "Soundtrack and high-quality game scans."
+    },
+    "apple_music": {
+      "priority": 3,
+      "trust": 0.98,
+      "description": "Official digital album art for commercial music."
+    },
+    "spotify": {
+      "priority": 4,
+      "trust": 0.95,
+      "description": "Official digital album art (Fallback for Non-VGM)."
+    },
+    "wikipedia": {
+      "priority": 99,
+      "trust": 0.0,
+      "description": "DEPRECATED: Low resolution and inconsistent quality."
+    }
+  }
+}

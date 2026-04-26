@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:hibiki_godai",
+  "entity_type": "music.composer",
+  "label": "Hibiki Godai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-88"
+    ],
+    "franchises": [
+      "Thexder",
+      "Zeliard"
+    ],
+    "artist_keys": [
+      "Hibiki Godai"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "5219",
+    "musicbrainz": "b3469902-c6cf-4d3d-be17-914c2c2bab82",
+    "wikidata": "Q11372019",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

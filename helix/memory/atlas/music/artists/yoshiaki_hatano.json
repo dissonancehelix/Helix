@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yoshiaki_hatano",
+  "entity_type": "music.composer",
+  "label": "Yoshiaki Hatano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Devastators"
+    ],
+    "artist_keys": [
+      "Yoshiaki Hatano"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

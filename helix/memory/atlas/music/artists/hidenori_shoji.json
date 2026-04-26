@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:hidenori_shoji",
+  "entity_type": "music.composer",
+  "label": "Hidenori Shoji",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Code of Joker",
+      "F",
+      "Fighting Vipers 2",
+      "Like a Dragon",
+      "Lost Judgment",
+      "Sonic Superstars",
+      "Super Monkey Ball",
+      "Super Monkey Ball 2",
+      "Super Monkey Ball Banana Mania",
+      "Super Smash Bros. Brawl",
+      "Yakuza",
+      "Yakuza 0",
+      "Yakuza 2",
+      "Yakuza 3",
+      "Yakuza 4"
+    ],
+    "artist_keys": [
+      "Hidenori Shoji"
+    ],
+    "track_count": 290
+  },
+  "external_ids": {
+    "vgmdb": "795",
+    "musicbrainz": "08870383-0626-4127-8cc9-5632cfdd63b2",
+    "wikidata": "Q5752541",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1752968",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hidenori_Shoji"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "operator": "Dissident93",
+  "primary_editing_domains": [
+    "NFL biographies",
+    "Video game articles",
+    "Sports biographies",
+    "VGM composers"
+  ],
+  "crosswalk": [
+    {
+      "editing_domain": "NFL player biographies",
+      "articles_like": [
+        "Jayden Daniels",
+        "Josh Harris",
+        "Washington Commanders"
+      ],
+      "most_relevant_policies": [
+        "WP:NFL",
+        "WP:BLP",
+        "MOS:Biography",
+        "MOS"
+      ],
+      "notes": "High edit volume. BLP applies to all active players. Contract/stats require RS."
+    },
+    {
+      "editing_domain": "Video game articles",
+      "articles_like": [
+        "Dota 2",
+        "Persona 5",
+        "FromSoftware games"
+      ],
+      "most_relevant_policies": [
+        "MOS:VG",
+        "WP:GNG",
+        "MOS"
+      ],
+      "notes": "MOS:VG is primary authority. Peacock terms are a recurring issue."
+    },
+    {
+      "editing_domain": "VGM composer articles",
+      "articles_like": [
+        "Yoko Shimomura",
+        "Motoi Sakuraba",
+        "Yuzo Koshiro"
+      ],
+      "most_relevant_policies": [
+        "MOS:Biography",
+        "WP:BLP",
+        "WP:GNG",
+        "MOS"
+      ],
+      "notes": "Biography + music domain. BLP applies if living. Discography formatting varies."
+    },
+    {
+      "editing_domain": "Template namespace (infobox/stats cleanup)",
+      "articles_like": [
+        "Template:Infobox NFL player",
+        "Template:NFL player stats"
+      ],
+      "most_relevant_policies": [
+        "MOS:VG",
+        "WP:NFL",
+        "WP:BLP"
+      ],
+      "notes": "Template changes affect all transclusions. Anti-pattern risk is high. Sandbox required."
+    },
+    {
+      "editing_domain": "Category and structural maintenance",
+      "articles_like": [
+        "Category:NFL players",
+        "Category:Video game composers"
+      ],
+      "most_relevant_policies": [
+        "MOS"
+      ],
+      "notes": "Low BLP risk. Category naming follows MOS conventions."
+    }
+  ]
+}

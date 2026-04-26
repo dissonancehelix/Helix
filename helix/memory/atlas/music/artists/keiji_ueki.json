@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:keiji_ueki",
+  "entity_type": "music.composer",
+  "label": "Keiji Ueki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Bonk"
+    ],
+    "artist_keys": [
+      "Keiji Ueki"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

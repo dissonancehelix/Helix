@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:tomoko_nishikawa",
+  "entity_type": "music.composer",
+  "label": "Tomoko Nishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Tomoko Nishikawa"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

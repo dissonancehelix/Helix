@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:masahiro_fukuzawa",
+  "entity_type": "music.composer",
+  "label": "Masahiro Fukuzawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Dancing Eyes",
+      "Dig Dug Arrangement",
+      "Final Lap 3",
+      "G.T.R.",
+      "Ghoul Panic",
+      "Netto! Gekitou! Quiztou!!",
+      "Pac",
+      "Super World Court",
+      "The Outfoxies",
+      "Xevious Arrangement"
+    ],
+    "artist_keys": [
+      "Masahiro Fukuzawa"
+    ],
+    "track_count": 83
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

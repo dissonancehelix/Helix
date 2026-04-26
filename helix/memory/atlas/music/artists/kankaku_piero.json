@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kankaku_piero",
+  "entity_type": "music.composer",
+  "label": "Kankaku Piero",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of Arise"
+    ],
+    "artist_keys": [
+      "Kankaku Piero"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kazuki",
+  "entity_type": "music.composer",
+  "label": "Kazuki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Kazuki"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3194472",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kazuki"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:jun_ishikawa",
+  "entity_type": "music.composer",
+  "label": "Jun Ishikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Alcahest",
+      "Arcana",
+      "Common Sense Training",
+      "HAL's Hole in One Golf",
+      "Hyper Zone",
+      "Kirby",
+      "Kirby 64",
+      "Kirby Air Ride",
+      "Kirby Fighters 2",
+      "Kirby Star Allies"
+    ],
+    "artist_keys": [
+      "Jun Ishikawa"
+    ],
+    "track_count": 605
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11585708",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:james_blake",
+  "entity_type": "music.composer",
+  "label": "James Blake",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "200 Press",
+      "Air & Lack Thereof",
+      "Are You Even Real?",
+      "Assume Form",
+      "Bad Cameo",
+      "Before",
+      "CMYK",
+      "CMYK 002",
+      "Enough Thunder",
+      "Friends That Break Your Heart",
+      "James Blake",
+      "Klavierwerke",
+      "Like the End",
+      "Love What Happened Here",
+      "Order / Pan"
+    ],
+    "artist_keys": [
+      "James Blake"
+    ],
+    "track_count": 160
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q18529321",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

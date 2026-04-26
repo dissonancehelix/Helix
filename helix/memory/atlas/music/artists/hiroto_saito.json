@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:hiroto_saito",
+  "entity_type": "music.composer",
+  "label": "Hiroto Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Folklore",
+      "GeOnDan Super Rare Trax",
+      "Ginga Force",
+      "Super Dragon Ball Z",
+      "Technicbeat",
+      "Technictix"
+    ],
+    "artist_keys": [
+      "Hiroto Saito"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "602",
+    "musicbrainz": "3e885334-b8fe-43b1-b7aa-9b129927c165",
+    "wikidata": "Q11679081",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

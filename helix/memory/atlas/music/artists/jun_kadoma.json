@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:jun_kadoma",
+  "entity_type": "music.composer",
+  "label": "Jun Kadoma",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Taiko no Tatsujin"
+    ],
+    "artist_keys": [
+      "Jun Kadoma"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

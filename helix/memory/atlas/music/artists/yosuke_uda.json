@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:yosuke_uda",
+  "entity_type": "music.composer",
+  "label": "Yosuke Uda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona",
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Yosuke Uda"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

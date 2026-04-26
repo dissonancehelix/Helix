@@ -1,0 +1,33 @@
+{
+  "entity_id": "music.composer:emi_shimizu",
+  "entity_type": "music.composer",
+  "label": "Emi Shimizu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "ABC Monday Night Football",
+      "Congo's Caper",
+      "Glory of Heracles IV",
+      "High Seas Havoc",
+      "Metal Max 2",
+      "Side Pocket",
+      "Super Birdie Rush"
+    ],
+    "artist_keys": [
+      "Emi Shimizu"
+    ],
+    "track_count": 109
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11560962",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

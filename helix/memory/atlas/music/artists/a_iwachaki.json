@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:a_iwachaki",
+  "entity_type": "music.composer",
+  "label": "A. Iwachaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X1"
+    ],
+    "franchises": [
+      "Toy Pop"
+    ],
+    "artist_keys": [
+      "A. Iwachaki"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

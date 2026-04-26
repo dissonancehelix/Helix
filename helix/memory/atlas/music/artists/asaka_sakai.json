@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:asaka_sakai",
+  "entity_type": "music.composer",
+  "label": "Asaka Sakai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ridge Racers 2"
+    ],
+    "artist_keys": [
+      "Asaka Sakai"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

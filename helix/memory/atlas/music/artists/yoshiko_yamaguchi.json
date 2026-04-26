@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:yoshiko_yamaguchi",
+  "entity_type": "music.composer",
+  "label": "Yoshiko Yamaguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Dragon Ball Z",
+      "Dragon Ball Z 2"
+    ],
+    "artist_keys": [
+      "Yoshiko Yamaguchi"
+    ],
+    "track_count": 27
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "44b8d3ea-bdcf-4c41-8c77-1aea20e77357",
+    "wikidata": "Q253862",
+    "spotify": "3QmDLMyrmKhkWccb629IGR",
+    "lastfm": "李香蘭",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yoshiko_Yamaguchi"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:hikoshi_hashimoto",
+  "entity_type": "music.composer",
+  "label": "Hikoshi Hashimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "32X",
+      "Arcade",
+      "Game Gear",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "A.B. Cop",
+      "ATP Tour Championship Tennis",
+      "Bishoujo Senshi Sailor Moon S",
+      "Cosmic Carnage",
+      "Crayon Shin",
+      "Dungeon Master",
+      "Mighty Morphin Power Rangers",
+      "Racing Hero",
+      "Run Saber",
+      "Shura no Mon",
+      "Super Mad Champ",
+      "Super Real Basketball",
+      "Umitsuri Meijin"
+    ],
+    "artist_keys": [
+      "Hikoshi Hashimoto"
+    ],
+    "track_count": 162
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

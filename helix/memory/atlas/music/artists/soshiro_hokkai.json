@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:soshiro_hokkai",
+  "entity_type": "music.composer",
+  "label": "Soshiro Hokkai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "Castlevania"
+    ],
+    "artist_keys": [
+      "Soshiro Hokkai"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

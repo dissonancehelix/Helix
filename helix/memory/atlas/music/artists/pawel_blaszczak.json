@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:pawel_blaszczak",
+  "entity_type": "music.composer",
+  "label": "Pawel Blaszczak",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Dead Island",
+      "The Witcher"
+    ],
+    "artist_keys": [
+      "Pawel Blaszczak"
+    ],
+    "track_count": 69
+  },
+  "external_ids": {
+    "vgmdb": "2966",
+    "musicbrainz": "c99c4be3-b183-4226-925c-b9b7ea2b0dd3",
+    "wikidata": "Q4088046",
+    "spotify": "3sGNDVudT2bLsqlGx2yyJv",
+    "lastfm": "Paweł+Błaszczak"
+  }
+}

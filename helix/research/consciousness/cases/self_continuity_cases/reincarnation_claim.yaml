@@ -1,0 +1,81 @@
+case_id: reincarnation_claim
+description: >
+  Reincarnation as a self-continuity claim: a person P1 dies; a person P2 is born later
+  and claims (or is claimed) to be the same self as P1. The claim is that C, P, O, B, K,
+  or N are somehow preserved across biological death and new biological instantiation.
+  Evaluated as a self-continuity claim, not as a metaphysical or religious assertion.
+transformation_type: claimed_metaphysical_transfer
+substrate_relation: different_substrate_no_causal_link
+
+scores:
+  C_fielding: null   # cannot establish cross-incarnation field continuity
+  P_perspective: null
+  O_ownership: null
+  B_boundary: null
+  K_carried_constraint: 0.3  # some K-like continuity is claimed (karma, memories in some traditions); partial at best
+  N_non_branching: null  # cannot establish whether branching occurred
+  R_restart_continuity: null  # not a suspension; biological death is not suspension
+
+field_status: field_unknown
+ownership_status: ownership_unknown
+branching_status: branching_possible
+carried_constraint_status: constraint_unknown
+restart_status: null
+
+evidence:
+  C_fielding: >
+    Null: no mechanism has been established that would carry the phenomenal field (C)
+    across biological death and new biological instantiation. Without a specified portable
+    carrier for C, C cannot be scored.
+  P_perspective: >
+    Null: perspective requires a living phenomenal field as substrate. If C is absent
+    during the interval, P has no substrate. Whether P can bridge a complete field
+    termination is unresolved.
+  O_ownership: >
+    Null: ownership of the prior self's experiences by the new self has not been established.
+    The new person may report memories of the prior life, but whether these reports
+    constitute genuine O (mineness of those experiences) or something weaker (K-transmission)
+    is unresolved.
+  B_boundary: >
+    Null: no data on how B behaves across reincarnation. The new organism has its own B.
+  K_carried_constraint: >
+    0.3: some K-like transmission is claimed in memory-reincarnation cases (children
+    recalling previous-life details) and in karma traditions (moral/causal debt carrying).
+    This is a partial K-claim, not a full K-continuity. 0.3 marks it as marginal
+    rather than absent or established.
+  N_non_branching: >
+    Null: if the prior self's field terminated completely, then the new instance is
+    not a continuation in any branching sense — it would be a new instantiation.
+    But if a portable carrier bridges the gap, N could be 1. Cannot be evaluated
+    without the carrier being specified.
+  R_restart_continuity: >
+    Not applicable. Biological death is not a suspension state. The causal biological
+    process terminates. Resumption would require a non-biological causal chain.
+
+expected_classification: unproven_portable_carrier
+
+revision_pressure: >
+  The theory correctly handles reincarnation by asking: what portable carrier bridges
+  the gap? The carrier must preserve C, P, O, B, K, N across complete biological death.
+  No such carrier is specified in most reincarnation frameworks. Until one is, the
+  classification remains unproven_portable_carrier.
+  The theory is not dismissing reincarnation — it is asking it to answer precisely:
+  what exactly transfers? If the answer is only K (karma, memory), that is K-only transfer,
+  not self-continuity.
+
+breaks_preserved:
+  - >
+    Some reincarnation evidence cases (Ian Stevenson's research) claim specific memories
+    transfer. The theory would classify this as K-partial transmission at best.
+    But the cases are structurally interesting: they claim phenomenal specificity
+    (remembering specific events from a prior life). This would require O-transmission
+    if accurate. The theory has no framework for evaluating whether O can transmit
+    without a continuous phenomenal field.
+
+notes: >
+  The theory distinguishes reincarnation types:
+  (1) Genetic lineage — DNA/traits only → not self-continuity
+  (2) Karmic/constraint transfer — K-like constraints carry → K-only, not full self
+  (3) Psychological memory transfer — memories/traits → K-partial, O unestablished
+  (4) Soul transfer — C/P/O/B/K/N carrier → requires carrier specification
+  Only (4) could satisfy the theory's requirements for self-continuity.

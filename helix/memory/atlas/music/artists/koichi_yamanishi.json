@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:koichi_yamanishi",
+  "entity_type": "music.composer",
+  "label": "Koichi Yamanishi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "NES"
+    ],
+    "franchises": [
+      "Amazing Penguin",
+      "Dragon Fighter",
+      "Kage"
+    ],
+    "artist_keys": [
+      "Koichi Yamanishi"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q117271521",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

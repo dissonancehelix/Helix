@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:jimi_hendrix",
+  "entity_type": "music.composer",
+  "label": "Jimi Hendrix",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Axis",
+      "Experience Hendrix"
+    ],
+    "artist_keys": [
+      "Jimi Hendrix"
+    ],
+    "track_count": 33
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q6199228",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jimi_Hendrix_(film)"
+  }
+}

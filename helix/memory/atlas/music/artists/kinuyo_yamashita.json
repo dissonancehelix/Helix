@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:kinuyo_yamashita",
+  "entity_type": "music.composer",
+  "label": "Kinuyo Yamashita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Famicom Disk System",
+      "Game Boy",
+      "MSX",
+      "MSX2",
+      "Mega Drive",
+      "NES",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Akagawa Jiro Mystery",
+      "Arumana no Kiseki",
+      "Bass Masters Classic",
+      "Casper",
+      "Castlevania",
+      "Cinnamon Ball",
+      "Croc 2",
+      "Digital Figure Iina",
+      "Dragon Dance",
+      "Esper Dream"
+    ],
+    "artist_keys": [
+      "Kinuyo Yamashita"
+    ],
+    "track_count": 678
+  },
+  "external_ids": {
+    "vgmdb": "1270",
+    "musicbrainz": "58b55fb7-ca98-4657-bde3-e403b3ebd93b",
+    "wikidata": "Q2042829",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1348633",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kinuyo_Yamashita"
+  }
+}

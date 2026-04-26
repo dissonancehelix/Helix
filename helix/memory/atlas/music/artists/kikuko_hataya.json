@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:kikuko_hataya",
+  "entity_type": "music.composer",
+  "label": "Kikuko Hataya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Ikari III",
+      "Mechanized Attack",
+      "The King of Fighters 2001",
+      "The Next Space",
+      "Top Player's Golf"
+    ],
+    "artist_keys": [
+      "Kikuko Hataya"
+    ],
+    "track_count": 55
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

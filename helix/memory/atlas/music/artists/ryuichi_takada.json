@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:ryuichi_takada",
+  "entity_type": "music.composer",
+  "label": "Ryuichi Takada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ace Combat 6",
+      "Kotoba no Puzzle",
+      "Ridge Racer 7",
+      "Soulcalibur II",
+      "Soulcalibur III",
+      "Tekken 5",
+      "Tekken 6"
+    ],
+    "artist_keys": [
+      "Ryuichi Takada"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "899",
+    "musicbrainz": "2e23527a-868c-4c6e-9fd0-56fd1422a632",
+    "wikidata": "Q11672254",
+    "spotify": "",
+    "lastfm": "高田龍一"
+  }
+}

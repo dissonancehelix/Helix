@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:a_bee",
+  "entity_type": "music.composer",
+  "label": "A-bee",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Synchronica"
+    ],
+    "artist_keys": [
+      "A-bee"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q131226073",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

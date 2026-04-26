@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:lotus_juice",
+  "entity_type": "music.composer",
+  "label": "Lotus Juice",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Lotus Juice"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "1740",
+    "musicbrainz": "c731e592-2620-4f4c-859d-39e294b06b35",
+    "wikidata": "Q24895569",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

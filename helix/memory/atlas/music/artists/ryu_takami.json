@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:ryu_takami",
+  "entity_type": "music.composer",
+  "label": "Ryu Takami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "MSX2",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Can Can Bunny Superior",
+      "Cosmic Psycho",
+      "Dead of the Brain",
+      "Dead of the Brain 2",
+      "EVE Burst Error",
+      "Grounseed",
+      "Lam",
+      "Nike",
+      "Rusty",
+      "Strawberry Daisenryaku NOVU",
+      "Super Space Fortress Macross",
+      "Super Space Fortress Macross II",
+      "Twilight",
+      "YU",
+      "Yuugiri"
+    ],
+    "artist_keys": [
+      "Ryu Takami"
+    ],
+    "track_count": 131
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

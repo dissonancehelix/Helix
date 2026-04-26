@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:mikio_saito",
+  "entity_type": "music.composer",
+  "label": "Mikio Saito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Master System",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Argos no Juujiken",
+      "Captain Tsubasa II",
+      "Castlevania",
+      "Chester Field",
+      "Gridiron Fight",
+      "Raiga",
+      "Riot",
+      "Shadow Warriors",
+      "Solomon no Kagi",
+      "Super Star Force",
+      "Tecmo Knight",
+      "Thunder Cross II",
+      "Tokimeki Memorial"
+    ],
+    "artist_keys": [
+      "Mikio Saito"
+    ],
+    "track_count": 239
+  },
+  "external_ids": {
+    "vgmdb": "1557",
+    "musicbrainz": "10685898-636b-4335-af3d-4f910d82a5c4",
+    "wikidata": "Q11500550",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "774727"
+  }
+}

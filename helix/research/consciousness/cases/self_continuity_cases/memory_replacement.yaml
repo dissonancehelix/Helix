@@ -1,0 +1,80 @@
+case_id: memory_replacement
+description: >
+  Hypothetical or gradual memory replacement: a person's autobiographical memories are
+  progressively replaced with false ones while their personality, skills, and current
+  phenomenal field remain intact. Does identity persist when K-history is rewritten?
+  Relevant to dementia, implanted memory hypotheticals, and deep electrode intervention.
+transformation_type: memory_alteration
+substrate_relation: same_substrate_continuous
+
+scores:
+  C_fielding: 1.0   # phenomenal field remains intact throughout
+  P_perspective: 0.9
+  O_ownership: 0.8   # mineness persists but the 'mine' of memories becomes uncertain
+  B_boundary: 0.9
+  K_carried_constraint: 0.4  # K is partially replaced; the operative constraint-history is being rewritten
+  N_non_branching: 0.9  # no branching, but the person post-replacement may be a different person
+  R_restart_continuity: null
+
+field_status: field_continuous
+ownership_status: ownership_disrupted
+branching_status: no_branching
+carried_constraint_status: constraint_partially_carried
+restart_status: null
+
+evidence:
+  C_fielding: >
+    1.0: the phenomenal field is unaffected by memory replacement. Consciousness continues.
+    This is the clearest case for dissociating C from K.
+  P_perspective: >
+    0.9: perspective is generally intact. Memory replacement does not affect spatial
+    or temporal self-location in the present. Prior perspective (on past events) is
+    being rewritten.
+  O_ownership: >
+    0.8: this is where the disruption is most interesting. The replaced memories are
+    experienced as mine — but they are false. Is ownership of a false memory real
+    ownership? The theory has no established answer.
+  B_boundary: >
+    0.9: self-boundary is intact. No self-world dissolution.
+  K_carried_constraint: >
+    0.4: K is partially preserved (skills, dispositions, emotional patterns) but the
+    autobiographical K (specific episodic memories, causal history of decisions) is
+    being replaced. The person retains some K but the K-history that grounded prior
+    self-continuity is degraded.
+  N_non_branching: >
+    0.9: no branching event. One organism, one ongoing process. But the person after
+    complete memory replacement may have diverged enough from the prior person to
+    warrant a different classification.
+  R_restart_continuity: >
+    Not applicable.
+
+expected_classification: personic_rewrite_or_fracture
+
+revision_pressure: >
+  Memory replacement separates C from K in the cleanest possible way.
+  C is preserved throughout; K is degraded or replaced. The theory must specify:
+  at what point of K-degradation does self-continuity fail?
+  If K is fully replaced while C continues, is the resulting person the same self?
+  The current formula would give: C = high, P = high, O = moderate, B = high, K = low,
+  N = high → S = low but not zero. This suggests partial self-continuity — which is
+  either philosophically correct or an artifact of the multiplicative formula.
+
+breaks_preserved:
+  - >
+    The theory has no threshold specification for K degradation. Memory replacement
+    across different amounts (10%, 50%, 100%) should presumably produce different
+    verdicts, but the formula produces a continuous score rather than a categorical
+    judgment. The categorical classification system is not aligned with the continuous
+    formula output.
+  - >
+    Ownership of false memories is philosophically contested. If O requires that
+    the 'mine' of memories corresponds to an actual past self-experience, then
+    false memories disrupt O more than the score of 0.8 suggests. If O only requires
+    the phenomenal givenness of 'mine' without truth-tracking, then O remains high.
+    The theory has not specified which definition of O it uses.
+
+notes: >
+  Alzheimer's disease is the real-world gradient version of this case: autobiographical
+  memory is progressively lost (K degrades) while the phenomenal field may remain
+  intact for long periods. The theory needs to handle gradual K-loss without claiming
+  that early-stage dementia eliminates self-continuity.

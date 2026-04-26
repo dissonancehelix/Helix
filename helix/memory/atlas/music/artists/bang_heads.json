@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:bang_heads",
+  "entity_type": "music.composer",
+  "label": "Bang Heads",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Crystal Beans"
+    ],
+    "artist_keys": [
+      "Bang Heads"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

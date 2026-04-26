@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:yoshinori_hirai",
+  "entity_type": "music.composer",
+  "label": "Yoshinori Hirai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Daemon X Machina",
+      "New Pokémon Snap",
+      "Pokkén Tournament DX",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Tekken 8",
+      "Xevious 30th Anniversary Tribute"
+    ],
+    "artist_keys": [
+      "Yoshinori Hirai"
+    ],
+    "track_count": 83
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q119922062",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

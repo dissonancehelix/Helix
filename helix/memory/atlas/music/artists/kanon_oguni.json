@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:kanon_oguni",
+  "entity_type": "music.composer",
+  "label": "Kanon Oguni",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Racing",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Kanon Oguni"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:satoshi_ohyama",
+  "entity_type": "music.composer",
+  "label": "Satoshi Ohyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Trails / Kiseki"
+    ],
+    "artist_keys": [
+      "Satoshi Ohyama"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

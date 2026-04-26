@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:misaki_okibe",
+  "entity_type": "music.composer",
+  "label": "Misaki Okibe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "Heaven's Gate",
+      "Majin Tensei II",
+      "Naname de Magic!",
+      "Persona; Shin Megami Tensei"
+    ],
+    "artist_keys": [
+      "Misaki Okibe"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

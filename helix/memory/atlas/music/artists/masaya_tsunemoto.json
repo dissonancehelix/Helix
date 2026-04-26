@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masaya_tsunemoto",
+  "entity_type": "music.composer",
+  "label": "Masaya Tsunemoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Harvest Moon DS"
+    ],
+    "artist_keys": [
+      "Masaya Tsunemoto"
+    ],
+    "track_count": 46
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

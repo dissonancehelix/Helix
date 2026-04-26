@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:freescape",
+  "entity_type": "music.composer",
+  "label": "freescape",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Rare Tracks Ver. 2.0"
+    ],
+    "artist_keys": [
+      "freescape"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q4038995",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Freescape"
+  }
+}

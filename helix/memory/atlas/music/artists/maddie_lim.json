@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:maddie_lim",
+  "entity_type": "music.composer",
+  "label": "Maddie Lim",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "Shantae Advance"
+    ],
+    "artist_keys": [
+      "Maddie Lim"
+    ],
+    "track_count": 46
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

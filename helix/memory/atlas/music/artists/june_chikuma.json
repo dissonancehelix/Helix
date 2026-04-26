@@ -1,0 +1,47 @@
+{
+  "entity_id": "music.composer:june_chikuma",
+  "entity_type": "music.composer",
+  "label": "June Chikuma",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy",
+      "Mega Drive",
+      "NES",
+      "Nintendo 64",
+      "PC Engine",
+      "Super NES",
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Adventure Island",
+      "Bomberman",
+      "Bomberman '93",
+      "Bomberman '94",
+      "Bomberman Collection",
+      "Bomberman Hero",
+      "Bomberman II",
+      "Bomberman World",
+      "Cratermaze",
+      "Crystal Beans",
+      "DoReMi Fantasy",
+      "Doraemon",
+      "Faxanadu",
+      "Jaseiken Necromancer",
+      "Mega Bomberman"
+    ],
+    "artist_keys": [
+      "June Chikuma"
+    ],
+    "track_count": 381
+  },
+  "external_ids": {
+    "vgmdb": "428",
+    "musicbrainz": "9c23a770-d718-43a9-9539-a245a5f3549d",
+    "wikidata": "Q11599479",
+    "spotify": "",
+    "lastfm": "Jun+Chiki+Chikuma",
+    "discogs": "3212766",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jun_Chikuma"
+  }
+}

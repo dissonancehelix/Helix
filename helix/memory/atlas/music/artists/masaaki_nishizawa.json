@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masaaki_nishizawa",
+  "entity_type": "music.composer",
+  "label": "Masaaki Nishizawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Far East of Eden",
+      "Super Bonk"
+    ],
+    "artist_keys": [
+      "Masaaki Nishizawa"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

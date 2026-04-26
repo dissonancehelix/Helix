@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:shingo_yasumoto",
+  "entity_type": "music.composer",
+  "label": "Shingo Yasumoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Custom Robo Arena",
+      "Mikagura Shoujo Tanteidan"
+    ],
+    "artist_keys": [
+      "Shingo Yasumoto"
+    ],
+    "track_count": 79
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q42414274",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

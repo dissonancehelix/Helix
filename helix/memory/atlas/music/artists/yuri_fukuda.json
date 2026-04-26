@@ -1,0 +1,35 @@
+{
+  "entity_id": "music.composer:yuri_fukuda",
+  "entity_type": "music.composer",
+  "label": "Yuri Fukuda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Lost Judgment",
+      "Mario; Sonic the Hedgehog",
+      "Super Monkey Ball",
+      "Super Monkey Ball Banana Mania",
+      "Super Monkey Ball Banana Rumble",
+      "Yakuza",
+      "Yakuza 0",
+      "Yakuza 4",
+      "Yakuza 5",
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "Yuri Fukuda"
+    ],
+    "track_count": 143
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11594180",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

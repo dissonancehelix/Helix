@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:tsutomu_narita",
+  "entity_type": "music.composer",
+  "label": "Tsutomu Narita",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy X HD Remaster",
+      "Final Fantasy XIV",
+      "Final Fantasy XV",
+      "Granblue Fantasy",
+      "Granblue Fantasy Versus",
+      "Sin Chronicle",
+      "UnchainBlades EXXIV"
+    ],
+    "artist_keys": [
+      "Tsutomu Narita"
+    ],
+    "track_count": 86
+  },
+  "external_ids": {
+    "vgmdb": "4426",
+    "musicbrainz": "de29ed05-39f5-4582-8984-6feaa20f5f44",
+    "wikidata": "Q1317207",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ken_Narita"
+  }
+}

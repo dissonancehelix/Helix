@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:masayuki_yamamoto",
+  "entity_type": "music.composer",
+  "label": "Masayuki Yamamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Great Sluggers '94"
+    ],
+    "artist_keys": [
+      "Masayuki Yamamoto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "11826",
+    "musicbrainz": "f82de0df-ed0d-4bb7-8946-c26cd897f3e0",
+    "wikidata": "Q3544710",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

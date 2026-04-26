@@ -1,0 +1,47 @@
+{
+  "adapter": "MetadataAdapter v1.0",
+  "source": "C:\\Users\\dissonance\\AppData\\Roaming\\foobar2000-v2\\external-tags.db",
+  "total_tracks": 122857,
+  "samples": [
+    {
+      "uri": "file://C:\\Users\\dissonance\\Music\\Anime\\Best Student Council\\01 - Launch!.mp3",
+      "title": "01 - Launch!",
+      "artist": "",
+      "album": "",
+      "is_vgm": false
+    },
+    {
+      "uri": "file://C:\\Users\\dissonance\\Music\\Anime\\Best Student Council\\02 - Under the Shade of Trees.mp3",
+      "title": "02 - Under the Shade of Trees",
+      "artist": "",
+      "album": "",
+      "is_vgm": false
+    },
+    {
+      "uri": "file://C:\\Users\\dissonance\\Music\\Anime\\Best Student Council\\03 - Do You Love Gossip.mp3",
+      "title": "03 - Do You Love Gossip",
+      "artist": "",
+      "album": "",
+      "is_vgm": false
+    },
+    {
+      "uri": "file://C:\\Users\\dissonance\\Music\\Anime\\Best Student Council\\04 - The Truth Deep in Your Heart.mp3",
+      "title": "04 - The Truth Deep in Your Heart",
+      "artist": "",
+      "album": "",
+      "is_vgm": false
+    },
+    {
+      "uri": "file://C:\\Users\\dissonance\\Music\\Anime\\Best Student Council\\05 - A Gentle Afternoon.mp3",
+      "title": "05 - A Gentle Afternoon",
+      "artist": "",
+      "album": "",
+      "is_vgm": false
+    }
+  ],
+  "features": [
+    "direct_sqlite",
+    "binary_blob_decoding",
+    "uri_normalization"
+  ]
+}

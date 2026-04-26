@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takeo_miratsu",
+  "entity_type": "music.composer",
+  "label": "Takeo Miratsu",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jumping Flash!",
+      "Jumping Flash! 2",
+      "The Legend of Dragoon"
+    ],
+    "artist_keys": [
+      "Takeo Miratsu"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "739",
+    "musicbrainz": "d4f84bf6-1055-4620-9295-961f6c4c62e8",
+    "wikidata": "Q7678055",
+    "spotify": "",
+    "lastfm": "見良津健雄",
+    "wikipedia": "https://en.wikipedia.org/wiki/Takeo_Miratsu"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:sota_fujimori",
+  "entity_type": "music.composer",
+  "label": "Sota Fujimori",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Busou Shinki Battle Masters Mk.2",
+      "Contra",
+      "Gungage",
+      "Metal Gear Solid 4",
+      "Neo Contra",
+      "Pro Evolution Soccer 2",
+      "Rumble Roses XX"
+    ],
+    "artist_keys": [
+      "Sota Fujimori"
+    ],
+    "track_count": 64
+  },
+  "external_ids": {
+    "vgmdb": "744",
+    "musicbrainz": "5c46069f-43d8-453f-8224-d94cbc0d5f48",
+    "wikidata": "Q11288201",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:iona_takashima",
+  "entity_type": "music.composer",
+  "label": "Iona Takashima",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo",
+      "Sonic Racing",
+      "Sonic Superstars"
+    ],
+    "artist_keys": [
+      "Iona Takashima"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masaki_sugo",
+  "entity_type": "music.composer",
+  "label": "Masaki Sugo",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Dragon Knight 4",
+      "Pipyan"
+    ],
+    "artist_keys": [
+      "Masaki Sugo"
+    ],
+    "track_count": 59
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

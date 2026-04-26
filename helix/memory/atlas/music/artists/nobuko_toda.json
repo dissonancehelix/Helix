@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:nobuko_toda",
+  "entity_type": "music.composer",
+  "label": "Nobuko Toda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Boktai",
+      "Kingdom Hearts 3D",
+      "Metal Gear Solid 4",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Nobuko Toda"
+    ],
+    "track_count": 106
+  },
+  "external_ids": {
+    "vgmdb": "1792",
+    "musicbrainz": "12e8529f-8500-4b56-af25-752fdfaf7fd0",
+    "wikidata": "Q11496549",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nobuko_Toda"
+  }
+}

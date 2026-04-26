@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:psycho_sonic",
+  "entity_type": "music.composer",
+  "label": "Psycho Sonic",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Digan no Maseki"
+    ],
+    "artist_keys": [
+      "Psycho Sonic"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

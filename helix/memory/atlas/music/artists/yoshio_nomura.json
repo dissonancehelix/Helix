@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yoshio_nomura",
+  "entity_type": "music.composer",
+  "label": "Yoshio Nomura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Faerie Dust Story"
+    ],
+    "artist_keys": [
+      "Yoshio Nomura"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

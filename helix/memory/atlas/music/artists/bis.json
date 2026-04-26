@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:bis",
+  "entity_type": "music.composer",
+  "label": "Bis",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio Future"
+    ],
+    "artist_keys": [
+      "Bis"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "e799a5eb-3d11-4687-b1ae-9295b44d364a",
+    "wikidata": "Q471241",
+    "spotify": "2CLWZP9ZwueC8Yx9ORbxlW",
+    "lastfm": "Bis",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bis_(Scottish_band)"
+  }
+}

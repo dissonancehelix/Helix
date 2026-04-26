@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:yukie_morimoto",
+  "entity_type": "music.composer",
+  "label": "Yukie Morimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Famicom Disk System",
+      "MSX",
+      "NES",
+      "Super NES"
+    ],
+    "franchises": [
+      "Castlevania III",
+      "Ganbare Goemon 3",
+      "Ganbare Goemon 4",
+      "Ganbare Goemon Gaiden 2",
+      "Gradius II",
+      "Gradius III",
+      "Nemesis 3",
+      "Pop'n TwinBee",
+      "Risa's Fairy Tale",
+      "Tiny Toon Adventures",
+      "TwinBee"
+    ],
+    "artist_keys": [
+      "Yukie Morimoto"
+    ],
+    "track_count": 310
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

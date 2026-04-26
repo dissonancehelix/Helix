@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:masato_nakamura",
+  "entity_type": "music.composer",
+  "label": "Masato Nakamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Chounan no Yome",
+      "Sonic the Hedgehog",
+      "Sonic the Hedgehog 2",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Masato Nakamura"
+    ],
+    "track_count": 85
+  },
+  "external_ids": {
+    "vgmdb": "1227",
+    "musicbrainz": "ccd52f00-cdd6-4551-984b-e045be63c2f5",
+    "wikidata": "Q724016",
+    "spotify": "1dMS02fPNC7ace36g64qPm",
+    "lastfm": "",
+    "discogs": "1442381",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masato_Nakamura"
+  }
+}

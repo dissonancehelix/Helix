@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:saeko_sasaki",
+  "entity_type": "music.composer",
+  "label": "Saeko Sasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Jurassic Park",
+      "OLIO",
+      "OLIO2"
+    ],
+    "artist_keys": [
+      "Saeko Sasaki"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q75589908",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

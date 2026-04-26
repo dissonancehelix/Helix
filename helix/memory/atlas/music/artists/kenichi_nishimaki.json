@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:kenichi_nishimaki",
+  "entity_type": "music.composer",
+  "label": "Kenichi Nishimaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario Kart"
+    ],
+    "artist_keys": [
+      "Kenichi Nishimaki"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kazuaki_miyaji",
+  "entity_type": "music.composer",
+  "label": "Kazuaki Miyaji",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax"
+    ],
+    "artist_keys": [
+      "Kazuaki Miyaji"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "020ac6a7-8c99-48d1-ae39-03d8a3b3045a",
+    "wikidata": "Q11455287",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

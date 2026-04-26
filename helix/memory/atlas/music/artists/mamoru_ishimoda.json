@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:mamoru_ishimoda",
+  "entity_type": "music.composer",
+  "label": "Mamoru Ishimoda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Alisia Dragoon",
+      "Dead Moon",
+      "Gambler Jiko Chuushinha",
+      "Gambler Jiko Chuushinha 2",
+      "Silpheed",
+      "Tenka Fubu"
+    ],
+    "artist_keys": [
+      "Mamoru Ishimoda"
+    ],
+    "track_count": 93
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:yuichi_nakamura",
+  "entity_type": "music.composer",
+  "label": "Yuichi Nakamura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Synchronica",
+      "Touch My Katamari",
+      "Trace Memory"
+    ],
+    "artist_keys": [
+      "Yuichi Nakamura"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "6492",
+    "musicbrainz": "f80e01fd-c161-45e5-9b3d-087ca0ec7455",
+    "wikidata": "Q984641",
+    "spotify": "",
+    "lastfm": "中村悠一",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuichi_Nakamura"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kazunori_takahashi",
+  "entity_type": "music.composer",
+  "label": "Kazunori Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Full Throttle"
+    ],
+    "artist_keys": [
+      "Kazunori Takahashi"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q61037550",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

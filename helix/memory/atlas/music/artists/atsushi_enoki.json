@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:atsushi_enoki",
+  "entity_type": "music.composer",
+  "label": "Atsushi Enoki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Nekketsu Tairiku Burning Heroes"
+    ],
+    "artist_keys": [
+      "Atsushi Enoki"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

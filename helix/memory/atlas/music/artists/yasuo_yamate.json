@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:yasuo_yamate",
+  "entity_type": "music.composer",
+  "label": "Yasuo Yamate",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Half",
+      "Kizuna Encounter",
+      "Last Resort",
+      "SNK vs. Capcom",
+      "Samurai Shodown",
+      "Samurai Shodown II",
+      "Samurai Shodown III",
+      "Sengoku",
+      "Sengoku 2",
+      "The King of Fighters '95",
+      "The King of Fighters '96",
+      "The King of Fighters '97",
+      "The King of Fighters '98",
+      "The King of Fighters '99",
+      "The King of Fighters 2000"
+    ],
+    "artist_keys": [
+      "Yasuo Yamate"
+    ],
+    "track_count": 332
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

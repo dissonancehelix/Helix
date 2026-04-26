@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:jim_hedges",
+  "entity_type": "music.composer",
+  "label": "Jim Hedges",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bugs Bunny",
+      "Daffy Duck",
+      "Nightmare Circus"
+    ],
+    "artist_keys": [
+      "Jim Hedges"
+    ],
+    "track_count": 39
+  },
+  "external_ids": {
+    "vgmdb": "9318",
+    "musicbrainz": "bb509795-8546-436c-8f2e-1c8ac9cdc108",
+    "wikidata": "Q3808342",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

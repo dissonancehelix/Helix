@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:eikichi_kawaseki",
+  "entity_type": "music.composer",
+  "label": "Eikichi Kawaseki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Psycho Soldier"
+    ],
+    "artist_keys": [
+      "Eikichi Kawaseki"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

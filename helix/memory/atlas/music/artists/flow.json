@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:flow",
+  "entity_type": "music.composer",
+  "label": "FLOW",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Tales of Berseria"
+    ],
+    "artist_keys": [
+      "FLOW"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q284928",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Flow_(video_game)"
+  }
+}

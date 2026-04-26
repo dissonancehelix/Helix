@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroshi_kanazu",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Kanazu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "EarthBound"
+    ],
+    "artist_keys": [
+      "Hiroshi Kanazu"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

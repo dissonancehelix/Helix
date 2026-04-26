@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:bs_2000",
+  "entity_type": "music.composer",
+  "label": "BS 2000",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio Future"
+    ],
+    "artist_keys": [
+      "BS 2000"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "d46666c4-f96b-4652-8d90-d1f7b2bf1d02",
+    "wikidata": "Q3632255",
+    "spotify": "",
+    "lastfm": "BS+2000",
+    "wikipedia": "https://en.wikipedia.org/wiki/BS_2000"
+  }
+}

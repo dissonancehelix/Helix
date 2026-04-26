@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:gareth_coker",
+  "entity_type": "music.composer",
+  "label": "Gareth Coker",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mario + Rabbids Sparks of Hope"
+    ],
+    "artist_keys": [
+      "Gareth Coker"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "13177",
+    "musicbrainz": "96eca91a-fdb5-4a0e-908b-ba526ba166df",
+    "wikidata": "Q63278244",
+    "spotify": "1I9Hqy4QnMyVhZwRM2r41B",
+    "lastfm": "Gareth+Coker",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gareth_Coker"
+  }
+}

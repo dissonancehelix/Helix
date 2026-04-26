@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:popholic",
+  "entity_type": "music.composer",
+  "label": "POPHOLIC",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 0",
+      "Yakuza 5"
+    ],
+    "artist_keys": [
+      "POPHOLIC"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "092ba267-d7fc-41db-8072-74cbdfa2b8cb",
+    "wikidata": "Q11339197",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

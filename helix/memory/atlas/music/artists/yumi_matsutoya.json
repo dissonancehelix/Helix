@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yumi_matsutoya",
+  "entity_type": "music.composer",
+  "label": "Yumi Matsutoya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Professor Layton and the Miracle Mask"
+    ],
+    "artist_keys": [
+      "Yumi Matsutoya"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

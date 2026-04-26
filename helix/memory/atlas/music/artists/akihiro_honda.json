@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:akihiro_honda",
+  "entity_type": "music.composer",
+  "label": "Akihiro Honda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Gear Solid 4",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. Ultimate",
+      "Zone of the Enders"
+    ],
+    "artist_keys": [
+      "Akihiro Honda"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11520616",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

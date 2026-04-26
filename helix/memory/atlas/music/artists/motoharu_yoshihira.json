@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:motoharu_yoshihira",
+  "entity_type": "music.composer",
+  "label": "Motoharu Yoshihira",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Zatch Bell! Mamodo Fury"
+    ],
+    "artist_keys": [
+      "Motoharu Yoshihira"
+    ],
+    "track_count": 24
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

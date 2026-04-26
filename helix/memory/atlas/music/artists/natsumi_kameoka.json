@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:natsumi_kameoka",
+  "entity_type": "music.composer",
+  "label": "Natsumi Kameoka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Inazuma Eleven",
+      "Inazuma Eleven GO",
+      "Inazuma Eleven GO vs Danball Senki W",
+      "Ken Ga Kimi",
+      "Kingdom Hearts III",
+      "To Far Away Times"
+    ],
+    "artist_keys": [
+      "Natsumi Kameoka"
+    ],
+    "track_count": 92
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q128905199",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

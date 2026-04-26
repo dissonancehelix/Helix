@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:mitsuhiro_kaneda_yoshimi_kudo",
+  "entity_type": "music.composer",
+  "label": "Mitsuhiro Kaneda, Yoshimi Kudo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Progress Orders"
+    ],
+    "artist_keys": [
+      "Mitsuhiro Kaneda, Yoshimi Kudo"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

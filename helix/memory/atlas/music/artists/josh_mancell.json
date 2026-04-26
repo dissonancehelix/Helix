@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:josh_mancell",
+  "entity_type": "music.composer",
+  "label": "Josh Mancell",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "CTR",
+      "Crash Bandicoot",
+      "Crash Bandicoot 2",
+      "Crash Bandicoot 3",
+      "Crash Bandicoot N. Sane Trilogy",
+      "Jak 3"
+    ],
+    "artist_keys": [
+      "Josh Mancell"
+    ],
+    "track_count": 265
+  },
+  "external_ids": {
+    "vgmdb": "22404",
+    "musicbrainz": "c2de0f62-1c5c-43a4-a4af-cf247d0bf564",
+    "wikidata": "Q6289135",
+    "spotify": "",
+    "lastfm": "Josh+Mancell",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Josh_Mancell"
+  }
+}

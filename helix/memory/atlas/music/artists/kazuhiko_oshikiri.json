@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kazuhiko_oshikiri",
+  "entity_type": "music.composer",
+  "label": "Kazuhiko Oshikiri",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Quiz King of Fighters"
+    ],
+    "artist_keys": [
+      "Kazuhiko Oshikiri"
+    ],
+    "track_count": 30
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

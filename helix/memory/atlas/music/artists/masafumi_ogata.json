@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:masafumi_ogata",
+  "entity_type": "music.composer",
+  "label": "Masafumi Ogata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Master System",
+      "Mega Drive",
+      "Sega CD",
+      "Super NES"
+    ],
+    "franchises": [
+      "Alpine Racer 3",
+      "Divi",
+      "Formula One World Championship",
+      "Golden Axe II",
+      "Hyper Marbles",
+      "Ristar",
+      "Samba de Amigo",
+      "Sega CD BIOS",
+      "Sonic CD",
+      "Sonic the Hedgehog",
+      "Super Smash Bros. Brawl",
+      "WWF SmackDown! 2",
+      "Wedding Peach",
+      "Youchien Senki Madara"
+    ],
+    "artist_keys": [
+      "Masafumi Ogata"
+    ],
+    "track_count": 98
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

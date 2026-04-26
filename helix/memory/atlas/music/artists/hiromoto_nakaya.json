@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiromoto_nakaya",
+  "entity_type": "music.composer",
+  "label": "Hiromoto Nakaya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "Ochaken no Bouken"
+    ],
+    "artist_keys": [
+      "Hiromoto Nakaya"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

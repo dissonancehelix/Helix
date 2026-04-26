@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naoyuki_chikatani",
+  "entity_type": "music.composer",
+  "label": "Naoyuki Chikatani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Monkey Ball Banana Mania"
+    ],
+    "artist_keys": [
+      "Naoyuki Chikatani"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "25950",
+    "musicbrainz": "a84210e7-4282-4b14-9220-6144ff089726",
+    "wikidata": "Q55536492",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

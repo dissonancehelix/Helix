@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yukifumi_makino",
+  "entity_type": "music.composer",
+  "label": "Yukifumi Makino",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Advanced Daisenryaku",
+      "Crystal Warriors",
+      "Seima Densetsu 3x3 Eyes"
+    ],
+    "artist_keys": [
+      "Yukifumi Makino"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

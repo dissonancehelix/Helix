@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:meiko_nakahara",
+  "entity_type": "music.composer",
+  "label": "Meiko Nakahara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Faerie Dust Story"
+    ],
+    "artist_keys": [
+      "Meiko Nakahara"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "9613",
+    "musicbrainz": "6cbac548-3b1f-49db-a028-b73906e25011",
+    "wikidata": "Q11363105",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Meiko_Nakahara"
+  }
+}

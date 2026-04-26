@@ -1,0 +1,500 @@
+{
+  "total_edits_scanned": 15000,
+  "patterns_found": [
+    {
+      "id": "mined_nfl_specific",
+      "name": "NFL-specific structural edit",
+      "cluster": "nfl_specific",
+      "evidence_count": 2541,
+      "evidence_samples": [
+        "/* wbsetlabel-set:1|en */ 4th NFL Honors",
+        "/* External links */ draft prep/cleanup",
+        "/* wbsetlabel-set:1|en */ 13th NFL Honors",
+        "Adding [[Category:Washington Commanders at Los Angeles Chargers (October 5, 2025)]]",
+        "Changing [[Wikipedia:Short description|short description]] from \"NFL football stadium in Missouri, United States\" to \"Stadium in Kansas City, Missouri\""
+      ],
+      "namespace_ids": [
+        6,
+        0,
+        10
+      ],
+      "size_diff_profile": "small_add",
+      "likely_purpose": "NFL article structural edit (draft, contract, team history).",
+      "risk_notes": "WP:NFL notability + BLP apply. Contract/salary needs sourcing. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "Q134250652",
+        "Jayden Daniels",
+        "Q34812688",
+        "Q583085",
+        "Template:Washington Commanders staff"
+      ]
+    },
+    {
+      "id": "mined_template_fix",
+      "name": "Template namespace edit",
+      "cluster": "template_fix",
+      "evidence_count": 972,
+      "evidence_samples": [
+        "/* Examples of usage */",
+        "should be fixed now",
+        "no color needed here. also looks bad in dark mode",
+        "/* List */ proper ref cell template",
+        "endash"
+      ],
+      "namespace_ids": [
+        10,
+        0,
+        3
+      ],
+      "size_diff_profile": "net_neutral",
+      "likely_purpose": "Fix or improve a template in Template namespace.",
+      "risk_notes": "Review rendered output; template changes affect all transclusions. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "Template:Infobox gridiron football biography/sandbox",
+        "Template:Infobox gridiron football biography",
+        "Template:Washington Commanders roster navbox",
+        "Template:Washington Commanders roster",
+        "Template:Infobox gridiron football biography/position"
+      ]
+    },
+    {
+      "id": "mined_infobox_update",
+      "name": "Infobox parameter update",
+      "cluster": "infobox_update",
+      "evidence_count": 148,
+      "evidence_samples": [
+        "the NFL infobox didn't use birth_name, unless there's another reason this is back?",
+        "trim events in the infobox",
+        "[[Special:MyLanguage/COM:AES|←]]Created page with '{{Decade years navbox|header=[[:Category:New York Giants seasons|Washington Commanders seasons]]|decade=202|cat_suffix=New York Giants season|displayredlinks=no}} {{Wikidata Infobox}} [[Category:2025 NFL season|New York Giants]] [[Category:New York Giants seasons]]'",
+        "/* Template:Infobox college football player */ question about some parameters (prepping for the merge right now)",
+        "/* Centralized discussion about the parameters/awards found in Template:Infobox gridiron football biography */ Reply"
+      ],
+      "namespace_ids": [
+        0,
+        10,
+        14
+      ],
+      "size_diff_profile": "small_add",
+      "likely_purpose": "Update infobox field values, usually chronology or stats.",
+      "risk_notes": "BLP risk if updating living person facts without citation. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "User talk:Dissident93",
+        "Wikipedia talk:WikiProject National Football League",
+        "Template talk:Infobox basketball biography",
+        "Jayden Daniels",
+        "Template:Infobox gridiron football biography/testcases"
+      ]
+    },
+    {
+      "id": "mined_revert",
+      "name": "Revert or undo",
+      "cluster": "revert",
+      "evidence_count": 115,
+      "evidence_samples": [
+        "Undid revision [[Special:Diff/1343037855|1343037855]] by [[Special:Contributions/Dissident93|Dissident93]] ([[User talk:Dissident93|talk]]) nevermind, this was discussed and I forgot",
+        "Undid revision [[Special:Diff/1311808355|1311808355]] by [[Special:Contributions/Dissident93|Dissident93]] ([[User talk:Dissident93|talk]])",
+        "/* undo:0||2398225933|Dissident93 */ misclick",
+        "Undid revision [[Special:Diff/1328445443|1328445443]] by [[Special:Contributions/Dafootballguy|Dafootballguy]] ([[User talk:Dafootballguy|talk]]) useless? if they are redundant just say so",
+        "Undid revision [[Special:Diff/1311951153|1311951153]] by [[Special:Contributions/EduardBS22|EduardBS22]] ([[User talk:EduardBS22|talk]])"
+      ],
+      "namespace_ids": [
+        0,
+        10,
+        14
+      ],
+      "size_diff_profile": "mixed",
+      "likely_purpose": "Undo a prior edit.",
+      "risk_notes": "Context-dependent. Review what was reverted before mimicking. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "Template:Infobox gridiron football biography/sandbox",
+        "Q64826862",
+        "Q21039459",
+        "Template:Infobox gridiron football biography",
+        "Q65029655"
+      ]
+    },
+    {
+      "id": "mined_date_fix",
+      "name": "Date/birth/death field fix",
+      "cluster": "date_fix",
+      "evidence_count": 114,
+      "evidence_samples": [
+        "/* wbsetdescription-set:1|en */ American basketball player (born 2000)",
+        "/* Developers */ trim, exact date doesn't matter here",
+        "/* wbsetdescription-set:1|en */ American basketball player (born 2002)",
+        "Changing [[Wikipedia:Short description|short description]] from \"American football player (born 1994)\" to \"American football player and coach (born 1994)\"",
+        "/* wbsetdescription-set:1|en */ Latvian basketball player (born 1995)"
+      ],
+      "namespace_ids": [
+        0,
+        10
+      ],
+      "size_diff_profile": "net_neutral",
+      "likely_purpose": "Correct or add birth/death/event dates.",
+      "risk_notes": "BLP risk for living persons. Require inline citation. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "New Commanders Stadium",
+        "Yoko Shimomura",
+        "Jayden Daniels",
+        "2030",
+        "Q66825384"
+      ]
+    },
+    {
+      "id": "mined_stat_update",
+      "name": "Career statistics update",
+      "cluster": "stat_update",
+      "evidence_count": 105,
+      "evidence_samples": [
+        "/* Professional career */ adding stats table",
+        "/* NFL career statistics */ omit .0",
+        "/* Career */ moving up",
+        "fixed color issue with free agents and the \"Career history\" header",
+        "/* Professional career */ rookie of the week; PS don't add the calendar date for things like this"
+      ],
+      "namespace_ids": [
+        0,
+        10
+      ],
+      "size_diff_profile": "mixed",
+      "likely_purpose": "Update career statistics in article body or infobox.",
+      "risk_notes": "Verify source; stats are frequently contested. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "Jayden Daniels",
+        "Template:Infobox gridiron football biography",
+        "Jacory Croskey-Merritt",
+        "Caleb Downs",
+        "Jake Moody"
+      ]
+    },
+    {
+      "id": "mined_vg_specific",
+      "name": "Video game-specific edit",
+      "cluster": "vg_specific",
+      "evidence_count": 93,
+      "evidence_samples": [
+        "/* Japan Game Awards 2025 */",
+        "/* wbsetdescription-set:1|en */ Japanese video game developer",
+        "/* wbsetdescription-set:1|en */ video game franchise",
+        "added [[Category:2024 Oregon Ducks Spring Football Game]]",
+        "/* Video games */ re-adding Towa and the Guardians of the Sacred Tree, as it was the only one with proper sourcing. VGMdb and Wikipedia can't be used (they are user-generated)"
+      ],
+      "namespace_ids": [
+        0,
+        6,
+        10
+      ],
+      "size_diff_profile": "small_add",
+      "likely_purpose": "Video game article edit (platform, release, gameplay).",
+      "risk_notes": "MOS:VG applies. Avoid peacock terms. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "Q64826862",
+        "Q66825384",
+        "Q11454590",
+        "Q20073229",
+        "S&box"
+      ]
+    },
+    {
+      "id": "mined_link_fix",
+      "name": "Wikilink correction",
+      "cluster": "link_fix",
+      "evidence_count": 47,
+      "evidence_samples": [
+        "/* External links */ adding Github link",
+        "link to [[Paul Toboni]] (new GM of the Washington Nationals)",
+        "/* Arrowhead Stadium */ wrong link",
+        "/* The Mets' Steve Cohen */ fixing link",
+        "just link to the time of construction"
+      ],
+      "namespace_ids": [
+        0,
+        10,
+        11
+      ],
+      "size_diff_profile": "net_neutral",
+      "likely_purpose": "Fix broken, double, or over-linked wikilinks.",
+      "risk_notes": "Low risk. Check disambiguation targets. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "New Commanders Stadium",
+        "Jayden Daniels",
+        "List of current NFL stadiums",
+        "Doug Williams (quarterback)",
+        "Israeli bombing of the Gaza Strip"
+      ]
+    },
+    {
+      "id": "mined_lead_section",
+      "name": "Lead section rewrite",
+      "cluster": "lead_section",
+      "evidence_count": 35,
+      "evidence_samples": [
+        "fixing lead",
+        "lead trim, half of it is about naming rights",
+        "independently notable wife can belong in the lead",
+        "a single player didn't \"break\" a losing streak. this is [[WP:UNDUE]] for the lead",
+        "HS is usually omitted in the lead unless it was historic or something"
+      ],
+      "namespace_ids": [
+        0,
+        4
+      ],
+      "size_diff_profile": "mixed",
+      "likely_purpose": "Rewrite or update the article lead.",
+      "risk_notes": "Lead must summarize body. BLP sensitivity applies.",
+      "confidence": "high",
+      "top_pages": [
+        "New Commanders Stadium",
+        "Wikipedia:WikiProject National Football League/Player pages format",
+        "Jake Moody",
+        "RE Engine",
+        "Fanatics Flag Football Classic"
+      ]
+    },
+    {
+      "id": "mined_ref_fix",
+      "name": "Reference/citation work",
+      "cluster": "ref_fix",
+      "evidence_count": 24,
+      "evidence_samples": [
+        "/* Josh Harris era (2023–present) */ trim, add citation showing final approval",
+        "/* History */ deemed semi-reliable per script, only need one ref here anyway",
+        "/* Athletics */ fixing citation",
+        "/* Development */ only need one citation",
+        "we need a better source than the [[WP:USERG]] VGMdb (can just cite the liner notes but not the database itself)"
+      ],
+      "namespace_ids": [
+        0
+      ],
+      "size_diff_profile": "mixed",
+      "likely_purpose": "Add, fix, or consolidate inline references.",
+      "risk_notes": "Low risk. Check ref name collisions.",
+      "confidence": "high",
+      "top_pages": [
+        "New Commanders Stadium",
+        "Yoko Shimomura",
+        "Jayden Daniels",
+        "Drake Jackson",
+        "Caleb Downs"
+      ]
+    },
+    {
+      "id": "mined_copyedit",
+      "name": "Copy-edit / grammar / typo",
+      "cluster": "copyedit",
+      "evidence_count": 19,
+      "evidence_samples": [
+        "/* History */ typo",
+        "/* Any limit? */ typo",
+        "/* top */Fixed grammar",
+        "/* Cost */ grammar",
+        "/* Logo size */ grammar"
+      ],
+      "namespace_ids": [
+        0,
+        10,
+        11
+      ],
+      "size_diff_profile": "net_neutral",
+      "likely_purpose": "Grammar, typo, or prose cleanup.",
+      "risk_notes": "Low risk. Watch for meaning changes in borderline BLP content. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "New Commanders Stadium",
+        "Jayden Daniels",
+        "Mina the Hollower",
+        "General manager (American football)",
+        "Template:NFLplayer"
+      ]
+    },
+    {
+      "id": "mined_fallback_add",
+      "name": "Fallback / alias / default add",
+      "cluster": "fallback_add",
+      "evidence_count": 14,
+      "evidence_samples": [
+        "making pastadmin a proper legacy fallback of pastexecutive",
+        "re-adding imagewidth. images by default should still scale as intended if the parameter isn't used",
+        "/* Instructions */ let's just go with \"team\" as the default from now on",
+        "ArenaFan is an old alias for afl",
+        "fallback for using two-digits"
+      ],
+      "namespace_ids": [
+        10
+      ],
+      "size_diff_profile": "mixed",
+      "likely_purpose": "Add fallback/alias/default to template parameter.",
+      "risk_notes": "Safe if old param name is genuinely unused. Verify. Template-namespace change — affects all transclusions.",
+      "confidence": "high",
+      "top_pages": [
+        "Template:Infobox gridiron football biography",
+        "Template:Infobox gridiron football team",
+        "Template:Tennessee Titans head coaches",
+        "Template:NFL Year",
+        "Template:Infobox gridiron football team/doc"
+      ]
+    },
+    {
+      "id": "mined_whitespace_cleanup",
+      "name": "Whitespace / blank line cleanup",
+      "cluster": "whitespace_cleanup",
+      "evidence_count": 3,
+      "evidence_samples": [
+        "[[Special:MyLanguage/COM:AES|←]]Created blank page",
+        "moving image up, this is creating way too much blank space",
+        "[[WP:AES|←]]Replaced content with 'blank'"
+      ],
+      "namespace_ids": [
+        2,
+        0,
+        14
+      ],
+      "size_diff_profile": "small_remove",
+      "likely_purpose": "Remove trailing whitespace, blank lines, extra spaces.",
+      "risk_notes": "Safe. No semantic change.",
+      "confidence": "medium",
+      "top_pages": [
+        "User:Dissident93/sandbox",
+        "Cam Ward (American football)",
+        "Category:2025 Washington Wizards media day"
+      ]
+    }
+  ],
+  "leave_alone_candidates": [
+    "2024 Washington Commanders season",
+    "Adam Peters",
+    "Amik Robertson",
+    "Andre Coleman",
+    "Arizona Rattlers",
+    "Bo Nix",
+    "Carnell Tate",
+    "CityCenterDC",
+    "Dark Souls (video game)",
+    "David Blitzer",
+    "Eiji Aonuma",
+    "Highmark Stadium",
+    "Hill East",
+    "Hitoshi Sakimoto",
+    "Jayden Daniels",
+    "Joe Whitt Jr.",
+    "K'Lavon Chaisson",
+    "List of most expensive stadiums",
+    "List of nicknamed NFL games and plays",
+    "Michiru Yamane",
+    "Mitchell Rales",
+    "Module:Gridiron color/data",
+    "NFL Moment of the Year",
+    "Northwest Stadium",
+    "Potomac Avenue station",
+    "Quan Martin",
+    "Rich Kotite",
+    "Ron Rivera",
+    "S&box",
+    "Scott Fitterer"
+  ],
+  "high_frequency_pages": [
+    {
+      "title": "New Commanders Stadium",
+      "edits": 553
+    },
+    {
+      "title": "Q6289885",
+      "edits": 401
+    },
+    {
+      "title": "Q66825384",
+      "edits": 386
+    },
+    {
+      "title": "Q65029655",
+      "edits": 180
+    },
+    {
+      "title": "Q106504630",
+      "edits": 139
+    },
+    {
+      "title": "Jayden Daniels",
+      "edits": 126
+    },
+    {
+      "title": "Q6163814",
+      "edits": 115
+    },
+    {
+      "title": "Q134250652",
+      "edits": 99
+    },
+    {
+      "title": "Q20073229",
+      "edits": 88
+    },
+    {
+      "title": "Q34812688",
+      "edits": 84
+    },
+    {
+      "title": "Q124220188",
+      "edits": 84
+    },
+    {
+      "title": "Q5214234",
+      "edits": 71
+    },
+    {
+      "title": "Q212654",
+      "edits": 70
+    },
+    {
+      "title": "Q6776149",
+      "edits": 67
+    },
+    {
+      "title": "List of current NFL stadiums",
+      "edits": 57
+    },
+    {
+      "title": "Q111020385",
+      "edits": 56
+    },
+    {
+      "title": "Q583085",
+      "edits": 54
+    },
+    {
+      "title": "Q85801180",
+      "edits": 46
+    },
+    {
+      "title": "Q52985750",
+      "edits": 46
+    },
+    {
+      "title": "Q102227408",
+      "edits": 45
+    }
+  ],
+  "comment_cluster_dist": {
+    "lead_section": 35,
+    "infobox_update": 148,
+    "template_fix": 972,
+    "date_fix": 114,
+    "link_fix": 47,
+    "nfl_specific": 2541,
+    "ref_fix": 24,
+    "stat_update": 105,
+    "vg_specific": 93,
+    "fallback_add": 14,
+    "revert": 115,
+    "copyedit": 19,
+    "whitespace_cleanup": 3
+  }
+}

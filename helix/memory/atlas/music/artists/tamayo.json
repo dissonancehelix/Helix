@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:tamayo",
+  "entity_type": "music.composer",
+  "label": "TAMAYO",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Rakugaki Kingdom"
+    ],
+    "artist_keys": [
+      "TAMAYO"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q690790",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rufino_Tamayo"
+  }
+}

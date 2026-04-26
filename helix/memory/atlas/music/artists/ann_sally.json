@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ann_sally",
+  "entity_type": "music.composer",
+  "label": "Ann Sally",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Professor Layton and the Unwound Future"
+    ],
+    "artist_keys": [
+      "Ann Sally"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "7289",
+    "musicbrainz": "b8614888-03b2-4a5d-b054-b94a73a85309",
+    "wikidata": "Q11285479",
+    "spotify": "1g9zG323vBvafWMplgUEQx",
+    "lastfm": "Ann+Sally"
+  }
+}

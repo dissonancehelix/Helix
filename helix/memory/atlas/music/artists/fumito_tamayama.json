@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:fumito_tamayama",
+  "entity_type": "music.composer",
+  "label": "Fumito Tamayama",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Master System",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Baseball Fighter",
+      "Battle Mania Daiginjou",
+      "Decap Attack",
+      "Derby Jockey",
+      "Fumito Tamayama demos",
+      "Hansha de Spark",
+      "J.League Fighting Soccer",
+      "Psy",
+      "Psycho Fox",
+      "Secret Ties",
+      "Seifuku Densetsu",
+      "Shinseiki Odysselya II",
+      "Socket",
+      "Stahlfeder",
+      "Super Golf"
+    ],
+    "artist_keys": [
+      "Fumito Tamayama"
+    ],
+    "track_count": 170
+  },
+  "external_ids": {
+    "vgmdb": "1204",
+    "musicbrainz": "78cc9f2f-b489-4ec1-b65c-393e5fef00d9",
+    "wikidata": "Q11572507",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

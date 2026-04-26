@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:saki_momiyama",
+  "entity_type": "music.composer",
+  "label": "Saki Momiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Trails / Kiseki",
+      "Ys",
+      "Ys Seven",
+      "Zwei"
+    ],
+    "artist_keys": [
+      "Saki Momiyama"
+    ],
+    "track_count": 119
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

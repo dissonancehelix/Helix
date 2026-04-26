@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:boston",
+  "entity_type": "music.composer",
+  "label": "Boston",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Boston"
+    ],
+    "artist_keys": [
+      "Boston"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "0d8b0d50-e4cf-4da4-965d-f24c58ec3268",
+    "wikidata": "Q204289",
+    "spotify": "29kkCKKGXheHuoO829FxWK",
+    "lastfm": "Boston",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boston_(band)"
+  }
+}

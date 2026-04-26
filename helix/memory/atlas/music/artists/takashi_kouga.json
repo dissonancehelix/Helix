@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takashi_kouga",
+  "entity_type": "music.composer",
+  "label": "Takashi Kouga",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II",
+      "DS"
+    ],
+    "franchises": [
+      "DK",
+      "Puzz Loop 2",
+      "Super Smash Bros. Brawl"
+    ],
+    "artist_keys": [
+      "Takashi Kouga"
+    ],
+    "track_count": 65
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

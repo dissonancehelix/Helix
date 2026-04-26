@@ -1,0 +1,45 @@
+{
+  "entity_id": "music.composer:izuho_numata",
+  "entity_type": "music.composer",
+  "label": "Izuho Numata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Master System",
+      "Mega Drive",
+      "Pico",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Aerial Assault",
+      "American Pro Football",
+      "Assault City",
+      "Battle OutRun",
+      "Dark Wizard",
+      "Futari wa Precure Max Heart",
+      "Futari wa Pretty Cure",
+      "Honoo no Toukyuuji Dodge Danpei",
+      "Kiteretsu Daihyakka",
+      "Land of Illusion",
+      "Medal City",
+      "Metalgun Slinger",
+      "Phantasy Star III",
+      "Phantasy Star IV",
+      "Psychic World"
+    ],
+    "artist_keys": [
+      "Izuho Numata"
+    ],
+    "track_count": 291
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f2361ea4-f711-474c-a67f-d73283be20fc",
+    "wikidata": "Q136882042",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4548684"
+  }
+}

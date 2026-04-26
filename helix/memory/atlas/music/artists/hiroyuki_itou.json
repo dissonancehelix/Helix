@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:hiroyuki_itou",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Itou",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Aero Fighters 2",
+      "F"
+    ],
+    "artist_keys": [
+      "Hiroyuki Itou"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q108473567",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

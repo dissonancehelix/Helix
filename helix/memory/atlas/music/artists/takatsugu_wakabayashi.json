@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takatsugu_wakabayashi",
+  "entity_type": "music.composer",
+  "label": "Takatsugu Wakabayashi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter V"
+    ],
+    "artist_keys": [
+      "Takatsugu Wakabayashi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "43466",
+    "musicbrainz": "",
+    "wikidata": "Q64782589",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

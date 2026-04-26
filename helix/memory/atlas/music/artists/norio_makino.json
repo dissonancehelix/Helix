@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:norio_makino",
+  "entity_type": "music.composer",
+  "label": "Norio Makino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "L"
+    ],
+    "artist_keys": [
+      "Norio Makino"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

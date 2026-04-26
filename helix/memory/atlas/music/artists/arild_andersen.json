@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:arild_andersen",
+  "entity_type": "music.composer",
+  "label": "Arild Andersen",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Clouds in My Head",
+      "Green Shading into Blue",
+      "Shimri"
+    ],
+    "artist_keys": [
+      "Arild Andersen"
+    ],
+    "track_count": 21
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "bfb665cf-1701-4e26-8e46-551b9da1ee7d",
+    "wikidata": "Q641035",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arild_Andersen"
+  }
+}

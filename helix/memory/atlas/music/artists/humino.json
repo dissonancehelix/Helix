@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:humino",
+  "entity_type": "music.composer",
+  "label": "H.Umino",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Ball Jacks"
+    ],
+    "artist_keys": [
+      "H.Umino"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

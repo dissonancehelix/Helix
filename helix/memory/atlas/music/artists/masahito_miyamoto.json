@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masahito_miyamoto",
+  "entity_type": "music.composer",
+  "label": "Masahito Miyamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Space Squash"
+    ],
+    "artist_keys": [
+      "Masahito Miyamoto"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

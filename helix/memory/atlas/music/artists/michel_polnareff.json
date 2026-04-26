@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:michel_polnareff",
+  "entity_type": "music.composer",
+  "label": "Michel Polnareff",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Samba de Amigo"
+    ],
+    "artist_keys": [
+      "Michel Polnareff"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "90330a83-5547-491e-b83c-d10858e6073f",
+    "wikidata": "Q561190",
+    "spotify": "7aKldvGENbL4bj8TCWHuhT",
+    "lastfm": "Michel+Polnareff",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michel_Polnareff"
+  }
+}

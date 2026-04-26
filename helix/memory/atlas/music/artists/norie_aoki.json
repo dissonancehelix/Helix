@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:norie_aoki",
+  "entity_type": "music.composer",
+  "label": "Norie Aoki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "F"
+    ],
+    "artist_keys": [
+      "Norie Aoki"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

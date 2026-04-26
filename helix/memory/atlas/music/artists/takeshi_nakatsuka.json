@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takeshi_nakatsuka",
+  "entity_type": "music.composer",
+  "label": "Takeshi Nakatsuka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Synchronica",
+      "Touch My Katamari",
+      "Xevious 30th Anniversary Tribute"
+    ],
+    "artist_keys": [
+      "Takeshi Nakatsuka"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "6027",
+    "musicbrainz": "680c1f8a-2a38-4132-9dc6-abcf87911b92",
+    "wikidata": "Q11363517",
+    "spotify": "20NsQIQXOKSrclmLOeZLIF",
+    "lastfm": ""
+  }
+}

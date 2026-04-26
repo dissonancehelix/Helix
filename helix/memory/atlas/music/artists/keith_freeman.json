@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:keith_freeman",
+  "entity_type": "music.composer",
+  "label": "Keith Freeman",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Anata wo Yurusanai"
+    ],
+    "artist_keys": [
+      "Keith Freeman"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q16195066",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Keith_Freeman"
+  }
+}

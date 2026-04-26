@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:scott_joplin",
+  "entity_type": "music.composer",
+  "label": "Scott Joplin",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Chris Sawyer's Locomotion",
+      "RollerCoaster Tycoon"
+    ],
+    "artist_keys": [
+      "Scott Joplin"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "3150",
+    "musicbrainz": "aec8a328-d2e8-4780-b2ea-318c7f8d6f75",
+    "wikidata": "Q191499",
+    "spotify": "",
+    "lastfm": "Scott+Joplin",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scott_Joplin"
+  }
+}

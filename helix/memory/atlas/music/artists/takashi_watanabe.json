@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takashi_watanabe",
+  "entity_type": "music.composer",
+  "label": "Takashi Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Bomberman Land Touch!"
+    ],
+    "artist_keys": [
+      "Takashi Watanabe"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "30000",
+    "musicbrainz": "c789be59-dc48-48e1-8163-6a49a9441251",
+    "wikidata": "Q11562699",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

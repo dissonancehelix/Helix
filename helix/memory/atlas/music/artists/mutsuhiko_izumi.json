@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:mutsuhiko_izumi",
+  "entity_type": "music.composer",
+  "label": "Mutsuhiko Izumi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "MSX2",
+      "NES",
+      "PC-88"
+    ],
+    "franchises": [
+      "Astérix",
+      "Metal Gear 2",
+      "Metamorphic Force",
+      "Run and Gun 2",
+      "SD Snatcher",
+      "Snatcher",
+      "Teenage Mutant Ninja Turtles",
+      "Teenage Mutant Ninja Turtles II",
+      "Wave Shark",
+      "Winding Heat"
+    ],
+    "artist_keys": [
+      "Mutsuhiko Izumi"
+    ],
+    "track_count": 168
+  },
+  "external_ids": {
+    "vgmdb": "1796",
+    "musicbrainz": "b430fb6e-cf78-4e0e-a5c8-acd6a86dfef2",
+    "wikidata": "Q11266691",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "418463"
+  }
+}

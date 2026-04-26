@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:kenichi_okuma",
+  "entity_type": "music.composer",
+  "label": "Kenichi Okuma",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Götzendiener",
+      "Super Smash Bros. Brawl",
+      "Urusei Yatsura"
+    ],
+    "artist_keys": [
+      "Kenichi Okuma"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "100",
+    "musicbrainz": "d889c61b-cd44-470e-9ad7-05ac5684fd28",
+    "wikidata": "Q6389273",
+    "spotify": "",
+    "lastfm": "Kenichi+Okuma",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kenichi_%C5%8Ckuma"
+  }
+}

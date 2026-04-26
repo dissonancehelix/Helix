@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:yu_sugimoto",
+  "entity_type": "music.composer",
+  "label": "Yu Sugimoto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katamari Damacy Rolling Live",
+      "Pokkén Tournament DX",
+      "Soulcalibur VI",
+      "Summer Lesson",
+      "Super Smash Bros. Ultimate"
+    ],
+    "artist_keys": [
+      "Yu Sugimoto"
+    ],
+    "track_count": 46
+  },
+  "external_ids": {
+    "vgmdb": "28203",
+    "musicbrainz": "79420be6-39d5-45bb-9f51-ed02dcc66be5",
+    "wikidata": "Q8062702",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Y%C5%AB_Sugimoto"
+  }
+}

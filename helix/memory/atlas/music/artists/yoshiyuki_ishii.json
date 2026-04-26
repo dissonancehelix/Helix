@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yoshiyuki_ishii",
+  "entity_type": "music.composer",
+  "label": "Yoshiyuki Ishii",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "Innsmouth no Yakata"
+    ],
+    "artist_keys": [
+      "Yoshiyuki Ishii"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q90899221",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

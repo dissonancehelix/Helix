@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hitoshi_fujima",
+  "entity_type": "music.composer",
+  "label": "Hitoshi Fujima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Suikoden Tierkreis"
+    ],
+    "artist_keys": [
+      "Hitoshi Fujima"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "86",
+    "musicbrainz": "99ce6082-39fc-4d79-bf88-50af5f6fbe25",
+    "wikidata": "Q9339798",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

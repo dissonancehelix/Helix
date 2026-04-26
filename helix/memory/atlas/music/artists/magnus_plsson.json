@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:magnus_plsson",
+  "entity_type": "music.composer",
+  "label": "Magnus Pålsson",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "VVVVVV"
+    ],
+    "artist_keys": [
+      "Magnus Pålsson"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "7652",
+    "musicbrainz": "573fd3e2-3f61-4329-a6c1-89e20620b0b9",
+    "wikidata": "Q90919299",
+    "spotify": "3mLG4odhlcwpfXIYjWh5TT",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hirosato_noda",
+  "entity_type": "music.composer",
+  "label": "Hirosato Noda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy X",
+      "Final Fantasy X HD Remaster",
+      "Hanjuku Hero 4"
+    ],
+    "artist_keys": [
+      "Hirosato Noda"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

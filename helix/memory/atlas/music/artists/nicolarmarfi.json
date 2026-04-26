@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:nicolarmarfi",
+  "entity_type": "music.composer",
+  "label": "NicolArmarfi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Katawa Shoujo"
+    ],
+    "artist_keys": [
+      "NicolArmarfi"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "15230",
+    "musicbrainz": "3858ec8d-b342-4dcb-bee4-de1bdd95a964",
+    "wikidata": "Q66572953",
+    "spotify": "6JYAXBV1jBNxgQ2u9N6DOz",
+    "lastfm": "NicolArmarfi"
+  }
+}

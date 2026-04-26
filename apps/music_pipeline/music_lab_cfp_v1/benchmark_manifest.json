@@ -1,0 +1,37 @@
+{
+  "benchmark_id": "music_lab_cfp_v1",
+  "name": "Helix Music Lab — Composer Fingerprint Prediction v1",
+  "version": "1.0.0",
+  "created": "2026-03-16",
+  "description": "Evaluates whether chip-music composer identity can be inferred from chip-level synthesis data, reconstructed symbolic structure, and rendered-audio MIR features.",
+  "primary_hypothesis": "Models using chip+symbolic+MIR features will outperform symbolic-only and audio-only baselines on composer attribution.",
+  "target_platform": "Genesis/YM2612",
+  "extensible_to": ["SNES/SPC700", "NES/2A03"],
+  "formats": ["VGM", "VGZ"],
+  "inclusion_criteria": {
+    "min_tracks_per_composer": 10,
+    "min_notes_per_track": 20,
+    "require_tier_a_parse": true,
+    "require_attribution_ground_truth": true,
+    "composer_source": "embedded metadata tags (ARTIST field in VGM header)"
+  },
+  "split_policy": "split_policy.md",
+  "evaluation_spec": "evaluation_spec.md",
+  "feature_schema_version": "v0",
+  "artifact_schema": {
+    "results_dir": "artifacts/benchmarks/music_lab_cfp_v1/",
+    "required_outputs": [
+      "split_manifest.json",
+      "feature_matrix.npy",
+      "labels.json",
+      "results_per_feature_family.json",
+      "confusion_matrix.json",
+      "attribution_report.md"
+    ]
+  },
+  "success_conditions": [
+    "Composer attribution accuracy > 2x random baseline under held-out evaluation",
+    "Chip-level features provide measurable incremental value (ablation delta > 0.05 top-1 accuracy)",
+    "All results reproducible from artifact outputs"
+  ]
+}

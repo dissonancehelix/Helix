@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takashi_kumegawa",
+  "entity_type": "music.composer",
+  "label": "Takashi Kumegawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Virtual Boy"
+    ],
+    "franchises": [
+      "V"
+    ],
+    "artist_keys": [
+      "Takashi Kumegawa"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

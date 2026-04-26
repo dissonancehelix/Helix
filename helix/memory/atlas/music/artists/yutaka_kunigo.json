@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yutaka_kunigo",
+  "entity_type": "music.composer",
+  "label": "Yutaka Kunigo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Xenoblade Chronicles 3"
+    ],
+    "artist_keys": [
+      "Yutaka Kunigo"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17129889",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:dan_wentz",
+  "entity_type": "music.composer",
+  "label": "Dan Wentz",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Red Faction"
+    ],
+    "artist_keys": [
+      "Dan Wentz"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "7603",
+    "musicbrainz": "",
+    "wikidata": "Q4130152",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

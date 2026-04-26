@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:outkast",
+  "entity_type": "music.composer",
+  "label": "OutKast",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Speakerboxxx",
+      "The Love Below"
+    ],
+    "artist_keys": [
+      "OutKast"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1576139",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Outkast_discography"
+  }
+}

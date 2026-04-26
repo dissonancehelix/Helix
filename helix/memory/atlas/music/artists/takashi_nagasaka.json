@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:takashi_nagasaka",
+  "entity_type": "music.composer",
+  "label": "Takashi Nagasaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Monkey Ball"
+    ],
+    "artist_keys": [
+      "Takashi Nagasaka"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

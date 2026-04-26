@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:katsuyoshi_nitta",
+  "entity_type": "music.composer",
+  "label": "Katsuyoshi Nitta",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "OLIO",
+      "OLIO3"
+    ],
+    "artist_keys": [
+      "Katsuyoshi Nitta"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:naoko_endo",
+  "entity_type": "music.composer",
+  "label": "Naoko Endo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sailing to the World Piano Score"
+    ],
+    "artist_keys": [
+      "Naoko Endo"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q112239338",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

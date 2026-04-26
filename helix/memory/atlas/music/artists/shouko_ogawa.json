@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shouko_ogawa",
+  "entity_type": "music.composer",
+  "label": "Shouko Ogawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Sega CD"
+    ],
+    "franchises": [
+      "Dark Wizard"
+    ],
+    "artist_keys": [
+      "Shouko Ogawa"
+    ],
+    "track_count": 22
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

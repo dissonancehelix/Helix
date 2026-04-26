@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:harry_craze",
+  "entity_type": "music.composer",
+  "label": "Harry Craze",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Favela / French Knickers",
+      "Real Love",
+      "Wa6 / Thirty Six Hours"
+    ],
+    "artist_keys": [
+      "Harry Craze"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q86233724",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:shohei_tsuchiya",
+  "entity_type": "music.composer",
+  "label": "Shohei Tsuchiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Demons' Score",
+      "GeOnDan Super Rare Trax",
+      "Renshin Astral",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U"
+    ],
+    "artist_keys": [
+      "Shohei Tsuchiya"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "4827",
+    "musicbrainz": "649da406-cda9-4c64-9d69-cea2dbfe3d89",
+    "wikidata": "Q18545868",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

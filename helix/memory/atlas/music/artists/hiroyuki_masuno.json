@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:hiroyuki_masuno",
+  "entity_type": "music.composer",
+  "label": "Hiroyuki Masuno",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Drakkhen"
+    ],
+    "artist_keys": [
+      "Hiroyuki Masuno"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q117206444",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

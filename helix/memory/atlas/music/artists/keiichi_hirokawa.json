@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:keiichi_hirokawa",
+  "entity_type": "music.composer",
+  "label": "Keiichi Hirokawa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Foamstars",
+      "Once Upon a Katamari"
+    ],
+    "artist_keys": [
+      "Keiichi Hirokawa"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "15062",
+    "musicbrainz": "d0220c69-53ef-4cad-86c1-4b0eed37e786",
+    "wikidata": "Q17229988",
+    "spotify": "6uqOj1snsJnRxkdvvlC6BW",
+    "lastfm": ""
+  }
+}

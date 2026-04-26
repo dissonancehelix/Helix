@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shirige_nuki",
+  "entity_type": "music.composer",
+  "label": "Shirige Nuki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Master System"
+    ],
+    "franchises": [
+      "The Cyber Shinobi"
+    ],
+    "artist_keys": [
+      "Shirige Nuki"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

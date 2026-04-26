@@ -1,0 +1,14 @@
+{
+  "entity_id": "music.soundteam:cube_corp",
+  "entity_type": "SOUNDTEAM",
+  "label": "Cube Corp",
+  "aliases": [],
+  "description": "External contractor for Sega; composed and sequenced Sonic 3 & Knuckles tracks",
+  "library": {
+    "sound_team_keys": [],
+    "track_count": 0,
+    "hw_seq_count": 0,
+    "platform_counts": {},
+    "hw_seq_track_ids": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:gwiz",
+  "entity_type": "music.composer",
+  "label": "GWIZ",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "GWIZ"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "3e6f1cc3-b968-4547-9693-abd23707e6d5",
+    "wikidata": "Q122818956",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

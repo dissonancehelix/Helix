@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:akemi_kimura",
+  "entity_type": "music.composer",
+  "label": "Akemi Kimura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Mega Man X7",
+      "Mega Man X8",
+      "Phoenix Wright"
+    ],
+    "artist_keys": [
+      "Akemi Kimura"
+    ],
+    "track_count": 94
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11518946",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

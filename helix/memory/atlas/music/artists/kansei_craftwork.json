@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kansei_craftwork",
+  "entity_type": "music.composer",
+  "label": "Kansei Craftwork",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Sugoi Hebereke"
+    ],
+    "artist_keys": [
+      "Kansei Craftwork"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

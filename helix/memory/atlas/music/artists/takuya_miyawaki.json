@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takuya_miyawaki",
+  "entity_type": "music.composer",
+  "label": "Takuya Miyawaki",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man X5",
+      "Mega Man X7"
+    ],
+    "artist_keys": [
+      "Takuya Miyawaki"
+    ],
+    "track_count": 65
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q92269924",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

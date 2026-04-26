@@ -1,0 +1,47 @@
+{
+  "entity_id": "music.composer:tenpei_sato",
+  "entity_type": "music.composer",
+  "label": "Tenpei Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "PC Engine",
+      "PC-88",
+      "PC-98",
+      "Sega CD",
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Akumajo Dracula Tribute Vol.1",
+      "Cosmic Fantasy",
+      "Cosmic Fantasy Stories",
+      "Emerald Dragon",
+      "Hisshou 777 Fighter",
+      "Hisshou 777 Fighter II",
+      "Hisshou 777 Fighter III",
+      "Imported Game Music",
+      "Magna Braban",
+      "Mirage",
+      "Pachinko Maruhi Hisshouhou",
+      "Pachinko Renchan Tengoku",
+      "Red",
+      "Shinseiki Odysselya",
+      "Task Force Harrier EX"
+    ],
+    "artist_keys": [
+      "Tenpei Sato"
+    ],
+    "track_count": 195
+  },
+  "external_ids": {
+    "vgmdb": "608",
+    "musicbrainz": "511d2a1a-e0d7-4452-b6a2-1c4559455515",
+    "wikidata": "Q7700591",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "1723107",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tenpei_Sato"
+  }
+}

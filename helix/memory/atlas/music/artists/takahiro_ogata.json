@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:takahiro_ogata",
+  "entity_type": "music.composer",
+  "label": "Takahiro Ogata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Fullmetal Alchemist",
+      "Maken Shao",
+      "Maken X"
+    ],
+    "artist_keys": [
+      "Takahiro Ogata"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q24900486",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

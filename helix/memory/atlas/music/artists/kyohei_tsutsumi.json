@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:kyohei_tsutsumi",
+  "entity_type": "music.composer",
+  "label": "Kyohei Tsutsumi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Itadaki Street 2",
+      "Yumimi Mix"
+    ],
+    "artist_keys": [
+      "Kyohei Tsutsumi"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "2340",
+    "musicbrainz": "0016a318-0d7f-468e-a373-133bbce92716",
+    "wikidata": "Q3081752",
+    "spotify": "1ZXXqjG6KQU0yzZ5ABQ1QF",
+    "lastfm": "筒美京平",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ky%C5%8Dhei_Tsutsumi"
+  }
+}

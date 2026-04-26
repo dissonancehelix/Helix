@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:reo_uratani",
+  "entity_type": "music.composer",
+  "label": "Reo Uratani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth"
+    ],
+    "artist_keys": [
+      "Reo Uratani"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

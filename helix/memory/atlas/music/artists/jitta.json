@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:jitta",
+  "entity_type": "music.composer",
+  "label": "Jitta",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Ninja Baseball Bat Man"
+    ],
+    "artist_keys": [
+      "Jitta"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114438096",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

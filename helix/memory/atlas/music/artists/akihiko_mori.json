@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:akihiko_mori",
+  "entity_type": "music.composer",
+  "label": "Akihiko Mori",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "Nintendo 64",
+      "Super NES"
+    ],
+    "franchises": [
+      "Bassin's Black Bass",
+      "Bounty Sword",
+      "Cuty Suzuki no Ringside Angel",
+      "Gokinjo Bouken Tai",
+      "Kidou Senshi Z",
+      "Mystic Ark",
+      "Otoboke Ninja Colosseum",
+      "Schmeiser Robo",
+      "Seifuku Densetsu",
+      "Seifuku Densetsu Pretty Fighter",
+      "Shien's Revenge",
+      "Shin SD Sengokuden",
+      "Volley Fire",
+      "Wonder Project J",
+      "Wonder Project J2"
+    ],
+    "artist_keys": [
+      "Akihiko Mori"
+    ],
+    "track_count": 374
+  },
+  "external_ids": {
+    "vgmdb": "51",
+    "musicbrainz": "47c104a0-fe3c-406a-9950-aa327c8581c0",
+    "wikidata": "Q4700914",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akihiko_Mori"
+  }
+}

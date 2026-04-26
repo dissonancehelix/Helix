@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:shinji_tachikawa",
+  "entity_type": "music.composer",
+  "label": "Shinji Tachikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Power Lode Runner",
+      "Shijou Saikyou League Serie A",
+      "Umihara Kawase",
+      "Umihara Kawase Shun",
+      "Widget"
+    ],
+    "artist_keys": [
+      "Shinji Tachikawa"
+    ],
+    "track_count": 35
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11597937",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

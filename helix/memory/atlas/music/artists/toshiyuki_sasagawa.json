@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:toshiyuki_sasagawa",
+  "entity_type": "music.composer",
+  "label": "Toshiyuki Sasagawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Ten Plants",
+      "Ten Plants 2",
+      "Tengai Makyo Zero"
+    ],
+    "artist_keys": [
+      "Toshiyuki Sasagawa"
+    ],
+    "track_count": 69
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ee585c07-c603-4055-84d4-f8be93422ce3",
+    "wikidata": "Q11602576",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

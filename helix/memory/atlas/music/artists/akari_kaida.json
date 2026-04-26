@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:akari_kaida",
+  "entity_type": "music.composer",
+  "label": "Akari Kaida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "CP System II",
+      "DS",
+      "Super NES"
+    ],
+    "franchises": [
+      "Breath of Fire III",
+      "Chunithm",
+      "Cyberbots",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Luminous Arc 2",
+      "Mega Man & Bass",
+      "Mega Man 10",
+      "Mega Man Battle Network",
+      "Mega Man Battle Network 2",
+      "Mega Man Battle Network 3",
+      "Mega Man Battle Network 5",
+      "Mega Man Star Force 3",
+      "Night Warriors"
+    ],
+    "artist_keys": [
+      "Akari Kaida"
+    ],
+    "track_count": 262
+  },
+  "external_ids": {
+    "vgmdb": "273",
+    "musicbrainz": "4be7d2b5-2aab-4f18-a833-1dd4b44a9963",
+    "wikidata": "Q2828942",
+    "spotify": "3bX0BYzgX5zIJ71e6rOrfH",
+    "lastfm": "",
+    "discogs": "3651579",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akari_Kaida"
+  }
+}

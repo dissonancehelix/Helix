@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:takahiro_tsunashima",
+  "entity_type": "music.composer",
+  "label": "Takahiro Tsunashima",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "PC-98"
+    ],
+    "franchises": [
+      "Brandish 2",
+      "Brandish 3",
+      "The Legend of Heroes III",
+      "The Legend of Heroes IV",
+      "The Legend of Xanadu",
+      "Ys IV"
+    ],
+    "artist_keys": [
+      "Takahiro Tsunashima"
+    ],
+    "track_count": 38
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

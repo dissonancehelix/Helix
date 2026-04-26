@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:sachiko_oita",
+  "entity_type": "music.composer",
+  "label": "Sachiko Oita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Adventure Island 2",
+      "Super Metal Crusher",
+      "Terra Cresta II"
+    ],
+    "artist_keys": [
+      "Sachiko Oita"
+    ],
+    "track_count": 58
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

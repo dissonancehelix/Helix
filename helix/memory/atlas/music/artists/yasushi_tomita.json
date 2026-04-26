@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:yasushi_tomita",
+  "entity_type": "music.composer",
+  "label": "Yasushi Tomita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "X68000"
+    ],
+    "franchises": [
+      "Grandi Florum"
+    ],
+    "artist_keys": [
+      "Yasushi Tomita"
+    ],
+    "track_count": 15
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

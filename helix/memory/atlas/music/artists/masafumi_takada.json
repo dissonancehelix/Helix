@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:masafumi_takada",
+  "entity_type": "music.composer",
+  "label": "Masafumi Takada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "2Tax Gold",
+      "Air Boarder 64",
+      "Akumajo Dracula Tribute Vol.1",
+      "Contact",
+      "Danganronpa",
+      "Danganronpa 2",
+      "Danganronpa Another Episode",
+      "Danganronpa Decadence",
+      "Danganronpa V3",
+      "Death Come True"
+    ],
+    "artist_keys": [
+      "Masafumi Takada"
+    ],
+    "track_count": 1298
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "abcb31b8-8aa1-4db9-8b85-2ac3b5f8a836",
+    "wikidata": "Q6148410",
+    "spotify": "6u08wRMmY0Myz8HaNbIOQb",
+    "lastfm": "",
+    "discogs": "985560"
+  }
+}

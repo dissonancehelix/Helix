@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:azusa_chiba_mitsuhiro_kaneda",
+  "entity_type": "music.composer",
+  "label": "Azusa Chiba, Mitsuhiro Kaneda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Grand Kingdom"
+    ],
+    "artist_keys": [
+      "Azusa Chiba, Mitsuhiro Kaneda"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

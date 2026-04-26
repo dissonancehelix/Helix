@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:hirotaka_hatada",
+  "entity_type": "music.composer",
+  "label": "Hirotaka Hatada",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Megaton Musashi",
+      "Y School Heroes"
+    ],
+    "artist_keys": [
+      "Hirotaka Hatada"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

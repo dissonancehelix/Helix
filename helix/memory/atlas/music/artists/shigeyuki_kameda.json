@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:shigeyuki_kameda",
+  "entity_type": "music.composer",
+  "label": "Shigeyuki Kameda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Street Fighter 6"
+    ],
+    "artist_keys": [
+      "Shigeyuki Kameda"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

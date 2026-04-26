@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:mitsuhiro_ohta",
+  "entity_type": "music.composer",
+  "label": "Mitsuhiro Ohta",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy XV"
+    ],
+    "artist_keys": [
+      "Mitsuhiro Ohta"
+    ],
+    "track_count": 5
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q114574554",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

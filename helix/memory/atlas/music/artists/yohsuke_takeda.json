@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:yohsuke_takeda",
+  "entity_type": "music.composer",
+  "label": "Yohsuke Takeda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "OLIO3"
+    ],
+    "artist_keys": [
+      "Yohsuke Takeda"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

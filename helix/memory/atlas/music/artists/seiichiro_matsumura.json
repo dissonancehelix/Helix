@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:seiichiro_matsumura",
+  "entity_type": "music.composer",
+  "label": "Seiichiro Matsumura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Brain Assist",
+      "OLIO3"
+    ],
+    "artist_keys": [
+      "Seiichiro Matsumura"
+    ],
+    "track_count": 19
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q27918604",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

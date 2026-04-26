@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:seiichi_fukami",
+  "entity_type": "music.composer",
+  "label": "Seiichi Fukami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "MSX2",
+      "NES",
+      "PC-88",
+      "X68000"
+    ],
+    "franchises": [
+      "Bio Miracle Bokutte Upa",
+      "Fantastic Journey",
+      "Gaiapolis",
+      "Gang Busters",
+      "Gradius II",
+      "SD Snatcher",
+      "Snatcher",
+      "Thunder Cross",
+      "Violent Storm",
+      "X"
+    ],
+    "artist_keys": [
+      "Seiichi Fukami"
+    ],
+    "track_count": 136
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:takahiro_nogi",
+  "entity_type": "music.composer",
+  "label": "Takahiro Nogi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Grounseed",
+      "Totsugeki! Mix"
+    ],
+    "artist_keys": [
+      "Takahiro Nogi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11368836",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

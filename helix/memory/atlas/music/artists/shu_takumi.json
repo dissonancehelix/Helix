@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:shu_takumi",
+  "entity_type": "music.composer",
+  "label": "Shu Takumi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Apollo Justice"
+    ],
+    "artist_keys": [
+      "Shu Takumi"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1133427",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shu_Takumi"
+  }
+}

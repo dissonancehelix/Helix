@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:michiharu_hasuya",
+  "entity_type": "music.composer",
+  "label": "Michiharu Hasuya",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Master System",
+      "NES",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Aighina no Yogen",
+      "Chester Field",
+      "Circus Caper",
+      "Dr. Jekyll and Mr. Hyde",
+      "Ginga Eiyuu Densetsu",
+      "Golgo 13",
+      "Hikari no Senshi Photon",
+      "Keith Courage in Alpha Zones",
+      "Kid Kool",
+      "Solomon no Kagi",
+      "Solomon's Key",
+      "The Mafat Conspiracy"
+    ],
+    "artist_keys": [
+      "Michiharu Hasuya"
+    ],
+    "track_count": 102
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

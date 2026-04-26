@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tomonao_niiya",
+  "entity_type": "music.composer",
+  "label": "Tomonao Niiya",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The King of Fighters XIII"
+    ],
+    "artist_keys": [
+      "Tomonao Niiya"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

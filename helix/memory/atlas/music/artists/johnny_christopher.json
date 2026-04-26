@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:johnny_christopher",
+  "entity_type": "music.composer",
+  "label": "Johnny Christopher",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Silent Hill"
+    ],
+    "artist_keys": [
+      "Johnny Christopher"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "0c7f5ae7-fd34-4650-8bca-2a6fbaee7daa",
+    "wikidata": "Q19560875",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Johnny_Christopher"
+  }
+}

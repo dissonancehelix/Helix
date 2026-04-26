@@ -1,0 +1,114 @@
+[
+  {
+    "id": "nominative_base",
+    "family": "case_nominative_partitive",
+    "label": "nominative_complete_object",
+    "text": "Luen kirjan."
+  },
+  {
+    "id": "nominative_variant",
+    "family": "case_nominative_partitive",
+    "label": "partitive_partial_object",
+    "transform": "shift_to_partitive",
+    "edge_from": "nominative_base",
+    "text": "Luen kirjaa."
+  },
+  {
+    "id": "locative_in_base",
+    "family": "locative_cases",
+    "label": "inessive_location_inside",
+    "text": "Hän on talossa."
+  },
+  {
+    "id": "locative_in_variant",
+    "family": "locative_cases",
+    "label": "illative_motion_into",
+    "transform": "shift_to_illative",
+    "edge_from": "locative_in_base",
+    "text": "Hän menee taloon."
+  },
+  {
+    "id": "negation_base",
+    "family": "ei_negation",
+    "label": "affirmative",
+    "text": "Hän tulee huomenna."
+  },
+  {
+    "id": "negation_variant",
+    "family": "ei_negation",
+    "label": "negative_ei_auxiliary",
+    "transform": "add_ei_negation",
+    "edge_from": "negation_base",
+    "text": "Hän ei tule huomenna."
+  },
+  {
+    "id": "question_base",
+    "family": "ko_question_suffix",
+    "label": "declarative",
+    "text": "Sinä olet opiskelija."
+  },
+  {
+    "id": "question_variant",
+    "family": "ko_question_suffix",
+    "label": "yes_no_question_ko",
+    "transform": "add_ko_suffix",
+    "edge_from": "question_base",
+    "text": "Oletko sinä opiskelija?"
+  },
+  {
+    "id": "adessive_base",
+    "family": "adessive_cases",
+    "label": "adessive_location_on",
+    "text": "Kirja on pöydällä."
+  },
+  {
+    "id": "adessive_variant",
+    "family": "adessive_cases",
+    "label": "allative_motion_onto",
+    "transform": "shift_to_allative",
+    "edge_from": "adessive_base",
+    "text": "Laitan kirjan pöydälle."
+  },
+  {
+    "id": "possession_base",
+    "family": "possessive_suffix",
+    "label": "separate_pronoun",
+    "text": "Minun talo on suuri."
+  },
+  {
+    "id": "possession_variant",
+    "family": "possessive_suffix",
+    "label": "possessive_suffix_ni",
+    "transform": "add_possessive_suffix",
+    "edge_from": "possession_base",
+    "text": "Taloni on suuri."
+  },
+  {
+    "id": "passive_base",
+    "family": "impersonal_passive",
+    "label": "active_with_agent",
+    "text": "Ihmiset rakentavat taloja."
+  },
+  {
+    "id": "passive_variant",
+    "family": "impersonal_passive",
+    "label": "impersonal_passive_no_agent",
+    "transform": "form_impersonal_passive",
+    "edge_from": "passive_base",
+    "text": "Taloja rakennetaan."
+  },
+  {
+    "id": "tense_base",
+    "family": "tense_aspect",
+    "label": "simple_past",
+    "text": "Maria keittiä ruokaa."
+  },
+  {
+    "id": "tense_variant",
+    "family": "tense_aspect",
+    "label": "perfect_aspect",
+    "transform": "form_perfect",
+    "edge_from": "tense_base",
+    "text": "Maria on keittänyt ruokaa."
+  }
+]

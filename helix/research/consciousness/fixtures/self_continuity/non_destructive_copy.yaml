@@ -1,0 +1,73 @@
+case_id: non_destructive_copy
+description: >
+  Non-destructive copy: the original person survives while an exact functional duplicate is
+  created. Both copies claim to be the original. Both have the same memories, personality,
+  and K-structure. The original's experience continues uninterrupted. The copy awakens
+  with full apparent continuity.
+transformation_type: branching
+substrate_relation: substrate_duplicated
+
+scores:
+  C_fielding: 1.0   # original field continues uninterrupted
+  P_perspective: 1.0  # original perspective continues
+  O_ownership: 1.0   # original ownership continues
+  B_boundary: 1.0
+  K_carried_constraint: 1.0  # K is preserved in both — it has been duplicated
+  N_non_branching: 0.0  # branching has occurred; two equally-inheriting streams now exist
+  R_restart_continuity: null  # not applicable
+
+field_status: field_continuous  # for the original; field_duplicated for the new copy
+ownership_status: ownership_duplicated  # both streams claim the same prior ownership
+branching_status: branching_occurs
+carried_constraint_status: constraint_duplicated
+restart_status: null
+
+evidence:
+  C_fielding: >
+    The original's phenomenal field continues without interruption. C = 1.0 for the
+    original from the original's perspective. The copy's C is also non-zero but
+    constitutes a new field instance, not the original.
+  P_perspective: >
+    The original's perspective is uninterrupted. The copy's perspective is functionally
+    identical but a new instance.
+  O_ownership: >
+    The original's ownership-stream continues. The copy's 'ownership' is inherited from
+    the same prior moment but now constitutes a separate stream.
+  B_boundary: >
+    Both original and copy have intact self-boundaries.
+  K_carried_constraint: >
+    K is preserved in both. But K-duplication is not K-continuity for a single self.
+    Both copies have the same carried constraint, but that constraint now serves two
+    separate ownership-streams.
+  N_non_branching: >
+    0.0 — branching has definitively occurred. N = 0 is the correct score.
+    Two equally-inheriting ownership-streams now exist. The original self cannot be
+    numerically identical with both. Both are legitimate descendants; neither is the
+    unique continuation.
+  R_restart_continuity: >
+    Not applicable — no suspension event.
+
+expected_classification: branching_descendant_not_single_self
+
+revision_pressure: >
+  This is the theory's clearest and most confident prediction. N = 0 → singular
+  self-continuity impossible. Both copies are legitimate heirs. Neither is uniquely
+  'the same self' as the pre-copy person in the sense of numerical identity.
+  The theory handles this correctly and without ambiguity.
+  This case is the reason N was added to the S formula.
+
+breaks_preserved:
+  - >
+    The original person (the one whose field continued uninterrupted) has a stronger
+    intuitive claim to be 'the same self' than the copy — because causal continuity
+    of the field is maintained for the original. The theory's N = 0 verdict applies
+    equally to both, which may underestimate the original's stronger claim.
+    This asymmetry is unresolved: does causal field continuity grant the original a
+    stronger self-identity claim that the N = 0 verdict obscures?
+
+notes: >
+  This case is where the theory is most confident. The copy case is the canonical test
+  for why pattern continuity ≠ self-continuity. K is perfectly preserved for both copies.
+  N fails for both considered as continuations of the original.
+  The moral status implications (which copy has stronger claims?) are downstream and not
+  addressed by the S-formula directly.

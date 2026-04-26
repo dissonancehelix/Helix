@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:ring_ring",
+  "entity_type": "music.composer",
+  "label": "Ring Ring",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Avengers in Galactic Storm"
+    ],
+    "artist_keys": [
+      "Ring Ring"
+    ],
+    "track_count": 3
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q107125489",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

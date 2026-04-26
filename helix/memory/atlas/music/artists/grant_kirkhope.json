@@ -1,0 +1,36 @@
+{
+  "entity_id": "music.composer:grant_kirkhope",
+  "entity_type": "music.composer",
+  "label": "Grant Kirkhope",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Banjo",
+      "CityVille 2",
+      "Desktop Dungeons",
+      "Donkey Kong 64",
+      "GoldenEye 007",
+      "Kingdoms of Amalur",
+      "Mario + Rabbids Sparks of Hope",
+      "Perfect Dark",
+      "Super Smash Bros. Ultimate",
+      "Yaiba"
+    ],
+    "artist_keys": [
+      "Grant Kirkhope"
+    ],
+    "track_count": 374
+  },
+  "external_ids": {
+    "vgmdb": "1935",
+    "musicbrainz": "3237b5a8-ae44-400c-aa6d-cea51f0b9074",
+    "wikidata": "Q1818767",
+    "spotify": "52kyuqw6IKrI3kzllwYcvd",
+    "lastfm": "Grant+Kirkhope",
+    "discogs": "762328",
+    "wikipedia": "https://en.wikipedia.org/wiki/Grant_Kirkhope"
+  }
+}

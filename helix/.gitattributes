@@ -1,0 +1,5 @@
+# Exclude from git archive (snapshot.zip / git archive HEAD)
+codex/library/                          export-ignore
+domains/music/tools/spc2mid/*.exe       export-ignore
+domains/music/tools/spc2mid/*.dll       export-ignore
+domains/music/toolkits/                 export-ignore

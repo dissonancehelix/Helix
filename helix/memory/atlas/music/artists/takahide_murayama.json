@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:takahide_murayama",
+  "entity_type": "music.composer",
+  "label": "Takahide Murayama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Akiba's Trip",
+      "Gurumin",
+      "Trails / Kiseki",
+      "Xanadu Next"
+    ],
+    "artist_keys": [
+      "Takahide Murayama"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

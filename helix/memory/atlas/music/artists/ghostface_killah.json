@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:ghostface_killah",
+  "entity_type": "music.composer",
+  "label": "Ghostface Killah",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Teenage Mutant Ninja Turtles"
+    ],
+    "artist_keys": [
+      "Ghostface Killah"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "3b39abeb-0064-4eed-9ddd-ee47a45c54cb",
+    "wikidata": "Q323463",
+    "spotify": "6FD0unjzGQhX3b6eMccMJe",
+    "lastfm": "Ghostface+Killah",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ghostface_Killah"
+  }
+}

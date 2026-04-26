@@ -1,0 +1,122 @@
+{{NFL roster
+|TeamName=Washington Commanders
+|TemplateName=Washington Commanders roster
+|rosterlink=https://www.commanders.com/team/players-roster/
+|depthlink=https://www.commanders.com/team/depth-chart/
+|translink=https://www.commanders.com/team/transactions/
+|Active=75
+|Inactive=
+|Exempt=
+|PS=
+|PS-exempt=
+|FA=
+|unsigned=
+|Date=March 31, 2026
+<!--REMINDER: PLEASE UPDATE THE DATE AFTER UPDATING ROSTERS!!!-->
+
+|Quarterbacks=
+{{NFLplayer|{{space}}5|Jayden Daniels}}
+{{NFLplayer|15|Sam Hartman}}
+{{NFLplayer|{{space}}8|Marcus Mariota}}
+
+|Running Backs=
+{{NFLplayer|26|Jeremy McNichols}}
+{{NFLplayer|22|Jacory Croskey-Merritt}}
+{{NFLplayer|--|Jerome Ford}}
+{{NFLplayer|--|Rachaad White}}
+
+|Wide Receivers=
+{{NFLplayer|88|Ja'Corey Brooks}}
+{{NFLplayer|--|Dyami Brown}} 
+{{NFLplayer|13|Treylon Burks}}
+{{NFLplayer|--|Van Jefferson}}
+{{NFLplayer|84|Jacoby Jones|d=wide receiver, born 2001}}
+{{NFLplayer|83|Jaylin Lane}}
+{{NFLplayer|11|Luke McCaffrey}}
+{{NFLplayer|17|Terry McLaurin}}
+{{NFLplayer|--|Nick Nash}}
+
+|Tight Ends=
+{{NFLplayer|87|John Bates|d=American football}}
+{{NFLplayer|89|Lawrence Cager}}
+{{NFLplayer|--|Chig Okonkwo}}
+{{NFLplayer|82|Ben Sinnott}}
+{{NFLplayer|44|Colson Yankoff}}
+
+|Offensive Linemen=
+{{NFLplayer|67|Nick Allegretti|C}}
+{{NFLplayer|64|Malaesala Aumavae–Laulu|G}}
+{{NFLplayer|74|Brandon Coleman|d=offensive lineman|LG}}
+{{NFLplayer|72|Josh Conerly Jr.|RT}}
+{{NFLplayer|76|Sam Cosmi|RG}}
+{{NFLplayer|--|Tyler Cooper|G|link=no}}
+{{NFLplayer|61|Julian Good-Jones|C}}
+{{NFLplayer|68|Timothy McKay|d=American football|G}}
+{{NFLplayer|75|Chris Paul|d=offensive lineman|LG}}
+{{NFLplayer|--|Foster Sarell|RT}}
+{{NFLplayer|73|Trent Scott|RT}}
+{{NFLplayer|78|Laremy Tunsil|LT}}
+{{NFLplayer|71|Andrew Wylie|d=American football|RG}}
+
+|Defensive Linemen=
+{{NFLplayer|92|Dorance Armstrong|DE}}
+{{NFLplayer|66|Ricky Barber|DT}}
+{{NFLplayer|--|Andre Carter II|DE}}
+{{NFLplayer|--|K'Lavon Chaisson|DE}}
+{{NFLplayer|--|D. J. Davidson|DT}}
+{{NFLplayer|93|Drake Jackson|DE}}
+{{NFLplayer|90|Javontae Jean-Baptiste|DE}}
+{{NFLplayer|53|D. J. Johnson|d=defensive end|DE}}
+{{NFLplayer|99|Javon Kinlaw|DT}}
+{{NFLplayer|59|T. J. Maguranyanga|DE}}
+{{NFLplayer|95|Jer'Zhan Newton|DT}}
+{{NFLplayer|--|Charles Omenihu|DE}}
+{{NFLplayer|--|Odafe Oweh|DE}} 
+{{NFLplayer|94|Daron Payne|DT}}
+{{NFLplayer|97|Tim Settle|DT}} 
+{{NFLplayer|79|Shy Tuttle|DT}}
+{{NFLplayer|91|Deatrich Wise Jr.|DE}}
+
+|Linebackers=
+{{NFLplayer|57|Nick Bellore|OLB}}
+{{NFLplayer|--|Leo Chenal|MLB}}
+{{NFLplayer|51|Ale Kaho|OLB}}
+{{NFLplayer|{{space}}4|Frankie Luvu|OLB}}
+{{NFLplayer|58|Jordan Magee|MLB}}
+{{NFLplayer|56|Kain Medrano|OLB}}
+
+|Defensive Backs=
+{{NFLplayer|23|Trey Amos|CB}}
+{{NFLplayer|35|Percy Butler|d=American football|SS}}
+{{NFLplayer|--|Nick Cross|d=American football|SS}}
+{{NFLplayer|{{space}}3|Will Harris|d=American football|SS}}
+{{NFLplayer|46|Tre Hawkins III|CB}}
+{{NFLplayer|--|Qwuantrezz Knight|CB}}
+{{NFLplayer|20|Quan Martin|FS}}
+{{NFLplayer|47|Robert McDaniel|d=American football|FS}}
+{{NFLplayer|18|Tyler Owens|SS}}
+{{NFLplayer|39|Jeremy Reaves|FS}}
+{{NFLplayer|--|Amik Robertson|CB}} 
+{{NFLplayer|29|Darius Rush|CB}}
+{{NFLplayer|{{space}}0|Mike Sainristil|CB}}
+{{NFLplayer|22|Car'lin Vigers|CB|link=no}}
+{{NFLplayer|--|Ahkello Witherspoon|CB}}
+
+|Special Teams=
+{{NFLplayer|16|Jake Moody|K}}
+{{NFLplayer|69|Tyler Ott|LS}}
+{{NFLplayer|10|Tress Way|P}}
+
+|Reserve Lists=
+
+|Practice Squad=
+
+}}<noinclude>
+
+==See also==
+*{{tl|Washington Commanders roster navbox}}
+*{{tl|Washington Commanders coaches navbox}}
+*{{tl|Washington Commanders staff}}
+[[Category:NFL roster templates]]
+[[Category:Washington Commanders templates|roster]]
+</noinclude>

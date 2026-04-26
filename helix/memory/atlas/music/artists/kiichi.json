@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:kiichi",
+  "entity_type": "music.composer",
+  "label": "Kiichi",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "☆ 24EFFECTS ☆"
+    ],
+    "artist_keys": [
+      "Kiichi"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q3196514",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Suzuki_Kiitsu"
+  }
+}

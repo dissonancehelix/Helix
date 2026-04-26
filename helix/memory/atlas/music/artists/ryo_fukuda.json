@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:ryo_fukuda",
+  "entity_type": "music.composer",
+  "label": "Ryo Fukuda",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Shadow Hearts",
+      "Sonic Superstars",
+      "Sonic the Hedgehog",
+      "Super Monkey Ball Banana Rumble"
+    ],
+    "artist_keys": [
+      "Ryo Fukuda"
+    ],
+    "track_count": 82
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q1492978",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ry%C5%8D_Fukuda"
+  }
+}

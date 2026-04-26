@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:nanobii",
+  "entity_type": "music.composer",
+  "label": "nanobii",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Sonic Racing"
+    ],
+    "artist_keys": [
+      "nanobii"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

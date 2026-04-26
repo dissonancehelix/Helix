@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:shigetoshi_gohara",
+  "entity_type": "music.composer",
+  "label": "Shigetoshi Gohara",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Super Mario Galaxy 2",
+      "Super Mario Odyssey"
+    ],
+    "artist_keys": [
+      "Shigetoshi Gohara"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

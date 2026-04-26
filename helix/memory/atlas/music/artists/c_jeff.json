@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:c_jeff",
+  "entity_type": "music.composer",
+  "label": "C-jeff",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soundshock 2"
+    ],
+    "artist_keys": [
+      "C-jeff"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q125298680",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:shunsuke_minani",
+  "entity_type": "music.composer",
+  "label": "Shunsuke Minani",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Like a Dragon Gaiden"
+    ],
+    "artist_keys": [
+      "Shunsuke Minani"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

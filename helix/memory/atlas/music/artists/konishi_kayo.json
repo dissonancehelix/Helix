@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:konishi_kayo",
+  "entity_type": "music.composer",
+  "label": "Konishi Kayo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Konishi Kayo"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

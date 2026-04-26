@@ -1,0 +1,32 @@
+{
+  "entity_id": "music.composer:youta_kitagami",
+  "entity_type": "music.composer",
+  "label": "Youta Kitagami",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DOS",
+      "MSX2",
+      "PC-98"
+    ],
+    "franchises": [
+      "Active RPG Construction Tool",
+      "Adventure Tsukuru 98",
+      "Adventure Tsukuru II",
+      "Ongaku Tsukuru",
+      "RPG Tsukuru Dante98",
+      "RPG Tsukuru Dante98 II",
+      "Shooting Tsukuru 98",
+      "Shooting Tsukuru V"
+    ],
+    "artist_keys": [
+      "Youta Kitagami"
+    ],
+    "track_count": 222
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

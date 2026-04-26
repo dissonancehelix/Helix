@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:kouji_niikura",
+  "entity_type": "music.composer",
+  "label": "Kouji Niikura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES",
+      "X68000"
+    ],
+    "franchises": [
+      "Clock Tower",
+      "Dragon's Earth",
+      "Grandi Florum",
+      "Human Grand Prix II",
+      "Moonlight Syndrome",
+      "Septentrion",
+      "Super Formation Soccer 95"
+    ],
+    "artist_keys": [
+      "Kouji Niikura"
+    ],
+    "track_count": 137
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

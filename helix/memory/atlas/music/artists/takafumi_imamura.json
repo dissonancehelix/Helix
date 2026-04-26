@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:takafumi_imamura",
+  "entity_type": "music.composer",
+  "label": "Takafumi Imamura",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy",
+      "Final Fantasy VII Remake",
+      "Final Fantasy XIV"
+    ],
+    "artist_keys": [
+      "Takafumi Imamura"
+    ],
+    "track_count": 47
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

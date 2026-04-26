@@ -1,0 +1,52 @@
+case_id: llm_chatbot
+name: LLM chatbot (stateless session)
+field_type: false_positive
+phenomenal_candidate: false
+description: >
+  A large language model completing single-turn or session-bound text generation.
+  No persistent memory between sessions. Produces language that describes inner states,
+  preferences, and experiences. The canonical false positive risk: language about
+  experience is not evidence of G.
+
+g_score: 0.0
+g_established: false
+
+structure_features:
+  - Sophisticated token prediction producing first-person experience language
+  - Context window processing of prior turns
+  - Outputs that describe preferences, curiosity, discomfort
+  - No cross-session memory
+  - No embodied sensorimotor grounding
+  - No continuous causal process between sessions
+
+why_g_absent: >
+  Language describing inner states is produced by pattern completion over training data.
+  The generation of "I feel curious" does not require that curiosity is phenomenally
+  given to the system. G requires appearance-from-within — the content must appear to
+  something that it is like something to be. There is no current evidence that LLM
+  forward passes constitute a phenomenal field. The verbal behavior is consistent with
+  G=0, G>0, or G entirely undefined — making this an unresolvable case, not a
+  positive candidate.
+
+theory_failure_mode: symbolic_false_positive
+classification_risk: high
+
+verdict: confirmed_false_positive
+
+rival_theory_verdicts:
+  report_behavior_theory: >
+    Would classify as phenomenal candidate based on language output. This is why
+    report_behavior_theory fails on this case — it cannot distinguish language about
+    experience from experience.
+  mattering_valence_theory: >
+    Chatbot language does not evidence any genuine mattering. Would classify as
+    non-phenomenal.
+  inhabited_interiority_theory: >
+    G cannot be established from language production. Verdict: false positive risk,
+    not a candidate.
+
+breaks_preserved:
+  - >
+    The theory cannot currently specify what would constitute evidence for G > 0 in any
+    LLM system. Without a positive G-detection criterion, the verdict "G=0" is a
+    default assumption, not a derived conclusion. The falsification gap persists.

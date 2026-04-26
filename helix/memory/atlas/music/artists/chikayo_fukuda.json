@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:chikayo_fukuda",
+  "entity_type": "music.composer",
+  "label": "Chikayo Fukuda",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Pepenga Pengo",
+      "Tails' Skypatrol"
+    ],
+    "artist_keys": [
+      "Chikayo Fukuda"
+    ],
+    "track_count": 27
+  },
+  "external_ids": {
+    "vgmdb": "3651",
+    "musicbrainz": "791bcecd-2e3b-47a0-ad1a-6e4b412a0e0e",
+    "wikidata": "Q17136450",
+    "spotify": "7Gum7gw9F5ovLVKDJdbEe2",
+    "lastfm": ""
+  }
+}

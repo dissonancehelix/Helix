@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:unknown",
+  "entity_type": "music.composer",
+  "label": "Unknown",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Super NES"
+    ],
+    "franchises": [
+      "D. D. Crew",
+      "Earthworm Jim",
+      "MCMLXC"
+    ],
+    "artist_keys": [
+      "Unknown"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "b7a65056-72f0-48d4-8829-af0536321b05",
+    "wikidata": "Q56678558",
+    "spotify": "33Ys7xs9s893hFj57aopAS",
+    "lastfm": ""
+  }
+}

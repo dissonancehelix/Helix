@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:seiichi_hamada",
+  "entity_type": "music.composer",
+  "label": "Seiichi Hamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive",
+      "Neo Geo",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "ABC Monday Night Football",
+      "Avengers in Galactic Storm",
+      "Border Break",
+      "BurgerTime Deluxe",
+      "Dark Legend",
+      "Darwin 4081",
+      "Fighter's History",
+      "Glory of Heracles",
+      "Glory of Heracles II",
+      "Glory of Heracles III",
+      "Glory of Heracles IV",
+      "Joe & Mac",
+      "Little Magic",
+      "Makai Hakkenden Shada",
+      "Metal Max 2"
+    ],
+    "artist_keys": [
+      "Seiichi Hamada"
+    ],
+    "track_count": 256
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

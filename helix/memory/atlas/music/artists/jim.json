@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:jim",
+  "entity_type": "music.composer",
+  "label": "Jim",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Metal Slug"
+    ],
+    "artist_keys": [
+      "Jim"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q15868042",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jim_(given_name)"
+  }
+}

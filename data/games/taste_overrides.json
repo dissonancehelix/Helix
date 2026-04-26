@@ -1,0 +1,36 @@
+{
+  "_comment": "Overrides for games whose SteamSpy tags don't reflect actual engagement.",
+
+  "substitute": {
+    "4000":    "252950",
+    "1207665": "105600"
+  },
+  "_substitute_notes": {
+    "4000":    "Garry's Mod — 90%+ hours were EFT (Extreme Football Throwdown), a custom continuous-flow arena sport. Substitute Rocket League (252950) tags.",
+    "1207665": "tModLoader — same game as Terraria (105600), modding hours."
+  },
+
+  "skip": [],
+
+  "manual_games": [
+    {
+      "appid": "466300",
+      "name": "Planescape: Torment Enhanced Edition",
+      "playtime_hours_equivalent": 250,
+      "_note": "Canonical narrative/philosophical RPG. Dense text, reactive world, identity as theme."
+    },
+    {
+      "appid": "653530",
+      "name": "Return of the Obra Dinn",
+      "playtime_hours_equivalent": 200,
+      "_note": "Deductive mystery, constraint-satisfaction puzzle design, austere aesthetic."
+    },
+    {
+      "appid": "753640",
+      "name": "Outer Wilds",
+      "playtime_hours_equivalent": 200,
+      "_note": "Exploration-as-discovery, physics-based, knowledge gating over gear gating."
+    }
+  ],
+  "_manual_notes": "Games not in Steam library (or underrepresented by playtime) that are known taste anchors. playtime_hours_equivalent sets their log-weight contribution to the profile."
+}

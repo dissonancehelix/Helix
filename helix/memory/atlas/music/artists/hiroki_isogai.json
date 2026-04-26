@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:hiroki_isogai",
+  "entity_type": "music.composer",
+  "label": "Hiroki Isogai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Mega Man 10",
+      "Mega Man 9"
+    ],
+    "artist_keys": [
+      "Hiroki Isogai"
+    ],
+    "track_count": 10
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:minako",
+  "entity_type": "music.composer",
+  "label": "Minako",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Gradius"
+    ],
+    "artist_keys": [
+      "Minako"
+    ],
+    "track_count": 18
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q122365820",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

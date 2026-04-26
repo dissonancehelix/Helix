@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kira_jidou",
+  "entity_type": "music.composer",
+  "label": "Kira Jidou",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-9801"
+    ],
+    "franchises": [
+      "Power Slave"
+    ],
+    "artist_keys": [
+      "Kira Jidou"
+    ],
+    "track_count": 4
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

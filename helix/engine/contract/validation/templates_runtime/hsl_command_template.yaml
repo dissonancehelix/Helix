@@ -1,0 +1,7 @@
+command: <COMMAND_NAME>
+operator: <OPERATOR_NAME>
+substrate: <SUBSTRATE>
+
+artifact_outputs:
+  - <OUTPUT_1>
+  - <OUTPUT_2>

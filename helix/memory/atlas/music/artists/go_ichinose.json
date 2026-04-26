@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:go_ichinose",
+  "entity_type": "music.composer",
+  "label": "Go Ichinose",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Game Boy"
+    ],
+    "franchises": [
+      "Pokémon Black & White",
+      "Pokémon Black 2 & White 2",
+      "Pokémon Crystal",
+      "Pokémon Diamond & Pearl",
+      "Pokémon FireRed & LeafGreen",
+      "Pokémon Gold & Silver",
+      "Pokémon HeartGold & SoulSilver",
+      "Pokémon Pinball",
+      "Pokémon Platinum",
+      "Pokémon Ruby & Sapphire",
+      "Pokémon X & Y"
+    ],
+    "artist_keys": [
+      "Go Ichinose"
+    ],
+    "track_count": 281
+  },
+  "external_ids": {
+    "vgmdb": "3639",
+    "musicbrainz": "5c7b582a-2168-4745-ab66-4d5c32bc9514",
+    "wikidata": "Q11352362",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "2712330",
+    "wikipedia": "https://en.wikipedia.org/wiki/Go_Ichinose"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:brad_fuller",
+  "entity_type": "music.composer",
+  "label": "Brad Fuller",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Marble Madness",
+      "Xybots"
+    ],
+    "artist_keys": [
+      "Brad Fuller"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "12416",
+    "musicbrainz": "f769e88a-0040-4806-8e5d-787d954ea313",
+    "wikidata": "Q22065283",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brad_Fuller_(composer)"
+  }
+}

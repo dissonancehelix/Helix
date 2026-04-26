@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yoshio_watanabe",
+  "entity_type": "music.composer",
+  "label": "Yoshio Watanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "The Jetsons"
+    ],
+    "artist_keys": [
+      "Yoshio Watanabe"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11562724",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

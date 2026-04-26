@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:norihiko_machida",
+  "entity_type": "music.composer",
+  "label": "Norihiko Machida",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Astro Boy"
+    ],
+    "artist_keys": [
+      "Norihiko Machida"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "8529",
+    "musicbrainz": "e477735e-bd07-40bb-aee4-7287dd429f42",
+    "wikidata": "Q9318397",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Norihiko_Machida"
+  }
+}

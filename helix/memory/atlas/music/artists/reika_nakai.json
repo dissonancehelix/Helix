@@ -1,0 +1,22 @@
+{
+  "entity_id": "music.composer:reika_nakai",
+  "entity_type": "music.composer",
+  "label": "Reika Nakai",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Donkey Kong Bananza",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Reika Nakai"
+    ],
+    "track_count": 187
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

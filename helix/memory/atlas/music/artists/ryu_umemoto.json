@@ -1,0 +1,39 @@
+{
+  "entity_id": "music.composer:ryu_umemoto",
+  "entity_type": "music.composer",
+  "label": "Ryu Umemoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "FM Towns",
+      "PC-98",
+      "X68000"
+    ],
+    "franchises": [
+      "Desire",
+      "EVE Burst Error",
+      "Grounseed",
+      "Mahou Shoujo Fancy Coco",
+      "Meikyuu Gakuensai",
+      "Rall III",
+      "Square Resort",
+      "Twilight",
+      "War",
+      "Xenon",
+      "YU"
+    ],
+    "artist_keys": [
+      "Ryu Umemoto"
+    ],
+    "track_count": 276
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "ef08a2ca-5596-4739-a1cc-98ed5e623e0e",
+    "wikidata": "Q7385487",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ryu_Umemoto"
+  }
+}

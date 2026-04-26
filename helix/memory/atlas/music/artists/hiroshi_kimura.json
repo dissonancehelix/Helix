@@ -1,0 +1,34 @@
+{
+  "entity_id": "music.composer:hiroshi_kimura",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Kimura",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Dino City",
+      "Gunforce",
+      "Hammerin' Harry",
+      "Lethal Thunder",
+      "Mystic Riders",
+      "R",
+      "Racing Damashii",
+      "Super R"
+    ],
+    "artist_keys": [
+      "Hiroshi Kimura"
+    ],
+    "track_count": 77
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q100505641",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:dong_hyuc_shin",
+  "entity_type": "music.composer",
+  "label": "Dong-Hyuc Shin",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Lime Odyssey"
+    ],
+    "artist_keys": [
+      "Dong-Hyuc Shin"
+    ],
+    "track_count": 8
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

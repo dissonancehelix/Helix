@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:charcoal_filter",
+  "entity_type": "music.composer",
+  "label": "Charcoal Filter",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Gensomaden Saiyuki"
+    ],
+    "artist_keys": [
+      "Charcoal Filter"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "8c8a7d58-5209-4d00-a919-cf85b8cfab03",
+    "wikidata": "Q840571",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Charcoal_Filter"
+  }
+}

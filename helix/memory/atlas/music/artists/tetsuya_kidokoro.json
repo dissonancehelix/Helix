@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tetsuya_kidokoro",
+  "entity_type": "music.composer",
+  "label": "Tetsuya Kidokoro",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Vegas Connection"
+    ],
+    "artist_keys": [
+      "Tetsuya Kidokoro"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

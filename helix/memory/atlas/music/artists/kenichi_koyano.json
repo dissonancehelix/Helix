@@ -1,0 +1,42 @@
+{
+  "entity_id": "music.composer:kenichi_koyano",
+  "entity_type": "music.composer",
+  "label": "Kenichi Koyano",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "CP System II",
+      "DS",
+      "Game Boy Advance",
+      "Neo Geo",
+      "Super NES"
+    ],
+    "franchises": [
+      "Armed Police Batrider",
+      "Battle B",
+      "Battle Stadium D.O.N",
+      "Bloody Roar",
+      "Bloody Roar 2",
+      "Bomberman",
+      "Cardangels",
+      "DigiCommunication Nyo",
+      "Dimahoo",
+      "Fantasy Earth Zero",
+      "G.T.R.",
+      "Kaizou Tyoujin Shubibinman Zero",
+      "PokéPark 2",
+      "PokéPark Wii",
+      "Pokémon Ranger"
+    ],
+    "artist_keys": [
+      "Kenichi Koyano"
+    ],
+    "track_count": 403
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

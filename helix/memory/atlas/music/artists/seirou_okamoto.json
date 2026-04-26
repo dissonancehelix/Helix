@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:seirou_okamoto",
+  "entity_type": "music.composer",
+  "label": "Seirou Okamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Atsumare! Guru Guru Onsen",
+      "Magic Knight Rayearth",
+      "Phantasy Star Universe",
+      "Sonic 3D Blast",
+      "Sonic Rush Adventure",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Seirou Okamoto"
+    ],
+    "track_count": 28
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

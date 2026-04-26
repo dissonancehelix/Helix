@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:charles_marie_widor",
+  "entity_type": "music.composer",
+  "label": "Charles-Marie Widor",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "RollerCoaster Tycoon"
+    ],
+    "artist_keys": [
+      "Charles-Marie Widor"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "b1cf260d-0862-4e1b-91b8-7da537130261",
+    "wikidata": "Q215161",
+    "spotify": "6wgviqppMkEUf4p2WJ2uVa",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Charles-Marie_Widor"
+  }
+}

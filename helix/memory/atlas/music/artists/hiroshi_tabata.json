@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hiroshi_tabata",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Tabata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Seifuku Densetsu"
+    ],
+    "artist_keys": [
+      "Hiroshi Tabata"
+    ],
+    "track_count": 12
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q92559453",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

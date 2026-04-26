@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:yasuhiro_kawasaki",
+  "entity_type": "music.composer",
+  "label": "Yasuhiro Kawasaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Illusion of Gaia"
+    ],
+    "artist_keys": [
+      "Yasuhiro Kawasaki"
+    ],
+    "track_count": 23
+  },
+  "external_ids": {
+    "vgmdb": "3065",
+    "musicbrainz": "",
+    "wikidata": "Q3571976",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

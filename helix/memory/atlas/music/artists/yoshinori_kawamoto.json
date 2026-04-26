@@ -1,0 +1,40 @@
+{
+  "entity_id": "music.composer:yoshinori_kawamoto",
+  "entity_type": "music.composer",
+  "label": "Yoshinori Kawamoto",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "DS",
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Ball Jacks",
+      "Breakdown",
+      "Burning Force",
+      "Dai",
+      "Flash Focus",
+      "Ginga NinkyouDen",
+      "Klonoa Beach Volleyball",
+      "Klonoa Heroes",
+      "Kotoba no Puzzle",
+      "Mr. Driller Ace",
+      "Pac",
+      "Phelios",
+      "Powerball",
+      "QuickSpot",
+      "Ridge Racer V"
+    ],
+    "artist_keys": [
+      "Yoshinori Kawamoto"
+    ],
+    "track_count": 508
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

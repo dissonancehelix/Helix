@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kazuo_noguchi",
+  "entity_type": "music.composer",
+  "label": "Kazuo Noguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade"
+    ],
+    "franchises": [
+      "Assault",
+      "Metal Hawk"
+    ],
+    "artist_keys": [
+      "Kazuo Noguchi"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q117249661",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

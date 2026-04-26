@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kohei_matsuoka",
+  "entity_type": "music.composer",
+  "label": "Kohei Matsuoka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Family Tennis Advance"
+    ],
+    "artist_keys": [
+      "Kohei Matsuoka"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q126006315",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

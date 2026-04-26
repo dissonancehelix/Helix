@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:noriko_takahashi",
+  "entity_type": "music.composer",
+  "label": "Noriko Takahashi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Ganbare Goemon 3"
+    ],
+    "artist_keys": [
+      "Noriko Takahashi"
+    ],
+    "track_count": 46
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11671513",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

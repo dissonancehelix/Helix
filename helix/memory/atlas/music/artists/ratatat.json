@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:ratatat",
+  "entity_type": "music.composer",
+  "label": "Ratatat",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Classics",
+      "LP3",
+      "LP4",
+      "Magnifique",
+      "Ratatat"
+    ],
+    "artist_keys": [
+      "Ratatat"
+    ],
+    "track_count": 60
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "f467181e-d5e0-4285-b47e-e853dcc89ee7",
+    "wikidata": "Q1422764",
+    "spotify": "57dN52uHvrHOxijzpIgu3E",
+    "lastfm": "Ratatat",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ratatat"
+  }
+}

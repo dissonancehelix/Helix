@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:toshiyuki_takine",
+  "entity_type": "music.composer",
+  "label": "Toshiyuki Takine",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Itou Hatasu Rokudan no Shougi Dojo"
+    ],
+    "artist_keys": [
+      "Toshiyuki Takine"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

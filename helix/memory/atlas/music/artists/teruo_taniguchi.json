@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:teruo_taniguchi",
+  "entity_type": "music.composer",
+  "label": "Teruo Taniguchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "3D Dot Game Heroes",
+      "Dopamix",
+      "Giga Wrecker",
+      "Ginga Force",
+      "New Eitango Target 1900 DS",
+      "Pokémon Quest"
+    ],
+    "artist_keys": [
+      "Teruo Taniguchi"
+    ],
+    "track_count": 59
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

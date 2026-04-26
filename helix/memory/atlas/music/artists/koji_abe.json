@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:koji_abe",
+  "entity_type": "music.composer",
+  "label": "Koji Abe",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Aretha",
+      "Song Master"
+    ],
+    "artist_keys": [
+      "Koji Abe"
+    ],
+    "track_count": 58
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q28068036",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

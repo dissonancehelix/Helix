@@ -1,0 +1,41 @@
+{
+  "entity_id": "music.composer:maki_kirioka",
+  "entity_type": "music.composer",
+  "label": "Maki Kirioka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS",
+      "Super NES"
+    ],
+    "franchises": [
+      "Derby Jockey 2",
+      "DoDoDo! Dragon",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "J.League Live '95",
+      "Mermaid Melody",
+      "Metal Gear Solid",
+      "Mickey's Great Adventure in Tokyo Disneyland",
+      "Mirror War",
+      "Oraga Land Shusai",
+      "Speed Racer",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Treasure Report"
+    ],
+    "artist_keys": [
+      "Maki Kirioka"
+    ],
+    "track_count": 330
+  },
+  "external_ids": {
+    "vgmdb": "3957",
+    "musicbrainz": "a7f95bd4-edda-4371-852e-f5f1e351fb8f",
+    "wikidata": "Q11537207",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "380373"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:alex_rudis",
+  "entity_type": "music.composer",
+  "label": "Alex Rudis",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Scooby"
+    ],
+    "artist_keys": [
+      "Alex Rudis"
+    ],
+    "track_count": 11
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

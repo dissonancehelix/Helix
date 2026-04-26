@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:shinya_yamada",
+  "entity_type": "music.composer",
+  "label": "Shinya Yamada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Super Batter Up",
+      "Super Famista"
+    ],
+    "artist_keys": [
+      "Shinya Yamada"
+    ],
+    "track_count": 27
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "aaf997e5-4cc6-4ad5-94c8-4433da6ab604",
+    "wikidata": "Q550333",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shinya_(musician)"
+  }
+}

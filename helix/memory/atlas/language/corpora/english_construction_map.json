@@ -1,0 +1,682 @@
+{
+  "id": "language.corpus:english_construction_map",
+  "type": "Corpus",
+  "entity_id": "language.corpus:english_construction_map",
+  "entity_type": "Corpus",
+  "name": "English Construction Map",
+  "label": "English Construction Map",
+  "description": "Language corpus run for english with substrate profile, construction-space DCP events, null model, translation, and register probes.",
+  "domain": "language",
+  "source": "language_pipeline",
+  "created_at": "2026-03-23T00:49:46.854922+00:00",
+  "confidence": 0.35,
+  "language": "english",
+  "record_count": 16,
+  "embedding": {
+    "complexity": 0.0566,
+    "structure": 0.1429,
+    "repetition": 0.0625,
+    "density": 0.1741,
+    "expression": 0.3125,
+    "variation": 0.9807,
+    "confidence": 0.35,
+    "domain": "language",
+    "source_vector": "language_structural_vector",
+    "projection_schema": "language_v1"
+  },
+  "summary": {
+    "language": "english",
+    "corpus": "english_construction_map",
+    "record_count": 16,
+    "structure_dispersion": 0.2141,
+    "construction_nodes": 16,
+    "construction_edges": 8,
+    "null_model_passes": true,
+    "translation_passes": true,
+    "register_passes": true,
+    "grammar_resolution_passes": true,
+    "decision_compression_passes": true,
+    "dcp_score": 0.5155,
+    "dcp_event_count": 8,
+    "dcp_qualification": "FULL",
+    "dominant_morphology": "TRANSFORMATIVE",
+    "translation_mean_score": 0.8586,
+    "register_accuracy": 0.6667,
+    "parser_trace_count": 16
+  },
+  "substrate": {
+    "domain": "language",
+    "language": "english",
+    "block": "substrate",
+    "schema_version": "language_substrate_v1",
+    "possibility_space": 0.9727,
+    "constraint": 0.1121,
+    "attractor_stability": 0.9666,
+    "basin_permeability": 0.782,
+    "recurrence_depth": 0.0625,
+    "source": "construction_space_fixture",
+    "evidence": {
+      "signals": [
+        {
+          "name": "lexical_variation",
+          "value": 0.9807,
+          "axis": "possibility_space"
+        },
+        {
+          "name": "frame_stability_inverse",
+          "value": 0.9375,
+          "axis": "possibility_space"
+        },
+        {
+          "name": "inflectional_load",
+          "value": 0.0506,
+          "axis": "constraint"
+        },
+        {
+          "name": "function_word_scaffolding",
+          "value": 0.2232,
+          "axis": "constraint"
+        },
+        {
+          "name": "clause_subordination",
+          "value": 0.0625,
+          "axis": "constraint"
+        },
+        {
+          "name": "mean_attractor_cohesion_inverse",
+          "value": 0.9666,
+          "axis": "attractor_stability"
+        },
+        {
+          "name": "mean_edge_distance_inverse",
+          "value": 0.782,
+          "axis": "basin_permeability"
+        },
+        {
+          "name": "top_frame_recurrence",
+          "value": 0.0625,
+          "axis": "recurrence_depth"
+        }
+      ],
+      "source_features": [
+        "construction_families: 8",
+        "transform_edges: 8",
+        "top_attractors: determiner_density, dative_shift, aux_negation"
+      ],
+      "notes": "Substrate axes are derived from centroid signals plus construction-family geometry."
+    },
+    "notes": "Heuristic grammar substrate profile derived from construction-space families, structural vector centroid, and attractor cohesion."
+  },
+  "dcp": {
+    "block": "dcp",
+    "schema_version": "language_dcp_block_v1",
+    "language": "english",
+    "corpus": "english_construction_map",
+    "source_boundary": "construction_family_transform",
+    "possibility_space": 0.9359,
+    "constraint": 0.1365,
+    "tension": 0.1461,
+    "collapse": 0.6084,
+    "post_narrowing": 0.6502,
+    "composite": 0.5177,
+    "qualification": "FULL",
+    "event_count": 8,
+    "dominant_morphology": "TRANSFORMATIVE",
+    "constraint_class": "internal",
+    "source_artifact": "english_construction_map",
+    "null_calibration_status": "null_baseline_run",
+    "evidence": {
+      "signals": [
+        {
+          "name": "event_composite_mean",
+          "value": 0.5177,
+          "axis": "composite"
+        },
+        {
+          "name": "null_model_confidence",
+          "value": 0.3466,
+          "axis": "confidence"
+        },
+        {
+          "name": "mean_collapse_proxy",
+          "value": 0.6084,
+          "axis": "collapse"
+        },
+        {
+          "name": "mean_post_narrowing",
+          "value": 0.6502,
+          "axis": "post_narrowing"
+        }
+      ],
+      "source_features": [
+        "family_count: 8",
+        "dominant_morphology: TRANSFORMATIVE",
+        "strongest_edge: subordination/drop_that"
+      ],
+      "notes": "DCP block aggregates family-local construction transforms into a corpus-level compression profile."
+    }
+  },
+  "corpus": {
+    "block": "corpus",
+    "schema_version": "language_corpus_block_v1",
+    "language": "english",
+    "corpus": "english_construction_map",
+    "record_count": 16,
+    "family_count": 8,
+    "family_distribution": {
+      "subject_requirement": 2,
+      "aux_negation": 2,
+      "question_inversion": 2,
+      "subordination": 2,
+      "aspect": 2,
+      "tense_shift": 2,
+      "determiner_density": 2,
+      "dative_shift": 2
+    },
+    "transform_distribution": {
+      "drop_subject": 1,
+      "add_do_support": 1,
+      "invert_auxiliary": 1,
+      "drop_that": 1,
+      "add_progressive": 1,
+      "shift_tense": 1,
+      "add_determiner": 1,
+      "shift_dative": 1
+    },
+    "axes": [
+      "inflectional_load",
+      "subject_explicitness",
+      "clause_subordination",
+      "function_word_scaffolding",
+      "tense_aspect_marking",
+      "mood_polarity",
+      "frame_stability",
+      "lexical_variation"
+    ],
+    "centroid": {
+      "inflectional_load": 0.0506,
+      "subject_explicitness": 0.6875,
+      "clause_subordination": 0.0625,
+      "function_word_scaffolding": 0.2232,
+      "tense_aspect_marking": 0.125,
+      "mood_polarity": 0.0417,
+      "frame_stability": 0.0625,
+      "lexical_variation": 0.9807
+    },
+    "dispersion": 0.2141,
+    "frame_concentration": {
+      "i speak with": 0.0625,
+      "speak with my": 0.0625,
+      "she comes tomorrow": 0.0625,
+      "she does not": 0.0625,
+      "you study in": 0.0625,
+      "do you study": 0.0625,
+      "i think that": 0.0625,
+      "i think he": 0.0625,
+      "the children play": 0.0625,
+      "the children are": 0.0625,
+      "maria cooks dinner": 0.0625,
+      "maria cooked dinner": 0.0625
+    },
+    "mean_token_count": 5.25,
+    "notes": "Corpus block summarizes the construction lattice used by the language runtime."
+  },
+  "structure": {
+    "block": "structure",
+    "schema_version": "language_structure_block_v1",
+    "language": "english",
+    "sample_count": 16,
+    "sentence_lengths": {
+      "min": 3,
+      "max": 7,
+      "mean": 5.25,
+      "median": 6
+    },
+    "type_token_ratio": 0.4762,
+    "word_order": {
+      "initial_bigrams": [
+        [
+          "i think",
+          2
+        ],
+        [
+          "the children",
+          2
+        ],
+        [
+          "i bought",
+          2
+        ],
+        [
+          "i gave",
+          2
+        ],
+        [
+          "i speak",
+          1
+        ],
+        [
+          "speak with",
+          1
+        ],
+        [
+          "she comes",
+          1
+        ],
+        [
+          "she does",
+          1
+        ],
+        [
+          "you study",
+          1
+        ],
+        [
+          "do you",
+          1
+        ],
+        [
+          "maria cooks",
+          1
+        ],
+        [
+          "maria cooked",
+          1
+        ]
+      ],
+      "final_bigrams": [
+        [
+          "every day",
+          2
+        ],
+        [
+          "the library",
+          2
+        ],
+        [
+          "arrives early",
+          2
+        ],
+        [
+          "the park",
+          2
+        ],
+        [
+          "for dinner",
+          2
+        ],
+        [
+          "comes tomorrow",
+          1
+        ],
+        [
+          "come tomorrow",
+          1
+        ],
+        [
+          "cooks dinner",
+          1
+        ],
+        [
+          "cooked dinner",
+          1
+        ],
+        [
+          "to ana",
+          1
+        ],
+        [
+          "the book",
+          1
+        ]
+      ]
+    },
+    "verb_morphology": {
+      "gerund": {
+        "count": 1,
+        "ratio": 0.3333
+      },
+      "past": {
+        "count": 1,
+        "ratio": 0.3333
+      },
+      "3rd_sg": {
+        "count": 1,
+        "ratio": 0.3333
+      }
+    },
+    "top_frames": [
+      [
+        "i speak with",
+        1
+      ],
+      [
+        "speak with my",
+        1
+      ],
+      [
+        "she comes tomorrow",
+        1
+      ],
+      [
+        "she does not",
+        1
+      ],
+      [
+        "you study in",
+        1
+      ],
+      [
+        "do you study",
+        1
+      ],
+      [
+        "i think that",
+        1
+      ],
+      [
+        "i think he",
+        1
+      ],
+      [
+        "the children play",
+        1
+      ],
+      [
+        "the children are",
+        1
+      ],
+      [
+        "maria cooks dinner",
+        1
+      ],
+      [
+        "maria cooked dinner",
+        1
+      ],
+      [
+        "i bought bread",
+        1
+      ],
+      [
+        "i bought the",
+        1
+      ],
+      [
+        "i gave the",
+        1
+      ],
+      [
+        "i gave ana",
+        1
+      ]
+    ],
+    "family_count": 8,
+    "attractors": [
+      {
+        "family": "determiner_density",
+        "count": 2,
+        "cohesion": 0.0177
+      },
+      {
+        "family": "dative_shift",
+        "count": 2,
+        "cohesion": 0.0236
+      },
+      {
+        "family": "aux_negation",
+        "count": 2,
+        "cohesion": 0.0589
+      },
+      {
+        "family": "question_inversion",
+        "count": 2,
+        "cohesion": 0.0601
+      },
+      {
+        "family": "subject_requirement",
+        "count": 2,
+        "cohesion": 0.1768
+      },
+      {
+        "family": "tense_shift",
+        "count": 2,
+        "cohesion": 0.1768
+      }
+    ],
+    "bottlenecks": [
+      {
+        "source": "subordination_base",
+        "target": "subordination_variant",
+        "label": "drop_that",
+        "distance": 0.3584,
+        "family": "subordination"
+      },
+      {
+        "source": "aspect_base",
+        "target": "aspect_variant",
+        "label": "add_progressive",
+        "distance": 0.3581,
+        "family": "aspect"
+      },
+      {
+        "source": "subject_requirement_base",
+        "target": "subject_requirement_variant",
+        "label": "drop_subject",
+        "distance": 0.3537,
+        "family": "subject_requirement"
+      },
+      {
+        "source": "tense_base",
+        "target": "tense_variant",
+        "label": "shift_tense",
+        "distance": 0.3536,
+        "family": "tense_shift"
+      },
+      {
+        "source": "question_base",
+        "target": "question_variant",
+        "label": "invert_auxiliary",
+        "distance": 0.1202,
+        "family": "question_inversion"
+      },
+      {
+        "source": "negation_base",
+        "target": "negation_variant",
+        "label": "add_do_support",
+        "distance": 0.1178,
+        "family": "aux_negation"
+      },
+      {
+        "source": "dative_base",
+        "target": "dative_variant",
+        "label": "shift_dative",
+        "distance": 0.0472,
+        "family": "dative_shift"
+      },
+      {
+        "source": "determiner_base",
+        "target": "determiner_variant",
+        "label": "add_determiner",
+        "distance": 0.0354,
+        "family": "determiner_density"
+      }
+    ],
+    "mean_transform_distance": 0.218,
+    "dominant_morphology": "TRANSFORMATIVE",
+    "notes": "Structure block captures the observable grammar geometry of the corpus lattice."
+  },
+  "semantic": {
+    "block": "semantic",
+    "schema_version": "language_semantic_block_v1",
+    "language": "english",
+    "translation_alignment": {
+      "pair_count": 6,
+      "mean_score": 0.8586,
+      "passes": true
+    },
+    "register_identity": {
+      "profile_count": 3,
+      "nearest_centroid_accuracy": 0.6667,
+      "passes": true
+    },
+    "grammar_resolution": {
+      "dominant_mass_top2": 0.7475,
+      "collapse_sharpness": 0.043,
+      "supports_dcp": true
+    },
+    "decision_compression_fixture": {
+      "dominant_mass_top2": 0.7475,
+      "collapse_sharpness": 0.043,
+      "supports_dcp": true
+    },
+    "null_model_guard": {
+      "signal_gap": 0.0466,
+      "confidence": 0.3466,
+      "passes": true
+    },
+    "comprehension_proxy": {
+      "semantic_overlap": 0.0282,
+      "prediction_accuracy": 1.0
+    },
+    "probe_output": {
+      "agent_id": "english.english_construction_map",
+      "source_domain": "language",
+      "constraint_profile": {
+        "class": "internal",
+        "intensity": 0.1365,
+        "notes": "Language fixtures treat grammar and construction rules as internal constraint."
+      },
+      "possibility_breadth": 0.9359,
+      "tension_estimate": 0.1461,
+      "collapse_detected": true,
+      "collapse_morphology": "TRANSFORMATIVE",
+      "post_collapse_class": "TRANSFORMATIVE",
+      "confidence": 0.4322,
+      "notes": "Language DCP probe derived from construction-family transforms.",
+      "schema_version": "dcp_probe_v1"
+    },
+    "notes": "Semantic block packages the cross-language preservation, register, and DCP support probes used by the fixture-led runtime."
+  },
+  "evidence": {
+    "signals": [
+      {
+        "name": "translation_alignment_mean",
+        "value": 0.8586,
+        "block": "semantic"
+      },
+      {
+        "name": "register_accuracy",
+        "value": 0.6667,
+        "block": "semantic"
+      },
+      {
+        "name": "null_model_confidence",
+        "value": 0.3466,
+        "block": "semantic"
+      },
+      {
+        "name": "dcp_composite",
+        "value": 0.5177,
+        "block": "dcp"
+      }
+    ],
+    "source_features": [
+      "language: english",
+      "corpus: english_construction_map",
+      "families: 8",
+      "dominant_morphology: TRANSFORMATIVE"
+    ],
+    "sources": [
+      "english_construction_map"
+    ],
+    "artifacts": [
+      "C:\\Users\\dissonance\\Desktop\\Helix\\artifacts\\language\\english_english_construction_map_20260323_004946"
+    ],
+    "notes": "Corpus entity packages the canonical Helix runtime blocks for the language substrate."
+  },
+  "Substrate Capability Vector": {
+    "complexity": 0.0566,
+    "structure": 0.1429,
+    "repetition": 0.0625,
+    "density": 0.1741,
+    "expression": 0.3125,
+    "variation": 0.9807
+  },
+  "normalization": {
+    "method": "heuristic_structural_pipeline",
+    "reference": "language_v1"
+  },
+  "version": {
+    "schema_version": "language_corpus_v1",
+    "substrate_version": "1.2",
+    "pipeline_version": "language_stack_v2_1"
+  },
+  "metadata": {
+    "source": "language_pipeline",
+    "source_stage": "pipeline_run",
+    "source_artifact": "C:\\Users\\dissonance\\Desktop\\Helix\\artifacts\\language\\english_english_construction_map_20260323_004946",
+    "extraction_method": "heuristic_structural_pipeline",
+    "language": "english",
+    "summary": {
+      "language": "english",
+      "corpus": "english_construction_map",
+      "record_count": 16,
+      "structure_dispersion": 0.2141,
+      "construction_nodes": 16,
+      "construction_edges": 8,
+      "null_model_passes": true,
+      "translation_passes": true,
+      "register_passes": true,
+      "grammar_resolution_passes": true,
+      "decision_compression_passes": true,
+      "dcp_score": 0.5155,
+      "dcp_event_count": 8,
+      "dcp_qualification": "FULL",
+      "dominant_morphology": "TRANSFORMATIVE",
+      "translation_mean_score": 0.8586,
+      "register_accuracy": 0.6667,
+      "parser_trace_count": 16
+    },
+    "embedding": {
+      "complexity": 0.0566,
+      "structure": 0.1429,
+      "repetition": 0.0625,
+      "density": 0.1741,
+      "expression": 0.3125,
+      "variation": 0.9807,
+      "confidence": 0.35,
+      "domain": "language",
+      "source_vector": "language_structural_vector",
+      "projection_schema": "language_v1"
+    },
+    "substrate_schema": "language_substrate_v1",
+    "dcp_schema": "language_dcp_block_v1",
+    "corpus_schema": "language_corpus_block_v1",
+    "structure_schema": "language_structure_block_v1",
+    "semantic_schema": "language_semantic_block_v1",
+    "parser_trace_schema": "language_parser_trace_v1",
+    "dcp_probe_output": {
+      "agent_id": "english.english_construction_map",
+      "source_domain": "language",
+      "constraint_profile": {
+        "class": "internal",
+        "intensity": 0.1365,
+        "notes": "Language fixtures treat grammar and construction rules as internal constraint."
+      },
+      "possibility_breadth": 0.9359,
+      "tension_estimate": 0.1461,
+      "collapse_detected": true,
+      "collapse_morphology": "TRANSFORMATIVE",
+      "post_collapse_class": "TRANSFORMATIVE",
+      "confidence": 0.4322,
+      "notes": "Language DCP probe derived from construction-family transforms.",
+      "schema_version": "dcp_probe_v1"
+    },
+    "compiled_at": "2026-03-23T00:49:46.864398+00:00",
+    "compiled_by": "atlas_compiler",
+    "compiler_version": "2.0.0"
+  },
+  "relationships": [],
+  "external_ids": {}
+}

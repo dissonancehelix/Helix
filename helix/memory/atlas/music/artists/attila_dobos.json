@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:attila_dobos",
+  "entity_type": "music.composer",
+  "label": "Attila Dobos",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Ecco",
+      "Star Trek"
+    ],
+    "artist_keys": [
+      "Attila Dobos"
+    ],
+    "track_count": 32
+  },
+  "external_ids": {
+    "vgmdb": "17347",
+    "musicbrainz": "c66da6db-224e-49f6-9626-84f8059f2a20",
+    "wikidata": "Q907161",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

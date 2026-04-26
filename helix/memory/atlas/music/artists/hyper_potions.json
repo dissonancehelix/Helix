@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hyper_potions",
+  "entity_type": "music.composer",
+  "label": "Hyper Potions",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Team Sonic Racing"
+    ],
+    "artist_keys": [
+      "Hyper Potions"
+    ],
+    "track_count": 6
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q135111394",
+    "spotify": "1KkjjsBwGqU2YjS9OIucZV",
+    "lastfm": ""
+  }
+}

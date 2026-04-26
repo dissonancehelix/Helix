@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:tadayoshi_makino",
+  "entity_type": "music.composer",
+  "label": "Tadayoshi Makino",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Final Fantasy VII Rebirth",
+      "Final Fantasy VII Remake",
+      "Final Fantasy XV",
+      "Renshin Astral"
+    ],
+    "artist_keys": [
+      "Tadayoshi Makino"
+    ],
+    "track_count": 71
+  },
+  "external_ids": {
+    "vgmdb": "7165",
+    "musicbrainz": "3a25ee3a-38b6-4081-bd72-a98a408aa851",
+    "wikidata": "Q11570562",
+    "spotify": "",
+    "lastfm": "Tadayoshi+Makino"
+  }
+}

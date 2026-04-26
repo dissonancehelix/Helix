@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:jillian_aversa",
+  "entity_type": "music.composer",
+  "label": "Jillian Aversa",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Soulcalibur V"
+    ],
+    "artist_keys": [
+      "Jillian Aversa"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "1030",
+    "musicbrainz": "9555300f-f9db-41df-b713-5d07d9e5315d",
+    "wikidata": "Q50825671",
+    "spotify": "",
+    "lastfm": "Jillian+Aversa",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jillian_Aversa"
+  }
+}

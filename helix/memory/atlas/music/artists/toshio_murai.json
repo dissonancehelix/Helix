@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:toshio_murai",
+  "entity_type": "music.composer",
+  "label": "Toshio Murai",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Super NES"
+    ],
+    "franchises": [
+      "Cyber Core",
+      "Monster Maker III"
+    ],
+    "artist_keys": [
+      "Toshio Murai"
+    ],
+    "track_count": 37
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q133777191",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

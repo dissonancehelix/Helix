@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:hiroshi_tanabe",
+  "entity_type": "music.composer",
+  "label": "Hiroshi Tanabe",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax"
+    ],
+    "artist_keys": [
+      "Hiroshi Tanabe"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q88037827",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

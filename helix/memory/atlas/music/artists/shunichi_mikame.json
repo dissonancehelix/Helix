@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:shunichi_mikame",
+  "entity_type": "music.composer",
+  "label": "Shunichi Mikame",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Flying Dragon"
+    ],
+    "artist_keys": [
+      "Shunichi Mikame"
+    ],
+    "track_count": 7
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

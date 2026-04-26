@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:hironari_tadokoro",
+  "entity_type": "music.composer",
+  "label": "Hironari Tadokoro",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "NES"
+    ],
+    "franchises": [
+      "Phantom Fighter"
+    ],
+    "artist_keys": [
+      "Hironari Tadokoro"
+    ],
+    "track_count": 14
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

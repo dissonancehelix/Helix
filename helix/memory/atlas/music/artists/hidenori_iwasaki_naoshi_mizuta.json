@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:hidenori_iwasaki_naoshi_mizuta",
+  "entity_type": "music.composer",
+  "label": "Hidenori Iwasaki, Naoshi Mizuta",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Stranger of Paradise"
+    ],
+    "artist_keys": [
+      "Hidenori Iwasaki, Naoshi Mizuta"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

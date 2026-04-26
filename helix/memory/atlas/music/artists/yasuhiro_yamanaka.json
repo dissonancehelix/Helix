@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:yasuhiro_yamanaka",
+  "entity_type": "music.composer",
+  "label": "Yasuhiro Yamanaka",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "GeOnDan Super Rare Trax",
+      "Rise of Mana"
+    ],
+    "artist_keys": [
+      "Yasuhiro Yamanaka"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q54238184",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

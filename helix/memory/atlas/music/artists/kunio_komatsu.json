@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:kunio_komatsu",
+  "entity_type": "music.composer",
+  "label": "Kunio Komatsu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine"
+    ],
+    "franchises": [
+      "Bonk 3"
+    ],
+    "artist_keys": [
+      "Kunio Komatsu"
+    ],
+    "track_count": 16
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q116936206",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

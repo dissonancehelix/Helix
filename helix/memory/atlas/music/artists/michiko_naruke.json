@@ -1,0 +1,43 @@
+{
+  "entity_id": "music.composer:michiko_naruke",
+  "entity_type": "music.composer",
+  "label": "Michiko Naruke",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC Engine",
+      "Sega CD",
+      "Super NES"
+    ],
+    "franchises": [
+      "Cosmic Fantasy Stories",
+      "Eiyuden Chronicle",
+      "FM Sound Module Maniax",
+      "Half",
+      "High Grenadier",
+      "Legion",
+      "Mirai Shounen Conan",
+      "Nora to Toki no Koubou",
+      "Psycho Dream",
+      "Rakugaki Kingdom",
+      "Super Smash Bros. Brawl",
+      "Super Smash Bros. Ultimate",
+      "Super Smash Bros. for Wii U",
+      "Tenshi no Uta",
+      "Tenshi no Uta II"
+    ],
+    "artist_keys": [
+      "Michiko Naruke"
+    ],
+    "track_count": 187
+  },
+  "external_ids": {
+    "vgmdb": "391",
+    "musicbrainz": "9a32b3fb-25ac-4f17-9df9-d23faf8a1688",
+    "wikidata": "Q3067319",
+    "spotify": "",
+    "lastfm": "なるけみちこ",
+    "discogs": "2144867",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michiko_Naruke"
+  }
+}

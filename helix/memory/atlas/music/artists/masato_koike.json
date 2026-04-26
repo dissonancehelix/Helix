@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:masato_koike",
+  "entity_type": "music.composer",
+  "label": "Masato Koike",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Hyrule Warriors",
+      "The Legend of Zelda"
+    ],
+    "artist_keys": [
+      "Masato Koike"
+    ],
+    "track_count": 40
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q30502278",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

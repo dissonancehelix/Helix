@@ -1,0 +1,46 @@
+case_id: waking_human
+name: Waking human consciousness
+field_type: phenomenal_field
+phenomenal_candidate: true
+description: >
+  Standard adult human waking state. The anchor case. If the theory misfires here,
+  it is broken at the root.
+
+components:
+  G: 1.0
+  U: 0.9
+  D: 1.0
+  T: 1.0
+  F: 1.0
+
+g_status: g_established
+classification: phenomenal_candidate
+
+evidence:
+  G: >
+    G = 1.0 is the assumption grounding the entire theory. Human waking experience is the
+    paradigm case of givenness — the clearest instance of there being something it is like
+    to be something. The theory is built to preserve this.
+  U: >
+    0.9 rather than 1.0: split-brain data raises unresolved questions about whether
+    ordinary waking unity is as complete as it appears.
+  D: >
+    1.0: waking experience has maximal qualitative differentiation — color, sound, pain,
+    emotion, spatial sense, temporal experience are all co-present.
+  T: >
+    1.0: the specious present is fully operative. Retention and protention structure
+    waking temporal experience.
+  F: >
+    1.0: states are phenomenally included — in the field, not merely processed.
+
+revision_pressure: >
+  The anchor case puts no pressure on the theory — it is the case the theory is built to
+  preserve. The pressure moves the other direction: the theory must not misclassify
+  waking consciousness as anything but phenomenal_candidate.
+
+breaks_preserved: []
+
+notes: >
+  U = 0.9 is the only honest deviation from 1.0 at this baseline. The unity of ordinary
+  waking experience is assumed but not established — split-brain literature suggests
+  the assumption may be slightly stronger than the evidence warrants.

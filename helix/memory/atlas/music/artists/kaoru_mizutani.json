@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:kaoru_mizutani",
+  "entity_type": "music.composer",
+  "label": "Kaoru Mizutani",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "DS"
+    ],
+    "franchises": [
+      "Fullmetal Alchemist"
+    ],
+    "artist_keys": [
+      "Kaoru Mizutani"
+    ],
+    "track_count": 25
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,14 @@
+digraph HelixAtlas {
+  rankdir=LR;
+  node [fontname=Helvetica fontsize=11];
+  edge [fontname=Helvetica fontsize=9];
+
+  // Legend
+  subgraph cluster_legend {
+    label='Node Types'; style=filled; color=lightgrey;
+    INVARIANT  [shape=ellipse  style=filled color=    EXPERIMENT [shape=box      style=filled color=    MODEL      [shape=diamond  style=filled color=    REGIME     [shape=hexagon  style=filled color=    OPERATOR   [shape=pentagon style=filled color=  }
+
+  // Nodes
+
+  // Edges
+}

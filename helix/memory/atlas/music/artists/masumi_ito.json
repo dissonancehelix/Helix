@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:masumi_ito",
+  "entity_type": "music.composer",
+  "label": "Masumi Ito",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Super NES"
+    ],
+    "franchises": [
+      "Gemfire",
+      "Wizap!",
+      "Zone of the Enders"
+    ],
+    "artist_keys": [
+      "Masumi Ito"
+    ],
+    "track_count": 45
+  },
+  "external_ids": {
+    "vgmdb": "4917",
+    "musicbrainz": "c9ba47ca-0bd2-4814-966d-ecfb06d032a3",
+    "wikidata": "Q270353",
+    "spotify": "",
+    "lastfm": "",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masumi_It%C5%8D"
+  }
+}

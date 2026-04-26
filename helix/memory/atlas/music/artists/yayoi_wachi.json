@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:yayoi_wachi",
+  "entity_type": "music.composer",
+  "label": "Yayoi Wachi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Gear",
+      "Master System"
+    ],
+    "franchises": [
+      "Formula One World Championship",
+      "Kenyuu Densetsu Yaiba",
+      "Legend of Illusion",
+      "Magic Knight Rayearth",
+      "OLIO3",
+      "Panzer Dragoon Zwei",
+      "Sonic the Hedgehog"
+    ],
+    "artist_keys": [
+      "Yayoi Wachi"
+    ],
+    "track_count": 87
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

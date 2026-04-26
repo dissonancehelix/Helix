@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:johann_sebastian_bach",
+  "entity_type": "music.composer",
+  "label": "Johann Sebastian Bach",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Noby Noby Boy",
+      "Tekken 7"
+    ],
+    "artist_keys": [
+      "Johann Sebastian Bach"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "1718",
+    "musicbrainz": "24f1766e-9635-4d58-a4d4-9413f9f98a4c",
+    "wikidata": "Q1339",
+    "spotify": "5aIqB5nVVvmFsvSdExz408",
+    "lastfm": "Johann+Sebastian+Bach",
+    "wikipedia": "https://en.wikipedia.org/wiki/Johann_Sebastian_Bach"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:masaomi_hada",
+  "entity_type": "music.composer",
+  "label": "Masaomi Hada",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "PC-98"
+    ],
+    "franchises": [
+      "Metajo"
+    ],
+    "artist_keys": [
+      "Masaomi Hada"
+    ],
+    "track_count": 29
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

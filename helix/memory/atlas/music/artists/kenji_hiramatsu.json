@@ -1,0 +1,30 @@
+{
+  "entity_id": "music.composer:kenji_hiramatsu",
+  "entity_type": "music.composer",
+  "label": "Kenji Hiramatsu",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Nintendo 64"
+    ],
+    "franchises": [
+      "Bomberman 64",
+      "Sin Chronicle",
+      "Xenoblade Chronicles",
+      "Xenoblade Chronicles 2",
+      "Xenoblade Chronicles 3"
+    ],
+    "artist_keys": [
+      "Kenji Hiramatsu"
+    ],
+    "track_count": 103
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q17226592",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

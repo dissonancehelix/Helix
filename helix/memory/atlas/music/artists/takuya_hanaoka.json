@@ -1,0 +1,38 @@
+{
+  "entity_id": "music.composer:takuya_hanaoka",
+  "entity_type": "music.composer",
+  "label": "Takuya Hanaoka",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Mega Drive"
+    ],
+    "franchises": [
+      "Akumajo Dracula Tribute Vol.1",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "GetBackers Dakkanya",
+      "Groove Adventure Rave",
+      "Hansha de Spark",
+      "Tantei Gakuen Q",
+      "Tecmo Super Bowl II",
+      "Tecmo Super Bowl III",
+      "Tecmo's Deception",
+      "Touki Denshou"
+    ],
+    "artist_keys": [
+      "Takuya Hanaoka"
+    ],
+    "track_count": 100
+  },
+  "external_ids": {
+    "vgmdb": "3668",
+    "musicbrainz": "7952ecea-0714-4569-b3f7-7bbed8882e84",
+    "wikidata": "Q11615319",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": "4882737"
+  }
+}

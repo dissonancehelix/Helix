@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:mariko_sato",
+  "entity_type": "music.composer",
+  "label": "Mariko Sato",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Alisia Dragoon",
+      "Gambler Jiko Chuushinha",
+      "Gambler Jiko Chuushinha 2",
+      "Silpheed"
+    ],
+    "artist_keys": [
+      "Mariko Sato"
+    ],
+    "track_count": 66
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11384282",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

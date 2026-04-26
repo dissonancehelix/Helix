@@ -1,0 +1,28 @@
+{
+  "entity_id": "music.composer:david_javelosa",
+  "entity_type": "music.composer",
+  "label": "David Javelosa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Mega Drive",
+      "Sega CD"
+    ],
+    "franchises": [
+      "Baby Boom",
+      "Dr. Robotnik's Mean Bean Machine",
+      "Ecco",
+      "Sega CD BIOS",
+      "Sega Channel"
+    ],
+    "artist_keys": [
+      "David Javelosa"
+    ],
+    "track_count": 43
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

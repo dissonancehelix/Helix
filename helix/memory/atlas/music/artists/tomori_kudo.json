@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:tomori_kudo",
+  "entity_type": "music.composer",
+  "label": "Tomori Kudo",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Xenoblade Chronicles 3"
+    ],
+    "artist_keys": [
+      "Tomori Kudo"
+    ],
+    "track_count": 17
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

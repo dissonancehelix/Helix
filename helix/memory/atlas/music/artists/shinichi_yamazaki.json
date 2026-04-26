@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:shinichi_yamazaki",
+  "entity_type": "music.composer",
+  "label": "Shinichi Yamazaki",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Doukoku Soshite...",
+      "Ghostlop",
+      "Magical Drop III",
+      "Quiz King of Fighters"
+    ],
+    "artist_keys": [
+      "Shinichi Yamazaki"
+    ],
+    "track_count": 104
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q102980844",
+    "spotify": "",
+    "lastfm": "",
+    "discogs": ""
+  }
+}

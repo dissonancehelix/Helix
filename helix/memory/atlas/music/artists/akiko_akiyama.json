@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:akiko_akiyama",
+  "entity_type": "music.composer",
+  "label": "Akiko Akiyama",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Yakuza 5",
+      "Yakuza 6"
+    ],
+    "artist_keys": [
+      "Akiko Akiyama"
+    ],
+    "track_count": 2
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q96137257",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "entity_id": "music.composer:kazuo_oikawa",
+  "entity_type": "music.composer",
+  "label": "Kazuo Oikawa",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Super NES"
+    ],
+    "franchises": [
+      "Kaite Tsukutte Asoberu Dezaemon",
+      "Pro Mahjong Kiwame III"
+    ],
+    "artist_keys": [
+      "Kazuo Oikawa"
+    ],
+    "track_count": 57
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": "Q11410240",
+    "spotify": "",
+    "lastfm": ""
+  }
+}

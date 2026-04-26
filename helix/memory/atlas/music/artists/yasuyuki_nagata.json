@@ -1,0 +1,27 @@
+{
+  "entity_id": "music.composer:yasuyuki_nagata",
+  "entity_type": "music.composer",
+  "label": "Yasuyuki Nagata",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "404 Game Re",
+      "Border Break",
+      "Like a Dragon",
+      "Like a Dragon Gaiden",
+      "Shining Force Cross Raid",
+      "Sonic Superstars",
+      "Super Monkey Ball Banana Rumble"
+    ],
+    "artist_keys": [
+      "Yasuyuki Nagata"
+    ],
+    "track_count": 42
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "entity_id": "music.composer:akihiro_uchida",
+  "entity_type": "music.composer",
+  "label": "Akihiro Uchida",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Neo Geo"
+    ],
+    "franchises": [
+      "Garou",
+      "Super Sidekicks 3",
+      "The King of Fighters",
+      "The King of Fighters '94",
+      "The King of Fighters '95",
+      "The King of Fighters '96",
+      "The King of Fighters '97"
+    ],
+    "artist_keys": [
+      "Akihiro Uchida"
+    ],
+    "track_count": 194
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

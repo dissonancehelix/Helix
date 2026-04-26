@@ -1,0 +1,24 @@
+{
+  "entity_id": "music.composer:cibo_matto",
+  "entity_type": "music.composer",
+  "label": "Cibo Matto",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Jet Set Radio Future"
+    ],
+    "artist_keys": [
+      "Cibo Matto"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "dc4968ba-1fe0-43b9-bba0-81c09acd6326",
+    "wikidata": "Q2349474",
+    "spotify": "2te8VJxgUxcElC8Uq6eJs6",
+    "lastfm": "Cibo+Matto",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cibo_Matto"
+  }
+}

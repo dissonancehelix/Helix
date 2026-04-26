@@ -1,0 +1,25 @@
+{
+  "entity_id": "music.composer:ai_yamashita",
+  "entity_type": "music.composer",
+  "label": "Ai Yamashita",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy Advance"
+    ],
+    "franchises": [
+      "Before Meteor",
+      "Hanjuku Hero 4",
+      "Harvest Moon"
+    ],
+    "artist_keys": [
+      "Ai Yamashita"
+    ],
+    "track_count": 31
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto-imported by MSBuild AFTER each project under this directory.
+     1. Appends WTL headers to AdditionalIncludeDirectories (projects that set
+        their own AdditionalIncludeDirectories without %(…) inheritance, e.g.
+        libPPUI.vcxproj, still get WTL on the /I search path because targets
+        files are imported after the project).
+     2. Adds /Zc:twoPhase- to disable strict two-phase template name lookup.
+        WTL uses non-dependent names (m_hWnd, CDCHandle, etc.) inside templates
+        without this-> qualification, which MSVC 14.39+ rejects under the
+        default conformant mode. This flag restores the old lookup behaviour. -->
+<Project>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)WTL\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <!-- /permissive restores old MSVC lookup behaviour (deferred dependent-name
+           resolution). WTL uses non-dependent names like m_hWnd without this->
+           which strict two-phase lookup (on by default in MSVC 14.39+) rejects.
+           /Zc:twoPhase- was the older flag for this but was deprecated in 16.9. -->
+      <AdditionalOptions>/permissive %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>

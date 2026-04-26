@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:ryan_amon",
+  "entity_type": "music.composer",
+  "label": "Ryan Amon",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Bloodborne"
+    ],
+    "artist_keys": [
+      "Ryan Amon"
+    ],
+    "track_count": 13
+  },
+  "external_ids": {
+    "vgmdb": "15701",
+    "musicbrainz": "456fcdc6-9bc0-43f0-9be3-867d38a83d16",
+    "wikidata": "Q23001789",
+    "spotify": "4m8YgyH0msUxsVx1QfCcMz",
+    "lastfm": "Ryan+Amon"
+  }
+}

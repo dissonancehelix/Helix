@@ -1,0 +1,44 @@
+{
+  "entity_id": "music.composer:technouchi",
+  "entity_type": "music.composer",
+  "label": "TECHNOuchi",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Arcade",
+      "Game Boy",
+      "MSX2",
+      "X68000"
+    ],
+    "franchises": [
+      "Akumajo Dracula Tribute Vol.1",
+      "Gaiapolis",
+      "GeOnDan Rare Tracks Ver. 1.0",
+      "GeOnDan Rare Tracks Ver. 2.0",
+      "GeOnDan Super Rare Trax",
+      "Golfing Greats 2",
+      "Hexion",
+      "Metal Gear 2",
+      "Mystic Warriors",
+      "Namachuukei 68",
+      "Nemesis",
+      "Polygonet Commanders",
+      "SD Snatcher",
+      "Tokimeki Memorial Taisen Puzzle",
+      "X"
+    ],
+    "artist_keys": [
+      "TECHNOuchi"
+    ],
+    "track_count": 126
+  },
+  "external_ids": {
+    "vgmdb": "41617",
+    "musicbrainz": "87e4e25d-14ca-468e-9803-b3da849c6567",
+    "wikidata": "Q11598640",
+    "spotify": "",
+    "lastfm": "%E7%AB%B9%E3%83%8E%E5%86%85%E8%A3%95%E6%B2%BB",
+    "discogs": "5092739",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuji_Takenouchi"
+  }
+}

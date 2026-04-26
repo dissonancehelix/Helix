@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:youichi_iwata",
+  "entity_type": "music.composer",
+  "label": "Youichi Iwata",
+  "aliases": [],
+  "library": {
+    "platforms": [
+      "Game Boy"
+    ],
+    "franchises": [
+      "Castlevania Legends"
+    ],
+    "artist_keys": [
+      "Youichi Iwata"
+    ],
+    "track_count": 20
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

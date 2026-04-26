@@ -1,0 +1,21 @@
+{
+  "entity_id": "music.composer:simon_danhier",
+  "entity_type": "music.composer",
+  "label": "Simon Danhier",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Ex Echo"
+    ],
+    "artist_keys": [
+      "Simon Danhier"
+    ],
+    "track_count": 9
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "",
+    "wikidata": ""
+  }
+}

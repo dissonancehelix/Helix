@@ -1,0 +1,23 @@
+{
+  "entity_id": "music.composer:sandra_nordstrm",
+  "entity_type": "music.composer",
+  "label": "Sandra Nordström",
+  "aliases": [],
+  "library": {
+    "platforms": [],
+    "franchises": [
+      "Romeo × Juliet"
+    ],
+    "artist_keys": [
+      "Sandra Nordström"
+    ],
+    "track_count": 1
+  },
+  "external_ids": {
+    "vgmdb": "",
+    "musicbrainz": "7e6b1e3b-aded-4355-b61d-3c8a617ce37e",
+    "wikidata": "Q118322379",
+    "spotify": "",
+    "lastfm": ""
+  }
+}
