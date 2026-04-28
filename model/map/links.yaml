@@ -37,6 +37,14 @@ items:
     to: DISSONANCE.md
     kind: supports
     status: active
+  - from: attraction.loose_image_evidence
+    to: data/legacy/images/README.md
+    kind: stores
+    status: active
+  - from: attraction.loose_image_evidence
+    to: model/domains/self/README.md
+    kind: elaborates
+    status: active
   - from: sports.commanders_reed_jayden
     to: model/domains/games/README.md
     kind: elaborates

@@ -58,3 +58,11 @@ items:
     canonical_home: data/raw/visual_corpus/
     summary: "Local screenshot/reference corpus for visual-pattern analysis. Raw images are not tracked; compact analysis lives under data/legacy/visual_corpus/."
 
+  - id: source.image_intake
+    title: Loose Image Raw Evidence
+    type: dataset
+    status: active
+    mode: read_only
+    canonical_home: data/raw/images/
+    summary: "Local raw image intake for evidence surfaces such as attraction and visual style. Raw images are not tracked; compact analysis lives under data/legacy/images/."
+

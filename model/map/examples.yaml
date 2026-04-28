@@ -93,6 +93,24 @@ items:
       - mesoamerican_cosmic_mystery
       - evidence_surface_not_domain
 
+  - id: attraction.loose_image_evidence
+    title: Loose Attraction Image Evidence
+    domain: self
+    type: evidence_surface
+    status: active
+    summary: >
+      Local loose images are preserved as an attraction and visual-presentation
+      evidence surface under data/raw/images, not as a domain. The useful
+      pattern is channel convergence with signal ownership, private edge,
+      soft-base/sharp-event contrast, and coherent presentation.
+    supports:
+      - attraction_channel_convergence
+      - signal_ownership
+      - private_edge_requirement
+      - soft_base_sharp_event
+      - bounded_abundance
+      - evidence_surface_not_domain
+
   - id: sports.commanders_reed_jayden
     title: Commanders / Jayden Daniels / Ed Reed
     domain: games
