@@ -8,6 +8,11 @@ items:
   - id: continuity_preserving_expansion
     title: Continuity-Preserving Expansion
     status: seed
+  - id: legitimate_transformation_vs_neglect_decay
+    title: Legitimate Transformation vs. Neglect-Decay
+    status: active
+    compression: "Fate can transform; neglect deforms."
+    definition: "Acceptance of transformation, ending, aging, or ruin when structurally earned; rejection of preventable collapse caused by neglect, disuse, abandonment, or careless replacement."
   - id: hope_as_possibility_space
     title: Hope as Possibility Space
     status: seed
