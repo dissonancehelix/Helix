@@ -1,0 +1,190 @@
+﻿tests:
+
+  - id: ont_001_friction
+    name: Useful vs Waste Friction
+    domain: cross-domain
+    status: confirmed_initial
+    run_01_result: confirmed_all_7_items
+    run_01_key_finding: waste_friction_tolerance_scales_with_useful_ceiling_not_flat
+    live_run_needed: false
+    type: comparative_stimulus
+    hypothesis: >
+      The operator values load-bearing difficulty (useful friction) that reveals structure
+      or generates mastery payoff, while rejecting energy-leaking difficulty (waste friction)
+      from poor design or arbitrary obstruction. The distinction is not degree of resistance
+      but whether the resistance resolves into something.
+    null_hypothesis: >
+      The operator prefers low friction overall. The useful/waste distinction is post-hoc
+      rationalization. Both types of friction should correlate negatively with engagement
+      if the null holds.
+    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_filter: "test_id == 'ont_001_friction'"
+    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_dimensions:
+      - useful_friction
+      - waste_friction
+      - overall_response
+    output_report: labs/research/personal_ontology/tests/runs/ont_001_friction_report.md
+    falsifier: sustained engagement with high waste friction stimulus
+
+  - id: ont_002_convergence
+    name: Channel Convergence
+    domain: aesthetics/attraction/environments
+    status: partially_confirmed_needs_live_attraction_data
+    run_01_result: environments_confirmed_attraction_inferred_only
+    run_01_key_finding: convergence_hypothesis_grounded_for_environments_structurally_inferred_for_attraction
+    live_run_needed: true
+    live_run_note: >
+      Attraction items 1–3 are structurally inferred from DISSONANCE.md principles,
+      not drawn from named examples. A single item scoring high overall_response
+      with one dominant channel and contradicted others would falsify the model.
+    type: gestalt_analysis
+    hypothesis: >
+      Peak attraction occurs when multiple channels (facial architecture, tonal depth,
+      body structure, presentation register, environmental enclosure, ambient texture)
+      align without contradiction. Gestalt rating exceeds the average of individual channel
+      scores when channels converge; collapses below it when they contradict.
+    null_hypothesis: >
+      Positive response is driven by a single dominant channel. Convergence is post-hoc
+      explanation for whichever channel happened to be strongest. A single 5/5 channel
+      should predict peak response regardless of others.
+    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_filter: "test_id == 'ont_002_convergence'"
+    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_dimensions:
+      - channel_convergence
+      - artificiality_penalty
+      - overall_response
+    output_report: labs/research/personal_ontology/tests/runs/ont_002_convergence_report.md
+    falsifier: high overall_response for item with single strong channel and contradicted others
+
+  - id: ont_003_inspection
+    name: Inspection Deepening and Collapse
+    domain: music/games/social/objects
+    status: highest_priority_next_live_run
+    run_01_result: confirmed_model_driven_highest_discriminating_power
+    run_01_key_finding: social_collapse_sharper_than_artifact_collapse_not_equivalent
+    live_run_needed: true
+    live_run_note: >
+      Live run 02 protocol defined in NEXT_RUN.md. Use items not pre-analyzed.
+      Outer Wilds and articulate NPC used as archetypes in run 01 — do not re-score.
+      The delta is the measurement; commit to initial rating before any inspection step.
+    next_run_output: runs/ont_003_inspection_run_02.md
+    type: depth_ladder
+    hypothesis: >
+      The operator uses surfaces as portals. Liked objects deepen on inspection — each
+      layer reveals more coherent interior. Surface-attractive but shallow objects collapse
+      at the moment the performance is exposed. Inspection result predicts long-term
+      engagement more reliably than initial attraction.
+    null_hypothesis: >
+      Liking is surface-level. Once an aesthetic is accepted, presence or absence of deeper
+      structure does not change valuation. inspection_deepening and inspection_collapse
+      scores should not correlate with long-term engagement.
+    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_filter: "test_id == 'ont_003_inspection'"
+    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_dimensions:
+      - interior_signal
+      - inspection_deepening
+      - inspection_collapse
+      - artificiality_penalty
+      - overall_response
+    output_report: labs/research/personal_ontology/tests/runs/ont_003_inspection_report.md
+    falsifier: continued high overall_response for surface-only object after emptiness is exposed
+
+  - id: ont_004_boundary
+    name: Inside-Outside Mapping
+    domain: cognition/workspace/social
+    status: confirmed_but_needs_behavioral_null
+    run_01_result: confirmed_at_scoring_level_null_untested
+    run_01_key_finding: two_failure_modes_boundary_absent_vs_boundary_false_distinct_response_characters
+    live_run_needed: true
+    live_run_note: >
+      Null hypothesis (inside/outside is post-hoc metaphor) cannot be tested from
+      DISSONANCE.md text. Requires novel unsorted categorization task + rationale
+      elicitation by a blind rater. See EDGE_CASES.md.
+    type: structural_modeling
+    hypothesis: >
+      The operator perceives and structures domains as volumes with thresholds, gates,
+      and safe interiors. When organizing novel material, he defaults to boundary-first
+      categorization: what does this protect, what does it exclude, what changes at the
+      threshold. This generalizes across workspace, music, games, people, and theory.
+    null_hypothesis: >
+      The cognitive style is associative or linear. Inside/outside is a post-hoc metaphor,
+      not an active organizational primitive. Actual sorting behavior should produce flat
+      topic clusters indistinguishable from a standard categorical organizer.
+    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_filter: "test_id == 'ont_004_boundary'"
+    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_dimensions:
+      - boundary_clarity
+      - overall_response
+    output_report: labs/research/personal_ontology/tests/runs/ont_004_boundary_report.md
+    falsifier: consistent preference for flat/open structures without detectable boundary logic
+
+  - id: ont_005_continuity
+    name: Continuity Through Transformation
+    domain: systems/self/music/games
+    status: confirmed_with_timbral_texture_edge_case
+    run_01_result: confirmed_all_5_items_one_unresolved_edge
+    run_01_key_finding: identity_tracks_invariant_survival_not_substrate_timbral_texture_status_unresolved
+    live_run_needed: true
+    live_run_note: >
+      Timbral texture edge case unresolved: is it an invariant or surface property?
+      Requires specific loved track remastered to digital sterility, stability rating.
+      Self-model item too self-referential: need specific discontinuity memory from
+      2020–2026 where change felt like loss not evolution. See EDGE_CASES.md.
+    type: identity_stress_test
+    hypothesis: >
+      Identity is preserved by survival of identity-bearing structure (invariants), not by
+      label, name, genre tag, or substrate. High surface mutation is tolerated when invariants
+      survive. Breakage — replacement of core invariants with arbitrary substitutes — is
+      experienced as the death of the object even when surface continuity is maintained.
+    null_hypothesis: >
+      Identity judgments are label-anchored or substrate-anchored. An object renamed,
+      re-skinned, or moved to a new medium is experienced as different regardless of
+      invariant survival. continuity_preservation scores should correlate with
+      substrate/label stability, not invariant survival.
+    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_filter: "test_id == 'ont_005_continuity'"
+    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_dimensions:
+      - continuity_preservation
+      - transformation_tolerance
+      - overall_response
+    output_report: labs/research/personal_ontology/tests/runs/ont_005_continuity_report.md
+    falsifier: object preserving all structural invariants but experienced as broken due to surface change
+
+  - id: ont_006_bridge
+    name: Consciousness Bridge and Owned Continuity
+    domain: consciousness/philosophy
+    status: conceptual_confirmed_but_split_brain_pressure
+    run_01_result: tier_audit_correct_with_one_fix_empirical_anomaly_flagged
+    run_01_key_finding: cl_010_corrected_to_analogy_schechter_pinto_challenges_non_branching_requirement
+    live_run_needed: true
+    live_run_note: >
+      Teleporter intuition (cl_007) must be tested without prior theoretical priming.
+      Split-brain: theory must engage Schechter/Pinto before treating non-branching
+      as empirically supported. See EMPIRICAL_CONTACTS.md split-brain pressure section.
+    type: epistemic_tier_classification
+    hypothesis: >
+      Owned Continuity — a field that maps its own history without branching or interruption
+      — is a necessary condition for subjective selfhood. The personal ontology concepts
+      (boundary, interior, continuity) generate testable predictions about personal identity
+      cases that go beyond restating standard philosophical positions.
+    null_hypothesis: >
+      The Owned Continuity model is a description of the operator's personal experience of
+      self-continuity projected onto philosophy. It has no predictive force beyond restating
+      standard personal identity debates (Parfit, Locke) in different vocabulary.
+    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_filter: "test_id == 'ont_006_bridge'"
+    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_dimensions:
+      - interior_signal
+      - boundary_clarity
+      - continuity_preservation
+      - overall_response
+    bridge_document: labs/research/consciousness/bridge/consciousness_bridge_tests.md
+    output_report: labs/research/personal_ontology/tests/runs/ont_006_bridge_report.md
+    falsifier: branching case that produces two simultaneous coherent interiors with shared prior continuity
+

@@ -1,0 +1,52 @@
+﻿# model/map/sources.yaml — registry of evidence sources and connector targets.
+# Each source is a thing Helix may observe (read-only) or, in later phases,
+# transform (read-write, gated). Item shape:
+#   { id, title, type, status, mode, canonical_home, summary }
+#
+# type:   filesystem_root | external_application | api | dataset
+# status: active | planned | deprecated
+# mode:   read_only | read_only_pending | generated_outputs | read_write_gated
+
+version: 0.1
+status: scaffold
+items:
+  - id: source.repo_root
+    title: Repository Root
+    type: filesystem_root
+    status: active
+    mode: read_only
+    canonical_home: .
+    summary: "Primary Helix workspace repository."
+
+  - id: source.data_lake
+    title: Data Evidence Lake
+    type: filesystem_root
+    status: active
+    mode: read_only
+    canonical_home: data/
+    summary: "Canonical evidence lake. Large, pipeline-owned; do not move."
+
+  - id: source.foobar
+    title: foobar2000 Local Music Atlas
+    type: external_application
+    status: planned
+    mode: read_only_pending
+    canonical_home: system/tools/music_bridge/
+    summary: "Interactive music archive surface; Phase 3+ source for snapshots."
+
+  - id: source.root_unsorted
+    title: Root Unsorted Drops
+    type: filesystem_root
+    status: deprecated
+    mode: read_only
+    canonical_home: .
+    summary: "Loose root files are not a storage layer. Checks flag them so they can move to a domain, data path, report, lab, tool, or quarantine."
+
+  - id: source.reports
+    title: Reports
+    type: filesystem_root
+    status: active
+    mode: generated_outputs
+    canonical_home: reports/
+    summary: "Generated review artifacts; never source of truth."
+

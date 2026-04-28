@@ -1,0 +1,99 @@
+﻿manifest_schema: manifest_schema_v1
+domain: games
+version: "2.1"
+status: stub
+
+purpose: >
+  Extract the latent decision architecture underlying gameplay. Produce
+  decision compression and oscillator locking invariant candidates from
+  game replay logs and agent simulation outputs.
+
+docs:
+  readme: model/domains/games/README.md
+  spec: model/domains/games/SPEC.md
+
+domain_local_metrics:
+  class: GamesStructuralSignals
+  path: model/domains/games/  # pipeline not yet implemented
+  signals:
+    decision:
+      - decision_entropy_slope
+      - policy_entropy
+      - action_distribution
+      - commitment_density
+    strategy:
+      - strategy_cluster_id
+      - equilibrium_flag
+      - policy_collapse_flag
+    coordination:
+      - phase_coherence
+      - coupling_strength_proxy
+
+shared_embedding:
+  adapter: not_implemented
+  projection_schema: games_v1  # target only; not implemented
+  output_format: HelixEmbedding
+  confidence_floor: 0.30
+  confidence_calibration_status: not_applicable
+
+entry_point:
+  target: "HIL: RUN operator:SCAN substrate:games"
+  current: "model/domains/games/pipeline.py (partial stub)"
+  hsl_implemented: false
+
+runtime:
+  pipeline: model/domains/games/pipeline.py
+  pipeline_status: stub
+  stages:
+    - { stage: 1, name: ingestion,           status: not_implemented }
+    - { stage: 2, name: state_reconstruction, status: not_implemented }
+    - { stage: 3, name: strategy_analysis,   status: not_implemented }
+    - { stage: 4, name: feature_extraction,  status: not_implemented }
+    - { stage: 5, name: pattern_detection,   status: not_implemented }
+    - { stage: 6, name: artifact_generation, status: not_implemented }
+  engine_adapters:
+    - path: model/domains/games/godot_engine/
+      status: unknown  # directory present; content not verified
+
+fixtures:
+  - name: decision_compression
+    probe_status: verified
+    pass_rate: "86%"
+    domains_observed: 3
+    dataset: data/games/decision_compression_dataset.json
+    formal_harness: false
+    note: Verified via lab probes, not via model/domains/games/validation/ harness
+
+  - name: oscillator_locking
+    probe_status: verified
+    pass_rate: "100%"
+    domains_observed: 3
+    dataset: data/games/oscillator_locking_dataset.json
+    formal_harness: false
+    note: Verified via lab probes, not via model/domains/games/validation/ harness
+
+validation:
+  domain_harness: model/domains/games/validation/  # does not exist
+  domain_harness_status: not_implemented
+  governance_boundary: system/engine/contract/validation/validation/boundary_validator.py
+
+atlas_persistence:
+  status: not_implemented
+  gate: system/engine/store/compiler/atlas_compiler.py
+
+dependencies:
+  core:
+    - system/engine/contract/validation/
+    - system/engine/store/compiler/atlas_compiler.py
+  applications:
+    - data/games/
+
+known_gaps:
+  - pipeline.py is a stub; no implemented runtime extraction path
+  - godot_engine/ directory content not verified as functional
+  - No formal domain validation harness
+  - Probe verification was through lab experiments, not domain harness
+  - dataset path in old docs was labs/games/ — canonical path is data/games/
+  - No HSL/HIL implementation confirmed
+  - Atlas persistence not implemented
+

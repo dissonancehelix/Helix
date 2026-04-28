@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PersonalOntologyTestSchema",
+  "description": "JSON Schema validating test items (example_items.jsonl entries) and score records (runs/ output entries) for the personal ontology test harness.",
+  "version": "1.0",
+  "definitions": {
+    "score_value": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "All scores use 0-5 integer scale. See scoring_schema.json for scale definitions."
+    },
+    "score_block": {
+      "type": "object",
+      "description": "Scored dimensions. Only dimensions relevant to the test need to be present. overall_response is always required.",
+      "properties": {
+        "useful_friction":         { "$ref": "#/definitions/score_value" },
+        "waste_friction":          { "$ref": "#/definitions/score_value" },
+        "channel_convergence":     { "$ref": "#/definitions/score_value" },
+        "interior_signal":         { "$ref": "#/definitions/score_value" },
+        "boundary_clarity":        { "$ref": "#/definitions/score_value" },
+        "continuity_preservation": { "$ref": "#/definitions/score_value" },
+        "transformation_tolerance":{ "$ref": "#/definitions/score_value" },
+        "artificiality_penalty":   { "$ref": "#/definitions/score_value" },
+        "inspection_deepening":    { "$ref": "#/definitions/score_value" },
+        "inspection_collapse":     { "$ref": "#/definitions/score_value" },
+        "overall_response":        { "$ref": "#/definitions/score_value" }
+      },
+      "required": ["overall_response"],
+      "additionalProperties": false
+    },
+    "test_id_enum": {
+      "type": "string",
+      "enum": [
+        "ont_001_friction",
+        "ont_002_convergence",
+        "ont_003_inspection",
+        "ont_004_boundary",
+        "ont_005_continuity",
+        "ont_006_bridge"
+      ]
+    },
+    "domain_enum": {
+      "type": "string",
+      "enum": [
+        "music",
+        "games",
+        "workspace",
+        "attraction",
+        "environments",
+        "social",
+        "consciousness",
+        "self",
+        "systems"
+      ]
+    },
+    "claim_type_enum": {
+      "type": "string",
+      "enum": ["empirical_hypothesis", "philosophical_primitive", "analogy", "unsupported_speculation"]
+    },
+    "inspection_result_enum": {
+      "type": "string",
+      "enum": ["deepen", "stable", "collapse"]
+    },
+    "continuity_result_enum": {
+      "type": "string",
+      "enum": ["preserved", "broken", "diverged"]
+    }
+  },
+  "oneOf": [
+    {
+      "title": "TestItem",
+      "description": "A single item in example_items.jsonl. Represents a seed stimulus for any of the six tests.",
+      "type": "object",
+      "required": ["test_id", "domain", "stimulus"],
+      "properties": {
+        "test_id":   { "$ref": "#/definitions/test_id_enum" },
+        "domain":    { "$ref": "#/definitions/domain_enum" },
+        "stimulus":  { "type": "string", "minLength": 5 },
+        "type":      { "type": "string" },
+        "notes":     { "type": "string" },
+        "predicted_scores": { "$ref": "#/definitions/score_block" },
+        "channels": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Active channels for convergence tests."
+        },
+        "convergence": {
+          "type": "boolean",
+          "description": "Whether channels are predicted to converge."
+        },
+        "initial_rating": { "$ref": "#/definitions/score_value" },
+        "after_inspection": { "$ref": "#/definitions/score_value" },
+        "result": { "$ref": "#/definitions/inspection_result_enum" },
+        "transformation": { "type": "string" },
+        "predicted_result": { "$ref": "#/definitions/continuity_result_enum" },
+        "cognitive_model": { "type": "string" },
+        "dimension": { "type": "string" },
+        "ontology_stance": { "type": "string" },
+        "claim_type": { "$ref": "#/definitions/claim_type_enum" },
+        "falsifier": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    {
+      "title": "ScoreRecord",
+      "description": "A scored entry written to runs/ during manual or automated scoring. One record per item per run.",
+      "type": "object",
+      "required": ["record_type", "test_id", "item_id", "run_date", "scores"],
+      "properties": {
+        "record_type": { "type": "string", "const": "score_record" },
+        "test_id":     { "$ref": "#/definitions/test_id_enum" },
+        "item_id":     { "type": "string", "description": "Identifies the scored item. Use stimulus string slug or index." },
+        "run_date":    { "type": "string", "format": "date" },
+        "scorer":      { "type": "string", "description": "Who or what produced the scores — 'operator', 'claude', 'gemini', etc." },
+        "operator_state": {
+          "type": "string",
+          "enum": ["REST", "THRESHOLD", "MIXED", "NONE"],
+          "description": "Operator cognitive/energy state at time of scoring."
+        },
+        "scores":  { "$ref": "#/definitions/score_block" },
+        "predicted_scores": { "$ref": "#/definitions/score_block" },
+        "result": {
+          "type": "string",
+          "enum": ["confirmed", "sharpening_required", "anomaly", "ambiguous"],
+          "description": "Run outcome classification."
+        },
+        "notes": { "type": "string" },
+        "falsification_evidence": {
+          "type": "string",
+          "description": "If result is 'anomaly': describe what the model failed to predict and why this constitutes falsification pressure."
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "system/engine/schemas/source.schema.json",
+  "title": "Source",
+  "description": "An evidence source or connector target registered in model/map/sources.yaml.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "title", "type", "status", "mode", "canonical_home", "summary"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^source\\.[a-z0-9_]+$"
+    },
+    "title": { "type": "string", "minLength": 1 },
+    "type": {
+      "type": "string",
+      "enum": ["filesystem_root", "external_application", "api", "dataset"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "planned", "deprecated"]
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["read_only", "read_only_pending", "generated_outputs", "read_write_gated"]
+    },
+    "canonical_home": { "type": "string", "minLength": 1 },
+    "summary": { "type": "string", "minLength": 1 }
+  }
+}
+

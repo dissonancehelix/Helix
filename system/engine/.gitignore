@@ -1,0 +1,67 @@
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# ── Virtual environments ──
+.venv/
+venv/
+env/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── Editors ──
+.vscode/
+.idea/
+.claude/
+.agents/
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+
+# ── Temp / logs ──
+*.log
+*.tmp
+tmp_*.py
+
+
+# ── Snapshots ──
+*.zip
+helix_snapshot.zip
+
+# ── Library: raw data / priors (large, not version-controlled) ──
+codex/library/
+
+# ── Binary / rendered outputs ──
+*.nrg
+*.bin
+*.iso
+
+# ── Lab outputs / probe artifacts (agent-generated, not source) ──
+domains/*/artifacts/
+domains/*/outputs/
+domains/*/.cache/
+
+# ── Large ingest artifacts / generated data (not version-controlled) ──
+domains/music/ingestion/artifacts/
+domains/music/ingestion/data/
+codex/library/music/taste_graph.db
+codex/library/music/taste_graph.json
+codex/library/music/track_similarity_edges.jsonl
+
+# ── Wikimedia run artifacts ──
+domains/language/tools/wikimedia/artifacts/
+
+# ── Personal ontology test run outputs (generated scoring templates, not reports) ──
+helix/research/personal_ontology/tests/runs/*.jsonl
+helix/research/personal_ontology/tests/runs/*.csv
+
+# ── Binaries / compiled / non-text assets ──
+*.db
+*.parquet
+*.svg
+.env

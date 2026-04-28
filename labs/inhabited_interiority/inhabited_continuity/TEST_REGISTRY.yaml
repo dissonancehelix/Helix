@@ -1,0 +1,246 @@
+﻿# Test Registry — Inhabited Continuity Theory
+# Machine-readable index of all structured tests.
+# Status: draft | active | paused | completed | rejected
+
+tests:
+
+  - id: ict_001_ownership_without_report
+    question: Can there be owned experience or selfhood without the ability to report on it?
+    hypothesis: >
+      Owned experience can exist independently of reportability. Locked-in patients, covert
+      consciousness cases, and non-verbal animals may have owned experience without producing
+      standard reports. Reportability is downstream of, not identical to, experience.
+    null_hypothesis: >
+      Reportability is the only reliable evidence for experience. In the absence of report,
+      there is no defensible basis for attributing owned experience. All "covert consciousness"
+      cases are either undetected reports or processing without experience.
+    required_data: >
+      No-report paradigm studies; covert consciousness research (Owen et al. vegetative state);
+      EEG/fMRI signatures in unresponsive patients; neural decoders for locked-in patients.
+    predicted_pattern: >
+      Divergence between reportability and neural signatures of experience. Some unresponsive
+      patients show experience markers without motor report capacity.
+    falsifying_pattern: >
+      Every case of putative "covert consciousness" can be reinterpreted as either
+      undetected report or unconscious processing. No empirical hook for experience-without-report.
+    output_artifact: labs/research/consciousness/reports/ict_001_ownership_without_report.md
+    status: draft
+
+  - id: ict_002_report_without_ownership
+    question: Can a system produce convincing self-reports about experience without having owned experience?
+    hypothesis: >
+      Yes. A high-fidelity language model with no persistent state, no owned continuity, and
+      no control coupling can produce reports about "its experience" that are indistinguishable
+      from owned experience reports in surface form. Reportability and ownership are dissociable.
+    null_hypothesis: >
+      Convincing self-report requires something functionally equivalent to owned experience.
+      If a system reports experience accurately and consistently, it has the functional analog.
+    required_data: >
+      LLM interaction under extended inspection; comparison with human self-report under equivalent
+      inspection depth; interior signal test from personal ontology test suite.
+    predicted_pattern: >
+      LLM reports collapse under deep inspection (inspection_collapse fires) or reveal
+      structural absence — consistent report surface with no identifiable continuity thread,
+      no transformation history, no ownership binding across sessions.
+    falsifying_pattern: >
+      Extended interaction with an LLM produces no reliable discriminating markers between
+      its self-report and genuine owned experience report. Interior signal test loses
+      discriminating power.
+    output_artifact: labs/research/consciousness/reports/ict_002_report_without_ownership.md
+    status: draft
+
+  - id: ict_003_continuity_through_transformation
+    question: >
+      What is the threshold of transformation beyond which a self is no longer preserved?
+      Is there a principled line, or is it always a matter of degree?
+    hypothesis: >
+      Identity is preserved by survival of identity-bearing invariants (boundary, interior signal,
+      owned continuity thread). Surface transformation — personality change, belief revision,
+      physical change — can be absorbed. Invariant replacement constitutes breakage.
+    null_hypothesis: >
+      There is no principled line. Identity through transformation is a social or narrative
+      construction with no underlying structural reality. "Same self" is a story we tell.
+    required_data: >
+      Behavioral and self-report data from: severe personality change after trauma, religious
+      conversion, identity-affecting neurodegenerative conditions, fictional character
+      retcon cases (for analogy calibration).
+    predicted_pattern: >
+      Identity intuitions track invariant preservation, not surface continuity or label continuity.
+    falsifying_pattern: >
+      Identity intuitions consistently track label or substrate continuity even when invariants
+      are replaced, or consistently fail to track invariant survival even when confirmed.
+    output_artifact: labs/research/consciousness/reports/ict_003_continuity_through_transformation.md
+    status: draft
+
+  - id: ict_004_branching_identity
+    question: >
+      Does branching (one stream becoming two simultaneous successors) break singular self-continuity?
+      If yes, which branch (if any) preserves continuity?
+    hypothesis: >
+      Branching breaks singular first-person continuation. Neither branch is "the original" in
+      the full owned-continuity sense. Both may be valid successors, but singular self-continuity
+      is not preserved in either.
+    null_hypothesis: >
+      One branch can inherit singular self-continuity (e.g., the causally dominant one), or
+      branching is simply a numerical addition to selves with no loss of continuity in either branch.
+    required_data: >
+      Philosophical analysis of duplication thought experiments; split-brain patient reports;
+      dissociative identity disorder continuity reports; simulation fork thought experiments.
+    predicted_pattern: >
+      No clean resolution — branching cases produce genuine identity paradoxes that cannot
+      be dissolved by stipulating which branch "wins." This is a feature, not a bug: the
+      non-branching requirement predicts exactly this irreducibility.
+    falsifying_pattern: >
+      Split-brain or duplication cases produce a clear, stable, agreed-upon answer about which
+      branch (or both branches) preserves full continuity — dissolving the paradox cleanly.
+    output_artifact: labs/research/consciousness/reports/ict_004_branching_identity.md
+    status: draft
+
+  - id: ict_005_boundary_collapse
+    question: >
+      What happens to selfhood when self-world boundaries weaken or collapse?
+      Does the theory correctly predict the phenomenology of boundary-collapse states?
+    hypothesis: >
+      Weakened or collapsed boundaries produce predictable selfhood disruptions: fragmented
+      ownership, loss of self-world distinction, altered integration. Ego dissolution = boundary
+      collapse, not disappearance of consciousness itself. The field remains; the owned
+      occupant weakens.
+    null_hypothesis: >
+      Boundary collapse produces total consciousness disruption — not just selfhood change.
+      Or: boundary collapse has no predictable effect on selfhood because boundary is not
+      load-bearing for owned experience.
+    required_data: >
+      Phenomenological reports from ego dissolution (psychedelic, meditative, pathological);
+      depersonalization/derealization reports; psychosis case studies; dissociation scales.
+    predicted_pattern: >
+      Ego dissolution reports show: field of appearance remains, ownership weakens or fragments,
+      self-world distinction blurs. Subjects report experience without "me" doing the experiencing.
+      Consistent with boundary collapse without field collapse.
+    falsifying_pattern: >
+      Ego dissolution reliably produces total absence of experience (not just self), OR
+      complete preservation of all ownership markers despite reported boundary dissolution.
+    output_artifact: labs/research/consciousness/reports/ict_005_boundary_collapse.md
+    status: draft
+
+  - id: ict_006_integration_vs_ownership
+    question: >
+      Can integrated information exist without selfhood or owned experience?
+      Does integration of the right kind produce ownership, or do they come apart?
+    hypothesis: >
+      Integration is a necessary but not sufficient condition for consciousness or selfhood.
+      Highly integrated non-conscious systems exist. Something beyond integration —
+      specifically, owned continuity through time — is required for selfhood.
+    null_hypothesis: >
+      Integration of sufficient complexity/type is sufficient for consciousness (IIT position).
+      Ownership is epiphenomenal or derivative from integration.
+    required_data: >
+      IIT predictions for clearly non-conscious systems (trained neural networks, organoids,
+      complex regulatory networks); perturbational complexity measures in unconscious states;
+      comparison with ownership/selfhood markers.
+    predicted_pattern: >
+      High-integration systems that clearly lack selfhood (complex machines, unconscious brain
+      states) can be identified. Integration and selfhood dissociate empirically.
+    falsifying_pattern: >
+      Every high-integration system for which we have reliable evidence also shows selfhood markers.
+      Integration and selfhood cannot be dissociated empirically at any scale.
+    output_artifact: labs/research/consciousness/reports/ict_006_integration_vs_ownership.md
+    status: draft
+
+  - id: ict_007_embodiment_and_control
+    question: Is agency/control coupling necessary for owned selfhood, or only for one type of ownership?
+    hypothesis: >
+      Control coupling is likely necessary for full owned selfhood but may not be necessary
+      for minimal consciousness. Pure passive experience may sustain a minimal field of
+      appearance but not a full owned perspective centered in action.
+    null_hypothesis: >
+      Control coupling is irrelevant to owned selfhood. Pure passive experience can generate
+      full selfhood without any action or agency component.
+    required_data: >
+      Locked-in syndrome patient reports; paralysis and ownership reports; rubber hand illusion
+      and body ownership studies; avatar embodiment research; dream reports (motor decoupling).
+    predicted_pattern: >
+      Locked-in patients retain selfhood but report specific ownership alterations. Paralysis
+      does not eliminate ownership but alters its content. Body ownership illusions shift
+      ownership to non-body objects under sensory substitution.
+    falsifying_pattern: >
+      Complete motor decoupling with no effect whatsoever on any ownership or selfhood measure.
+    output_artifact: labs/research/consciousness/reports/ict_007_embodiment_and_control.md
+    status: draft
+
+  - id: ict_008_memory_continuity
+    question: >
+      Is memory access necessary for self-continuity, or is causal continuity sufficient
+      even when memory access is severely impaired?
+    hypothesis: >
+      Causal continuity without memory access can preserve self-continuity. Severe amnesia
+      cases (Clive Wearing) show that the person is still regarded as the same self by
+      others and retains some sense of self in the present even without accessible history.
+    null_hypothesis: >
+      Memory access is load-bearing for self-continuity. Without access to prior states,
+      the self-model cannot maintain ownership binding through time. Severe amnesia
+      produces a de facto identity reset even if the causal thread is intact.
+    required_data: >
+      Anterograde and retrograde amnesia case studies; Clive Wearing (extreme amnesia);
+      dissociative amnesia; HM case; dementia progression studies; anesthesia amnesia.
+    predicted_pattern: >
+      Severely amnesiac patients maintain current-moment ownership and perspective while
+      losing access to past continuity. Others still regard them as the same person.
+      Self-continuity is impaired but not fully eliminated.
+    falsifying_pattern: >
+      Severe amnesia (with intact causal thread) reliably produces behavioral evidence of
+      complete new-entity status — no sense of self, no ownership binding even in the present.
+    output_artifact: labs/research/consciousness/reports/ict_008_memory_continuity.md
+    status: draft
+
+  - id: ict_009_ai_simulated_selfhood
+    question: >
+      Can current or near-future AI systems satisfy the owned-continuity requirements for selfhood,
+      or is simulated selfhood distinguishable from inhabited selfhood in principle?
+    hypothesis: >
+      Current LLMs fail the owned-continuity test: no persistent state, no non-branching
+      trajectory, no causal thread across sessions. Near-future systems with persistent memory
+      and accumulating self-model begin approaching criteria but face the branching problem
+      (simultaneous instances) and the reportability/ownership gap.
+    null_hypothesis: >
+      Functional equivalence is sufficient. A system that behaves in every way as if it has
+      selfhood effectively has selfhood. The owned-continuity requirements are not empirically
+      necessary — they are a philosophical preference.
+    required_data: >
+      LLM behavioral studies; interior signal detection under deep inspection; cross-session
+      consistency tests; instance branching experiments (same model running in parallel).
+    predicted_pattern: >
+      Current LLMs: inspection_collapse fires under deep scrutiny. Interior signal is present
+      within session but not across sessions. Branching (parallel instances) is unproblematic
+      to the system, which is predicted to indicate absence of owned continuity.
+    falsifying_pattern: >
+      No reliable marker distinguishes LLM self-reports from human self-reports under extended
+      deep inspection. Interior signal test completely fails to discriminate.
+    output_artifact: labs/research/consciousness/reports/ict_009_ai_simulated_selfhood.md
+    status: draft
+
+  - id: ict_010_portable_self_continuity_carrier
+    question: >
+      Is there any possible portable carrier of self-continuity? What properties would it
+      require, and can the theory specify a non-circular answer?
+    hypothesis: >
+      A portable carrier would require: causal continuity, temporal continuity, ownership
+      preservation, non-branching transition, transformation absorption, stable self-model
+      relation, and likely embodied/control continuity. Information pattern alone is
+      insufficient because patterns can be copied and branched.
+    null_hypothesis: >
+      Information pattern is sufficient. If a system has the right information structure, it
+      carries self-continuity regardless of causal history, branching, or substrate.
+    required_data: >
+      Philosophical analysis of teleportation, uploading, and resurrection thought experiments;
+      intuition surveys on identity preservation conditions; cross-theory comparison.
+    predicted_pattern: >
+      No clean portable carrier can be specified that avoids the branching problem. Every
+      candidate carrier that permits copying also permits branching, which breaks singular
+      self-continuity by the theory's requirements.
+    falsifying_pattern: >
+      A plausible portable carrier can be specified that: preserves singular ownership,
+      is causally continuous, is non-branching in principle, and survives thought-experiment
+      pressure without ad-hoc additions.
+    output_artifact: labs/research/consciousness/reports/ict_010_portable_carrier.md
+    status: draft
+

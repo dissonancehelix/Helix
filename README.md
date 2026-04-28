@@ -1,197 +1,134 @@
-# Helix
+# Helix Workspace
 
-Compact personal cognition, research, data, and tool-building workspace.
-`DISSONANCE.md` is the operator profile. Everything else serves it.
+**Repository:** https://github.com/dissonancehelix/Helix/
 
-## Read Order
+Helix is the whole workspace: the closed working box where the operator and LLM share models, evidence, tools, reports, labs, and trust gates.
 
-1. **This file** — workspace structure, placement rules, agent rules.
-2. **DISSONANCE.md** — when operator taste, design constraints, or profile alignment matter.
+`DISSONANCE.md` is the portable person-pattern: cognition, taste, attraction, sensory profile, design preferences, and pattern semantics.
 
-## Root Structure
+This `README.md` is the workspace constitution: folder roles, trust boundaries, source-of-truth hierarchy, and agent expectations.
 
-```text
-HELIX/
-├── README.md           # workspace overview and operating rules
-├── DISSONANCE.md       # operator profile / personal ontology
-├── helix/              # constraint engine, research, memory
-├── domains/            # modeled reality surfaces (Python package)
-├── apps/               # practical tools (Python package)
-└── data/               # raw and domain-keyed data
-```
+Best compression:
 
-## Directory Contracts
+> **DISSONANCE.md is the operator map. Helix is the shared working body.**
 
-### `helix/` — internal machinery
+---
+
+## Root Layout
 
 ```text
-helix/
-├── engine/
-│   ├── contract/   # schemas, validators, manifests, boundaries
-│   ├── store/      # local DBs, Arrow/Parquet, import/export, lineage
-│   ├── compute/    # math kernels, graphs, invariant metrics
-│   ├── simulate/   # agent-based/physics sandboxes
-│   └── run/        # execution, configs, seeds, fixtures
-├── research/       # consciousness, games, language, music, invariants, agi
-├── memory/         # Atlas entries, embeddings, ledger
-├── reports/        # research and refactor outputs
-└── internal/       # config, architecture docs, governance
+/
+├── README.md          # workspace constitution
+├── DISSONANCE.md      # portable profile and design philosophy
+├── AGENTS.md          # single agent router
+├── model/             # modeled understanding
+│   ├── map/           # machine-readable pattern graph
+│   └── domains/       # decompressed domain chambers
+├── data/              # raw, normalized, and derived evidence/artifacts
+├── system/            # machinery
+│   ├── engine/        # checks, schemas, contracts, compiler/enforcement
+│   ├── tools/         # runnable tools, bridges, pipelines, CLIs
+│   └── vendor/        # third-party SDKs, toolkits, source mirrors
+├── labs/              # pressure tests and falsification surfaces
+├── reports/           # generated review artifacts
+└── quarantine/        # staged removals and uncertain moves
 ```
 
-Engine is Python-first and native-backed, coordinating the core capabilities.
-Research owns questions, hypotheses, tests, falsifiers, results, and anomaly logs.
-No raw data, no app-specific scripts, no speculative theory without executable role.
+Loose root files are **unsorted**. They must be moved, adopted, or deleted; they are not a permanent intake system.
 
-### `domains/` — modeled reality surfaces
+---
+
+## Source Of Truth
+
+1. **`DISSONANCE.md`** — portable human-readable canon for operator cognition, taste, and pattern semantics.
+2. **`model/map/`** — machine-readable canon for pattern IDs, gates, examples, probes, links, sources, and anomalies.
+3. **`model/domains/<name>/README.md`** — domain-local operational interpretation. Domains elaborate; they do not redefine master patterns.
+4. **`labs/`** — claim pressure, falsification, demotion evidence.
+5. **`data/`** — evidence and artifacts. Raw data is authoritative for facts, not interpretation.
+6. **`reports/`** — generated review artifacts. Never canon until reviewed and promoted.
+7. **`system/tools/`** — runnable machinery. Tools execute workflows; they do not own truth.
+8. **`system/engine/`** — enforcement machinery: schemas, checks, contracts, compiler/validation.
+
+When sources disagree, create or update `model/map/anomalies.yaml`; do not silently reconcile.
+
+---
+
+## Folder Roles
+
+- **`model/`** — Helix's modeled understanding. `map/` compresses; `domains/` decompress.
+- **`data/`** — evidence lake and generated artifacts. Use `raw/`, `normalized/`, and `derived/` when possible.
+- **`system/engine/`** — the hidden machinery that enforces boundaries and validates structure.
+- **`system/tools/`** — executable tools. Before adding a script, read `system/tools/TOOL_INDEX.yaml`.
+- **`system/vendor/`** — third-party code and SDKs. Vendor material is provenance, not design authority.
+- **`labs/`** — pressure chambers. A lab must be able to weaken a claim.
+- **`reports/`** — epistemic airlocks. Generated meaning waits here before promotion.
+- **`quarantine/`** — staged removals, uncertain moves, and rollback manifests.
+
+---
+
+## Workstation Laws
+
+1. **Observation before interpretation before transformation.**
+2. **Trustworthy as sensor before trustworthy as actor.**
+3. **Bridges preserve sovereignty.**
+4. **Reports are epistemic airlocks.**
+5. **`model/map/sources.yaml` is Helix's attention boundary.**
+6. **Read-only is active perception.**
+7. **Core compresses; domains decompress.**
+8. **Workspace = cognitive body; system/engine = nervous machinery.**
+9. **Workspace must obey the ontology it contains.**
+10. **Claims earn height by surviving pressure.**
+
+---
+
+## Tool Rule
+
+Existing pipelines should be reused before new scripts are created.
+
+Agents must read:
+
+1. `system/tools/README.md`
+2. `system/tools/TOOL_INDEX.yaml`
+3. the tool README or manifest for the specific domain
+
+Each tool entry names its purpose, entrypoint, inputs, outputs, safety mode, and whether it is canonical, stage helper, legacy, or one-off archive.
+
+---
+
+## Change Protocol
+
+For structural changes, record:
 
 ```text
-domains/
-├── self/           # structured profile-derived features, taste coordinates
-├── music/          # library, VGM, foobar, MIR/taste graph, composer fingerprints
-├── games/          # EFT, Rocket League, Dota, Overwatch, NFL, map/state analysis
-├── language/       # Spanish, grammar operators, chunking, typology
-├── trails/         # Trails database, continuity/world-memory modeling
-├── wiki/           # Wikipedia tools, article schemas, infobox logic
-└── aesthetics/     # colors, spaces, visual attraction, environmental preferences
+Change:
+Affected IDs:
+Direction: upward | downward | lateral
+Files touched:
+Patterns strengthened:
+Patterns weakened:
+False positives updated:
+Needs regeneration:
+Rollback:
 ```
 
-A domain defines terrain. It contains models, taxonomies, features, and domain-local docs.
-A domain is not research — research belongs in `helix/research/`.
+Structural moves require a migration manifest under `quarantine/` before the move.
 
-### `apps/` — practical tools
+---
 
-```text
-apps/
-├── agent_harness/      # workspace validation, test runners
-├── music_pipeline/     # ingestion, analysis, retrieval scripts
-├── music_bridge/       # library identity resolution
-├── music_toolkits/     # C++ audio libraries (libvgm, vgmtools, etc.)
-├── foobar_bridge/      # foobar2000 library management
-├── foobar-spatial-dsp/ # foobar2000 C++ DSP plugins
-├── spc2mid/            # SNES SPC-to-MIDI converter
-├── games_pipeline/     # game analysis tools
-├── language_pipeline/  # Wikipedia/language processing
-├── wiki_tools/         # Wikipedia article tools
-└── trails/             # Trails corpus and translation
-```
+## Agent Guidance
 
-Apps own their local build/cache/output folders. No generic workspace-level `outputs/`.
+Agents must:
 
-### `data/` — raw and domain-keyed data
+1. Read `README.md` first.
+2. Read `DISSONANCE.md` when touching profile, taste, cognition, operator patterns, or design semantics.
+3. Read `AGENTS.md` for routing and implementation contract.
+4. Preserve the source-of-truth hierarchy.
+5. Consult `model/map/sources.yaml` before source-specific work.
+6. Use existing tools before inventing new scripts.
+7. Do not promote reports to canon without review.
+8. Preserve examples as evidence anchors.
+9. Treat contradictions as anomalies.
 
-```text
-data/
-├── raw/            # unprocessed imports (Reddit, Twitter, Steam, Wikipedia, scrobbles)
-├── music/          # processed music metadata
-├── games/          # processed game data
-├── language/       # UD datasets, corpora
-├── self/           # cognition datasets
-└── wiki/           # (future)
-```
+Best compression:
 
-Data does not explain itself in prose. Explanations belong in the relevant domain or research module.
-
-## File Placement Rules
-
-Every proposed file or folder must answer at least one:
-
-1. Which boundary does this sharpen?
-2. Which friction does this remove?
-3. Which affordance does this create?
-4. Which existing ambiguity does this collapse?
-5. Which future agent failure does this prevent?
-
-If none apply, do not create it.
-
-**Forbidden root-level names:** `outputs/`, `work/`, `misc/`, `archive/`, `notes/`, `labs/`, `old/`, `stuff/`.
-Outputs live where their meaning lives.
-
-## Agent Operating Rules
-
-These rules apply to all AI agents working inside Helix.
-
-**Read `DISSONANCE.md` when operator taste, constraints, or profile alignment matter.**
-
-### Behavior
-- Do not flatter the operator.
-- Do not turn ontology into destiny.
-- Prefer mechanisms over vibes.
-- Preserve anomalies and contradictions.
-- If speculative, mark it as speculative.
-- If a claim needs testing, route it to `helix/research/`.
-- If a pattern becomes stable, route it to a domain model or engine schema.
-- If implementation is needed, produce concrete files — no stubs, no placeholder logic.
-
-### Writing
-- Dense, structural prose. Short named sections.
-- No academic preamble. No generic AI sludge.
-- Good prose makes the workspace more navigable. Bad prose adds fog.
-
-### Research
-- Every theory needs confidence tiers.
-- Every research module needs falsifiers.
-- Every result needs a failure mode.
-- Every anomaly gets logged.
-- The goal is not to protect the theory. The goal is to find what survives.
-
-### Refactoring
-- Compression over decorative clarity.
-- Boundaries over buckets.
-- Root small. Directories bounded.
-- The engine is not the house — `helix/` is the constraint engine; the workspace is the organism.
-- Do not add root folders unless they protect a real boundary.
-
-## Active Chamber
-
-```yaml
-active_chamber: workspace_refactor
-mode: threshold
-active_question: Structural refactor in progress.
-next_action: Complete root compression, research routing, and domain normalization.
-```
-
-One active chamber at a time. Low switching cost. Explicit state. Minimal ambient clutter.
-
-## Design Principles
-
-1. **Compression over decorative clarity.** Names should be short, load-bearing, and obvious from use.
-2. **Boundaries over buckets.** A directory exists only if it protects a real conceptual boundary.
-3. **Motion over dead order.** The workspace must support active traversal, testing, return, and update.
-4. **Root small. Directories bounded.** The root is not an index of every thought.
-5. **Outputs live where meaning lives.** Reports live with the research module or app that produced them.
-6. **The engine is not the house.** `helix/` is the constraint engine; the workspace is the organism.
-7. **Anomalies are first-class.** Contradictions update the map instead of being smoothed away.
-
-## Bandwidth Law
-
-Helix exists to increase usable human+LLM bandwidth.
-
-Bandwidth increases when:
-1. Dissonance has fewer exposed decisions, fewer vague buckets, and less root clutter.
-2. The LLM has stronger internal constraints, obvious placement rules, and self-describing folder names.
-3. The root stays compressed while internal structure carries complexity behind clear boundaries.
-4. Expansion happens inside load-bearing walls, not by adding visible sprawl.
-
-Use this model:
-- **floor** = Dissonance-side cognitive friction floor
-- **ceiling** = maximum complexity the workspace can safely hold
-- **walls** = Helix constraints, folder boundaries, schemas, validation rules, and naming contracts
-
-Goal: raise the ceiling while lowering the friction floor.
-
-The root is not where complexity lives. The root is where complexity becomes navigable.
-
-`helix/` contains internal machinery: engine, research, memory, reports, internal config.
-`domains/` contains modeled subject areas.
-`apps/` contains usable tools.
-`data/` contains raw and processed inputs.
-
-A folder is allowed only if it reduces ambiguity more than it increases surface area.
-A document is allowed at root only if it improves orientation more than it costs attention.
-A rule is allowed only if violating it would cause real drift.
-
-Do not optimize only for human minimalism.
-Do not optimize only for LLM explicitness.
-Optimize for the combined bandwidth of Dissonance + LLM.
-
-Everything else goes under the hood.
+> **Helix should make the operator and the LLM more powerful without making either babysit the structure.**

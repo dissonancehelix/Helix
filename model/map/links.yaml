@@ -1,0 +1,24 @@
+﻿# model/map/links.yaml — cross-references binding patterns ↔ examples ↔ domains ↔ labs ↔ data paths.
+# Used by system/engine/checks to detect drift (broken IDs, stale links, orphan nodes).
+# Item shape: { from, to, kind: supports|elaborates|contradicts|measures|stores, status }
+
+version: 0.1
+status: scaffold
+items:
+  - from: music.foobar_local_music_atlas
+    to: model/domains/music/foobar/README.md
+    kind: elaborates
+    status: seed
+  - from: music.foobar_local_music_atlas
+    to: model/domains/music/README.md
+    kind: elaborates
+    status: seed
+  - from: music.foobar_local_music_atlas
+    to: system/tools/music_bridge/README.md
+    kind: stores
+    status: seed
+  - from: music.foobar_vgm_hardware_metadata
+    to: model/domains/music/foobar/README.md
+    kind: elaborates
+    status: seed
+

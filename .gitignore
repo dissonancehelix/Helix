@@ -6,14 +6,26 @@
 data/raw/
 data/music/library/
 data/music/phase6/
-apps/trails/corpus/
-apps/trails/retrieval/index/
 
-# Generated Pipeline & Local DBs
-apps/music_pipeline/data/
+# Generated Pipeline, Indexes & Local DBs
+data/derived/trails/retrieval/index/
+data/derived/music_pipeline/
+data/derived/games_pipeline/
+data/derived/language_pipeline/
+data/derived/atlas_staging/
+reports/analyses/workstation/workstation_snapshot_*.json
+reports/analyses/workstation/workstation_snapshot_*.md
 
-# External Toolkits
-apps/music_toolkits/
+# External Toolkits & Source Mirrors
+system/vendor/
+system/tools/foobar-spatial-dsp/vgmspc/
+**/.git/
+
+# Quarantine keeps manifests in git; bulky staged material remains local.
+quarantine/**
+!quarantine/README.md
+!quarantine/2026-04-27-workspace-refactor/
+!quarantine/2026-04-27-workspace-refactor/MIGRATION_MANIFEST.md
 
 # Heavy Files & Binaries (Global)
 *.parquet
@@ -37,6 +49,7 @@ apps/music_toolkits/
 Thumbs.db
 .pytest_cache/
 __pycache__/
+**/__pycache__/
 *.pyc
 .env
 .venv/
@@ -47,5 +60,7 @@ node_modules/
 # Exceptions (Load-Bearing Structure)
 # -------------------------------------------------------------------
 # Ensure atlas is NEVER accidentally ignored by broad rules
-!helix/memory/atlas/
+!data/derived/
+!data/derived/atlas/
+!data/derived/atlas/**
 .vscode/

@@ -1,0 +1,172 @@
+﻿manifest_schema: manifest_schema_v1
+tool: foobar
+version: "0.1"
+status: partial
+domain: music
+
+purpose: >
+  Music library maintenance tool (v0). Audit, sync, diff, and repair-plan
+  layer for the operator's Foobar2000/VGM library. Sits between Foobar
+  (live source), the codex (structured mirror), and Helix analysis layers.
+  Makes the relationship between them legible, queryable, and maintainable.
+
+architecture_rule: >
+  Read-only against Foobar internals. Patch-plan first.
+  No Atlas writes. No direct Foobar SQLite mutation.
+  No external tag rewriting in v0.
+
+roots:
+  library_corpus:
+    path: C:\Users\dissonance\Music
+    role: >
+      Live library/content root. Used for file discovery, path
+      reconciliation, album/track structure checks, and corpus integrity.
+  foobar_runtime:
+    path: C:\Users\dissonance\AppData\Roaming\foobar2000-v2
+    role: >
+      Foobar application-state root. Read-only inspection only.
+      Sources: metadb.sqlite, config.sqlite, playlists.
+      Never mutated by this tool.
+  lastfm_history:
+    path: data/music/metadata/lastfm_dissident93.json
+    role: >
+      Behavioral listening trace. 201,368 scrobbles, 2012-03-30.
+      Authority: behavioral evidence only. Never overwrites curated metadata.
+      Schema: {username, scrobbles: [{track, artist, album, albumId, date}]}
+      albumId = MusicBrainz MBID, empty on ~75% of entries (older VGM).
+    adapter: model/domains/music/ingestion/adapters/lastfm.py
+
+trace_source_authority:
+  canonical_metadata: foobar        # TITLE, ARTIST, SOUND TEAM, FRANCHISE, etc.
+  runtime_state: foobar             # loved, playcount, playlist membership
+  behavioral_evidence: lastfm       # listening signals, priority weighting
+  structured_mirror: codex          # TrackDB, field index
+  validated_knowledge: atlas        # DCP, axis vectors — NOT touched by this tool
+
+foobar_schema:
+  # Canonical Foobar field names — Foobar is authoritative for all of these
+  fields:
+    - TITLE
+    - ARTIST
+    - ALBUM
+    - DATE
+    - GENRE
+    - FEATURING
+    - ALBUM ARTIST
+    - SOUND TEAM
+    - FRANCHISE
+    - TRACKNUMBER
+    - TOTALTRACKS
+    - DISCNUMBER
+    - TOTALDISCS
+    - COMMENT
+    - PLATFORM
+    - SOUND CHIP
+
+source_of_truth:
+  mutable_metadata: foobar     # TITLE, ARTIST, ALBUM, SOUND TEAM, etc.
+  live_state: foobar           # playcount, rating, loved, playlist state
+  normalised_mirror: codex     # TrackDB, field index, derived reports
+  validated_knowledge: atlas   # DCP, axis vectors — NOT touched by this tool
+
+wraps:
+  primary:
+    - model/domains/music/ingestion/adapters/metadb_sqlite.py  # Foobar metadb reader
+    - model/domains/music/ingestion/adapters/foobar.py         # library filesystem scan
+    - model/domains/music/atlas_integration/track_db.py        # codex TrackDB
+    - model/domains/music/ingestion/config.py                  # paths and schema constants
+  field_index:
+    - codex/library/music/.field_index.json              # 171k record inverted index
+
+modules:
+  runner.py:      CLI entrypoint, two-root model, all actions
+  diff.py:        Field-level comparison primitives, TrackDiff, FieldDiff
+  sync.py:        Foobar↔codex sync computation, state classification, query helpers
+  audit.py:       5 audit workflows incl. research corpus integrity (S3K, etc.)
+  reports.py:     Artifact output writers (markdown, JSON, CSV)
+  repair_plan.py: Patch plan generation — patch-plan first, no auto-apply
+
+sync_states:
+  track:
+    - in_sync
+    - new_in_foobar
+    - missing_from_codex
+    - missing_from_foobar
+    - codex_orphan
+    - metadata_drift
+    - stats_drift
+    - path_drift
+    - schema_gap
+    - stale_analysis_candidate
+    - duplicate_candidate
+    - alias_candidate
+    - manual_review_required
+  album:
+    - album_in_sync
+    - album_numbering_issue
+    - album_disc_issue
+    - album_mixed_album_artist
+    - album_partial_codex_coverage
+    - album_platform_chip_gap
+    - album_franchise_gap
+    - album_sound_team_gap
+    - album_manual_review_required
+
+output_artifacts:
+  directory: system/tools/foobar/artifacts/
+  files:
+    - audit_summary.md
+    - track_issues.json
+    - album_issues.json
+    - sync_manifest.json
+    - repair_plan.csv
+    - repair_plan.json
+    - new_in_foobar.json
+    - codex_orphans.json
+    - loved_drift.json
+    - normalization_candidates.json
+    - corpus_<name>_manifest.json  # per research corpus
+
+research_corpus_support:
+  description: >
+    The tool supports project-linked corpus views and integrity checks
+    for active Helix music research projects. Currently tracks S3K corpus
+    automatically when any report or audit is run.
+  active_projects:
+    - name: S3K
+      corpus_name: "Sonic the Hedgehog 3 & Knuckles"
+      franchise_filter: "Sonic"
+      library_path: codex/library/music/album/sonic_3_knuckles/
+      expected_tracks: 58
+      hsl_scripts:
+        - model/domains/music/hsl/s3k_full_pass.hsl
+        - model/domains/music/hsl/s3k_uncredited.hsl
+        - model/domains/music/hsl/s3k_exclusive.hsl
+      run_via:
+        - "helix run model/domains/music/hsl/s3k_full_pass.hsl"
+        - "helix run model/domains/music/hsl/s3k_uncredited.hsl"
+        - "helix run model/domains/music/hsl/s3k_exclusive.hsl"
+
+patch_model:
+  v0_allowed:
+    - write reports and manifests to artifacts/
+    - write codex-side refreshed indices (explicit --refresh-codex only)
+    - patch codex mirror records (codex_field_patch, codex_loved_sync)
+    - flag tracks for manual review
+  v0_not_default:
+    - mutate Foobar metadata directly
+    - rewrite external .tag sidecars in bulk
+    - modify Foobar SQLite internals
+  future_modes:
+    - apply_to_codex      # explicit codex mirror update
+    - export_patch_plan   # export for external tooling
+    - apply_to_sidecars   # write to APEv2 .tag sidecars
+
+known_gaps:
+  - metadb.sqlite full schema not yet fully mapped (playcount/loved bit offsets vary)
+  - Codex TrackDB may not have total_tracks / total_discs columns in all versions
+  - stats_drift detection requires accurate metadb.sqlite → TrackDB playcount bridge
+  - HSL execution from within the tool not yet wired (runner delegates to `helix run`)
+  - codex_field_patch and codex_loved_sync are planned, not yet applied automatically
+  - Full end-to-end test against live library not yet run
+

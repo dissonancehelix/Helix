@@ -1,0 +1,102 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PersonalOntologyScoringSchema",
+  "description": "Shared scoring schema for all personal ontology tests. All scored dimensions use a 0-5 integer scale. Applies to both predicted scores in example_items.jsonl and actual scores recorded during test runs.",
+  "version": "1.0",
+  "scale": {
+    "0": "absent / none / complete failure",
+    "1": "minimal / trace / marginal",
+    "2": "present but weak / partial",
+    "3": "moderate / clear / functional",
+    "4": "strong / notable / well-expressed",
+    "5": "peak / definitive / maximal"
+  },
+  "dimensions": {
+    "useful_friction": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Load-bearing resistance that reveals structure, requires mastery, or generates discovery payoff. 0=no such resistance; 5=deep, rewarding structural challenge.",
+      "positive_examples": ["EFT mastery curve", "complex but coherent music arrangement", "Helix schema boundary enforcement"],
+      "negative_examples": ["unskippable tutorial", "broken UI blocking access", "laggy menus"]
+    },
+    "waste_friction": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Energy-leaking resistance from poor design, social noise, institutional obstruction, or arbitrary complexity. 0=none; 5=severe/intolerable.",
+      "positive_examples": ["unskippable cutscenes", "social obligation with no content", "opaque bureaucratic interface"],
+      "negative_examples": ["difficult but fair enemy", "dense but coherent music", "strict schema validation"]
+    },
+    "channel_convergence": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Degree to which multiple active channels align without requiring the system to reconcile contradictory signals. Applies to attraction, environments, and gestalt object responses. 0=channels actively conflict; 5=full convergence across all active channels.",
+      "applies_to": ["ont_002_convergence", "ont_001_friction"]
+    },
+    "interior_signal": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Strength of recursive interiority signal — evidence that the object has an inhabited, self-authoring inside rather than a performed or scripted surface. 0=NPC/empty/purely scripted; 5=strong recursive self-presence.",
+      "applies_to": ["ont_003_inspection", "ont_006_bridge"]
+    },
+    "boundary_clarity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Sharpness of the object's inside/outside definition. How well-bounded is the interior? 0=flat, boundaryless, no detectable inside; 5=crisp, navigable, well-defined interior with clear threshold.",
+      "applies_to": ["ont_004_boundary", "ont_006_bridge"]
+    },
+    "continuity_preservation": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Degree to which identity-bearing structure (invariants) is preserved across a transformation. 0=identity fully broken; 5=full continuity of essential invariants maintained.",
+      "applies_to": ["ont_005_continuity", "ont_006_bridge"]
+    },
+    "transformation_tolerance": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Amount of structural change the object absorbs before losing identity. Orthogonal to continuity_preservation: an object can tolerate high change while still preserving identity if invariants survive. 0=brittle, collapses on minimal change; 5=high tolerance for morphing while retaining core.",
+      "applies_to": ["ont_005_continuity"]
+    },
+    "artificiality_penalty": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Penalty applied when the object is detected as surface-only construction: social script, performed depth, AI slop, influencer aesthetics, generic production. 0=no penalty detected; 5=maximal rejection triggered.",
+      "applies_to": ["ont_003_inspection", "ont_002_convergence"]
+    },
+    "inspection_deepening": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Degree to which closer inspection rewards attention with more coherent, layered, or structurally consistent content. Surface acts as portal. 0=inspection adds nothing; 5=each inspection layer reveals more consistent interior.",
+      "applies_to": ["ont_003_inspection"],
+      "mutually_exclusive_with": "inspection_collapse"
+    },
+    "inspection_collapse": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Degree to which closer inspection reveals emptiness, inconsistency, or mask. Surface acts as performance. 0=no collapse; 5=inspection fully exposes surface-only construction.",
+      "applies_to": ["ont_003_inspection"],
+      "mutually_exclusive_with": "inspection_deepening"
+    },
+    "overall_response": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Net predicted or observed response. 0=rejection/repellent; 1=avoidance; 2=tolerance; 3=neutral/passive interest; 4=positive engagement; 5=peak attractor / addictive.",
+      "required": true
+    }
+  },
+  "scoring_rules": {
+    "inspection_note": "inspection_deepening and inspection_collapse are mutually exclusive at high values. An item scoring 4-5 on one should score 0-1 on the other. Stable items (neither deepen nor collapse) score 2-3 on both or 0 on both.",
+    "waste_useful_note": "waste_friction and useful_friction are independent. An object can have both (useful challenge wrapped in frustrating UI). Record both.",
+    "overall_note": "overall_response is the only required dimension. All others are scored only for tests where they apply."
+  }
+}
