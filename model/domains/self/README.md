@@ -1,6 +1,6 @@
-﻿# Cognition Domain — Helix Analysis Pipeline
+# Self Domain — Helix Analysis Pipeline
 
-**Location**: `model/domains/cognition/`  
+**Location**: `model/domains/self/`  
 **Version**: 0.3  
 **Status**: Operational — minimal fixture/probe/validation layer implemented  
 **Updated**: 2026-03-21  
@@ -16,7 +16,7 @@
 
 ## Vision
 
-The cognition domain studies **trajectory dynamics** — how systems move through
+The self domain studies **trajectory dynamics** — how systems move through
 constrained possibility spaces, accumulate tension, and narrow into committed
 trajectories.
 
@@ -45,9 +45,9 @@ domain — not identical to it.
 
 ## Role Within Helix
 
-The cognition domain provides:
+The self domain provides:
 
-1. **DCP test environment** — the cognition domain is the primary operational environment for testing DCP claims in agent systems. DCP is the *event-level principle* (collapse/commitment); trajectory dynamics is the *process model*; cognition provides the *observational substrate*.
+1. **DCP test environment** — the self domain is the primary operational environment for testing DCP claims in agent systems. DCP is the *event-level principle* (collapse/commitment); trajectory dynamics is the *process model*; cognition provides the *observational substrate*.
 2. **Cross-agent comparison** — the same trajectory/collapse framework applied to human participants, AI systems, and simulated toy agents
 3. **Collapse morphology classification** — first-class classification of post-collapse outcome type, using the canonical `CollapseMorphology` enum (`system/engine/compute/invariants/dcp/morphology.py`)
 4. **Perturbation and recovery probing** — measuring how systems respond to disruption of their possibility space
@@ -121,7 +121,7 @@ These categories are:
 ## Directory Structure
 
 ```
-model/domains/cognition/
+model/domains/self/
   fixtures/
     branching.py          — toy branching decision fixture (4 schedules + perturbation)
     attractor.py          — recurrent basin fixture (entropy-based breadth + perturbation)
@@ -224,17 +224,17 @@ End-to-end demo: `python -m domains.self.e2e`
 
 ## Framework Layer Map
 
-The cognition domain sits within a layered framework:
+The self domain sits within a layered framework:
 
 | Layer | What | Reference |
 |-------|------|-----------|
 | **Trajectory dynamics** | Process model — full motion from possibility space through collapse | This domain's framing |
 | **DCP** | Event-level principle — defines what a compression/collapse event is | `docs/invariants/decision_compression_principle.md` |
 | **Collapse morphology** | Classification layer — what kind of outcome the collapse produces | `system/engine/compute/invariants/dcp/morphology.py` |
-| **Cognition domain** | Operational test environment — applies above to agent state trajectories | `model/domains/cognition/` |
+| **Self domain** | Operational test environment — applies above to agent state trajectories | `model/domains/self/` |
 | **Consciousness research** | Speculative/interpretive layer — above this domain, not inside it | Not a Helix claim |
 
-DCP is the *event-level principle* within trajectory dynamics. The cognition domain
+DCP is the *event-level principle* within trajectory dynamics. The self domain
 studies DCP events in agent systems. They are connected but not identical — do not
 treat DCP as cognition-specific, or cognition as a proof of DCP.
 

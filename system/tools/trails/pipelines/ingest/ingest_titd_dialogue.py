@@ -277,9 +277,10 @@ def run(batch: int, dry_run: bool, single_search: str | None):
 
         totals = ingest_character(eid, name, c, dry_run)
 
+        band100_suffix = f", {totals['band100']} kai" if totals['band100'] else ""
         print(f"{totals['inserted']:>4} lines  "
               f"({totals['pages']} pages"
-              f"{f', {totals[\"band100\"]} kai' if totals['band100'] else ''})")
+              f"{band100_suffix})")
 
         session['chars']   += 1
         session['lines']   += totals['inserted']

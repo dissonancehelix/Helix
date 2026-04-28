@@ -64,6 +64,11 @@ When sources disagree, create or update `model/map/anomalies.yaml`; do not silen
 - **`reports/`** — epistemic airlocks. Generated meaning waits here before promotion.
 - **`quarantine/`** — staged removals, uncertain moves, and rollback manifests.
 
+Local bridge paths such as `C:\Users\dissonance\Music`, foobar2000 profile paths,
+WSL `/home/dissonance` paths, and legacy `Desktop/Helix` or `Desktop/Trails`
+references are workstation-specific bridge targets. They are configurable/local
+coordinates, not Helix ontology.
+
 ---
 
 ## Workstation Laws

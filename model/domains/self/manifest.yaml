@@ -1,5 +1,5 @@
-﻿manifest_schema: manifest_schema_v1
-domain: cognition
+manifest_schema: manifest_schema_v1
+domain: self
 version: "0.3"
 status: stub  # implemented | partial | stub | not_started
 runtime_maturity: partial  # fixtures + probes + validation exist; no HSL/Atlas
@@ -11,12 +11,12 @@ purpose: >
   measurable framework for DCP-family observations in agent systems.
 
 docs:
-  readme: model/domains/cognition/README.md
-  spec: model/domains/cognition/SPEC.md
+  readme: model/domains/self/README.md
+  spec: model/domains/self/SPEC.md
 
 domain_local_metrics:
   class: CognitionStateVector  # not yet implemented
-  path: model/domains/cognition/  # no module file exists yet
+  path: model/domains/self/  # no module file exists yet
   axes:
     - possibility_breadth
     - constraint_intensity
@@ -46,7 +46,7 @@ entry_point:
   hsl_implemented: false
 
 runtime:
-  pipeline: model/domains/cognition/e2e.py  # end-to-end demo path exists
+  pipeline: model/domains/self/e2e.py  # end-to-end demo path exists
   pipeline_status: partial
   stages:
     - { stage: 1, name: observation_ingestion,    status: not_started }  # no real agent input
@@ -69,30 +69,30 @@ collapse_morphology:
 
 fixtures:
   - name: branching
-    path: model/domains/cognition/fixtures/branching.py
+    path: model/domains/self/fixtures/branching.py
     module: domains.self.fixtures.branching
     config: BranchingConfig
     description: >
       Toy system with configurable constraint schedule (linear, step, exponential, none).
       Perturbation support. Produces TrajectoryLog with full probe pipeline integration.
     status: implemented
-    formal_harness: true  # model/domains/cognition/validation/cognition_fixture.py
+    formal_harness: true  # model/domains/self/validation/cognition_fixture.py
     produces_artifact: true  # TrajectoryLog (JSON-serializable)
     schedules: [linear, step, exponential, none]
 
   - name: attractor
-    path: model/domains/cognition/fixtures/attractor.py
+    path: model/domains/self/fixtures/attractor.py
     module: domains.self.fixtures.attractor
     config: AttractorConfig
     description: >
       Probability distribution over N discrete states pulled toward attractor basin.
       Possibility breadth from Shannon entropy. Perturbation support.
     status: implemented
-    formal_harness: true  # model/domains/cognition/validation/cognition_fixture.py
+    formal_harness: true  # model/domains/self/validation/cognition_fixture.py
     produces_artifact: true  # TrajectoryLog (JSON-serializable)
 
 validation:
-  domain_harness: model/domains/cognition/validation/cognition_fixture.py
+  domain_harness: model/domains/self/validation/cognition_fixture.py
   domain_harness_status: implemented  # 18/18 checks pass (2026-03-21)
   sections: [A_determinism, B_collapse_sanity, C_morphology_sanity, D_output_validity]
   governance_boundary: system/engine/contract/validation/validation/boundary_validator.py

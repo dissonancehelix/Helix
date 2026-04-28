@@ -23,7 +23,7 @@ def test_actions():
             row = conn.execute("SELECT file_path FROM tracks LIMIT 1").fetchone()
             if row:
                 mock_path = row[0]
-from system.tools.music_bridge.metadata_adapter import _path_to_uri
+                from system.tools.music_bridge.metadata_adapter import _path_to_uri
                 mock_uri = _path_to_uri(mock_path)
                 mock_track = bridge.resolve(mock_uri)
                 if mock_track:

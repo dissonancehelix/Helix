@@ -17,6 +17,14 @@ Operational tools live here: pipelines, bridges, importers, exporters, diagnosti
 4. Any writeback to an external app requires identity, diff, backup, rollback, evidence, and explicit operator approval.
 5. If a workflow is a pipeline of helpers, document the pipeline here instead of adding another top-level script.
 
+## Local Bridge Paths
+
+Some tools intentionally point at operator-local targets such as the music
+library, foobar2000 profile database, WSL mirrors, or the legacy Trails working
+tree. Treat hardcoded `C:\Users\dissonance`, `/home/dissonance`, `Desktop/Helix`,
+and `Desktop/Trails` paths as local-only bridge defaults unless the tool README
+or manifest marks them as portable configuration.
+
 ## First Tools To Check
 
 - Workspace audit: `workstation_bridge`
@@ -26,4 +34,3 @@ Operational tools live here: pipelines, bridges, importers, exporters, diagnosti
 - Trails corpus and wiki pipeline: `trails`
 - Language/template pipeline: `language_pipeline`
 - Games taste/platform pipeline: `games_pipeline`
-

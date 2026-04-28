@@ -5,3 +5,4 @@ A practical tool for querying, indexing, and interfacing with the Kiseki/Trails 
 **Constraints:**
 - This is a functional tool. 
 - All local exports, scripts, and interface logic must remain inside this directory.
+- `Desktop/Trails` paths are legacy/local bridge targets for the existing Trails database; do not treat them as Helix folder structure.

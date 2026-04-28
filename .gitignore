@@ -18,8 +18,14 @@ reports/analyses/workstation/workstation_snapshot_*.md
 
 # External Toolkits & Source Mirrors
 system/vendor/
+!system/vendor/
+!system/vendor/README.md
+system/vendor/music_toolkits/
 system/tools/foobar-spatial-dsp/vgmspc/
 **/.git/
+
+# Local/generated visual corpus pending review; not part of root ontology.
+visual_corpus/
 
 # Quarantine keeps manifests in git; bulky staged material remains local.
 quarantine/**

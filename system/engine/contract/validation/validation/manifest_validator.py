@@ -268,7 +268,6 @@ def validate_all(root_manifest_path: Path | None = None) -> dict:
 
     # Application manifests (applications/ removed — tooling lives in model/domains/)
     app_results = {}
-        all_violations += av
 
     passed = len(all_violations) == 0
     return {

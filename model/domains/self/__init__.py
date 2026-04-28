@@ -1,2 +1,2 @@
-﻿# model/domains/cognition/__init__.py
+# model/domains/self/__init__.py
 

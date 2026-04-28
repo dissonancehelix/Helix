@@ -14,7 +14,7 @@ ALLOWED_ROOT_FILES = REQUIRED_ROOT_FILES | {"CLAUDE.md", ".gitignore", ".gitattr
 
 # data/ is canonical evidence lake, kept at root.
 # scratch/ is legacy temporary — warn-only, decision deferred.
-LEGACY_TEMP_DIRS = {"scratch"}
+LEGACY_TEMP_DIRS = {"scratch", "visual_corpus"}
 ALLOWED_ROOT_DIRS = REQUIRED_ROOT_DIRS | {".git", ".github", ".vscode"} | LEGACY_TEMP_DIRS
 
 # Files that are ignorable at the root (transitional artifacts, prompt files, etc).

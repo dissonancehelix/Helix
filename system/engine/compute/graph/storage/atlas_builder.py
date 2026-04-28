@@ -82,7 +82,7 @@ def build_atlas_entry(
     """
     Build a single Atlas invariant entry from a list of probe run results.
     """
-    scoring = import_module(\"engine.core.engine.kernel.graph.storage.confidence_scoring")
+    scoring = import_module("engine.core.engine.kernel.graph.storage.confidence_scoring")
     agg = scoring.aggregate_run_results(run_results)
     confidence = scoring.score_confidence(
         agg["observed_domains"], agg["pass_rate"], agg["mean_signal"]
