@@ -1,0 +1,23 @@
+manifest_schema: manifest_schema_v1
+domain: wiki
+version: "0.1"
+status: partial
+
+purpose: >
+  Own Wikipedia editing, article architecture, citations, templates, infoboxes,
+  public knowledge compression, and proposal/writeback workflows.
+
+docs:
+  readme: domains/wiki/README.md
+
+runtime:
+  tools:
+    - domains/wiki/tools/wiki_tools/
+
+data:
+  normalized: domains/wiki/data/normalized/
+  derived: domains/wiki/data/derived/
+  raw_provenance: archive/raw/
+
+known_gaps:
+  - Wiki tooling overlaps with language tooling; ownership should stay with the workflow's primary output.

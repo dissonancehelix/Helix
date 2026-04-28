@@ -1,4 +1,4 @@
-﻿# Ontology Test Report
+# Ontology Test Report
 
 **Test ID:** `ont_004_boundary`
 **Test Name:** Inside-Outside Mapping
@@ -17,7 +17,7 @@ TEST 4 differs from the other five because its null hypothesis is behavioral, no
 
 ## Scoring Summary
 
-### Item 1 — `system/engine/contract/` (workspace, inside_outside)
+### Item 1 — `core/engine/contract/` (workspace, inside_outside)
 
 **Analysis:**
 The contract directory is defined entirely by what it protects and excludes. From README.md: "contract — schemas, validators, manifests, boundaries." There is no topic here — there is only a function (boundary enforcement). The inside contains: constraints that govern behavior at module interfaces. The outside contains: everything that uses those constraints but doesn't define them.
@@ -70,7 +70,7 @@ The failure is not absence of boundary but false boundary: the stated inside is 
 ### Item 4 — Person with stated values that actually govern behavior (social, inside_outside)
 
 **Analysis:**
-The claimed inside matches the actual inside. The stated boundary (what they will and won't do) is also the real boundary. Behavior at the boundary is predictable from the stated rules. This is the social equivalent of system/engine/contract/ — the contract is real, not decorative.
+The claimed inside matches the actual inside. The stated boundary (what they will and won't do) is also the real boundary. Behavior at the boundary is predictable from the stated rules. This is the social equivalent of core/engine/contract/ — the contract is real, not decorative.
 
 | Dimension | Predicted | Actual | Delta |
 |---|---|---|---|

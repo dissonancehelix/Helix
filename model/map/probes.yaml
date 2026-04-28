@@ -1,9 +1,0 @@
-﻿# model/map/probes.yaml — active probes.
-# Questions, tests, or measurements designed to falsify or sharpen a pattern.
-# Probes belong here when the question is stable enough to track over time.
-# Item shape: { id, question, targets: [pattern_id...], lab, status }
-
-version: 0.1
-status: scaffold
-items: []
-

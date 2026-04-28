@@ -2,40 +2,51 @@
 # Helix Boundary Enforcement: Ignored Data & Bloat
 # -------------------------------------------------------------------
 
-# Archived Raw Dumps
-data/archives/raw_datasets/
-data/archives/extracted/
-data/music/library/
-data/music/phase6/
+# Raw provenance is local by default. Keep only pointer docs/manifests.
+archive/raw/**
+!archive/raw/
+!archive/raw/README.md
 
-# Generated Pipeline, Indexes & Local DBs
-data/derived/trails/retrieval/index/
-data/derived/music_pipeline/
-data/derived/games_pipeline/
-data/derived/language_pipeline/
-data/derived/atlas_staging/
-reports/analyses/workstation/workstation_snapshot_*.json
-reports/analyses/workstation/workstation_snapshot_*.md
-reports/analyses/loose_images/
-reports/analyses/attraction_images/
+# Bulky migrated review/history outputs.
+archive/analyses/loose_images/
+archive/analyses/attraction_images/
 
-# External Toolkits & Source Mirrors
-system/vendor/
-!system/vendor/
-!system/vendor/README.md
-system/vendor/music_toolkits/
-system/tools/foobar-spatial-dsp/vgmspc/
+# Core sensor outputs.
+core/reports/workstation/workstation_snapshot_*.json
+core/reports/workstation/workstation_snapshot_*.md
+
+# Domain vendor mirrors and local source trees.
+domains/*/vendor/**
+!domains/*/vendor/
+!domains/*/vendor/README.md
+domains/music/tools/foobar-spatial-dsp/vgmspc/
+
+# Heavy domain-local data, caches, and generated pipeline outputs.
+domains/music/data/derived/music/library/
+domains/music/data/derived/music/phase6/
+domains/music/data/derived/music/metadata/lastfmstats-*.json
+domains/music/data/derived/music/metadata/*playcount*.json
+domains/music/data/derived/music_pipeline/
+domains/music/data/derived/atlas_staging/
+domains/games/data/derived/games/steamspy_cache/
+domains/games/data/derived/games_pipeline/
+domains/language/data/derived/language/ud_cache/
+domains/language/data/derived/language_pipeline/
+domains/trails/data/derived/trails/retrieval/index/
+
+# Nested repos are provenance, not Helix structure.
 **/.git/
 
 # Quarantine keeps manifests in git; bulky staged material remains local.
 quarantine/**
+!quarantine/
 !quarantine/README.md
 !quarantine/2026-04-27-workspace-refactor/
 !quarantine/2026-04-27-workspace-refactor/MIGRATION_MANIFEST.md
 !quarantine/2026-04-28-domain-prune/
 !quarantine/2026-04-28-domain-prune/MIGRATION_MANIFEST.md
 
-# Heavy Files & Binaries (Global)
+# Heavy files and binaries.
 *.parquet
 *.csv
 *.tsv
@@ -51,8 +62,9 @@ quarantine/**
 *.vgm
 *.exe
 *.dll
+*.zip
 
-# OS & Python Tooling
+# OS and Python tooling.
 .DS_Store
 Thumbs.db
 .pytest_cache/
@@ -64,12 +76,60 @@ __pycache__/
 venv/
 node_modules/
 
-# -------------------------------------------------------------------
-# Exceptions (Load-Bearing Structure)
-# -------------------------------------------------------------------
-# Ensure atlas is NEVER accidentally ignored by broad rules
-!data/derived/
-!data/derived/atlas/
-!data/derived/atlas/**
+# Local editor/agent state.
 .vscode/
 .claude/
+
+# -------------------------------------------------------------------
+# Exceptions: Load-Bearing Structure
+# -------------------------------------------------------------------
+
+!archive/migrations/
+!archive/migrations/**
+!domains/*/README.md
+!domains/*/manifest.yaml
+!domains/*/model/**
+!domains/*/tools/**
+!domains/*/labs/**
+!domains/*/reports/**
+!domains/*/data/
+!domains/*/data/normalized/
+!domains/*/data/derived/
+!core/**
+!labs/**
+
+# Final bloat guards after broad structure exceptions.
+archive/raw/**
+!archive/raw/
+!archive/raw/README.md
+domains/*/vendor/**
+!domains/*/vendor/
+!domains/*/vendor/README.md
+domains/music/tools/foobar-spatial-dsp/vgmspc/
+domains/music/data/derived/music/library/
+domains/music/data/derived/music/phase6/
+domains/music/data/derived/music/metadata/lastfmstats-*.json
+domains/music/data/derived/music/metadata/*playcount*.json
+domains/music/data/derived/music_pipeline/
+domains/music/data/derived/atlas_staging/
+domains/games/data/derived/games/steamspy_cache/
+domains/language/data/derived/language/ud_cache/
+domains/trails/data/derived/trails/retrieval/index/
+
+*.parquet
+*.csv
+*.tsv
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+*.mp3
+*.flac
+*.wav
+*.spc
+*.vgz
+*.vgm
+*.exe
+*.dll
+*.zip
+*.pyc

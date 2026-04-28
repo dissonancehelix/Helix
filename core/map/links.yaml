@@ -1,0 +1,51 @@
+# core/map/links.yaml — cross-references binding patterns ↔ examples ↔ domains ↔ labs ↔ data paths.
+# Used by core/engine/checks to detect drift (broken IDs, stale links, orphan nodes).
+# Item shape: { from, to, kind: supports|elaborates|contradicts|measures|stores, status }
+
+version: 0.1
+status: scaffold
+items:
+  - from: music.foobar_local_music_atlas
+    to: domains/music/model/foobar/README.md
+    kind: elaborates
+    status: seed
+  - from: music.foobar_local_music_atlas
+    to: domains/music/model/README.md
+    kind: elaborates
+    status: seed
+  - from: music.foobar_local_music_atlas
+    to: domains/music/tools/music_bridge/README.md
+    kind: stores
+    status: seed
+  - from: music.foobar_vgm_hardware_metadata
+    to: domains/music/model/foobar/README.md
+    kind: elaborates
+    status: seed
+  - from: domains.active_externalized_chambers
+    to: domains/README.md
+    kind: elaborates
+    status: active
+  - from: food.thanksgiving_ritual_anchor
+    to: DISSONANCE.md
+    kind: supports
+    status: active
+  - from: internet.old_profile_rooms
+    to: domains/self/model/README.md
+    kind: elaborates
+    status: active
+  - from: aesthetics.visual_style_evidence
+    to: DISSONANCE.md
+    kind: supports
+    status: active
+  - from: attraction.image_evidence
+    to: archive/legacy/images/README.md
+    kind: stores
+    status: active
+  - from: attraction.image_evidence
+    to: domains/self/model/README.md
+    kind: elaborates
+    status: active
+  - from: sports.commanders_reed_jayden
+    to: domains/games/model/README.md
+    kind: elaborates
+    status: active

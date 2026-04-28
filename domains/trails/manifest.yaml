@@ -1,0 +1,23 @@
+manifest_schema: manifest_schema_v1
+domain: trails
+version: "0.1"
+status: partial
+
+purpose: >
+  Own Trails/Kiseki continuity, database, wiki/export, atlas work, and
+  world-memory analysis as a domain capsule.
+
+docs:
+  readme: domains/trails/README.md
+
+runtime:
+  tools:
+    - domains/trails/tools/trails/
+
+data:
+  normalized: domains/trails/data/normalized/
+  derived: domains/trails/data/derived/
+  raw_provenance: archive/raw/
+
+known_gaps:
+  - Trails derived data was moved into the capsule; path references need ongoing audit as pipelines are exercised.

@@ -1,4 +1,4 @@
-﻿# Inhabited Continuity Theory  
+# Inhabited Continuity Theory
 ## Working Draft v0.1 — Single-Document Summary
 
 This document preserves the current state of the theory so it does not get lost during workspace refactors.
@@ -114,7 +114,7 @@ Self is not merely a narrative. It is also not merely memory. It is a continuity
 
 The proposed relationship:
 
-> Consciousness is the field of appearance.  
+> Consciousness is the field of appearance.
 > Self is the continuity-bearing ownership structure that inhabits the field.
 
 Or shorter:
@@ -920,7 +920,7 @@ The first Helix implementation should create:
 
 Suggested path:
 
-labs/research/consciousness/inhibited_continuity/
+labs/inhabited_interiority/consciousness/inhibited_continuity/
 
 Suggested files:
 
@@ -996,4 +996,3 @@ That means:
 - run thought experiment matrices
 - connect to empirical literature
 - keep every claim tagged by strength
-

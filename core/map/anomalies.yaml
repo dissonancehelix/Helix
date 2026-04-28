@@ -1,0 +1,8 @@
+# core/map/anomalies.yaml — contradictions, mismatches, false positives, unresolved tensions.
+# Surfaced by labs/domains. Anomalies are first-class — never silently edited away.
+# Item shape: { id, description, conflicts_with: [pattern_id|example_id...], status }
+
+version: 0.1
+status: scaffold
+items: []
+

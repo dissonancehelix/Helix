@@ -1,4 +1,4 @@
-﻿# Test Registry — Inhabited Continuity Theory
+# Test Registry — Inhabited Continuity Theory
 # Machine-readable index of all structured tests.
 # Status: draft | active | paused | completed | rejected
 
@@ -23,7 +23,7 @@ tests:
     falsifying_pattern: >
       Every case of putative "covert consciousness" can be reinterpreted as either
       undetected report or unconscious processing. No empirical hook for experience-without-report.
-    output_artifact: labs/research/consciousness/reports/ict_001_ownership_without_report.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_001_ownership_without_report.md
     status: draft
 
   - id: ict_002_report_without_ownership
@@ -46,7 +46,7 @@ tests:
       Extended interaction with an LLM produces no reliable discriminating markers between
       its self-report and genuine owned experience report. Interior signal test loses
       discriminating power.
-    output_artifact: labs/research/consciousness/reports/ict_002_report_without_ownership.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_002_report_without_ownership.md
     status: draft
 
   - id: ict_003_continuity_through_transformation
@@ -69,7 +69,7 @@ tests:
     falsifying_pattern: >
       Identity intuitions consistently track label or substrate continuity even when invariants
       are replaced, or consistently fail to track invariant survival even when confirmed.
-    output_artifact: labs/research/consciousness/reports/ict_003_continuity_through_transformation.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_003_continuity_through_transformation.md
     status: draft
 
   - id: ict_004_branching_identity
@@ -93,7 +93,7 @@ tests:
     falsifying_pattern: >
       Split-brain or duplication cases produce a clear, stable, agreed-upon answer about which
       branch (or both branches) preserves full continuity — dissolving the paradox cleanly.
-    output_artifact: labs/research/consciousness/reports/ict_004_branching_identity.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_004_branching_identity.md
     status: draft
 
   - id: ict_005_boundary_collapse
@@ -119,7 +119,7 @@ tests:
     falsifying_pattern: >
       Ego dissolution reliably produces total absence of experience (not just self), OR
       complete preservation of all ownership markers despite reported boundary dissolution.
-    output_artifact: labs/research/consciousness/reports/ict_005_boundary_collapse.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_005_boundary_collapse.md
     status: draft
 
   - id: ict_006_integration_vs_ownership
@@ -143,7 +143,7 @@ tests:
     falsifying_pattern: >
       Every high-integration system for which we have reliable evidence also shows selfhood markers.
       Integration and selfhood cannot be dissociated empirically at any scale.
-    output_artifact: labs/research/consciousness/reports/ict_006_integration_vs_ownership.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_006_integration_vs_ownership.md
     status: draft
 
   - id: ict_007_embodiment_and_control
@@ -164,7 +164,7 @@ tests:
       ownership to non-body objects under sensory substitution.
     falsifying_pattern: >
       Complete motor decoupling with no effect whatsoever on any ownership or selfhood measure.
-    output_artifact: labs/research/consciousness/reports/ict_007_embodiment_and_control.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_007_embodiment_and_control.md
     status: draft
 
   - id: ict_008_memory_continuity
@@ -189,7 +189,7 @@ tests:
     falsifying_pattern: >
       Severe amnesia (with intact causal thread) reliably produces behavioral evidence of
       complete new-entity status — no sense of self, no ownership binding even in the present.
-    output_artifact: labs/research/consciousness/reports/ict_008_memory_continuity.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_008_memory_continuity.md
     status: draft
 
   - id: ict_009_ai_simulated_selfhood
@@ -215,7 +215,7 @@ tests:
     falsifying_pattern: >
       No reliable marker distinguishes LLM self-reports from human self-reports under extended
       deep inspection. Interior signal test completely fails to discriminate.
-    output_artifact: labs/research/consciousness/reports/ict_009_ai_simulated_selfhood.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_009_ai_simulated_selfhood.md
     status: draft
 
   - id: ict_010_portable_self_continuity_carrier
@@ -241,6 +241,6 @@ tests:
       A plausible portable carrier can be specified that: preserves singular ownership,
       is causally continuous, is non-branching in principle, and survives thought-experiment
       pressure without ad-hoc additions.
-    output_artifact: labs/research/consciousness/reports/ict_010_portable_carrier.md
+    output_artifact: labs/inhabited_interiority/consciousness/reports/ict_010_portable_carrier.md
     status: draft
 

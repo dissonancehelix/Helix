@@ -1,0 +1,207 @@
+version: 0.1
+status: canonical
+updated: 2026-04-27
+items:
+  - id: tool.workstation_bridge
+    name: workstation_bridge
+    role: canonical
+    purpose: Read-only inventory of the Helix workspace and registered sources.
+    entrypoint: python core/tools/workstation_bridge/workstation_snapshot.py --root . --config core/tools/workstation_bridge/config.example.yaml --out core/reports/workstation
+    inputs:
+      - core/map/sources.yaml
+      - core/tools/workstation_bridge/config.example.yaml
+    outputs:
+      - core/reports/workstation/
+    safety_mode: read_only; writes reports only inside the repo.
+    artifact_report_path: core/reports/workstation/
+    deprecated_helpers_replaced:
+      - ad hoc root tree scans
+      - manual README coverage sweeps
+
+  - id: tool.boundary_check
+    name: boundary_check
+    role: canonical
+    purpose: Validate root ontology, map YAML shape, required folders, and loose root files.
+    entrypoint: python core/engine/agent_harness/check_workspace.py
+    inputs:
+      - README.md
+      - DISSONANCE.md
+      - AGENTS.md
+      - core/map/*.yaml
+      - domains/*/README.md
+    outputs:
+      - console validation result
+    safety_mode: read_only.
+    artifact_report_path: core/reports/workstation/ when paired with workstation_bridge.
+    deprecated_helpers_replaced:
+      - manual ontology checks
+      - old root-folder checks for apps/, domains/, helix/, intake/, map/
+
+  - id: tool.music_bridge
+    name: music_bridge
+    role: canonical
+    purpose: Read-only bridge between foobar2000/library state and Helix-shaped music review records.
+    entrypoint: python -m domains.music.tools.music_bridge.diagnostics
+    inputs:
+      - foobar2000/library exports
+      - core/atlas/
+      - domains/music/model/
+    outputs:
+      - domains/music/reports/
+      - domains/music/core/atlas/
+    safety_mode: read_only/proposal_only unless trust gates are explicitly satisfied.
+    artifact_report_path: domains/music/reports/
+    deprecated_helpers_replaced:
+      - direct foobar mutation scripts
+      - manual music atlas reconciliation notes
+
+  - id: tool.music_pipeline
+    name: music_pipeline
+    role: canonical
+    purpose: Multi-stage music metadata, entity, taste, retrieval, and materialization pipeline.
+    entrypoint: python -m domains.music.tools.music_pipeline.router
+    inputs:
+      - archive/raw/ restored locally when source re-ingest is needed
+      - domains/music/data/derived/music/
+      - domains/music/domains/music/data/derived/music_pipeline/data/
+      - domains/music/vendor/music_toolkits/
+    outputs:
+      - domains/music/domains/music/data/derived/music_pipeline/
+      - domains/music/reports/
+    safety_mode: read_write_gated for derived artifacts; no raw evidence deletion.
+    artifact_report_path: domains/music/reports/
+    deprecated_helpers_replaced:
+      - one-off music ingestion scripts
+      - direct domains/music/data/derived/music/library mutations
+
+  - id: tool.foobar
+    name: foobar
+    role: canonical
+    purpose: foobar2000 audit, semantic diff, reporting, and repair-plan workflow.
+    entrypoint: python -m domains.music.tools.foobar.runner
+    inputs:
+      - foobar2000 exports or local database snapshots
+      - domains/music/domains/music/data/derived/music_pipeline/
+    outputs:
+      - domains/music/reports/
+      - patch or repair proposals
+    safety_mode: proposal_only by default; external writeback requires full trust gates.
+    artifact_report_path: domains/music/reports/
+    deprecated_helpers_replaced:
+      - direct playlist/tag repair scripts without review output
+
+  - id: tool.trails
+    name: trails
+    role: canonical
+    purpose: Trails corpus ingest, normalization, retrieval, and wiki/export pipeline.
+    entrypoint: python domains/trails/tools/trails/pipelines/generate/generate_atlas.py
+    inputs:
+      - archive/raw/ restored locally when Trails corpus re-ingest is needed
+      - domains/trails/domains/trails/data/derived/trails/retrieval/index/
+    outputs:
+      - domains/trails/domains/trails/data/derived/trails/
+      - domains/trails/reports/
+    safety_mode: derived_artifacts_only unless a specific external wiki writeback gate is opened.
+    artifact_report_path: domains/trails/reports/
+    deprecated_helpers_replaced:
+      - domains/trails/tools/trails/archive/one_time_seeds/*
+      - domains/trails/tools/trails/scratch/*
+
+  - id: tool.language_pipeline
+    name: language_pipeline
+    role: canonical
+    purpose: Language corpus loading, pattern mining, template indexing, and rewrite/critique workflow.
+    entrypoint: python -m domains.language.tools.language_pipeline.pipeline
+    inputs:
+      - archive/raw/ restored locally when source re-ingest is needed
+      - domains/language/model/
+    outputs:
+      - domains/language/data/derived/language_pipeline/
+      - domains/language/reports/
+    safety_mode: read_write_gated for derived artifacts; reports before canon.
+    artifact_report_path: domains/language/reports/
+    deprecated_helpers_replaced:
+      - isolated language pattern mining scripts
+
+  - id: tool.games_pipeline
+    name: games_pipeline
+    role: canonical
+    purpose: Game taste modeling, platform ingest, and experiment loading.
+    entrypoint: python -m domains.games.tools.games_pipeline.run_taste
+    inputs:
+      - domains/games/model/
+      - archive/raw/ restored locally when source re-ingest is needed
+    outputs:
+      - domains/games/data/derived/games_pipeline/
+      - domains/games/reports/
+    safety_mode: read_only/proposal_only unless writing derived artifacts.
+    artifact_report_path: domains/games/reports/
+    deprecated_helpers_replaced:
+      - standalone game taste probes
+
+  - id: tool.cognition_pipeline
+    name: cognition_pipeline
+    role: stage_helper
+    purpose: Small cognitive-mapping experiment pipeline used by labs.
+    entrypoint: python -m domains.self.tools.cognition_pipeline.e2e
+    inputs:
+      - labs/
+      - core/map/
+    outputs:
+      - domains/self/reports/
+    safety_mode: lab_artifacts_only.
+    artifact_report_path: domains/self/reports/
+    deprecated_helpers_replaced: []
+
+  - id: tool.wiki_tools
+    name: wiki_tools
+    role: stage_helper
+    purpose: Wiki-oriented helper runner for import/export and page operations.
+    entrypoint: python -m domains.wiki.tools.wiki_tools.runner
+    inputs:
+      - domains/wiki/model/
+      - archive/raw/ restored locally when source re-ingest is needed
+    outputs:
+      - domains/wiki/reports/
+    safety_mode: proposal_only unless an explicit external write gate is opened.
+    artifact_report_path: domains/wiki/reports/
+    deprecated_helpers_replaced: []
+
+  - id: tool.spanish
+    name: spanish
+    role: stage_helper
+    purpose: Spanish-language learning or analysis helper.
+    entrypoint: python -m domains.language.tools.spanish.spanish_tool
+    inputs:
+      - domains/language/model/
+    outputs:
+      - domains/language/reports/
+    safety_mode: read_only/proposal_only.
+    artifact_report_path: domains/language/reports/
+    deprecated_helpers_replaced: []
+
+  - id: tool.spc2mid
+    name: spc2mid
+    role: stage_helper
+    purpose: Local conversion helper for SPC-to-MIDI/music substrate experiments.
+    entrypoint: domains/music/tools/spc2mid/
+    inputs:
+      - archive/raw/ restored locally when source re-ingest is needed
+    outputs:
+      - domains/music/domains/music/data/derived/music_pipeline/
+    safety_mode: local_artifact_generation; never delete source audio.
+    artifact_report_path: domains/music/reports/
+    deprecated_helpers_replaced: []
+
+  - id: tool.foobar_spatial_dsp
+    name: foobar-spatial-dsp
+    role: legacy
+    purpose: Local/vendor-like foobar2000 DSP build workspace.
+    entrypoint: domains/music/tools/foobar-spatial-dsp/
+    inputs:
+      - local source tree
+    outputs:
+      - build artifacts outside canonical model or domain data unless explicitly captured
+    safety_mode: isolated build workspace.
+    artifact_report_path: domains/music/reports/
+    deprecated_helpers_replaced: []

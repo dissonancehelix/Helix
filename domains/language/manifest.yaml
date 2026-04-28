@@ -1,0 +1,28 @@
+manifest_schema: manifest_schema_v1
+domain: language
+version: "0.1"
+status: partial
+
+purpose: >
+  Own linguistics, English, Spanish, grammar, register, translation alignment,
+  language learning, and public-language structure as a first-class Helix
+  domain capsule.
+
+docs:
+  readme: domains/language/README.md
+
+runtime:
+  tools:
+    - domains/language/tools/language_pipeline/
+    - domains/language/tools/spanish/
+  labs:
+    - domains/language/labs/
+
+data:
+  normalized: domains/language/data/normalized/
+  derived: domains/language/data/derived/
+  raw_provenance: archive/raw/
+
+known_gaps:
+  - Domain model depth is newly promoted and needs a fuller operational README.
+  - Spanish and English surfaces need explicit substructure under model/.

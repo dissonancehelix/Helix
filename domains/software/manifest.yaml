@@ -1,0 +1,18 @@
+manifest_schema: manifest_schema_v1
+domain: software
+version: "0.1"
+status: partial
+
+purpose: >
+  Own Helix-as-software, schemas, inspectable agency, workspace design, and
+  implementation patterns as a domain capsule.
+
+docs:
+  readme: domains/software/README.md
+
+data:
+  normalized: domains/software/data/normalized/
+  derived: domains/software/data/derived/
+
+known_gaps:
+  - Capsule exists, but domain-local tooling and data are not yet decompressed.

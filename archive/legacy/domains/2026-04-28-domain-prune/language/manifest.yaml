@@ -1,0 +1,312 @@
+manifest_schema: manifest_schema_v1
+domain: language
+version: "1.2"
+status: partial
+
+purpose: >
+  Decompose linguistic communication into structural invariants across lexical,
+  syntactic, and semantic layers. Identify structural identity that survives
+  translation or register shift.
+
+docs:
+  readme: domains/language/model/README.md
+  spec: domains/language/model/SPEC.md
+
+domain_local_metrics:
+  class: LanguageStructuralSignals
+  path: domains/language/model/feature_extraction/
+  layers:
+    lexical:
+      - morpheme_density
+      - lexical_diversity
+      - phonetic_entropy
+    syntactic:
+      - phrasal_depth
+      - dependency_length
+      - inflectional_constraint
+      - phrasal_repetition_rate
+    semantic:
+      - topic_cohesion
+      - argument_structure_complexity
+      - topic_transition_smoothness
+
+shared_embedding:
+  adapter: domains/language/model/feature_extraction/structural_vector.py
+  projection_schema: language_v1
+  output_format: HelixEmbedding
+  axes:
+    - complexity
+    - structure
+    - repetition
+    - density
+    - expression
+    - variation
+  confidence_floor: 0.30
+  confidence_calibration_status: heuristic_null_model
+
+entry_point:
+  target: "HSL: INGEST_TRACK language.<id>, ANALYZE_TRACK language.<id>"
+  current: "SUBSTRATE run name:language corpus:<fixture> lang:<language>"
+  hsl_implemented: true
+
+runtime:
+  pipeline: domains/language/model/pipeline.py
+  pipeline_status: partial
+  runtime_blocks:
+    - substrate
+    - dcp
+    - corpus
+    - structure
+    - semantic
+    - parser_traces
+  stages:
+    - { stage: 1, name: ingestion,         path: domains/language/model/ingestion/,            status: implemented }
+    - { stage: 2, name: tokenization,      path: domains/language/model/feature_extraction/,   status: heuristic }
+    - { stage: 3, name: syntax_parse,      path: domains/language/model/structural_analysis/,  status: heuristic }
+    - { stage: 4, name: semantic_tagging,  path: domains/language/model/pattern_detection/,    status: fixture_backed }
+    - { stage: 5, name: feature_fusion,    path: domains/language/model/pipeline.py,           status: implemented }
+    - { stage: 6, name: atlas_compilation, path: core/engine/store/compiler/atlas_compiler.py,        status: optional }
+  artifact_schemas:
+    substrate: language_substrate_v1
+    dcp: language_dcp_block_v1
+    corpus: language_corpus_block_v1
+    structure: language_structure_block_v1
+    semantic: language_semantic_block_v1
+    parser_traces: language_parser_trace_v1
+
+fixtures:
+  - domains/language/data/derived/language/spanish_construction_map.json
+  - domains/language/data/derived/language/english_construction_map.json
+  - domains/language/data/derived/language/en_es_alignment.json
+  - domains/language/data/derived/language/spanish_registers.json
+  - domains/language/data/derived/language/english_registers.json
+  - domains/language/data/derived/language/grammar_resolution.json
+
+validation:
+  domain_harness: domains/language/model/validation/test_language_stack.py
+  domain_harness_status: implemented
+  suites:
+    - domains/language/model/validation/test_language_contracts.py
+    - domains/language/model/validation/test_language_transforms.py
+    - domains/language/model/validation/test_language_controls.py
+    - domains/language/model/validation/test_language_stack.py
+  governance_boundary: core/engine/contract/validation/validation/boundary_validator.py
+
+atlas_persistence:
+  status: optional
+  gate: core/engine/store/compiler/atlas_compiler.py
+
+dependencies:
+  core:
+    - core/engine/contract/validation/
+    - core/engine/store/compiler/atlas_compiler.py
+  external: []
+
+wikipedia_operator:
+  status: implemented
+  operator_account: Dissident93
+  subsystem_path: domains/language/model/wikipedia/
+  subsystems:
+    account_ingest:
+      path: domains/language/model/wikipedia/account_ingest/
+      status: implemented
+      description: Wraps wikimedia ingestion layer; extracts template-focused edit patterns
+      artifact_cache: core/tools/wikimedia/artifacts/wiki_20260329_222848/
+    template_index:
+      path: domains/language/model/wikipedia/template_index/
+      status: implemented
+      description: Fetches template source, TemplateData, /doc via official MediaWiki API
+      cache: core/tools/wikimedia/template_index/
+    sandbox:
+      path: domains/language/model/wikipedia/sandbox/
+      status: implemented
+      description: action=expandtemplates + action=parse validation surface; before/after compare
+    pattern_library:
+      path: domains/language/model/wikipedia/pattern_library/
+      status: implemented
+      description: Reusable wikitext/template patterns from operator edit history (10 patterns)
+    issue_solver:
+      path: domains/language/model/wikipedia/issue_solver/
+      status: implemented
+      description: Phase 2 upgrade — wired into dossiers, rule engine, anti-patterns, patch critic
+    operator:
+      path: domains/language/model/wikipedia/operator/
+      status: implemented
+      description: Unified entry point (WikiOperator); CLI surface at core/tools/wiki/
+    pattern_mining:
+      path: domains/language/model/wikipedia/pattern_mining/
+      status: implemented
+      description: Mines operator JSONL history for recurring edit patterns with confidence scoring
+    dossiers:
+      path: domains/language/model/wikipedia/dossiers/
+      status: implemented
+      description: Template family dossiers — NFL, VG, BLP; fragile zones, breakage patterns, policies
+    rule_engine:
+      path: domains/language/model/wikipedia/rule_engine/
+      status: implemented
+      description: WP:NFL, MOS:VG, MOS:GNG, WP:BLP rule precedence; conflict detection
+    anti_patterns:
+      path: domains/language/model/wikipedia/anti_patterns/
+      status: implemented
+      description: 12-entry breakage memory — bare params, missing defaults, BLP violations, etc.
+    patch_critic:
+      path: domains/language/model/wikipedia/patch_critic/
+      status: implemented
+      description: Evaluates proposed patches — anti-pattern + rule + sandbox; risk classification
+    corpus_ingest:
+      path: domains/language/model/wikipedia/corpus_ingest/
+      status: implemented
+      description: Phase 1.1 — fetches operator profile + rule corpus from Wikipedia API
+      targeted_corpus:
+        - User:Dissident93
+        - Wikipedia:Manual_of_Style/Video_games     (MOS:VG)
+        - Wikipedia:WikiProject_National_Football_League  (WP:NFL)
+        - Wikipedia:Manual_of_Style/Biography       (MOS:Biography)
+        - Wikipedia:Manual_of_Style                 (MOS)
+        - Wikipedia:Notability                      (WP:GNG)
+      artifacts:
+        - core/tools/wikimedia/operator_profile_report.json
+        - core/tools/wikimedia/wikipedia_rule_corpus_report.json
+        - core/tools/wikimedia/rule_applicability_map.json
+        - core/tools/wikimedia/operator_rule_crosswalk.json
+    gold_corpus:
+      path: domains/language/model/wikipedia/gold_corpus/
+      status: implemented
+      description: Phase 1.2 — live gold article corpus ingest; dossiers, archetypes, authorial patterns
+      target_articles:
+        - New Commanders Stadium
+        - Chase Young
+        - Dota 2
+        - Jayden Daniels
+        - Josh Harris (businessman)
+        - Adam Peters
+        - Brandon Sosna
+      archetypes_supported:
+        - athlete_biography_nfl
+        - executive_biography
+        - nfl_front_office
+        - infrastructure_article
+        - video_game_article
+      artifacts:
+        - core/tools/wikimedia/live_page_ingest_report.json
+        - core/tools/wikimedia/article_dossier_report.json
+        - core/tools/wikimedia/article_archetype_map.json
+        - core/tools/wikimedia/personal_authorial_pattern_report.json
+        - core/tools/wikimedia/rule_to_article_crosswalk.json
+        - core/tools/wikimedia/template_family_prep_report.json
+    template_families:
+      path: domains/language/model/wikipedia/template_families/
+      status: implemented
+      description: Phase 1.3 — live template family ingest; param inventory, alias maps, fragility, crosswalks
+      families:
+        - nfl_biography      # Infobox NFL player and NFL personnel infoboxes
+        - vg_infobox         # Infobox video game and release/reception helpers
+        - executive_bio      # Infobox person / officeholder + birth/death date helpers
+        - venue_project      # Infobox stadium / building / infrastructure templates
+      priority_tiers:
+        - core               # infoboxes seen in 2+ gold articles — always fetched
+        - supporting         # navboxes / helpers seen in 2+ gold articles
+        - helper             # name-matched to a family, seen once
+        - low_priority       # navboxes / categories seen once
+        - deferred           # no family match, seen once
+      artifacts:
+        - core/tools/wikimedia/template_family_ingest_report.json
+        - core/tools/wikimedia/template_family_dossier_report.json
+        - core/tools/wikimedia/template_priority_queue.json
+        - core/tools/wikimedia/parameter_alias_analysis_report.json
+        - core/tools/wikimedia/template_fragility_report.json
+        - core/tools/wikimedia/family_to_article_crosswalk.json
+    solve_time:
+      path: domains/language/model/wikipedia/solve_time/
+      status: implemented
+      description: Phase 1.4 — solve-time reasoning layer; three-truth output, family-aware, archetype-aware, operator-pattern matching
+      modules:
+        archetype_detector:
+          path: domains/language/model/wikipedia/solve_time/archetype_detector.py
+          description: Infers article archetype from template name, snippet, context, article title
+          archetypes_supported:
+            - athlete_biography_nfl
+            - nfl_front_office
+            - executive_biography
+            - video_game_article
+            - infrastructure_article
+        operator_pattern_matcher:
+          path: domains/language/model/wikipedia/solve_time/operator_pattern_matcher.py
+          description: Matches snippet against static pattern library + mined edit history; sources kept separate
+        reasoner:
+          path: domains/language/model/wikipedia/solve_time/reasoner.py
+          description: SolveTimeReasoner — coordinator; produces SolveTimeResult with three truth layers
+          three_truths:
+            rule_truth: what the policies/rules say
+            mechanical_truth: what the code actually does (sandbox-backed where available)
+            operator_truth: how the operator typically handles this class of problem
+          interface_methods:
+            - inspect_issue(SolveTimeInput)
+            - explain_template_behavior(template_or_snippet)
+            - classify_patch_risk(before, after, context)
+            - find_related_family(template_or_snippet)
+            - resolve_rule_priority(context)
+            - suggest_safe_rewrite(SolveTimeInput)
+            - compare_behavior(before, after, context)
+            - find_operator_style_matches(SolveTimeInput)
+      cli_commands:
+        - solve <wikitext>             # full three-truth diagnostic
+        - inspect-issue <wikitext>     # quick diagnostic without patch
+        - find-family <template>       # family identification
+        - resolve-rules <context>      # rule precedence with archetype awareness
+        - match-patterns <snippet>     # operator pattern match
+      advisory_only: true
+      no_autonomous_editing: true
+    rewrite_engine:
+      path: domains/language/model/wikipedia/solve_time/rewrite_engine.py
+      status: implemented
+      description: Phase 1.5 — family-aware rewrite engine; filters/ranks candidates by family compat, fragile params, rules, and operator style
+      families_covered:
+        - nfl_biography
+        - vg_infobox
+        - executive_bio
+        - venue_project
+      family_compat_ratings:
+        allow:  pattern is family-appropriate; recommend normally
+        demote: elevated family-specific risk; surfaced with reason
+        block:  conflicts with known fragile family behavior; never suggested
+      ranking_priority:
+        1: family_safety    # allow > demote; block = 0
+        2: mechanical_safety # safe > review > risky
+        3: policy_fit       # no hard blocks / soft concerns
+        4: operator_style   # library + mined match as bonus
+        5: no_fragile_hit   # fragile params not removed/mangled
+      interface_methods:
+        - suggest_family_safe_rewrite(snippet, family_id, archetype, context, tags)
+        - propose_family_patch(issue_description, snippet, template_name, ...)
+        - rank_rewrite_options(snippet, family_id, archetype, context, tags, candidates)
+        - explain_rewrite_choice(chosen, all_options)
+        - get_family_validation_advice(family_id, snippet, archetype)
+        - compare_family_safe_patches(snippet, candidates, family_id, context)
+      cli_commands:
+        - rewrite <snippet>            # family-safe rewrite suggestions
+        - propose <issue>              # family-aware patch proposal
+        - rank-rewrites <snippet>      # ranked option list with compat labels
+        - family-validation [family]   # concrete family validation steps
+      advisory_only: true
+      no_autonomous_editing: true
+  cli: core/tools/wiki/wiki_tool.py
+  prior_ingest_tool: core/tools/wikimedia/runner.py
+  no_live_edits: true
+  advisory_only: true
+  rule_corpus: targeted  # WP:NFL, MOS:VG, MOS:GNG, WP:BLP, MOS — not the full MOS universe
+  gold_corpus: live  # current revision fetched at ingest time via MediaWiki API
+
+known_gaps:
+  - Runtime is heuristic and fixture-led; parser traces are surface projections rather than external-parser outputs
+  - Translation preservation is validated on deterministic fixtures, not open corpora
+  - DCP support currently comes from construction-space geometry plus grammar-resolution fixtures, not parser time-series traces
+  - Cross-language `TRANSLATES_TO` links are not yet emitted between sentence-level text entities
+  - Wikipedia template_index cache is empty until operator runs index([...])
+  - Template family dossiers are seeded from TemplateData; param semantics (conditional logic, format constraints) require sandbox probing per-param to validate fully
+  - Archetype detection is heuristic / keyword-based; does not read live article structure (would require ingest)
+  - Operator pattern matching depends on mined JSONL artifacts being present; degrades gracefully to library-only when absent
+  - action=parse (rendered HTML) is available in sandbox but not called by default in solve-time — opt-in only
+  - Family compat table covers the 10 static library patterns; user-provided candidates are scored by heuristic (fragile param removal, length ratio) rather than named-pattern rules
+  - compare_family_safe_patches does not run sandbox comparison by default; add run_sandbox=True for behavioral diff
+

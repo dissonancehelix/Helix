@@ -1,0 +1,48 @@
+manifest_schema: manifest_schema_v1
+tool: spanish
+version: "1.0"
+status: stub
+domain: language
+
+purpose: >
+  Spanish learning utility wrapping domains/language/model/. Supports personalized
+  drill generation, grammar/chunk/structure analysis, and study workflow support
+  using the Spanish construction grammar fixtures and the language domain pipeline.
+
+architecture_rule: >
+  This tool reads domain artifacts and language fixtures. It never writes to Atlas.
+  New analysis capability belongs in domains/language/model/, not here.
+
+wraps:
+  primary:
+    - domains/language/model/pipeline.py          # full language pipeline
+    - domains/language/model/research/            # grammar resolution, null model, translation alignment
+  data:
+    - domains/language/data/derived/language/spanish_construction_map.json
+    - domains/language/data/derived/language/grammar_resolution_spanish.json
+    - domains/language/data/derived/language/spanish_registers.json
+    - domains/language/data/derived/language/en_es_alignment.json
+
+capabilities:
+  - Grammar chunk drill generation from construction grammar fixtures
+  - Register-awareness (formal/informal/written/spoken distinction)
+  - EN↔ES alignment analysis for translation accuracy
+  - Error pattern analysis (future: from study session logs)
+  - Structural grammar exploration (verb patterns, noun phrases, subordination)
+
+implementation:
+  construction_grammar_fixtures: implemented   # fixtures exist in datasets/language/
+  grammar_resolution: implemented              # domains/language/model/research/grammar_resolution.py
+  en_es_alignment: implemented                 # domains/language/model/research/translation_alignment.py
+  register_profile: implemented                # domains/language/model/research/register_profile.py
+  drill_generator: not_started                 # no drill UI or script exists yet
+  study_session_logging: not_started
+  cli_interface: not_started
+
+known_gaps:
+  - No tool-layer Python entrypoint exists yet
+  - No drill generation UI or CLI interface
+  - Study session logging and error tracking not implemented
+  - The language pipeline runs on construction grammar fixtures, not conversational inputs
+  - Personal vocabulary / error corpus not collected yet
+

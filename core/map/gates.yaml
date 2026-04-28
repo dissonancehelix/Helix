@@ -1,0 +1,9 @@
+# core/map/gates.yaml — boundary/gate system.
+# Each gate names a discrimination the operator's profile makes
+# (admit/deny, trusted/untrusted, alive/dead, authored/intrusion, etc.).
+# Item shape: { id, title, separates: [a, b], status }
+
+version: 0.1
+status: scaffold
+items: []
+

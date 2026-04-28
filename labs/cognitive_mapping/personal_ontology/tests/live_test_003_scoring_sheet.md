@@ -1,4 +1,4 @@
-﻿# Live Test 003 — Inspection Deepening / Collapse
+# Live Test 003 — Inspection Deepening / Collapse
 ## Operator Scoring Sheet
 
 **Test ID:** `ont_003_inspection`
@@ -472,6 +472,6 @@ Fill this in after all items are scored.
 ## After Scoring
 
 Write completed report to: `runs/ont_003_inspection_run_02.md`
-Base structure: `system/engine/run/templates/test_report_template.md`
+Base structure: `core/engine/run/templates/test_report_template.md`
 Reference model prediction: `runs/ont_003_inspection_run_01.md`
 

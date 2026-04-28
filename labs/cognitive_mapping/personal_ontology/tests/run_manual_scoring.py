@@ -1,9 +1,9 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 run_manual_scoring.py
 
 Reads example_items.jsonl and writes a blank scoring template JSONL to
-labs/research/personal_ontology/tests/runs/.
+labs/cognitive_mapping/personal_ontology/tests/runs/.
 
 Output: runs/scoring_YYYYMMDD.jsonl
 Each entry is a blank ScoreRecord conforming to personal_ontology_test_schema.json.

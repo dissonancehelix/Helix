@@ -1,0 +1,140 @@
+# core/map/examples.yaml — evidence anchors.
+# Each example points up to one or more pattern IDs and down to a
+# domain README, data/ path, or lab fixture.
+# Item shape: { id, title, supports: [pattern_id...], evidence_path, domain, status }
+
+version: 0.1
+status: scaffold
+items:
+  - id: music.foobar_local_music_atlas
+    title: Foobar Local Music Atlas
+    domain: music
+    type: evidence_anchor
+    status: seed
+    summary: >
+      The operator's foobar setup organizes music as an interactive archive with
+      Library/Radio/Loved/Last-played views, custom VGM metadata, composer/album
+      grouping, play-count return signals, album-art place anchors, and
+      low-noise playback.
+    supports:
+      - state_carrying_aliveness
+      - compatible_mindprint
+      - archive_worthy_return
+      - self_describing_architecture
+      - minimal_surface_nested_depth
+      - domain_grounding_rule
+
+  - id: music.foobar_vgm_hardware_metadata
+    title: Foobar VGM Hardware Metadata
+    domain: music
+    type: evidence_anchor
+    status: seed
+    summary: >
+      Foobar metadata includes VGM-specific operational context such as
+      Platform, Sound Chip, Sound Team, Franchise, Album Artist, Year, and
+      Genre.
+    supports:
+      - domain_grounding_rule
+      - compatible_mindprint
+      - vgm_hardware_constraint
+      - authored_sound_under_constraint
+
+  - id: food.thanksgiving_ritual_anchor
+    title: Thanksgiving Ritual Anchor
+    domain: self
+    type: evidence_surface
+    status: active
+    summary: "Thanksgiving is preserved as autumnal ritual continuity, bounded abundance, food texture, football atmosphere, harvest color, and seasonal threshold evidence; it is not a first-class food domain."
+    supports:
+      - bounded_abundance
+      - soft_base_sharp_event
+      - sensory_texture_events
+      - autumnal_ritual_continuity
+      - evidence_surface_not_domain
+
+  - id: food.cook_out_banana_pudding_shake
+    title: Cook Out Banana Pudding Shake
+    domain: self
+    type: evidence_surface
+    status: active
+    summary: "Banana pudding shake with wafers, M&Ms, and sliced bananas preserves soft base plus texture-event logic as an example, not a domain."
+    supports:
+      - soft_base_sharp_event
+      - sensory_texture_events
+      - bounded_abundance
+
+  - id: internet.old_profile_rooms
+    title: Old Profile Rooms
+    domain: self
+    type: evidence_surface
+    status: active
+    summary: "Old YouTube/profile spaces preserve object-mediated sociality, inhabited identity rooms, public/private signaling, and creator-as-doorway logic without remaining an internet domain."
+    supports:
+      - object_mediated_sociality
+      - profile_rooms_vs_sterile_feeds
+      - anonymous_attention_residue
+      - public_positioned_reaction
+      - creator_as_doorway_not_billboard
+      - negative_controls_boundary_evidence
+
+  - id: aesthetics.visual_style_evidence
+    title: Visual Style Evidence
+    domain: self
+    type: evidence_surface
+    status: active
+    summary: "Rule-bound weirdness, grammar-bound leakage, crooked coherence, fuzzy alien dream-field, earthy muted palette, and Mesoamerican/cosmic mystery remain profile evidence unless a visual-corpus app becomes real."
+    supports:
+      - rule_bound_weirdness
+      - grammar_bound_leakage
+      - crooked_coherence
+      - fuzzy_alien_dream_field
+      - attraction_channel_convergence
+      - earthy_muted_palette
+      - mesoamerican_cosmic_mystery
+      - evidence_surface_not_domain
+
+  - id: attraction.image_evidence
+    title: Attraction Image Evidence
+    domain: self
+    type: evidence_surface
+    status: active
+    summary: >
+      Local attraction images are preserved as one merged attraction archive,
+      not as a domain. A full still-image pass found that repeated traits across
+      the newer set and older yum set carry the strongest signal: soft face with
+      sharp eye/styling events, dark or face-framing hair, soft volume, readable
+      waist-to-hip or waist-to-bust contrast, hips/thighs, bust, and owned
+      presentation. Capture context, explicitness, and original demographic
+      folders are not the sorting principle.
+    supports:
+      - attraction_channel_convergence
+      - signal_ownership
+      - private_edge_requirement
+      - soft_base_sharp_event
+      - bounded_abundance
+      - evidence_surface_not_domain
+
+  - id: sports.commanders_reed_jayden
+    title: Commanders / Jayden Daniels / Ed Reed
+    domain: games
+    type: evidence_surface
+    status: active
+    summary: "Washington football, Jayden Daniels, and Ed Reed remain evidence for hope, prospective constraint, denial, backline posture, and live state-carrying aliveness; they do not require a sports domain yet."
+    supports:
+      - hope_as_possibility_space
+      - denial_as_positive_agency
+      - prospective_constraint
+      - backline_denial_posture
+      - state_carrying_aliveness
+
+  - id: domains.active_externalized_chambers
+    title: Active Externalized Chambers
+    domain: software
+    type: ontology_rule
+    status: active
+    summary: "Active domains are music, games, Trails, wiki, software, and self because cognition has been externalized into reusable systems, archives, edits, tools, databases, or research chambers."
+    supports:
+      - active_externalized_domains
+      - evidence_surface_not_domain
+      - software_as_externalized_cognition
+

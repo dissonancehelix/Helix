@@ -1,4 +1,4 @@
-﻿# Next Run — Live Test 3: Inspection Deepening / Collapse
+# Next Run — Live Test 3: Inspection Deepening / Collapse
 
 **Test ID:** `ont_003_inspection`
 **Run type:** Live operator — scored by you, not by model inference.
@@ -105,9 +105,9 @@ Use this for each item. Fill in every field. If a field is genuinely unknown, wr
 ## Output
 
 When complete, write results to:
-`labs/research/personal_ontology/tests/runs/ont_003_inspection_run_02.md`
+`labs/cognitive_mapping/personal_ontology/tests/runs/ont_003_inspection_run_02.md`
 
-Use `system/engine/run/templates/test_report_template.md` as the base structure.
+Use `core/engine/run/templates/test_report_template.md` as the base structure.
 
 Flag any item where the result falsifies or pressures the model prediction from Run 01 (see `reports/mini_test_001.md`).
 

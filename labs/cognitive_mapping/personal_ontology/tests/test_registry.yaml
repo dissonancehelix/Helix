@@ -1,4 +1,4 @@
-﻿tests:
+tests:
 
   - id: ont_001_friction
     name: Useful vs Waste Friction
@@ -17,14 +17,14 @@
       The operator prefers low friction overall. The useful/waste distinction is post-hoc
       rationalization. Both types of friction should correlate negatively with engagement
       if the null holds.
-    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_file: labs/cognitive_mapping/personal_ontology/tests/example_items.jsonl
     input_filter: "test_id == 'ont_001_friction'"
-    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_schema: labs/cognitive_mapping/personal_ontology/tests/scoring_schema.json
     scoring_dimensions:
       - useful_friction
       - waste_friction
       - overall_response
-    output_report: labs/research/personal_ontology/tests/runs/ont_001_friction_report.md
+    output_report: labs/cognitive_mapping/personal_ontology/tests/runs/ont_001_friction_report.md
     falsifier: sustained engagement with high waste friction stimulus
 
   - id: ont_002_convergence
@@ -48,14 +48,14 @@
       Positive response is driven by a single dominant channel. Convergence is post-hoc
       explanation for whichever channel happened to be strongest. A single 5/5 channel
       should predict peak response regardless of others.
-    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_file: labs/cognitive_mapping/personal_ontology/tests/example_items.jsonl
     input_filter: "test_id == 'ont_002_convergence'"
-    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_schema: labs/cognitive_mapping/personal_ontology/tests/scoring_schema.json
     scoring_dimensions:
       - channel_convergence
       - artificiality_penalty
       - overall_response
-    output_report: labs/research/personal_ontology/tests/runs/ont_002_convergence_report.md
+    output_report: labs/cognitive_mapping/personal_ontology/tests/runs/ont_002_convergence_report.md
     falsifier: high overall_response for item with single strong channel and contradicted others
 
   - id: ont_003_inspection
@@ -80,16 +80,16 @@
       Liking is surface-level. Once an aesthetic is accepted, presence or absence of deeper
       structure does not change valuation. inspection_deepening and inspection_collapse
       scores should not correlate with long-term engagement.
-    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_file: labs/cognitive_mapping/personal_ontology/tests/example_items.jsonl
     input_filter: "test_id == 'ont_003_inspection'"
-    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_schema: labs/cognitive_mapping/personal_ontology/tests/scoring_schema.json
     scoring_dimensions:
       - interior_signal
       - inspection_deepening
       - inspection_collapse
       - artificiality_penalty
       - overall_response
-    output_report: labs/research/personal_ontology/tests/runs/ont_003_inspection_report.md
+    output_report: labs/cognitive_mapping/personal_ontology/tests/runs/ont_003_inspection_report.md
     falsifier: continued high overall_response for surface-only object after emptiness is exposed
 
   - id: ont_004_boundary
@@ -113,13 +113,13 @@
       The cognitive style is associative or linear. Inside/outside is a post-hoc metaphor,
       not an active organizational primitive. Actual sorting behavior should produce flat
       topic clusters indistinguishable from a standard categorical organizer.
-    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_file: labs/cognitive_mapping/personal_ontology/tests/example_items.jsonl
     input_filter: "test_id == 'ont_004_boundary'"
-    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_schema: labs/cognitive_mapping/personal_ontology/tests/scoring_schema.json
     scoring_dimensions:
       - boundary_clarity
       - overall_response
-    output_report: labs/research/personal_ontology/tests/runs/ont_004_boundary_report.md
+    output_report: labs/cognitive_mapping/personal_ontology/tests/runs/ont_004_boundary_report.md
     falsifier: consistent preference for flat/open structures without detectable boundary logic
 
   - id: ont_005_continuity
@@ -145,14 +145,14 @@
       re-skinned, or moved to a new medium is experienced as different regardless of
       invariant survival. continuity_preservation scores should correlate with
       substrate/label stability, not invariant survival.
-    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_file: labs/cognitive_mapping/personal_ontology/tests/example_items.jsonl
     input_filter: "test_id == 'ont_005_continuity'"
-    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_schema: labs/cognitive_mapping/personal_ontology/tests/scoring_schema.json
     scoring_dimensions:
       - continuity_preservation
       - transformation_tolerance
       - overall_response
-    output_report: labs/research/personal_ontology/tests/runs/ont_005_continuity_report.md
+    output_report: labs/cognitive_mapping/personal_ontology/tests/runs/ont_005_continuity_report.md
     falsifier: object preserving all structural invariants but experienced as broken due to surface change
 
   - id: ont_006_bridge
@@ -176,15 +176,15 @@
       The Owned Continuity model is a description of the operator's personal experience of
       self-continuity projected onto philosophy. It has no predictive force beyond restating
       standard personal identity debates (Parfit, Locke) in different vocabulary.
-    input_file: labs/research/personal_ontology/tests/example_items.jsonl
+    input_file: labs/cognitive_mapping/personal_ontology/tests/example_items.jsonl
     input_filter: "test_id == 'ont_006_bridge'"
-    scoring_schema: labs/research/personal_ontology/tests/scoring_schema.json
+    scoring_schema: labs/cognitive_mapping/personal_ontology/tests/scoring_schema.json
     scoring_dimensions:
       - interior_signal
       - boundary_clarity
       - continuity_preservation
       - overall_response
-    bridge_document: labs/research/consciousness/bridge/consciousness_bridge_tests.md
-    output_report: labs/research/personal_ontology/tests/runs/ont_006_bridge_report.md
+    bridge_document: labs/inhabited_interiority/consciousness/bridge/consciousness_bridge_tests.md
+    output_report: labs/cognitive_mapping/personal_ontology/tests/runs/ont_006_bridge_report.md
     falsifier: branching case that produces two simultaneous coherent interiors with shared prior continuity
 

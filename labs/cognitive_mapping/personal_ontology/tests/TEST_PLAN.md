@@ -1,4 +1,4 @@
-﻿# Personal Ontology Test Plan
+# Personal Ontology Test Plan
 
 **Purpose:** Falsify, sharpen, and validate the Dissonance personal ontology. Each test targets a specific mechanistic claim. The goal is not to protect the theory — it is to find what survives pressure.
 
@@ -6,9 +6,9 @@
 
 **Registry:** `test_registry.yaml` — machine-readable index of all tests.
 
-**Template:** `system/engine/run/templates/test_report_template.md` — use for all run reports.
+**Template:** `core/engine/run/templates/test_report_template.md` — use for all run reports.
 
-**Run outputs:** Write to `labs/research/personal_ontology/tests/runs/` (gitignored).
+**Run outputs:** Write to `labs/cognitive_mapping/personal_ontology/tests/runs/` (gitignored).
 
 ---
 

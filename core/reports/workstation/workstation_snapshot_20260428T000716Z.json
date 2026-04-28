@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-04-28T00:07:16+00:00",
+  "repo_root": "C:\\Users\\dissonance\\Desktop\\dissonance",
+  "mode": "shallow",
+  "sources": [
+    {
+      "id": "source.repo_root",
+      "path": ".",
+      "exists": true,
+      "files": 4512,
+      "bytes": 255061973,
+      "skipped": false,
+      "skipped_reason": ""
+    },
+    {
+      "id": "source.data_lake",
+      "path": "data",
+      "exists": true,
+      "files": 1,
+      "bytes": 461,
+      "skipped": true,
+      "skipped_reason": "shallow scan; pass --deep for full recursion"
+    }
+  ],
+  "top_level_inventory": [
+    {
+      "name": ".gitattributes",
+      "kind": "file"
+    },
+    {
+      "name": ".gitignore",
+      "kind": "file"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "file"
+    },
+    {
+      "name": "CLAUDE.md",
+      "kind": "file"
+    },
+    {
+      "name": "data",
+      "kind": "dir",
+      "has_readme": true
+    },
+    {
+      "name": "DISSONANCE.md",
+      "kind": "file"
+    },
+    {
+      "name": "labs",
+      "kind": "dir",
+      "has_readme": true
+    },
+    {
+      "name": "model",
+      "kind": "dir",
+      "has_readme": true
+    },
+    {
+      "name": "quarantine",
+      "kind": "dir",
+      "has_readme": true
+    },
+    {
+      "name": "README.md",
+      "kind": "file"
+    },
+    {
+      "name": "reports",
+      "kind": "dir",
+      "has_readme": true
+    },
+    {
+      "name": "system",
+      "kind": "dir",
+      "has_readme": true
+    }
+  ],
+  "files_scanned": 4513,
+  "bytes_scanned": 255062434,
+  "warnings": []
+}

@@ -1,0 +1,98 @@
+manifest_schema: manifest_schema_v1
+probe_family: math
+version: "1.2"
+status: partial  # implemented | partial | stub | not_started
+
+purpose: >
+  Ground-truth invariant validation via deterministic mathematical simulation.
+  Provides canonical null baselines and the reference implementation of
+  MathStructuralVector -> HelixEmbedding projection.
+
+docs:
+  readme: core/probes/math/README.md
+  spec: core/probes/math/SPEC.md
+
+domain_local_metrics:
+  class: MathStructuralVector
+  path: core/probes/math/domain_analysis/math_structural_vector.py
+  axes:
+    - attractor_stability
+    - generative_constraint
+    - recurrence_depth
+    - structural_density
+    - control_entropy
+    - basin_permeability
+
+shared_embedding:
+  adapter: core/probes/math/embedding/projection.py
+  projection_schema: math_v1
+  output_format: HelixEmbedding
+  axes:
+    - complexity
+    - structure
+    - repetition
+    - density
+    - expression
+    - variation
+  confidence_floor: 0.30
+  confidence_calibration_status: provisional
+
+entry_point:
+  target: "HSL: DISCOVER math.kuramoto ..."
+  current: "core/probes/math/e2e.py (direct Python)"
+  hsl_implemented: false
+
+runtime:
+  pipeline: core/probes/math/pipeline.py
+  pipeline_status: stub  # raises NotImplementedError
+  e2e_path: core/probes/math/e2e.py
+  e2e_status: implemented
+  simulation:
+    - path: core/probes/math/simulation/kuramoto.py
+      status: implemented
+    - path: core/probes/math/simulation/oscillator.py
+      status: implemented
+  domain_analysis:
+    - path: core/probes/math/domain_analysis/math_structural_vector.py
+      status: implemented
+    - path: core/probes/math/domain_analysis/feature_extractor.py
+      status: implemented
+    - path: core/probes/math/domain_analysis/invariant_metrics.py
+      status: implemented
+
+fixtures:
+  - name: kuramoto_fixture
+    path: core/probes/math/validation/kuramoto_fixture.py
+    status: implemented
+    sections:
+      - A_metric_sanity
+      - B_simulation_fixture
+      - C_projection_consistency
+    produces_artifact: true
+
+validation:
+  domain_harness: core/probes/math/validation/
+  governance_boundary: core/engine/contract/validation/validation/boundary_validator.py
+
+atlas_persistence:
+  status: deferred
+  gate: core/engine/store/compiler/atlas_compiler.py
+  note: e2e.py produces candidate payload; enforce_persistence() not called
+
+dependencies:
+  core:
+    - core/engine/contract/validation/
+    - core/engine/store/compiler/atlas_compiler.py
+    - core/engine/contract/validation/rules.py
+  external:
+    - numpy
+    - scipy
+
+known_gaps:
+  - pipeline.py is a stub; full orchestration not wired
+  - HSL entry point not implemented
+  - EIP/DCP/LIP principle metrics not calibrated
+  - Confidence floor (0.30) not calibrated against null baseline
+  - basin_permeability uses sync-based proxy, not actual Lyapunov computation
+  - Atlas persistence not wired end-to-end
+
