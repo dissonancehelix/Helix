@@ -48,7 +48,7 @@ if str(_REPO_ROOT) not in sys.path:
 # ---------------------------------------------------------------------------
 
 try:
-    from domains.music.tools.music_pipeline.config import LIBRARY_ROOT, FOOBAR_APPDATA, DB_PATH
+    from domains.music.tools.pipeline.config import LIBRARY_ROOT, FOOBAR_APPDATA, DB_PATH
     _DEFAULT_LIBRARY_ROOT = str(LIBRARY_ROOT)
     _DEFAULT_RUNTIME_ROOT = str(FOOBAR_APPDATA)
     _DEFAULT_DB_PATH = str(DB_PATH)
@@ -100,7 +100,7 @@ def run(args: argparse.Namespace) -> int:
     # --health : quick status without full scan
     # -----------------------------------------------------------------------
     if args.health:
-        from domains.music.tools.music_pipeline.track_db import TrackDB
+        from domains.music.tools.pipeline.track_db import TrackDB
         codex_path = db_path or Path(_DEFAULT_DB_PATH)
         print(f"\n[foobar] Health check")
         print(f"  Library root : {library_root}")
@@ -334,7 +334,7 @@ def _run_lastfm(
     """Run Last.fm trace reconciliation."""
     from .lastfm_reconciler import reconcile_lastfm, format_lastfm_summary_section
     from .reports import write_json, ARTIFACTS_DIR, _now_str
-    from domains.music.tools.music_pipeline.adapters.lastfm import LastFmAdapter, DEFAULT_LASTFM_PATH
+    from domains.music.tools.pipeline.adapters.lastfm import LastFmAdapter, DEFAULT_LASTFM_PATH
 
     lastfm_path = getattr(args, "lastfm_path", None) or DEFAULT_LASTFM_PATH
     adapter = LastFmAdapter(lastfm_path)
@@ -476,7 +476,7 @@ def _scan_with_roots(library_root: Path, runtime_root: Path) -> list[dict]:
     metadb_path = runtime_root / "metadb.sqlite"
     if metadb_path.exists():
         try:
-            from domains.music.tools.music_pipeline.adapters.metadb_sqlite import MetadbSqliteReader
+            from domains.music.tools.pipeline.adapters.metadb_sqlite import MetadbSqliteReader
             reader = MetadbSqliteReader(str(metadb_path))
             raw = reader.read_all()
             records = [reader.normalize(r) for r in raw]
@@ -487,7 +487,7 @@ def _scan_with_roots(library_root: Path, runtime_root: Path) -> list[dict]:
 
     # Library root filesystem scan
     try:
-        from domains.music.tools.music_pipeline.adapters.foobar import FoobarAdapter
+        from domains.music.tools.pipeline.adapters.foobar import FoobarAdapter
         adapter = FoobarAdapter(str(library_root))
         tracks = adapter.scan()
         for t in tracks:

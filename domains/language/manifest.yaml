@@ -1,4 +1,4 @@
-manifest_schema: manifest_schema_v1
+﻿manifest_schema: manifest_schema_v1
 domain: language
 version: "0.1"
 status: partial
@@ -19,8 +19,8 @@ runtime:
     - domains/language/labs/
 
 data:
-  normalized: domains/language/data/normalized/
-  derived: domains/language/data/derived/
+  records: domains/language/data/
+  output: domains/language/data/output/
   raw_provenance: archive/raw/
 
 known_gaps:

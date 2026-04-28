@@ -1,4 +1,4 @@
-manifest_schema: manifest_schema_v1
+﻿manifest_schema: manifest_schema_v1
 domain: software
 version: "0.1"
 status: partial
@@ -11,8 +11,8 @@ docs:
   readme: domains/software/README.md
 
 data:
-  normalized: domains/software/data/normalized/
-  derived: domains/software/data/derived/
+  records: domains/software/data/
+  output: domains/software/data/output/
 
 known_gaps:
   - Capsule exists, but domain-local tooling and data are not yet decompressed.

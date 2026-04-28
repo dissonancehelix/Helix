@@ -1,4 +1,4 @@
-manifest_schema: manifest_schema_v1
+﻿manifest_schema: manifest_schema_v1
 tool: foobar
 version: "0.1"
 status: partial
@@ -28,7 +28,7 @@ roots:
       Sources: metadb.sqlite, config.sqlite, playlists.
       Never mutated by this tool.
   lastfm_history:
-    path: domains/music/data/derived/music/metadata/lastfm_dissident93.json
+    path: domains/music/data/output/library/metadata/lastfm_dissident93.json
     role: >
       Behavioral listening trace. 201,368 scrobbles, 2012-03-30.
       Authority: behavioral evidence only. Never overwrites curated metadata.

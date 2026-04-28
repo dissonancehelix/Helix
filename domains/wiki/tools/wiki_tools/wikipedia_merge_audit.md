@@ -1,4 +1,4 @@
-# Wikipedia Operator — Merge Audit
+﻿# Wikipedia Operator — Merge Audit
 
 ## Prior work found
 
@@ -12,7 +12,7 @@
 | `domains/language/model/probes/wikipedia_corpus.py` | TTR/DCP across article sections |
 | `core/tools/wikimedia/runner.py` | Full ingest CLI (ran 2026-03-29, 185,390 traces) |
 | `core/tools/wiki/wiki_tool.py` | Stub — printed "not implemented" |
-| `domains/language/data/derived/language/wikipedia_dissident93.json` | Operator dataset |
+| `domains/language/data/output/corpora/wikipedia_dissident93.json` | Operator dataset |
 | `core/tools/wikimedia/artifacts/wiki_20260329_222848/` | Full ingest artifact run |
 
 ## What was kept

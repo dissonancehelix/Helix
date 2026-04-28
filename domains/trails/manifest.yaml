@@ -1,4 +1,4 @@
-manifest_schema: manifest_schema_v1
+﻿manifest_schema: manifest_schema_v1
 domain: trails
 version: "0.1"
 status: partial
@@ -15,8 +15,8 @@ runtime:
     - domains/trails/tools/trails/
 
 data:
-  normalized: domains/trails/data/normalized/
-  derived: domains/trails/data/derived/
+  records: domains/trails/data/
+  output: domains/trails/data/output/
   raw_provenance: archive/raw/
 
 known_gaps:

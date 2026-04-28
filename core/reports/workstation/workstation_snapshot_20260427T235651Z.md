@@ -1,4 +1,4 @@
-# Workstation Snapshot — 2026-04-27T23:56:51+00:00
+﻿# Workstation Snapshot — 2026-04-27T23:56:51+00:00
 
 - **Repo root:** `C:\Users\dissonance\Desktop\dissonance`
 - **Mode:** shallow
@@ -16,7 +16,7 @@
 
 - `source.repo_root` — Repository Root [active, read_only] @ `.`
 - `source.data_lake` — Data Evidence Lake [active, read_only] @ `data/`
-- `source.foobar` — foobar2000 Local Music Atlas [planned, read_only_pending] @ `domains/music/tools/music_bridge/`
+- `source.foobar` — foobar2000 Local Music Atlas [planned, read_only_pending] @ `domains/music/tools/bridge/`
 - `source.root_unsorted` — Root Unsorted Drops [deprecated, read_only] @ `.`
 - `source.reports` — Reports [active, generated_outputs] @ `reports/`
 
@@ -42,7 +42,7 @@
 
 ## tools/ README coverage
 
-- Covered (5): foobar, foobar-spatial-dsp, music_bridge, trails, workstation_bridge
+- Covered (5): foobar, spatial_dsp, music_bridge, trails, workstation_bridge
 - Missing (7): cognition_pipeline, games_pipeline, language_pipeline, music_pipeline, spanish, spc2mid, wiki_tools
 
 ## labs/ README coverage
@@ -55,7 +55,7 @@
 - tool missing README: domains/self/tools/cognition_pipeline/
 - tool missing README: domains/games/tools/games_pipeline/
 - tool missing README: domains/language/tools/language_pipeline/
-- tool missing README: domains/music/tools/music_pipeline/
+- tool missing README: domains/music/tools/pipeline/
 - tool missing README: domains/language/tools/spanish/
 - tool missing README: domains/music/tools/spc2mid/
 - tool missing README: domains/wiki/tools/wiki_tools/

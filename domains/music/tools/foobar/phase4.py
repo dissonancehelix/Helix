@@ -65,19 +65,19 @@ def run_phase4(
     Returns:
         dict with run_id, artifact_paths, and summary counts
     """
-    from domains.music.tools.music_pipeline.run_log import RunLog
-    from domains.music.tools.music_pipeline.staging import (
+    from domains.music.tools.pipeline.run_log import RunLog
+    from domains.music.tools.pipeline.staging import (
         stage_all_sources,
         _LASTFM_PATH, _SPOTIFY_PATH,
     )
-    from domains.music.tools.music_pipeline.entity_resolver import resolve_entities, summarize_resolution
-    from domains.music.tools.music_pipeline.validator import validate_all, summarize_validation
-    from domains.music.tools.music_pipeline.refresh_planner import (
+    from domains.music.tools.pipeline.entity_resolver import resolve_entities, summarize_resolution
+    from domains.music.tools.pipeline.validator import validate_all, summarize_validation
+    from domains.music.tools.pipeline.refresh_planner import (
         plan_refresh, summarize_plan,
         write_refresh_plan, write_patch_candidates,
         write_manual_review, write_new_candidates,
     )
-    from domains.music.tools.music_pipeline.corpus_builder import (
+    from domains.music.tools.pipeline.corpus_builder import (
         build_corpora, corpus_to_dict, build_corpus_index,
     )
 

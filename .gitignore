@@ -1,4 +1,4 @@
-# -------------------------------------------------------------------
+﻿# -------------------------------------------------------------------
 # Helix Boundary Enforcement: Ignored Data & Bloat
 # -------------------------------------------------------------------
 
@@ -19,20 +19,24 @@ core/reports/workstation/workstation_snapshot_*.md
 domains/*/vendor/**
 !domains/*/vendor/
 !domains/*/vendor/README.md
-domains/music/tools/foobar-spatial-dsp/vgmspc/
+domains/*/tools/toolkits/**
+!domains/*/tools/toolkits/
+!domains/*/tools/toolkits/README.md
+domains/*/tools/*/toolkits/**
+!domains/*/tools/*/toolkits/
+!domains/*/tools/*/toolkits/README.md
+domains/music/tools/spatial_dsp/dist_new/
 
 # Heavy domain-local data, caches, and generated pipeline outputs.
-domains/music/data/derived/music/library/
-domains/music/data/derived/music/phase6/
-domains/music/data/derived/music/metadata/lastfmstats-*.json
-domains/music/data/derived/music/metadata/*playcount*.json
-domains/music/data/derived/music_pipeline/
-domains/music/data/derived/atlas_staging/
-domains/games/data/derived/games/steamspy_cache/
-domains/games/data/derived/games_pipeline/
-domains/language/data/derived/language/ud_cache/
-domains/language/data/derived/language_pipeline/
-domains/trails/data/derived/trails/retrieval/index/
+domains/music/data/output/library/catalog/
+domains/music/data/output/library/phase6/
+domains/music/data/output/library/metadata/lastfmstats-*.json
+domains/music/data/output/library/metadata/*playcount*.json
+domains/music/data/output/pipeline/
+domains/games/data/output/pipeline/steamspy_cache/
+domains/language/data/output/corpora/ud_cache/
+domains/language/data/output/corpora/
+domains/trails/data/output/pipeline/retrieval/index/
 
 # Nested repos are provenance, not Helix structure.
 **/.git/
@@ -93,8 +97,7 @@ node_modules/
 !domains/*/labs/**
 !domains/*/reports/**
 !domains/*/data/
-!domains/*/data/normalized/
-!domains/*/data/derived/
+!domains/*/data/output/
 !core/**
 !labs/**
 
@@ -105,16 +108,21 @@ archive/raw/**
 domains/*/vendor/**
 !domains/*/vendor/
 !domains/*/vendor/README.md
-domains/music/tools/foobar-spatial-dsp/vgmspc/
-domains/music/data/derived/music/library/
-domains/music/data/derived/music/phase6/
-domains/music/data/derived/music/metadata/lastfmstats-*.json
-domains/music/data/derived/music/metadata/*playcount*.json
-domains/music/data/derived/music_pipeline/
-domains/music/data/derived/atlas_staging/
-domains/games/data/derived/games/steamspy_cache/
-domains/language/data/derived/language/ud_cache/
-domains/trails/data/derived/trails/retrieval/index/
+domains/*/tools/toolkits/**
+!domains/*/tools/toolkits/
+!domains/*/tools/toolkits/README.md
+domains/*/tools/*/toolkits/**
+!domains/*/tools/*/toolkits/
+!domains/*/tools/*/toolkits/README.md
+domains/music/tools/spatial_dsp/dist_new/
+domains/music/data/output/library/catalog/
+domains/music/data/output/library/phase6/
+domains/music/data/output/library/metadata/lastfmstats-*.json
+domains/music/data/output/library/metadata/*playcount*.json
+domains/music/data/output/pipeline/
+domains/games/data/output/pipeline/steamspy_cache/
+domains/language/data/output/corpora/ud_cache/
+domains/trails/data/output/pipeline/retrieval/index/
 
 *.parquet
 *.csv

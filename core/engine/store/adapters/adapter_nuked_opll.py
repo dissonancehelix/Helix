@@ -1,9 +1,9 @@
-"""
+﻿"""
 adapter_nuked_opll.py — Helix adapter for Nuked-OPLL (YM2413/OPLL) constants
 ==============================================================================
 Source reference:
-    domains/music/data/derived/music/source/code/Nuked-OPLL/opll.c
-    domains/music/data/derived/music/source/code/Nuked-OPLL/opll.h
+    domains/music/data/output/library/source/code/Nuked-OPLL/opll.c
+    domains/music/data/output/library/source/code/Nuked-OPLL/opll.h
 
 Chip coverage:
     YM2413  — Yamaha OPL-LL (OPLL), used in MSX FM-PAC, Sega Master System FM

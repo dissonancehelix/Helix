@@ -1,4 +1,4 @@
-manifest_schema: manifest_schema_v1
+﻿manifest_schema: manifest_schema_v1
 tool: spanish
 version: "1.0"
 status: stub
@@ -18,10 +18,10 @@ wraps:
     - domains/language/model/pipeline.py          # full language pipeline
     - domains/language/model/research/            # grammar resolution, null model, translation alignment
   data:
-    - domains/language/data/derived/language/spanish_construction_map.json
-    - domains/language/data/derived/language/grammar_resolution_spanish.json
-    - domains/language/data/derived/language/spanish_registers.json
-    - domains/language/data/derived/language/en_es_alignment.json
+    - domains/language/data/output/corpora/spanish_construction_map.json
+    - domains/language/data/output/corpora/grammar_resolution_spanish.json
+    - domains/language/data/output/corpora/spanish_registers.json
+    - domains/language/data/output/corpora/en_es_alignment.json
 
 capabilities:
   - Grammar chunk drill generation from construction grammar fixtures

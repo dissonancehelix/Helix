@@ -90,8 +90,8 @@
     "app missing README: domains/self/tools/cognition_pipeline/",
     "app missing README: domains/games/tools/games_pipeline/",
     "app missing README: domains/language/tools/language_pipeline/",
-    "app missing README: domains/music/tools/music_pipeline/",
-    "app missing README: domains/music/vendor/music_toolkits/",
+    "app missing README: domains/music/tools/pipeline/",
+    "app missing README: domains/music/tools/toolkits/",
     "app missing README: domains/language/tools/spanish/",
     "app missing README: domains/music/tools/spc2mid/",
     "app missing README: domains/wiki/tools/wiki_tools/"

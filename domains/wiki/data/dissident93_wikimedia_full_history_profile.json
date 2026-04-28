@@ -1,0 +1,1919 @@
+{
+  "dataset": "dissident93_wikimedia_full_history_profile",
+  "generated_at": "2026-04-28T20:14:34.506516+00:00",
+  "user": {
+    "name": "Dissident93",
+    "projects": {
+      "enwiki": {
+        "userid": 16761480,
+        "name": "Dissident93",
+        "editcount": 172789,
+        "registration": "2012-05-04T03:04:13Z",
+        "groups": [
+          "extendedconfirmed",
+          "rollbacker",
+          "templateeditor",
+          "*",
+          "user",
+          "autoconfirmed"
+        ]
+      },
+      "wikidata": {
+        "userid": 124227,
+        "name": "Dissident93",
+        "editcount": 6249,
+        "registration": "2013-02-18T01:09:32Z",
+        "groups": [
+          "*",
+          "user",
+          "autoconfirmed"
+        ]
+      },
+      "commons": {
+        "userid": 2063697,
+        "name": "Dissident93",
+        "editcount": 10308,
+        "registration": "2012-06-12T05:50:30Z",
+        "groups": [
+          "autopatrolled",
+          "*",
+          "user",
+          "autoconfirmed"
+        ]
+      }
+    },
+    "project_editcounts": {
+      "enwiki": 172789,
+      "wikidata": 6249,
+      "commons": 10308
+    },
+    "registration": "2012-05-04T03:04:13Z"
+  },
+  "record_count": 186519,
+  "date_range": {
+    "first": "2012-05-04T03:07:34Z",
+    "last": "2026-04-28T18:30:22Z"
+  },
+  "by_project": {
+    "enwiki": 171330,
+    "commons": 8991,
+    "wikidata": 6198
+  },
+  "by_namespace": {
+    "0:main/article or item": 146742,
+    "10:template": 16460,
+    "6:file": 8688,
+    "1:talk": 5527,
+    "5:project talk": 2688,
+    "3:user talk": 1764,
+    "4:project": 1419,
+    "11:template talk": 989,
+    "2:user": 935,
+    "14:category": 900,
+    "828:module": 130,
+    "126:namespace_126": 78,
+    "120:property": 57,
+    "118:namespace_118": 49,
+    "15:category talk": 44,
+    "829:module talk": 31,
+    "7:file talk": 7,
+    "100:namespace_100": 4,
+    "121:property talk": 4,
+    "119:namespace_119": 3
+  },
+  "by_classification": {
+    "manual_review_required": 82428,
+    "minor_polish": 32800,
+    "template_work": 16460,
+    "talk_page_discussion": 11048,
+    "media_or_file_work": 8688,
+    "revert_or_undo": 7746,
+    "structured_data_work": 6198,
+    "reference_or_citation_work": 5766,
+    "chronology_update": 4574,
+    "project_maintenance": 2350,
+    "article_creation": 2204,
+    "copyedit_cleanup": 1837,
+    "lead_rewrite": 1619,
+    "infobox_update": 1603,
+    "category_work": 900,
+    "article_expansion": 298
+  },
+  "by_year": {
+    "2012": 418,
+    "2013": 2937,
+    "2014": 10113,
+    "2015": 15025,
+    "2016": 18490,
+    "2017": 13931,
+    "2018": 17353,
+    "2019": 12788,
+    "2020": 15945,
+    "2021": 12330,
+    "2022": 10897,
+    "2023": 10837,
+    "2024": 20641,
+    "2025": 22355,
+    "2026": 2459
+  },
+  "by_project_year": {
+    "commons": {
+      "2015": 1,
+      "2016": 19,
+      "2017": 3,
+      "2018": 6,
+      "2019": 10,
+      "2020": 217,
+      "2021": 260,
+      "2022": 219,
+      "2023": 135,
+      "2024": 2868,
+      "2025": 5157,
+      "2026": 96
+    },
+    "enwiki": {
+      "2012": 418,
+      "2013": 2937,
+      "2014": 10102,
+      "2015": 15013,
+      "2016": 18177,
+      "2017": 13788,
+      "2018": 17088,
+      "2019": 12590,
+      "2020": 14818,
+      "2021": 11290,
+      "2022": 10306,
+      "2023": 9983,
+      "2024": 16710,
+      "2025": 15978,
+      "2026": 2132
+    },
+    "wikidata": {
+      "2014": 11,
+      "2015": 11,
+      "2016": 294,
+      "2017": 140,
+      "2018": 259,
+      "2019": 188,
+      "2020": 910,
+      "2021": 780,
+      "2022": 372,
+      "2023": 719,
+      "2024": 1063,
+      "2025": 1220,
+      "2026": 231
+    }
+  },
+  "by_domain_bucket": {
+    "other": 92038,
+    "washington_commanders_nfl": 34778,
+    "video_games": 25388,
+    "templates_infoboxes": 10504,
+    "wikidata_structured_data": 8513,
+    "dota_esports": 6295,
+    "commons_media": 3638,
+    "biography": 3066,
+    "vgm_music": 2299
+  },
+  "byte_change": {
+    "net": -2623795,
+    "positive_added": 18636616,
+    "negative_removed": -21260411
+  },
+  "top_pages": [
+    {
+      "name": "enwiki:Jayden Daniels",
+      "count": 1728
+    },
+    {
+      "name": "enwiki:Dota 2",
+      "count": 1586
+    },
+    {
+      "name": "enwiki:Template:Washington Commanders roster",
+      "count": 1465
+    },
+    {
+      "name": "enwiki:Wikipedia talk:WikiProject Video games",
+      "count": 1346
+    },
+    {
+      "name": "enwiki:Josh Harris (businessman)",
+      "count": 1340
+    },
+    {
+      "name": "enwiki:Template:Washington Commanders roster navbox",
+      "count": 1294
+    },
+    {
+      "name": "enwiki:Washington Commanders",
+      "count": 1151
+    },
+    {
+      "name": "enwiki:User talk:Dissident93",
+      "count": 1045
+    },
+    {
+      "name": "enwiki:Chase Young",
+      "count": 851
+    },
+    {
+      "name": "enwiki:Wikipedia talk:WikiProject National Football League",
+      "count": 842
+    },
+    {
+      "name": "enwiki:New Commanders Stadium",
+      "count": 791
+    },
+    {
+      "name": "enwiki:Persona 5",
+      "count": 697
+    },
+    {
+      "name": "enwiki:List of suspensions in the NFL",
+      "count": 608
+    },
+    {
+      "name": "enwiki:Trails (series)",
+      "count": 598
+    },
+    {
+      "name": "enwiki:2024 Washington Commanders season",
+      "count": 591
+    },
+    {
+      "name": "enwiki:Sonic Mania",
+      "count": 532
+    },
+    {
+      "name": "enwiki:The International 2018",
+      "count": 501
+    },
+    {
+      "name": "enwiki:The Legend of Zelda: Breath of the Wild",
+      "count": 492
+    },
+    {
+      "name": "enwiki:Hidetaka Miyazaki",
+      "count": 483
+    },
+    {
+      "name": "enwiki:PUBG: Battlegrounds",
+      "count": 467
+    },
+    {
+      "name": "enwiki:Rocket League",
+      "count": 441
+    },
+    {
+      "name": "enwiki:Nintendo Entertainment Planning & Development",
+      "count": 422
+    },
+    {
+      "name": "enwiki:Ron Rivera",
+      "count": 422
+    },
+    {
+      "name": "enwiki:Elden Ring",
+      "count": 417
+    },
+    {
+      "name": "enwiki:David Blitzer",
+      "count": 406
+    },
+    {
+      "name": "wikidata:Q6289885",
+      "count": 401
+    },
+    {
+      "name": "enwiki:Super Mario Odyssey",
+      "count": 397
+    },
+    {
+      "name": "enwiki:Yasunori Mitsuda",
+      "count": 395
+    },
+    {
+      "name": "wikidata:Q66825384",
+      "count": 392
+    },
+    {
+      "name": "enwiki:Pokémon Go",
+      "count": 385
+    },
+    {
+      "name": "enwiki:Dark Souls",
+      "count": 384
+    },
+    {
+      "name": "enwiki:Motoi Sakuraba",
+      "count": 381
+    },
+    {
+      "name": "enwiki:Adam Peters",
+      "count": 381
+    },
+    {
+      "name": "enwiki:Template:NFL starting quarterbacks",
+      "count": 374
+    },
+    {
+      "name": "enwiki:Template:Infobox gridiron football biography/sandbox",
+      "count": 374
+    },
+    {
+      "name": "enwiki:The International (esports)",
+      "count": 371
+    },
+    {
+      "name": "enwiki:Joker (Persona)",
+      "count": 368
+    },
+    {
+      "name": "enwiki:Template:Washington Commanders staff",
+      "count": 339
+    },
+    {
+      "name": "enwiki:Talk:List of Nintendo Switch games",
+      "count": 337
+    },
+    {
+      "name": "enwiki:Nobuo Uematsu",
+      "count": 335
+    },
+    {
+      "name": "enwiki:The International 2016",
+      "count": 335
+    },
+    {
+      "name": "enwiki:Sega",
+      "count": 331
+    },
+    {
+      "name": "enwiki:Yoko Shimomura",
+      "count": 321
+    },
+    {
+      "name": "enwiki:The International 2017",
+      "count": 320
+    },
+    {
+      "name": "enwiki:List of Nintendo Switch games (A-L)",
+      "count": 316
+    },
+    {
+      "name": "enwiki:Dark Souls (video game)",
+      "count": 314
+    },
+    {
+      "name": "enwiki:Sammis Reyes",
+      "count": 314
+    },
+    {
+      "name": "enwiki:User:Dissident93",
+      "count": 308
+    },
+    {
+      "name": "enwiki:Steam (service)",
+      "count": 308
+    },
+    {
+      "name": "enwiki:FromSoftware",
+      "count": 307
+    },
+    {
+      "name": "enwiki:Alex Smith",
+      "count": 304
+    },
+    {
+      "name": "enwiki:Dragon Quest XI",
+      "count": 301
+    },
+    {
+      "name": "enwiki:Yuzo Koshiro",
+      "count": 299
+    },
+    {
+      "name": "enwiki:Koichi Sugiyama",
+      "count": 294
+    },
+    {
+      "name": "enwiki:The Witcher 3: Wild Hunt",
+      "count": 289
+    },
+    {
+      "name": "enwiki:Dark Souls III",
+      "count": 289
+    },
+    {
+      "name": "enwiki:Koji Kondo",
+      "count": 288
+    },
+    {
+      "name": "enwiki:Stardew Valley",
+      "count": 286
+    },
+    {
+      "name": "enwiki:Dwayne Haskins",
+      "count": 286
+    },
+    {
+      "name": "enwiki:OG (esports)",
+      "count": 283
+    },
+    {
+      "name": "enwiki:Artifact (video game)",
+      "count": 280
+    },
+    {
+      "name": "wikidata:Q65029655",
+      "count": 277
+    },
+    {
+      "name": "enwiki:Super Smash Bros. for Nintendo 3DS and Wii U",
+      "count": 274
+    },
+    {
+      "name": "enwiki:Jason Wright",
+      "count": 273
+    },
+    {
+      "name": "enwiki:Harris Blitzer Sports & Entertainment",
+      "count": 269
+    },
+    {
+      "name": "enwiki:User talk:Sergecross73",
+      "count": 264
+    },
+    {
+      "name": "enwiki:Bloodborne",
+      "count": 263
+    },
+    {
+      "name": "enwiki:Level-5 (company)",
+      "count": 260
+    },
+    {
+      "name": "enwiki:The International 2019",
+      "count": 259
+    },
+    {
+      "name": "enwiki:Kirk Cousins",
+      "count": 258
+    },
+    {
+      "name": "enwiki:Sekiro: Shadows Die Twice",
+      "count": 253
+    },
+    {
+      "name": "enwiki:Terraria",
+      "count": 251
+    },
+    {
+      "name": "enwiki:Shoji Meguro",
+      "count": 245
+    },
+    {
+      "name": "enwiki:Sonic the Hedgehog 3",
+      "count": 244
+    },
+    {
+      "name": "enwiki:Persona (series)",
+      "count": 239
+    },
+    {
+      "name": "enwiki:Jun Senoue",
+      "count": 233
+    },
+    {
+      "name": "enwiki:User:Dissident93/sandbox",
+      "count": 233
+    },
+    {
+      "name": "enwiki:Minecraft",
+      "count": 231
+    },
+    {
+      "name": "enwiki:Template:Cleveland Browns roster navbox",
+      "count": 227
+    },
+    {
+      "name": "enwiki:Daniel Snyder",
+      "count": 224
+    },
+    {
+      "name": "enwiki:Dota Pro Circuit",
+      "count": 224
+    },
+    {
+      "name": "enwiki:Source (game engine)",
+      "count": 222
+    },
+    {
+      "name": "enwiki:List of video games in development",
+      "count": 221
+    },
+    {
+      "name": "enwiki:List of best-selling Eastern role-playing game franchises",
+      "count": 217
+    },
+    {
+      "name": "enwiki:Death Stranding",
+      "count": 216
+    },
+    {
+      "name": "enwiki:Talk:List of video games listed among the best",
+      "count": 216
+    },
+    {
+      "name": "enwiki:Hitoshi Sakimoto",
+      "count": 214
+    },
+    {
+      "name": "enwiki:Nintendo",
+      "count": 214
+    },
+    {
+      "name": "enwiki:Sonic Forces",
+      "count": 214
+    },
+    {
+      "name": "enwiki:Xenoblade Chronicles 2",
+      "count": 213
+    },
+    {
+      "name": "enwiki:Dan Quinn (American football)",
+      "count": 211
+    },
+    {
+      "name": "enwiki:Template:San Francisco 49ers roster navbox",
+      "count": 209
+    },
+    {
+      "name": "enwiki:Wikipedia talk:WikiProject Video games/Sources",
+      "count": 209
+    },
+    {
+      "name": "enwiki:List of video games listed among the best",
+      "count": 207
+    },
+    {
+      "name": "enwiki:Terry McLaurin",
+      "count": 206
+    },
+    {
+      "name": "enwiki:Nintendo Entertainment Analysis & Development",
+      "count": 203
+    },
+    {
+      "name": "enwiki:Template talk:Infobox video game",
+      "count": 202
+    },
+    {
+      "name": "enwiki:The Game Awards 2018",
+      "count": 201
+    },
+    {
+      "name": "enwiki:Wikipedia talk:Manual of Style/Video games",
+      "count": 197
+    },
+    {
+      "name": "enwiki:Template:Detroit Lions roster navbox",
+      "count": 191
+    }
+  ],
+  "top_mainspace_pages": [
+    {
+      "name": "enwiki:Jayden Daniels",
+      "count": 1728
+    },
+    {
+      "name": "enwiki:Dota 2",
+      "count": 1586
+    },
+    {
+      "name": "enwiki:Josh Harris (businessman)",
+      "count": 1340
+    },
+    {
+      "name": "enwiki:Washington Commanders",
+      "count": 1151
+    },
+    {
+      "name": "enwiki:Chase Young",
+      "count": 851
+    },
+    {
+      "name": "enwiki:New Commanders Stadium",
+      "count": 791
+    },
+    {
+      "name": "enwiki:Persona 5",
+      "count": 697
+    },
+    {
+      "name": "enwiki:List of suspensions in the NFL",
+      "count": 608
+    },
+    {
+      "name": "enwiki:Trails (series)",
+      "count": 598
+    },
+    {
+      "name": "enwiki:2024 Washington Commanders season",
+      "count": 591
+    },
+    {
+      "name": "enwiki:Sonic Mania",
+      "count": 532
+    },
+    {
+      "name": "enwiki:The International 2018",
+      "count": 501
+    },
+    {
+      "name": "enwiki:The Legend of Zelda: Breath of the Wild",
+      "count": 492
+    },
+    {
+      "name": "enwiki:Hidetaka Miyazaki",
+      "count": 483
+    },
+    {
+      "name": "enwiki:PUBG: Battlegrounds",
+      "count": 467
+    },
+    {
+      "name": "enwiki:Rocket League",
+      "count": 441
+    },
+    {
+      "name": "enwiki:Nintendo Entertainment Planning & Development",
+      "count": 422
+    },
+    {
+      "name": "enwiki:Ron Rivera",
+      "count": 422
+    },
+    {
+      "name": "enwiki:Elden Ring",
+      "count": 417
+    },
+    {
+      "name": "enwiki:David Blitzer",
+      "count": 406
+    },
+    {
+      "name": "wikidata:Q6289885",
+      "count": 401
+    },
+    {
+      "name": "enwiki:Super Mario Odyssey",
+      "count": 397
+    },
+    {
+      "name": "enwiki:Yasunori Mitsuda",
+      "count": 395
+    },
+    {
+      "name": "wikidata:Q66825384",
+      "count": 392
+    },
+    {
+      "name": "enwiki:Pokémon Go",
+      "count": 385
+    },
+    {
+      "name": "enwiki:Dark Souls",
+      "count": 384
+    },
+    {
+      "name": "enwiki:Motoi Sakuraba",
+      "count": 381
+    },
+    {
+      "name": "enwiki:Adam Peters",
+      "count": 381
+    },
+    {
+      "name": "enwiki:The International (esports)",
+      "count": 371
+    },
+    {
+      "name": "enwiki:Joker (Persona)",
+      "count": 368
+    },
+    {
+      "name": "enwiki:Nobuo Uematsu",
+      "count": 335
+    },
+    {
+      "name": "enwiki:The International 2016",
+      "count": 335
+    },
+    {
+      "name": "enwiki:Sega",
+      "count": 331
+    },
+    {
+      "name": "enwiki:Yoko Shimomura",
+      "count": 321
+    },
+    {
+      "name": "enwiki:The International 2017",
+      "count": 320
+    },
+    {
+      "name": "enwiki:List of Nintendo Switch games (A-L)",
+      "count": 316
+    },
+    {
+      "name": "enwiki:Dark Souls (video game)",
+      "count": 314
+    },
+    {
+      "name": "enwiki:Sammis Reyes",
+      "count": 314
+    },
+    {
+      "name": "enwiki:Steam (service)",
+      "count": 308
+    },
+    {
+      "name": "enwiki:FromSoftware",
+      "count": 307
+    },
+    {
+      "name": "enwiki:Alex Smith",
+      "count": 304
+    },
+    {
+      "name": "enwiki:Dragon Quest XI",
+      "count": 301
+    },
+    {
+      "name": "enwiki:Yuzo Koshiro",
+      "count": 299
+    },
+    {
+      "name": "enwiki:Koichi Sugiyama",
+      "count": 294
+    },
+    {
+      "name": "enwiki:The Witcher 3: Wild Hunt",
+      "count": 289
+    },
+    {
+      "name": "enwiki:Dark Souls III",
+      "count": 289
+    },
+    {
+      "name": "enwiki:Koji Kondo",
+      "count": 288
+    },
+    {
+      "name": "enwiki:Stardew Valley",
+      "count": 286
+    },
+    {
+      "name": "enwiki:Dwayne Haskins",
+      "count": 286
+    },
+    {
+      "name": "enwiki:OG (esports)",
+      "count": 283
+    },
+    {
+      "name": "enwiki:Artifact (video game)",
+      "count": 280
+    },
+    {
+      "name": "wikidata:Q65029655",
+      "count": 277
+    },
+    {
+      "name": "enwiki:Super Smash Bros. for Nintendo 3DS and Wii U",
+      "count": 274
+    },
+    {
+      "name": "enwiki:Jason Wright",
+      "count": 273
+    },
+    {
+      "name": "enwiki:Harris Blitzer Sports & Entertainment",
+      "count": 269
+    },
+    {
+      "name": "enwiki:Bloodborne",
+      "count": 263
+    },
+    {
+      "name": "enwiki:Level-5 (company)",
+      "count": 260
+    },
+    {
+      "name": "enwiki:The International 2019",
+      "count": 259
+    },
+    {
+      "name": "enwiki:Kirk Cousins",
+      "count": 258
+    },
+    {
+      "name": "enwiki:Sekiro: Shadows Die Twice",
+      "count": 253
+    },
+    {
+      "name": "enwiki:Terraria",
+      "count": 251
+    },
+    {
+      "name": "enwiki:Shoji Meguro",
+      "count": 245
+    },
+    {
+      "name": "enwiki:Sonic the Hedgehog 3",
+      "count": 244
+    },
+    {
+      "name": "enwiki:Persona (series)",
+      "count": 239
+    },
+    {
+      "name": "enwiki:Jun Senoue",
+      "count": 233
+    },
+    {
+      "name": "enwiki:Minecraft",
+      "count": 231
+    },
+    {
+      "name": "enwiki:Daniel Snyder",
+      "count": 224
+    },
+    {
+      "name": "enwiki:Dota Pro Circuit",
+      "count": 224
+    },
+    {
+      "name": "enwiki:Source (game engine)",
+      "count": 222
+    },
+    {
+      "name": "enwiki:List of video games in development",
+      "count": 221
+    },
+    {
+      "name": "enwiki:List of best-selling Eastern role-playing game franchises",
+      "count": 217
+    },
+    {
+      "name": "enwiki:Death Stranding",
+      "count": 216
+    },
+    {
+      "name": "enwiki:Hitoshi Sakimoto",
+      "count": 214
+    },
+    {
+      "name": "enwiki:Nintendo",
+      "count": 214
+    },
+    {
+      "name": "enwiki:Sonic Forces",
+      "count": 214
+    },
+    {
+      "name": "enwiki:Xenoblade Chronicles 2",
+      "count": 213
+    },
+    {
+      "name": "enwiki:Dan Quinn (American football)",
+      "count": 211
+    },
+    {
+      "name": "enwiki:List of video games listed among the best",
+      "count": 207
+    },
+    {
+      "name": "enwiki:Terry McLaurin",
+      "count": 206
+    },
+    {
+      "name": "enwiki:Nintendo Entertainment Analysis & Development",
+      "count": 203
+    },
+    {
+      "name": "enwiki:The Game Awards 2018",
+      "count": 201
+    },
+    {
+      "name": "enwiki:The Game Awards 2017",
+      "count": 189
+    },
+    {
+      "name": "enwiki:List of Game of the Year awards",
+      "count": 185
+    },
+    {
+      "name": "enwiki:2024 NFL season",
+      "count": 180
+    },
+    {
+      "name": "enwiki:Super Smash Bros. Ultimate",
+      "count": 174
+    },
+    {
+      "name": "enwiki:Mitchell Rales",
+      "count": 173
+    },
+    {
+      "name": "enwiki:Martin Mayhew",
+      "count": 168
+    },
+    {
+      "name": "enwiki:List of current NFL starting quarterbacks",
+      "count": 166
+    },
+    {
+      "name": "enwiki:Overwatch (video game)",
+      "count": 166
+    },
+    {
+      "name": "enwiki:No Man's Sky",
+      "count": 164
+    },
+    {
+      "name": "enwiki:Northwest Stadium",
+      "count": 163
+    },
+    {
+      "name": "enwiki:Joe Burrow",
+      "count": 161
+    },
+    {
+      "name": "enwiki:Disco Elysium",
+      "count": 160
+    },
+    {
+      "name": "enwiki:List of 500-yard passing games in the NFL",
+      "count": 159
+    },
+    {
+      "name": "enwiki:Persona 4",
+      "count": 156
+    },
+    {
+      "name": "enwiki:List of Atlus games",
+      "count": 156
+    },
+    {
+      "name": "enwiki:Sonic the Hedgehog (1991 video game)",
+      "count": 156
+    },
+    {
+      "name": "enwiki:Source 2",
+      "count": 156
+    },
+    {
+      "name": "enwiki:Antonio Gibson",
+      "count": 156
+    },
+    {
+      "name": "enwiki:Super Mario Run",
+      "count": 155
+    }
+  ],
+  "top_template_pages": [
+    {
+      "name": "enwiki:Template:Washington Commanders roster",
+      "count": 1465
+    },
+    {
+      "name": "enwiki:Template:Washington Commanders roster navbox",
+      "count": 1294
+    },
+    {
+      "name": "enwiki:Template:NFL starting quarterbacks",
+      "count": 374
+    },
+    {
+      "name": "enwiki:Template:Infobox gridiron football biography/sandbox",
+      "count": 374
+    },
+    {
+      "name": "enwiki:Template:Washington Commanders staff",
+      "count": 339
+    },
+    {
+      "name": "enwiki:Template:Cleveland Browns roster navbox",
+      "count": 227
+    },
+    {
+      "name": "enwiki:Template:San Francisco 49ers roster navbox",
+      "count": 209
+    },
+    {
+      "name": "enwiki:Template:Detroit Lions roster navbox",
+      "count": 191
+    },
+    {
+      "name": "enwiki:Template:Miami Dolphins roster navbox",
+      "count": 190
+    },
+    {
+      "name": "enwiki:Template:Buffalo Bills roster navbox",
+      "count": 185
+    },
+    {
+      "name": "enwiki:Template:Seattle Seahawks roster navbox",
+      "count": 182
+    },
+    {
+      "name": "enwiki:Template:New Orleans Saints roster navbox",
+      "count": 173
+    },
+    {
+      "name": "enwiki:Template:Chicago Bears roster navbox",
+      "count": 172
+    },
+    {
+      "name": "enwiki:Template:Carolina Panthers roster navbox",
+      "count": 168
+    },
+    {
+      "name": "enwiki:Template:Baltimore Ravens roster navbox",
+      "count": 166
+    },
+    {
+      "name": "enwiki:Template:Denver Broncos roster navbox",
+      "count": 164
+    },
+    {
+      "name": "enwiki:Template:Arizona Cardinals roster navbox",
+      "count": 163
+    },
+    {
+      "name": "enwiki:Template:Kansas City Chiefs roster navbox",
+      "count": 159
+    },
+    {
+      "name": "enwiki:Template:Philadelphia Eagles roster navbox",
+      "count": 157
+    },
+    {
+      "name": "enwiki:Template:New York Jets roster navbox",
+      "count": 156
+    },
+    {
+      "name": "enwiki:Template:Indianapolis Colts roster navbox",
+      "count": 155
+    },
+    {
+      "name": "enwiki:Template:Jacksonville Jaguars roster navbox",
+      "count": 152
+    },
+    {
+      "name": "enwiki:Template:Los Angeles Rams roster navbox",
+      "count": 152
+    },
+    {
+      "name": "enwiki:Template:Dallas Cowboys roster navbox",
+      "count": 143
+    },
+    {
+      "name": "enwiki:Template:New York Giants roster navbox",
+      "count": 140
+    },
+    {
+      "name": "enwiki:Template:Tennessee Titans roster navbox",
+      "count": 139
+    },
+    {
+      "name": "enwiki:Template:Atlanta Falcons roster navbox",
+      "count": 139
+    },
+    {
+      "name": "enwiki:Template:Cincinnati Bengals roster navbox",
+      "count": 133
+    },
+    {
+      "name": "enwiki:Template:Pittsburgh Steelers roster navbox",
+      "count": 127
+    },
+    {
+      "name": "enwiki:Template:Los Angeles Chargers roster navbox",
+      "count": 127
+    },
+    {
+      "name": "enwiki:Template:Tampa Bay Buccaneers roster navbox",
+      "count": 123
+    },
+    {
+      "name": "enwiki:Template:Washington Commanders",
+      "count": 117
+    },
+    {
+      "name": "enwiki:Template:Infobox gridiron football biography",
+      "count": 116
+    },
+    {
+      "name": "enwiki:Template:Las Vegas Raiders roster navbox",
+      "count": 111
+    },
+    {
+      "name": "enwiki:Template:Houston Texans roster navbox",
+      "count": 106
+    },
+    {
+      "name": "enwiki:Template:Minnesota Vikings roster navbox",
+      "count": 105
+    },
+    {
+      "name": "enwiki:Template:NFLplayer/sandbox",
+      "count": 98
+    },
+    {
+      "name": "enwiki:Template:New England Patriots roster navbox",
+      "count": 95
+    },
+    {
+      "name": "enwiki:Template:NFLplayer",
+      "count": 90
+    },
+    {
+      "name": "enwiki:Template:Infobox NFL team/sandbox",
+      "count": 88
+    },
+    {
+      "name": "enwiki:Template:Dota",
+      "count": 86
+    },
+    {
+      "name": "enwiki:Template:Infobox NFL biography",
+      "count": 84
+    },
+    {
+      "name": "enwiki:Template:Infobox gridiron football team",
+      "count": 81
+    },
+    {
+      "name": "enwiki:Template:NFL roster/sandbox",
+      "count": 80
+    },
+    {
+      "name": "enwiki:Template:NFL general managers",
+      "count": 66
+    },
+    {
+      "name": "enwiki:Template:Green Bay Packers roster navbox",
+      "count": 63
+    },
+    {
+      "name": "enwiki:Template:Nintendo developers",
+      "count": 63
+    },
+    {
+      "name": "enwiki:Template:NFL roster",
+      "count": 60
+    },
+    {
+      "name": "enwiki:Template:NFL offensive coordinators",
+      "count": 58
+    },
+    {
+      "name": "enwiki:Template:San Francisco 49ers roster",
+      "count": 56
+    },
+    {
+      "name": "enwiki:Template:NFL defensive coordinators",
+      "count": 54
+    },
+    {
+      "name": "enwiki:Template:Infobox baseball biography/sandbox",
+      "count": 54
+    },
+    {
+      "name": "enwiki:Template:Philadelphia Eagles roster",
+      "count": 52
+    },
+    {
+      "name": "enwiki:Template:Washington Commanders starting quarterbacks",
+      "count": 49
+    },
+    {
+      "name": "enwiki:Template:Esports",
+      "count": 48
+    },
+    {
+      "name": "enwiki:Template:Seattle Seahawks roster",
+      "count": 47
+    },
+    {
+      "name": "enwiki:Template:Harris Blitzer Sports & Entertainment",
+      "count": 47
+    },
+    {
+      "name": "enwiki:Template:Infobox basketball biography/sandbox",
+      "count": 47
+    },
+    {
+      "name": "enwiki:Template:Level-5",
+      "count": 46
+    },
+    {
+      "name": "enwiki:Template:Super Mario",
+      "count": 45
+    }
+  ],
+  "top_repeated_comments": [
+    {
+      "name": "/* External links */",
+      "count": 5352
+    },
+    {
+      "name": "/* Professional career */",
+      "count": 1068
+    },
+    {
+      "name": "/* Development */",
+      "count": 1062
+    },
+    {
+      "name": "/* Personal life */",
+      "count": 1051
+    },
+    {
+      "name": "/* Works */",
+      "count": 936
+    },
+    {
+      "name": "/* Reception */",
+      "count": 878
+    },
+    {
+      "name": "/* College career */",
+      "count": 758
+    },
+    {
+      "name": "/* Gameplay */",
+      "count": 639
+    },
+    {
+      "name": "/* History */",
+      "count": 631
+    },
+    {
+      "name": "/* Video games */",
+      "count": 616
+    },
+    {
+      "name": "/* References */",
+      "count": 537
+    },
+    {
+      "name": "/* wbeditentity-update:0| */",
+      "count": 530
+    },
+    {
+      "name": "/* Early life */",
+      "count": 447
+    },
+    {
+      "name": "/* wbeditentity-update-languages-and-other-short:0||en */",
+      "count": 441
+    },
+    {
+      "name": "/* Music */",
+      "count": 436
+    },
+    {
+      "name": "Transferred from Flickr via #flickr2commons",
+      "count": 427
+    },
+    {
+      "name": "/* Games */",
+      "count": 402
+    },
+    {
+      "name": "/* Discography */",
+      "count": 396
+    },
+    {
+      "name": "/* Career */",
+      "count": 389
+    },
+    {
+      "name": "/* Legacy */",
+      "count": 341
+    },
+    {
+      "name": "/* Statistics */",
+      "count": 328
+    },
+    {
+      "name": "Adding [[Category:Florida Gators vs LSU Tigers, 11 November 2023]]",
+      "count": 311
+    },
+    {
+      "name": "jersey number",
+      "count": 298
+    },
+    {
+      "name": "Adding [[Category:Images by location]]",
+      "count": 268
+    },
+    {
+      "name": "/* Washington Redskins */",
+      "count": 258
+    },
+    {
+      "name": "Moving from [[Category:2024 Baltimore Ravens season]] to [[Category:2024 Baltimore Ravens training camp]]",
+      "count": 256
+    },
+    {
+      "name": "/* Early years */",
+      "count": 245
+    },
+    {
+      "name": "Adding/updating {{Image extracted}} using [[Commons:CropTool|CropTool]]",
+      "count": 243
+    },
+    {
+      "name": "NFL infobox",
+      "count": 240
+    },
+    {
+      "name": "Cleaned up using [[WP:AutoEd|AutoEd]], date formats per [[MOS:DATEFORMAT]] by [[WP:MOSNUMscript|script]]",
+      "count": 238
+    },
+    {
+      "name": "Adding [[Category:2025 Washington Commanders training camp]]; Remove {{Uncategorized}}",
+      "count": 235
+    },
+    {
+      "name": "/* Release */",
+      "count": 232
+    },
+    {
+      "name": "/* List */",
+      "count": 229
+    },
+    {
+      "name": "/* Development and release */",
+      "count": 220
+    },
+    {
+      "name": "brevity",
+      "count": 216
+    },
+    {
+      "name": "cleanup",
+      "count": 207
+    },
+    {
+      "name": "/* See also */",
+      "count": 206
+    },
+    {
+      "name": "fixes",
+      "count": 203
+    },
+    {
+      "name": "grammar",
+      "count": 195
+    },
+    {
+      "name": "/* External links */clean up",
+      "count": 194
+    },
+    {
+      "name": "Copying from [[Category:Washington Commanders at Dallas Cowboys (October 19, 2025)]] to [[Category:Photographs by All-Pro Reels]]",
+      "count": 194
+    },
+    {
+      "name": "/* Sports */",
+      "count": 186
+    },
+    {
+      "name": "/* Awards */",
+      "count": 186
+    },
+    {
+      "name": "guideline fixes",
+      "count": 183
+    },
+    {
+      "name": "MOS fixes",
+      "count": 175
+    },
+    {
+      "name": "Removing from [[Category:2025 Washington Commanders training camp]]",
+      "count": 172
+    },
+    {
+      "name": "Adding [[Category:2025 Washington Commanders training camp]]",
+      "count": 171
+    },
+    {
+      "name": "/* Plot */",
+      "count": 170
+    },
+    {
+      "name": "Copying from [[Category:Washington Commanders at Green Bay Packers (September 11, 2025)]] to [[Category:Photographs by All-Pro Reels]]",
+      "count": 165
+    },
+    {
+      "name": "released",
+      "count": 163
+    },
+    {
+      "name": "date formats per [[MOS:DATEFORMAT]] by [[WP:MOSNUMscript|script]]",
+      "count": 163
+    },
+    {
+      "name": "not needed",
+      "count": 162
+    },
+    {
+      "name": "Copying from [[Category:Cincinnati Bengals at Washington Commanders (August 18, 2025)]] to [[Category:Photographs by All-Pro Reels]]",
+      "count": 156
+    },
+    {
+      "name": "Copying from [[Category:2025 Washington Commanders training camp]] to [[Category:Photographs by All-Pro Reels]]",
+      "count": 156
+    },
+    {
+      "name": "/* Group stage */",
+      "count": 155
+    },
+    {
+      "name": "some fixes",
+      "count": 150
+    },
+    {
+      "name": "typo",
+      "count": 148
+    },
+    {
+      "name": "/* Early life and high school */",
+      "count": 145
+    },
+    {
+      "name": "/* External links */ adding Elite 11 participant category",
+      "count": 145
+    },
+    {
+      "name": "Moving from [[Category:2024 Washington Commanders season]] to [[Category:2024 Washington Commanders training camp]]",
+      "count": 142
+    }
+  ],
+  "first_edits_sample": [
+    {
+      "project": "enwiki",
+      "timestamp": "2012-05-04T03:07:34Z",
+      "title": "Talk:Decap Attack",
+      "namespace": 1,
+      "classification": "talk_page_discussion",
+      "sizediff": 152,
+      "comment": "/* Composer edit. */ new section"
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-05-23T02:43:31Z",
+      "title": "Motoaki Takenouchi",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": 0,
+      "comment": "/* Works */"
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-05-25T00:52:41Z",
+      "title": "Anett Futatabi",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": -1,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-05-26T11:31:52Z",
+      "title": "PaRappa the Rapper",
+      "namespace": 0,
+      "classification": "minor_polish",
+      "sizediff": 0,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-01T07:31:10Z",
+      "title": "Mega Man & Bass",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": -5,
+      "comment": "/* Development */"
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-06T07:44:52Z",
+      "title": "Persona 3",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": -3,
+      "comment": "/* Music */"
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-06T08:33:48Z",
+      "title": "Stuart Price",
+      "namespace": 0,
+      "classification": "minor_polish",
+      "sizediff": 4,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-07T18:42:33Z",
+      "title": "Harvest Moon 64",
+      "namespace": 0,
+      "classification": "minor_polish",
+      "sizediff": 0,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-08T04:03:24Z",
+      "title": "Gluteus maximus",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": -1,
+      "comment": "/* Actions */"
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-09T22:26:58Z",
+      "title": "Motoaki Takenouchi",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": -16,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-09T22:41:51Z",
+      "title": "Motoaki Takenouchi",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": 0,
+      "comment": "/* Works */"
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-09T23:01:58Z",
+      "title": "Motoaki Takenouchi",
+      "namespace": 0,
+      "classification": "minor_polish",
+      "sizediff": 0,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-09T23:06:00Z",
+      "title": "Motoaki Takenouchi",
+      "namespace": 0,
+      "classification": "minor_polish",
+      "sizediff": 0,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-09T23:24:02Z",
+      "title": "Motoaki Takenouchi",
+      "namespace": 0,
+      "classification": "minor_polish",
+      "sizediff": 11,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-09T23:24:48Z",
+      "title": "User:Dissident93",
+      "namespace": 2,
+      "classification": "project_maintenance",
+      "sizediff": 73,
+      "comment": "[[WP:AES|←]]Created page with 'I'm writing this so my name will appear blue in the edit history tabs. xD'"
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-09T23:29:52Z",
+      "title": "Landstalker",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": -1,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-09T23:32:19Z",
+      "title": "Motoaki Takenouchi",
+      "namespace": 0,
+      "classification": "minor_polish",
+      "sizediff": 40,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-12T10:14:38Z",
+      "title": "Sly 2: Band of Thieves",
+      "namespace": 0,
+      "classification": "minor_polish",
+      "sizediff": 1,
+      "comment": ""
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-18T00:27:52Z",
+      "title": "Samba de Amigo",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": 8,
+      "comment": "/* Dreamcast */"
+    },
+    {
+      "project": "enwiki",
+      "timestamp": "2012-06-21T02:17:06Z",
+      "title": "Streets of Rage 3",
+      "namespace": 0,
+      "classification": "manual_review_required",
+      "sizediff": -16,
+      "comment": "/* Soundtrack */"
+    }
+  ],
+  "latest_edits_sample": [
+    {
+      "project": "commons",
+      "timestamp": "2026-04-07T15:10:30Z",
+      "title": "File:2026 Titans HC Interview - Robert Saleh (cropped).png",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": 772,
+      "comment": "[[:File:2026 Titans HC Interview - Robert Saleh.png]] cropped 29% horizontally, 29% areawise using [[Commons:CropTool|CropTool2]] with preci"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-07T15:10:31Z",
+      "title": "File:2026 Titans HC Interview - Robert Saleh.png",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": 75,
+      "comment": "Adding/updating {{Image extracted}} using [[Commons:CropTool|CropTool2]]"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-07T15:22:15Z",
+      "title": "Category:Dyami Brown",
+      "namespace": 14,
+      "classification": "category_work",
+      "sizediff": 42,
+      "comment": "added [[Category:Jacksonville Jaguars players]]"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-15T17:55:55Z",
+      "title": "File:Washington Commanders Uniforms 2026.png",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": -424,
+      "comment": "/* {{int:filedesc}} */ not proper names. the rivalries alt has nothing to do with this set"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-15T18:02:12Z",
+      "title": "File talk:Washington Commanders Uniforms 2026.png",
+      "namespace": 7,
+      "classification": "talk_page_discussion",
+      "sizediff": 395,
+      "comment": "[[Special:MyLanguage/COM:AES|←]]Created page with 'Can the white space in between the facemask be removed? I'm not the best graphics editor "
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-15T18:03:38Z",
+      "title": "File talk:Washington Commanders Uniforms 2026.png",
+      "namespace": 7,
+      "classification": "talk_page_discussion",
+      "sizediff": 30,
+      "comment": ""
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-15T18:05:19Z",
+      "title": "File talk:Washington Commanders Uniforms 2026.png",
+      "namespace": 7,
+      "classification": "talk_page_discussion",
+      "sizediff": 16,
+      "comment": ""
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-15T18:06:47Z",
+      "title": "File:Doc Walker (50120926248).jpg",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": -39,
+      "comment": "removed [[Category:Washington Redskins logos]]"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-15T19:03:03Z",
+      "title": "File:Washington Commanders Uniforms 2026.png",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": -52,
+      "comment": "only needs this category"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-22T21:34:53Z",
+      "title": "File:PJ Johnson (cropped).jpg",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": 297,
+      "comment": "[[:File:PJ Johnson.jpg]] cropped 36% horizontally, 36% areawise using [[Commons:CropTool|CropTool2]] with precise mode."
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-22T21:34:53Z",
+      "title": "File:PJ Johnson.jpg",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": 46,
+      "comment": "Adding/updating {{Image extracted}} using [[Commons:CropTool|CropTool2]]"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-23T01:43:28Z",
+      "title": "File:Trent Williams Redskins 2018.jpg",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": 701,
+      "comment": "[[:File:Dsc 0169 42498411880 o (50120871683).jpg]] cropped 14% horizontally,  < 1% vertically, 14% areawise using [[Commons:CropTool|CropToo"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-23T01:43:28Z",
+      "title": "File:Dsc 0169 42498411880 o (50120871683).jpg",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": 54,
+      "comment": "Adding/updating {{Image extracted}} using [[Commons:CropTool|CropTool2]]"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-24T01:43:54Z",
+      "title": "File:Sonny Styles OSU 2024.jpg",
+      "namespace": 6,
+      "classification": "media_or_file_work",
+      "sizediff": 63,
+      "comment": "Requesting renaming this file to [[File:Sonny Styles OSU 2024.jpg]]; Criterion 2"
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-24T02:27:13Z",
+      "title": "Category:Sonny Styles",
+      "namespace": 14,
+      "classification": "category_work",
+      "sizediff": 43,
+      "comment": ""
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-24T02:30:34Z",
+      "title": "Category:Sonny Styles",
+      "namespace": 14,
+      "classification": "category_work",
+      "sizediff": 15,
+      "comment": ""
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-24T02:33:47Z",
+      "title": "Category:Josh Conerly Jr.",
+      "namespace": 14,
+      "classification": "category_work",
+      "sizediff": 307,
+      "comment": ""
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-24T02:34:21Z",
+      "title": "Category:Jayden Daniels",
+      "namespace": 14,
+      "classification": "category_work",
+      "sizediff": 68,
+      "comment": ""
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-24T02:35:20Z",
+      "title": "Category:Sonny Styles",
+      "namespace": 14,
+      "classification": "category_work",
+      "sizediff": 151,
+      "comment": ""
+    },
+    {
+      "project": "commons",
+      "timestamp": "2026-04-24T02:36:01Z",
+      "title": "Category:Jayden Daniels",
+      "namespace": 14,
+      "classification": "category_work",
+      "sizediff": 7,
+      "comment": ""
+    }
+  ],
+  "interpretive_profile": {
+    "plain_language_summary": [
+      "Dissident93 edits like an infrastructure maintainer: repeated work on pages, templates, data, images, and page architecture rather than one-off opinion writing.",
+      "The account history is especially concentrated around NFL/Washington Commanders work, video games/esports, VGM/composer material, templates/infoboxes, structured data, and Commons media.",
+      "High-volume repeated edits suggest long-horizon stewardship: returning to the same objects over years, keeping them current, structural, and machine-readable."
+    ],
+    "dominant_domain_buckets": [
+      "other",
+      "washington_commanders_nfl",
+      "video_games",
+      "templates_infoboxes",
+      "wikidata_structured_data",
+      "dota_esports",
+      "commons_media",
+      "biography"
+    ],
+    "dominant_work_modes": [
+      "manual_review_required",
+      "minor_polish",
+      "template_work",
+      "talk_page_discussion",
+      "media_or_file_work",
+      "revert_or_undo",
+      "structured_data_work",
+      "reference_or_citation_work"
+    ],
+    "llm_reading_guidance": [
+      "Treat page choices as evidence of object-field attachment: the operator repeatedly maintains public knowledge objects that connect to larger worlds.",
+      "Do not reduce the wiki pattern to fandom. The recurrent behavior is public structure repair, data hygiene, template logic, and continuity maintenance.",
+      "Template, infobox, Wikidata, and Commons work should be read as externalized cognition: making public information more addressable and reusable.",
+      "Early VGM/video-game edits matter because they show the account began through music/game evidence surfaces before expanding into wider public knowledge architecture."
+    ],
+    "top_mainspace_signal": [
+      "enwiki:Jayden Daniels",
+      "enwiki:Dota 2",
+      "enwiki:Josh Harris (businessman)",
+      "enwiki:Washington Commanders",
+      "enwiki:Chase Young",
+      "enwiki:New Commanders Stadium",
+      "enwiki:Persona 5",
+      "enwiki:List of suspensions in the NFL",
+      "enwiki:Trails (series)",
+      "enwiki:2024 Washington Commanders season",
+      "enwiki:Sonic Mania",
+      "enwiki:The International 2018",
+      "enwiki:The Legend of Zelda: Breath of the Wild",
+      "enwiki:Hidetaka Miyazaki",
+      "enwiki:PUBG: Battlegrounds"
+    ],
+    "top_template_signal": [
+      "enwiki:Template:Washington Commanders roster",
+      "enwiki:Template:Washington Commanders roster navbox",
+      "enwiki:Template:NFL starting quarterbacks",
+      "enwiki:Template:Infobox gridiron football biography/sandbox",
+      "enwiki:Template:Washington Commanders staff",
+      "enwiki:Template:Cleveland Browns roster navbox",
+      "enwiki:Template:San Francisco 49ers roster navbox",
+      "enwiki:Template:Detroit Lions roster navbox",
+      "enwiki:Template:Miami Dolphins roster navbox",
+      "enwiki:Template:Buffalo Bills roster navbox",
+      "enwiki:Template:Seattle Seahawks roster navbox",
+      "enwiki:Template:New Orleans Saints roster navbox",
+      "enwiki:Template:Chicago Bears roster navbox",
+      "enwiki:Template:Carolina Panthers roster navbox",
+      "enwiki:Template:Baltimore Ravens roster navbox"
+    ],
+    "namespace_signal": [
+      "0:main/article or item",
+      "10:template",
+      "6:file",
+      "1:talk",
+      "5:project talk",
+      "3:user talk",
+      "4:project",
+      "11:template talk",
+      "2:user",
+      "14:category"
+    ]
+  },
+  "fetch_counts": {
+    "enwiki": 171330,
+    "wikidata": 6198,
+    "commons": 8991
+  }
+}

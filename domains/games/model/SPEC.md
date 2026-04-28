@@ -1,4 +1,4 @@
-# HELIX GAMES SUBSTRATE SPECIFICATION
+﻿# HELIX GAMES SUBSTRATE SPECIFICATION
 
 **Version:** 2.1
 **Status:** Authoritative target specification — implementation status tracked in README.md §11
@@ -201,7 +201,7 @@ Invariant candidates follow the global 6-criterion gate (see `docs/GOVERNANCE.md
 ## 11. KNOWN ASSUMPTIONS / OPEN CONSTRAINTS
 
 - Games domain assumes replay logs are available and parseable; live game state capture is not in scope
-- Probe datasets reference `domains/games/data/derived/games/` — this path must remain canonical (old docs referenced `labs/games/`, which is stale)
+- Probe datasets reference `domains/games/data/output/pipeline/` — this path must remain canonical (old docs referenced `labs/games/`, which is stale)
 - Projection mapping in §3 is the intended target; actual implementation not confirmed
 - `projection_schema` versioning not yet implemented
 - All Stage 1–6 runtime implementations are not confirmed; pipeline is a stub

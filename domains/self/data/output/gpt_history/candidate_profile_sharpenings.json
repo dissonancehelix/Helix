@@ -1,0 +1,27 @@
+[
+  {
+    "candidate_addition": "Interaction taste is visible in correction behavior: the operator rapidly distinguishes usable structure from generic compliance, then asks for sharper fit rather than mere agreement.",
+    "evidence_basis": "Direct correction, iteration demand, and compression-language marker counts.",
+    "target_section": "3.13 Recognition / Taste"
+  },
+  {
+    "candidate_addition": "ChatGPT history functions as behavioral evidence: correction moments are negative controls that reveal where a model flattened, overgeneralized, or missed the operative boundary.",
+    "evidence_basis": "Correction moments and evidence-request markers.",
+    "target_section": "3.14 Evidence / Anomaly Correction"
+  },
+  {
+    "candidate_addition": "LLMs are used as cognitive scaffolding when their work remains inspectable, iterable, and correctable; the operator treats them as pressure tools, not authorities.",
+    "evidence_basis": "Code/repo, Helix, read/check/research, and correction/iteration patterns.",
+    "target_section": "3.10 Externalized Cognition / Cognitive Scaffolding"
+  },
+  {
+    "candidate_addition": "Visual evidence suggests a recurring attraction to inhabitable depth: images and scenes pass when they imply thresholds, paths, layered interiors, and returnable worlds.",
+    "evidence_basis": "Image/visual-style request markers in the ChatGPT history; should be cross-checked against local photo/background evidence in a later pass.",
+    "target_section": "3.3 Spatial-Image / Topological Cognition"
+  },
+  {
+    "candidate_addition": "Language should remain a first-class domain: Spanish and English are nested practice/evidence chambers inside a broader linguistics domain.",
+    "evidence_basis": "Operator correction plus Spanish/language mention cluster.",
+    "target_section": "1.6 Active Externalized Domains"
+  }
+]

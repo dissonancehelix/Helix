@@ -1,0 +1,1268 @@
+{
+  "cognitive_operation_markers": {
+    "compression_loss_anxiety": {
+      "count": 12,
+      "examples": [
+        {
+          "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+          "message_index": 80,
+          "snippet": "\"They traded: guaranteed possession loss for: unpredictable future possession In other words, they didn’t save the play. They reset the uncertainty.\" well that and also sometimes...",
+          "title": "EFT Game Evaluation"
+        },
+        {
+          "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+          "message_index": 86,
+          "snippet": "https://github.com/dissonance-eft/extremefootballthrowdown great. lets refine this because maps were designed around flow and possible mitigation of it. for example in temple sacr...",
+          "title": "EFT Game Evaluation"
+        },
+        {
+          "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+          "message_index": 33,
+          "snippet": "\"a small set of verbs + tons of automatic constructions\" thats what im saying. lesser uses phrases and verbs will come after this once i have the spanish starter pack installed an...",
+          "title": "La lluvia se llegue"
+        },
+        {
+          "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+          "message_index": 150,
+          "snippet": "\"strong abstraction awareness of framing structural curiosity cognitive reflection\" explain how i have these. and yes i have all 4 things you listed as potential problems. i see o...",
+          "title": "La lluvia se llegue"
+        },
+        {
+          "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+          "message_index": 181,
+          "snippet": "\"“if I’m not near the ball when it pops free, I failed.”\" its more “if I’m not near the ball UPRIGHT when it pops free, I failed.” you were constantly being tackled, even the best...",
+          "title": "GMod Server Setup Guide"
+        }
+      ]
+    },
+    "domain_grounding": {
+      "count": 21,
+      "examples": [
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "Template Fixes and Advice"
+        },
+        {
+          "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+          "message_index": 33,
+          "snippet": "\"borrowing their internal world model\" yes. i see languages as APIs or OS (which is more applicable)? we're all describing 99% of the same thing (some things dont translate well o...",
+          "title": "Hay vs He"
+        },
+        {
+          "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+          "message_index": 208,
+          "snippet": "\"a sufficiently accurate mental model that prevents wrong decisions during the port.\" moreso less errors/troubleshooting during the point.",
+          "title": "EFT Game Evaluation"
+        },
+        {
+          "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+          "message_index": 152,
+          "snippet": "\"model a Spanish mind\" is it. obviously i have to learn the language still but having this as the foundation should ideally make everything easier. its just hard to do with englis...",
+          "title": "La lluvia se llegue"
+        }
+      ]
+    },
+    "evidence_anomaly_correction": {
+      "count": 12,
+      "examples": [
+        {
+          "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+          "message_index": 70,
+          "snippet": "oh sorry i meant DEBO mear (see why i need more practice, i knew what i meant to say but still got it wrong). i wish i could map spanish strucutually 3d somehow, and map the verbs...",
+          "title": "Bad Bunny English Skills"
+        },
+        {
+          "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+          "message_index": 78,
+          "snippet": "tell me how wrong i am because its still kind of confusing (i havent really lookd into it to be far). but para would be used better in sitations where something has a direct desti...",
+          "title": "Bad Bunny English Skills"
+        },
+        {
+          "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+          "message_index": 80,
+          "snippet": "so para is almost \"a\" but with intention/specific goal? ill need more practice with this even though i understand the concept as noted above. if i say use the wrong word in contex...",
+          "title": "Bad Bunny English Skills"
+        },
+        {
+          "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+          "message_index": 51,
+          "snippet": "perfect. summarize this so we can get claude to sync the design doc with this. check out section 18 for what claude already knows (some of which may be wrong, see if it doesnt con...",
+          "title": "EFT Game Evaluation"
+        },
+        {
+          "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+          "message_index": 208,
+          "snippet": "\"a sufficiently accurate mental model that prevents wrong decisions during the port.\" moreso less errors/troubleshooting during the point.",
+          "title": "EFT Game Evaluation"
+        }
+      ]
+    },
+    "externalized_cognition": {
+      "count": 70,
+      "examples": [
+        {
+          "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+          "message_index": 90,
+          "snippet": "\"Your spatial/state-based thinking fits Spanish extremely well.\" yeah it does feel like i already know the physics of spanish but without being able to construct 2 sentences lol....",
+          "title": "Bad Bunny English Skills"
+        },
+        {
+          "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+          "message_index": 94,
+          "snippet": "\"It just means you wandered off the tutorial path and found the engine room.\" made me feel some type of emotion, not sure what. but yes i just think about systems like this and la...",
+          "title": "Bad Bunny English Skills"
+        },
+        {
+          "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+          "message_index": 131,
+          "snippet": "If you had to explain how I view Spanish as a structure and system, can you summarize it as if you were teaching it to a class?",
+          "title": "Bad Bunny English Skills"
+        },
+        {
+          "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+          "message_index": 10,
+          "snippet": "im trying to get a server up with this running in gmod first. once its stabablized and confirmed to be as bug free as possible, then i will attempt the source 2 port of this while...",
+          "title": "EFT Game Evaluation"
+        },
+        {
+          "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+          "message_index": 23,
+          "snippet": "dont give a static prompt, but act as if you were guiding claude as if it were me. i want it to do it since it has direct access to the workspace. can any AI currently \"watch\" you...",
+          "title": "EFT Game Evaluation"
+        }
+      ]
+    },
+    "false_positive_correction": {
+      "count": 8,
+      "examples": [
+        {
+          "conversation_id": "6991fb70-52b4-8332-bfcf-4a0f705d03af",
+          "message_index": 49,
+          "snippet": "Well, I'm definitely not gonna rush it. Leaving the U.S. has been my goal for many years. Now I just have a viable opportunity to. But I'm not just leaving because of that. I also...",
+          "title": "Extra shift earnings after tax"
+        },
+        {
+          "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+          "message_index": 103,
+          "snippet": "not just walls but map hazards too. many maps were set floating so being knocked off into water or a void killed you and reset the ball. players would intentionally reset the ball...",
+          "title": "EFT Game Evaluation"
+        },
+        {
+          "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+          "message_index": 138,
+          "snippet": "not just that, i just feel like im talking like a baby even if i can write basic stuff",
+          "title": "La lluvia se llegue"
+        },
+        {
+          "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+          "message_index": 132,
+          "snippet": "some changes. running into a wall did not cause a knockdown, just progess stopping like any other source engine game. being TACKLED into it was no different than just being tackle...",
+          "title": "GMod Server Setup Guide"
+        },
+        {
+          "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+          "message_index": 136,
+          "snippet": "SOME maps were designed to be open without much geometry (like the NFL stadium themed bloodbowl). i liked to have the maps all vary in playstyle and not just texture changes. but...",
+          "title": "GMod Server Setup Guide"
+        }
+      ]
+    },
+    "field_tuning_handle_language": {
+      "count": 20,
+      "examples": [
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 9,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 11,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "Template Fixes and Advice"
+        },
+        {
+          "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+          "message_index": 50,
+          "snippet": "how do they handle all of this? im struggle to say 2 sentences in spanish and im 33",
+          "title": "Bad Bunny English Skills"
+        }
+      ]
+    },
+    "object_mediated_sociality": {
+      "count": 75,
+      "examples": [
+        {
+          "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+          "message_index": 23,
+          "snippet": "\"people with strong pattern awareness overtake casual learners fast\" go more into this.",
+          "title": "Fluent in Spanish Bottleneck"
+        },
+        {
+          "conversation_id": "6988f4aa-33a0-8329-96ca-f92df5611e8d",
+          "message_index": 1,
+          "snippet": "how does religion justify homosexuality by calling it a sin but then accepting that god created the concept of homosexuality and made certain people gay. why punish people? this d...",
+          "title": "Religion and Homosexuality Tension"
+        },
+        {
+          "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+          "message_index": 23,
+          "snippet": "language learning is like the most extreme example of a declarative–procedural shift. \"When people say “it just clicked,” what actually happened is:\" oh how i await the day. some...",
+          "title": "Hay vs He"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 28,
+          "snippet": "That is exactly how I describe fluency, being able to conversate enough without having to stop and think, and it's automatic where you can have conversations, let's say, 75% and u...",
+          "title": "Olvidé vs Acordé"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 37,
+          "snippet": "So generally only 1 in 5 people can speak Spanish at a decent level? It seems way more than that because I hear it all the time at work, in public, everywhere, and I live in Virgi...",
+          "title": "Olvidé vs Acordé"
+        }
+      ]
+    },
+    "reconstructive_intelligence": {
+      "count": 69,
+      "examples": [
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+          "message_index": 23,
+          "snippet": "\"people with strong pattern awareness overtake casual learners fast\" go more into this.",
+          "title": "Fluent in Spanish Bottleneck"
+        },
+        {
+          "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "Template Fixes and Advice"
+        },
+        {
+          "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+          "message_index": 17,
+          "snippet": "exactly. it just feels so far away that it makes me think its impossible even though i know its not. i have high pattern senstivity and am a fast learner, its just a different typ...",
+          "title": "Hay vs He"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 18,
+          "snippet": "Actually, the first attempt was just my terrible pronunciation. I was trying to say the second thing the whole time, so let's just analyze that.",
+          "title": "Olvidé vs Acordé"
+        }
+      ]
+    },
+    "recursive_boundary_compression": {
+      "count": 28,
+      "examples": [
+        {
+          "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+          "message_index": 6,
+          "snippet": "spanish is really spatial/3d to me based on its grammar and structure. things like de being connected to while a is more of entering the 3d location or taking part in it. i hope i...",
+          "title": "Hay vs He"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 30,
+          "snippet": "Yeah, that's exactly what I'm doing. I'm assembling Spanish as a physical 3D spatial structure, but I'm still collecting the plywoods and bricks and setting space on the land that...",
+          "title": "Olvidé vs Acordé"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 49,
+          "snippet": "[non-explicit snippet omitted]",
+          "title": "Olvidé vs Acordé"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 68,
+          "snippet": "pretty much, fluency, in addition to what I said earlier, would be what you just said, which rules I know I can break safely, or which things I can omit and still be perfectly und...",
+          "title": "Olvidé vs Acordé"
+        },
+        {
+          "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+          "message_index": 70,
+          "snippet": "oh sorry i meant DEBO mear (see why i need more practice, i knew what i meant to say but still got it wrong). i wish i could map spanish strucutually 3d somehow, and map the verbs...",
+          "title": "Bad Bunny English Skills"
+        }
+      ]
+    },
+    "taste_prediction": {
+      "count": 342,
+      "examples": [
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 5,
+          "snippet": "how can i hide this like before",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 7,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+          "message_index": 1,
+          "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+          "title": "Fluent in Spanish Bottleneck"
+        },
+        {
+          "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+          "message_index": 10,
+          "snippet": "how long becauswe i fill like im just adding words to a bottomless pit",
+          "title": "Fluent in Spanish Bottleneck"
+        }
+      ]
+    }
+  },
+  "interaction_markers": {
+    "anxiety_uncertainty": {
+      "count": 5,
+      "examples": [
+        {
+          "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+          "message_index": 94,
+          "snippet": "\"It just means you wandered off the tutorial path and found the engine room.\" made me feel some type of emotion, not sure what. but yes i just think about systems like this and la...",
+          "title": "Bad Bunny English Skills"
+        },
+        {
+          "conversation_id": "6991fb70-52b4-8332-bfcf-4a0f705d03af",
+          "message_index": 26,
+          "snippet": "I'm just not sure when I'd move. It's possible I'll stay here for another year or two.",
+          "title": "Extra shift earnings after tax"
+        },
+        {
+          "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+          "message_index": 238,
+          "snippet": "not sure if a dynamic emergent game like eft needs the laws any more than the logic already in the manifest",
+          "title": "EFT Game Evaluation"
+        },
+        {
+          "conversation_id": "69dbe7de-4794-83ea-b656-1ef00683c384",
+          "message_index": 404,
+          "snippet": "1. groove, melody, and structural mutation are the 3 most important. 2. alot of house music/edm is repeatitive yet i still like it. its less about dancing (i dont dance) than just...",
+          "title": "Reddit Data Profile Analysis"
+        },
+        {
+          "conversation_id": "69e7ddb6-12dc-83ea-8e7e-12d7062225eb",
+          "message_index": 30,
+          "snippet": "i recieved my supporting documents for my passport (my birth certificate) but i havent recieved my passport book yet. is this a cause for concern? it will be around 2 months ago n...",
+          "title": "Visa Requirements for Students"
+        }
+      ]
+    },
+    "boundary_clarification": {
+      "count": 50,
+      "examples": [
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 7,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+          "message_index": 37,
+          "snippet": "\"This is not a hard grammar rule. It’s a wiring rule.\" i think i was reading them all as grammar rules instead of wording (english does this plenty of to but you dont question it)...",
+          "title": "Fluent in Spanish Bottleneck"
+        },
+        {
+          "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+          "message_index": 25,
+          "snippet": "i just await the day. ive only really seriously studied for lets say a month. i had a baseline knowledge of spanish before then (1-10, colors, hola, adios, como estas, te amo, etc...",
+          "title": "Hay vs He"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 37,
+          "snippet": "So generally only 1 in 5 people can speak Spanish at a decent level? It seems way more than that because I hear it all the time at work, in public, everywhere, and I live in Virgi...",
+          "title": "Olvidé vs Acordé"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 58,
+          "snippet": "I have about 13 years of editing experience. So I've learned how to refine this sort of style over time, but it's always been a part of me. Even when I was in school, doing essays...",
+          "title": "Olvidé vs Acordé"
+        }
+      ]
+    },
+    "compression_language": {
+      "count": 48,
+      "examples": [
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+          "message_index": 23,
+          "snippet": "\"people with strong pattern awareness overtake casual learners fast\" go more into this.",
+          "title": "Fluent in Spanish Bottleneck"
+        },
+        {
+          "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "Template Fixes and Advice"
+        },
+        {
+          "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+          "message_index": 6,
+          "snippet": "spanish is really spatial/3d to me based on its grammar and structure. things like de being connected to while a is more of entering the 3d location or taking part in it. i hope i...",
+          "title": "Hay vs He"
+        },
+        {
+          "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+          "message_index": 17,
+          "snippet": "exactly. it just feels so far away that it makes me think its impossible even though i know its not. i have high pattern senstivity and am a fast learner, its just a different typ...",
+          "title": "Hay vs He"
+        }
+      ]
+    },
+    "direct_correction": {
+      "count": 139,
+      "examples": [
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 7,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 9,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 11,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+          "message_index": 1,
+          "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+          "title": "Fluent in Spanish Bottleneck"
+        }
+      ]
+    },
+    "evidence_requests": {
+      "count": 72,
+      "examples": [
+        {
+          "conversation_id": "6983c9d8-5c8c-8329-ab26-b9122e6af6cd",
+          "message_index": 3,
+          "snippet": "I'd have to check how much remaining on it, but my credit score is in the 700's and I'm paying $450 a month. It's too much.",
+          "title": "Car Refinancing Guide"
+        },
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+          "message_index": 1,
+          "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+          "title": "Fluent in Spanish Bottleneck"
+        },
+        {
+          "conversation_id": "6986c451-bdf0-832a-afe0-fb31f215f409",
+          "message_index": 30,
+          "snippet": "set for march 3. i need to present a check to the department of state, does that include the expidated fees?",
+          "title": "US Passport Application Checklist"
+        },
+        {
+          "conversation_id": "69873c77-1844-8327-8ad1-5113c38867e5",
+          "message_index": 17,
+          "snippet": "What do you mean study intelligently? English might be easier to read and write, but it's definitely harder to speak because of the pronunciation rules compared to Spanish which i...",
+          "title": "Yoda y el español"
+        }
+      ]
+    },
+    "excitement_lock_in": {
+      "count": 71,
+      "examples": [
+        {
+          "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+          "message_index": 29,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "Roster Table Layout Fix"
+        },
+        {
+          "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+          "message_index": 15,
+          "snippet": "does this help change course in how i should study spanish? and yes \"They are scaffolding nodes. Once you have enough of them, language assembles itself.\" is exactly what im looki...",
+          "title": "Hay vs He"
+        },
+        {
+          "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+          "message_index": 17,
+          "snippet": "exactly. it just feels so far away that it makes me think its impossible even though i know its not. i have high pattern senstivity and am a fast learner, its just a different typ...",
+          "title": "Hay vs He"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 28,
+          "snippet": "That is exactly how I describe fluency, being able to conversate enough without having to stop and think, and it's automatic where you can have conversations, let's say, 75% and u...",
+          "title": "Olvidé vs Acordé"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 30,
+          "snippet": "Yeah, that's exactly what I'm doing. I'm assembling Spanish as a physical 3D spatial structure, but I'm still collecting the plywoods and bricks and setting space on the land that...",
+          "title": "Olvidé vs Acordé"
+        }
+      ]
+    },
+    "iteration_demand": {
+      "count": 240,
+      "examples": [
+        {
+          "conversation_id": "6983c9d8-5c8c-8329-ab26-b9122e6af6cd",
+          "message_index": 7,
+          "snippet": "2018 mazda 3. lowest payment so i can afford more rent",
+          "title": "Car Refinancing Guide"
+        },
+        {
+          "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+          "message_index": 23,
+          "snippet": "\"people with strong pattern awareness overtake casual learners fast\" go more into this.",
+          "title": "Fluent in Spanish Bottleneck"
+        },
+        {
+          "conversation_id": "69873c77-1844-8327-8ad1-5113c38867e5",
+          "message_index": 3,
+          "snippet": "so Spanish is more flexible naturally",
+          "title": "Yoda y el español"
+        },
+        {
+          "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+          "message_index": 25,
+          "snippet": "first image is the sandbox. it should be more compact still",
+          "title": "Roster Table Layout Fix"
+        },
+        {
+          "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+          "message_index": 35,
+          "snippet": "regen the NFL one again",
+          "title": "Roster Table Layout Fix"
+        }
+      ]
+    },
+    "tool_frustration": {
+      "count": 16,
+      "examples": [
+        {
+          "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+          "message_index": 1,
+          "snippet": "[wiki/template markup snippet omitted]",
+          "title": "New chat"
+        },
+        {
+          "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+          "message_index": 21,
+          "snippet": "formatting is broken on the testcase. the exact format was nessicary before. it shouldn tbe this hard to just hide text, i dont have this issue on infoboxes",
+          "title": "Roster Table Layout Fix"
+        },
+        {
+          "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+          "message_index": 26,
+          "snippet": "you removed many fallback/legacy parameters. i wanted to keep them for now and a bot can move them all to the \"modern\" name later. i just dont want anything broken since i can alw...",
+          "title": "Template Fixes and Advice"
+        },
+        {
+          "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+          "message_index": 62,
+          "snippet": "Just so you're not confused, I'm the one that said No pienso así que quiero hacerlo. I was trying to get across the more correct no quiero pensar, solo quiero hacer. At least at t...",
+          "title": "Olvidé vs Acordé"
+        },
+        {
+          "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+          "message_index": 35,
+          "snippet": "i felt bad about not studying like i HAVE to every single day but ive made this much progress in 5-6 weeks so im clearly doing something write. ive listened to coffee break spanis...",
+          "title": "La lluvia se llegue"
+        }
+      ]
+    }
+  },
+  "mechanics": {
+    "assistant_message_count": 5217,
+    "conversation_count": 110,
+    "date_range": {
+      "first": "2026-02-04T22:36:13.240329+00:00",
+      "last": "2026-04-26T18:17:19.150828+00:00"
+    },
+    "message_count": 7818,
+    "repeated_short_followups": [
+      {
+        "conversation_id": "6986c451-bdf0-832a-afe0-fb31f215f409",
+        "message_index": 21,
+        "snippet": "for a 10 year investment, not bad",
+        "title": "US Passport Application Checklist"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 35,
+        "snippet": "regen the NFL one again",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 7,
+        "snippet": "No lo hago.",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 9,
+        "snippet": "No puedo hacerlo.",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 13,
+        "snippet": "no puedo hablarlo muy bueno.",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 15,
+        "snippet": "Vedon ascoltarlo, pero no hablato.",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 16,
+        "snippet": "puedo escucharlo, pero no hablarlo.",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 22,
+        "snippet": "No, espero que...",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 166,
+        "snippet": "conocer vs saber",
+        "title": "Bad Bunny English Skills"
+      },
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 180,
+        "snippet": "No preterite and imperfect.",
+        "title": "Bad Bunny English Skills"
+      },
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 184,
+        "snippet": "so tuve is i had but no longer",
+        "title": "Bad Bunny English Skills"
+      },
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 239,
+        "snippet": "temu yes",
+        "title": "Bad Bunny English Skills"
+      },
+      {
+        "conversation_id": "699147e7-0904-832f-98c8-8fa59be98d5e",
+        "message_index": 11,
+        "snippet": "none of these",
+        "title": "DirectX 12 Overwatch Performance"
+      },
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 188,
+        "snippet": "how well do you know eft",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 200,
+        "snippet": "yes with the things you just learned too",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 216,
+        "snippet": "yes lets get gemini to do this",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 259,
+        "snippet": "no i havent implemented the json yet",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+        "message_index": 117,
+        "snippet": "how does bone know its own load",
+        "title": "La lluvia se llegue"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 66,
+        "snippet": "are you stuck? what do you think of eft",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 433,
+        "snippet": "can you really not see this?",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "6997e062-8820-8328-ad1d-dcc27c9e2046",
+        "message_index": 100,
+        "snippet": "think this is final now",
+        "title": "Mayan Aztec Steam Background"
+      },
+      {
+        "conversation_id": "699ca5dc-3d64-8330-b793-aa9d42fd47da",
+        "message_index": 10,
+        "snippet": "What about high noon?",
+        "title": "Cayman Jack Zero Sugar Review"
+      },
+      {
+        "conversation_id": "699ca5dc-3d64-8330-b793-aa9d42fd47da",
+        "message_index": 15,
+        "snippet": "no the 10% can",
+        "title": "Cayman Jack Zero Sugar Review"
+      },
+      {
+        "conversation_id": "699d3628-648c-832b-ad60-2b7ccd79496c",
+        "message_index": 32,
+        "snippet": "will i know my status once i leave usps",
+        "title": "DS-11 Form Instructions"
+      },
+      {
+        "conversation_id": "699d3628-648c-832b-ad60-2b7ccd79496c",
+        "message_index": 53,
+        "snippet": "not in my email",
+        "title": "DS-11 Form Instructions"
+      },
+      {
+        "conversation_id": "699d3628-648c-832b-ad60-2b7ccd79496c",
+        "message_index": 56,
+        "snippet": "whats the main usps in richmond again?",
+        "title": "DS-11 Form Instructions"
+      },
+      {
+        "conversation_id": "699d3628-648c-832b-ad60-2b7ccd79496c",
+        "message_index": 59,
+        "snippet": "all sent, now up to the US gov to accept",
+        "title": "DS-11 Form Instructions"
+      },
+      {
+        "conversation_id": "699e8998-51c4-8327-9175-c41d321a8c52",
+        "message_index": 13,
+        "snippet": "how to use auto translator again",
+        "title": "Stardew Language Learning Tips"
+      },
+      {
+        "conversation_id": "69a91530-9f04-8332-b095-34976ddb7fd0",
+        "message_index": 5,
+        "snippet": "no im saying it's the best stretc",
+        "title": "QL Muscle and Obliques"
+      },
+      {
+        "conversation_id": "69a91530-9f04-8332-b095-34976ddb7fd0",
+        "message_index": 6,
+        "snippet": "no im telling not asking",
+        "title": "QL Muscle and Obliques"
+      }
+    ],
+    "top_title_keywords": [
+      [
+        "explained",
+        4
+      ],
+      [
+        "spanish",
+        3
+      ],
+      [
+        "fix",
+        3
+      ],
+      [
+        "peru",
+        3
+      ],
+      [
+        "review",
+        3
+      ],
+      [
+        "whatsapp",
+        3
+      ],
+      [
+        "tips",
+        3
+      ],
+      [
+        "thc",
+        3
+      ],
+      [
+        "claude",
+        3
+      ],
+      [
+        "car",
+        2
+      ],
+      [
+        "guide",
+        2
+      ],
+      [
+        "fluent",
+        2
+      ],
+      [
+        "hay",
+        2
+      ],
+      [
+        "shipping",
+        2
+      ],
+      [
+        "adjustment",
+        2
+      ],
+      [
+        "starbucks",
+        2
+      ],
+      [
+        "bacon",
+        2
+      ],
+      [
+        "tax",
+        2
+      ],
+      [
+        "game",
+        2
+      ],
+      [
+        "setup",
+        2
+      ],
+      [
+        "stardew",
+        2
+      ],
+      [
+        "mcflurry",
+        2
+      ],
+      [
+        "absorption",
+        2
+      ],
+      [
+        "explanation",
+        2
+      ],
+      [
+        "muscle",
+        2
+      ],
+      [
+        "fat",
+        2
+      ],
+      [
+        "adding",
+        2
+      ],
+      [
+        "number",
+        2
+      ],
+      [
+        "foobar",
+        2
+      ],
+      [
+        "code",
+        2
+      ]
+    ],
+    "turn_depth_user_messages": {
+      "average": 14.34,
+      "distribution": {
+        "16+": 20,
+        "2-3": 36,
+        "4-7": 27,
+        "8-15": 27
+      },
+      "max": 151,
+      "median": 6.0
+    },
+    "user_length_characters": {
+      "average": 238.34,
+      "max": 47896,
+      "median": 94
+    },
+    "user_message_count": 1577
+  },
+  "writing_profile": {
+    "apostrophe_omission_and_informal_spellings": {
+      "bc": 2,
+      "cant": 18,
+      "doesnt": 23,
+      "dont": 94,
+      "gonna": 12,
+      "id": 14,
+      "ill": 20,
+      "im": 111,
+      "ive": 39,
+      "thats": 28,
+      "wanna": 27,
+      "wont": 5,
+      "youre": 1
+    },
+    "high_frequency_phrases": [
+      [
+        "i want",
+        72
+      ],
+      [
+        "don't",
+        50
+      ],
+      [
+        "can you",
+        32
+      ],
+      [
+        "is this",
+        19
+      ],
+      [
+        "does this",
+        17
+      ],
+      [
+        "we need",
+        9
+      ],
+      [
+        "read this",
+        3
+      ],
+      [
+        "what do you think",
+        3
+      ],
+      [
+        "keep going",
+        2
+      ],
+      [
+        "make sure",
+        1
+      ],
+      [
+        "do not",
+        1
+      ]
+    ],
+    "high_frequency_terms": [
+      [
+        "if:",
+        487
+      ],
+      [
+        "but",
+        452
+      ],
+      [
+        "like",
+        428
+      ],
+      [
+        "just",
+        421
+      ],
+      [
+        "more",
+        267
+      ],
+      [
+        "have",
+        241
+      ],
+      [
+        "not",
+        232
+      ],
+      [
+        "was",
+        231
+      ],
+      [
+        "smapi",
+        199
+      ],
+      [
+        "its",
+        175
+      ],
+      [
+        "all",
+        169
+      ],
+      [
+        "style",
+        163
+      ],
+      [
+        "spanish",
+        151
+      ],
+      [
+        "empty",
+        145
+      ],
+      [
+        "game",
+        141
+      ],
+      [
+        "even",
+        141
+      ],
+      [
+        "https:",
+        139
+      ],
+      [
+        "i'm",
+        130
+      ],
+      [
+        "would",
+        128
+      ],
+      [
+        "both",
+        126
+      ],
+      [
+        "want",
+        125
+      ],
+      [
+        "com",
+        125
+      ],
+      [
+        "only",
+        121
+      ],
+      [
+        "content",
+        120
+      ],
+      [
+        "they",
+        117
+      ],
+      [
+        "yes",
+        116
+      ],
+      [
+        "other",
+        116
+      ],
+      [
+        "when",
+        116
+      ],
+      [
+        "it's",
+        112
+      ],
+      [
+        "www",
+        112
+      ],
+      [
+        "too",
+        111
+      ],
+      [
+        "one",
+        111
+      ],
+      [
+        "now",
+        111
+      ],
+      [
+        "because",
+        111
+      ],
+      [
+        "know",
+        106
+      ],
+      [
+        "get",
+        102
+      ],
+      [
+        "patcher",
+        102
+      ],
+      [
+        "lets",
+        99
+      ],
+      [
+        "something",
+        97
+      ],
+      [
+        "them",
+        97
+      ],
+      [
+        "really",
+        97
+      ],
+      [
+        "eft",
+        96
+      ],
+      [
+        "think",
+        94
+      ],
+      [
+        "dont",
+        94
+      ],
+      [
+        "still",
+        94
+      ],
+      [
+        "youtube",
+        92
+      ],
+      [
+        "english",
+        91
+      ],
+      [
+        "has",
+        91
+      ],
+      [
+        "could",
+        90
+      ],
+      [
+        "which",
+        89
+      ]
+    ],
+    "lowercase_letter_ratio": 0.9592,
+    "punctuation_pattern_counts": {
+      "!": 41,
+      "!!": 2,
+      ",": 1551,
+      ",.": 2,
+      ".": 2709,
+      ".,": 1,
+      "..": 1,
+      "...": 10,
+      ":": 1150,
+      ";": 343,
+      "?": 585
+    },
+    "run_on_or_compressed_thought_chain_estimate": 6,
+    "terminal_punctuation_counts": {
+      ")": 61,
+      ".": 348,
+      "?": 240,
+      "a": 8,
+      "c": 9,
+      "d": 43,
+      "e": 143,
+      "f": 10,
+      "g": 38,
+      "h": 26,
+      "k": 10,
+      "l": 28,
+      "n": 47,
+      "o": 45,
+      "p": 8,
+      "r": 49,
+      "s": 124,
+      "t": 101,
+      "w": 8,
+      "y": 37
+    }
+  }
+}

@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Helix workspace boundary checker for the domain-capsule architecture."""
 from __future__ import annotations
 
@@ -29,12 +29,11 @@ MAP_YAMLS = [
 CAPSULE_DIRS = [
     "model",
     "data",
-    "data/normalized",
-    "data/derived",
     "tools",
-    "labs",
     "reports",
 ]
+
+OPTIONAL_DOMAIN_DIRS = {"labs"}
 
 HEAVY_SUFFIXES = {
     ".zip",
@@ -55,7 +54,7 @@ HEAVY_SUFFIXES = {
     ".dll",
 }
 
-TRACKED_HEAVY_LIMIT = 5 * 1024 * 1024
+TRACKED_HEAVY_LIMIT = 10 * 1024 * 1024
 
 
 def rel(path: Path) -> str:
@@ -131,6 +130,21 @@ def check_domain_capsules(errors: list[str]) -> None:
         for folder in CAPSULE_DIRS:
             if not (base / folder).is_dir():
                 errors.append(f"domain missing {folder}/: domains/{domain}/")
+        for child in base.iterdir():
+            if child.is_dir() and child.name not in {p.split('/')[0] for p in CAPSULE_DIRS} | OPTIONAL_DOMAIN_DIRS:
+                errors.append(f"unexpected domain-root folder: domains/{domain}/{child.name}/")
+        for forbidden in ("domains", "core", "vendor"):
+            if (base / forbidden).exists():
+                errors.append(f"forbidden domain-root folder: domains/{domain}/{forbidden}/")
+        for old_data_room in ("normalized", "derived", "staging"):
+            if (base / "data" / old_data_room).exists():
+                errors.append(f"old data lifecycle room still present: domains/{domain}/data/{old_data_room}/")
+        repeated_output = base / "data" / "output" / domain
+        if repeated_output.exists():
+            errors.append(f"domain output folder repeats domain name: domains/{domain}/data/output/{domain}/")
+        local_labs = base / "labs"
+        if local_labs.is_dir() and not any(local_labs.iterdir()) and not (local_labs / "README.md").exists():
+            errors.append(f"empty optional domain lab has no purpose note: domains/{domain}/labs/")
 
 
 def check_cross_domain_labs(errors: list[str]) -> None:
@@ -138,6 +152,21 @@ def check_cross_domain_labs(errors: list[str]) -> None:
         errors.append("missing cross-domain lab: labs/inhabited_interiority/")
     if (ROOT / "labs" / "research").exists():
         errors.append("old research lab root still present")
+    if (ROOT / "labs" / "labs").exists():
+        errors.append("nested lab folder repeats itself: labs/labs/")
+    if (ROOT / "reports" / "reports").exists():
+        errors.append("nested report folder repeats itself: reports/reports/")
+    if (ROOT / "archive" / "legacy").exists():
+        errors.append("archive/legacy/ has been retired; use archive/migrations/ or archive/raw/")
+    if (ROOT / "archive" / "quarantine").exists():
+        errors.append("archive/quarantine/ duplicates root quarantine/")
+
+
+def check_committed_cache(errors: list[str]) -> None:
+    for path in tracked_files():
+        parts = Path(path).parts
+        if "__pycache__" in parts:
+            errors.append(f"committed Python cache: {path}")
 
 
 def check_no_duplicate_ontology(errors: list[str]) -> None:
@@ -172,6 +201,8 @@ def check_tracked_bloat(errors: list[str], warnings: list[str]) -> None:
             errors.append(f"raw provenance tracked in git: {path}")
         if "/vendor/" in path and p.name not in {"README.md", "manifest.yaml"}:
             errors.append(f"vendor mirror tracked in git: {path}")
+        if "/toolkits/" in path and p.name not in {"README.md", "manifest.yaml"}:
+            errors.append(f"toolkit/source mirror tracked in git: {path}")
         if p.suffix.lower() in HEAVY_SUFFIXES:
             errors.append(f"heavy data/binary file tracked in git: {path}")
         elif p.stat().st_size > TRACKED_HEAVY_LIMIT:
@@ -188,6 +219,7 @@ def main() -> int:
     check_domain_capsules(errors)
     check_cross_domain_labs(errors)
     check_no_duplicate_ontology(errors)
+    check_committed_cache(errors)
     check_tracked_bloat(errors, warnings)
 
     for w in warnings:

@@ -1,8 +1,8 @@
-"""
+﻿"""
 adapter_nsf2vgm.py — Helix adapter for nsf2vgm_batch
 ======================================================
 Tier A: Binary is pre-compiled and included in the repo.
-Binary: domains/music/data/derived/music/source/code/nsf2vgm/v1.0/nsf2vgm_batch.exe
+Binary: domains/music/data/output/library/source/code/nsf2vgm/v1.0/nsf2vgm_batch.exe
 
 Purpose:
     Convert NSF (NES Sound Format) files to VGM, one VGM file per track.
@@ -191,7 +191,7 @@ SUPPORTED_EXTENSIONS: frozenset[str] = frozenset({".nsf"})
 class Adapter:
     """
     Tier A adapter: binary ships in repo at
-    domains/music/data/derived/music/source/code/nsf2vgm/v1.0/nsf2vgm_batch.exe
+    domains/music/data/output/library/source/code/nsf2vgm/v1.0/nsf2vgm_batch.exe
 
     Converts NSF → per-track VGM files, which the vgm_note_reconstructor
     pipeline can then process into SymbolicScore objects.

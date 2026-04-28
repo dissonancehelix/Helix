@@ -1,27 +1,32 @@
-manifest_schema: manifest_schema_v1
+﻿manifest_schema: manifest_schema_v1
 tool: wiki
 version: "1.0"
-status: stub
-domain: language
+status: active
+domain: wiki
 
 purpose: >
-  Wikipedia article analysis tool wrapping domains/language/model/. Supports
-  article architecture review, lead/body compression analysis, section-balance
-  checking, and editing-oriented structural workflows.
+  Wikipedia article analysis and account-history tooling owned by the Wiki
+  domain. Supports article architecture review, template logic, account trace
+  restoration, and editing-oriented structural workflows.
 
 architecture_rule: >
   This tool reads domain probe output. It never writes to Atlas.
   New analysis capability belongs in domains/language/model/, not here.
 
 wraps:
-  primary:
-    - domains/language/model/probes/wikipedia_corpus.py        # TTR / DCP analysis
-    - domains/language/model/probes/wikipedia_editor_probe.py  # editor contribution analysis
-    - domains/language/model/pipeline.py                       # full language pipeline
+  full_history:
+    - domains/wiki/tools/wiki_tools/ingest_full_wikimedia_history.py
+  archive_restore:
+    - domains/wiki/tools/wiki_tools/restore_wikimedia_archive.py
   corpus:
-    - domains/language/data/derived/language/wikipedia_dissident93.json
+    - domains/wiki/data/dissident93_wikimedia_full_history_profile.json
+    - domains/wiki/data/dissident93_wikimedia_full_history.jsonl
+    - domains/wiki/data/dissident93_wikimedia_history.json
+    - domains/wiki/data/dissident93_wikimedia_history_summary.json
 
 capabilities:
+  - Fetch full public Dissident93 Wikimedia contribution history from enwiki, Wikidata, and Commons
+  - Restore archived Dissident93 Wikimedia API pipeline outputs into normalized wiki-domain data
   - Article architecture review (lead length, section balance)
   - Structural DCP analysis of article sections
   - Editor contribution pattern analysis
@@ -29,14 +34,14 @@ capabilities:
   - Chronology and section-balance checking
 
 implementation:
-  corpus_probe: implemented    # wikipedia_corpus.py is functional in domains/language/model/probes/
-  editor_probe: implemented    # wikipedia_editor_probe.py is functional
-  tool_wrapper: not_started    # no tool-level entrypoint exists yet
-  cli_interface: not_started
+  full_history_ingest: implemented
+  archive_restore: implemented
+  corpus_probe: migrated_from_language_pending
+  editor_probe: migrated_from_language_pending
+  tool_wrapper: partial
+  cli_interface: partial
 
 known_gaps:
-  - No tool-layer Python entrypoint exists yet
-  - No CLI interface for this tool
-  - wikipedia_editor_probe.py needs to be validated for the operator's specific editor profile
-  - Wikipedia API access (if needed for live article fetching) not configured
+  - Legacy live/API helpers still need full import-path cleanup after the domain-capsule refactor
+  - Wikipedia API access is not used by the archive restore path
 

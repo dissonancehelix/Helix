@@ -1,4 +1,4 @@
-manifest_schema: manifest_schema_v1
+﻿manifest_schema: manifest_schema_v1
 domain: wiki
 version: "0.1"
 status: partial
@@ -15,8 +15,8 @@ runtime:
     - domains/wiki/tools/wiki_tools/
 
 data:
-  normalized: domains/wiki/data/normalized/
-  derived: domains/wiki/data/derived/
+  records: domains/wiki/data/
+  output: domains/wiki/data/output/
   raw_provenance: archive/raw/
 
 known_gaps:

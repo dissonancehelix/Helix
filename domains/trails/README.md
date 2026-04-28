@@ -1,4 +1,4 @@
-# Trails Domain
+﻿# Trails Domain
 
 ## Domain Role
 
@@ -44,6 +44,6 @@ Upward links:
 ## Downward Links
 
 - `domains/trails/tools/trails/`
-- `domains/trails/data/derived/trails/`
+- `domains/trails/data/output/pipeline/`
 - `domains/games/model/`
 

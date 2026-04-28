@@ -84,7 +84,7 @@
     "tool missing README: domains/self/tools/cognition_pipeline/",
     "tool missing README: domains/games/tools/games_pipeline/",
     "tool missing README: domains/language/tools/language_pipeline/",
-    "tool missing README: domains/music/tools/music_pipeline/",
+    "tool missing README: domains/music/tools/pipeline/",
     "tool missing README: domains/language/tools/spanish/",
     "tool missing README: domains/music/tools/spc2mid/",
     "tool missing README: domains/wiki/tools/wiki_tools/",

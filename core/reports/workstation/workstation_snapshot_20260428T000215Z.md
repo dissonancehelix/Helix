@@ -1,4 +1,4 @@
-# Workstation Snapshot — 2026-04-28T00:02:15+00:00
+﻿# Workstation Snapshot — 2026-04-28T00:02:15+00:00
 
 - **Repo root:** `C:\Users\dissonance\Desktop\dissonance`
 - **Mode:** shallow
@@ -16,7 +16,7 @@
 
 - `source.repo_root` — Repository Root [active, read_only] @ `.`
 - `source.data_lake` — Data Evidence Lake [active, read_only] @ `data/`
-- `source.foobar` — foobar2000 Local Music Atlas [planned, read_only_pending] @ `domains/music/tools/music_bridge/`
+- `source.foobar` — foobar2000 Local Music Atlas [planned, read_only_pending] @ `domains/music/tools/bridge/`
 - `source.root_unsorted` — Root Unsorted Drops [deprecated, read_only] @ `.`
 - `source.reports` — Reports [active, generated_outputs] @ `reports/`
 
@@ -42,7 +42,7 @@
 
 ## core/tools README coverage
 
-- Covered (12): cognition_pipeline, foobar, foobar-spatial-dsp, games_pipeline, language_pipeline, music_bridge, music_pipeline, spanish, spc2mid, trails, wiki_tools, workstation_bridge
+- Covered (12): cognition_pipeline, foobar, spatial_dsp, games_pipeline, language_pipeline, music_bridge, music_pipeline, spanish, spc2mid, trails, wiki_tools, workstation_bridge
 - Missing (0): (none)
 
 ## labs README coverage

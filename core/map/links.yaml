@@ -1,4 +1,4 @@
-# core/map/links.yaml — cross-references binding patterns ↔ examples ↔ domains ↔ labs ↔ data paths.
+﻿# core/map/links.yaml — cross-references binding patterns ↔ examples ↔ domains ↔ labs ↔ data paths.
 # Used by core/engine/checks to detect drift (broken IDs, stale links, orphan nodes).
 # Item shape: { from, to, kind: supports|elaborates|contradicts|measures|stores, status }
 
@@ -14,7 +14,7 @@ items:
     kind: elaborates
     status: seed
   - from: music.foobar_local_music_atlas
-    to: domains/music/tools/music_bridge/README.md
+    to: domains/music/tools/bridge/README.md
     kind: stores
     status: seed
   - from: music.foobar_vgm_hardware_metadata
@@ -38,7 +38,7 @@ items:
     kind: supports
     status: active
   - from: attraction.image_evidence
-    to: archive/legacy/images/README.md
+    to: archive/migrations/images/README.md
     kind: stores
     status: active
   - from: attraction.image_evidence

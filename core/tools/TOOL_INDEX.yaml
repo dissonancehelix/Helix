@@ -1,4 +1,4 @@
-version: 0.1
+﻿version: 0.1
 status: canonical
 updated: 2026-04-27
 items:
@@ -38,17 +38,17 @@ items:
       - old root-folder checks for apps/, domains/, helix/, intake/, map/
 
   - id: tool.music_bridge
-    name: music_bridge
+    name: bridge
     role: canonical
     purpose: Read-only bridge between foobar2000/library state and Helix-shaped music review records.
-    entrypoint: python -m domains.music.tools.music_bridge.diagnostics
+    entrypoint: python -m domains.music.tools.bridge.diagnostics
     inputs:
       - foobar2000/library exports
-      - core/atlas/
+      - domains/music/data/output/atlas/
       - domains/music/model/
     outputs:
       - domains/music/reports/
-      - domains/music/core/atlas/
+      - domains/music/data/output/atlas/
     safety_mode: read_only/proposal_only unless trust gates are explicitly satisfied.
     artifact_report_path: domains/music/reports/
     deprecated_helpers_replaced:
@@ -59,20 +59,20 @@ items:
     name: music_pipeline
     role: canonical
     purpose: Multi-stage music metadata, entity, taste, retrieval, and materialization pipeline.
-    entrypoint: python -m domains.music.tools.music_pipeline.router
+    entrypoint: python -m domains.music.tools.pipeline.router
     inputs:
       - archive/raw/ restored locally when source re-ingest is needed
-      - domains/music/data/derived/music/
-      - domains/music/domains/music/data/derived/music_pipeline/data/
-      - domains/music/vendor/music_toolkits/
+      - domains/music/data/output/library/
+      - domains/music/data/output/pipeline/data/
+      - domains/music/tools/toolkits/
     outputs:
-      - domains/music/domains/music/data/derived/music_pipeline/
+      - domains/music/data/output/pipeline/
       - domains/music/reports/
     safety_mode: read_write_gated for derived artifacts; no raw evidence deletion.
     artifact_report_path: domains/music/reports/
     deprecated_helpers_replaced:
       - one-off music ingestion scripts
-      - direct domains/music/data/derived/music/library mutations
+      - direct domains/music/data/output/library/catalog mutations
 
   - id: tool.foobar
     name: foobar
@@ -81,7 +81,7 @@ items:
     entrypoint: python -m domains.music.tools.foobar.runner
     inputs:
       - foobar2000 exports or local database snapshots
-      - domains/music/domains/music/data/derived/music_pipeline/
+      - domains/music/data/output/pipeline/
     outputs:
       - domains/music/reports/
       - patch or repair proposals
@@ -97,9 +97,9 @@ items:
     entrypoint: python domains/trails/tools/trails/pipelines/generate/generate_atlas.py
     inputs:
       - archive/raw/ restored locally when Trails corpus re-ingest is needed
-      - domains/trails/domains/trails/data/derived/trails/retrieval/index/
+      - domains/trails/data/output/pipeline/retrieval/index/
     outputs:
-      - domains/trails/domains/trails/data/derived/trails/
+      - domains/trails/data/output/pipeline/
       - domains/trails/reports/
     safety_mode: derived_artifacts_only unless a specific external wiki writeback gate is opened.
     artifact_report_path: domains/trails/reports/
@@ -116,7 +116,7 @@ items:
       - archive/raw/ restored locally when source re-ingest is needed
       - domains/language/model/
     outputs:
-      - domains/language/data/derived/language_pipeline/
+      - domains/language/data/output/corpora/
       - domains/language/reports/
     safety_mode: read_write_gated for derived artifacts; reports before canon.
     artifact_report_path: domains/language/reports/
@@ -132,7 +132,7 @@ items:
       - domains/games/model/
       - archive/raw/ restored locally when source re-ingest is needed
     outputs:
-      - domains/games/data/derived/games_pipeline/
+      - domains/games/data/output/pipeline/
       - domains/games/reports/
     safety_mode: read_only/proposal_only unless writing derived artifacts.
     artifact_report_path: domains/games/reports/
@@ -153,6 +153,20 @@ items:
     artifact_report_path: domains/self/reports/
     deprecated_helpers_replaced: []
 
+  - id: tool.gpt_history_pass_01
+    name: gpt_history_pass_01
+    role: stage_helper
+    purpose: Local-only ChatGPT export parser and interaction fingerprint analyzer for self-domain evidence.
+    entrypoint: python domains/self/tools/gpt_history/pass_01_interaction_fingerprint.py
+    inputs:
+      - archive/raw/gpt/conversations*.json
+    outputs:
+      - domains/self/data/output/gpt_history/
+      - domains/self/reports/gpt_history_pass_01_interaction_fingerprint.md
+    safety_mode: local_read_only_raw; writes compact derived artifacts and reports; no external APIs; raw export is not copied.
+    artifact_report_path: domains/self/reports/
+    deprecated_helpers_replaced: []
+
   - id: tool.wiki_tools
     name: wiki_tools
     role: stage_helper
@@ -166,6 +180,38 @@ items:
     safety_mode: proposal_only unless an explicit external write gate is opened.
     artifact_report_path: domains/wiki/reports/
     deprecated_helpers_replaced: []
+
+  - id: tool.wiki_history_restore
+    name: wiki_history_restore
+    role: stage_helper
+    purpose: Restore archived Dissident93 Wikimedia API pipeline outputs into wiki-domain normalized data.
+    entrypoint: python domains/wiki/tools/wiki_tools/restore_wikimedia_archive.py
+    inputs:
+      - archive/raw/raw_datasets/wikipedia_2026-04-28.zip
+    outputs:
+      - domains/wiki/data/dissident93_wikimedia_history.json
+      - domains/wiki/data/dissident93_wikimedia_history_summary.json
+      - domains/wiki/reports/dissident93_wikimedia_history_restore.md
+    safety_mode: local_read_only_raw; no external API calls; raw archive remains provenance.
+    artifact_report_path: domains/wiki/reports/
+    deprecated_helpers_replaced:
+      - language-domain placement of Wikimedia account-history artifacts
+
+  - id: tool.wiki_full_history_ingest
+    name: wiki_full_history_ingest
+    role: stage_helper
+    purpose: Fetch and normalize full public Dissident93 Wikimedia contribution history and produce an LLM-readable habits profile.
+    entrypoint: python domains/wiki/tools/wiki_tools/ingest_full_wikimedia_history.py --username Dissident93 --projects enwiki,wikidata,commons
+    inputs:
+      - public Wikimedia usercontribs APIs for Dissident93
+    outputs:
+      - domains/wiki/data/dissident93_wikimedia_full_history.jsonl
+      - domains/wiki/data/dissident93_wikimedia_full_history_profile.json
+      - domains/wiki/reports/dissident93_wiki_habits_profile.md
+    safety_mode: public_api_read_only; no live edits; polite pagination; full JSONL stays local/ignored.
+    artifact_report_path: domains/wiki/reports/
+    deprecated_helpers_replaced:
+      - capped 2020-2026 archived API slice as primary account profile
 
   - id: tool.spanish
     name: spanish
@@ -188,16 +234,16 @@ items:
     inputs:
       - archive/raw/ restored locally when source re-ingest is needed
     outputs:
-      - domains/music/domains/music/data/derived/music_pipeline/
+      - domains/music/data/output/pipeline/
     safety_mode: local_artifact_generation; never delete source audio.
     artifact_report_path: domains/music/reports/
     deprecated_helpers_replaced: []
 
   - id: tool.foobar_spatial_dsp
-    name: foobar-spatial-dsp
+    name: spatial_dsp
     role: legacy
     purpose: Local/vendor-like foobar2000 DSP build workspace.
-    entrypoint: domains/music/tools/foobar-spatial-dsp/
+    entrypoint: domains/music/tools/spatial_dsp/
     inputs:
       - local source tree
     outputs:

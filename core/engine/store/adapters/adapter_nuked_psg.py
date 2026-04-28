@@ -1,9 +1,9 @@
-"""
+﻿"""
 adapter_nuked_psg.py — Helix adapter for Nuked-PSG (YM7101 PSG / SN76489) constants
 ======================================================================================
 Source reference:
-    domains/music/data/derived/music/source/code/Nuked-PSG/ympsg.c
-    domains/music/data/derived/music/source/code/Nuked-PSG/ympsg.h
+    domains/music/data/output/library/source/code/Nuked-PSG/ympsg.c
+    domains/music/data/output/library/source/code/Nuked-PSG/ympsg.h
 
 Chip coverage:
     YM7101 — Yamaha PSG core embedded in the Sega Mega Drive/Genesis VDP (315-5313)

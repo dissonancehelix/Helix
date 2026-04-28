@@ -1,0 +1,398 @@
+{
+  "aesthetics_visual_style_attraction": {
+    "count": 26,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 1,
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 25,
+        "snippet": "first image is the sandbox. it should be more compact still",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 29,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      }
+    ]
+  },
+  "body_doms_soreness_massage": {
+    "count": 28,
+    "examples": [
+      {
+        "conversation_id": "698b58a9-0e58-832c-bbb0-86dec8c8e29a",
+        "message_index": 23,
+        "snippet": "I'm the type of person that usually has one big meal a day. If I ever get hungry later it's usually something small, under 300-400 calories. So altogether, I try to eat under 2,00...",
+        "title": "Cook Out Milkshakes"
+      },
+      {
+        "conversation_id": "699f4da7-fc14-832b-92e1-ff146f8d246c",
+        "message_index": 23,
+        "snippet": "Even though if I ate better, I know I'd be healthier overall, but I don't have any major visible health issues, and I feel like if my body is this weight, I must be doing somethin...",
+        "title": "McFlurry THC Absorption"
+      },
+      {
+        "conversation_id": "69b4dd79-8b28-8325-bc36-e320d355370c",
+        "message_index": 5,
+        "snippet": "I'm using the massage gun over it. It's tender.",
+        "title": "Side Muscle Anatomy"
+      },
+      {
+        "conversation_id": "69c40c4b-c38c-832b-8030-764106ac3421",
+        "message_index": 1,
+        "snippet": "eye pain inside eye. is this hay fever? no runny nose though which is what i always get in pollen season.",
+        "title": "Eye Pain Diagnosis"
+      },
+      {
+        "conversation_id": "69c40c4b-c38c-832b-8030-764106ac3421",
+        "message_index": 10,
+        "snippet": "no dryness, no itchiness, just fatigue, insomnia, and right eye pain like somebody pinching my nose but more internal",
+        "title": "Eye Pain Diagnosis"
+      }
+    ]
+  },
+  "commanders_jayden_daniels_nfl": {
+    "count": 25,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 11,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 13,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 29,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      }
+    ]
+  },
+  "consciousness": {
+    "count": 10,
+    "examples": [
+      {
+        "conversation_id": "69ed6962-a818-83ea-a99b-7dc2683d449f",
+        "message_index": 249,
+        "snippet": "Consciousness is still related, we just havent found the sharpest question to make it empirical",
+        "title": "Cross-Processing Prompt Assistance"
+      },
+      {
+        "conversation_id": "69ed6962-a818-83ea-a99b-7dc2683d449f",
+        "message_index": 537,
+        "snippet": "so what is consciousness looking like now. we must sharper the question until it breaks",
+        "title": "Cross-Processing Prompt Assistance"
+      },
+      {
+        "conversation_id": "69ed6962-a818-83ea-a99b-7dc2683d449f",
+        "message_index": 582,
+        "snippet": "Can consciousness exist without life? Let's continue to dig deeper.",
+        "title": "Cross-Processing Prompt Assistance"
+      },
+      {
+        "conversation_id": "69ed6962-a818-83ea-a99b-7dc2683d449f",
+        "message_index": 635,
+        "snippet": "Okay, so just to recap, we now have two sorta paths to go down: the question of consciousness, and then how far can we push AGI. Can we mark this all down in a memory and continue...",
+        "title": "Cross-Processing Prompt Assistance"
+      },
+      {
+        "conversation_id": "69ed6962-a818-83ea-a99b-7dc2683d449f",
+        "message_index": 682,
+        "snippet": "Let's use a lot more game examples. These are just the ones that I know well myself personally. Let's also continue to dig deeper. And what is the difference between self and cons...",
+        "title": "Cross-Processing Prompt Assistance"
+      }
+    ]
+  },
+  "dcp_lip": {
+    "count": 1,
+    "examples": [
+      {
+        "conversation_id": "69ed6962-a818-83ea-a99b-7dc2683d449f",
+        "message_index": 320,
+        "snippet": "it should start from order 1. and yes lets continue to test. does the DCP help or get in the way here",
+        "title": "Cross-Processing Prompt Assistance"
+      }
+    ]
+  },
+  "food_coffee_milkshake_thanksgiving": {
+    "count": 23,
+    "examples": [
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 1,
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "698b58a9-0e58-832c-bbb0-86dec8c8e29a",
+        "message_index": 19,
+        "snippet": "And how many calories would my milkshake be?",
+        "title": "Cook Out Milkshakes"
+      },
+      {
+        "conversation_id": "6991fb70-52b4-8332-bfcf-4a0f705d03af",
+        "message_index": 17,
+        "snippet": "I'm looking at getting an apartment, but I'd have to spend at least a thousand dollars a month, plus with internet and food and all that other stuff, probably $1200, $1300 a month...",
+        "title": "Extra shift earnings after tax"
+      },
+      {
+        "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+        "message_index": 35,
+        "snippet": "i felt bad about not studying like i HAVE to every single day but ive made this much progress in 5-6 weeks so im clearly doing something write. ive listened to coffee break spanis...",
+        "title": "La lluvia se llegue"
+      },
+      {
+        "conversation_id": "699c7435-d4a4-8329-bb8a-5c149246256e",
+        "message_index": 10,
+        "snippet": "Actually, skip the coffee and get a regular sized McFlurry. What pairs best with it?",
+        "title": "DQP vs Bacon McDouble"
+      }
+    ]
+  },
+  "games_trails_eft_overwatch_dota_stardew_yume_nikki": {
+    "count": 174,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 11,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 51,
+        "snippet": "I actually like language more when it's done addition by subtraction. We could explain something using 30 paragraphs, or we can explain something in four sentences. The less words...",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 55,
+        "snippet": "https://en.wikipedia.org/wiki/Jayden_Daniels https://en.wikipedia.org/wiki/New_Commanders_Stadium?wprov=sfla1 https://en.wikipedia.org/wiki/Josh_Harris_%28businessman%29?wprov=sfl...",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 157,
+        "snippet": "I want to play through Stardew Valley in Spanish. I already know how to install mods and stuff, so can you recommend me stuff that will help me learn Spanish, put the game in Span...",
+        "title": "Bad Bunny English Skills"
+      },
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 163,
+        "snippet": "What about in Skyrim? And what other games work well playing in Spanish? Something that isn't super narrative heavy, or a game that I've probably already played.",
+        "title": "Bad Bunny English Skills"
+      }
+    ]
+  },
+  "helix": {
+    "count": 23,
+    "examples": [
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 232,
+        "snippet": "helix old manifest. anything from this that will help?",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 164,
+        "snippet": "sweet. you know ive been working on this for a few months and the entire thing of helix spawned out of my first attempt at an eft dataset, so this thing has bascially been evolvin...",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 324,
+        "snippet": "it being the same game but better/brought into the 2020s has been the goal since day 1. its why this manifest was even created 2 months ago and been through several revisions (hel...",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 367,
+        "snippet": "\"Back then you just felt it. Now you can reverse-engineer your own instincts.\" yeah lol. i used to just call it \"game sense\" but now i see that was only one aspect of it. i just h...",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "69d71e0d-7190-832f-ab00-a15ef3ad825a",
+        "message_index": 1,
+        "snippet": "what can i give helix to make it understand trails characters more. kiseki wiki and the japanese wikipedia character page?",
+        "title": "Trails"
+      }
+    ]
+  },
+  "music_foobar_dsp_vgm": {
+    "count": 37,
+    "examples": [
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 7,
+        "snippet": "he doesnt have to make music in english but he doesnt care to at least learn more? im learning spanish and ill never write music in it",
+        "title": "Bad Bunny English Skills"
+      },
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 196,
+        "snippet": "Kind of an out there question, but you know the ambient music in Red Dead Redemption? It had like the Mexican brass traditional sounds. I can find that on YouTube, but what type o...",
+        "title": "Bad Bunny English Skills"
+      },
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 82,
+        "snippet": "well they WANT to keep posseion but recongize they have no shot of juking a swarm of 3 players surronding them. remember that the ball carrier runs at 75% the speed \"You weren’t r...",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 239,
+        "snippet": "\"EFT lived in the weird middle where: the mechanics were consistent enough to respect but the presentation was chaotic enough to not feel sweaty. Players could laugh and still car...",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 322,
+        "snippet": "\"If you polish visuals too much without preserving interaction chaos, players will subconsciously interpret it as a different genre.\" nope its more the HUD/presentation/maps looki...",
+        "title": "GMod Server Setup Guide"
+      }
+    ]
+  },
+  "reddit_twitter_old_internet": {
+    "count": 35,
+    "examples": [
+      {
+        "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+        "message_index": 99,
+        "snippet": "i didnt write this i just liked it on my steam profile lol",
+        "title": "La lluvia se llegue"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 316,
+        "snippet": "not my goal or intent but would be cool if the eft sbox port became one of the sbox core games (it has a bunch of demos but nothing like how gmod has rp or TTT) and it gets talked...",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 357,
+        "snippet": "\"Forums died, hosts shut down, hard drives failed.\" yes, there is tons of old data i wish i could still access like the ENTIRE chatlogs of the nox eft server that went away when t...",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "6997d069-0a10-8332-9036-805b69d76205",
+        "message_index": 6,
+        "snippet": "this is chak chel artwork by ganja white night. i love the mayan/aztec aesthetics and would like this cleaned up as my profile picture.",
+        "title": "Artwork Cleanup Request"
+      },
+      {
+        "conversation_id": "6997e062-8820-8328-ad1d-dcc27c9e2046",
+        "message_index": 2,
+        "snippet": "i need a mayan/aztec themed steam profile background",
+        "title": "Mayan Aztec Steam Background"
+      }
+    ]
+  },
+  "spanish_peru_girlfriend": {
+    "count": 167,
+    "examples": [
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 1,
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 29,
+        "snippet": "can you test my level of spanish knowledge?",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 37,
+        "snippet": "\"This is not a hard grammar rule. It’s a wiring rule.\" i think i was reading them all as grammar rules instead of wording (english does this plenty of to but you dont question it)...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "6986c451-bdf0-832a-afe0-fb31f215f409",
+        "message_index": 5,
+        "snippet": "once i have it what do i need to visit somebody in peru?",
+        "title": "US Passport Application Checklist"
+      },
+      {
+        "conversation_id": "69873c77-1844-8327-8ad1-5113c38867e5",
+        "message_index": 1,
+        "snippet": "Does Yoda speak existence Spanish?",
+        "title": "Yoda y el español"
+      }
+    ]
+  },
+  "wikipedia_templates_infoboxes": {
+    "count": 48,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 9,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 11,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      }
+    ]
+  }
+}

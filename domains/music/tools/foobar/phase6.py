@@ -64,8 +64,8 @@ def run_phase6(args: "argparse.Namespace") -> int:
 # ── Part A: Historical Signal Unification ────────────────────────────────────
 
 def _run_signals(verbose: bool) -> int:
-    from domains.music.tools.music_pipeline.signal_fuser import SignalFuser
-    from domains.music.tools.music_pipeline.signal_record import (
+    from domains.music.tools.pipeline.signal_fuser import SignalFuser
+    from domains.music.tools.pipeline.signal_record import (
         SPLIT_BOTH_ZERO, SPLIT_LOCAL_ONLY, SPLIT_LASTFM_ONLY,
         SPLIT_DIVERGENT, SPLIT_UNRESOLVABLE,
         COMPLETENESS_FULL, COMPLETENESS_HIGH,
@@ -335,7 +335,7 @@ def _write_signal_summary_md(summary: dict, artifacts_dir: Path) -> None:
 # ── Part B: Semantic Materialization ─────────────────────────────────────────
 
 def _run_materialize(verbose: bool, signal_registry=None) -> int:
-    from domains.music.tools.music_pipeline.materialization_runner import run_materialization
+    from domains.music.tools.pipeline.materialization_runner import run_materialization
 
     print("[phase6:materialize] Running semantic materialization...")
     _ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -372,8 +372,8 @@ def _run_materialize(verbose: bool, signal_registry=None) -> int:
 
 def _run_full(verbose: bool) -> int:
     """Run Part A then Part B, passing signal registry to Part B."""
-    from domains.music.tools.music_pipeline.signal_fuser import SignalFuser
-    from domains.music.tools.music_pipeline.materialization_runner import run_materialization
+    from domains.music.tools.pipeline.signal_fuser import SignalFuser
+    from domains.music.tools.pipeline.materialization_runner import run_materialization
 
     print("[phase6:full] Running Phase 6 Part A + Part B...")
     _ARTIFACTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -408,7 +408,7 @@ def _run_full(verbose: bool) -> int:
 
 def _run_beefweb(verbose: bool) -> int:
     """Query Beefweb for live runtime state."""
-    from domains.music.tools.music_pipeline.beefweb_client import BeefwebClient
+    from domains.music.tools.pipeline.beefweb_client import BeefwebClient
 
     client = BeefwebClient()
     print("[phase6:beefweb] Checking Beefweb connectivity...")

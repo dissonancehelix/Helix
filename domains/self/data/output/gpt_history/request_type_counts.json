@@ -1,0 +1,466 @@
+{
+  "code_repo_github_codex": {
+    "count": 72,
+    "examples": [
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 13,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+        "message_index": 9,
+        "snippet": "no keep the rendered formatting (so nothing changes to a reader). but i want cleaner code here",
+        "title": "Template Fixes and Advice"
+      },
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 72,
+        "snippet": "so id use debo more if i was telling somebody why i had to go piss in a cup or something). and i didnt meant just thinking i mean some sort of app that can visuallze how im concep...",
+        "title": "Bad Bunny English Skills"
+      }
+    ]
+  },
+  "compare_evaluate": {
+    "count": 36,
+    "examples": [
+      {
+        "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+        "message_index": 2,
+        "snippet": "hay vs he in spanish",
+        "title": "Hay vs He"
+      },
+      {
+        "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+        "message_index": 3,
+        "snippet": "eso vs esto vs este",
+        "title": "Hay vs He"
+      },
+      {
+        "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+        "message_index": 43,
+        "snippet": "estaba vs estube",
+        "title": "Hay vs He"
+      },
+      {
+        "conversation_id": "698cfe45-509c-8330-a94b-e159a9b44ef6",
+        "message_index": 19,
+        "snippet": "mismo vs igualmente",
+        "title": "Explicación de hemos"
+      }
+    ]
+  },
+  "consciousness_theory_helix": {
+    "count": 47,
+    "examples": [
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 232,
+        "snippet": "helix old manifest. anything from this that will help?",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 164,
+        "snippet": "sweet. you know ive been working on this for a few months and the entire thing of helix spawned out of my first attempt at an eft dataset, so this thing has bascially been evolvin...",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 324,
+        "snippet": "it being the same game but better/brought into the 2020s has been the goal since day 1. its why this manifest was even created 2 months ago and been through several revisions (hel...",
+        "title": "GMod Server Setup Guide"
+      },
+      {
+        "conversation_id": "69963248-744c-8331-ae59-0dce9680dadd",
+        "message_index": 367,
+        "snippet": "\"Back then you just felt it. Now you can reverse-engineer your own instincts.\" yeah lol. i used to just call it \"game sense\" but now i see that was only one aspect of it. i just h...",
+        "title": "GMod Server Setup Guide"
+      }
+    ]
+  },
+  "current_events_news_sports": {
+    "count": 75,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 9,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 11,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      }
+    ]
+  },
+  "debug_fix": {
+    "count": 38,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 13,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 21,
+        "snippet": "formatting is broken on the testcase. the exact format was nessicary before. it shouldn tbe this hard to just hide text, i dont have this issue on infoboxes",
+        "title": "Roster Table Layout Fix"
+      }
+    ]
+  },
+  "explain_teach": {
+    "count": 63,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 6,
+        "snippet": "explain se, hay, he, lo",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 35,
+        "snippet": "ok now questions from me. can se be used for any verb? what are the most common ones if not? when do i use \"que\" as a connector gap when its not used like \"what\" or \"that\". explai...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "69873c77-1844-8327-8ad1-5113c38867e5",
+        "message_index": 13,
+        "snippet": "What is something that is very hard to express in English from Spanish, and vice versa? I wanna see what the extreme limitations of both languages are.",
+        "title": "Yoda y el español"
+      }
+    ]
+  },
+  "food_drink": {
+    "count": 31,
+    "examples": [
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 1,
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "698b58a9-0e58-832c-bbb0-86dec8c8e29a",
+        "message_index": 16,
+        "snippet": "What other foods from them shall I get? I don't wanna eat just sugar, but I also don't wanna full tray either.",
+        "title": "Cook Out Milkshakes"
+      },
+      {
+        "conversation_id": "698b58a9-0e58-832c-bbb0-86dec8c8e29a",
+        "message_index": 19,
+        "snippet": "And how many calories would my milkshake be?",
+        "title": "Cook Out Milkshakes"
+      },
+      {
+        "conversation_id": "698b58a9-0e58-832c-bbb0-86dec8c8e29a",
+        "message_index": 23,
+        "snippet": "I'm the type of person that usually has one big meal a day. If I ever get hungry later it's usually something small, under 300-400 calories. So altogether, I try to eat under 2,00...",
+        "title": "Cook Out Milkshakes"
+      }
+    ]
+  },
+  "games": {
+    "count": 174,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 11,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 51,
+        "snippet": "I actually like language more when it's done addition by subtraction. We could explain something using 30 paragraphs, or we can explain something in four sentences. The less words...",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 55,
+        "snippet": "https://en.wikipedia.org/wiki/Jayden_Daniels https://en.wikipedia.org/wiki/New_Commanders_Stadium?wprov=sfla1 https://en.wikipedia.org/wiki/Josh_Harris_%28businessman%29?wprov=sfl...",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 157,
+        "snippet": "I want to play through Stardew Valley in Spanish. I already know how to install mods and stuff, so can you recommend me stuff that will help me learn Spanish, put the game in Span...",
+        "title": "Bad Bunny English Skills"
+      }
+    ]
+  },
+  "generate_plan_prompt": {
+    "count": 52,
+    "examples": [
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 25,
+        "snippet": "and how long does this process take? i plan to study every single day if possible, if even only 15 mins",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "6986c451-bdf0-832a-afe0-fb31f215f409",
+        "message_index": 1,
+        "snippet": "what do i need to apply for a US passport? i plan to do everything (pics, photocopy) all at a single site, so what do i need to bring besides a new copy of my birth certifate (i d...",
+        "title": "US Passport Application Checklist"
+      },
+      {
+        "conversation_id": "6991fb70-52b4-8332-bfcf-4a0f705d03af",
+        "message_index": 47,
+        "snippet": "I'm just gathering my options right now, but yes, ultimately I wanna move out of the United States, so. And this relationship's heating up fast, and I'm also learning Spanish, so...",
+        "title": "Extra shift earnings after tax"
+      },
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 23,
+        "snippet": "dont give a static prompt, but act as if you were guiding claude as if it were me. i want it to do it since it has direct access to the workspace. can any AI currently \"watch\" you...",
+        "title": "EFT Game Evaluation"
+      }
+    ]
+  },
+  "health_body_sensory": {
+    "count": 30,
+    "examples": [
+      {
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 49,
+        "snippet": "[non-explicit snippet omitted]",
+        "title": "Olvidé vs Acordé"
+      },
+      {
+        "conversation_id": "698b58a9-0e58-832c-bbb0-86dec8c8e29a",
+        "message_index": 23,
+        "snippet": "I'm the type of person that usually has one big meal a day. If I ever get hungry later it's usually something small, under 300-400 calories. So altogether, I try to eat under 2,00...",
+        "title": "Cook Out Milkshakes"
+      },
+      {
+        "conversation_id": "699a281f-4c80-8327-9eac-84c38e1c6df9",
+        "message_index": 15,
+        "snippet": "If my taxes are going to fund Israeli citizens' health care, I think I can criticize them all I want.",
+        "title": "U.S. Taiwan Policy Explained"
+      },
+      {
+        "conversation_id": "699f4da7-fc14-832b-92e1-ff146f8d246c",
+        "message_index": 23,
+        "snippet": "Even though if I ate better, I know I'd be healthier overall, but I don't have any major visible health issues, and I feel like if my body is this weight, I must be doing somethin...",
+        "title": "McFlurry THC Absorption"
+      }
+    ]
+  },
+  "image_analysis_visual_style": {
+    "count": 32,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 1,
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 25,
+        "snippet": "first image is the sandbox. it should be more compact still",
+        "title": "Roster Table Layout Fix"
+      }
+    ]
+  },
+  "music_audio_dsp": {
+    "count": 50,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 11,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 1,
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Template Fixes and Advice"
+      }
+    ]
+  },
+  "personal_profile_self_map": {
+    "count": 46,
+    "examples": [
+      {
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 284,
+        "snippet": "less that and more what fits my personality based on my md file. the spanish will be learned anyway",
+        "title": "Bad Bunny English Skills"
+      },
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 48,
+        "snippet": "but many players loving passing too. it was just individual player personality (i personally prefered playing the defender role wher ei had to tackle and stop the ball carrier and...",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+        "message_index": 99,
+        "snippet": "i didnt write this i just liked it on my steam profile lol",
+        "title": "La lluvia se llegue"
+      },
+      {
+        "conversation_id": "6997d069-0a10-8332-9036-805b69d76205",
+        "message_index": 6,
+        "snippet": "this is chak chel artwork by ganja white night. i love the mayan/aztec aesthetics and would like this cleaned up as my profile picture.",
+        "title": "Artwork Cleanup Request"
+      }
+    ]
+  },
+  "rewrite_reformat": {
+    "count": 20,
+    "examples": [
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 21,
+        "snippet": "formatting is broken on the testcase. the exact format was nessicary before. it shouldn tbe this hard to just hide text, i dont have this issue on infoboxes",
+        "title": "Roster Table Layout Fix"
+      },
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 241,
+        "snippet": "by doing all of this the AI understands the repo format too right? so it becomes more effecicent token wise",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "69937105-b4ac-8331-b730-c58781300782",
+        "message_index": 243,
+        "snippet": "port only comes after gmod eft is solidified. anything else we can add to the repo to make this as painless as possible?",
+        "title": "EFT Game Evaluation"
+      },
+      {
+        "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+        "message_index": 142,
+        "snippet": "is interlanguage when i try to format english structurally as spanish first before mapping/translating it over? for example, (bad example but cant think of any of the top of my he...",
+        "title": "La lluvia se llegue"
+      }
+    ]
+  },
+  "spanish_language": {
+    "count": 194,
+    "examples": [
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 1,
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 27,
+        "snippet": "so just studying and learning grammar and practicing speaking over time will make me as fluent as i want to be? this isnt like something where i gotta put extreme effort in, basci...",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 29,
+        "snippet": "can you test my level of spanish knowledge?",
+        "title": "Fluent in Spanish Bottleneck"
+      },
+      {
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 37,
+        "snippet": "\"This is not a hard grammar rule. It’s a wiring rule.\" i think i was reading them all as grammar rules instead of wording (english does this plenty of to but you dont question it)...",
+        "title": "Fluent in Spanish Bottleneck"
+      }
+    ]
+  },
+  "wikipedia_wiki_templates": {
+    "count": 49,
+    "examples": [
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 9,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 11,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "New chat"
+      },
+      {
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 1,
+        "snippet": "[wiki/template markup snippet omitted]",
+        "title": "Roster Table Layout Fix"
+      }
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-# Domain: Language
+﻿# Domain: Language
 
 ## Domain Role
 
@@ -17,8 +17,8 @@ and learning workflows, but it remains its own domain.
 ## Capsule Contents
 
 - `model/` — domain model and future language-specific specs.
-- `data/normalized/` — cleaned language records.
-- `data/derived/` — generated language datasets and caches.
+- `data/` — cleaned language records.
+- `data/output/` — generated language datasets and caches.
 - `tools/` — language and Spanish helper pipelines.
 - `labs/` — language research probes.
 - `reports/` — review artifacts from language workflows.

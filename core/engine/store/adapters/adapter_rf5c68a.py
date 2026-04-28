@@ -1,10 +1,10 @@
-"""
+﻿"""
 adapter_rf5c68a.py — Helix adapter for Ricoh RF5C68A PCM sound source
 ======================================================================
 Tier A: Static constants. No compilation required.
 Source references:
-    domains/music/data/derived/music/source/chip_docs/RF5C68A.pdf
-    domains/music/data/derived/music/source/chip_docs/MCDHardware_Manual_PCM_Sound_Source.pdf
+    domains/music/data/output/library/source/chip_docs/RF5C68A.pdf
+    domains/music/data/output/library/source/chip_docs/MCDHardware_Manual_PCM_Sound_Source.pdf
 
 Chip coverage:
     RF5C68A  — Ricoh PCM sound source (Sega CD / Mega CD)

@@ -21,12 +21,15 @@ domains/<domain>/
 ├── manifest.yaml
 ├── model/
 ├── data/
-│   ├── normalized/
-│   └── derived/
+│   └── output/
 ├── tools/
-├── labs/
 └── reports/
 ```
+
+Cleaned domain records live directly in `data/`. Generated products, indexes,
+profiles, and other tool outputs live under `data/output/`.
+
+Domain-local `labs/` is optional and only for true local experiments.
 
 Domains elaborate the master map. They do not redefine `DISSONANCE.md` or
 `core/map/`.

@@ -1,4 +1,4 @@
-# Domain: Games
+﻿# Domain: Games
 
 ## Domain Role
 
@@ -72,4 +72,4 @@ Role anchors:
 
 - `domains/games/model/EFT.md`
 - `domains/games/tools/games_pipeline/`
-- `domains/games/data/derived/games_pipeline/`
+- `domains/games/data/output/pipeline/`

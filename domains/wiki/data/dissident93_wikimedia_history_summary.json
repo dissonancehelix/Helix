@@ -1,0 +1,506 @@
+{
+  "dataset": "dissident93_wikimedia_history",
+  "username": "Dissident93",
+  "status": "normalized_from_archived_api_pipeline",
+  "generated_at": "2026-04-28T19:42:52.760743+00:00",
+  "source_archive": "archive/raw/raw_datasets/wikipedia_2026-04-28.zip",
+  "source_archive_sha256": "7b44b86c0bbff6112e88557efeed2ed8ebf104be343da8a9bec59ae219d6f290",
+  "source_members": [
+    "wikipedia/wiki_20260411_150435/wikimedia_normalized_edits.jsonl",
+    "wikipedia/wiki_20260411_150435/run_log.json",
+    "wikipedia/wiki_20260411_150435/wikimedia_ingest_manifest.json",
+    "wikipedia/wiki_20260411_150435/wikimedia_project_summary.json",
+    "wikipedia/wiki_20260411_150435/wikimedia_edit_classification.json",
+    "wikipedia/wiki_20260411_150435/wikimedia_namespace_distribution.json",
+    "wikipedia/wiki_20260411_150435/wikimedia_yearly_activity.json",
+    "wikipedia/wiki_20260411_150435/wikimedia_page_focus_report.json"
+  ],
+  "record_count": 15000,
+  "date_range": {
+    "first": "2020-04-29T18:30:16Z",
+    "last": "2026-04-11T19:02:36Z"
+  },
+  "by_project": {
+    "enwiki": 5000,
+    "wikidata": 5000,
+    "commons": 5000
+  },
+  "by_namespace_id": {
+    "0": 8454,
+    "6": 4837,
+    "10": 1045,
+    "14": 161,
+    "11": 124,
+    "3": 94,
+    "1": 80,
+    "120": 54,
+    "5": 46,
+    "4": 37,
+    "828": 24,
+    "2": 23,
+    "829": 8,
+    "118": 7,
+    "121": 3,
+    "15": 2,
+    "7": 1
+  },
+  "by_classification": {
+    "structured_data_work": 4989,
+    "media_or_file_work": 4837,
+    "manual_review_required": 1776,
+    "template_work": 1045,
+    "minor_polish": 750,
+    "summary_unknown": 399,
+    "talk_page_discussion": 358,
+    "chronology_update": 240,
+    "category_work": 230,
+    "copyedit_cleanup": 94,
+    "project_maintenance": 60,
+    "article_creation": 53,
+    "infobox_update": 49,
+    "revert_or_undo": 48,
+    "reference_or_citation_work": 35,
+    "lead_rewrite": 35,
+    "article_expansion": 2
+  },
+  "by_year": {
+    "2020": 702,
+    "2021": 780,
+    "2022": 372,
+    "2023": 719,
+    "2024": 1063,
+    "2025": 9542,
+    "2026": 1822
+  },
+  "top_mainspace_pages": [
+    {
+      "title": "New Commanders Stadium",
+      "edits": 553
+    },
+    {
+      "title": "Q6289885",
+      "edits": 401
+    },
+    {
+      "title": "Q66825384",
+      "edits": 386
+    },
+    {
+      "title": "Q65029655",
+      "edits": 180
+    },
+    {
+      "title": "Q106504630",
+      "edits": 139
+    },
+    {
+      "title": "Jayden Daniels",
+      "edits": 126
+    },
+    {
+      "title": "Q6163814",
+      "edits": 115
+    },
+    {
+      "title": "Q134250652",
+      "edits": 99
+    },
+    {
+      "title": "Q20073229",
+      "edits": 88
+    },
+    {
+      "title": "Q34812688",
+      "edits": 84
+    },
+    {
+      "title": "Q124220188",
+      "edits": 84
+    },
+    {
+      "title": "Q5214234",
+      "edits": 71
+    },
+    {
+      "title": "Q212654",
+      "edits": 70
+    },
+    {
+      "title": "Q6776149",
+      "edits": 67
+    },
+    {
+      "title": "List of current NFL stadiums",
+      "edits": 57
+    },
+    {
+      "title": "Q111020385",
+      "edits": 56
+    },
+    {
+      "title": "Q583085",
+      "edits": 54
+    },
+    {
+      "title": "Q85801180",
+      "edits": 46
+    },
+    {
+      "title": "Q52985750",
+      "edits": 46
+    },
+    {
+      "title": "Q102227408",
+      "edits": 45
+    },
+    {
+      "title": "Q115629472",
+      "edits": 42
+    },
+    {
+      "title": "Q1991889",
+      "edits": 41
+    },
+    {
+      "title": "Q11454590",
+      "edits": 39
+    },
+    {
+      "title": "Q64826862",
+      "edits": 39
+    },
+    {
+      "title": "Q113856632",
+      "edits": 38
+    },
+    {
+      "title": "Q87508804",
+      "edits": 38
+    },
+    {
+      "title": "Hill East",
+      "edits": 34
+    },
+    {
+      "title": "Q5386137",
+      "edits": 34
+    },
+    {
+      "title": "Q105829754",
+      "edits": 34
+    },
+    {
+      "title": "Robert F. Kennedy Memorial Stadium",
+      "edits": 32
+    }
+  ],
+  "archived_summaries": {
+    "run_log": {
+      "run_id": "wiki_20260411_150435",
+      "username": "Dissident93",
+      "timestamp": "2026-04-11T15:04:35.352373",
+      "args": {
+        "username": "Dissident93",
+        "project": "all",
+        "limit": 5000,
+        "dry_run": false
+      },
+      "source_endpoints_used": [
+        "https://en.wikipedia.org/w/api.php",
+        "https://www.wikidata.org/w/api.php",
+        "https://commons.wikimedia.org/w/api.php"
+      ],
+      "record_counts": {
+        "enwiki": 5000,
+        "wikidata": 5000,
+        "commons": 5000
+      },
+      "errors": [],
+      "outputs_written": [
+        "wikimedia_project_summary.json",
+        "wikimedia_edit_classification.json",
+        "wikimedia_namespace_distribution.json",
+        "wikimedia_yearly_activity.json",
+        "wikimedia_page_focus_report.json",
+        "wikimedia_normalized_edits.jsonl",
+        "wikimedia_ingest_manifest.json"
+      ]
+    },
+    "ingest_manifest": {
+      "run_id": "wiki_20260411_150435",
+      "project_counts": {
+        "enwiki": 5000,
+        "wikidata": 5000,
+        "commons": 5000
+      },
+      "total_records": 15000
+    },
+    "project_summary": {
+      "total_edits": 15000,
+      "by_project": {
+        "enwiki": 5000,
+        "wikidata": 5000,
+        "commons": 5000
+      }
+    },
+    "edit_classification": {
+      "total_classified": 15000,
+      "distribution": {
+        "structured_data_work": 4989,
+        "media_or_file_work": 4837,
+        "manual_review_required": 1776,
+        "template_work": 1045,
+        "minor_polish": 750,
+        "summary_unknown": 399,
+        "talk_page_discussion": 358,
+        "chronology_update": 240,
+        "category_work": 230,
+        "copyedit_cleanup": 94,
+        "project_maintenance": 60,
+        "article_creation": 53,
+        "infobox_update": 49,
+        "revert_or_undo": 48,
+        "reference_or_citation_work": 35,
+        "lead_rewrite": 35,
+        "article_expansion": 2
+      }
+    },
+    "namespace_distribution": {
+      "by_namespace_id": {
+        "0": 8454,
+        "6": 4837,
+        "10": 1045,
+        "14": 161,
+        "11": 124,
+        "3": 94,
+        "1": 80,
+        "120": 54,
+        "5": 46,
+        "4": 37,
+        "828": 24,
+        "2": 23,
+        "829": 8,
+        "118": 7,
+        "121": 3,
+        "15": 2,
+        "7": 1
+      }
+    },
+    "yearly_activity": {
+      "by_year": {
+        "2020": 702,
+        "2021": 780,
+        "2022": 372,
+        "2023": 719,
+        "2024": 1063,
+        "2025": 9542,
+        "2026": 1822
+      }
+    },
+    "page_focus_report": {
+      "total_unique_main_pages": 1762,
+      "most_edited_pages": [
+        {
+          "title": "New Commanders Stadium",
+          "edits": 553
+        },
+        {
+          "title": "Q6289885",
+          "edits": 401
+        },
+        {
+          "title": "Q66825384",
+          "edits": 386
+        },
+        {
+          "title": "Q65029655",
+          "edits": 180
+        },
+        {
+          "title": "Q106504630",
+          "edits": 139
+        },
+        {
+          "title": "Jayden Daniels",
+          "edits": 126
+        },
+        {
+          "title": "Q6163814",
+          "edits": 115
+        },
+        {
+          "title": "Q134250652",
+          "edits": 99
+        },
+        {
+          "title": "Q20073229",
+          "edits": 88
+        },
+        {
+          "title": "Q34812688",
+          "edits": 84
+        },
+        {
+          "title": "Q124220188",
+          "edits": 84
+        },
+        {
+          "title": "Q5214234",
+          "edits": 71
+        },
+        {
+          "title": "Q212654",
+          "edits": 70
+        },
+        {
+          "title": "Q6776149",
+          "edits": 67
+        },
+        {
+          "title": "List of current NFL stadiums",
+          "edits": 57
+        },
+        {
+          "title": "Q111020385",
+          "edits": 56
+        },
+        {
+          "title": "Q583085",
+          "edits": 54
+        },
+        {
+          "title": "Q85801180",
+          "edits": 46
+        },
+        {
+          "title": "Q52985750",
+          "edits": 46
+        },
+        {
+          "title": "Q102227408",
+          "edits": 45
+        },
+        {
+          "title": "Q115629472",
+          "edits": 42
+        },
+        {
+          "title": "Q1991889",
+          "edits": 41
+        },
+        {
+          "title": "Q11454590",
+          "edits": 39
+        },
+        {
+          "title": "Q64826862",
+          "edits": 39
+        },
+        {
+          "title": "Q113856632",
+          "edits": 38
+        },
+        {
+          "title": "Q87508804",
+          "edits": 38
+        },
+        {
+          "title": "Hill East",
+          "edits": 34
+        },
+        {
+          "title": "Q5386137",
+          "edits": 34
+        },
+        {
+          "title": "Q105829754",
+          "edits": 34
+        },
+        {
+          "title": "Robert F. Kennedy Memorial Stadium",
+          "edits": 32
+        },
+        {
+          "title": "Q153312",
+          "edits": 32
+        },
+        {
+          "title": "Q130717697",
+          "edits": 32
+        },
+        {
+          "title": "Q74126120",
+          "edits": 31
+        },
+        {
+          "title": "Q63347408",
+          "edits": 29
+        },
+        {
+          "title": "Q105565299",
+          "edits": 29
+        },
+        {
+          "title": "Q110442577",
+          "edits": 28
+        },
+        {
+          "title": "Fernando Mendoza",
+          "edits": 26
+        },
+        {
+          "title": "Northwest Stadium",
+          "edits": 25
+        },
+        {
+          "title": "Kingman and Heritage Islands",
+          "edits": 25
+        },
+        {
+          "title": "Q70211671",
+          "edits": 25
+        },
+        {
+          "title": "S&box",
+          "edits": 24
+        },
+        {
+          "title": "SoFi Stadium",
+          "edits": 24
+        },
+        {
+          "title": "Q115631633",
+          "edits": 24
+        },
+        {
+          "title": "Q67702653",
+          "edits": 24
+        },
+        {
+          "title": "Q61045226",
+          "edits": 22
+        },
+        {
+          "title": "Q124804895",
+          "edits": 22
+        },
+        {
+          "title": "Q6777442",
+          "edits": 22
+        },
+        {
+          "title": "Q56860229",
+          "edits": 22
+        },
+        {
+          "title": "Q131632104",
+          "edits": 21
+        },
+        {
+          "title": "Q136549371",
+          "edits": 21
+        }
+      ]
+    }
+  }
+}

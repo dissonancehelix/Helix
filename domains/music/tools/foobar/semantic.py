@@ -33,8 +33,8 @@ _REPO_ROOT = Path(__file__).resolve().parents[3]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from domains.music.tools.music_pipeline.entity_layer import MusicEntityLayer
-from domains.music.tools.music_pipeline.query_engine import SemanticQueryEngine, QueryResult
+from domains.music.tools.pipeline.entity_layer import MusicEntityLayer
+from domains.music.tools.pipeline.query_engine import SemanticQueryEngine, QueryResult
 
 
 # ── Result formatter ──────────────────────────────────────────────────────────

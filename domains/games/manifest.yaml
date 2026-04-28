@@ -1,4 +1,4 @@
-manifest_schema: manifest_schema_v1
+﻿manifest_schema: manifest_schema_v1
 domain: games
 version: "2.1"
 status: stub
@@ -60,7 +60,7 @@ fixtures:
     probe_status: verified
     pass_rate: "86%"
     domains_observed: 3
-    dataset: domains/games/data/derived/games/decision_compression_dataset.json
+    dataset: domains/games/data/output/pipeline/decision_compression_dataset.json
     formal_harness: false
     note: Verified via lab probes, not via domains/games/model/validation/ harness
 
@@ -68,7 +68,7 @@ fixtures:
     probe_status: verified
     pass_rate: "100%"
     domains_observed: 3
-    dataset: domains/games/data/derived/games/oscillator_locking_dataset.json
+    dataset: domains/games/data/output/pipeline/oscillator_locking_dataset.json
     formal_harness: false
     note: Verified via lab probes, not via domains/games/model/validation/ harness
 
@@ -86,14 +86,14 @@ dependencies:
     - core/engine/contract/validation/
     - core/engine/store/compiler/atlas_compiler.py
   applications:
-    - domains/games/data/derived/games/
+    - domains/games/data/output/pipeline/
 
 known_gaps:
   - pipeline.py is a stub; no implemented runtime extraction path
   - godot_engine/ directory content not verified as functional
   - No formal domain validation harness
   - Probe verification was through lab experiments, not domain harness
-  - dataset path in old docs was labs/games/ — canonical path is domains/games/data/derived/games/
+  - dataset path in old docs was labs/games/ — canonical path is domains/games/data/output/pipeline/
   - No HSL/HIL implementation confirmed
   - Atlas persistence not implemented
 

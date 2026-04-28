@@ -27,7 +27,7 @@ Second compression:
 ├── core/              # compressed shared map, engine, tools, atlas
 ├── domains/           # active domain capsules
 ├── labs/              # cross-domain pressure tests and theory labs
-├── archive/           # raw provenance, legacy material, migration history
+├── archive/           # raw provenance, imports, analyses, migration history
 └── quarantine/        # staged removals and uncertain moves
 ```
 
@@ -42,9 +42,9 @@ Dotfiles such as `.gitignore` are root technical support, not ontology.
 3. **`domains/<name>/README.md`** — domain-local operational interpretation.
    Domains elaborate; they do not redefine master patterns.
 4. **`labs/`** — cross-domain pressure, falsification, and demotion evidence.
-5. **`domains/<name>/data/`** — domain-owned normalized and derived working
-   artifacts.
-6. **`archive/`** — raw evidence, local source dumps, legacy notes, and migration
+5. **`domains/<name>/data/`** — domain-owned cleaned records and generated
+   outputs.
+6. **`archive/`** — raw evidence, local source dumps, analyses, and migration
    history. Archive preserves provenance; it is not active canon.
 7. **`domains/<name>/reports/` and `labs/reports/`** — generated review
    artifacts. Reports are never truth until reviewed and promoted.
@@ -68,12 +68,12 @@ domains/<domain>/
 ├── manifest.yaml
 ├── model/
 ├── data/
-│   ├── normalized/
-│   └── derived/
+│   └── output/
 ├── tools/
-├── labs/
 └── reports/
 ```
+
+Domain-local `labs/` is optional and exists only for true local experiments.
 
 Active capsules:
 
@@ -97,6 +97,53 @@ Active capsules:
 
 Shared infrastructure stays global. Domain-owned work nests under the domain.
 
+## Workspace Design Rules
+
+Helix must be navigable by human file exploration, not only by LLM memory,
+manifests, or tool registries. The path should explain the thing before a
+README has to defend it.
+
+Best rule:
+
+> **Fewer folders, better rooms.**
+
+Second rule:
+
+> **Depth must reveal behavior. If depth only repeats names, compress it.**
+
+Rules:
+
+- Folders should group by role/category, not repeat identity.
+- Nesting must increase orientation, not express uncertainty.
+- Depth must reveal behavior. If depth only repeats names, compress it.
+- No folder may repeat an ancestor name.
+- No domain-root `vendor/`.
+- No `core/` inside a domain.
+- No `labs/labs` or `reports/reports`.
+- Domain roots normally contain only `README.md`, `manifest.yaml`, `model/`,
+  `data/`, `tools/`, and `reports/`.
+- Domain-local `labs/` is optional and only allowed for true local
+  experiments.
+- `data/` contains cleaned domain records directly; generated products belong
+  under `data/output/`.
+- `model/` contains durable interpretation.
+- `tools/` contains runnable workflows and tool-support material.
+- `reports/` contains review artifacts only.
+- `archive/` preserves raw provenance, imports, analyses, and migration history.
+- `quarantine/` stages uncertain moves/removals.
+- SDKs, toolkits, cloned helper libraries, and source mirrors belong under
+  `tools/toolkits/` or `tools/<tool_name>/toolkits/`, not `vendor/`.
+
+A folder may exist only if it can answer:
+
+1. What is this?
+2. What belongs here?
+3. What does not belong here?
+4. What reads it?
+5. What writes it?
+6. What promotes it?
+7. What would break if this folder disappeared?
+
 ## Labs And Archive
 
 `labs/` is for pressure tests that cross domains or test master claims. A lab
@@ -105,9 +152,10 @@ must be able to weaken a claim.
 `labs/inhabited_interiority/` is the special future/cross-domain lab for
 consciousness and inhabited-interiority work.
 
-`archive/` preserves raw provenance, old structures, migration notes, imports,
-and review history. Raw evidence is not deleted. Generated material does not
-become canon by being archived.
+`archive/` preserves raw provenance, migration notes, imports, and review
+history. Raw evidence is not deleted. Generated material does not become canon
+by being archived. Retired structures are recorded in migration manifests
+instead of kept as parallel folder trees.
 
 ## Workstation Laws
 

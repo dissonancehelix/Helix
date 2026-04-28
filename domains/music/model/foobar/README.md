@@ -1,4 +1,4 @@
-# Foobar as Local Music Atlas
+﻿# Foobar as Local Music Atlas
 
 ## Domain Role
 
@@ -73,7 +73,7 @@ From recent screenshots and live-state observation:
 ## Dataset Notes
 
 - Foobar's library state is the canonical local source of truth for the archive.
-- Snapshots/exports (when produced by `domains/music/tools/music_bridge/`) land under `domains/music/data/derived/music/foobar/` or the existing pipeline convention. Phase 2 does not yet produce these.
+- Snapshots/exports (when produced by `domains/music/tools/bridge/`) land under `domains/music/data/output/library/foobar/` or the existing pipeline convention. Phase 2 does not yet produce these.
 - Last.fm and Spotify normalized exports under `data/` are *parallel* evidence streams; they do not replace foobar — they cross-reference it.
 
 ## False Positives
@@ -102,7 +102,7 @@ Correct interpretation: **foobar is a navigable archive that preserves paths bac
 
 ## Downward Links
 
-- Screenshots / exports / foobar snapshots — once stored under `domains/music/data/derived/music/foobar/`
+- Screenshots / exports / foobar snapshots — once stored under `domains/music/data/output/library/foobar/`
 - `data/` paths once Phase 3A produces a snapshot
-- Future `domains/music/reports/` outputs from `domains/music/tools/music_bridge/`
+- Future `domains/music/reports/` outputs from `domains/music/tools/bridge/`
 

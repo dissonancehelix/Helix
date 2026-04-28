@@ -1,11 +1,11 @@
-"""
+﻿"""
 adapter_gems.py — Helix adapter for GEMS driver constants
 ==========================================================
 Source references:
-    domains/music/data/derived/music/source/code/GEMS/GEMS.DOC    — authoritative v2.0 documentation
-    domains/music/data/derived/music/source/code/GEMS/GEMS/GEMS.H — C API header (Recreational Brainware)
-    domains/music/data/derived/music/source/code/GEMS/GEMS/Z80.ASM — Z80 driver implementation
-    domains/music/data/derived/music/source/code/MidiConverters/gems2mid.c — GEMS→MIDI converter
+    domains/music/data/output/library/source/code/GEMS/GEMS.DOC    — authoritative v2.0 documentation
+    domains/music/data/output/library/source/code/GEMS/GEMS/GEMS.H — C API header (Recreational Brainware)
+    domains/music/data/output/library/source/code/GEMS/GEMS/Z80.ASM — Z80 driver implementation
+    domains/music/data/output/library/source/code/MidiConverters/gems2mid.c — GEMS→MIDI converter
 
 Purpose:
     Provide ALL structural constants from the Genesis Editor for Music and Sound

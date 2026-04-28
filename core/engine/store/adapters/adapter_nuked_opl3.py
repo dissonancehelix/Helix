@@ -1,8 +1,8 @@
-"""
+﻿"""
 adapter_nuked_opl3.py — Helix adapter for Nuked-OPL3 (YMF262 reference)
 =========================================================================
 Wraps the Nuked-OPL3 constants from:
-    domains/music/data/derived/music/source/code/Nuked-OPL3/opl3.c
+    domains/music/data/output/library/source/code/Nuked-OPL3/opl3.c
 
 Purpose:
     Provide OPL3 (YMF262) FM synthesis topology constants for brightness

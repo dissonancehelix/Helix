@@ -1,5 +1,5 @@
 ﻿"""
-Helix Language Domain — Phase 1: Wikimedia Trace Ingestion
+Helix Wiki Domain — Phase 1: Wikimedia Trace Ingestion
 Runner CLI for ingesting user contributions from multiple Wikimedia APIs.
 
 Provides an operator-facing ingest and classification layer.
@@ -13,16 +13,16 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-_REPO_ROOT = Path(__file__).resolve().parents[3]
+_REPO_ROOT = Path(__file__).resolve().parents[4]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from model.domains.language.ingestion.wikimedia import (
+from domains.language.tools.language_pipeline.wikimedia import (
     WikimediaClient, WikiProjectSource, normalize_contribution,
     classify_edit, EditClassification, build_corpus_artifacts
 )
 
-_ARTIFACTS_DIR = Path(__file__).parent / "artifacts"
+_ARTIFACTS_DIR = _REPO_ROOT / "domains" / "wiki" / "data" / "derived" / "wikimedia_ingest"
 
 
 # ---------------------------------------------------------------------------
@@ -53,7 +53,7 @@ SUPPORTED_PROJECTS = {
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="wikimedia_ingest",
-        description="Helix Wikimedia Ingestion (Language Domain Phase 1)"
+        description="Helix Wikimedia Ingestion (Wiki Domain Phase 1)"
     )
     
     parser.add_argument("--username", type=str, required=True,
@@ -188,7 +188,7 @@ def _run_ingest(args: argparse.Namespace) -> int:
 
 def _write_phase1_summary(run_dir: Path, run_id: str, run_log: dict, artifacts: dict) -> None:
     lines = [
-        "# Helix Language Phase 1: Wikimedia Trace Ingestion Summary",
+        "# Helix Wiki Phase 1: Wikimedia Trace Ingestion Summary",
         f"Run ID: `{run_id}`",
         f"Generated: {run_log['timestamp']}",
         f"User Identity: `@{run_log['username']}`",

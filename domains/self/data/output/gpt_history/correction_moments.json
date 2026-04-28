@@ -1,0 +1,322 @@
+[
+  {
+    "assistant_likely_context": null,
+    "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+    "message_index": 1,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "New chat",
+    "user_correction_snippet": "[wiki/template markup snippet omitted]"
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+    "message_index": 7,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "New chat",
+    "user_correction_snippet": "[wiki/template markup snippet omitted]"
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+    "message_index": 9,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "New chat",
+    "user_correction_snippet": "[wiki/template markup snippet omitted]"
+  },
+  {
+    "assistant_likely_context": "explanation, plan",
+    "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+    "message_index": 11,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "New chat",
+    "user_correction_snippet": "[wiki/template markup snippet omitted]"
+  },
+  {
+    "assistant_likely_context": null,
+    "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+    "message_index": 1,
+    "sharpened_boundary": "rejects a flattened category; asks for the operative distinction.",
+    "title": "Fluent in Spanish Bottleneck",
+    "user_correction_snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, v..."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+    "message_index": 33,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Fluent in Spanish Bottleneck",
+    "user_correction_snippet": "sorry wasnt finished 1. i forgot to (do something) because there wasnt any time 2. one states a problem exist while the other one is explicitly described as big, implying its just..."
+  },
+  {
+    "assistant_likely_context": "profile/taste claim, implementation/code, explanation",
+    "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+    "message_index": 35,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Fluent in Spanish Bottleneck",
+    "user_correction_snippet": "ok now questions from me. can se be used for any verb? what are the most common ones if not? when do i use \"que\" as a connector gap when its not used like \"what\" or \"that\". explai..."
+  },
+  {
+    "assistant_likely_context": "explanation, visual/image",
+    "conversation_id": "6986c451-bdf0-832a-afe0-fb31f215f409",
+    "message_index": 15,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "US Passport Application Checklist",
+    "user_correction_snippet": "no apointments until march? i figured nobody is going"
+  },
+  {
+    "assistant_likely_context": "assistant response immediately before correction",
+    "conversation_id": "6986c451-bdf0-832a-afe0-fb31f215f409",
+    "message_index": 32,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "US Passport Application Checklist",
+    "user_correction_snippet": "and i can just go to a library for photocopies of my BC and license? i thought everything would be on sight but i have a month to prep for this so no biggie"
+  },
+  {
+    "assistant_likely_context": "assistant response immediately before correction",
+    "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+    "message_index": 31,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Roster Table Layout Fix",
+    "user_correction_snippet": "no, colspan should change too. just the NFL names/links to UFL"
+  },
+  {
+    "assistant_likely_context": null,
+    "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+    "message_index": 1,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Template Fixes and Advice",
+    "user_correction_snippet": "[wiki/template markup snippet omitted]"
+  },
+  {
+    "assistant_likely_context": "assistant response immediately before correction",
+    "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+    "message_index": 9,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Template Fixes and Advice",
+    "user_correction_snippet": "no keep the rendered formatting (so nothing changes to a reader). but i want cleaner code here"
+  },
+  {
+    "assistant_likely_context": "implementation/code, visual/image",
+    "conversation_id": "698965ec-d844-832e-99cc-e96ad2fc0614",
+    "message_index": 17,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Template Fixes and Advice",
+    "user_correction_snippet": "no the numbered i need adjusted since division and league were added and the labels below must be +2"
+  },
+  {
+    "assistant_likely_context": "implementation/code, explanation, visual/image",
+    "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+    "message_index": 10,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Hay vs He",
+    "user_correction_snippet": "\"Most learners fight Spanish because they try to push it through an English parser.\" im doing this but only because my mind has 30 years of only cognating (is that a word) in engl..."
+  },
+  {
+    "assistant_likely_context": "implementation/code, explanation, plan",
+    "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+    "message_index": 27,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Hay vs He",
+    "user_correction_snippet": "what are some things i could reasonable expect by 6 months, assuming no real breaks (few days every know and then are actually good for anti burnout)"
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "6989fa43-a9fc-832d-a66e-b25f65ced2b5",
+    "message_index": 5,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Fluent Spanish Speakers Surprising",
+    "user_correction_snippet": "No, but it does help knowing that some of them learn late. I'm in my early thirties now. It seems very late."
+  },
+  {
+    "assistant_likely_context": null,
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 1,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "The difference between me olvide and no me acuerdo"
+  },
+  {
+    "assistant_likely_context": "assistant response immediately before correction",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 7,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "No lo hago."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 9,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "No puedo hacerlo."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 13,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "no puedo hablarlo muy bueno."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 15,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "Vedon ascoltarlo, pero no hablato."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 16,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "puedo escucharlo, pero no hablarlo."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 22,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "No, espero que..."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 51,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "I actually like language more when it's done addition by subtraction. We could explain something using 30 paragraphs, or we can explain something in four sentences. The less words..."
+  },
+  {
+    "assistant_likely_context": "explanation, plan",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 58,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "I have about 13 years of editing experience. So I've learned how to refine this sort of style over time, but it's always been a part of me. Even when I was in school, doing essays..."
+  },
+  {
+    "assistant_likely_context": "profile/taste claim, explanation",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 62,
+    "sharpened_boundary": "rejects a flattened category; asks for the operative distinction.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "Just so you're not confused, I'm the one that said No pienso así que quiero hacerlo. I was trying to get across the more correct no quiero pensar, solo quiero hacer. At least at t..."
+  },
+  {
+    "assistant_likely_context": "implementation/code, explanation",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 66,
+    "sharpened_boundary": "asks to replace generic summary with higher-resolution structure.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "So you're saying that hard grammar rules are just encoded ways to avoid being misunderstood by being too vague?"
+  },
+  {
+    "assistant_likely_context": "profile/taste claim, implementation/code, explanation",
+    "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+    "message_index": 68,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Olvidé vs Acordé",
+    "user_correction_snippet": "pretty much, fluency, in addition to what I said earlier, would be what you just said, which rules I know I can break safely, or which things I can omit and still be perfectly und..."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698cfe45-509c-8330-a94b-e159a9b44ef6",
+    "message_index": 24,
+    "sharpened_boundary": "original request required narrower interpretation or a different target.",
+    "title": "Explicación de hemos",
+    "user_correction_snippet": "I meant more about us in English just use the word same, single word."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698cfe45-509c-8330-a94b-e159a9b44ef6",
+    "message_index": 34,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Explicación de hemos",
+    "user_correction_snippet": "No, I'm still a beginner. I was listening to Language Exchange Spanish, and I had to keep going back because my brain was freezing even though the woman, I forgot her name, was fa..."
+  },
+  {
+    "assistant_likely_context": "assistant response immediately before correction",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 65,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "\"The Romans would be proud.\" they probably would lmao. look how vulgar their graffiti at pompei was, no different than us today. and yeah mear works. how come tengo que translate..."
+  },
+  {
+    "assistant_likely_context": "implementation/code, explanation, plan",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 70,
+    "sharpened_boundary": "original request required narrower interpretation or a different target.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "oh sorry i meant DEBO mear (see why i need more practice, i knew what i meant to say but still got it wrong). i wish i could map spanish strucutually 3d somehow, and map the verbs..."
+  },
+  {
+    "assistant_likely_context": "implementation/code, explanation, plan",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 78,
+    "sharpened_boundary": "assistant inference failed; correction marks a boundary condition.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "tell me how wrong i am because its still kind of confusing (i havent really lookd into it to be far). but para would be used better in sitations where something has a direct desti..."
+  },
+  {
+    "assistant_likely_context": "implementation/code, explanation",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 80,
+    "sharpened_boundary": "assistant inference failed; correction marks a boundary condition.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "so para is almost \"a\" but with intention/specific goal? ill need more practice with this even though i understand the concept as noted above. if i say use the wrong word in contex..."
+  },
+  {
+    "assistant_likely_context": "assistant response immediately before correction",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 111,
+    "sharpened_boundary": "rejects a flattened category; asks for the operative distinction.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "But this only works with referring to people, you can't just change the noun of something that's not alive or inanimate."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 180,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "No preterite and imperfect."
+  },
+  {
+    "assistant_likely_context": "implementation/code, explanation",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 184,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "so tuve is i had but no longer"
+  },
+  {
+    "assistant_likely_context": "explanation, visual/image",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 198,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "No, it specifically had like one brass sound, not a bunch. I think it was a trumpet."
+  },
+  {
+    "assistant_likely_context": "explanation",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 205,
+    "sharpened_boundary": "assistant inference failed; correction marks a boundary condition.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "Not that say at the end is a command, but I'm saying that's not say at the end this. Say has to be used with the informal or the formal you type without the S. Is this making sens..."
+  },
+  {
+    "assistant_likely_context": "explanation, plan",
+    "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+    "message_index": 207,
+    "sharpened_boundary": "correction marks an interaction boundary.",
+    "title": "Bad Bunny English Skills",
+    "user_correction_snippet": "So basically commanded verbs always have no s, right?"
+  }
+]

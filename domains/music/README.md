@@ -1,4 +1,4 @@
-# Domain: Music
+﻿# Domain: Music
 
 ## Domain Role
 
@@ -14,7 +14,7 @@ Operational surfaces:
 - ListenBrainz/Last.fm as long-range world-listening evidence
 - VGM/chip/platform/composer metadata as authored sound under hardware constraint
 - DSP/plugin/audio-field tuning where software and listening overlap
-- future audio/DSP/metadata applications under `domains/music/tools/music_pipeline/` and `domains/music/tools/music_bridge/`
+- future audio/DSP/metadata applications under `domains/music/tools/pipeline/` and `domains/music/tools/bridge/`
 
 Key musical mechanics:
 
@@ -69,7 +69,7 @@ Trust controls entry and safety; taste predicts reward after entry. A track can 
 ## Downward Links
 
 - `domains/music/model/foobar/README.md`
-- `domains/music/tools/music_bridge/`
-- `domains/music/tools/music_pipeline/`
-- `domains/music/data/derived/music/`
+- `domains/music/tools/bridge/`
+- `domains/music/tools/pipeline/`
+- `domains/music/data/output/library/`
 

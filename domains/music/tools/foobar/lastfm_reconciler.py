@@ -38,7 +38,7 @@ _REPO_ROOT = Path(__file__).resolve().parents[3]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from domains.music.tools.music_pipeline.adapters.lastfm import (
+from domains.music.tools.pipeline.adapters.lastfm import (
     DEFAULT_LASTFM_PATH, LastFmAdapter, Scrobble, _norm_key,
 )
 from .diff import _norm

@@ -32,7 +32,7 @@ from .diff import (
 # ---------------------------------------------------------------------------
 
 try:
-    from domains.music.tools.music_pipeline.config import (
+    from domains.music.tools.pipeline.config import (
         DB_PATH, FOOBAR_APPDATA, LIBRARY_ROOT,
     )
     _CONFIG_AVAILABLE = True
@@ -103,7 +103,7 @@ def scan_foobar_library(library_root: Path = LIBRARY_ROOT) -> list[dict]:
     metadb_path = FOOBAR_APPDATA / "metadb.sqlite"
     if metadb_path.exists():
         try:
-            from domains.music.tools.music_pipeline.adapters.metadb_sqlite import MetadbSqliteReader
+            from domains.music.tools.pipeline.adapters.metadb_sqlite import MetadbSqliteReader
             reader = MetadbSqliteReader(str(metadb_path))
             raw = reader.read_all()
             records = [reader.normalize(r) for r in raw]
@@ -114,7 +114,7 @@ def scan_foobar_library(library_root: Path = LIBRARY_ROOT) -> list[dict]:
 
     # Filesystem scan fallback
     try:
-        from domains.music.tools.music_pipeline.adapters.foobar import FoobarAdapter
+        from domains.music.tools.pipeline.adapters.foobar import FoobarAdapter
         adapter = FoobarAdapter(str(library_root))
         tracks = adapter.scan()
         for t in tracks:
@@ -148,7 +148,7 @@ def load_codex_tracks(db_path: Path = DB_PATH) -> dict[str, dict]:
         return {}
 
     try:
-        from domains.music.tools.music_pipeline.track_db import TrackDB
+        from domains.music.tools.pipeline.track_db import TrackDB
         db = TrackDB(db_path)
         count = db.track_count()
         print(f"[sync] TrackDB: {count} records")

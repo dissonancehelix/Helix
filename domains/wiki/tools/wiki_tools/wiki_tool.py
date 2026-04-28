@@ -9,11 +9,39 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-_REPO_ROOT = Path(__file__).resolve().parents[3]
+_REPO_ROOT = Path(__file__).resolve().parents[4]
 if str(_REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(_REPO_ROOT))
 
-from model.domains.language.wikipedia.operator import WikiOperator
+from domains.language.tools.language_pipeline.operator import WikiOperator
+
+_NORMALIZED_SUMMARY = _REPO_ROOT / "domains" / "wiki" / "data" / "normalized" / "dissident93_wikimedia_history_summary.json"
+
+
+def _load_restored_account_summary() -> dict | None:
+    if not _NORMALIZED_SUMMARY.exists():
+        return None
+    import json
+
+    with _NORMALIZED_SUMMARY.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _print_restored_account_summary(summary: dict) -> None:
+    print(f"User          : {summary.get('username', 'Dissident93')}")
+    print(f"Total records : {summary.get('record_count', 0):,}")
+    print(f"Date range    : {summary.get('date_range', {}).get('first')} -> {summary.get('date_range', {}).get('last')}")
+    print(f"By project    : {summary.get('by_project', {})}")
+    classes = summary.get("by_classification", {})
+    if classes:
+        print("Top classes:")
+        for name, count in list(classes.items())[:10]:
+            print(f"  {count:>5}  {name}")
+    pages = summary.get("top_mainspace_pages", [])
+    if pages:
+        print("Top mainspace pages:")
+        for row in pages[:10]:
+            print(f"  {row.get('edits', 0):>5}  {row.get('title', '')}")
 
 
 def main() -> None:
@@ -21,6 +49,12 @@ def main() -> None:
 
     if len(sys.argv) < 2:
         op.status()
+        restored = _load_restored_account_summary()
+        if restored:
+            print()
+            print("Restored account history: available")
+            print(f"  Records: {restored.get('record_count', 0):,}")
+            print(f"  Source : {restored.get('source_archive')}")
         print()
         print("Commands:")
         print("  status                          — system overview")
@@ -56,17 +90,21 @@ def main() -> None:
         op.status()
 
     elif cmd == "account":
-        acct = op.account()
-        ts = acct.template_summary
-        print(f"User          : {acct.username}")
-        print(f"Total edits   : {acct.total_edits:,}")
-        print(f"By project    : {acct.by_project}")
-        print(f"Template-ns   : {ts.total_template_ns_edits:,}")
-        print(f"Infobox edits : {ts.total_infobox_edits:,}")
-        if ts.top_templates_edited:
-            print("Top templates:")
-            for t in ts.top_templates_edited[:10]:
-                print(f"  {t['edits']:>5}  {t['title']}")
+        restored = _load_restored_account_summary()
+        if restored:
+            _print_restored_account_summary(restored)
+        else:
+            acct = op.account()
+            ts = acct.template_summary
+            print(f"User          : {acct.username}")
+            print(f"Total edits   : {acct.total_edits:,}")
+            print(f"By project    : {acct.by_project}")
+            print(f"Template-ns   : {ts.total_template_ns_edits:,}")
+            print(f"Infobox edits : {ts.total_infobox_edits:,}")
+            if ts.top_templates_edited:
+                print("Top templates:")
+                for t in ts.top_templates_edited[:10]:
+                    print(f"  {t['edits']:>5}  {t['title']}")
 
     elif cmd == "patterns":
         op.patterns()
