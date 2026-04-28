@@ -32,6 +32,8 @@ quarantine/**
 !quarantine/README.md
 !quarantine/2026-04-27-workspace-refactor/
 !quarantine/2026-04-27-workspace-refactor/MIGRATION_MANIFEST.md
+!quarantine/2026-04-28-domain-prune/
+!quarantine/2026-04-28-domain-prune/MIGRATION_MANIFEST.md
 
 # Heavy Files & Binaries (Global)
 *.parquet

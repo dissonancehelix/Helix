@@ -21,4 +21,24 @@ items:
     to: model/domains/music/foobar/README.md
     kind: elaborates
     status: seed
+  - from: domains.active_externalized_chambers
+    to: model/domains/README.md
+    kind: elaborates
+    status: active
+  - from: food.thanksgiving_ritual_anchor
+    to: DISSONANCE.md
+    kind: supports
+    status: active
+  - from: internet.old_profile_rooms
+    to: model/domains/self/README.md
+    kind: elaborates
+    status: active
+  - from: aesthetics.visual_style_evidence
+    to: DISSONANCE.md
+    kind: supports
+    status: active
+  - from: sports.commanders_reed_jayden
+    to: model/domains/games/README.md
+    kind: elaborates
+    status: active
 

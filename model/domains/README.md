@@ -2,28 +2,20 @@
 
 Modeled interpretation chambers. Each domain has its own external/operational model first, then maps to the cognitive map. Storage lives in `data/`; interpretation lives here.
 
-## Subdomain layout (target)
+## Active Domains
 
 ```text
 model/domains/
-├── games/
-│   ├── overwatch/
-│   ├── soulsborne/
-│   ├── trails/           # currently at model/domains/trails/ — Phase 2 decides relocation
-│   ├── eft/
-│   ├── dota/
-│   ├── stardew/
-│   └── completed_games/
-├── music/
-├── internet/
-├── sports/
-├── food/
-├── aesthetics/
-├── language/
-└── software/
+├── games/      # field mechanics, EFT/GMod, role/transition systems
+├── music/      # foobar, VGM, DSP, metadata, world-listening
+├── self/       # cognitive style, neurotype constraints, sensory/social gates
+├── software/   # Helix, tools, schemas, inspectable agency
+├── trails/     # Trails/Kiseki database, continuity, world-memory
+└── wiki/       # Wikipedia editing, article architecture, citation/template logic
 ```
 
-Pre-existing folders not in the target above (`self/`, `wiki/`, `trails/` at top level) remain in place pending Phase 2 disposition.
+Food, sports, internet, aesthetics, Spanish/language, attraction, and visual style
+remain evidence surfaces unless a concrete research/application chamber is opened.
 
 ## Canonical domain README template
 

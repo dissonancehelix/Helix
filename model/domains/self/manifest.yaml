@@ -5,10 +5,10 @@ status: stub  # implemented | partial | stub | not_started
 runtime_maturity: partial  # fixtures + probes + validation exist; no HSL/Atlas
 
 purpose: >
-  Study constrained state-transition dynamics in human, AI, and simulated agents.
-  Operationally: how systems traverse possibility spaces, accumulate tension,
-  and narrow into committed trajectories (collapse events). Provides a structured,
-  measurable framework for DCP-family observations in agent systems.
+  Ground cognitive style, personality/neurotype context, attention architecture,
+  and social/sensory constraints as operational patterns. This includes the
+  older cognition-probe trajectory layer, but the first-class domain role is
+  now self-modeling rather than a standalone cognition domain.
 
 docs:
   readme: model/domains/self/README.md

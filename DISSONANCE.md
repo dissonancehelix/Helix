@@ -185,7 +185,38 @@ Best compression:
 
 > **official sources show surface; operational sources show interior.**
 
-This applies to:
+### 1.4 Active Externalized Domains
+
+Domains are where the operator has externalized cognition into systems, archives,
+tools, edits, databases, or reusable structures. They are not simple interest
+categories.
+
+Active domains:
+
+- **Music** — foobar, ListenBrainz/Last.fm, VGM, DSP, world-listening, metadata, audio-field tuning.
+- **Games** — EFT/GMod, Steam/completion evidence, field mechanics, support/denial roles, map/transition analysis.
+- **Trails** — world-memory, character/institution continuity, Trails database/wiki/atlas work.
+- **Wiki** — Wikipedia editing, article architecture, citations, templates, infoboxes, public knowledge compression.
+- **Software** — Helix, schemas, tools, apps, source-of-truth hierarchy, inspectable agency.
+- **Self** — personality/neurotype, monotropism, cognitive constraints, sensory/social gates, object-mediated sociality.
+
+### 1.5 Non-Domain Evidence Surfaces
+
+Food, sports, internet, aesthetics, attraction, body/sensory, Spanish, visual
+style, Reddit/Twitter, and old web material remain important evidence surfaces.
+
+They should not be deleted. They should not become first-class domains unless a
+research/application chamber is later opened.
+
+Best compression:
+
+> **Domains are where cognition has been externalized into reusable systems; evidence surfaces are where patterns are observed.**
+
+Second compression:
+
+> **Not every important evidence surface deserves a domain.**
+
+Domain grounding still applies to both active domains and evidence surfaces:
 - games
 - food
 - music
@@ -204,9 +235,88 @@ A domain may not be mapped as operator evidence until it has at least:
 3. false positives
 4. evidence anchors
 
+### 1.6 Protected Decompression Index
+
+The old full ontology is preserved as legacy provenance at
+`data/legacy/profile/DISSONANCE_old_2026-04-27.md`. It is not active canon; it is
+the source quarry for reconstruction.
+
+Protected mechanisms that must remain represented somewhere in active Helix:
+
+- Personality / neurotype context
+- Monotropism / depth-channel attention
+- Trust Gate vs Taste Engine
+- Crooked Coherence
+- Threat architecture / Signal Ownership
+- Object-mediated sociality
+- Profile rooms vs sterile feeds
+- Reddit/Twitter behavioral surfaces
+- Negative controls as boundary evidence
+- Attraction as channel convergence
+- Games as field-mechanics prediction
+- Music as world-listening / taste engine
+- Body as localizable signal field
+- Care as protection of real interiors
+- Early continuity evidence
+
+Rule:
+
+> **If a protected mechanism is compressed out of DISSONANCE.md, it must still be present as a map ID or domain section before deletion is allowed.**
+
+### 1.7 Personality / Neurotype Context
+
+Personality and neurotype are not treated as the foundation of the operator. They
+are constraint patterns: recurring ways attention, energy, sociality, sensory
+load, and abstraction behave under human conditions.
+
+Core preserved framing:
+
+- personality = observable projection of deeper structural behavior
+- neurotype = constraint architecture, not identity performance
+- labels are handles, not cages
+- research anchors are used when they overlap with lived pattern
+
+Approximate shorthand:
+
+- MBTI-like shorthand: INTP-A, low-confidence and non-canonical
+- Big Five-like profile: very high openness; selective/bimodal conscientiousness; low extraversion; low to moderate/context-dependent agreeableness; externally low but internally variable neuroticism
+
+Neurotype / diagnostic context:
+
+- autism-spectrum / Asperger's traits
+- schizoid-leaning personality structure / schizoid traits
+
+Autism-spectrum branch maps most clearly to monotropic depth, attention tunneling
+around high-salience systems, strong internal logic tracking, sensory gating and
+signal ownership, preference for precision over ritual smoothing,
+object-mediated sociality, and difficulty with forced context switching or
+exposure before orientation.
+
+Schizoid-leaning branch maps most clearly to low default social pull, preference
+for solitary or object-mediated activity, emotional reserve, internal
+self-sufficiency, reduced reward from conventional social exchange, discomfort
+with emotional performance demands, and stronger interest in shared
+objects/systems than unstructured bonding.
+
+Best compressions:
+
+> **Labels are handles, not cages.**
+
+> **Monotropism explains the depth-channel; it does not explain the whole map.**
+
+> **Personality is the surface projection of deeper constraint architecture.**
+
 ---
 
 ## 2. Master Cognitive Map
+
+Care layer:
+
+> **Care appears as protection of real interiors from flattening, coercion, exploitation, and false surfaces.**
+
+Early continuity:
+
+> **The current structure is sharpened, not newly invented.**
 
 These are the highest-level laws. Lower patterns should nest under them rather than competing as random new labels.
 
@@ -873,6 +983,17 @@ Best compression:
 
 Taste is not mere liking. It is a structural filter.
 
+Trust says: I can enter this.
+
+Taste says: I want to stay here.
+
+Attachment says: I can return and it still matters.
+
+Taste must not be flattened into safety/trust. The taste engine includes
+propulsive continuity, low-end body / upper-air split, coherent mutation,
+constraint-authored life, return pressure, crooked coherence, timbral weight,
+recursive opening, and energetic signature.
+
 Passes:
 - specific mindprint
 - state-carrying aliveness
@@ -893,6 +1014,10 @@ Fails:
 Best compression:
 
 > **taste is the structural bullshit detector and attraction engine.**
+
+Second compression:
+
+> **Trust says entry; taste says stay; attachment says return.**
 
 ### 3.5 Trust Gate
 
@@ -1004,6 +1129,14 @@ Best compression:
 
 Threat appears when the field becomes unmodeled, forced, loud, false, or irreversible.
 
+Chosen intensity regulates; unchosen impact violates.
+
+Hidden systems are attractive; hidden social rules are hostile.
+
+Orientation must precede exposure.
+
+A private edge makes public space tolerable.
+
 Examples:
 - random banging
 - social fields without visible rules
@@ -1019,6 +1152,10 @@ Examples:
 Best compression:
 
 > **threat is forced exposure to untrusted structure.**
+
+Second compression:
+
+> **chosen intensity regulates; unchosen impact violates.**
 
 ### 3.11 Mode Gate
 
@@ -1640,6 +1777,8 @@ Best compression:
 
 Sociality works when there is a shared object to stand beside.
 
+Old profiles were rooms; modern feeds are hallways.
+
 Examples:
 - old YouTube profile rooms
 - uploads/favorites/comments
@@ -1659,6 +1798,10 @@ Fails:
 Best compression:
 
 > **sociality works when there is a shared object to stand beside.**
+
+Second compression:
+
+> **old profiles were rooms; modern feeds are hallways.**
 
 ### 4.31 Surreal / Psychedelic Dream Fields
 
@@ -1695,6 +1838,28 @@ Not attractive:
 Best compression:
 
 > **surreality works when it becomes a place, not a gimmick.**
+
+### 4.31a Crooked Coherence
+
+Too clean becomes sterile. Too random becomes unusable.
+
+The ideal structure may be bent, haunted, funny, awkward, buzzy, temporally
+smeared, surreal, or off-kilter, but it must remain internally lawful.
+
+Examples:
+
+- haunted VGM
+- early James Blake / MGMT / Tool pressure
+- Yume Nikki
+- PilotRedSun / PilotRedSky
+- LSD: Dream Emulator
+- Osamu Sato
+- old internet surrealism
+- weird-but-readable game worlds
+
+Best compression:
+
+> **Crooked, but load-bearing.**
 
 ### 4.32 Creator / Streamer Doorway Pattern
 
@@ -1737,6 +1902,8 @@ Shorter version:
 
 The NSFW/Reddit evidence is part of the taste map and should not be tiptoed around or made weirdly sterile. It should also not be reduced to a crude fetish label.
 
+Attraction is channel convergence with low internal friction, not demographic type-detection.
+
 Attraction channels:
 - face as art
 - body as sexual signal
@@ -1768,6 +1935,10 @@ The operator is selective. He rejects many possibilities. The preferred thing mu
 Best compression:
 
 > **attraction repeats when visual compatibility feels inhabited rather than performed.**
+
+Second compression:
+
+> **attraction is channel convergence, not type-detection.**
 
 ### 4.34 Internet as Field Monitor and Object Cabinet
 
@@ -1806,6 +1977,12 @@ Twitter/X as live state tracker:
 - AI/meta/tools
 - LatAm/Spanish/Peru
 
+Reddit shows what survives anonymous attention; Twitter/X shows what survives
+public-positioned reaction.
+
+Hides, skips, mutes, blocks, and bounced recommendations are negative controls,
+not noise.
+
 Old internet rooms:
 - subscriptions
 - favorites
@@ -1828,6 +2005,8 @@ These are not repo directories. They are evidence surfaces: areas of life/taste 
 ### 5.1 Games
 
 The operator’s game preference is not genre-first. It is field-behavior-first.
+
+Games should be predicted by field mechanics, not genre labels.
 
 High attractors:
 - authored spatial intelligence
@@ -1873,6 +2052,9 @@ Best compression:
 The operator’s music taste is organized around:
 
 > **world recurrence, groove-floor continuity, texture, composer mindprint, and returnable place.**
+
+Music prediction depends on motion, texture, return, fingerprint, and world-feel,
+not genre.
 
 The sharpest finding from listening data:
 
@@ -2161,6 +2343,8 @@ Helix compression:
 
 Body awareness is unusually fine-grained and localizable.
 
+Cognition is spatial, rhythmic, sensory, and muscular before it becomes prose.
+
 Attractors:
 - DOMS as pleasurable signal
 - massage / pressure / stretch as body-map reading
@@ -2176,6 +2360,10 @@ Attractors:
 Best compression:
 
 > **the body is processed as a localizable signal field.**
+
+Second compression:
+
+> **cognition is bodily before it becomes prose.**
 
 ---
 

@@ -94,4 +94,100 @@ items:
   - id: low_end_continuity
     title: Low-End Continuity
     status: seed
+  - id: active_externalized_domains
+    title: Active Externalized Domains
+    status: active
+  - id: evidence_surface_not_domain
+    title: Evidence Surface, Not Domain
+    status: active
+  - id: monotropism_depth_channel
+    title: Monotropism Depth Channel
+    status: active
+  - id: object_mediated_sociality
+    title: Object-Mediated Sociality
+    status: active
+  - id: signal_ownership
+    title: Signal Ownership
+    status: active
+  - id: private_edge_requirement
+    title: Private Edge Requirement
+    status: active
+  - id: orientation_before_exposure
+    title: Orientation Before Exposure
+    status: active
+  - id: taste_engine_vs_trust_gate
+    title: Taste Engine vs. Trust Gate
+    status: active
+  - id: world_listening
+    title: World-Listening
+    status: active
+  - id: field_mechanics_over_genre
+    title: Field Mechanics Over Genre
+    status: active
+  - id: wiki_as_public_knowledge_architecture
+    title: Wiki as Public Knowledge Architecture
+    status: active
+  - id: trails_world_memory
+    title: Trails World-Memory
+    status: active
+  - id: software_as_externalized_cognition
+    title: Software as Externalized Cognition
+    status: active
+  - id: profile_rooms_vs_sterile_feeds
+    title: Profile Rooms vs. Sterile Feeds
+    status: active
+  - id: negative_controls_boundary_evidence
+    title: Negative Controls as Boundary Evidence
+    status: active
+  - id: attraction_channel_convergence
+    title: Attraction Channel Convergence
+    status: active
+  - id: crooked_coherence
+    title: Crooked Coherence
+    status: active
+  - id: fuzzy_alien_dream_field
+    title: Fuzzy Alien Dream Field
+    status: active
+  - id: bounded_abundance
+    title: Bounded Abundance
+    status: active
+  - id: soft_base_sharp_event
+    title: Soft Base, Sharp Event
+    status: active
+  - id: sensory_texture_events
+    title: Sensory Texture Events
+    status: active
+  - id: autumnal_ritual_continuity
+    title: Autumnal Ritual Continuity
+    status: active
+  - id: creator_as_doorway_not_billboard
+    title: Creator as Doorway, Not Billboard
+    status: active
+  - id: anonymous_attention_residue
+    title: Anonymous Attention Residue
+    status: active
+  - id: public_positioned_reaction
+    title: Public Positioned Reaction
+    status: active
+  - id: rule_bound_weirdness
+    title: Rule-Bound Weirdness
+    status: active
+  - id: grammar_bound_leakage
+    title: Grammar-Bound Leakage
+    status: active
+  - id: earthy_muted_palette
+    title: Earthy Muted Palette
+    status: active
+  - id: mesoamerican_cosmic_mystery
+    title: Mesoamerican Cosmic Mystery
+    status: active
+  - id: backline_denial_posture
+    title: Backline Denial Posture
+    status: active
+  - id: reentry_into_coherent_fields
+    title: Re-entry Into Coherent Fields
+    status: active
+  - id: care_protection_real_interiors
+    title: Care/Protection for Real Interiors
+    status: active
 

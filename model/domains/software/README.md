@@ -1,47 +1,63 @@
-﻿# Domain: Software
-
-<!-- to be authored — Phase 1 scaffold; operator fills in content in a later pass -->
+# Domain: Software
 
 ## Domain Role
 
+Software is a first-class externalized cognition domain because Helix, tools, schemas, apps, checks, source registries, and bridge scripts embody the cognitive map as usable machinery.
+
+Apps and tools are muscles, not canon. Engine enforces. Map compresses. Domains decompress.
 
 ## External / Operational Model
 
+Software fit is predicted by:
+
+- source-of-truth hierarchy
+- inspectable agency
+- hidden infrastructure with accountability
+- minimal surface / nested depth
+- self-describing architecture
+- reachable field editing
+- schema validation, checks, CI, and gates
+- rollback paths and generated reports as epistemic airlocks
+- bridges that connect without absorbing the target
+
+Helix is the central software evidence surface: a closed working box where the operator and LLM share models, data, tools, reports, labs, and trust gates.
+
+foobar DSP/plugin architecture belongs here when the emphasis is software architecture, bridge design, or plugin behavior; it belongs in `music/` when the emphasis is listening, sound-field tuning, or music evidence.
 
 ## Dissonance Mapping
 
+Upward links:
+
+- `software_as_externalized_cognition`
+- `hidden_infrastructure_inspectable_agency`
+- `minimal_surface_nested_depth`
+- `self_describing_architecture`
+- `compression_with_reversibility`
+- `boundary_makes_interior`
+- `taste_engine_vs_trust_gate`
 
 ## Evidence Anchors
 
-
-## Dataset Notes
-
+- Helix repo structure and base-lock checks
+- `DISSONANCE.md`, `model/map/`, `model/domains/`, `data/`, `reports/`, `quarantine/`
+- `system/tools/TOOL_INDEX.yaml`
+- `system/engine/agent_harness/check_workspace.py`
+- workstation snapshots
+- foobar bridge and music pipeline
+- Trails/wiki tooling
 
 ## False Positives
 
-
-## Anomalies / Open Questions
-
-
-## Upward Links
-
+- more scripts mean more power
+- hidden infrastructure means uninspectable magic
+- reports are canon
+- tools own truth
+- folders are ontology without checks
+- a bridge should absorb the source system
 
 ## Downward Links
 
-
----
-
-## Workstation / Helix Runtime Surface
-
-This domain is not yet authored. As a forward pointer:
-
-- [system/tools/workstation_bridge/](../../system/tools/workstation_bridge/) is the **read-only observability foundation** — it inventories the repo and registered sources without modifying anything.
-- [system/tools/music_bridge/](../../system/tools/music_bridge/) is the **first deep interactive-source candidate** (foobar2000), still read-only in Phase 3.
-- [model/map/sources.yaml](../../model/map/sources.yaml) is the **source registry** naming every evidence stream and the mode it is permitted under.
-- `reports/analyses/workstation/` is the **generated evidence stream** for snapshots.
-- **No writeback** — neither metadata nor file moves nor configuration changes — until trust infrastructure (target identity, diff, backup, rollback, approval) exists. Phase 3 does not provide that infrastructure.
-
-### Foundation note (Phase 3)
-
-Workstation observability is the foundation for software-domain understanding. The Phase 3 [workstation snapshot reports](../../reports/analyses/workstation/) are **evidence**, not canon. Future authoring of this domain should *decompress from stable reports and source-registry entries*, not narrate from memory.
-
+- `system/engine/`
+- `system/tools/`
+- `model/map/`
+- `reports/analyses/workstation/`
