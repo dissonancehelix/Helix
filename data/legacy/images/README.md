@@ -13,15 +13,16 @@ Raw images are intentionally not tracked in Git by default. Keep source files lo
 Former home: `data/images/`.
 
 Sorted local raw paths:
-- `data/raw/images/attraction_surface/portraits_and_selfies/`
-- `data/raw/images/attraction_surface/body_style_and_pose/`
-- `data/raw/images/attraction_surface/public_context/`
+- `data/raw/images/attraction_surface/face_type/`
+- `data/raw/images/attraction_surface/body_type/`
 
-This is an evidence surface for attraction, signal ownership, posture, styling, and visual channel convergence. It does not create an aesthetics domain or a people/attraction domain.
+This is an evidence surface for attraction, face/body type, signal ownership, posture, styling, and visual channel convergence. It does not create an aesthetics domain or a people/attraction domain.
+
+Capture context is not the sorting principle here. Selfie, professional shot, mirror shot, public event, or screenshot are secondary. The preserved signal is face/body type and the presentation channels around it.
 
 ## Re-analysis
 
-The recurring signal is not a single demographic type. It is channel convergence with low internal friction: face, posture, styling, self-presentation, softness/sharpness balance, and context all need to feel mutually authored.
+The recurring signal is not capture context or a single demographic type. It is channel convergence with low internal friction: face, body type, posture, styling, self-presentation, and softness/sharpness balance need to feel mutually authored.
 
 Observed pattern handles:
 - `attraction_channel_convergence`: attraction strengthens when several channels agree without feeling staged into a single flat type.
