@@ -93,18 +93,19 @@ items:
       - mesoamerican_cosmic_mystery
       - evidence_surface_not_domain
 
-  - id: attraction.loose_image_evidence
+  - id: attraction.image_evidence
     title: Attraction Image Evidence
     domain: self
     type: evidence_surface
     status: active
     summary: >
-      Local attraction images are preserved as an attraction and visual-presentation
-      evidence surface in archived image evidence, not as a domain. The useful
-      pattern is combined face/body type plus channel convergence with signal
-      ownership, private edge, soft-base/sharp-event contrast, and coherent
-      presentation; capture context and face/body subfolders are not the
-      sorting principle.
+      Local attraction images are preserved as one merged attraction archive,
+      not as a domain. A full still-image pass found that repeated traits across
+      the newer set and older yum set carry the strongest signal: soft face with
+      sharp eye/styling events, dark or face-framing hair, soft volume, readable
+      waist-to-hip or waist-to-bust contrast, hips/thighs, bust, and owned
+      presentation. Capture context, explicitness, and original demographic
+      folders are not the sorting principle.
     supports:
       - attraction_channel_convergence
       - signal_ownership
@@ -136,26 +137,4 @@ items:
       - active_externalized_domains
       - evidence_surface_not_domain
       - software_as_externalized_cognition
-
-  - id: games.visual_corpus_evidence
-    title: Visual Corpus Evidence
-    domain: games
-    type: evidence_surface
-    status: active
-    summary: >
-      Local visual screenshots/references from Yume Nikki, Osamu Sato, Kentucky
-      Route Zero, Norco, Disco Elysium, Persona 5, Danganronpa, Paradise Killer,
-      Dota, and Overwatch preserve evidence for shaped absence, bounded
-      abundance, compatible mindprint, surrealism as place, and state
-      inspectability without becoming an aesthetics domain.
-    supports:
-      - shaped_absence
-      - shaped_absence_as_architecture
-      - bounded_abundance
-      - compatible_mindprint
-      - compatible_visual_mindprint
-      - surrealism_as_place
-      - state_inspectability
-      - object_worlds_older_than_player
-      - field_mechanics_over_genre
 

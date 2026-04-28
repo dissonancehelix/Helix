@@ -37,11 +37,11 @@ items:
     to: DISSONANCE.md
     kind: supports
     status: active
-  - from: attraction.loose_image_evidence
+  - from: attraction.image_evidence
     to: data/legacy/images/README.md
     kind: stores
     status: active
-  - from: attraction.loose_image_evidence
+  - from: attraction.image_evidence
     to: model/domains/self/README.md
     kind: elaborates
     status: active
@@ -49,12 +49,3 @@ items:
     to: model/domains/games/README.md
     kind: elaborates
     status: active
-  - from: games.visual_corpus_evidence
-    to: data/legacy/visual_corpus/README.md
-    kind: stores
-    status: active
-  - from: games.visual_corpus_evidence
-    to: model/domains/games/README.md
-    kind: elaborates
-    status: active
-

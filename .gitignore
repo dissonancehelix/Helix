@@ -16,8 +16,8 @@ data/derived/language_pipeline/
 data/derived/atlas_staging/
 reports/analyses/workstation/workstation_snapshot_*.json
 reports/analyses/workstation/workstation_snapshot_*.md
-reports/analyses/visual_corpus/
 reports/analyses/loose_images/
+reports/analyses/attraction_images/
 
 # External Toolkits & Source Mirrors
 system/vendor/
@@ -26,9 +26,6 @@ system/vendor/
 system/vendor/music_toolkits/
 system/tools/foobar-spatial-dsp/vgmspc/
 **/.git/
-
-# Local/generated visual corpus pending review; not part of root ontology.
-/visual_corpus/
 
 # Quarantine keeps manifests in git; bulky staged material remains local.
 quarantine/**

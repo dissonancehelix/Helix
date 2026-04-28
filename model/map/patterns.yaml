@@ -190,19 +190,4 @@ items:
   - id: care_protection_real_interiors
     title: Care/Protection for Real Interiors
     status: active
-  - id: shaped_absence_as_architecture
-    title: Shaped Absence as Architecture
-    status: active
-  - id: surrealism_as_place
-    title: Surrealism as Place
-    status: active
-  - id: state_inspectability
-    title: State Inspectability
-    status: active
-  - id: compatible_visual_mindprint
-    title: Compatible Visual Mindprint
-    status: active
-  - id: object_worlds_older_than_player
-    title: Object-Worlds Older Than the Player
-    status: active
 

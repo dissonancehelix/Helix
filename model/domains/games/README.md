@@ -58,18 +58,6 @@ Role anchors:
 - Overwatch support, Dota role mechanics, Soulsborne topology, Stardew mod/routine systems
 - Outer Wilds, Return of the Obra Dinn, Rocket League, Elden Ring / Soulsborne, Gone Home, Danganronpa
 - surreal/liminal games such as Yume Nikki, LSD: Dream Emulator, Eastern Mind, and Osamu Sato when interpreted through game atmosphere and field experience
-- visual corpus evidence under `data/legacy/visual_corpus/` and local archived screenshots under `data/archives/raw_datasets/`
-
-## Visual Evidence Notes
-
-The visual corpus sharpens several game-domain patterns:
-
-- **Shaped absence**: Yume Nikki, Kentucky Route Zero, and Osamu Sato use darkness/void as architecture.
-- **Bounded abundance**: Disco Elysium portraits and Danganronpa characters vary inside a strict grammar.
-- **Compatible mindprint**: the strongest sets are recognizable by hand, constraint, or world-law.
-- **Surrealism as place**: weirdness works when it becomes navigable, not decorative.
-- **State inspectability**: Dota, Overwatch, and Persona 5 tolerate density because their state is readable.
-- **Object-worlds that slept longer than the player**: Yume Nikki, Norco, Kentucky Route Zero, and Osamu Sato feel already old rather than player-centered.
 
 ## False Positives
 
