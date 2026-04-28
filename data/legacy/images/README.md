@@ -1,24 +1,23 @@
 # Image Evidence
 
-Status: local raw evidence preserved under `data/raw/images/`.
+Status: local raw evidence preserved as `data/archives/raw_datasets/images_2026-04-28.zip`.
 
 This area is for loose image intake and compact visual-evidence notes. It is not a first-class domain. Images become useful to Helix when they clarify a reusable pattern, strengthen an example, or provide a fixture for a future application.
 
-Raw images are intentionally not tracked in Git by default. Keep source files local under `data/raw/images/`; track only summaries, manifests, pattern links, or deliberately curated fixtures.
+Raw images are intentionally not tracked in Git by default. Keep original image dumps in `data/archives/`; track only summaries, manifests, pattern links, or deliberately curated fixtures.
 
 ## Current Local Sets
 
-### `attraction_surface/`
+### `attraction/`
 
 Former home: `data/images/`.
 
 Sorted local raw paths:
-- `data/raw/images/attraction_surface/face_type/`
-- `data/raw/images/attraction_surface/body_type/`
+- `data/archives/raw_datasets/images_2026-04-28.zip` contains the local `images/attraction/` set.
 
 This is an evidence surface for attraction, face/body type, signal ownership, posture, styling, and visual channel convergence. It does not create an aesthetics domain or a people/attraction domain.
 
-Capture context is not the sorting principle here. Selfie, professional shot, mirror shot, public event, or screenshot are secondary. The preserved signal is face/body type and the presentation channels around it.
+Do not split this set by capture context or by face/body subfolders. Selfie, professional shot, mirror shot, public event, or screenshot are secondary. The preserved signal is the combined face/body type and the presentation channels around it.
 
 ## Re-analysis
 

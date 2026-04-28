@@ -1,4 +1,4 @@
-﻿# model/map/examples.yaml — evidence anchors.
+# model/map/examples.yaml — evidence anchors.
 # Each example points up to one or more pattern IDs and down to a
 # domain README, data/ path, or lab fixture.
 # Item shape: { id, title, supports: [pattern_id...], evidence_path, domain, status }
@@ -94,16 +94,17 @@ items:
       - evidence_surface_not_domain
 
   - id: attraction.loose_image_evidence
-    title: Loose Attraction Image Evidence
+    title: Attraction Image Evidence
     domain: self
     type: evidence_surface
     status: active
     summary: >
-      Local loose images are preserved as an attraction and visual-presentation
-      evidence surface under data/raw/images, not as a domain. The useful
-      pattern is face/body type plus channel convergence with signal ownership,
-      private edge, soft-base/sharp-event contrast, and coherent presentation;
-      capture context is not the sorting principle.
+      Local attraction images are preserved as an attraction and visual-presentation
+      evidence surface in archived image evidence, not as a domain. The useful
+      pattern is combined face/body type plus channel convergence with signal
+      ownership, private edge, soft-base/sharp-event contrast, and coherent
+      presentation; capture context and face/body subfolders are not the
+      sorting principle.
     supports:
       - attraction_channel_convergence
       - signal_ownership

@@ -74,6 +74,11 @@ def check_engine_no_raw_data(errors: list[str]) -> None:
                 errors.append(f"possible raw data inside system/engine/: {p.relative_to(ROOT)}")
 
 
+def check_no_standing_raw_folder(errors: list[str]) -> None:
+    if (ROOT / "data" / "raw").exists():
+        errors.append("standing data/raw/ folder present; archive source dumps under data/archives/ and promote extracted records into Helix-shaped data")
+
+
 def check_map_yamls(errors: list[str]) -> None:
     map_dir = ROOT / "model" / "map"
     if not map_dir.is_dir():
@@ -149,6 +154,7 @@ def main() -> int:
     check_required(errors)
     check_root_clutter(errors, warnings)
     check_engine_no_raw_data(errors)
+    check_no_standing_raw_folder(errors)
     check_map_yamls(errors)
     check_no_duplicate_ontology(errors)
     check_domains_have_readmes(errors)

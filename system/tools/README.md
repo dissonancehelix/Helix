@@ -12,7 +12,7 @@ Operational tools live here: pipelines, bridges, importers, exporters, diagnosti
 ## Rules
 
 1. Tools produce evidence, proposals, reports, or derived artifacts. They do not redefine canon.
-2. Raw evidence belongs under `data/raw/`; normalized artifacts under `data/normalized/`; generated/indexed output under `data/derived/`.
+2. Original dumps belong in local archives under `data/archives/`; extracted records belong under `data/normalized/`; generated/indexed output belongs under `data/derived/`.
 3. Reports go under `reports/`, and promotion from a report into `model/` or `DISSONANCE.md` is a separate action.
 4. Any writeback to an external app requires identity, diff, backup, rollback, evidence, and explicit operator approval.
 5. If a workflow is a pipeline of helpers, document the pipeline here instead of adding another top-level script.

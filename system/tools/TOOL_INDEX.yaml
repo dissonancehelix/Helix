@@ -61,7 +61,7 @@ items:
     purpose: Multi-stage music metadata, entity, taste, retrieval, and materialization pipeline.
     entrypoint: python -m system.tools.music_pipeline.router
     inputs:
-      - data/raw/
+      - data/archives/ restored locally when source re-ingest is needed
       - data/music/
       - data/derived/music_pipeline/data/
       - system/vendor/music_toolkits/
@@ -96,7 +96,7 @@ items:
     purpose: Trails corpus ingest, normalization, retrieval, and wiki/export pipeline.
     entrypoint: python system/tools/trails/pipelines/generate/generate_atlas.py
     inputs:
-      - data/raw/trails/corpus/
+      - data/archives/ restored locally when Trails corpus re-ingest is needed
       - data/derived/trails/retrieval/index/
     outputs:
       - data/derived/trails/
@@ -113,7 +113,7 @@ items:
     purpose: Language corpus loading, pattern mining, template indexing, and rewrite/critique workflow.
     entrypoint: python -m system.tools.language_pipeline.pipeline
     inputs:
-      - data/raw/
+      - data/archives/ restored locally when source re-ingest is needed
       - model/domains/language/
     outputs:
       - data/derived/language_pipeline/
@@ -130,7 +130,7 @@ items:
     entrypoint: python -m system.tools.games_pipeline.run_taste
     inputs:
       - model/domains/games/
-      - data/raw/
+      - data/archives/ restored locally when source re-ingest is needed
     outputs:
       - data/derived/games_pipeline/
       - reports/games/
@@ -160,7 +160,7 @@ items:
     entrypoint: python -m system.tools.wiki_tools.runner
     inputs:
       - model/domains/wiki/
-      - data/raw/
+      - data/archives/ restored locally when source re-ingest is needed
     outputs:
       - reports/wiki/
     safety_mode: proposal_only unless an explicit external write gate is opened.
@@ -186,7 +186,7 @@ items:
     purpose: Local conversion helper for SPC-to-MIDI/music substrate experiments.
     entrypoint: system/tools/spc2mid/
     inputs:
-      - data/raw/
+      - data/archives/ restored locally when source re-ingest is needed
     outputs:
       - data/derived/music_pipeline/
     safety_mode: local_artifact_generation; never delete source audio.
@@ -205,4 +205,3 @@ items:
     safety_mode: isolated build workspace.
     artifact_report_path: reports/music/
     deprecated_helpers_replaced: []
-

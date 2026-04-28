@@ -24,7 +24,7 @@ Best compression:
 ├── model/             # modeled understanding
 │   ├── map/           # machine-readable pattern graph
 │   └── domains/       # decompressed domain chambers
-├── data/              # raw, normalized, and derived evidence/artifacts
+├── data/              # archives, normalized evidence, legacy notes, derived artifacts
 ├── system/            # machinery
 │   ├── engine/        # checks, schemas, contracts, compiler/enforcement
 │   ├── tools/         # runnable tools, bridges, pipelines, CLIs
@@ -44,7 +44,7 @@ Loose root files are **unsorted**. They must be moved, adopted, or deleted; they
 2. **`model/map/`** — machine-readable canon for pattern IDs, gates, examples, probes, links, sources, and anomalies.
 3. **`model/domains/<name>/README.md`** — domain-local operational interpretation. Domains elaborate; they do not redefine master patterns.
 4. **`labs/`** — claim pressure, falsification, demotion evidence.
-5. **`data/`** — evidence and artifacts. Raw data is authoritative for facts, not interpretation.
+5. **`data/`** — evidence and artifacts. Archived source dumps preserve facts; extracted Helix-shaped records are the working surface.
 6. **`reports/`** — generated review artifacts. Never canon until reviewed and promoted.
 7. **`system/tools/`** — runnable machinery. Tools execute workflows; they do not own truth.
 8. **`system/engine/`** — enforcement machinery: schemas, checks, contracts, compiler/validation.
@@ -56,7 +56,7 @@ When sources disagree, create or update `model/map/anomalies.yaml`; do not silen
 ## Folder Roles
 
 - **`model/`** — Helix's modeled understanding. `map/` compresses; `domains/` decompress.
-- **`data/`** — evidence lake and generated artifacts. Use `raw/`, `normalized/`, and `derived/` when possible.
+- **`data/`** — evidence lake and generated artifacts. Use `archives/` for local source dumps, `normalized/` for cleaned records, `derived/` for generated outputs, and `legacy/` for compact provenance notes.
 - **`system/engine/`** — the hidden machinery that enforces boundaries and validates structure.
 - **`system/tools/`** — executable tools. Before adding a script, read `system/tools/TOOL_INDEX.yaml`.
 - **`system/vendor/`** — third-party code and SDKs. Vendor material is provenance, not design authority.

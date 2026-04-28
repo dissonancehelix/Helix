@@ -554,7 +554,7 @@ def build_parser() -> argparse.ArgumentParser:
     actions.add_argument("--lastfm",      action="store_true",
                          help="Last.fm trace reconciliation (match, signal, cleanup)")
     actions.add_argument("--lastfm-path", metavar="PATH", default=None,
-                         help="Override Last.fm JSON path (default: data/raw/music/metadata/lastfm_dissident93.json)")
+                         help="Override Last.fm JSON path from a local archive extraction or configured bridge")
     actions.add_argument("--lastfm-top-n", type=int, default=500, metavar="N",
                          help="Top N tracks to classify in Last.fm reconciliation (default: 500)")
     actions.add_argument("--semantic",     nargs="?", const="summary", metavar="CMD",

@@ -8,8 +8,8 @@ Pipeline per source:
     -> compile_and_commit(entity) [via atlas_compiler]
 
 Data sources:
-    data/raw/games/steam_*.json       -- OwnershipRecord / playtime traces
-    data/raw/wikipedia/<run>/         -- wikimedia_normalized_edits.jsonl
+    HELIX_EXTRACTED_SOURCE_DIR/games/steam_*.json       -- OwnershipRecord / playtime traces
+    HELIX_EXTRACTED_SOURCE_DIR/wikipedia/<run>/         -- wikimedia_normalized_edits.jsonl
 
 Output (all writes via atlas_compiler.compile_and_commit):
     codex/atlas/games/titles/<slug>.json
@@ -23,6 +23,7 @@ CLOSED SYSTEM LAW:
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -39,9 +40,17 @@ ROOT = next(
 )
 sys.path.insert(0, str(ROOT))
 
-RAW_DIR        = ROOT / "data" / "raw"
-STEAM_RAW_DIR  = RAW_DIR / "games"
-WIKI_RAW_DIR   = RAW_DIR / "wikipedia"
+# Original source dumps live as archives under data/archives/. This legacy
+# ingestor reads an explicit local extraction directory when a re-ingest is
+# needed, rather than treating data/raw/ as a standing workspace.
+SOURCE_DIR = Path(
+    os.environ.get(
+        "HELIX_EXTRACTED_SOURCE_DIR",
+        str(ROOT / "data" / "archives" / "extracted"),
+    )
+)
+STEAM_RAW_DIR  = SOURCE_DIR / "games"
+WIKI_RAW_DIR   = SOURCE_DIR / "wikipedia"
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -136,7 +145,7 @@ def ingest_steam(verbose: bool = True) -> dict:
 
     files = _load_steam_files()
     if not files:
-        log("  [steam] No raw Steam files found in data/raw/games/")
+        log("  [steam] No extracted Steam files found in {}".format(_rel(STEAM_RAW_DIR)))
         return stats
 
     from core.compiler.atlas_compiler import compile_and_commit, CompilationError
@@ -276,7 +285,7 @@ def ingest_wikipedia(verbose: bool = True) -> dict:
 
     runs = _load_wiki_runs()
     if not runs:
-        log("  [wiki] No raw Wikipedia runs found in data/raw/wikipedia/")
+        log("  [wiki] No extracted Wikipedia runs found in {}".format(_rel(WIKI_RAW_DIR)))
         return stats
 
     from core.compiler.atlas_compiler import compile_and_commit, CompilationError
@@ -309,7 +318,7 @@ def ingest_all(verbose: bool = True) -> dict:
     log = print if verbose else (lambda *a, **k: None)
     log("=== Atlas Ingestor -- cross-compiling external traces ===")
     log("Root: {}".format(ROOT))
-    log("Raw:  {}".format(_rel(RAW_DIR)))
+    log("Source extraction: {}".format(_rel(SOURCE_DIR)))
 
     total = {"created": [], "skipped": [], "errors": []}
 

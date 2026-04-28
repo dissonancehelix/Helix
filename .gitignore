@@ -2,8 +2,9 @@
 # Helix Boundary Enforcement: Ignored Data & Bloat
 # -------------------------------------------------------------------
 
-# Raw Data & Corpora
-data/raw/
+# Archived Raw Dumps
+data/archives/raw_datasets/
+data/archives/extracted/
 data/music/library/
 data/music/phase6/
 

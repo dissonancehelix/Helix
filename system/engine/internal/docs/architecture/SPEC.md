@@ -159,7 +159,7 @@ Helix/
 │
 ├── data/                          ← Evidence and generated artifacts
 │   ├── derived/atlas/             ← Compiled semantic knowledge (read-only)
-│   └── raw/                       ← Source evidence and corpora
+│   └── archives/                  ← Local archived source dumps
 │       ├── music/
 │       │   ├── artist/
 │       │   ├── album/

@@ -1,10 +1,10 @@
 # Visual Corpus Evidence
 
-Status: local raw evidence preserved under `data/raw/visual_corpus/`.
+Status: local raw evidence preserved as `data/archives/raw_datasets/visual_corpus_2026-04-28.zip`.
 
 This corpus is not a first-class domain. It is a visual evidence surface that currently decompresses into the active `games`, `music`, `self`, and `software` domains when needed.
 
-Raw screenshots and downloaded images are intentionally not tracked in Git. The repo should keep the analysis, pattern names, and compact evidence handles, not a permanent dump of copyrighted/reference images.
+Raw screenshots and downloaded images are intentionally not tracked in Git. The repo should keep the analysis, pattern names, and compact evidence handles, not a permanent extracted folder of copyrighted/reference images.
 
 Generated local analysis/contact sheets may live under `reports/analyses/visual_corpus/`.
 
@@ -128,4 +128,3 @@ Do not commit by default:
 - zip archives
 
 Promote raw images only if a future visual-corpus application needs reproducible fixtures.
-

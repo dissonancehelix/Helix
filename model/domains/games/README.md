@@ -58,7 +58,7 @@ Role anchors:
 - Overwatch support, Dota role mechanics, Soulsborne topology, Stardew mod/routine systems
 - Outer Wilds, Return of the Obra Dinn, Rocket League, Elden Ring / Soulsborne, Gone Home, Danganronpa
 - surreal/liminal games such as Yume Nikki, LSD: Dream Emulator, Eastern Mind, and Osamu Sato when interpreted through game atmosphere and field experience
-- visual corpus evidence under `data/legacy/visual_corpus/` and local raw screenshots under `data/raw/visual_corpus/`
+- visual corpus evidence under `data/legacy/visual_corpus/` and local archived screenshots under `data/archives/raw_datasets/`
 
 ## Visual Evidence Notes
 
