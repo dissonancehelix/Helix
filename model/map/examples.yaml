@@ -117,3 +117,25 @@ items:
       - evidence_surface_not_domain
       - software_as_externalized_cognition
 
+  - id: games.visual_corpus_evidence
+    title: Visual Corpus Evidence
+    domain: games
+    type: evidence_surface
+    status: active
+    summary: >
+      Local visual screenshots/references from Yume Nikki, Osamu Sato, Kentucky
+      Route Zero, Norco, Disco Elysium, Persona 5, Danganronpa, Paradise Killer,
+      Dota, and Overwatch preserve evidence for shaped absence, bounded
+      abundance, compatible mindprint, surrealism as place, and state
+      inspectability without becoming an aesthetics domain.
+    supports:
+      - shaped_absence
+      - shaped_absence_as_architecture
+      - bounded_abundance
+      - compatible_mindprint
+      - compatible_visual_mindprint
+      - surrealism_as_place
+      - state_inspectability
+      - object_worlds_older_than_player
+      - field_mechanics_over_genre
+
