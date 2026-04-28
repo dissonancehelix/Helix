@@ -142,16 +142,16 @@ Exact examples must remain because they are return handles:
 - Outer Wilds
 - Return of the Obra Dinn
 - Rocket League
-- Commanders
+- Washington Commanders / NFL
 - Jayden Daniels
 - Ed Reed
 - old YouTube profile rooms
 - Wikipedia editing
 - foobar metadata
-- spatial DSP / HeSuVi / Prism / Real3D / Dragonfly-style reverb
+- 7.1 spatial DSP / HeSuVi
 - Spanish learning
-- Thanksgiving
-- Cook Out banana pudding shake with wafers, M&Ms, and sliced bananas
+- Autumn
+- food taste
 - NSFW / attraction curation as evidence surface
 - Reddit saved/upvoted object cabinet
 - Twitter/X live-state tracking
