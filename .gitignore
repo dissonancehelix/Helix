@@ -72,3 +72,4 @@ node_modules/
 !data/derived/atlas/
 !data/derived/atlas/**
 .vscode/
+.claude/
