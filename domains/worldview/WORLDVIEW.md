@@ -29,14 +29,13 @@ Sixth compression:
 
 > **Buddhism feels closest because it begins with suffering instead of trying to acquit a perfect ruler.**
 
-Eighth compression:
-
-> **Time is the deeper pressure because it turns every preserved thing into a temporary victory against loss.**
-
-
 Seventh compression:
 
 > **Open contribution works when the object has a shared grammar.**
+
+Eighth compression:
+
+> **Time is the deeper pressure because it turns every preserved thing into a temporary victory against loss.**
 
 ---
 

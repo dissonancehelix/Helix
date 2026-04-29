@@ -172,9 +172,9 @@ These primitives are working handles for Inhabited Continuity Theory. They are n
 
 ## DCP Operating Modes (Candidate Subprimitive)
 
-**Definition:** A candidate split inside Decision-Compression Principle: curatorial compression toward a known/strongly implied form, and investigative compression through false-positive elimination when the target is unknown.
+**Definition:** A candidate split inside Decision-Compression Principle: DCP-C / Curatorial Compression moves toward a known or strongly implied form, while DCP-I / Investigative Compression narrows possibility space through false-positive elimination when the target is unknown.
 
-**What it is not:** Proof of DCP, proof of consciousness, a universal law of cognition, or permission to delete evidence because deletion feels clean.
+**What it is not:** A core TOM primitive, proof of DCP, proof of consciousness, a universal law of cognition, or permission to delete evidence because deletion feels clean.
 
 **Why it matters:** The same compression language was covering two different operations: object repair and mystery narrowing. The split helps reports and agents predict output type, evidence handling, and overcompression risk.
 
@@ -182,7 +182,7 @@ These primitives are working handles for Inhabited Continuity Theory. They are n
 
 **Possible empirical hooks:** operator workflow traces, Wikipedia edit history, Helix refactors, theory-report sequences, music response-axis discovery, dataset triage records.
 
-**Failure modes / false positives:** curatorial overcompression deletes evidence doors; investigative overcompression mistakes eliminated alternatives for a final answer; both modes can become flattering self-description if not tested against outcomes.
+**Failure modes / false positives:** curatorial overcompression deletes evidence doors while making an object look cleaner; investigative overcompression mistakes eliminated alternatives for the final answer; both modes can become flattering self-description if not tested against outcomes.
 
 Best compression:
 

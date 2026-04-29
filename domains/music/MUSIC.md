@@ -254,50 +254,6 @@ Best compression:
 
 > **The archive shows where the mind returned; the domain model explains why return was possible.**
 
----
-
-### 3.6 Low-Dimensional Response Watch Node
-
-A recent analysis pass produced a provisional but important finding: a large music-response surface appeared to collapse into a small number of effective response dimensions rather than behaving like many unrelated variables.
-
-This belongs in the Music domain as a **watch node**, not as finished proof.
-
-What it may suggest:
-
-```text
-many musical examples
-→ fewer response axes
-→ stronger hidden structure
-→ possible link to compression-native cognition
-```
-
-Likely response axes:
-
-- floor / body / groove / low-end locomotion
-- air / melody / timbre / suspended upper motion
-- authored constraint / fingerprint / world-memory
-- return / loop / re-entry pressure
-
-The finding is important because it matches the lived model: music taste looks broad from the outside, but internally many favorites may be organized by a few recurring structures.
-
-However, the firewall is mandatory:
-
-```text
-metric collapse ≠ causal proof
-beautiful compression ≠ final explanation
-statistical neatness ≠ listening truth
-```
-
-Use this as a guide for future analysis, not as a replacement for listening, examples, false positives, or direct correction.
-
-Best compression:
-
-> **Music may look broad at the surface while compressing into a few living axes underneath.**
-
-Second compression:
-
-> **Metrics can point at the door; they cannot replace the listening room.**
-
 ### 3.7 Temporal Return / Nostalgia
 
 Music is one of the strongest carriers of temporal re-entry.
