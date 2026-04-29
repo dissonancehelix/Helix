@@ -29,6 +29,11 @@ Sixth compression:
 
 > **Metrics can point at the door; they cannot replace the listening room.**
 
+Seventh compression:
+
+> **A track can reopen a prior self-state without restoring the time it came from.**
+
+
 ---
 
 ## 0. Scope and Ground Rules
@@ -184,6 +189,8 @@ A recent analysis pass produced a provisional but important finding: a large mus
 
 This belongs in the Music domain as a **watch node**, not as finished proof.
 
+The old music equation / response-axis work is best treated as a proto Field Update Prototype, not a final law. It was an early site where field-change and compression became visible: organizing evidence is curatorial when it cleans the listening archive, while discovering floor/air/constraint/return axes is investigative when the target response shape is still unknown.
+
 What it may suggest:
 
 ```text
@@ -291,6 +298,32 @@ Second compression:
 
 > **Metrics can point at the door; they cannot replace the listening room.**
 
+### 3.7 Temporal Return / Nostalgia
+
+Music is one of the strongest carriers of temporal re-entry.
+
+A track can reopen a prior self-state, game-world, season, room, or phase without literally restoring it. That is why music nostalgia can feel beautiful and tragic rather than merely happy or sad.
+
+Mechanisms:
+
+- loop return makes time feel circular while the listener remains changed
+- VGM carries old playable worlds as sound residue
+- composer fingerprints preserve identity across works and years
+- scrobble/listening history turns return into evidence
+- local files and old formats preserve old access routes
+- replay can reopen the sound-world but cannot recreate the original life-state
+
+Best compression:
+
+> **Music can make the past audible without making it reachable.**
+
+Second compression:
+
+> **Loop return is not time reversal; it is controlled re-entry from a changed self.**
+
+False positive:
+
+> Treating nostalgia as the whole music mechanism. Nostalgia can intensify return, but groove, timbre, bass, air, authored constraint, and texture still have to pass.
 
 ## 4. Current Export Rankings and Evidence Tables
 

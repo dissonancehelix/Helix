@@ -20,6 +20,7 @@ Domain capsules use named domain files, not generic local README files.
 - `domains/self/SELF.md`
 - `domains/music/MUSIC.md`
 - `domains/games/GAMES.md`
+- `domains/eft/EFT.md`
 - `domains/trails/TRAILS.md`
 - `domains/wiki/WIKI.md`
 - `domains/software/SOFTWARE.md`
@@ -88,6 +89,27 @@ Best compression:
 - Cross-domain claims must pass through reports before promotion.
 - Keep sexual, food, body, social, and sensory evidence explicit enough to
   remain predictive; do not sand it into polite mush.
+
+## Two Compression Modes
+
+Before transforming files, classify the task as curatorial compression or
+investigative compression.
+
+- **Curatorial compression** repairs toward a known or strongly implied target
+  shape. It removes noise, preserves source lineage, aligns with standards, and
+  makes the object more itself.
+- **Investigative compression** narrows a question by killing false positives,
+  clarifying contrast classes, and making the real uncertainty harder to fake.
+
+Subtractive consolidation rule:
+
+- preserve load-bearing signal,
+- merge useful content into the active source of truth,
+- delete stale husks when the operator's stated or inferred goal is cleanup,
+- do not preserve archive/sediment by default,
+- do not create archive folders unless explicitly requested.
+
+Direct operator corrections outrank generic software-conservation instincts.
 
 ## GPT Export Analysis Rules
 

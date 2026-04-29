@@ -68,6 +68,7 @@ node_modules/
 # Local editor/agent state.
 .vscode/
 .claude/
+.tmp.driveupload/
 
 # -------------------------------------------------------------------
 # Exceptions: Load-Bearing Structure

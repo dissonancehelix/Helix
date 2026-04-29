@@ -74,22 +74,23 @@ But in this domain, the signal is physical and sexual.
 
 The operator's attraction is:
 
-- **face-first**
-- **dark-feature / warm-palette weighted**
-- **lower-body sexually weighted**
-- **naturalness / credibility gated**
+- **naturalness / physical credibility gated first**
+- **face-anchored**
+- **dark/brown/warm-skin weighted as a primary attractor**
+- **butt / lower-body sexually weighted**
+- **soft-curve-with-structure oriented**
 - **detail-sensitive**
 - **anti-artificial when artificiality breaks physical credibility**
 
 Core hierarchy:
 
 ```text
-1. Face / eyes / expression / hair framing
-2. Warm/darker visual palette and contrast
-3. Hips / butt / thighs / lower-body curve
-4. Overall soft/curvy feminine shape
-5. Toes as a smaller arousing/detail-interest channel
-6. Breasts as secondary
+1. Naturalness / physical credibility
+2. Face / eyes / expression / hair framing
+3. Dark/brown/warm skin and dark-feature contrast
+4. Butt / hips / thighs / lower-body curve
+5. Breasts and general curvy softness as modifiers
+6. Toes, glasses, bangs, clothing/framing, and other detail channels
 7. Production mode as modifier, not core
 ```
 
@@ -99,9 +100,13 @@ The key correction:
 
 It does not mean that personality must be known before attraction turns on. It means the face carries a person-like physical signal that makes attraction feel personal rather than anonymous.
 
+The second correction:
+
+> **Naturalness is not a bonus; it is the first gate. Duck lips, fake lips, BBL geometry, fake breasts, and plastic/overedited signal can break attraction before face or body traits get evaluated.**
+
 Best compression:
 
-> **The face is where beauty becomes personal; the lower body is where sexual intensity concentrates.**
+> **Real-looking first; beautiful face second; brown/warm skin third; natural ass/hips fourth; details amplify.**
 
 ---
 
@@ -146,7 +151,7 @@ face
 + eyes
 + hair framing
 + expression
-+ warm/darker palette
++ dark/brown/warm skin
 + hips / butt / thighs
 + soft/curvy feminine shape
 + credible naturalness
@@ -163,7 +168,7 @@ A body-part detail can arouse somewhat without becoming the primary sexual syste
 
 Best compression:
 
-> **Attraction is not one trait. It is a stack of converging signals.**
+> **Attraction is not one trait. It is a stack of converging signals, with naturalness as the entry gate.**
 
 ---
 
@@ -197,10 +202,11 @@ Attraction is beauty plus physical pull.
 
 It often requires:
 
+- naturalness / physical credibility
 - face pull
+- dark/brown/warm skin or strong dark-feature contrast
 - sexual body signal
 - compatible visual palette
-- enough naturalness / physical credibility
 - no strong presentation turnoff
 
 Compression:
@@ -308,9 +314,12 @@ Glasses alone do not create attraction. They amplify an already compatible face/
 
 ---
 
-## 7. Warm / Dark / High-Contrast Visual Palette
+## 7. Dark / Brown / Warm Skin
 
-The attraction palette strongly favors warm, darker, and high-contrast visual fields.
+Dark/brown/warm skin is a primary attractor, not merely a palette modifier.
+The older framing underweighted this. The attraction does not come only from
+contrast against dark hair or from demographic labels; the skin tone itself is
+part of the sexual and visual pull.
 
 Recurring carriers:
 
@@ -321,6 +330,9 @@ Recurring carriers:
 - Middle Eastern / North African-adjacent visual fields
 - Black / WOC / darker-complexion women
 - medium-to-dark brown skin
+- brown skin
+- dark skin
+- cinnamon / golden / warm tan / deep brown complexion
 - dark hair
 - dark eyes
 - dark clothing
@@ -331,26 +343,32 @@ The operator is pale white / Anglo American, tall, and lean. This may make darke
 
 Best compression:
 
-> **The attraction palette is warm, dark-featured, high-contrast, and curve-friendly.**
+> **Brown/warm skin and dark features are primary attractors, not just aesthetic coloring.**
 
 False positive:
 
-This should not become “only darker skin.” Pale or lighter-skinned women can pass if the face/eye/body signal is strong enough. The pattern is a weighted palette, not an absolute rule.
+This should not become “only darker skin.” Pale or lighter-skinned women can
+pass if naturalness, face, and butt/lower-body signal are strong enough. The
+pattern is a primary weighting, not an absolute rule.
 
 ---
 
-## 8. Body Preference: Natural Lower-Body Sexual Weighting
+## 8. Body Preference: Soft Curve With Natural Lower-Body Weighting
 
-The operator is explicitly not primarily breast-focused.
+The operator is explicitly not primarily breast-focused, but breasts matter more
+as an intensifier than the older "secondary" phrasing implied. They are liked,
+including large breasts, but they do not outrank naturalness, face, skin, or
+butt/lower-body signal. Small breasts can pass easily if the butt/lower-body
+and face/skin signals are strong.
 
 Body hierarchy:
 
 ```text
-1. butt / hips / thighs / lower-body curve
-2. flat or relatively flat stomach + round natural butt
-3. overall soft/curvy feminine proportion
-4. waist/hip contrast and credible curve
-5. breasts as secondary
+1. natural body credibility
+2. butt / hips / thighs / lower-body curve
+3. soft/curvy feminine shape with structure
+4. waist/hip/butt continuity and credible curve
+5. breasts as flexible intensifier, not sovereign anchor
 ```
 
 Strong sexual body signals:
@@ -361,16 +379,22 @@ Strong sexual body signals:
 - thick hips
 - thighs
 - lower-body curve
-- flat stomach with strong butt/hip contrast
+- flat or relatively flat stomach with strong butt/hip contrast as a high-pull variant
 - natural softness
+- chubby softness when curve architecture remains
 - proportion that looks physically plausible
 - curve without obvious artificiality
+- breasts that add softness, sexual intensity, or proportional balance without becoming fake-looking
 
 Rejected or weaker:
 
 - BBL/artificial/fake-looking butt
+- duck lips / fake lips / filler face
 - exaggerated surgery look
 - overly inflated proportions
+- overly toned gym body
+- muscular hardness
+- fat beyond chubby when curve structure dissolves
 - breast-first framing with weak lower-body/face signal
 - thinness without curve
 - body that looks commercially manufactured
@@ -378,11 +402,11 @@ Rejected or weaker:
 
 Best compression:
 
-> **Natural bubble butt + flat stomach is the strongest body archetype.**
+> **Soft curve with structure is the target: not gym-hard, not shapeless, not fake.**
 
 Second compression:
 
-> **Lower-body curve is the sexual anchor; breasts are a secondary modifier.**
+> **Lower-body curve is the sexual anchor; breasts intensify but do not govern.**
 
 False positive:
 
@@ -397,14 +421,15 @@ The strongest body pattern is not just “curvy” or “big.” It is **credibl
 Preferred structure:
 
 ```text
-flat / relatively flat stomach
+natural body credibility
 + round natural butt
 + hip/thigh curve
++ soft density
 + physical plausibility
 + no obvious surgery signal
 ```
 
-This is why natural bubble-butt / flat-stomach contrast is so strong. The attraction comes from the shape relation, not size alone.
+Natural bubble-butt / flat-stomach contrast is a strong variant, but not the only version. The deeper attraction comes from believable curve architecture: butt, hips, thighs, skin, softness, and body continuity working together.
 
 Strong:
 
@@ -414,6 +439,7 @@ Strong:
 - hip/thigh continuity
 - believable body geometry
 - softness with proportion
+- chubby softness when curves remain legible
 
 Weak or rejected:
 
@@ -422,6 +448,8 @@ Weak or rejected:
 - surgery-dominated silhouette
 - huge but physically implausible curve
 - artificial smoothness / overediting
+- gym-hard tone replacing softness
+- shapeless fat replacing curve architecture
 
 Best compression:
 
@@ -435,7 +463,9 @@ Second compression:
 
 ## 10. Breasts
 
-Breasts are not irrelevant, but they are clearly secondary.
+Breasts are liked, but they are flexible. They add sexual intensity, softness,
+and feminine proportion, but they do not govern attraction the way naturalness,
+face, skin, and butt/lower-body curve do.
 
 They can contribute to:
 
@@ -444,7 +474,9 @@ They can contribute to:
 - sexual image intensity
 - proportional balance
 
-But they do not usually drive the attraction by themselves.
+Small breasts can pass if the face, dark/brown skin, and butt/lower-body signal
+are strong. Large breasts can intensify strongly when they remain natural-looking
+and integrated with the body.
 
 Low-pull cases:
 
@@ -456,7 +488,7 @@ Low-pull cases:
 
 Best compression:
 
-> **Breasts can add, but they do not anchor the taste.**
+> **Breasts add heat; butt/lower-body carries the anchor.**
 
 ---
 
@@ -508,7 +540,9 @@ False positives:
 
 ## 12. Naturalness vs Artificiality
 
-The operator is not opposed to pornstars, studio presentation, makeup, or sexualized imagery. The issue is whether the preferred physical signal survives.
+Naturalness is the first attraction gate. The operator is not opposed to
+pornstars, studio presentation, makeup, or sexualized imagery. The issue is
+whether the preferred physical signal survives as believable face/body reality.
 
 Works:
 
@@ -517,11 +551,15 @@ Works:
 - sexual styling that does not erase natural body shape
 - professional image where the woman still looks physically coherent
 - strong body/face signal despite production
+- explicit posing when the body still looks real
 
 Fails:
 
+- duck lips / fake lips
+- filler face
 - obvious BBL / surgery look
 - artificial/fake proportions
+- fake breasts when they dominate or break body credibility
 - overproduced porn gloss
 - heavy editing that removes texture
 - generic porn-star template with weak face individuality
@@ -530,7 +568,7 @@ Fails:
 
 Best compression:
 
-> **Polish is fine; fake-looking signal is not.**
+> **Naturalness is the first gate; polish is fine, fake-looking signal is not.**
 
 Second compression:
 
@@ -687,16 +725,20 @@ Best compression:
 
 ---
 
-## 17. Soft But Physically Dense Femininity
+## 17. Soft Curve With Structure
 
-The operator prefers softness, warmth, and curve, but not fragile thinness as the main sexual model.
+The operator prefers softness, warmth, and curve, but not fragile thinness,
+overly toned gym bodies, muscular hardness, or fat beyond chubby when the curve
+signal dissolves.
 
 Strong signals:
 
 - softness with shape
 - curve with physical density
 - hips/thighs/butt
+- chubby softness when curves remain legible
 - warm complexion
+- dark/brown skin
 - dark features
 - grounded body presence
 - feminine curve that looks real
@@ -707,12 +749,16 @@ Weak signals:
 - porcelain/delicate-only beauty without body pull
 - fragile aesthetic with low sexual weight
 - body shape that lacks lower-body density
+- overly toned gym bodies
+- visible muscular hardness as the main body signal
+- shapeless heaviness
+- fat beyond chubby when butt/hip/waist architecture disappears
 
 This connects to broader profile patterns: warm density, soft base / sharp event, bass floor, dark/earthy palettes, and embodied texture.
 
 Best compression:
 
-> **Softness is attractive when it has physical density.**
+> **Softness is attractive when it keeps curve architecture.**
 
 ---
 
@@ -721,27 +767,31 @@ Best compression:
 The strongest attraction profile:
 
 ```text
-beautiful face
+real-looking / physically credible
++ beautiful face
 + dark hair / dark eyes
 + expressive eye field
 + glasses or eye-framing bonus
-+ warm/darker/high-contrast palette
++ dark/brown/warm skin
 + natural big butt / bubble butt
-+ flat or relatively flat stomach
 + hips / thighs / lower-body curve
-+ soft/curvy feminine proportion
++ soft/curvy feminine proportion with structure
++ breasts as flexible intensifier
 + non-fake / non-BBL body signal
++ no duck lips / fake lips / plastic-surgery face
++ no overly toned gym-body hardness
++ no shapeless fat beyond chubby
 + presentation that does not feel gaudy or commercially flattened
 + optional toe/detail signal as minor arousal/detail layer
 ```
 
 Best short form:
 
-> **Beautiful dark-featured face + warm palette + natural lower-body curve.**
+> **Real-looking, beautiful dark-featured face, brown/warm skin, natural lower-body curve.**
 
 More explicit short form:
 
-> **Pretty face, dark eyes, dark hair, warm complexion, natural bubble butt, flat stomach, and no fake-looking surgery.**
+> **Natural first, face second, brown skin third, butt fourth; breasts and details amplify.**
 
 ---
 
@@ -753,8 +803,12 @@ The attraction weakens when the image has:
 - body without face
 - breast-first emphasis without lower-body curve
 - obvious BBL / fake butt
-- fake breasts as dominant signal
+- fake breasts as dominant or body-breaking signal
+- duck lips / fake lips / filler face
 - exaggerated surgery proportions
+- overly toned gym body
+- muscular hardness replacing softness
+- fat beyond chubby when curve structure disappears
 - gaudy styling
 - loud influencer-coded presentation
 - commercially flattened porn gloss
@@ -998,39 +1052,45 @@ Compression:
 ## 25. Claim Card
 
 ```md
-# Claim: Face-First Physical Attraction With Natural Lower-Body Weighting
+# Claim: Naturalness-First Attraction With Brown Skin And Natural Lower-Body Weighting
 
 ## Claim
-The operator's attraction is physically face-first. Facial beauty, eyes, expression, dark hair, hair framing, and visual contrast are the primary beauty gate. Sexual intensity is most strongly amplified by natural hips/butt/thigh/lower-body curve, especially natural bubble-butt / flat-stomach contrast. Breasts are secondary. Toes can provide minor/detail-level arousal, but they are not the main attraction system.
+The operator's attraction is physically naturalness-first. Fake-looking face/body signal breaks attraction before other traits can land. Facial beauty, eyes, expression, dark hair, hair framing, and visual contrast are the primary beauty gate after credibility. Dark/brown/warm skin is a primary attractor, not just a palette modifier. Sexual intensity is most strongly amplified by natural hips/butt/thigh/lower-body curve. Breasts are liked and can intensify, but they are flexible and do not outrank butt/lower-body signal. Toes can provide minor/detail-level arousal, but they are not the main attraction system.
 
 ## Mechanism
-The face anchors beauty because it concentrates the strongest physical signals: eyes, expression, feature integration, hair framing, softness/sharpness balance, and presence. The lower body anchors sexual intensity because hips, butt, thighs, and natural curve carry more sexual weight than breast emphasis. Toes carry a smaller revealed-detail arousal signal because they are distinct, varied, and often hidden.
+Naturalness gates entry because duck lips, fake lips, filler face, BBL geometry, fake breasts, and overedited/plastic signal make the body feel less physically credible. The face anchors beauty because it concentrates eyes, expression, feature integration, hair framing, softness/sharpness balance, and presence. Dark/brown/warm skin carries primary visual/sexual pull. The lower body anchors sexual intensity because hips, butt, thighs, and natural curve carry more sexual weight than breast emphasis. Toes carry a smaller revealed-detail arousal signal because they are distinct, varied, and often hidden.
 
 ## Strong signals
+- natural-looking face/body signal
 - beautiful face over beautiful body
 - dark hair
 - dark eyes
 - expressive eyes
 - glasses / eye framing
 - bangs / face framing
-- warm/darker/high-contrast palette
+- dark/brown/warm skin
+- cinnamon / golden / warm tan / deep brown complexion
 - Latina / Latin American visual field
 - Indigenous / Peruvian / Mexican / Chiapas-adjacent visual features
 - Asian / Southeast Asian / South Asian / Middle Eastern visual fields
 - Black / WOC / darker-complexion visual fields
 - natural big ass
 - bubble butt
-- flat or relatively flat stomach
 - hips / thighs / lower-body curve
-- soft/curvy feminine proportion
+- soft/curvy feminine proportion with structure
+- breasts as flexible intensifier
 - toes as distinct rare-detail / minor arousal signal
 
 ## Weak or negative signals
+- duck lips / fake lips / filler face
 - weak face pull
 - breast-first models
 - obvious BBL
 - fake/artificial butt
 - fake-looking breasts or surgery-dominated proportions
+- overly toned gym bodies
+- muscular hardness
+- fat beyond chubby when curve structure disappears
 - gaudy/influencer-coded presentation
 - commercial flattening that erases natural signal
 - whole-foot fetish framing
@@ -1039,52 +1099,52 @@ The face anchors beauty because it concentrates the strongest physical signals: 
 
 ## Modifiers
 - Amateur/real-person presentation often helps because it preserves natural signal.
-- Studio/pornstar presentation can pass strongly when the face/palette/curve hierarchy fits.
+- Studio/pornstar presentation can pass strongly when the naturalness/face/skin/curve hierarchy fits.
 - Girl-next-door is a presentation mode, not the core preference.
 - Toes are a minor/detail arousal channel, not the main attraction system.
 
 ## Falsifier
-If repeated high-pull examples lack face pull, warm/dark/high-contrast palette, and lower-body curve, revise the model. If toes become necessary for arousal or whole-foot features become high-pull, revise the toe boundary. If artificial/BBL-coded bodies repeatedly become high-pull, revise the signal-credibility gate.
+If repeated high-pull examples are fake-looking, filler/BBL-coded, or gym-hard without credible natural softness, revise the naturalness gate. If repeated high-pull examples lack face pull, dark/brown/warm skin or dark-feature contrast, and lower-body curve, revise the hierarchy. If toes become necessary for arousal or whole-foot features become high-pull, revise the toe boundary.
 
 ## Best compression
-The face is the beauty anchor; hips/butt/lower-body curve are the sexual anchor.
+Natural first, face second, brown skin third, butt fourth; details amplify.
 
 ## Second compression
-Natural curve beats artificial exaggeration.
+Brown/warm skin and dark features are primary attractors, not just aesthetic coloring.
 
 ## Third compression
-Toes can arouse as rare detail, but they do not replace the main system.
+Soft curve with structure beats both gym hardness and shapeless heaviness.
 ```
 
 ---
 
 ## 26. Best Compression
 
-> **The face is the beauty anchor; hips/butt/lower-body curve are the sexual anchor.**
+> **Natural first, face second, brown skin third, butt fourth; details amplify.**
 
 Second compression:
 
-> **Natural bubble-butt / flat-stomach contrast is the strongest body archetype.**
+> **Brown/warm skin and dark features are primary attractors, not just aesthetic coloring.**
 
 Third compression:
 
-> **Breasts add; they do not anchor.**
+> **Soft curve with structure is the target: not gym-hard, not shapeless, not fake.**
 
 Fourth compression:
 
-> **Toes are a rare-detail arousal signal, not the main attraction system.**
+> **Breasts add heat; butt/lower-body carries the anchor.**
 
 Fifth compression:
 
-> **Studio or amateur matters less than whether the physical signal survives.**
+> **Toes are a rare-detail arousal signal, not the main attraction system.**
 
 Sixth compression:
 
-> **Natural curve beats artificial exaggeration.**
+> **Studio or amateur matters less than whether the physical signal survives.**
 
 Final compression:
 
-> **Attraction is physical channel convergence: beautiful face, warm/dark palette, natural lower-body curve, credible signal, and occasional detail-arousal.**
+> **Attraction is physical channel convergence: natural-looking signal, beautiful face, brown/warm skin, natural lower-body curve, soft structured body, and occasional detail-arousal.**
 
 ---
 

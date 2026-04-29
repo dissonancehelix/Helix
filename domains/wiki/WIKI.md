@@ -42,6 +42,11 @@ Ninth compression:
 
 > **Public prose should compress the claim without severing its path back to evidence.**
 
+Tenth compression:
+
+> **Revision history is public time made inspectable.**
+
+
 ---
 
 ## 0. Scope and Ground Rules
@@ -167,9 +172,28 @@ subject has depth
 but article must remain public, neutral, readable, and structured
 ```
 
+This makes Wiki the clearest Curatorial Compression domain.
+
+The operator often knows what the final public object should behave like before every local sentence is solved:
+
+```text
+subject identity
++ source lineage
++ MOS/shared standards
++ lead/body alignment
++ template/interface constraints
+= public object repaired toward its proper form
+```
+
+Trimming is not anti-depth when it makes the article more itself. The target is not shorter prose. The target is a public object whose lead orients, body reopens, citations preserve lineage, and templates tell the truth about state.
+
 Best compression:
 
 > **Wiki work is depth under public compression constraints.**
+
+Second compression:
+
+> **Wiki repair is curatorial compression under public standards.**
 
 ---
 
@@ -1460,6 +1484,37 @@ Best compression:
 > **Temporal precision is state integrity.**
 
 ---
+
+### 20.1 Revision History, Oral Memory, and Temporal Lineage
+
+Wiki work exposes a public version of the time/continuity problem.
+
+A page is not only its current prose. It is a current state with a recoverable path behind it: revisions, sources, talk pages, templates, images, Wikidata, page moves, merges, trims, reverts, and citation lineage.
+
+This matters because public knowledge can persist through:
+
+- written documentation
+- source archives
+- revision history
+- shared standards
+- human memory
+- oral transmission
+- AI summaries and downstream reuse
+- later editors reopening the path
+
+Oral stories and memes are adjacent continuity cases: information can persist without one stable written record, but the cost is mutation. Wikipedia reduces mutation by making lineage inspectable.
+
+Best compression:
+
+> **A wiki page is public memory with a revision spine.**
+
+Second compression:
+
+> **Oral memory preserves through minds; wiki memory preserves through lineage.**
+
+False positive:
+
+> Treating current article text as the whole object. The living public object includes the path that made the current text trustworthy.
 
 ## 21. Prose Model
 

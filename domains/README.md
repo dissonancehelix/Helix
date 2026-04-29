@@ -37,6 +37,7 @@ after the domain.
 | `self` | `domains/self/SELF.md` | cognitive style, neurotype constraints, sensory/social gates, response debt, attention chambers, and operational terrain |
 | `music` | `domains/music/MUSIC.md` | foobar, VGM, DSP, metadata, world-listening, bass/air/return, library evidence |
 | `games` | `domains/games/GAMES.md` | field mechanics, authored worlds, roles, transition systems, completion/playtime evidence |
+| `eft` | `domains/eft/EFT.md` | Extreme Football Throwdown as designed sport, transition-field, mapmaking proof-object, community skill ecology, and manifest-governed game soul |
 | `trails` | `domains/trails/TRAILS.md` | Trails/Kiseki continuity, atlas work, wiki/database work, world-memory, source ingestion |
 | `wiki` | `domains/wiki/WIKI.md` | Wikipedia editing, article architecture, citations, templates, infoboxes, Commons/Wikidata |
 | `software` | `domains/software/SOFTWARE.md` | Helix, schemas, inspectable agency, LLM collaboration, tooling, executable personal ontology |
@@ -80,6 +81,7 @@ Current workflow-owning domains:
 - `self`
 - `music`
 - `games`
+- `eft`
 - `trails`
 - `wiki`
 - `software`
@@ -93,6 +95,7 @@ Domains without workflow-owned tools yet:
 - `body_sensory`
 - `sports`
 - `worldview`
+- `eft`
 
 Best compression:
 

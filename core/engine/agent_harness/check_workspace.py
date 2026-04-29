@@ -15,6 +15,7 @@ ACTIVE_DOMAINS = {
     "self",
     "music",
     "games",
+    "eft",
     "trails",
     "wiki",
     "software",
@@ -30,6 +31,7 @@ DOMAIN_FILES = {
     "self": "SELF.md",
     "music": "MUSIC.md",
     "games": "GAMES.md",
+    "eft": "EFT.md",
     "trails": "TRAILS.md",
     "wiki": "WIKI.md",
     "software": "SOFTWARE.md",
@@ -48,6 +50,7 @@ NO_TOOL_DOMAINS = {
     "body_sensory",
     "sports",
     "worldview",
+    "eft",
 }
 
 ALLOWED_ROOT_FILES = REQUIRED_ROOT_FILES | {".gitignore", ".gitattributes", "pyproject.toml"}
@@ -199,8 +202,8 @@ def check_domain_capsules(errors: list[str]) -> None:
 
 
 def check_cross_domain_labs(errors: list[str]) -> None:
-    if not (ROOT / "labs" / "inhabited_interiority").is_dir():
-        errors.append("missing cross-domain lab: labs/inhabited_interiority/")
+    if not (ROOT / "labs" / "temporal_ownership").is_dir():
+        errors.append("missing cross-domain lab: labs/temporal_ownership/")
     if (ROOT / "labs" / "research").exists():
         errors.append("old research lab root still present")
     if (ROOT / "labs" / "labs").exists():
@@ -285,12 +288,12 @@ def main() -> int:
         print(f"warn: {w}", file=sys.stderr)
 
     if errors:
-        print("Helix boundary check failed:")
+        print("Helix workspace check failed:")
         for e in errors:
             print(f"- {e}")
         return 1
 
-    print(f"Helix boundary check passed ({len(warnings)} warning(s)).")
+    print(f"Helix workspace check passed ({len(warnings)} warning(s)).")
     return 0
 
 

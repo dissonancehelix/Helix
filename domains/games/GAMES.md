@@ -25,6 +25,11 @@ Fifth compression:
 
 > **A world becomes worth building in when it can remember the build.**
 
+Sixth compression:
+
+> **A save file preserves state; a playthrough carries committed time.**
+
+
 ---
 
 ## 0. Scope and Ground Rules
@@ -322,6 +327,31 @@ Best compression:
 Second compression:
 
 > **A base is strongest when it becomes a museum of traversal.**
+
+### 4.5a Save States, Playthroughs, and Irreversible Time
+
+Games clarify the difference between stored state and lived traversal.
+
+A save file can preserve state. A playthrough carries committed time: the sequence of choices, failures, routes, discoveries, accidents, deaths, and returns that made the state meaningful.
+
+This is why pure restore/replay analogies are useful but incomplete. A save can reload a pattern, but the player still remembers the path that led there. The world-state and the traversal-history are related but not identical.
+
+Strong examples:
+
+- Terraria bases and museums as traversal residue
+- Stardew farms as seasonal time made spatial
+- Outer Wilds as knowledge-state progression
+- Soulsborne route memory and boss learning
+- EFT as high-frequency transition commitment
+- completed-game lists as threads that survived friction
+
+Best compression:
+
+> **The save preserves what the world is; the playthrough preserves what the time meant.**
+
+False positive:
+
+> Treating reversible game states as proof that lived continuity is reversible. Games are analogies for state and residue, not direct solutions to first-person continuity.
 
 ### 4.6 Role Leverage / Support and Denial
 

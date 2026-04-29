@@ -33,6 +33,11 @@ Seventh compression:
 
 > **Beauty is recognition of adequate structure, not proof of causality.**
 
+Eighth compression:
+
+> **Time-bearing surfaces are beautiful when they preserve residue without pretending return is literal.**
+
+
 ---
 
 ## 0. Scope and Ground Rules
@@ -430,6 +435,36 @@ Historical residue works because it makes absence shaped.
 Best compression:
 
 > **Residue is memory made spatial.**
+
+### 3.6a Nostalgia / Time-Bearing Surfaces
+
+Some aesthetic surfaces pass because they visibly carry time.
+
+This is not only “old = good.” The attractive surface has to preserve residue in a way that remains legible and inhabitable.
+
+Strong carriers:
+
+- ruins
+- museums
+- old maps
+- aged paper
+- brown leather / wood / stone
+- autumn color and decay
+- old web residue
+- worn game worlds
+- VGM interfaces and legacy formats
+- profile/userpage history
+- artifacts with provenance
+
+The pleasure is continuity. The ache is irreversibility.
+
+Best compression:
+
+> **A time-bearing surface is beautiful when it lets the past remain present without pretending it can be restored.**
+
+False positive:
+
+> Treating decay, age, or nostalgia as automatically beautiful. Time has to leave a readable interior, not just damage.
 
 ### 3.7 Ruins / Museums / Ancient Mesoamerica
 

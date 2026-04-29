@@ -727,6 +727,34 @@ Sports analysis clarifies the global analysis gate.
 
 > Analysis is rewarding when it changes action or interpretation.
 
+
+### 19.6 EFT as Digital Sport Crossover
+
+Extreme Football Throwdown belongs primarily to its own `eft/` domain, but it also clarifies the Sports domain.
+
+EFT is a digital sport because it has:
+
+- live contest-state
+- team pressure
+- goals
+- possession volatility
+- defensive denial
+- role fluidity
+- clutch intervention
+- community skill hierarchy
+- map/field geometry
+- emotional payoff through reversals
+
+It differs from NFL fandom because the operator's attachment is not team identity. It is field mastery, community memory, map authorship, and transition-state skill.
+
+Best compression:
+
+> **EFT is sports without franchise identity: pure live field pressure, collision, and transition dominance.**
+
+Second compression:
+
+> **It shows why sports are not only rules; they are fields where pressure becomes readable.**
+
 ---
 
 ## 20. Local Anomalies / Questions

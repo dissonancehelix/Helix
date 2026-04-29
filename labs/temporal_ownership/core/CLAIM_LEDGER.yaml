@@ -1,0 +1,155 @@
+version: "0.1"
+status: draft
+parent_theory: labs/temporal_ownership/THEORY.md
+scope: inhabited_continuity_claims
+claims:
+  - id: ICT-C001
+    claim: "Consciousness is not identical to selfhood."
+    status: anchored
+    type: philosophical
+    depends_on: [field, ownership]
+    strengthens_if:
+      - "Cases show appearance without robust autobiographical or reflective self."
+      - "Altered states separate phenomenal presence from self-model stability."
+    weakens_if:
+      - "All credible conscious states require the full selfhood package."
+    relevant_tests: [T-OWN-001, T-BOUND-001, T-MEM-002]
+    relevant_theories: [self_model_theory, higher_order_theory, embodied_enactive]
+    notes: "Current parent-theory distinction: consciousness = field of appearance; self = owned continuity."
+
+  - id: ICT-C002
+    claim: "Selfhood requires owned continuity."
+    status: plausible
+    type: philosophical
+    depends_on: [ownership, continuity, boundary]
+    strengthens_if:
+      - "Identity tracks ownership-binding disruption better than memory report alone."
+      - "Transformation cases show graded preservation rather than all-or-nothing memory matching."
+    weakens_if:
+      - "Selfhood remains intact without ownership or continuity in a meaningful sense."
+    relevant_tests: [T-CONT-001, T-MEM-001, T-BRANCH-001]
+    relevant_theories: [self_model_theory, predictive_processing, embodied_enactive]
+    notes: "Core ICT contribution: self = owned continuity inside a conscious field."
+
+  - id: ICT-C003
+    claim: "Reportability is insufficient for inhabited selfhood."
+    status: anchored
+    type: operational
+    depends_on: [reportability, ownership, appearance_from_within]
+    strengthens_if:
+      - "Systems generate self-reports without evidence of ownership, continuity, or A."
+      - "No-report paradigms preserve consciousness indicators without report."
+    weakens_if:
+      - "Reportability fully predicts consciousness and ownership across hard cases."
+    relevant_tests: [T-REPORT-001, T-A-001, T-OWN-001]
+    relevant_theories: [gnwt_gwt, higher_order_theory, self_model_theory]
+    notes: "Current LLMs are central stress cases for report without ownership."
+
+  - id: ICT-C004
+    claim: "Memory supports continuity but may not be identical to continuity."
+    status: plausible
+    type: philosophical
+    depends_on: [memory_continuity, ownership, transformation]
+    strengthens_if:
+      - "Amnesia/dementia cases preserve some selfhood despite memory loss."
+      - "Copied memory cases fail singular first-person continuity."
+    weakens_if:
+      - "Memory similarity fully explains identity persistence in all target cases."
+    relevant_tests: [T-MEM-001, T-CONT-001, T-BRANCH-001]
+    relevant_theories: [self_model_theory, predictive_processing]
+    notes: "Memory may be a support layer, not the carrier."
+
+  - id: ICT-C005
+    claim: "Branching threatens singular first-person continuation."
+    status: plausible
+    type: philosophical
+    depends_on: [branching, continuity, ownership]
+    strengthens_if:
+      - "Copy/fork thought experiments preserve pattern while destroying singular continuation."
+      - "Identity intuitions track non-branching transition better than memory duplication."
+    weakens_if:
+      - "Branching is shown not to affect first-person identity in any meaningful way."
+    relevant_tests: [T-BRANCH-001, T-BRANCH-002, T-CONT-002]
+    relevant_theories: [self_model_theory, computationalism]
+    notes: "This is a major falsifier path for ICT."
+
+  - id: ICT-C006
+    claim: "Boundary maintenance is required for self/world distinction."
+    status: plausible
+    type: scientific
+    depends_on: [boundary, ownership, embodiment]
+    strengthens_if:
+      - "Body ownership and depersonalization cases track boundary disruption."
+      - "Agency illusions alter ownership while report remains possible."
+    weakens_if:
+      - "Selfhood persists with no functional or phenomenological boundary."
+    relevant_tests: [T-BOUND-001, T-EMB-001, T-OWN-002]
+    relevant_theories: [predictive_processing, embodied_enactive, self_model_theory]
+    notes: "Boundary is not necessarily skin; it can be dynamical, attentional, or control-linked."
+
+  - id: ICT-C007
+    claim: "Integration may be necessary for field unity but insufficient for selfhood."
+    status: plausible
+    type: scientific
+    depends_on: [integration, field, ownership]
+    strengthens_if:
+      - "Integrated systems lack ownership or self-continuity."
+      - "Neural integration measures track consciousness but not selfhood."
+    weakens_if:
+      - "Integration alone explains consciousness, ownership, and selfhood with no residue."
+    relevant_tests: [T-INT-001, T-A-001, T-OWN-001]
+    relevant_theories: [iit, pci, recurrent_processing]
+    notes: "Protects IIT as useful without letting it replace all other theory roles."
+
+  - id: ICT-C008
+    claim: "IIT may function as a binding/interiority hypothesis."
+    status: open
+    type: scientific
+    depends_on: [integration, appearance_from_within, field]
+    strengthens_if:
+      - "Integrated causal structure predicts field unity or no-report consciousness better than access theories alone."
+    weakens_if:
+      - "Integration metrics fail to distinguish relevant conscious from non-conscious states."
+      - "IIT cannot address A beyond redescribing integration."
+    relevant_tests: [T-INT-001, T-A-001, T-COMP-001]
+    relevant_theories: [iit, recurrent_processing, gnwt_gwt]
+    notes: "Role: binding/interiority candidate, not total replacement theory."
+
+  - id: ICT-C009
+    claim: "GNWT/GWT may explain access and report but not ownership."
+    status: plausible
+    type: scientific
+    depends_on: [reportability, access, ownership]
+    strengthens_if:
+      - "Global availability predicts report/action while ownership disruption remains underexplained."
+    weakens_if:
+      - "Broadcast/access mechanisms fully explain ownership and A."
+    relevant_tests: [T-REPORT-001, T-OWN-001, T-COMP-001]
+    relevant_theories: [gnwt_gwt]
+    notes: "GNWT/GWT remains important for access and flexible control."
+
+  - id: ICT-C010
+    claim: "Predictive processing may explain boundary/control coupling."
+    status: plausible
+    type: scientific
+    depends_on: [boundary, agency_control_coupling, self_model]
+    strengthens_if:
+      - "Ownership and agency disruption track precision, prediction, and control changes."
+    weakens_if:
+      - "Prediction/control fully explains A without residue, or fails boundary cases."
+    relevant_tests: [T-BOUND-001, T-EMB-001, T-A-001]
+    relevant_theories: [predictive_processing, active_inference]
+    notes: "Likely strong on self/world modeling, weaker on intrinsic appearance."
+
+  - id: ICT-C011
+    claim: "Current LLMs are test cases for report without ownership."
+    status: anchored
+    type: operational
+    depends_on: [reportability, self_model, ownership, continuity]
+    strengthens_if:
+      - "LLMs produce coherent self-report without non-branching continuity, embodied control, or ownership evidence."
+    weakens_if:
+      - "Future AI passes continuity, ownership, boundary, and A tests with evidence beyond report."
+    relevant_tests: [T-REPORT-001, T-A-002, T-BRANCH-002]
+    relevant_theories: [self_model_theory, gnwt_gwt, predictive_processing]
+    notes: "Do not infer no future AI consciousness; use current systems as stress tests."

@@ -28,7 +28,7 @@ Each lab README must cover:
 
 ## Current labs
 
-- `inhabited_interiority/` — claims about state-carrying aliveness, inhabited continuity, the bridge between observed and lived.
+- `temporal_ownership/` — Temporal Ownership Model work: ICT, DCP, LIP, EIP, ownership, continuity, commitment, residue, and appearance-from-within pressure tests.
 - `cognitive_mapping/` — claims about the operator ontology and the map structure itself.
 - `invariants/` — cross-domain invariant discovery and pressure work.
 

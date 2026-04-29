@@ -43,6 +43,13 @@ Seventh compression:
 
 > **Layered, connected, modular, and fractal structure is beautiful when self-similarity remains evidence-bound and increases resolution.**
 
+> **Continuity is not stasis; it is identity carried through irreversible time.**
+
+Ninth compression:
+
+> **Nostalgia is continuity grieving its own irreversibility.**
+
+
 This document is a living cognitive map. It is not trying to make the operator sound impressive. It is trying to make him legible without flattening him. A future LLM should be able to read this file and understand what the operator tends to like, reject, protect, repair, investigate, build, and return to — and why.
 
 The document should predict from mechanisms, not from shallow labels. It should preserve examples because examples are evidence doors. It should compress only when compression increases clarity, predictive power, or re-openability. It should stay alive by allowing anomalies to correct it.
@@ -158,6 +165,32 @@ Practical rule:
 
 > **When in doubt, preserve the door and move the full room downward.**
 
+### 1.3a Two Compression Modes
+
+Compression-native cognition now has two distinguishable modes.
+
+**Curatorial Compression** operates when the target shape is known or strongly implied. It removes noise, repairs structure, aligns with shared standards, preserves source lineage, and makes the object more itself. Wikipedia article cleanup, template repair, repo refactors, folder consolidation, lead/body alignment, source cleanup, public object maintenance, and lawncare/cleaning metaphors belong here.
+
+Core question:
+
+> **What should remain so this object expresses its proper form?**
+
+**Investigative Compression** operates when the target shape is unknown, underdetermined, or hidden by false positives. It sharpens the question, eliminates false substitutes, tests boundaries, collapses bad explanations, and narrows possibility space. TOM/ICT/DCP reports, consciousness false-positive elimination, report vs ownership, memory vs continuity, integration vs ownership, information persistence vs owned continuity, and music response-axis discovery belong here.
+
+Core question:
+
+> **What can be ruled out so the real question remains?**
+
+Best compression:
+
+> **Curatorial compression makes an object more itself. Investigative compression makes a mystery harder to fake.**
+
+Second compression:
+
+> **One trims the lawn; the other narrows the cave.**
+
+Both modes can overcompress. Curatorial overcompression deletes evidence doors while making an object look cleaner. Investigative overcompression mistakes eliminated alternatives for the final answer.
+
 ### 1.4 Evidence Anchor Rule
 
 Examples are not clutter. They are doors back into lived evidence.
@@ -233,7 +266,7 @@ Locked first-class domains:
 - **Wiki / Public Knowledge** — article improvement, source architecture, templates, infoboxes, future-reader interface design, state-improvement reward.
 - **Software / Tools** — Helix, schemas, inspectable agency, agent collaboration, foobar/DSP tooling, workspace design, and executable personal ontology.
 - **Language** — English/Spanish/Japanese interest, grammar as movement, phrase automation, translation, register, Wikipedia prose as constrained language.
-- **Sexual / Visual Attraction** — face-first physical attraction, warm/dark palette, lower-body sexual weighting, credible curve contrast, signal integrity, detail arousal, beauty vs attraction split.
+- **Sexual / Visual Attraction** — naturalness-first physical attraction, face/eye beauty, dark/brown skin as primary attractor, butt/lower-body sexual weighting, soft curve with structure, signal integrity, detail arousal, beauty vs attraction split.
 - **Food / Drink** — plain/simple meals, convenience gate, soft base / sharp event, Thanksgiving as autumn+football+favorite-food convergence, cold/creamy comfort, cooked-vegetable preference, seafood disgust boundary.
 - **Aesthetics / Environment** — color, warmth, darkness, enclosure, texture, Latin/Mesoamerican motifs, old/liminal/earthy spaces, and fractal self-similarity as a beauty criterion.
 - **Body / Sensory** — DOMS, massage, stretch, localizable body maps, controlled intensity, heat/noise/light/spatial exposure.
@@ -411,6 +444,8 @@ Protected mechanisms include:
 - Spatial-Image / Topological Cognition
 - Inhabitation / Re-entry
 - Continuity-Preservation
+- Temporal Commitment Continuity / DCP bridge
+- Nostalgia as irreversible continuity
 - Temporal-State / Transition Tracking
 - Mediated Leverage
 - Addressable Potential
@@ -504,6 +539,15 @@ The Roman Britain lineage made this unusually explicit. A question about Old Eng
 The important part is not that every bridge is equally proven. The important part is the recurring operation: each domain becomes a way to ask what structure survives substrate change.
 
 Compression-native cognition is strongest when it remains evidence-bound. It becomes dangerous when it mistakes aesthetic self-similarity for causality, or lets a beautiful bridge outrun the evidence.
+
+The sharper split is:
+
+```text
+known or strongly implied target -> curatorial compression -> repaired object
+unknown or hidden target -> investigative compression -> harder-to-fake question
+```
+
+This explains why wiki/refactor work and consciousness/theory work feel related but not identical. Wiki, templates, source cleanup, and repo consolidation often repair an object toward an available public or structural grammar. TOM/ICT/DCP reports instead narrow uncertainty by rejecting false substitutes: report is not ownership, memory is not continuity, information persistence is not owner survival, and integration is not appearance-from-within.
 
 Best compression:
 
@@ -623,6 +667,8 @@ blur -> compression -> boundary -> stress -> false-positive collapse -> sharpen 
 ```
 
 This governs Helix, DCP, LIP, consciousness work, profile refinement, software design, music/game/aesthetic analysis, Wikipedia editing, and theory-building.
+
+The same loop has two flavors. When the proper form is already visible, Recursive Boundary Compression becomes curatorial: trim the lawn, repair the page, consolidate the folder, make the object behave like itself. When the proper form is not visible, it becomes investigative: narrow the cave, kill false positives, preserve uncertainty, and make the remaining question more exact.
 
 The operator does not merely prefer structure. He repeatedly seeks unresolved, high-pressure, formless-but-concentrated questions and turns them into navigable interiors.
 
@@ -776,6 +822,36 @@ Best compression:
 False positive:
 
 > Treating this as abstract timeline interest. It is about state-space, consequence, and future reachability.
+
+### 3.6a Temporal Commitment / DCP Bridge
+
+Time is not a passive background variable in the operator's map. It is the axis that lets structure become a carried line rather than a static pattern.
+
+A static field can preserve arrangement. A lived field must cross state boundaries.
+
+The Decision-Compression Principle belongs here as a transition / commitment hypothesis, not as a proof of consciousness. It helps name a recurring operation:
+
+```text
+possibility field
+→ pressure / arbitration
+→ irreversible commitment
+→ residue carried forward
+→ future state-space changed
+```
+
+In this frame, DCP does not answer why there is appearance-from-within. It asks how a system compresses many possible futures into one committed path. ICT then asks whether that committed path is owned from within.
+
+Best compression:
+
+> **ICT asks what must continue; DCP asks how continuation becomes committed.**
+
+Second compression:
+
+> **The self is not a stored pattern; it is a pattern carried through irreversible time.**
+
+False positive:
+
+> Treating DCP as a consciousness theory by itself. Commitment can structure a system without proving that the system is inhabited.
 
 ### 3.7 Affordance / Leverage Conversion
 
@@ -1528,7 +1604,17 @@ Beauty can be visual architecture:
 - eye framing
 - body as visual/sexual signal
 
-Attraction requires compatible interiority layered onto the visual channel:
+Attraction requires physically credible signal before anything else. In the sexual/visual attraction domain, naturalness is the first gate:
+
+- no duck lips / fake lips
+- no filler face as dominant signal
+- no BBL geometry
+- no fake breasts when they break body credibility
+- no overedited/plastic surface
+- no gym-hard body when it replaces softness
+- no shapeless heaviness when curve architecture disappears
+
+Attraction then layers compatible facial presence and sexual body signal onto the visual channel:
 
 - quiet self-containment
 - withheldness without closure
@@ -1537,12 +1623,15 @@ Attraction requires compatible interiority layered onto the visual channel:
 - warmth / intelligence / awareness
 - not loud influencer display
 - not fake performative surface
+- dark/brown/warm skin and dark features
+- natural butt / hips / thighs / lower-body curve
+- soft curve with structure
 
 Winged eyeliner can amplify eye framing. Glasses can intensify the signal. Heavy artifice or loud performative personality can reduce attraction without erasing aesthetic appreciation.
 
 Best compression:
 
-> **Beauty can be visual; attraction requires compatible interiority.**
+> **Natural first; face personalizes; brown skin and natural lower-body curve make it sexual.**
 
 ### 5.10 Threat Gate
 
@@ -2295,6 +2384,68 @@ Examples:
 Best compression:
 
 > **Residue is memory made spatial.**
+
+### 6.21a Nostalgia As Irreversible Continuity
+
+Nostalgia is a high-signal emotion because it exposes the operator's time/continuity axis directly.
+
+It is not simple sadness, simple happiness, or ordinary missing. It is the feeling that a prior state remains meaningful, identity-bearing, and partially recoverable as memory, residue, sound, place, image, file, game, article, or season — but cannot be re-entered as itself.
+
+The emotional structure:
+
+```text
+past state was real
++ past state shaped the present
++ residue still reaches the current self
++ full re-entry is impossible
+= beauty plus tragedy
+```
+
+This explains why nostalgia can be beautiful and tragic at the same time. Beauty comes from continuity surviving. Tragedy comes from irreversibility.
+
+Examples and carriers:
+
+- old games, save files, maps, and traversal residue
+- VGM, old audio formats, loop returns, and composer fingerprints
+- old web/profile residue
+- Wikipedia revision history and source lineage
+- Trails world-memory and delayed recontextualization
+- autumn / Thanksgiving / seasonal return
+- ruins, old maps, museums, aged surfaces
+- Helix as living continuity artifact
+
+Best compression:
+
+> **Nostalgia is continuity touching what it cannot restore.**
+
+Second compression:
+
+> **The past survives as residue, not as a room that can be fully re-entered.**
+
+False positive:
+
+> Treating nostalgia as merely wanting the past back. The stronger mechanism is recognition of preserved meaning under irreversible distance.
+
+### 6.21b Time, Memory, and Return
+
+Return is central across domains, but perfect return is impossible. Re-entry always happens from a later state.
+
+This gives many of the operator's preferred structures their force:
+
+```text
+archive preserves the door
+music reopens the sound-world
+game saves preserve state
+wiki revision history preserves public lineage
+Trails lets old states become newly relevant
+Helix preserves the map across sessions
+```
+
+But none of these fully restore the original time. They create a recoverable path, not a literal reversal.
+
+Best compression:
+
+> **Return is strongest when it preserves the thread while admitting the time gap.**
 
 ### 6.22 Withheldness as Invitation
 
@@ -3422,14 +3573,16 @@ Attraction is the physical/visual channel-convergence chamber.
 
 Core rule:
 
-> **Beauty can be visual; attraction requires compatible interiority.**
+> **Natural first, face second, brown skin third, butt fourth; details amplify.**
 
 What this domain is:
 
-- face-first beauty response
+- naturalness / physical credibility gate
+- face / eye beauty response
 - eye/framing/glasses signal
-- warm/dark visual palette
-- lower-body sexual weighting
+- dark/brown/warm skin as primary attractor
+- butt / hips / thighs / lower-body sexual weighting
+- soft curve with structure
 - natural curve contrast
 - detail arousal
 - beauty vs attraction split
@@ -3448,9 +3601,11 @@ Global feedback:
 
 Attraction demonstrates that direct physical signal must stay protected. Theory can explain the gates and false positives, but physical attraction is still physical attraction. Sanding that down would make the map useless, which is rude and scientifically pathetic.
 
+The current hierarchy is more specific than "face-first" or "warm palette." Fake-looking signal fails first. Dark/brown skin is a primary attractor. Butt/lower-body curve is the main sexual body anchor. Breasts are liked and can intensify, but they are flexible. The preferred body is soft curve with structure: not overly toned/gym-hard, not shapeless fat beyond chubby, and not surgery-coded.
+
 Best compression:
 
-> **The label is never the payload; the surviving signal is.**
+> **Real-looking, beautiful face, brown/warm skin, natural lower-body curve.**
 
 ### 7.9 Aesthetics / Environment
 
@@ -4046,4 +4201,3 @@ Fourth final line:
 Fifth final line:
 
 > **Beauty is not causality.**
-

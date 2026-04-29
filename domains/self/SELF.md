@@ -37,6 +37,11 @@ Eighth compression:
 
 > **Placeholder structures can be discarded instantly; load-bearing structures get protected.**
 
+Ninth compression:
+
+> **Nostalgia is continuity grieving its own irreversibility.**
+
+
 ---
 
 ## 0. Scope and Ground Rules
@@ -395,6 +400,24 @@ local anomaly
 
 This is a strength when the compression preserves doors. It becomes risky when the compression becomes too beautiful too quickly and starts acting like proof before the evidence has caught up.
 
+The current sharper model has two modes:
+
+```text
+Curatorial Compression:
+  target shape known or strongly implied
+  clean, repair, align, preserve lineage, make the object more itself
+
+Investigative Compression:
+  target shape unknown or hidden
+  sharpen the question, kill false positives, narrow possibility space
+```
+
+Curatorial compression feels like cleaning, lawncare, article repair, library tagging, or folder consolidation: the proper form is already sensed, and the work removes what prevents the object from expressing it.
+
+Investigative compression feels like narrowing a live mystery: the operator does not yet know the final shape, but can remove substitutes that are too easy, too vague, or too fake.
+
+This is a core cognitive operation, not just a writing style. It also explains why the operator can either solve directly or create strong structure for another agent/person to solve.
+
 Passes:
 
 - extracting a domain law from many examples
@@ -418,6 +441,40 @@ Best compression:
 Second compression:
 
 > **The danger is not compression; the danger is beautiful overpromotion.**
+
+Third compression:
+
+> **Curatorial compression repairs a known form; investigative compression pressures an unknown one.**
+
+### 4.4a Nostalgia / Temporal Continuity Emotion
+
+Nostalgia is one of the operator's clearest continuity emotions.
+
+It should not be flattened into sadness, happiness, missing, sentimentality, or simple preference for old things. The operator experiences nostalgia as its own mixed affect: beautiful and tragic because the past remains meaningful but cannot be re-entered as itself.
+
+Structure:
+
+```text
+prior state remains identity-bearing
++ residue still reaches the present
++ memory can reopen the door
++ time prevents literal return
+= nostalgia
+```
+
+This explains why old games, VGM, profile residue, autumn, ruins, old maps, wiki histories, and long-running worlds can carry disproportionate emotional weight.
+
+Best compression:
+
+> **Nostalgia is the felt gap between residue and restoration.**
+
+Second compression:
+
+> **Return matters because continuity matters; return hurts because time does not reverse.**
+
+Agent caution:
+
+> Do not treat nostalgia as a recommendation shortcut. An old thing passes only when it preserves a meaningful thread, not merely because it is old.
 
 ### 4.5 Fractal Self-Similarity As Recognition Pattern
 
@@ -1796,4 +1853,3 @@ Correct compression:
 > **A monotropic, low-social-pull, high-object-depth operator whose selfhood becomes usable through gates, chambers, archives, and controlled signal.**
 
 Still too compact for the main file? Fine. But the README must keep the bones.
-

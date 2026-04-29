@@ -92,6 +92,9 @@ Active capsules:
 - `music/` — foobar, VGM, DSP, metadata, world-listening, bass/air/return.
 - `games/` — field mechanics, authored worlds, roles, transition systems,
   curated residue, completion/playtime evidence.
+- `eft/` — Extreme Football Throwdown as designed digital sport, transition-field,
+  manifest-driven game design, mapmaking, player skill ecology, and continuous
+  contest evidence.
 - `trails/` — Trails/Kiseki continuity, database, wiki, atlas work,
   world-memory, source ingestion, spoiler discipline.
 - `wiki/` — Wikipedia editing, article architecture, citations, templates,
@@ -149,6 +152,7 @@ Domain capsules use named domain files instead of generic local README files.
 - `domains/self/SELF.md`
 - `domains/music/MUSIC.md`
 - `domains/games/GAMES.md`
+- `domains/eft/EFT.md`
 - `domains/trails/TRAILS.md`
 - `domains/wiki/WIKI.md`
 - `domains/software/SOFTWARE.md`
@@ -275,6 +279,26 @@ chambered-domain pass.
 11. **Lineage matters when it remains operational.** Source history, migration
     history, etymology, arc memory, and evidence chains should stay reopenable
     when they change interpretation.
+12. **Compression has two modes.** Curatorial compression repairs toward a known
+    form; investigative compression narrows unknowns by eliminating false
+    substitutes.
+
+Curatorial compression applies to repo structure, Wikipedia/public objects,
+source cleanup, folder consolidation, templates, manifests, and other cases
+where the target grammar is already known or strongly implied.
+
+Investigative compression applies to labs, reports, theory pressure, taste
+mapping, dataset triage, and other cases where the target is hidden by weak
+explanations or false positives.
+
+Root grammar:
+
+```text
+core compresses
+domains decompress
+labs pressure-test
+research applies external pressure
+```
 
 Best compression:
 
@@ -334,8 +358,8 @@ Second compression:
 `labs/` is for pressure tests that cross domains or test master claims. A lab
 must be able to weaken a claim.
 
-`labs/inhabited_interiority/` is the special future/cross-domain lab for
-consciousness and inhabited-interiority work.
+`labs/temporal_ownership/` is the special future/cross-domain lab for
+Temporal Ownership Model, ICT, DCP, LIP, EIP, consciousness, and owned-continuity work.
 
 `archive/` preserves local-only substantial raw provenance grouped by evidence
 type. Heavy datasets, images, hard-to-reproduce exports, and not-yet-ingested

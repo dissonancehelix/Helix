@@ -1,0 +1,44 @@
+id: eft
+name: Extreme Football Throwdown
+status: active
+role: >-
+  Domain capsule for Extreme Football Throwdown as a designed sport, live transition
+  field, community skill ecology, mapmaking surface, and personal proof-object for
+  predictive positioning / field dynamics.
+parent: DISSONANCE.md
+primary_file: domains/eft/EFT.md
+primary_source: domains/eft/model/MANIFEST.md
+not_role:
+  - generic Garry's Mod nostalgia file
+  - raw changelog
+  - code reference
+  - sports-simulation brief
+  - personal brag sheet
+  - replacement for domains/games/GAMES.md
+  - replacement for the EFT implementation repository
+best_compressions:
+  - EFT is possession volatility made playable through geometry.
+  - The ball is not a prize; it is a target assignment.
+  - The best player is positioned for the next state transition, not the current screenshot.
+  - Cleaner is wrong when cleaner kills tension.
+source_authority:
+  direct_operator_evidence: highest
+  eft_manifest: canonical_behavioral_contract
+  implementation_code: reference_body
+  community_memory: supporting_evidence
+owns:
+  - EFT game identity
+  - possession volatility
+  - predictive positioning
+  - collision density
+  - role fluidity
+  - mapmaking as field editing
+  - Slam Dunk / map authorship evidence
+  - EFT-specific agent defaults
+feeds:
+  - games
+  - sports
+  - software
+  - aesthetics
+  - worldview
+  - dissonance

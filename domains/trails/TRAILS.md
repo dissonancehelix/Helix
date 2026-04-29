@@ -37,6 +37,11 @@ Eighth compression:
 
 > **A world feels alive when its history remains operational rather than decorative.**
 
+Ninth compression:
+
+> **Trails turns nostalgia into operational memory.**
+
+
 ---
 
 ## 0. Scope and Ground Rules
@@ -434,6 +439,31 @@ Second compression:
 
 > **Backstory is dead unless it still changes what the world can become.**
 
+### 3.8a Nostalgia As Operational Continuity
+
+Trails is not nostalgic merely because it is long-running or because earlier games are remembered fondly.
+
+Its stronger mechanism is that prior states remain operational. Old scenes, characters, institutions, wars, technologies, mysteries, and relationships keep returning with new meaning.
+
+The emotional force comes from:
+
+```text
+old state survives as lineage
++ later evidence reopens it
++ the world has moved on
++ the player has moved on
+= return with irreversible distance
+```
+
+This is why Trails can make return feel like new information rather than simple replay.
+
+Best compression:
+
+> **Trails is nostalgic because the past keeps acting on the present.**
+
+Second compression:
+
+> **The world remembers; the player returns changed.**
 
 ### 3.9 Essence-Preserving Export
 

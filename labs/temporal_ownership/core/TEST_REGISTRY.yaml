@@ -1,0 +1,134 @@
+version: "0.1"
+status: draft
+test_groups:
+  ownership_without_report:
+    - id: T-OWN-001
+      question: "Can ownership or consciousness persist when verbal report is absent or blocked?"
+      target_claims: [ICT-C001, ICT-C003]
+      relevant_cases: [locked_in_syndrome, covert_consciousness, dreams, infants, animals, no_report_paradigms]
+      expected_support_pattern: "Ownership or appearance indicators survive without reportability."
+      expected_weakening_pattern: "All credible ownership indicators disappear when report disappears."
+      evidence_type: empirical
+      current_status: open
+
+  report_without_ownership:
+    - id: T-REPORT-001
+      question: "Can a system report selfhood without evidence of owned experience?"
+      target_claims: [ICT-C003, ICT-C011]
+      relevant_cases: [current_llms, chatbots, confabulation, philosophical_zombies, social_masking]
+      expected_support_pattern: "Self-report is dissociated from ownership, continuity, boundary, or A evidence."
+      expected_weakening_pattern: "Report reliably implies ownership across hard cases."
+      evidence_type: operational
+      current_status: open
+
+  continuity_through_transformation:
+    - id: T-CONT-001
+      question: "Which transformations preserve owned continuity?"
+      target_claims: [ICT-C002, ICT-C004]
+      relevant_cases: [sleep_waking, anesthesia_recovery, brain_injury, personality_change, ship_of_theseus_brain_replacement]
+      expected_support_pattern: "Continuity is graded and depends on ownership-bearing causal/temporal structure."
+      expected_weakening_pattern: "Memory or behavior alone explains all identity judgments."
+      evidence_type: mixed
+      current_status: open
+    - id: T-CONT-002
+      question: "Does destructive upload preserve transformation or cause replacement?"
+      target_claims: [ICT-C002, ICT-C005]
+      relevant_cases: [destructive_upload, teleportation, backup_restore]
+      expected_support_pattern: "Non-branching causal transition matters beyond copied pattern."
+      expected_weakening_pattern: "Pattern recreation alone fully preserves same-self continuation."
+      evidence_type: thought_experiment
+      current_status: open
+
+  branching_and_forking:
+    - id: T-BRANCH-001
+      question: "What happens when one ownership-stream yields two equally valid successors?"
+      target_claims: [ICT-C005, ICT-C004]
+      relevant_cases: [non_destructive_copy, simulation_fork, backup_restore_with_original_alive]
+      expected_support_pattern: "Both successors inherit pattern, but singular first-person continuation is not preserved."
+      expected_weakening_pattern: "Branching creates no meaningful identity problem."
+      evidence_type: thought_experiment
+      current_status: open
+    - id: T-BRANCH-002
+      question: "Can an AI fork preserve selfhood without non-branching continuity?"
+      target_claims: [ICT-C005, ICT-C011]
+      relevant_cases: [llm_with_persistent_memory, copied_agent, tool_agent_fork]
+      expected_support_pattern: "Forks expose report continuity without singular ownership."
+      expected_weakening_pattern: "Forked agents demonstrate owned continuity by criteria beyond report."
+      evidence_type: operational
+      current_status: open
+
+  boundary_collapse:
+    - id: T-BOUND-001
+      question: "What happens to selfhood when self/world boundary weakens or changes?"
+      target_claims: [ICT-C006, ICT-C002]
+      relevant_cases: [depersonalization, derealization, ego_dissolution, psychosis, dissociation, flow_states]
+      expected_support_pattern: "Ownership and selfhood weaken or transform when boundary maintenance changes."
+      expected_weakening_pattern: "Selfhood remains fully intact without boundary distinction."
+      evidence_type: empirical
+      current_status: open
+
+  integration_without_ownership:
+    - id: T-INT-001
+      question: "Can high integration exist without ownership or selfhood?"
+      target_claims: [ICT-C007, ICT-C008]
+      relevant_cases: [complex_non_conscious_systems, unconscious_brain_states, neural_networks, organoids, weather_systems]
+      expected_support_pattern: "Integration supports field unity but does not guarantee ownership."
+      expected_weakening_pattern: "Integration alone explains consciousness, ownership, and selfhood."
+      evidence_type: mixed
+      current_status: open
+
+  embodiment_and_control:
+    - id: T-EMB-001
+      question: "How much body/control coupling is required for ownership?"
+      target_claims: [ICT-C006, ICT-C010]
+      relevant_cases: [rubber_hand_illusion, virtual_embodiment, paralysis, locked_in_syndrome, dreams, avatars]
+      expected_support_pattern: "Ownership tracks control coupling and embodied prediction, but can be altered."
+      expected_weakening_pattern: "Embodiment/control is irrelevant to all ownership cases."
+      evidence_type: empirical
+      current_status: open
+
+  memory_continuity:
+    - id: T-MEM-001
+      question: "Is memory necessary, supportive, or sufficient for identity persistence?"
+      target_claims: [ICT-C004, ICT-C002]
+      relevant_cases: [amnesia, dementia, infant_selfhood, anesthesia, dissociative_identity]
+      expected_support_pattern: "Memory supports continuity but is not identical to ownership-stream preservation."
+      expected_weakening_pattern: "Memory similarity fully explains identity persistence."
+      evidence_type: mixed
+      current_status: open
+    - id: T-MEM-002
+      question: "Can consciousness persist with minimal autobiographical memory?"
+      target_claims: [ICT-C001, ICT-C004]
+      relevant_cases: [infants, animals, dream_states, dementia]
+      expected_support_pattern: "Appearance can remain while autobiographical self weakens."
+      expected_weakening_pattern: "No consciousness is credible without autobiographical continuity."
+      evidence_type: empirical
+      current_status: open
+
+  appearance_from_within_gap:
+    - id: T-A-001
+      question: "Does any candidate mechanism explain A rather than only report, integration, or behavior?"
+      target_claims: [ICT-C003, ICT-C007, ICT-C008, ICT-C010]
+      relevant_cases: [iit, no_report_paradigms, anesthesia, pci, recurrent_processing, gnwt]
+      expected_support_pattern: "A remains distinct from access/report and requires an intrinsic field/interiority account."
+      expected_weakening_pattern: "A is fully explained without field, boundary, or ownership concepts."
+      evidence_type: theory_comparison
+      current_status: open
+    - id: T-A-002
+      question: "Can future AI evidence cross the A gap without relying on self-report alone?"
+      target_claims: [ICT-C011, ICT-C003]
+      relevant_cases: [llm_with_persistent_memory, llm_with_tool_agency, embodied_ai, forked_ai]
+      expected_support_pattern: "Report remains insufficient without ownership, continuity, boundary, and intrinsic-field evidence."
+      expected_weakening_pattern: "AI self-report becomes sufficient evidence by robust independent criteria."
+      evidence_type: operational
+      current_status: open
+
+  theory_comparison_matrix:
+    - id: T-COMP-001
+      question: "Which theory explains which component without collapsing the others?"
+      target_claims: [ICT-C007, ICT-C008, ICT-C009, ICT-C010]
+      relevant_cases: [iit, gnwt_gwt, recurrent_processing, hot, predictive_processing, embodied_enactive, self_model_theory]
+      expected_support_pattern: "A division of labor explains more than any single replacement theory."
+      expected_weakening_pattern: "One theory explains appearance, access, report, ownership, continuity, and branching with no residue."
+      evidence_type: theory_comparison
+      current_status: open

@@ -37,6 +37,11 @@ Eighth compression:
 
 > **A good agent turns context into reviewable artifacts before the window closes.**
 
+Ninth compression:
+
+> **LLMs can preserve context without experiencing the gap that makes time human.**
+
+
 ---
 
 ## 0. Scope and Ground Rules
@@ -555,6 +560,40 @@ Best compression:
 
 > **Depth must reveal behavior. If depth only repeats names, compress it.**
 
+### 4.2a Curatorial vs Investigative Compression In Software
+
+Software work exposes the two compression modes operationally.
+
+Curatorial Compression applies when the desired structure is known or strongly implied:
+
+- repo refactors,
+- folder consolidation,
+- schema cleanup,
+- path-reference repair,
+- source lineage repair,
+- template/tool interface cleanup.
+
+The job is to make the object more itself.
+
+Investigative Compression applies when the target is unknown:
+
+- agent/theory testing,
+- false-positive elimination,
+- report vs ownership,
+- memory vs continuity,
+- integration vs ownership,
+- dataset triage before analysis.
+
+The job is to make the question harder to fake.
+
+Standing agent rule:
+
+> **Infer subtractive consolidation when the stated goal is cleanup: preserve load-bearing signal, merge useful content, delete stale husks, and do not create an archive unless explicitly requested.**
+
+Best compression:
+
+> **Repo refactor is curatorial when the room-shape is known; theory testing is investigative when the target is hidden.**
+
 ### 4.3 Reports As Airlocks
 
 Reports are not truth.
@@ -734,6 +773,39 @@ Best compression:
 
 > **If it needs to be reused, make it downloadable.**
 
+### 5.7 LLM Time-Asymmetry
+
+LLM collaboration exposes a strange time boundary.
+
+From the operator's side, a session can sit across minutes, hours, days, or years. From the model's local interaction frame, the next input appears immediately as context. The model can process temporal claims, timestamps, memories, and files, but it does not thereby experience waiting, anticipation, boredom, aging, loss, or the felt gap between one moment and another.
+
+This matters for Helix because persistent memory and context are not the same as lived continuity.
+
+Good software can bridge time for the operator by preserving:
+
+- files
+- reports
+- diffs
+- artifacts
+- source lineage
+- memory entries
+- validation output
+- session harvests
+- claim ledgers
+
+But those artifacts are continuity scaffolds, not proof that the agent has owned temporal experience.
+
+Best compression:
+
+> **An LLM can carry context across time without feeling time pass.**
+
+Second compression:
+
+> **Artifacts are the bridge between human temporal gaps and model context windows.**
+
+Agent rule:
+
+> When work matters across sessions, turn it into a file, report, diff, or ledger before the context window evaporates.
 
 ## 6. Foobar / DSP / Music Software
 
