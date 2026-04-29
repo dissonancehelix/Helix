@@ -10,7 +10,7 @@ purpose: >
   layers that survive format and hardware changes.
 
 docs:
-  readme: domains/music/README.md
+  domain_file: domains/music/MUSIC.md
   spec: domains/music/model/SPEC.md
 
 domain_local_metrics:

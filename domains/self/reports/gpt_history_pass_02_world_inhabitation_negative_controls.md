@@ -10,9 +10,9 @@ Files analyzed:
 - `domains/self/data/output/gpt_history/messages_index.jsonl`
 - `domains/wiki/data/dissident93_wikimedia_full_history.jsonl`
 - `domains/wiki/data/dissident93_wikimedia_full_history_profile.json`
-- `domains/games/README.md`
-- `domains/music/README.md`
-- `domains/wiki/README.md`
+- `domains/games/GAMES.md`
+- `domains/music/MUSIC.md`
+- `domains/wiki/WIKI.md`
 - `inbox/stardewmodlist.txt`
 - `inbox/terrariamods.txt`
 - Terraria capture: `C:/Users/dissonance/Documents/My Games/Terraria/Captures/Capture 2015-07-09 01_40_01.png`
@@ -46,7 +46,7 @@ Public / LLM-facing structures need a clean lead:
 
 - Wikipedia articles
 - DISSONANCE.md
-- README.md and domain READMEs
+- README.md and domain files
 - agent prompts
 - theory summaries
 - public knowledge artifacts

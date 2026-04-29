@@ -1,0 +1,60 @@
+{
+  "source_count": 6,
+  "raw_storage_target": "archive/wiki_page_snapshots/",
+  "snapshots": [
+    {
+      "file_name": "Dota 2 - Wikipedia (4_28_2026 10：29：18 PM).html",
+      "inferred_title": "Dota 2",
+      "bytes": 2722079,
+      "source_url": "https://en.wikipedia.org/wiki/Dota_2",
+      "tags": [
+        "games"
+      ]
+    },
+    {
+      "file_name": "Jayden Daniels - Wikipedia (4_28_2026 10：28：34 PM).html",
+      "inferred_title": "Jayden Daniels",
+      "bytes": 3556003,
+      "source_url": "https://en.wikipedia.org/wiki/Jayden_Daniels",
+      "tags": [
+        "sports_commanders"
+      ]
+    },
+    {
+      "file_name": "Josh Harris (businessman) - Wikipedia (4_28_2026 10：28：51 PM).html",
+      "inferred_title": "Josh Harris (businessman)",
+      "bytes": 2301290,
+      "source_url": "https://en.wikipedia.org/wiki/Josh_Harris_(businessman)",
+      "tags": [
+        "sports_commanders"
+      ]
+    },
+    {
+      "file_name": "New Commanders Stadium - Wikipedia (4_28_2026 10：29：04 PM).html",
+      "inferred_title": "New Commanders Stadium",
+      "bytes": 2408780,
+      "source_url": "https://en.wikipedia.org/wiki/New_Commanders_Stadium",
+      "tags": [
+        "sports_commanders"
+      ]
+    },
+    {
+      "file_name": "Template：Washington Commanders staff - Wikipedia (4_28_2026 10：29：30 PM).html",
+      "inferred_title": "Template：Washington Commanders staff",
+      "bytes": 407797,
+      "source_url": "https://en.wikipedia.org/wiki/Template:Washington_Commanders_staff",
+      "tags": [
+        "sports_commanders",
+        "template_work"
+      ]
+    },
+    {
+      "file_name": "User：Dissident93 - Wikipedia (4_28_2026 10：49：03 PM).html",
+      "inferred_title": "User：Dissident93",
+      "bytes": 5634517,
+      "source_url": "https://en.wikipedia.org/wiki/User:Dissident93",
+      "tags": []
+    }
+  ],
+  "note": "Raw SingleFile HTML snapshots stay in archive; this is a compact index only."
+}

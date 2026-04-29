@@ -449,7 +449,7 @@ under `library_skeleton` — directory counts, file counts, sizes.
 | `docs/governance/GOVERNANCE.md` | Promotion gates, enforcement |
 | `docs/invariants/INVARIANTS.md` | Named invariants registry |
 | `docs/governance/AUTHORITY.md` | What each doc type is authoritative for |
-| `domains/*/README.md` | Domain status |
+| `domains/*/<DOMAIN>.md` | Domain status |
 | `domains/*/manifest.yaml` | Machine-readable domain facts |
 | `core/engine/store/compiler/atlas_compiler.py` | The sole Atlas write authority |
 | `core/engine/contract/validation/` | Manifest + structure enforcement |

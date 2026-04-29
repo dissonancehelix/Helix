@@ -1,6 +1,6 @@
 # core/map/examples.yaml — evidence anchors.
 # Each example points up to one or more pattern IDs and down to a
-# domain README, data/ path, or lab fixture.
+# named domain file, data/ path, or lab fixture.
 # Item shape: { id, title, supports: [pattern_id...], evidence_path, domain, status }
 
 version: 0.1

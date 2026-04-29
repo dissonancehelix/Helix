@@ -9,7 +9,7 @@ purpose: >
   domain capsule.
 
 docs:
-  readme: domains/language/README.md
+  domain_file: domains/language/LANGUAGE.md
 
 runtime:
   tools:
@@ -21,7 +21,7 @@ runtime:
 data:
   records: domains/language/data/
   output: domains/language/data/
-  raw_provenance: archive/raw/
+  raw_provenance: archive/ (substantial evidence-type folders only)
 
 known_gaps:
   - Domain model depth is newly promoted and needs a fuller operational README.

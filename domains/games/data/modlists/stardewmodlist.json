@@ -1,0 +1,1296 @@
+{
+  "source": "stardewmodlist.txt",
+  "raw_storage_target": "archive/modlists/",
+  "game": "Stardew Valley",
+  "mod_count": 180,
+  "tag_counts": {
+    "uncategorized": 95,
+    "atmosphere_inhabitation": 40,
+    "vanilla_plus_content": 26,
+    "friction_reduction": 23,
+    "world_memory_progression": 10,
+    "control_safety": 5
+  },
+  "mods": [
+    {
+      "name": "(CP) Kisaa's Cozy Rustic Kitchen Replacement",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "(CR) Kisaa's Farm Cave Pack",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "ActiveAndUsefulPets",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "Adventurer's Guild Expanded for",
+      "version": "1.6",
+      "tags": [
+        "friction_reduction",
+        "world_memory_progression",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "Aimon's Tidy Cozy Cellar",
+      "version": "1.6",
+      "tags": [
+        "friction_reduction",
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "Aimon's Tidy Cozy Farmhouse",
+      "version": null,
+      "tags": [
+        "friction_reduction",
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "AlternativeTextures",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "AnimalsDontRemoveGrass",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation",
+        "control_safety"
+      ]
+    },
+    {
+      "name": "AutoFillPetBowl",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "Automate",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "Beach Crabs",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "BETAS",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "BetterFestivalNotifications",
+      "version": null,
+      "tags": [
+        "friction_reduction",
+        "world_memory_progression"
+      ]
+    },
+    {
+      "name": "BetterRanching",
+      "version": null,
+      "tags": [
+        "friction_reduction",
+        "world_memory_progression"
+      ]
+    },
+    {
+      "name": "BetterRarecrows",
+      "version": null,
+      "tags": [
+        "friction_reduction",
+        "world_memory_progression"
+      ]
+    },
+    {
+      "name": "Bigger Better Bundles by glymr Vanilla Version",
+      "version": null,
+      "tags": [
+        "friction_reduction",
+        "world_memory_progression",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "BiggerBackpack",
+      "version": null,
+      "tags": [
+        "friction_reduction",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "BiggerFridges",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "BirbCore",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "BudgetTVFix",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "CJBCheatsMenu",
+      "version": null,
+      "tags": [
+        "control_safety"
+      ]
+    },
+    {
+      "name": "CJBItemSpawner",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "CJBShowItemSellPrice",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "Clear Glasses",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "CloudySkies",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "ConsoleCommands",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content",
+        "control_safety"
+      ]
+    },
+    {
+      "name": "ContentPatcher",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "ConvenientInventory",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "CraftFromContainers",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "CrossModCompatibilityTokens",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "CustomCompanions",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "CustomFixedDialogue",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "CustomNPCExclusions",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "CustomTokens",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "DebrisIsInTheAir",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "DestroyableBushes",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "DialogueDisplayFramework",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "Domestic Animals",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "Dynamic Windows",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "DynamicNightTime",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "DynamicReflections",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "EscasModdingPlugins",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "ExtraMachineConfig",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "FarmhouseFixes",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "FarmTypeManager",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "FashionSense",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "FastAnimations",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "Friend of a Friend",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "FruitTreesReforged",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "GenericModConfigMenu",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "GMCMOptions",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "HappyBirthday",
+      "version": null,
+      "tags": [
+        "world_memory_progression"
+      ]
+    },
+    {
+      "name": "HappyBirthdayContentPack en-US",
+      "version": null,
+      "tags": [
+        "world_memory_progression",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "HoldToBreakGeodes",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "Hoods & Hoodies Pack",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "HorseOverhaul",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "ImprovedFallDebris",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "InfiniteZoom",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "InstantBuildings",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "InstantToolUpgrades",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "ItemExtensions",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "ItsStardewTime",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "MiniBars",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "MiscMapActionsProperties",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "MixedBag Tilesheets",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "MonsterVariety",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "MoreAbandonedJojaBundles",
+      "version": null,
+      "tags": [
+        "world_memory_progression",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "MoreGrass",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "MoreNightlyEvents",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "Mouse Friends in the Forest",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "MovementSpeed",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "NoclipMode",
+      "version": null,
+      "tags": [
+        "control_safety"
+      ]
+    },
+    {
+      "name": "NoFriendshipDecayReborn",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "Now You Hear It",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "NPCMapLocations",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "PortableCommunityCenter",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "Portraited Changing Skies - Beta",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "PortraitFrameVariations",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "Portraiture",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "PositionalAudio",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "ProducerFrameworkMod",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "RealisticWindEffects",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "Remapping",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "ResetTerrainFeatures_NET6",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "SaveBackup",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "SelfCheckout",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "Shop Tweaks -",
+      "version": "v1.0.7",
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "ShutUp",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "SimpleCropLabel",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "SinZational Speedy Solutions",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "SitForStaminaMod",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "SkipIntro",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "SkullCavernElevator",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "SpaceCore",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "SplitscreenImproved",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "StardewHack",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "StardustCore",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "TDIT - Portraits for Extras",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "TDIT - Portraits for Vendors",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "The Museum Pays -",
+      "version": "v1.5.8",
+      "tags": [
+        "world_memory_progression"
+      ]
+    },
+    {
+      "name": "Tilt-Shift - Native Effect Shader",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "Unique-Gift-Dialogues-Expanded",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "Vanilla Plus Professions",
+      "version": null,
+      "tags": [
+        "world_memory_progression",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "Vibrant Pastoral",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "VibrantPastoral",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "VisibleFish",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "WanderingSpouses",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "WarpToPlayer",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "Water Flow",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "WearMoreRings",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "Weather Wonders - Beta",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "Wild Animals",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[A_TK] - Tilesheets of Misc Stuff",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] 7641 - Community Center Icons - IllogicalMoodSwing",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Abigail's New Haircut",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Backwoods Entry",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Beach Sounds",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Better Water",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "[CP] Bog'sMonsterMash",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] CakeyBunz  Gabriel Retexture",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] CakeyBunz Zinnia Retexture",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Canon Friendly Dialogue Expansion",
+      "version": null,
+      "tags": [
+        "control_safety"
+      ]
+    },
+    {
+      "name": "[CP] Community Center",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Coop and Barn Facelift",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] crystalinerose Tilesheets",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] CSS' From Grandpa, With Love",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Cuter Jas Seasonal",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Cuter Vincent Seasonal",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] DaisyNiko's Tilesheets",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Dynamic Windows",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Early Town Shortcuts",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Expansion Fish Redesign",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Farm Animal Facelift",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Fishing Made Easy Suite",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "[CP] FriendshipsAffectPrices",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "[CP] Ginger Island Farmhouse Revamp",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Hat Mouse and Friends",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Hudson Valley Buildings",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "[CP] HxW Tilesheets",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Jakk's Quinn",
+      "version": null,
+      "tags": [
+        "friction_reduction"
+      ]
+    },
+    {
+      "name": "[CP] Less Ugly Town Interiors",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Linus Seasonal Leaves",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Living Portraits",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Lumisteria Tilesheets - Indoor",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Lumisteria Tilesheets - Outdoor",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Map Tweaks",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Moon Cycle",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Nicer Seasonal TV Channels",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] One tile high Budget TV",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Pet Bowl Recolor",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Pet Facelift",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Resculpted",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Seaside Valley",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Seasonal Cute Characters",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Seasonal Revised Maru",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] SH's Wild Critter Tweaks",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Sharogg's Tilesheets",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Simple Foliage",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Simple Resources",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Spouse Portraits Reworked",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Stardew Kids Expansion",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Summer Bird and Cicada Sounds",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Thunder and Frog Sounds",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "[CP] Vanilla Tweaks - Aquarium",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "[CP] Vanilla Tweaks - Caves",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation",
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "[CP] Vanilla Tweaks - Farming",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "[CP] Vanilla Tweaks - Interface",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "[CP] Vanilla Tweaks - Producer",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "[CP] Vanilla Tweaks - Warrior",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "[CP] Vibrant Pastoral Redrawn",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Wallet Descriptions",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[CP] Zenith Farm",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[Endwyr]ValleyUpgrades",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[FS] Shardust's Animated Hairstyles",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[FS] Vanilla Accessories",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "[FS] Vanilla Pants and Skirts",
+      "version": null,
+      "tags": [
+        "vanilla_plus_content"
+      ]
+    },
+    {
+      "name": "[FTM] Zenith Farm",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "[MG] Flowergrass and Snowfields - VibrantPastoral",
+      "version": null,
+      "tags": [
+        "atmosphere_inhabitation"
+      ]
+    },
+    {
+      "name": "modlist.txt",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    },
+    {
+      "name": "vortex.deployment.json",
+      "version": null,
+      "tags": [
+        "uncategorized"
+      ]
+    }
+  ],
+  "interpretation_note": "Tags are deterministic keyword labels for later taste/domain analysis, not canon."
+}

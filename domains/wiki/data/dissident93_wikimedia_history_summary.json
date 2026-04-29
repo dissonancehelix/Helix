@@ -3,7 +3,7 @@
   "username": "Dissident93",
   "status": "normalized_from_archived_api_pipeline",
   "generated_at": "2026-04-28T19:42:52.760743+00:00",
-  "source_archive": "archive/raw/raw_datasets/wikipedia_2026-04-28.zip",
+  "source_archive": "deleted_after_ingestion: prior compact wikipedia_2026-04-28.zip",
   "source_archive_sha256": "7b44b86c0bbff6112e88557efeed2ed8ebf104be343da8a9bec59ae219d6f290",
   "source_members": [
     "wikipedia/wiki_20260411_150435/wikimedia_normalized_edits.jsonl",
@@ -502,5 +502,6 @@
         }
       ]
     }
-  }
+  },
+  "source_archive_policy": "small archive deleted after normalized domain data was restored; full public history is represented by current domain data/profile outputs"
 }

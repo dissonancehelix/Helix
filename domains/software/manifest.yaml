@@ -8,7 +8,7 @@ purpose: >
   implementation patterns as a domain capsule.
 
 docs:
-  readme: domains/software/README.md
+  domain_file: domains/software/SOFTWARE.md
 
 data:
   records: domains/software/data/

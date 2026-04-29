@@ -1,6 +1,6 @@
 # labs/
 
-Pressure chambers. Each lab tests a claim made elsewhere in the system: in `DISSONANCE.md`, in `core/map/patterns.yaml`, or in a domain README. Labs are not theory shrines: a lab without a falsifiable claim and a demotion criterion is overdue for either sharpening or deletion.
+Pressure chambers. Each lab tests a claim made elsewhere in the system: in `DISSONANCE.md`, in `core/map/patterns.yaml`, or in a domain file. Labs are not theory shrines: a lab without a falsifiable claim and a demotion criterion is overdue for either sharpening or deletion.
 
 ## Structure
 
@@ -37,5 +37,3 @@ Each lab README must cover:
 - A lab does not own truth. It applies pressure.
 - A lab that cannot fail is not a lab. Mark it speculative or remove it.
 - When a lab demotes a pattern, update `core/map/patterns.yaml` status and add a `core/map/anomalies.yaml` entry recording the disagreement.
-
-

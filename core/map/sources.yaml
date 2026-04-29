@@ -18,13 +18,13 @@ items:
     canonical_home: .
     summary: "Primary Helix workspace repository."
 
-  - id: source.archive_raw
-    title: Raw Evidence Archive
+  - id: source.archive_substantial
+    title: Substantial Evidence Archive
     type: filesystem_root
     status: active
     mode: read_only
-    canonical_home: archive/raw/
-    summary: "Raw provenance and source dumps. Restore or derive from here; do not delete raw evidence."
+    canonical_home: archive/
+    summary: "Substantial raw provenance grouped by evidence type. Tiny source slips are deleted after domain extraction."
 
   - id: source.foobar
     title: foobar2000 Local Music Atlas
@@ -55,6 +55,6 @@ items:
     type: dataset
     status: archived
     mode: archive_restore_only
-    canonical_home: archive/raw/raw_datasets/attraction_2026-04-28.zip
-    summary: "Merged local attraction image archive. Raw images are archived, not kept as standing raw folders; compact analysis lives under archive/migrations/images/."
+    canonical_home: archive/compressed_archives/attraction_2026-04-28.zip
+    summary: "Merged local attraction image archive. Raw images are archived when substantial; compact analysis lives under the owning domain or lab."
 

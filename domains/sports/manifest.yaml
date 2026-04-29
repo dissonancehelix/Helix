@@ -2,7 +2,7 @@ domain: sports
 status: placeholder
 parent_map: DISSONANCE.md
 role: decompressed_domain_room
-canonical_readme: domains/sports/README.md
+canonical_domain_file: domains/sports/SPORTS.md
 owns_tools: false
 has_local_labs: false
 notes:

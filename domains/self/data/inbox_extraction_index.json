@@ -1,0 +1,32 @@
+{
+  "source_folder": "inbox/",
+  "created_outputs": [
+    "domains\\self\\data\\browser_bookmarks_profile.json",
+    "domains\\games\\data\\modlists\\stardewmodlist.json",
+    "domains\\games\\data\\modlists\\terrariamods.json",
+    "domains\\games\\data\\completed_games.json",
+    "domains\\wiki\\data\\page_snapshots_index.json",
+    "domains\\self\\data\\youtube_subscriptions_index.json",
+    "domains\\self\\data\\google_activity_archive_index.json"
+  ],
+  "extraction_summary": {
+    "bookmarks": true,
+    "stardew_mods": true,
+    "terraria_mods": true,
+    "completed_games": true,
+    "wiki_snapshots": true,
+    "youtube": true,
+    "google_activity": true
+  },
+  "raw_storage_policy": "After compact extraction, substantial raw datasets/images move to archive by evidence type; tiny source slips are deleted after ingestion.",
+  "deleted_after_ingestion": [
+    "archive/browser_exports/bookmarks-2024-12-01.json",
+    "archive/game_lists/Video games completed - Sheet1.tsv",
+    "archive/modlists/stardewmodlist.txt",
+    "archive/modlists/terrariamods.txt",
+    "archive/text_exports/foobar loved.txt",
+    "archive/compressed_archives/games_2026-04-28.zip",
+    "archive/compressed_archives/wikipedia_2026-04-28.zip",
+    "archive/wiki_page_snapshots/Template?Washington Commanders staff - Wikipedia (4_28_2026 10?29?30 PM).html"
+  ]
+}

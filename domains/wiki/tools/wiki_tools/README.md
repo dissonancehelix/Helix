@@ -1,4 +1,4 @@
-﻿# wiki_tools
+# wiki_tools
 
 Role: `stage_helper`.
 
@@ -14,7 +14,7 @@ External wiki writeback requires the full trust gate. Default mode is proposal/r
 - `domains/wiki/data/dissident93_wikimedia_full_history_profile.json`
 - `domains/wiki/reports/dissident93_wiki_habits_profile.md`
 
-`restore_wikimedia_archive.py` restores the archived Dissident93 Wikimedia API pipeline run from `archive/raw/raw_datasets/wikipedia_2026-04-28.zip` into current wiki-domain normalized data:
+`restore_wikimedia_archive.py` restores a local archived Dissident93 Wikimedia API pipeline run into current wiki-domain data when such a source archive has been restored locally:
 
 - `domains/wiki/data/dissident93_wikimedia_history.json`
 - `domains/wiki/data/dissident93_wikimedia_history_summary.json`

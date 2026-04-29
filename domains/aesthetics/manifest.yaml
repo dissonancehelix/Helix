@@ -2,7 +2,7 @@ domain: aesthetics
 status: placeholder
 parent_map: DISSONANCE.md
 role: decompressed_domain_room
-canonical_readme: domains/aesthetics/README.md
+canonical_domain_file: domains/aesthetics/AESTHETICS.md
 owns_tools: false
 has_local_labs: false
 notes:

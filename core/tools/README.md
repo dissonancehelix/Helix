@@ -23,7 +23,8 @@ existing entrypoint if one already owns the job.
 ## Rules
 
 1. Tools produce evidence, proposals, reports, or derived artifacts. They do not redefine canon.
-2. Original dumps belong under `archive/raw/`.
+2. Substantial original dumps belong under the matching archive evidence-type
+   folder. Tiny source slips are deleted after extraction.
 3. Normalized and derived domain artifacts belong under `domains/<domain>/data/`.
 4. Reports belong under `domains/<domain>/reports/`, `labs/reports/`, or `core/reports/` for core sensors.
 5. Any writeback to an external app requires identity, diff, backup, rollback, evidence, and explicit operator approval.

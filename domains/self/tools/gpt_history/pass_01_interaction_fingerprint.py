@@ -560,7 +560,7 @@ def write_report(
 - Conversations: {mech['conversation_count']}
 - Messages indexed: {mech['message_count']}
 - User messages analyzed: {mech['user_message_count']}
-- Limitations: deterministic keyword rules only; snippets are short and redacted; no full semantic pass; raw export remains in `archive/raw/gpt/` and is not copied into derived outputs.
+- Limitations: deterministic keyword rules only; snippets are short and redacted; no full semantic pass; raw export remains in `archive/chat_exports/` and is not copied into derived outputs.
 
 ## Major Findings
 

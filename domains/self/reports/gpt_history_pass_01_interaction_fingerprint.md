@@ -2,12 +2,12 @@
 
 ## Scope
 
-- Files analyzed: archive/raw/gpt/conversations-000.json, archive/raw/gpt/conversations-001.json
+- Files analyzed: restored ChatGPT conversation exports now represented by `archive/chat_exports/chatgpt/` and `domains/self/data/gpt_history/messages_index.jsonl`
 - Date range: 2026-02-04T22:36:13.240329+00:00 to 2026-04-26T18:17:19.150828+00:00
 - Conversations: 110
 - Messages indexed: 7818
 - User messages analyzed: 1577
-- Limitations: deterministic keyword rules only; snippets are short and redacted; no full semantic pass; raw export remains in `archive/raw/gpt/` and is not copied into derived outputs.
+- Limitations: deterministic keyword rules only; snippets are short and redacted; no full semantic pass; raw export remains in `archive/chat_exports/` and is not copied into derived outputs.
 
 ## Major Findings
 

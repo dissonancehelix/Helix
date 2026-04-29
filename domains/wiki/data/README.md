@@ -1,6 +1,6 @@
 # Wiki Normalized Data
 
-Normalized wiki-domain data lives here. Raw exports and archived API payloads stay under `archive/raw/`.
+Wiki-domain data lives here. Substantial raw exports and archived API payloads stay under the matching archive evidence-type folder only when they are still needed after extraction.
 
 ## Dissident93 Wikimedia History
 
@@ -11,8 +11,8 @@ Normalized wiki-domain data lives here. Raw exports and archived API payloads st
 
 Source provenance:
 
-- `archive/raw/raw_datasets/wikipedia_2026-04-28.zip`
+- Prior compact Wikimedia restore archive was deleted after ingestion because the normalized domain data and compact summary now carry the useful signal.
 
-The normalized JSON is domain evidence, not canon. Reports and future profile claims should cite it as evidence and preserve the raw archive as the audit source.
+The normalized JSON is domain evidence, not canon. Reports and future profile claims should cite it as evidence.
 
-For account-level interpretation, start with `domains/wiki/README.md` and `domains/wiki/reports/dissident93_wiki_habits_profile.md`, then use the compact profile JSON for machine-readable counts.
+For account-level interpretation, start with `domains/wiki/WIKI.md` and `domains/wiki/reports/dissident93_wiki_habits_profile.md`, then use the compact profile JSON for machine-readable counts.

@@ -40,7 +40,7 @@ ROOT = next(
 )
 sys.path.insert(0, str(ROOT))
 
-# Original source dumps live as archives under archive/raw/. This legacy
+# Original source dumps live in archive evidence-type folders when substantial. This legacy
 # ingestor reads an explicit local extraction directory when a re-ingest is
 # needed, rather than treating data/raw/ as a standing workspace.
 SOURCE_DIR = Path(

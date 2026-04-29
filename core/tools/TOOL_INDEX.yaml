@@ -28,7 +28,7 @@ items:
       - DISSONANCE.md
       - AGENTS.md
       - core/map/*.yaml
-      - domains/*/README.md
+      - domains/*/<DOMAIN>.md
     outputs:
       - console validation result
     safety_mode: read_only.
@@ -61,7 +61,7 @@ items:
     purpose: Multi-stage music metadata, entity, taste, retrieval, and materialization pipeline.
     entrypoint: python -m domains.music.tools.pipeline.router
     inputs:
-      - archive/raw/ restored locally when source re-ingest is needed
+      - matching archive evidence-type folder restored locally when source re-ingest is needed
       - domains/music/data/library/
       - domains/music/data/pipeline/data/
       - domains/music/tools/toolkits/
@@ -96,7 +96,7 @@ items:
     purpose: Trails corpus ingest, normalization, retrieval, and wiki/export pipeline.
     entrypoint: python domains/trails/tools/trails/pipelines/generate/generate_atlas.py
     inputs:
-      - archive/raw/ restored locally when Trails corpus re-ingest is needed
+      - archive/compressed_archives/ restored locally when Trails corpus re-ingest is needed
       - domains/trails/data/pipeline/retrieval/index/
     outputs:
       - domains/trails/data/pipeline/
@@ -113,7 +113,7 @@ items:
     purpose: Language corpus loading, pattern mining, template indexing, and rewrite/critique workflow.
     entrypoint: python -m domains.language.tools.language_pipeline.pipeline
     inputs:
-      - archive/raw/ restored locally when source re-ingest is needed
+      - matching archive evidence-type folder restored locally when source re-ingest is needed
       - domains/language/model/
     outputs:
       - domains/language/data/corpora/
@@ -130,7 +130,7 @@ items:
     entrypoint: python -m domains.games.tools.games_pipeline.run_taste
     inputs:
       - domains/games/model/
-      - archive/raw/ restored locally when source re-ingest is needed
+      - matching archive evidence-type folder restored locally when source re-ingest is needed
     outputs:
       - domains/games/data/pipeline/
       - domains/games/reports/
@@ -159,7 +159,7 @@ items:
     purpose: Local-only ChatGPT export parser and interaction fingerprint analyzer for self-domain evidence.
     entrypoint: python domains/self/tools/gpt_history/pass_01_interaction_fingerprint.py
     inputs:
-      - archive/raw/gpt/conversations*.json
+      - archive/chat_exports/chatgpt/conversations*.json or domains/self/data/gpt_history/messages_index.jsonl
     outputs:
       - domains/self/data/gpt_history/
       - domains/self/reports/gpt_history_pass_01_interaction_fingerprint.md
@@ -174,7 +174,7 @@ items:
     entrypoint: python -m domains.wiki.tools.wiki_tools.runner
     inputs:
       - domains/wiki/model/
-      - archive/raw/ restored locally when source re-ingest is needed
+      - matching archive evidence-type folder restored locally when source re-ingest is needed
     outputs:
       - domains/wiki/reports/
     safety_mode: proposal_only unless an explicit external write gate is opened.
@@ -187,7 +187,7 @@ items:
     purpose: Restore archived Dissident93 Wikimedia API pipeline outputs into wiki-domain normalized data.
     entrypoint: python domains/wiki/tools/wiki_tools/restore_wikimedia_archive.py
     inputs:
-      - archive/raw/raw_datasets/wikipedia_2026-04-28.zip
+      - domains/wiki/data/dissident93_wikimedia_history.json
     outputs:
       - domains/wiki/data/dissident93_wikimedia_history.json
       - domains/wiki/data/dissident93_wikimedia_history_summary.json
@@ -232,7 +232,7 @@ items:
     purpose: Local conversion helper for SPC-to-MIDI/music substrate experiments.
     entrypoint: domains/music/tools/spc2mid/
     inputs:
-      - archive/raw/ restored locally when source re-ingest is needed
+      - matching archive evidence-type folder restored locally when source re-ingest is needed
     outputs:
       - domains/music/data/pipeline/
     safety_mode: local_artifact_generation; never delete source audio.

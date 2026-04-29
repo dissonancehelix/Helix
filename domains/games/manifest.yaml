@@ -9,7 +9,7 @@ purpose: >
   game replay logs and agent simulation outputs.
 
 docs:
-  readme: domains/games/README.md
+  domain_file: domains/games/GAMES.md
   spec: domains/games/model/SPEC.md
 
 domain_local_metrics:

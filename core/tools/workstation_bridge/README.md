@@ -54,7 +54,7 @@ Flags:
 - top-level folder presence
 - README presence at root and per locked-root folder
 - map YAML presence
-- domain README coverage
+- domain file coverage
 - app README coverage
 - lab README coverage
 - report directory presence
@@ -81,11 +81,10 @@ Flags:
 
 ## Plug-in model
 
-Future source bridges (foobar, Steam, Last.fm, Spotify, …) register themselves in `core/map/sources.yaml`. This bridge inventories what is registered; specialized bridges produce deeper per-source snapshots into `archive/analyses/<source>/`.
+Future source bridges (foobar, Steam, Last.fm, Spotify, …) register themselves in `core/map/sources.yaml`. This bridge inventories what is registered; specialized bridges produce deeper per-source snapshots into the owning domain or lab reports.
 
 ## Phase 3 boundary
 
 - Reads only.
 - No diff, no backup, no rollback machinery yet — those are Phase 4+ requirements for any transformation.
 - Foobar source is `status: planned, mode: read_only_pending`; this bridge does **not** invoke foobar.
-

@@ -607,7 +607,7 @@
   ],
   "raw_external_inventory": [
     {
-      "path": "archive/raw/attraction_2026-04-28.zip",
+      "path": "archive/compressed_archives/attraction_2026-04-28.zip",
       "bytes": 66971785,
       "member_count": 298,
       "sample_members": [
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "path": "archive/raw/games_2026-04-28.zip",
+      "path": "deleted_after_ingestion: games_2026-04-28.zip",
       "bytes": 31489,
       "member_count": 5,
       "sample_members": [
@@ -638,7 +638,7 @@
       ]
     },
     {
-      "path": "archive/raw/reddit_2026-04-28.zip",
+      "path": "archive/compressed_archives/reddit_2026-04-28.zip",
       "bytes": 2572524,
       "member_count": 38,
       "sample_members": [
@@ -657,7 +657,7 @@
       ]
     },
     {
-      "path": "archive/raw/scrobbles_2026-04-28.zip",
+      "path": "archive/compressed_archives/scrobbles_2026-04-28.zip",
       "bytes": 28010374,
       "member_count": 132,
       "sample_members": [
@@ -676,7 +676,7 @@
       ]
     },
     {
-      "path": "archive/raw/trails_2026-04-28.zip",
+      "path": "archive/compressed_archives/trails_2026-04-28.zip",
       "bytes": 69456845,
       "member_count": 199,
       "sample_members": [
@@ -695,7 +695,7 @@
       ]
     },
     {
-      "path": "archive/raw/twitter_2026-04-28.zip",
+      "path": "archive/compressed_archives/twitter_2026-04-28.zip",
       "bytes": 10720615,
       "member_count": 85,
       "sample_members": [
@@ -714,7 +714,7 @@
       ]
     },
     {
-      "path": "archive/raw/wikipedia_2026-04-28.zip",
+      "path": "deleted_after_ingestion: wikipedia_2026-04-28.zip",
       "bytes": 558949,
       "member_count": 9,
       "sample_members": [
@@ -730,7 +730,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_0000000006ac71f79de4db27f0dc741c-reddit.zip",
+      "path": "archive/chat_exports/chatgpt/file_0000000006ac71f79de4db27f0dc741c-reddit.zip",
       "bytes": 11820991,
       "member_count": 38,
       "sample_members": [
@@ -749,7 +749,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_000000000d3c71f7b3d67f05b53d3b58-prism.zip",
+      "path": "archive/chat_exports/chatgpt/file_000000000d3c71f7b3d67f05b53d3b58-prism.zip",
       "bytes": 1986150,
       "member_count": 782,
       "sample_members": [
@@ -768,7 +768,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_00000000102871fd863c049eaef4742f-twitter.zip",
+      "path": "archive/chat_exports/chatgpt/file_00000000102871fd863c049eaef4742f-twitter.zip",
       "bytes": 10709184,
       "member_count": 85,
       "sample_members": [
@@ -787,7 +787,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_000000004b1071f7b86c146db7b52b09-libvgm-master.zip",
+      "path": "archive/chat_exports/chatgpt/file_000000004b1071f7b86c146db7b52b09-libvgm-master.zip",
       "bytes": 1670012,
       "member_count": 339,
       "sample_members": [
@@ -806,7 +806,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_000000004cec71f5b7ed25395986b201-Old Helix.zip",
+      "path": "archive/chat_exports/chatgpt/file_000000004cec71f5b7ed25395986b201-Old Helix.zip",
       "bytes": 7109257,
       "member_count": 1589,
       "sample_members": [
@@ -825,7 +825,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_0000000052d471f7b4276f73a0badfb9-reddit.zip",
+      "path": "archive/chat_exports/chatgpt/file_0000000052d471f7b4276f73a0badfb9-reddit.zip",
       "bytes": 11820991,
       "member_count": 38,
       "sample_members": [
@@ -844,7 +844,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_00000000916c71f5a24982e5e8779d78-reddit.zip",
+      "path": "archive/chat_exports/chatgpt/file_00000000916c71f5a24982e5e8779d78-reddit.zip",
       "bytes": 11820991,
       "member_count": 38,
       "sample_members": [
@@ -863,7 +863,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_00000000be1071fdac7bfb3382916196-Old Helix.zip",
+      "path": "archive/chat_exports/chatgpt/file_00000000be1071fdac7bfb3382916196-Old Helix.zip",
       "bytes": 7109257,
       "member_count": 1589,
       "sample_members": [
@@ -882,7 +882,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_00000000ccd071f781e88c60d59dc08a-reddit.zip",
+      "path": "archive/chat_exports/chatgpt/file_00000000ccd071f781e88c60d59dc08a-reddit.zip",
       "bytes": 11820991,
       "member_count": 38,
       "sample_members": [
@@ -901,7 +901,7 @@
       ]
     },
     {
-      "path": "archive/raw/gpt/file_00000000f37471fdb5000c3b495df722-reddit.zip",
+      "path": "archive/chat_exports/chatgpt/file_00000000f37471fdb5000c3b495df722-reddit.zip",
       "bytes": 11820991,
       "member_count": 38,
       "sample_members": [

@@ -1,0 +1,1005 @@
+{
+  "source": "Video games completed - Sheet1.tsv",
+  "raw_storage_target": "archive/game_lists/",
+  "completed_count": 242,
+  "series_anchor_counts": {
+    "trails": 10,
+    "final fantasy": 8,
+    "metal gear": 6,
+    "zelda": 6,
+    "assassin": 5,
+    "call of duty": 5,
+    "resident evil": 5,
+    "ace combat": 4,
+    "half-life": 4,
+    "portal": 2,
+    "mario": 1,
+    "golden idol": 2
+  },
+  "games": [
+    {
+      "title": "9 Hours, 9 Persons, 9 Doors",
+      "row_values": []
+    },
+    {
+      "title": "A Short Hike",
+      "row_values": []
+    },
+    {
+      "title": "Ace Combat 04: Shattered Skies",
+      "row_values": []
+    },
+    {
+      "title": "Ace Combat 5: The Unsung War",
+      "row_values": []
+    },
+    {
+      "title": "Ace Combat 7: Skies Unknown",
+      "row_values": []
+    },
+    {
+      "title": "Ace Combat Zero: The Belkan War",
+      "row_values": []
+    },
+    {
+      "title": "AI: The Somnium Files",
+      "row_values": []
+    },
+    {
+      "title": "AI: The Somnium Files - nirvanA Initiative",
+      "row_values": []
+    },
+    {
+      "title": "Alex Kidd in the Enchanted Castle",
+      "row_values": []
+    },
+    {
+      "title": "Alpha Protocol",
+      "row_values": []
+    },
+    {
+      "title": "Altered Beast",
+      "row_values": []
+    },
+    {
+      "title": "Army Men 3D",
+      "row_values": []
+    },
+    {
+      "title": "Army Men: Air Attack",
+      "row_values": []
+    },
+    {
+      "title": "Assassin's Creed II",
+      "row_values": []
+    },
+    {
+      "title": "Assassin's Creed IV: Black Flag",
+      "row_values": []
+    },
+    {
+      "title": "Assassin's Creed: Brotherhood",
+      "row_values": []
+    },
+    {
+      "title": "Assassin's Creed: Revelations",
+      "row_values": []
+    },
+    {
+      "title": "Baldur's Gate 3",
+      "row_values": []
+    },
+    {
+      "title": "Battlefield 3",
+      "row_values": []
+    },
+    {
+      "title": "Bioshock Infinite",
+      "row_values": []
+    },
+    {
+      "title": "Blazing Dragons",
+      "row_values": []
+    },
+    {
+      "title": "Bloodborne",
+      "row_values": []
+    },
+    {
+      "title": "Borderlands",
+      "row_values": []
+    },
+    {
+      "title": "Borderlands 2",
+      "row_values": []
+    },
+    {
+      "title": "Brothers: A Tale of Two Sons",
+      "row_values": []
+    },
+    {
+      "title": "Bully",
+      "row_values": []
+    },
+    {
+      "title": "Call of Duty: Black Ops",
+      "row_values": []
+    },
+    {
+      "title": "Call of Duty: Modern Warfare",
+      "row_values": []
+    },
+    {
+      "title": "Call of Duty: Modern Warfare 2",
+      "row_values": []
+    },
+    {
+      "title": "Call of Duty: Modern Warfare 3",
+      "row_values": []
+    },
+    {
+      "title": "Call of Duty: World at War",
+      "row_values": []
+    },
+    {
+      "title": "Case of the Golden Idol",
+      "row_values": []
+    },
+    {
+      "title": "Casper",
+      "row_values": []
+    },
+    {
+      "title": "Catherine",
+      "row_values": []
+    },
+    {
+      "title": "Chrono Cross",
+      "row_values": []
+    },
+    {
+      "title": "Chrono Trigger",
+      "row_values": []
+    },
+    {
+      "title": "Crash Bandicoot 3",
+      "row_values": []
+    },
+    {
+      "title": "CrossCode",
+      "row_values": []
+    },
+    {
+      "title": "Danganronpa 2: Goodbye Despair",
+      "row_values": []
+    },
+    {
+      "title": "Danganronpa V3: Killing Harmony",
+      "row_values": []
+    },
+    {
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "row_values": []
+    },
+    {
+      "title": "Dark Cloud",
+      "row_values": []
+    },
+    {
+      "title": "Dark Cloud 2",
+      "row_values": []
+    },
+    {
+      "title": "Dark Souls",
+      "row_values": []
+    },
+    {
+      "title": "Dark Souls II",
+      "row_values": []
+    },
+    {
+      "title": "Dark Souls III",
+      "row_values": []
+    },
+    {
+      "title": "Dead Island",
+      "row_values": []
+    },
+    {
+      "title": "Decap Attack",
+      "row_values": []
+    },
+    {
+      "title": "Demon's Souls",
+      "row_values": []
+    },
+    {
+      "title": "Depression Quest",
+      "row_values": []
+    },
+    {
+      "title": "Destroy All Humans! 2",
+      "row_values": []
+    },
+    {
+      "title": "Disco Elysium",
+      "row_values": []
+    },
+    {
+      "title": "Dishonored",
+      "row_values": []
+    },
+    {
+      "title": "Divinity: Original Sin",
+      "row_values": []
+    },
+    {
+      "title": "Divinity: Original Sin II",
+      "row_values": []
+    },
+    {
+      "title": "DLC Quest",
+      "row_values": []
+    },
+    {
+      "title": "Dragon Quest VIII",
+      "row_values": []
+    },
+    {
+      "title": "Dragon Quest XI",
+      "row_values": []
+    },
+    {
+      "title": "Dragon's Dogma: Dark Arisen",
+      "row_values": []
+    },
+    {
+      "title": "Driver 2",
+      "row_values": []
+    },
+    {
+      "title": "Elden Ring",
+      "row_values": []
+    },
+    {
+      "title": "Fallout 4",
+      "row_values": []
+    },
+    {
+      "title": "Fallout: New Vegas",
+      "row_values": []
+    },
+    {
+      "title": "Fantasy Life",
+      "row_values": []
+    },
+    {
+      "title": "fault - milestone one",
+      "row_values": []
+    },
+    {
+      "title": "fault - milestone two side:above",
+      "row_values": []
+    },
+    {
+      "title": "Final Fantasy IX",
+      "row_values": []
+    },
+    {
+      "title": "Final Fantasy Tactics",
+      "row_values": []
+    },
+    {
+      "title": "Final Fantasy VI",
+      "row_values": []
+    },
+    {
+      "title": "Final Fantasy VII",
+      "row_values": []
+    },
+    {
+      "title": "Final Fantasy VIII",
+      "row_values": []
+    },
+    {
+      "title": "Final Fantasy X",
+      "row_values": []
+    },
+    {
+      "title": "Final Fantasy XII",
+      "row_values": []
+    },
+    {
+      "title": "Final Fantasy XV",
+      "row_values": []
+    },
+    {
+      "title": "Gears of War 2",
+      "row_values": []
+    },
+    {
+      "title": "God of War",
+      "row_values": []
+    },
+    {
+      "title": "Grand Theft Auto 2",
+      "row_values": []
+    },
+    {
+      "title": "Grand Theft Auto III",
+      "row_values": []
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "row_values": []
+    },
+    {
+      "title": "Grand Theft Auto: Liberty City Stories",
+      "row_values": []
+    },
+    {
+      "title": "Grand Theft Auto: San Andreas",
+      "row_values": []
+    },
+    {
+      "title": "Grand Theft Auto: Vice City",
+      "row_values": []
+    },
+    {
+      "title": "Guitar Hero II",
+      "row_values": []
+    },
+    {
+      "title": "Guitar Hero III: Legends of Rock",
+      "row_values": []
+    },
+    {
+      "title": "Gun",
+      "row_values": []
+    },
+    {
+      "title": "Half-Life 2",
+      "row_values": []
+    },
+    {
+      "title": "Half-Life 2: Episode 1",
+      "row_values": []
+    },
+    {
+      "title": "Half-Life 2: Episode 2",
+      "row_values": []
+    },
+    {
+      "title": "Half-Life 2: Lost Coast",
+      "row_values": []
+    },
+    {
+      "title": "Halo 2",
+      "row_values": []
+    },
+    {
+      "title": "Halo 3",
+      "row_values": []
+    },
+    {
+      "title": "Halo: Combat Evolved",
+      "row_values": []
+    },
+    {
+      "title": "Harvest Moon: Back to Nature",
+      "row_values": []
+    },
+    {
+      "title": "Hellblade: Senua's Sacrifice",
+      "row_values": []
+    },
+    {
+      "title": "Hitman (2016)",
+      "row_values": []
+    },
+    {
+      "title": "Horizon Zero Dawn",
+      "row_values": []
+    },
+    {
+      "title": "Hotline Miami",
+      "row_values": []
+    },
+    {
+      "title": "HuniePop",
+      "row_values": []
+    },
+    {
+      "title": "Hypnospace Outlaw",
+      "row_values": []
+    },
+    {
+      "title": "Katamari Damacy",
+      "row_values": []
+    },
+    {
+      "title": "Katawa Shoujo",
+      "row_values": []
+    },
+    {
+      "title": "Kentucky Route Zero",
+      "row_values": []
+    },
+    {
+      "title": "Kingdom Hearts",
+      "row_values": []
+    },
+    {
+      "title": "Kingdom Hearts II",
+      "row_values": []
+    },
+    {
+      "title": "Kingdoms of Amalur: Reckoning",
+      "row_values": []
+    },
+    {
+      "title": "Left 4 Dead 2",
+      "row_values": []
+    },
+    {
+      "title": "Legend of Grimrock II",
+      "row_values": []
+    },
+    {
+      "title": "Life is Strange",
+      "row_values": []
+    },
+    {
+      "title": "Life is Strange 2",
+      "row_values": []
+    },
+    {
+      "title": "Life is Strange: Before the Storm",
+      "row_values": []
+    },
+    {
+      "title": "Mercenaries: Playground of Destruction",
+      "row_values": []
+    },
+    {
+      "title": "Metal Gear Solid",
+      "row_values": []
+    },
+    {
+      "title": "Metal Gear Solid 2: Sons of Liberty",
+      "row_values": []
+    },
+    {
+      "title": "Metal Gear Solid 3: Snake Eater",
+      "row_values": []
+    },
+    {
+      "title": "Metal Gear Solid 4: Guns of the Patriots",
+      "row_values": []
+    },
+    {
+      "title": "Metal Gear Solid V: Ground Zeroes",
+      "row_values": []
+    },
+    {
+      "title": "Metal Gear Solid V: The Phantom Pain",
+      "row_values": []
+    },
+    {
+      "title": "Mhakna Gramura and Fairy Bell",
+      "row_values": []
+    },
+    {
+      "title": "Michael Jackson's Moonwalker",
+      "row_values": []
+    },
+    {
+      "title": "Need for Speed III: Hot Pursuit",
+      "row_values": []
+    },
+    {
+      "title": "Ni no Kuni II: Revenant Kingdom",
+      "row_values": []
+    },
+    {
+      "title": "Ni No Kuni: Wrath of the White Witch",
+      "row_values": []
+    },
+    {
+      "title": "Odin Sphere",
+      "row_values": []
+    },
+    {
+      "title": "Off-Peak",
+      "row_values": []
+    },
+    {
+      "title": "One",
+      "row_values": []
+    },
+    {
+      "title": "Outer Wilds",
+      "row_values": []
+    },
+    {
+      "title": "Outer Wilds: Echoes of the Eye",
+      "row_values": []
+    },
+    {
+      "title": "Paradise Killer",
+      "row_values": []
+    },
+    {
+      "title": "Parasite Eve",
+      "row_values": []
+    },
+    {
+      "title": "Persona 3: FES",
+      "row_values": []
+    },
+    {
+      "title": "Persona 4",
+      "row_values": []
+    },
+    {
+      "title": "Persona 4 Golden",
+      "row_values": []
+    },
+    {
+      "title": "Persona 5",
+      "row_values": []
+    },
+    {
+      "title": "Phantasy Star IV",
+      "row_values": []
+    },
+    {
+      "title": "Pillars of Eternity",
+      "row_values": []
+    },
+    {
+      "title": "Portal",
+      "row_values": []
+    },
+    {
+      "title": "Portal 2",
+      "row_values": []
+    },
+    {
+      "title": "Ratchet Deadlocked",
+      "row_values": []
+    },
+    {
+      "title": "Red Dead Redemption",
+      "row_values": []
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "row_values": []
+    },
+    {
+      "title": "Red Faction",
+      "row_values": []
+    },
+    {
+      "title": "Resident Evil",
+      "row_values": []
+    },
+    {
+      "title": "Resident Evil 2",
+      "row_values": []
+    },
+    {
+      "title": "Resident Evil 2 (remake)",
+      "row_values": []
+    },
+    {
+      "title": "Resident Evil 3",
+      "row_values": []
+    },
+    {
+      "title": "Resident Evil 4",
+      "row_values": []
+    },
+    {
+      "title": "Return of the Obra Dinn",
+      "row_values": []
+    },
+    {
+      "title": "Rock Band",
+      "row_values": []
+    },
+    {
+      "title": "Rogue Galaxy",
+      "row_values": []
+    },
+    {
+      "title": "Rugrats: Searching for Reptar",
+      "row_values": []
+    },
+    {
+      "title": "Rune Factory 4",
+      "row_values": []
+    },
+    {
+      "title": "Shadow of the Colossus",
+      "row_values": []
+    },
+    {
+      "title": "Shadowrun: Dragonfall",
+      "row_values": []
+    },
+    {
+      "title": "Shadowrun: Hong Kong",
+      "row_values": []
+    },
+    {
+      "title": "Sherlock Holmes: Crimes & Punishments",
+      "row_values": []
+    },
+    {
+      "title": "Shin Megami Tensei: Digital Devil Saga",
+      "row_values": []
+    },
+    {
+      "title": "Sleeping Dogs",
+      "row_values": []
+    },
+    {
+      "title": "Sly 2: Band of Theives",
+      "row_values": []
+    },
+    {
+      "title": "SOCOM 3",
+      "row_values": []
+    },
+    {
+      "title": "SOCOM II",
+      "row_values": []
+    },
+    {
+      "title": "SOCOM: Combined Assault",
+      "row_values": []
+    },
+    {
+      "title": "SOCOM: U.S. Navy SEALs",
+      "row_values": []
+    },
+    {
+      "title": "Song of Farca",
+      "row_values": []
+    },
+    {
+      "title": "Sonic & Knuckles",
+      "row_values": []
+    },
+    {
+      "title": "Sonic 3D Blast",
+      "row_values": []
+    },
+    {
+      "title": "Sonic Mania",
+      "row_values": []
+    },
+    {
+      "title": "Sonic the Hedgehog",
+      "row_values": []
+    },
+    {
+      "title": "Sonic the Hedgehog 2",
+      "row_values": []
+    },
+    {
+      "title": "Sonic the Hedgehog 3",
+      "row_values": []
+    },
+    {
+      "title": "Splinter Cell",
+      "row_values": []
+    },
+    {
+      "title": "Splinter Cell: Chaos Theory",
+      "row_values": []
+    },
+    {
+      "title": "Splinter Cell: Pandora Tomorrow",
+      "row_values": []
+    },
+    {
+      "title": "Spyro Reignited Trilogy",
+      "row_values": []
+    },
+    {
+      "title": "Spyro the Dragon",
+      "row_values": []
+    },
+    {
+      "title": "Spyro the Dragon 2: Ripto's Rage",
+      "row_values": []
+    },
+    {
+      "title": "Spyro the Dragon 3: Year of the Dragon",
+      "row_values": []
+    },
+    {
+      "title": "Starbound",
+      "row_values": []
+    },
+    {
+      "title": "Stardew Valley",
+      "row_values": []
+    },
+    {
+      "title": "Streets of Rage",
+      "row_values": []
+    },
+    {
+      "title": "Super Mario Galaxy 2",
+      "row_values": []
+    },
+    {
+      "title": "Super Smash Bros. Brawl",
+      "row_values": []
+    },
+    {
+      "title": "Super Smash Bros. Melee",
+      "row_values": []
+    },
+    {
+      "title": "Tekken Tag Tournament",
+      "row_values": []
+    },
+    {
+      "title": "Terraria",
+      "row_values": []
+    },
+    {
+      "title": "Test Drive 4",
+      "row_values": []
+    },
+    {
+      "title": "Test Drive 5",
+      "row_values": []
+    },
+    {
+      "title": "The Awesome Adventures of Captain Spirit",
+      "row_values": []
+    },
+    {
+      "title": "The Elder Scrolls IV: Oblivion",
+      "row_values": []
+    },
+    {
+      "title": "The Elder Scrolls Online",
+      "row_values": []
+    },
+    {
+      "title": "The Elder Scrolls V: Skyrim",
+      "row_values": []
+    },
+    {
+      "title": "The Forgotten City",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Ao no Kiseki",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails from Daybreak",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails in the Sky",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails in the Sky SC",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails in the Sky the 3rd",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails into Reverie",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails of Cold Steel",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails of Cold Steel II",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails of Cold Steel III",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails of Cold Steel IV",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Heroes: Trails through Daybreak II",
+      "row_values": [
+        "manually added: completed but missing from source sheet"
+      ]
+    },
+    {
+      "title": "The Legend of Heroes: Zero no Kiseki",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Zelda: A Link to the Past",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Zelda: Majora's Mask",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Zelda: The Wind Waker",
+      "row_values": []
+    },
+    {
+      "title": "The Legend of Zelda: Twilight Princess",
+      "row_values": []
+    },
+    {
+      "title": "The Revenge of Shinobi",
+      "row_values": []
+    },
+    {
+      "title": "The Rise of the Golden Idol",
+      "row_values": [
+        "manually added: completed but missing from source sheet"
+      ]
+    },
+    {
+      "title": "The Sims (PS2)",
+      "row_values": []
+    },
+    {
+      "title": "The Warriors",
+      "row_values": []
+    },
+    {
+      "title": "The Witcher",
+      "row_values": []
+    },
+    {
+      "title": "The Witcher 2: Assassins of Kings",
+      "row_values": []
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "row_values": []
+    },
+    {
+      "title": "To the Moon",
+      "row_values": []
+    },
+    {
+      "title": "Tokyo Xanadu eX+",
+      "row_values": []
+    },
+    {
+      "title": "Tony Hawk's Underground",
+      "row_values": []
+    },
+    {
+      "title": "Tony Hawk's Underground 2",
+      "row_values": []
+    },
+    {
+      "title": "Torment: Tides of Numenera",
+      "row_values": []
+    },
+    {
+      "title": "True Crime: Streets of LA",
+      "row_values": []
+    },
+    {
+      "title": "Twisted Metal",
+      "row_values": []
+    },
+    {
+      "title": "Twisted Metal 2",
+      "row_values": []
+    },
+    {
+      "title": "Uncharted 3: Drake's Deception",
+      "row_values": []
+    },
+    {
+      "title": "Underrail",
+      "row_values": []
+    },
+    {
+      "title": "Unheard",
+      "row_values": []
+    },
+    {
+      "title": "We Love Katamari",
+      "row_values": []
+    },
+    {
+      "title": "Xenogears",
+      "row_values": []
+    },
+    {
+      "title": "Ys I",
+      "row_values": []
+    },
+    {
+      "title": "Ys II",
+      "row_values": []
+    },
+    {
+      "title": "Ys IX: Monstrum Nox",
+      "row_values": []
+    },
+    {
+      "title": "Ys Origin",
+      "row_values": []
+    },
+    {
+      "title": "Ys Seven",
+      "row_values": []
+    },
+    {
+      "title": "Ys VI: The Ark of Napishtim",
+      "row_values": []
+    },
+    {
+      "title": "Ys VIII: Lacrimosa of Dana",
+      "row_values": []
+    },
+    {
+      "title": "Ys: Memories of Celceta",
+      "row_values": []
+    },
+    {
+      "title": "Ys: The Oath in Felghana",
+      "row_values": []
+    },
+    {
+      "title": "Yume Miru Kusuri: A Drug That Makes You Dream",
+      "row_values": []
+    },
+    {
+      "title": "Yume Nikki",
+      "row_values": []
+    },
+    {
+      "title": "Zanki Zero: Last Beginning",
+      "row_values": []
+    },
+    {
+      "title": "Zero Escape: Virtue's Last Reward",
+      "row_values": []
+    }
+  ],
+  "manual_corrections": [
+    {
+      "title": "The Legend of Heroes: Trails through Daybreak II",
+      "reason": "Operator correction: completed Daybreak II was missing from source sheet.",
+      "effect": "completed_count +1; trails series count +1"
+    },
+    {
+      "title": "The Rise of the Golden Idol",
+      "reason": "Operator correction: completed Rise of the Golden Idol was missing if not already listed.",
+      "effect": "completed_count +1 if absent; golden idol series count refreshed"
+    }
+  ]
+}

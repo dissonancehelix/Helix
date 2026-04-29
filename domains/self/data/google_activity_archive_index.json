@@ -1,0 +1,17 @@
+{
+  "source": "Google - My Activity (4_28_2026 9：24：02 PM).zip",
+  "raw_storage_target": "archive/activity_exports/",
+  "zip_size": 33619505,
+  "member_count": 1,
+  "members": [
+    {
+      "name": "Google - My Activity (4_28_2026 9：24：02 PM).html",
+      "compressed_size": 33619267,
+      "uncompressed_size": 68742282,
+      "modified": "2026-04-28T21:24:28"
+    }
+  ],
+  "privacy_note": "Raw YouTube comments HTML is archived only; no full comment text is copied into domain data.",
+  "content_scope": "YouTube comments capture",
+  "capture_note": "This archive is not a general Google activity profile; it is the preserved full-page HTML export used to save YouTube comment history when no smaller export path was available."
+}

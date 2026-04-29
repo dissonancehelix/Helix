@@ -9,7 +9,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 
 REQUIRED_ROOT_FILES = {"DISSONANCE.md", "README.md", "AGENTS.md"}
-REQUIRED_ROOT_DIRS = {"core", "domains", "labs", "archive", "inbox"}
+REQUIRED_ROOT_DIRS = {"core", "domains", "labs"}
+LOCAL_ONLY_ROOT_DIRS = {"archive", "inbox"}
 ACTIVE_DOMAINS = {
     "self",
     "music",
@@ -24,10 +25,24 @@ ACTIVE_DOMAINS = {
     "body_sensory",
     "sports",
 }
+DOMAIN_FILES = {
+    "self": "SELF.md",
+    "music": "MUSIC.md",
+    "games": "GAMES.md",
+    "trails": "TRAILS.md",
+    "wiki": "WIKI.md",
+    "software": "SOFTWARE.md",
+    "language": "LANGUAGE.md",
+    "attraction": "ATTRACTION.md",
+    "food": "FOOD.md",
+    "aesthetics": "AESTHETICS.md",
+    "body_sensory": "BODY_SENSORY.md",
+    "sports": "SPORTS.md",
+}
 PLACEHOLDER_DOMAINS = {"attraction", "food", "aesthetics", "body_sensory", "sports"}
 
 ALLOWED_ROOT_FILES = REQUIRED_ROOT_FILES | {".gitignore", ".gitattributes", "pyproject.toml"}
-ALLOWED_ROOT_DIRS = REQUIRED_ROOT_DIRS | {".git", ".github", ".vscode", ".claude"}
+ALLOWED_ROOT_DIRS = REQUIRED_ROOT_DIRS | LOCAL_ONLY_ROOT_DIRS | {".git", ".github", ".vscode", ".claude"}
 FORBIDDEN_OLD_ROOTS = {"model", "data", "system", "reports"}
 
 MAP_YAMLS = [
@@ -68,6 +83,11 @@ HEAVY_SUFFIXES = {
 }
 
 TRACKED_HEAVY_LIMIT = 10 * 1024 * 1024
+
+ALLOWED_COMPACT_LEDGER_PATHS = {
+    "labs/domain_synthesis/data/gpt_export/domain_index.csv",
+    "labs/domain_synthesis/data/gpt_export/artifact_ledger.csv",
+}
 
 
 def rel(path: Path) -> str:
@@ -137,9 +157,15 @@ def check_domain_capsules(errors: list[str]) -> None:
         base = domains_dir / domain
         if not base.is_dir():
             continue
-        for file_name in ("README.md", "manifest.yaml"):
+        domain_file = DOMAIN_FILES[domain]
+        if (base / "README.md").exists():
+            errors.append(f"domain root README retired; use {domain_file}: domains/{domain}/")
+        for file_name in (domain_file, "manifest.yaml"):
             if not (base / file_name).is_file():
                 errors.append(f"domain missing {file_name}: domains/{domain}/")
+        named_files = [p.name for p in base.glob("*.md") if p.name == domain_file]
+        if len(named_files) != 1:
+            errors.append(f"domain must have exactly one named domain file: domains/{domain}/{domain_file}")
         required_dirs = list(BASE_CAPSULE_DIRS)
         if domain not in PLACEHOLDER_DOMAINS:
             required_dirs.append("tools")
@@ -173,7 +199,7 @@ def check_cross_domain_labs(errors: list[str]) -> None:
     if (ROOT / "reports" / "reports").exists():
         errors.append("nested report folder repeats itself: reports/reports/")
     if (ROOT / "archive" / "legacy").exists():
-        errors.append("archive/legacy/ has been retired; use archive/migrations/ or archive/raw/")
+        errors.append("archive/legacy/ has been retired; archive is grouped by evidence type")
     if (ROOT / "archive" / "quarantine").exists():
         errors.append("archive/quarantine/ duplicates root inbox sorting")
     if (ROOT / "quarantine").exists():
@@ -210,18 +236,24 @@ def tracked_files() -> list[str]:
     return [line.strip().replace("\\", "/") for line in result.stdout.splitlines() if line.strip()]
 
 
+def is_allowed_compact_ledger(path: str) -> bool:
+    if path in ALLOWED_COMPACT_LEDGER_PATHS:
+        return True
+    return path.startswith("domains/") and path.endswith("/data/gpt_evidence_index.jsonl")
+
+
 def check_tracked_bloat(errors: list[str], warnings: list[str]) -> None:
     for path in tracked_files():
         p = ROOT / path
         if not p.exists() or not p.is_file():
             continue
-        if path.startswith("archive/raw/") and p.name != "README.md":
-            errors.append(f"raw provenance tracked in git: {path}")
+        if path.startswith("archive/") or path.startswith("inbox/"):
+            errors.append(f"local-only folder tracked in git: {path}")
         if "/vendor/" in path and p.name not in {"README.md", "manifest.yaml"}:
             errors.append(f"vendor mirror tracked in git: {path}")
         if "/toolkits/" in path and p.name not in {"README.md", "manifest.yaml"}:
             errors.append(f"toolkit/source mirror tracked in git: {path}")
-        if p.suffix.lower() in HEAVY_SUFFIXES:
+        if p.suffix.lower() in HEAVY_SUFFIXES and not is_allowed_compact_ledger(path):
             errors.append(f"heavy data/binary file tracked in git: {path}")
         elif p.stat().st_size > TRACKED_HEAVY_LIMIT:
             warnings.append(f"large tracked file over 5 MiB: {path}")

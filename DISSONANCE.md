@@ -1,10 +1,10 @@
 # Dissonance — Portable Cognitive & Taste Map
 
-**Status:** living portable cognitive-map profile / Helix-independent source  
-**Generated:** 2026-04-28  
-**Regeneration pass:** resolution-gated domain-map pass  
-**Role:** human-readable map of cognition, taste, attraction, sensory profile, social constraints, design philosophy, evidence anchors, and cross-domain pattern laws  
-**Not role:** repo constitution, folder map, agent contract, implementation README, source registry, proof file, diagnosis report, therapy worksheet, memoir, fandom list, or raw evidence dump  
+**Status:** living portable cognitive-map profile / Helix-independent source
+**Generated:** 2026-04-29
+**Regeneration pass:** Roman-Britain lineage / compression-native cognition integration pass
+**Role:** human-readable map of cognition, taste, attraction, sensory profile, social constraints, design philosophy, evidence anchors, and cross-domain pattern laws
+**Not role:** repo constitution, folder map, agent contract, implementation README, source registry, proof file, diagnosis report, therapy worksheet, memoir, fandom list, or raw evidence dump
 **Core rule:** this file describes the person-pattern. Helix may embody it, extend it, and use it, but Helix does not own it.
 
 ---
@@ -30,6 +30,18 @@ Third compression:
 Fourth compression:
 
 > **The cognitive map should preserve the doors, name the fields they open into, and remain portable enough to follow the person outside any one workspace.**
+
+Fifth compression:
+
+> **A world becomes worth building in when it can remember the build. Public artifacts need clean entry; private worlds need durable re-entry.**
+
+Sixth compression:
+
+> **Dissonance compresses through domains until the same invariant becomes visible at a higher scale.**
+
+Seventh compression:
+
+> **Layered, connected, modular, and fractal structure is beautiful when self-similarity remains evidence-bound and increases resolution.**
 
 This document is a living cognitive map. It is not trying to make the operator sound impressive. It is trying to make him legible without flattening him. A future LLM should be able to read this file and understand what the operator tends to like, reject, protect, repair, investigate, build, and return to — and why.
 
@@ -96,6 +108,8 @@ Best compression:
 This document is a lifelong project. It is not meant to reach a final frozen state.
 
 New patterns enter as provisional observations. Repeated observations become named mechanisms. Named mechanisms are nested under core engines. If a section grows too large, the detail should decompress into a domain document, map file, evidence archive, or research artifact. This document keeps the whole-person compression.
+
+The document is allowed to sharpen when new evidence reveals a better boundary. A living map does not preserve old wording out of politeness to itself. It preserves continuity while correcting its own joints.
 
 Rule:
 
@@ -193,9 +207,9 @@ The correct architecture is:
 ```text
 domain overview in DISSONANCE.md
     ↓
-domain README expands in higher resolution
+domain file expands in higher resolution
     ↓
-raw evidence / exports / examples support the README
+raw evidence / exports / examples support the domain file
     ↓
 domain findings feed back into global patterns
     ↓
@@ -206,25 +220,28 @@ Best compression:
 
 > **The main map names the doors; domain files hold the rooms; raw data holds the basement.**
 
-### 1.6a Locked Taste / Experience Domains
+### 1.6a Locked Domain Chambers
 
-A first-class taste domain earns a room when subjective experience matters, examples are numerous enough to need local memory, false positives matter, and the domain reveals the global cognitive map in a distinct way.
+A first-class domain earns a room when it carries enough local evidence, subjective experience, operational behavior, false positives, or externalized cognition to sharpen the global map without being flattened into it.
 
 Locked first-class domains:
 
+- **Self** — cognitive style, neurotype constraints, social architecture, sensory gates, response debt, attention chambers, compression-native cognition, and operational terrain.
 - **Music** — world-listening, groove, timbre, VGM, composer fingerprint, loop/re-entry, foobar metadata, DSP/spatial audio.
 - **Games** — authored fields, reconstruction, topology, state memory, completion evidence, support/denial roles, curated residue.
+- **Trails / Kiseki** — world-memory, continuity, observer evolution, institutions, Atlas/Metadata, source ingestion, and spoiler discipline.
 - **Wiki / Public Knowledge** — article improvement, source architecture, templates, infoboxes, future-reader interface design, state-improvement reward.
-- **Food / Drink** — bounded abundance, soft base / sharp event, seasonal ritual, cold/creamy comfort, texture layering.
-- **Sexual / Visual Attraction** — visual recognition, channel convergence, face/body/eye framing, compatible interiority, beauty vs attraction split.
-- **Aesthetics / Environment** — color, warmth, darkness, enclosure, texture, Latin/Mesoamerican motifs, old/liminal/earthy spaces.
+- **Software / Tools** — Helix, schemas, inspectable agency, agent collaboration, foobar/DSP tooling, workspace design, and executable personal ontology.
+- **Language** — English/Spanish/Japanese interest, grammar as movement, phrase automation, translation, register, Wikipedia prose as constrained language.
+- **Sexual / Visual Attraction** — face-first physical attraction, warm/dark palette, lower-body sexual weighting, credible curve contrast, signal integrity, detail arousal, beauty vs attraction split.
+- **Food / Drink** — plain/simple meals, convenience gate, soft base / sharp event, Thanksgiving as autumn+football+favorite-food convergence, cold/creamy comfort, cooked-vegetable preference, seafood disgust boundary.
+- **Aesthetics / Environment** — color, warmth, darkness, enclosure, texture, Latin/Mesoamerican motifs, old/liminal/earthy spaces, and fractal self-similarity as a beauty criterion.
 - **Body / Sensory** — DOMS, massage, stretch, localizable body maps, controlled intensity, heat/noise/light/spatial exposure.
 - **Sports** — live state-space, denial, team continuity, quarterback/future-state leverage, roster/franchise possibility-space.
-- **Language** — English/Spanish/Japanese interest, grammar as movement, phrase automation, translation, register, Wikipedia prose as constrained language.
 
-These are not equal in intensity or current development. Music and games are far more data-rich than food or attraction. That is fine. The point is not symmetry; the point is **protected local interpretation**.
+These are not equal in intensity, maturity, or evidence depth. Music and games are data-rich. Self, software, wiki, and Trails are operationally rich. Food, attraction, aesthetics, body/sensory, sports, and language are phenomenologically rich. That asymmetry is fine. The point is not symmetry; the point is **protected local interpretation**.
 
-Each domain should eventually use the same internal template:
+Each domain should use the same internal template:
 
 ```md
 # Domain Name
@@ -248,9 +265,31 @@ Each domain should eventually use the same internal template:
 ## Best compression
 ```
 
+Domain file rule:
+
+```text
+domains/<domain>/<DOMAIN>.md
+```
+
+Examples:
+
+```text
+domains/self/SELF.md
+domains/music/MUSIC.md
+domains/aesthetics/AESTHETICS.md
+```
+
 Best compression:
 
 > **Each domain gets its own chamber so it can sharpen without polluting the others.**
+
+Second compression:
+
+> **The chamber exists when local detail would otherwise flatten the main map.**
+
+Third compression:
+
+> **Domain files should name the room, not just say “read me.”**
 
 ### 1.6b Access Layers and Evidence Substrates Are Not Domains
 
@@ -316,6 +355,46 @@ Best compression:
 Second compression:
 
 > **Domain rooms let the map expand without becoming a single fragile file.**
+
+### 1.6d Domain File Naming Rule
+
+Domain chambers should use named domain files instead of generic local README files.
+
+Root-level and infrastructure README files keep their conventional names:
+
+```text
+README.md
+core/map/README.md
+lab README files when they describe a lab container
+```
+
+But domain capsules should expose their main interpretive file through the domain name:
+
+```text
+domains/self/SELF.md
+domains/music/MUSIC.md
+domains/games/GAMES.md
+domains/trails/TRAILS.md
+domains/wiki/WIKI.md
+domains/software/SOFTWARE.md
+domains/language/LANGUAGE.md
+domains/attraction/ATTRACTION.md
+domains/food/FOOD.md
+domains/aesthetics/AESTHETICS.md
+domains/body_sensory/BODY_SENSORY.md
+domains/sports/SPORTS.md
+```
+
+This makes file exploration clearer because the file tells the reader which room they are entering even when opened outside its folder, copied into a prompt, viewed in a search result, or compared beside other domain files.
+
+Best compression:
+
+> **Domain files should name the room, not just say “read me.”**
+
+Second compression:
+
+> **Generic README works at the root; domain chambers deserve named doors.**
+
 
 ### 1.7 Protected Decompression Rule
 
@@ -402,7 +481,95 @@ Third compression:
 
 > **A boundary is not where possibility ends. It is where an interior becomes real enough to enter.**
 
-### 2.1 The Cognitive Map as Structure
+### 2.1 Compression-Native Cognition
+
+Compression-native cognition is the operator's default route through high-salience material.
+
+It is not simply summarizing. It is a repeated movement:
+
+```text
+specific question
+→ hidden structure
+→ cross-domain analogy
+→ invariant candidate
+→ boundary test
+→ decompressed chamber
+→ global map update only if it survives
+```
+
+The Roman Britain lineage made this unusually explicit. A question about Old English Latin vocabulary unfolded through linguistic rupture, language as emergent system, information substrate, consciousness, self-boundaries, Buddhist mapping, decision compression, Helix tests, music data, and back into the operator as the thing doing the compression.
+
+The important part is not that every bridge is equally proven. The important part is the recurring operation: each domain becomes a way to ask what structure survives substrate change.
+
+Compression-native cognition is strongest when it remains evidence-bound. It becomes dangerous when it mistakes aesthetic self-similarity for causality, or lets a beautiful bridge outrun the evidence.
+
+Best compression:
+
+> **The mind moves by compressing local evidence into invariants, then testing whether the invariant survives another room.**
+
+Second compression:
+
+> **The question changes domains; the operation stays recognizable.**
+
+False positive:
+
+> Treating every elegant cross-domain resemblance as proof. Beauty is not causality.
+
+### 2.2 Fractal / Modular Self-Similarity
+
+The operator experiences layered, connected, modular, and fractal structure as a strong beauty signal.
+
+This is not generic “likes complexity.” The attraction appears when a structure repeats a lawful pattern across scales while increasing resolution instead of blurring it.
+
+Passes:
+
+- a domain chamber that mirrors the global map without duplicating it
+- a repo structure whose folders behave like the cognitive map
+- a music model where low-dimensional collapse echoes the framework measuring compression
+- a theory whose boundary rules apply to its own failure modes
+- a map that can be used to inspect the mapmaker without becoming self-flattery
+- a nested world where each descent reveals more structure rather than more fog
+
+Fails:
+
+- fractal language as mystic decoration
+- endless recursion without evidence
+- beautiful symmetry that cannot make a prediction
+- self-reference used as proof
+- folders nested because nesting feels deep
+- numerical coincidence with better typography
+
+Best compression:
+
+> **Fractal beauty passes when each scale makes the structure more usable, not merely more poetic.**
+
+Second compression:
+
+> **The map can echo the mapmaker; it still has to survive anomaly.**
+
+### 2.3 The Instrument / Model Watch Node
+
+Some findings suggest that the instrument may demonstrate the same patterns it was built to detect. This is a powerful signal, but it should be treated as a watch node rather than a settled law.
+
+Current evidence:
+
+- the operator builds compression tools by compressing cross-domain patterns
+- the workspace structure mirrors the domain/chamber logic of the profile
+- music data appears to show an unusually compressed response geometry
+- the same concepts recur across theory, taste, software, and self-map
+
+This should be tracked carefully because it is exactly the kind of recursive convergence the operator finds beautiful, and exactly the kind of convergence that can become self-confirming if promoted too fast.
+
+Best compression:
+
+> **When the instrument resembles the model, treat it as signal, not proof.**
+
+Firewall:
+
+> **Beauty is not causality.**
+
+
+### 2.4 The Cognitive Map as Structure
 
 The document should be readable as prose, navigable as structure, and testable as evidence.
 
@@ -414,7 +581,7 @@ Best compression:
 
 > **Prose explains; map files index; domains decompress; evidence anchors ground.**
 
-### 2.2 Research Anchors
+### 2.5 Research Anchors
 
 Research anchors are used when they clarify lived patterns. They are not used as proof of the person and should not replace the personal map.
 
@@ -672,7 +839,7 @@ This includes:
 - ListenBrainz / Last.fm
 - schemas
 - archives
-- domain READMEs
+- domain files
 - Trails database/wiki work
 - maps
 - DSP chains
@@ -778,8 +945,8 @@ False positive:
 
 Taste is not decorative liking. It is the compatibility engine that decides whether an interior is worth staying in and returning to.
 
-Trust says: I can enter this.  
-Taste says: I want to stay here.  
+Trust says: I can enter this.
+Taste says: I want to stay here.
 Attachment says: I can return and it still matters.
 
 Taste includes:
@@ -877,7 +1044,7 @@ Examples:
 - a Helix schema that prevents drift without becoming bureaucracy
 - a music tag system that re-opens a sound world
 - a theory that names its false positives
-- a domain README that grounds before interpreting
+- a domain file that grounds before interpreting
 - a game guide that reveals operational interior
 - a profile section that predicts instead of flattering
 
@@ -1440,6 +1607,41 @@ Residue:
 
 > The best structures leave usable evidence behind.
 
+### 6.1a Temporal Contribution Gate
+
+Building is not motivating merely because building is possible.
+
+The stronger gate is temporal contribution: the action matters when it changes a world, object, article, base, archive, team-state, or system that can remember the change.
+
+High pull:
+
+- the world/server/project will persist
+- other players/users/agents can later benefit
+- the build reduces friction or creates safety
+- the change makes future return easier
+- the object becomes more usable over time
+- the field gains memory, continuity, or authored residue
+- the improvement is appreciated temporally, not just aesthetically
+
+Low pull:
+
+- temporary construction with no future receiver
+- dead-server labor
+- building as self-expression alone
+- chores disguised as construction
+- survival/crafting loops where friction is the point
+- procedural vastness that forgets the player's work
+
+Minecraft is the cleanest example. The operator is not strongly pulled by Minecraft building in the abstract. Motivation rises when the server/world will stay up, remain active with players, keep growing, and preserve what was built as part of a living field.
+
+Best compression:
+
+> **Building matters when it changes a world that will remember it.**
+
+Second compression:
+
+> **The build has to enter time.**
+
 ### 6.2 Selective Continuity-Preserving Expansion
 
 A major attractor is transformation that expands possibility-space while preserving origin-continuity.
@@ -1629,7 +1831,7 @@ This governs:
 - code refactors
 - personal notes
 - theory documents
-- domain READMEs
+- domain files
 - repo refactors
 
 Best compression:
@@ -1711,6 +1913,51 @@ Software:
 Best compression:
 
 > **Preferred structure is interacting layers that create emergent behavior.**
+
+### 6.11a Fractal Self-Similarity Across Scales
+
+Layered, connected, modular, and fractal structure is one of the strongest high-level beauty criteria.
+
+This does not mean “anything fractal is good.” The pass condition is self-similarity that preserves identity while increasing resolution.
+
+Good scale echo:
+
+```text
+local pattern
+→ domain structure
+→ workspace structure
+→ theory structure
+→ agent rule
+```
+
+The same operation should be recognizable at each level, but each level should add information. The structure should not merely repeat itself; it should become more usable as it recurs.
+
+Examples:
+
+- DISSONANCE holds the global spine; domains hold local rooms.
+- Helix becomes a workspace version of the cognitive map.
+- Wikipedia pages, game worlds, music archives, and domain files all reward re-entry through structured interiors.
+- Good music often creates a stable floor with moving upper layers.
+- Good software uses minimal surface with nested depth.
+- Good theory names its own false positives and failure modes.
+
+Bad scale echo:
+
+- recursion as decoration
+- infinite meta without action
+- folders that repeat their parent
+- theory that explains itself by admiring itself
+- cross-domain bridges that skip evidence
+- beautiful pattern promoted before negative controls exist
+
+Best compression:
+
+> **Fractal structure is beautiful when each scale re-opens the same law with higher resolution.**
+
+Second compression:
+
+> **Self-similarity is strongest when it becomes a handle.**
+
 
 ### 6.12 Prospective Constraint
 
@@ -1893,6 +2140,44 @@ Translation taxes:
 Best compression:
 
 > **The ideal interface turns intent into executable structure without hiding accountability.**
+
+### 6.17a Clean Lead vs Private Depth
+
+Clean entry is not a universal aesthetic law. It is a role-specific requirement.
+
+Public-facing and LLM-facing artifacts need clean leads because they must orient an outside reader, future agent, or general model before the body can be reopened.
+
+Needs clean lead:
+
+- Wikipedia articles
+- DISSONANCE.md
+- README files
+- domain files
+- agent prompts
+- theory summaries
+- public knowledge artifacts
+
+Private or experiential worlds do not need the same kind of clean lead. They need durable interiors: depth, continuity, re-entry, atmosphere, residue, growth, safety, and memory.
+
+Does not need clean lead in the same way:
+
+- game worlds
+- music worlds
+- fictional universes
+- private archives
+- old internet rooms
+- dream/surreal spaces
+- Minecraft servers/worlds
+- Trails
+- Yume Nikki / PilotRedSun-style atmosphere
+
+Best compression:
+
+> **A public artifact needs clean entry; a private world needs durable re-entry.**
+
+Second compression:
+
+> **A lead is only good if the body can still reopen it.**
 
 ### 6.18 Soft Base, Sharp Event
 
@@ -2709,6 +2994,10 @@ This ledger records the current pass and should not be deleted in future regener
 
 Added / strengthened:
 
+- **Compression-native cognition** was promoted as a global operating mode: the operator repeatedly moves from local evidence to invariant candidates, then tests whether the invariant survives another domain.
+- **Fractal / modular self-similarity** was promoted as a high-level aesthetic criterion, bounded by the rule that self-similarity must increase resolution and remain evidence-bound.
+- **Instrument / Model Watch Node** was added as a provisional recursive-convergence tracker: when the tool or profile displays the pattern it studies, treat it as signal, not proof.
+- **Beauty is not causality** was added as an epistemic firewall for elegant cross-domain resemblance.
 - **Same engine, different scale** became the master compression.
 - **Recursive Boundary Compression** was named as a discovery/design engine.
 - **Reconstructive Intelligence** was promoted as a core hidden-topology inference engine.
@@ -2746,9 +3035,9 @@ Regeneration rule learned:
 
 ---
 
-## 7. Locked Taste Domain Overviews
+## 7. Locked Domain Overviews
 
-These domains are the main subjective/taste surfaces where the operator's cognitive map becomes concrete. Each domain gets a compact overview here because the main profile must preserve the doors. The domain READMEs should later hold the decompressed rooms.
+These domains are the main protected chambers where the operator's cognitive map becomes concrete. Each domain gets a compact overview here because the main profile must preserve the doors. The domain files hold the decompressed rooms.
 
 A domain overview should answer:
 
@@ -2764,7 +3053,62 @@ Best compression:
 
 > **A domain is a gated room where local evidence can sharpen without cross-contaminating the whole map.**
 
-### 7.1 Music
+### 7.1 Self
+
+Self is the constraint-layer domain: attention architecture, neurotype context, social thresholds, sensory ownership, response debt, compression-native cognition, and the operator's recurring gates across all other domains.
+
+Core rule:
+
+> **Labels are handles, not cages.**
+
+Second rule:
+
+> **Self is operational terrain: gates, routes, modes, affordances, and update rules.**
+
+Third rule:
+
+> **Compression-native cognition is an operating mode, not just a preference for neat summaries.**
+
+What this domain is:
+
+- autism/Asperger's and schizoid structure as constraint frames
+- monotropic depth-channel attention
+- compression-native cognition: moving through local evidence toward invariant candidates
+- social energy and object-mediated sociality
+- ghosting / response debt / reciprocal-loop anxiety
+- sensory ownership and controlled intensity
+- care as protection of real interiors
+- solitude as field coherence
+- self-modeling through evidence rather than personality-test cosplay
+- placeholder names and provisional structures as replaceable until they become load-bearing
+- mode-switching across rest, threshold, and depleted states
+
+What it is not:
+
+- diagnosis as destiny
+- therapy worksheet
+- excuse file
+- fixed identity cage
+- proof that every preference is reducible to autism or schizoid structure
+- generic “introvert” shorthand
+- pathology dump replacing taste
+- self-flattering theory theater
+
+Global feedback:
+
+Self explains why the chambered architecture works. It lets one domain become active without every other domain leaking into it, preserves evidence without forcing one mega-file to hold every room, and turns monotropic depth from circular anxiety into bounded expansion.
+
+The Roman Britain lineage sharpened the fact that a single question can keep changing domains without becoming random. The operator does not merely “follow interests.” He compresses through domains, checks whether the same operation survives, and then either promotes the pattern, chambers the evidence, or marks the bridge as beautiful-but-unproven.
+
+Best compression:
+
+> **Monotropism makes chambers powerful and hallway clutter expensive.**
+
+Second compression:
+
+> **The mind moves by compressing local evidence into invariants, then testing whether the invariant survives another room.**
+
+### 7.2 Music
 
 Music is the clearest diagnostic taste surface.
 
@@ -2790,6 +3134,7 @@ Reward mechanics:
 - timbral weight: grain, breath, FM bite, woody reeds, analog warmth, sub-bass
 - constraint-authored life: old hardware, loop limits, chip identity, composer economy
 - spatial playback / DSP as making music more inhabitable rather than replacing the music
+- compressed listener-response geometry as a local anomaly worth preserving, not overpromoting
 
 Protected anchors:
 
@@ -2816,316 +3161,262 @@ Music archive rule:
 
 > **VGM is not only sound; it is recoverable world-history encoded in composer, game, hardware, format, rip, metadata, and playback chain.**
 
-Rejection mechanics:
-
-- bass without authored movement
-- atmosphere without contour
-- mood without structure
-- repetition without mutation or hypnosis
-- generic playlist-core polish
-- lyrics that ask for feeling without delivery, wit, or symbolic pressure
-- orchestral writing without fingerprint
-- technical skill that remains dead on contact
-
 False-positive warning:
 
 > Do not recommend by genre. Dubstep, VGM, Latin, indie, jazz, rock, and pop can all pass or fail depending on motion, texture, fingerprint, and return.
 
 Global feedback:
 
-Music reveals the taste engine most clearly: groove as trusted motion, return as aliveness surviving re-entry, and constraint as the condition that makes movement earned.
+Music reveals the taste engine most clearly: groove as trusted motion, return as aliveness surviving re-entry, and constraint as a source of identity. The recent low-dimensional-response finding should be treated as strong local evidence for MUSIC and SELF, but not as a reason to reduce music to numbers. The domain must preserve the listening doors: tracks, composers, timbre, basslines, woodwinds, albums, games, chips, and playback context.
 
 Best compression:
 
-> **Music is world-listening through motion, texture, and return.**
-
-### 7.2 Games
-
-The game preference is not genre-first. It is field-behavior-first.
-
-Games are attractive when they become authored fields with memory, pressure, playable interiority, and residue worth returning to. The real question is not “what genre is this?” but: what kind of field does it create, how does the field carry state, what agency does it allow, and does progress leave a thread?
-
-Core rule:
-
-> **Give me a world, a thread, and a museum of what I survived.**
-
-Reward mechanics:
-
-- authored spatial intelligence
-- topology, shortcuts, and embodied traversal
-- knowledge as progression
-- reconstruction from fragments
-- observer adequacy
-- world memory
-- role fluidity
-- support/denial as positive agency
-- state transitions and field-state density
-- modded expansion around stable base identity
-- surreal/dream-field inhabitation
-- playable interiority
-- quiet companion anchors beside unstable protagonists
-- collection as curated residue
-- completion as persistence evidence
-- clean pressure loops / readable combat competence
-- authored density over procedural abundance
-
-Protected anchors:
-
-- **Trails** — world continuity, delayed consequence, institutions, character memory, observer evolution.
-- **Outer Wilds** — knowledge as progression, irreversible understanding, authored cosmic topology.
-- **The Witcher 3** — authored world density, side-content texture, social/ecological atmosphere.
-- **Elden Ring / Soulsborne / Bloodborne** — embodied topology, authored danger, threshold difficulty, route memory.
-- **Disco Elysium** — interiority as playable field; Harry's mind as interface, narrator, failure engine, political filter, comedy system, and identity-pressure chamber. Kim Kitsuragi is a protected companion-anchor beside collapse, structurally adjacent to Morte from Planescape.
-- **Planescape: Torment / Torment: Tides of Numenera** — identity excavation, dialogue as structure, philosophical worldbuilding.
-- **Metal Gear Solid 2 / 3 / series** — information control, memetic manipulation, meta-architecture, emotional keystone moments.
-- **Red Dead Redemption 2** — slow collapse, gang drift, failed preservation, inevitable internal fracture.
-- **Return of the Obra Dinn / Golden Idol** — observer work, reconstruction, explanation as reward.
-- **Stardew Valley / Terraria / Starbound** — routine, collection, base/world shaping, environmental memory. Terraria's exploration museum behavior is crucial: statues, boss drops, cosmetics, and collected objects turn traversal into spatial memory.
-- **Yume Nikki / LSD / Eastern Mind / Off-Peak / Kentucky Route Zero** — surreal fields that become places, not gimmicks.
-- **Danganronpa / Zero Escape / AI: The Somnium Files / Paradise Killer / Unheard / Song of Farca** — visual-novel/detective participation and mystery with contour.
-- **Persona 3/4/5** — calendar structure, social/dungeon split, music/style, cast-world routine.
-- **Final Fantasy / Chrono / Xenogears / Dragon Quest / Kingdom Hearts / Ys / Dark Cloud** — JRPG world-memory, music-world attachment, mythic continuity.
-- **Classic/online shooters including Call of Duty, Medal of Honor, SOCOM, Half-Life, Red Faction, BioShock Infinite** — shooters can work through authored mission pressure, clean competitive/combat loops, online mastery, weird setting, or field-altering affordances.
-
-Rejection mechanics:
-
-- procedural abundance replacing authored contour
-- survival/crafting chores as primary loop
-- blank-canvas freedom with no goal, grammar, or thread
-- deckbuilders/card systems and abstract decision engines without inhabitable field
-- roguelike loops that reset place before it becomes a place
-- 2D metroidvania topology when embodiment/investment never fully enters the space
-- pretty settings that fail inhabited atmosphere
-- anthology JRPG structure where characters do not fuse into one world-memory system
-- overcomplex dice systems when randomness replaces meaningful agency
-- open worlds that feel socially fake despite visual quality
-
-False-positive warnings:
-
-- *Cyberpunk 2077* shows that visual atmosphere fails when the people/world feel fake.
-- *Subnautica* shows that “exploration + mystery” is not enough when survival/crafting friction dominates.
-- *No Man's Sky* shows procedural scale without authored density becomes soul leakage.
-- *Hades* shows style/music/flow can pass while roguelike structure weakens place attachment.
-- *Slay the Spire / Balatro / Magic / Artifact-like systems* fail because decision-space without inhabitable field is not enough.
-- *Death Stranding* shows weird/experimental/walking/auteur texture is not enough without capture.
-
-Modded-world rule:
-
-> **Mods should make a world more itself, not replace its grammar.**
-
-Terraria and Stardew modlists are high-signal because they show revealed preference under mod pressure. The pattern is vanilla-plus inhabitation, friction control, progression legibility, atmospheric thickening, and curated residue.
-
-Terraria signals:
-
-- storage / recipe / UI tools reduce translation tax
-- boss checklists, rare-drop notices, and state displays make progression legible
-- lighting, worldgen, creatures, and console/vanilla-like content add contour without destroying identity
-- corruption spread, death friction, and nuisance quests are controlled when they threaten world continuity
-- statues, boss drops, cosmetics, and collected objects become a museum of traversal
-
-Stardew signals:
-
-- weather, windows, sound, portraits, dialogue, animals, interiors, and seasonal visuals make the town/farm more inhabited
-- bundles, museum payoff, birthdays, professions, rarecrows, and social changes add real goals rather than pretend-only stories
-- inventory, automation, movement, geodes, friendship decay, build/upgrade delays, and fishing friction are reduced when they block return
-- cheat/debug/admin tools function as threshold-control and repair access, not as a desire for no rules
-
-Best compression:
-
-> **Modding is field stewardship: deepen the existing world, remove bad friction, and make exploration leave usable residue.**
-
-Nested game-depth rule:
-
-> **A peak game moment is often a resolution descent: the world opens downward and every layer makes the outer world more real.**
-
-Global feedback:
-
-Games are the best false-positive testing surface because they expose the difference between genre labels and actual field mechanics. They prove the profile must predict by authoredness, state memory, topology, role leverage, and residue, not by tags.
-
-Best compression:
-
-> **A game works when understanding, traversal, and residue make the field more real.**
-
-### 7.3 Wiki / Public Knowledge
-
-Wikipedia is not literally a game, but improving an article triggers the same structural reaction as improving a Terraria base, museum, Stardew farm, Helix module, foobar library, or folder map: an existing field becomes cleaner, more coherent, more inspectable, more useful, and more itself.
-
-Core rule:
-
-> **Public knowledge repair turns private structure-sense into shared wayfinding.**
-
-What this domain is:
-
-- consolidation of scattered sources into a coherent public object
-- extracting the main parts of a subject without flattening its identity
-- applying a shared schema / standard: MOS, wikicode, templates, infoboxes, categories, navboxes, citations
-- article architecture under constraint
-- source hierarchy and citation structure
-- lead construction and future-reader orientation
-- constrained prose compression
-- public-facing curation
-- revision history as state memory
-- linkable knowledge that others can read, use, navigate, and build from
-
-What it is not:
-
-- mere “editing”
-- trivia hoarding
-- attention-seeking publication
-- generic writing hobby
-- quantity-over-quality edit farming
-- mechanical formatting without reader benefit
-- private notes pasted into public space
-- unstructured fandom enthusiasm
-
-Wikipedia works because it gives the operator a public canvas with hard rules. The task is not just to add facts. The task is to absorb multiple sources, extract what matters, reconcile competing details, respect policy and style constraints, encode the result through templates / wikicode / citations, and present it so a general reader can understand the subject while still sensing depth.
-
-This is why MOS and templates matter: they are not arbitrary bureaucracy when used well. They are shared compression standards that make the article interoperable with the rest of the encyclopedia.
-
-Protected anchors:
-
-- Dissident93 / long-term Wikipedia identity
-- high-volume editing history
-- Good Article work
-- Jayden Daniels article as a major self-written public-knowledge artifact
-- Motoi Sakuraba, Josh Harris, Chase Young, Sammis Reyes, The International 2016 / 2017, Dota 2, Trails, Commanders-related infrastructure
-- sports biographies and Commanders / NFL templates
-- video-game article structure
-- Dota / esports work
-- template / infobox repairs
-- Wikidata / Commons support
-- advanced wikicode with LLM assistance
-- article improvement as visible state change
-
-Jayden Daniels page pattern:
-
-The Jayden Daniels page is a strong evidence anchor because it shows the operator's public-knowledge style in a high-attachment subject. The page is not merely a fan page; it is a constrained front-facing knowledge object: lead summary, infobox, chronological biography, college/NFL sections, season sections, player profile, stats, awards, personal life, notes, references, and external links.
-
-The cognitive pattern visible there:
-
-- high-interest subject becomes public artifact
-- sources are consolidated into one navigable field
-- lead compresses the subject for first-entry readers
-- sections preserve chronological and causal resolution
-- statistics and awards provide structured residue
-- templates and infoboxes expose machine-readable / skimmable state
-- prose tries to be readable without losing depth
-- fandom attachment becomes maintenance pressure, not pure boosterism
-
-Reward mechanics:
-
-- a messy factual field becomes legible
-- scattered sources become one coherent article
-- a lead starts orienting the reader correctly
-- a template stops lying about the subject
-- citations become load-bearing instead of decorative
-- prose compresses without deleting identity
-- the article becomes easier for future readers to enter
-- useful details are preserved without becoming cruft
-- bad structure is denied before it contaminates the field
-- public-facing knowledge becomes linkable, collected, organized, and reusable
-
-Rejection mechanics:
-
-- article cruft
-- policy-violating bloat
-- fake depth through excessive detail
-- talk-page ritual with no useful action
-- inflated diction
-- false neutrality that hides structure
-- template logic that misrepresents the subject
-- deletion of useful evidence because prose got too smooth
-- sourcing that technically exists but does not support the claim cleanly
-- writing that is “accurate” but leaves the reader without a handle
-
-Commanders-specific wiki behavior:
-
-The Commanders are an emotional fandom anchor first. The public-knowledge compulsion comes after: because the team matters, its front-facing knowledge state matters more. Roster templates, staff templates, navboxes, player pages, and related infrastructure feel like they need to stay updated, accurate, linkable, and usable.
-
-Other teams may receive occasional maintenance, but Commanders pages combine fandom attachment with Wikipedia’s public-structure canvas.
-
-Best compression:
-
-> **The Commanders are the emotional anchor; Wikipedia is the public-structure canvas where that attachment becomes maintenance.**
-
-Global feedback:
-
-Wiki proves the state-improvement reward is not limited to games or bases. It is the same structural reaction: an existing public object gets repaired until it becomes more navigable, faithful, reader-facing, and resolution-rich.
-
-Best compression:
-
-> **Wikipedia is constrained public curation: source extraction, schema application, and reader-facing depth.**
+> **Music is where the cognitive map becomes audible.**
 
 Second compression:
 
-> **A good article is a mini-world made linkable.**
+> **The metric can point at the door; it cannot replace the room.**
 
-### 7.4 Food / Drink
+### 7.3 Games
 
-Food preference is not only comfort food, fast food, or indulgence. It is a taste domain because subjective experience matters: texture, density, temperature, ritual, bounded abundance, and modular variation create direct embodied reward.
+Games are interactive fields where structure becomes playable.
+
+The operator is not drawn to games merely because they are hard, open-world, long, nostalgic, or story-heavy. He is drawn to games that turn spatial, mechanical, social, or epistemic structure into a traversable field.
 
 Core rule:
 
-> **Food works when variation happens inside a warm, stable grammar.**
+> **A good game is a field whose rules become inhabitable.**
 
 Reward mechanics:
 
-- soft/dense base
-- controlled texture events
-- creamy continuity
-- crunch inside softness
-- fat/salt/sweet density
-- spoonable thickness
-- cold drinkable comfort
-- modular recombination inside stable identity
-- ritual return
-- seasonal coherence
-- bounded abundance
+- authored topology
+- reconstruction
+- world memory
+- state transitions
+- field manipulation
+- support/denial roles
+- controlled danger
+- completion evidence
+- modded continuity
+- curated residue
+- temporal contribution when the world remembers the build
 
 Protected anchors:
 
-- Thanksgiving as favorite holiday/food ritual
-- pumpkin pie with graham crust
-- brownies
-- cheesecake
-- mac and cheese
-- pizza
-- burgers with bacon/ketchup/mustard
-- breakfast sandwiches
-- eggs/bacon/some sausage
-- hot dogs with ketchup/mustard or chili
-- fries: crisp exterior / soft interior
-- Cook Out banana pudding shake with wafers + M&Ms / Snickers / sliced bananas
-- thick milkshakes eaten by spoon
-- cold brew / creamy iced coffee / Dunk-a-Latte style drinks
+- Outer Wilds
+- Elden Ring / FromSoft
+- Disco Elysium / Kim Kitsuragi
+- Planescape: Torment
+- Return of the Obra Dinn
+- Stardew Valley
+- Terraria
+- Skyrim / EU4 modding
+- Extreme Football Throwdown
+- Overwatch support roles
+- Dota field architecture
+- Yume Nikki / LSD: Dream Emulator / Eastern Mind / Osamu Sato-adjacent dream fields
+- Trails and Persona as world-memory/narrative-system anchors
 
-Rejection mechanics:
+False-positive warning:
 
-- abundance without grammar
-- texture events that do not integrate
-- flavor noise
-- straws for thick milkshakes
-- hot coffee as default
-- overly thin/weak creamy drinks
-- “healthy” substitution that breaks the core texture/payoff
-
-Thanksgiving rule:
-
-> **Ritual abundance under autumnal coherence.**
+> Do not recommend by genre. Recommend by field mechanics, state memory, topology, authored pressure, and re-entry value.
 
 Global feedback:
 
-Food proves not every preference needs mystery, hidden depth, or intellectual reconstruction. Some domains reveal the same engine through simpler embodied structure: stable base, compatible variation, texture event, return.
+Games reveal what kind of agency the operator prefers: not just shooting, fighting, or winning, but field manipulation, re-entry, reconstruction, denial, route-making, and inhabitable state change.
 
 Best compression:
 
-> **Soft base, sharp event, bounded abundance.**
+> **Games work when the field can be learned, entered, altered, and returned to.**
 
-### 7.5 Sexual / Visual Attraction
+### 7.4 Trails / Kiseki
 
-Sexual and visual attraction are part of the cognitive map. They are not a shallow side list, not novelty-seeking, and not reducible to ethnicity, body type, or one surface trait.
+Trails is the strongest dedicated fiction-continuity chamber: world-memory, institutional machinery, delayed payoff, observer evolution, and database/Atlas work all converge there.
 
-Attraction is selective visual recognition plus compatible interiority. Visual signal can open the door; perceived personhood, self-possession, quietness, warmth, intelligence, and low-performance presence decide whether attraction stays alive.
+Core rule:
+
+> **Trails is world-memory made operational.**
+
+Second rule:
+
+> **Trails works because the world remembers itself.**
+
+What this domain is:
+
+- long-form continuity as an inhabitable field
+- arcs as rooms inside a larger remembering world
+- institutions as hidden machinery
+- character attachment through observer evolution
+- delayed reveals that reclassify earlier evidence
+- source-addressable world structure
+- database/wiki/Atlas work as continuity made queryable
+- spoiler discipline as preservation of discovery shape
+- English-facing / Japanese-substrate source handling
+
+What it is not:
+
+- generic JRPG liking
+- nostalgia alone
+- “likes lore”
+- long-runtime preference
+- anime trope consumption
+- proof that every connected universe works
+- raw lore dump
+- spoiler free-for-all
+
+Protected anchors:
+
+- Liberl / Crossbell / Erebonia / Calvard arc memory
+- Renne, Tio, Olivier/Olivert, Ouroboros, McBurn, Campanella, Van Arkride
+- Bracer Guild, Septian Church, Epstein Foundation, SSS, jaegers, governments, intelligence structures
+- Trails database, MediaWiki/Cargo plan, source IDs, spoiler bands, Atlas page classes
+- English-primary / Japanese-aware source policy
+
+Global feedback:
+
+Trails proves that continuity is not the same as content volume. A world becomes alive when old states remain active, institutions have machinery, and return produces new information.
+
+Best compression:
+
+> **The database is not separate from the taste. It is the taste made queryable.**
+
+### 7.5 Wiki / Public Knowledge
+
+Wiki is the public-knowledge chamber: article architecture, citation discipline, source extraction, templates, infoboxes, MOS constraints, public legibility, and future-reader interface design.
+
+Core rule:
+
+> **A good article is a mini-world made linkable.**
+
+What this domain is:
+
+- public object repair
+- source consolidation
+- constrained prose
+- infobox and template architecture
+- reader-facing depth
+- citation discipline
+- state integrity
+- subject-derived structure
+- future-reader usefulness
+
+What it is not:
+
+- edit-count trophy
+- trivia storage
+- status-seeking
+- generic copyediting
+- private notes pretending to be public knowledge
+
+Protected anchors:
+
+- Jayden Daniels page as flagship pride anchor
+- Commanders/NFL article and template maintenance
+- video games / VGM / esports editing
+- Wikidata / Commons / TemplateData / infobox work
+- user page as self-infobox plus public contribution atlas
+
+Global feedback:
+
+Wiki reveals how the operator turns private structure-sense into a public-facing object: collect sources, extract the main facts, apply constraints, sequence the subject, and make the result useful to strangers.
+
+Best compression:
+
+> **Public knowledge is private structure made useful to strangers.**
+
+### 7.6 Software / Tools
+
+Software is the executable-tools chamber: Helix, schemas, LLM collaboration, foobar/DSP tooling, wiki/template implementation, workspace design, and trusted action through inspectable structure.
+
+Core rule:
+
+> **Software is trusted structure made executable.**
+
+Second rule:
+
+> **The ideal interface turns intent into executable structure without hiding accountability.**
+
+What this domain is:
+
+- externalized cognition made runnable
+- Helix as shared working body for human + LLM
+- schemas as boundaries that can act
+- LLMs as map-room partners, implementers, refactor hands, and failure risks
+- inspectable agency: plans, diffs, logs, rollback, validation
+- translation reduction between intent and executed structure
+- minimal surface / nested depth
+- foobar/DSP tooling as playback-field tuning
+- MediaWiki/templates/wikicode as public interface logic
+- repository structure as navigable cognitive body
+- reusable outputs as files/artifacts when chat text would be lossy
+
+What it is not:
+
+- coding identity
+- productivity maximalism
+- dashboard addiction
+- automation for its own sake
+- folder bureaucracy
+- app collecting
+- AI hype
+- generic “likes technology”
+
+Global feedback:
+
+Software makes the profile operational. It is where “structure” either becomes runnable and inspectable or turns into a pretty theory with no hands. It also sharpens the workspace rule: the repo must be navigable by human file exploration, not only by LLM memory.
+
+Best compression:
+
+> **A schema is a boundary that can act.**
+
+Second compression:
+
+> **A good tool gives a handle; a bad tool gives homework.**
+
+Third compression:
+
+> **Reusable structure belongs in files; chat can point at it, but should not be the only container.**
+
+### 7.7 Food / Drink
+
+Food is the embodied predictability and low-friction satisfaction chamber.
+
+Core rule:
+
+> **Plain base, controlled event, low mess.**
+
+What this domain is:
+
+- simple meals
+- fast/convenient food
+- predictable texture
+- cooked/fried vegetables over raw/fresh default
+- cold creamy drinks
+- thick spoonable shakes
+- Thanksgiving as favorite-food + autumn + football convergence
+- seafood disgust boundary
+- structural purism with ingredient rebellion
+
+What it is not:
+
+- “likes junk food” as complete explanation
+- culinary exploration for its own sake
+- cooking identity
+- abundance of all possibilities
+- childish taste
+- hidden ritual theory replacing simple pleasure
+
+Global feedback:
+
+Food protects direct attachment from over-theorizing. Some preferences have structure, but the food still has to taste good, be easy enough to get/make, and not create sensory/mess friction.
+
+Best compression:
+
+> **Structure explains food preference; it does not replace appetite.**
+
+### 7.8 Sexual / Visual Attraction
+
+Attraction is the physical/visual channel-convergence chamber.
 
 Core rule:
 
@@ -3133,77 +3424,45 @@ Core rule:
 
 What this domain is:
 
-- face as art
-- body as sexual signal
-- eyes/expression as interiority signal
-- glasses/eye framing as amplification
-- phenotype/contrast as recognition gate
-- styling as signal modulation
-- quiet self-contained presence as high-value signal
-- visual compatibility plus implied interior compatibility
+- face-first beauty response
+- eye/framing/glasses signal
+- warm/dark visual palette
+- lower-body sexual weighting
+- natural curve contrast
+- detail arousal
+- beauty vs attraction split
+- signal integrity over category labels
+- explicit physical preference without making every detail a fetish
 
 What it is not:
 
-- simple fetish taxonomy
-- novelty-seeking
-- generic horniness
-- demographic sorting
-- “likes Latinas” as sufficient explanation
-- beauty alone
-
-Strong visual filters:
-
-- warm/darker complexion
-- dark hair / dark eyes
-- Latina / Indigenous / Peruvian / Mexican / Chiapas-adjacent clusters
-- darker-skinned Asian, Filipina, Malaysian, Bangladeshi, South Asian-adjacent beauty
-- medium-to-dark brown complexion
-- glasses, especially black-rimmed
-- winged eyeliner / eye framing
-- quiet nerdy look
-- real/amateur/non-glossy presentation
-- earthy muted palettes
-- low-performance presence
-- warmth, intelligence, and awareness
-
-Rejection mechanics:
-
-- loud influencer-style display
-- ostentation
-- gaudy styling
-- tattoos as a negative/low-pull surface
-- attention-seeking personality
-- visual beauty paired with incompatible social energy
-- heavy artifice that hides personhood
-- performative sexuality that feels like surface without interior
-
-Beauty vs attraction split:
-
-- beauty can remain interesting as visual architecture
-- attraction falls when the implied person behind the surface feels incompatible
-- face/body can be art, but sexual attraction needs compatible interiority to remain active
+- demographic category as destiny
+- porn-category reduction
+- polite generic “type”
+- full fetish map
+- proof that visual attraction is only aesthetic/interiority metaphor
 
 Global feedback:
 
-Attraction proves that taste is embodied and immediate but still structured. It reveals channel convergence: visual architecture, sexual signal, eye framing, withheldness, and inferred interior compatibility all have to align.
+Attraction demonstrates that direct physical signal must stay protected. Theory can explain the gates and false positives, but physical attraction is still physical attraction. Sanding that down would make the map useless, which is rude and scientifically pathetic.
 
 Best compression:
 
-> **Attraction is channel convergence, not type-detection.**
+> **The label is never the payload; the surviving signal is.**
 
-Second compression:
-
-> **It is recognition-seeking, not novelty-seeking.**
-
-### 7.6 Aesthetics / Environment
+### 7.9 Aesthetics / Environment
 
 Aesthetics and environment are separate from sexual attraction even though they share visual warmth, texture, contrast, and inhabited presence.
 
-This domain is about atmospheres, rooms, color, light, materials, architecture, landscapes, old web visual fields, and the felt quality of places.
+This domain is about atmospheres, rooms, color, light, materials, architecture, landscapes, old web visual fields, fractal self-similarity, and the felt quality of places.
 
 Core rule:
 
 > **A good space feels bounded, warm, textured, and inhabited.**
+
+Second rule:
+
+> **Layered, connected, modular, and fractal structure is beautiful when each scale increases resolution.**
 
 Reward mechanics:
 
@@ -3226,6 +3485,7 @@ Reward mechanics:
 - abandoned/old spaces with residue
 - private edge positions
 - warm material density, not heat
+- fractal/modular structure when it remains evidence-bound and self-similar across useful scales
 
 Rejection mechanics:
 
@@ -3239,10 +3499,14 @@ Rejection mechanics:
 - gaudy excess
 - minimalism that removes inhabitability
 - polish without symbolic life
+- recursion that becomes ornamental rather than usable
+- beautiful symmetry that outruns evidence
 
 Global feedback:
 
 Aesthetics reveals the same inside/motion/return logic in environmental form. A space feels alive when it has boundary, texture, residue, controlled light, and enough depth for the mind to move.
+
+The new higher-order beauty criterion does not replace warm density, ruins, museums, Mesoamerican geometry, brown, darkness, or texture. It explains why those surfaces become stronger when they imply an interior architecture that can keep unfolding.
 
 Best compression:
 
@@ -3252,185 +3516,130 @@ Second compression:
 
 > **Brown is the visual bass note.**
 
-### 7.7 Body / Sensory
+Third compression:
 
-The body is not separate from cognition. It is the sensor array, pressure gauge, local map, and motion regulator.
+> **Fractal beauty passes when each scale makes the structure more usable, not merely more poetic.**
+
+### 7.10 Body / Sensory
+
+Body/Sensory is the local signal-field chamber.
 
 Core rule:
-
-> **Cognition is spatial, rhythmic, sensory, and muscular before it becomes prose.**
-
-Reward mechanics:
-
-- DOMS as pleasurable localized signal
-- massage / pressure / stretch as body-map reading
-- soreness as “heat map” of used muscle
-- serratus, soleus, hamstring, plantar, pec minor, QL awareness
-- stretching and massage as local relief and localization
-- controlled loud audio
-- darkness
-- cool air
-- night driving
-- cold drinks
-- fast motion under control
-- bodily motion as thinking support: pacing, rocking, leg bouncing, posture shifts
-
-Threat mechanics:
-
-- random banging / unchosen sound
-- fluorescent light / glare
-- heat
-- heights and untrusted exposure
-- fast unpredictable motion near the body
-- chaotic public space
-- forced social attention
-- unowned sensory signal
-
-Important distinction:
-
-> **Chosen intensity regulates; unchosen impact violates.**
-
-Global feedback:
-
-The body/sensory domain proves the map is not merely intellectual. The same boundary and signal-ownership logic appears in muscle soreness, audio, light, movement, environmental threat, and thinking itself.
-
-Best compression:
 
 > **The body is a localizable signal field.**
 
-### 7.8 Sports
+What this domain is:
 
-Sports are not attractive generically. The Commanders are a true fandom anchor, and the emotional payoff is direct: wanting the team to win, feeling excitement, hope, pride, frustration, dread, apathy, or renewed investment based on what the team becomes.
+- DOMS as body-map highlight
+- massage and pressure
+- stretch / pandiculation
+- heat/light/noise gating
+- sensory ownership
+- motion and body thinking
+- controlled intensity
+- localizable soreness
+- body as sensor array
+
+What it is not:
+
+- likes pain
+- injury permission slip
+- gym identity
+- fragility
+- generalized sensory avoidance
+
+Global feedback:
+
+Body/Sensory makes the ownership gate concrete: chosen intensity regulates; unchosen impact violates. It also shows that cognition is spatial, rhythmic, sensory, and muscular before it becomes prose.
+
+Best compression:
+
+> **DOMS is a body-map highlight, not just soreness.**
+
+### 7.11 Sports
+
+Sports is the live-state and direct-fandom chamber.
 
 Core rule:
 
-> **The Commanders are the emotional anchor; structure explains the attachment mechanics, but does not replace the fandom.**
+> **Start with fandom; then model why the fandom feels alive.**
 
-Reward mechanics:
+What this domain is:
 
-- the team winning
-- quarterback competence making the field feel alive
-- Jayden Daniels as franchise reanimation
-- hope as a reachable future
-- elite defense as future denial
-- full-team coherence: defense preserves the future, offense inhabits it
-- roster construction and draft possibility
-- rivalry / division aversion, especially Cowboys and Eagles
-- public discourse as emotional and interpretive field
-- live stakes, pressure, momentum, and possibility branches
-- highlight / play-level emotional payoff
-- occasional analytical enjoyment when it gives an actionable handle
+- Commanders attachment
+- Jayden Daniels as field reanimation
+- team future-state leverage
+- live contest resonance
+- roster/franchise currentness
+- denial and defense pleasure
+- emotional enjoyment/frustration/apathy as direct attachment
+- public-knowledge maintenance where fandom meets wiki care
 
-Protected anchors:
+What it is not:
 
-- Washington Commanders
-- Jayden Daniels
-- Ed Reed
-- defensive / free-safety model
-- division aversion: Cowboys / Eagles
-- NFL Draft
-- Washington sports identity
-- Commanders / NFL Twitter/X field-state tracking
-- Commanders Wikipedia pages, roster templates, staff templates, and navboxes as fandom-driven public-knowledge maintenance
+- pure structural abstraction
+- generic sports analytics
+- roster spreadsheet hobby only
+- fandom replaced by state-space theory
 
-Jayden Daniels rule:
+Global feedback:
+
+Sports protects the direct-attachment rule. The operator wants the Commanders to win. Structure explains why certain players, states, and future openings feel more alive, but it must not replace the emotional base.
+
+Best compression:
 
 > **Jayden is not loved apart from the Commanders; he is loved because he makes the Commanders field feel alive again.**
 
-Quarterback rule:
+### 7.12 Language
 
-> **The quarterback is a living keystone: the player whose competence changes what the whole field can become.**
-
-Ed Reed rule:
-
-> **Ed Reed is the deeper blueprint: prediction, disguise, denial, and psychological control.**
-
-Rejection / lower-pull mechanics:
-
-- sports talk with no handle
-- film-room detail when it becomes dry spectator analysis
-- basketball whistle softness / too much perimeter-shooting feel
-- baseball outside compressed playoff stakes
-- team failure as broken field coherence
-- denial without offense to inhabit the preserved future
-- state tracking that forgets the emotional point: wanting the team to win
-
-Global feedback:
-
-Sports reveals direct attachment more than most domains. It proves not every preference should be over-abstracted into structure. Structure explains why certain players, roles, and futures feel powerful, but the root sports fact is simpler: the team matters.
-
-Best compression:
-
-> **I want my team to win; the structure explains why some wins, players, and futures feel alive.**
-
-Second compression:
-
-> **Denial creates the preserved future; offense must still inhabit it.**
-
-### 7.9 Language
-
-Language is not mainly self-expression, ornament, or social performance. It is a structured encoding system for moving thought through sequence, relation, register, and context.
+Language is the route-making and substrate-access chamber.
 
 Core rule:
 
-> **Language is alternate cognition made usable.**
+> **Fluency means the route appears before translation.**
 
-Reward mechanics:
+What this domain is:
 
-- grammar as movement through structural space
-- phrase chunks becoming automatic
-- relational meaning
-- register/pragmatic fit
-- compression under constraint
-- translation as structural comparison
-- Wikipedia prose as formal compressed language
-- Spanish as relational/spatial movement
-- Japanese as high-value but high-cost source-world access
-- language learning as cognitive remapping
+- Spanish acquisition
+- grammar as movement
+- chunks as executable routes
+- translation bottleneck reduction
+- English prose as constrained public language
+- Japanese/source access as future substrate expansion
+- linguistics as pattern archaeology
 
-Protected anchors:
+What it is not:
 
-- English as sequence-bearing pipeline
-- Spanish as relational/positional field
-- Peruvian / Latin American Spanish as practical and emotional motivation
-- daily Spanish writing/chunking
-- Coffee Break Spanish / Language Transfer / SpanishDict / Memrise / Ella Verbs / Lengua AI-style tools
-- Japanese as desired source access for games, VGM, JRPGs, Trails/Persona/native media
-- Wikipedia prose as constrained public language
-
-Rejection mechanics:
-
-- phrase hoarding without automation
-- grammar study that never becomes usable movement
-- Castilian features that feel less personally relevant
-- live speaking pressure before enough phrase pathways exist
-- translation bottleneck
-- over-formal language learning that kills forward motion
+- grammar hoarding
+- school-task language learning
+- app completionism
+- phrase lists without automation
+- Castilian-default framing when Latin American Spanish is the target
 
 Global feedback:
 
-Language shows the same map in syntax: meaning becomes usable when routes, chunks, relations, and constraints become automatic enough to move through.
+Language shows the same map in syntax: meaning becomes usable when routes, chunks, relations, and constraints become automatic enough to move through. The Roman Britain lineage also reinforces language as a domain where substrate, continuity, rupture, and memory become visible.
 
 Best compression:
 
-> **Fluency means the route appears before translation.**
+> **A language is usable when it becomes a route, not a lookup table.**
 
-### 7.10 Non-Domain Global Layers
+### 7.13 Non-Domain Global Layers
 
-Some important areas should remain in the main map as global layers, project rooms, or evidence access systems rather than first-class taste domains.
+Some important areas should remain in the main map as global layers, labs, substrates, or access systems rather than being promoted into standalone domains by default.
 
-- **Software / Helix** — architecture and implementation layer; not a subjective taste domain here, though software taste exists. Helix is an attempted embodiment of the cognitive map, not the owner of the map.
-- **Theory / Research** — cross-domain epistemic engine; should be organized by research questions and falsifiers, not treated as a simple taste room.
-- **Trails** — protected world-memory anchor and possible project-specific room, but in the taste map it primarily feeds Games / narrative world-memory / database work.
-- **Internet / Archive** — access layer, evidence substrate, field monitor, and object cabinet. It feeds other domains; it is not itself a domain.
-- **Personality / Neurotype / Relationships / Care / Threat** — global constraint layers that govern entry, energy, trust, and interpretation across every domain.
+- **Theory / Research** — cross-domain epistemic engine; organized by research questions, falsifiers, pressure tests, and claim-demotion rules.
+- **Internet / Archive** — access layer, evidence substrate, field monitor, object cabinet, and provenance store. It feeds domains; it is not automatically a domain.
+- **Relationships / Care / Threat** — global constraint layers that cut across Self, Attraction, Language, Body/Sensory, and Social architecture.
+- **Helix implementation contracts** — concrete repo contracts belong in `README.md`, `AGENTS.md`, `core/engine/`, and tooling docs. The Software domain explains why those constraints fit the operator; the workspace constitution says how they are enforced.
+- **Consciousness / Inhabited Interiority** — theory/lab layer; it may get lab structure and research artifacts, but it should not be treated as a taste domain.
 
 Best compression:
 
-> **Not everything important is a domain. Some things are gates, tools, substrates, or global weather.**
+> **Not everything important is a domain. Some things are gates, tools, substrates, labs, or global weather.**
+
 
 ---
-
 
 ## 8. Prediction, Probes, and Anomalies
 
@@ -3466,6 +3675,10 @@ Examples:
 - “likes abundance” refined into bounded abundance under stable grammar.
 - “likes surreal things” refined into surreal fields that become places, not gimmicks.
 - “likes streamers” rejected; acceptable creators are low-noise doorways into stronger fields.
+- “likes building” refined into the Temporal Contribution Gate: building matters when it changes a world that will remember it.
+- “likes clean structure” refined into Clean Lead vs Private Depth: public/LLM-facing artifacts need clean entry; private worlds need durable re-entry.
+- “dislikes PvP” refined into untrusted exposure / anxiety-factory games: the problem is not combat, but personal mechanical exposure without an inhabitable field.
+- “likes shared universes” refined into narrative continuity vs brand aggregation: Trails-like world-memory passes; MCU-style brand grouping may fail.
 
 Best compression:
 
@@ -3560,181 +3773,164 @@ Best compression:
 
 ## 10. Evidence Anchor Index
 
-This is not exhaustive. These examples must remain available because they are the objects the map reasons from. They are evidence doors, not decorative clutter.
+### Self
+
+- diagnosed Asperger's / autism-spectrum profile
+- diagnosed schizoid personality structure
+- monotropism / depth-channel attention
+- response debt / unread-message freeze
+- object-mediated sociality
+- compression-native cognition
+- Roman Britain lineage as cross-domain compression evidence
+- direct correction as boundary sensor
+- dark-room / low-noise / chosen-signal preference
+- low social pull / high object-field attachment
 
 ### Music
 
-- Motoi Sakuraba — compatible mindprint, recognizable composer cognition, motion/complexity
-- Nobuo Uematsu — melodic world memory, FFIX, Vamo' alla Flamenco
-- Yasunori Mitsuda — atmosphere, folk/woodwinds, Chrono Cross
-- Yoko Shimomura — strong melodic/game-world identity
-- Hitoshi Sakimoto — orchestral/world texture
-- Shoji Meguro — Persona fingerprint
-- Yuzo Koshiro — electronic/game rhythm identity
-- Tomohito Nishiura — Level-5 / Dark Cloud / Layton-adjacent world memory
-- KIKIYAMA — Yume Nikki, shaped absence, surreal interiority
-- Silkie — bass pressure, soulful dubstep, low-end continuity
-- MGMT — fingerprint with range, Congratulations / Loss of Life
-- Tool — bass/groove/pressure
-- James Blake — early electronic/vocal texture
-- Ganja White Night — bass movement and animated low-end pressure
-- Autechre — abstract machine-pattern texture
-- Tennis / Blonde Redhead / the bird and the bee — soft melodic upper-world / compatible pop mindprints
-- Natalia Lafourcade — melodic/folk/jazz/woodwind warmth and specificity
-- foobar / ListenBrainz / Last.fm — music evidence substrates, not replacements for listening judgment
+- Silkie, James Blake, MGMT, Tool, Natalia Lafourcade
+- Uematsu, Mitsuda, Shimomura, Sakimoto, Sakuraba, Meguro, Koshiro, Nishiura, Falcom
+- Dark Cloud, Final Fantasy IX, Chrono Cross, Persona, Trails, Yume Nikki
+- foobar loved archive
+- Last.fm / ListenBrainz
+- Spotify saved-track evidence
+- VGM chip/format/provenance paths
+- k_eff / low-dimensional-response finding as local anomaly and cross-domain watch signal
 
 ### Games
 
-- Trails — world memory, continuity, inhabited reality
-- Outer Wilds — observer adequacy / knowledge progression
-- Disco Elysium — interiority as playable field; Kim as companion-anchor beside collapse
-- Planescape: Torment — identity excavation and Morte companion-anchor pattern
-- The Witcher 3 — authored world density
-- Elden Ring / Soulsborne / Bloodborne — authored danger, topology, challenge as threshold, atmosphere
-- Metal Gear Solid 2 / 3 — information-control architecture and emotional keystone moments
-- Red Dead Redemption 2 — slow collapse and failed preservation
-- Return of the Obra Dinn / Golden Idol — reconstruction from fragments
-- Extreme Football Throwdown — object-state chaos, transition sensitivity, ball as state generator
-- Overwatch — immediate teamfight density, support coherence, distributed field strategy
-- Moira — dual-output triage under chaos
-- Ana — backline tempo editing / denial / glue
-- Zenyatta — fragile positional lethality
-- Dark Seer — battlefield architecture
-- Bane / Axe — denial and enemy agency punishment
-- Stardew Valley — vanilla-plus repair, soft ecology, cozy infrastructure
-- Terraria — exploration museum, curated residue, object-state memory
-- Skyrim / EU4 / Stardew mods — bounded abundance under base grammar
-- Yume Nikki / LSD: Dream Emulator / Eastern Mind — shaped absence and dream-field inhabitation
-- Danganronpa / Zero Escape / AI / Paradise Killer / Unheard — structured mystery participation
-- Call of Duty / Medal of Honor / SOCOM — clean pressure loops, authored/online combat competence
-- Half-Life / Red Faction / BioShock Infinite — narrative/weird setting/field-altering affordance branch
-- Steam/completion list — games evidence substrate and persistence record
+- Outer Wilds
+- Disco Elysium / Kim Kitsuragi
+- Return of the Obra Dinn
+- FromSoft / Elden Ring
+- Stardew Valley / Terraria / Skyrim / EU4 modding
+- Extreme Football Throwdown / Hammer mapmaking
+- Overwatch support roles
+- Dota field architecture
+- Yume Nikki / dream-field games
+- Trails/Persona/JRPG continuity anchors
+
+### Trails / Kiseki
+
+- Liberl, Crossbell, Erebonia, Calvard arc continuity
+- Renne, Tio, Olivier/Olivert, Ouroboros, McBurn, Campanella, Van Arkride
+- Bracer Guild, Septian Church, Epstein Foundation, SSS, jaegers, governments
+- Trails database / Atlas / Metadata / spoiler bands
+- English-primary / Japanese-aware source policy
 
 ### Wiki / Public Knowledge
 
-- Dissident93 / Wikipedia editing history
-- Good Article work
-- video-game article architecture
-- sports biography structure
-- Commanders/NFL infrastructure articles
-- Dota/esports work
-- template and infobox repairs
-- Wikidata / Commons support
-- source hierarchy and lead construction
-- article state improvement as field-care reward
+- Jayden Daniels page as flagship pride anchor
+- Commanders/NFL articles, navboxes, roster/staff templates
+- video game / VGM / esports pages
+- Wikidata / Commons / TemplateData / infoboxes
+- user page as editor-facing interface
+- MOS/citation/template constraints
+- public mini-world article structure
+
+### Software / Tools
+
+- Helix as shared working body
+- DISSONANCE.md as portable person-pattern
+- domain files as decompressed chambers
+- schemas, validation gates, reports, archive, labs
+- LLMs as map-room partners and implementation hands
+- foobar/DSP tooling
+- wiki/template implementation
+- file-over-prose for reusable artifacts
+- human-navigable repo structure
 
 ### Food / Drink
 
-- Thanksgiving — bounded abundance under autumnal ritual grammar
-- Cook Out banana pudding milkshake with wafers, M&Ms, sliced bananas — soft continuity with texture events
-- Reese's Cup / Snickers milkshake variants — crunch/peanut/chocolate/caramel contrast
-- pizza variants — stable grammar with many compatible forms
-- mac and cheese — warm soft base with possible sharp/crispy events
-- burgers / breakfast sandwiches / hot dogs — familiar modular grammar
-- pumpkin pie / brownies / cheesecake — dense soft desserts
-- cold coffee / cold brew / Dunk-a-Latte-style drinks — cold, creamy comfort; hot coffee disliked
+- plain/simple meals
+- chicken tenders/fries, meat-and-cheese sandwiches, bacon cheeseburgers
+- pizza bagels, toast, eggs, grilled cheese
+- thick cold milkshakes
+- banana pudding shake with wafers/M&Ms/banana
+- brownies, cookies, cheesecake, pumpkin pie
+- Thanksgiving: favorite foods + autumn + football
+- cooked/fried vegetables, broccoli, spinach on pizza
+- seafood disgust boundary
 
 ### Sexual / Visual Attraction
 
-- face as art
-- body as separate sexual channel
-- expression/interiority as attraction channel
-- glasses / winged eyeliner / eye framing
-- quiet nerdy look
-- dark hair/dark eyes/warm tone contrast
-- Latina / Indigenous / Peruvian / Mexican / Chiapas-adjacent phenotype clusters
-- darker-skinned Asian / Filipina / Malaysian / Bangladeshi / South Asian-adjacent beauty
-- darker complexion / medium-to-dark brown skin tone
-- real/amateur/non-glossy presentation
-- low-performance presence
+- face-first beauty preference
+- glasses / eye framing
+- warm/dark visual palette
+- natural lower-body curve preference
+- physical signal integrity
 - beauty vs attraction split
+- detail arousal without full fetish replacement
+- understated/low-performance presentation
 
 ### Aesthetics / Environment
 
-- earthy muted palettes: brown, burnt orange, burgundy, forest green, gold
-- brown as visual bass note
-- Mesoamerican geometry and motifs
-- Latin American architectural color/contrast when not gaudy
+- brown, burnt orange, burgundy, forest green, gold, purple
 - autumn / rain / night / overcast
 - dark rooms and controlled light
-- old maps / ruins / abandoned spaces / liminal residue
-- wood / earth / aged surfaces
-- enclosed, warm, textured spaces
-- rejection of fluorescent sterility, glare, heat, and showroom death
+- warm density
+- ruins, museums, old maps
+- Mesoamerican motifs / geometry / jungle
+- Latin American architectural color
+- liminal/abandoned/old web spaces
+- fractal self-similarity as primary beauty criterion when it increases resolution
 
 ### Body / Sensory
 
-- DOMS as pleasurable local signal
-- massage gun / stretching / pressure as body-map reading
-- serratus / soleus / hamstring / plantar awareness
-- controlled loud sound
-- dark room regulation
-- cool air and heat sensitivity
-- random banging as acoustic invasion
-- heights as non-inhabitable exposure
-- pacing / rocking / leg bouncing / driving as motion-supported thinking
+- DOMS as body-map highlight
+- hamstring/calf/soleus/serratus/plantar soreness awareness
+- massage gun / light pressure
+- stretch / pandiculation
+- heat as ambient hostile input
+- random banging vs chosen loud music
+- dark room / cool air / controlled sensory field
 
 ### Sports
 
-- Commanders — team identity, continuity, fandom return
-- Jayden Daniels — field reanimation, QB keystone, calm vector intelligence
-- Ed Reed — free-safety/poster model for denial as positive agency
-- Eagles/Cowboys — division aversion
-- NFL Draft — future-state branching
-- defense-minded preference — denial plus team completion
-- Washington sports identity — contest-resonance channel
+- Commanders fandom
+- Jayden Daniels
+- roster/franchise future-state
+- defense / denial pleasure
+- football currentness
+- public-knowledge maintenance as fandom plus structure-care
+- emotional enjoyment/frustration/apathy as direct attachment
 
 ### Language
 
-- English — sequence-bearing pipeline
-- Spanish — relational/positional field; practical/emotional motivation through Peru/LatAm connection
-- Japanese — high-value but high-cost source-world access
-- Wikipedia prose — constrained public language
-- phrase chunks / automation / 2-second response rule
-- translation bottleneck as current friction
-- register and pragmatic fit as real fluency, not decoration
+- Spanish as active acquisition language
+- Latin American / Peruvian Spanish preference
+- chunks and phrase automation
+- grammar as movement
+- translation bottleneck
+- English prose as public interface
+- Japanese/source access interest
+- linguistics / historical language change as structure archaeology
 
 ### Access Layers / Evidence Substrates
 
-These support domains but should not be promoted into domains by default.
+- Reddit
+- Twitter/X
+- YouTube / old YouTube comments and subscriptions
+- bookmarks
+- saved images/posts
+- GPT and Claude session harvests
+- OpenAI export
+- Last.fm / ListenBrainz / Spotify / foobar exports
+- Steam/game data
+- Wikipedia edit history
 
-- Reddit as field monitor and object cabinet
-- Twitter/X as live state tracker
-- old YouTube profile rooms
-- current YouTube subscriptions as private observatory
-- old profile identity as early self-ontology room
-- saved/bookmarked surfaces
-- foobar/Last.fm/ListenBrainz archives
-- Steam/completion list
-- chat logs and regenerated profile versions
-- Vinny / Vinesauce
-- old AzureRiteReaction
-- RockLeeSmile / Indie Impressions
-- PilotRedSun
-- weird surreal game streams/videos as guided field access
+### Theory / Research
 
-### Software / Tools / Research
+- DCP / Decision-Compression Principle
+- LIP / Local Incompleteness Principle
+- inhabited interiority / A-boundary
+- consciousness theory layer
+- numerology firewall / beauty-is-not-causality rule
+- Helix labs and falsification reports
+- compression-native cognition as operating mode, not proof system
 
-These are global architecture/project layers rather than taste domains in this pass.
-
-- Helix as cognitive-workstation embodiment
-- local tools as externalized cognition
-- spatial DSP chain as playback-field tuning
-- Claude as implementer when local writing is needed
-- ChatGPT as profile/refactor/theory/pattern planner
-- user as final taste authority
-- Recursive Boundary Compression
-- Reconstructive Intelligence
-- DCP
-- LIP
-- A-boundary / Inhabited Interiority
-- consciousness theory layer separation
-- false-positive firewall
-- COGITATE and related datasets as future pressure tools
-- Helix labs as claim-pressure surfaces
 
 ---
-
 
 ## 11. Final Compression
 
@@ -3742,6 +3938,7 @@ Dissonance seeks systems that:
 
 - preserve identity while expanding possibility
 - reveal latent structure through compression and boundary testing
+- compress through domains until invariants become visible at higher scale
 - allow selective abundance under stable grammar
 - carry memory through transformation
 - convert hidden structure into handles
@@ -3754,6 +3951,7 @@ Dissonance seeks systems that:
 - let weirdness remain inhabitable rather than explained to death
 - make future agents smarter rather than merely better informed
 - stay alive through anomaly and correction
+- remain beautiful only when structure remains adequate to evidence
 
 He rejects systems that:
 
@@ -3770,6 +3968,7 @@ He rejects systems that:
 - mistake random surrealism for shaped dream interiority
 - use polish to hide false structure
 - become too coherent to be corrected
+- treat beautiful self-similarity as proof without negative controls
 
 Best final line:
 
@@ -3778,3 +3977,15 @@ Best final line:
 Second final line:
 
 > **The cognitive map should preserve the doors, name the fields they open into, and remain portable enough to follow the person outside any one workspace.**
+
+Third final line:
+
+> **The mind compresses through domains until the same operation becomes visible at another scale.**
+
+Fourth final line:
+
+> **Layered, connected, modular, and fractal structure is beautiful only when each layer increases resolution and stays accountable to evidence.**
+
+Fifth final line:
+
+> **Beauty is not causality.**

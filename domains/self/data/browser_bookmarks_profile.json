@@ -1,0 +1,378 @@
+{
+  "source": "bookmarks-2024-12-01.json",
+  "raw_storage_target": "archive/browser_exports/",
+  "total_bookmarks": 53,
+  "category_counts": {
+    "music": 18,
+    "private_or_account": 8,
+    "other": 8,
+    "wiki": 8,
+    "sports": 7,
+    "software": 3,
+    "games": 1
+  },
+  "top_domains": {
+    "en.wikipedia.org": 5,
+    "youtube.com": 4,
+    "reddit1.nflbite.com": 2,
+    "docs.google.com": 2,
+    "squid-board.org": 2,
+    "mail.aol.com": 1,
+    "mail.google.com": 1,
+    "twitter.com": 1,
+    "reddit.com": 1,
+    "amazon.com": 1,
+    "cs.rin.ru": 1,
+    "es.redskins.com": 1,
+    "fantasy.espn.com": 1,
+    "vgmrips.net": 1,
+    "vgmdb.net": 1,
+    "sittingonclouds.net": 1,
+    "downloads.khinsider.com": 1,
+    "bendodson.com": 1,
+    "vgm.hcs64.com": 1,
+    "hcs64.com": 1,
+    "foobar2000.xrea.jp": 1,
+    "foobar.hyv.fi": 1,
+    "basiscape.com": 1,
+    "covers.musichoarders.xyz": 1,
+    "listenbrainz.org": 1,
+    "w.atwiki.jp": 1,
+    "last.fm": 1,
+    "myaccount.dominionenergy.com": 1,
+    "umresident.realpage.com": 1,
+    "xfinity.com": 1,
+    "alphabetizer.flap.tv": 1,
+    "edwardbetts.com": 1,
+    "iabot.wmcloud.org": 1,
+    "pixeldrain-bypass.cybar.xyz": 1,
+    "flickr2commons.toolforge.org": 1,
+    "mediawiki.org": 1,
+    "chatgpt.com": 1,
+    "github.com": 1,
+    "commanders.com": 1,
+    "videogames.si.com": 1,
+    "schedule35.co": 1,
+    "costco.com": 1,
+    "thegamer.com": 1
+  },
+  "top_folder_paths": {
+    "toolbar / Music": 17,
+    "toolbar": 14,
+    "toolbar / Wiki tools": 9,
+    "toolbar / NFL": 5,
+    "toolbar / Commanders": 5,
+    "toolbar / Financial": 3
+  },
+  "public_examples_by_category": {
+    "software": [
+      {
+        "title": "YouTube",
+        "domain": "youtube.com",
+        "folder_path": [
+          "toolbar"
+        ]
+      },
+      {
+        "title": "ChatGPT",
+        "domain": "chatgpt.com",
+        "folder_path": [
+          "toolbar",
+          "Wiki tools"
+        ]
+      },
+      {
+        "title": "MrOtherGuy/firefox-csshacks",
+        "domain": "github.com",
+        "folder_path": [
+          "toolbar",
+          "Wiki tools"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "title": "Twitter",
+        "domain": "twitter.com",
+        "folder_path": [
+          "toolbar"
+        ]
+      },
+      {
+        "title": "Reddit",
+        "domain": "reddit.com",
+        "folder_path": [
+          "toolbar"
+        ]
+      },
+      {
+        "title": "CS.RIN.RU",
+        "domain": "cs.rin.ru",
+        "folder_path": [
+          "toolbar"
+        ]
+      },
+      {
+        "title": "Alphabetizer",
+        "domain": "alphabetizer.flap.tv",
+        "folder_path": [
+          "toolbar",
+          "Wiki tools"
+        ]
+      },
+      {
+        "title": "Find link",
+        "domain": "edwardbetts.com",
+        "folder_path": [
+          "toolbar",
+          "Wiki tools"
+        ]
+      },
+      {
+        "title": "PixelDrain Limit Bypass",
+        "domain": "pixeldrain-bypass.cybar.xyz",
+        "folder_path": [
+          "toolbar",
+          "Wiki tools"
+        ]
+      },
+      {
+        "title": "Shop - Schedule35",
+        "domain": "schedule35.co",
+        "folder_path": [
+          "toolbar"
+        ]
+      },
+      {
+        "title": "ASMR Inaudible Whispering & Intense Mouth Sounds - YouTube",
+        "domain": "youtube.com",
+        "folder_path": [
+          "toolbar"
+        ]
+      }
+    ],
+    "wiki": [
+      {
+        "title": "Wikipedia",
+        "domain": "en.wikipedia.org",
+        "folder_path": [
+          "toolbar"
+        ]
+      },
+      {
+        "title": "IABot",
+        "domain": "iabot.wmcloud.org",
+        "folder_path": [
+          "toolbar",
+          "Wiki tools"
+        ]
+      },
+      {
+        "title": "Flickr-to-Commons",
+        "domain": "flickr2commons.toolforge.org",
+        "folder_path": [
+          "toolbar",
+          "Wiki tools"
+        ]
+      },
+      {
+        "title": "Editing User:Dissident93/common.js - Wikipedia",
+        "domain": "en.wikipedia.org",
+        "folder_path": [
+          "toolbar",
+          "Wiki tools"
+        ]
+      },
+      {
+        "title": "Recommendations for night mode compatibility on Wikimedia wikis - MediaWiki",
+        "domain": "mediawiki.org",
+        "folder_path": [
+          "toolbar",
+          "Wiki tools"
+        ]
+      },
+      {
+        "title": "Washington Commanders roster",
+        "domain": "en.wikipedia.org",
+        "folder_path": [
+          "toolbar",
+          "Commanders"
+        ]
+      },
+      {
+        "title": "Washington Commanders roster navbox",
+        "domain": "en.wikipedia.org",
+        "folder_path": [
+          "toolbar",
+          "Commanders"
+        ]
+      },
+      {
+        "title": "Washington Commanders staff",
+        "domain": "en.wikipedia.org",
+        "folder_path": [
+          "toolbar",
+          "Commanders"
+        ]
+      }
+    ],
+    "sports": [
+      {
+        "title": "The Stadium - Extremeskins",
+        "domain": "es.redskins.com",
+        "folder_path": [
+          "toolbar",
+          "NFL"
+        ]
+      },
+      {
+        "title": "NFL Streams",
+        "domain": "reddit1.nflbite.com",
+        "folder_path": [
+          "toolbar",
+          "NFL"
+        ]
+      },
+      {
+        "title": "CFB Streams",
+        "domain": "reddit1.nflbite.com",
+        "folder_path": [
+          "toolbar",
+          "NFL"
+        ]
+      },
+      {
+        "title": "ESPN Fantasy Football",
+        "domain": "fantasy.espn.com",
+        "folder_path": [
+          "toolbar",
+          "NFL"
+        ]
+      },
+      {
+        "title": "Washington Commanders roster",
+        "domain": "commanders.com",
+        "folder_path": [
+          "toolbar",
+          "Commanders"
+        ]
+      },
+      {
+        "title": "Washington Commanders - YouTube",
+        "domain": "youtube.com",
+        "folder_path": [
+          "toolbar",
+          "Commanders"
+        ]
+      }
+    ],
+    "music": [
+      {
+        "title": "VGMRips",
+        "domain": "vgmrips.net",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "VGMdb",
+        "domain": "vgmdb.net",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "Sitting on Clouds",
+        "domain": "sittingonclouds.net",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "KH Insider",
+        "domain": "downloads.khinsider.com",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "Apple Music Artwork Finder",
+        "domain": "bendodson.com",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "vgm.hcs64.com",
+        "domain": "vgm.hcs64.com",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "HCS Forum",
+        "domain": "hcs64.com",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "Video Game Music Links - SquidBoard Community",
+        "domain": "squid-board.org",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "FrontPage - foobar2000 Wiki",
+        "domain": "foobar2000.xrea.jp",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "foobar2000 Components",
+        "domain": "foobar.hyv.fi",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "Basiscape Co., Ltd. - News",
+        "domain": "basiscape.com",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      },
+      {
+        "title": "COV - Cover Search Engine",
+        "domain": "covers.musichoarders.xyz",
+        "folder_path": [
+          "toolbar",
+          "Music"
+        ]
+      }
+    ],
+    "games": [
+      {
+        "title": "Complete Walkthrough For The Rise Of The Golden Idol",
+        "domain": "thegamer.com",
+        "folder_path": [
+          "toolbar"
+        ]
+      }
+    ]
+  },
+  "privacy_note": "Private/account-like URLs are counted but not listed as examples."
+}

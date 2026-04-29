@@ -2,7 +2,7 @@ domain: body_sensory
 status: placeholder
 parent_map: DISSONANCE.md
 role: decompressed_domain_room
-canonical_readme: domains/body_sensory/README.md
+canonical_domain_file: domains/body_sensory/BODY_SENSORY.md
 owns_tools: false
 has_local_labs: false
 notes:

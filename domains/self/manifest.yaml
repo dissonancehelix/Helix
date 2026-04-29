@@ -11,7 +11,7 @@ purpose: >
   now self-modeling rather than a standalone cognition domain.
 
 docs:
-  readme: domains/self/README.md
+  domain_file: domains/self/SELF.md
   spec: domains/self/model/SPEC.md
 
 domain_local_metrics:

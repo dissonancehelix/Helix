@@ -9,7 +9,7 @@ Enforces the rule:
 Checks:
   1. docs/ root has no loose markdown files beyond allowed list
   2. docs/ subtrees contain only known/allowed files
-  3. Domain directories have required local docs (README.md, SPEC.md, manifest.yaml)
+  3. Domain directories have required local docs (<DOMAIN>.md, SPEC.md, manifest.yaml)
   4. Application directories have required local docs (manifest.yaml)
   5. No stale references to old doc paths (e.g. docs/ARCHITECTURE.md)
   6. docs/manifest.yaml declares only paths that actually exist
@@ -161,7 +161,7 @@ def check_docs_subtrees(docs_manifest: dict | None) -> list[StructureViolation]:
 # 3. Domain required docs
 # ---------------------------------------------------------------------------
 
-DOMAIN_REQUIRED_DOCS = ["README.md", "SPEC.md", "manifest.yaml"]
+DOMAIN_REQUIRED_DOCS = ["<DOMAIN>.md", "SPEC.md", "manifest.yaml"]
 
 
 def check_domain_docs() -> list[StructureViolation]:

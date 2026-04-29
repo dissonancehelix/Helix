@@ -13,5 +13,5 @@ A schema lives here when it is **enforcement machinery** — something `core/eng
 ## Rules
 
 - Schemas have stable IDs in their `$id` field.
-- Breaking changes bump a version field; migrations are tracked in `archive/migrations/regenerations/`.
+- Breaking changes bump a version field; active notes belong beside the owning schema or in the relevant lab/report.
 - A schema referenced by a lab or app is a public contract; do not edit silently.

@@ -1,9 +1,9 @@
-﻿# Wikimedia History Restore — Dissident93
+# Wikimedia History Restore — Dissident93
 
 ## Scope
 
-- Source archive: `archive/raw/raw_datasets/wikipedia_2026-04-28.zip`
-- Source status: archived API pipeline output; raw zip preserved in `archive/raw`
+- Source archive: deleted after ingestion; prior compact source was `wikipedia_2026-04-28.zip`
+- Source status: archived API pipeline output restored into domain data
 - Username: `Dissident93`
 - Records restored: 15,000
 - Date range: 2020-04-29T18:30:16Z to 2026-04-11T19:02:36Z

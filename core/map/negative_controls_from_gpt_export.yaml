@@ -1,0 +1,183 @@
+version: 0.1
+status: review_from_gpt_export
+items:
+  - id: gpt_negative_control_001
+    domain: language
+    conversation_id: "698a0bd2-8070-8325-aee6-44b31a41e038"
+    date: "2026-02-09T16:49:35.615588+00:00"
+    title: "Olvidé vs Acordé"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "we have two definitions of boring, but I know what you mean. It's like I have one or two Lego pieces, but I don't have enough to assemble anything actually structurally significant or impressive, yet."
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_002
+    domain: language
+    conversation_id: "698a0bd2-8070-8325-aee6-44b31a41e038"
+    date: "2026-02-09T17:52:56.534914+00:00"
+    title: "Olvidé vs Acordé"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "I have about 13 years of editing experience. So I've learned how to refine this sort of style over time, but it's always been a part of me. Even when I was in school, doing essays, which I honestly hate it because you're"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_003
+    domain: food
+    conversation_id: "698b58a9-0e58-832c-bbb0-86dec8c8e29a"
+    date: "2026-02-10T16:21:51.638873+00:00"
+    title: "Cook Out Milkshakes"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "I actually like the chew. I don't like milkshakes with straws."
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_004
+    domain: language
+    conversation_id: "698e8f76-8bb0-8333-b81d-1836fe18c700"
+    date: "2026-02-13T03:10:22.929000+00:00"
+    title: "Bad Bunny English Skills"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "i prefer latin american spanish (mexican/peruvian) over castillian spanish. i dont like vosotros or the lisp they have. how did colonial spanish sound? was there a big difference from 16th century spanish to 19th?"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_005
+    domain: language
+    conversation_id: "698e8f76-8bb0-8333-b81d-1836fe18c700"
+    date: "2026-02-13T03:47:18.990000+00:00"
+    title: "Bad Bunny English Skills"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "first attempts are nice. '@micasamifamiliayyo1630 8 years ago tienes un buen maestro.. 👏👏👏👏 ' one of the videos. what i hate is that i mapped this directly to english instead of ingesting the spanish at it is. in my mind"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_006
+    domain: language
+    conversation_id: "698e8f76-8bb0-8333-b81d-1836fe18c700"
+    date: "2026-02-17T04:06:53.999000+00:00"
+    title: "Bad Bunny English Skills"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "i dont like SVE much but i can get it if it helps with spanish with extra dialogue"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_007
+    domain: language
+    conversation_id: "6994f9a8-7aa0-832e-803f-ec0731df835f"
+    date: "2026-02-18T00:37:13.307000+00:00"
+    title: "La lluvia se llegue"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "yes its really like crossing into an atmospheric border and going deeper and it becomes less noise (where i dont udnersatdn anything) to understand concepts even i dont understand half the words. pretty surreal feeling w"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_008
+    domain: language
+    conversation_id: "6994f9a8-7aa0-832e-803f-ec0731df835f"
+    date: "2026-02-22T05:03:33.751000+00:00"
+    title: "La lluvia se llegue"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "'model a Spanish mind' is it. obviously i have to learn the language still but having this as the foundation should ideally make everything easier. its just hard to do with english so inprinted on my mind and i hate how "
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_009
+    domain: games
+    conversation_id: "69963248-744c-8331-ae59-0dce9680dadd"
+    date: "2026-02-19T01:35:39.952000+00:00"
+    title: "GMod Server Setup Guide"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "lets update this with the latest info. now you see why eft was so loved and why this revival attempt (its not just me even though im the only one with the means to fix it up and manage the server currently) has been drea"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_010
+    domain: software
+    conversation_id: "69963248-744c-8331-ae59-0dce9680dadd"
+    date: "2026-02-19T02:42:34.499000+00:00"
+    title: "GMod Server Setup Guide"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "'AI is basically acting as a compiler for human reasoning' exactly. this is how i use it when others just use it to make a dumb 10 second video they wont ever watch again and its why AI gets so much hate. its just a tool"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_011
+    domain: games
+    conversation_id: "69963248-744c-8331-ae59-0dce9680dadd"
+    date: "2026-02-19T02:52:53.316000+00:00"
+    title: "GMod Server Setup Guide"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "well that and because i hate explaining what eft was every single new session. just pointing it to the codebase or workshop only made it think it was an NFL game or something"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_012
+    domain: food
+    conversation_id: "69a5c205-1730-832e-85d0-601ca22ebb87"
+    date: "2026-03-02T17:06:43.386797+00:00"
+    title: "Birthday Milkshake Suggestions"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "I'm also going to Kroger's to pick up some things and Publix. Are there any good snacks there I can get? I know there are bags of Reese's I haven't tried yet, but usually I avoid getting them because I don't like to eat "
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_013
+    domain: wiki
+    conversation_id: "69b1e58b-772c-8328-ada3-17cd768437f3"
+    date: "2026-03-11T22:00:11.609000+00:00"
+    title: "Hide .0 Values"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "sacks are either 5 or 5.5. i hate when people put in 5.0, so this fixes it?"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_014
+    domain: software
+    conversation_id: "69d30651-8ccc-8325-8b51-5fccc259190d"
+    date: "2026-04-06T01:03:19.676000+00:00"
+    title: "Qwen 3.6 vs Claude Code"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "how does qwen 3.6 compare to claude code and google antigravity? i hate the daily limits"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_015
+    domain: trails
+    conversation_id: "69d71e0d-7190-832f-ab00-a15ef3ad825a"
+    date: "2026-04-09T21:20:22.649000+00:00"
+    title: "Trails"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "https://www.imdb.com/list/ls566250525/ https://www.reddit.com/r/Falcom/ https://steamcommunity.com/sharedfiles/filedetails/?id=[redacted] https://huguesjohnson.com/features/american-falcom/ read the part under Legend of "
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_016
+    domain: body_sensory
+    conversation_id: "69d937fe-a030-832e-bd15-a064c51dc953"
+    date: "2026-04-10T18:43:45.996070+00:00"
+    title: "Hamstringing as punishment"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "Again, this is not an injury, it's just from how I physically walk in my own gait. Like I said it's actually pleasurable to have this sort of soreness. There's other parts in my leg that have no real reaction to being ma"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_017
+    domain: music
+    conversation_id: "69e19b4c-ae0c-83ea-a823-f4784970bc0c"
+    date: "2026-04-17T02:37:11.201000+00:00"
+    title: "House Music Types Explained"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "im also a huge fan of dank n dirty dubs. they play stuff with soul too. alot of dubstep (even on the di.fm channel) plays boring slow stuff"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_018
+    domain: self
+    conversation_id: "69e28f6a-9cf0-83ea-a9eb-10ba28b44c0e"
+    date: "2026-04-17T19:55:46.288463+00:00"
+    title: "Early Christian Views on Jesus"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "Are there any current Christian denominations that reject Chalcedonianism?"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_019
+    domain: software
+    conversation_id: "69ed19ec-c850-83ea-bad3-25fe1bd15a52"
+    date: "2026-04-25T19:57:54.641000+00:00"
+    title: "GPT-5.5 Surreal Impact"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "i like everything. but i dont like the name artifacts for what it is. it should be clear from the names what things are"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"
+  - id: gpt_negative_control_020
+    domain: software
+    conversation_id: "69ed6962-a818-83ea-a99b-7dc2683d449f"
+    date: "2026-04-26T02:37:37.138000+00:00"
+    title: "Cross-Processing Prompt Assistance"
+    surface_reason_it_looked_like_fit: "shares a surface category or adjacent motif"
+    actual_reason_it_failed: "i dont like using helix in the order names. make this generic, helix is just one example not the lead behind it. lets send it back to claude to updtat the doc"
+    pattern_sharpened: "false_positive_boundary"
+    possible_global_feedback: "review before promotion"

@@ -2,15 +2,9 @@
 # Helix Boundary Enforcement: Ignored Data & Bloat
 # -------------------------------------------------------------------
 
-# Raw provenance is local by default. Keep only pointer docs/manifests.
-archive/raw/**
-!archive/raw/
-!archive/raw/README.md
-
-# Bulky migrated review/history outputs.
-archive/analyses/loose_images/
-archive/analyses/attraction_images/
-
+# Local-only evidence rooms. Never publish raw drops or archives.
+archive/**
+inbox/**
 # Core sensor outputs.
 core/reports/workstation/workstation_snapshot_*.json
 core/reports/workstation/workstation_snapshot_*.md
@@ -40,11 +34,6 @@ domains/trails/data/pipeline/retrieval/index/
 
 # Nested repos are provenance, not Helix structure.
 **/.git/
-
-# Inbox is a local drop zone. Track only the sorter contract.
-inbox/**
-!inbox/
-!inbox/README.md
 
 # Heavy files and binaries.
 *.parquet
@@ -84,9 +73,6 @@ node_modules/
 # Exceptions: Load-Bearing Structure
 # -------------------------------------------------------------------
 
-!archive/migrations/
-!archive/migrations/**
-!domains/*/README.md
 !domains/*/manifest.yaml
 !domains/*/model/**
 !domains/*/tools/**
@@ -98,9 +84,8 @@ node_modules/
 !labs/**
 
 # Final bloat guards after broad structure exceptions.
-archive/raw/**
-!archive/raw/
-!archive/raw/README.md
+archive/**
+inbox/**
 domains/*/vendor/**
 !domains/*/vendor/
 !domains/*/vendor/README.md
@@ -137,3 +122,11 @@ domains/trails/data/pipeline/retrieval/index/
 *.dll
 *.zip
 *.pyc
+
+# Compact GPT export analysis ledgers required by the workspace contract.
+!labs/domain_synthesis/data/
+!labs/domain_synthesis/data/gpt_export/
+!labs/domain_synthesis/data/gpt_export/domain_index.csv
+!labs/domain_synthesis/data/gpt_export/artifact_ledger.csv
+!labs/domain_synthesis/reports/operator_interaction_patterns.md
+!domains/*/data/gpt_evidence_index.jsonl

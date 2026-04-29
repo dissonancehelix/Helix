@@ -18,9 +18,8 @@ python core/engine/checks/run_checks.py
 - No raw data files inside `core/engine/` outside the allow-list.
 - All six `core/map/*.yaml` files parse and match the `{version, status, items}` shape.
 - Exactly one root `DISSONANCE.md`; no duplicate ontology files at root.
-- Every `domains/<name>/` has a `README.md` or `README.template.md`.
+- Every `domains/<name>/` has a named `<DOMAIN>.md` file.
 
 ## Phase awareness
 
 The checker's allow-list reflects the current workspace ontology. It must not be stricter than the migration phase, or it becomes a trap. As future phases decide on `scratch/`, tool reclassification, or lab ownership splits, update this checker in lockstep.
-

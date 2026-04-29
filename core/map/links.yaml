@@ -38,7 +38,7 @@ items:
     kind: supports
     status: active
   - from: attraction.image_evidence
-    to: archive/migrations/images/README.md
+    to: archive/compressed_archives/attraction_2026-04-28.zip
     kind: stores
     status: active
   - from: attraction.image_evidence

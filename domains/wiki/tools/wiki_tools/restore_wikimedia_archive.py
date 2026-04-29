@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Restore normalized Wikimedia contribution history from archived API artifacts.
 
-The raw zip remains provenance under archive/raw. This script reads the archived
+The raw zip is used only when restored locally as substantial provenance. This script reads the archived
 pipeline outputs and materializes current wiki-domain normalized data.
 """
 
@@ -104,7 +104,7 @@ def write_report(report_path: Path, summary: dict, normalized_path: Path, summar
 ## Scope
 
 - Source archive: `{summary['source_archive']}`
-- Source status: archived API pipeline output; raw zip preserved in `archive/raw`
+- Source status: archived API pipeline output; source archive may be deleted after domain extraction
 - Username: `{summary['username']}`
 - Records restored: {summary['record_count']:,}
 - Date range: {summary['date_range']['first']} to {summary['date_range']['last']}
