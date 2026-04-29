@@ -1,0 +1,1098 @@
+{
+  "source": "domains/wiki/data/dissident93_wikimedia_full_history.jsonl",
+  "records_scanned": 186519,
+  "date_range": {
+    "first": "2012-05-04T03:07:34Z",
+    "last": "2026-04-28T18:30:22Z"
+  },
+  "project_counts": {
+    "enwiki": 171330,
+    "wikidata": 6198,
+    "commons": 8991
+  },
+  "namespace_counts_top": [
+    [
+      "main/article or item",
+      146742
+    ],
+    [
+      "template",
+      16460
+    ],
+    [
+      "file",
+      8688
+    ],
+    [
+      "talk",
+      5527
+    ],
+    [
+      "project talk",
+      2688
+    ],
+    [
+      "user talk",
+      1764
+    ],
+    [
+      "project",
+      1419
+    ],
+    [
+      "template talk",
+      989
+    ],
+    [
+      "user",
+      935
+    ],
+    [
+      "category",
+      900
+    ],
+    [
+      "module",
+      130
+    ],
+    [
+      "namespace_126",
+      78
+    ],
+    [
+      "property",
+      57
+    ],
+    [
+      "namespace_118",
+      49
+    ],
+    [
+      "category talk",
+      44
+    ],
+    [
+      "module talk",
+      31
+    ],
+    [
+      "file talk",
+      7
+    ],
+    [
+      "namespace_100",
+      4
+    ],
+    [
+      "property talk",
+      4
+    ],
+    [
+      "namespace_119",
+      3
+    ]
+  ],
+  "classification_counts_top": [
+    [
+      "manual_review_required",
+      82428
+    ],
+    [
+      "minor_polish",
+      32800
+    ],
+    [
+      "template_work",
+      16460
+    ],
+    [
+      "talk_page_discussion",
+      11048
+    ],
+    [
+      "media_or_file_work",
+      8688
+    ],
+    [
+      "revert_or_undo",
+      7746
+    ],
+    [
+      "structured_data_work",
+      6198
+    ],
+    [
+      "reference_or_citation_work",
+      5766
+    ],
+    [
+      "chronology_update",
+      4574
+    ],
+    [
+      "project_maintenance",
+      2350
+    ],
+    [
+      "article_creation",
+      2204
+    ],
+    [
+      "copyedit_cleanup",
+      1837
+    ],
+    [
+      "lead_rewrite",
+      1619
+    ],
+    [
+      "infobox_update",
+      1603
+    ],
+    [
+      "category_work",
+      900
+    ],
+    [
+      "article_expansion",
+      298
+    ]
+  ],
+  "top_pages": [
+    [
+      "Jayden Daniels",
+      1728
+    ],
+    [
+      "Dota 2",
+      1586
+    ],
+    [
+      "Template:Washington Commanders roster",
+      1465
+    ],
+    [
+      "Wikipedia talk:WikiProject Video games",
+      1346
+    ],
+    [
+      "Josh Harris (businessman)",
+      1340
+    ],
+    [
+      "Template:Washington Commanders roster navbox",
+      1294
+    ],
+    [
+      "Washington Commanders",
+      1151
+    ],
+    [
+      "User talk:Dissident93",
+      1053
+    ],
+    [
+      "Chase Young",
+      851
+    ],
+    [
+      "Wikipedia talk:WikiProject National Football League",
+      842
+    ],
+    [
+      "New Commanders Stadium",
+      791
+    ],
+    [
+      "Persona 5",
+      697
+    ],
+    [
+      "List of suspensions in the NFL",
+      608
+    ],
+    [
+      "Trails (series)",
+      598
+    ],
+    [
+      "2024 Washington Commanders season",
+      591
+    ],
+    [
+      "Sonic Mania",
+      532
+    ],
+    [
+      "The International 2018",
+      501
+    ],
+    [
+      "The Legend of Zelda: Breath of the Wild",
+      492
+    ],
+    [
+      "Hidetaka Miyazaki",
+      483
+    ],
+    [
+      "PUBG: Battlegrounds",
+      467
+    ],
+    [
+      "Rocket League",
+      441
+    ],
+    [
+      "Nintendo Entertainment Planning & Development",
+      422
+    ],
+    [
+      "Ron Rivera",
+      422
+    ],
+    [
+      "Elden Ring",
+      417
+    ],
+    [
+      "David Blitzer",
+      406
+    ],
+    [
+      "Q6289885",
+      401
+    ],
+    [
+      "Super Mario Odyssey",
+      397
+    ],
+    [
+      "Yasunori Mitsuda",
+      395
+    ],
+    [
+      "Q66825384",
+      392
+    ],
+    [
+      "Pokémon Go",
+      385
+    ]
+  ],
+  "marker_counts": {
+    "reversions_undo": 9872,
+    "template_work": 4405,
+    "infobox_work": 2512,
+    "wording_trims": 10620,
+    "chronology_date_updates": 12094,
+    "current_language_gate": 549,
+    "citation_date_accuracy": 250,
+    "redundancy_surface": 2234,
+    "citation_reference_work": 7879,
+    "lead_trims": 2393,
+    "interface_dark_mode": 224
+  },
+  "examples": {
+    "reversions_undo": [
+      {
+        "timestamp": "2012-07-07T17:11:13Z",
+        "project": "enwiki",
+        "page": "Mirza Ghulam Ahmad",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 501114537 by [[Special:Contributions/119.152.25.200|119.152.25.200]] ([[User talk:119.152.25.200|talk]])"
+      },
+      {
+        "timestamp": "2012-07-08T03:23:39Z",
+        "project": "enwiki",
+        "page": "Nobuo Uematsu",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 501191489 by [[Special:Contributions/Dissident93|Dissident93]] ([[User talk:Dissident93|talk]])"
+      },
+      {
+        "timestamp": "2012-10-10T08:50:44Z",
+        "project": "enwiki",
+        "page": "Larry Fitzgerald",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 516954282 by [[Special:Contributions/184.34.51.107|184.34.51.107]] ([[User talk:184.34.51.107|talk]])"
+      },
+      {
+        "timestamp": "2012-10-24T05:53:27Z",
+        "project": "enwiki",
+        "page": "Yasunori Mitsuda",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 519519558 by [[Special:Contributions/Dissident93|Dissident93]] ([[User talk:Dissident93|talk]])"
+      },
+      {
+        "timestamp": "2013-02-18T07:38:26Z",
+        "project": "enwiki",
+        "page": "Michiru Yamane",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 538837078 by [[Special:Contributions/Dissident93|Dissident93]] ([[User talk:Dissident93|talk]])"
+      },
+      {
+        "timestamp": "2013-05-20T01:39:21Z",
+        "project": "enwiki",
+        "page": "Hitoshi Sakimoto",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 555876539 by [[Special:Contributions/Dissident93|Dissident93]]"
+      },
+      {
+        "timestamp": "2013-05-21T11:30:10Z",
+        "project": "enwiki",
+        "page": "Fire Emblem: Shadow Dragon and the Blade of Light",
+        "classification": "manual_review_required",
+        "comment": "Hirokazu Tanaka served as sound producer and thus did no music."
+      },
+      {
+        "timestamp": "2013-06-02T09:06:00Z",
+        "project": "enwiki",
+        "page": "Charles Woodson",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 557837035 by [[Special:Contributions/67.185.53.87|67.185.53.87]] ([[User talk:67.185.53.87|talk]]) Woodson is wearing #2 temporarily"
+      },
+      {
+        "timestamp": "2013-06-02T09:08:33Z",
+        "project": "enwiki",
+        "page": "Ronde Barber",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 556791943 by [[Special:Contributions/67.185.53.87|67.185.53.87]] ([[User talk:67.185.53.87|talk]]) Barber has retired and joined Fox Sports"
+      },
+      {
+        "timestamp": "2013-06-03T19:00:55Z",
+        "project": "enwiki",
+        "page": "Leroy Harris (offensive lineman)",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 558168815 by [[Special:Contributions/Dissident93|Dissident93]] ([[User talk:Dissident93|talk]]) Oops, he was signed recently and hasn't been put on the team's website."
+      }
+    ],
+    "template_work": [
+      {
+        "timestamp": "2012-07-13T04:07:04Z",
+        "project": "enwiki",
+        "page": "Tatsuyuki Maeda",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Maeda}} {{Infobox musical artist |name=Tatsuyuki Maeda |native_name=前田 龍之 |native_name_lang=jpn |image= |caption= |image_size= |backgro...'"
+      },
+      {
+        "timestamp": "2012-10-23T01:50:30Z",
+        "project": "enwiki",
+        "page": "Hiroshi Kawaguchi (composer)",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Kawaguchi}} {{Infobox musical artist |name=Hiroshi Kawaguchi |native_name=川口 博史 |native_name_lang=jpn |birth_name=Hiroshi Miyauchi |alias...'"
+      },
+      {
+        "timestamp": "2012-10-23T04:50:56Z",
+        "project": "enwiki",
+        "page": "Naofumi Hataya",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Hataya}} {{Infobox musical artist |name=Naofumi Hataya |native_name=幡谷 尚史 |native_name_lang=jpn |image= |caption= |image_size= |backgro...'"
+      },
+      {
+        "timestamp": "2013-01-16T11:23:25Z",
+        "project": "enwiki",
+        "page": "Naoki Kodaka",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Kodaka}} {{Infobox musical artist |name=Naoki Kodaka |native_name=小高 直樹 |native_name_lang=jpn |image= |caption= |image_size= |backgroun...'"
+      },
+      {
+        "timestamp": "2013-04-29T20:09:00Z",
+        "project": "enwiki",
+        "page": "Harumi Fujita",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Fujita}} {{Infobox musical artist |name=Harumi Fujita |native_name=藤田 晴美 |native_name_lang=jpn |image= |caption= |image_size= |backgrou...'"
+      },
+      {
+        "timestamp": "2013-05-21T10:11:17Z",
+        "project": "enwiki",
+        "page": "Soichi Terada",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Terada}} {{Infobox musical artist |name=Soichi Terada |native_name=寺田 創一 |native_name_lang=jpn |image= |caption= |image_size= |backgrou...'"
+      },
+      {
+        "timestamp": "2013-05-22T05:40:54Z",
+        "project": "enwiki",
+        "page": "Andre Holmes",
+        "classification": "infobox_update",
+        "comment": "added name to infobox"
+      },
+      {
+        "timestamp": "2013-05-22T06:32:08Z",
+        "project": "enwiki",
+        "page": "Template:New York Giants 2012 NFL draft picks",
+        "classification": "template_work",
+        "comment": "Dissident93 moved page [[Template:New York Giants 2012 NFL Draft selections]] to [[Template:Template:Giants2012DraftPicks]]: Consistency"
+      },
+      {
+        "timestamp": "2013-05-22T06:32:08Z",
+        "project": "enwiki",
+        "page": "Template:New York Giants 2012 NFL Draft selections",
+        "classification": "template_work",
+        "comment": "Dissident93 moved page [[Template:New York Giants 2012 NFL Draft selections]] to [[Template:Template:Giants2012DraftPicks]]: Consistency"
+      },
+      {
+        "timestamp": "2013-05-22T06:32:09Z",
+        "project": "enwiki",
+        "page": "Template talk:New York Giants 2012 NFL draft picks",
+        "classification": "talk_page_discussion",
+        "comment": "Dissident93 moved page [[Template talk:New York Giants 2012 NFL Draft selections]] to [[Template talk:Template:Giants2012DraftPicks]]: Consistency"
+      }
+    ],
+    "infobox_work": [
+      {
+        "timestamp": "2012-07-13T04:07:04Z",
+        "project": "enwiki",
+        "page": "Tatsuyuki Maeda",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Maeda}} {{Infobox musical artist |name=Tatsuyuki Maeda |native_name=前田 龍之 |native_name_lang=jpn |image= |caption= |image_size= |backgro...'"
+      },
+      {
+        "timestamp": "2012-10-23T01:50:30Z",
+        "project": "enwiki",
+        "page": "Hiroshi Kawaguchi (composer)",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Kawaguchi}} {{Infobox musical artist |name=Hiroshi Kawaguchi |native_name=川口 博史 |native_name_lang=jpn |birth_name=Hiroshi Miyauchi |alias...'"
+      },
+      {
+        "timestamp": "2012-10-23T04:50:56Z",
+        "project": "enwiki",
+        "page": "Naofumi Hataya",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Hataya}} {{Infobox musical artist |name=Naofumi Hataya |native_name=幡谷 尚史 |native_name_lang=jpn |image= |caption= |image_size= |backgro...'"
+      },
+      {
+        "timestamp": "2013-01-16T11:23:25Z",
+        "project": "enwiki",
+        "page": "Naoki Kodaka",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Kodaka}} {{Infobox musical artist |name=Naoki Kodaka |native_name=小高 直樹 |native_name_lang=jpn |image= |caption= |image_size= |backgroun...'"
+      },
+      {
+        "timestamp": "2013-04-29T20:09:00Z",
+        "project": "enwiki",
+        "page": "Harumi Fujita",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Fujita}} {{Infobox musical artist |name=Harumi Fujita |native_name=藤田 晴美 |native_name_lang=jpn |image= |caption= |image_size= |backgrou...'"
+      },
+      {
+        "timestamp": "2013-05-21T10:11:17Z",
+        "project": "enwiki",
+        "page": "Soichi Terada",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Japanese name|Terada}} {{Infobox musical artist |name=Soichi Terada |native_name=寺田 創一 |native_name_lang=jpn |image= |caption= |image_size= |backgrou...'"
+      },
+      {
+        "timestamp": "2013-05-22T05:40:54Z",
+        "project": "enwiki",
+        "page": "Andre Holmes",
+        "classification": "infobox_update",
+        "comment": "added name to infobox"
+      },
+      {
+        "timestamp": "2013-05-23T00:24:19Z",
+        "project": "enwiki",
+        "page": "Craig Roh",
+        "classification": "infobox_update",
+        "comment": "Updated page with NFL infobox"
+      },
+      {
+        "timestamp": "2013-06-02T08:41:59Z",
+        "project": "enwiki",
+        "page": "Josh McNary",
+        "classification": "infobox_update",
+        "comment": "Added infobox"
+      },
+      {
+        "timestamp": "2013-06-14T06:14:23Z",
+        "project": "enwiki",
+        "page": "DynamiTracer",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Infobox video game |title =DynamiTracer |image = |caption = |developer =[[Square]] |publisher =[[Square]] |director =H...'"
+      }
+    ],
+    "wording_trims": [
+      {
+        "timestamp": "2012-07-20T05:41:06Z",
+        "project": "enwiki",
+        "page": "Your Body Is a Wonderland",
+        "classification": "minor_polish",
+        "comment": "/* Song information */"
+      },
+      {
+        "timestamp": "2012-10-17T07:36:21Z",
+        "project": "enwiki",
+        "page": "Los Angeles Chargers",
+        "classification": "minor_polish",
+        "comment": "/* Logo and uniforms */"
+      },
+      {
+        "timestamp": "2013-05-17T21:57:24Z",
+        "project": "enwiki",
+        "page": "Hitoshi Sakimoto",
+        "classification": "manual_review_required",
+        "comment": "/* Performances */"
+      },
+      {
+        "timestamp": "2013-05-20T23:27:03Z",
+        "project": "enwiki",
+        "page": "Andre Fluellen",
+        "classification": "manual_review_required",
+        "comment": "Removed Bears roster info."
+      },
+      {
+        "timestamp": "2013-05-20T23:47:56Z",
+        "project": "enwiki",
+        "page": "Template:Chicago Bears roster navbox",
+        "classification": "template_work",
+        "comment": "Removed Andre Fluellen"
+      },
+      {
+        "timestamp": "2013-05-20T23:48:06Z",
+        "project": "enwiki",
+        "page": "Template:Chicago Bears roster",
+        "classification": "template_work",
+        "comment": "Removed Andre Fluellen"
+      },
+      {
+        "timestamp": "2013-05-21T00:09:07Z",
+        "project": "enwiki",
+        "page": "Template:Kansas City Chiefs roster navbox",
+        "classification": "template_work",
+        "comment": "Removed Nate Eachus"
+      },
+      {
+        "timestamp": "2013-05-21T00:59:23Z",
+        "project": "enwiki",
+        "page": "Template:New Orleans Saints roster navbox",
+        "classification": "template_work",
+        "comment": "Removed Chris Ivory"
+      },
+      {
+        "timestamp": "2013-05-21T10:27:37Z",
+        "project": "enwiki",
+        "page": "Audism",
+        "classification": "copyedit_cleanup",
+        "comment": "/* Internalized/dysconscious audism */ fixed typo"
+      },
+      {
+        "timestamp": "2013-05-21T10:45:39Z",
+        "project": "enwiki",
+        "page": "List of Koihime Musō characters",
+        "classification": "copyedit_cleanup",
+        "comment": "/* Ryomō */ Improved grammar/spelling"
+      }
+    ],
+    "chronology_date_updates": [
+      {
+        "timestamp": "2013-03-02T04:20:24Z",
+        "project": "enwiki",
+        "page": "Phantasmagoria (Nobuo Uematsu album)",
+        "classification": "manual_review_required",
+        "comment": "Added recording date"
+      },
+      {
+        "timestamp": "2013-04-16T22:43:05Z",
+        "project": "enwiki",
+        "page": "Template:Washington Commanders roster navbox",
+        "classification": "template_work",
+        "comment": "Updated as of April 16"
+      },
+      {
+        "timestamp": "2013-05-10T04:13:25Z",
+        "project": "enwiki",
+        "page": "Koji Kondo",
+        "classification": "chronology_update",
+        "comment": "Birthyear was indeed 1961, per the liner notes of the Ocarina of Time arrange album."
+      },
+      {
+        "timestamp": "2013-05-13T02:57:27Z",
+        "project": "enwiki",
+        "page": "Lisa Lopes",
+        "classification": "manual_review_required",
+        "comment": "/* Death */"
+      },
+      {
+        "timestamp": "2013-05-20T23:22:00Z",
+        "project": "enwiki",
+        "page": "Template:Los Angeles Rams roster",
+        "classification": "template_work",
+        "comment": "Updated to May 20, 2013."
+      },
+      {
+        "timestamp": "2013-05-21T02:45:33Z",
+        "project": "enwiki",
+        "page": "Isaako Aaitui",
+        "classification": "manual_review_required",
+        "comment": "Signed by New Orleans"
+      },
+      {
+        "timestamp": "2013-05-21T02:53:24Z",
+        "project": "enwiki",
+        "page": "UNLV Rebels football",
+        "classification": "chronology_update",
+        "comment": "/* Alumni currently in pro football */"
+      },
+      {
+        "timestamp": "2013-05-22T01:39:18Z",
+        "project": "enwiki",
+        "page": "Little Caesars",
+        "classification": "chronology_update",
+        "comment": "/* Current */"
+      },
+      {
+        "timestamp": "2013-05-22T05:39:22Z",
+        "project": "enwiki",
+        "page": "Template:Las Vegas Raiders roster navbox",
+        "classification": "template_work",
+        "comment": "updated to May 22, 2013"
+      },
+      {
+        "timestamp": "2013-05-22T07:28:27Z",
+        "project": "enwiki",
+        "page": "Template:Washington Commanders roster",
+        "classification": "template_work",
+        "comment": "Updated to May 22, 2013"
+      }
+    ],
+    "current_language_gate": [
+      {
+        "timestamp": "2013-05-21T02:53:24Z",
+        "project": "enwiki",
+        "page": "UNLV Rebels football",
+        "classification": "chronology_update",
+        "comment": "/* Alumni currently in pro football */"
+      },
+      {
+        "timestamp": "2013-05-22T01:39:18Z",
+        "project": "enwiki",
+        "page": "Little Caesars",
+        "classification": "chronology_update",
+        "comment": "/* Current */"
+      },
+      {
+        "timestamp": "2013-05-25T10:47:21Z",
+        "project": "enwiki",
+        "page": "Sega Digital Studio",
+        "classification": "chronology_update",
+        "comment": "/* Current members */"
+      },
+      {
+        "timestamp": "2013-05-30T08:52:03Z",
+        "project": "enwiki",
+        "page": "Sega Digital Studio",
+        "classification": "chronology_update",
+        "comment": "/* Current members */"
+      },
+      {
+        "timestamp": "2013-05-30T10:27:41Z",
+        "project": "enwiki",
+        "page": "Sega Digital Studio",
+        "classification": "chronology_update",
+        "comment": "/* Current members */"
+      },
+      {
+        "timestamp": "2013-05-30T11:29:35Z",
+        "project": "enwiki",
+        "page": "Sega Digital Studio",
+        "classification": "chronology_update",
+        "comment": "/* Current members */"
+      },
+      {
+        "timestamp": "2013-06-03T10:57:12Z",
+        "project": "enwiki",
+        "page": "Courtney Upshaw",
+        "classification": "chronology_update",
+        "comment": "Current weight"
+      },
+      {
+        "timestamp": "2013-08-13T22:32:50Z",
+        "project": "enwiki",
+        "page": "Nobuo Uematsu",
+        "classification": "chronology_update",
+        "comment": "/* Current freelancer career */"
+      },
+      {
+        "timestamp": "2013-08-13T22:34:58Z",
+        "project": "enwiki",
+        "page": "Nobuo Uematsu",
+        "classification": "chronology_update",
+        "comment": "/* Current freelancer career */"
+      },
+      {
+        "timestamp": "2013-08-13T22:35:50Z",
+        "project": "enwiki",
+        "page": "Nobuo Uematsu",
+        "classification": "chronology_update",
+        "comment": "/* Current freelancer career */"
+      }
+    ],
+    "citation_date_accuracy": [
+      {
+        "timestamp": "2013-06-14T06:14:23Z",
+        "project": "enwiki",
+        "page": "DynamiTracer",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Created page with '{{Infobox video game |title =DynamiTracer |image = |caption = |developer =[[Square]] |publisher =[[Square]] |director =H...'"
+      },
+      {
+        "timestamp": "2014-05-23T21:16:05Z",
+        "project": "enwiki",
+        "page": "SpeedTree",
+        "classification": "manual_review_required",
+        "comment": "/* SpeedTree for games licensees, publishers and partners */"
+      },
+      {
+        "timestamp": "2014-09-03T23:34:55Z",
+        "project": "enwiki",
+        "page": "Bloodborne",
+        "classification": "reference_or_citation_work",
+        "comment": "the PlayStation.com source gives the NA publisher as SCEA though"
+      },
+      {
+        "timestamp": "2014-09-16T13:31:47Z",
+        "project": "enwiki",
+        "page": "Rune Factory 4",
+        "classification": "manual_review_required",
+        "comment": "added actual name of NA publisher"
+      },
+      {
+        "timestamp": "2014-11-01T05:55:46Z",
+        "project": "enwiki",
+        "page": "Bloodborne",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 631975524 by [[Special:Contributions/AdrianGamer|AdrianGamer]] ([[User talk:AdrianGamer|talk]]) but Sony's site makes no mention of them co-developing, just that they're the game's publisher."
+      },
+      {
+        "timestamp": "2015-02-21T09:21:06Z",
+        "project": "enwiki",
+        "page": "Japan Studio",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 648149048 by [[Special:Contributions/85.210.138.57|85.210.138.57]] ([[User talk:85.210.138.57|talk]]) Sony's site simply lists them as the publisher, so we must wait until the game's staff role to confirm ..."
+      },
+      {
+        "timestamp": "2015-03-10T21:20:01Z",
+        "project": "enwiki",
+        "page": "LeSean McCoy",
+        "classification": "reference_or_citation_work",
+        "comment": "/* Career statistics{{cite web |author=LeSean McCoy |url=http://www.nfl.com/player/leseanmccoy/79607/profile |title=LeSean McCoy, RB for the Philadelphia Eagles at |publisher=Nfl.com |date=1988-12-07 |accessdate=2013-12-..."
+      },
+      {
+        "timestamp": "2015-03-11T12:17:08Z",
+        "project": "enwiki",
+        "page": "The Elder Scrolls V: Skyrim",
+        "classification": "manual_review_required",
+        "comment": "the distribution field should be used for special markets getting a different publisher or company releasing the game. it being digitally available via steam doesn't fit that description"
+      },
+      {
+        "timestamp": "2015-04-27T08:08:24Z",
+        "project": "enwiki",
+        "page": "Sonic the Hedgehog",
+        "classification": "manual_review_required",
+        "comment": "cleaner just to list the publisher"
+      },
+      {
+        "timestamp": "2015-07-22T04:46:28Z",
+        "project": "enwiki",
+        "page": "Terraria",
+        "classification": "manual_review_required",
+        "comment": "Terraria is not indie, since it has multiple publishers"
+      }
+    ],
+    "redundancy_surface": [
+      {
+        "timestamp": "2013-07-13T05:39:09Z",
+        "project": "enwiki",
+        "page": "Chris Wondolowski",
+        "classification": "manual_review_required",
+        "comment": "Redundant"
+      },
+      {
+        "timestamp": "2014-02-19T23:06:15Z",
+        "project": "enwiki",
+        "page": "José Salvador Alvarenga",
+        "classification": "reference_or_citation_work",
+        "comment": "/* Voyage */ removed redundant citation"
+      },
+      {
+        "timestamp": "2014-05-17T20:24:08Z",
+        "project": "enwiki",
+        "page": "Template:Super Bowl XLV",
+        "classification": "template_work",
+        "comment": "fixed unnecessary redirect"
+      },
+      {
+        "timestamp": "2014-06-14T22:15:39Z",
+        "project": "enwiki",
+        "page": "Nintendo Entertainment Analysis & Development",
+        "classification": "manual_review_required",
+        "comment": "/* Development Environment Group */ redundant"
+      },
+      {
+        "timestamp": "2014-07-10T20:33:27Z",
+        "project": "enwiki",
+        "page": "Nintendo Entertainment Analysis & Development",
+        "classification": "manual_review_required",
+        "comment": "/* List of games developed */ This list shouldn't be here, sorry. Alot of the info is redundant and we should only list games EAD themselves did, not R&D4."
+      },
+      {
+        "timestamp": "2014-08-07T07:01:00Z",
+        "project": "enwiki",
+        "page": "Israel Idonije",
+        "classification": "manual_review_required",
+        "comment": "/* Professional career */ redundant info"
+      },
+      {
+        "timestamp": "2014-08-12T22:51:51Z",
+        "project": "enwiki",
+        "page": "Destiny (video game)",
+        "classification": "manual_review_required",
+        "comment": "redundant info removed"
+      },
+      {
+        "timestamp": "2014-08-18T00:58:03Z",
+        "project": "enwiki",
+        "page": "Satoru Iwata",
+        "classification": "manual_review_required",
+        "comment": "/* Career */ removed redundant info"
+      },
+      {
+        "timestamp": "2014-08-18T12:00:40Z",
+        "project": "enwiki",
+        "page": "Yasunori Mitsuda",
+        "classification": "manual_review_required",
+        "comment": "/* Discography */ removed confusing and redundant info"
+      },
+      {
+        "timestamp": "2014-08-19T03:46:07Z",
+        "project": "enwiki",
+        "page": "Mario Party 2",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 621844517 by [[Special:Contributions/Prisencolinensinainciusol|Prisencolinensinainciusol]] ([[User talk:Prisencolinensinainciusol|talk]]) no need for an unnecessary redirect"
+      }
+    ],
+    "citation_reference_work": [
+      {
+        "timestamp": "2013-09-10T21:16:14Z",
+        "project": "enwiki",
+        "page": "Disney Channel All Star Party",
+        "classification": "reference_or_citation_work",
+        "comment": "Source for Andy Blythe & Marten Joustra?"
+      },
+      {
+        "timestamp": "2014-01-15T13:54:37Z",
+        "project": "enwiki",
+        "page": "Siege of Jerusalem (1099)",
+        "classification": "reference_or_citation_work",
+        "comment": "/* The barefoot procession */"
+      },
+      {
+        "timestamp": "2014-02-18T01:16:12Z",
+        "project": "enwiki",
+        "page": "Donkey Kong 64",
+        "classification": "reference_or_citation_work",
+        "comment": "Nowhere on the reference link does it say David Wise assisted on the soundtrack."
+      },
+      {
+        "timestamp": "2014-02-19T23:06:15Z",
+        "project": "enwiki",
+        "page": "José Salvador Alvarenga",
+        "classification": "reference_or_citation_work",
+        "comment": "/* Voyage */ removed redundant citation"
+      },
+      {
+        "timestamp": "2014-02-21T19:07:47Z",
+        "project": "enwiki",
+        "page": "Sidney Rice",
+        "classification": "reference_or_citation_work",
+        "comment": "added source and removed Seahawks roster info"
+      },
+      {
+        "timestamp": "2014-02-22T03:47:58Z",
+        "project": "enwiki",
+        "page": "Kenichiro Fukui",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 596586146 by [[Special:Contributions/162.235.121.74|162.235.121.74]] ([[User talk:162.235.121.74|talk]]) source?"
+      },
+      {
+        "timestamp": "2014-02-23T19:40:18Z",
+        "project": "enwiki",
+        "page": "Tomoya Ohtani",
+        "classification": "reference_or_citation_work",
+        "comment": "added worklist references"
+      },
+      {
+        "timestamp": "2014-02-28T02:04:06Z",
+        "project": "enwiki",
+        "page": "Pat Williams (American football)",
+        "classification": "reference_or_citation_work",
+        "comment": "/* Personal */ badly written and unsourced"
+      },
+      {
+        "timestamp": "2014-03-11T22:08:10Z",
+        "project": "enwiki",
+        "page": "Patrick Chung",
+        "classification": "reference_or_citation_work",
+        "comment": "no source on him joining the Chiefs"
+      },
+      {
+        "timestamp": "2014-03-19T03:40:10Z",
+        "project": "enwiki",
+        "page": "Template:Denver Broncos roster navbox",
+        "classification": "template_work",
+        "comment": "source on Talib's jersey number?"
+      }
+    ],
+    "lead_trims": [
+      {
+        "timestamp": "2014-03-20T07:09:29Z",
+        "project": "enwiki",
+        "page": "NFL Players Association",
+        "classification": "lead_rewrite",
+        "comment": "/* Leadership */"
+      },
+      {
+        "timestamp": "2014-03-20T07:11:01Z",
+        "project": "enwiki",
+        "page": "NFL Players Association",
+        "classification": "lead_rewrite",
+        "comment": "/* Leadership */"
+      },
+      {
+        "timestamp": "2014-06-20T08:17:44Z",
+        "project": "enwiki",
+        "page": "Mario Kart 8",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 613615706 by [[Special:Contributions/Arkhandar|Arkhandar]] ([[User talk:Arkhandar|talk]]) Nagata wasn't the composer, so this could mislead people. (something Wikipedia loves to do with VGM)"
+      },
+      {
+        "timestamp": "2014-06-20T08:20:56Z",
+        "project": "enwiki",
+        "page": "Nintendo Entertainment Analysis & Development",
+        "classification": "lead_rewrite",
+        "comment": "/* Software Development Group No. 1 */ we shouldn't mislead people because of personal aesthetic issues."
+      },
+      {
+        "timestamp": "2014-07-16T18:26:33Z",
+        "project": "enwiki",
+        "page": "The Wonderful 101",
+        "classification": "revert_or_undo",
+        "comment": "Undid revision 616810975 by [[Special:Contributions/Arkhandar|Arkhandar]] ([[User talk:Arkhandar|talk]]) please add a note saying its for dev support only. stop misleading people into believing all these games are a 50-5..."
+      },
+      {
+        "timestamp": "2014-07-20T02:02:49Z",
+        "project": "enwiki",
+        "page": "Super Smash Bros. for Nintendo 3DS and Wii U",
+        "classification": "lead_rewrite",
+        "comment": "Masaya Kobayashi and Yoshito Higuchi are leading the Bandai Namco team in development, but aren't the game's \"directors\" perse."
+      },
+      {
+        "timestamp": "2014-07-20T23:19:51Z",
+        "project": "enwiki",
+        "page": "Super Smash Bros. for Nintendo 3DS and Wii U",
+        "classification": "lead_rewrite",
+        "comment": "the article mentions Tetsuya Akatsuka, but more as a assistant, rather than the project lead."
+      },
+      {
+        "timestamp": "2014-07-22T22:06:51Z",
+        "project": "enwiki",
+        "page": "Super Smash Bros. for Nintendo 3DS and Wii U",
+        "classification": "lead_rewrite",
+        "comment": "Masaya Kobayashi is leading the Namco Bandai dev team, so if you're going to put one of them as a co-director, it should be Masaya Kobayashi."
+      },
+      {
+        "timestamp": "2014-08-08T20:45:23Z",
+        "project": "enwiki",
+        "page": "Super Smash Bros. for Nintendo 3DS and Wii U",
+        "classification": "lead_rewrite",
+        "comment": "read the talk page please. Hiuchi was never announced as a co-director, and Kobayashi is leading the Bandai Namco team."
+      },
+      {
+        "timestamp": "2014-10-02T20:51:50Z",
+        "project": "enwiki",
+        "page": "Yume Nikki",
+        "classification": "lead_rewrite",
+        "comment": "this is also misleading."
+      }
+    ],
+    "interface_dark_mode": [
+      {
+        "timestamp": "2015-07-31T02:21:35Z",
+        "project": "enwiki",
+        "page": "Windows 10",
+        "classification": "manual_review_required",
+        "comment": "/* User interface and desktop */"
+      },
+      {
+        "timestamp": "2017-04-23T17:43:52Z",
+        "project": "enwiki",
+        "page": "Wikipedia talk:WikiProject Video games",
+        "classification": "talk_page_discussion",
+        "comment": "/* A better way to display this information? */"
+      },
+      {
+        "timestamp": "2017-10-22T19:18:37Z",
+        "project": "enwiki",
+        "page": "Wikipedia:Categories for discussion/Log/2017 October 15",
+        "classification": "project_maintenance",
+        "comment": "/* Category:Video games supporting HDR displays */"
+      },
+      {
+        "timestamp": "2018-02-05T22:09:30Z",
+        "project": "enwiki",
+        "page": "Template talk:Infobox video game",
+        "classification": "talk_page_discussion",
+        "comment": "/* Removal of the display parameter */ new section"
+      },
+      {
+        "timestamp": "2018-02-05T22:10:05Z",
+        "project": "enwiki",
+        "page": "Template talk:Infobox video game",
+        "classification": "talk_page_discussion",
+        "comment": "/* Removal of the display parameter */"
+      },
+      {
+        "timestamp": "2018-02-06T05:49:24Z",
+        "project": "enwiki",
+        "page": "Template talk:Infobox video game",
+        "classification": "talk_page_discussion",
+        "comment": "/* Removal of the display parameter */"
+      },
+      {
+        "timestamp": "2018-03-09T06:05:48Z",
+        "project": "enwiki",
+        "page": "Steam Marketplace",
+        "classification": "article_creation",
+        "comment": "[[WP:AES|←]]Redirected page to [[Steam (software)#User interface]]"
+      },
+      {
+        "timestamp": "2018-08-20T21:22:32Z",
+        "project": "enwiki",
+        "page": "Steam (service)",
+        "classification": "manual_review_required",
+        "comment": "/* User interface */"
+      },
+      {
+        "timestamp": "2018-08-20T21:24:05Z",
+        "project": "enwiki",
+        "page": "Steam (service)",
+        "classification": "manual_review_required",
+        "comment": "/* User interface */ not really, allows more than just text"
+      },
+      {
+        "timestamp": "2018-11-06T01:38:36Z",
+        "project": "enwiki",
+        "page": "Wikipedia:Articles for deletion/List of PlayStation 2 games with alternative display modes",
+        "classification": "project_maintenance",
+        "comment": "/* List of PlayStation 2 games with alternative display modes */"
+      }
+    ]
+  },
+  "size_diff_summary": {
+    "count": 186519,
+    "negative_edits": 83258,
+    "positive_edits": 89922,
+    "zero_edits": 13339,
+    "median": 0
+  },
+  "interpretation": "Public-facing compression, source adequacy, temporal accuracy, and lead/body architecture markers."
+}

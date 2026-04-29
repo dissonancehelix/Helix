@@ -214,7 +214,7 @@ class ListenBrainzSource:
     ListenBrainz history adapter.
 
     Reads from:
-    1. Local JSON export: domains/music/data/output/library/metadata/listenbrainz_dissident93.json
+    1. Local JSON export: domains/music/data/library/metadata/listenbrainz_dissident93.json
     2. ListenBrainz public API: https://api.listenbrainz.org/1/user/{username}/listens
        (no authentication required for public users)
 

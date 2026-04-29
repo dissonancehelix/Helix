@@ -24,7 +24,7 @@ NOT included (no unique value over existing Python pipeline):
   vgmstream   — decodes audio formats; we don't need rendered audio here
   vgm_stat    — redundant with our header parser
 
-Source location: domains/music/data/output/library/source/code/
+Source location: domains/music/data/library/source/code/
 Build:          run compile_tools() once to produce binaries in toolkits/bin/
 """
 

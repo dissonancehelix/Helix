@@ -81,7 +81,7 @@ This folder already contains Phase 1 bridge work (alias graph, audit engine, ide
 
 ## Phase 3 roadmap (documented, not implemented)
 
-- **3A — Read-only Foobar Snapshot.** Exporter or expected export format; snapshot stored under `domains/music/data/output/library/foobar/` (or existing convention); analysis written to `domains/music/reports/foobar_snapshot_<date>.md`.
+- **3A — Read-only Foobar Snapshot.** Exporter or expected export format; snapshot stored under `domains/music/data/library/foobar/` (or existing convention); analysis written to `domains/music/reports/foobar_snapshot_<date>.md`.
 - **3B — Semantic Playlist Generation.** Helix produces playlist proposals from `core/map/patterns.yaml`; output to `domains/music/reports/`. No foobar import until reviewed.
 - **3C — Metadata/Tag Proposal.** Propose tag changes with diff, backup, explicit approval. Still no automatic writeback.
 - **3D — Optional Foobar Component / Deep Integration.** Only after the bridge is stable. **No dependency inversion:** foobar remains independent.

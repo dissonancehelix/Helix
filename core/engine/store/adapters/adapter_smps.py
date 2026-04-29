@@ -2,7 +2,7 @@
 adapter_smps.py — Helix adapter for SMPS driver constants
 ==========================================================
 Source references:
-    domains/music/data/output/library/source/code/SMPS/SMPS-68000_source_code/ver11/
+    domains/music/data/library/source/code/SMPS/SMPS-68000_source_code/ver11/
       mdcmd11.asm  — command dispatch table (all $E0–$FE opcodes)
       mdpsg11.asm  — PSG frequency scale table, envelope system, channel control
       mdcnt11.asm  — main control loop, vibrato engine, gate system

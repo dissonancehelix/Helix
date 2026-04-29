@@ -1,0 +1,928 @@
+{
+  "name": "world_context_chronology_markers",
+  "purpose": "Supplemental targeted scan requested after Pass 2 for Helix, history, chronology, context, and related externalized evidence surfaces.",
+  "source": "domains\\self\\data\\gpt_history\\messages_index.jsonl",
+  "user_messages_scanned": 1577,
+  "conversations_with_any_marker": 58,
+  "family_counts": {
+    "helix_workspace_structure": 83,
+    "history_chronology_context": 198,
+    "public_orientation_clean_lead": 73,
+    "world_durability": 161,
+    "negative_controls_games": 27,
+    "externalized_evidence_surfaces": 20
+  },
+  "top_terms": {
+    "era": 87,
+    "players": 55,
+    "old": 52,
+    "base": 42,
+    "structure": 30,
+    "build": 30,
+    "server": 27,
+    "past": 26,
+    "date": 25,
+    "helix": 24,
+    "context": 21,
+    "template": 20,
+    "rust": 20,
+    "history": 17,
+    "active": 17,
+    "repo": 17,
+    "wikipedia": 16,
+    "world": 15,
+    "llm": 15,
+    "community": 14,
+    "building": 14,
+    "mods": 13,
+    "infobox": 12,
+    "lead": 12,
+    "season": 11,
+    "workspace": 8,
+    "domain": 8,
+    "folder": 7,
+    "memory": 7,
+    "return": 6,
+    "article": 6,
+    "domains": 6,
+    "reddit": 5,
+    "continuity": 5,
+    "public": 4,
+    "summary": 4,
+    "dates": 4,
+    "boring": 3,
+    "lasts": 2,
+    "survival": 2,
+    "canon": 2,
+    "archive": 2,
+    "reader": 1,
+    "modlist": 1,
+    "1v1": 1,
+    "ttt": 1,
+    "bookmark": 1,
+    "crafting": 1,
+    "readme": 1,
+    "spreadsheet": 1,
+    "timeline": 1,
+    "chronology": 1,
+    "folders": 1,
+    "card game": 1,
+    "architecture": 1
+  },
+  "examples": {
+    "history_chronology_context": [
+      {
+        "conversation_title": "New chat",
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "matched_terms": [
+          "history",
+          "season",
+          "era",
+          "old"
+        ],
+        "snippet": "{{infobox | bodystyle = width:{{{width|300px}}} | datastyle = text-align:left; | abovestyle = {{Gridiron primary style|{{{name|{{PAGENAME}}}}}|border=2}}; padding:5px; | above = {{{name|{{PAGENAME}}}}} | subheader = {{#i"
+      },
+      {
+        "conversation_title": "New chat",
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 9,
+        "matched_terms": [
+          "history",
+          "date",
+          "season",
+          "old"
+        ],
+        "snippet": "| data27 = {{#if:{{{league_champs|{{{league_champ_type|}}}}}}| '''League championships: {{{no_league_champs|0}}}'''<br /> {{{league_champs|{{{league_champ_type|}}}}}} why isnt league_champ_type showing for {{Infobox grid"
+      },
+      {
+        "conversation_title": "New chat",
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 11,
+        "matched_terms": [
+          "date",
+          "season",
+          "era",
+          "old"
+        ],
+        "snippet": "{{Infobox gridiron football team | name = Washington Commanders | current = 2026 Washington Commanders season | logo = Washington Commanders logo.svg | wordmark = Washington Commanders wordmark.svg | uniform = Washington"
+      },
+      {
+        "conversation_title": "Fluent in Spanish Bottleneck",
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 37,
+        "matched_terms": [
+          "old"
+        ],
+        "snippet": "\"This is not a hard grammar rule. It’s a wiring rule.\" i think i was reading them all as grammar rules instead of wording (english does this plenty of to but you dont question it). speaking will come naturally once im ab"
+      },
+      {
+        "conversation_title": "US Passport Application Checklist",
+        "conversation_id": "6986c451-bdf0-832a-afe0-fb31f215f409",
+        "message_index": 30,
+        "matched_terms": [
+          "date"
+        ],
+        "snippet": "set for march 3. i need to present a check to the department of state, does that include the expidated fees?"
+      },
+      {
+        "conversation_title": "Yoda y el español",
+        "conversation_id": "69873c77-1844-8327-8ad1-5113c38867e5",
+        "message_index": 15,
+        "matched_terms": [
+          "era"
+        ],
+        "snippet": "How long would it take for a native Spanish speaker to become fluent in English if they studied on average, and vice versa for an English speaker learning Spanish?"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 1,
+        "matched_terms": [
+          "date",
+          "season"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "matched_terms": [
+          "context",
+          "date",
+          "season"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      }
+    ],
+    "public_orientation_clean_lead": [
+      {
+        "conversation_title": "New chat",
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 1,
+        "matched_terms": [
+          "infobox",
+          "template"
+        ],
+        "snippet": "{{infobox | bodystyle = width:{{{width|300px}}} | datastyle = text-align:left; | abovestyle = {{Gridiron primary style|{{{name|{{PAGENAME}}}}}|border=2}}; padding:5px; | above = {{{name|{{PAGENAME}}}}} | subheader = {{#i"
+      },
+      {
+        "conversation_title": "New chat",
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 9,
+        "matched_terms": [
+          "infobox"
+        ],
+        "snippet": "| data27 = {{#if:{{{league_champs|{{{league_champ_type|}}}}}}| '''League championships: {{{no_league_champs|0}}}'''<br /> {{{league_champs|{{{league_champ_type|}}}}}} why isnt league_champ_type showing for {{Infobox grid"
+      },
+      {
+        "conversation_title": "New chat",
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 11,
+        "matched_terms": [
+          "infobox"
+        ],
+        "snippet": "{{Infobox gridiron football team | name = Washington Commanders | current = 2026 Washington Commanders season | logo = Washington Commanders logo.svg | wordmark = Washington Commanders wordmark.svg | uniform = Washington"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 1,
+        "matched_terms": [
+          "template"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "matched_terms": [
+          "template"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 13,
+        "matched_terms": [
+          "template"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 17,
+        "matched_terms": [
+          "template"
+        ],
+        "snippet": "regen the full template with the fixes"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 21,
+        "matched_terms": [
+          "infobox"
+        ],
+        "snippet": "formatting is broken on the testcase. the exact format was nessicary before. it shouldn tbe this hard to just hide text, i dont have this issue on infoboxes"
+      }
+    ],
+    "world_durability": [
+      {
+        "conversation_title": "New chat",
+        "conversation_id": "6983f03f-77fc-8333-b902-d9ca075b105d",
+        "message_index": 9,
+        "matched_terms": [
+          "community"
+        ],
+        "snippet": "| data27 = {{#if:{{{league_champs|{{{league_champ_type|}}}}}}| '''League championships: {{{no_league_champs|0}}}'''<br /> {{{league_champs|{{{league_champ_type|}}}}}} why isnt league_champ_type showing for {{Infobox grid"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 1,
+        "matched_terms": [
+          "active",
+          "players"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "matched_terms": [
+          "active",
+          "players",
+          "return"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 13,
+        "matched_terms": [
+          "active",
+          "players",
+          "return"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 29,
+        "matched_terms": [
+          "active"
+        ],
+        "snippet": "ok i think everything is perfect now lets apply it to the UFL one now. it should be exactly like the NFL one but with the NFL stuff renamed to UFL (like the footer navbar) {| class=\"toccolours\" |+ style=\"{{Gridiron prima"
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+        "message_index": 6,
+        "matched_terms": [
+          "base"
+        ],
+        "snippet": "spanish is really spatial/3d to me based on its grammar and structure. things like de being connected to while a is more of entering the 3d location or taking part in it. i hope im making sense, but thinking of spanish a"
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+        "message_index": 15,
+        "matched_terms": [
+          "base"
+        ],
+        "snippet": "does this help change course in how i should study spanish? and yes \"They are scaffolding nodes. Once you have enough of them, language assembles itself.\" is exactly what im looking to get. to me its base fluency even if"
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+        "message_index": 25,
+        "matched_terms": [
+          "base"
+        ],
+        "snippet": "i just await the day. ive only really seriously studied for lets say a month. i had a baseline knowledge of spanish before then (1-10, colors, hola, adios, como estas, te amo, etc) how am i supposed to know if im behind "
+      }
+    ],
+    "negative_controls_games": [
+      {
+        "conversation_title": "Fluent in Spanish Bottleneck",
+        "conversation_id": "69869bef-06d0-8325-8be3-723d16dcf1d9",
+        "message_index": 1,
+        "matched_terms": [
+          "rust"
+        ],
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, ves). im currently speaking to native spea"
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+        "message_index": 10,
+        "matched_terms": [
+          "rust"
+        ],
+        "snippet": "\"Most learners fight Spanish because they try to push it through an English parser.\" im doing this but only because my mind has 30 years of only cognating (is that a word) in english. its actually more frustrating to be "
+      },
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 26,
+        "matched_terms": [
+          "boring"
+        ],
+        "snippet": "we have two definitions of boring, but I know what you mean. It's like I have one or two Lego pieces, but I don't have enough to assemble anything actually structurally significant or impressive, yet."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 90,
+        "matched_terms": [
+          "rust"
+        ],
+        "snippet": "\"Your spatial/state-based thinking fits Spanish extremely well.\" yeah it does feel like i already know the physics of spanish but without being able to construct 2 sentences lol. now you see why its frustrating, because "
+      },
+      {
+        "conversation_title": "La lluvia se llegue",
+        "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+        "message_index": 31,
+        "matched_terms": [
+          "rust"
+        ],
+        "snippet": "makes learning fun instead of frustrating again. i want to say ive escapped the hardest part of the entire journey now its just growing my vocabuarliy and cleaning up my grammar. honestly if i knew more grammar rules and"
+      },
+      {
+        "conversation_title": "La lluvia se llegue",
+        "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+        "message_index": 129,
+        "matched_terms": [
+          "rust"
+        ],
+        "snippet": "feels so far away. even when i hear words like tenemos in asmr, i still map it to \"we have\" instead of just tenemos and its so frustrating"
+      },
+      {
+        "conversation_title": "La lluvia se llegue",
+        "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+        "message_index": 132,
+        "matched_terms": [
+          "rust"
+        ],
+        "snippet": "im at this weird stage of A1 (or maybe A2 in writing, i dont know) where i dont trust the language and constantly ask if thats how they REALLY saw a certain sentence. my confidense in spanish has actually dipped some eve"
+      },
+      {
+        "conversation_title": "La lluvia se llegue",
+        "conversation_id": "6994f9a8-7aa0-832e-803f-ec0731df835f",
+        "message_index": 140,
+        "matched_terms": [
+          "rust"
+        ],
+        "snippet": "yes its a weird feeling that exists when you have the concept in your mind but cant form it into another language. actually frustrating, i wonder if theres a word for this because just not being fluent lol"
+      }
+    ],
+    "helix_workspace_structure": [
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 9,
+        "matched_terms": [
+          "repo"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "conversation_id": "69895cfa-e1d8-8325-b47f-df249dfdc39a",
+        "message_index": 13,
+        "matched_terms": [
+          "repo"
+        ],
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste"
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "conversation_id": "698975d1-4fdc-8326-b2a0-b149ab623b04",
+        "message_index": 6,
+        "matched_terms": [
+          "structure"
+        ],
+        "snippet": "spanish is really spatial/3d to me based on its grammar and structure. things like de being connected to while a is more of entering the 3d location or taking part in it. i hope im making sense, but thinking of spanish a"
+      },
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 30,
+        "matched_terms": [
+          "structure"
+        ],
+        "snippet": "Yeah, that's exactly what I'm doing. I'm assembling Spanish as a physical 3D spatial structure, but I'm still collecting the plywoods and bricks and setting space on the land that we can just call English to build this. "
+      },
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 49,
+        "matched_terms": [
+          "structure"
+        ],
+        "snippet": "By a line you mean that we both know exactly what we're talking about without being explicit. So I talked to a doctor means it could be any doctor. I talked to the doctor implies the other listener knows which doctor I'm"
+      },
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "conversation_id": "698a0bd2-8070-8325-aee6-44b31a41e038",
+        "message_index": 68,
+        "matched_terms": [
+          "structure"
+        ],
+        "snippet": "pretty much, fluency, in addition to what I said earlier, would be what you just said, which rules I know I can break safely, or which things I can omit and still be perfectly understood. It means you understand the stru"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 70,
+        "matched_terms": [
+          "structure"
+        ],
+        "snippet": "oh sorry i meant DEBO mear (see why i need more practice, i knew what i meant to say but still got it wrong). i wish i could map spanish strucutually 3d somehow, and map the verbs to actual states and conditions and conn"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 119,
+        "matched_terms": [
+          "structure"
+        ],
+        "snippet": "Yesterday I had an entire conversation, text form, with my girlfriend in Spanish. I only had to look up certain words, but sentence structure and things I did all myself."
+      }
+    ],
+    "externalized_evidence_surfaces": [
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 157,
+        "matched_terms": [
+          "mods"
+        ],
+        "snippet": "I want to play through Stardew Valley in Spanish. I already know how to install mods and stuff, so can you recommend me stuff that will help me learn Spanish, put the game in Spanish, or make it more Latino themed?"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 160,
+        "matched_terms": [
+          "mods"
+        ],
+        "snippet": "Find specific mods on Nexus."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 247,
+        "matched_terms": [
+          "mods"
+        ],
+        "snippet": "im going to play stardew valley in spanish just for immersion (i already know the game i have like 300 hours and love to play with mods) so which mods work for that? voiced ones in spanish too help"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 250,
+        "matched_terms": [
+          "mods"
+        ],
+        "snippet": "any any mods to change the flavor to hispanic/peruvian?"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 253,
+        "matched_terms": [
+          "mods"
+        ],
+        "snippet": "give me a command to copy my mods folder so you can see what not to recemend"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 255,
+        "matched_terms": [
+          "modlist"
+        ],
+        "snippet": "dir : Cannot find path 'C:\\b' because it does not exist. At line:1 char:1 + dir /b > modlist.txt + ~~~~~~~~~~~~~~~~~~~~ + CategoryInfo : ObjectNotFound: (C:\\b:String) [Get-ChildItem], ItemNotFoundException + FullyQualifi"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 257,
+        "matched_terms": [
+          "mods"
+        ],
+        "snippet": "find mods that will help me learn spanish in stardew valley"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "conversation_id": "698e8f76-8bb0-8333-b81d-1836fe18c700",
+        "message_index": 267,
+        "matched_terms": [
+          "mods"
+        ],
+        "snippet": "https://www.nexusmods.com/stardewvalley/mods/22550?tab=description this has spanish apparently"
+      }
+    ]
+  },
+  "inbox_inventory": [
+    {
+      "path": "inbox/bookmarks-2024-12-01.json",
+      "bytes": 17549,
+      "line_count": 1,
+      "marker_hits": {
+        "helix_workspace_structure": 6,
+        "history_chronology_context": 73,
+        "public_orientation_clean_lead": 22,
+        "world_durability": 3,
+        "negative_controls_games": 0,
+        "externalized_evidence_surfaces": 18
+      },
+      "sample": "{\"guid\":\"root________\",\"title\":\"\",\"index\":0,\"dateAdded\":1694538359881000,\"lastModified\":1733099732860000,\"id\":1,\"typeCode\":2,\"type\":\"text/x-moz-place-container\",\"root\":\"placesRoot\",\"children\":[{\"guid\":\"menu________\",\"tit"
+    },
+    {
+      "path": "inbox/README.md",
+      "bytes": 606,
+      "line_count": 18,
+      "marker_hits": {
+        "helix_workspace_structure": 3,
+        "history_chronology_context": 4,
+        "public_orientation_clean_lead": 0,
+        "world_durability": 0,
+        "negative_controls_games": 0,
+        "externalized_evidence_surfaces": 2
+      },
+      "sample": "# Inbox `inbox/` is the operator drop zone. Put unsorted local evidence here: exports, modlists, screenshots, bookmark files, notes, captures, and other loose material. Agents treat it like a mail sorting tray: - read th"
+    },
+    {
+      "path": "inbox/stardewmodlist.txt",
+      "bytes": 8260,
+      "line_count": 361,
+      "marker_hits": {
+        "helix_workspace_structure": 0,
+        "history_chronology_context": 0,
+        "public_orientation_clean_lead": 0,
+        "world_durability": 0,
+        "negative_controls_games": 0,
+        "externalized_evidence_surfaces": 0
+      },
+      "sample": "��(\u0000C\u0000P\u0000)\u0000 \u0000K\u0000i\u0000s\u0000a\u0000a\u0000'\u0000s\u0000 \u0000C\u0000o\u0000z\u0000y\u0000 \u0000R\u0000u\u0000s\u0000t\u0000i\u0000c\u0000 \u0000K\u0000i\u0000t\u0000c\u0000h\u0000e\u0000n\u0000 \u0000R\u0000e\u0000p\u0000l\u0000a\u0000c\u0000e\u0000m\u0000e\u0000n\u0000t\u0000 \u0000 \u0000(\u0000C\u0000R\u0000)\u0000 \u0000K\u0000i\u0000s\u0000a\u0000a\u0000'\u0000s\u0000 \u0000F\u0000a\u0000r\u0000m\u0000 \u0000C\u0000a\u0000v\u0000e\u0000 \u0000P\u0000a\u0000c\u0000k\u0000 \u0000 \u0000A\u0000c\u0000t\u0000i\u0000v\u0000e\u0000A\u0000n\u0000d\u0000U\u0000s\u0000e\u0000f\u0000u\u0000l\u0000P\u0000e\u0000t\u0000s\u0000 \u0000 \u0000A\u0000d\u0000v\u0000e\u0000n\u0000t\u0000u\u0000r\u0000e\u0000r\u0000'\u0000s\u0000 \u0000"
+    },
+    {
+      "path": "inbox/terrariamods.txt",
+      "bytes": 1301,
+      "line_count": 63,
+      "marker_hits": {
+        "helix_workspace_structure": 0,
+        "history_chronology_context": 0,
+        "public_orientation_clean_lead": 0,
+        "world_durability": 2,
+        "negative_controls_games": 0,
+        "externalized_evidence_surfaces": 0
+      },
+      "sample": "AdvancedWorldGen 3.1.7.4 AutoTrash 0.7.2 BAM 1.2.5 BetterBlending 1.2.6 BetterBossBarPlus 0.9.2.4 BetterBossSummon 1.0.2.4 BlueMoon 2.0.2.1 BossChecklist 2.2.3 BossCursor 3.0.0 BossExpertise 3.1.2 BTitles 2.8.5 Census 0."
+    },
+    {
+      "path": "inbox/Video games completed - Sheet1.tsv",
+      "bytes": 6901,
+      "line_count": 241,
+      "marker_hits": {
+        "helix_workspace_structure": 0,
+        "history_chronology_context": 8,
+        "public_orientation_clean_lead": 0,
+        "world_durability": 2,
+        "negative_controls_games": 0,
+        "externalized_evidence_surfaces": 0
+      },
+      "sample": "Video games completed 9 Hours, 9 Persons, 9 Doors A Short Hike Ace Combat 04: Shattered Skies Ace Combat 5: The Unsung War Ace Combat 7: Skies Unknown Ace Combat Zero: The Belkan War AI: The Somnium Files AI: The Somnium"
+    }
+  ],
+  "raw_external_inventory": [
+    {
+      "path": "archive/raw/attraction_2026-04-28.zip",
+      "bytes": 66971785,
+      "member_count": 298,
+      "sample_members": [
+        "newer/images/attraction/fqpd8h0ciyr81.webp",
+        "newer/images/attraction/G8bjlSuakAM1en_.jpg",
+        "newer/images/attraction/G_hEyuza8AAnYIj.jpg",
+        "newer/images/attraction/HBOL2BzawAAU1zE.jpg",
+        "newer/images/attraction/HE7T48OaEAAv8gm.jpg",
+        "newer/images/attraction/HElfmW7bcAAPjBa.jpg",
+        "newer/images/attraction/HF00czmasAEvRCu.jpg",
+        "newer/images/attraction/HFV8XV7aoAA02wu.jpg",
+        "newer/images/attraction/HG528NVbYAAkAgC.jpg",
+        "newer/images/attraction/HG6oZq_bkAAvWgE.jpg",
+        "newer/images/attraction/HG72tKiagAAbtM0.jpg",
+        "newer/images/attraction/HG7gi9Ka4AEi3iz.jpg"
+      ]
+    },
+    {
+      "path": "archive/raw/games_2026-04-28.zip",
+      "bytes": 31489,
+      "member_count": 5,
+      "sample_members": [
+        "games/data_steam_raw.json",
+        "games/steam_dissident93.json",
+        "games/stratz_91578322.json",
+        "games/stratz_summary_91578322.json",
+        "games/Video games completed.json"
+      ]
+    },
+    {
+      "path": "archive/raw/reddit_2026-04-28.zip",
+      "bytes": 2572524,
+      "member_count": 38,
+      "sample_members": [
+        "reddit/account_gender.csv",
+        "reddit/announcements.csv",
+        "reddit/approved_submitter_subreddits.csv",
+        "reddit/birthdate.csv",
+        "reddit/chat_history.csv",
+        "reddit/checkfile.csv",
+        "reddit/comments.csv",
+        "reddit/comment_headers.csv",
+        "reddit/comment_votes.csv",
+        "reddit/drafts.csv",
+        "reddit/friends.csv",
+        "reddit/gilded_content.csv"
+      ]
+    },
+    {
+      "path": "archive/raw/scrobbles_2026-04-28.zip",
+      "bytes": 28010374,
+      "member_count": 132,
+      "sample_members": [
+        "scrobbles/lastfmstats-dissident93.json",
+        "scrobbles/spotify.json",
+        "scrobbles/listenbrainz/listens/",
+        "scrobbles/listenbrainz/feedback.jsonl",
+        "scrobbles/listenbrainz/user.json",
+        "scrobbles/listenbrainz/listens/2012/10.jsonl",
+        "scrobbles/listenbrainz/listens/2012/11.jsonl",
+        "scrobbles/listenbrainz/listens/2012/12.jsonl",
+        "scrobbles/listenbrainz/listens/2012/5.jsonl",
+        "scrobbles/listenbrainz/listens/2012/6.jsonl",
+        "scrobbles/listenbrainz/listens/2012/7.jsonl",
+        "scrobbles/listenbrainz/listens/2012/8.jsonl"
+      ]
+    },
+    {
+      "path": "archive/raw/trails_2026-04-28.zip",
+      "bytes": 69456845,
+      "member_count": 199,
+      "sample_members": [
+        "trails/corpus/",
+        "trails/corpus/github/",
+        "trails/corpus/github/kiseki-books-main/.gitignore",
+        "trails/corpus/github/kiseki-books-main/.npmrc",
+        "trails/corpus/github/kiseki-books-main/LICENSE",
+        "trails/corpus/github/kiseki-books-main/package-lock.json",
+        "trails/corpus/github/kiseki-books-main/package.json",
+        "trails/corpus/github/kiseki-books-main/README.md",
+        "trails/corpus/github/kiseki-books-main/svelte.config.js",
+        "trails/corpus/github/kiseki-books-main/vite.config.js",
+        "trails/corpus/github/kiseki-books-main/src/app.html",
+        "trails/corpus/github/kiseki-books-main/src/lib/index.js"
+      ]
+    },
+    {
+      "path": "archive/raw/twitter_2026-04-28.zip",
+      "bytes": 10720615,
+      "member_count": 85,
+      "sample_members": [
+        "twitter/account-creation-ip.js",
+        "twitter/account-label.js",
+        "twitter/account-suspension.js",
+        "twitter/account-timezone.js",
+        "twitter/account.js",
+        "twitter/ad-engagements.js",
+        "twitter/ad-impressions.js",
+        "twitter/ad-mobile-conversions-attributed.js",
+        "twitter/ad-mobile-conversions-unattributed.js",
+        "twitter/ad-online-conversions-attributed.js",
+        "twitter/ad-online-conversions-unattributed.js",
+        "twitter/ads-revenue-sharing.js"
+      ]
+    },
+    {
+      "path": "archive/raw/wikipedia_2026-04-28.zip",
+      "bytes": 558949,
+      "member_count": 9,
+      "sample_members": [
+        "wikipedia/wiki_20260411_150435/language_phase1_summary.md",
+        "wikipedia/wiki_20260411_150435/run_log.json",
+        "wikipedia/wiki_20260411_150435/wikimedia_edit_classification.json",
+        "wikipedia/wiki_20260411_150435/wikimedia_ingest_manifest.json",
+        "wikipedia/wiki_20260411_150435/wikimedia_namespace_distribution.json",
+        "wikipedia/wiki_20260411_150435/wikimedia_normalized_edits.jsonl",
+        "wikipedia/wiki_20260411_150435/wikimedia_page_focus_report.json",
+        "wikipedia/wiki_20260411_150435/wikimedia_project_summary.json",
+        "wikipedia/wiki_20260411_150435/wikimedia_yearly_activity.json"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_0000000006ac71f79de4db27f0dc741c-reddit.zip",
+      "bytes": 11820991,
+      "member_count": 38,
+      "sample_members": [
+        "account_gender.csv",
+        "sensitive_ads_preferences.csv",
+        "announcements.csv",
+        "approved_submitter_subreddits.csv",
+        "birthdate.csv",
+        "chat_history.csv",
+        "comment_headers.csv",
+        "comment_votes.csv",
+        "comments.csv",
+        "drafts.csv",
+        "friends.csv",
+        "gilded_content.csv"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_000000000d3c71f7b3d67f05b53d3b58-prism.zip",
+      "bytes": 1986150,
+      "member_count": 782,
+      "sample_members": [
+        "scene7-dsp-main/",
+        "scene7-dsp-main/.claude/",
+        "scene7-dsp-main/.claude/settings.local.json",
+        "scene7-dsp-main/.github/",
+        "scene7-dsp-main/.github/workflows/",
+        "scene7-dsp-main/.github/workflows/build.yml",
+        "scene7-dsp-main/Directory.Build.targets",
+        "scene7-dsp-main/README.md",
+        "scene7-dsp-main/Real3D-Surround-Upmixer--main/",
+        "scene7-dsp-main/Real3D-Surround-Upmixer--main/GPL.txt",
+        "scene7-dsp-main/Real3D-Surround-Upmixer--main/LICENSE",
+        "scene7-dsp-main/Real3D-Surround-Upmixer--main/README.md"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_00000000102871fd863c049eaef4742f-twitter.zip",
+      "bytes": 10709184,
+      "member_count": 85,
+      "sample_members": [
+        "account-creation-ip.js",
+        "account-label.js",
+        "account-suspension.js",
+        "account-timezone.js",
+        "account.js",
+        "ad-engagements.js",
+        "ad-impressions.js",
+        "ad-mobile-conversions-attributed.js",
+        "ad-mobile-conversions-unattributed.js",
+        "ad-online-conversions-attributed.js",
+        "ad-online-conversions-unattributed.js",
+        "ads-revenue-sharing.js"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_000000004b1071f7b86c146db7b52b09-libvgm-master.zip",
+      "bytes": 1670012,
+      "member_count": 339,
+      "sample_members": [
+        "libvgm-master/",
+        "libvgm-master/.gitattributes",
+        "libvgm-master/.github/",
+        "libvgm-master/.github/workflows/",
+        "libvgm-master/.github/workflows/GHA.yml",
+        "libvgm-master/.github/workflows/action-build-libvgm/",
+        "libvgm-master/.github/workflows/action-build-libvgm/action.yml",
+        "libvgm-master/.github/workflows/action-build-libvgm/build.sh",
+        "libvgm-master/.github/workflows/action-build-libvgm/configure.sh",
+        "libvgm-master/.github/workflows/action-build-libvgm/install.sh",
+        "libvgm-master/.gitignore",
+        "libvgm-master/CMakeLists.txt"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_000000004cec71f5b7ed25395986b201-Old Helix.zip",
+      "bytes": 7109257,
+      "member_count": 1589,
+      "sample_members": [
+        ".agent/",
+        ".agent/workflows/",
+        ".agent/workflows/port-eft2.md",
+        ".claude/",
+        ".claude/settings.local.json",
+        ".gitignore",
+        ".helix_ignore",
+        ".helix_sandbox/",
+        "add_manifest.bat",
+        "apps/",
+        "apps/api/",
+        "apps/api/server.py"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_0000000052d471f7b4276f73a0badfb9-reddit.zip",
+      "bytes": 11820991,
+      "member_count": 38,
+      "sample_members": [
+        "account_gender.csv",
+        "sensitive_ads_preferences.csv",
+        "announcements.csv",
+        "approved_submitter_subreddits.csv",
+        "birthdate.csv",
+        "chat_history.csv",
+        "comment_headers.csv",
+        "comment_votes.csv",
+        "comments.csv",
+        "drafts.csv",
+        "friends.csv",
+        "gilded_content.csv"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_00000000916c71f5a24982e5e8779d78-reddit.zip",
+      "bytes": 11820991,
+      "member_count": 38,
+      "sample_members": [
+        "account_gender.csv",
+        "sensitive_ads_preferences.csv",
+        "announcements.csv",
+        "approved_submitter_subreddits.csv",
+        "birthdate.csv",
+        "chat_history.csv",
+        "comment_headers.csv",
+        "comment_votes.csv",
+        "comments.csv",
+        "drafts.csv",
+        "friends.csv",
+        "gilded_content.csv"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_00000000be1071fdac7bfb3382916196-Old Helix.zip",
+      "bytes": 7109257,
+      "member_count": 1589,
+      "sample_members": [
+        ".agent/",
+        ".agent/workflows/",
+        ".agent/workflows/port-eft2.md",
+        ".claude/",
+        ".claude/settings.local.json",
+        ".gitignore",
+        ".helix_ignore",
+        ".helix_sandbox/",
+        "add_manifest.bat",
+        "apps/",
+        "apps/api/",
+        "apps/api/server.py"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_00000000ccd071f781e88c60d59dc08a-reddit.zip",
+      "bytes": 11820991,
+      "member_count": 38,
+      "sample_members": [
+        "account_gender.csv",
+        "sensitive_ads_preferences.csv",
+        "announcements.csv",
+        "approved_submitter_subreddits.csv",
+        "birthdate.csv",
+        "chat_history.csv",
+        "comment_headers.csv",
+        "comment_votes.csv",
+        "comments.csv",
+        "drafts.csv",
+        "friends.csv",
+        "gilded_content.csv"
+      ]
+    },
+    {
+      "path": "archive/raw/gpt/file_00000000f37471fdb5000c3b495df722-reddit.zip",
+      "bytes": 11820991,
+      "member_count": 38,
+      "sample_members": [
+        "account_gender.csv",
+        "sensitive_ads_preferences.csv",
+        "announcements.csv",
+        "approved_submitter_subreddits.csv",
+        "birthdate.csv",
+        "chat_history.csv",
+        "comment_headers.csv",
+        "comment_votes.csv",
+        "comments.csv",
+        "drafts.csv",
+        "friends.csv",
+        "gilded_content.csv"
+      ]
+    }
+  ],
+  "interpretation": [
+    "The original world-inhabitation pass did not exhaustively scan Helix/history/chronology/context terms; this supplemental scan fills that targeted gap.",
+    "Bookmarks, Reddit, Twitter, modlists, and completed-games files are present as evidence surfaces but need a dedicated pass before being treated as profile claims.",
+    "History/context language is not just nostalgia; it often marks continuity, provenance, rollback, and re-entry requirements."
+  ]
+}

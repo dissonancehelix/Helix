@@ -64,7 +64,7 @@ sys.path.insert(0, str(ROOT))
 from core.invariants.dcp.event import DCPEvent
 from model.domains.music.analysis.dcp import extract_dcp_event_from_spotify
 
-SPOTIFY_JSON = ROOT / "domains/music/data/output/library/metadata/spotify.json"
+SPOTIFY_JSON = ROOT / "domains/music/data/library/metadata/spotify.json"
 DEFAULT_OUT  = ROOT / "domains/music/model/outputs/loop_seam_probe"
 
 

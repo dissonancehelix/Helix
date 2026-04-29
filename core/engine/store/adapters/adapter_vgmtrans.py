@@ -2,7 +2,7 @@
 adapter_vgmtrans.py — Helix adapter for VGMTrans
 =================================================
 Tier B: Requires a built VGMTrans binary.
-Source reference: domains/music/data/output/library/source/code/vgmtrans/  (CMake project)
+Source reference: domains/music/data/library/source/code/vgmtrans/  (CMake project)
 Downloads zip:    vgmtrans-master.zip (source only, must be compiled)
 
 Purpose:
@@ -46,14 +46,14 @@ Output (dict):
         }
 
 Build instructions (Windows, CMake + MSVC or MinGW):
-    cd domains/music/data/output/library/source/code/vgmtrans
+    cd domains/music/data/library/source/code/vgmtrans
     cmake -B build -DCMAKE_BUILD_TYPE=Release
     cmake --build build --config Release
     # Binary: build/Release/VGMTrans.exe  or  build/VGMTrans.exe
 
 Binary search order:
-    1. domains/music/data/output/library/source/code/vgmtrans/build/Release/VGMTrans.exe
-    2. domains/music/data/output/library/source/code/vgmtrans/build/VGMTrans.exe
+    1. domains/music/data/library/source/code/vgmtrans/build/Release/VGMTrans.exe
+    2. domains/music/data/library/source/code/vgmtrans/build/VGMTrans.exe
     3. PATH (vgmtrans / VGMTrans.exe)
     4. ~/VGMTrans/VGMTrans.exe  (common install location)
 

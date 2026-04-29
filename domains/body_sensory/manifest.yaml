@@ -1,0 +1,10 @@
+domain: body_sensory
+status: placeholder
+parent_map: DISSONANCE.md
+role: decompressed_domain_room
+canonical_readme: domains/body_sensory/README.md
+owns_tools: false
+has_local_labs: false
+notes:
+  - Placeholder capsule created to align filesystem with locked domains in DISSONANCE.md.
+  - Expand from chatspace/domain evidence before promoting claims to DISSONANCE.md.

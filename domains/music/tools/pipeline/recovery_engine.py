@@ -7,7 +7,7 @@ from collections import defaultdict
 # Helix Root
 HELIX_ROOT = Path("C:/Users/dissonance/Desktop/Helix")
 LIB_ROOT = HELIX_ROOT / "codex/library/music/album"
-DATASETS = HELIX_ROOT / "domains/music/data/output/library/metadata"
+DATASETS = HELIX_ROOT / "domains/music/data/library/metadata"
 PC2003_PATH = DATASETS / "2003_playcount.json"
 RECOVERY_MAP_PATH = HELIX_ROOT / "codex/library/music/.recovery_map.json"
 

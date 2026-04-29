@@ -72,4 +72,4 @@ Role anchors:
 
 - `domains/games/model/EFT.md`
 - `domains/games/tools/games_pipeline/`
-- `domains/games/data/output/pipeline/`
+- `domains/games/data/pipeline/`

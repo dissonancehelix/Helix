@@ -45,7 +45,7 @@ sys.path.insert(0, str(ROOT))
 from core.invariants.dcp.event import DCPEvent
 from core.invariants.dcp.metrics import compute_dcp_score
 
-ANALYSIS_CACHE = ROOT / "domains/music/data/output/library/processed/audio_analysis"
+ANALYSIS_CACHE = ROOT / "domains/music/data/library/processed/audio_analysis"
 CANDIDATES_CSV = ROOT / "domains/music/model/outputs/loop_seam_probe/loop_seam_candidates.csv"
 OUTPUT_DIR     = ROOT / "domains/music/model/outputs/loop_seam_audio"
 

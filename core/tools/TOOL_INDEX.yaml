@@ -44,11 +44,11 @@ items:
     entrypoint: python -m domains.music.tools.bridge.diagnostics
     inputs:
       - foobar2000/library exports
-      - domains/music/data/output/atlas/
+      - domains/music/data/atlas/
       - domains/music/model/
     outputs:
       - domains/music/reports/
-      - domains/music/data/output/atlas/
+      - domains/music/data/atlas/
     safety_mode: read_only/proposal_only unless trust gates are explicitly satisfied.
     artifact_report_path: domains/music/reports/
     deprecated_helpers_replaced:
@@ -62,17 +62,17 @@ items:
     entrypoint: python -m domains.music.tools.pipeline.router
     inputs:
       - archive/raw/ restored locally when source re-ingest is needed
-      - domains/music/data/output/library/
-      - domains/music/data/output/pipeline/data/
+      - domains/music/data/library/
+      - domains/music/data/pipeline/data/
       - domains/music/tools/toolkits/
     outputs:
-      - domains/music/data/output/pipeline/
+      - domains/music/data/pipeline/
       - domains/music/reports/
     safety_mode: read_write_gated for derived artifacts; no raw evidence deletion.
     artifact_report_path: domains/music/reports/
     deprecated_helpers_replaced:
       - one-off music ingestion scripts
-      - direct domains/music/data/output/library/catalog mutations
+      - direct domains/music/data/library/catalog mutations
 
   - id: tool.foobar
     name: foobar
@@ -81,7 +81,7 @@ items:
     entrypoint: python -m domains.music.tools.foobar.runner
     inputs:
       - foobar2000 exports or local database snapshots
-      - domains/music/data/output/pipeline/
+      - domains/music/data/pipeline/
     outputs:
       - domains/music/reports/
       - patch or repair proposals
@@ -97,9 +97,9 @@ items:
     entrypoint: python domains/trails/tools/trails/pipelines/generate/generate_atlas.py
     inputs:
       - archive/raw/ restored locally when Trails corpus re-ingest is needed
-      - domains/trails/data/output/pipeline/retrieval/index/
+      - domains/trails/data/pipeline/retrieval/index/
     outputs:
-      - domains/trails/data/output/pipeline/
+      - domains/trails/data/pipeline/
       - domains/trails/reports/
     safety_mode: derived_artifacts_only unless a specific external wiki writeback gate is opened.
     artifact_report_path: domains/trails/reports/
@@ -116,7 +116,7 @@ items:
       - archive/raw/ restored locally when source re-ingest is needed
       - domains/language/model/
     outputs:
-      - domains/language/data/output/corpora/
+      - domains/language/data/corpora/
       - domains/language/reports/
     safety_mode: read_write_gated for derived artifacts; reports before canon.
     artifact_report_path: domains/language/reports/
@@ -132,7 +132,7 @@ items:
       - domains/games/model/
       - archive/raw/ restored locally when source re-ingest is needed
     outputs:
-      - domains/games/data/output/pipeline/
+      - domains/games/data/pipeline/
       - domains/games/reports/
     safety_mode: read_only/proposal_only unless writing derived artifacts.
     artifact_report_path: domains/games/reports/
@@ -161,7 +161,7 @@ items:
     inputs:
       - archive/raw/gpt/conversations*.json
     outputs:
-      - domains/self/data/output/gpt_history/
+      - domains/self/data/gpt_history/
       - domains/self/reports/gpt_history_pass_01_interaction_fingerprint.md
     safety_mode: local_read_only_raw; writes compact derived artifacts and reports; no external APIs; raw export is not copied.
     artifact_report_path: domains/self/reports/
@@ -234,7 +234,7 @@ items:
     inputs:
       - archive/raw/ restored locally when source re-ingest is needed
     outputs:
-      - domains/music/data/output/pipeline/
+      - domains/music/data/pipeline/
     safety_mode: local_artifact_generation; never delete source audio.
     artifact_report_path: domains/music/reports/
     deprecated_helpers_replaced: []

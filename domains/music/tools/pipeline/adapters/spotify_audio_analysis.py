@@ -50,7 +50,7 @@ ROOT = next(
     if (p / "MANIFEST.yaml").exists()
 )
 
-CACHE_DIR = ROOT / "domains/music/data/output/library/processed/audio_analysis"
+CACHE_DIR = ROOT / "domains/music/data/library/processed/audio_analysis"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 REQUEST_DELAY = 0.35   # seconds between API calls — safe under rate limit

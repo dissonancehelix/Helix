@@ -76,7 +76,7 @@ python core/engine/checks/run_checks.py
 
 ## What remains for Phase 4
 
-- **Foobar read-only export format.** Define and implement the snapshot shape; land under `domains/music/data/output/library/foobar/` (or existing pipeline convention).
+- **Foobar read-only export format.** Define and implement the snapshot shape; land under `domains/music/data/library/foobar/` (or existing pipeline convention).
 - **Steam / Last.fm / Spotify source normalization.** Promote from raw exports under `data/` into registered sources in `core/map/sources.yaml`.
 - **Domain README content generation** from stable snapshots. Author the empty template stubs created in Phase 1.
 - **`core/map/examples.yaml` / `core/map/links.yaml` expansion.** Walk the regenerated `DISSONANCE.md` and seed evidence anchors.

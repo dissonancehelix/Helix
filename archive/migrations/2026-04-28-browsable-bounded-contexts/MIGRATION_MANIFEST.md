@@ -18,7 +18,7 @@ fewer folders, better rooms.
   `data/`, `tools/`, and `reports/`.
 - Domain-local `labs/` is optional and only for true local experiments.
 - Cleaned domain records live directly in `data/`; generated products live in
-  `data/output/`. The older `normalized/`, `derived/`, and `staging/` rooms
+  `data/`. The older `normalized/`, `derived/`, and `staging/` rooms
   were compressed away after review.
 - SDKs, toolkits, helper libraries, and source mirrors live under
   `tools/toolkits/` or `tools/<tool_name>/toolkits/`, not `vendor/`.
@@ -27,7 +27,7 @@ fewer folders, better rooms.
 ## Before / After Tree Summary
 
 Before, active work could hide under repeated identity folders such as
-`domains/<domain>/data/output/<domain>/`, domain-local `research/` wrappers,
+`domains/<domain>/data/<domain>/`, domain-local `research/` wrappers,
 domain-root vendor mirrors, and repeated lab names.
 
 After, each active capsule exposes durable interpretation, cleaned data,
@@ -54,11 +54,11 @@ were removed.
 | Old path | New path |
 |---|---|
 | `domains/music/vendor/` | `domains/music/tools/toolkits/` |
-| `domains/music/data/output/music/` | `domains/music/data/output/library/` |
-| `domains/music/data/output/music_pipeline/` | `domains/music/data/output/pipeline/` |
-| `domains/music/data/output/atlas_embeddings/` | `domains/music/data/output/embeddings/` |
-| `domains/music/data/output/atlas_staging/` | deleted as generated staging output |
-| `domains/music/core/atlas/` | `domains/music/data/output/atlas/` |
+| `domains/music/data/music/` | `domains/music/data/library/` |
+| `domains/music/data/music_pipeline/` | `domains/music/data/pipeline/` |
+| `domains/music/data/atlas_embeddings/` | `domains/music/data/embeddings/` |
+| `domains/music/data/atlas_staging/` | deleted as generated staging output |
+| `domains/music/core/atlas/` | `domains/music/data/atlas/` |
 | `domains/music/tools/music_bridge/` | `domains/music/tools/bridge/` |
 | `domains/music/tools/music_pipeline/` | `domains/music/tools/pipeline/` |
 | `domains/music/tools/foobar-spatial-dsp/` | `domains/music/tools/spatial_dsp/` |
@@ -66,24 +66,24 @@ were removed.
 | `domains/music/tools/spatial_dsp/WTL/` | `domains/music/tools/spatial_dsp/toolkits/WTL/` |
 | `domains/music/tools/spatial_dsp/prism-dsp/` | `domains/music/tools/spatial_dsp/toolkits/prism-dsp/` |
 | `domains/music/tools/spatial_dsp/vgmspc/` | `domains/music/tools/spatial_dsp/toolkits/vgmspc/` |
-| `domains/games/data/output/games/` | `domains/games/data/output/pipeline/` |
-| `domains/language/data/output/language/` | `domains/language/data/output/corpora/` |
-| `domains/self/data/output/self/` | `domains/self/data/output/profile/` |
-| `domains/trails/data/output/trails/` | `domains/trails/data/output/pipeline/` |
+| `domains/games/data/games/` | `domains/games/data/pipeline/` |
+| `domains/language/data/language/` | `domains/language/data/corpora/` |
+| `domains/self/data/self/` | `domains/self/data/profile/` |
+| `domains/trails/data/trails/` | `domains/trails/data/pipeline/` |
 | `domains/games/labs/research/` | `domains/games/labs/` |
 | `domains/language/labs/research/` | `domains/language/labs/` |
 | `domains/music/labs/research/` | `domains/music/labs/` |
 | `labs/invariants/invariants/` | `labs/invariants/` |
 | `labs/inhabited_interiority/consciousness/cognition/cognition/` | `labs/inhabited_interiority/consciousness/cognition/` |
 | `domains/<domain>/data/normalized/*` | `domains/<domain>/data/*` |
-| `domains/<domain>/data/derived/*` | `domains/<domain>/data/output/*` |
+| `domains/<domain>/data/derived/*` | `domains/<domain>/data/*` |
 | `domains/<domain>/data/staging/` | deleted |
 | `archive/legacy/` | deleted; retained history lives in `archive/migrations/` |
 | `archive/quarantine/` | deleted/not used; root `quarantine/` is canonical |
 
 During cleanup, the leftover generated slice
-`domains/music/data/output/library/library/music/album/` was merged into
-`domains/music/data/output/library/catalog/music/album/` and the repeated
+`domains/music/data/library/library/music/album/` was merged into
+`domains/music/data/library/catalog/music/album/` and the repeated
 `library/library/` room was removed.
 
 ## Deleted Generated / Cache Files
@@ -131,7 +131,7 @@ The checker now fails on:
 - `labs/labs/`
 - `reports/reports/`
 - committed `__pycache__/`
-- `domains/<domain>/data/output/<domain>/`
+- `domains/<domain>/data/<domain>/`
 - `domains/<domain>/data/normalized/`, `data/derived/`, or `data/staging/`
 - `archive/legacy/` or `archive/quarantine/`
 - empty optional domain labs without a purpose note

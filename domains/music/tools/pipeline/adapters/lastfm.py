@@ -5,7 +5,7 @@ Reads the operator's Last.fm scrobble export JSON and exposes it as
 a normalized behavioral trace source.
 
 Source:
-    domains/music/data/output/library/metadata/lastfm_dissident93.json
+    domains/music/data/library/metadata/lastfm_dissident93.json
     (copied from: C:\\Users\\dissonance\\Downloads\\lastfmstats-dissident93.json)
 
 Actual JSON schema (verified from source 2026-03-29):

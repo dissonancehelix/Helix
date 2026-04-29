@@ -1,0 +1,712 @@
+{
+  "source": "domains/self/data/gpt_history/messages_index.jsonl",
+  "user_messages_scanned": 1441,
+  "messages_with_pass_2_markers": 224,
+  "marker_group_counts": {
+    "world_inhabitation": 47,
+    "temporal_durability": 55,
+    "building_motivation": 86,
+    "negative_control_language": 32,
+    "positive_anchor_language": 30,
+    "fiction_universe_contrast": 20,
+    "clean_lead_public": 32
+  },
+  "top_conversation_titles": [
+    [
+      "GMod Server Setup Guide",
+      56
+    ],
+    [
+      "Trails",
+      30
+    ],
+    [
+      "Cross-Processing Prompt Assistance",
+      25
+    ],
+    [
+      "Bad Bunny English Skills",
+      17
+    ],
+    [
+      "EFT Game Evaluation",
+      14
+    ],
+    [
+      "La lluvia se llegue",
+      10
+    ],
+    [
+      "Enhancing Foobar Spatial Audio",
+      9
+    ],
+    [
+      "Hay vs He",
+      5
+    ],
+    [
+      "Olvidé vs Acordé",
+      5
+    ],
+    [
+      "Reddit Data Profile Analysis",
+      5
+    ],
+    [
+      "Roster Table Layout Fix",
+      4
+    ],
+    [
+      "U.S. Taiwan Policy Explained",
+      3
+    ],
+    [
+      "Extra shift earnings after tax",
+      2
+    ],
+    [
+      "Stardew Language Learning Tips",
+      2
+    ],
+    [
+      "DST Around the World",
+      2
+    ],
+    [
+      "Blocked on WhatsApp?",
+      2
+    ],
+    [
+      "Hide .0 Values",
+      2
+    ],
+    [
+      "Zaxby's vs Taco Bell Fat",
+      2
+    ],
+    [
+      "Foot Curling and Cramps",
+      2
+    ],
+    [
+      "Starbucks Coconutmilk Fat Content",
+      2
+    ]
+  ],
+  "representative_snippets": {
+    "world_inhabitation": [
+      {
+        "conversation_title": "US Passport Application Checklist",
+        "message_time": "2026-02-07T04:55:53.501000+00:00",
+        "snippet": "do i need to setup a passport appoitment? i live in richmond and i think the USPS main office can do it all"
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "message_time": "2026-02-09T04:05:35.276000+00:00",
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste..."
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "message_time": "2026-02-09T04:11:09.048000+00:00",
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste..."
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "message_time": "2026-02-09T04:12:37.298000+00:00",
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste..."
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "message_time": "2026-02-09T04:30:43.823000+00:00",
+        "snippet": "ok i think everything is perfect now lets apply it to the UFL one now. it should be exactly like the NFL one but with the NFL stuff renamed to UFL (like the footer navbar) {| class=\"toccolours\" |+ style=\"{{Gridiron prima..."
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "message_time": "2026-02-09T06:29:29.899000+00:00",
+        "snippet": "\"borrowing their internal world model\" yes. i see languages as APIs or OS (which is more applicable)? we're all describing 99% of the same thing (some things dont translate well or concepts only exist in certain ones, li..."
+      },
+      {
+        "conversation_title": "Fluent Spanish Speakers Surprising",
+        "message_time": "2026-02-09T15:16:36.420650+00:00",
+        "snippet": "Which latino or hispanic in the spanish speaking world known mostly for them actually is fluent in English and it surprises even spanish speakers."
+      },
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "message_time": "2026-02-09T17:19:16.303548+00:00",
+        "snippet": "So generally only 1 in 5 people can speak Spanish at a decent level? It seems way more than that because I hear it all the time at work, in public, everywhere, and I live in Virginia, not a very Hispanic state."
+      }
+    ],
+    "temporal_durability": [
+      {
+        "conversation_title": "New chat",
+        "message_time": "2026-02-05T01:28:53.325000+00:00",
+        "snippet": "| data27 = {{#if:{{{league_champs|{{{league_champ_type|}}}}}}| '''League championships: {{{no_league_champs|0}}}'''<br /> {{{league_champs|{{{league_champ_type|}}}}}} why isnt league_champ_type showing for {{Infobox grid..."
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "message_time": "2026-02-09T04:05:35.276000+00:00",
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste..."
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "message_time": "2026-02-09T04:11:09.048000+00:00",
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste..."
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "message_time": "2026-02-09T04:12:37.298000+00:00",
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste..."
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "message_time": "2026-02-09T04:30:43.823000+00:00",
+        "snippet": "ok i think everything is perfect now lets apply it to the UFL one now. it should be exactly like the NFL one but with the NFL stuff renamed to UFL (like the footer navbar) {| class=\"toccolours\" |+ style=\"{{Gridiron prima..."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-13T03:41:38.297000+00:00",
+        "snippet": "lag that feels like it will lasts months, which is discouraging tbh but not enough for me to quit. can you find me videos of spanish speakers learning english for their first month? i want to see how they struggle with t..."
+      },
+      {
+        "conversation_title": "EFT Game Evaluation",
+        "message_time": "2026-02-16T19:35:22.636000+00:00",
+        "snippet": "i didnt come up with the idea. jetboom made it in like 2012 but he abanonded the game after shutting down noxiousnet in 2018 and its been dead every since. some servers still host old versions of it but i want to moderni..."
+      },
+      {
+        "conversation_title": "EFT Game Evaluation",
+        "message_time": "2026-02-16T19:38:03.493000+00:00",
+        "snippet": "im trying to get a server up with this running in gmod first. once its stabablized and confirmed to be as bug free as possible, then i will attempt the source 2 port of this while keeping this up. bots will keep the serv..."
+      }
+    ],
+    "building_motivation": [
+      {
+        "conversation_title": "Hay vs He",
+        "message_time": "2026-02-09T05:54:26.440000+00:00",
+        "snippet": "spanish is really spatial/3d to me based on its grammar and structure. things like de being connected to while a is more of entering the 3d location or taking part in it. i hope im making sense, but thinking of spanish a..."
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "message_time": "2026-02-09T06:05:25.286000+00:00",
+        "snippet": "does this help change course in how i should study spanish? and yes \"They are scaffolding nodes. Once you have enough of them, language assembles itself.\" is exactly what im looking to get. to me its base fluency even if..."
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "message_time": "2026-02-09T06:18:20.201000+00:00",
+        "snippet": "i just await the day. ive only really seriously studied for lets say a month. i had a baseline knowledge of spanish before then (1-10, colors, hola, adios, como estas, te amo, etc) how am i supposed to know if im behind ..."
+      },
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "message_time": "2026-02-09T17:11:01.491593+00:00",
+        "snippet": "Yeah, that's exactly what I'm doing. I'm assembling Spanish as a physical 3D spatial structure, but I'm still collecting the plywoods and bricks and setting space on the land that we can just call English to build this. ..."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-13T05:05:50.412000+00:00",
+        "snippet": "\"Your spatial/state-based thinking fits Spanish extremely well.\" yeah it does feel like i already know the physics of spanish but without being able to construct 2 sentences lol. now you see why its frustrating, because ..."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-13T19:59:21.198430+00:00",
+        "snippet": "Does gender fluidity change pronouns based on how they want to be perceived?"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-17T04:30:00.250000+00:00",
+        "snippet": "less that and more what fits my personality based on my md file. the spanish will be learned anyway"
+      },
+      {
+        "conversation_title": "Extra shift earnings after tax",
+        "message_time": "2026-02-15T20:07:05.709850+00:00",
+        "snippet": "Well, I'm definitely not gonna rush it. Leaving the U.S. has been my goal for many years. Now I just have a viable opportunity to. But I'm not just leaving because of that. I also really like this woman. So everything is..."
+      }
+    ],
+    "negative_control_language": [
+      {
+        "conversation_title": "Fluent in Spanish Bottleneck",
+        "message_time": "2026-02-07T01:57:41.853000+00:00",
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, ves). im currently speaking to native spea..."
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "message_time": "2026-02-09T06:01:22.097000+00:00",
+        "snippet": "\"Most learners fight Spanish because they try to push it through an English parser.\" im doing this but only because my mind has 30 years of only cognating (is that a word) in english. its actually more frustrating to be ..."
+      },
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "message_time": "2026-02-09T16:49:35.615588+00:00",
+        "snippet": "we have two definitions of boring, but I know what you mean. It's like I have one or two Lego pieces, but I don't have enough to assemble anything actually structurally significant or impressive, yet."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-13T05:05:50.412000+00:00",
+        "snippet": "\"Your spatial/state-based thinking fits Spanish extremely well.\" yeah it does feel like i already know the physics of spanish but without being able to construct 2 sentences lol. now you see why its frustrating, because ..."
+      },
+      {
+        "conversation_title": "La lluvia se llegue",
+        "message_time": "2026-02-18T00:39:23.097000+00:00",
+        "snippet": "makes learning fun instead of frustrating again. i want to say ive escapped the hardest part of the entire journey now its just growing my vocabuarliy and cleaning up my grammar. honestly if i knew more grammar rules and..."
+      },
+      {
+        "conversation_title": "La lluvia se llegue",
+        "message_time": "2026-02-21T04:47:12.656000+00:00",
+        "snippet": "feels so far away. even when i hear words like tenemos in asmr, i still map it to \"we have\" instead of just tenemos and its so frustrating"
+      },
+      {
+        "conversation_title": "La lluvia se llegue",
+        "message_time": "2026-02-22T04:23:18.901000+00:00",
+        "snippet": "im at this weird stage of A1 (or maybe A2 in writing, i dont know) where i dont trust the language and constantly ask if thats how they REALLY saw a certain sentence. my confidense in spanish has actually dipped some eve..."
+      },
+      {
+        "conversation_title": "La lluvia se llegue",
+        "message_time": "2026-02-22T04:48:09.033000+00:00",
+        "snippet": "yes its a weird feeling that exists when you have the concept in your mind but cant form it into another language. actually frustrating, i wonder if theres a word for this because just not being fluent lol"
+      }
+    ],
+    "positive_anchor_language": [
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-14T18:49:51.351117+00:00",
+        "snippet": "I want to play through Stardew Valley in Spanish. I already know how to install mods and stuff, so can you recommend me stuff that will help me learn Spanish, put the game in Spanish, or make it more Latino themed?"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-17T03:38:28.696000+00:00",
+        "snippet": "im going to play stardew valley in spanish just for immersion (i already know the game i have like 300 hours and love to play with mods) so which mods work for that? voiced ones in spanish too help"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-17T03:49:52.823000+00:00",
+        "snippet": "find mods that will help me learn spanish in stardew valley"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-17T04:02:01.182000+00:00",
+        "snippet": "https://www.nexusmods.com/stardewvalley/mods/22550?tab=description this has spanish apparently"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-17T04:23:55.834000+00:00",
+        "snippet": "playing on stardew 1.6. no other spanish language packs?"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-17T04:27:59.921000+00:00",
+        "snippet": "https://www.nexusmods.com/stardewvalley/mods/30181 what npc should i woo? custom counts too but the default ones have the voice acting"
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-17T04:32:37.919000+00:00",
+        "snippet": "what mods enhance leah and her dialouge then? i had https://www.nexusmods.com/stardewvalley/mods/30181 but never got far with any custom npc"
+      },
+      {
+        "conversation_title": "Stardew Language Learning Tips",
+        "message_time": "2026-02-25T05:33:30.090000+00:00",
+        "snippet": "[SMAPI] Loaded 89 mods: [SMAPI] (DLL) Weather Wonders - Beta 1.5.3-beta by Kanadeyoru | Expansion for the weather system, everything made to be vanilla-friendly! [SMAPI] (JP98) Debris Is In the Air 1.0.4 by Juanpa98ar | ..."
+      }
+    ],
+    "fiction_universe_contrast": [
+      {
+        "conversation_title": "Trails",
+        "message_time": "2026-04-09T03:33:37.158384+00:00",
+        "snippet": "what can i give helix to make it understand trails characters more. kiseki wiki and the japanese wikipedia character page?"
+      },
+      {
+        "conversation_title": "Trails",
+        "message_time": "2026-04-09T03:36:44.501734+00:00",
+        "snippet": "it's going to be a local database. basically make helix like a trails historian"
+      },
+      {
+        "conversation_title": "Trails",
+        "message_time": "2026-04-09T13:18:07.436229+00:00",
+        "snippet": "I wanna reframe this as evidence and more just another layer that we do to make this thing stronger. I just want Helix to be able to act like a chatbot for trails if I have any questions. Basically, like, maybe we could ..."
+      },
+      {
+        "conversation_title": "Trails",
+        "message_time": "2026-04-09T13:35:39.827735+00:00",
+        "snippet": "And what cool things can we do with this now, that can actually help expand the universe of Trails? It's my favorite series of all time, and I want to treat it with the utmost respect and comprehension."
+      },
+      {
+        "conversation_title": "Trails",
+        "message_time": "2026-04-09T14:44:01.082000+00:00",
+        "snippet": "ive ingested both english and japanese wiki pages for trails/kiseki and the kiseki wiki and trails in the database. find other good sources that we can ingest from"
+      },
+      {
+        "conversation_title": "Trails",
+        "message_time": "2026-04-09T16:05:55.316000+00:00",
+        "snippet": "oh sorry this was the wrong chat lol. go back to trails"
+      },
+      {
+        "conversation_title": "Trails",
+        "message_time": "2026-04-09T16:41:43.984000+00:00",
+        "snippet": "just prompt to fix this and amend the readme to be comprehensive and explaining the state of the project so any LLM instantly knows trails and becomes an expert"
+      },
+      {
+        "conversation_title": "Trails",
+        "message_time": "2026-04-09T21:20:22.649000+00:00",
+        "snippet": "https://www.imdb.com/list/ls566250525/ https://www.reddit.com/r/Falcom/ https://steamcommunity.com/sharedfiles/filedetails/?id=[phone] https://huguesjohnson.com/features/american-falcom/ read the part under Legend of Her..."
+      }
+    ],
+    "clean_lead_public": [
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "message_time": "2026-02-09T17:45:06.614774+00:00",
+        "snippet": "I actually like language more when it's done addition by subtraction. We could explain something using 30 paragraphs, or we can explain something in four sentences. The less words you can get something clearly across, th..."
+      },
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "message_time": "2026-02-09T17:48:41.748998+00:00",
+        "snippet": "https://en.wikipedia.org/wiki/Jayden_Daniels https://en.wikipedia.org/wiki/New_Commanders_Stadium?wprov=sfla1 https://en.wikipedia.org/wiki/Josh_Harris_%28businessman%29?wprov=sfla1 https://en.wikipedia.org/wiki/Dota_2?w..."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-13T04:39:48.906000+00:00",
+        "snippet": "so para is almost \"a\" but with intention/specific goal? ill need more practice with this even though i understand the concept as noted above. if i say use the wrong word in context will i always be understood UNLESS that..."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "message_time": "2026-02-14T15:44:19.473410+00:00",
+        "snippet": "Sorry, I missed the summary."
+      },
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "message_time": "2026-02-19T00:01:20.644000+00:00",
+        "snippet": "bots already disconnect when a player joins that team. the framework exists for them i just need them to be smarter, mostly offensively. by making the manifest stronger it will serve as a beter guide when i get more clau..."
+      },
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "message_time": "2026-02-19T00:24:02.685000+00:00",
+        "snippet": "this is getting close. lets regen the claude summary using all we know now and continue building from it"
+      },
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "message_time": "2026-02-19T01:48:40.861000+00:00",
+        "snippet": "lets add both back to this. i want this framed so LLM can already understand eft better and not treat it like a pedestrian flow simulator (just need the framing so it better understands the rules) if that makes sense. bu..."
+      },
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "message_time": "2026-02-19T02:27:43.572000+00:00",
+        "snippet": "even if im uniquely suited to lead this rivival project, i know its just as internalized to everybody else who had 100s and 1000s of hours. the game was just made for that like you said. can we amend the last few things ..."
+      }
+    ]
+  },
+  "specific_term_counts": {
+    "build": 40,
+    "server": 35,
+    "trails": 26,
+    "rust": 24,
+    "world": 16,
+    "inhabit": 10,
+    "return": 6,
+    "mechanical": 4,
+    "safety": 4,
+    "boring": 3,
+    "friction": 3,
+    "survival": 2,
+    "1v1": 1,
+    "ttt": 1,
+    "crafting": 1,
+    "pilotredsun": 1,
+    "card games": 1,
+    "card game": 1
+  },
+  "specific_term_snippets": {
+    "rust": [
+      {
+        "conversation_title": "Fluent in Spanish Bottleneck",
+        "snippet": "im trying to become fluent in spanish but its hard for me to create sentences even since most of my vocabulary are nouns and i need verbs and connecting words (like hay, lo, se, ves). im currently speaking to native spea..."
+      },
+      {
+        "conversation_title": "Hay vs He",
+        "snippet": "\"Most learners fight Spanish because they try to push it through an English parser.\" im doing this but only because my mind has 30 years of only cognating (is that a word) in english. its actually more frustrating to be ..."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "snippet": "\"Your spatial/state-based thinking fits Spanish extremely well.\" yeah it does feel like i already know the physics of spanish but without being able to construct 2 sentences lol. now you see why its frustrating, because ..."
+      },
+      {
+        "conversation_title": "La lluvia se llegue",
+        "snippet": "makes learning fun instead of frustrating again. i want to say ive escapped the hardest part of the entire journey now its just growing my vocabuarliy and cleaning up my grammar. honestly if i knew more grammar rules and..."
+      }
+    ],
+    "return": [
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste..."
+      },
+      {
+        "conversation_title": "Roster Table Layout Fix",
+        "snippet": "{| class=\"toccolours\" |+ style=\"{{Gridiron primary style|year={{{Year|{{{year|}}}}}}|{{{TeamName|{{{team}}}}}}|border=2}}; text-align:center;\" | {{#if:{{{TemplateName|}}} | {{Navbar-header|'''{{{TeamName|Unknown}}} roste..."
+      },
+      {
+        "conversation_title": "EFT Game Evaluation",
+        "snippet": "we stil have a discord server (althought its not as active as it used to be) but if the game could return everybody would play it. ive hosted a server of it before but none of us could code so the game was fated to die a..."
+      },
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "snippet": "\"Nobody set up a scoring play. A scoring opportunity happened when the conflict field briefly failed to reform around the carrier.\" exactly. so even if you didnt score but you created enough space/tackle chained their te..."
+      }
+    ],
+    "world": [
+      {
+        "conversation_title": "Hay vs He",
+        "snippet": "\"borrowing their internal world model\" yes. i see languages as APIs or OS (which is more applicable)? we're all describing 99% of the same thing (some things dont translate well or concepts only exist in certain ones, li..."
+      },
+      {
+        "conversation_title": "Fluent Spanish Speakers Surprising",
+        "snippet": "Which latino or hispanic in the spanish speaking world known mostly for them actually is fluent in English and it surprises even spanish speakers."
+      },
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "snippet": "so id use debo more if i was telling somebody why i had to go piss in a cup or something). and i didnt meant just thinking i mean some sort of app that can visuallze how im conceptually viewing it. maybe i can get you to..."
+      },
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "snippet": "i mean walls were easy to avoid just dont run into them. the map geometry of voids, water, lava, platforms, gaps to jump over, THAT is where the world brushes mattered. most walls were just bounding boxes of the arena or..."
+      }
+    ],
+    "boring": [
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "snippet": "we have two definitions of boring, but I know what you mean. It's like I have one or two Lego pieces, but I don't have enough to assemble anything actually structurally significant or impressive, yet."
+      },
+      {
+        "conversation_title": "Hamstringing as punishment",
+        "snippet": "Again, this is not an injury, it's just from how I physically walk in my own gait. Like I said it's actually pleasurable to have this sort of soreness. There's other parts in my leg that have no real reaction to being ma..."
+      },
+      {
+        "conversation_title": "House Music Types Explained",
+        "snippet": "im also a huge fan of dank n dirty dubs. they play stuff with soul too. alot of dubstep (even on the di.fm channel) plays boring slow stuff"
+      }
+    ],
+    "build": [
+      {
+        "conversation_title": "Olvidé vs Acordé",
+        "snippet": "Yeah, that's exactly what I'm doing. I'm assembling Spanish as a physical 3D spatial structure, but I'm still collecting the plywoods and bricks and setting space on the land that we can just call English to build this. ..."
+      },
+      {
+        "conversation_title": "Extra shift earnings after tax",
+        "snippet": "Well, I'm definitely not gonna rush it. Leaving the U.S. has been my goal for many years. Now I just have a viable opportunity to. But I'm not just leaving because of that. I also really like this woman. So everything is..."
+      },
+      {
+        "conversation_title": "Extra shift earnings after tax",
+        "snippet": "I only leave early on extra days like this, and I build about an hour of UPT a day. I went from about 8 to 22 in about a month and a half."
+      },
+      {
+        "conversation_title": "EFT Game Evaluation",
+        "snippet": "ok perfect. heres the latest design doc with the merged claude-gpt analsis. lets keep building on this and use it as the brains behid the bots, which current just have basic logic"
+      }
+    ],
+    "inhabit": [
+      {
+        "conversation_title": "Bad Bunny English Skills",
+        "snippet": "not to toot my own horn but im sure the majority of spanish speakers dont even think about their language this way, at least ones who dont speak a 2nd language. i think i began to realize this when i first heard about se..."
+      },
+      {
+        "conversation_title": "Cross-Processing Prompt Assistance",
+        "snippet": "Let's keep building this, you on your end, and let's do as much as you possibly can, running scripts or whatever, but anything else we could just implement locally into this. But you're going to be the guiding director b..."
+      },
+      {
+        "conversation_title": "Cross-Processing Prompt Assistance",
+        "snippet": "I meant a bunch of other game examples that we didn't already list, but that's great that you found even deeper patterns within them. And so if consciousness is the field in which self needs to inhabit to exist, that spa..."
+      },
+      {
+        "conversation_title": "Cross-Processing Prompt Assistance",
+        "snippet": "Exactly. Systems and interconnectedness and retconning, callbacks, foreshadowing, making it feel like a real inhabited universe. It's basically the things that make our theory of what consciousness is and Trails seems to..."
+      }
+    ],
+    "server": [
+      {
+        "conversation_title": "EFT Game Evaluation",
+        "snippet": "i didnt come up with the idea. jetboom made it in like 2012 but he abanonded the game after shutting down noxiousnet in 2018 and its been dead every since. some servers still host old versions of it but i want to moderni..."
+      },
+      {
+        "conversation_title": "EFT Game Evaluation",
+        "snippet": "im trying to get a server up with this running in gmod first. once its stabablized and confirmed to be as bug free as possible, then i will attempt the source 2 port of this while keeping this up. bots will keep the serv..."
+      },
+      {
+        "conversation_title": "EFT Game Evaluation",
+        "snippet": "we stil have a discord server (althought its not as active as it used to be) but if the game could return everybody would play it. ive hosted a server of it before but none of us could code so the game was fated to die a..."
+      },
+      {
+        "conversation_title": "EFT Game Evaluation",
+        "snippet": "1. A and B. only headon tackles (which depended on who had faster speed, re-read the doc for an explantion) made you feel like you won and they lost 2. escorting was more clearing space of opposing defenders so the ball ..."
+      }
+    ],
+    "friction": [
+      {
+        "conversation_title": "La lluvia se llegue",
+        "snippet": "yes, if it maps to the same concept that english expresses, its almost frictionless just like putting a new skin over the words"
+      },
+      {
+        "conversation_title": "Football and Dissonance Profile",
+        "snippet": "I understand that it comes through exposure, but I just wish it felt more seamless instead of me noticing it and getting upset, which causes more friction. Since my cognitive profile is so strong, I want to be able to us..."
+      },
+      {
+        "conversation_title": "GPT-5.5 Surreal Impact",
+        "snippet": "to make it as frictionless for me as possible"
+      }
+    ],
+    "survival": [
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "snippet": "also try to collect as much history about eft as you can. i only began playing in 2014 but i think the game was first made public in 2012 by creator jetboom on the former noxiousnet server (better know for their zombie s..."
+      },
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "snippet": "\"The carrier wasn’t a quarterback, a runner, or a playmaker in the traditional sense. The carrier was a player temporarily holding a hot object in a hostile environment while everyone else was trying to reset the state o..."
+      }
+    ],
+    "1v1": [
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "snippet": "and with skill levels so they dont all feel like impossible elite players to play against as a noob. the bots are really just there to keep the server always active (original had 0 players if empty, you couldnt even pick..."
+      }
+    ],
+    "mechanical": [
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "snippet": "\"It was that after 200 hours, your brain could feel what was about to happen before it did.\" more like after 2 minutes. the core physics never changed, just the agency and map playstyles and skill level of the players. a..."
+      },
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "snippet": "\"Not joking. This is one of the hidden reasons CSS survived so long too. Movement micro-skill creates identity.\" same engine so im not surprised, but i havent really played css so explain this. but yes this was really th..."
+      },
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "snippet": "lets update this with the latest info. now you see why eft was so loved and why this revival attempt (its not just me even though im the only one with the means to fix it up and manage the server currently) has been drea..."
+      },
+      {
+        "conversation_title": "Leg restlessness analysis",
+        "snippet": "How come the shin muscle is so weak and small in comparison to the calf? It feels like a massive biomechanical imbalance, but maybe since the foot is already angled compared to how the hand just ends at the end of the ar..."
+      }
+    ],
+    "ttt": [
+      {
+        "conversation_title": "GMod Server Setup Guide",
+        "snippet": "not my goal or intent but would be cool if the eft sbox port became one of the sbox core games (it has a bunch of demos but nothing like how gmod has rp or TTT) and it gets talked about in blogs and reddit and stuff. not..."
+      }
+    ],
+    "crafting": [
+      {
+        "conversation_title": "Stardew Language Learning Tips",
+        "snippet": "[SMAPI] Loaded 89 mods: [SMAPI] (DLL) Weather Wonders - Beta 1.5.3-beta by Kanadeyoru | Expansion for the weather system, everything made to be vanilla-friendly! [SMAPI] (JP98) Debris Is In the Air 1.0.4 by Juanpa98ar | ..."
+      }
+    ],
+    "safety": [
+      {
+        "conversation_title": "2026 NFL Draft Prospects",
+        "snippet": "David Bailey would be pretty nice, although the team doesn't need defensive end as much as it did a few weeks ago before free agency. Sonny Styles continues to be mocked to us, but I'm not really sure that he's the type ..."
+      },
+      {
+        "conversation_title": "Football and Dissonance Profile",
+        "snippet": "Read all the files within the project space/sandbox. I want to discuss football and how it relates to my dissonance profile. There's already a section about a free safety on there, but we can expand it even more."
+      },
+      {
+        "conversation_title": "Cross-Processing Prompt Assistance",
+        "snippet": "but i do value trust alot. with trust comes safety and safety is important."
+      }
+    ],
+    "trails": [
+      {
+        "conversation_title": "Trails",
+        "snippet": "what can i give helix to make it understand trails characters more. kiseki wiki and the japanese wikipedia character page?"
+      },
+      {
+        "conversation_title": "Trails",
+        "snippet": "it's going to be a local database. basically make helix like a trails historian"
+      },
+      {
+        "conversation_title": "Trails",
+        "snippet": "I wanna reframe this as evidence and more just another layer that we do to make this thing stronger. I just want Helix to be able to act like a chatbot for trails if I have any questions. Basically, like, maybe we could ..."
+      },
+      {
+        "conversation_title": "Trails",
+        "snippet": "And what cool things can we do with this now, that can actually help expand the universe of Trails? It's my favorite series of all time, and I want to treat it with the utmost respect and comprehension."
+      }
+    ],
+    "pilotredsun": [
+      {
+        "conversation_title": "Reddit Data Profile Analysis",
+        "snippet": "ok lets see how we can amend this to the profile. i can copypaste over sections with this new understanding. https://www.youtube.com/@1stadmendment550 https://www.youtube.com/@McAlby https://www.youtube.com/@AlexandraSav..."
+      }
+    ],
+    "card games": [
+      {
+        "conversation_title": "Cross-Processing Prompt Assistance",
+        "snippet": "Exactly. Systems and interconnectedness and retconning, callbacks, foreshadowing, making it feel like a real inhabited universe. It's basically the things that make our theory of what consciousness is and Trails seems to..."
+      }
+    ],
+    "card game": [
+      {
+        "conversation_title": "Cross-Processing Prompt Assistance",
+        "snippet": "Exactly. Systems and interconnectedness and retconning, callbacks, foreshadowing, making it feel like a real inhabited universe. It's basically the things that make our theory of what consciousness is and Trails seems to..."
+      }
+    ]
+  },
+  "privacy": "short redacted snippets only; raw exports not copied",
+  "supplemental_helix_history_chronology_context_scan": {
+    "file": "domains/self/data/gpt_history/world_context_chronology_markers.json",
+    "family_counts": {
+      "helix_workspace_structure": 83,
+      "history_chronology_context": 198,
+      "public_orientation_clean_lead": 73,
+      "world_durability": 161,
+      "negative_controls_games": 27,
+      "externalized_evidence_surfaces": 20
+    },
+    "top_terms": {
+      "era": 87,
+      "players": 55,
+      "old": 52,
+      "base": 42,
+      "structure": 30,
+      "build": 30,
+      "server": 27,
+      "past": 26,
+      "date": 25,
+      "helix": 24,
+      "context": 21,
+      "template": 20,
+      "rust": 20,
+      "history": 17,
+      "active": 17,
+      "repo": 17,
+      "wikipedia": 16,
+      "world": 15,
+      "llm": 15,
+      "community": 14,
+      "building": 14,
+      "mods": 13,
+      "infobox": 12,
+      "lead": 12,
+      "season": 11
+    },
+    "inbox_evidence_surfaces": [
+      "inbox/bookmarks-2024-12-01.json",
+      "inbox/README.md",
+      "inbox/stardewmodlist.txt",
+      "inbox/terrariamods.txt",
+      "inbox/Video games completed - Sheet1.tsv"
+    ],
+    "raw_external_archives": [
+      "archive/raw/attraction_2026-04-28.zip",
+      "archive/raw/games_2026-04-28.zip",
+      "archive/raw/reddit_2026-04-28.zip",
+      "archive/raw/scrobbles_2026-04-28.zip",
+      "archive/raw/trails_2026-04-28.zip",
+      "archive/raw/twitter_2026-04-28.zip",
+      "archive/raw/wikipedia_2026-04-28.zip",
+      "archive/raw/gpt/file_0000000006ac71f79de4db27f0dc741c-reddit.zip",
+      "archive/raw/gpt/file_000000000d3c71f7b3d67f05b53d3b58-prism.zip",
+      "archive/raw/gpt/file_00000000102871fd863c049eaef4742f-twitter.zip",
+      "archive/raw/gpt/file_000000004b1071f7b86c146db7b52b09-libvgm-master.zip",
+      "archive/raw/gpt/file_000000004cec71f5b7ed25395986b201-Old Helix.zip",
+      "archive/raw/gpt/file_0000000052d471f7b4276f73a0badfb9-reddit.zip",
+      "archive/raw/gpt/file_00000000916c71f5a24982e5e8779d78-reddit.zip",
+      "archive/raw/gpt/file_00000000be1071fdac7bfb3382916196-Old Helix.zip",
+      "archive/raw/gpt/file_00000000ccd071f781e88c60d59dc08a-reddit.zip",
+      "archive/raw/gpt/file_00000000f37471fdb5000c3b495df722-reddit.zip"
+    ],
+    "note": "Added after operator asked whether Helix/history/chronology/context and adjacent evidence surfaces had been scanned."
+  }
+}

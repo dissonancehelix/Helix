@@ -4,4 +4,4 @@ Role: `canonical`.
 
 Language corpus loading, template indexing, pattern mining, and rewrite/critique workflow. Start from `core/tools/TOOL_INDEX.yaml`; the normal entrypoint is `python -m domains.language.tools.language_pipeline.pipeline`.
 
-Derived artifacts belong under `domains/language/data/output/corpora/`; review output belongs under `domains/language/reports/`.
+Derived artifacts belong under `domains/language/data/corpora/`; review output belongs under `domains/language/reports/`.

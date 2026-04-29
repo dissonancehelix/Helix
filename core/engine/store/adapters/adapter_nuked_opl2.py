@@ -2,8 +2,8 @@
 adapter_nuked_opl2.py — Helix adapter for Nuked-OPL2-Lite (YM3812/OPL2) constants
 ====================================================================================
 Source reference:
-    domains/music/data/output/library/source/code/Nuked-OPL2-Lite/opl2.c
-    domains/music/data/output/library/source/code/Nuked-OPL2-Lite/opl2.h
+    domains/music/data/library/source/code/Nuked-OPL2-Lite/opl2.c
+    domains/music/data/library/source/code/Nuked-OPL2-Lite/opl2.h
 
 Chip coverage:
     YM3812 — Yamaha OPL2, used in Sound Blaster 1.0–2.0, AdLib card

@@ -20,7 +20,7 @@ runtime:
 
 data:
   records: domains/language/data/
-  output: domains/language/data/output/
+  output: domains/language/data/
   raw_provenance: archive/raw/
 
 known_gaps:

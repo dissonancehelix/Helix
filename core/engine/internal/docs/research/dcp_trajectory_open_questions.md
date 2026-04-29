@@ -39,7 +39,7 @@ These are not the same thing. DCP can be real even if the ontological framing is
 | Sync index as collapse proxy | Math | `core/probes/math/analysis/dcp.py` |
 | K/K_c ratio as constraint proxy | Math | `core/probes/math/analysis/dcp.py` |
 | Order-parameter variance near K_c | Math | ✅ `labs/dcp_null_tests.py` Test 2 |
-| Decision entropy slope | Games | `domains/games/data/output/pipeline/decision_compression_dataset.json` |
+| Decision entropy slope | Games | `domains/games/data/pipeline/decision_compression_dataset.json` |
 | Policy entropy drop at commitment | Games | ✅ GWT probes `domains/games/model/probes/gwt_*.py` |
 | Piece-count possibility breadth (chess) | Games | ✅ `gwt_decision_dcp.py` — k=7–20, R²=0.90 |
 | Network consensus topology floor | Games/Cognition | ✅ `gwt_topology_floor.py` — floor=6.2L+46.8, R²=0.90 |

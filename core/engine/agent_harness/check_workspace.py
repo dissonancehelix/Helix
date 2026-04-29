@@ -9,8 +9,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 
 REQUIRED_ROOT_FILES = {"DISSONANCE.md", "README.md", "AGENTS.md"}
-REQUIRED_ROOT_DIRS = {"core", "domains", "labs", "archive", "quarantine"}
-ACTIVE_DOMAINS = {"self", "music", "games", "trails", "wiki", "software", "language"}
+REQUIRED_ROOT_DIRS = {"core", "domains", "labs", "archive", "inbox"}
+ACTIVE_DOMAINS = {
+    "self",
+    "music",
+    "games",
+    "trails",
+    "wiki",
+    "software",
+    "language",
+    "attraction",
+    "food",
+    "aesthetics",
+    "body_sensory",
+    "sports",
+}
+PLACEHOLDER_DOMAINS = {"attraction", "food", "aesthetics", "body_sensory", "sports"}
 
 ALLOWED_ROOT_FILES = REQUIRED_ROOT_FILES | {".gitignore", ".gitattributes", "pyproject.toml"}
 ALLOWED_ROOT_DIRS = REQUIRED_ROOT_DIRS | {".git", ".github", ".vscode", ".claude"}
@@ -26,10 +40,9 @@ MAP_YAMLS = [
     "sources.yaml",
 ]
 
-CAPSULE_DIRS = [
+BASE_CAPSULE_DIRS = [
     "model",
     "data",
-    "tools",
     "reports",
 ]
 
@@ -127,21 +140,24 @@ def check_domain_capsules(errors: list[str]) -> None:
         for file_name in ("README.md", "manifest.yaml"):
             if not (base / file_name).is_file():
                 errors.append(f"domain missing {file_name}: domains/{domain}/")
-        for folder in CAPSULE_DIRS:
+        required_dirs = list(BASE_CAPSULE_DIRS)
+        if domain not in PLACEHOLDER_DOMAINS:
+            required_dirs.append("tools")
+        for folder in required_dirs:
             if not (base / folder).is_dir():
                 errors.append(f"domain missing {folder}/: domains/{domain}/")
+        if domain in PLACEHOLDER_DOMAINS and (base / "tools").exists():
+            errors.append(f"placeholder domain should not have tools yet: domains/{domain}/tools/")
         for child in base.iterdir():
-            if child.is_dir() and child.name not in {p.split('/')[0] for p in CAPSULE_DIRS} | OPTIONAL_DOMAIN_DIRS:
+            allowed_dirs = set(required_dirs) | OPTIONAL_DOMAIN_DIRS
+            if child.is_dir() and child.name not in allowed_dirs:
                 errors.append(f"unexpected domain-root folder: domains/{domain}/{child.name}/")
         for forbidden in ("domains", "core", "vendor"):
             if (base / forbidden).exists():
                 errors.append(f"forbidden domain-root folder: domains/{domain}/{forbidden}/")
-        for old_data_room in ("normalized", "derived", "staging"):
+        for old_data_room in ("normalized", "derived", "staging", "output"):
             if (base / "data" / old_data_room).exists():
                 errors.append(f"old data lifecycle room still present: domains/{domain}/data/{old_data_room}/")
-        repeated_output = base / "data" / "output" / domain
-        if repeated_output.exists():
-            errors.append(f"domain output folder repeats domain name: domains/{domain}/data/output/{domain}/")
         local_labs = base / "labs"
         if local_labs.is_dir() and not any(local_labs.iterdir()) and not (local_labs / "README.md").exists():
             errors.append(f"empty optional domain lab has no purpose note: domains/{domain}/labs/")
@@ -159,7 +175,9 @@ def check_cross_domain_labs(errors: list[str]) -> None:
     if (ROOT / "archive" / "legacy").exists():
         errors.append("archive/legacy/ has been retired; use archive/migrations/ or archive/raw/")
     if (ROOT / "archive" / "quarantine").exists():
-        errors.append("archive/quarantine/ duplicates root quarantine/")
+        errors.append("archive/quarantine/ duplicates root inbox sorting")
+    if (ROOT / "quarantine").exists():
+        errors.append("root quarantine/ has been retired; use inbox/ for drops")
 
 
 def check_committed_cache(errors: list[str]) -> None:

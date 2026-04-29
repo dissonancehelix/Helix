@@ -23,7 +23,7 @@ import matplotlib.cm as cm
 warnings.filterwarnings("ignore")
 
 # ── Paths ────────────────────────────────────────────────────────────────────
-JSON_PATH   = Path("domains/music/data/output/library/metadata/spotify.json")
+JSON_PATH   = Path("domains/music/data/library/metadata/spotify.json")
 OUT_DIR     = Path("domains/music/model/outputs/music_profile_analysis")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

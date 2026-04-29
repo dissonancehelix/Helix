@@ -71,5 +71,5 @@ Trust controls entry and safety; taste predicts reward after entry. A track can 
 - `domains/music/model/foobar/README.md`
 - `domains/music/tools/bridge/`
 - `domains/music/tools/pipeline/`
-- `domains/music/data/output/library/`
+- `domains/music/data/library/`
 

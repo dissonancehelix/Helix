@@ -1,0 +1,23 @@
+{
+  "name": "Temporal Contribution Gate",
+  "best_compression": "Building matters when it changes a world that will remember it.",
+  "high_motivation_when": [
+    "world/server/project lasts through time",
+    "active or growing community/player base",
+    "reduces friction",
+    "provides safety",
+    "creates future usability",
+    "is appreciated temporally",
+    "strengthens a lasting world",
+    "supports other players/users/agents"
+  ],
+  "low_motivation_when": [
+    "temporary construction",
+    "dead/abandoned server",
+    "building as self-expression alone",
+    "chores without exploration/depth",
+    "volatile humans make the world unsafe"
+  ],
+  "minecraft_central_example": "Minecraft is motivating when the server/world will stay up, remain active with players, and continuously grow; a temporary or dead world weakens building motivation.",
+  "blocking_gate": "Do not count building evidence unless it changes future use, safety, durability, or shared/world memory."
+}

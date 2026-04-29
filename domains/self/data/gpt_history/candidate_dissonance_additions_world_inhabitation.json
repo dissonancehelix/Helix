@@ -1,0 +1,22 @@
+{
+  "sections": {
+    "Clean Lead vs Private Depth": "Clean leads belong to public-facing or LLM-facing artifacts that must orient a reader/model. Private worlds do not need a clean lead; they need depth, re-entry, continuity, and inhabitable interiors.",
+    "Temporal Contribution Gate": "Building matters when it changes a world that will remember it. Temporary construction has low pull unless it improves future use, safety, or continuity.",
+    "Building as Friction Reduction / Safety": "Building is motivating when it removes waste friction, protects entry, supports future users/agents/players, or makes an inhabited field safer and more durable.",
+    "Anxiety-Factory Games": "Games with untrusted human volatility, random social threat, or high exposure can become hostile regardless of mechanical richness.",
+    "Duel Exposure / Personal Mechanical Burden": "1v1 or duel-abstract formats can over-concentrate opponent attention and mechanical punishment, lowering inhabitable field pull.",
+    "Brand Aggregation vs Narrative Continuity": "Shared universes do not automatically create world-memory. Trails-style continuity is narrative-first; MCU-style aggregation can feel like branded grandness without earned depth.",
+    "Encyclopedic Compression / Lead-Body Architecture": "A lead is only good if the body can still reopen it. Public knowledge artifacts need compressed orientation that preserves access to the deeper body."
+  },
+  "map_nodes": {
+    "clean_lead_public_gate": "Clean lead required only when an artifact must orient public readers or LLMs.",
+    "private_depth_reentry": "Private worlds are judged by depth, continuity, re-entry, and inhabitable interiors, not public summary clarity.",
+    "temporal_contribution_gate": "Building becomes motivating when it changes a world that will remember it.",
+    "world_memory": "Continuity that lets later states carry earlier actions, edits, structures, or atmosphere.",
+    "anxiety_factory_game": "Game/social field where untrusted human volatility and exposure dominate invitation.",
+    "duel_exposure_burden": "Personal 1v1/mechanical formats that concentrate opponent attention too directly.",
+    "brand_aggregation_false_continuity": "Shared branding mistaken for earned narrative/world continuity.",
+    "encyclopedic_compression": "Public-facing compression that orients without preventing the body from reopening detail.",
+    "bounded_abundance_world": "Large collections/worlds that remain inviting because they are roomed, routed, tagged, or staged for return."
+  }
+}

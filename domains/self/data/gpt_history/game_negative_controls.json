@@ -1,0 +1,74 @@
+{
+  "principle": "Low-pull games violate invitation, field depth, trusted social boundary, or temporal contribution gates.",
+  "controls": {
+    "Counter-Strike": {
+      "violated_gates": [
+        "low world-inhabitation",
+        "high personal exposure",
+        "one-shot/peeking anxiety",
+        "mechanical punishment without inviting field depth"
+      ],
+      "notes": "Simple bomb structure is not enough when exposure feels sniper/peek-driven and personally punishing.",
+      "status": "negative control"
+    },
+    "Battle royale": {
+      "violated_gates": [
+        "format has low pull",
+        "temporary arena/reset loop",
+        "weak durable world contribution"
+      ],
+      "exception": "Fortnite can be funny as absurd cameo/cosmetic collision, not necessarily as gameplay attraction.",
+      "status": "negative control with surreal-crossover exception"
+    },
+    "Fighting games": {
+      "violated_gates": [
+        "duel exposure",
+        "too personal 1v1",
+        "mechanical burden",
+        "opponent attention concentrated directly on operator"
+      ],
+      "status": "negative control"
+    },
+    "Card games": {
+      "violated_gates": [
+        "abstract/mechanical duel",
+        "personal contest without inhabitable field pull"
+      ],
+      "status": "negative control"
+    },
+    "Rust / TTT / DarkRP / volatile survival-social sandbox": {
+      "violated_gates": [
+        "untrusted human volatility",
+        "anxiety factory",
+        "hostile entry",
+        "low safety"
+      ],
+      "status": "negative control"
+    },
+    "Most survival/crafting": {
+      "violated_gates": [
+        "crafting/building alone insufficient",
+        "chores replace exploration",
+        "survival pressure may become anxiety"
+      ],
+      "exception": "Terraria can override via exploration/depth and bounded inhabited base-building.",
+      "status": "negative control with Terraria exception"
+    },
+    "Superhero movies / MCU": {
+      "violated_gates": [
+        "repetitive plot texture",
+        "brand aggregation mistaken for continuity",
+        "grandness without earned world-memory"
+      ],
+      "contrast": "Trails is hypothesized as narrative-first continuity/world-memory.",
+      "status": "fiction/universe negative control"
+    }
+  },
+  "positive_anchors": {
+    "Ace Combat": "Structured military mission field, role/atmosphere, readable pressure without social-volatility anxiety factory.",
+    "SOCOM": "Tactical/role military identity and mission field as positive military-game anchor.",
+    "Terraria": "Exploration and depth can override survival/crafting aversion; bases become durable inhabited worlds.",
+    "Trails": "Narrative-first continuity and world-memory rather than brand aggregation.",
+    "Yume Nikki / PilotRedSun": "Private experiential atmospheres; re-entry and interior texture matter more than clean public lead."
+  }
+}

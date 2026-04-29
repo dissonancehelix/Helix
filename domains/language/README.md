@@ -18,7 +18,7 @@ and learning workflows, but it remains its own domain.
 
 - `model/` — domain model and future language-specific specs.
 - `data/` — cleaned language records.
-- `data/output/` — generated language datasets and caches.
+- `data/` — generated language datasets and caches.
 - `tools/` — language and Spanish helper pipelines.
 - `labs/` — language research probes.
 - `reports/` — review artifacts from language workflows.

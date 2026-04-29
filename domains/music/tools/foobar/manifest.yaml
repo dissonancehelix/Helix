@@ -28,7 +28,7 @@ roots:
       Sources: metadb.sqlite, config.sqlite, playlists.
       Never mutated by this tool.
   lastfm_history:
-    path: domains/music/data/output/library/metadata/lastfm_dissident93.json
+    path: domains/music/data/library/metadata/lastfm_dissident93.json
     role: >
       Behavioral listening trace. 201,368 scrobbles, 2012-03-30.
       Authority: behavioral evidence only. Never overwrites curated metadata.

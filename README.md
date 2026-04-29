@@ -28,7 +28,7 @@ Second compression:
 ├── domains/           # active domain capsules
 ├── labs/              # cross-domain pressure tests and theory labs
 ├── archive/           # raw provenance, imports, analyses, migration history
-└── quarantine/        # staged removals and uncertain moves
+└── inbox/             # operator drop zone for unsorted evidence
 ```
 
 Dotfiles such as `.gitignore` are root technical support, not ontology.
@@ -68,11 +68,12 @@ domains/<domain>/
 ├── manifest.yaml
 ├── model/
 ├── data/
-│   └── output/
 ├── tools/
 └── reports/
 ```
 
+Operational domains use `tools/` only when they own runnable workflows.
+Placeholder domains may omit `tools/` until a real workflow exists.
 Domain-local `labs/` is optional and exists only for true local experiments.
 
 Active capsules:
@@ -84,6 +85,11 @@ Active capsules:
 - `wiki/` — Wikipedia editing, article architecture, citations, templates.
 - `software/` — Helix, schemas, inspectable agency, workspace design.
 - `language/` — linguistics, English, Spanish, grammar, public-language tools.
+- `attraction/` — placeholder; sexual / visual attraction, face-primary beauty gate, channel convergence, warm palette, body-signal hierarchy.
+- `food/` — placeholder; bounded abundance, soft base / sharp event, seasonal ritual, cold/creamy comfort, texture layering.
+- `aesthetics/` — placeholder; color, warmth, darkness, enclosure, texture, ruins, Mesoamerican/earthy motifs, inhabited environments.
+- `body_sensory/` — placeholder; DOMS, massage, stretch, localizable body maps, controlled intensity, signal ownership.
+- `sports/` — placeholder; Commanders fandom, Jayden Daniels, team continuity, future-state leverage, emotional fandom plus public-knowledge maintenance.
 
 ## Core
 
@@ -121,16 +127,18 @@ Rules:
 - No `core/` inside a domain.
 - No `labs/labs` or `reports/reports`.
 - Domain roots normally contain only `README.md`, `manifest.yaml`, `model/`,
-  `data/`, `tools/`, and `reports/`.
+  `data/`, `tools/`, and `reports/`. Placeholder domains may omit `tools/`
+  until a runnable workflow exists.
 - Domain-local `labs/` is optional and only allowed for true local
   experiments.
-- `data/` contains cleaned domain records directly; generated products belong
-  under `data/output/`.
+- `data/` contains cleaned domain records and compact generated products
+  directly, grouped by meaningful local role rather than lifecycle buckets.
 - `model/` contains durable interpretation.
 - `tools/` contains runnable workflows and tool-support material.
 - `reports/` contains review artifacts only.
 - `archive/` preserves raw provenance, imports, analyses, and migration history.
-- `quarantine/` stages uncertain moves/removals.
+- `inbox/` receives unsorted operator drops. Agents sort from it into domain
+  records, reports, labs, or `archive/raw/`, then leave the raw drop ignored.
 - SDKs, toolkits, cloned helper libraries, and source mirrors belong under
   `tools/toolkits/` or `tools/<tool_name>/toolkits/`, not `vendor/`.
 
@@ -209,8 +217,9 @@ Needs regeneration:
 Rollback:
 ```
 
-Structural moves require a migration manifest under `archive/migrations/` or
-`quarantine/` before the move.
+Structural moves require a migration manifest under `archive/migrations/`.
+Unsorted evidence drops begin in `inbox/`, then get sorted into the smallest
+owning context.
 
 Best final compression:
 

@@ -49,16 +49,16 @@ New active roots:
 | `archive/raw/` | `archive/raw/` | Raw provenance. |
 | `archive/migrations/` | `archive/migrations/` | Migration/provenance notes. |
 | `domains/music/data/` | `domains/music/data/` | Cleaned music records live at the data root. |
-| `domains/music/data/output/library/` | `archive/raw/music/` plus `domains/music/data/output/` | Heavy local exports stay archived/ignored; compact derived artifacts move into capsule. |
-| `domains/games/data/output/pipeline/` | `domains/games/data/output/` | Game cache and derived records. |
-| `domains/language/data/output/corpora/` | `domains/language/data/output/` | Language datasets and caches. |
-| `domains/self/data/output/profile/` | `domains/self/data/output/` | Self-domain datasets. |
+| `domains/music/data/library/` | `archive/raw/music/` plus `domains/music/data/` | Heavy local exports stay archived/ignored; compact derived artifacts move into capsule. |
+| `domains/games/data/pipeline/` | `domains/games/data/` | Game cache and derived records. |
+| `domains/language/data/corpora/` | `domains/language/data/` | Language datasets and caches. |
+| `domains/self/data/profile/` | `domains/self/data/` | Self-domain datasets. |
 | `core/atlas/` | `core/atlas/` | Shared compiled atlas artifacts. |
-| `domains/music/data/output/atlas/` | `domains/music/data/output/atlas/` | Music atlas artifacts. |
+| `domains/music/data/atlas/` | `domains/music/data/atlas/` | Music atlas artifacts. |
 | `domains/language/core/atlas/` | `domains/language/core/atlas/` | Language atlas artifacts. |
 | `labs/invariants/core/atlas/` | `labs/invariants/core/atlas/` | Cross-domain invariant artifacts. |
-| `domains/music/data/output/pipeline/` | `domains/music/data/output/pipeline/` | Music pipeline output. |
-| `domains/trails/data/output/pipeline/` | `domains/trails/data/output/` | Trails derived output. |
+| `domains/music/data/pipeline/` | `domains/music/data/pipeline/` | Music pipeline output. |
+| `domains/trails/data/pipeline/` | `domains/trails/data/` | Trails derived output. |
 | `domains/music/data/staging/atlas/` | deleted | Generated staging content was retired during later compression. |
 | `domains/music/labs/` | `domains/music/labs/` | Music lab work. |
 | `domains/games/labs/` | `domains/games/labs/` | Games lab work. |
