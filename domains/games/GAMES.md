@@ -1,8 +1,8 @@
 # Games
 
-**Status:** active domain capsule
-**Role:** decompressed domain room for video-game taste, field mechanics, completion evidence, Steam/playtime evidence, modded-world behavior, role agency, rejection gates, and recommendation prediction
-**Parent map:** `DISSONANCE.md`
+**Status:** active domain capsule  
+**Role:** decompressed domain room for video-game taste, field mechanics, completion evidence, Steam/playtime evidence, modded-world behavior, role agency, rejection gates, and recommendation prediction  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** generic genre list, Steam flex, trophy shelf, raw backlog dump, proof that every owned game matters equally, or a neat little gamer-brochure because that would be spiritually offensive
 
 Best compression:

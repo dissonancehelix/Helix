@@ -3,7 +3,7 @@
 
 This document preserves the current state of the theory so it does not get lost during workspace refactors.
 
-The theory is provisional. It is not presented as proven neuroscience, metaphysics, or a finished theory of consciousness. It is a structured research program: a set of primitives, hypotheses, falsifiers, and test paths for asking what makes a structured field become inhabited from within, and what must be preserved for that inhabited interior to remain the same self through time.
+The theory is provisional. It is not presented as proven neuroscience, metaphysics, religious belief, or a finished theory of consciousness. It is a structured research program: a set of primitives, hypotheses, falsifiers, and test paths for asking what makes a structured field become inhabited from within, and what must be preserved for that inhabited interior to remain the same self through time.
 
 ---
 
@@ -20,6 +20,8 @@ A sharper version:
 And the identity version:
 
 > How much can a system transform before the inhabited ownership-stream is no longer preserved?
+
+`domains/worldview/WORLDVIEW.md` owns the operator's religious/spiritual orientation, politics, morals, institutional trust, and metaphysical leaning. This file owns the research question of consciousness, selfhood, continuity, branching, and appearance-from-within.
 
 The theory is trying to distinguish:
 
@@ -543,6 +545,10 @@ Reincarnation becomes a continuity-carrier problem:
 > If no memory, body, causal process, self-model, or ownership-stream is preserved, in what sense is it the same self?
 
 This does not disprove reincarnation metaphysically. It clarifies the burden.
+
+Worldview boundary:
+
+> **Soul/rebirth may remain personally and symbolically meaningful; this theory only asks what would need to be preserved for owned continuity to actually continue.**
 
 ---
 

@@ -1,8 +1,8 @@
 # Software / Tools
 
-**Status:** active expanded domain capsule
-**Role:** decompressed domain room for Helix, software taste, workspace architecture, schemas, inspectable agency, LLM collaboration, foobar/DSP tools, Wikipedia implementation tooling, code delegation, interface honesty, and executable personal ontology
-**Parent map:** `DISSONANCE.md`
+**Status:** active expanded domain capsule  
+**Role:** decompressed domain room for Helix, software taste, workspace architecture, schemas, inspectable agency, LLM collaboration, foobar/DSP tools, Wikipedia implementation tooling, code delegation, interface honesty, and executable personal ontology  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** generic productivity file, startup plan, programming identity, raw repo map, shopping list of tools, or replacement for the Helix root README
 
 Best compression:
@@ -201,12 +201,12 @@ make AI agents less generic, less drift-prone, and more useful across time?
 
 Software matters because it can make the profile act.
 
-A profile alone is prose.
-A map file indexes.
-A schema constrains.
-A validator rejects drift.
-A tool executes.
-A report creates re-entry.
+A profile alone is prose.  
+A map file indexes.  
+A schema constrains.  
+A validator rejects drift.  
+A tool executes.  
+A report creates re-entry.  
 A failure ledger protects anomaly.
 
 Best compression:
@@ -454,6 +454,28 @@ Best compression:
 
 > **Harvest the evidence structure before the live context disappears.**
 
+
+
+### 3.10 AI, Curation, and Control Surfaces
+
+Worldview now owns the moral/institutional stance, but Software owns the tool behavior.
+
+The operator is AI-positive but not AI-authority-naive:
+
+```text
+AI = speed / draft / compression / generation / refactor engine
+human = final curation / source judgment / taste gate / accountability
+```
+
+A model that knows the operator well is not dangerous merely because it knows the map. It becomes dangerous if it controls the field without consent: timing, framing, alternatives, trust cues, proximity, flattery, or choice architecture.
+
+Best compression:
+
+> **AI may draft the body; humans must own the boundary.**
+
+Second compression:
+
+> **A model that knows the map must not control the field without consent.**
 
 ## 4. Helix Software Model
 

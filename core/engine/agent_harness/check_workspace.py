@@ -24,6 +24,7 @@ ACTIVE_DOMAINS = {
     "aesthetics",
     "body_sensory",
     "sports",
+    "worldview",
 }
 DOMAIN_FILES = {
     "self": "SELF.md",
@@ -38,8 +39,16 @@ DOMAIN_FILES = {
     "aesthetics": "AESTHETICS.md",
     "body_sensory": "BODY_SENSORY.md",
     "sports": "SPORTS.md",
+    "worldview": "WORLDVIEW.md",
 }
-PLACEHOLDER_DOMAINS = {"attraction", "food", "aesthetics", "body_sensory", "sports"}
+NO_TOOL_DOMAINS = {
+    "attraction",
+    "food",
+    "aesthetics",
+    "body_sensory",
+    "sports",
+    "worldview",
+}
 
 ALLOWED_ROOT_FILES = REQUIRED_ROOT_FILES | {".gitignore", ".gitattributes", "pyproject.toml"}
 ALLOWED_ROOT_DIRS = REQUIRED_ROOT_DIRS | LOCAL_ONLY_ROOT_DIRS | {".git", ".github", ".vscode", ".claude"}
@@ -167,13 +176,13 @@ def check_domain_capsules(errors: list[str]) -> None:
         if len(named_files) != 1:
             errors.append(f"domain must have exactly one named domain file: domains/{domain}/{domain_file}")
         required_dirs = list(BASE_CAPSULE_DIRS)
-        if domain not in PLACEHOLDER_DOMAINS:
+        if domain not in NO_TOOL_DOMAINS:
             required_dirs.append("tools")
         for folder in required_dirs:
             if not (base / folder).is_dir():
                 errors.append(f"domain missing {folder}/: domains/{domain}/")
-        if domain in PLACEHOLDER_DOMAINS and (base / "tools").exists():
-            errors.append(f"placeholder domain should not have tools yet: domains/{domain}/tools/")
+        if domain in NO_TOOL_DOMAINS and (base / "tools").exists():
+            errors.append(f"domain has no runnable workflow yet; remove tools/: domains/{domain}/tools/")
         for child in base.iterdir():
             allowed_dirs = set(required_dirs) | OPTIONAL_DOMAIN_DIRS
             if child.is_dir() and child.name not in allowed_dirs:

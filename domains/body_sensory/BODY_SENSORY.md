@@ -1,8 +1,8 @@
 # Body / Sensory
 
-**Status:** active expanded domain capsule
-**Role:** decompressed domain room for sensory gating, bodily awareness, DOMS, stretch/massage pleasure, heat/light/noise sensitivity, localizable body maps, motion/fidgeting, signal ownership, controlled intensity, and embodied cognition
-**Parent map:** `DISSONANCE.md`
+**Status:** active expanded domain capsule  
+**Role:** decompressed domain room for sensory gating, bodily awareness, DOMS, stretch/massage pleasure, heat/light/noise sensitivity, localizable body maps, motion/fidgeting, signal ownership, controlled intensity, and embodied cognition  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** medical diagnosis, treatment plan, fitness program, pain journal, symptom log, or replacement for professional care
 
 Best compression:

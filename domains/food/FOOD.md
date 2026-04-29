@@ -1,8 +1,8 @@
 # Food
 
-**Status:** active domain capsule
-**Role:** decompressed domain room for food, drink, texture, holiday/seasonal, comfort, convenience, autistic-common food selectivity, plain/simple meal grammar, bounded abundance, and embodied reward
-**Parent map:** `DISSONANCE.md`
+**Status:** active domain capsule  
+**Role:** decompressed domain room for food, drink, texture, holiday/seasonal, comfort, convenience, autistic-common food selectivity, plain/simple meal grammar, bounded abundance, and embodied reward  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** raw meal log, calorie tracker, nutrition plan, health advice, recipe dump, restaurant-ranking file, substance-use file, or replacement for the main cognitive map
 
 Best compression:
@@ -314,8 +314,8 @@ Compression:
 
 This document is not making nutrition claims. It is mapping subjective reward.
 
-A food can be nutritionally boring and structurally rewarding.
-A food can be nutritionally “better” and taste-mechanically dead.
+A food can be nutritionally boring and structurally rewarding.  
+A food can be nutritionally “better” and taste-mechanically dead.  
 A “healthy substitution” can fail if it breaks the texture, density, ease, or expected payoff.
 
 This does not mean nutrition is irrelevant to life. It means nutrition is not the organizing variable of this domain.

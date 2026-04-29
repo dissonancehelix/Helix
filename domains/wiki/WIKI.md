@@ -1,9 +1,9 @@
 # Wiki / Public Knowledge
 
-**Status:** active domain capsule
-**Role:** decompressed domain room for Wikipedia, Wikimedia, public knowledge architecture, encyclopedic prose, article structure, templates, infoboxes, citations, Commons, Wikidata, and future-reader wayfinding
-**Parent map:** `DISSONANCE.md`
-**Primary identity:** `Dissident93`
+**Status:** active domain capsule  
+**Role:** decompressed domain room for Wikipedia, Wikimedia, public knowledge architecture, encyclopedic prose, article structure, templates, infoboxes, citations, Commons, Wikidata, and future-reader wayfinding  
+**Parent map:** `DISSONANCE.md`  
+**Primary identity:** `Dissident93`  
 **Not role:** edit-count trophy case, generic writing portfolio, raw contribution dump, fandom scrapbook, private notes archive, replacement for `DISSONANCE.md`, or replacement for article-specific work pages
 
 Best compression:
@@ -471,6 +471,34 @@ Best compression:
 
 ---
 
+
+### 5.2 Open Knowledge, Shared Grammar, and AI-Era Export
+
+Worldview now owns the larger institutional stance, but Wiki owns the public-knowledge implementation.
+
+The operator's wiki instinct is:
+
+```text
+open contribution
++ shared grammar
++ source lineage
++ review
++ revision history
++ accountability
++ common formats
+= living public object
+```
+
+AI-assisted generation can be useful only when constrained by schema, source lineage, human review, and public-quality standards. Public canon cannot be allowed to become fluent unsourced sludge just because the machine said it with nice paragraph spacing. Civilization has suffered enough.
+
+Best compression:
+
+> **Open contribution works when the object has a shared grammar.**
+
+Second compression:
+
+> **Public prose should compress the claim without severing its path back to evidence.**
+
 ## 6. Recurrent Subject Fields
 
 High-signal subject fields:
@@ -618,10 +646,10 @@ The deeper rule:
 
 > **Article structure should match the subject's causal anatomy.**
 
-A sports biography is built around life/career chronology and statistical residue.
-A game article is built around gameplay, development, release, reception, legacy.
-A stadium article is built around history, financing, design, site, future use.
-A business/sports-owner biography is built around early life, career, ownership, initiatives, personal/philanthropy.
+A sports biography is built around life/career chronology and statistical residue.  
+A game article is built around gameplay, development, release, reception, legacy.  
+A stadium article is built around history, financing, design, site, future use.  
+A business/sports-owner biography is built around early life, career, ownership, initiatives, personal/philanthropy.  
 A template page is not a narrative article at all; it is interface infrastructure.
 
 Best compression:

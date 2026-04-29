@@ -1,8 +1,8 @@
 # Language
 
-**Status:** active domain capsule
-**Role:** decompressed domain room for linguistics, English, Spanish, Japanese/source access, grammar, register, translation alignment, phrase automation, Wikipedia prose, and public-language structure
-**Parent map:** `DISSONANCE.md`
+**Status:** active domain capsule  
+**Role:** decompressed domain room for linguistics, English, Spanish, Japanese/source access, grammar, register, translation alignment, phrase automation, Wikipedia prose, and public-language structure  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** generic language-learning log, flashcard dump, app review folder, replacement for Spanish study notes, proof of fluency, or replacement for wiki/public-knowledge work
 
 Best compression:
@@ -1417,3 +1417,4 @@ Bad help:
 Compression:
 
 > **Give the phrase that works in the life, then explain the grammar underneath.**
+

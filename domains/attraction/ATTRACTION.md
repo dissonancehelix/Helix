@@ -1,8 +1,8 @@
 # Attraction
 
-**Status:** active domain capsule
-**Role:** decompressed domain room for women/attraction taste: physical beauty, sexual attraction, face/body hierarchy, visual palette, sexual-body weighting, detail channels, and negative controls
-**Parent map:** `DISSONANCE.md`
+**Status:** active domain capsule  
+**Role:** decompressed domain room for women/attraction taste: physical beauty, sexual attraction, face/body hierarchy, visual palette, sexual-body weighting, detail channels, and negative controls  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** raw porn catalog, ranking people, identity lookup, moral judgment, dating advice, fetish taxonomy, or replacement for the main map
 
 Best compression:
@@ -155,10 +155,10 @@ face
 
 No single channel explains the whole pattern.
 
-A body-forward image can fail if the face does not pull.
-A beautiful face can remain nonsexual if the body/palette/context does not amplify.
-A studio image can pass if it preserves the preferred physical signal.
-An amateur/self-shot image can fail if the signal is weak.
+A body-forward image can fail if the face does not pull.  
+A beautiful face can remain nonsexual if the body/palette/context does not amplify.  
+A studio image can pass if it preserves the preferred physical signal.  
+An amateur/self-shot image can fail if the signal is weak.  
 A body-part detail can arouse somewhat without becoming the primary sexual system.
 
 Best compression:

@@ -1,8 +1,8 @@
 # Sports
 
-**Status:** active domain capsule
-**Role:** decompressed domain room for Commanders fandom, Jayden Daniels, Washington sports identity, contest emotion, live field-state, quarterback leverage, defense/denial, roster/draft futures, rivalry aversion, and fandom-driven public-knowledge maintenance
-**Parent map:** `DISSONANCE.md`
+**Status:** active domain capsule  
+**Role:** decompressed domain room for Commanders fandom, Jayden Daniels, Washington sports identity, contest emotion, live field-state, quarterback leverage, defense/denial, roster/draft futures, rivalry aversion, and fandom-driven public-knowledge maintenance  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** standings storage, sports news canon, generic sports-fan label, betting advice, fantasy-football optimizer, film-room archive, replacement for Wiki domain, or proof that sports interest is purely structural
 
 Best compression:
@@ -1299,3 +1299,4 @@ Bad help:
 Compression:
 
 > **Tell me what this changes for Washington.**
+

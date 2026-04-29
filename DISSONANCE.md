@@ -1,10 +1,10 @@
 # Dissonance — Portable Cognitive & Taste Map
 
-**Status:** living portable cognitive-map profile / Helix-independent source
-**Generated:** 2026-04-29
-**Regeneration pass:** Roman-Britain lineage / compression-native cognition integration pass
-**Role:** human-readable map of cognition, taste, attraction, sensory profile, social constraints, design philosophy, evidence anchors, and cross-domain pattern laws
-**Not role:** repo constitution, folder map, agent contract, implementation README, source registry, proof file, diagnosis report, therapy worksheet, memoir, fandom list, or raw evidence dump
+**Status:** living portable cognitive-map profile / Helix-independent source  
+**Generated:** 2026-04-29  
+**Regeneration pass:** Roman-Britain lineage / compression-native cognition integration pass  
+**Role:** human-readable map of cognition, taste, attraction, sensory profile, social constraints, design philosophy, evidence anchors, and cross-domain pattern laws  
+**Not role:** repo constitution, folder map, agent contract, implementation README, source registry, proof file, diagnosis report, therapy worksheet, memoir, fandom list, or raw evidence dump  
 **Core rule:** this file describes the person-pattern. Helix may embody it, extend it, and use it, but Helix does not own it.
 
 ---
@@ -238,6 +238,7 @@ Locked first-class domains:
 - **Aesthetics / Environment** — color, warmth, darkness, enclosure, texture, Latin/Mesoamerican motifs, old/liminal/earthy spaces, and fractal self-similarity as a beauty criterion.
 - **Body / Sensory** — DOMS, massage, stretch, localizable body maps, controlled intensity, heat/noise/light/spatial exposure.
 - **Sports** — live state-space, denial, team continuity, quarterback/future-state leverage, roster/franchise possibility-space.
+- **Worldview / Belief / Institutions** — politics, morals, institutional trust, religion/spirituality, metaphysical leaning, other-mind/personality views, open knowledge ethics, suffering, power, and shared standards.
 
 These are not equal in intensity, maturity, or evidence depth. Music and games are data-rich. Self, software, wiki, and Trails are operationally rich. Food, attraction, aesthetics, body/sensory, sports, and language are phenomenologically rich. That asymmetry is fine. The point is not symmetry; the point is **protected local interpretation**.
 
@@ -383,6 +384,7 @@ domains/food/FOOD.md
 domains/aesthetics/AESTHETICS.md
 domains/body_sensory/BODY_SENSORY.md
 domains/sports/SPORTS.md
+domains/worldview/WORLDVIEW.md
 ```
 
 This makes file exploration clearer because the file tells the reader which room they are entering even when opened outside its folder, copied into a prompt, viewed in a search result, or compared beside other domain files.
@@ -945,8 +947,8 @@ False positive:
 
 Taste is not decorative liking. It is the compatibility engine that decides whether an interior is worth staying in and returning to.
 
-Trust says: I can enter this.
-Taste says: I want to stay here.
+Trust says: I can enter this.  
+Taste says: I want to stay here.  
 Attachment says: I can return and it still matters.
 
 Taste includes:
@@ -3624,7 +3626,62 @@ Best compression:
 
 > **A language is usable when it becomes a route, not a lookup table.**
 
-### 7.13 Non-Domain Global Layers
+
+### 7.13 Worldview / Belief / Institutions
+
+Worldview is the politics, morals, religion/spirituality, institutions, and other-minds chamber.
+
+Core rule:
+
+> **Openness needs standards; power needs accountability; identity needs continuity; public truth needs lineage.**
+
+What this domain is:
+
+- agnosticism about God, soul, afterlife, and ultimate substrate
+- creator/substrate intuition from the lawfulness and mathematical precision of reality
+- problem of evil and free-will objections as major barriers to organized religion
+- Buddhism-adjacent resonance around suffering, impermanence, self-process, and rebirth/reincarnation
+- anti-capitalism, anti-wage-slavery, and anti-money-as-life-control
+- infrastructure realism around taxes and public goods
+- anti-anarchy because openness without rules abandons the vulnerable and dissolves shared standards
+- open-source/open-knowledge ethics under shared grammar
+- Wikipedia/Wikibase-style public truth as source-lineage + standards + revision history
+- fascination with personality, individuality, neurodivergence, and why similar human substrates become distinct interiors
+- NPC/scriptedness perception as accessible self-authorship failure, not denial of consciousness
+- moral priority around suffering, vulnerable people, animals, and real interiors
+- AI as powerful tool whose usefulness depends on source lineage, human curation, and inspectable control surfaces
+
+What it is not:
+
+- a final ontology
+- proof of religion or proof against all religion
+- party identity
+- naive libertarianism
+- naive socialism
+- anarchy
+- AI worship or AI panic
+- permission to dehumanize scripted people
+- consciousness theory proper
+
+Global feedback:
+
+Worldview clarifies that the operator is not anti-structure. He is anti-domination, anti-false-surface, anti-scriptedness, anti-source-rot, and anti-suffering-defense. He wants open systems, but only when they have shared grammar, accountability, review, and the ability to preserve identity without locking it.
+
+This domain also protects `THEORY.md`: religious/spiritual orientation and moral-political stance belong here, while the inhabited-continuity lab keeps the technical question of consciousness, selfhood, branching, and appearance-from-within.
+
+Best compression:
+
+> **Reality feels too lawful for pure accident to satisfy, and too cruel for a loving ruler to be credible.**
+
+Second compression:
+
+> **A flawed commons is better than no commons.**
+
+Third compression:
+
+> **Scripted behavior feels like identity failing to become self-authored.**
+
+### 7.14 Non-Domain Global Layers
 
 Some important areas should remain in the main map as global layers, labs, substrates, or access systems rather than being promoted into standalone domains by default.
 
@@ -3989,3 +4046,4 @@ Fourth final line:
 Fifth final line:
 
 > **Beauty is not causality.**
+

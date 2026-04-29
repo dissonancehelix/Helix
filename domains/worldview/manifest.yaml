@@ -1,0 +1,30 @@
+manifest_schema: manifest_schema_v1
+domain: worldview
+version: "0.1"
+status: active
+
+purpose: >
+  Own politics, morals, institutions, religion/spirituality, metaphysical
+  leaning, other-mind/personality views, open knowledge ethics, suffering,
+  power, and shared standards as a domain-local worldview room.
+
+docs:
+  domain_file: domains/worldview/WORLDVIEW.md
+
+runtime:
+  tools: []
+
+data:
+  records: domains/worldview/data/
+  raw_provenance: archive/ (local-only substantial evidence-type folders)
+
+feeds:
+  - DISSONANCE.md
+  - domains/self/SELF.md
+  - domains/wiki/WIKI.md
+  - domains/software/SOFTWARE.md
+  - labs/inhabited_interiority/THEORY.md
+
+known_gaps:
+  - No domain-owned workflow yet; do not create tools until a runnable worldview pipeline exists.
+  - Keep theory claims in labs unless they become worldview stance evidence rather than consciousness machinery.

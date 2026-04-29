@@ -1,8 +1,8 @@
 # Music
 
-**Status:** active domain capsule
-**Role:** decompressed domain room for music taste, listening archives, VGM/composer evidence, foobar/DSP practice, recommendation mechanics, and anomaly tracking
-**Parent map:** `DISSONANCE.md`
+**Status:** active domain capsule  
+**Role:** decompressed domain room for music taste, listening archives, VGM/composer evidence, foobar/DSP practice, recommendation mechanics, and anomaly tracking  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** generic genre list, Spotify Wrapped clone, exact-playtime ledger, raw export dump, or final theory of all music taste because apparently even music now needs load-bearing architecture
 
 Best compression:
@@ -1237,16 +1237,16 @@ Lyrics are usually secondary.
 
 They matter most when they are:
 
-1. **Symbolic / archetypal**
+1. **Symbolic / archetypal**  
    Examples: Tool, MGMT
 
-2. **Witty / structurally clever**
+2. **Witty / structurally clever**  
    Examples: Kendrick, Vampire Weekend
 
-3. **Oblique / impressionistic**
+3. **Oblique / impressionistic**  
    Examples: MGMT, Vampire Weekend, Alexandra Savior
 
-4. **Inseparable from delivery**
+4. **Inseparable from delivery**  
    Examples: Natalia Lafourcade, Monica Martin, Aaliyah, James Blake
 
 Direct diaristic self-report usually has low pull unless compensated by:

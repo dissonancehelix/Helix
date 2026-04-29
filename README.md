@@ -111,6 +111,9 @@ Active capsules:
 - `sports/` — Commanders fandom, Jayden Daniels, team continuity,
   future-state leverage, denial, emotional fandom plus public-knowledge
   maintenance.
+- `worldview/` — politics, morals, institutions, religion/spirituality,
+  metaphysical leaning, other-mind/personality views, open knowledge ethics,
+  suffering, power, and shared standards.
 
 ## Domain Promotion Rule
 
@@ -155,6 +158,7 @@ Domain capsules use named domain files instead of generic local README files.
 - `domains/aesthetics/AESTHETICS.md`
 - `domains/body_sensory/BODY_SENSORY.md`
 - `domains/sports/SPORTS.md`
+- `domains/worldview/WORLDVIEW.md`
 ```
 
 Root `README.md` remains the workspace constitution. Other infrastructure
@@ -165,6 +169,7 @@ should name the room directly.
 Rules:
 
 - Domain files live at `domains/<domain>/<DOMAIN>.md`.
+- New first-class domains must be added to the active capsule list, domain-file naming list, `AGENTS.md`, and `DISSONANCE.md`.
 - Update all active references after the rename.
 - Keep root `README.md` as-is.
 - Do not rename `AGENTS.md`, `DISSONANCE.md`, root `README.md`, or core/lab

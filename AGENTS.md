@@ -29,6 +29,7 @@ Domain capsules use named domain files, not generic local README files.
 - `domains/aesthetics/AESTHETICS.md`
 - `domains/body_sensory/BODY_SENSORY.md`
 - `domains/sports/SPORTS.md`
+- `domains/worldview/WORLDVIEW.md`
 ```
 
 Rules:
@@ -76,6 +77,7 @@ Best compression:
 - Consult `core/map/sources.yaml` before source-specific work.
 - Reports are not canon.
 - Domains elaborate; they do not redefine master patterns.
+- Worldview owns politics, morals, institutional trust, other-mind/personality views, and religious/spiritual orientation; Theory owns consciousness hypotheses and falsifiers.
 - Tools execute; they do not own truth.
 - Engine enforces; it does not become a dumping ground.
 - Raw evidence is not deleted.

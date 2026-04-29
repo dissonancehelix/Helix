@@ -1,8 +1,8 @@
 # Aesthetics / Environment
 
-**Status:** active expanded domain capsule
-**Role:** decompressed domain room for visual taste, color, atmosphere, environment, old/liminal/earthy spaces, ruins, museums, Mesoamerican and jungle motifs, dark-room preference, visual identity, and inhabited-surface design
-**Parent map:** `DISSONANCE.md`
+**Status:** active expanded domain capsule  
+**Role:** decompressed domain room for visual taste, color, atmosphere, environment, old/liminal/earthy spaces, ruins, museums, Mesoamerican and jungle motifs, dark-room preference, visual identity, and inhabited-surface design  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** generic “style guide,” fashion prescription, mood board dump, interior-design shopping list, diagnosis file, or replacement for attraction/food/music/games
 
 Best compression:

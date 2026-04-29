@@ -1,8 +1,8 @@
 # Self Domain
 
-**Status:** active domain capsule
-**Role:** decompressed domain room for cognitive style, neurotype context, attention architecture, social/relational constraints, sensory gates, internal terrain, response friction, and self-modeling research anchors
-**Parent map:** `DISSONANCE.md`
+**Status:** active domain capsule  
+**Role:** decompressed domain room for cognitive style, neurotype context, attention architecture, social/relational constraints, sensory gates, internal terrain, response friction, and self-modeling research anchors  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** diagnosis report, therapy worksheet, excuse file, fixed identity cage, personality-test shrine, pathology dump, replacement for the main map, or proof that every preference is reducible to autism/schizoid structure
 
 Best compression:
@@ -78,6 +78,7 @@ This file should preserve:
 
 This file should not:
 
+- absorb politics, religion, metaphysical orientation, or institutional worldview that now belongs in `domains/worldview/WORLDVIEW.md`
 - diagnose beyond what the operator has reported
 - treat autism as the answer to everything
 - treat schizoid structure as absence of care
@@ -822,6 +823,8 @@ Best compression:
 
 ### 8.3 NPC perception ethical firewall
 
+This section preserves the Self-domain mechanism. The broader moral, political, and other-minds implications now belong in `domains/worldview/WORLDVIEW.md`.
+
 NPC perception must never mean literal denial of consciousness or moral worth.
 
 It means:
@@ -849,6 +852,10 @@ Relief appears when someone shows:
 Best compression:
 
 > **NPC perception is accessible-interiority failure, not consciousness denial.**
+
+Worldview compression:
+
+> **Scripted behavior feels like identity failing to become self-authored.**
 
 ---
 
@@ -1789,3 +1796,4 @@ Correct compression:
 > **A monotropic, low-social-pull, high-object-depth operator whose selfhood becomes usable through gates, chambers, archives, and controlled signal.**
 
 Still too compact for the main file? Fine. But the README must keep the bones.
+

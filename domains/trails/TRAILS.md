@@ -1,8 +1,8 @@
 # Trails / Kiseki
 
-**Status:** active expanded domain capsule
-**Role:** decompressed domain room for Trails/Kiseki continuity, world-memory, character/institution architecture, database/wiki/atlas work, spoiler discipline, source ingestion, and long-horizon narrative attachment
-**Parent map:** `DISSONANCE.md`
+**Status:** active expanded domain capsule  
+**Role:** decompressed domain room for Trails/Kiseki continuity, world-memory, character/institution architecture, database/wiki/atlas work, spoiler discipline, source ingestion, and long-horizon narrative attachment  
+**Parent map:** `DISSONANCE.md`  
 **Not role:** generic JRPG fandom file, raw lore dump, spoiler free-for-all, replacement for `games/`, replacement for public wiki work, or proof that all long series automatically work
 
 Best compression:
@@ -433,6 +433,30 @@ Best compression:
 Second compression:
 
 > **Backstory is dead unless it still changes what the world can become.**
+
+
+### 3.9 Essence-Preserving Export
+
+The Trails database is one of the clearest practical examples of the operator's broader worldview/software/wiki pattern: identity should survive reformatting.
+
+```text
+source material
+→ normalized metadata
+→ Atlas explanation
+→ spoiler gates
+→ export views
+→ public re-entry
+```
+
+The point is not merely to collect lore. It is to preserve a subject's identity-bearing structure so it can be rendered into different formats without losing its thread.
+
+Best compression:
+
+> **Metadata knows. Atlas explains. Exports reduce.**
+
+Second compression:
+
+> **A subject is captured when it can change formats without losing its thread.**
 
 ---
 
