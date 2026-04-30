@@ -1,0 +1,16 @@
+{
+  "source_level": "paper/design/docs only",
+  "raw_data_downloaded": false,
+  "primary_guardrail": "content/access markers are not appearance itself",
+  "strongest_a1_channels": [
+    "stimulus duration",
+    "neural content information",
+    "sustained activity / duration response"
+  ],
+  "strongest_access_channels": [
+    "task relevance",
+    "behavioral response / report",
+    "content-specific synchronization/connectivity"
+  ],
+  "recommended_escalation": "design/report analysis sufficient; no raw COGITATE download yet"
+}

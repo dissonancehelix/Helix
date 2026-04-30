@@ -1,0 +1,107 @@
+{
+  "source_files": [
+    "labs\\appearance_ownership_continuity\\research\\data_index\\dream_database\\Datasets.csv",
+    "labs\\appearance_ownership_continuity\\research\\data_index\\dream_database\\Data records.csv",
+    "labs\\appearance_ownership_continuity\\research\\data_index\\dream_database\\People.csv"
+  ],
+  "datasets_columns": [
+    "Key ID",
+    "Set ID",
+    "Amendment",
+    "Date entered",
+    "Common name",
+    "Full name",
+    "Corresponding contributor ID",
+    "Data URL",
+    "Contributors",
+    "Number of samples",
+    "Number of subjects",
+    "Proportion REM",
+    "Proportion N1",
+    "Proportion N2",
+    "Proportion W",
+    "Proportion experience",
+    "Proportion no-experience",
+    "Proportion healthy",
+    "Provoked awakening",
+    "Time of awakening",
+    "Form of response",
+    "Experimental description",
+    "Study location",
+    "Study year",
+    "Publications",
+    "Correspondence note",
+    "Data restriction note",
+    "Date approved",
+    "Accessibility",
+    "Revoked",
+    "Latest amendment"
+  ],
+  "records_columns": [
+    "Key ID",
+    "Set ID",
+    "Amendment",
+    "Filename",
+    "Case ID",
+    "Subject ID",
+    "Experience",
+    "Treatment group",
+    "Duration",
+    "EEG sample rate",
+    "Number of EEG channels",
+    "Last sleep stage",
+    "Has EOG",
+    "Has EMG",
+    "Has ECG",
+    "Proportion artifacts",
+    "Time of awakening",
+    "Subject age",
+    "Subject sex",
+    "Subject healthy",
+    "Has more data"
+  ],
+  "field_map": {
+    "dataset_set_id": [
+      "Datasets.csv:Set ID",
+      "Data records.csv:Set ID"
+    ],
+    "participant_subject_id": [
+      "Data records.csv:Subject ID"
+    ],
+    "awakening_record_id": [
+      "Data records.csv:Key ID",
+      "Data records.csv:Case ID",
+      "Data records.csv:Filename"
+    ],
+    "sleep_stage_before_awakening": [
+      "Data records.csv:Last sleep stage"
+    ],
+    "report_classification": [
+      "Data records.csv:Experience"
+    ],
+    "recall_status": [
+      "Data records.csv:Experience values Without recall / No experience or without recall / Unknown"
+    ],
+    "uncertainty_labels": [
+      "Without recall",
+      "No experience or without recall",
+      "Unknown"
+    ],
+    "dataset_access_status": [
+      "Datasets.csv:Data URL",
+      "Datasets.csv:Accessibility",
+      "Datasets.csv:Data restriction note"
+    ],
+    "signal_availability_metadata": [
+      "Data records.csv:EEG sample rate",
+      "Number of EEG channels",
+      "Has EOG",
+      "Has EMG",
+      "Has ECG",
+      "Has more data"
+    ],
+    "linked_package_status": [
+      "Datasets.csv:Data URL"
+    ]
+  }
+}

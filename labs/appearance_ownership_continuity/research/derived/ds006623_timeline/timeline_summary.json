@@ -1,0 +1,20 @@
+{
+  "source_root": "labs/appearance_ownership_continuity/research/data_index/ds006623_derivatives",
+  "derived_files": [
+    "subject_phase_inventory.csv",
+    "representative_trace_summary.csv"
+  ],
+  "participant_rows": 26,
+  "lor_ror_rows": 26,
+  "representative_subjects": [
+    "sub-02",
+    "sub-14",
+    "sub-29"
+  ],
+  "classification_counts": {
+    "participants_with_propofol_allrun": 26,
+    "participants_with_squeeze_allrun": 26,
+    "participants_with_ror_missing": 6
+  },
+  "guardrail": "Derived tables summarize channels only; they do not infer consciousness or ownership."
+}
