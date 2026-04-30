@@ -184,7 +184,7 @@ tests:
       - boundary_clarity
       - continuity_preservation
       - overall_response
-    bridge_document: labs/temporal_ownership/core/README.md
+    bridge_document: labs/appearance_ownership_continuity/core/README.md
     output_report: labs/cognitive_mapping/personal_ontology/tests/runs/ont_006_bridge_report.md
     falsifier: branching case that produces two simultaneous coherent interiors with shared prior continuity
 

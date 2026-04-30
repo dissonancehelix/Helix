@@ -492,7 +492,7 @@ These are not simply “favorite games.” They are high-signal evidence anchors
 - **Horizon Zero Dawn** — setting/world/combat different enough from Ubisoft map-clutter to complete fully.
 - **Xenogears** — music, plot, half-3D pixel style; ideal candidate for HD-2D remake in taste-space.
 - **Final Fantasy IX / Chrono Cross / Dark Cloud** — music-world attachment, mythic continuity, rebuilding, world-memory.
-- **Spyro / Crash / Sonic Genesis era / Decap Attack** — platformers pass mostly through childhood-era kinetic/world identity rather than broad platformer preference.
+- **Spyro / Crash / Sonic Genesis era / Decap Attack** — platformers pass mostly through childhood-era kinetic/world identity rather than broad platformer preference. `Spring Yard Zone` is a specific visual anchor for weird colored skies: purple/green synthetic dusk, city silhouettes, checker/industrial geometry, and stable arcade atmosphere.
 - **Half-Life 2 / Red Faction / BioShock Infinite** — shooter lane passes through authored mission pressure, weird setting, field-altering affordance, or online mastery rather than gunplay as the core draw.
 
 ---
@@ -607,6 +607,7 @@ The operator is not broadly against 2D games, but 2D topology often does not pro
 Positive exceptions:
 
 - Genesis Sonic / Decap Attack era
+- Spring Yard Zone / weird colored sky place-memory
 - retro/childhood platformer identity
 - some VGM/world-memory cases
 - stylized/surreal small games

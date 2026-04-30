@@ -175,7 +175,7 @@ Core question:
 
 > **What should remain so this object expresses its proper form?**
 
-**Investigative Compression** operates when the target shape is unknown, underdetermined, or hidden by false positives. It sharpens the question, eliminates false substitutes, tests boundaries, collapses bad explanations, and narrows possibility space. TOM/ICT/DCP reports, consciousness false-positive elimination, report vs ownership, memory vs continuity, integration vs ownership, information persistence vs owned continuity, and music response-axis discovery belong here.
+**Investigative Compression** operates when the target shape is unknown, underdetermined, or hidden by false positives. It sharpens the question, eliminates false substitutes, tests boundaries, collapses bad explanations, and narrows possibility space. AOC/OCH/DCP reports, consciousness false-positive elimination, report vs ownership, memory vs continuity, integration vs ownership, information persistence vs owned continuity, and music response-axis discovery belong here.
 
 Core question:
 
@@ -268,7 +268,7 @@ Locked first-class domains:
 - **Language** — English/Spanish/Japanese interest, grammar as movement, phrase automation, translation, register, Wikipedia prose as constrained language.
 - **Sexual / Visual Attraction** — naturalness-first physical attraction, face/eye beauty, dark/brown skin as primary attractor, butt/lower-body sexual weighting, soft curve with structure, signal integrity, detail arousal, beauty vs attraction split.
 - **Food / Drink** — plain/simple meals, convenience gate, soft base / sharp event, Thanksgiving as autumn+football+favorite-food convergence, cold/creamy comfort, cooked-vegetable preference, seafood disgust boundary.
-- **Aesthetics / Environment** — color, warmth, darkness, enclosure, texture, Latin/Mesoamerican motifs, old/liminal/earthy spaces, and fractal self-similarity as a beauty criterion.
+- **Aesthetics / Environment** — color, warmth, darkness, enclosure, texture, structured atmosphere, Southeast Asian / Mesoamerican jungle-ruin motifs, desert/Arabic-fantasy architecture, fog, weird colored skies, old/liminal/earthy spaces, and fractal self-similarity as a beauty criterion.
 - **Body / Sensory** — DOMS, massage, stretch, localizable body maps, controlled intensity, heat/noise/light/spatial exposure.
 - **Sports** — live state-space, denial, team continuity, quarterback/future-state leverage, roster/franchise possibility-space.
 - **Worldview / Belief / Institutions** — politics, morals, institutional trust, religion/spirituality, metaphysical leaning, other-mind/personality views, open knowledge ethics, suffering, power, and shared standards.
@@ -547,7 +547,7 @@ known or strongly implied target -> curatorial compression -> repaired object
 unknown or hidden target -> investigative compression -> harder-to-fake question
 ```
 
-This explains why wiki/refactor work and consciousness/theory work feel related but not identical. Wiki, templates, source cleanup, and repo consolidation often repair an object toward an available public or structural grammar. TOM/ICT/DCP reports instead narrow uncertainty by rejecting false substitutes: report is not ownership, memory is not continuity, information persistence is not owner survival, and integration is not appearance-from-within.
+This explains why wiki/refactor work and consciousness/theory work feel related but not identical. Wiki, templates, source cleanup, and repo consolidation often repair an object toward an available public or structural grammar. AOC/OCH/DCP reports instead narrow uncertainty by rejecting false substitutes: report is not ownership, memory is not continuity, information persistence is not owner survival, and integration is not appearance-from-within.
 
 Best compression:
 
@@ -588,6 +588,18 @@ Fails:
 Best compression:
 
 > **Fractal beauty passes when each scale makes the structure more usable, not merely more poetic.**
+
+Fourth compression:
+
+> **Neon works when the city becomes a dream-field, not when it becomes a crowd.**
+
+Fifth compression:
+
+> **Jungle ruins are geometry being held by life, whether overgrown or maintained.**
+
+Sixth compression:
+
+> **Weird skies work when unnatural color becomes a stable atmosphere.**
 
 Second compression:
 
@@ -839,11 +851,11 @@ possibility field
 → future state-space changed
 ```
 
-In this frame, DCP does not answer why there is appearance-from-within. It asks how a system compresses many possible futures into one committed path. ICT then asks whether that committed path is owned from within.
+In this frame, DCP does not answer why there is appearance-from-within. It asks how a system compresses many possible futures into one committed path. OCH then asks whether that committed path is owned from within.
 
 Best compression:
 
-> **ICT asks what must continue; DCP asks how continuation becomes committed.**
+> **OCH asks what must continue; DCP asks how continuation becomes committed.**
 
 Second compression:
 
@@ -1255,7 +1267,44 @@ Second compression:
 
 > **Old profiles were rooms; modern feeds are hallways.**
 
-### 4.3 Object-Field Attachment
+### 4.3 Discord / Old-Field Commons
+
+Discord functions as live-field telemetry.
+
+The strongest Discord evidence is not polished self-description. It is compressed real-time behavior:
+
+- short lowercase bursts
+- rapid constraint commentary
+- meme/GIF affect packets
+- sports and politics as live fields
+- repeated return to known rooms
+- old community topology preserving re-entry
+- laughter as absurdity pressure-release
+
+The `me?` server is especially high-signal because it began as the old EFT community and later became a multi-field commons. This shows a recurring global pattern:
+
+```text
+shared object fades
+-> mapped room remains
+-> new fields enter the room
+-> continuity survives through re-entry
+```
+
+The correct inference is not that EFT trained the operator into structural cognition. EFT was a high-fit room where existing field cognition became playable, social, and externally testable. The Discord community then preserved the room after the original object stopped being central.
+
+Best compression:
+
+> **Discord-you is not less deep; it is less decompressed.**
+
+Second compression:
+
+> **An old community can preserve the room after the original object stops being central.**
+
+Third compression:
+
+> **A field remains alive when it can still be re-entered.**
+
+### 4.3b Object-Field Attachment
 
 Attachment often routes through coherent fields more easily than unstructured social exposure.
 
@@ -3615,9 +3664,13 @@ This domain is about atmospheres, rooms, color, light, materials, architecture, 
 
 Core rule:
 
-> **A good space feels bounded, warm, textured, and inhabited.**
+> **A good image is not just pretty; it is a field the mind can enter.**
 
 Second rule:
+
+> **A good space feels bounded, atmospheric, textured, and inhabited.**
+
+Third rule:
 
 > **Layered, connected, modular, and fractal structure is beautiful when each scale increases resolution.**
 
@@ -3631,12 +3684,19 @@ Reward mechanics:
 - muted earth palettes
 - autumn
 - rain / overcast / night
+- fog / mist
+- weird purple and green skies
+- neon solitude / wet-city reflection
+- vaporwave / synthetic nostalgia
 - dark rooms
 - controlled light
 - wood / earth / aged surfaces
 - old maps
 - Mesoamerican geometry
-- Latin American architectural color and contrast
+- Southeast Asian / Mesoamerican jungle-ruin architecture
+- maintained temple/ruin complexes with green atmosphere
+- desert / Arabic-fantasy domes, arches, markets, and ornament
+- lived-in architectural color and contrast
 - jungle/forest motifs
 - liminal spaces with shaped absence
 - abandoned/old spaces with residue
@@ -3663,11 +3723,11 @@ Global feedback:
 
 Aesthetics reveals the same inside/motion/return logic in environmental form. A space feels alive when it has boundary, texture, residue, controlled light, and enough depth for the mind to move.
 
-The new higher-order beauty criterion does not replace warm density, ruins, museums, Mesoamerican geometry, brown, darkness, or texture. It explains why those surfaces become stronger when they imply an interior architecture that can keep unfolding.
+The new higher-order beauty criterion does not replace warm density, ruins, museums, Mesoamerican geometry, Southeast Asian temple/jungle ruins, desert/Arabic-fantasy ornament, fog, weird colored skies, neon solitude, brown, darkness, or texture. It explains why those surfaces become stronger when they imply an interior architecture or atmosphere that can keep unfolding.
 
 Best compression:
 
-> **Warm density over sterile clarity.**
+> **A good image is not just pretty; it is a field the mind can enter.**
 
 Second compression:
 
@@ -3676,6 +3736,18 @@ Second compression:
 Third compression:
 
 > **Fractal beauty passes when each scale makes the structure more usable, not merely more poetic.**
+
+Fourth compression:
+
+> **Neon works when the city becomes a dream-field, not when it becomes a crowd.**
+
+Fifth compression:
+
+> **Jungle ruins are geometry being held by life, whether overgrown or maintained.**
+
+Sixth compression:
+
+> **Weird skies work when unnatural color becomes a stable atmosphere.**
 
 ### 7.10 Body / Sensory
 
@@ -3997,6 +4069,7 @@ Best compression:
 - direct correction as boundary sensor
 - dark-room / low-noise / chosen-signal preference
 - low social pull / high object-field attachment
+- Discord / old EFT `me?` server as live-field telemetry
 
 ### Music
 

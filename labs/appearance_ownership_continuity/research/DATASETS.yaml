@@ -1,0 +1,134 @@
+version: "0.1"
+status: draft
+datasets:
+  - id: dream_database_2025
+    title: "DREAM database: sleep M/EEG + dream reports"
+    year: 2025
+    type: sleep consciousness / dream report dataset
+    availability: open / access-managed depending subset
+    modalities: [EEG, MEG_where_available, dream_report_classification]
+    scale: "20 datasets, 505 participants, 2643 awakenings"
+    relevance_to_OCH: "Ownership without immediate report, delayed report, sleep/waking re-entry, and experience during interruption."
+    relevance_to_DCP: "Temporal residue and re-entry after sleep interruption."
+    first_analysis_question: "Can report classifications and EEG features help distinguish experience, reportability, memory residue, and re-entry?"
+    caution: "Dream reports are delayed and memory-filtered; do not equate dream report with full experience."
+    priority: high
+    status: external_open_data_candidate
+    intake_status: "active/current: DREAM metadata pilot completed; Set ID 13 selected for next linked-package inspection."
+    small_first_priority:
+      - "Start with public DREAM metadata / registry package."
+      - "Do not download all underlying EEG/MEG datasets at once."
+      - "Identify the smallest openly accessible subset with dream-report labels."
+      - "Create an analysis plan before downloading raw signals."
+
+  - id: sleep_deprivation_eeg_ds004902
+    title: "Sleep deprivation resting EEG + cognitive/affective measures"
+    year: 2024
+    type: state degradation / vigilance dataset
+    availability: OpenNeuro candidate
+    modalities: [resting_EEG, cognitive_measures, affective_measures]
+    scale: "71 participants; full raw dataset about 8.3 GB"
+    relevance_to_OCH: "Degraded vigilance, attention, fatigue, and temporal stability."
+    relevance_to_DCP: "State degradation and transition pressure."
+    first_analysis_question: "How does fatigue degrade temporal control, attention, and self-continuity proxies?"
+    caution: "Initial use is fatigue/state degradation, not direct consciousness proof."
+    priority: high-medium
+    status: external_open_data_candidate
+    intake_status: "metadata present; raw one-subject EEG pilot deferred until explicitly approved."
+    small_first_priority:
+      - "Start with metadata, participants.tsv, README, and one-subject pilot only."
+      - "Full raw dataset is about 8.3 GB; do not download all by default."
+      - "Use EEGDash/OpenNeuro filtering by subject if available."
+      - "Initial use is fatigue/state degradation, not direct consciousness proof."
+
+  - id: cogitate_iit_gnwt_2025
+    title: "COGITATE adversarial collaboration / IIT vs GNWT dataset"
+    year: 2025
+    type: multimodal consciousness dataset
+    availability: open data release / staged release depending modality
+    modalities: [fMRI, M-EEG, iEEG/ECoG, behavior, eye_tracking]
+    scale: "256 total participants in dataset documentation; modality counts 118 fMRI, 100 M-EEG, 38 iEEG/ECoG from data release docs. Nature article reports final analyzed samples after exclusions separately."
+    relevance_to_OCH: "Content duration, conscious access, reportability, temporal maintenance, and theory comparison."
+    relevance_to_DCP: "Percept duration, content commitment, and transition/maintenance of perceptual state."
+    first_analysis_question: "Can content-duration and task-relevance signatures be separated into access/report, binding/interiority, and temporal-maintenance components?"
+    caution: "COGITATE tests IIT/GNWT predictions, not OCH directly. Do not overclaim."
+    priority: "high as literature/method, low as immediate raw download"
+    status: external_open_data_candidate
+    intake_status: "next/attempted: docs/design-variable map created; no raw COGITATE payload downloaded."
+    small_first_priority:
+      - "Start with Nature paper, data-release docs, preregistration, task design, subject demographics."
+      - "Do not download raw fMRI/M-EEG/iEEG yet."
+      - "First practical analysis should be a theory-prediction table and variable map."
+      - "Raw data only after a specific analysis question exists."
+
+  - id: anesthesia_fmri_ds006623_2026
+    title: "Open fMRI resource for covert consciousness under anesthesia"
+    year: 2026
+    type: anesthesia / covert consciousness fMRI dataset
+    availability: OpenNeuro ds006623
+    modalities: [resting_state_fMRI, task_fMRI, mental_imagery_tasks, motor_response, propofol_profiles, hand_squeeze_traces]
+    scale: "26 healthy volunteers"
+    relevance_to_OCH: "Interruption, re-entry, responsiveness, covert consciousness, and control coupling."
+    relevance_to_DCP: "Transition thresholds across sedation and recovery."
+    first_analysis_question: "Do connectivity/integration/control signals degrade and return in ways that map to interruption and re-entry rather than simple on/off consciousness?"
+    caution: "Responsiveness and consciousness can dissociate; do not reduce consciousness to task performance."
+    priority: medium-high
+    status: external_open_data_candidate
+    intake_status: "next/attempted: derivative-only intake fetched small participant, propofol, squeeze-force, and timing files; no imaging downloaded."
+    small_first_priority:
+      - "Start with paper, OpenNeuro metadata, Participant_Info.xlsx, propofol profiles, and squeeze-force traces if accessible without full imaging download."
+      - "Do not download full raw/preprocessed fMRI by default."
+      - "First use is interruption/re-entry and responsiveness/control coupling."
+
+  - id: nostalgia_self_continuity
+    title: "Nostalgia and global self-continuity literature"
+    year: literature anchor, multiple years
+    type: psychology / self-continuity literature
+    availability: literature anchor
+    modalities: [behavioral_studies, self_report_scales, experimental_nostalgia_inductions]
+    scale: varies by study
+    relevance_to_OCH: "Nostalgia as affective marker of irreversible continuity and self-linkage across past/present/future."
+    relevance_to_DCP: "Emotional residue of committed past paths."
+    first_analysis_question: "Does nostalgia function as affective evidence of temporal ownership rather than simple memory retrieval?"
+    caution: "Nostalgia is not proof of metaphysics or selfhood mechanism by itself."
+    priority: high literature anchor
+    status: literature_anchor
+    small_first_priority:
+      - "Collect literature metadata and study designs first."
+      - "No raw data required initially."
+      - "Map constructs: nostalgia, self-continuity, past-present-future linkage."
+
+  - id: hippocampal_time_cells
+    title: "Hippocampal / entorhinal time cells and temporal organization of episodic memory"
+    year: literature anchor, multiple years
+    type: time and memory literature
+    availability: mostly literature; some datasets restricted/request-based
+    modalities: [single_unit_recordings, intracranial_recordings, behavioral_memory_tasks]
+    scale: varies by study
+    relevance_to_OCH: "Time as carrier axis, episodic ordering, and memory as temporally organized re-entry."
+    relevance_to_DCP: "Sequence structure and temporal commitment path scaffold."
+    first_analysis_question: "Can temporal coding clarify why memory is residue/re-entry support rather than identity by itself?"
+    caution: "Time cells do not solve appearance-from-within."
+    priority: high literature anchor
+    status: literature_anchor
+    small_first_priority:
+      - "Literature-first."
+      - "Data often restricted/request-based."
+      - "Use for temporal organization of memory, not direct OCH proof."
+
+  - id: cultural_transmission_oral_tradition
+    title: "Cultural transmission / oral tradition / cumulative culture"
+    year: literature anchor, multiple years
+    type: cultural transmission literature
+    availability: literature anchor
+    modalities: [behavioral_studies, ethnographic_literature, computational_cultural_evolution_models]
+    scale: varies by source
+    relevance_to_OCH: "Information persistence and meaning without original owner persistence."
+    relevance_to_DCP: "Repeated recommitment and residue across transmission."
+    first_analysis_question: "How does meaning persist through residue without preserving personal ownership?"
+    caution: "Use as analogy/control for information persistence without owner persistence."
+    priority: low-medium
+    status: literature_anchor
+    small_first_priority:
+      - "Literature-only at first."
+      - "Use as analogy/control for information persistence without owner persistence."

@@ -686,10 +686,35 @@ Protected anchors:
 - Cowboys/Eagles rivalry aversion
 - Washington sports identity
 - Twitter/X and Reddit as sports field monitors
+- `me?` Discord NFL channel as live sports commons
 
 Best compression:
 
 > **Sports evidence is strongest when emotional attachment and public-state tracking converge.**
+
+### 18.1 Discord Sports Commons
+
+The `me?` server's NFL channel is one of the strongest live sports evidence surfaces.
+
+It shows sports as:
+
+- direct fandom
+- rumor and roster constraint analysis
+- draft/future-state pressure
+- public discourse monitoring
+- expectation deflation
+- live team-state commentary
+- social processing through shared field objects
+
+This does not replace direct fandom. It shows how fandom becomes social and interpretive inside a known community.
+
+Best compression:
+
+> **Sports discourse is rewarding when it gives the live field a handle.**
+
+Second compression:
+
+> **The team matters first; the room makes the field shareable.**
 
 ---
 

@@ -549,7 +549,32 @@ Best compression:
 
 > **Give the interaction an object and the social field becomes less hostile.**
 
-### 5.2 Response debt / ghosting / reciprocal demand anxiety
+### 5.2 Known-Topology Sociality
+
+Social cost drops sharply inside old, mapped communities.
+
+A known social topology includes:
+
+- familiar people
+- familiar humor
+- familiar channel boundaries
+- familiar status landscape
+- known topic containers
+- known norms for bluntness, joking, disagreement, and re-entry
+
+This explains how the operator can be highly active in an old Discord community while still having low default social pull. The field is not socially broad; it is mapped.
+
+The old EFT / `me?` Discord community is a strong evidence anchor. It is not merely “socializing.” It is interaction inside a known room where shared objects carry most of the exposure.
+
+Best compression:
+
+> **The operator is not broadly social; he is socially fluent inside mapped worlds.**
+
+Second compression:
+
+> **Known rooms lower the cost of being present.**
+
+### 5.2b Response debt / ghosting / reciprocal demand anxiety
 
 This is a major explicit pattern.
 
@@ -1068,6 +1093,32 @@ Compression:
 ---
 
 ## 11. Evidence Anchors
+
+### 11.1 Discord as Live Field Telemetry
+
+Discord logs show cognition in compressed live mode.
+
+Discord is not the same mode as GPT or formal documents:
+
+```text
+Discord:
+  live-field pings, jokes, links, reactions, constraint commentary
+
+GPT:
+  decompression, theory-building, self-mapping
+
+Wiki:
+  public-object repair
+
+Helix:
+  source-of-truth architecture and testing
+```
+
+The strongest signal is not polished self-description. It is repeated behavior inside known rooms: short messages, rapid constraint checks, meme/GIF affect packets, shared-object routing, and re-entry into stable community topology.
+
+Best compression:
+
+> **Discord is where the structure behaves before it explains itself.**
 
 ### Helix
 

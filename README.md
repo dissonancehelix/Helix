@@ -358,8 +358,8 @@ Second compression:
 `labs/` is for pressure tests that cross domains or test master claims. A lab
 must be able to weaken a claim.
 
-`labs/temporal_ownership/` is the special future/cross-domain lab for
-Temporal Ownership Model, ICT, DCP, LIP, EIP, consciousness, and owned-continuity work.
+`labs/appearance_ownership_continuity/` is the special future/cross-domain lab for
+Appearance–Ownership–Continuity Framework, OCH, DCP, LIP, EIP, consciousness, and owned-continuity work.
 
 `archive/` preserves local-only substantial raw provenance grouped by evidence
 type. Heavy datasets, images, hard-to-reproduce exports, and not-yet-ingested

@@ -1953,6 +1953,7 @@ Core signals:
 - bright synthetic motion
 - platformer energy
 - Genesis nostalgia plus real chip-texture attraction
+- Spring Yard Zone as audio-visual anchor: FM motion plus purple/green weird-sky city field
 - Decap Attack / Sonic / Rocket Knight / arcade adjacency
 
 Representative anchors:
@@ -1965,6 +1966,7 @@ Representative anchors:
 - Matt Furniss
 - Mega Drive YM2612/SN76489 materials
 - `Sonic 1/2/Mania/Superstars`
+- `Spring Yard Zone`
 - `Decap Attack`
 - `Rocket Knight`
 - `Virtua Racing Deluxe`
@@ -1972,6 +1974,10 @@ Representative anchors:
 Best compression:
 
 > **Genesis/FM music works when synthetic bite becomes kinetic place-writing.**
+
+Second compression:
+
+> **Spring Yard Zone binds FM motion to weird colored sky memory.**
 
 ### 7.12 Surreal / Dream VGM Branch
 

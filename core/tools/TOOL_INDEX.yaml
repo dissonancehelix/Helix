@@ -37,6 +37,27 @@ items:
       - manual ontology checks
       - old root-folder checks for apps/, domains/, helix/, intake/, map/
 
+  - id: tool.aoc_core_check
+    name: aoc_core_check
+    role: canonical
+    purpose: Validate the Appearance–Ownership–Continuity core harness files, claim ledger, test registry, theory comparison roles, internal links, and report/canon boundaries.
+    entrypoint: python core/engine/agent_harness/check_aoc_core.py
+    inputs:
+      - labs/appearance_ownership_continuity/core/README.md
+      - labs/appearance_ownership_continuity/core/A_SPLIT.md
+      - labs/appearance_ownership_continuity/core/PRIMITIVES.md
+      - labs/appearance_ownership_continuity/core/CLAIM_LEDGER.yaml
+      - labs/appearance_ownership_continuity/core/TEST_REGISTRY.yaml
+      - labs/appearance_ownership_continuity/core/THEORY_COMPARISON.md
+      - labs/appearance_ownership_continuity/core/reports/
+    outputs:
+      - console validation result
+    safety_mode: read_only.
+    artifact_report_path: labs/appearance_ownership_continuity/core/reports/ when paired with conceptual calibration reports.
+    deprecated_helpers_replaced:
+      - manual AOC core ledger checks
+      - ad hoc report-to-canon scans
+
   - id: tool.music_bridge
     name: bridge
     role: canonical

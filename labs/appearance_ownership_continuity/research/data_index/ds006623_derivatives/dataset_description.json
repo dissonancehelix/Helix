@@ -1,0 +1,37 @@
+{
+    "Name": "Michigan Human Anesthesia fMRI Dataset-1",
+    "GeneratedBy": [
+        {
+            "Name": "dcm2niix",
+            "Version": "v1.0.20250506",
+            "URL": "https://github.com/rordenlab/dcm2niix"
+        }
+    ],
+    "BIDSVersion": "1.8.0",
+    "HEDVersion": "8.2.0",
+    "DatasetType": "raw",
+    "SourceDatasets": [
+        {
+            "URL": "https://openneuro.org/datasets/ds006623"
+        }
+    ],
+    "Authors": [
+        "Zirui Huang",
+        "et al."
+    ],
+    "License": "CC0",
+    "Acknowledgements": "This work was supported by the National Institute of General Medical Sciences of the National Institutes of Health (grant R01GM103894; PIs: A.G.H. and Z.H.). ",
+    "Funding": [
+        "R01GM103894"
+    ],
+    "ReferencesAndLinks": [
+        "Huang, Z. et al. Brain imaging reveals covert consciousness during behavioral unresponsiveness induced by propofol. Sci Rep 8, 13195 (2018). DOI: 10.1038/s41598-018-31436-z",
+        "Huang, Z. et al. Anterior insula regulates brain network transitions that gate conscious access. Cell Rep 35, 109081 (2021). DOI: 10.1016/j.celrep.2021.109081",
+        "Huang, Z. et al. Asymmetric neural dynamics characterize loss and recovery of consciousness. Neuroimage 236, 118042 (2021). DOI: 10.1016/j.neuroimage.2021.118042"
+    ],
+    "HowToAcknowledge": "Please cite the following papers for reusing of the dataset\n    • Huang, Z. et al. Brain imaging reveals covert consciousness during behavioral unresponsiveness induced by propofol. Sci Rep 8, 13195 (2018). DOI: 10.1038/s41598-018-31436-z\n\n    • Huang, Z. et al. Anterior insula regulates brain network transitions that gate conscious access. Cell Rep 35, 109081 (2021). DOI: 10.1016/j.celrep.2021.109081\n\n    • Huang, Z. et al. Asymmetric neural dynamics characterize loss and recovery of consciousness. Neuroimage 236, 118042 (2021). DOI: 10.1016/j.neuroimage.2021.118042",
+    "EthicsApprovals": [
+        "All procedures were approved by the University of Michigan IRB. Participants gave written informed consent. Data have been fully de-identified and defaced in compliance with HIPAA guidelines."
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds006623.v1.0.0"
+}

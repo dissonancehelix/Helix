@@ -202,8 +202,8 @@ def check_domain_capsules(errors: list[str]) -> None:
 
 
 def check_cross_domain_labs(errors: list[str]) -> None:
-    if not (ROOT / "labs" / "temporal_ownership").is_dir():
-        errors.append("missing cross-domain lab: labs/temporal_ownership/")
+    if not (ROOT / "labs" / "appearance_ownership_continuity").is_dir():
+        errors.append("missing cross-domain lab: labs/appearance_ownership_continuity/")
     if (ROOT / "labs" / "research").exists():
         errors.append("old research lab root still present")
     if (ROOT / "labs" / "labs").exists():

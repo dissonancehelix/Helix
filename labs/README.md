@@ -28,7 +28,7 @@ Each lab README must cover:
 
 ## Current labs
 
-- `temporal_ownership/` — Temporal Ownership Model work: ICT, DCP, LIP, EIP, ownership, continuity, commitment, residue, and appearance-from-within pressure tests.
+- `appearance_ownership_continuity/` — Appearance–Ownership–Continuity Framework work: OCH, DCP, LIP, EIP, ownership, continuity, commitment, residue, and appearance-from-within pressure tests.
 - `cognitive_mapping/` — claims about the operator ontology and the map structure itself.
 - `invariants/` — cross-domain invariant discovery and pressure work.
 

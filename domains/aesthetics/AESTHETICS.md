@@ -1,7 +1,7 @@
 # Aesthetics / Environment
 
 **Status:** active expanded domain capsule  
-**Role:** decompressed domain room for visual taste, color, atmosphere, environment, old/liminal/earthy spaces, ruins, museums, Mesoamerican and jungle motifs, dark-room preference, visual identity, and inhabited-surface design  
+**Role:** decompressed domain room for visual taste, color, atmosphere, environment, old/liminal/earthy spaces, ruins, museums, Southeast Asian / Mesoamerican jungle-ruin motifs, desert/Arabic-fantasy architecture, fog, weird colored skies, dark-room preference, visual identity, and inhabited-surface design  
 **Parent map:** `DISSONANCE.md`  
 **Not role:** generic “style guide,” fashion prescription, mood board dump, interior-design shopping list, diagnosis file, or replacement for attraction/food/music/games
 
@@ -37,6 +37,14 @@ Eighth compression:
 
 > **Time-bearing surfaces are beautiful when they preserve residue without pretending return is literal.**
 
+Ninth compression:
+
+> **A good image is not just pretty; it is a field the mind can enter.**
+
+Tenth compression:
+
+> **Structure becomes beautiful when atmosphere, route, color, and residue make it inhabitable.**
+
 
 ---
 
@@ -56,8 +64,12 @@ It covers:
 - ruins
 - museums
 - Mesoamerican motifs
+- Southeast Asian temple/jungle-ruin motifs
+- desert / Arabic-fantasy architecture
 - layered connected modular structures
 - jungles
+- fog / mist / atmospheric occlusion
+- weird colored skies, especially purple and green
 - autumn
 - rain/night/overcast atmosphere
 - liminal and abandoned spaces
@@ -166,7 +178,48 @@ Best compression:
 
 ## 3. Core Reward Mechanics
 
-### 3.0 Fractal / Modular Self-Similarity
+### 3.0 Structured Atmosphere
+
+The older shorthand of “warmth and dark” is true but incomplete. Warm/dark richness is one major axis; the deeper invariant is **structured atmosphere**.
+
+Aesthetic attraction strengthens when color, geometry, architecture, nature, light, fog, route-depth, residue, and symbolic texture form an inhabitable field.
+
+Strong fields include:
+
+- neon night cities
+- wet reflective streets
+- vaporwave grids / palms / marble / obsolete UI
+- surreal checkerboard spaces
+- jungle ruins and maintained jungle-temple complexes
+- Southeast Asian temple ruins
+- Mesoamerican temple ruins
+- desert / Arabic-fantasy palace architecture
+- foggy jungle paths
+- weird purple/green skies
+- scenic fantasy backgrounds
+- autumn houses, forests, streams, and mountains
+- solitary figures in large atmospheric spaces
+
+Common rule:
+
+```text
+bounded structure
++ atmospheric pressure
++ route/depth
++ color field
++ readable residue
+= inhabitable image
+```
+
+Best compression:
+
+> **A good image is not just pretty; it is a field the mind can enter.**
+
+Second compression:
+
+> **Structured atmosphere is when a scene has enough boundary, depth, and mood to become mentally inhabitable.**
+
+### 3.1 Fractal / Modular Self-Similarity
 
 A new high-level aesthetic law sits above the older warm/dark/material preferences:
 
@@ -227,7 +280,7 @@ Boundary firewall:
 > **Beauty is not causality. A beautiful mapping still needs evidence.**
 
 
-### 3.1 Warm Density
+### 3.2 Warm Density
 
 Preferred aesthetics tend toward warm density.
 
@@ -264,7 +317,7 @@ Best compression:
 
 > **Warm density is atmosphere with load-bearing texture.**
 
-### 3.2 Brown As Anchor
+### 3.3 Brown As Anchor
 
 Brown is a central color.
 
@@ -300,7 +353,7 @@ Best compression:
 
 > **Brown is the visual bass note.**
 
-### 3.3 Earth / Autumn Palette
+### 3.4 Earth / Autumn Palette
 
 Preferred colors include:
 
@@ -346,7 +399,7 @@ Best compression:
 
 > **Autumn is the environment becoming textured enough to enter.**
 
-### 3.4 Darkness / Controlled Light
+### 3.5 Darkness / Controlled Light
 
 Darkness is not depression-coded here. It is sensory and spatial control.
 
@@ -377,7 +430,7 @@ Best compression:
 
 > **Darkness is sensory compression.**
 
-### 3.5 Enclosure
+### 3.6 Enclosure
 
 The operator prefers environments that have edge, shelter, and controllable exposure.
 
@@ -409,7 +462,7 @@ Best compression:
 
 > **A good space gives the body an edge to stand against.**
 
-### 3.6 Historical Residue
+### 3.7 Historical Residue
 
 The operator is drawn to spaces and objects that feel like something passed through them and left structure behind.
 
@@ -436,7 +489,7 @@ Best compression:
 
 > **Residue is memory made spatial.**
 
-### 3.6a Nostalgia / Time-Bearing Surfaces
+### 3.7a Nostalgia / Time-Bearing Surfaces
 
 Some aesthetic surfaces pass because they visibly carry time.
 
@@ -466,7 +519,7 @@ False positive:
 
 > Treating decay, age, or nostalgia as automatically beautiful. Time has to leave a readable interior, not just damage.
 
-### 3.7 Ruins / Museums / Ancient Mesoamerica
+### 3.8 Ruins / Museums / Ancient Civilizational Space
 
 Ruins and museums are powerful because they convert history into traversable space.
 
@@ -481,11 +534,12 @@ artifact
 → world-memory
 ```
 
-Ancient Mesoamerican ruins are especially strong because they combine:
+Ancient Mesoamerican ruins are especially strong, and Southeast Asian temple/jungle-ruin spaces belong beside them, because they combine:
 
 - geometry
 - stone
 - jungle/earth palette
+- humid green atmosphere
 - mythic residue
 - glyphic/sign systems
 - stepped architecture
@@ -493,9 +547,11 @@ Ancient Mesoamerican ruins are especially strong because they combine:
 - civilization memory
 - partial mystery with real historical substrate
 - warm/earthy color logic
+- maintained sites that still feel ancient and threshold-rich
+- overgrown sites where life is reclaiming geometry
 - architecture that feels like cosmology made physical
 
-The attraction is not simply “exoticness.”
+The attraction is not simply “exoticness,” decay, or abandonment. Maintained ruins and temple complexes can still pass when the stone, thresholds, route-depth, vegetation, humidity, and sacred/civilizational geometry remain readable.
 
 It is:
 
@@ -505,9 +561,13 @@ Best compression:
 
 > **Ruins work when history becomes a place.**
 
-### 3.8 Latin American Color / Built Environment
+Second compression:
 
-Latin American architectural color can be attractive because it often avoids sterile American neutrality.
+> **Jungle ruins are geometry being held by life, whether overgrown or maintained.**
+
+### 3.9 Lived-In Color / Built Environment
+
+Lived-in architectural color can be attractive because it avoids sterile American neutrality without requiring a vague “Latin architecture” bucket.
 
 Strong pulls:
 
@@ -520,6 +580,7 @@ Strong pulls:
 - visible weathering
 - dense human use
 - less showroom minimalism
+- place-specific color logic rather than generic brightness
 - color as environmental identity rather than decoration
 
 Boundary:
@@ -542,7 +603,7 @@ Best compression:
 
 > **Color works when it feels lived-in, not when it screams for attention.**
 
-### 3.9 Mesoamerican / Geometric Motifs
+### 3.10 Mesoamerican / Geometric Motifs
 
 Mesoamerican motifs work because they combine:
 
@@ -564,7 +625,163 @@ Best compression:
 
 > **Mesoamerican geometry feels like structure wearing myth.**
 
-### 3.10 Liminal / Abandoned / Old Web
+### 3.11 Jungle Ruin Axis
+
+The attraction is not “Latin architecture” in general. The stronger pattern is **jungle-reclaimed or jungle-held sacred structure**, especially Southeast Asian and Mesoamerican ruins and temple complexes.
+
+Core features:
+
+- stone temples
+- moss
+- vines and roots
+- humid green enclosure
+- stairs, arches, chambers, and thresholds
+- partial collapse when present
+- maintained ruins when the old structure still dominates the field
+- sacred or civilizational age
+- nature surrounding or pressing against geometry
+
+The ruin does not have to be abandoned. Maintained temples, restored ruins, and preserved archaeological sites can still pass when they keep the threshold feeling: stone, green enclosure, route-depth, and old symbolic pressure.
+
+Best compression:
+
+> **Jungle ruins are geometry being held by life.**
+
+Second compression:
+
+> **The appeal is green atmosphere around sacred structure, not decay for its own sake.**
+
+### 3.12 Fog / Mist / Atmospheric Occlusion
+
+Fog is a major aesthetic amplifier.
+
+Fog works because it:
+
+- lowers glare
+- creates enclosure
+- hides the far edge of the field
+- makes depth visible as layers
+- turns a path into a threshold
+- softens overstimulation
+- makes jungle, forest, mountain, city, and ruin spaces feel more entered than observed
+
+Fog is not liked because it erases structure. It works when it partially conceals structure while preserving enough route, silhouette, and contour to keep the scene readable.
+
+Best compression:
+
+> **Fog makes distance into a doorway.**
+
+Second compression:
+
+> **Mist is attractive when it hides the edge without deleting the path.**
+
+### 3.13 Neon Solitude / Wet-City Axis
+
+Neon cities work best when they feel solitary, reflective, and atmospheric rather than socially crowded.
+
+Core features:
+
+- night
+- rain
+- wet pavement
+- neon signs
+- cyan / magenta / orange reflections
+- empty or sparse streets
+- symbolic signage
+- urban depth
+- loneliness without social demand
+
+Crowding usually breaks the scene because it turns atmosphere into social congestion. Stylized density can work only when it becomes pattern, not interpersonal pressure.
+
+Best compression:
+
+> **Neon works when the city becomes a dream-field, not when it becomes a crowd.**
+
+### 3.14 Weird Colored Skies / Synthetic Dusk
+
+The Sonic / Genesis-era visual palette is an important old anchor for weird colored skies, especially purple and green.
+
+`Spring Yard Zone` from `Sonic the Hedgehog` is a key example: purple sky, green/orange/brown structures, city silhouettes, checker/industrial geometry, and arcade-bright contrast. It made unnatural sky color feel like place-writing rather than random palette swap.
+
+This connects to later attraction to:
+
+- vaporwave gradients
+- neon dusk
+- green storm-light
+- purple city skies
+- magenta/cyan night fields
+- stylized game backgrounds
+- synthetic landscapes that remain readable
+
+Best compression:
+
+> **Weird skies work when unnatural color becomes a stable atmosphere.**
+
+Second compression:
+
+> **Spring Yard Zone made purple/green sky feel like a place, not a filter.**
+
+### 3.14a Vaporwave / Synthetic Nostalgia
+
+Vaporwave works as artificial re-entry: nostalgia for a place that never fully existed.
+
+Core features:
+
+- neon gradients
+- grids
+- palm trees
+- marble busts
+- dolphins
+- old UI windows
+- Japanese text
+- consumer objects
+- retro-futurist emptiness
+- surreal digital composition
+
+Best compression:
+
+> **Vaporwave is nostalgia with no original home.**
+
+### 3.14b Surreal Checkerboard / Ausgang Axis
+
+Anthony Ausgang-like imagery works because absurd cartoon energy is held inside strong geometric control.
+
+Core features:
+
+- warped checkerboards
+- bright cartoon forms
+- surreal animal figures
+- exaggerated motion
+- playful menace
+- lowbrow / pop-surreal collision
+- controlled absurdity
+
+Best compression:
+
+> **Ausgang works because absurdity is trapped inside a geometric room.**
+
+### 3.14c Desert / Arabic-Fantasy Ornament
+
+Desert and Arabic-fantasy architecture work through ornamental warmth and patterned density.
+
+Core features:
+
+- domes
+- arches
+- palms
+- markets
+- gold / copper / blue / pink
+- storybook crowding
+- patterned civic life
+- enclosed warmth
+
+Crowds normally reduce attraction, but stylized crowds can work when they become ornament rather than social pressure.
+
+Best compression:
+
+> **Desert fantasy works when crowding becomes ornament.**
+
+### 3.15 Liminal / Abandoned / Old Web
 
 Liminal and abandoned aesthetics work when absence has shape.
 
@@ -698,11 +915,19 @@ Aesthetic anchors include:
 - autumn
 - Thanksgiving season / football atmosphere
 - Mesoamerican motifs
+- Southeast Asian temple/jungle-ruin motifs
 - layered connected modular structures
 - Mayan/Aztec-inspired patterns
-- Latin American architectural color
+- lived-in architectural color
+- desert / Arabic-fantasy architecture
 - ancient ruins
+- maintained ruin/temple complexes
 - jungles
+- fog / mist
+- weird purple and green skies
+- Spring Yard Zone / Genesis-era synthetic sky palettes
+- vaporwave
+- Anthony Ausgang / surreal checkerboard cartoon geometry
 - museums
 - old maps
 - fractal / modular self-similarity
@@ -762,6 +987,9 @@ Good threshold aesthetics:
 - old internet weirdness
 - dark museums
 - rain at night
+- fog / mist
+- neon solitude
+- weird colored sky fields
 - decayed malls
 - haunted-but-readable music/game spaces
 - dense ancient/civilizational motifs
@@ -822,6 +1050,8 @@ Examples:
 - Trails world-memory
 - Outer Wilds cosmic archaeology
 - Mesoamerican/ancient ruin aesthetics in games
+- Southeast Asian / jungle-temple ruin aesthetics
+- Sonic / Genesis weird colored skies, especially Spring Yard Zone
 - old PS1/Genesis-era visual memory
 
 Compression:
@@ -1209,6 +1439,10 @@ Fourth:
 Fifth:
 
 > **Ruins work when history becomes a place.**
+
+Second compression:
+
+> **Jungle ruins are geometry being held by life, whether overgrown or maintained.**
 
 Sixth:
 

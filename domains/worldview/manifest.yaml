@@ -23,7 +23,7 @@ feeds:
   - domains/self/SELF.md
   - domains/wiki/WIKI.md
   - domains/software/SOFTWARE.md
-  - labs/temporal_ownership/THEORY.md
+  - labs/appearance_ownership_continuity/THEORY.md
 
 known_gaps:
   - No domain-owned workflow yet; do not create tools until a runnable worldview pipeline exists.

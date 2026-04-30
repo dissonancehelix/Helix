@@ -483,6 +483,35 @@ Second compression:
 
 > **A political system is only as good as its ability to preserve shared infrastructure without becoming a power-hoarding machine.**
 
+### 9.1 Politics as Absurdity-Processing
+
+Discord political behavior shows that politics is often processed as institutional absurdity under power-awareness, not as party identity.
+
+The recurring pattern is:
+
+```text
+public event / policy / war / funding / corruption
+-> power and incentive check
+-> suffering / public-cost check
+-> institutional hypocrisy check
+-> absurdity recognition
+-> laughter or blunt compression
+```
+
+This is not optimism, party loyalty, or detached nihilism. It is closer to system disgust under a still-active moral standard.
+
+The operator's political cynicism should therefore be modeled as failed trust in institutions, not absence of moral concern. The laugh marks the absurdity without letting the field become pure rage.
+
+Important caution: Discord political messages are not public canon. Heated channel claims should not be promoted as verified factual beliefs unless supported elsewhere. Preserve the structural pattern, not every local formulation.
+
+Best compression:
+
+> **Politics is absurdity-processing under power-awareness.**
+
+Second compression:
+
+> **The laugh marks the absurdity without letting the field become pure rage.**
+
 ---
 
 ## 10. Taxes, Public Goods, and Infrastructure Realism
