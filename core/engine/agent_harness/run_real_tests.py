@@ -18,7 +18,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-ARTIFACT_DIR = ROOT / "artifacts" / "real_tests"
+ARTIFACT_DIR = ROOT / ".test_artifacts" / "real_tests"
 
 
 @dataclass
@@ -123,22 +123,22 @@ def main() -> int:
         ),
         TestCommand(
             name="kuramoto_fixture",
-            command=[py, "labs/invariants/validation/kuramoto_fixture.py", "--out", "artifacts/real_tests/kuramoto_fixture.json"],
+            command=[py, "-m", "labs.invariants.validation.kuramoto_fixture", "--out", ".test_artifacts/real_tests/kuramoto_fixture.json"],
             timeout_seconds=180,
         ),
         TestCommand(
             name="math_e2e",
-            command=[py, "labs/invariants/e2e.py", "--K", "2.0", "--n", "50", "--steps", "500", "--json"],
+            command=[py, "-m", "labs.invariants.e2e", "--K", "2.0", "--n", "50", "--steps", "500", "--json"],
             timeout_seconds=180,
         ),
         TestCommand(
             name="dcp_validation_baselines",
-            command=[py, "labs/invariants/math/dcp_validation.py", "--mode", "baselines"],
+            command=[py, "-m", "labs.invariants.math.dcp_validation", "--mode", "baselines"],
             timeout_seconds=180,
         ),
         TestCommand(
             name="dcp_validation_games_null",
-            command=[py, "labs/invariants/math/dcp_validation.py", "--mode", "null_tests", "--test", "3"],
+            command=[py, "-m", "labs.invariants.math.dcp_validation", "--mode", "null_tests", "--test", "3"],
             timeout_seconds=180,
         ),
     ]
