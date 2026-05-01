@@ -1,8 +1,8 @@
 """Validate the Appearance-Ownership-Continuity core harness.
 
 This check is intentionally small and read-only. It guards the active text
-harness against schema drift, broken local links, and accidental promotion of
-reports into canon.
+harness against schema drift, broken local links, accidental promotion of
+reports into canon, and failure to preserve report-level negative controls.
 """
 
 from __future__ import annotations
@@ -25,6 +25,7 @@ REQUIRED_FILES = [
     "PRIMITIVES.md",
     "CLAIM_LEDGER.yaml",
     "TEST_REGISTRY.yaml",
+    "FOLLOWUP_CASES.yaml",
     "THEORY_COMPARISON.md",
     "THOUGHT_EXPERIMENTS.md",
     "EMPIRICAL_CONTACTS.md",
@@ -73,6 +74,18 @@ TEST_REQUIRED = [
     "output_location",
 ]
 
+FOLLOWUP_REQUIRED = [
+    "id",
+    "source_report",
+    "target_guardrail",
+    "shortcut_under_test",
+    "description",
+    "observed_features",
+    "absent_or_unestablished",
+    "forbidden_inferences",
+    "expected_result",
+]
+
 A_SPLIT_SECTIONS = [
     "## 0. Source Lineage",
     "## 1. Why Split A?",
@@ -91,6 +104,8 @@ A_SPLIT_SECTIONS = [
 ]
 
 FORBIDDEN_CLAIM_STATUSES = {"proven", "settled", "final", "confirmed", "solved"}
+FORBIDDEN_FOLLOWUP_RESULTS = {"shortcut_allowed", "canon_promoted", "a0_closed", "owner_proven"}
+DEFERRED_GUARDRAILS = {"WANTING_NOT_LIKING_DEFERRED", "VALENCE_NONUNITARY_DEFERRED"}
 
 
 def load_yaml(path: Path) -> Any:
@@ -175,6 +190,68 @@ def validate_tests(errors: list[str]) -> None:
                 fail(errors, f"test {tid or idx} has unsupported test_type: {test.get('test_type')}")
             if not (test.get("target_claims") or test.get("target_primitives")):
                 fail(errors, f"test {tid or idx} missing target claim or primitive")
+
+
+def validate_followup_cases(errors: list[str]) -> None:
+    """Validate executable follow-up cases for report-level guardrails.
+
+    This is intentionally not an empirical classifier. It enforces negative-control
+    structure: shortcut-only cases must be blocked, and deferred claims must not
+    be promoted by a follow-up case file.
+    """
+    data = load_yaml(CORE / "FOLLOWUP_CASES.yaml") or {}
+    cases = data.get("cases", [])
+    if not isinstance(cases, list) or not cases:
+        fail(errors, "FOLLOWUP_CASES.yaml has no cases list")
+        return
+
+    seen: set[str] = set()
+    for idx, case in enumerate(cases, 1):
+        cid = case.get("id") or f"case:{idx}"
+        if cid in seen:
+            fail(errors, f"duplicate follow-up case id: {cid}")
+        seen.add(cid)
+        for field in FOLLOWUP_REQUIRED:
+            if not case.get(field):
+                fail(errors, f"follow-up case {cid} missing field: {field}")
+
+        observed = set(case.get("observed_features") or [])
+        missing = set(case.get("absent_or_unestablished") or [])
+        forbidden = set(case.get("forbidden_inferences") or [])
+        expected = case.get("expected_result")
+        guardrail = str(case.get("target_guardrail") or "")
+
+        if expected in FORBIDDEN_FOLLOWUP_RESULTS:
+            fail(errors, f"follow-up case {cid} allows forbidden result: {expected}")
+        if expected != "shortcut_blocked":
+            fail(errors, f"follow-up case {cid} must currently expect shortcut_blocked, got: {expected}")
+        if not observed:
+            fail(errors, f"follow-up case {cid} has no observed shortcut features")
+        if not missing:
+            fail(errors, f"follow-up case {cid} has no absent/unestablished target fields")
+        if not forbidden:
+            fail(errors, f"follow-up case {cid} has no forbidden inferences")
+        if observed & missing:
+            fail(errors, f"follow-up case {cid} marks same feature observed and absent: {sorted(observed & missing)}")
+        if "appearance_from_within" not in missing and "a0_closure" in forbidden:
+            fail(errors, f"follow-up case {cid} forbids A0 closure but does not mark appearance_from_within unestablished")
+        if any(item in forbidden for item in {"owner", "owner_preservation", "same_owner_continuity"}):
+            if not ({"mineness", "same_owner_continuity"} & missing):
+                fail(errors, f"follow-up case {cid} forbids owner inference without missing mineness/continuity")
+        if guardrail in DEFERRED_GUARDRAILS and case.get("promotion_allowed", True) is not False:
+            fail(errors, f"deferred follow-up case {cid} must set promotion_allowed: false")
+
+    required_shortcuts = {
+        "nociception_equals_pain",
+        "homeostasis_equals_lived_mattering",
+        "self_maintenance_equals_owner",
+        "reward_signal_equals_pleasure",
+        "pursuit_equals_liking",
+    }
+    present_shortcuts = {case.get("shortcut_under_test") for case in cases}
+    missing_shortcuts = sorted(required_shortcuts - present_shortcuts)
+    if missing_shortcuts:
+        fail(errors, f"FOLLOWUP_CASES.yaml missing required shortcut tests: {missing_shortcuts}")
 
 
 def validate_theory_comparison(errors: list[str]) -> None:
@@ -314,6 +391,7 @@ def main() -> int:
     validate_primitives(errors)
     validate_claims(errors)
     validate_tests(errors)
+    validate_followup_cases(errors)
     validate_a_split(errors)
     validate_active_naming(errors)
     validate_theory_comparison(errors)
