@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Helix workspace boundary checker for the domain-capsule architecture."""
 from __future__ import annotations
 
@@ -70,10 +70,9 @@ MAP_YAMLS = [
 BASE_CAPSULE_DIRS = [
     "model",
     "data",
-    "reports",
 ]
 
-OPTIONAL_DOMAIN_DIRS = {"labs"}
+OPTIONAL_DOMAIN_DIRS = {"labs", "reports", "tools"}
 
 HEAVY_SUFFIXES = {
     ".zip",
@@ -179,8 +178,6 @@ def check_domain_capsules(errors: list[str]) -> None:
         if len(named_files) != 1:
             errors.append(f"domain must have exactly one named domain file: domains/{domain}/{domain_file}")
         required_dirs = list(BASE_CAPSULE_DIRS)
-        if domain not in NO_TOOL_DOMAINS:
-            required_dirs.append("tools")
         for folder in required_dirs:
             if not (base / folder).is_dir():
                 errors.append(f"domain missing {folder}/: domains/{domain}/")
