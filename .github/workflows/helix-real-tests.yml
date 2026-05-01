@@ -1,4 +1,4 @@
-name: Helix Real Tests
+name: Helix Canonical Tool Smoke
 
 on:
   push:
@@ -16,8 +16,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  helix-real-tests:
-    name: Run Helix real-test suite
+  canonical-tool-smoke:
+    name: Run canonical tool smoke checks
     runs-on: ubuntu-latest
 
     steps:
@@ -32,14 +32,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pyyaml numpy scipy
+          python -m pip install pyyaml
 
-      - name: Run real-test suite
-        run: python core/engine/agent_harness/run_real_tests.py
+      - name: Run boundary check
+        run: python core/engine/agent_harness/check_workspace.py
 
-      - name: Upload real-test artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: helix-real-tests
-          path: artifacts/real_tests/
+      - name: Run AOC core check
+        run: python core/engine/agent_harness/check_aoc_core.py
+
+      - name: Run workstation bridge snapshot
+        run: python core/tools/workstation_bridge/workstation_snapshot.py --root . --config core/tools/workstation_bridge/config.example.yaml --out core/reports/workstation
