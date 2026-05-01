@@ -10,8 +10,8 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
-HARNESS = ROOT / "helix" / "engine" / "agent_harness"
+CORE_ENGINE = Path(__file__).resolve().parents[1]
+HARNESS = CORE_ENGINE / "agent_harness"
 
 sys.path.insert(0, str(HARNESS))
 
@@ -24,4 +24,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
