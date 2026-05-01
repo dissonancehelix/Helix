@@ -1,5 +1,5 @@
 """
-Math Domain Validation Harness — core/probes/math/validation/kuramoto_fixture.py
+Math Domain Validation Harness — labs/invariants/validation/kuramoto_fixture.py
 =============================================================================
 Canonical validation fixture for the Kuramoto model.
 
@@ -28,8 +28,8 @@ Output:
   consumed by governance or later automation.
 
 Usage:
-    python -m helix.research.invariants.math.math.validation.kuramoto_fixture
-    python -m helix.research.invariants.math.math.validation.kuramoto_fixture --out report.json
+    python -m labs.invariants.validation.kuramoto_fixture
+    python -m labs.invariants.validation.kuramoto_fixture --out report.json
 """
 from __future__ import annotations
 
@@ -42,13 +42,12 @@ from typing import Any
 
 import numpy as np
 
-ROOT = next(p for p in Path(__file__).resolve().parents
-            if (p / "helix").exists() or (p / "README.md").exists())
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / "README.md").exists())
 sys.path.insert(0, str(ROOT))
 
-from helix.research.invariants.math.math.simulation.kuramoto import KuramotoSystem
-from helix.research.invariants.math.math.domain_analysis.math_structural_vector import MathStructuralVector
-from helix.research.invariants.math.math.embedding.projection import (
+from labs.invariants.simulation.kuramoto import KuramotoSystem
+from labs.invariants.domain_analysis.math_structural_vector import MathStructuralVector
+from labs.invariants.embedding.projection import (
     project, similarity, distance, validate_triangle_inequality,
     PROJECTION_SCHEMA_VERSION, PROVISIONAL_CONFIDENCE_FLOOR,
 )
@@ -181,7 +180,6 @@ def _section_c(null: dict, mid: dict, high: dict) -> dict:
     emb_high = high["helix_embedding"]
 
     # Re-project null to check determinism
-    from helix.research.invariants.math.math.domain_analysis.math_structural_vector import MathStructuralVector
     sys_ = _make_system(K_NULL, SEED)
     sys_.simulate(dt=DT, steps=STEPS)
     results = sys_.get_results_summary()
