@@ -1,6 +1,6 @@
 """
-Math End-to-End Path — core/probes/math/e2e.py
-==========================================
+Math End-to-End Path — labs/invariants/e2e.py
+=============================================
 One canonical, inspectable path through the math substrate:
 
   Simulation input
@@ -20,8 +20,8 @@ core/engine/store/compiler/atlas_compiler.py via enforce_persistence().
 The calling code is responsible for that final step.
 
 Usage:
-    python -m helix.research.invariants.math.math.e2e
-    python -m helix.research.invariants.math.math.e2e --K 2.5 --n 100 --steps 800
+    python -m labs.invariants.e2e
+    python -m labs.invariants.e2e --K 2.5 --n 100 --steps 800
 """
 from __future__ import annotations
 
@@ -34,18 +34,15 @@ from typing import Any
 
 import numpy as np
 
-ROOT = next(
-    p for p in Path(__file__).resolve().parents
-    if (p / "helix").exists() or (p / "README.md").exists()
-)
+ROOT = next(p for p in Path(__file__).resolve().parents if (p / "README.md").exists())
 sys.path.insert(0, str(ROOT))
 
-from helix.research.invariants.math.math.simulation.kuramoto import KuramotoSystem
-from helix.research.invariants.math.math.domain_analysis.math_structural_vector import MathStructuralVector
-from helix.research.invariants.math.math.embedding.projection import (
+from labs.invariants.simulation.kuramoto import KuramotoSystem
+from labs.invariants.domain_analysis.math_structural_vector import MathStructuralVector
+from labs.invariants.embedding.projection import (
     project, PROVISIONAL_CONFIDENCE_FLOOR, PROJECTION_SCHEMA_VERSION,
 )
-from core.validation.validation.rules import AtomicityRule, FalsifiabilityRule
+from core.engine.contract.validation.validation.rules import AtomicityRule, FalsifiabilityRule
 
 
 def run_e2e(
@@ -145,7 +142,7 @@ def run_e2e(
             "adversarial_validation_run": False,
         },
         # Persistence target (deferred — not committed here)
-        "persistence_target": "codex/atlas/math/",
+        "persistence_target": "core/atlas/math/",
         "persistence_gate": "core/engine/store/compiler/atlas_compiler.py via enforce_persistence()",
     }
     log(f"  status: {candidate_status}")
@@ -195,4 +192,3 @@ if __name__ == "__main__":
     if args.json:
         print(json.dumps(result, indent=2))
     sys.exit(0 if result["persistence_eligible"] else 1)
-
