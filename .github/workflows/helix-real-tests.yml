@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pyyaml
+          python -m pip install pyyaml numpy scipy
 
       - name: Run boundary check
         run: python core/engine/agent_harness/check_workspace.py
@@ -42,3 +42,9 @@ jobs:
 
       - name: Run workstation bridge snapshot
         run: python core/tools/workstation_bridge/workstation_snapshot.py --root . --config core/tools/workstation_bridge/config.example.yaml --out core/reports/workstation
+
+      - name: Run Kuramoto validation fixture
+        run: python -m labs.invariants.validation.kuramoto_fixture
+
+      - name: Run math e2e candidate path
+        run: python -m labs.invariants.e2e --K 2.0 --n 50 --steps 500 --json
