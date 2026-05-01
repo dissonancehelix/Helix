@@ -76,16 +76,23 @@ Each plan should state:
 - what would weaken,
 - what would remain open.
 
+Current pressure outputs:
+
+- `core/reports/A_SPLIT_A1_COGITATE_FIELD_ACCESS.md` completed the COGITATE design/report pressure pass.
+- `core/reports/A_SPLIT_A4_DREAM_REENTRY_METADATA.md` completed the DREAM metadata-only re-entry pass.
+- `core/reports/A_SPLIT_A4_PROPOFOL_DERIVATIVE_TIMELINE.md` completed the ds006623 derivative/control timeline pass.
+
 ## Phase 3: Minimal Reproducible Pilot
 
 Run one minimal pilot only after Phase 1a chooses a tiny target.
 
 Priority:
 
-1. DREAM linked-package manifest/size inspection for `Set ID 13`.
-2. ds006623 derivative-only timeline from local participant/propofol/squeeze files.
+1. DREAM linked-package manifest/size inspection for `Set ID 13` if A4 needs raw/signal follow-up.
+2. ds006623 one-subject derivative expansion only if a marker-level A4 question requires it.
 3. ds004902 one-subject metadata/raw pilot only after approval.
-4. COGITATE variable map refinement only.
+4. COGITATE one-modality raw planning only if A1 requires direct marker analysis.
+5. A5 memory-residue conceptual pressure before additional raw downloads.
 
 ## Phase 4: Claim Pressure Review
 

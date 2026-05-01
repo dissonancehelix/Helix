@@ -203,8 +203,8 @@ AOC may currently claim:
 AOC may not claim:
 
 - AOC solves raw A.
-- AOC proves consciousness from integration.
-- AOC proves same-self continuity from memory or pattern persistence.
+- AOC derives consciousness from integration.
+- AOC derives same-self continuity from memory or pattern persistence.
 - AOC equates reportability with experience.
 - AOC equates self-modeling with inhabited selfhood.
 
@@ -219,9 +219,19 @@ This note is only a boundary. It is not another framework.
 
 ## 13. Next Tests
 
-1. **Conceptual A2 test: appearance with altered ownership.** Compare depersonalization, body ownership illusions, alien limb, and report-producing AI cases.
-2. **Empirical A4 test: dream/anesthesia re-entry comparison.** Compare DREAM metadata labels against propofol/anesthesia interruption and responsiveness traces.
-3. **Identity A5 test: branching/copy/fork scenario classification.** Classify memory persistence, pattern persistence, causal continuity, branch count, and possible same-self preservation.
+Completed initial pressure reports:
+
+1. **A1 field/access:** `reports/A_SPLIT_A1_COGITATE_FIELD_ACCESS.md` uses COGITATE as a design-variable and theory-comparison pressure source.
+2. **A2 ownership absent:** `reports/A_SPLIT_A2_OWNERSHIP_ABSENT.md` compares altered ownership, body ownership, agency, and self-report cases.
+3. **A4 interruption/re-entry:** `reports/A_SPLIT_A4_INTERRUPTION_REENTRY.md` frames DREAM, anesthesia, no-report, and arousal-context pressure.
+4. **A4 propofol derivative timeline:** `reports/A_SPLIT_A4_PROPOFOL_DERIVATIVE_TIMELINE.md` separates sedation phase, task timing, and motor response.
+5. **A4 DREAM metadata:** `reports/A_SPLIT_A4_DREAM_REENTRY_METADATA.md` separates sleep stage, report residue, recall uncertainty, and re-entry metadata.
+
+Next pressure targets:
+
+1. **Identity A5 test: memory residue is not continuity.** Classify memory persistence, report residue, pattern persistence, causal continuity, branch count, and possible same-self preservation.
+2. **A3 temporal flow / minimal self.** Separate temporal coding, memory order, anticipation, waiting, and lived duration.
+3. **A0 hard-gap audit.** Recheck which bridge candidates narrow A and which merely rename neighboring mechanisms.
 
 Best compression:
 

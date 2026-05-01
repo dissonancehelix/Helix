@@ -54,6 +54,19 @@ Speculative soul/rebirth language may appear only as continuity-carrier pressure
 - `FALSIFIERS.md` — hard weakening cases and demotion rules.
 - `reports/` — generated review reports; evidence only, not canon.
 
+## Active A-Split Report Map
+
+| Layer | Current pressure artifacts | Current use |
+| --- | --- | --- |
+| A0 bare appearance | A-Bridge / appearance gap reports; A-Split boundary sections | preserve the raw gap and block substitutes |
+| A1 fielded appearance | `reports/A_SPLIT_A1_COGITATE_FIELD_ACCESS.md` | separate content persistence, field markers, access, report, and task relevance |
+| A2 ownership / mineness | `reports/A_SPLIT_A2_OWNERSHIP_ABSENT.md` | separate ownership from report, agency, self-modeling, and body ownership |
+| A3 temporal flow | pending | separate lived duration from temporal coding and memory order |
+| A4 interruption / re-entry | `reports/A_SPLIT_A4_INTERRUPTION_REENTRY.md`, `reports/A_SPLIT_A4_PROPOFOL_DERIVATIVE_TIMELINE.md`, `reports/A_SPLIT_A4_DREAM_REENTRY_METADATA.md` | separate report loss, responsiveness, delayed report, recall, and re-entry windows |
+| A5 identity preservation | pending; recommended next | separate memory residue, pattern persistence, and owned continuity |
+
+Report-level findings remain below canon until reviewed against `CLAIM_LEDGER.yaml`.
+
 ## How To Use
 
 1. Start with `PRIMITIVES.md` to name the moving parts.

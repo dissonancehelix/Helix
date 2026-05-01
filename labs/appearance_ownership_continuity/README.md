@@ -81,3 +81,19 @@ Use the smallest active source:
 - Use `research/` for datasets, literature, small-first triage, and analysis lanes.
 
 Do not recreate root-level duplicate ledgers, stale runners, or broad planning files.
+
+## Current Pressure State
+
+Recent A-Split reports have started separating the framework's main evidence channels:
+
+- `core/reports/A_SPLIT_A2_OWNERSHIP_ABSENT.md` pressures ownership/mineness against report, agency, self-modeling, and body ownership.
+- `core/reports/A_SPLIT_A4_INTERRUPTION_REENTRY.md` frames interruption and re-entry across DREAM, anesthesia, no-report paradigms, and arousal context.
+- `core/reports/A_SPLIT_A4_PROPOFOL_DERIVATIVE_TIMELINE.md` separates propofol dose, task timing, motor response, and re-entry channels.
+- `core/reports/A_SPLIT_A4_DREAM_REENTRY_METADATA.md` separates sleep stage, report residue, recall uncertainty, and re-entry metadata.
+- `core/reports/A_SPLIT_A1_COGITATE_FIELD_ACCESS.md` separates field/content persistence from access, report, task relevance, and theory-specific markers.
+
+These reports are evidence pressure only. They do not close A0, promote claims, or replace `THEORY.md`.
+
+Next recommended pressure target:
+
+> `A_SPLIT_A5_MEMORY_RESIDUE_NOT_CONTINUITY`

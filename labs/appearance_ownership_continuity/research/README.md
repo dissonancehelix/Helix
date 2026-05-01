@@ -74,12 +74,20 @@ Start with papers, documentation, metadata, and one tiny pilot. Do not download 
 
 Priority:
 
-1. DREAM metadata / smallest labeled subset. Current: metadata pilot completed; `Set ID 13` is the next linked-package inspection target.
-2. OpenNeuro ds006623 derivative-only intake. Current: small participant, propofol, squeeze-force, and timing files fetched; imaging skipped.
-3. COGITATE design and variable map only. Current: docs/design-variable map created; raw multimodal payload deferred.
+1. DREAM metadata / smallest labeled subset. Current: metadata pilot and A4 report completed; `Set ID 13` is the next linked-package inspection target if raw/signal work is later approved.
+2. OpenNeuro ds006623 derivative-only intake. Current: small participant, propofol, squeeze-force, and timing files fetched; A4 derivative timeline report completed; imaging skipped.
+3. COGITATE design and variable map only. Current: docs/design-variable map and A1 field/access report completed; raw multimodal payload deferred.
 4. OpenNeuro ds004902 metadata and one-subject EEG pilot only. Current: metadata present; raw EEG deferred until explicitly approved.
 
 No huge raw datasets are downloaded during intake.
+
+## Current Research Outputs
+
+- `reports/2026-04-29_external_citation_context_note.md` records how Life Science Research can serve as an external citation/context sensor.
+- `reports/2026-04-29_cogitate_design_variable_map.md` supports the A1 COGITATE pressure report.
+- `reports/2026-04-29_dream_metadata_pilot.md` supports the A4 DREAM re-entry metadata report.
+- `reports/2026-04-29_ds006623_derivative_intake.md` supports the A4 propofol derivative timeline report.
+- `derived/` contains compact JSON summaries that are safe to track; small CSV working tables may remain local-only when blocked by workspace data guards.
 
 ## Contents
 
