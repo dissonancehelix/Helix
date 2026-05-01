@@ -31,6 +31,7 @@ Each lab README must cover:
 - `appearance_ownership_continuity/` — Appearance–Ownership–Continuity Framework work: OCH, DCP, LIP, EIP, ownership, continuity, commitment, residue, and appearance-from-within pressure tests.
 - `cognitive_mapping/` — claims about the operator ontology and the map structure itself.
 - `invariants/` — cross-domain invariant discovery and pressure work.
+- `residue_science/` — reconstructability audits for transformation residue, source lineage, missing evidence, false continuity, and post-refactor claim confidence.
 
 ## Rules
 
