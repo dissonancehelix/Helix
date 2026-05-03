@@ -1,14 +1,14 @@
-# HELIX MUSIC SUBSTRATE SPECIFICATION
+# HELIX MUSIC DOMAIN SPECIFICATION
 
 **Version:** 2.2
 **Status:** Authoritative target specification — implementation status tracked in README.md §11
-**Relationship:** Extends `domains/music/model/README.md`
+**Relationship:** Extends `domains/music/MUSIC.md and manifest.yaml`
 
 ---
 
 ## 1. DOMAIN SCOPE
 
-The Music Substrate operates across three observability layers:
+The Music domain operates across three observability layers:
 - **Causal**: Hardware synthesis logic (register writes, chip state)
 - **Symbolic**: Compositional intent (MIDI, score notation)
 - **Perceptual**: Psychoacoustic outcome (rendered audio, MIR features)
@@ -153,10 +153,10 @@ A violation is a `STRUCTURAL_FAILURE` and must be flagged before Atlas promotion
 
 ---
 
-## 8. ENTRY / HSL INTEGRATION STATE
+## 8. ENTRY / RUNTIME INTEGRATION STATE
 
-**Target**: HSL commands `INGEST_TRACK music.<id>`, `ANALYZE_TRACK music.<id>`, `RUN operator:MUSIC`\
-**Current**: **COMPLETE**. The Music Operator is registered in the core system, enabling real-time session reasoning, semantic retrieval, and safe execution loops directly via HSL.
+**Target**: direct music pipeline calls for ingestion, analysis, feature extraction, and artifact generation.
+**Current**: partial direct Python/tool execution. Music analysis can run through domain-local tooling, but full end-to-end orchestration and validation still need confirmation.
 
 ---
 

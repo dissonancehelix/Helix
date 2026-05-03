@@ -46,6 +46,10 @@ Tenth compression:
 
 > **Revision history is public time made inspectable.**
 
+Eleventh compression:
+
+> **Wiki sociality passes when talk serves the page; discussion without object-change becomes maintenance debt.**
+
 
 ---
 
@@ -1650,6 +1654,40 @@ Second compression:
 
 ---
 
+
+### 24.1 Object-Mediated Collaboration / Low-Maintenance Commons
+
+Wiki collaboration is tolerable when the page remains the shared object.
+
+The operator can participate around articles, templates, sources, categories, and current public state because the interaction has a visible object, policy grammar, source evidence, and a clear route to improvement. This is different from open-ended social maintenance.
+
+Passes:
+
+- direct edits with visible improvement,
+- talk-page discussion that resolves an article problem,
+- template/infobox repair,
+- source lineage clarification,
+- article-currentness maintenance,
+- collaboration where the object carries the interaction.
+
+Fails:
+
+- discussion as status performance,
+- endless consensus ritual with no object-change,
+- personality politics,
+- social obligation detached from article repair,
+- high-frequency talk demands that do not improve the public object.
+
+Best compression:
+
+> **The page carries the social field.**
+
+Second compression:
+
+> **Collaboration passes when the object gets better.**
+
+---
+
 ## 25. Article Pride and Attachment
 
 The operator's wiki pride is not evenly distributed.
@@ -1930,6 +1968,20 @@ False prediction:
 Better prediction:
 
 > Shorter is better only when the body still reopens the subject.
+
+### 29.7 “Likes Wiki Community” vs “Likes Social Maintenance”
+
+Correct rule:
+
+Wiki community/contact passes when the public object remains central. It should not be generalized into broad social appetite or desire for ongoing talk.
+
+False prediction:
+
+> Active editing or talk-page familiarity means the operator likes community interaction for its own sake.
+
+Better prediction:
+
+> The interaction works when it is object-mediated, bounded by policy/source grammar, and changes the page or public state.
 
 Best compression:
 

@@ -21,6 +21,10 @@ Third compression:
 
 > **The repo should be navigable by file exploration, not by psychic debugging.**
 
+Fourth compression:
+
+> **Helix is a cognitive workspace for research, organization, pattern detection, domain testing, external app/data integration, and human–LLM collaboration; friction reduction is the origin pressure, not the whole purpose.**
+
 ## Root Layout
 
 ```text
@@ -308,12 +312,12 @@ Second compression:
 
 > **I care by making the field returnable.**
 
-## Session Harvest And Lineage Passes
+## Direct Session Updates And Lineage Passes
 
 Some high-value AI sessions become evidence sources in their own right.
 
-Claude Desktop, Claude Code, ChatGPT, Codex, and other agent sessions should be
-harvested when they contain:
+Claude Desktop, Claude Code, ChatGPT, Codex, and other agent sessions can patch
+documents directly when they contain clear, domain-owned updates:
 
 - direct operator corrections,
 - strong compression lines,
@@ -324,20 +328,15 @@ harvested when they contain:
 - examples that would otherwise be lost,
 - candidate global patterns.
 
-Harvested sessions should land under:
-
-```text
-labs/domain_synthesis/reports/
-```
-
-Session harvests are evidence, not canon. They can propose domain updates,
-root-doc updates, or `DISSONANCE.md` candidates, but promotion requires review.
+A separate review report is optional, not mandatory. Use one only when the target
+patch is unclear, the evidence touches too many rooms at once, or the operator
+asks for a staged review.
 
 A no-strand-left-standing pass is allowed after a strong lineage session, but it
 must remain gated:
 
 ```text
-session harvest
+live session evidence
 → identify touched domains
 → update only touched domains
 → sync README/AGENTS if agent rules changed
@@ -346,7 +345,7 @@ session harvest
 
 Best compression:
 
-> **Harvest the session’s evidence structure, not its narrative.**
+> **Patch clear evidence directly; use reports only when uncertainty needs an airlock.**
 
 Second compression:
 
@@ -358,8 +357,8 @@ Second compression:
 `labs/` is for pressure tests that cross domains or test master claims. A lab
 must be able to weaken a claim.
 
-`labs/appearance_ownership_continuity/` is the special future/cross-domain lab for
-Appearance–Ownership–Continuity Framework, OCH, DCP, LIP, EIP, consciousness, and owned-continuity work.
+`labs/temporal_ownership/` is the special future/cross-domain lab for
+Temporal Ownership Model, ICT, DCP, LIP, EIP, consciousness, and owned-continuity work.
 
 `archive/` preserves local-only substantial raw provenance grouped by evidence
 type. Heavy datasets, images, hard-to-reproduce exports, and not-yet-ingested

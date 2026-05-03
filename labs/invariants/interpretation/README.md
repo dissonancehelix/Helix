@@ -1,8 +1,8 @@
-# core/probes/math/interpretation/
+# labs/invariants/interpretation/
 
 Research working notes from a prior formal math research session (EIP/DCP theorem development). These are **not pipeline code** — they are the research artifact trail.
 
-**Do not modify the pipeline based solely on these files.** Current pipeline truth lives in `core/probes/math/pipeline.py`, `core/probes/math/e2e.py`, and `core/probes/math/README.md`.
+**Do not modify the pipeline based solely on these files.** Current pipeline truth lives in `labs/invariants/pipeline.py`, `labs/invariants/e2e.py`, and `labs/invariants/README.md`.
 
 ---
 
@@ -36,7 +36,6 @@ System design decisions and evolution.
 | `architecture.md` | Phase 6 architectural stabilization |
 | `history.md` | Research session history |
 | `kernel_history.md` | Kernel design evolution |
-| `hsl_spec.md` | Draft HIL spec (may predate current HSL — verify against `docs/architecture/HSL.md`) |
 | `wsl2.md` | WSL2 substrate notes |
 | `amendments_dual_track_evolution.md` | Dual-track evolution amendments |
 | `amendment_micro_kernel_workspace.md` | Micro-kernel workspace amendment |
@@ -153,8 +152,3 @@ DCP/EIP applied to specific external domains. Exploratory probes.
 | `stabilization_feasibility_overlay.md` | Stabilization feasibility |
 | `verdict.md` | Research verdict summary |
 
----
-
-## Note on `hsl_spec.md`
-
-This file contains a draft specification for a "Helix Interface Language" from an earlier research session. It may predate or conflict with the current HSL spec at `docs/architecture/HSL.md`. **Do not treat it as authoritative.** The current HSL spec is canonical.

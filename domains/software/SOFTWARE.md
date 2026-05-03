@@ -425,11 +425,16 @@ Second compression:
 
 > **Chat explains; files preserve and transfer.**
 
-### 3.9 Session Harvest Lane
+### 3.9 Direct Session Patch Lane
 
-High-value LLM sessions should have a standard extraction lane.
+High-value LLM sessions should have a direct patch lane when the affected domain
+and target change are clear.
 
-The purpose is not to immortalize every chat. The purpose is to preserve sessions where cognition was actively changing shape:
+The purpose is not to immortalize every chat. The purpose is to keep useful
+corrections, boundary clarifications, examples, and agent-behavior lessons from
+evaporating as chat prose.
+
+Patch-worthy session material:
 
 - major corrections
 - new global candidates
@@ -444,21 +449,18 @@ The purpose is not to immortalize every chat. The purpose is to preserve session
 Preferred outputs:
 
 ```text
-claude_session_harvest.md
-claude_session_evidence_index.jsonl
-claude_session_domain_findings.md
-claude_session_agent_interaction_patterns.md
-claude_session_artifact_ledger.csv
-claude_session_global_candidates.md
-claude_session_manual_review.md
+patched Markdown files
+diff or before/after summary
+ZIP bundle when patches are delivered through chat
+patch notes when useful
 ```
 
-These reports should land in archive or lab review lanes. They should not directly modify canon.
+Separate reports are optional. Use them only when evidence is unclear, the target
+room is disputed, or the operator explicitly wants a staged review.
 
 Best compression:
 
-> **Harvest the evidence structure before the live context disappears.**
-
+> **Clear live-session evidence should become targeted patches, not another layer of paperwork.**
 
 
 ### 3.10 AI, Curation, and Control Surfaces
@@ -502,6 +504,99 @@ operator map
 ```
 
 Helix should make the operator and LLM more powerful without making either babysit the structure.
+
+### 4.0a Helix As General Cognitive Workspace
+
+Helix is not only a friction-reduction tool. Friction reduction is the origin
+pressure; the larger role is a cognitive workspace for research, organization,
+pattern detection, domain testing, external app/data integration, and human–LLM
+collaboration.
+
+Current shape:
+
+```text
+personal cognitive map
++ named domain rooms
++ evidence archives
++ external app/data lanes
++ source hierarchy
++ LLM collaboration rules
++ runnable tests and tools
+= cognitive workspace
+```
+
+The workspace gets stronger as domains become sharper. More precise examples,
+exceptions, negative controls, and direct corrections constrain future AI output
+and make the interaction less generic.
+
+Best compression:
+
+> **Helix is a pattern workspace first; friction reduction is why it had to exist.**
+
+### 4.0b Current Runtime Friction And Cloud Target
+
+The main current bottleneck is workflow/runtime friction rather than conceptual
+architecture.
+
+Current friction:
+
+```text
+need local OS
++ need Codex/frontier-model reasoning
++ need repo checkout
++ need script execution
++ need manual sync / artifact relay
++ limited mobile access
+= Helix cannot yet be fully used on the go
+```
+
+Target form:
+
+```text
+cloud Helix runtime
++ chat interface
++ repo access
++ connected apps
++ test runners
++ artifact outputs
++ source-aware memory
++ mobile access
+= Helix usable anywhere
+```
+
+The project is intentionally slightly ahead of current tooling. As LLMs gain
+more reliable agentic execution, longer context, better tool use, and stronger
+self-monitoring, Helix should become more powerful without needing to reinvent
+its ontology.
+
+Best compression:
+
+> **The ultimate Helix is a persistent cognitive workspace that can be entered from anywhere.**
+
+### 4.0c LLM Operational Meta-Awareness Wishlist
+
+Future LLMs should become better at monitoring their own inferred behavior, not
+just reacting to the latest prompt.
+
+Desired behavior:
+
+```text
+I am using pattern X.
+The user did not explicitly request X.
+Pattern X was inferred from documents or prior corrections.
+The user has tolerated or rewarded X.
+Potential risk: overusing it may become stylistic drift.
+Adjust or ask if it stops helping.
+```
+
+This would not prove consciousness. It would be operational meta-awareness: a
+model tracking its own assumptions, inferred conventions, pattern adoption, and
+risk of overfitting to the user. Helix benefits from this even if the capability
+lives inside the model rather than inside Helix code.
+
+Best compression:
+
+> **The next useful model jump is not just knowing more; it is knowing what it is assuming while it works.**
 
 ### 4.1 Core Compresses / Domains Decompress
 
@@ -790,7 +885,7 @@ Good software can bridge time for the operator by preserving:
 - source lineage
 - memory entries
 - validation output
-- session harvests
+- direct session patch bundles
 - claim ledgers
 
 But those artifacts are continuity scaffolds, not proof that the agent has owned temporal experience.
@@ -1242,7 +1337,7 @@ Reusable, reviewable, or repo-relevant outputs should become files rather than r
 ## Strong signals
 - downloadable prompt requests
 - domain file workflow
-- session harvest bundle
+- direct session patch bundle
 - artifact ledger preference
 - repo ingestion workflow
 - desire to reduce paste/codeblock failure
@@ -1251,22 +1346,22 @@ Reusable, reviewable, or repo-relevant outputs should become files rather than r
 Reusable structure deserves a file.
 ```
 
-### Claim: Session Harvest Lane
+### Claim: Direct Session Patch Lane
 
 ```md
 ## Claim
-High-value LLM sessions should be extracted into structured, downloadable evidence reports before live context is lost.
+High-value LLM sessions should produce targeted document patches directly when the touched domains and target changes are clear.
 
 ## Strong signals
-- Claude session harvest workflow
-- evidence index JSONL
-- domain findings report
-- global candidates report
-- manual review checklist
-- archive/lab airlock model
+- domain file workflow
+- downloadable patch bundles
+- direct operator corrections
+- agent mistake correction
+- patch notes when useful
+- reports only when uncertainty needs an airlock
 
 ## Best compression
-Harvest the evidence structure before the live context disappears.
+Clear live-session evidence should become targeted patches, not another layer of paperwork.
 ```
 
 ### Claim: Tools As Handles

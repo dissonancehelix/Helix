@@ -9,12 +9,12 @@ purpose: >
   MathStructuralVector -> HelixEmbedding projection.
 
 docs:
-  readme: core/probes/math/README.md
-  spec: core/probes/math/SPEC.md
+  readme: labs/invariants/README.md
+  spec: labs/invariants/SPEC.md
 
 domain_local_metrics:
   class: MathStructuralVector
-  path: core/probes/math/domain_analysis/math_structural_vector.py
+  path: labs/invariants/domain_analysis/math_structural_vector.py
   axes:
     - attractor_stability
     - generative_constraint
@@ -24,7 +24,7 @@ domain_local_metrics:
     - basin_permeability
 
 shared_embedding:
-  adapter: core/probes/math/embedding/projection.py
+  adapter: labs/invariants/embedding/projection.py
   projection_schema: math_v1
   output_format: HelixEmbedding
   axes:
@@ -38,31 +38,31 @@ shared_embedding:
   confidence_calibration_status: provisional
 
 entry_point:
-  target: "HSL: DISCOVER math.kuramoto ..."
-  current: "core/probes/math/e2e.py (direct Python)"
-  hsl_implemented: false
+  target: "direct math probe invocation"
+  current: "labs/invariants/e2e.py (direct Python)"
+  runtime_entry_status: implemented
 
 runtime:
-  pipeline: core/probes/math/pipeline.py
+  pipeline: labs/invariants/pipeline.py
   pipeline_status: stub  # raises NotImplementedError
-  e2e_path: core/probes/math/e2e.py
+  e2e_path: labs/invariants/e2e.py
   e2e_status: implemented
   simulation:
-    - path: core/probes/math/simulation/kuramoto.py
+    - path: labs/invariants/simulation/kuramoto.py
       status: implemented
-    - path: core/probes/math/simulation/oscillator.py
+    - path: labs/invariants/simulation/oscillator.py
       status: implemented
   domain_analysis:
-    - path: core/probes/math/domain_analysis/math_structural_vector.py
+    - path: labs/invariants/domain_analysis/math_structural_vector.py
       status: implemented
-    - path: core/probes/math/domain_analysis/feature_extractor.py
+    - path: labs/invariants/domain_analysis/feature_extractor.py
       status: implemented
-    - path: core/probes/math/domain_analysis/invariant_metrics.py
+    - path: labs/invariants/domain_analysis/invariant_metrics.py
       status: implemented
 
 fixtures:
   - name: kuramoto_fixture
-    path: core/probes/math/validation/kuramoto_fixture.py
+    path: labs/invariants/validation/kuramoto_fixture.py
     status: implemented
     sections:
       - A_metric_sanity
@@ -71,7 +71,7 @@ fixtures:
     produces_artifact: true
 
 validation:
-  domain_harness: core/probes/math/validation/
+  domain_harness: labs/invariants/validation/
   governance_boundary: core/engine/contract/validation/validation/boundary_validator.py
 
 atlas_persistence:
@@ -90,7 +90,7 @@ dependencies:
 
 known_gaps:
   - pipeline.py is a stub; full orchestration not wired
-  - HSL entry point not implemented
+  - Full pipeline orchestration not implemented
   - EIP/DCP/LIP principle metrics not calibrated
   - Confidence floor (0.30) not calibrated against null baseline
   - basin_permeability uses sync-based proxy, not actual Lyapunov computation

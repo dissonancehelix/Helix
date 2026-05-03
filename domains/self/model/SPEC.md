@@ -3,7 +3,7 @@
 **Version**: 0.1  
 **Status**: Provisional skeleton — target specification only  
 **Updated**: 2026-03-21  
-**Relationship**: Extends `domains/self/model/README.md`
+**Relationship**: Extends `domains/self/SELF.md and manifest.yaml`
 
 > All pipeline stages, artifact schemas, and thresholds described here are
 > target architecture. Implementation status is tracked in `manifest.yaml`
@@ -234,10 +234,10 @@ Triangle inequality applies to distance, not similarity. Violations are
 
 ---
 
-## 8. ENTRY / HSL INTEGRATION STATE
+## 8. ENTRY / RUNTIME INTEGRATION STATE
 
-**Target**: `HSL: PROBE cognition.<agent_id>`  
-**Current**: Not implemented. No HSL operator is wired for cognition probes.
+**Target**: direct cognition/self probe invocation.  
+**Current**: Not implemented. No runtime entry point is wired for cognition probes.
 
 ---
 

@@ -518,7 +518,7 @@ The 3D Blast ROM contains internal composer data for some tracks — the source 
 
 ## Pipeline Entry Points
 
-### Analyze a single S3K track (HSL)
+### Analyze a single S3K track
 
 ```
 helix exec "ANALYZE TRACK track:music.track.sonic_3_knuckles.15_mushroom_hill_zone_act_1"
@@ -533,19 +533,19 @@ python labs/s3k_composer_fingerprint.py
 ### Run Phase 2 — full S3K batch (canonical)
 
 ```
-helix run labs/hsl/s3k_full_pass.hsl
+python -m domains.music.labs.probes.s3k_analysis --mode full
 ```
 
 ### Run Phase 2a — Sega Sound Team / uncredited subset
 
 ```
-helix run labs/hsl/s3k_uncredited.hsl
+python -m domains.music.labs.probes.s3k_analysis --mode uncredited
 ```
 
 ### Run Phase 2b — exclusive pass against mapped credits
 
 ```
-helix run labs/hsl/s3k_exclusive.hsl
+python -m domains.music.labs.probes.s3k_analysis --mode exclusive
 ```
 
 **Library:** `codex/library/music/album/sonic_3_knuckles/`

@@ -29,6 +29,10 @@ Sixth compression:
 
 > **This is autistic-common, not unique; the unique part is the exact parameter map.**
 
+Seventh compression:
+
+> **Thanksgiving is autumn + food + football continuity; it should not be overread as family-contact drive.**
+
 ---
 
 ## 0. Scope and Ground Rules
@@ -551,7 +555,7 @@ Compression:
 
 ## 5. Master Anchor: Thanksgiving
 
-Thanksgiving is the cleanest food-domain anchor, but it should **not** be described primarily as a ritual. The pull is more concrete and less mystical than that.
+Thanksgiving is the cleanest food-domain anchor, but it should **not** be described primarily as a ritual. The pull is more concrete and less mystical than that. It should also not be overread as strong family-contact motivation: the holiday passes through autumn, food, football, familiar plate grammar, and seasonal return more than kinship obligation.
 
 Thanksgiving works because it combines:
 
@@ -2080,6 +2084,20 @@ Best compression:
 ---
 
 ## 23. False Positives / Negative Controls
+
+### 23.0 “Likes Thanksgiving” vs “Needs Family Ritual”
+
+Correct rule:
+
+Thanksgiving is the strongest holiday/food anchor because autumn, favorite foods, football, warm sides, desserts, and bounded abundance converge. It should not be assumed to imply strong family-contact drive or hidden family nostalgia.
+
+False prediction:
+
+> Thanksgiving matters primarily because of family togetherness or ritual obligation.
+
+Better prediction:
+
+> Thanksgiving matters because nearly every piece of the seasonal food-field passes: autumn, football, warm familiar foods, pies, and bounded abundance.
 
 ### 22.1 “Likes fast food”
 

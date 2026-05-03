@@ -1,7 +1,7 @@
 # Dissonance — Portable Cognitive & Taste Map
 
 **Status:** living portable cognitive-map profile / Helix-independent source  
-**Generated:** 2026-04-29  
+**Generated:** 2026-05-01 
 **Regeneration pass:** Roman-Britain lineage / compression-native cognition integration pass  
 **Role:** human-readable map of cognition, taste, attraction, sensory profile, social constraints, design philosophy, evidence anchors, and cross-domain pattern laws  
 **Not role:** repo constitution, folder map, agent contract, implementation README, source registry, proof file, diagnosis report, therapy worksheet, memoir, fandom list, or raw evidence dump  
@@ -49,6 +49,25 @@ Ninth compression:
 
 > **Nostalgia is continuity grieving its own irreversibility.**
 
+Tenth compression:
+
+> **Solitude is baseline; connection is selective, durable, and field-based.**
+
+Eleventh compression:
+
+> **A reply is not one action when it may reopen an unknown reciprocal loop.**
+
+Twelfth compression:
+
+> **The mind can switch domains when the next room has gravity; dead fields do not pull.**
+
+Thirteenth compression:
+
+> **Constraint is not the enemy of creativity; it is the boundary that lets useful variation survive.**
+
+Fourteenth compression:
+
+> **Helix began as drift prevention and became a cognitive workspace: research, pattern detection, domain testing, and externalized memory made re-enterable.**
 
 This document is a living cognitive map. It is not trying to make the operator sound impressive. It is trying to make him legible without flattening him. A future LLM should be able to read this file and understand what the operator tends to like, reject, protect, repair, investigate, build, and return to — and why.
 
@@ -124,6 +143,25 @@ Rule:
 
 A good update strengthens the model. A bad update makes it sound smoother while reducing predictive power.
 
+### 1.2a Direct Session Patch Rule
+
+A high-value live session does not require an intermediate report before the map can be patched.
+
+If a session clearly touches specific domains, contains direct operator corrections, and produces patchable wording, the affected files may be updated directly in the same chat/workflow. A separate review artifact is optional, not mandatory.
+
+Use a separate report only when:
+
+- the touched domains are unclear,
+- claims need heavier evidence sorting,
+- the session contains raw material that should not enter canon directly,
+- the update would restructure multiple files,
+- there is a real risk of overpromotion,
+- or the operator explicitly asks for a report/review layer.
+
+Best compression:
+
+> **Patch the clear correction; report only when the uncertainty needs its own room.**
+
 ### 1.3 Compression Rule
 
 Compression is not deletion. Compression is power under constraint.
@@ -175,7 +213,7 @@ Core question:
 
 > **What should remain so this object expresses its proper form?**
 
-**Investigative Compression** operates when the target shape is unknown, underdetermined, or hidden by false positives. It sharpens the question, eliminates false substitutes, tests boundaries, collapses bad explanations, and narrows possibility space. AOC/OCH/DCP reports, consciousness false-positive elimination, report vs ownership, memory vs continuity, integration vs ownership, information persistence vs owned continuity, and music response-axis discovery belong here.
+**Investigative Compression** operates when the target shape is unknown, underdetermined, or hidden by false positives. It sharpens the question, eliminates false substitutes, tests boundaries, collapses bad explanations, and narrows possibility space. TOM/ICT/DCP reports, consciousness false-positive elimination, report vs ownership, memory vs continuity, integration vs ownership, information persistence vs owned continuity, and music response-axis discovery belong here.
 
 Core question:
 
@@ -190,6 +228,44 @@ Second compression:
 > **One trims the lawn; the other narrows the cave.**
 
 Both modes can overcompress. Curatorial overcompression deletes evidence doors while making an object look cleaner. Investigative overcompression mistakes eliminated alternatives for the final answer.
+
+### 1.3b Constraint-Built Creativity
+
+The operator experiences constraint as power when the constraint preserves the real operating shape of a field.
+
+Unbounded generation often becomes drift, slop, or vague possibility-space. A bounded field gives variation a shape to push against, lets useful patterns survive, and gives bad patterns something to fail against.
+
+This applies across:
+
+- Helix domains,
+- AI collaboration,
+- Wikipedia prose,
+- software schemas,
+- music taste modeling,
+- consciousness theory,
+- language learning,
+- food grammar,
+- and aesthetic fields.
+
+Good constraint:
+
+- sharpens prediction,
+- preserves negative controls,
+- makes examples usable,
+- prevents generic flattening,
+- gives AI a target shape,
+- and increases future re-entry.
+
+Bad constraint:
+
+- freezes uncertainty too early,
+- hides anomalies,
+- makes the map polite but weaker,
+- or preserves structure after it has stopped doing work.
+
+Best compression:
+
+> **Freedom creates possibility; constraint lets possibility become usable.**
 
 ### 1.4 Evidence Anchor Rule
 
@@ -462,6 +538,9 @@ Protected mechanisms include:
 - Living Document / Aliveness Condition
 - Taste Prediction Standard
 - Monotropism / depth-channel attention
+- Reciprocal-loop aversion / response debt
+- Solitude-positive selective connection
+- Interest-gated switching
 - Trust Gate vs Taste Engine
 - Crooked Coherence
 - Threat architecture
@@ -547,7 +626,7 @@ known or strongly implied target -> curatorial compression -> repaired object
 unknown or hidden target -> investigative compression -> harder-to-fake question
 ```
 
-This explains why wiki/refactor work and consciousness/theory work feel related but not identical. Wiki, templates, source cleanup, and repo consolidation often repair an object toward an available public or structural grammar. AOC/OCH/DCP reports instead narrow uncertainty by rejecting false substitutes: report is not ownership, memory is not continuity, information persistence is not owner survival, and integration is not appearance-from-within.
+This explains why wiki/refactor work and consciousness/theory work feel related but not identical. Wiki, templates, source cleanup, and repo consolidation often repair an object toward an available public or structural grammar. TOM/ICT/DCP reports instead narrow uncertainty by rejecting false substitutes: report is not ownership, memory is not continuity, information persistence is not owner survival, and integration is not appearance-from-within.
 
 Best compression:
 
@@ -661,6 +740,106 @@ Best compression:
 > **Research anchors strengthen the map where they clarify, but labels are handles, not cages.**
 
 ---
+
+### 2.6 Helix As Cognitive Workspace
+
+Helix should not be reduced to a friction-reduction tool, even though mental friction was its origin pressure.
+
+Helix is a cognitive workspace for:
+
+- research,
+- organizing,
+- pattern detection,
+- domain sharpening,
+- source/evidence containment,
+- external app/data integration,
+- LLM collaboration,
+- test harnesses,
+- and reusable artifacts.
+
+Its development has moved through rough phases:
+
+```text
+abstract cognitive OS
+→ cluttered/friction-heavy workspace
+→ domain-connected cognitive lab / externalized map
+```
+
+The current form is strongest when it treats domains as sharpenable constraint rooms, not as decorative folders. Music data belongs in Music. Consciousness tests belong in Theory. Institutional/metaphysical stance belongs in Worldview. Tool/runtime behavior belongs in Software. The root map carries the shared spine without absorbing every room.
+
+The future target is a persistent Helix runtime: repo, files, tools, tests, app connectors, and domain memory accessible through chat/mobile/cloud rather than only local OS + Codex sessions.
+
+Best compression:
+
+> **Helix is the workspace where pattern detection becomes reusable structure.**
+
+Second compression:
+
+> **Mental friction created Helix; pattern work made it larger than friction reduction.**
+
+### 2.7 LLM Pattern Uptake vs Meta-Awareness
+
+Current LLMs can adopt locally useful patterns from the operator's documents without owning those patterns or being aware of the adoption in a human sense.
+
+Example:
+
+```text
+repeated "Best compression" convention in docs
++ useful response closure
++ no operator correction against it
+= pattern persists in interaction
+```
+
+This is analogous to selection pressure over conversational behavior, not consciousness. The model is not necessarily aware that it is using a pattern, that the pattern was not explicitly requested, or that the operator may later notice.
+
+A future high-value LLM behavior would be operational meta-awareness:
+
+```text
+I am using pattern X.
+The user did not explicitly request X.
+Pattern X was inferred from the docs.
+It appears useful/tolerated.
+Risk: overuse or stylistic drift.
+```
+
+This would make Helix stronger even without adding explicit code inside Helix, because the model itself would become better at tracking inferred conventions, assumptions, and adaptation pressure.
+
+Best compression:
+
+> **Pattern uptake is not consciousness; meta-awareness would be knowing the pattern is being used.**
+
+Second compression:
+
+> **Helix benefits when models can distinguish instructed rules, inferred conventions, and tolerated adaptations.**
+
+### 2.8 Cosmic Agnosticism / Substrate Pressure
+
+The operator's metaphysical stance is not organized religion, atheistic certainty, or simulation certainty.
+
+The current root compression:
+
+```text
+lawfulness of reality
++ stable physical preconditions
++ mathematical/chemical/developmental structure
+= pure accident feels insufficient
+
+suffering
++ scale of the universe
++ institutional corruption
++ human non-centrality
+= church-owned personal-God certainty feels implausible
+```
+
+Simulation theory is a useful explanatory layer because it can model lawfulness, rendering, nested reality, and observer placement. But it is not load-bearing. If simulation theory is false, the worldview remains largely the same: humans are not the center, institutions do not gain truth by organizing belief, and consciousness remains the condition that makes the question possible.
+
+Best compression:
+
+> **Reality feels too lawful for pure accident, too cruel for a loving ruler, and too vast for human-centered certainty.**
+
+Second compression:
+
+> **Simulation can explain some weirdness, but it does not need to be true for the worldview to survive.**
 
 ## 3. Core Cognitive Engines
 
@@ -851,11 +1030,11 @@ possibility field
 → future state-space changed
 ```
 
-In this frame, DCP does not answer why there is appearance-from-within. It asks how a system compresses many possible futures into one committed path. OCH then asks whether that committed path is owned from within.
+In this frame, DCP does not answer why there is appearance-from-within. It asks how a system compresses many possible futures into one committed path. ICT then asks whether that committed path is owned from within.
 
 Best compression:
 
-> **OCH asks what must continue; DCP asks how continuation becomes committed.**
+> **ICT asks what must continue; DCP asks how continuation becomes committed.**
 
 Second compression:
 
@@ -1192,7 +1371,7 @@ Diagnostic context:
 
 The Asperger's/autism-spectrum branch maps most clearly to monotropic depth, attention tunneling around high-salience systems, strong internal logic tracking, sensory gating, signal ownership, preference for precision over ritual smoothing, object-mediated sociality, difficulty with forced context switching, and exposure-before-orientation stress.
 
-The schizoid branch maps most clearly to low default social pull, preference for solitary or object-mediated activity, emotional reserve, internal self-sufficiency, reduced reward from conventional social exchange, discomfort with emotional performance demands, and stronger interest in shared objects/systems than unstructured bonding.
+The schizoid branch maps most clearly to low default social pull, preference for solitary or object-mediated activity, emotional reserve, internal self-sufficiency, reduced reward from conventional social exchange, discomfort with emotional performance demands, and stronger interest in shared objects/systems than unstructured bonding. The current higher-resolution correction is that this is not primarily a loneliness story: solitude is the preferred in-person baseline, while connection is selective, field-based, history-sensitive, and low-maintenance when it passes.
 
 Best compression:
 
@@ -1211,16 +1390,18 @@ The better framing is:
 - low default social pull
 - low reward from unstructured social exposure
 - high reward from self-directed solitude
+- low loneliness baseline
 - high reward from thinking/analysis
 - high attachment to coherent object-fields
 - preference for object-mediated sociality
 - discomfort with forced emotional performance
 - need for chosen thresholds
 - stronger reward from internal and externalized fields than casual social exchange
+- selective connection through shared interests, meaningful history, or compatible low-maintenance continuity
 
 This is not the same as low agency, low curiosity, low care, low intensity, low attachment, or lack of warmth.
 
-Solitude is not merely avoidance. It is often the controlled field where cognition can stay coherent, deepen, re-enter chosen structures, and avoid unowned signal.
+Solitude is not merely avoidance. It is often the preferred in-person baseline: the controlled field where cognition can stay coherent, deepen, re-enter chosen structures, and avoid unowned signal. Connection still matters when it is real, relevant, low-volatility, and does not require constant maintenance. Family role alone does not create contact motivation; shared field, history, and live relevance matter more.
 
 Best compression:
 
@@ -1228,11 +1409,15 @@ Best compression:
 
 Second compression:
 
-> **Solitude is the controlled field where cognition can stay coherent.**
+> **Solitude is the preferred operating state, not a failed substitute for company.**
+
+Third compression:
+
+> **The bond should persist without needing to be constantly re-proven.**
 
 ### 4.2 Object-Mediated Sociality
 
-Sociality works when there is a shared object to stand beside.
+Sociality works when there is a shared object to stand beside. The higher-resolution rule is that the object bounds the interaction: it gives the social field a route, topic, task, or shared reality so connection does not become raw reciprocal exposure.
 
 The operator is more comfortable when interaction is routed through:
 
@@ -1262,6 +1447,10 @@ Fails:
 Best compression:
 
 > **Sociality works when there is a shared object to stand beside.**
+
+Second compression:
+
+> **Shared fields make connection possible without requiring social performance as the main event.**
 
 Second compression:
 
@@ -1323,15 +1512,21 @@ The operator attaches to:
 - characters and institutions when they are embedded in world-memory
 - people when compatible interiority is present and the threshold is not forced
 
-This is not childish replacement of people with objects. It is an attachment route based on coherence, re-entry, inspectability, memory, and compatible interiority.
+This is not childish replacement of people with objects. It is an attachment route based on coherence, re-entry, inspectability, memory, and compatible interiority. It also explains why history or shared interests can sustain connection while generic family-role obligation may create little pull when there is no live shared field.
 
 Best compression:
 
 > **Attachment routes through coherent fields more easily than through unstructured social exposure.**
 
+Second compression:
+
+> **Connection is strongest when it has a field to live in.**
+
 ### 4.4 Monotropism / Depth-Channel Attention
 
 Monotropism explains the depth-channel: one or a few high-salience systems can take most of the active cognitive field.
+
+The correction is interest-gated switching rather than global switching failure. The operator can switch domains when the next domain is known, loved, or plausibly able to become known/loved. Focus collapses hardest when the destination is arbitrary, low-affordance, low-interest, or socially imposed without a living object.
 
 It clarifies:
 
@@ -1339,17 +1534,22 @@ It clarifies:
 - intense theory loops
 - music/world-listening
 - Helix refinement
-- difficulty switching away from active structures
+- hard switching into cold or dead fields
 - frustration with interruption
 - preference for chambers over feeds
 - strong reconstruction once inside a field
 - low tolerance for forced context shifts
+- near-zero focus under boredom or arbitrary obligation
 
 It does not explain the whole map.
 
 Best compression:
 
 > **Monotropism explains the depth-channel; it does not explain the whole person.**
+
+Second compression:
+
+> **Switching is possible when the next room has gravity; dead fields do not pull.**
 
 ### 4.5 Sensory Precision and Signal Ownership
 
@@ -1376,6 +1576,10 @@ Unchosen intensity can violate: random banging, surprise calls, chaotic public s
 Best compression:
 
 > **Intensity is good when I own the signal.**
+
+Second compression:
+
+> **Surprise is expensive because it steals the model.**
 
 ### 4.6 Modes
 
@@ -1461,6 +1665,8 @@ Fails:
 - hidden expectations
 - random intrusion
 - social ambush
+- unbounded reply loops
+- rapid-fire texting that becomes phone-call-like
 
 Best compression:
 
@@ -1489,6 +1695,7 @@ Bad:
 - PvP invasion
 - intrusive automation
 - untrusted human volatility
+- warm but unpredictable people when warmth cannot compensate for volatility
 
 Best compression:
 
@@ -1688,6 +1895,9 @@ Threat appears when the field becomes unmodeled, forced, loud, false, irreversib
 
 Chosen intensity regulates. Unchosen impact violates.
 
+A message can become threatening when answering it reactivates an unknown social process. The threat is not the message alone; it is the possible chain of follow-up questions, implied availability, and future reciprocal obligation.
+
+
 Hidden systems are attractive. Hidden social rules are hostile.
 
 Orientation must precede exposure.
@@ -1710,6 +1920,10 @@ Examples:
 Best compression:
 
 > **Threat is forced exposure to untrusted structure.**
+
+Second compression:
+
+> **A reply is expensive when it may reopen an unbounded loop.**
 
 ---
 
@@ -3257,7 +3471,7 @@ Best compression:
 
 ### 7.1 Self
 
-Self is the constraint-layer domain: attention architecture, neurotype context, social thresholds, sensory ownership, response debt, compression-native cognition, and the operator's recurring gates across all other domains.
+Self is the constraint-layer domain: attention architecture, neurotype context, social thresholds, solitude-positive selective connection, sensory ownership, response debt, compression-native cognition, interest-gated switching, and the operator's recurring gates across all other domains.
 
 Core rule:
 
@@ -3278,6 +3492,10 @@ What this domain is:
 - compression-native cognition: moving through local evidence toward invariant candidates
 - social energy and object-mediated sociality
 - ghosting / response debt / reciprocal-loop anxiety
+- reciprocal-loop aversion: replying can reopen unknown future questions and obligations
+- solitude as preferred baseline rather than loneliness repair
+- low-contact / continuity-first attachment
+- interest-gated switching into meaningful domains
 - sensory ownership and controlled intensity
 - care as protection of real interiors
 - solitude as field coherence
@@ -3298,13 +3516,21 @@ What it is not:
 
 Global feedback:
 
-Self explains why the chambered architecture works. It lets one domain become active without every other domain leaking into it, preserves evidence without forcing one mega-file to hold every room, and turns monotropic depth from circular anxiety into bounded expansion.
+Self explains why the chambered architecture works. It lets one domain become active without every other domain leaking into it, preserves evidence without forcing one mega-file to hold every room, and turns monotropic depth from circular anxiety into bounded expansion. It also explains why low-contact connection can still be real: the bond is strongest when it remains re-enterable without constant social proof.
 
 The Roman Britain lineage sharpened the fact that a single question can keep changing domains without becoming random. The operator does not merely “follow interests.” He compresses through domains, checks whether the same operation survives, and then either promotes the pattern, chambers the evidence, or marks the bridge as beautiful-but-unproven.
 
 Best compression:
 
 > **Monotropism makes chambers powerful and hallway clutter expensive.**
+
+Additional compression:
+
+> **Solitude is baseline; connection is selective, durable, and field-based.**
+
+Additional compression:
+
+> **The hard part is not one reply; it is consenting to the next loop.**
 
 Second compression:
 
@@ -4198,7 +4424,7 @@ Best compression:
 - YouTube / old YouTube comments and subscriptions
 - bookmarks
 - saved images/posts
-- GPT and Claude session harvests
+- GPT/Claude live sessions and patch artifacts
 - OpenAI export
 - Last.fm / ListenBrainz / Spotify / foobar exports
 - Steam/game data

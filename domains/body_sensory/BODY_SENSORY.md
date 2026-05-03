@@ -25,6 +25,10 @@ Fifth compression:
 
 > **The sensory gate cares less about intensity than ownership.**
 
+Sixth compression:
+
+> **Surprise is expensive because it steals the model.**
+
 ---
 
 ## 0. Scope and Safety Boundary
@@ -263,7 +267,7 @@ Best compression:
 
 ### 3.5 Controlled Intensity
 
-The body/sensory system can like intense input when it is chosen.
+The body/sensory system can like intense input when it is chosen. The newer resolution is that intensity itself is not the primary problem; unmodeled, unchosen, or socially imposed input is.
 
 Chosen intensity:
 
@@ -278,11 +282,13 @@ Chosen intensity:
 - authored danger
 - physically demanding work when meaningful
 - high-volume audio replacing ambient noise
+- bounded text or chat around a shared object
 
 Unchosen intensity:
 
 - random banging
 - surprise calls
+- rapid-fire messages that turn text into live obligation
 - fluorescent glare
 - heat
 - traffic volatility
@@ -295,6 +301,10 @@ Unchosen intensity:
 Best compression:
 
 > **Intensity is not the problem. Unowned signal is.**
+
+Second compression:
+
+> **Chosen signal can be intense; unchosen signal feels invasive because it removes ownership and prediction.**
 
 ---
 
@@ -600,6 +610,8 @@ Best compression:
 ---
 
 ## 8. Sensory Ownership Model
+The model now explicitly includes social and communication input. Phone calls, surprise questions, rapid reciprocal texting, and unpredictable human volatility can function like sensory intrusions because they seize timing, attention, and future obligation before the operator has consented to the loop.
+
 
 The central body/sensory distinction:
 
@@ -720,6 +732,14 @@ Compression:
 
 ---
 
+### 9.6 Social / Communication
+
+The body/sensory gate overlaps with social contact when communication becomes unowned input. Text is easier than calls because it can be paced, reread, edited, and bounded. But text can fail when it becomes rapid-fire, emotionally demanding, or open-ended enough to mimic a call.
+
+Best compression:
+
+> **Text is regulating only while it stays bounded.**
+
 ## 10. False Positives / Negative Controls
 
 ### 10.1 “Likes pain”
@@ -727,6 +747,10 @@ Compression:
 False.
 
 The operator likes controlled, meaningful, localizable soreness/pressure. Injury pain, sharp pain, random pain, and threatening pain do not belong.
+
+### 10.1a “Text preference means all texting is easy”
+
+False. Text passes because it can preserve pacing and control. It fails when the other person treats a reply as permission for immediate back-and-forth, unknown questions, or a new obligation chain.
 
 ### 10.2 “Dislikes loudness”
 

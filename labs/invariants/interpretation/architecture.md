@@ -25,13 +25,13 @@ The stable execution core. Rarely changes.
 
 **Responsibilities:**
 - Runtime environment control
-- Command normalization via HIL (Helix Interface Language)
-- Command validation and dispatch
+- Request normalization through explicit script/tool arguments
+- Request validation and dispatch
 - Filesystem discipline and artifact writing
 - Deterministic execution guarantees
 
 **Components:**
-- `kernel/hil/` — grammar, normalizer, validator, dispatch interface
+- direct tool/script arguments — normalize inputs at the owning runner
 - `kernel/dispatcher/` — routes normalized commands to engines
 - `kernel/runtime/` — execution lifecycle and environment management
 
@@ -47,7 +47,7 @@ Modular execution environments. New engines can be added without touching the ke
 - `engines/python/` — computational experiments (networks, dynamics, CA, evolutionary, info theory)
 - `engines/godot/` — spatial simulation (multi-agent, physics, embodied experiments)
 
-**Interface:** Each engine exposes a `run(envelope: dict) -> dict` method that accepts a normalized HIL envelope.
+**Interface:** Each engine exposes a `run(envelope: dict) -> dict` method that accepts a normalized runtime envelope.
 
 ---
 
@@ -81,7 +81,7 @@ Helix's persistent memory and knowledge system.
 - `atlas/observations/` — raw observations and measurements
 - `atlas/regimes/` — detected regime maps
 - `atlas/invariants/` — invariant candidates and proofs
-- `atlas/docs/` — architecture, philosophy, roadmap, HIL spec, simulation stack
+- `atlas/docs/` — architecture, philosophy, roadmap, simulation stack notes, simulation stack
 
 ---
 

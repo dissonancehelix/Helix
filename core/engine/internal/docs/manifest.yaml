@@ -30,8 +30,7 @@ subtrees:
       - PIPELINE.md
       - SPEC.md
       - ENTITY_SCHEMA.md
-      - OPERATOR_SPEC.md
-      - HSL.md
+      - OPERATOR_SPEC.md
 
   - name: governance
     path: core/engine/internal/docs/governance/

@@ -132,12 +132,13 @@ When analyzing a ChatGPT export:
 - Any proposed change to `DISSONANCE.md` must be listed in a synthesis report,
   not applied automatically.
 
-## Session Harvest Rules
+## Direct Session Patch Rules
 
-When a live AI session contains high-value evidence, create a harvest report
-instead of relying on memory or chat-scroll archaeology.
+When a live AI session contains high-value evidence and the touched domains are
+clear, patch the affected documents directly instead of creating an extra
+intermediate report.
 
-Harvest-worthy material includes:
+Patch-worthy material includes:
 
 - direct operator corrections,
 - short exact phrases that define a boundary,
@@ -145,26 +146,26 @@ Harvest-worthy material includes:
 - best compression lines,
 - domain-specific findings,
 - false positives / negative controls,
-- artifact ledgers,
+- artifact decisions,
 - candidate global patterns,
 - theory lineage.
 
 Rules:
 
-- Treat harvests as evidence, not canon.
+- Treat live-session material as evidence to route, not automatic canon.
 - Separate what the operator said from what the agent inferred.
-- Do not modify `DISSONANCE.md` directly from a harvest.
+- Do not modify `DISSONANCE.md` directly unless explicitly requested; list global
+  candidates in a synthesis note or patch candidate section when needed.
 - Do not update unrelated domains just because a session felt important.
 - Use the smallest owning domain.
-- Preserve exact phrasing when it is a correction or compression.
+- Preserve exact phrasing when it is a correction, boundary, or compression.
 - Keep sensitive domains explicit enough to remain predictive.
-- Put session harvest outputs under:
-  `archive/analyses/claude_sessions/`, `archive/analyses/gpt_export/`, or
-  `labs/domain_synthesis/reports/`.
+- Create a separate review artifact only when the target patch is unclear, the
+  session spans too many domains, or the operator asks for one.
 
 Best compression:
 
-> **Harvest the session’s evidence structure, not its narrative.**
+> **Patch the touched rooms directly when the evidence is clear; use reports only when uncertainty needs an airlock.**
 
 ## Lineage Pass Rules
 

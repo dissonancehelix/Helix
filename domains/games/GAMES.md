@@ -29,6 +29,10 @@ Sixth compression:
 
 > **A save file preserves state; a playthrough carries committed time.**
 
+Seventh compression:
+
+> **Multiplayer works when the game carries the social field, not when people become the unbounded task.**
+
 
 ---
 
@@ -399,6 +403,43 @@ Best compression:
 
 > **Feeling the state about to flip is the skill-reward.**
 
+
+### 4.7a Shared-Field / Low-Ambiguity Multiplayer
+
+Multiplayer passes when the game itself provides the shared object, stable rules, visible state, and clear reason to be present.
+
+The sociality is carried by the field:
+
+```text
+game object
++ known rules
++ visible state changes
++ shared goal/conflict
++ optional speech
++ re-entry after gaps
+= low-cost social presence
+```
+
+This explains why old GMod/EFT, Rocket League, Overwatch, Dota teamfights, and other known live fields can work even when open-ended socializing does not. The operator is not broadly social through games; he is socially viable when the game provides a structured object to stand beside.
+
+Fails when multiplayer becomes:
+
+- social performance,
+- hidden human volatility,
+- deception-first interaction,
+- status theater,
+- obligation to talk rather than play,
+- unbounded voice/chat demand,
+- strangers as the main unpredictable system.
+
+Best compression:
+
+> **Give the group a field and the people become easier to model.**
+
+Second compression:
+
+> **The game can carry the connection so the player does not have to perform it raw.**
+
 ### 4.8 Authored Danger vs Untrusted Intrusion
 
 Danger works when it is authored, readable, and learnable.
@@ -599,6 +640,10 @@ Examples:
 Best compression:
 
 > **A reconstructive mystery hides truth in structure; a social deception game hides truth in other people acting weird. No thanks.**
+
+Boundary correction:
+
+> The rejection is not multiplayer itself. Multiplayer passes when the field is shared, readable, and object-mediated. It fails when the primary game becomes modeling unstable people rather than acting through a stable field.
 
 ### 6.7 2D Investment Barrier
 
@@ -1672,7 +1717,7 @@ Best compression:
 
 GMod's giant playtime is not generic sandbox evidence.
 
-The key surface is **Extreme Football Throwdown** plus mapmaking and community re-entry.
+The key surface is **Extreme Football Throwdown** plus mapmaking and community re-entry. The social pull was not generic group-chat hunger; it was a known shared field with stable objects, recurring players, visible skill markers, and a room that could be re-entered after gaps.
 
 EFT is a live transition-state system:
 

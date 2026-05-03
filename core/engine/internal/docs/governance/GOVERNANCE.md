@@ -1,43 +1,49 @@
-﻿# Helix Governance
+# Helix Governance
 
 ## Authority Hierarchy
 
-1. HSL (Helix Structural Language) — primary authority
-2. SPEC (machine-enforceable architecture) — secondary
-3. Domain specifications — tertiary
-4. Repository structure — quaternary
+1. `DISSONANCE.md` — portable operator/person-pattern authority.
+2. `README.md` — workspace constitution and source-of-truth hierarchy.
+3. `AGENTS.md` — agent routing and operating contract.
+4. `core/map/` — machine-readable companion map and anomaly/source registry.
+5. Domain files and manifests — smallest owning domain authority.
+6. Lab specs/reports — pressure-test and review artifacts, not canon by default.
+7. Runtime/tool contracts — execution details, not truth ownership.
 
 ## Validation Rules
 
-### Atlas Promotion Gate (6 Criteria)
-An invariant must pass all 6 criteria to be promoted to PROMOTED status:
+### Promotion Gate
 
-1. **Reproducibility**: At least 2 independent runs with matching results
-2. **Multi-domain observation**: Detected in ≥ 2 distinct domains
-3. **Minimum confidence**: Confidence score ≥ threshold
-4. **Pass rate**: ≥ 80% pass rate across all runs
-5. **Signal strength**: Mean signal above minimum threshold
-6. **Probe version**: Latest probe version must have been used
+A claim, invariant, or domain update should not be promoted unless it survives the relevant pressure checks:
 
-### Root Structure Enforcement (`core/integrity/root_structure.py`)
-Only allowed directories and files may exist at repository root.
+1. **Source fit** — the update belongs in the smallest owning file.
+2. **Evidence lineage** — the claim can be traced to direct correction, dataset, report, or source file.
+3. **False-positive pressure** — cheap substitutes and lookalikes have been named.
+4. **Domain fit** — the domain file agrees or has been patched.
+5. **Validation status** — runnable artifacts/tests declare pass/fail/unknown.
+6. **Reviewability** — changed files, diffs, or summaries are inspectable.
 
-### Substrate Guard (`core/kernel/substrate_guard.py`)
-`labs/` cannot write to immutable core directories.
+### Root Structure Enforcement
 
-### Ring Import Validation (`core/kernel/validate_rings.py`)
-Lab code cannot import from `core.kernel` or `core.governance` directly.
+Only allowed root files and directories should exist. Root docs define the workspace; domain chambers hold local interpretation.
 
-### Architecture Watchdog (`core/kernel/substrate/architecture_watchdog.py`)
-Periodic polling ensures required layers exist and no unauthorized root items appear.
+### Lab Boundary
+
+Lab outputs do not automatically become canon. Reports may recommend promotion, demotion, or follow-up tests.
+
+### Tool Boundary
+
+Tools execute workflows and produce artifacts. They do not own truth. If a tool output conflicts with a source document, create an anomaly or patch the owning source after review.
 
 ## Anti-Drift Rules
 
 Architectural drift occurs when:
-- System structure changes without specification updates
-- Concepts are renamed or merged implicitly
-- Data and structure boundaries are violated
-- New abstractions appear without formal definition
 
-All drift must be corrected immediately.
+- system structure changes without documentation updates,
+- concepts are renamed or merged implicitly,
+- domain boundaries are violated,
+- stale command/runtime language survives after the workflow changed,
+- reports are treated as canon without promotion,
+- or tools silently define truth by side effect.
 
+All drift should be corrected in the smallest owning file.

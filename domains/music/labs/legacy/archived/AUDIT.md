@@ -59,7 +59,7 @@ These markdown files contain research notes or sweep results.
 ## Migration Notes
 
 Scripts marked REFACTOR CANDIDATES should NOT be invoked directly.
-Their functionality is now available via HSL:
+Their functionality should now be treated as available through direct tools/scripts where still implemented:
 
 ```
 # Ingest tracks

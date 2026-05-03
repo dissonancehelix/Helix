@@ -2,7 +2,7 @@ manifest_schema: manifest_schema_v1
 domain: self
 version: "0.3"
 status: stub  # implemented | partial | stub | not_started
-runtime_maturity: partial  # fixtures + probes + validation exist; no HSL/Atlas
+runtime_maturity: partial  # fixtures + probes + validation exist; no atlas persistence
 
 purpose: >
   Ground cognitive style, personality/neurotype context, attention architecture,
@@ -41,9 +41,9 @@ shared_embedding:
   confidence_calibration_status: not_established
 
 entry_point:
-  target: "HSL: PROBE cognition.<agent_id>"
+  target: "direct cognition/self probe invocation"
   current: null  # no entry point exists
-  hsl_implemented: false
+  runtime_entry_status: not_implemented
 
 runtime:
   pipeline: domains/self/model/e2e.py  # end-to-end demo path exists
@@ -109,7 +109,7 @@ dependencies:
 
 known_gaps:
   - No real agent input (stage 1: observation_ingestion)
-  - No HSL entry point
+  - No direct runtime entry point
   - No Atlas registration or artifact persistence
   - No calibration data for any domain-local variable — null corpus not yet run
   - CognitionStateVector → HelixEmbedding projection not defined

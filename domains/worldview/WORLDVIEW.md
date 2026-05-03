@@ -282,6 +282,99 @@ Best compression:
 
 > **Reality feels too lawful for pure accident to satisfy, and too cruel for a loving ruler to be credible.**
 
+### 5.1 Cosmic Agnosticism / Substrate Pressure
+
+The operator's metaphysical leaning is not organized religion and not confident
+atheism. It is cosmic agnosticism under substrate pressure.
+
+Core stance:
+
+```text
+stable physical law
++ fine-grained chemistry and physics
++ long-duration universal consistency
++ consciousness able to notice the setup
+= pure accident feels insufficient
+```
+
+But:
+
+```text
+cosmic scale
++ human non-centrality
++ suffering and arbitrary birth conditions
++ institutional power abuse
++ unverifiable religious authority
+= human-centered personal-God religion feels implausible and low-trust
+```
+
+The strongest intuition is not that humans are spiritually central. It is that
+lawful reality may require a deeper substrate, constraint, necessity, simulation,
+or creator-like condition that organized religions do not own.
+
+Best compression:
+
+> **Order points toward substrate; suffering blocks worship.**
+
+Second compression:
+
+> **The universe may have a ground, but churches do not get custody of it.**
+
+### 5.2 Simulation Theory As Optional Explanatory Layer
+
+Simulation theory is a plausible explanatory layer, not the foundation of the
+worldview.
+
+It is attractive because it can explain or reframe:
+
+- lawlike stability,
+- rendering-like constraints,
+- nested realities,
+- observer placement,
+- apparent substrate dependence,
+- the possibility that humans are local processes inside a larger architecture.
+
+But the worldview does not depend on simulation theory being true. If simulation
+theory is false, the core stance remains:
+
+```text
+lawfulness still needs explanation
+human institutions still lack ultimate authority
+consciousness remains the hinge of meaning and suffering
+humans still are not automatically the center
+```
+
+Best compression:
+
+> **Simulation theory can explain more of the room, but the room does not collapse if simulation theory is false.**
+
+### 5.3 Institutional Truth Boundary
+
+A belief becoming organized does not make it metaphysically true.
+
+A church, state, school, party, scientific body, or AI company can preserve,
+repeat, enforce, or socially stabilize a claim. That social durability does not
+convert the claim into ultimate truth.
+
+The operator's institutional distrust is not anti-structure. It is a proof-burden
+rule:
+
+```text
+large claim
++ human institution
++ moral authority
++ pressure to obey
+= high burden of proof and high corruption risk
+```
+
+Government denial is not proof of absence. Religious insistence is not proof of
+presence. Both are human authority surfaces and must be judged by evidence,
+accountability, incentives, and source lineage.
+
+Best compression:
+
+> **A belief surviving socially is not the same as a belief being true.**
+
 False positive:
 
 > Treating creator intuition as endorsement of Christianity, Islam, Judaism, Hinduism, or any organized religion.
@@ -708,6 +801,20 @@ Second compression:
 
 ---
 
+### 15.1 Kinship, Obligation, and Chosen Relevance
+
+The operator does not treat family role as an automatic contact obligation. Lack of family contact should not be inferred as drama, resentment, or hidden grievance when none is reported. The current sharper model is low kinship-default pull: connection needs live relevance, shared field, meaningful history, or compatible continuity rather than category membership alone.
+
+This belongs here only as a worldview/social-obligation boundary. The Self domain owns the sensory, attachment, and response-loop mechanics.
+
+Best compression:
+
+> **Kinship is a category; connection still has to be alive.**
+
+Second compression:
+
+> **No drama is required for low contact to be real.**
+
 ## 16. NPC Perception / Scriptedness Firewall
 
 The operator dislikes when people appear to simply inherit opinions, social scripts, or institutional talking points without inspecting them.
@@ -878,6 +985,9 @@ Best compression:
 ---
 
 ## 22. False Positives / Negative Controls
+- low family contact means conflict, resentment, or hidden trauma
+- solitude preference means loneliness or failed connection
+- low social maintenance means no care
 
 False positives:
 

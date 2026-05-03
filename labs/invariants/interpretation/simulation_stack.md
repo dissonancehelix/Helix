@@ -10,7 +10,7 @@ The simulation stack describes how Helix runs experiments from command to result
 Operator intent
       │
       ▼
-HIL command (raw string)
+tool/script invocation
       │
       ▼
 Kernel: parse → validate → normalize
@@ -41,7 +41,7 @@ Dispatcher: route to engine
 
 For computational experiments:
 
-1. HIL envelope arrives at `PythonEngine.run(envelope)`
+1. Runtime request arrives at the Python runner
 2. Engine resolves probe from `PROBE_REGISTRY` using target
 3. Probe module executes with params
 4. Results returned as structured dict
@@ -62,7 +62,7 @@ For computational experiments:
 
 For spatial and embodied experiments:
 
-1. HIL envelope arrives at `GodotAdapter`
+1. Runtime request arrives at `GodotAdapter`
 2. Adapter generates or selects a `.tscn` scene
 3. Godot launched headless with scene + params
 4. Telemetry captured from Godot stdout or file output

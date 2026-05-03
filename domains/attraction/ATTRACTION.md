@@ -21,6 +21,14 @@ Fourth compression:
 
 > **Attraction is physical channel convergence, not type-detection.**
 
+Fifth compression:
+
+> **Relational attraction passes when sexual/visual pull can live inside low-volatility continuity.**
+
+Sixth compression:
+
+> **Warmth does not compensate for unpredictability if the person becomes socially expensive to model.**
+
 ---
 
 ## 0. Scope and Ground Rules
@@ -41,6 +49,7 @@ This domain should preserve:
 - how attraction relates to broader taste patterns
 - false positives that should not be overpredicted
 - distinctions between beauty, attraction, sexual intensity, detail-interest, and fetish-level necessity
+- compatibility boundaries around quiet consistency, low-volatility trust, shared interests/history, and silence tolerance
 
 This domain should not:
 
@@ -139,6 +148,47 @@ Pornstars can pass strongly when the physical signal survives: face, dark featur
 Best compression:
 
 > **The medium is secondary; the physical signal is primary.**
+
+---
+
+
+## 2.5 Relationship Compatibility Boundary
+
+This domain is not dating advice, but attraction does not become relationally viable through physical pull alone.
+
+A person can be visually/sexually attractive while failing the relational field if contact becomes unpredictable, high-maintenance, socially performative, or impossible to pace. Conversely, a quieter person can become more attractive over time if she is consistent, low-volatility, warm without pressure, and able to share interests/history without demanding constant proof-of-care.
+
+Compatibility passes when attraction sits inside:
+
+```text
+physical pull
++ low-volatility trust
++ quiet consistency
++ shared interests or meaningful history
++ permission for silence / distance
++ easy re-entry after gaps
++ no punishment for low-frequency contact
+```
+
+Compatibility fails when attraction is paired with:
+
+- unpredictable emotional swings,
+- high-frequency reassurance demands,
+- constant-contact expectations,
+- social performance pressure,
+- warmth that arrives with volatility,
+- family/role/category obligation without live connection,
+- treating delayed reply as rejection by default.
+
+This does not mean emotional warmth is rejected. It means warmth must be stable enough to trust.
+
+Best compression:
+
+> **Quiet consistency can beat louder warmth when warmth is unpredictable.**
+
+Second compression:
+
+> **The bond should survive silence without needing to be constantly re-proven.**
 
 ---
 
@@ -886,6 +936,20 @@ Correct rule:
 Best compression:
 
 > **The model should predict what carries the signal, not moralize why the signal exists.**
+
+### 20.8 “Likes Warm / Quiet” vs “Needs Constant Contact”
+
+Correct rule:
+
+Quiet warmth and low-volatility trust increase compatibility. Constant-contact warmth does not automatically pass if it turns attraction into social maintenance pressure.
+
+False prediction:
+
+> If a woman is warm and interested, more frequent contact is always better.
+
+Better prediction:
+
+> Stable warmth, shared interests/history, and silence tolerance matter more than high-frequency reassurance.
 
 ---
 

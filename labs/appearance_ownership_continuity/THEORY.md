@@ -1,5 +1,5 @@
 # Appearance–Ownership–Continuity Framework
-## Working Draft v0.1 — Single-Document Summary
+## Working Draft v0.2 — Single-Document Summary
 
 This document preserves the current state of the theory so it does not get lost during workspace refactors.
 
@@ -66,6 +66,61 @@ The theory is trying to distinguish:
 - transformation from replacement
 - identity-preserving change from branching
 - reportability from appearance-from-within
+- substrate explanation from appearance explanation
+
+### 1.1 Worldview Boundary / Substrate Pressure
+
+The recent religion, simulation, cosmic-agnoticism, and institutional-trust discussion does not add a new metaphysical claim to this theory.
+
+It adds a boundary rule:
+
+> **Worldview explains why the question matters; THEORY tests what would have to be true for appearance, ownership, and continuity to exist at all.**
+
+`WORLDVIEW.md` owns:
+
+- lawfulness of reality
+- suffering and the problem of evil
+- distrust of organized religious authority
+- simulation theory as a plausible substrate hypothesis
+- creator / first-cause intuition
+- human non-centrality
+- institutional power and truth-claim skepticism
+
+`THEORY.md` owns:
+
+- whether anything appears from within
+- whether appearance is owned
+- whether ownership persists through time
+- whether memory, report, self-modeling, or information pattern are false substitutes
+- whether branching breaks singular first-person continuity
+- what evidence would weaken or sharpen the framework
+
+The main theory consequence:
+
+> **Changing the substrate story does not solve appearance-from-within.**
+
+A designed universe, simulated universe, physical universe, nested simulation, dream world, or created cosmos still has to answer the same AOC question:
+
+```text
+lawful substrate / rendered world / created universe
++ organized process
++ report / behavior / memory
+≠ automatically owned appearance
+```
+
+The substrate can explain why the world is stable, lawful, or rendered. It does not by itself explain why there is something it is like to be inside any process in that world.
+
+Best compression:
+
+> **God or simulation may explain the stage; AOC asks why the lights are on from inside the actor.**
+
+Second compression:
+
+> **Substrate is not subjecthood.**
+
+False positive:
+
+> Treating simulation theory, divine creation, physical lawfulness, or cosmic fine-tuning as an explanation of consciousness rather than as a pressure case for the appearance problem.
 
 ---
 
@@ -167,6 +222,45 @@ Or shorter:
 > Consciousness is appearing. Self is owned continuity.
 
 ---
+
+### 4.1 Awareness, Control, and Lucidity Ladder
+
+Consciousness should not be flattened into awareness, self-awareness, control, or reportability.
+
+Current working ladder:
+
+```text
+reactivity
+→ sentience / raw awareness
+→ access awareness
+→ self-awareness
+→ agency / control
+→ reflective selfhood
+```
+
+The current stance:
+
+- consciousness without any awareness does not make sense if awareness means raw appearance/presence;
+- awareness without control is possible;
+- self-awareness is not identical to raw awareness;
+- agency/control is another layer beyond awareness;
+- reportability can exist without proving owned appearance.
+
+Lucid dreaming is a useful analogy, not proof:
+
+```text
+non-lucid dream = appearance without full reflective awareness
+lucid dream = appearance + awareness of the state
+controlled lucid dream = appearance + awareness + agency inside the field
+```
+
+Best compression:
+
+> **Consciousness begins when something appears; self begins when appearance is owned; agency begins when ownership can steer.**
+
+Second compression:
+
+> **Dreaming is appearance, lucidity is awareness of the field, and dream control is agency inside the field.**
 
 ## 5. The Central Primitives
 
@@ -410,6 +504,53 @@ Possible application:
 - flow states = low waste friction + high useful constraint
 
 ---
+
+### 8.1 Life vs Consciousness / Owned Possibility
+
+Life and consciousness should remain separate categories.
+
+Working distinction:
+
+```text
+life
+= bounded chemistry
++ metabolism
++ self-maintenance
++ self-replication
++ environmental responsiveness
++ evolutionary pressure
+
+consciousness
+= appearance
++ valence
++ ownership candidate
++ possible action
++ inhibition / delay / redirection
+```
+
+Consciousness may be the layer where biological pressure becomes owned possibility. It does not merely execute instinct; it can bring drives into a field where they can be noticed, delayed, denied, redirected, justified, or chosen.
+
+Examples:
+
+```text
+genetic pressure says: eat
+conscious field says: I want food, but I can wait
+
+threat response says: attack or flee
+conscious field says: I feel the urge, but I can inhibit it
+```
+
+This does not prove free will. It sharpens the research question:
+
+> At what point does a system stop merely executing survival pressure and begin owning a state-space of possible action?
+
+Best compression:
+
+> **Life preserves itself; consciousness experiences preservation as a problem.**
+
+Second compression:
+
+> **Consciousness may be where instinct becomes an owned field of possible action.**
 
 ## 9. Relation to Existing Theories
 
@@ -710,6 +851,55 @@ The theory does not assume LLMs are conscious. It treats current LLMs as importa
 - ownership
 - actual appearance-from-within
 
+### 14.1 Simulation, God, and Substrate Explanations
+
+Simulation theory and creator/substrate intuition are useful pressure cases because they separate **world-explanation** from **appearance-explanation**.
+
+A simulation may explain:
+
+- lawful physics as rendered rules
+- stable constants as configured parameters
+- apparent locality as engine constraint
+- nested realities as substrate layering
+- observer placement as part of a rendered field
+
+A creator hypothesis may explain:
+
+- why there is order rather than nothing
+- why laws are stable enough for life
+- why the universe appears mathematically structured
+- why there may be a deeper source of physical regularity
+
+But neither explanation automatically explains:
+
+- why experience appears from within
+- why an appearance is mine
+- why a continuity-stream remains the same owner
+- why suffering is owned rather than merely represented
+- why report, memory, integration, or behavior would become subjecthood
+
+For AOC, simulation and God are not answers. They are substrate alternatives that must still pass the same false-positive battery.
+
+Pressure matrix:
+
+| Substrate story | What it may explain | What remains open for AOC |
+|---|---|---|
+| physical universe | lawful causal process | why process becomes appearance |
+| simulated universe | rendered lawfulness / nested reality | why rendered agents have owned experience |
+| created universe | source of law/order | why creation contains appearance-from-within |
+| dream world | appearance without stable external world | how ownership/lucidity/control separate |
+| game world / AI world | behavior, state, memory, report | whether any interior is inhabited |
+
+This keeps the theory from being captured by metaphysics. The question survives every substrate swap.
+
+Best compression:
+
+> **A simulated self still needs ownership; a created self still needs appearance; a copied self still needs non-branching continuity.**
+
+Second compression:
+
+> **The substrate can move the mystery; it cannot be allowed to dissolve it.**
+
 ---
 
 ## 15. Proposed Formalization
@@ -901,6 +1091,43 @@ False positive:
 
 > Treating nostalgia, regret, or archival residue as proof of metaphysics rather than pressure cases for time, memory, and identity.
 
+### Test 10 — Substrate Explanation vs Appearance Explanation
+
+Pressure cases:
+
+- simulated universe
+- created universe
+- physicalist universe
+- nested simulations
+- dream worlds
+- game agents
+- LLM agents
+- fine-tuned physical constants
+- stable chemistry / physics / thermodynamics
+- alien or nonhuman higher minds
+
+Question:
+
+> Does a substrate explanation actually explain appearance-from-within, or does it only explain the world in which appearance might occur?
+
+Candidate criterion:
+
+> **Substrate explanations remain incomplete for AOC unless they specify how field, boundary, ownership, temporal continuity, and non-branching selfhood arise inside that substrate.**
+
+False positives:
+
+- stable laws = consciousness explained
+- simulation = consciousness explained
+- creator = consciousness explained
+- complexity = consciousness explained
+- report = consciousness explained
+- persistent memory = same owner
+- higher intelligence = moral/spiritual authority
+
+Best compression:
+
+> **The substrate story changes the room; it does not automatically explain the inhabitant.**
+
 ## 17. Falsifiers and Weakening Cases
 
 The theory weakens if:
@@ -913,6 +1140,7 @@ The theory weakens if:
 - self-modeling is unnecessary for any form of selfhood
 - continuity can be reduced entirely to memory similarity
 - appearance-from-within can be fully explained without ownership, boundary, or field concepts
+- a substrate explanation alone fully explains owned appearance without needing AOC primitives
 
 The theory becomes stronger if:
 
@@ -923,6 +1151,7 @@ The theory becomes stronger if:
 - AI self-report fails continuity/ownership tests
 - empirical consciousness measures distinguish integration from report
 - transformation cases show graded identity-preservation thresholds
+- substrate-swapping cases preserve the same unresolved appearance/ownership boundary
 
 ---
 
@@ -1093,6 +1322,10 @@ Even shorter:
 The open hard problem:
 
 > What makes appearance-from-within happen at all?
+
+Substrate boundary:
+
+> A different world-source can explain the stage without explaining owned appearance inside it.
 
 The theory’s current contribution:
 

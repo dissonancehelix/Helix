@@ -41,6 +41,18 @@ Ninth compression:
 
 > **Nostalgia is continuity grieving its own irreversibility.**
 
+Tenth compression:
+
+> **Solitude is the preferred baseline; connection is selective, field-based, and low-maintenance.**
+
+Eleventh compression:
+
+> **Text is safe only while it stays bounded; rapid reciprocal texting can become phone-call-like.**
+
+Twelfth compression:
+
+> **The mind can switch domains when the next room has gravity; low-interest fields collapse focus.**
+
 
 ---
 
@@ -69,13 +81,17 @@ This file should preserve:
 - monotropism as a useful attention model
 - introversion as low default social pull, not low care
 - response debt / ghosting / reciprocal demand anxiety
+- reciprocal-loop aversion: replying can reopen an unknown chain of future questions and obligations
+- solitude-positive baseline: in-person solitude is preferred, not merely tolerated
+- low-contact / continuity-first attachment
+- interest-gated switching rather than global inability to switch domains
 - sensory gating and signal ownership
 - dark-room / low-noise / chosen-intensity preferences
 - object-mediated sociality
 - low affective mirroring but real concern
 - care as protection of real interiors
 - self-understanding through archives and observable evidence
-- chat/session harvests as evidence of cognition while it is running
+- live AI sessions as evidence of cognition while it is running
 - LLM collaboration as implementation / externalization layer
 - compression-native cognition as a recurring route from local evidence to reusable structure
 - fractal/modular self-similarity as a high-level recognition pattern
@@ -132,6 +148,8 @@ So the Self domain asks:
 - What kinds of self-knowledge are reliable?
 - What requires external evidence rather than introspective guesswork?
 - What conditions allow attachment, effort, trust, or reply execution?
+- When is connection wanted because it is field-based, history-based, or object-mediated rather than socially obligatory?
+- When does text remain bounded versus become a live reciprocal loop?
 
 Best compression:
 
@@ -185,10 +203,14 @@ Local meaning:
 few active channels
 + high salience
 + strong internal continuity
-+ costly switching
++ interest-gated switching
 + chambered depth
 = monotropic depth-channel
 ```
+
+Important correction:
+
+> The operator can switch domains when the destination is known, loved, or plausibly capable of becoming known/loved. The failure mode is not global switching inability; it is near-zero pull from low-interest, low-affordance, low-relevance fields.
 
 This matches:
 
@@ -211,16 +233,20 @@ The benefit:
 
 The cost:
 
-- hard context switches
-- reply friction
-- task initiation difficulty
-- overfocus on active chamber
+- hard switches into cold, low-salience, or arbitrary fields
+- reply friction when a message threatens to reopen an unknown reciprocal loop
+- task initiation difficulty when the task lacks meaningful affordance
+- overfocus on active chamber when it keeps increasing resolution
 - losing global view if every domain is opened at once
 - anxiety when too many unfinished doors remain open
 
 Best compression:
 
 > **Monotropism makes chambers powerful and hallway clutter expensive.**
+
+Second compression:
+
+> **Switching is possible when the next chamber has gravity; dead fields do not pull.**
 
 ### 2.3 Schizoid personality structure
 
@@ -252,6 +278,12 @@ Best compression:
 
 > **Schizoid structure lowers social pull; it does not erase interiority or care.**
 
+Additional boundary:
+
+> Low family-contact drive does not automatically imply conflict, resentment, or trauma. Kinship role alone does not create contact motivation; shared field, real history, active relevance, or low-demand continuity matter more.
+
+This makes the schizoid frame useful for low social hunger and solitary preference, but insufficient if it is interpreted as no attachment capacity. The stronger pattern is selective attachment under low-volatility, low-maintenance conditions.
+
 ### 2.4 Introversion
 
 Introversion alone is too blunt.
@@ -262,16 +294,23 @@ The sharper local model:
 low default social pull
 + high private cognition reward
 + high object-field attachment
-+ high social switching cost
++ low loneliness baseline
++ high social maintenance cost
 + strong threshold ownership need
 = extreme introversion as field-management strategy
 ```
 
-Solitude is not merely avoidance. It is where attention stays coherent.
+Solitude is not merely avoidance. It is the preferred baseline for in-person life: a controlled field where attention stays coherent and the body/social field is not constantly being re-entered by other people.
+
+This should not be flattened into loneliness. The operator can value durable connections with people who share interests, history, or a real field while still preferring maximum in-person solitude most of the time.
 
 Best compression:
 
-> **Solitude is the controlled field where cognition can stay coherent.**
+> **Solitude is the preferred operating state, not a failed substitute for company.**
+
+Second compression:
+
+> **Connection is selective; solitude is baseline.**
 
 ### 2.5 Big Five / MBTI
 
@@ -301,6 +340,7 @@ The operator is best modeled as a set of recurring gates and constraints:
 | Entry | Can the field be entered safely? | orientation before exposure | forced visibility |
 | Signal | Is the input owned? | chosen, structured, controllable | unchosen, random, invading |
 | Social | Is there an object to stand beside? | shared task / artifact / field | unstructured social demand |
+| Connection | Does the bond have live relevance? | shared interest, meaningful history, low-demand continuity | role obligation, generic kinship, empty maintenance |
 | Trust | Can transformation occur without betrayal? | inspectable continuity | hidden drift / false surface |
 | Taste | Does the interior move rewardingly? | motion, groove, texture, return | safe but dead |
 | Attachment | Does it remain meaningful over time? | continuity and re-entry | one-use surface |
@@ -309,6 +349,37 @@ The operator is best modeled as a set of recurring gates and constraints:
 Best compression:
 
 > **The self-map is made of gates, not adjectives.**
+
+### 3.1 Helix Friction Pillars
+
+Helix began as an answer to mental friction and drift, then expanded into a
+larger cognitive workspace. The current friction map has four major pillars:
+
+```text
+1. Mental friction
+   drift, ambiguity, repeated context, scattered thought, lost state,
+   generic flattening, and loss of personal fit
+
+2. Workflow friction
+   needing the right machine, Codex/local repo access, scripts, command running,
+   sync, and manual relay between tools
+
+3. Interface/runtime friction
+   mobile limits, connector limits, no persistent cloud execution, tool gaps,
+   and incomplete app integration
+
+4. Institutional/social friction
+   credentials, gatekeeping, opaque authority, status systems, and claims without
+   accountability
+```
+
+Mental friction is primary because it is the original pressure that made Helix
+necessary. The other pillars matter because they block the workspace from being
+usable wherever the operator is.
+
+Best compression:
+
+> **Helix exists because mental drift is intolerable, but it grows by removing every friction that keeps thought from becoming reusable structure.**
 
 ---
 
@@ -336,9 +407,11 @@ Best compression:
 
 > **Depth is not stuckness when the field keeps increasing resolution.**
 
-### 4.2 Context-switching friction
+### 4.2 Context-switching friction / interest-gated switching
 
-Switching away from an active chamber is costly because state is lost.
+Switching away from an active chamber can be costly because state is lost, but this is not a global inability to switch domains.
+
+The sharper model is interest-gated switching. The operator can move between domains when the next domain is known, loved, structurally promising, or capable of becoming loved. Switching fails hardest when the destination is arbitrary, low-salience, socially imposed, repetitive without insight, or has no usable affordance.
 
 The cost is not only time. It is:
 
@@ -347,11 +420,16 @@ The cost is not only time. It is:
 - rebuilding context
 - reloading constraints
 - translating intent back into structure
+- entering a field with no reward gravity
 - anxiety from incomplete open loops
 
-This explains why multi-domain self-mapping can become circular. Every domain feeds the global map, but opening all domains at once makes the map foggy.
+This explains why multi-domain self-mapping can become circular. Every domain feeds the global map, but opening all domains at once makes the map foggy. It also explains why a supposedly simple boring task can collapse focus more than a complex beloved task.
 
 Best compression:
+
+> **Switching is possible when the next room has gravity; low-interest fields collapse focus.**
+
+Second compression:
 
 > **Too many open chambers create hallway fog.**
 
@@ -371,6 +449,47 @@ cross-domain feedback gated
 Best compression:
 
 > **Chambers protect depth from becoming sprawl.**
+
+### 4.3a Domain Sharpening As Constraint Power
+
+Continuously sharpening domains is not polish for its own sake. Each exception,
+negative control, concrete example, and direct correction makes the workspace
+more predictive and gives AI collaborators a tighter field to act inside.
+
+Good domain growth:
+
+```text
+more examples
+→ sharper gates
+→ better negative controls
+→ fewer false predictions
+→ more useful AI behavior
+```
+
+Bad domain growth:
+
+```text
+more examples
+→ more text
+→ more folders
+→ more ambiguity
+→ more friction
+```
+
+The difference is whether each added detail increases routing, prediction,
+testing, or interaction quality.
+
+Constraint is therefore not the enemy of creativity. Unlimited freedom often
+produces drift or generic output. A bounded field with clear examples and
+correction pressure creates usable variation.
+
+Best compression:
+
+> **Sharper domains make constraint powerful instead of restrictive.**
+
+Second compression:
+
+> **Freeform expression becomes useful when the field has enough boundary to keep it from becoming sludge.**
 
 ---
 
@@ -574,7 +693,7 @@ Second compression:
 
 > **Known rooms lower the cost of being present.**
 
-### 5.2b Response debt / ghosting / reciprocal demand anxiety
+### 5.2b Response debt / ghosting / reciprocal-loop aversion
 
 This is a major explicit pattern.
 
@@ -584,10 +703,12 @@ The operator may leave DMs/texts unread for months. This is not best modeled as 
 message arrives
 -> response requires social-state construction
 -> reply opens reciprocal loop
--> other person will probably reply
+-> other person may send unknown follow-up questions
+-> they may interpret the reply as permission for more messages
 -> future demand becomes anticipated
--> anxiety/effort accumulates
--> unread state freezes
+-> guilt may spike when the message is seen
+-> loop-risk exceeds current willingness/capacity
+-> unread or unreplied state freezes
 ```
 
 The cost is not one message. The cost is consenting to the next loop.
@@ -596,17 +717,20 @@ This is especially likely when:
 
 - the conversation has no shared object
 - reply expectations are ambiguous
-- the other person may respond quickly
-- there is guilt from delay
+- the other person may respond quickly or repeatedly
+- the response could invite questions the operator cannot preview
+- guilt appears after seeing the message, but does not necessarily become action
 - the field has gone cold
 - the response now requires apology + explanation + content
 - the operator cannot tell whether reopening the door will create more debt
 
-Important distinction:
+Important distinctions:
 
 ```text
-care exists
-reply execution fails
+care may exist
+reply execution may fail
+guilt is intermittent, not constant
+loop-risk is structural
 ```
 
 Best compression:
@@ -616,6 +740,10 @@ Best compression:
 Second compression:
 
 > **The hard part is not one reply; it is consenting to the next loop.**
+
+Third compression:
+
+> **A message becomes expensive when answering it may create an unbounded future obligation.**
 
 ### 5.3 Text vs calls
 
@@ -628,6 +756,7 @@ Text is preferred because it allows:
 - controlled pacing
 - lower exposure
 - fewer live performance demands
+- the ability to keep the social loop bounded
 
 Calls fail because they impose:
 
@@ -641,6 +770,10 @@ Calls fail because they impose:
 Best compression:
 
 > **Text gives pacing control; calls seize the clock.**
+
+Boundary:
+
+> Text is safe only while it stays bounded. Rapid-fire texting, unpredictable follow-up questions, or expectation of immediate back-and-forth can become phone-call-like.
 
 ### 5.4 Low social pull is not low attachment
 
@@ -656,6 +789,8 @@ Attachment tends to require:
 - shared object or shared depth
 - space for silence and distance
 - continuity without constant maintenance
+- low-volatility access
+- permission for silence without treating silence as rejection
 
 Fails:
 
@@ -666,10 +801,52 @@ Fails:
 - generic friendliness
 - attention-seeking
 - charm without interior
+- warmth paired with unpredictability
+- high-frequency contact demands
+
+Important correction:
+
+> The operator does not generally feel lonely and prefers in-person solitude as much as possible. Connection still matters when it is based on shared interests, real history, compatible interiority, or a durable low-maintenance field. Family role alone does not create contact motivation.
 
 Best compression:
 
 > **Attachment is rare because entry is gated, not because attachment is absent.**
+
+Second compression:
+
+> **The bond should persist without needing to be constantly re-proven.**
+
+Third compression:
+
+> **Trust is low-volatility access, not warmth alone.**
+
+### 5.5 Solitude-positive selective connection
+
+The operator's baseline is not loneliness seeking repair through people. It is solitude-preferent and selective about connection.
+
+Preferred connection tends to be:
+
+- low-frequency but durable
+- re-enterable after silence
+- based on shared interests, shared history, or a real object/field
+- tolerant of uneven response timing
+- explicit enough not to require constant emotional inference
+- quiet or consistent rather than warm but volatile
+- able to resume without punishing the gap
+
+Weak connection tends to be:
+
+- role-based only
+- family-obligation based only
+- high-maintenance
+- high-frequency without depth
+- emotionally performative
+- unpredictable
+- unrelated to any shared object, history, or living field
+
+Best compression:
+
+> **Solitude is baseline; connection is selective, durable, and field-based.**
 
 ---
 
@@ -1175,6 +1352,9 @@ Do not infer:
 - every repeated interest is rigidity
 - every structure preference means low imagination
 - every social avoidance means fear
+- absence of loneliness means denial or repression
+- lack of family-contact drive means drama or resentment
+- text preference means all texting is easy
 - every sexual preference is fetish
 - every practical preference is laziness
 - every archive is hoarding
@@ -1185,7 +1365,10 @@ Better predictions:
 | Surface | Bad inference | Better inference |
 |---|---|---|
 | Ghosting | does not care | reply opens future loop / demand |
-| Solitude | misanthropic withdrawal only | controlled field for coherent cognition |
+| Not feeling lonely | denial / hidden distress | solitude-positive baseline unless evidence says otherwise |
+| Family distance | conflict / resentment | kinship role alone does not create contact motivation |
+| Text preference | texting is always easy | text is safe only while bounded |
+| Solitude | misanthropic withdrawal only | preferred operating field for coherent cognition |
 | Dark room | depressive aesthetic | sensory compression / signal control |
 | Loud music | low sensitivity | chosen intensity regulates |
 | Wikipedia | likes editing | public object repair |
@@ -1207,6 +1390,10 @@ When using this domain, agents should:
 - ask what gate is active
 - preserve distinctions between trust, taste, threat, effort, and attachment
 - treat ghosting as response-loop friction unless evidence says otherwise
+- distinguish occasional guilt from constant attachment distress
+- treat solitude as preferred baseline unless the operator reports loneliness
+- do not assume family role creates contact motivation
+- treat text preference as bounded-text preference, not unlimited-message preference
 - avoid flattery
 - preserve specificity
 - avoid turning neurotype into destiny
@@ -1237,9 +1424,12 @@ Best compression:
 
 - Which sensory boundaries are stable versus state-dependent?
 - Which context switches create useful friction versus waste friction?
+- Which low-interest fields collapse focus despite low objective difficulty?
 - Which social contexts become viable through shared objects?
+- Which connections remain valuable without loneliness or high contact frequency?
 - Which reply types freeze hardest?
 - What reduces response debt without creating more social obligation?
+- What communication contracts keep text bounded rather than phone-call-like?
 - Which domains are mode-flexible anchors versus state-specific anchors?
 - How much of depth-channel attention is monotropism versus taste-driven salience?
 - Where does schizoid reserve protect real interiority versus block useful contact?
@@ -1273,10 +1463,50 @@ Labels are handles, not cages.
 Ghosting and long-unread messages are often caused by reciprocal-demand anxiety and initiation friction rather than indifference.
 
 ## Mechanism
-message -> response construction -> reply opens loop -> anticipated reply becomes future demand -> unread state freezes
+message -> response construction -> reply opens loop -> unknown follow-up questions / repeated messages become possible -> future demand becomes anticipated -> guilt may spike when seen -> loop-risk exceeds current willingness/capacity -> unread or unreplied state freezes
 
 ## Best compression
 The hard part is not one reply; it is consenting to the next loop.
+
+## Boundary
+Guilt is intermittent, not constant. Avoidance can coexist with care without implying loneliness or desire for high-frequency contact.
+```
+
+### Claim: Solitude-Positive Selective Connection
+
+```md
+## Claim
+The operator prefers in-person solitude as a baseline and does not generally experience loneliness, but can value durable connections based on shared interests, real history, or compatible low-maintenance continuity.
+
+## Strong signals
+- explicit preference for solitude as much as possible
+- low family-contact drive without drama
+- connection preference when shared interests or history exist
+- relationship continuity preferred over high-frequency contact
+
+## Bad inference
+Solitude means loneliness, misanthropy, or lack of attachment.
+
+## Best compression
+Solitude is baseline; connection is selective, durable, and field-based.
+```
+
+### Claim: Interest-Gated Switching
+
+```md
+## Claim
+The operator can switch domains when the next domain is known, loved, or plausibly interesting, but focus can collapse almost completely for low-interest or low-affordance material.
+
+## Strong signals
+- rapid switching among loved/known domains
+- deep focus in high-salience rooms
+- near-zero focus under boredom or arbitrary obligation
+
+## Bad inference
+The operator is globally unable to switch tasks or domains.
+
+## Best compression
+Switching is possible when the next chamber has gravity; dead fields do not pull.
 ```
 
 ### Claim: Signal Ownership
@@ -1305,7 +1535,7 @@ The operator often moves from local evidence to reusable structure through repea
 - domain-chamber architecture
 - repeated regeneration passes
 - correction-as-boundary behavior
-- session harvests
+- direct session patches and correction traces
 - theory-building from local anomalies
 - ability to recognize the same operation across language, music, software, aesthetics, and self
 
@@ -1615,7 +1845,7 @@ Compression:
 
 ---
 
-### 19.2 Session harvests as self-evidence
+### 19.2 Live sessions as self-evidence
 
 Chat sessions with LLMs are not only outputs. They show the operator's cognition in motion:
 
@@ -1627,12 +1857,17 @@ Chat sessions with LLMs are not only outputs. They show the operator's cognition
 - how examples move into domains
 - how local evidence becomes a global candidate
 - how direct attachment resists over-theory
+- how an inferred pattern survives, gets pruned, or becomes part of the local interaction grammar
 
-A good session harvest should preserve what the operator said, what the agent inferred, what the agent misunderstood, what files were created, what corrections mattered, and what should be reviewed later.
+A good direct session patch should preserve the load-bearing correction, route it to the smallest owning domain, and avoid adding an extra review layer when the target change is already clear.
 
 Best compression:
 
 > **The prompts show the operating system while it is running.**
+
+Second compression:
+
+> **Clear live-session evidence should sharpen the room directly, not wait in a hallway.**
 
 ### 19.3 Placeholder non-attachment vs load-bearing protection
 

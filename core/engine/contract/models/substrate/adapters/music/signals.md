@@ -38,7 +38,7 @@ Derived from MIDI, score notation, or reconstructed `ControlSequence` patterns.
 | :--- | :--- | :--- | :--- |
 | `rhythmic_quantization_error` | Mean deviation of note onsets from the inferred metrical grid. | `sum(abs(onset - grid_pos)) / total_notes`. | MIDI / music21 |
 | `harmonic_vocab_size` | Count of distinct vertical pitch-class sets (chords) used. | `len(unique_chords) / domain_max`. | music21 |
-| `pitch_class_entropy` | Shannon entropy of the 12 pitch classes. | `H(pitch_class_distribution) / log2(12)`. | MIDI / HSL |
+| `pitch_class_entropy` | Shannon entropy of the 12 pitch classes. | `H(pitch_class_distribution) / log2(12)`. | MIDI / symbolic pipeline |
 | `articulation_diversity` | Number of distinct articulation types detectable over time. | Histogram entropy of note duration/velocity relationship. | MIDI |
 | `motif_repetition_rate` | Frequency of repeating symbolic patterns (3-4 note fragments). | Sequence alignment frequency of detected n-grams. | MotifFeatures |
 

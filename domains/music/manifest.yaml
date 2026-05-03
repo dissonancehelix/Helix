@@ -47,9 +47,9 @@ shared_embedding:
   confidence_calibration_status: provisional
 
 entry_point:
-  target: "HSL: INGEST_TRACK music.<id>, ANALYZE_TRACK music.<id>"
+  target: "direct music pipeline invocation: ingest/analyze track"
   current: "domains/music/model/pipeline_core.py (direct Python)"
-  hsl_implemented: partial
+  runtime_entry_status: partial
 
 runtime:
   pipeline: domains/music/model/pipeline_core.py
@@ -114,6 +114,6 @@ known_gaps:
   - No null-model guard for music embedding
   - Projection schema versioning not stamped on output artifacts
   - Atlas integration path not fully verified through enforce_persistence()
-  - HSL orchestration partial — full end-to-end wire not complete
+  - Direct orchestration partial — full end-to-end wire not complete
   - Confidence floor not calibrated per music domain
 

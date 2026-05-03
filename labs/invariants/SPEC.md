@@ -1,14 +1,14 @@
-# HELIX MATH SUBSTRATE SPECIFICATION
+# HELIX INVARIANTS / MATH PROBE SPECIFICATION
 
 **Version:** 1.2
 **Status:** Authoritative target specification — implementation status tracked in README.md §11
-**Relationship:** Extends `core/probes/math/README.md`
+**Relationship:** Extends `labs/invariants/README.md`
 
 ---
 
 ## 1. DOMAIN SCOPE
 
-The Math Substrate operates on formal mathematical simulations with known inputs and verifiable outputs. Its role is twofold:
+The Math probe family operates on formal mathematical simulations with known inputs and verifiable outputs. Its role is twofold:
 1. Produce ground-truth invariant candidates (e.g., oscillator locking) that other domains can reference
 2. Provide the canonical implementation of `MathStructuralVector → HelixEmbedding` projection for use as template by other domains
 
@@ -163,7 +163,7 @@ Note: `axioms` is empty pending formal axiom schema definition.
     "multi_domain_observed": false,
     "adversarial_validation_run": false
   },
-  "persistence_target": "codex/atlas/math/",
+  "persistence_target": "labs/invariants/data/atlas/",
   "persistence_gate": "core/engine/store/compiler/atlas_compiler.py via enforce_persistence()"
 }
 ```
@@ -205,12 +205,10 @@ A violation is a `STRUCTURAL_FAILURE` and must be flagged before Atlas promotion
 
 ---
 
-## 8. ENTRY / HSL INTEGRATION STATE
+## 8. ENTRY / RUNTIME INTEGRATION STATE
 
-**Target**: `DISCOVER math.kuramoto --K=0.5 --n=100 --steps=1000`\
-**Current**: Direct Python. `core/probes/math/e2e.py` is the current canonical entry path.
-
-No HSL command routes to the math domain. This is a known, documented gap.
+**Target**: run Kuramoto/math probe directly with explicit parameters.
+**Current**: Direct Python. `labs/invariants/e2e.py` is the current canonical entry path. Full orchestration remains incomplete.
 
 ---
 
@@ -235,7 +233,7 @@ Until calibration is performed, treat all promotions above the provisional floor
 
 ## 10. PROMOTION CONDITIONS
 
-Invariant candidates follow the global 6-criterion gate (see `docs/GOVERNANCE.md`). Math-domain candidates are additionally required to specify:
+Invariant candidates follow the global 6-criterion gate (see `core/engine/internal/docs/governance/GOVERNANCE.md`). Math-domain candidates are additionally required to specify:
 - `calibration_status` (provisional / calibrated)
 - `null_baseline_used` (true / false)
 - `validation_flags` (full dict)

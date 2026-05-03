@@ -25,7 +25,7 @@ They are never imported at runtime.
 ## Architecture Guardrail
 
 **Helix Architecture Law**
-`HSL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler`
+`Direct tool/script → Adapter → Toolkit → Artifact → Review/Compiler gate`
 
 * Operators orchestrate
 * Adapters translate

@@ -1,4 +1,4 @@
-﻿# HELIX GAMES SUBSTRATE SPECIFICATION
+# HELIX GAMES DOMAIN SPECIFICATION
 
 **Version:** 2.1
 **Status:** Authoritative target specification — implementation status tracked in README.md §11
@@ -8,7 +8,7 @@
 
 ## 1. DOMAIN SCOPE
 
-The Games Substrate operates on structured adversarial environments where agents make sequential decisions under uncertainty. Its unit of analysis is the game session: a bounded sequence of agent decisions and state transitions with measurable outcome.
+The Games domain operates on structured adversarial environments where agents make sequential decisions under uncertainty. Its unit of analysis is the game session: a bounded sequence of agent decisions and state transitions with measurable outcome.
 
 It does not simulate games or train agents. It extracts decision structure from existing replay logs and simulation outputs.
 
@@ -157,18 +157,17 @@ A violation is a `STRUCTURAL_FAILURE`.
 
 ---
 
-## 8. ENTRY / HSL INTEGRATION STATE
+## 8. ENTRY / RUNTIME INTEGRATION STATE
 
-**Target HIL orchestration**:
-```
-RUN operator:SCAN substrate:games
-RUN operator:ANALYZE entity:game.session:<id>
-PROBE invariant:decision_compression lab:games
-PROBE invariant:oscillator_locking lab:games
-ATLAS list domain:games
+**Target runtime orchestration**:
+```text
+run domain games ingestion / state reconstruction
+run decision-compression probe over game-session artifacts
+run oscillator-locking probe over game-session artifacts
+write reviewable artifacts for validation
 ```
 
-**Current**: Command syntax is defined. Runtime implementation not confirmed. Pipeline is a stub.
+**Current**: No confirmed direct runtime entry point. Pipeline remains a stub.
 
 ---
 

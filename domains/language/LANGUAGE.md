@@ -21,6 +21,10 @@ Fourth compression:
 
 > **A phrase is learned when it becomes a handle, not when it is recognized on a card.**
 
+Sixth compression:
+
+> **A reply is not one sentence when it may reopen an unknown social loop.**
+
 Fifth compression:
 
 > **Wikipedia prose is public compression under verification pressure.**
@@ -575,6 +579,18 @@ Best compression:
 > **A caption should explain why this image belongs here.**
 
 ---
+
+### 7.3 Text, Calls, and Bounded Communication
+
+Language use is not only grammar; it is also a communication channel. Text is preferred because it allows delay, editing, rereading, translation support, and control over timing. Calls fail more often because they seize the clock and remove preview.
+
+Important boundary:
+
+> Text remains low-cost only while it stays bounded. Rapid-fire back-and-forth, unknown follow-up questions, or emotional pressure can make texting function like a call.
+
+Best compression:
+
+> **Written language gives pacing control until the loop becomes unbounded.**
 
 ## 8. Register and Pragmatics
 
@@ -1154,7 +1170,7 @@ Compression:
 
 ### 20.2 Delay / response debt repair
 
-Very high practical importance.
+Very high practical importance. This should not imply constant guilt or a need to over-apologize. The higher-resolution pattern is that guilt may spike when the message is seen, but the structural issue is that replying can reopen an unknown reciprocal loop.
 
 Potential chunks:
 
@@ -1164,6 +1180,15 @@ no fue porque no quisiera hablar contigo
 a veces me cuesta responder rápido
 me dio ansiedad responder tarde
 quería contestarte bien
+```
+
+Boundary phrases that preserve connection without opening unlimited availability:
+
+```text
+Quiero responderte, pero a veces necesito tiempo para contestar.
+No siempre puedo responder rápido, pero no significa que no me importes.
+Prefiero mensajes tranquilos, sin presión para contestar al instante.
+Si tardo, no es rechazo. A veces solo necesito espacio.
 ```
 
 Purpose:
@@ -1217,6 +1242,21 @@ Compression:
 > **State language prevents silence from becoming mystery.**
 
 ---
+
+### 20.5 Low-contact continuity phrases
+
+These are useful for relationships where continuity matters more than constant contact.
+
+```text
+Me gusta estar conectado contigo, pero no necesito hablar todo el tiempo.
+Para mí, la confianza también significa poder estar en silencio sin perder la conexión.
+Me importas aunque a veces necesite mucho espacio.
+Prefiero una relación tranquila y constante, no mensajes todo el día.
+```
+
+Best compression:
+
+> **Relationship language should preserve continuity without promising constant availability.**
 
 ## 21. Japanese Source-Access Roadmap
 

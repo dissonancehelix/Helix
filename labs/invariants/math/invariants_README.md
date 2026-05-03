@@ -24,7 +24,7 @@ Every probe must:
 ## Architecture Guardrail
 
 **Helix Architecture Law**
-`HSL → Operator → Adapter → Toolkit → Artifact → Atlas Compiler`
+`Direct script/tool → Adapter → Toolkit → Artifact → Review/Compiler gate`
 
 * Operators orchestrate
 * Adapters translate

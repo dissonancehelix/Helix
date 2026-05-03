@@ -1,4 +1,4 @@
-# HELIX MATH PROBE FAMILY
+# HELIX INVARIANTS / MATH PROBE FAMILY
 
 **Version:** 1.3
 **Status:** Authoritative target specification — see §11 for current implementation status
@@ -8,7 +8,7 @@
 
 ## 1. PURPOSE
 
-The Math Probe Family provides deterministic, ground-truth validation of structural invariants. Because mathematical simulations have known inputs and verifiable outputs, the math probe family is the primary substrate for calibrating the shared cross-domain embedding and for establishing null baselines against which invariant candidates in other domains are measured.
+The Math Probe Family provides deterministic, ground-truth validation of structural invariants. Because mathematical simulations have known inputs and verifiable outputs, the math probe family is the primary lab surface for calibrating shared embeddings and establishing null baselines against which invariant candidates in other domains are measured.
 
 Scope: canonical simulations (Kuramoto, etc.), domain-local structural metric extraction, projection to the shared embedding format, and invariant candidate production. Not a general math library.
 
@@ -16,11 +16,11 @@ Scope: canonical simulations (Kuramoto, etc.), domain-local structural metric ex
 
 ## 2. ROLE WITHIN HELIX
 
-The substrate provides the **Validation and Formalization bridge** between Library input and Atlas output:
+The probe family provides the **validation and formalization bridge** between theory inputs, simulation outputs, and reviewable invariant candidates:
 
-- **Input**: Theoretical models and axioms (`codex/library/math/`)
+- **Input**: theoretical models, axioms, and lab notes
 - **Engine**: Runs simulations, extracts domain-local metrics, projects to shared embedding
-- **Output**: Invariant candidates → governance validation → Atlas (via compiler gate)
+- **Output**: invariant candidates → governance validation → review/atlas persistence gate
 
 ---
 
@@ -70,17 +70,17 @@ Governance Validation (core/engine/contract/validation/)
     ↓
 Compiler-Gated Atlas Persistence (core/compiler/)
     ↓
-Atlas (codex/atlas/math/)
+review/atlas persistence target
 ```
 
 ---
 
 ## 5. ENTRY POINT
 
-**Target**: HSL command (`DISCOVER math.kuramoto ...`)\
+**Target**: obsolete command-language layer command (`DISCOVER math.kuramoto ...`)\
 **Current**: Direct Python pipeline. `pipeline.py` is a stub. Math testing enters via simulation scripts and `e2e.py` directly.
 
-HSL integration is a known gap. No HSL route currently exists for the math probe family.
+obsolete command-language layer integration is a known gap. No obsolete command-language layer route currently exists for the math probe family.
 
 ---
 
@@ -137,9 +137,9 @@ The Kuramoto model is the current canonical simulation. It studies synchronizati
 | **Domain-local projection** | ✅ Implemented (`embedding/projection.py`, schema `math_v1`) |
 | **End-to-end candidate path** | ✅ Implemented (`e2e.py`) — produces compiler-ready payload |
 | **Domain runtime** | ⚠️ Partial — Kuramoto sim + extraction implemented; full pipeline stub only |
-| **HSL entry point** | ❌ Not yet implemented |
+| **Direct entry point** | ✅ `labs/invariants/e2e.py` |
 | **Atlas persistence** | ❌ Deferred — `e2e.py` produces candidate; enforce_persistence() not called |
-| **DCP probes (open problems)** | ✅ `core/probes/math/probes/` — Ramsey, abc/Mochizuki, prime gaps, P vs NP, 7 mystery probes |
+| **DCP probes (open problems)** | ✅ `labs/invariants/probes/` — Ramsey, abc/Mochizuki, prime gaps, P vs NP, 7 mystery probes |
 | **Regime transition evidence** | ✅ First confirmed in prime gaps (Zhang 2013, step_ratio=3.1×) |
 
 ---
@@ -157,7 +157,7 @@ The Kuramoto model is the current canonical simulation. It studies synchronizati
 | Domain validation harness (`validation/kuramoto_fixture.py`) | ✅ |
 | End-to-end candidate path (`e2e.py`) | ✅ |
 | Full pipeline (`pipeline.py`) | ⚠️ Stub — raises NotImplementedError |
-| HSL entry point | ❌ Not implemented |
+| Direct entry point | ✅ Implemented via `e2e.py` |
 | Multi-domain invariant promotion | ❌ Not implemented |
 | DCP metric calibration | ❌ Not calibrated against null baselines |
 | EIP/LIP (dissolved) | ✅ Reclassified as DCP trajectory modes — no separate probe needed |
@@ -167,7 +167,7 @@ The Kuramoto model is the current canonical simulation. It studies synchronizati
 ## 12. KNOWN GAPS
 
 - `pipeline.py` is a stub; no complete orchestration path exists
-- HSL does not route to the math domain
+- Full pipeline orchestration remains incomplete
 - Confidence threshold (0.30) is provisional; null-baseline calibration not performed
 - EIP, DCP, LIP principle metrics are structurally defined but not computationally validated
 - Atlas persistence is deferred; the e2e path produces a candidate but does not commit

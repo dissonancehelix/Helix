@@ -19,7 +19,7 @@ Location: core/tools/{name}/
 [Detail which Helix structural invariants this application applies to solve a problem]
 
 ------------------------------------------------------------
-3. USAGE & HSL COMMANDS
+3. USAGE & ENTRY POINTS
 ------------------------------------------------------------
 [How do operators interact with this application via the Helix Substrate Language?]
 

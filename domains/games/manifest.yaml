@@ -1,4 +1,4 @@
-﻿manifest_schema: manifest_schema_v1
+manifest_schema: manifest_schema_v1
 domain: games
 version: "2.1"
 status: stub
@@ -37,9 +37,8 @@ shared_embedding:
   confidence_calibration_status: not_applicable
 
 entry_point:
-  target: "HIL: RUN operator:SCAN substrate:games"
-  current: "domains/games/model/pipeline.py (partial stub)"
-  hsl_implemented: false
+  target: "direct game-analysis script or validation harness"
+  current: "domains/games/model/pipeline.py (partial stub)"
 
 runtime:
   pipeline: domains/games/model/pipeline.py
@@ -94,6 +93,6 @@ known_gaps:
   - No formal domain validation harness
   - Probe verification was through lab experiments, not domain harness
   - dataset path in old docs was labs/games/ — canonical path is domains/games/data/pipeline/
-  - No HSL/HIL implementation confirmed
+  - No direct runtime entry point confirmed
   - Atlas persistence not implemented
 

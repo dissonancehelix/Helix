@@ -1,4 +1,4 @@
-﻿manifest_schema: manifest_schema_v1
+manifest_schema: manifest_schema_v1
 tool: foobar
 version: "0.1"
 status: partial
@@ -138,14 +138,14 @@ research_corpus_support:
       franchise_filter: "Sonic"
       library_path: codex/library/music/album/sonic_3_knuckles/
       expected_tracks: 58
-      hsl_scripts:
-        - domains/music/model/hsl/s3k_full_pass.hsl
-        - domains/music/model/hsl/s3k_uncredited.hsl
-        - domains/music/model/hsl/s3k_exclusive.hsl
+      analysis_modes:
+        - full_pass
+        - uncredited_filter
+        - exclusive_filter
       run_via:
-        - "helix run domains/music/model/hsl/s3k_full_pass.hsl"
-        - "helix run domains/music/model/hsl/s3k_uncredited.hsl"
-        - "helix run domains/music/model/hsl/s3k_exclusive.hsl"
+        - "python -m domains.music.labs.probes.s3k_analysis --mode full"
+        - "python -m domains.music.labs.probes.s3k_analysis --mode uncredited"
+        - "python -m domains.music.labs.probes.s3k_analysis --mode exclusive"
 
 patch_model:
   v0_allowed:
@@ -166,7 +166,7 @@ known_gaps:
   - metadb.sqlite full schema not yet fully mapped (playcount/loved bit offsets vary)
   - Codex TrackDB may not have total_tracks / total_discs columns in all versions
   - stats_drift detection requires accurate metadb.sqlite → TrackDB playcount bridge
-  - HSL execution from within the tool not yet wired (runner delegates to `helix run`)
+  - Direct analysis execution from within the tool not yet wired
   - codex_field_patch and codex_loved_sync are planned, not yet applied automatically
   - Full end-to-end test against live library not yet run
 
