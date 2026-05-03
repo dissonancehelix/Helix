@@ -213,7 +213,7 @@ Core question:
 
 > **What should remain so this object expresses its proper form?**
 
-**Investigative Compression** operates when the target shape is unknown, underdetermined, or hidden by false positives. It sharpens the question, eliminates false substitutes, tests boundaries, collapses bad explanations, and narrows possibility space. TOM/ICT/DCP reports, consciousness false-positive elimination, report vs ownership, memory vs continuity, integration vs ownership, information persistence vs owned continuity, and music response-axis discovery belong here.
+**Investigative Compression** operates when the target shape is unknown, underdetermined, or hidden by false positives. It sharpens the question, eliminates false substitutes, tests boundaries, collapses bad explanations, and narrows possibility space. AOC/OCH/DCP reports, consciousness false-positive elimination, report vs ownership, memory vs continuity, integration vs ownership, information persistence vs owned continuity, and music response-axis discovery belong here.
 
 Core question:
 
@@ -626,7 +626,7 @@ known or strongly implied target -> curatorial compression -> repaired object
 unknown or hidden target -> investigative compression -> harder-to-fake question
 ```
 
-This explains why wiki/refactor work and consciousness/theory work feel related but not identical. Wiki, templates, source cleanup, and repo consolidation often repair an object toward an available public or structural grammar. TOM/ICT/DCP reports instead narrow uncertainty by rejecting false substitutes: report is not ownership, memory is not continuity, information persistence is not owner survival, and integration is not appearance-from-within.
+This explains why wiki/refactor work and consciousness/theory work feel related but not identical. Wiki, templates, source cleanup, and repo consolidation often repair an object toward an available public or structural grammar. AOC/OCH/DCP reports instead narrow uncertainty by rejecting false substitutes: report is not ownership, memory is not continuity, information persistence is not owner survival, and integration is not appearance-from-within.
 
 Best compression:
 
@@ -1030,11 +1030,11 @@ possibility field
 → future state-space changed
 ```
 
-In this frame, DCP does not answer why there is appearance-from-within. It asks how a system compresses many possible futures into one committed path. ICT then asks whether that committed path is owned from within.
+In this frame, DCP does not answer why there is appearance-from-within. It asks how a system compresses many possible futures into one committed path. OCH then asks whether that committed path is owned from within.
 
 Best compression:
 
-> **ICT asks what must continue; DCP asks how continuation becomes committed.**
+> **OCH asks what must continue; DCP asks how continuation becomes committed.**
 
 Second compression:
 

@@ -77,10 +77,9 @@ review/atlas persistence target
 
 ## 5. ENTRY POINT
 
-**Target**: obsolete command-language layer command (`DISCOVER math.kuramoto ...`)\
-**Current**: Direct Python pipeline. `pipeline.py` is a stub. Math testing enters via simulation scripts and `e2e.py` directly.
+**Current**: Direct Python pipeline. Math testing enters via `labs/invariants/e2e.py`, simulation scripts, and the domain validation harness.
 
-obsolete command-language layer integration is a known gap. No obsolete command-language layer route currently exists for the math probe family.
+`pipeline.py` remains a stub and should not be documented as the active orchestration path. The former command-style route has been removed; future entry points should be explicit scripts, tool registry entries, or agent-invoked workflows.
 
 ---
 

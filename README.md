@@ -6,6 +6,8 @@ Helix is the shared working body for the operator and LLM: map, evidence,
 tools, tests, reports, archives, domain rooms, and trust gates arranged by the
 same grammar as `DISSONANCE.md`.
 
+Helix began as drift prevention and mental-friction reduction, but its current role is broader: a cognitive workspace for research, pattern detection, domain testing, externalized memory, and human-LLM collaboration.
+
 `DISSONANCE.md` is the portable person-pattern. This `README.md` is the
 workspace constitution.
 
@@ -20,10 +22,6 @@ Second compression:
 Third compression:
 
 > **The repo should be navigable by file exploration, not by psychic debugging.**
-
-Fourth compression:
-
-> **Helix is a cognitive workspace for research, organization, pattern detection, domain testing, external app/data integration, and human–LLM collaboration; friction reduction is the origin pressure, not the whole purpose.**
 
 ## Root Layout
 
@@ -312,12 +310,11 @@ Second compression:
 
 > **I care by making the field returnable.**
 
-## Direct Session Updates And Lineage Passes
+## Direct Session Patches And Lineage Passes
 
-Some high-value AI sessions become evidence sources in their own right.
+Some high-value AI sessions become evidence sources in their own right. They do not require a mandatory intermediate report before the map can be updated.
 
-Claude Desktop, Claude Code, ChatGPT, Codex, and other agent sessions can patch
-documents directly when they contain clear, domain-owned updates:
+Claude Desktop, Claude Code, ChatGPT, Codex, and other agent sessions may directly patch touched files when they contain:
 
 - direct operator corrections,
 - strong compression lines,
@@ -328,24 +325,23 @@ documents directly when they contain clear, domain-owned updates:
 - examples that would otherwise be lost,
 - candidate global patterns.
 
-A separate review report is optional, not mandatory. Use one only when the target
-patch is unclear, the evidence touches too many rooms at once, or the operator
-asks for a staged review.
-
-A no-strand-left-standing pass is allowed after a strong lineage session, but it
-must remain gated:
+Direct patch flow:
 
 ```text
-live session evidence
+live session
 → identify touched domains
-→ update only touched domains
-→ sync README/AGENTS if agent rules changed
+→ update only touched files
+→ sync README/AGENTS if operating rules changed
 → avoid forced updates to unrelated rooms
 ```
 
+Reports remain useful when uncertainty, evidence sorting, cross-domain promotion, or review risk needs a separate room. They are optional review artifacts, not required ceremony.
+
+A no-strand-left-standing pass is allowed after a strong lineage session, but it must remain gated: no relevant strand should be left unexamined, and no unrelated strand should be updated just because the session felt important.
+
 Best compression:
 
-> **Patch clear evidence directly; use reports only when uncertainty needs an airlock.**
+> **Patch the clear correction; report only when uncertainty needs its own room.**
 
 Second compression:
 
@@ -357,8 +353,9 @@ Second compression:
 `labs/` is for pressure tests that cross domains or test master claims. A lab
 must be able to weaken a claim.
 
-`labs/temporal_ownership/` is the special future/cross-domain lab for
-Temporal Ownership Model, ICT, DCP, LIP, EIP, consciousness, and owned-continuity work.
+`labs/appearance_ownership_continuity/` is the special cross-domain lab for
+the Appearance–Ownership–Continuity Framework (AOC), Owned Continuity Hypothesis
+(OCH), DCP, LIP, EIP, consciousness, and owned-continuity work.
 
 `archive/` preserves local-only substantial raw provenance grouped by evidence
 type. Heavy datasets, images, hard-to-reproduce exports, and not-yet-ingested
