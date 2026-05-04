@@ -19,7 +19,8 @@ domains/*/tools/toolkits/**
 domains/*/tools/*/toolkits/**
 !domains/*/tools/*/toolkits/
 !domains/*/tools/*/toolkits/README.md
-domains/music/tools/spatial_dsp/dist_new/
+# spatial_dsp is its own repo (github.com/dissonancehelix/spatial-dsp).
+domains/music/tools/spatial_dsp/
 
 # Heavy domain-local data, caches, and generated pipeline outputs.
 domains/music/data/library/catalog/
@@ -96,7 +97,7 @@ domains/*/tools/toolkits/**
 domains/*/tools/*/toolkits/**
 !domains/*/tools/*/toolkits/
 !domains/*/tools/*/toolkits/README.md
-domains/music/tools/spatial_dsp/dist_new/
+domains/music/tools/spatial_dsp/
 domains/music/data/library/catalog/
 domains/music/data/library/phase6/
 domains/music/data/library/metadata/lastfmstats-*.json

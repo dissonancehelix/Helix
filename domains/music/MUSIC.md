@@ -2338,7 +2338,7 @@ Current playback interests:
 - metadata and library structure
 - ListenBrainz / Last.fm
 - VGM/VGZ/SPC/PSF and emulated formats
-- Prism for VGM/SPC enhancement
+- Spatial DSP for stereo-to-7.1 spatial rendering
 - HeSuVi / HRIR spatial chain
 - Real3D Surround Upmixer / Helix DSP component
 - FreeSurround/7.1 upmixing ideas

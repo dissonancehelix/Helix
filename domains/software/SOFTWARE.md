@@ -921,7 +921,7 @@ It supports:
 Current or desired audio/software anchors:
 
 - foobar2000
-- Prism
+- Spatial DSP
 - HeSuVi
 - DTS Virtual X HRIR
 - Real3D Surround Upmixer renamed/repurposed as Helix
